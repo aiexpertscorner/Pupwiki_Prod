@@ -1,4 +1,5 @@
 ---
+
 title: "Norwegian Buhund Grooming Guide: brushes and shampoo for Norwegian Buhund"
 description: "A breed-aware Norwegian Buhund grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "norwegian-buhund", "Norwegian Buhund", 
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/norwegian-buhund", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/8498540/pexels-photo-8498540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498540/pexels-photo-8498540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy dog getting a grooming session with a hairdryer by its owner at home."
+imageAlt: "A fluffy dog getting a grooming session with a hairdryer by its owner at home."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-drying-her-dog-8498540/"
+imageSearchQuery: "Norwegian Buhund dog grooming"
 ---
+
 
 Norwegian Buhunds have a **double coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Norwegian Buhund grooming mistake: using the wrong tool for the coat type. FURminator or Undercoat Rake — standard brushes don't reach the undercoat — anything else is ineffective or damaging.

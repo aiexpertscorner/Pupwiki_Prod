@@ -1,4 +1,5 @@
 ---
+
 title: "Pug Grooming Shopping Guide"
 description: "A breed-aware Pug grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "pug", "Pug", "small", "regular", "easy"
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/pug", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/32151207/pexels-photo-32151207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32151207/pexels-photo-32151207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming pug dog with a wrinkled face posing outdoors, showcasing its adorable features."
+imageAlt: "Charming pug dog with a wrinkled face posing outdoors, showcasing its adorable features."
+imageSource: "pexels"
+imageCredit: "Photo by Rajesh S  Balouria on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-pug-dog-posing-outdoors-32151207/"
+imageSearchQuery: "Pug dog grooming"
 ---
+
 
 Pugs have a **short coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Pug grooming mistake: using the wrong tool for the coat type. Rubber curry brush or grooming glove — loosens dead hair without scratching — anything else is ineffective or damaging.

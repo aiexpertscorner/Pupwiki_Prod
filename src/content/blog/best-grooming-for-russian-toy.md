@@ -1,4 +1,5 @@
 ---
+
 title: "Russian Toy Grooming Shopping Guide"
 description: "A breed-aware Russian Toy grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "russian-toy", "Russian Toy", "small", "
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/russian-toy", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/10594773/pexels-photo-10594773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10594773/pexels-photo-10594773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Russian Toy dog with long ears lying comfortably indoors."
+imageAlt: "Close-up of a Russian Toy dog with long ears lying comfortably indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-brown-dog-10594773/"
+imageSearchQuery: "Russian Toy dog grooming"
 ---
+
 
 Russian Toys have a **short coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Russian Toy grooming mistake: using the wrong tool for the coat type. Rubber curry brush or grooming glove — loosens dead hair without scratching — anything else is ineffective or damaging.

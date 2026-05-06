@@ -1,4 +1,5 @@
 ---
+
 title: "Lapponian Herder Grooming Routine and Tool Shortlist"
 description: "A breed-aware Lapponian Herder grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "lapponian-herder", "Lapponian Herder", 
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/lapponian-herder", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A pet groomer trims a dog's fur on a grooming table in a professional salon setting."
+imageAlt: "A pet groomer trims a dog's fur on a grooming table in a professional salon setting."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/"
+imageSearchQuery: "Lapponian Herder dog grooming"
 ---
+
 
 Lapponian Herders have a **double coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Lapponian Herder grooming mistake: using the wrong tool for the coat type. FURminator or Undercoat Rake — standard brushes don't reach the undercoat — anything else is ineffective or damaging.

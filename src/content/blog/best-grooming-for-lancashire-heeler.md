@@ -1,4 +1,5 @@
 ---
+
 title: "Best Lancashire Heeler Grooming Tools for Double Coats"
 description: "A breed-aware Lancashire Heeler grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "lancashire-heeler", "Lancashire Heeler"
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/lancashire-heeler", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/6633910/pexels-photo-6633910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6633910/pexels-photo-6633910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Lancashire Heeler dog playing with a ball on snow-covered ground during winter."
+imageAlt: "Lancashire Heeler dog playing with a ball on snow-covered ground during winter."
+imageSource: "pexels"
+imageCredit: "Photo by www.kaboompics.com on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-playing-with-a-ballon-snow-covered-ground-6633910/"
+imageSearchQuery: "Lancashire Heeler dog grooming"
 ---
+
 
 Lancashire Heelers have a **double coat** that requires occasional bath/brush. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Lancashire Heeler grooming mistake: using the wrong tool for the coat type. FURminator or Undercoat Rake — standard brushes don't reach the undercoat — anything else is ineffective or damaging.

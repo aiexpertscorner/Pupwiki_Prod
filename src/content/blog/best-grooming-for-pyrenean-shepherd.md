@@ -1,4 +1,5 @@
 ---
+
 title: "Pyrenean Shepherd Grooming Guide by Coat Type"
 description: "A breed-aware Pyrenean Shepherd grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "pyrenean-shepherd", "Pyrenean Shepherd"
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/pyrenean-shepherd", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cozy indoor scene of a person grooming a large fluffy dog using a brush."
+imageAlt: "A cozy indoor scene of a person grooming a large fluffy dog using a brush."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-brushing-the-dog-s-fur-8498543/"
+imageSearchQuery: "Pyrenean Shepherd dog grooming"
 ---
+
 
 Pyrenean Shepherds have a **long coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Pyrenean Shepherd grooming mistake: using the wrong tool for the coat type. Slicker brush + detangling spray + metal comb — all three needed — anything else is ineffective or damaging.

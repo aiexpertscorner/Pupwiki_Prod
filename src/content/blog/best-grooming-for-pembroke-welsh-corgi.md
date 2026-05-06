@@ -1,4 +1,5 @@
 ---
+
 title: "Pembroke Welsh Corgi Coat Care Guide for Double Fur"
 description: "Shortlist Pembroke Welsh Corgi grooming products with coat care, double fur, handling, and cleanup in view."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "pembroke-welsh-corgi", "Pembroke Welsh 
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/pembroke-welsh-corgi", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/20368062/pexels-photo-20368062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20368062/pexels-photo-20368062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a Pembroke Welsh Corgi dog lounging comfortably indoors with a cozy expression."
+imageAlt: "Portrait of a Pembroke Welsh Corgi dog lounging comfortably indoors with a cozy expression."
+imageSource: "pexels"
+imageCredit: "Photo by Marina Zvada on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/head-of-pembroke-welsh-corgi-20368062/"
+imageSearchQuery: "Pembroke Welsh Corgi dog grooming"
 ---
+
 
 Pembroke Welsh Corgis have a **double coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Pembroke Welsh Corgi grooming mistake: using the wrong tool for the coat type. FURminator or Undercoat Rake — standard brushes don't reach the undercoat — anything else is ineffective or damaging.

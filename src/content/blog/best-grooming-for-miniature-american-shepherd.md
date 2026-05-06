@@ -1,4 +1,5 @@
 ---
+
 title: "Miniature American Shepherd Bathing, Brushing, and Nail Care Guide"
 description: "Compare grooming tools for Miniature American Shepherd dogs by long coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "miniature-american-shepherd", "Miniatur
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/miniature-american-shepherd", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/32854630/pexels-photo-32854630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32854630/pexels-photo-32854630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Detailed close-up of an attentive Australian Shepherd dog outdoors."
+imageAlt: "Detailed close-up of an attentive Australian Shepherd dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by DΛVΞ GΛRCIΛ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-an-australian-shepherd-dog-32854630/"
+imageSearchQuery: "Miniature American Shepherd dog grooming"
 ---
+
 
 Miniature American Shepherds have a **long coat** that requires daily brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Miniature American Shepherd grooming mistake: using the wrong tool for the coat type. Slicker brush + detangling spray + metal comb — all three needed — anything else is ineffective or damaging.

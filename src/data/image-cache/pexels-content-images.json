@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-06T23:04:08.371Z",
+  "syncedAt": "2026-05-06T23:45:40.758Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -6400,12 +6400,652 @@
       "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
       "pexelsUrl": "https://www.pexels.com/photo/woman-grooming-a-yorkshire-terrier-6131578/",
       "id": 6131578
+    },
+    "best-grooming-for-japanese-chin:Japanese Chin dog grooming": {
+      "url": "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/",
+      "id": 19145876
+    },
+    "best-grooming-for-japanese-spitz:Japanese Spitz dog grooming": {
+      "url": "https://images.pexels.com/photos/37105501/pexels-photo-37105501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming fluffy white dog lounging on a comfortable brown leather couch with soft natural lighting.",
+      "photographer": "Tomal Bhattacharjee",
+      "photographerUrl": "https://www.pexels.com/@tomalbhattacharjee",
+      "pexelsUrl": "https://www.pexels.com/photo/fluffy-white-dog-relaxing-on-a-leather-couch-37105501/",
+      "id": 37105501
+    },
+    "best-grooming-for-jindo:Jindo dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-kai-ken:Kai Ken dog grooming": {
+      "url": "https://images.pexels.com/photos/16264607/pexels-photo-16264607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Shiba Inu dog getting its claws painted in a pet grooming salon, emphasizing luxury pet care.",
+      "photographer": "Aliaksei Smalenski",
+      "photographerUrl": "https://www.pexels.com/@aksakal",
+      "pexelsUrl": "https://www.pexels.com/photo/shiba-inu-dog-an-appointment-at-the-beautician-in-a-beauty-salon-close-up-16264607/",
+      "id": 16264607
+    },
+    "best-grooming-for-karelian-bear-dog:Karelian Bear Dog dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-keeshond:Keeshond dog grooming": {
+      "url": "https://images.pexels.com/photos/29352234/pexels-photo-29352234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy black dog sits amidst colorful autumn leaves in a park setting.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/fluffy-black-dog-sitting-on-autumn-leaves-29352234/",
+      "id": 29352234
+    },
+    "best-grooming-for-kerry-blue-terrier:Kerry Blue Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A female pet groomer trims a terrier dog's fur in an indoor grooming salon.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/",
+      "id": 6131568
+    },
+    "best-grooming-for-kishu-ken:Kishu Ken dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-komondor:Komondor dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-kromfohrlander:Kromfohrlander dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-kuvasz:Kuvasz dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-labrador-retriever:Labrador Retriever dog grooming": {
+      "url": "https://images.pexels.com/photos/11106504/pexels-photo-11106504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Golden Retriever dog lying on lush green grass with tongue out, showcasing its playful and relaxed nature.",
+      "photographer": "Barnabas Davoti",
+      "photographerUrl": "https://www.pexels.com/@barnabas-davoti-31615494",
+      "pexelsUrl": "https://www.pexels.com/photo/golden-retriever-lying-on-green-grass-field-11106504/",
+      "id": 11106504
+    },
+    "best-grooming-for-lagotto-romagnolo:Lagotto Romagnolo dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-lakeland-terrier:Lakeland Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A female pet groomer trims a terrier dog's fur in an indoor grooming salon.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/",
+      "id": 6131568
+    },
+    "best-grooming-for-lancashire-heeler:Lancashire Heeler dog grooming": {
+      "url": "https://images.pexels.com/photos/6633910/pexels-photo-6633910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Lancashire Heeler dog playing with a ball on snow-covered ground during winter.",
+      "photographer": "www.kaboompics.com",
+      "photographerUrl": "https://www.pexels.com/@karola-g",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-playing-with-a-ballon-snow-covered-ground-6633910/",
+      "id": 6633910
+    },
+    "best-grooming-for-lapponian-herder:Lapponian Herder dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-leonberger:Leonberger dog grooming": {
+      "url": "https://images.pexels.com/photos/19145880/pexels-photo-19145880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Professional dog grooming with scissors focusing on leg trimming indoors.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-hand-trimming-dog-19145880/",
+      "id": 19145880
+    },
+    "best-grooming-for-lhasa-apso:Lhasa Apso dog grooming": {
+      "url": "https://images.pexels.com/photos/13035238/pexels-photo-13035238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute Shih Tzu dog with long fur stands in lush green grass, looking attentively.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-shih-tzu-dog-on-green-grass-13035238/",
+      "id": 13035238
+    },
+    "best-grooming-for-lwchen:Löwchen dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-maltese:Maltese dog grooming": {
+      "url": "https://images.pexels.com/photos/26201108/pexels-photo-26201108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of a white Bichon Frise dog, highlighting its fluffy fur in an indoor environment.",
+      "photographer": "Doğan Alpaslan  Demir",
+      "photographerUrl": "https://www.pexels.com/@izafi",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-sitting-down-26201108/",
+      "id": 26201108
+    },
+    "best-grooming-for-manchester-terrier-standard:Manchester Terrier (Standard) dog grooming": {
+      "url": "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A female pet groomer trims a terrier dog's fur in an indoor grooming salon.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/",
+      "id": 6131568
+    },
+    "best-grooming-for-manchester-terrier-toy:Manchester Terrier (Toy) dog grooming": {
+      "url": "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Yorkshire Terrier puppy resting indoors with a toy dog figurine nearby.",
+      "photographer": "Erwin Bosman",
+      "photographerUrl": "https://www.pexels.com/@erwin-bosman-118283",
+      "pexelsUrl": "https://www.pexels.com/photo/yorkshire-terrier-with-toy-indoors-portrait-34232518/",
+      "id": 34232518
+    },
+    "best-grooming-for-mastiff:Mastiff dog grooming": {
+      "url": "https://images.pexels.com/photos/34315/bordeaux-mastiff-dog-animal.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A French Bulldog enjoying a spring day in a green grassy field.",
+      "photographer": "Pixabay",
+      "photographerUrl": "https://www.pexels.com/@pixabay",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-short-haired-dog-on-green-ground-cover-plants-during-daytime-34315/",
+      "id": 34315
+    },
+    "best-grooming-for-miniature-american-shepherd:Miniature American Shepherd dog grooming": {
+      "url": "https://images.pexels.com/photos/32854630/pexels-photo-32854630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Detailed close-up of an attentive Australian Shepherd dog outdoors.",
+      "photographer": "DΛVΞ GΛRCIΛ",
+      "photographerUrl": "https://www.pexels.com/@davegarcia",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-an-australian-shepherd-dog-32854630/",
+      "id": 32854630
+    },
+    "best-grooming-for-miniature-bull-terrier:Miniature Bull Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/15264143/pexels-photo-15264143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A bull terrier dog comfortably lounging on a blue folding camping chair in a sunny outdoor setting.",
+      "photographer": "Vitali Adutskevich",
+      "photographerUrl": "https://www.pexels.com/@vadutskevich",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-lying-in-a-chair-15264143/",
+      "id": 15264143
+    },
+    "best-grooming-for-miniature-pinscher:Miniature Pinscher dog grooming": {
+      "url": "https://images.pexels.com/photos/11654885/pexels-photo-11654885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute Miniature Pinscher dog sitting among autumn leaves outdoors.",
+      "photographer": "adrian vieriu",
+      "photographerUrl": "https://www.pexels.com/@printexstar",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-11654885/",
+      "id": 11654885
+    },
+    "best-grooming-for-miniature-schnauzer:Miniature Schnauzer dog grooming": {
+      "url": "https://images.pexels.com/photos/3655387/pexels-photo-3655387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Smiling Schnauzer dog laying on a soft rug, showcasing happiness indoors.",
+      "photographer": "Sebastian Coman Travel",
+      "photographerUrl": "https://www.pexels.com/@sebcomantravel",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-schnauzer-3655387/",
+      "id": 3655387
+    },
+    "best-grooming-for-mountain-cur:Mountain Cur dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-mudi:Mudi dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-neapolitan-mastiff:Neapolitan Mastiff dog grooming": {
+      "url": "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-being-brushed-19145894/",
+      "id": 19145894
+    },
+    "best-grooming-for-nederlandse-kooikerhondje:Nederlandse Kooikerhondje dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-newfoundland:Newfoundland dog grooming": {
+      "url": "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-being-brushed-19145894/",
+      "id": 19145894
+    },
+    "best-grooming-for-norfolk-terrier:Norfolk Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A female pet groomer trims a terrier dog's fur in an indoor grooming salon.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/",
+      "id": 6131568
+    },
+    "best-grooming-for-norrbottenspets:Norrbottenspets dog grooming": {
+      "url": "https://images.pexels.com/photos/9360433/pexels-photo-9360433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Pomeranian dog freshly groomed on a pink grooming table indoors, looking happy and playful.",
+      "photographer": "Nguyễn Viết Lễ",
+      "photographerUrl": "https://www.pexels.com/@nguy-n-vi-t-l-85165636",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-pomeranian-dog-on-pink-table-9360433/",
+      "id": 9360433
+    },
+    "best-grooming-for-norwegian-buhund:Norwegian Buhund dog grooming": {
+      "url": "https://images.pexels.com/photos/8498540/pexels-photo-8498540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy dog getting a grooming session with a hairdryer by its owner at home.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-drying-her-dog-8498540/",
+      "id": 8498540
+    },
+    "best-grooming-for-norwegian-elkhound:Norwegian Elkhound dog grooming": {
+      "url": "https://images.pexels.com/photos/4148864/pexels-photo-4148864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A woman grooming her fluffy dog outdoors in a sunlit field, showcasing pet care and affection.",
+      "photographer": "Gustavo Fring",
+      "photographerUrl": "https://www.pexels.com/@gustavo-fring",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-woman-brushing-her-dog-4148864/",
+      "id": 4148864
+    },
+    "best-grooming-for-norwegian-lundehund:Norwegian Lundehund dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-norwich-terrier:Norwich Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/7210443/pexels-photo-7210443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "From above adorable Norwich Terrier dog with tongue out walking on asphalt path and looking away on sunny day",
+      "photographer": "Blue Bird",
+      "photographerUrl": "https://www.pexels.com/@blue-bird",
+      "pexelsUrl": "https://www.pexels.com/photo/cute-dog-walking-on-asphalt-road-7210443/",
+      "id": 7210443
+    },
+    "best-grooming-for-nova-scotia-duck-tolling-retriever:Nova Scotia Duck Tolling Retriever dog grooming": {
+      "url": "https://images.pexels.com/photos/19145880/pexels-photo-19145880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Professional dog grooming with scissors focusing on leg trimming indoors.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-hand-trimming-dog-19145880/",
+      "id": 19145880
+    },
+    "best-grooming-for-old-english-sheepdog:Old English Sheepdog dog grooming": {
+      "url": "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-yellow-background-16622613/",
+      "id": 16622613
+    },
+    "best-grooming-for-otterhound:Otterhound dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-papillon:Papillon dog grooming": {
+      "url": "https://images.pexels.com/photos/7210606/pexels-photo-7210606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Full body happy cute Papillon dog with fluffy white and brown fur standing with tongue out on rural roadway in sunny countryside and looking away with curiosity",
+      "photographer": "Blue Bird",
+      "photographerUrl": "https://www.pexels.com/@blue-bird",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-papillon-dog-standing-on-rural-road-in-sunny-nature-7210606/",
+      "id": 7210606
+    },
+    "best-grooming-for-parson-russell-terrier:Parson Russell Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/16478797/pexels-photo-16478797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable small dog standing on a snowy road in Jönköping, Sweden during winter.",
+      "photographer": "Efrem  Efre",
+      "photographerUrl": "https://www.pexels.com/@efrem-efre-2786187",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-road-in-snow-16478797/",
+      "id": 16478797
+    },
+    "best-grooming-for-pekingese:Pekingese dog grooming": {
+      "url": "https://images.pexels.com/photos/16337777/pexels-photo-16337777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black Pekingese dog lies on a sunlit stone pavement, casting a shadow.",
+      "photographer": "Irina Solianyk",
+      "photographerUrl": "https://www.pexels.com/@irina-solianyk-102495749",
+      "pexelsUrl": "https://www.pexels.com/photo/cute-dog-lying-on-ground-16337777/",
+      "id": 16337777
+    },
+    "best-grooming-for-pembroke-welsh-corgi:Pembroke Welsh Corgi dog grooming": {
+      "url": "https://images.pexels.com/photos/20368062/pexels-photo-20368062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a Pembroke Welsh Corgi dog lounging comfortably indoors with a cozy expression.",
+      "photographer": "Marina Zvada",
+      "photographerUrl": "https://www.pexels.com/@marina-zvada-844583049",
+      "pexelsUrl": "https://www.pexels.com/photo/head-of-pembroke-welsh-corgi-20368062/",
+      "id": 20368062
+    },
+    "best-grooming-for-perro-de-presa-canario:Perro de Presa Canario dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-peruvian-inca-orchid:Peruvian Inca Orchid dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-petit-basset-griffon-venden:Petit Basset Griffon Vendéen dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-pharaoh-hound:Pharaoh Hound dog grooming": {
+      "url": "https://images.pexels.com/photos/19145880/pexels-photo-19145880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Professional dog grooming with scissors focusing on leg trimming indoors.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-hand-trimming-dog-19145880/",
+      "id": 19145880
+    },
+    "best-grooming-for-plott-hound:Plott Hound dog grooming": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "best-grooming-for-pointer:Pointer dog grooming": {
+      "url": "https://images.pexels.com/photos/11269657/pexels-photo-11269657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A German Shorthaired Pointer dog rests on a sandy surface outdoors, showing its distinctive coat and relaxed posture.",
+      "photographer": "gabesdotphotos photographer",
+      "photographerUrl": "https://www.pexels.com/@gabesphotos",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-dog-lying-on-brown-sand-11269657/",
+      "id": 11269657
+    },
+    "best-grooming-for-polish-lowland-sheepdog:Polish Lowland Sheepdog dog grooming": {
+      "url": "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cozy indoor scene of a person grooming a large fluffy dog using a brush.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-the-dog-s-fur-8498543/",
+      "id": 8498543
+    },
+    "best-grooming-for-pomeranian:Pomeranian dog grooming": {
+      "url": "https://images.pexels.com/photos/9360433/pexels-photo-9360433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Pomeranian dog freshly groomed on a pink grooming table indoors, looking happy and playful.",
+      "photographer": "Nguyễn Viết Lễ",
+      "photographerUrl": "https://www.pexels.com/@nguy-n-vi-t-l-85165636",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-pomeranian-dog-on-pink-table-9360433/",
+      "id": 9360433
+    },
+    "best-grooming-for-poodle-miniature:Poodle (Miniature) dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-poodle-standard:Poodle (Standard) dog grooming": {
+      "url": "https://images.pexels.com/photos/35276199/pexels-photo-35276199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Beautiful black poodle dog with curly fur sitting on a green lawn in a garden.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/black-poodle-sitting-in-green-garden-outdoors-35276199/",
+      "id": 35276199
+    },
+    "best-grooming-for-poodle-toy:Poodle (Toy) dog grooming": {
+      "url": "https://images.pexels.com/photos/19145875/pexels-photo-19145875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer sprays a poodle during a grooming session indoors.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/poodle-while-professional-grooming-19145875/",
+      "id": 19145875
+    },
+    "best-grooming-for-porcelaine:Porcelaine dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-portuguese-podengo-pequeno:Portuguese Podengo Pequeno dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-portuguese-podengo:Portuguese Podengo dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-portuguese-pointer:Portuguese Pointer dog grooming": {
+      "url": "https://images.pexels.com/photos/19145880/pexels-photo-19145880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Professional dog grooming with scissors focusing on leg trimming indoors.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-hand-trimming-dog-19145880/",
+      "id": 19145880
+    },
+    "best-grooming-for-portuguese-sheepdog:Portuguese Sheepdog dog grooming": {
+      "url": "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cozy indoor scene of a person grooming a large fluffy dog using a brush.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-the-dog-s-fur-8498543/",
+      "id": 8498543
+    },
+    "best-grooming-for-portuguese-water-dog:Portuguese Water Dog dog grooming": {
+      "url": "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-being-brushed-19145894/",
+      "id": 19145894
+    },
+    "best-grooming-for-pudelpointer:Pudelpointer dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-pug:Pug dog grooming": {
+      "url": "https://images.pexels.com/photos/32151207/pexels-photo-32151207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming pug dog with a wrinkled face posing outdoors, showcasing its adorable features.",
+      "photographer": "Rajesh S  Balouria",
+      "photographerUrl": "https://www.pexels.com/@rajesh-s-balouria-1289088",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-pug-dog-posing-outdoors-32151207/",
+      "id": 32151207
+    },
+    "best-grooming-for-puli:Puli dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-pumi:Pumi dog grooming": {
+      "url": "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-being-brushed-19145894/",
+      "id": 19145894
+    },
+    "best-grooming-for-pyrenean-mastiff:Pyrenean Mastiff dog grooming": {
+      "url": "https://images.pexels.com/photos/30434990/pexels-photo-30434990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A large fluffy dog basks in the sunlight against a clear blue sky.",
+      "photographer": "Gioele Gatto",
+      "photographerUrl": "https://www.pexels.com/@gioele-gatto-619355282",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-fluffy-dog-against-blue-sky-30434990/",
+      "id": 30434990
+    },
+    "best-grooming-for-pyrenean-shepherd:Pyrenean Shepherd dog grooming": {
+      "url": "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cozy indoor scene of a person grooming a large fluffy dog using a brush.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-the-dog-s-fur-8498543/",
+      "id": 8498543
+    },
+    "best-grooming-for-rafeiro-do-alentejo:Rafeiro do Alentejo dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-rat-terrier:Rat Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A female pet groomer trims a terrier dog's fur in an indoor grooming salon.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/",
+      "id": 6131568
+    },
+    "best-grooming-for-redbone-coonhound:Redbone Coonhound dog grooming": {
+      "url": "https://images.pexels.com/photos/19145880/pexels-photo-19145880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Professional dog grooming with scissors focusing on leg trimming indoors.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-hand-trimming-dog-19145880/",
+      "id": 19145880
+    },
+    "best-grooming-for-rhodesian-ridgeback:Rhodesian Ridgeback dog grooming": {
+      "url": "https://images.pexels.com/photos/5389345/pexels-photo-5389345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of two Rhodesian Ridgeback dogs outdoors, showcasing their attentive expression.",
+      "photographer": "Ilo Frey",
+      "photographerUrl": "https://www.pexels.com/@couleur",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-dogs-on-green-grass-field-5389345/",
+      "id": 5389345
+    },
+    "best-grooming-for-romanian-mioritic-shepherd-dog:Romanian Mioritic Shepherd Dog dog grooming": {
+      "url": "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cozy indoor scene of a person grooming a large fluffy dog using a brush.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-the-dog-s-fur-8498543/",
+      "id": 8498543
+    },
+    "best-grooming-for-rottweiler:Rottweiler dog grooming": {
+      "url": "https://images.pexels.com/photos/4390792/pexels-photo-4390792.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Pedigree Rottweiler dog with tongue out lying on sandy ground near black fence in sunny day and looking away",
+      "photographer": "Vova Kras",
+      "photographerUrl": "https://www.pexels.com/@vovaflame",
+      "pexelsUrl": "https://www.pexels.com/photo/rottweiler-dog-lying-near-black-fence-4390792/",
+      "id": 4390792
+    },
+    "best-grooming-for-russell-terrier:Russell Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/27998957/pexels-photo-27998957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Jack Russell Terrier dog portrait with charming expression in Belgrade, Serbia.",
+      "photographer": "Vladimir Petrovic",
+      "photographerUrl": "https://www.pexels.com/@8fonk",
+      "pexelsUrl": "https://www.pexels.com/photo/lollobrigida-27998957/",
+      "id": 27998957
+    },
+    "best-grooming-for-russian-toy:Russian Toy dog grooming": {
+      "url": "https://images.pexels.com/photos/10594773/pexels-photo-10594773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of a Russian Toy dog with long ears lying comfortably indoors.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-a-brown-dog-10594773/",
+      "id": 10594773
+    },
+    "best-grooming-for-russian-tsvetnaya-bolonka:Russian Tsvetnaya Bolonka dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-saint-bernard:Saint Bernard dog grooming": {
+      "url": "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/",
+      "id": 19145876
+    },
+    "best-grooming-for-saluki:Saluki dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-samoyed:Samoyed dog grooming": {
+      "url": "https://images.pexels.com/photos/28730603/pexels-photo-28730603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Two fluffy Samoyed dogs happily sitting together in a sunny garden.",
+      "photographer": "Jools Magools",
+      "photographerUrl": "https://www.pexels.com/@joolsmagools",
+      "pexelsUrl": "https://www.pexels.com/photo/smiling-samoyeds-outdoors-in-ascot-vale-28730603/",
+      "id": 28730603
     }
   },
   "stats": {
     "scanned": 80,
     "changed": 80,
-    "skipped": 725,
+    "skipped": 805,
     "failed": 0,
     "force": false,
     "dry": false

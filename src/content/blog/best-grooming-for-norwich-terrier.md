@@ -1,4 +1,5 @@
 ---
+
 title: "Norwich Terrier Grooming Guide by Coat Type"
 description: "A breed-aware Norwich Terrier grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "norwich-terrier", "Norwich Terrier", "s
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/norwich-terrier", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/7210443/pexels-photo-7210443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7210443/pexels-photo-7210443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "From above adorable Norwich Terrier dog with tongue out walking on asphalt path and looking away on sunny day"
+imageAlt: "From above adorable Norwich Terrier dog with tongue out walking on asphalt path and looking away on sunny day"
+imageSource: "pexels"
+imageCredit: "Photo by Blue Bird on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-dog-walking-on-asphalt-road-7210443/"
+imageSearchQuery: "Norwich Terrier dog grooming"
 ---
+
 
 Norwich Terriers have a **wiry coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Norwich Terrier grooming mistake: using the wrong tool for the coat type. Slicker brush + stripping comb — wire coats need hand-stripping not clipping — anything else is ineffective or damaging.

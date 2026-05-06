@@ -1,4 +1,5 @@
 ---
+
 title: "Norrbottenspets Coat Care Guide for Short Fur"
 description: "Compare grooming tools for Norrbottenspets dogs by short coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "norrbottenspets", "Norrbottenspets", "m
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/norrbottenspets", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/9360433/pexels-photo-9360433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9360433/pexels-photo-9360433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Pomeranian dog freshly groomed on a pink grooming table indoors, looking happy and playful."
+imageAlt: "Cute Pomeranian dog freshly groomed on a pink grooming table indoors, looking happy and playful."
+imageSource: "pexels"
+imageCredit: "Photo by Nguyễn Viết Lễ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-pomeranian-dog-on-pink-table-9360433/"
+imageSearchQuery: "Norrbottenspets dog grooming"
 ---
+
 
 Norrbottenspetss have a **short coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Norrbottenspets grooming mistake: using the wrong tool for the coat type. Rubber curry brush or grooming glove — loosens dead hair without scratching — anything else is ineffective or damaging.

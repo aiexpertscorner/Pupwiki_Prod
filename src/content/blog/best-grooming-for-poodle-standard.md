@@ -1,4 +1,5 @@
 ---
+
 title: "Poodle (Standard) Grooming Guide: brushes and shampoo for Poodle (Standard)"
 description: "Shortlist Poodle (Standard) grooming products with coat care, long fur, handling, and cleanup in view."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "poodle-standard", "Poodle (Standard)", 
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/poodle-standard", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/35276199/pexels-photo-35276199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35276199/pexels-photo-35276199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Beautiful black poodle dog with curly fur sitting on a green lawn in a garden."
+imageAlt: "Beautiful black poodle dog with curly fur sitting on a green lawn in a garden."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-poodle-sitting-in-green-garden-outdoors-35276199/"
+imageSearchQuery: "Poodle (Standard) dog grooming"
 ---
+
 
 Poodle (Standard)s have a **long coat** that requires specialty/professional. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Poodle (Standard) grooming mistake: using the wrong tool for the coat type. Slicker brush + detangling spray + metal comb — all three needed — anything else is ineffective or damaging.

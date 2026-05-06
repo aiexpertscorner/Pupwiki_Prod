@@ -1,4 +1,5 @@
 ---
+
 title: "Portuguese Water Dog Grooming for Shedding and Sensitive Skin"
 description: "Compare grooming tools for Portuguese Water Dogs by curly coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "portuguese-water-dog", "Portuguese Wate
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/portuguese-water-dog", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools."
+imageAlt: "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-being-brushed-19145894/"
+imageSearchQuery: "Portuguese Water Dog dog grooming"
 ---
+
 
 Portuguese Water Dogs have a **curly coat** that requires daily brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Portuguese Water Dog grooming mistake: using the wrong tool for the coat type. Wide-tooth comb + slicker brush — never a deshedding tool on curly coats — anything else is ineffective or damaging.

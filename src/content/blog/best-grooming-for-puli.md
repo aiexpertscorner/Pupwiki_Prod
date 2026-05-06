@@ -1,4 +1,5 @@
 ---
+
 title: "Puli Grooming for Shedding and Sensitive Skin"
 description: "Shortlist Puli grooming products with coat care, corded fur, handling, and cleanup in view."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "puli", "Puli", "medium", "regular", "di
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/puli", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills."
+imageAlt: "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-groomer-at-work-19145893/"
+imageSearchQuery: "Puli dog grooming"
 ---
+
 
 Pulis have a **corded coat** that requires specialty/professional. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Puli grooming mistake: using the wrong tool for the coat type. Standard slicker brush — anything else is ineffective or damaging.

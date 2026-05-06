@@ -1,4 +1,5 @@
 ---
+
 title: "Rat Terrier Grooming Kit: Brushes, Shampoo, Nail Tools"
 description: "Shortlist Rat Terrier grooming products with coat care, double fur, handling, and cleanup in view."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "rat-terrier", "Rat Terrier", "small", "
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/rat-terrier", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A female pet groomer trims a terrier dog's fur in an indoor grooming salon."
+imageAlt: "A female pet groomer trims a terrier dog's fur in an indoor grooming salon."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/"
+imageSearchQuery: "Rat Terrier dog grooming"
 ---
+
 
 Rat Terriers have a **double coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Rat Terrier grooming mistake: using the wrong tool for the coat type. FURminator or Undercoat Rake — standard brushes don't reach the undercoat — anything else is ineffective or damaging.

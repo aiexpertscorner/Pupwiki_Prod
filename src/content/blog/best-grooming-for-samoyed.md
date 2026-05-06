@@ -1,4 +1,5 @@
 ---
+
 title: "Samoyed Coat Care Guide for Double Fur"
 description: "A breed-aware Samoyed grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "samoyed", "Samoyed", "medium", "active"
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/samoyed", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/28730603/pexels-photo-28730603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28730603/pexels-photo-28730603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two fluffy Samoyed dogs happily sitting together in a sunny garden."
+imageAlt: "Two fluffy Samoyed dogs happily sitting together in a sunny garden."
+imageSource: "pexels"
+imageCredit: "Photo by Jools Magools on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/smiling-samoyeds-outdoors-in-ascot-vale-28730603/"
+imageSearchQuery: "Samoyed dog grooming"
 ---
+
 
 Samoyeds have a **double coat** that requires 2-3 times a week brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Samoyed grooming mistake: using the wrong tool for the coat type. FURminator or Undercoat Rake — standard brushes don't reach the undercoat — anything else is ineffective or damaging.

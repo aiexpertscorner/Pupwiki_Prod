@@ -1,4 +1,5 @@
 ---
+
 title: "Old English Sheepdog Coat Care Guide for Long Fur"
 description: "A breed-aware Old English Sheepdog grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "old-english-sheepdog", "Old English She
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/old-english-sheepdog", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageSource: "pexels"
+imageCredit: "Photo by Miguel González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-yellow-background-16622613/"
+imageSearchQuery: "Old English Sheepdog dog grooming"
 ---
+
 
 Old English Sheepdogs have a **long coat** that requires 2-3 times a week brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Old English Sheepdog grooming mistake: using the wrong tool for the coat type. Slicker brush + detangling spray + metal comb — all three needed — anything else is ineffective or damaging.
