@@ -1,4 +1,5 @@
 ---
+
 title: "Best Grain-Free Dog Food 2026: Top 7 Picks (With the FDA Warning in Context)"
 description: "Grain-free dog food gets complicated. We break down the FDA investigation, which dogs actually benefit from grain-free, and the 7 best options if you choose to go that route."
 pubDate: 2026-02-10
@@ -8,7 +9,16 @@ author: "The PupWiki Team"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of brown dry dog food kibble in various shapes and sizes."
+imageAlt: "A detailed close-up of brown dry dog food kibble in various shapes and sizes."
+imageSource: "pexels"
+imageCredit: "Photo by Rafael Rodrigues on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/"
+imageSearchQuery: "dog food"
 ---
+
 
 Grain-free dog food has been one of the biggest trends in pet nutrition over the past decade — and one of the most controversial. The FDA's ongoing investigation into grain-free diets and dilated cardiomyopathy (DCM) in dogs has created real concern among owners and vets alike.
 This guide covers the evidence, the context, and — if you decide to feed grain-free after consulting your vet — the seven best options available.

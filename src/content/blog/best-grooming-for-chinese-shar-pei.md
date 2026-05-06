@@ -1,4 +1,5 @@
 ---
+
 title: "Chinese Shar-Pei Grooming Kit: Brushes, Shampoo, Nail Tools"
 description: "Compare grooming tools for Chinese Shar-Pei dogs by short coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "chinese-shar-pei", "Chinese Shar-Pei", 
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/chinese-shar-pei", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/12778782/pexels-photo-12778782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12778782/pexels-photo-12778782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene close-up portrait of a brown Shar Pei dog with distinct wrinkles, set against a dark background."
+imageAlt: "A serene close-up portrait of a brown Shar Pei dog with distinct wrinkles, set against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Kevin Watkins on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-shar-pei-dog-12778782/"
+imageSearchQuery: "Chinese Shar-Pei dog grooming"
 ---
+
 
 Chinese Shar-Peis have a **short coat** that requires occasional bath/brush. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Chinese Shar-Pei grooming mistake: using the wrong tool for the coat type. Rubber curry brush or grooming glove — loosens dead hair without scratching — anything else is ineffective or damaging.

@@ -1,4 +1,5 @@
 ---
+
 title: "Xoloitzcuintli Nutrition Guide for Medium Active Dogs"
 description: "Breed-aware food guidance for Xoloitzcuintli owners, including formula fit, feeding routine, and vet-check reminders."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "xoloitzcuintli", "X
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/xoloitzcuintli", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/14411361/pexels-photo-14411361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14411361/pexels-photo-14411361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up profile of a Xoloitzcuintli dog with a harness outdoors on a sunny day."
+imageAlt: "Close-up profile of a Xoloitzcuintli dog with a harness outdoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Yo Soy Flashh on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-mexican-hairless-dog-on-a-leash-14411361/"
+imageSearchQuery: "Xoloitzcuintli dog eating healthy food"
 ---
+
 
 Feeding a Xoloitzcuintli well isn't as simple as grabbing the bag with the highest rating. Xoloitzcuintlis are medium dogs with active energy, a Lifespan of 13–18 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Xoloitzcuintli's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

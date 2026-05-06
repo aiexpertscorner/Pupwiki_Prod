@@ -1,4 +1,5 @@
 ---
+
 title: "Eurasier Coat Care Guide for Double Fur"
 description: "A breed-aware Eurasier grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "eurasier", "Eurasier", "large", "regula
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/eurasier", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/29134547/pexels-photo-29134547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29134547/pexels-photo-29134547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy Eurasier dog sitting contentedly on grass in a sunny outdoor setting."
+imageAlt: "A fluffy Eurasier dog sitting contentedly on grass in a sunny outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/fluffy-eurasier-enjoying-a-sunny-day-outdoors-29134547/"
+imageSearchQuery: "Eurasier dog grooming"
 ---
+
 
 Eurasiers have a **double coat** that requires 2-3 times a week brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Eurasier grooming mistake: using the wrong tool for the coat type. FURminator or Undercoat Rake — standard brushes don't reach the undercoat — anything else is ineffective or damaging.

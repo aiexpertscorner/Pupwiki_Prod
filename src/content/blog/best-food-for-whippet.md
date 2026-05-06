@@ -1,4 +1,5 @@
 ---
+
 title: "Whippet Food Guide:"
 description: "Breed-aware food guidance for Whippet owners, including formula fit, feeding routine, and vet-check reminders."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "whippet", "Whippet"
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/whippet", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/3732454/pexels-photo-3732454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3732454/pexels-photo-3732454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A sleek whippet dog wearing a red coat lies on a lush green grass field, capturing a serene and playful moment."
+imageAlt: "A sleek whippet dog wearing a red coat lies on a lush green grass field, capturing a serene and playful moment."
+imageSource: "pexels"
+imageCredit: "Photo by Ion Ceban  @ionelceban on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-and-white-short-coat-dog-on-green-grass-field-3732454/"
+imageSearchQuery: "Whippet dog eating healthy food"
 ---
+
 
 Feeding a Whippet well isn't as simple as grabbing the bag with the highest rating. Whippets are medium dogs with regular energy, a Average lifespan of 12.9 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Whippet's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

@@ -1,4 +1,5 @@
 ---
+
 title: "Dandie Dinmont Terrier Grooming Routine and Tool Shortlist"
 description: "Shortlist Dandie Dinmont Terrier grooming products with coat care, rough fur, handling, and cleanup in view."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "dandie-dinmont-terrier", "Dandie Dinmon
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/dandie-dinmont-terrier", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A female pet groomer trims a terrier dog's fur in an indoor grooming salon."
+imageAlt: "A female pet groomer trims a terrier dog's fur in an indoor grooming salon."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/"
+imageSearchQuery: "Dandie Dinmont Terrier dog grooming"
 ---
+
 
 Dandie Dinmont Terriers have a **rough coat** that requires daily brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Dandie Dinmont Terrier grooming mistake: using the wrong tool for the coat type. Standard slicker brush — anything else is ineffective or damaging.

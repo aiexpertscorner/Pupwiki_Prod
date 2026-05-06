@@ -1,4 +1,5 @@
 ---
+
 title: "Appenzeller Sennenhund Grooming Routine and Tool Shortlist"
 description: "A breed-aware Appenzeller Sennenhund grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "appenzeller-sennenhund", "Appenzeller S
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/appenzeller-sennenhund", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/31948569/pexels-photo-31948569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31948569/pexels-photo-31948569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Bernese Mountain Dog sits contently in a lush green meadow on a sunny day."
+imageAlt: "A Bernese Mountain Dog sits contently in a lush green meadow on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Magda Ehlers on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bernese-mountain-dog-relaxing-in-green-meadow-31948569/"
+imageSearchQuery: "Appenzeller Sennenhund dog grooming"
 ---
+
 
 Appenzeller Sennenhunds have a **short coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Appenzeller Sennenhund grooming mistake: using the wrong tool for the coat type. Rubber curry brush or grooming glove — loosens dead hair without scratching — anything else is ineffective or damaging.

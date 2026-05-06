@@ -1,4 +1,5 @@
 ---
+
 title: "English Setter Grooming for Shedding and Sensitive Skin"
 description: "A breed-aware English Setter grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "english-setter", "English Setter", "lar
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/english-setter", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and white portrait of a dog in a park, showcasing its elegance and poise."
+imageAlt: "A black and white portrait of a dog in a park, showcasing its elegance and poise."
+imageSource: "pexels"
+imageCredit: "Photo by Altaf Shah on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-on-a-leash-18868925/"
+imageSearchQuery: "English Setter dog grooming"
 ---
+
 
 English Setters have a **silky coat** that requires 2-3 times a week brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common English Setter grooming mistake: using the wrong tool for the coat type. Pin brush + detangling spray — slicker brushes can split silky hair — anything else is ineffective or damaging.

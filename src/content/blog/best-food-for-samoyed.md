@@ -1,4 +1,5 @@
 ---
+
 title: "Samoyed Food Guide:"
 description: "A practical Samoyed food guide for medium dogs, with nutrition notes, joint-support context, and owner-friendly comparison checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "samoyed", "Samoyed"
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/samoyed", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/4453088/pexels-photo-4453088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4453088/pexels-photo-4453088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Samoyed dog with tongue out sits on a sunlit deck."
+imageAlt: "Adorable Samoyed dog with tongue out sits on a sunlit deck."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-long-coat-small-dog-4453088/"
+imageSearchQuery: "Samoyed dog eating healthy food"
 ---
+
 
 Feeding a Samoyed well isn't as simple as grabbing the bag with the highest rating. Samoyeds are medium dogs with active energy, a Average lifespan of 12.4 years, and nutritional vulnerabilities that change across their life stages.
 Known genetic health concerns: **hip problems** — food choices that support joint and organ health are especially relevant.

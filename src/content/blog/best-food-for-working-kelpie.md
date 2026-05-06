@@ -1,4 +1,5 @@
 ---
+
 title: "Working Kelpie Formula Fit: Kibble, Protein, and Feeding Notes"
 description: "A practical Working Kelpie food guide for medium dogs, with nutrition notes, joint-support context, and owner-friendly comparison checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "working-kelpie", "W
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/working-kelpie", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/13565285/pexels-photo-13565285.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13565285/pexels-photo-13565285.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of an Australian Kelpie dog in front of wooden logs, showcasing its attentive expression."
+imageAlt: "A detailed close-up of an Australian Kelpie dog in front of wooden logs, showcasing its attentive expression."
+imageSource: "pexels"
+imageCredit: "Photo by James Knight on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-brown-and-black-dog-13565285/"
+imageSearchQuery: "Working Kelpie dog eating healthy food"
 ---
+
 
 Feeding a Working Kelpie well isn't as simple as grabbing the bag with the highest rating. Working Kelpies are medium dogs with active energy, a Lifespan of 12–15 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Working Kelpie's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

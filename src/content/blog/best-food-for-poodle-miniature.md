@@ -1,4 +1,5 @@
 ---
+
 title: "Poodle (Miniature) Food Guide:"
 description: "A practical Poodle (Miniature) food guide for small dogs, with nutrition notes, joint-support context, and owner-friendly comparison checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "poodle-miniature", 
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/poodle-miniature", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/7296946/pexels-photo-7296946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7296946/pexels-photo-7296946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "White poodle dog happily playing on the grass, showcasing its fluffy fur in the sunlight."
+imageAlt: "White poodle dog happily playing on the grass, showcasing its fluffy fur in the sunlight."
+imageSource: "pexels"
+imageCredit: "Photo by Alexander Nadrilyanski on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-white-poodle-on-the-grass-7296946/"
+imageSearchQuery: "Poodle (Miniature) dog eating healthy food"
 ---
+
 
 Feeding a Poodle (Miniature) well isn't as simple as grabbing the bag with the highest rating. Poodle (Miniature)s are small dogs with regular energy, a Lifespan of 10–18 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Poodle (Miniature)'s breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

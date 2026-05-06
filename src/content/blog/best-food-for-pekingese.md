@@ -1,4 +1,5 @@
 ---
+
 title: "Pekingese Dog Food for Small Breed Needs"
 description: "Breed-aware food guidance for Pekingese owners, including formula fit, feeding routine, and vet-check reminders."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "pekingese", "Peking
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/pekingese", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/35531848/pexels-photo-35531848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35531848/pexels-photo-35531848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Pekingese dog standing on a rainy autumn path, showcasing its fluffy fur."
+imageAlt: "Adorable Pekingese dog standing on a rainy autumn path, showcasing its fluffy fur."
+imageSource: "pexels"
+imageCredit: "Photo by Roman Biernacki on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/pekingese-dog-on-a-wet-autumn-pathway-outdoors-35531848/"
+imageSearchQuery: "Pekingese dog eating healthy food"
 ---
+
 
 Feeding a Pekingese well isn't as simple as grabbing the bag with the highest rating. Pekingeses are small dogs with calm energy, a Average lifespan of 11.6 years, and nutritional vulnerabilities that change across their life stages.
 Known genetic health concerns: **knee problems** — food choices that support joint and organ health are especially relevant.

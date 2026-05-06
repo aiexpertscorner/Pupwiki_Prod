@@ -1,4 +1,5 @@
 ---
+
 title: "Gifts for Dog Lovers That Actually Land (2026)"
 description: "Practical gift ideas for dog owners — from custom pet portraits to personalised mugs and apparel. Picked for people who are specific about their dog, not just dog owners in general."
 pubDate: 2026-04-24
@@ -10,7 +11,16 @@ readTime: 7
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/33834941/pexels-photo-33834941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33834941/pexels-photo-33834941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black Labrador mix dog on a leash outdoors with its owner."
+imageAlt: "A black Labrador mix dog on a leash outdoors with its owner."
+imageSource: "pexels"
+imageCredit: "Photo by Gustavo Martínez on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-labrador-mix-on-outdoor-walk-33834941/"
+imageSearchQuery: "dog owner lifestyle"
 ---
+
 
 Dog owners are easy to buy for in theory and difficult in practice. The "dog lover" gift category is crowded with mugs that say *But first, coffee and dog snuggles* and paw print candles that smell of absolutely nothing in particular.
 The gifts that actually get used — or displayed, or talked about — are the ones that acknowledge the specific dog. Not dogs in general. The *actual dog*. By name, by face, by breed.

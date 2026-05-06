@@ -1,4 +1,5 @@
 ---
+
 title: "Portuguese Pointer Food Guide:"
 description: "Breed-aware food guidance for Portuguese Pointer owners, including formula fit, feeding routine, and vet-check reminders."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "portuguese-pointer"
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/portuguese-pointer", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features."
+imageAlt: "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features."
+imageSource: "pexels"
+imageCredit: "Photo by Алексей Вечерин on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-black-and-white-short-coated-dog-9562585/"
+imageSearchQuery: "Portuguese Pointer dog eating healthy food"
 ---
+
 
 Feeding a Portuguese Pointer well isn't as simple as grabbing the bag with the highest rating. Portuguese Pointers are medium dogs with active energy, a Lifespan of 14–14 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Portuguese Pointer's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

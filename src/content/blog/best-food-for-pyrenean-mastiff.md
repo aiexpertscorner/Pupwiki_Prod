@@ -1,4 +1,5 @@
 ---
+
 title: "Pyrenean Mastiff Food Guide:"
 description: "Breed-aware food guidance for Pyrenean Mastiff owners, including formula fit, feeding routine, and vet-check reminders."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "pyrenean-mastiff", 
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/pyrenean-mastiff", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/30434990/pexels-photo-30434990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30434990/pexels-photo-30434990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A large fluffy dog basks in the sunlight against a clear blue sky."
+imageAlt: "A large fluffy dog basks in the sunlight against a clear blue sky."
+imageSource: "pexels"
+imageCredit: "Photo by Gioele Gatto on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-fluffy-dog-against-blue-sky-30434990/"
+imageSearchQuery: "Pyrenean Mastiff dog eating healthy food"
 ---
+
 
 Feeding a Pyrenean Mastiff well isn't as simple as grabbing the bag with the highest rating. Pyrenean Mastiffs are large dogs with calm energy, a Lifespan of 10–13 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Pyrenean Mastiff's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

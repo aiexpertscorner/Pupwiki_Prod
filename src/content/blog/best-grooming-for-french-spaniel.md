@@ -1,4 +1,5 @@
 ---
+
 title: "French Spaniel Grooming Routine and Tool Shortlist"
 description: "Compare grooming tools for French Spaniel dogs by silky coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "french-spaniel", "French Spaniel", "med
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/french-spaniel", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/19145879/pexels-photo-19145879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145879/pexels-photo-19145879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Cocker Spaniel dog being groomed indoors by a professional groomer."
+imageAlt: "A Cocker Spaniel dog being groomed indoors by a professional groomer."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/groomer-brushing-a-dog-19145879/"
+imageSearchQuery: "French Spaniel dog grooming"
 ---
+
 
 French Spaniels have a **silky coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common French Spaniel grooming mistake: using the wrong tool for the coat type. Pin brush + detangling spray — slicker brushes can split silky hair — anything else is ineffective or damaging.

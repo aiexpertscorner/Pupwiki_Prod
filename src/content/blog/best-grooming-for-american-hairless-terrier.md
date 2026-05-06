@@ -1,4 +1,5 @@
 ---
+
 title: "American Hairless Terrier Grooming Shopping Guide"
 description: "A breed-aware American Hairless Terrier grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "american-hairless-terrier", "American H
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/american-hairless-terrier", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/35548226/pexels-photo-35548226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35548226/pexels-photo-35548226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A hairless and a terrier dog walking energetically on a mossy outdoor pavement."
+imageAlt: "A hairless and a terrier dog walking energetically on a mossy outdoor pavement."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/active-hairless-and-terrier-dogs-walking-outdoors-35548226/"
+imageSearchQuery: "American Hairless Terrier dog grooming"
 ---
+
 
 American Hairless Terriers have a **hairless coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common American Hairless Terrier grooming mistake: using the wrong tool for the coat type. Standard slicker brush — anything else is ineffective or damaging.

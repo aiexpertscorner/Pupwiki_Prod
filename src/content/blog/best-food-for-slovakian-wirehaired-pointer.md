@@ -1,4 +1,5 @@
 ---
+
 title: "Slovakian Wirehaired Pointer Dog Food Shopping Guide"
 description: "Breed-aware food guidance for Slovakian Wirehaired Pointer owners, including formula fit, feeding routine, and vet-check reminders."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "slovakian-wirehaire
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/slovakian-wirehaired-pointer", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/28594184/pexels-photo-28594184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28594184/pexels-photo-28594184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Wirehaired dog enjoys a peaceful walk in a serene autumn forest."
+imageAlt: "Wirehaired dog enjoys a peaceful walk in a serene autumn forest."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/wirehaired-dog-in-autumn-forest-setting-28594184/"
+imageSearchQuery: "Slovakian Wirehaired Pointer dog eating healthy food"
 ---
+
 
 Feeding a Slovakian Wirehaired Pointer well isn't as simple as grabbing the bag with the highest rating. Slovakian Wirehaired Pointers are medium dogs with active energy, a Lifespan of 12–15 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Slovakian Wirehaired Pointer's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

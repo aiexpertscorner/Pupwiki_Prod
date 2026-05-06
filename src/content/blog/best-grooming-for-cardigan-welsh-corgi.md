@@ -1,4 +1,5 @@
 ---
+
 title: "Cardigan Welsh Corgi Grooming Guide by Coat Type"
 description: "Compare grooming tools for Cardigan Welsh Corgi dogs by double coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "cardigan-welsh-corgi", "Cardigan Welsh 
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/cardigan-welsh-corgi", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/8198647/pexels-photo-8198647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8198647/pexels-photo-8198647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Crop anonymous owner with cute Welsh Corgi dog in arms standing near blooming apple tree branches in garden against blurred background"
+imageAlt: "Crop anonymous owner with cute Welsh Corgi dog in arms standing near blooming apple tree branches in garden against blurred background"
+imageSource: "pexels"
+imageCredit: "Photo by Valeria Boltneva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/unrecognizable-owner-with-corgi-near-blooming-branches-8198647/"
+imageSearchQuery: "Cardigan Welsh Corgi dog grooming"
 ---
+
 
 Cardigan Welsh Corgis have a **double coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Cardigan Welsh Corgi grooming mistake: using the wrong tool for the coat type. FURminator or Undercoat Rake — standard brushes don't reach the undercoat — anything else is ineffective or damaging.

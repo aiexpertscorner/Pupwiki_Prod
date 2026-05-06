@@ -1,4 +1,5 @@
 ---
+
 title: "Pug Food Guide: food options for Puppy, Adult, and Senior Dogs"
 description: "Review Pug dog food choices by life stage, weight control, digestion, and small-breed needs."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "pug", "Pug", "small
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/pug", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/9700107/pexels-photo-9700107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9700107/pexels-photo-9700107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute pug dog lying on lush green grass, enjoying the sunny outdoors."
+imageAlt: "Cute pug dog lying on lush green grass, enjoying the sunny outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Steshka Croes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-sitting-on-the-grass-9700107/"
+imageSearchQuery: "Pug dog eating healthy food"
 ---
+
 
 Feeding a Pug well isn't as simple as grabbing the bag with the highest rating. Pugs are small dogs with regular energy, a Average lifespan of 11 years, and nutritional vulnerabilities that change across their life stages.
 Known genetic health concerns: **'dry eye'** — food choices that support joint and organ health are especially relevant.

@@ -1,4 +1,5 @@
 ---
+
 title: "Glen of Imaal Terrier Grooming Guide: tools for Glen of Imaal Terrier"
 description: "Shortlist Glen of Imaal Terrier grooming products with coat care, rough fur, handling, and cleanup in view."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "glen-of-imaal-terrier", "Glen of Imaal 
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/glen-of-imaal-terrier", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/4395469/pexels-photo-4395469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4395469/pexels-photo-4395469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of an adorable white terrier dog with a furry coat. Perfect for pet lovers."
+imageAlt: "Close-up of an adorable white terrier dog with a furry coat. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by George Orta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/selective-focus-photo-of-a-white-terrier-dog-4395469/"
+imageSearchQuery: "Glen of Imaal Terrier dog grooming"
 ---
+
 
 Glen of Imaal Terriers have a **rough coat** that requires 2-3 times a week brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Glen of Imaal Terrier grooming mistake: using the wrong tool for the coat type. Standard slicker brush — anything else is ineffective or damaging.
