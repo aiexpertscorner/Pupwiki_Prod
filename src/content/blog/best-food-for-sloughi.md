@@ -1,4 +1,5 @@
 ---
+
 title: "Sloughi Dog Food for Medium Breed Needs"
 description: "Breed-aware food guidance for Sloughi owners, including formula fit, feeding routine, and vet-check reminders."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "sloughi", "Sloughi"
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/sloughi", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageSource: "pexels"
+imageCredit: "Photo by cottonbro studio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/"
+imageSearchQuery: "Sloughi dog eating healthy food"
 ---
+
 
 Feeding a Sloughi well isn't as simple as grabbing the bag with the highest rating. Sloughis are medium dogs with regular energy, a Lifespan of 10–15 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Sloughi's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

@@ -1,4 +1,5 @@
 ---
+
 title: "Petit Basset Griffon Vendéen Food Guide: food options for Puppy, Adult, and Senior Dogs"
 description: "Review Petit Basset Griffon Vendéen dog food choices by life stage, weight control, digestion, and medium-breed needs."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "petit-basset-griffo
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/petit-basset-griffon-venden", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog sniffs pistachios on a white plate in an overhead, natural setting."
+imageAlt: "A dog sniffs pistachios on a white plate in an overhead, natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Vie Studio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-smelling-the-pistachios-7421520/"
+imageSearchQuery: "Petit Basset Griffon Vendéen dog eating healthy food"
 ---
+
 
 Feeding a Petit Basset Griffon Vendéen well isn't as simple as grabbing the bag with the highest rating. Petit Basset Griffon Vendéens are medium dogs with active energy, a Lifespan of 12–14 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Petit Basset Griffon Vendéen's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

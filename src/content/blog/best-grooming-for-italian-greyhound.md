@@ -1,4 +1,5 @@
 ---
+
 title: "Italian Greyhound Grooming for Shedding and Sensitive Skin"
 description: "Compare grooming tools for Italian Greyhound dogs by short coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "italian-greyhound", "Italian Greyhound"
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/italian-greyhound", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/16485353/pexels-photo-16485353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16485353/pexels-photo-16485353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog wrapped in a red plaid blanket, sitting on a holiday-themed couch."
+imageAlt: "Cute dog wrapped in a red plaid blanket, sitting on a holiday-themed couch."
+imageSource: "pexels"
+imageCredit: "Photo by Jacob Sierra on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-wrapped-in-a-red-checkered-blanket-16485353/"
+imageSearchQuery: "Italian Greyhound dog grooming"
 ---
+
 
 Italian Greyhounds have a **short coat** that requires occasional bath/brush. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Italian Greyhound grooming mistake: using the wrong tool for the coat type. Rubber curry brush or grooming glove — loosens dead hair without scratching — anything else is ineffective or damaging.

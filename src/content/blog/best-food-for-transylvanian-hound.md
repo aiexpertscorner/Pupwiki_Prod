@@ -1,4 +1,5 @@
 ---
+
 title: "Transylvanian Hound Nutrition Guide for Medium Active Dogs"
 description: "Breed-aware food guidance for Transylvanian Hound owners, including formula fit, feeding routine, and vet-check reminders."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "transylvanian-hound
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/transylvanian-hound", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/28931359/pexels-photo-28931359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28931359/pexels-photo-28931359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and tan dog on a leash standing on paved surface in Whistler, BC."
+imageAlt: "Black and tan dog on a leash standing on paved surface in Whistler, BC."
+imageSource: "pexels"
+imageCredit: "Photo by Bethany Ellis on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-tan-dog-on-leash-in-whistler-28931359/"
+imageSearchQuery: "Transylvanian Hound dog eating healthy food"
 ---
+
 
 Feeding a Transylvanian Hound well isn't as simple as grabbing the bag with the highest rating. Transylvanian Hounds are medium dogs with active energy, a Lifespan of 10–14 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Transylvanian Hound's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

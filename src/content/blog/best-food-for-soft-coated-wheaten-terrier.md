@@ -1,4 +1,5 @@
 ---
+
 title: "Soft Coated Wheaten Terrier Nutrition Shortlist for Everyday Feeding"
 description: "Review Soft Coated Wheaten Terrier dog food choices by life stage, weight control, digestion, and medium-breed needs."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "soft-coated-wheaten
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/soft-coated-wheaten-terrier", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/15286696/pexels-photo-15286696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15286696/pexels-photo-15286696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a shaggy dog enjoying the sunlight in a garden setting."
+imageAlt: "Close-up of a shaggy dog enjoying the sunlight in a garden setting."
+imageSource: "pexels"
+imageCredit: "Photo by Santiago Sauceda González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dog-15286696/"
+imageSearchQuery: "Soft Coated Wheaten Terrier dog eating healthy food"
 ---
+
 
 Feeding a Soft Coated Wheaten Terrier well isn't as simple as grabbing the bag with the highest rating. Soft Coated Wheaten Terriers are medium dogs with active energy, a Lifespan of 12–14 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Soft Coated Wheaten Terrier's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

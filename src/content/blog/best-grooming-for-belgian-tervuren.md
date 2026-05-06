@@ -1,4 +1,5 @@
 ---
+
 title: "Belgian Tervuren Grooming Guide: grooming picks for Belgian Tervuren Shedding"
 description: "A breed-aware Belgian Tervuren grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "belgian-tervuren", "Belgian Tervuren", 
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/belgian-tervuren", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Belgian Tervuren dog standing in a grassy field, tongue out."
+imageAlt: "Cute Belgian Tervuren dog standing in a grassy field, tongue out."
+imageSource: "pexels"
+imageCredit: "Photo by Viktorija Stankevičiūtė on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-on-grass-field-12685132/"
+imageSearchQuery: "Belgian Tervuren dog grooming"
 ---
+
 
 Belgian Tervurens have a **long coat** that requires 2-3 times a week brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Belgian Tervuren grooming mistake: using the wrong tool for the coat type. Slicker brush + detangling spray + metal comb — all three needed — anything else is ineffective or damaging.

@@ -1,4 +1,5 @@
 ---
+
 title: "Australian Stumpy Tail Cattle Dog Grooming Guide: brushes and shampoo for Australian Stumpy Tail Cattle Dog"
 description: "Shortlist Australian Stumpy Tail Cattle Dog grooming products with coat care, short fur, handling, and cleanup in view."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "australian-stumpy-tail-cattle-dog", "Au
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/australian-stumpy-tail-cattle-dog", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/35511909/pexels-photo-35511909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35511909/pexels-photo-35511909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Happy Australian Cattle Dog sitting on grass, looking playfully at the camera. Perfect for pet lovers."
+imageAlt: "Happy Australian Cattle Dog sitting on grass, looking playfully at the camera. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/australian-cattle-dog-smiling-in-grass-35511909/"
+imageSearchQuery: "Australian Stumpy Tail Cattle Dog dog grooming"
 ---
+
 
 Australian Stumpy Tail Cattle Dogs have a **short coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Australian Stumpy Tail Cattle Dog grooming mistake: using the wrong tool for the coat type. Rubber curry brush or grooming glove — loosens dead hair without scratching — anything else is ineffective or damaging.

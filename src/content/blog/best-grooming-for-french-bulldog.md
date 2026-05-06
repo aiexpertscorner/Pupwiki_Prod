@@ -1,4 +1,5 @@
 ---
+
 title: "French Bulldog Grooming for Shedding and Sensitive Skin"
 description: "Compare grooming tools for French Bulldog dogs by short coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "french-bulldog", "French Bulldog", "med
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/french-bulldog", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/20741414/pexels-photo-20741414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20741414/pexels-photo-20741414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable French Bulldog being washed in a kitchen sink, showing a cute and curious expression."
+imageAlt: "Adorable French Bulldog being washed in a kitchen sink, showing a cute and curious expression."
+imageSource: "pexels"
+imageCredit: "Photo by David Kanigan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-french-bulldog-being-washed-in-a-kitchen-sink-20741414/"
+imageSearchQuery: "French Bulldog dog grooming"
 ---
+
 
 French Bulldogs have a **short coat** that requires occasional bath/brush. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common French Bulldog grooming mistake: using the wrong tool for the coat type. Rubber curry brush or grooming glove — loosens dead hair without scratching — anything else is ineffective or damaging.

@@ -1,4 +1,5 @@
 ---
+
 title: "Pembroke Welsh Corgi Owners: Dog Foods to Compare First"
 description: "A practical Pembroke Welsh Corgi food guide for medium dogs, with nutrition notes, joint-support context, and owner-friendly comparison checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "pembroke-welsh-corg
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/pembroke-welsh-corgi", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/4641850/pexels-photo-4641850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4641850/pexels-photo-4641850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Corgi dog lying next to a glass of milk and flowers. Perfect for pet photography enthusiasts."
+imageAlt: "Corgi dog lying next to a glass of milk and flowers. Perfect for pet photography enthusiasts."
+imageSource: "pexels"
+imageCredit: "Photo by Nataliya Vaitkevich on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-and-white-dog-in-close-up-shot-4641850/"
+imageSearchQuery: "Pembroke Welsh Corgi dog eating healthy food"
 ---
+
 
 Feeding a Pembroke Welsh Corgi well isn't as simple as grabbing the bag with the highest rating. Pembroke Welsh Corgis are medium dogs with active energy, a Average lifespan of 12.2 years, and nutritional vulnerabilities that change across their life stages.
 Known genetic health concerns: **cataracts + other eye problems, connective tissue, nerves, kidneys, spine, blood clotting disorders** — food choices that support joint and organ health are especially relevant.

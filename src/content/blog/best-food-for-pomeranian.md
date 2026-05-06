@@ -1,4 +1,5 @@
 ---
+
 title: "Pomeranian Food Guide:"
 description: "A practical Pomeranian food guide for small dogs, with nutrition notes, joint-support context, and owner-friendly comparison checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "pomeranian", "Pomer
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/pomeranian", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/8473449/pexels-photo-8473449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8473449/pexels-photo-8473449.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Fluffy Pomeranian puppy by a dog bowl on wooden floor indoors. Cute and furry pet in a home setting."
+imageAlt: "Fluffy Pomeranian puppy by a dog bowl on wooden floor indoors. Cute and furry pet in a home setting."
+imageSource: "pexels"
+imageCredit: "Photo by Cup of  Couple on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-pomeranian-puppy-looking-at-camera-8473449/"
+imageSearchQuery: "Pomeranian dog eating healthy food"
 ---
+
 
 Feeding a Pomeranian well isn't as simple as grabbing the bag with the highest rating. Pomeranians are small dogs with regular energy, a Average lifespan of 9.7 years, and nutritional vulnerabilities that change across their life stages.
 Known genetic health concerns: **heart problems** — food choices that support joint and organ health are especially relevant.

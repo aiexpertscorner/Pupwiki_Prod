@@ -1,4 +1,5 @@
 ---
+
 title: "Perro de Presa Canario Food Guide:"
 description: "A practical Perro de Presa Canario food guide for large dogs, with nutrition notes, joint-support context, and owner-friendly comparison checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "perro-de-presa-cana
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/perro-de-presa-canario", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/31339390/pexels-photo-31339390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31339390/pexels-photo-31339390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute brown dog lies on a paved sidewalk in Perú, showcasing a relaxed and content expression."
+imageAlt: "A cute brown dog lies on a paved sidewalk in Perú, showcasing a relaxed and content expression."
+imageSource: "pexels"
+imageCredit: "Photo by Christopher Welsch Leveroni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-brown-dog-relaxing-outdoors-in-peru-31339390/"
+imageSearchQuery: "Perro de Presa Canario dog eating healthy food"
 ---
+
 
 Feeding a Perro de Presa Canario well isn't as simple as grabbing the bag with the highest rating. Perro de Presa Canarios are large dogs with calm energy, a Lifespan of 9–11 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Perro de Presa Canario's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

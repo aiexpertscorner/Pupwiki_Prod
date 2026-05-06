@@ -1,4 +1,5 @@
 ---
+
 title: "What to Feed a Parson Russell Terrier: Practical Food Picks"
 description: "Review Parson Russell Terrier dog food choices by life stage, weight control, digestion, and small-breed needs."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "parson-russell-terr
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/parson-russell-terrier", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/16478797/pexels-photo-16478797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16478797/pexels-photo-16478797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable small dog standing on a snowy road in Jönköping, Sweden during winter."
+imageAlt: "Adorable small dog standing on a snowy road in Jönköping, Sweden during winter."
+imageSource: "pexels"
+imageCredit: "Photo by Efrem  Efre on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-road-in-snow-16478797/"
+imageSearchQuery: "Parson Russell Terrier dog eating healthy food"
 ---
+
 
 Feeding a Parson Russell Terrier well isn't as simple as grabbing the bag with the highest rating. Parson Russell Terriers are small dogs with active energy, a Lifespan of 13–15 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Parson Russell Terrier's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

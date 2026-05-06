@@ -1,4 +1,5 @@
 ---
+
 title: "Weimaraner Dog Food Shopping Guide"
 description: "Breed-aware food guidance for Weimaraner owners, including formula fit, feeding routine, and vet-check reminders."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "weimaraner", "Weima
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/weimaraner", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/5705627/pexels-photo-5705627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5705627/pexels-photo-5705627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Weimaraner dog sniffing a human hand with autumn leaves behind."
+imageAlt: "Close-up of a Weimaraner dog sniffing a human hand with autumn leaves behind."
+imageSource: "pexels"
+imageCredit: "Photo by www.kaboompics.com on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-smelling-a-person-s-hand-5705627/"
+imageSearchQuery: "Weimaraner dog eating healthy food"
 ---
+
 
 Feeding a Weimaraner well isn't as simple as grabbing the bag with the highest rating. Weimaraners are large dogs with active energy, a Lifespan of 10–13 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Weimaraner's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

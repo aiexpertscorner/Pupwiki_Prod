@@ -1,4 +1,5 @@
 ---
+
 title: "Belgian Malinois Bathing, Brushing, and Nail Care Guide"
 description: "A breed-aware Belgian Malinois grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "belgian-malinois", "Belgian Malinois", 
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/belgian-malinois", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/20207074/pexels-photo-20207074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20207074/pexels-photo-20207074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Belgian Malinois dog standing in shallow water, showcasing its alert posture and calm surroundings."
+imageAlt: "A Belgian Malinois dog standing in shallow water, showcasing its alert posture and calm surroundings."
+imageSource: "pexels"
+imageCredit: "Photo by Jozef Fehér on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/belgian-malinois-dog-in-water-on-sea-shore-20207074/"
+imageSearchQuery: "Belgian Malinois dog grooming"
 ---
+
 
 Belgian Malinoiss have a **short coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Belgian Malinois grooming mistake: using the wrong tool for the coat type. Rubber curry brush or grooming glove — loosens dead hair without scratching — anything else is ineffective or damaging.

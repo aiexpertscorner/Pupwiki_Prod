@@ -1,4 +1,5 @@
 ---
+
 title: "Sussex Spaniel Formula Fit: Kibble, Protein, and Feeding Notes"
 description: "A practical Sussex Spaniel food guide for medium dogs, with nutrition notes, joint-support context, and owner-friendly comparison checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "sussex-spaniel", "S
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/sussex-spaniel", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/35261898/pexels-photo-35261898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35261898/pexels-photo-35261898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Cocker Spaniel dog peacefully resting on a white background."
+imageAlt: "Adorable Cocker Spaniel dog peacefully resting on a white background."
+imageSource: "pexels"
+imageCredit: "Photo by Christopher Welsch Leveroni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/sleeping-cocker-spaniel-dog-portrait-35261898/"
+imageSearchQuery: "Sussex Spaniel dog eating healthy food"
 ---
+
 
 Feeding a Sussex Spaniel well isn't as simple as grabbing the bag with the highest rating. Sussex Spaniels are medium dogs with regular energy, a Lifespan of 13–15 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Sussex Spaniel's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

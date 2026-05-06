@@ -1,4 +1,5 @@
 ---
+
 title: "Welsh Springer Spaniel Food Guide for Active Energy Levels"
 description: "Compare dog food options for Welsh Springer Spaniel dogs using breed size, active energy, life stage, and health-sensitive buyer checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "welsh-springer-span
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/welsh-springer-spaniel", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-on-grass-24453850/"
+imageSearchQuery: "Welsh Springer Spaniel dog eating healthy food"
 ---
+
 
 Feeding a Welsh Springer Spaniel well isn't as simple as grabbing the bag with the highest rating. Welsh Springer Spaniels are medium dogs with active energy, a Average lifespan of 12.5 years, and nutritional vulnerabilities that change across their life stages.
 Known genetic health concerns: **hip problems** — food choices that support joint and organ health are especially relevant.
