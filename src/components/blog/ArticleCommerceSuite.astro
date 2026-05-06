@@ -1,14 +1,17 @@
 ---
 import AwinProductSlot from '../affiliate/AwinProductSlot.astro';
-import AmazonProductSlot from '../amazon/AmazonProductSlot.astro';
+import AmazonProductSlot from '../affiliate/AmazonProductSlot.astro';
 
 export interface Props {
   topicTags: string[];
   category?: string;
+  cluster?: string;
+  claimSensitivity?: string;
   breedSize?: string;
   breedEnergy?: string;
   breedTraining?: string;
   breedCoat?: string;
+  breedName?: string;
   pageSlug?: string;
   showAmazon?: boolean;
   showAwin?: boolean;
@@ -19,15 +22,18 @@ export interface Props {
 const {
   topicTags = [],
   category = '',
+  cluster,
+  claimSensitivity,
   breedSize,
   breedEnergy,
   breedTraining,
   breedCoat,
+  breedName,
   pageSlug = '',
   showAmazon = true,
   showAwin = true,
-  heading = 'Current partner and Amazon.com options',
-  description = 'These resources are matched to the dog-care topic, breed context, and current product details. Always confirm formula, size, availability, and seller details before purchase.',
+  heading = 'Top-rated picks for your dog',
+  description = 'Curated for this topic and your dog\'s profile. Always check current sizing, formula, and seller details before buying.',
 } = Astro.props;
 ---
 
@@ -43,11 +49,11 @@ const {
       <AwinProductSlot
         topicTags={topicTags}
         pageType="blog"
-        category={category}
+        category={cluster || category}
         breedSize={breedSize}
         breedEnergy={breedEnergy}
         breedTraining={breedTraining}
-        headline="Dog-care brand match"
+        headline="Recommended for this topic"
         monetizationIntent="high"
       />
     )}
@@ -57,12 +63,15 @@ const {
         topicTags={topicTags}
         pageType="blog"
         pageSlug={pageSlug}
-        category={category}
+        category={cluster || category}
+        cluster={cluster}
+        claimSensitivity={claimSensitivity}
         breedSize={breedSize}
         breedEnergy={breedEnergy}
         breedCoat={breedCoat}
-        headline="Amazon.com matches"
-        limit={3}
+        breedName={breedName}
+        headline="Amazon picks"
+        placement={`article-suite|${cluster || category}`}
       />
     )}
   </div>

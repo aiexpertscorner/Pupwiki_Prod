@@ -35,8 +35,14 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: npm run images:hero:ci
 
+      - name: Clean stale generated content
+        run: npm run content:clean:ci
+
       - name: Refresh generated content
         run: npm run content:refresh
+
+      - name: Generate PSEO cluster pages
+        run: npm run content:generate:pseo:ci
 
       - name: Enrich content images with Pexels
         env:

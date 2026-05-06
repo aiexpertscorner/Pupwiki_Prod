@@ -38,12 +38,19 @@ const note = rawNote
         href={product.amazonAffiliateUrl}
         target="_blank"
         rel="nofollow sponsored noopener"
-        class="amazon-card__button"
         data-amazon-product-id={product.id}
         data-amazon-product-name={product.name}
         data-amazon-placement={placement}
+        aria-label={`Available at Amazon: ${product.name}`}
       >
-        View on Amazon.com →
+        <img
+          src="/images/amazon/available-at-amazon.png"
+          alt="Available at Amazon"
+          loading="lazy"
+          decoding="async"
+          height="36"
+          style="display:block;max-width:160px"
+        />
       </a>
     </div>
   </div>

@@ -1,9 +1,12 @@
 ---
-import { matchAmazonProducts, type AmazonPlacementContext } from '../../lib/amazon/matchAmazonProducts';
+import { matchValidatedAmazonProducts } from '../../lib/amazon/matchAmazonProducts';
 import { mergeAmazonProductsWithFallbacks } from '../../lib/amazon/amazonDeeplink';
+import { isCommerceAllowed, getAmazonPageIntent } from '../../lib/commerce/amazon/amazonPageIntent';
 import AmazonBadge from '../ui/AmazonBadge.astro';
 import AmazonDisclosure from '../affiliate/AmazonDisclosure.astro';
 import AmazonClickTracker from '../affiliate/AmazonClickTracker.astro';
+import { ENABLE_AMAZON_BUTTONS } from '../../lib/amazon/amazonConfig';
+import type { AmazonCTAContext } from '../../lib/commerce/amazon/amazonGeneratedLinks';
 
 let allProducts: any[] = [];
 try {
@@ -11,7 +14,7 @@ try {
   allProducts = Array.isArray(imported.default) ? imported.default : [];
 } catch {}
 
-export interface Props extends AmazonPlacementContext {
+export interface Props extends AmazonCTAContext {
   headline?: string;
   eyebrow?: string;
   note?: string;
@@ -23,16 +26,26 @@ export interface Props extends AmazonPlacementContext {
 const {
   headline = 'Useful Amazon.com resources for this guide',
   eyebrow = 'Amazon.com',
-  note = 'Product details can change. Confirm fit, availability, shipping, sizing, ingredients or materials on Amazon before buying.',
+  note = 'Confirm fit, availability, sizing, ingredients, or materials on Amazon before buying.',
   variant = 'rail',
   showDisclosure = true,
   placement = 'article-slot',
-  limit = variant === 'compact' ? 2 : 3,
+  limit,
+  allowMediumRisk = true,
+  allowHighRisk = false,
   ...context
 } = Astro.props;
 
-const matched = matchAmazonProducts(allProducts, { ...context, limit });
-const products = mergeAmazonProductsWithFallbacks(matched, { ...context, limit });
+const commerceContext = { pageType: context.pageType, category: context.cluster || context.category, topicTags: context.topicTags, claimSensitivity: context.claimSensitivity };
+const intent = getAmazonPageIntent(commerceContext);
+const resolvedLimit = limit ?? (variant === 'compact' ? 2 : intent === 'high' ? 3 : intent === 'medium' ? 2 : 1);
+
+const products = ENABLE_AMAZON_BUTTONS && isCommerceAllowed(commerceContext)
+  ? mergeAmazonProductsWithFallbacks(
+      matchValidatedAmazonProducts(allProducts, { ...context, limit: resolvedLimit, allowMediumRisk, allowHighRisk }),
+      { ...context, limit: resolvedLimit }
+    )
+  : [];
 ---
 
 {products.length > 0 && (

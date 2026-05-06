@@ -72,7 +72,7 @@ const isGeneratedSupport = Boolean(fm.generated) || Boolean(fm.breedSlug) || Boo
 const isHealthSensitive = ['health', 'supplements', 'food', 'dog food'].includes(normalize(category)) || tags.some((tag: string) => ['health', 'supplements', 'nutrition', 'medical-warning', 'vet-critical', 'emergency-vet'].includes(normalize(tag)));
 const hasUnsafeCommerceTag = tags.some((tag: string) => ['medical-warning', 'vet-critical', 'emergency-vet', 'diagnosis', 'treatment'].includes(normalize(tag)));
 const showCommercialMidContent = !isHealthSensitive && !hasUnsafeCommerceTag;
-const showProductRoundupCommerce = normalize(fm.postType) === 'product-roundup' && !hasUnsafeCommerceTag;
+const showProductRoundupCommerce = ['product-roundup', 'comparison'].includes(normalize(fm.postType)) && !hasUnsafeCommerceTag;
 
 const canonicalUrl = fm.canonicalUrl || `${SITE}/blog/${post.slug}`;
 const heroImage = fm.heroImage || fm.image || breed?.image_url || (Array.isArray(breed?.image_urls) ? breed.image_urls[0] : null) || '';
@@ -201,12 +201,15 @@ const relatedToolLinks = [
       topicTags={awinTopicTags}
       pageSlug={`/blog/${post.slug}`}
       category={cluster?.slug || normalize(category)}
+      cluster={cluster?.slug}
+      claimSensitivity={fm.claimSensitivity}
       breedSize={breed?.size_category || fm.breedSize}
       breedEnergy={breed?.energy_level || fm.breedEnergy}
       breedTraining={breed?.training_level}
       breedCoat={breed?.coat_type || fm.breedCoat}
-      heading={cluster ? `${cluster.shortTitle} shopping checklist` : 'Shopping checklist'}
-      description="Use these resources as starting points only. Confirm size, formula, materials, seller, availability, and whether the product fits your dog before buying."
+      breedName={breedName || undefined}
+      heading={cluster ? `${cluster.shortTitle} picks for your dog` : 'Top picks for your dog'}
+      description="Use these as a starting point. Confirm sizing, formula, materials, and availability before buying."
     />
   )}
 
