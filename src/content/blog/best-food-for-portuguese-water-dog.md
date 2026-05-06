@@ -1,4 +1,5 @@
 ---
+
 title: "Portuguese Water Dog Food Guide:"
 description: "A practical Portuguese Water Dog food guide for medium dogs, with nutrition notes, joint-support context, and owner-friendly comparison checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "portuguese-water-do
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/portuguese-water-dog", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageSource: "pexels"
+imageCredit: "Photo by cottonbro studio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/"
+imageSearchQuery: "Portuguese Water Dog dog eating healthy food"
 ---
+
 
 Feeding a Portuguese Water Dog well isn't as simple as grabbing the bag with the highest rating. Portuguese Water Dogs are medium dogs with active energy, a Lifespan of 11–13 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Portuguese Water Dog's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

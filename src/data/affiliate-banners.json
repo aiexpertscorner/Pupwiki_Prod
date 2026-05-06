@@ -47,7 +47,7 @@
         "beds"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-06T05:50:50.413Z",
+      "syncedAt": "2026-05-06T22:26:56.755Z",
       "imageFit": "contain"
     },
     {
@@ -83,7 +83,7 @@
         "accessories"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-06T05:50:50.413Z",
+      "syncedAt": "2026-05-06T22:26:56.755Z",
       "imageFit": "contain"
     },
     {
@@ -122,7 +122,7 @@
         "appliances"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-06T05:50:50.413Z",
+      "syncedAt": "2026-05-06T22:26:56.755Z",
       "imageFit": "contain"
     },
     {
@@ -160,7 +160,7 @@
         "gear"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-06T05:50:50.413Z",
+      "syncedAt": "2026-05-06T22:26:56.755Z",
       "imageFit": "contain"
     },
     {
@@ -192,7 +192,7 @@
         "gear"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-06T05:50:50.413Z",
+      "syncedAt": "2026-05-06T22:26:56.755Z",
       "imageFit": "contain"
     },
     {
@@ -224,7 +224,38 @@
         "nutrition"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-06T05:50:50.413Z",
+      "syncedAt": "2026-05-06T22:26:56.755Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "petmate-brand-logo",
+      "programKey": "petmate",
+      "advertiserId": "89913",
+      "advertiser": "Petmate",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Petmate brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
+      "alt": "Petmate logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner",
+        "beds"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-06T22:26:56.755Z",
       "imageFit": "contain"
     },
     {
@@ -258,7 +289,7 @@
         "lifestyle"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-06T05:50:50.413Z",
+      "syncedAt": "2026-05-06T22:26:56.755Z",
       "imageFit": "contain"
     },
     {

@@ -1,4 +1,5 @@
 ---
+
 title: "Scottish Terrier Dog Food Shopping Guide"
 description: "Breed-aware food guidance for Scottish Terrier owners, including formula fit, feeding routine, and vet-check reminders."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "scottish-terrier", 
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/scottish-terrier", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Westie dog lying on a wooden floor, charming and fluffy."
+imageAlt: "Westie dog lying on a wooden floor, charming and fluffy."
+imageSource: "pexels"
+imageCredit: "Photo by Alan han on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-west-highland-white-terrier-indoors-31163319/"
+imageSearchQuery: "Scottish Terrier dog eating healthy food"
 ---
+
 
 Feeding a Scottish Terrier well isn't as simple as grabbing the bag with the highest rating. Scottish Terriers are small dogs with regular energy, a Average lifespan of 10.7 years, and nutritional vulnerabilities that change across their life stages.
 Known genetic health concerns: **blood clotting disorder** — food choices that support joint and organ health are especially relevant.

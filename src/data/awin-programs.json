@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-06T05:50:50.414Z",
+  "syncedAt": "2026-05-06T22:26:56.758Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -408,6 +408,67 @@
       "bannerCount": 0
     },
     {
+      "key": "petmate",
+      "advertiserId": "89913",
+      "name": "Petmate",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.petmate.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "www.petmate.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 10,
+          "max": 15,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "34",
+        "approvalPercentage": 64.68,
+        "epc": 0.24,
+        "conversionRate": 4.07,
+        "validationDays": 6,
+        "awinIndex": 69.21
+      },
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
+      "topicTags": [
+        "partner",
+        "beds"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": true,
+      "feedIds": [
+        "107829"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
       "key": "mypetdmv-the-original-pet-drivers-license",
       "advertiserId": "118951",
       "name": "MyPetDMV - The original Pet Drivers License",
@@ -793,59 +854,6 @@
       "deeplink": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
       "topicTags": [
         "partner"
-      ],
-      "pageTypes": [
-        "blog",
-        "breed",
-        "category"
-      ],
-      "priority": 50,
-      "hasProductFeed": false,
-      "feedIds": [],
-      "hasCreatives": false,
-      "hasLogo": true,
-      "productCount": 0,
-      "bannerCount": 0
-    },
-    {
-      "key": "petmate",
-      "advertiserId": "89913",
-      "name": "Petmate",
-      "relationship": "pending",
-      "status": "Pending",
-      "isActive": false,
-      "displayUrl": "https://www.petmate.com",
-      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
-      "deeplinkEnabled": true,
-      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
-      "primarySector": "Pets & Pet Care",
-      "primaryRegion": {
-        "name": "United States of America",
-        "countryCode": "US"
-      },
-      "currencyCode": "USD",
-      "validDomains": [
-        {
-          "domain": "www.petmate.com"
-        }
-      ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "34",
-        "approvalPercentage": 64.68,
-        "epc": 0.24,
-        "conversionRate": 4.07,
-        "validationDays": 6,
-        "awinIndex": 69.21
-      },
-      "linkStatus": "online",
-      "staticProgramId": null,
-      "feedId": null,
-      "configuredDeeplink": "",
-      "deeplink": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
-      "topicTags": [
-        "partner",
-        "beds"
       ],
       "pageTypes": [
         "blog",
@@ -1596,6 +1604,29 @@
       ]
     },
     {
+      "key": "petmate",
+      "advertiserId": "89913",
+      "name": "Petmate",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "107829"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
+      "topicTags": [
+        "partner",
+        "beds"
+      ]
+    },
+    {
       "key": "mypetdmv-the-original-pet-drivers-license",
       "advertiserId": "118951",
       "name": "MyPetDMV - The original Pet Drivers License",
@@ -1749,27 +1780,6 @@
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
       "topicTags": [
         "partner"
-      ]
-    },
-    {
-      "key": "petmate",
-      "advertiserId": "89913",
-      "name": "Petmate",
-      "relationship": "pending",
-      "status": "Pending",
-      "isActive": false,
-      "hasProductFeed": false,
-      "feedIds": [],
-      "hasCreatives": false,
-      "hasLogo": true,
-      "productCount": 0,
-      "bannerCount": 0,
-      "deeplinkEnabled": true,
-      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
-      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
-      "topicTags": [
-        "partner",
-        "beds"
       ]
     },
     {
@@ -2019,15 +2029,15 @@
     }
   ],
   "stats": {
-    "joined": 7,
-    "pending": 18,
-    "feeds": 600,
+    "joined": 8,
+    "pending": 17,
+    "feeds": 604,
     "apiProducts": 0,
-    "programOfferProducts": 7,
-    "totalProducts": 9,
+    "programOfferProducts": 8,
+    "totalProducts": 10,
     "apiBanners": 0,
-    "logoBanners": 7,
-    "totalBanners": 13,
+    "logoBanners": 8,
+    "totalBanners": 14,
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",

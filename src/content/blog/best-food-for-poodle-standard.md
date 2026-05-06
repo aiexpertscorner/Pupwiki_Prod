@@ -1,4 +1,5 @@
 ---
+
 title: "Poodle (Standard) Food Guide: Large Breed Picks"
 description: "Compare dog food options for Poodle (Standard) dogs using breed size, regular energy, life stage, and health-sensitive buyer checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "poodle-standard", "
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/poodle-standard", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/4438308/pexels-photo-4438308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4438308/pexels-photo-4438308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Elegant poodle with a dog collar, captured at sunset creating a warm glow."
+imageAlt: "Elegant poodle with a dog collar, captured at sunset creating a warm glow."
+imageSource: "pexels"
+imageCredit: "Photo by Sharon  Snider on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-poodle-wearing-a-dog-collar-4438308/"
+imageSearchQuery: "Poodle (Standard) dog eating healthy food"
 ---
+
 
 Feeding a Poodle (Standard) well isn't as simple as grabbing the bag with the highest rating. Poodle (Standard)s are large dogs with regular energy, a Lifespan of 10–18 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Poodle (Standard)'s breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

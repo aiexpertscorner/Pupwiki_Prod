@@ -1,4 +1,5 @@
 ---
+
 title: "Shih Tzu Food Guide: food options for Puppy, Adult, and Senior Dogs"
 description: "Review Shih Tzu dog food choices by life stage, weight control, digestion, and small-breed needs."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "shih-tzu", "Shih Tz
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/shih-tzu", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/27175968/pexels-photo-27175968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27175968/pexels-photo-27175968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A woman in a casual outfit feeds her small dog indoors, creating a warm, cozy atmosphere."
+imageAlt: "A woman in a casual outfit feeds her small dog indoors, creating a warm, cozy atmosphere."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-feeding-dog-in-home-27175968/"
+imageSearchQuery: "Shih Tzu dog eating healthy food"
 ---
+
 
 Feeding a Shih Tzu well isn't as simple as grabbing the bag with the highest rating. Shih Tzus are small dogs with regular energy, a Average lifespan of 1.3 years, and nutritional vulnerabilities that change across their life stages.
 Known genetic health concerns: **eye problems** — food choices that support joint and organ health are especially relevant.

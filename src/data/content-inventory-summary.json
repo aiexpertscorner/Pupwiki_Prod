@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-06T01:49:56.216Z",
+  "generatedAt": "2026-05-06T22:27:07.884Z",
   "totals": {
     "breeds": 277,
     "crossbreeds": 75,
     "blogPosts": 2375,
     "astroPages": 25,
     "clusters": 15,
-    "awinJoinedPrograms": 7,
+    "awinJoinedPrograms": 8,
     "partnerProfilesGenerated": 7,
     "opportunities": 1000
   },
@@ -188,7 +188,8 @@
       },
       "monetization": {
         "awinPrograms": [
-          "Brutus Broth"
+          "Brutus Broth",
+          "Petmate"
         ],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true

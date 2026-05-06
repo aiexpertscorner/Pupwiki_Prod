@@ -20,7 +20,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-06T05:50:50.412Z"
+    "syncedAt": "2026-05-06T22:26:56.753Z"
   },
   {
     "id": "crownandpaw-partner-offer",
@@ -45,7 +45,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-06T05:50:50.412Z"
+    "syncedAt": "2026-05-06T22:26:56.754Z"
   },
   {
     "id": "chefpaw-partner-offer",
@@ -72,7 +72,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-06T05:50:50.412Z"
+    "syncedAt": "2026-05-06T22:26:56.754Z"
   },
   {
     "id": "jugbow-partner-offer",
@@ -99,7 +99,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-06T05:50:50.412Z"
+    "syncedAt": "2026-05-06T22:26:56.754Z"
   },
   {
     "id": "radiofence-com-partner-offer",
@@ -120,7 +120,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-06T05:50:50.412Z"
+    "syncedAt": "2026-05-06T22:26:56.754Z"
   },
   {
     "id": "raw-wild-llc-partner-offer",
@@ -141,7 +141,27 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-06T05:50:50.412Z"
+    "syncedAt": "2026-05-06T22:26:56.754Z"
+  },
+  {
+    "id": "petmate-partner-offer",
+    "name": "Petmate partner offer",
+    "description": "Visit Petmate for current pets & pet care offers and availability.",
+    "price": 0,
+    "currency": "USD",
+    "url": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
+    "image": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
+    "merchant": "Petmate",
+    "category": "Pets & Pet Care",
+    "advertiserId": "89913",
+    "programId": "petmate",
+    "topicTags": [
+      "partner",
+      "beds"
+    ],
+    "availability": "",
+    "source": "awin-program-fallback",
+    "syncedAt": "2026-05-06T22:26:56.754Z"
   },
   {
     "id": "mypetdmv-the-original-pet-drivers-license-partner-offer",
@@ -164,7 +184,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-06T05:50:50.412Z"
+    "syncedAt": "2026-05-06T22:26:56.754Z"
   },
   {
     "id": "rawwild-beef-chicken",

@@ -1,4 +1,5 @@
 ---
+
 title: "Shetland Sheepdog Food Guide: Small Breed Picks"
 description: "Compare dog food options for Shetland Sheepdog dogs using breed size, regular energy, life stage, and health-sensitive buyer checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "shetland-sheepdog",
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/shetland-sheepdog", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/28895800/pexels-photo-28895800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28895800/pexels-photo-28895800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Shetland Sheepdog enjoying the outdoors, playing with falling leaves in a green field."
+imageAlt: "Shetland Sheepdog enjoying the outdoors, playing with falling leaves in a green field."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-shetland-sheepdog-in-lush-green-field-28895800/"
+imageSearchQuery: "Shetland Sheepdog dog eating healthy food"
 ---
+
 
 Feeding a Shetland Sheepdog well isn't as simple as grabbing the bag with the highest rating. Shetland Sheepdogs are small dogs with regular energy, a Average lifespan of 12.5 years, and nutritional vulnerabilities that change across their life stages.
 Known genetic health concerns: **eye problems, deafness, skin + heart problems, blood clotting disorders** — food choices that support joint and organ health are especially relevant.

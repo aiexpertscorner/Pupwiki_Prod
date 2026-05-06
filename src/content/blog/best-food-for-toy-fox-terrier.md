@@ -1,4 +1,5 @@
 ---
+
 title: "Toy Fox Terrier Nutrition Shortlist for Everyday Feeding"
 description: "Review Toy Fox Terrier dog food choices by life stage, weight control, digestion, and small-breed needs."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "toy-fox-terrier", "
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/toy-fox-terrier", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living."
+imageAlt: "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living."
+imageSource: "pexels"
+imageCredit: "Photo by MART  PRODUCTION on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-eating-on-a-bowl-8434725/"
+imageSearchQuery: "Toy Fox Terrier dog eating healthy food"
 ---
+
 
 Feeding a Toy Fox Terrier well isn't as simple as grabbing the bag with the highest rating. Toy Fox Terriers are small dogs with active energy, a Lifespan of 13–15 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Toy Fox Terrier's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.
