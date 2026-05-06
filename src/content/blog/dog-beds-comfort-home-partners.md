@@ -17,6 +17,7 @@ amazonQueries: ["orthopedic dog bed washable cover", "washable dog crate bed", "
 internalLinkTargets: ["/categories/beds", "/categories/senior-dogs", "/categories/puppy", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
 indexInBlog: false
+noRoute: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "medium"
 monetizationIntent: "service"

@@ -28,6 +28,7 @@ export type BlogLikeEntry = {
     pubDate?: Date | string;
     indexInBlog?: boolean;
     noIndex?: boolean;
+    noRoute?: boolean;
     generated?: boolean;
     internalOnly?: boolean;
   };
@@ -102,6 +103,14 @@ export function isPublicBlogEntry(post: BlogLikeEntry) {
   if (post.data.indexInBlog === false) return false;
   if (post.data.internalOnly === true) return false;
   if (post.data.noIndex === true) return false;
+  return true;
+}
+
+export function isRoutableBlogEntry(post: BlogLikeEntry) {
+  // Controls static page generation only. Use noRoute:true to suppress a page entirely.
+  // indexInBlog:false only hides from feeds/hubs — the page still gets generated.
+  if (post.data.noRoute === true) return false;
+  if (post.data.internalOnly === true) return false;
   return true;
 }
 

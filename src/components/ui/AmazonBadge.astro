@@ -20,6 +20,9 @@ export interface Props {
   size?: 'sm' | 'md' | 'lg';
   /** Additional CSS class on wrapper */
   class?: string;
+  /** Accessible label override */
+  label?: string;
+  [key: string]: unknown;
 }
 
 const {
@@ -28,6 +31,8 @@ const {
   variant = 'horizontal',
   size = 'md',
   class: extraClass = '',
+  label,
+  ...rest
 } = Astro.props;
 
 const BADGE_SRC =
@@ -45,9 +50,10 @@ const HEIGHT = { sm: 28, md: 36, lg: 48 }[size];
   href={href}
   rel="nofollow sponsored"
   target="_blank"
-  aria-label="Available at Amazon"
+  aria-label={label || "Available at Amazon"}
   class={`amazon-badge-link ${extraClass}`}
   style="display:inline-block;line-height:0"
+  {...rest}
 >
   <img
     src={BADGE_SRC}

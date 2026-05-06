@@ -17,6 +17,7 @@ amazonQueries: ["dog food storage container", "slow feeder dog bowl", "dog broth
 internalLinkTargets: ["/categories/dog-food", "/categories/puppy", "/categories/senior-dogs", "/breeds", "/cost-calculator", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
 indexInBlog: false
+noRoute: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "service"

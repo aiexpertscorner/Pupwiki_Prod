@@ -110,6 +110,7 @@ for (const file of walk(blogDir, ['.md'])) {
   const slug = path.basename(file, '.md');
   const data = parseFrontmatter(fs.readFileSync(file, 'utf8'));
   if (String(data.noIndex || '').toLowerCase() === 'true') continue;
+  if (String(data.noRoute || '').toLowerCase() === 'true') continue;
   const isPartner = slug.startsWith('partner-') || data.category === 'PupWiki Partners';
   const isGenerated = String(data.generated || '').toLowerCase() === 'true';
   const priority = isPartner ? 0.58 : isGenerated ? 0.62 : 0.72;
