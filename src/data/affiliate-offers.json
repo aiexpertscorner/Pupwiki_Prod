@@ -1,12 +1,12 @@
 {
   "_meta": {
-    "description": "Intent-aware offer registry. All offers disabled by default — set enabled:true to activate.",
-    "last_updated": "2026-04-29"
+    "description": "Intent-aware offer registry.",
+    "last_updated": "2026-05-06"
   },
   "offers": [
     {
       "id": "pet-insurance-intro",
-      "enabled": false,
+      "enabled": true,
       "intent": "insurance",
       "pageTypes": ["breed", "cost-calculator", "health"],
       "placement": "mid-content",
@@ -24,7 +24,7 @@
     },
     {
       "id": "dna-test-discovery",
-      "enabled": false,
+      "enabled": true,
       "intent": "dna",
       "pageTypes": ["breed", "dog-names"],
       "placement": "pre-footer",
@@ -42,7 +42,7 @@
     },
     {
       "id": "online-vet-intro",
-      "enabled": false,
+      "enabled": true,
       "intent": "vet-care",
       "pageTypes": ["health", "breed"],
       "placement": "mid-content",
@@ -60,7 +60,7 @@
     },
     {
       "id": "fresh-food-intro",
-      "enabled": false,
+      "enabled": true,
       "intent": "food",
       "pageTypes": ["breed", "cost-calculator", "category"],
       "placement": "pre-footer",
