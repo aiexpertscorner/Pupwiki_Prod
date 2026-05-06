@@ -17,6 +17,7 @@ amazonQueries: ["no pull dog harness", "long leash recall training", "dog traini
 internalLinkTargets: ["/categories/training", "/categories/puppy", "/categories/travel", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
 indexInBlog: false
+noRoute: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "medium"
 monetizationIntent: "service"

@@ -17,6 +17,7 @@ amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort 
 internalLinkTargets: ["/categories/health", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
 indexInBlog: false
+noRoute: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "service"
