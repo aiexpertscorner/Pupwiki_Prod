@@ -1,5 +1,5 @@
 export const AMAZON_ASSOCIATE_TAG =
-  import.meta.env.PUBLIC_AMAZON_TAG || 'pupwiki-20';
+  import.meta.env.PUBLIC_AMAZON_TAG || 'aiexpertscorn-20';
 
 export const ENABLE_AMAZON_BUTTONS =
   import.meta.env.PUBLIC_ENABLE_AMAZON_BUTTONS !== 'false';

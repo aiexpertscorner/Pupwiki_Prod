@@ -17,6 +17,7 @@ amazonQueries: ["personalized dog gifts", "custom dog portrait", "dog owner gift
 internalLinkTargets: ["/categories/lifestyle", "/dog-names", "/categories/pupwiki-partners", "/breeds", "/disclosure"]
 generated: true
 indexInBlog: false
+noRoute: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "low"
 monetizationIntent: "service"

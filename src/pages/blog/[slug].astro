@@ -17,7 +17,7 @@ import PageBannerSlot from '../../components/affiliate/PageBannerSlot.astro';
 import AwinProductSlot from '../../components/affiliate/AwinProductSlot.astro';
 import ArticleCommerceSuite from '../../components/blog/ArticleCommerceSuite.astro';
 import { getContentCluster } from '../../lib/content/contentClusterConfig';
-import { isPublicBlogEntry } from '../../lib/categories/categoryHelpers';
+import { isRoutableBlogEntry } from '../../lib/categories/categoryHelpers';
 
 const SITE = 'https://pupwiki.com';
 const ALL_BREEDS = [...(masterBreeds as any[]), ...(masterCrossbreeds as any[])];
@@ -25,7 +25,7 @@ const ALL_BREEDS = [...(masterBreeds as any[]), ...(masterCrossbreeds as any[])]
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   return (posts as any[])
-    .filter(isPublicBlogEntry)
+    .filter(isRoutableBlogEntry)
     .map((post) => ({ params: { slug: post.slug }, props: { post } }));
 }
 

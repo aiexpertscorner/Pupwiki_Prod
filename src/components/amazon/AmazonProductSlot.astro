@@ -1,6 +1,9 @@
 ---
 import { matchAmazonProducts, type AmazonPlacementContext } from '../../lib/amazon/matchAmazonProducts';
+import { mergeAmazonProductsWithFallbacks } from '../../lib/amazon/amazonDeeplink';
 import AmazonBadge from '../ui/AmazonBadge.astro';
+import AmazonDisclosure from '../affiliate/AmazonDisclosure.astro';
+import AmazonClickTracker from '../affiliate/AmazonClickTracker.astro';
 
 let allProducts: any[] = [];
 try {
@@ -13,6 +16,8 @@ export interface Props extends AmazonPlacementContext {
   eyebrow?: string;
   note?: string;
   variant?: 'rail' | 'compact';
+  showDisclosure?: boolean;
+  placement?: string;
 }
 
 const {
@@ -20,11 +25,14 @@ const {
   eyebrow = 'Amazon.com',
   note = 'Product details can change. Confirm fit, availability, shipping, sizing, ingredients or materials on Amazon before buying.',
   variant = 'rail',
+  showDisclosure = true,
+  placement = 'article-slot',
   limit = variant === 'compact' ? 2 : 3,
   ...context
 } = Astro.props;
 
-const products = matchAmazonProducts(allProducts, { ...context, limit });
+const matched = matchAmazonProducts(allProducts, { ...context, limit });
+const products = mergeAmazonProductsWithFallbacks(matched, { ...context, limit });
 ---
 
 {products.length > 0 && (
@@ -40,7 +48,11 @@ const products = matchAmazonProducts(allProducts, { ...context, limit });
         const isSearch = product.source === 'amazon-search-template';
         const sourceLabel = isSearch ? 'Search shortcut' : 'Product resource';
         const categoryLabel = product.categoryLabel || product.categoryGroup || 'Dog supplies';
-        const placement = product.recommendedPlacement || (isSearch ? `Search Amazon.com for ${product.name.toLowerCase()} and compare current options.` : 'Selected for this dog-care topic. Confirm current details before buying.');
+        const cardPlacement = `${placement}|${product.id}`;
+        const placement2 = `${placement}|${isSearch ? 'search' : 'direct'}`;
+        const productDesc = product.recommendedPlacement || (isSearch
+          ? `Search Amazon.com for ${product.name.toLowerCase()} and compare current options.`
+          : 'Selected for this dog-care topic. Confirm current details before buying.');
         return (
           <article class:list={['amazon-slot__card', isSearch && 'amazon-slot__card--search']}>
             <span class="amazon-slot__source">{sourceLabel}</span>
@@ -51,7 +63,7 @@ const products = matchAmazonProducts(allProducts, { ...context, limit });
             </div>
 
             <h3>{product.name}</h3>
-            <p>{placement}</p>
+            <p>{productDesc}</p>
 
             {isSearch && product.amazonSearchQuery && (
               <p><strong>Search phrase:</strong> {product.amazonSearchQuery}</p>
@@ -64,11 +76,21 @@ const products = matchAmazonProducts(allProducts, { ...context, limit });
             )}
 
             <div class="amazon-slot__actions">
-              <AmazonBadge href={product.amazonAffiliateUrl} size={variant === 'compact' ? 'sm' : 'md'} label={isSearch ? 'Search Amazon.com' : undefined} />
+              <AmazonBadge
+                href={product.amazonAffiliateUrl}
+                size={variant === 'compact' ? 'sm' : 'md'}
+                label={isSearch ? 'Search Amazon.com' : undefined}
+                data-amazon-product-id={product.id}
+                data-amazon-product-name={product.name}
+                data-amazon-placement={cardPlacement}
+              />
             </div>
           </article>
         );
       })}
     </div>
+
+    {showDisclosure && <AmazonDisclosure />}
+    <AmazonClickTracker />
   </section>
 )}
