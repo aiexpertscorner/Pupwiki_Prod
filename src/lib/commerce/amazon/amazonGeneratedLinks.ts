@@ -1,4 +1,4 @@
-import { matchAmazonProducts } from '../../amazon/matchAmazonProducts';
+import { matchValidatedAmazonProducts } from '../../amazon/matchAmazonProducts';
 import { mergeAmazonProductsWithFallbacks } from '../../amazon/amazonDeeplink';
 import type { AmazonPlacementContext, AmazonProductRecord } from '../../amazon/amazonTypes';
 import { buildClusterQuery, buildTagsQuery, toAmazonSearchUrl } from './amazonSearchQueryBuilder';
@@ -37,7 +37,7 @@ export function resolveAmazonCTA(
 ): AmazonCTA | null {
   if (!isCommerceAllowed(context)) return null;
 
-  const matched = matchAmazonProducts(products, { ...context, limit: 1 });
+  const matched = matchValidatedAmazonProducts(products, { ...context, limit: 1 });
   if (matched.length > 0) return productToCTA(matched[0]);
 
   const cluster = context.cluster || context.category || '';
@@ -60,10 +60,8 @@ export function resolveAmazonCTAs(
   const intent = getAmazonPageIntent(context);
   const limit = context.limit ?? (intent === 'high' ? 3 : intent === 'medium' ? 2 : 1);
 
-  const merged = mergeAmazonProductsWithFallbacks(
-    matchAmazonProducts(products, context),
-    { ...context, limit }
-  );
+  const validated = matchValidatedAmazonProducts(products, { ...context, limit });
+  const merged = mergeAmazonProductsWithFallbacks(validated, { ...context, limit });
 
   return merged.slice(0, limit).map(productToCTA);
 }

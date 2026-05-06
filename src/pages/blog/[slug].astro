@@ -201,12 +201,15 @@ const relatedToolLinks = [
       topicTags={awinTopicTags}
       pageSlug={`/blog/${post.slug}`}
       category={cluster?.slug || normalize(category)}
+      cluster={cluster?.slug}
+      claimSensitivity={fm.claimSensitivity}
       breedSize={breed?.size_category || fm.breedSize}
       breedEnergy={breed?.energy_level || fm.breedEnergy}
       breedTraining={breed?.training_level}
       breedCoat={breed?.coat_type || fm.breedCoat}
-      heading={cluster ? `${cluster.shortTitle} shopping checklist` : 'Shopping checklist'}
-      description="Use these resources as starting points only. Confirm size, formula, materials, seller, availability, and whether the product fits your dog before buying."
+      breedName={breedName || undefined}
+      heading={cluster ? `${cluster.shortTitle} picks for your dog` : 'Top picks for your dog'}
+      description="Use these as a starting point. Confirm sizing, formula, materials, and availability before buying."
     />
   )}
 

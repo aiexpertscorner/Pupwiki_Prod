@@ -1,14 +1,17 @@
 ---
 import AwinProductSlot from '../affiliate/AwinProductSlot.astro';
-import AmazonProductSlot from '../amazon/AmazonProductSlot.astro';
+import AmazonProductSlot from '../affiliate/AmazonProductSlot.astro';
 
 export interface Props {
   topicTags: string[];
   category?: string;
+  cluster?: string;
+  claimSensitivity?: string;
   breedSize?: string;
   breedEnergy?: string;
   breedTraining?: string;
   breedCoat?: string;
+  breedName?: string;
   pageSlug?: string;
   showAmazon?: boolean;
   showAwin?: boolean;
@@ -19,10 +22,13 @@ export interface Props {
 const {
   topicTags = [],
   category = '',
+  cluster,
+  claimSensitivity,
   breedSize,
   breedEnergy,
   breedTraining,
   breedCoat,
+  breedName,
   pageSlug = '',
   showAmazon = true,
   showAwin = true,
@@ -43,7 +49,7 @@ const {
       <AwinProductSlot
         topicTags={topicTags}
         pageType="blog"
-        category={category}
+        category={cluster || category}
         breedSize={breedSize}
         breedEnergy={breedEnergy}
         breedTraining={breedTraining}
@@ -57,12 +63,15 @@ const {
         topicTags={topicTags}
         pageType="blog"
         pageSlug={pageSlug}
-        category={category}
+        category={cluster || category}
+        cluster={cluster}
+        claimSensitivity={claimSensitivity}
         breedSize={breedSize}
         breedEnergy={breedEnergy}
         breedCoat={breedCoat}
+        breedName={breedName}
         headline="Amazon picks"
-        limit={3}
+        placement={`article-suite|${cluster || category}`}
       />
     )}
   </div>

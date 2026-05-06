@@ -3,23 +3,17 @@ import AmazonProductCard from './AmazonProductCard.astro';
 import AmazonDisclosure from './AmazonDisclosure.astro';
 import AmazonClickTracker from './AmazonClickTracker.astro';
 import { ENABLE_AMAZON_BUTTONS } from '../../lib/amazon/amazonConfig';
-import { matchAmazonProducts } from '../../lib/amazon/matchAmazonProducts';
-import type {
-  AmazonPlacementContext,
-  AmazonProductRecord,
-} from '../../lib/amazon/amazonTypes';
-
-import '../../styles/components/amazon-affiliate.css';
+import { resolveAmazonCTAs } from '../../lib/commerce/amazon/amazonGeneratedLinks';
+import type { AmazonCTAContext } from '../../lib/commerce/amazon/amazonGeneratedLinks';
+import type { AmazonProductRecord } from '../../lib/amazon/amazonTypes';
 
 let allProducts: AmazonProductRecord[] = [];
 try {
   const imported = await import('../../data/amazon-products.json');
   allProducts = Array.isArray(imported.default) ? imported.default : [];
-} catch {
-  allProducts = [];
-}
+} catch {}
 
-export interface Props extends AmazonPlacementContext {
+export interface Props extends AmazonCTAContext {
   headline?: string;
   eyebrow?: string;
   description?: string;
@@ -31,8 +25,8 @@ export interface Props extends AmazonPlacementContext {
 
 const {
   headline = 'Useful Amazon.com picks for dog parents',
-  eyebrow = 'Amazon.com partner picks',
-  description = 'Amazon.com recommended products.',
+  eyebrow = 'Amazon.com picks',
+  description = 'Curated for this topic. Confirm sizing, ingredients, and availability on Amazon before buying.',
   variant = 'card',
   placement = 'amazon-slot',
   columns = 3,
@@ -40,60 +34,98 @@ const {
   pageType = 'category',
   pageSlug = Astro.url.pathname,
   category,
+  cluster,
+  claimSensitivity,
   topicTags = [],
   breedSize,
   breedEnergy,
   breedCoat,
   breedLifeStage,
+  breedName,
   excludeProductIds = [],
-  limit = 3,
+  limit,
   allowMediumRisk = true,
   allowHighRisk = false,
 } = Astro.props;
 
-const products = ENABLE_AMAZON_BUTTONS
-  ? matchAmazonProducts(allProducts, {
+const ctas = ENABLE_AMAZON_BUTTONS
+  ? resolveAmazonCTAs(allProducts, {
       pageType,
       pageSlug,
       category,
+      cluster,
+      claimSensitivity,
       topicTags,
       breedSize,
       breedEnergy,
       breedCoat,
       breedLifeStage,
+      breedName,
       excludeProductIds,
       limit,
       allowMediumRisk,
       allowHighRisk,
     })
   : [];
+
+const productById = new Map(allProducts.map((p) => [p.id, p]));
 ---
 
-{products.length > 0 && (
-  <section class="amazon-slot" aria-label={headline}>
-    <div class="amazon-slot__shell">
-      <div class="amazon-slot__header">
-        <p class="amazon-slot__eyebrow">{eyebrow}</p>
-        <h2 class="amazon-slot__title">{headline}</h2>
-        <p class="amazon-slot__description">{description}</p>
-      </div>
-
-      <div
-        class="amazon-slot__grid"
-        style={`--amazon-cols:${columns}`}
-      >
-        {products.map((product) => (
-          <AmazonProductCard
-            product={product}
-            variant={variant}
-            placement={placement}
-          />
-        ))}
-      </div>
-
-      {showDisclosure && <AmazonDisclosure />}
+{ctas.length > 0 && (
+  <section
+    class:list={['amazon-slot', variant === 'compact' && 'amazon-slot--compact']}
+    style={`--amazon-cols:${Math.min(columns, ctas.length)}`}
+    aria-label={headline}
+  >
+    <div class="amazon-slot__header">
+      <p>{eyebrow}</p>
+      <h2>{headline}</h2>
+      <span>{description}</span>
     </div>
 
+    <div class="amazon-slot__grid">
+      {ctas.map((cta) => {
+        const cardPlacement = `${placement}|${cta.productId || 'search'}`;
+        const full = cta.productId ? productById.get(cta.productId) : null;
+
+        return full
+          ? <AmazonProductCard product={full} variant={variant} placement={cardPlacement} />
+          : (
+            <article
+              class="amazon-slot__card amazon-slot__card--search"
+              data-amazon-product-id="amazon-search"
+              data-amazon-product-name={cta.label}
+              data-amazon-placement={cardPlacement}
+            >
+              <div class="amazon-card__icon" aria-hidden="true">🔍</div>
+              <div class="amazon-card__body">
+                <p class="amazon-card__meta">
+                  <span>Amazon.com</span>
+                  <span>Search shortcut</span>
+                </p>
+                <h3 class="amazon-card__title">{cta.label}</h3>
+                {cta.query && (
+                  <p class="amazon-card__note">
+                    Search: <em>{cta.query}</em>
+                  </p>
+                )}
+                <div class="amazon-card__actions">
+                  <a
+                    href={cta.url}
+                    target="_blank"
+                    rel="nofollow sponsored noopener"
+                    class="amazon-card__button"
+                  >
+                    Search Amazon.com →
+                  </a>
+                </div>
+              </div>
+            </article>
+          );
+      })}
+    </div>
+
+    {showDisclosure && <AmazonDisclosure />}
     <AmazonClickTracker />
   </section>
 )}
