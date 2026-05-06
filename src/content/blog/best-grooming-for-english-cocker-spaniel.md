@@ -1,4 +1,5 @@
 ---
+
 title: "English Cocker Spaniel Grooming Guide: brushes and shampoo for English Cocker Spaniel"
 description: "Compare grooming tools for English Cocker Spaniel dogs by silky coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "english-cocker-spaniel", "English Cocke
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/english-cocker-spaniel", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively."
+imageAlt: "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively."
+imageSource: "pexels"
+imageCredit: "Photo by SlimMars 13 on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/"
+imageSearchQuery: "English Cocker Spaniel dog grooming"
 ---
+
 
 English Cocker Spaniels have a **silky coat** that requires 2-3 times a week brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common English Cocker Spaniel grooming mistake: using the wrong tool for the coat type. Pin brush + detangling spray — slicker brushes can split silky hair — anything else is ineffective or damaging.

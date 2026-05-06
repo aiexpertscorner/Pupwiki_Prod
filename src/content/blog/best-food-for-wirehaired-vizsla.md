@@ -1,4 +1,5 @@
 ---
+
 title: "Wirehaired Vizsla Formula Fit: Kibble, Protein, and Feeding Notes"
 description: "A practical Wirehaired Vizsla food guide for medium dogs, with nutrition notes, joint-support context, and owner-friendly comparison checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "wirehaired-vizsla",
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/wirehaired-vizsla", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/19324999/pexels-photo-19324999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19324999/pexels-photo-19324999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A brown dog lying on a frozen lake in winter, captured with selective focus."
+imageAlt: "A brown dog lying on a frozen lake in winter, captured with selective focus."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dog-lying-on-the-ice-19324999/"
+imageSearchQuery: "Wirehaired Vizsla dog eating healthy food"
 ---
+
 
 Feeding a Wirehaired Vizsla well isn't as simple as grabbing the bag with the highest rating. Wirehaired Vizslas are medium dogs with active energy, a Lifespan of 12–14 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Wirehaired Vizsla's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

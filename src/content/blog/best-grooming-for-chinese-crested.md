@@ -1,4 +1,5 @@
 ---
+
 title: "Chinese Crested Grooming Guide by Coat Type"
 description: "Compare grooming tools for Chinese Crested dogs by hairless coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "chinese-crested", "Chinese Crested", "s
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/chinese-crested", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/36380498/pexels-photo-36380498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36380498/pexels-photo-36380498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Chinese Crested Dog standing on gravel with blurred background, showcasing its distinctive fur."
+imageAlt: "A Chinese Crested Dog standing on gravel with blurred background, showcasing its distinctive fur."
+imageSource: "pexels"
+imageCredit: "Photo by Veronika Andrews on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/chinese-crested-dog-standing-on-gravel-surface-36380498/"
+imageSearchQuery: "Chinese Crested dog grooming"
 ---
+
 
 Chinese Cresteds have a **hairless coat** that requires occasional bath/brush. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Chinese Crested grooming mistake: using the wrong tool for the coat type. Standard slicker brush — anything else is ineffective or damaging.

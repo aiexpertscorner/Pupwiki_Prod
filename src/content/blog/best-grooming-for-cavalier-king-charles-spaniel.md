@@ -1,4 +1,5 @@
 ---
+
 title: "Cavalier King Charles Spaniel Grooming Routine and Tool Shortlist"
 description: "A breed-aware Cavalier King Charles Spaniel grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "cavalier-king-charles-spaniel", "Cavali
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/cavalier-king-charles-spaniel", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/23427657/pexels-photo-23427657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/23427657/pexels-photo-23427657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Cavalier King Charles Spaniel sleeping on a blue table during a dog show."
+imageAlt: "A cute Cavalier King Charles Spaniel sleeping on a blue table during a dog show."
+imageSource: "pexels"
+imageCredit: "Photo by Dmitry Ovsyannikov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/king-charles-spaniel-sleeping-on-a-table-during-a-dog-show-23427657/"
+imageSearchQuery: "Cavalier King Charles Spaniel dog grooming"
 ---
+
 
 Cavalier King Charles Spaniels have a **silky coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Cavalier King Charles Spaniel grooming mistake: using the wrong tool for the coat type. Pin brush + detangling spray — slicker brushes can split silky hair — anything else is ineffective or damaging.

@@ -1,4 +1,5 @@
 ---
+
 title: "Border Terrier Grooming Shopping Guide"
 description: "Shortlist Border Terrier grooming products with coat care, wiry fur, handling, and cleanup in view."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "border-terrier", "Border Terrier", "sma
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/border-terrier", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A female pet groomer trims a terrier dog's fur in an indoor grooming salon."
+imageAlt: "A female pet groomer trims a terrier dog's fur in an indoor grooming salon."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/"
+imageSearchQuery: "Border Terrier dog grooming"
 ---
+
 
 Border Terriers have a **wiry coat** that requires weekly brushing. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Border Terrier grooming mistake: using the wrong tool for the coat type. Slicker brush + stripping comb — wire coats need hand-stripping not clipping — anything else is ineffective or damaging.

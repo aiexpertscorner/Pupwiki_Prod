@@ -1,4 +1,5 @@
 ---
+
 title: "Wirehaired Pointing Griffon Food Guide for Active Energy Levels"
 description: "Compare dog food options for Wirehaired Pointing Griffon dogs using breed size, active energy, life stage, and health-sensitive buyer checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "wirehaired-pointing
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/wirehaired-pointing-griffon", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Wirehaired Pointing Griffon dog standing outdoors during fall."
+imageAlt: "A Wirehaired Pointing Griffon dog standing outdoors during fall."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/wirehaired-pointing-griffon-standing-outdoors-28811074/"
+imageSearchQuery: "Wirehaired Pointing Griffon dog eating healthy food"
 ---
+
 
 Feeding a Wirehaired Pointing Griffon well isn't as simple as grabbing the bag with the highest rating. Wirehaired Pointing Griffons are large dogs with active energy, a Lifespan of 12–15 years, and nutritional vulnerabilities that change across their life stages.
 We spent time cross-referencing 30+ dog food formulas against the Wirehaired Pointing Griffon's breed profile — size, energy output, shedding level, and known health risks — to give you concrete, honest picks for 2026.

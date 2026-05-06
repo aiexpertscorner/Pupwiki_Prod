@@ -1,4 +1,5 @@
 ---
+
 title: "Bichon Frise Grooming Guide: tools for Bichon Frise"
 description: "A breed-aware Bichon Frise grooming guide covering brushes, shampoo, nail tools, and home-care routines."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "bichon-frise", "Bichon Frise", "small",
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/bichon-frise", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/16109762/pexels-photo-16109762.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16109762/pexels-photo-16109762.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy Bichon Frise dog standing on a tree stump in a rural landscape."
+imageAlt: "A fluffy Bichon Frise dog standing on a tree stump in a rural landscape."
+imageSource: "pexels"
+imageCredit: "Photo by David Brown on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bichon-frise-standing-on-a-tree-trunk-16109762/"
+imageSearchQuery: "Bichon Frise dog grooming"
 ---
+
 
 Bichon Frises have a **curly coat** that requires specialty/professional. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Bichon Frise grooming mistake: using the wrong tool for the coat type. Wide-tooth comb + slicker brush — never a deshedding tool on curly coats — anything else is ineffective or damaging.

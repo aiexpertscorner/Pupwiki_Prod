@@ -1,4 +1,5 @@
 ---
+
 title: "Central Asian Shepherd Dog Grooming Routine and Tool Shortlist"
 description: "Compare grooming tools for Central Asian Shepherd Dogs by double coat type, shedding, bath routine, and nail-care needs."
 pubDate: 2026-03-22
@@ -33,7 +34,16 @@ awinTopicTags: ["grooming", "Grooming", "central-asian-shepherd-dog", "Central A
 amazonQueries: ["dog brush for shedding coat", "gentle dog shampoo", "dog nail grinder clippers", "dog joint supplement", "dog probiotic supplement", "dog skin and coat supplement"]
 internalLinkTargets: ["/breeds/central-asian-shepherd-dog", "/categories/grooming", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cozy indoor scene of a person grooming a large fluffy dog using a brush."
+imageAlt: "A cozy indoor scene of a person grooming a large fluffy dog using a brush."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-brushing-the-dog-s-fur-8498543/"
+imageSearchQuery: "Central Asian Shepherd Dog dog grooming"
 ---
+
 
 Central Asian Shepherd Dogs have a **double coat** that requires occasional bath/brush. Get this right and you'll have a healthier dog, less hair on your furniture, and the ability to spot skin issues, parasites, and lumps early — grooming is as much health monitoring as it is aesthetics.
 The most common Central Asian Shepherd Dog grooming mistake: using the wrong tool for the coat type. FURminator or Undercoat Rake — standard brushes don't reach the undercoat — anything else is ineffective or damaging.

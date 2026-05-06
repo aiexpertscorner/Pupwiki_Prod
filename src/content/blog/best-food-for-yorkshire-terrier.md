@@ -1,4 +1,5 @@
 ---
+
 title: "Yorkshire Terrier Food Options for Weight and Digestion"
 description: "A practical Yorkshire Terrier food guide for small dogs, with nutrition notes, joint-support context, and owner-friendly comparison checks."
 pubDate: 2026-03-22
@@ -35,7 +36,16 @@ awinTopicTags: ["food", "dog-food", "dog food", "Dog Food", "yorkshire-terrier",
 amazonQueries: ["airtight dog food storage container", "slow feeder dog bowl", "puppy food small breed large breed", "senior dog food", "dog training treats", "no pull dog harness"]
 internalLinkTargets: ["/breeds/yorkshire-terrier", "/categories/dog-food", "/cost-calculator", "/dog-names", "/categories/puppy", "/categories/senior-dogs", "/categories/insurance"]
 indexInBlog: false
+heroImage: "https://images.pexels.com/photos/34912310/pexels-photo-34912310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34912310/pexels-photo-34912310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Yorkshire Terrier dog with fluffy coat relaxing outdoors on a sunny day."
+imageAlt: "Adorable Yorkshire Terrier dog with fluffy coat relaxing outdoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-yorkshire-terrier-relaxing-outdoors-34912310/"
+imageSearchQuery: "Yorkshire Terrier dog eating healthy food"
 ---
+
 
 Feeding a Yorkshire Terrier well isn't as simple as grabbing the bag with the highest rating. Yorkshire Terriers are small dogs with regular energy, a Average lifespan of 1.3 years, and nutritional vulnerabilities that change across their life stages.
 Known genetic health concerns: **knee, liver, trachea, eye disorders** — food choices that support joint and organ health are especially relevant.
