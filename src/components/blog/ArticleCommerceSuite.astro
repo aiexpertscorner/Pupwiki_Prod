@@ -26,8 +26,8 @@ const {
   pageSlug = '',
   showAmazon = true,
   showAwin = true,
-  heading = 'Current partner and Amazon.com options',
-  description = 'These resources are matched to the dog-care topic, breed context, and current product details. Always confirm formula, size, availability, and seller details before purchase.',
+  heading = 'Top-rated picks for your dog',
+  description = 'Curated for this topic and your dog\'s profile. Always check current sizing, formula, and seller details before buying.',
 } = Astro.props;
 ---
 
@@ -47,7 +47,7 @@ const {
         breedSize={breedSize}
         breedEnergy={breedEnergy}
         breedTraining={breedTraining}
-        headline="Dog-care brand match"
+        headline="Recommended for this topic"
         monetizationIntent="high"
       />
     )}
@@ -61,7 +61,7 @@ const {
         breedSize={breedSize}
         breedEnergy={breedEnergy}
         breedCoat={breedCoat}
-        headline="Amazon.com matches"
+        headline="Amazon picks"
         limit={3}
       />
     )}
