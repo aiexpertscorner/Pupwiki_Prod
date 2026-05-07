@@ -1,24 +1,38 @@
 ---
 /**
- * BreedImage.astro — resilient, mobile-first breed image / mini-gallery component
+ * BreedImage.astro — resilient, mobile-first breed image / mini-gallery component.
  *
- * Mobile refinements:
- * - Uses a stable aspect-ratio instead of fixed square height.
- * - Hero variant is full-width on mobile.
- * - Thumbnail rail always sits below the main image on mobile.
- * - Prevents old absolute/negative gallery styles from overlapping the hero image.
- * - Thumbnail rail scrolls horizontally on small screens.
- * - Fallback is visually consistent with image frame.
- * - JS resets loading state when switching images.
+ * Supports two gallery item shapes:
+ *   Legacy (Dog CEO): { url, source, role, dog_ceo_path, ... }
+ *   Pexels (new):     { url, card_url, thumb_url, hero_url, portrait_url,
+ *                       landscape_url, source: "pexels", pexels_id, ... }
+ *
+ * When Pexels items are present:
+ *   - Variant "card"   uses card_url (500px wide) for the main image
+ *   - Variant "hero"   uses hero_url (large2x, ~1880px) for the main image
+ *   - Thumbnails       use thumb_url (tiny, ~280px)
+ *   - srcset is generated so the browser picks the right resolution
  */
 
 export interface BreedImageGalleryItem {
   url?: string;
   image_url?: string;
+  // Pexels multi-size variants
+  card_url?: string;
+  thumb_url?: string;
+  hero_url?: string;
+  portrait_url?: string;
+  landscape_url?: string;
+  // metadata
   source?: string;
   role?: string;
   dog_ceo_path?: string;
   parent_breed_name?: string;
+  photographer?: string;
+  photographer_url?: string;
+  pexels_url?: string;
+  pexels_id?: number;
+  alt?: string;
 }
 
 export interface Props {
@@ -65,43 +79,87 @@ const SIZE_EMOJI: Record<string, string> = {
 
 function uniqueUrls(urls: unknown[]) {
   const seen = new Set<string>();
-
   return urls
     .filter((url): url is string => typeof url === 'string' && /^https?:\/\//.test(url))
-    .filter((url) => {
-      if (seen.has(url)) return false;
-      seen.add(url);
-      return true;
-    });
+    .filter((url) => { if (seen.has(url)) return false; seen.add(url); return true; });
 }
 
-const galleryUrls = uniqueUrls([
-  ...(Array.isArray(breed.image_gallery)
-    ? breed.image_gallery.map((item) => item.url || item.image_url)
-    : []),
+/** Pick the best display URL for the main image based on variant. */
+function primaryDisplayUrl(item: BreedImageGalleryItem, v: string): string {
+  if (v === 'card' && item.card_url) return item.card_url;
+  if (v === 'hero' && item.hero_url) return item.hero_url;
+  if (v === 'single' && (item.hero_url || item.url)) return item.hero_url || item.url || '';
+  return item.url || item.image_url || '';
+}
+
+/** Pick the best URL for a thumbnail. */
+function thumbDisplayUrl(item: BreedImageGalleryItem): string {
+  return item.thumb_url || item.card_url || item.url || item.image_url || '';
+}
+
+/**
+ * Build a srcset string for a Pexels gallery item.
+ * Only generated when multi-size URLs are available.
+ */
+function buildSrcset(item: BreedImageGalleryItem): string | undefined {
+  const parts: string[] = [];
+  if (item.thumb_url) parts.push(`${item.thumb_url} 280w`);
+  if (item.card_url) parts.push(`${item.card_url} 500w`);
+  if (item.url) parts.push(`${item.url} 940w`);
+  if (item.hero_url && item.hero_url !== item.url) parts.push(`${item.hero_url} 1880w`);
+  return parts.length > 1 ? parts.join(', ') : undefined;
+}
+
+function sizesAttr(v: string): string {
+  if (v === 'card') return '(max-width: 480px) 100vw, (max-width: 768px) 50vw, 320px';
+  if (v === 'hero') return '(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 640px';
+  return '(max-width: 768px) 100vw, 500px';
+}
+
+// Collect all gallery items (new rich items + legacy plain-URL items)
+const rawGallery = Array.isArray(breed.image_gallery) ? breed.image_gallery : [];
+const legacyUrls = uniqueUrls([
   ...(Array.isArray(breed.image_urls) ? breed.image_urls : []),
   breed.image_url,
   ...(Array.isArray(breed.image_url_candidates)
-    ? breed.image_url_candidates.map((item) => item.url || item.image_url)
+    ? breed.image_url_candidates.map((i) => i.url || i.image_url)
     : []),
   breed.image_url_parent_1,
   breed.image_url_parent_2,
-]).slice(0, 5);
+]);
 
-const primaryUrl = galleryUrls[0] || '';
+// Merge: gallery items first, then fill from legacy URLs not already in gallery
+const galleryItemUrls = new Set(rawGallery.map((i) => i.url || i.image_url).filter(Boolean));
+const extraLegacyItems: BreedImageGalleryItem[] = legacyUrls
+  .filter((u) => !galleryItemUrls.has(u))
+  .map((u) => ({ url: u, source: 'legacy' }));
+
+const allItems: BreedImageGalleryItem[] = [...rawGallery, ...extraLegacyItems].slice(0, 5);
+
+// Stable list of primary-display URLs (for JS gallery navigation)
+const galleryDisplayUrls = uniqueUrls(
+  allItems.map((item) => primaryDisplayUrl(item, variant))
+);
+
+const primaryItem = allItems[0];
+const primaryUrl = primaryItem ? primaryDisplayUrl(primaryItem, variant) : '';
+const primarySrcset = primaryItem ? buildSrcset(primaryItem) : undefined;
+
 const emoji = SIZE_EMOJI[breed.size_category || ''] || '🐾';
 const alt = breed.image_alt || `${breed.name} dog`;
 const loading = priority ? 'eager' : 'lazy';
 const fetchpriority = priority ? 'high' : 'auto';
-const hasImages = galleryUrls.length > 0;
-const galleryJson = JSON.stringify(galleryUrls);
+const hasImages = galleryDisplayUrls.length > 0;
+
+// Pass full gallery data to JS (for error fallback navigation)
+const galleryJson = JSON.stringify(galleryDisplayUrls);
 ---
 
 <div
   class:list={[
     'breed-image',
     `breed-image--${variant}`,
-    showGallery && galleryUrls.length > 1 && 'breed-image--with-gallery',
+    showGallery && allItems.length > 1 && 'breed-image--with-gallery',
     !hasImages && 'breed-image--fallback-only',
     className,
   ]}
@@ -114,6 +172,8 @@ const galleryJson = JSON.stringify(galleryUrls);
       <div class="breed-image__main">
         <img
           src={primaryUrl}
+          srcset={primarySrcset}
+          sizes={primarySrcset ? sizesAttr(variant) : undefined}
           alt={alt}
           width={width}
           height={height}
@@ -130,19 +190,23 @@ const galleryJson = JSON.stringify(galleryUrls);
         </div>
       </div>
 
-      {showGallery && galleryUrls.length > 1 && (
+      {showGallery && allItems.length > 1 && (
         <div class="breed-image__thumbs" aria-label={`${breed.name} image gallery`}>
-          {galleryUrls.map((url, index) => (
-            <button
-              type="button"
-              class:list={['breed-image__thumb', index === 0 && 'is-active']}
-              data-breed-image-thumb
-              data-src={url}
-              aria-label={`Show ${breed.name} image ${index + 1}`}
-            >
-              <img src={url} alt="" loading="lazy" decoding="async" />
-            </button>
-          ))}
+          {allItems.map((item, index) => {
+            const tUrl = thumbDisplayUrl(item);
+            const dUrl = primaryDisplayUrl(item, variant);
+            return (
+              <button
+                type="button"
+                class:list={['breed-image__thumb', index === 0 && 'is-active']}
+                data-breed-image-thumb
+                data-src={dUrl}
+                aria-label={`Show ${breed.name} image ${index + 1}`}
+              >
+                <img src={tUrl || dUrl} alt="" loading="lazy" decoding="async" />
+              </button>
+            );
+          })}
         </div>
       )}
     </>
@@ -163,7 +227,6 @@ const galleryJson = JSON.stringify(galleryUrls);
     const thumbs = Array.from(root.querySelectorAll('[data-breed-image-thumb]')) as HTMLButtonElement[];
 
     let gallery: string[] = [];
-
     try {
       gallery = JSON.parse((root as HTMLElement).dataset.gallery || '[]');
     } catch {
@@ -175,73 +238,52 @@ const galleryJson = JSON.stringify(galleryUrls);
     const showFallback = () => {
       if (main) main.hidden = true;
       if (fallback) fallback.hidden = false;
-      thumbs.forEach((thumb) => (thumb.hidden = true));
+      thumbs.forEach((t) => (t.hidden = true));
     };
 
     const setActiveThumb = (src: string) => {
-      thumbs.forEach((thumb) => {
-        const isActive = thumb.dataset.src === src;
-        thumb.classList.toggle('is-active', isActive);
-        thumb.setAttribute('aria-pressed', String(isActive));
+      thumbs.forEach((t) => {
+        const isActive = t.dataset.src === src;
+        t.classList.toggle('is-active', isActive);
+        t.setAttribute('aria-pressed', String(isActive));
       });
     };
 
     const setImage = (src: string) => {
       if (!main || !src) return;
-
       main.hidden = false;
       main.classList.remove('is-loaded');
-
       if (fallback) fallback.hidden = true;
-
       if (main.src !== src) {
+        main.removeAttribute('srcset');
         main.src = src;
       } else if (main.complete && main.naturalWidth > 0) {
         main.classList.add('is-loaded');
       }
-
       setActiveThumb(src);
     };
 
     const tryNextImage = () => {
-      if (!main || !gallery.length) {
-        showFallback();
-        return;
-      }
-
+      if (!main || !gallery.length) { showFallback(); return; }
       activeIndex += 1;
-
-      if (activeIndex >= gallery.length) {
-        showFallback();
-        return;
-      }
-
+      if (activeIndex >= gallery.length) { showFallback(); return; }
       setImage(gallery[activeIndex]);
     };
 
     if (main) {
       if (main.complete && main.naturalWidth > 0) main.classList.add('is-loaded');
-
-      main.addEventListener('load', () => {
-        main.classList.add('is-loaded');
-      });
-
+      main.addEventListener('load', () => main.classList.add('is-loaded'));
       main.addEventListener('error', tryNextImage);
     }
 
     thumbs.forEach((thumb, index) => {
       const thumbImage = thumb.querySelector('img') as HTMLImageElement | null;
-
       thumb.setAttribute('aria-pressed', String(index === 0));
-
       thumb.addEventListener('click', () => {
         activeIndex = index;
         setImage(thumb.dataset.src || '');
       });
-
-      thumbImage?.addEventListener('error', () => {
-        thumb.hidden = true;
-      });
+      thumbImage?.addEventListener('error', () => { thumb.hidden = true; });
     });
   });
 </script>

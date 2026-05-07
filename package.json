@@ -52,19 +52,25 @@
     "images:content": "node scripts/enrich-content-images.mjs --apply --limit 120",
     "images:content:force": "node scripts/enrich-content-images.mjs --apply --force --limit 120",
     "images:content:ci": "node scripts/enrich-content-images.mjs --apply --limit 80 || echo \"Pexels content image enrichment failed or skipped; continuing build with existing images\"",
-    "images:enrich": "node scripts/enrich-breed-image-gallery.mjs",
-    "images:enrich:force": "node scripts/enrich-breed-image-gallery.mjs --force --count 5",
+    "images:enrich": "node scripts/enrich-breed-image-gallery.mjs --force --count 5",
     "images:enrich:ci": "node scripts/enrich-breed-image-gallery.mjs --force --count 5 || echo \"Image enrichment failed; continuing build with existing image data\"",
     "images:enrich:breeds": "node scripts/enrich-breed-image-gallery.mjs --target breeds --force --count 5",
     "images:enrich:crossbreeds": "node scripts/enrich-breed-image-gallery.mjs --target crossbreeds --force --count 5",
-    "images:enrich:german-shepherd": "node scripts/enrich-breed-image-gallery.mjs --slug german-shepherd-dog --force --count 5"
+    "images:enrich:pexels-only": "node scripts/enrich-breed-image-gallery.mjs --force --count 5 --pexels-only",
+    "images:enrich:dogceo-only": "node scripts/enrich-breed-image-gallery.mjs --force --count 5 --dogceo-only",
+    "images:enrich:mixed": "node scripts/enrich-breed-image-gallery.mjs --target crossbreeds --force --count 5",
+    "images:enrich:slug": "node scripts/enrich-breed-image-gallery.mjs --force --count 5 --slug"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^5.1.0",
-    "@astrojs/sitemap": "^3.1.6",
     "@astrojs/rss": "^4.0.7",
+    "@astrojs/sitemap": "^3.1.6",
+    "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.15.0",
-    "tailwindcss": "^3.4.13",
-    "astro-compress": "^2.3.0"
+    "astro-compress": "^2.3.0",
+    "tailwindcss": "^3.4.13"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "typescript": "^5.9.3"
   }
 }
