@@ -214,6 +214,16 @@ const relatedGuides = [
   },
 ];
 
+const similarBreeds = (() => {
+  const byBoth = allBreeds.filter(
+    (ob: any) => ob.slug !== slug && ob.size_category === b.size_category && ob.energy_level === b.energy_level,
+  ).slice(0, 4);
+  if (byBoth.length >= 2) return byBoth;
+  return allBreeds.filter(
+    (ob: any) => ob.slug !== slug && ob.size_category === b.size_category,
+  ).slice(0, 4);
+})();
+
 const pageTitle = b.seo?.title || `${b.name} Dog Breed Guide — Traits, Care, Costs & Owner Fit`;
 const pageDescription =
   b.seo?.description ||
@@ -404,6 +414,29 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
           {b.fci_group && <section class="breed-section" aria-labelledby="fci-title"><div class="breed-section__header"><p class="breed-eyebrow">Classification</p><h2 id="fci-title">FCI Classification</h2></div><div class="breed-classification-grid"><article><span>FCI Group</span><strong>Group {b.fci_group} — {b.fci_group_name}</strong></article>{b.fci_section && <article><span>Section</span><strong>{b.fci_section}</strong></article>}{b.fci_status && <article><span>Status</span><strong>{titleCase(b.fci_status)}</strong></article>}</div></section>}
 
           <section class="breed-section" aria-labelledby="related-editorial-title"><div class="breed-section__header"><p class="breed-eyebrow">Helpful reads</p><h2 id="related-editorial-title">More for {b.name} Owners</h2></div><div class="breed-editorial-grid">{relatedGuides.map((guide) => <a href={guide.href}><span aria-hidden="true">{guide.emoji}</span><div><em>{guide.tag}</em><strong>{guide.label}</strong><p>{guide.desc}</p></div></a>)}</div></section>
+
+          {similarBreeds.length > 0 && (
+            <section class="breed-section" aria-labelledby="similar-breeds-title">
+              <div class="breed-section__header">
+                <p class="breed-eyebrow">Compare breeds</p>
+                <h2 id="similar-breeds-title">Similar Breeds to the {b.name}</h2>
+              </div>
+              <div class="breed-similar-grid">
+                {(similarBreeds as any[]).map((sb) => (
+                  <a href={`/breeds/${sb.slug}`} class="breed-similar-card">
+                    <div class="breed-similar-card__body">
+                      <strong>{sb.name}</strong>
+                      <div class="breed-similar-card__pills">
+                        {sb.size_category && <span>{titleCase(sb.size_category)}</span>}
+                        {sb.energy_level && <span>{titleCase(sb.energy_level)} energy</span>}
+                      </div>
+                    </div>
+                    <em aria-hidden="true">→</em>
+                  </a>
+                ))}
+              </div>
+            </section>
+          )}
         </div>
 
         <aside class="breed-sidebar" aria-label={`${b.name} sidebar`}>

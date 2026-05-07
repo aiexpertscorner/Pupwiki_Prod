@@ -214,6 +214,24 @@ function dedupeMarkdownSections(body) {
   return output.join('');
 }
 
+function dedupeProductSections(body) {
+  // Deduplicates ### N. Product Name — Category entries across the entire body.
+  // Keeps the first occurrence; removes subsequent ones with the same normalized name.
+  const majorSections = String(body || '').split(/(?=\n## |\n# )/);
+  return majorSections.map((section) => {
+    const subParts = section.split(/(?=\n### \d+\.)/);
+    const seenNames = new Set();
+    return subParts.filter((sub) => {
+      const m = sub.match(/\n### \d+\.\s+(.+?)(?:\s+—|\s+–|\s*\n)/);
+      if (!m) return true;
+      const normalized = m[1].toLowerCase().replace(/[^a-z0-9]/g, '');
+      if (seenNames.has(normalized)) return false;
+      seenNames.add(normalized);
+      return true;
+    }).join('');
+  }).join('');
+}
+
 function removeInternalSections(body) {
   let next = body;
   const patterns = [/## How this page was refreshed[\s\S]*?(?=\n## |\n# |$)/gi, /## Rich content plan[\s\S]*?(?=\n## |\n# |$)/gi, /## Placement rules[\s\S]*?(?=\n## |\n# |$)/gi, /## Commerce modules[\s\S]*?(?=\n## |\n# |$)/gi];
@@ -256,7 +274,7 @@ function cleanBody(body, copy, breed) {
     const firstHeading = next.search(/\n## /);
     next = firstHeading > -1 ? `${next.slice(0, firstHeading)}\n\n${guideSection}\n${next.slice(firstHeading + 1)}` : `${guideSection}\n${next}`;
   }
-  return dedupeMarkdownSections(sanitizePublicCopy(next)).replace(/\n{2,}/g, '\n').trimStart();
+  return dedupeMarkdownSections(dedupeProductSections(sanitizePublicCopy(next))).replace(/\n{2,}/g, '\n').trimStart();
 }
 
 function buildClusterTags(copy, breed) {
