@@ -187,9 +187,16 @@ const renderIcon = (name = 'heart') => iconMarkup[name] || iconMarkup.heart;
       <div class="pw-hero-v3__visual">
         <figure class="pw-hero-v3__image-card">
           <picture>
-            <source srcset={mainImage.mobileSrc || mainImage.src} media="(max-width: 640px)" />
+            {mainImage.thumbSrc && (
+              <source srcset={mainImage.thumbSrc} media="(max-width: 400px)" />
+            )}
+            <source srcset={mainImage.mobileSrc || mainImage.src} media="(max-width: 768px)" />
             <img
               src={mainImage.src || imageSrc}
+              srcset={mainImage.mobileSrc && mainImage.src !== mainImage.mobileSrc
+                ? `${mainImage.mobileSrc} 940w, ${mainImage.src} 1880w`
+                : undefined}
+              sizes="(max-width: 768px) 100vw, 50vw"
               alt={mainImage.alt || imageAlt}
               width="960"
               height="760"
