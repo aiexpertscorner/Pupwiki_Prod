@@ -30,19 +30,19 @@ const REPORT  = process.argv.includes('--report');
 
 // Maps frontmatter family/cluster values to content-status keys
 const FAMILY_TO_STATUS_KEY = {
-  food:        'food_post',
-  toys:        'toy_post',
-  beds:        'bed_post',
-  grooming:    'grooming_post',
-  training:    'training_post',
-  supplements: 'supplement_post',
-  health:      'health_post',
-  // lifecycle extras
-  puppy:       null, // no dedicated status key yet
-  'senior-dogs': null,
-  insurance:   null,
-  lifestyle:   null,
-  travel:      null,
+  food:           'food_post',
+  toys:           'toy_post',
+  beds:           'bed_post',
+  grooming:       'grooming_post',
+  training:       'training_post',
+  supplements:    'supplement_post',
+  health:         'health_post',
+  puppy:          'puppy_post',
+  'senior-dogs':  'senior_post',
+  insurance:      'insurance_post',
+  lifestyle:      null, // no dedicated status key — lifestyle posts are cluster-level
+  travel:         null,
+  'home-cleanup': null,
 };
 
 function getYamlValue(content, key) {
@@ -74,6 +74,7 @@ function main() {
     names_page: false, food_post: false, toy_post: false,
     bed_post: false, grooming_post: false, training_post: false,
     supplement_post: false, health_post: false,
+    puppy_post: false, senior_post: false, insurance_post: false,
   };
 
   for (const b of breeds) {

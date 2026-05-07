@@ -205,12 +205,18 @@ const breadcrumbLd = {
             <div class="article-tool-cta not-prose">
               <div class="article-tool-cta__icon" aria-hidden="true">🐾</div>
               <div class="article-tool-cta__content">
-                <strong>Use PupWiki tools next</strong>
-                <p>Compare breeds, estimate ownership costs, or find breed-specific dog name ideas.</p>
+                {breedSlug
+                  ? <strong>More for {breedName || breedSlug} owners</strong>
+                  : <strong>Use PupWiki tools next</strong>}
+                {breedSlug
+                  ? <p>Compare traits, estimate costs, and explore more {breedName || breedSlug} guides.</p>
+                  : <p>Compare breeds, estimate ownership costs, or find breed-specific dog name ideas.</p>}
               </div>
               <div class="article-tool-cta__actions">
-                <a href="/cost-calculator" class="article-button article-button--primary">Cost calculator</a>
-                <a href="/breeds" class="article-button article-button--secondary">Explore breeds</a>
+                {breedSlug && <a href={`/breeds/${breedSlug}`} class="article-button article-button--primary">← {breedName || breedSlug} guide</a>}
+                {breedSlug && <a href={`/cost-calculator/${breedSlug}`} class="article-button article-button--secondary">Cost calculator</a>}
+                {!breedSlug && <a href="/cost-calculator" class="article-button article-button--primary">Cost calculator</a>}
+                {!breedSlug && <a href="/breeds" class="article-button article-button--secondary">Explore breeds</a>}
               </div>
             </div>
 
@@ -242,6 +248,7 @@ const breadcrumbLd = {
               <section class="article-sidebar-card">
                 <h2>Explore next</h2>
                 <nav class="article-sidebar-nav">
+                  {breedSlug && <a href={`/breeds/${breedSlug}`}><span>🐾</span><strong>{breedName || breedSlug} breed guide</strong></a>}
                   <a href="/breeds"><span>🐕</span><strong>Breed explorer</strong></a>
                   <a href="/cost-calculator"><span>💰</span><strong>Dog cost calculator</strong></a>
                   <a href="/dog-names"><span>✍️</span><strong>Dog name generator</strong></a>
