@@ -8,7 +8,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "german-shepherd-dog": {
@@ -20,7 +20,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "golden-retriever": {
@@ -32,7 +32,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "french-bulldog": {
@@ -44,7 +44,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bulldog": {
@@ -56,7 +56,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "beagle": {
@@ -68,7 +68,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "poodle-miniature": {
@@ -80,7 +80,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "poodle-standard": {
@@ -92,7 +92,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "poodle-toy": {
@@ -104,7 +104,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "rottweiler": {
@@ -116,7 +116,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "german-shorthaired-pointer": {
@@ -128,7 +128,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "yorkshire-terrier": {
@@ -140,7 +140,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "boxer": {
@@ -152,7 +152,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "dachshund": {
@@ -164,7 +164,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "pembroke-welsh-corgi": {
@@ -176,7 +176,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "siberian-husky": {
@@ -188,7 +188,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "great-dane": {
@@ -200,7 +200,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "australian-shepherd": {
@@ -212,7 +212,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "doberman-pinscher": {
@@ -224,7 +224,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "cavalier-king-charles-spaniel": {
@@ -236,7 +236,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "miniature-schnauzer": {
@@ -248,7 +248,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "shih-tzu": {
@@ -260,7 +260,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "boston-terrier": {
@@ -272,7 +272,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bernese-mountain-dog": {
@@ -284,7 +284,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "pomeranian": {
@@ -296,7 +296,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "havanese": {
@@ -308,7 +308,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "shetland-sheepdog": {
@@ -320,7 +320,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "brittany": {
@@ -332,7 +332,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "english-springer-spaniel": {
@@ -344,7 +344,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "pug": {
@@ -356,7 +356,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "mastiff": {
@@ -368,7 +368,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "cocker-spaniel": {
@@ -380,7 +380,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "vizsla": {
@@ -392,7 +392,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "cane-corso": {
@@ -404,7 +404,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "chihuahua": {
@@ -416,7 +416,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "miniature-american-shepherd": {
@@ -428,7 +428,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "border-collie": {
@@ -440,7 +440,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "weimaraner": {
@@ -452,7 +452,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "maltese": {
@@ -464,7 +464,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "collie": {
@@ -476,7 +476,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "basset-hound": {
@@ -488,7 +488,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "newfoundland": {
@@ -500,7 +500,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "rhodesian-ridgeback": {
@@ -512,7 +512,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "west-highland-white-terrier": {
@@ -524,7 +524,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "belgian-malinois": {
@@ -536,7 +536,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "shiba-inu": {
@@ -548,7 +548,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "chesapeake-bay-retriever": {
@@ -560,7 +560,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bichon-frise": {
@@ -572,7 +572,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "akita": {
@@ -584,7 +584,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "saint-bernard": {
@@ -596,7 +596,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bloodhound": {
@@ -608,7 +608,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "portuguese-water-dog": {
@@ -620,7 +620,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bullmastiff": {
@@ -632,7 +632,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "english-cocker-spaniel": {
@@ -644,7 +644,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "soft-coated-wheaten-terrier": {
@@ -656,7 +656,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "papillon": {
@@ -668,7 +668,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "australian-cattle-dog": {
@@ -680,7 +680,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "dalmatian": {
@@ -692,7 +692,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "scottish-terrier": {
@@ -704,7 +704,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "alaskan-malamute": {
@@ -716,7 +716,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "samoyed": {
@@ -728,7 +728,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "airedale-terrier": {
@@ -740,7 +740,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "whippet": {
@@ -752,7 +752,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bull-terrier": {
@@ -764,7 +764,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "german-wirehaired-pointer": {
@@ -776,7 +776,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "chinese-shar-pei": {
@@ -788,7 +788,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "wirehaired-pointing-griffon": {
@@ -800,7 +800,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "great-pyrenees": {
@@ -812,7 +812,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "dogue-de-bordeaux": {
@@ -824,7 +824,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "cardigan-welsh-corgi": {
@@ -836,7 +836,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "cairn-terrier": {
@@ -848,7 +848,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "miniature-pinscher": {
@@ -860,7 +860,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "lhasa-apso": {
@@ -872,7 +872,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "old-english-sheepdog": {
@@ -884,7 +884,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "italian-greyhound": {
@@ -896,7 +896,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "greater-swiss-mountain-dog": {
@@ -908,7 +908,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "chow-chow": {
@@ -920,7 +920,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "irish-wolfhound": {
@@ -932,7 +932,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "irish-setter": {
@@ -944,7 +944,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "giant-schnauzer": {
@@ -956,7 +956,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "chinese-crested": {
@@ -968,7 +968,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "staffordshire-bull-terrier": {
@@ -980,7 +980,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "coton-de-tulear": {
@@ -992,7 +992,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "russell-terrier": {
@@ -1004,7 +1004,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "nova-scotia-duck-tolling-retriever": {
@@ -1016,7 +1016,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bouvier-des-flandres": {
@@ -1028,7 +1028,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "american-staffordshire-terrier": {
@@ -1040,7 +1040,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "rat-terrier": {
@@ -1052,7 +1052,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "basenji": {
@@ -1064,7 +1064,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "border-terrier": {
@@ -1076,7 +1076,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "standard-schnauzer": {
@@ -1088,7 +1088,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "anatolian-shepherd-dog": {
@@ -1100,7 +1100,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "flat-coated-retriever": {
@@ -1112,7 +1112,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "pekingese": {
@@ -1124,7 +1124,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "leonberger": {
@@ -1136,7 +1136,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "english-setter": {
@@ -1148,7 +1148,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "keeshond": {
@@ -1160,7 +1160,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "tibetan-terrier": {
@@ -1172,7 +1172,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "norwegian-elkhound": {
@@ -1184,7 +1184,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "brussels-griffon": {
@@ -1196,7 +1196,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "lagotto-romagnolo": {
@@ -1208,7 +1208,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "boykin-spaniel": {
@@ -1220,7 +1220,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "wire-fox-terrier": {
@@ -1232,7 +1232,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "neapolitan-mastiff": {
@@ -1244,7 +1244,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "borzoi": {
@@ -1256,7 +1256,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "japanese-chin": {
@@ -1268,7 +1268,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "schipperke": {
@@ -1280,7 +1280,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "belgian-tervuren": {
@@ -1292,7 +1292,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "welsh-terrier": {
@@ -1304,7 +1304,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "norwich-terrier": {
@@ -1316,7 +1316,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "spinone-italiano": {
@@ -1328,7 +1328,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "miniature-bull-terrier": {
@@ -1340,7 +1340,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "toy-fox-terrier": {
@@ -1352,7 +1352,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "silky-terrier": {
@@ -1364,7 +1364,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "afghan-hound": {
@@ -1376,7 +1376,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "pointer": {
@@ -1388,7 +1388,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "gordon-setter": {
@@ -1400,7 +1400,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "irish-terrier": {
@@ -1412,7 +1412,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "parson-russell-terrier": {
@@ -1424,7 +1424,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "black-russian-terrier": {
@@ -1436,7 +1436,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "tibetan-spaniel": {
@@ -1448,7 +1448,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "saluki": {
@@ -1460,7 +1460,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "boerboel": {
@@ -1472,7 +1472,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "american-eskimo-dog": {
@@ -1484,7 +1484,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "smooth-fox-terrier": {
@@ -1496,7 +1496,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "beauceron": {
@@ -1508,7 +1508,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "belgian-sheepdog": {
@@ -1520,7 +1520,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "norfolk-terrier": {
@@ -1532,7 +1532,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bearded-collie": {
@@ -1544,7 +1544,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "welsh-springer-spaniel": {
@@ -1556,7 +1556,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "kerry-blue-terrier": {
@@ -1568,7 +1568,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bluetick-coonhound": {
@@ -1580,7 +1580,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "tibetan-mastiff": {
@@ -1592,7 +1592,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "briard": {
@@ -1604,7 +1604,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "manchester-terrier-standard": {
@@ -1616,7 +1616,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "manchester-terrier-toy": {
@@ -1628,7 +1628,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "german-pinscher": {
@@ -1640,7 +1640,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "english-toy-spaniel": {
@@ -1652,7 +1652,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "american-hairless-terrier": {
@@ -1664,7 +1664,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "treeing-walker-coonhound": {
@@ -1676,7 +1676,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "black-and-tan-coonhound": {
@@ -1688,7 +1688,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "australian-terrier": {
@@ -1700,7 +1700,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "xoloitzcuintli": {
@@ -1712,7 +1712,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bedlington-terrier": {
@@ -1724,7 +1724,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "redbone-coonhound": {
@@ -1736,7 +1736,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "clumber-spaniel": {
@@ -1748,7 +1748,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "berger-picard": {
@@ -1760,7 +1760,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "greyhound": {
@@ -1772,7 +1772,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "irish-red-and-white-setter": {
@@ -1784,7 +1784,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "lakeland-terrier": {
@@ -1796,7 +1796,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "affenpinscher": {
@@ -1808,7 +1808,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "field-spaniel": {
@@ -1820,7 +1820,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "nederlandse-kooikerhondje": {
@@ -1832,7 +1832,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "pumi": {
@@ -1844,7 +1844,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "ibizan-hound": {
@@ -1856,7 +1856,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "spanish-water-dog": {
@@ -1868,7 +1868,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "portuguese-podengo-pequeno": {
@@ -1880,7 +1880,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "icelandic-sheepdog": {
@@ -1892,7 +1892,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "petit-basset-griffon-venden": {
@@ -1904,7 +1904,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "entlebucher-mountain-dog": {
@@ -1916,7 +1916,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "scottish-deerhound": {
@@ -1928,7 +1928,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "irish-water-spaniel": {
@@ -1940,7 +1940,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "puli": {
@@ -1952,7 +1952,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "finnish-lapphund": {
@@ -1964,7 +1964,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "curly-coated-retriever": {
@@ -1976,7 +1976,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "kuvasz": {
@@ -1988,7 +1988,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "sealyham-terrier": {
@@ -2000,7 +2000,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "norwegian-buhund": {
@@ -2012,7 +2012,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "american-water-spaniel": {
@@ -2024,7 +2024,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "wirehaired-vizsla": {
@@ -2036,7 +2036,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "lwchen": {
@@ -2048,7 +2048,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "swedish-vallhund": {
@@ -2060,7 +2060,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "polish-lowland-sheepdog": {
@@ -2072,7 +2072,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "plott-hound": {
@@ -2084,7 +2084,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "pharaoh-hound": {
@@ -2096,7 +2096,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "komondor": {
@@ -2108,7 +2108,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "glen-of-imaal-terrier": {
@@ -2120,7 +2120,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "american-english-coonhound": {
@@ -2132,7 +2132,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "dandie-dinmont-terrier": {
@@ -2144,7 +2144,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "grand-basset-griffon-venden": {
@@ -2156,7 +2156,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "skye-terrier": {
@@ -2168,7 +2168,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "canaan-dog": {
@@ -2180,7 +2180,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "sussex-spaniel": {
@@ -2192,7 +2192,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "pyrenean-shepherd": {
@@ -2204,7 +2204,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "otterhound": {
@@ -2216,7 +2216,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "cirneco-delletna": {
@@ -2228,7 +2228,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "finnish-spitz": {
@@ -2240,7 +2240,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "cesky-terrier": {
@@ -2252,7 +2252,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "american-foxhound": {
@@ -2264,7 +2264,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bergamasco-sheepdog": {
@@ -2276,7 +2276,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "english-foxhound": {
@@ -2288,7 +2288,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "harrier": {
@@ -2300,7 +2300,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "chinook": {
@@ -2312,7 +2312,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "norwegian-lundehund": {
@@ -2324,7 +2324,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "sloughi": {
@@ -2336,7 +2336,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "azawakh": {
@@ -2348,7 +2348,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "barbet": {
@@ -2360,7 +2360,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "dogo-argentino": {
@@ -2372,7 +2372,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "american-bulldog": {
@@ -2384,7 +2384,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "american-leopard-hound": {
@@ -2396,7 +2396,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "appenzeller-sennenhund": {
@@ -2408,7 +2408,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "australian-kelpie": {
@@ -2420,7 +2420,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "australian-stumpy-tail-cattle-dog": {
@@ -2432,7 +2432,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "basset-fauve-de-bretagne": {
@@ -2444,7 +2444,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bavarian-mountain-scent-hound": {
@@ -2456,7 +2456,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "belgian-laekenois": {
@@ -2468,7 +2468,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "biewer-terrier": {
@@ -2480,7 +2480,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bohemian-shepherd": {
@@ -2492,7 +2492,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bolognese": {
@@ -2504,7 +2504,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "bracco-italiano": {
@@ -2516,7 +2516,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "braque-du-bourbonnais": {
@@ -2528,7 +2528,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "braque-francais-pyrenean": {
@@ -2540,7 +2540,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "broholmer": {
@@ -2552,7 +2552,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "carolina-dog": {
@@ -2564,7 +2564,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "catahoula-leopard-dog": {
@@ -2576,7 +2576,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "caucasian-shepherd-dog": {
@@ -2588,7 +2588,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "central-asian-shepherd-dog": {
@@ -2600,7 +2600,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "croatian-sheepdog": {
@@ -2612,7 +2612,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "czechoslovakian-vlcak": {
@@ -2624,7 +2624,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "danish-swedish-farmdog": {
@@ -2636,7 +2636,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "deutscher-wachtelhund": {
@@ -2648,7 +2648,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "drentsche-patrijshond": {
@@ -2660,7 +2660,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "drever": {
@@ -2672,7 +2672,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "dutch-shepherd": {
@@ -2684,7 +2684,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "estrela-mountain-dog": {
@@ -2696,7 +2696,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "eurasier": {
@@ -2708,7 +2708,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "french-spaniel": {
@@ -2720,7 +2720,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "german-longhaired-pointer": {
@@ -2732,7 +2732,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "german-spitz": {
@@ -2744,7 +2744,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "hamiltonstovare": {
@@ -2756,7 +2756,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "hanoverian-scenthound": {
@@ -2768,7 +2768,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "hokkaido": {
@@ -2780,7 +2780,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "hovawart": {
@@ -2792,7 +2792,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "jagdterrier": {
@@ -2804,7 +2804,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "japanese-spitz": {
@@ -2816,7 +2816,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "jindo": {
@@ -2828,7 +2828,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "kai-ken": {
@@ -2840,7 +2840,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "karelian-bear-dog": {
@@ -2852,7 +2852,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "kishu-ken": {
@@ -2864,7 +2864,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "kromfohrlander": {
@@ -2876,7 +2876,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "lancashire-heeler": {
@@ -2888,7 +2888,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "lapponian-herder": {
@@ -2900,7 +2900,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "mountain-cur": {
@@ -2912,7 +2912,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "mudi": {
@@ -2924,7 +2924,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "norrbottenspets": {
@@ -2936,7 +2936,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "perro-de-presa-canario": {
@@ -2948,7 +2948,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "peruvian-inca-orchid": {
@@ -2960,7 +2960,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "porcelaine": {
@@ -2972,7 +2972,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "portuguese-podengo": {
@@ -2984,7 +2984,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "portuguese-pointer": {
@@ -2996,7 +2996,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "portuguese-sheepdog": {
@@ -3008,7 +3008,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "pudelpointer": {
@@ -3020,7 +3020,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "pyrenean-mastiff": {
@@ -3032,7 +3032,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "rafeiro-do-alentejo": {
@@ -3044,7 +3044,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "romanian-mioritic-shepherd-dog": {
@@ -3056,7 +3056,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "russian-toy": {
@@ -3068,7 +3068,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "russian-tsvetnaya-bolonka": {
@@ -3080,7 +3080,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "schapendoes": {
@@ -3092,7 +3092,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "segugio-italiano": {
@@ -3104,7 +3104,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "shikoku": {
@@ -3116,7 +3116,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "slovakian-wirehaired-pointer": {
@@ -3128,7 +3128,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "slovensky-cuvac": {
@@ -3140,7 +3140,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "slovensky-kopov": {
@@ -3152,7 +3152,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "small-munsterlander-pointer": {
@@ -3164,7 +3164,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "spanish-mastiff": {
@@ -3176,7 +3176,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "stabyhoun": {
@@ -3188,7 +3188,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "swedish-lapphund": {
@@ -3200,7 +3200,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "taiwan-dog": {
@@ -3212,7 +3212,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "teddy-roosevelt-terrier": {
@@ -3224,7 +3224,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "thai-ridgeback": {
@@ -3236,7 +3236,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "tornjak": {
@@ -3248,7 +3248,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "tosa": {
@@ -3260,7 +3260,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "transylvanian-hound": {
@@ -3272,7 +3272,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "treeing-tennessee-brindle": {
@@ -3284,7 +3284,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "wetterhoun": {
@@ -3296,7 +3296,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "working-kelpie": {
@@ -3308,7 +3308,7 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
   },
   "yakutian-laika": {
@@ -3320,7 +3320,907 @@
     "supplement_post": true,
     "names_page": true,
     "health_post": true,
-    "cost_calculator": false,
+    "cost_calculator": true,
     "hub": true
+  },
+  "goldendoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "labradoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "cockapoo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "pomsky": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "maltipoo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "cavapoo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "bernedoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "aussiedoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "yorkipoo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "puggle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "sheepadoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "schnoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "chiweenie": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "morkie": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "cavachon": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "whoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "peekapoo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "pomchi": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "shorkie": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "gerberian-shepsky": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "bullmatian": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "chug": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "boxador": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "borgi": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "horgi": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "chorkie": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "frenchton": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "borador": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "zuchon": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "saint-berdoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "goberian": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "corgipoo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "pitsky": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "newfypoo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "dorgi": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "pyredoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "baskin": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "beaglier": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "cheagle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "dalmadoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "flandoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "havapoo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "jack-a-poo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "lhasapoo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "springerdoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "boxeweiler": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "bordoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "bugg": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "bull-a-mador": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "corman-shepherd": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "dameranian": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "english-boodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "frug": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "glechon": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "golden-mt-dog": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "havashire": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "husky-jack": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "labrabull": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "mastidoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "papi-poo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "poogle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "rottle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "sprollie": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "taco-terrier": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "westiepoo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "yorkinese": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "bernese-mix": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "bull-boxer": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "doxie-poo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "cavadoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "poochon": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "swissydog": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "bordeauxoodle": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "shih-poo": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
+  },
+  "corgidor": {
+    "hub": true,
+    "cost_calculator": true,
+    "names_page": false,
+    "food_post": false,
+    "toy_post": false,
+    "bed_post": false,
+    "grooming_post": false,
+    "training_post": false,
+    "supplement_post": false,
+    "health_post": false
   }
 }
