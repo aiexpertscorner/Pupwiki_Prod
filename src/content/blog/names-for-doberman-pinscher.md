@@ -4,6 +4,8 @@ description: "The best names for Doberman Pinschers matched to their Loyal, Fear
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "doberman-pinscher"
 breedName: "Doberman Pinscher"

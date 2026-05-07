@@ -4,6 +4,8 @@ description: "The best names for English Toy Spaniels matched to their Gentle, P
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "english-toy-spaniel"
 breedName: "English Toy Spaniel"

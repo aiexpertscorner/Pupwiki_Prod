@@ -4,6 +4,8 @@ description: "The best names for Kishu Kens matched to their Faithful, Noble, Do
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "kishu-ken"
 breedName: "Kishu Ken"

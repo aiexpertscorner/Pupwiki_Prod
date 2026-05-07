@@ -4,6 +4,8 @@ description: "The best names for Bichon Frises matched to their Playful, Curious
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "bichon-frise"
 breedName: "Bichon Frise"

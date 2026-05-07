@@ -4,6 +4,8 @@ description: "The best names for Basenjis matched to their Independent, Smart, P
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "basenji"
 breedName: "Basenji"

@@ -4,6 +4,8 @@ description: "The best names for Kai Kens matched to their Loyal, Agile, Keen pe
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "kai-ken"
 breedName: "Kai Ken"

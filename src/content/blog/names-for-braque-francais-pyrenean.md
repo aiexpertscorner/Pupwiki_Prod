@@ -4,6 +4,8 @@ description: "The best names for Braque Francais Pyreneans matched to their Frie
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "braque-francais-pyrenean"
 breedName: "Braque Francais Pyrenean"

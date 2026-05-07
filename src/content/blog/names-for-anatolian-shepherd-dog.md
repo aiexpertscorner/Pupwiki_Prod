@@ -4,6 +4,8 @@ description: "The best names for Anatolian Shepherd Dogs matched to their Loyal,
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "anatolian-shepherd-dog"
 breedName: "Anatolian Shepherd Dog"

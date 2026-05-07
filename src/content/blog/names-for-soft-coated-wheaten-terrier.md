@@ -4,6 +4,8 @@ description: "The best names for Soft Coated Wheaten Terriers matched to their F
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "soft-coated-wheaten-terrier"
 breedName: "Soft Coated Wheaten Terrier"

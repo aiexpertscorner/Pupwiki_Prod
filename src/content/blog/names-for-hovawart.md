@@ -4,6 +4,8 @@ description: "The best names for Hovawarts matched to their Alert, Faithful, Int
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "hovawart"
 breedName: "Hovawart"

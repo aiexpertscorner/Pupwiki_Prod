@@ -4,6 +4,8 @@ description: "The best names for German Shorthaired Pointers matched to their Fr
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "german-shorthaired-pointer"
 breedName: "German Shorthaired Pointer"

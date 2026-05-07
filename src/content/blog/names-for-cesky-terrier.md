@@ -4,6 +4,8 @@ description: "The best names for Cesky Terriers matched to their Clever, Adventu
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "cesky-terrier"
 breedName: "Cesky Terrier"

@@ -4,6 +4,8 @@ description: "The best names for Bavarian Mountain Scent Hounds matched to their
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "bavarian-mountain-scent-hound"
 breedName: "Bavarian Mountain Scent Hound"

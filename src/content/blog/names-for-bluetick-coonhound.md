@@ -4,6 +4,8 @@ description: "The best names for Bluetick Coonhounds matched to their Smart, Dev
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "bluetick-coonhound"
 breedName: "Bluetick Coonhound"

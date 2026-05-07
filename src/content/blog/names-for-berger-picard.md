@@ -4,6 +4,8 @@ description: "The best names for Berger Picards matched to their Loyal, Good-Nat
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "berger-picard"
 breedName: "Berger Picard"

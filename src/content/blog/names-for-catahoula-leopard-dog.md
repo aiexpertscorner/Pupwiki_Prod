@@ -4,6 +4,8 @@ description: "The best names for Catahoula Leopard Dogs matched to their Loyal, 
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "catahoula-leopard-dog"
 breedName: "Catahoula Leopard Dog"

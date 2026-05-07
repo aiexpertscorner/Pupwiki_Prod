@@ -4,6 +4,8 @@ description: "The best names for Irish Setters matched to their Active, Outgoing
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "irish-setter"
 breedName: "Irish Setter"

@@ -4,6 +4,8 @@ description: "The best names for Tibetan Spaniels matched to their Playful, Brig
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "tibetan-spaniel"
 breedName: "Tibetan Spaniel"

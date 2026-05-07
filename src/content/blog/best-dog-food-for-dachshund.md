@@ -3,7 +3,7 @@
 title: "Best Dog Food for Dachshunds 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Dachshund's specific regular exercise energy level, and occasional shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["dachshund", "dog-food", "medium-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "dachshund"

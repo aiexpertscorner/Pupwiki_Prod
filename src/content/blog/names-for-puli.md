@@ -4,6 +4,8 @@ description: "The best names for Pulis matched to their Loyal, Smart, Home-Lovin
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "puli"
 breedName: "Puli"

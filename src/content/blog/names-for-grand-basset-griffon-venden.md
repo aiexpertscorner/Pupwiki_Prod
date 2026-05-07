@@ -4,6 +4,8 @@ description: "The best names for Grand Basset Griffon Vendéens matched to their
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "grand-basset-griffon-venden"
 breedName: "Grand Basset Griffon Vendéen"

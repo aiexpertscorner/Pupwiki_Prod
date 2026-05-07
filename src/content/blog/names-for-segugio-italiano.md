@@ -4,6 +4,8 @@ description: "The best names for Segugio Italianos matched to their Friendly, In
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "segugio-italiano"
 breedName: "Segugio Italiano"

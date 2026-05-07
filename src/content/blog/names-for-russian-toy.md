@@ -4,6 +4,8 @@ description: "The best names for Russian Toys matched to their Loyal, Smart, Cha
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "russian-toy"
 breedName: "Russian Toy"

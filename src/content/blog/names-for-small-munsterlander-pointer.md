@@ -4,6 +4,8 @@ description: "The best names for Small Munsterlander Pointers matched to their I
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "small-munsterlander-pointer"
 breedName: "Small Munsterlander Pointer"

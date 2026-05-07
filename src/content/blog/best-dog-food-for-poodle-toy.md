@@ -3,7 +3,7 @@
 title: "Best Dog Food for Poodle (Toy)s 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Poodle (Toy)'s specific regular exercise energy level, and infrequent shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["poodle-toy", "dog-food", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "poodle-toy"

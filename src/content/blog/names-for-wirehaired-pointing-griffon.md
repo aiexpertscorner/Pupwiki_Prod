@@ -4,6 +4,8 @@ description: "The best names for Wirehaired Pointing Griffons matched to their F
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "wirehaired-pointing-griffon"
 breedName: "Wirehaired Pointing Griffon"

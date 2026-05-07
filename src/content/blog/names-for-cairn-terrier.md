@@ -4,6 +4,8 @@ description: "The best names for Cairn Terriers matched to their Alert, Cheerful
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "cairn-terrier"
 breedName: "Cairn Terrier"

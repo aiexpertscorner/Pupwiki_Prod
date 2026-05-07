@@ -3,7 +3,7 @@
 title: "Best Dog Food for Doberman Pinschers 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Doberman Pinscher's specific large size, needs lots of activity energy level, and regularly shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["doberman-pinscher", "dog-food", "large-breed", "needs-lots-of-activity"]
 author: "The PupWiki Team"
 breedSlug: "doberman-pinscher"

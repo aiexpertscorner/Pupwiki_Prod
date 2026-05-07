@@ -3,7 +3,7 @@
 title: "Best Dog Food for Rhodesian Ridgebacks 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Rhodesian Ridgeback's specific large size, regular exercise energy level, and seasonal shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["rhodesian-ridgeback", "dog-food", "large-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "rhodesian-ridgeback"

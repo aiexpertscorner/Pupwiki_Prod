@@ -4,6 +4,8 @@ description: "The best names for Croatian Sheepdogs matched to their Loyal, Acti
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "croatian-sheepdog"
 breedName: "Croatian Sheepdog"

@@ -3,7 +3,7 @@
 title: "Best Dog Food for Australian Shepherds 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Australian Shepherd's specific energetic energy level, and seasonal shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["australian-shepherd", "dog-food", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "australian-shepherd"

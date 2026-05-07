@@ -4,6 +4,8 @@ description: "The best names for Wirehaired Vizslas matched to their Gentle, Loy
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "wirehaired-vizsla"
 breedName: "Wirehaired Vizsla"

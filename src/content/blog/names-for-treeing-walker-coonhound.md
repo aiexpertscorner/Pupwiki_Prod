@@ -4,6 +4,8 @@ description: "The best names for Treeing Walker Coonhounds matched to their Smar
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "treeing-walker-coonhound"
 breedName: "Treeing Walker Coonhound"

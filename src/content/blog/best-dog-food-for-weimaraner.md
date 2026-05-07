@@ -3,7 +3,7 @@
 title: "Best Dog Food for Weimaraners 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Weimaraner's specific large size, needs lots of activity energy level, and seasonal shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["weimaraner", "dog-food", "large-breed", "needs-lots-of-activity"]
 author: "The PupWiki Team"
 breedSlug: "weimaraner"

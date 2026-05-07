@@ -30,7 +30,7 @@ const steps = [
     description: 'The purchase price is just the beginning. Factor in food, vet care, grooming, insurance, and training before you decide.',
     cards: [
       { icon: '💰', label: 'Cost calculator', desc: 'Breed-specific annual and lifetime cost breakdown', href: '/cost-calculator' },
-      { icon: '🏥', label: 'Pet insurance guide', desc: 'Compare coverage options for your breed', href: '/categories/dog-health' },
+      { icon: '🏥', label: 'Pet insurance guide', desc: 'Compare coverage options for your breed', href: '/categories/health' },
       { icon: '🍖', label: 'Food costs by breed', desc: 'Feeding costs for small to giant breeds', href: '/categories/dog-food' },
     ],
   },
@@ -39,9 +39,9 @@ const steps = [
     title: 'Prepare your home',
     description: 'Before your dog arrives, you need the right supplies and a safe environment. Here\'s what to have ready on day one.',
     cards: [
-      { icon: '🛏️', label: 'Beds & crates', desc: 'Top-rated beds and crates by size', href: '/categories/dog-beds' },
-      { icon: '🎾', label: 'Toys & enrichment', desc: 'Keep your dog stimulated and happy', href: '/categories/dog-toys' },
-      { icon: '🪮', label: 'Grooming essentials', desc: 'Brushes, shampoos, and coat care by breed', href: '/categories/dog-grooming' },
+      { icon: '🛏️', label: 'Beds & crates', desc: 'Top-rated beds and crates by size', href: '/categories/beds' },
+      { icon: '🎾', label: 'Toys & enrichment', desc: 'Keep your dog stimulated and happy', href: '/categories/toys' },
+      { icon: '🪮', label: 'Grooming essentials', desc: 'Brushes, shampoos, and coat care by breed', href: '/categories/grooming' },
     ],
   },
   {
@@ -49,8 +49,8 @@ const steps = [
     title: 'Train from day one',
     description: 'Early training prevents problem behaviour. Start with basic commands and socialisation in the first few weeks.',
     cards: [
-      { icon: '🎓', label: 'Training guides', desc: 'Positive reinforcement methods that work', href: '/categories/dog-training' },
-      { icon: '❤️', label: 'Health basics', desc: 'Vaccination schedule, vet visits, and parasite prevention', href: '/categories/dog-health' },
+      { icon: '🎓', label: 'Training guides', desc: 'Positive reinforcement methods that work', href: '/categories/training' },
+      { icon: '❤️', label: 'Health basics', desc: 'Vaccination schedule, vet visits, and parasite prevention', href: '/categories/health' },
       { icon: '📋', label: 'Puppy checklist', desc: 'Everything to buy before bringing your puppy home', href: '/blog' },
     ],
   },
@@ -73,7 +73,7 @@ const steps = [
         <span style="color:var(--color-muted)">First Dog Guide</span>
       </nav>
       <p class="font-sans text-xs font-bold uppercase tracking-wider mb-3" style="color:var(--color-primary)">Getting started</p>
-      <h1 class="font-display font-black mb-4" style="font-size:var(--text-h1);line-height:var(--leading-tight);color:var(--color-heading);font-family:'Playfair Display',Georgia,serif">
+      <h1 class="font-display font-black mb-4" style="font-size:var(--text-h1);line-height:var(--leading-tight);color:var(--color-heading);font-family:var(--font-serif)">
         Your first dog —<br>a complete guide
       </h1>
       <p class="font-sans text-lg mb-6" style="color:var(--color-body-soft);max-width:52ch;line-height:var(--leading-relaxed)">
@@ -100,11 +100,11 @@ const steps = [
     {steps.map(step => (
       <section>
         <div class="flex items-start gap-4 mb-6">
-          <span class="font-display font-black text-4xl flex-shrink-0" style="color:var(--color-primary-light);font-family:'Playfair Display',Georgia,serif;line-height:1">
+          <span class="font-display font-black text-4xl flex-shrink-0" style="color:var(--color-primary-light);font-family:var(--font-serif);line-height:1">
             {step.number}
           </span>
           <div>
-            <h2 class="font-display text-2xl font-bold mb-2" style="font-family:'Playfair Display',Georgia,serif;color:var(--color-heading)">
+            <h2 class="font-display text-2xl font-bold mb-2" style="font-family:var(--font-serif);color:var(--color-heading)">
               {step.title}
             </h2>
             <p class="font-sans text-sm" style="color:var(--color-muted);max-width:58ch">{step.description}</p>
@@ -127,7 +127,7 @@ const steps = [
     <!-- Bottom CTA -->
     <section class="rounded-3xl p-8 text-center" style="background:var(--color-surface-navy);color:white">
       <p class="font-sans text-xs font-bold uppercase tracking-wider mb-3" style="color:var(--color-accent)">Ready to find your match?</p>
-      <h2 class="font-display text-3xl font-black mb-3" style="font-family:'Playfair Display',Georgia,serif">
+      <h2 class="font-display text-3xl font-black mb-3" style="font-family:var(--font-serif)">
         Start with the breed quiz
       </h2>
       <p class="font-sans text-sm mb-6" style="color:rgba(255,255,255,0.75);max-width:42ch;margin-left:auto;margin-right:auto">

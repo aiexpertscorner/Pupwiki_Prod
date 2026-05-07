@@ -4,6 +4,8 @@ description: "The best names for Dogo Argentinos matched to their Friendly, Chee
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "dogo-argentino"
 breedName: "Dogo Argentino"

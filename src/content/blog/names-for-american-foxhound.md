@@ -4,6 +4,8 @@ description: "The best names for American Foxhounds matched to their Independent
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "american-foxhound"
 breedName: "American Foxhound"

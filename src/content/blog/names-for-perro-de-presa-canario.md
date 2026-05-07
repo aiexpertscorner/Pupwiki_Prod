@@ -4,6 +4,8 @@ description: "The best names for Perro de Presa Canarios matched to their Confid
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "perro-de-presa-canario"
 breedName: "Perro de Presa Canario"
