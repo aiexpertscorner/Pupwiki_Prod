@@ -30,11 +30,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Enrich homepage hero images with Pexels
-        env:
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-        run: npm run images:hero:ci
-
+      # ── Content pipeline (sequential — each step depends on previous) ────
       - name: Clean stale generated content
         run: npm run content:clean:ci
 
@@ -44,37 +40,49 @@ jobs:
       - name: Generate PSEO cluster pages
         run: npm run content:generate:pseo:ci
 
-      - name: Enrich content images with Pexels
+      # ── Independent enrichment steps run in parallel ─────────────────────
+      # Group A: content images + inventory audit (content-side)
+      # Group B: AWIN affiliate data + partners + Amazon (affiliate-side)
+      # Group C: homepage hero images + breed gallery enrichment (image-side)
+      - name: Parallel enrichment — content images, affiliates, breed galleries
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-        run: npm run images:content:ci
-
-      - name: Sync AWIN affiliate data
-        env:
           AWIN_OAUTH2_TOKEN: ${{ secrets.AWIN_OAUTH2_TOKEN }}
           AWIN_PRODUCT_FEED_API_KEY: ${{ secrets.AWIN_PRODUCT_FEED_API_KEY }}
           AWIN_PUBLISHER_ID: '2861861'
           AWIN_COUNTRY_CODE: 'US'
-        run: npm run awin:sync:strict
+        run: |
+          # Group A — content images & inventory (no external API secrets needed beyond Pexels)
+          (npm run images:content:ci && npm run content:inventory) &
+          PID_A=$!
 
-      - name: Audit AWIN affiliate data
-        run: npm run awin:audit:strict
+          # Group B — affiliate sync (AWIN cron handles fresh data daily; ci variant is non-strict)
+          (npm run awin:sync:ci && npm run awin:audit:strict && npm run partners:generate && npm run amazon:sync) &
+          PID_B=$!
 
-      - name: Generate PupWiki partner profiles
-        run: npm run partners:generate
+          # Group C — hero images + breed galleries (skip-if-exists, no --force)
+          (npm run images:hero:ci && npm run images:enrich:ci) &
+          PID_C=$!
 
-      - name: Sync Amazon products
-        run: npm run amazon:sync
+          # Wait for all groups; capture exit codes
+          wait $PID_A; STATUS_A=$?
+          wait $PID_B; STATUS_B=$?
+          wait $PID_C; STATUS_C=$?
 
-      - name: Audit content inventory and opportunities
-        run: npm run content:inventory
+          # Affiliate data is critical; fail the build if Group B hard-fails
+          if [ $STATUS_B -ne 0 ]; then
+            echo "ERROR: Affiliate sync pipeline failed (exit $STATUS_B)" >&2
+            exit $STATUS_B
+          fi
 
-      - name: Enrich breed galleries
-        run: npm run images:enrich:ci
+          # Content/image groups are soft-fail (already wrapped in || echo in scripts)
+          echo "Enrichment complete — A:$STATUS_A B:$STATUS_B C:$STATUS_C"
 
+      # ── Sitemap (needs all content + routes settled) ─────────────────────
       - name: Generate sitemap
         run: npm run sitemap:generate
 
+      # ── Astro build ───────────────────────────────────────────────────────
       - name: Build Astro site
         env:
           PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.PUBLIC_GA_MEASUREMENT_ID }}
@@ -84,9 +92,11 @@ jobs:
           PUBLIC_EMAILOCTOPUS_URL: ${{ secrets.PUBLIC_EMAILOCTOPUS_URL }}
         run: npm run build:fast
 
+      # ── Post-build validation ─────────────────────────────────────────────
       - name: Audit Amazon products
         run: npm run amazon:audit
 
+      # ── Deploy ────────────────────────────────────────────────────────────
       - name: Deploy to Cloudflare Pages with Wrangler
         if: github.event_name == 'push'
         run: npx wrangler pages deploy dist --project-name=pupwiki
