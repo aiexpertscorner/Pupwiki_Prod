@@ -1,6 +1,12 @@
 /**
  * generate-sitemap.mjs
- * Generates public/sitemap.xml from real page/content inventory.
+ * Generates segmented sitemaps for PupWiki:
+ *   public/sitemap-index.xml      — master index
+ *   public/sitemap-breeds.xml     — breed hubs, cost calculators, dog names (~weekly)
+ *   public/sitemap-blog.xml       — blog posts (~weekly)
+ *   public/sitemap-categories.xml — category hubs + static pages (~daily/weekly)
+ *
+ * Also writes public/sitemap.xml as a redirect-index for robots.txt compatibility.
  */
 
 import fs from 'fs';
@@ -130,24 +136,59 @@ for (const item of backlog.items || []) {
   }
 }
 
-const sorted = [...urls.values()].sort((a, b) => a.loc.localeCompare(b.loc));
-const xml = `<?xml version="1.0" encoding="UTF-8"?>
+function buildUrlset(entries) {
+  return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sorted.map((u) => `  <url>
+${entries.map((u) => `  <url>
     <loc>${u.loc}</loc>
     <lastmod>${u.lastmod}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority.toFixed(2)}</priority>
   </url>`).join('\n')}
 </urlset>`;
+}
+
+// Bucket all URLs by segment type
+const all = [...urls.values()].sort((a, b) => a.loc.localeCompare(b.loc));
+
+const breedUrls = all.filter((u) => /\/(breeds|cost-calculator|dog-names)\//.test(u.loc));
+const blogUrls = all.filter((u) => u.loc.includes('/blog/'));
+const categoryUrls = all.filter((u) => !breedUrls.includes(u) && !blogUrls.includes(u));
 
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
-fs.writeFileSync(OUT, xml, 'utf8');
 
-console.log(`\n✓ sitemap.xml written to public/`);
-console.log(`  Total URLs: ${sorted.length}`);
-console.log(`  Breed hubs: ${allBreeds.length}`);
-console.log(`  Blog URLs: ${sorted.filter((u) => u.loc.includes('/blog/')).length}`);
-console.log(`  Category URLs: ${sorted.filter((u) => u.loc.includes('/categories/')).length}`);
-console.log(`  Name pages: ${sorted.filter((u) => u.loc.includes('/dog-names/')).length}`);
+// Write segmented files
+const BREEDS_OUT = path.join(ROOT, 'public', 'sitemap-breeds.xml');
+const BLOG_OUT = path.join(ROOT, 'public', 'sitemap-blog.xml');
+const CAT_OUT = path.join(ROOT, 'public', 'sitemap-categories.xml');
+const INDEX_OUT = path.join(ROOT, 'public', 'sitemap-index.xml');
+
+fs.writeFileSync(BREEDS_OUT, buildUrlset(breedUrls), 'utf8');
+fs.writeFileSync(BLOG_OUT, buildUrlset(blogUrls), 'utf8');
+fs.writeFileSync(CAT_OUT, buildUrlset(categoryUrls), 'utf8');
+
+const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>${SITE}/sitemap-breeds.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${SITE}/sitemap-blog.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${SITE}/sitemap-categories.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+</sitemapindex>`;
+
+fs.writeFileSync(INDEX_OUT, sitemapIndex, 'utf8');
+
+// Keep sitemap.xml as a redirect-index pointing to sitemap-index.xml for robots.txt
+const legacyXml = `<?xml version="1.0" encoding="UTF-8"?>
+<!-- Redirects to segmented sitemap index -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>${SITE}/sitemap-breeds.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${SITE}/sitemap-blog.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${SITE}/sitemap-categories.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+</sitemapindex>`;
+fs.writeFileSync(OUT, legacyXml, 'utf8');
+
+console.log(`\n✓ Segmented sitemaps written to public/`);
+console.log(`  sitemap-breeds.xml:     ${breedUrls.length} URLs`);
+console.log(`  sitemap-blog.xml:       ${blogUrls.length} URLs`);
+console.log(`  sitemap-categories.xml: ${categoryUrls.length} URLs`);
+console.log(`  Total URLs: ${all.length}`);
 console.log(`\nSubmit: https://pupwiki.com/sitemap.xml\n`);

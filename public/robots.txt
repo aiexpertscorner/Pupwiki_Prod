@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pupwiki.com/sitemap.xml
+Sitemap: https://pupwiki.com/sitemap-index.xml
 
 # Disallow admin or build artifacts if any
 Disallow: /dist/

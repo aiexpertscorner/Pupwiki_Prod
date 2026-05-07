@@ -198,7 +198,7 @@ const internalLinks = blogPosts.map((post) => {
   return { sourcePath: `/blog/${post.slug}`, recommendedTargets: Array.from(targets).filter((t) => t !== `/blog/${post.slug}`) };
 });
 
-const backlog = [...opportunities, ...clusterOpportunities, ...partnerPageOpportunities].sort((a, b) => b.priorityScore - a.priorityScore).slice(0, 1000);
+const backlog = [...opportunities, ...clusterOpportunities, ...partnerPageOpportunities].sort((a, b) => b.priorityScore - a.priorityScore).slice(0, 1500);
 const summary = {
   generatedAt: TODAY,
   totals: { breeds: breeds.length, crossbreeds: crossbreeds.length, blogPosts: blogPosts.length, astroPages: astroPages.length, clusters: clusters.length, awinJoinedPrograms: (awin.programs || []).length, partnerProfilesGenerated: (partnerSummary.partners || []).length, opportunities: backlog.length },

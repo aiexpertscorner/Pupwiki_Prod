@@ -1,12 +1,18 @@
 ---
 const navLinks = [
-  { label: 'Dog Food',   href: '/categories/dog-food' },
-  { label: 'Toys',       href: '/categories/toys' },
-  { label: 'Beds',       href: '/categories/beds' },
-  { label: 'Health',     href: '/categories/health' },
-  { label: 'Grooming',   href: '/categories/grooming' },
-  { label: 'All Breeds', href: '/breeds' },
-  { label: 'Dog Names',  href: '/dog-names' },
+  { label: 'Dog Food',    href: '/categories/dog-food' },
+  { label: 'Toys',        href: '/categories/toys' },
+  { label: 'Health',      href: '/categories/health' },
+  { label: 'Training',    href: '/categories/training' },
+  { label: 'Supplements', href: '/categories/supplements' },
+  { label: 'All Breeds',  href: '/breeds' },
+  { label: 'Dog Names',   href: '/dog-names' },
+];
+
+const secondaryLinks = [
+  { label: 'Puppy Guide',  href: '/categories/puppy' },
+  { label: 'Insurance',    href: '/categories/insurance' },
+  { label: 'Senior Dogs',  href: '/categories/senior-dogs' },
 ];
 ---
 
@@ -51,6 +57,11 @@ const navLinks = [
     <div class="pw-header__mobile-links">
       {navLinks.map(link => (
         <a href={link.href} class="pw-header__mobile-link">{link.label}</a>
+      ))}
+    </div>
+    <div class="pw-header__mobile-secondary">
+      {secondaryLinks.map(link => (
+        <a href={link.href} class="pw-header__mobile-link pw-header__mobile-link--secondary">{link.label}</a>
       ))}
     </div>
     <div class="pw-header__mobile-footer">
@@ -204,6 +215,28 @@ const navLinks = [
 
   .pw-header__mobile-links {
     padding-top: var(--space-3);
+  }
+
+  .pw-header__mobile-secondary {
+    padding: var(--space-2) 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+  }
+
+  .pw-header__mobile-link--secondary {
+    display: inline-block;
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--text-xs);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    color: var(--color-muted) !important;
+    border-bottom: none !important;
+  }
+
+  .pw-header__mobile-link--secondary:hover {
+    background: var(--color-bg-muted);
+    color: var(--color-body-soft) !important;
   }
 
   .pw-header__mobile-link {
