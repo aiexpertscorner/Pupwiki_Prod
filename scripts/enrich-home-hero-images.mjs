@@ -32,6 +32,16 @@ const PER_QUERY = 20; // fetch more candidates for better selection
 
 const KEY = loadPexelsKey();
 
+// Skip enrichment if output file was updated within the last 7 days (unless FORCE=1)
+function isFresh(filePath, maxAgeMs = 7 * 24 * 60 * 60 * 1000) {
+  try {
+    const { mtimeMs } = fs.statSync(filePath);
+    return Date.now() - mtimeMs < maxAgeMs;
+  } catch {
+    return false;
+  }
+}
+
 async function fetchQuery(query) {
   // Prefer landscape for hero banners; fetch generous page for best scoring
   const photos = await searchPexels(
@@ -51,6 +61,11 @@ async function fetchQuery(query) {
 async function main() {
   if (!KEY) {
     console.warn('[hero-images] PEXELS_API_KEY missing. Keeping existing hero image data.');
+    process.exit(0);
+  }
+
+  if (process.env.FORCE !== '1' && isFresh(OUT)) {
+    console.log('[hero-images] Hero images are fresh (< 7 days). Skipping Pexels fetch.');
     process.exit(0);
   }
 

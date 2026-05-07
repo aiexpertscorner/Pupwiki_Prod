@@ -53,7 +53,7 @@
     "images:content:force": "node scripts/enrich-content-images.mjs --apply --force --limit 120",
     "images:content:ci": "node scripts/enrich-content-images.mjs --apply --limit 80 || echo \"Pexels content image enrichment failed or skipped; continuing build with existing images\"",
     "images:enrich": "node scripts/enrich-breed-image-gallery.mjs --force --count 5",
-    "images:enrich:ci": "node scripts/enrich-breed-image-gallery.mjs --force --count 5 || echo \"Image enrichment failed; continuing build with existing image data\"",
+    "images:enrich:ci": "node scripts/enrich-breed-image-gallery.mjs --count 5 || echo \"Image enrichment failed; continuing build with existing image data\"",
     "images:enrich:breeds": "node scripts/enrich-breed-image-gallery.mjs --target breeds --force --count 5",
     "images:enrich:crossbreeds": "node scripts/enrich-breed-image-gallery.mjs --target crossbreeds --force --count 5",
     "images:enrich:pexels-only": "node scripts/enrich-breed-image-gallery.mjs --force --count 5 --pexels-only",
