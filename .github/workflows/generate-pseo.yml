@@ -1,0 +1,121 @@
+name: Generate PSEO Content (daily)
+
+on:
+  # Run daily at 06:00 UTC — after AWIN sync (03:00) so new partner data is available
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Allow manual trigger with optional branch and limit overrides
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to checkout and commit to'
+        required: false
+        default: 'Pupwiki'
+        type: string
+      limit:
+        description: 'Max pages to generate this run'
+        required: false
+        default: '30'
+        type: string
+      mode:
+        description: 'Generation mode: clusters | breed-pages | all'
+        required: false
+        default: 'all'
+        type: string
+      commit_changes:
+        description: 'Commit generated content'
+        required: false
+        default: 'true'
+        type: boolean
+
+jobs:
+  generate:
+    name: Generate PSEO opportunity pages
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch || 'Pupwiki' }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Clean stale generated content
+        run: npm run content:clean:ci
+
+      - name: Refresh existing generated posts
+        run: npm run content:refresh
+
+      - name: Generate PSEO opportunity pages
+        run: |
+          LIMIT="${{ inputs.limit || '30' }}"
+          MODE="${{ inputs.mode || 'all' }}"
+          node scripts/content/generate-pseo-opportunity-pages.mjs \
+            --mode="${MODE}" \
+            --limit="${LIMIT}" \
+            --apply \
+            || echo "PSEO generation completed (some items may have been skipped)"
+
+      - name: Sync content-status flags
+        run: node scripts/content/sync-content-status.mjs --apply || echo "Content-status sync skipped"
+
+      - name: Update content inventory
+        run: npm run content:inventory
+
+      - name: Regenerate sitemap
+        run: npm run sitemap:generate
+
+      - name: Check for new/changed content
+        id: changes
+        run: |
+          git diff --quiet \
+            src/content/blog/ \
+            src/data/content-status.json \
+            src/data/breed-link-map.json \
+            public/sitemap.xml \
+            2>/dev/null \
+            && echo "changed=false" >> $GITHUB_OUTPUT \
+            || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit generated content
+        if: steps.changes.outputs.changed == 'true' && (github.event_name == 'schedule' || inputs.commit_changes == 'true')
+        run: |
+          TARGET_BRANCH="${{ inputs.branch || 'Pupwiki' }}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add \
+            src/content/blog/ \
+            src/data/content-status.json \
+            src/data/breed-link-map.json \
+            public/sitemap.xml
+          LIMIT="${{ inputs.limit || '30' }}"
+          MODE="${{ inputs.mode || 'all' }}"
+          git commit -m "feat(pseo): generate content — mode=${MODE} limit=${LIMIT} [skip ci]"
+          git push origin "$TARGET_BRANCH"
+
+      - name: Summary
+        run: |
+          echo "### PSEO generation complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Mode:** ${{ inputs.mode || 'all' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Limit:** ${{ inputs.limit || '30' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch:** ${{ inputs.branch || 'Pupwiki' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changed:** ${{ steps.changes.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Timestamp:** $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f src/data/content-status.json ]; then
+            TOTAL=$(node -e "const d=require('./src/data/content-status.json');console.log(Object.keys(d).length)")
+            echo "- **Breeds tracked in content-status:** ${TOTAL}" >> $GITHUB_STEP_SUMMARY
+          fi

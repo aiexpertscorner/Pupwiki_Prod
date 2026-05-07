@@ -38,7 +38,10 @@ jobs:
         run: npm run content:refresh
 
       - name: Generate PSEO cluster pages
-        run: npm run content:generate:pseo:ci
+        run: npm run content:generate:pseo:ci  # limit=25 per deploy (up from 12)
+
+      - name: Sync content-status flags with generated posts
+        run: npm run content:status:sync || echo "Content-status sync skipped"
 
       # ── Independent enrichment steps run in parallel ─────────────────────
       # Group A: content images + inventory audit (content-side)
