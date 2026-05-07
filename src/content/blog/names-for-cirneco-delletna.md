@@ -4,6 +4,8 @@ description: "The best names for Cirneco dell’Etnas matched to their Affection
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "cirneco-delletna"
 breedName: "Cirneco dell’Etna"

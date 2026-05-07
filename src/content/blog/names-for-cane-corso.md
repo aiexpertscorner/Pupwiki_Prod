@@ -4,6 +4,8 @@ description: "The best names for Cane Corsos matched to their Affectionate, Inte
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "cane-corso"
 breedName: "Cane Corso"

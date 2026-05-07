@@ -4,6 +4,8 @@ description: "The best names for Cardigan Welsh Corgis matched to their Affectio
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "cardigan-welsh-corgi"
 breedName: "Cardigan Welsh Corgi"

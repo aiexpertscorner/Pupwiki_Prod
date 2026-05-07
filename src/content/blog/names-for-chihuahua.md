@@ -4,6 +4,8 @@ description: "The best names for Chihuahuas matched to their Charming, Graceful,
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "chihuahua"
 breedName: "Chihuahua"

@@ -4,6 +4,8 @@ description: "The best names for Ibizan Hounds matched to their Family-Oriented,
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "ibizan-hound"
 breedName: "Ibizan Hound"

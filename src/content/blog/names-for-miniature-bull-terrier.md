@@ -4,6 +4,8 @@ description: "The best names for Miniature Bull Terriers matched to their Upbeat
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "miniature-bull-terrier"
 breedName: "Miniature Bull Terrier"

@@ -4,6 +4,8 @@ description: "The best names for Entlebucher Mountain Dogs matched to their Loya
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "entlebucher-mountain-dog"
 breedName: "Entlebucher Mountain Dog"

@@ -4,6 +4,8 @@ description: "The best names for Staffordshire Bull Terriers matched to their Cl
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "staffordshire-bull-terrier"
 breedName: "Staffordshire Bull Terrier"

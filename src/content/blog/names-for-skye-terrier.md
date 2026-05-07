@@ -4,6 +4,8 @@ description: "The best names for Skye Terriers matched to their Courageous, Good
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "skye-terrier"
 breedName: "Skye Terrier"

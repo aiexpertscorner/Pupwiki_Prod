@@ -4,6 +4,8 @@ description: "The best names for Appenzeller Sennenhunds matched to their Agile,
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "appenzeller-sennenhund"
 breedName: "Appenzeller Sennenhund"

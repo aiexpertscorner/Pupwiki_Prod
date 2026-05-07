@@ -3,7 +3,7 @@
 title: "Best Dog Food for Miniature American Shepherds 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Miniature American Shepherd's specific energetic energy level, and frequent shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["miniature-american-shepherd", "dog-food", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "miniature-american-shepherd"

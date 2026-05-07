@@ -4,6 +4,8 @@ description: "The best names for Norwich Terriers matched to their Affectionate,
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "norwich-terrier"
 breedName: "Norwich Terrier"

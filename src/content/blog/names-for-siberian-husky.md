@@ -4,6 +4,8 @@ description: "The best names for Siberian Huskys matched to their Loyal, Mischie
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "siberian-husky"
 breedName: "Siberian Husky"

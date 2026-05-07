@@ -4,6 +4,8 @@ description: "The best names for Australian Cattle Dogs matched to their Alert, 
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "australian-cattle-dog"
 breedName: "Australian Cattle Dog"

@@ -4,6 +4,8 @@ description: "The best names for Black and Tan Coonhounds matched to their Easy-
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "black-and-tan-coonhound"
 breedName: "Black and Tan Coonhound"

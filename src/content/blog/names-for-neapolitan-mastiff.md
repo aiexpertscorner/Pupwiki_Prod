@@ -4,6 +4,8 @@ description: "The best names for Neapolitan Mastiffs matched to their Loyal, Dig
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "neapolitan-mastiff"
 breedName: "Neapolitan Mastiff"

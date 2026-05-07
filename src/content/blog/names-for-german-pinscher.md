@@ -4,6 +4,8 @@ description: "The best names for German Pinschers matched to their Courageous, I
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "german-pinscher"
 breedName: "German Pinscher"

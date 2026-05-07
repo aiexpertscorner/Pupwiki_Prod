@@ -4,6 +4,8 @@ description: "The best names for Sloughis matched to their Reserved, Graceful, N
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "sloughi"
 breedName: "Sloughi"

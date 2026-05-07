@@ -4,6 +4,8 @@ description: "The best names for Boxers matched to their Bright, Fun-Loving, Act
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "boxer"
 breedName: "Boxer"

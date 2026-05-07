@@ -4,6 +4,8 @@ description: "The best names for Nova Scotia Duck Tolling Retrievers matched to 
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "nova-scotia-duck-tolling-retriever"
 breedName: "Nova Scotia Duck Tolling Retriever"

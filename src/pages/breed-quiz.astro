@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BreedMatchQuiz from '../components/BreedMatchQuiz.astro';
+
+const SITE = 'https://pupwiki.com';
+
+const breadcrumbLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home',       item: `${SITE}/` },
+    { '@type': 'ListItem', position: 2, name: 'Breed Quiz', item: `${SITE}/breed-quiz` },
+  ],
+});
+---
+
+<BaseLayout
+  title="Breed Match Quiz — Find the Right Dog for Your Lifestyle | PupWiki"
+  description="Answer 8 quick questions to find dog breeds that match your home, lifestyle, activity level, and experience. Free breed matching quiz by PupWiki."
+  canonicalUrl={`${SITE}/breed-quiz`}
+  pageType="website"
+>
+  <script type="application/ld+json" set:html={breadcrumbLd} />
+
+  <div style="background:linear-gradient(180deg,var(--color-bg-cool) 0%,white 100%);border-bottom:1px solid var(--color-border)">
+    <div class="max-w-3xl mx-auto px-5 py-12 sm:py-16">
+      <nav class="font-sans text-sm mb-6 flex flex-wrap gap-1.5" style="color:var(--color-subtle)">
+        <a href="/" class="hover:underline" style="color:var(--color-accent)">Home</a><span>›</span>
+        <span style="color:var(--color-muted)">Breed Quiz</span>
+      </nav>
+      <p class="font-sans text-xs font-bold uppercase tracking-wider mb-3" style="color:var(--color-primary)">Dog breed matching</p>
+      <h1 class="font-display font-black mb-4" style="font-size:var(--text-h1);line-height:var(--leading-tight);color:var(--color-heading);font-family:var(--font-serif)">
+        Find your perfect breed match
+      </h1>
+      <p class="font-sans text-lg mb-8" style="color:var(--color-body-soft);max-width:52ch;line-height:var(--leading-relaxed)">
+        Answer a few quick questions about your home, lifestyle, and experience level. We'll match you with breeds that actually fit your life.
+      </p>
+
+      <BreedMatchQuiz />
+    </div>
+  </div>
+
+  <div class="max-w-3xl mx-auto px-5 py-10">
+    <div class="flex flex-wrap gap-4">
+      <a href="/breeds"
+        class="font-sans font-bold text-sm px-5 py-3 rounded-full"
+        style="background:white;border:2px solid var(--color-primary);color:var(--color-primary);text-decoration:none">
+        Browse all 277+ breeds
+      </a>
+      <a href="/cost-calculator"
+        class="font-sans font-bold text-sm px-5 py-3 rounded-full"
+        style="background:white;border:2px solid var(--color-border);color:var(--color-body);text-decoration:none">
+        Estimate ownership costs
+      </a>
+      <a href="/guides/first-dog"
+        class="font-sans font-bold text-sm px-5 py-3 rounded-full"
+        style="background:white;border:2px solid var(--color-border);color:var(--color-body);text-decoration:none">
+        First dog guide
+      </a>
+    </div>
+  </div>
+</BaseLayout>

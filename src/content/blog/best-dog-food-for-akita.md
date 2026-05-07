@@ -3,7 +3,7 @@
 title: "Best Dog Food for Akitas 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Akita's specific large size, energetic energy level, and seasonal shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["akita", "dog-food", "large-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "akita"

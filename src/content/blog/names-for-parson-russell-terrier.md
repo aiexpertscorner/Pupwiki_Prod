@@ -4,6 +4,8 @@ description: "The best names for Parson Russell Terriers matched to their Friend
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "parson-russell-terrier"
 breedName: "Parson Russell Terrier"

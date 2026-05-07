@@ -3,7 +3,7 @@
 title: "Best Dog Food for Cane Corsos 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Cane Corso's specific energetic energy level, and occasional shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["cane-corso", "dog-food", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "cane-corso"

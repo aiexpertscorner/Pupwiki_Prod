@@ -4,6 +4,8 @@ description: "The best names for Working Kelpies matched to their Alert, Eager, 
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "working-kelpie"
 breedName: "Working Kelpie"

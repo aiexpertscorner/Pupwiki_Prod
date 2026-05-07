@@ -4,6 +4,8 @@ description: "The best names for Poodle (Toy)s matched to their Agile, Intellige
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "poodle-toy"
 breedName: "Poodle (Toy)"

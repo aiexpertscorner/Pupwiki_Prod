@@ -4,6 +4,8 @@ description: "The best names for Great Danes matched to their Friendly, Patient,
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "great-dane"
 breedName: "Great Dane"

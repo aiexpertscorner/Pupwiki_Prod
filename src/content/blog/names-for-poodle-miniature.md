@@ -4,6 +4,8 @@ description: "The best names for Poodle (Miniature)s matched to their Active, Pr
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "poodle-miniature"
 breedName: "Poodle (Miniature)"

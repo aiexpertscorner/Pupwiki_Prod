@@ -3,7 +3,7 @@
 title: "Best Dog Food for West Highland White Terriers 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the West Highland White Terrier's specific regular exercise energy level, and seasonal shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["west-highland-white-terrier", "dog-food", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "west-highland-white-terrier"

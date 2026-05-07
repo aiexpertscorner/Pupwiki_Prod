@@ -4,6 +4,8 @@ description: "The best names for Dogue de Bordeauxs matched to their Affectionat
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "dogue-de-bordeaux"
 breedName: "Dogue de Bordeaux"

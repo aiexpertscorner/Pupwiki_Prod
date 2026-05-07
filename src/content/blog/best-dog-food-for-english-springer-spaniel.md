@@ -3,7 +3,7 @@
 title: "Best Dog Food for English Springer Spaniels 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the English Springer Spaniel's specific regular exercise energy level, and occasional shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["english-springer-spaniel", "dog-food", "medium-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "english-springer-spaniel"

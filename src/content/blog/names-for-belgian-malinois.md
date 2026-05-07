@@ -4,6 +4,8 @@ description: "The best names for Belgian Malinoiss matched to their Confident, S
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "belgian-malinois"
 breedName: "Belgian Malinois"

@@ -4,6 +4,8 @@ description: "The best names for Norrbottenspetss matched to their Fearless, Agi
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "norrbottenspets"
 breedName: "Norrbottenspets"

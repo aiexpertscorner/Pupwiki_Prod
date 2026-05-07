@@ -4,6 +4,8 @@ description: "The best names for Airedale Terriers matched to their Friendly, Cl
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "airedale-terrier"
 breedName: "Airedale Terrier"

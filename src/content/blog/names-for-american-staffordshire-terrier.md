@@ -4,6 +4,8 @@ description: "The best names for American Staffordshire Terriers matched to thei
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "american-staffordshire-terrier"
 breedName: "American Staffordshire Terrier"

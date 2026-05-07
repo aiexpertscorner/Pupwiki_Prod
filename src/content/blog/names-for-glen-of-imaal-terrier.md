@@ -4,6 +4,8 @@ description: "The best names for Glen of Imaal Terriers matched to their Gentle,
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "glen-of-imaal-terrier"
 breedName: "Glen of Imaal Terrier"

@@ -4,6 +4,8 @@ description: "The best names for Bedlington Terriers matched to their Loyal, Cha
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "bedlington-terrier"
 breedName: "Bedlington Terrier"

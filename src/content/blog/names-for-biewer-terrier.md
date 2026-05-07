@@ -4,6 +4,8 @@ description: "The best names for Biewer Terriers matched to their Intelligent, D
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "biewer-terrier"
 breedName: "Biewer Terrier"

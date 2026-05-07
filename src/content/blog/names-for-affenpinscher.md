@@ -4,6 +4,8 @@ description: "The best names for Affenpinschers matched to their Confident, Famo
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "affenpinscher"
 breedName: "Affenpinscher"
