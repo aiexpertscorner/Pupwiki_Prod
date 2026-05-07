@@ -4,6 +4,8 @@ description: "The best names for Estrela Mountain Dogs matched to their Alert, I
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "estrela-mountain-dog"
 breedName: "Estrela Mountain Dog"

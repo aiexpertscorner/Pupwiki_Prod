@@ -4,6 +4,8 @@ description: "The best names for Irish Red and White Setters matched to their Co
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "irish-red-and-white-setter"
 breedName: "Irish Red and White Setter"

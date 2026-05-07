@@ -75,7 +75,16 @@ const showCommercialMidContent = !isHealthSensitive && !hasUnsafeCommerceTag;
 const showProductRoundupCommerce = ['product-roundup', 'comparison'].includes(normalize(fm.postType)) && !hasUnsafeCommerceTag;
 
 const canonicalUrl = fm.canonicalUrl || `${SITE}/blog/${post.slug}`;
-const heroImage = fm.heroImage || fm.image || breed?.image_url || (Array.isArray(breed?.image_urls) ? breed.image_urls[0] : null) || '';
+const CAT_FALLBACK_IMG: Record<string, string> = {
+  'dog food': '/images/categories/Dog-food.png', food: '/images/categories/Dog-food.png',
+  toys: '/images/categories/Dog-Toys.png', beds: '/images/categories/Dog-Beds.png',
+  grooming: '/images/categories/Dog-Grooming.png', health: '/images/categories/Dog-Health.png',
+  supplements: '/images/categories/Dog-Supplements.png', training: '/images/categories/Dog-Training.png',
+  'smart tech': '/images/categories/Dog-Smart_Tech.png', 'smart-tech': '/images/categories/Dog-Smart_Tech.png',
+  travel: '/images/categories/Dog-Travel.png',
+};
+const catFallbackImg = CAT_FALLBACK_IMG[normalize(category)] ?? '/images/categories/Dog-All.png';
+const heroImage = fm.heroImage || fm.image || breed?.image_url || (Array.isArray(breed?.image_urls) ? breed.image_urls[0] : null) || catFallbackImg;
 const breedAltLabel = breedName?.endsWith(' Dog') ? breedName : `${breedName} dog`;
 const heroImageAlt = fm.heroImageAlt || fm.imageAlt || (breedName ? `${breedAltLabel} guide` : displayTitle);
 

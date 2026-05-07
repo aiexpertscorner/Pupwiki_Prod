@@ -4,6 +4,8 @@ description: "The best names for Polish Lowland Sheepdogs matched to their Confi
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "polish-lowland-sheepdog"
 breedName: "Polish Lowland Sheepdog"

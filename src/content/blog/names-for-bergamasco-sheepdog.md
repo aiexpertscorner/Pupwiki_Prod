@@ -4,6 +4,8 @@ description: "The best names for Bergamasco Sheepdogs matched to their Independe
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "bergamasco-sheepdog"
 breedName: "Bergamasco Sheepdog"

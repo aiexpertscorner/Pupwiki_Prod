@@ -4,6 +4,8 @@ description: "The best names for Shiba Inus matched to their Alert, Active, Atte
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "shiba-inu"
 breedName: "Shiba Inu"

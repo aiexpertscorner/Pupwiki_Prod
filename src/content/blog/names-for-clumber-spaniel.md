@@ -4,6 +4,8 @@ description: "The best names for Clumber Spaniels matched to their Mellow, Amusi
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "clumber-spaniel"
 breedName: "Clumber Spaniel"

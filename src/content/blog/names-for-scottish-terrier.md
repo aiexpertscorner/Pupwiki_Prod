@@ -4,6 +4,8 @@ description: "The best names for Scottish Terriers matched to their Confident, I
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "scottish-terrier"
 breedName: "Scottish Terrier"

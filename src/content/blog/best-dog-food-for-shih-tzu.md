@@ -3,7 +3,7 @@
 title: "Best Dog Food for Shih Tzus 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Shih Tzu's specific regular exercise energy level, and infrequent shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["shih-tzu", "dog-food", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "shih-tzu"

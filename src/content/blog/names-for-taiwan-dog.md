@@ -4,6 +4,8 @@ description: "The best names for Taiwan Dogs matched to their Loyal, Versatile, 
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "taiwan-dog"
 breedName: "Taiwan Dog"

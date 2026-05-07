@@ -4,6 +4,8 @@ description: "The best names for Russian Tsvetnaya Bolonkas matched to their Pla
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "russian-tsvetnaya-bolonka"
 breedName: "Russian Tsvetnaya Bolonka"

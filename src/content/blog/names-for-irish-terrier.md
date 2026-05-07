@@ -4,6 +4,8 @@ description: "The best names for Irish Terriers matched to their Bold, Dashing, 
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "irish-terrier"
 breedName: "Irish Terrier"

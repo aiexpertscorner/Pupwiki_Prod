@@ -4,6 +4,8 @@ description: "The best names for Chesapeake Bay Retrievers matched to their Affe
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "chesapeake-bay-retriever"
 breedName: "Chesapeake Bay Retriever"

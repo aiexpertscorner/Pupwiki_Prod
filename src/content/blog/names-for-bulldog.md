@@ -4,6 +4,8 @@ description: "The best names for Bulldogs matched to their Friendly, Courageous,
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "bulldog"
 breedName: "Bulldog"

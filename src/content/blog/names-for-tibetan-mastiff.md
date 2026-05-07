@@ -4,6 +4,8 @@ description: "The best names for Tibetan Mastiffs matched to their Independent, 
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "tibetan-mastiff"
 breedName: "Tibetan Mastiff"

@@ -4,6 +4,8 @@ description: "The best names for Beagles matched to their Friendly, Curious, Mer
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "beagle"
 breedName: "Beagle"

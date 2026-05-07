@@ -4,6 +4,8 @@ description: "The best names for Chinese Shar-Peis matched to their Loyal, Indep
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "chinese-shar-pei"
 breedName: "Chinese Shar-Pei"

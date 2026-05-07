@@ -4,6 +4,8 @@ description: "The best names for Slovensky Kopovs matched to their Courageous, A
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "slovensky-kopov"
 breedName: "Slovensky Kopov"

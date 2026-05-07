@@ -4,6 +4,8 @@ description: "The best names for Finnish Spitzs matched to their Friendly, Good-
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "finnish-spitz"
 breedName: "Finnish Spitz"

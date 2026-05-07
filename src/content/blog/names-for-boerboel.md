@@ -4,6 +4,8 @@ description: "The best names for Boerboels matched to their Confident, Intellige
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "boerboel"
 breedName: "Boerboel"

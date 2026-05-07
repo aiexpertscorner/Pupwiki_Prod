@@ -4,6 +4,8 @@ description: "The best names for Norfolk Terriers matched to their Fearless, Ale
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "norfolk-terrier"
 breedName: "Norfolk Terrier"

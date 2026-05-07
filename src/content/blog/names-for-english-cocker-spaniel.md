@@ -4,6 +4,8 @@ description: "The best names for English Cocker Spaniels matched to their Energe
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "english-cocker-spaniel"
 breedName: "English Cocker Spaniel"

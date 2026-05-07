@@ -4,6 +4,8 @@ description: "The best names for English Setters matched to their Friendly, Mell
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "english-setter"
 breedName: "English Setter"

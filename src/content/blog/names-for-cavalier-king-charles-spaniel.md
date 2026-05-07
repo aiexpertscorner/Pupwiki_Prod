@@ -4,6 +4,8 @@ description: "The best names for Cavalier King Charles Spaniels matched to their
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "cavalier-king-charles-spaniel"
 breedName: "Cavalier King Charles Spaniel"

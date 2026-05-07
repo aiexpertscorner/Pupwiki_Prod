@@ -4,6 +4,8 @@ description: "The best names for Portuguese Water Dogs matched to their Affectio
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "portuguese-water-dog"
 breedName: "Portuguese Water Dog"

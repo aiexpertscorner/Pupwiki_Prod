@@ -4,6 +4,8 @@ description: "The best names for Rhodesian Ridgebacks matched to their Affection
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "rhodesian-ridgeback"
 breedName: "Rhodesian Ridgeback"

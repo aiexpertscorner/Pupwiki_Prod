@@ -4,6 +4,8 @@ description: "The best names for Wire Fox Terriers matched to their Confident, A
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "wire-fox-terrier"
 breedName: "Wire Fox Terrier"

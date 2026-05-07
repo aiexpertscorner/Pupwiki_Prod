@@ -4,6 +4,8 @@ description: "The best names for Miniature American Shepherds matched to their G
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "miniature-american-shepherd"
 breedName: "Miniature American Shepherd"

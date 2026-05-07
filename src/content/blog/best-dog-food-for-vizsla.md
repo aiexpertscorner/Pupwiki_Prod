@@ -3,7 +3,7 @@
 title: "Best Dog Food for Vizslas 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Vizsla's specific energetic energy level, and seasonal shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["vizsla", "dog-food", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "vizsla"

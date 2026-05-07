@@ -4,6 +4,8 @@ description: "The best names for Otterhounds matched to their Even-Tempered, Ami
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "otterhound"
 breedName: "Otterhound"

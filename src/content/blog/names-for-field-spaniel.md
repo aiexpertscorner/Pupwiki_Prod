@@ -4,6 +4,8 @@ description: "The best names for Field Spaniels matched to their Sweet, Fun-Lovi
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "field-spaniel"
 breedName: "Field Spaniel"

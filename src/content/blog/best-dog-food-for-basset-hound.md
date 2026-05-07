@@ -3,7 +3,7 @@
 title: "Best Dog Food for Basset Hounds 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Basset Hound's specific couch potato energy level, and occasional shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["basset-hound", "dog-food", "medium-breed", "couch-potato"]
 author: "The PupWiki Team"
 breedSlug: "basset-hound"

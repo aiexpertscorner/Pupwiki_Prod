@@ -4,6 +4,8 @@ description: "The best names for West Highland White Terriers matched to their L
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "west-highland-white-terrier"
 breedName: "West Highland White Terrier"

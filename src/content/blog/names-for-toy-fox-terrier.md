@@ -4,6 +4,8 @@ description: "The best names for Toy Fox Terriers matched to their Friendly, Ale
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "toy-fox-terrier"
 breedName: "Toy Fox Terrier"

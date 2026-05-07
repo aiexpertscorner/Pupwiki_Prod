@@ -4,6 +4,8 @@ description: "The best names for Treeing Tennessee Brindles matched to their Fri
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "treeing-tennessee-brindle"
 breedName: "Treeing Tennessee Brindle"

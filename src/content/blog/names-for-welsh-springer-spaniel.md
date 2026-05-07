@@ -4,6 +4,8 @@ description: "The best names for Welsh Springer Spaniels matched to their Happy,
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "welsh-springer-spaniel"
 breedName: "Welsh Springer Spaniel"

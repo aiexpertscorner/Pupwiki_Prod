@@ -4,6 +4,8 @@ description: "The best names for Coton de Tulears matched to their Charming, Bri
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "coton-de-tulear"
 breedName: "Coton de Tulear"

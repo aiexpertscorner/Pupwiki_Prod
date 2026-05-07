@@ -4,6 +4,8 @@ description: "The best names for Portuguese Podengos matched to their Independen
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "portuguese-podengo"
 breedName: "Portuguese Podengo"

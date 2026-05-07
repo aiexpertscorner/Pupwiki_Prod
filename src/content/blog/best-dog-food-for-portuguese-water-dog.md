@@ -3,7 +3,7 @@
 title: "Best Dog Food for Portuguese Water Dogs 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Portuguese Water Dog's specific energetic energy level, and seasonal shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["portuguese-water-dog", "dog-food", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "portuguese-water-dog"

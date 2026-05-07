@@ -4,6 +4,8 @@ description: "The best names for Irish Wolfhounds matched to their Courageous, D
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "irish-wolfhound"
 breedName: "Irish Wolfhound"

@@ -4,6 +4,8 @@ description: "The best names for Braque du Bourbonnaiss matched to their Affecti
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "braque-du-bourbonnais"
 breedName: "Braque du Bourbonnais"

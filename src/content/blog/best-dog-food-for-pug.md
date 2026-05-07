@@ -3,7 +3,7 @@
 title: "Best Dog Food for Pugs 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Pug's specific regular exercise energy level, and regularly shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["pug", "dog-food", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "pug"

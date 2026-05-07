@@ -4,6 +4,8 @@ description: "The best names for Rafeiro do Alentejos matched to their Confident
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "rafeiro-do-alentejo"
 breedName: "Rafeiro do Alentejo"

@@ -4,6 +4,8 @@ description: "The best names for Bohemian Shepherds matched to their Friendly, D
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "bohemian-shepherd"
 breedName: "Bohemian Shepherd"

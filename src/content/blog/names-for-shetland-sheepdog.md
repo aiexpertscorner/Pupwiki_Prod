@@ -4,6 +4,8 @@ description: "The best names for Shetland Sheepdogs matched to their Playful, En
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "shetland-sheepdog"
 breedName: "Shetland Sheepdog"

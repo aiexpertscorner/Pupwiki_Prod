@@ -3,7 +3,7 @@
 title: "Best Dog Food for French Bulldogs 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the French Bulldog's specific calm energy level, and regularly shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["french-bulldog", "dog-food", "medium-breed", "calm"]
 author: "The PupWiki Team"
 breedSlug: "french-bulldog"

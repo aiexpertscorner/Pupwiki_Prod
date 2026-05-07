@@ -4,6 +4,8 @@ description: "The best names for American Hairless Terriers matched to their Ene
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "american-hairless-terrier"
 breedName: "American Hairless Terrier"

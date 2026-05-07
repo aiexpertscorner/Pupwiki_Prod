@@ -3,7 +3,7 @@
 title: "Best Dog Food for Cavalier King Charles Spaniels 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Cavalier King Charles Spaniel's specific calm energy level, and occasional shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["cavalier-king-charles-spaniel", "dog-food", "small-breed", "calm"]
 author: "The PupWiki Team"
 breedSlug: "cavalier-king-charles-spaniel"

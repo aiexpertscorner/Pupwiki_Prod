@@ -4,6 +4,8 @@ description: "The best names for English Springer Spaniels matched to their Frie
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "english-springer-spaniel"
 breedName: "English Springer Spaniel"

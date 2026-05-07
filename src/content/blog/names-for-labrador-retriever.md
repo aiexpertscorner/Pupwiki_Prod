@@ -4,6 +4,8 @@ description: "The best names for Labrador Retrievers matched to their Friendly, 
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "labrador-retriever"
 breedName: "Labrador Retriever"

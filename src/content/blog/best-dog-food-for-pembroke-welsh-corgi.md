@@ -3,7 +3,7 @@
 title: "Best Dog Food for Pembroke Welsh Corgis 2026: Expert-Matched Picks"
 description: "We matched the best dog food to the Pembroke Welsh Corgi's specific energetic energy level, and regularly shedding profile. Here's what actually works."
 pubDate: 2026-03-16
-category: "Dog food"
+category: "Dog Food"
 tags: ["pembroke-welsh-corgi", "dog-food", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "pembroke-welsh-corgi"

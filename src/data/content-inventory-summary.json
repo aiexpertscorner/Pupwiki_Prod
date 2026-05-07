@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-06T23:45:04.582Z",
+  "generatedAt": "2026-05-07T21:16:36.285Z",
   "totals": {
     "breeds": 277,
     "crossbreeds": 75,
     "blogPosts": 2375,
-    "astroPages": 25,
+    "astroPages": 24,
     "clusters": 15,
-    "awinJoinedPrograms": 0,
+    "awinJoinedPrograms": 8,
     "partnerProfilesGenerated": 7,
     "opportunities": 1000
   },
@@ -145,7 +145,7 @@
     {
       "id": "cluster:training",
       "type": "cluster-hub",
-      "priorityScore": 95,
+      "priorityScore": 105,
       "cluster": "training",
       "suggestedPath": "/categories/training",
       "exists": false,
@@ -160,7 +160,11 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "JUGBOW",
+          "RadioFence.com",
+          "MyPetDMV - The original Pet Drivers License"
+        ],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true
       }
@@ -168,7 +172,7 @@
     {
       "id": "cluster:beds",
       "type": "cluster-hub",
-      "priorityScore": 95,
+      "priorityScore": 105,
       "cluster": "beds",
       "suggestedPath": "/categories/beds",
       "exists": false,
@@ -183,7 +187,10 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "Brutus Broth",
+          "Petmate"
+        ],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true
       }
@@ -238,7 +245,7 @@
     {
       "id": "cluster:health",
       "type": "cluster-hub",
-      "priorityScore": 87,
+      "priorityScore": 97,
       "cluster": "health",
       "suggestedPath": "/categories/health",
       "exists": false,
@@ -253,7 +260,9 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "Brutus Broth"
+        ],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": false
       }
@@ -330,7 +339,7 @@
     {
       "id": "cluster:lifestyle",
       "type": "cluster-hub",
-      "priorityScore": 82,
+      "priorityScore": 92,
       "cluster": "lifestyle",
       "suggestedPath": "/categories/lifestyle",
       "exists": false,
@@ -345,7 +354,10 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "Crown and Paw",
+          "MyPetDMV - The original Pet Drivers License"
+        ],
         "amazonValidatedSeedLikely": false,
         "amazonSearchFallback": false
       }
@@ -421,7 +433,7 @@
     }
   ],
   "sitemapInputs": {
-    "staticPageCount": 25,
+    "staticPageCount": 24,
     "dynamicBlogCount": 2375,
     "dynamicBreedCount": 352,
     "clusterSlugs": [

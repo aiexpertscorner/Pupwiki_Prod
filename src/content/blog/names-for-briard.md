@@ -4,6 +4,8 @@ description: "The best names for Briards matched to their Confident, Smart, Fait
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "briard"
 breedName: "Briard"

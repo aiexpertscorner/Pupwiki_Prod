@@ -4,6 +4,8 @@ description: "The best names for Cocker Spaniels matched to their Gentle, Smart,
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "cocker-spaniel"
 breedName: "Cocker Spaniel"

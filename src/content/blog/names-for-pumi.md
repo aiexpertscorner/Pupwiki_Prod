@@ -4,6 +4,8 @@ description: "The best names for Pumis matched to their Energetic, Lively, Ready
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "pumi"
 breedName: "Pumi"

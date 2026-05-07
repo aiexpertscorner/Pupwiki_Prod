@@ -4,6 +4,8 @@ description: "The best names for Drentsche Patrijshonds matched to their Loyal, 
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "drentsche-patrijshond"
 breedName: "Drentsche Patrijshond"

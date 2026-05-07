@@ -4,6 +4,8 @@ description: "The best names for Bernese Mountain Dogs matched to their Good-Nat
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "bernese-mountain-dog"
 breedName: "Bernese Mountain Dog"

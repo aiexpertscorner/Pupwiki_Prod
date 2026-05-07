@@ -4,6 +4,8 @@ description: "The best names for Drevers matched to their Loyal, Even-Tempered, 
 pubDate: 2026-03-22
 updatedDate: 2026-03-22
 category: "Dog Names"
+indexInBlog: false
+noRoute: true
 postType: "product-roundup"
 breedSlug: "drever"
 breedName: "Drever"
