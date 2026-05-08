@@ -345,6 +345,12 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
               <a href={COST_CALC_HREF} class="breed-button breed-button--primary">Estimate {b.name} costs <span aria-hidden="true">→</span></a>
               {links.names_page && <a href={links.names_page} class="breed-button breed-button--secondary">Find {b.name} names</a>}
               <a href="#breed-resources" class="breed-button breed-button--secondary">Owner resources</a>
+              <button
+                class="breed-button breed-button--ghost js-shortlist-btn"
+                data-slug={slug}
+                data-name={b.name}
+                aria-label={`Save ${b.name} to shortlist`}
+              >♡ Save breed</button>
             </div>
           </div>
         </div>
@@ -455,3 +461,43 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
     </div>
   </main>
 </BaseLayout>
+
+<script>
+  (() => {
+    const KEY = 'pupwiki:breed-shortlist:v1';
+
+    function readList(): { slug: string; name: string }[] {
+      try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; }
+    }
+
+    function writeList(list: { slug: string; name: string }[]) {
+      try { localStorage.setItem(KEY, JSON.stringify(list)); } catch {}
+    }
+
+    const btn = document.querySelector<HTMLButtonElement>('.js-shortlist-btn');
+    if (!btn) return;
+
+    const slug = btn.dataset.slug!;
+    const name = btn.dataset.name!;
+
+    function syncBtn() {
+      const saved = readList().some(x => x.slug === slug);
+      btn.textContent = saved ? '✓ Saved' : '♡ Save breed';
+      btn.classList.toggle('is-saved', saved);
+    }
+
+    syncBtn();
+
+    btn.addEventListener('click', () => {
+      let list = readList();
+      const idx = list.findIndex(x => x.slug === slug);
+      if (idx === -1) {
+        list.push({ slug, name });
+      } else {
+        list.splice(idx, 1);
+      }
+      writeList(list);
+      syncBtn();
+    });
+  })();
+</script>

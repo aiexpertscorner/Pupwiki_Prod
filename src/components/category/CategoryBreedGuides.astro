@@ -8,6 +8,8 @@ export interface Props {
 }
 
 const { meta, guides } = Astro.props;
+const DEFAULT_VISIBLE = 12;
+const showMore = guides.length > DEFAULT_VISIBLE;
 ---
 
 <section id="breed-guides" class="category-hub__section">
@@ -21,26 +23,72 @@ const { meta, guides } = Astro.props;
           health context and ownership costs with practical next steps.
         </p>
       </div>
-
       <a href="/breeds" class="category-hub__text-link">Browse all breeds →</a>
     </div>
 
     {guides.length > 0 ? (
-      <div class="category-hub__breed-grid">
-        {guides.map((breed) => (
-          <a href={breed.href} class="category-hub__breed-card">
-            <span aria-hidden="true">🐕</span>
-            <div>
-              <strong>{breed.name}</strong>
-              <p>{breed.label}</p>
-              <em>
-                {breed.size ? `${breed.size} size` : 'Breed guide'}
-                {breed.energy ? ` · ${breed.energy} energy` : ''}
-              </em>
-            </div>
-          </a>
-        ))}
-      </div>
+      <>
+        <!-- Filter strip -->
+        <div class="cbg-filters" aria-label="Filter breed guides" id="cbg-filter-strip">
+          <div class="cbg-filters__group">
+            <span class="cbg-filters__label">Size</span>
+            <button class="cbg-filter-btn is-active" data-filter-size="all">All</button>
+            <button class="cbg-filter-btn" data-filter-size="small">Small</button>
+            <button class="cbg-filter-btn" data-filter-size="medium">Medium</button>
+            <button class="cbg-filter-btn" data-filter-size="large">Large</button>
+            <button class="cbg-filter-btn" data-filter-size="giant">Giant</button>
+          </div>
+          <div class="cbg-filters__group">
+            <span class="cbg-filters__label">Energy</span>
+            <button class="cbg-filter-btn is-active" data-filter-energy="all">All</button>
+            <button class="cbg-filter-btn" data-filter-energy="calm">Calm</button>
+            <button class="cbg-filter-btn" data-filter-energy="moderate">Moderate</button>
+            <button class="cbg-filter-btn" data-filter-energy="active">Active</button>
+          </div>
+          <div class="cbg-filters__group">
+            <span class="cbg-filters__label">Type</span>
+            <button class="cbg-filter-btn is-active" data-filter-type="all">All</button>
+            <button class="cbg-filter-btn" data-filter-type="purebred">Purebred</button>
+            <button class="cbg-filter-btn" data-filter-type="mixed">Mixed</button>
+          </div>
+        </div>
+
+        <!-- Result count -->
+        <p class="cbg-count" id="cbg-count" aria-live="polite">
+          Showing <strong id="cbg-count-num">{Math.min(guides.length, DEFAULT_VISIBLE)}</strong> of {guides.length} breeds
+        </p>
+
+        <!-- Grid — all cards rendered in HTML for SEO; JS shows/hides beyond DEFAULT_VISIBLE -->
+        <div class="category-hub__breed-grid" id="cbg-grid">
+          {guides.map((breed, i) => (
+            <a
+              href={breed.href}
+              class:list={['category-hub__breed-card', i >= DEFAULT_VISIBLE && 'cbg-card--hidden']}
+              data-size={breed.size ?? ''}
+              data-energy={breed.energy ?? ''}
+              data-type={breed.type ?? 'purebred'}
+            >
+              <span aria-hidden="true">🐕</span>
+              <div>
+                <strong>{breed.name}</strong>
+                <p>{breed.label}</p>
+                <em>
+                  {breed.size ? `${breed.size} size` : 'Breed guide'}
+                  {breed.energy ? ` · ${breed.energy} energy` : ''}
+                </em>
+              </div>
+            </a>
+          ))}
+        </div>
+
+        {showMore && (
+          <div class="cbg-show-more" id="cbg-show-more-wrap">
+            <button class="cbg-show-more-btn" id="cbg-show-more">
+              Show all {guides.length} breeds →
+            </button>
+          </div>
+        )}
+      </>
     ) : (
       <div class="category-hub__empty-card">
         <p>Breed-specific {meta.title.toLowerCase()} guides are being expanded.</p>
@@ -49,3 +97,159 @@ const { meta, guides } = Astro.props;
     )}
   </div>
 </section>
+
+<style>
+  .cbg-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-bottom: var(--space-4);
+  }
+
+  .cbg-filters__group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+  }
+
+  .cbg-filters__label {
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semibold);
+    color: var(--color-text-muted, var(--color-muted));
+    margin-right: var(--space-1);
+    white-space: nowrap;
+  }
+
+  .cbg-filter-btn {
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-medium);
+    color: var(--color-muted);
+    background: var(--color-surface, var(--color-bg));
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+  }
+
+  .cbg-filter-btn:hover {
+    border-color: var(--color-primary, var(--color-accent));
+    color: var(--color-primary, var(--color-accent));
+  }
+
+  .cbg-filter-btn.is-active {
+    background: var(--color-primary, var(--color-accent));
+    color: var(--color-text-inverse);
+    border-color: var(--color-primary, var(--color-accent));
+  }
+
+  .cbg-count {
+    font-size: var(--text-sm);
+    color: var(--color-muted);
+    margin-bottom: var(--space-4);
+  }
+
+  .cbg-card--hidden {
+    display: none !important;
+  }
+
+  .cbg-show-more {
+    text-align: center;
+    margin-top: var(--space-6);
+  }
+
+  .cbg-show-more-btn {
+    padding: var(--space-3) var(--space-6);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-medium);
+    color: var(--color-primary, var(--color-accent));
+    background: transparent;
+    border: 1px solid var(--color-primary, var(--color-accent));
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+  }
+
+  .cbg-show-more-btn:hover {
+    background: var(--color-primary, var(--color-accent));
+    color: var(--color-text-inverse);
+  }
+</style>
+
+<script>
+  (() => {
+    const grid = document.getElementById('cbg-grid');
+    if (!grid) return;
+
+    const cards = Array.from(grid.querySelectorAll<HTMLAnchorElement>('a[data-size]'));
+    const countEl = document.getElementById('cbg-count-num');
+    const showMoreWrap = document.getElementById('cbg-show-more-wrap');
+    const showMoreBtn = document.getElementById('cbg-show-more');
+
+    let activeSize = 'all';
+    let activeEnergy = 'all';
+    let activeType = 'all';
+    let showAll = false;
+
+    function applyFilters() {
+      const isFiltered = activeSize !== 'all' || activeEnergy !== 'all' || activeType !== 'all';
+      let visible = 0;
+
+      cards.forEach((card, i) => {
+        const size   = card.dataset.size ?? '';
+        const energy = card.dataset.energy ?? '';
+        const type   = card.dataset.type ?? '';
+
+        const matchSize   = activeSize === 'all'   || size === activeSize;
+        const matchEnergy = activeEnergy === 'all' || energy === activeEnergy;
+        const matchType   = activeType === 'all'   || type === activeType;
+        const match = matchSize && matchEnergy && matchType;
+
+        const withinDefault = showAll || isFiltered || i < 12;
+        const show = match && withinDefault;
+
+        card.classList.toggle('cbg-card--hidden', !show);
+        if (match) visible++;
+      });
+
+      if (countEl) countEl.textContent = String(Math.min(visible, showAll || isFiltered ? visible : 12));
+      if (showMoreWrap) showMoreWrap.style.display = isFiltered || showAll ? 'none' : '';
+    }
+
+    // Filter button clicks
+    document.querySelectorAll<HTMLButtonElement>('.cbg-filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const size   = btn.dataset.filterSize;
+        const energy = btn.dataset.filterEnergy;
+        const type   = btn.dataset.filterType;
+
+        if (size !== undefined) {
+          activeSize = size;
+          document.querySelectorAll('[data-filter-size]').forEach(b => b.classList.remove('is-active'));
+          btn.classList.add('is-active');
+        }
+        if (energy !== undefined) {
+          activeEnergy = energy;
+          document.querySelectorAll('[data-filter-energy]').forEach(b => b.classList.remove('is-active'));
+          btn.classList.add('is-active');
+        }
+        if (type !== undefined) {
+          activeType = type;
+          document.querySelectorAll('[data-filter-type]').forEach(b => b.classList.remove('is-active'));
+          btn.classList.add('is-active');
+        }
+
+        applyFilters();
+      });
+    });
+
+    // Show more
+    if (showMoreBtn) {
+      showMoreBtn.addEventListener('click', () => {
+        showAll = true;
+        applyFilters();
+      });
+    }
+  })();
+</script>

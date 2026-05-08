@@ -1,18 +1,43 @@
 ---
-const navLinks = [
-  { label: 'Dog Food',    href: '/categories/dog-food' },
-  { label: 'Toys',        href: '/categories/toys' },
-  { label: 'Health',      href: '/categories/health' },
-  { label: 'Training',    href: '/categories/training' },
-  { label: 'Supplements', href: '/categories/supplements' },
-  { label: 'All Breeds',  href: '/breeds' },
-  { label: 'Dog Names',   href: '/dog-names' },
-];
-
-const secondaryLinks = [
-  { label: 'Puppy Guide',  href: '/categories/puppy' },
-  { label: 'Insurance',    href: '/categories/insurance' },
-  { label: 'Senior Dogs',  href: '/categories/senior-dogs' },
+const navGroups = [
+  {
+    label: 'Dog Food',
+    href: '/categories/dog-food',
+    sub: [
+      { label: 'Food & nutrition guides', href: '/categories/dog-food' },
+      { label: 'Puppy food essentials',   href: '/categories/puppy' },
+      { label: 'Senior dog nutrition',    href: '/categories/senior-dogs' },
+    ],
+  },
+  {
+    label: 'Toys & Beds',
+    href: '/categories/toys',
+    sub: [
+      { label: 'Toy & enrichment picks', href: '/categories/toys' },
+      { label: 'Beds & comfort',         href: '/categories/beds' },
+      { label: 'Grooming guides',        href: '/categories/grooming' },
+    ],
+  },
+  {
+    label: 'Health',
+    href: '/categories/health',
+    sub: [
+      { label: 'Health & vet context',    href: '/categories/health' },
+      { label: 'Pet insurance planning',  href: '/categories/insurance' },
+      { label: 'Supplement guidance',     href: '/categories/supplements' },
+    ],
+  },
+  {
+    label: 'Training',
+    href: '/categories/training',
+    sub: [
+      { label: 'Training guides',   href: '/categories/training' },
+      { label: 'Puppy essentials',  href: '/categories/puppy' },
+      { label: 'Senior dog care',   href: '/categories/senior-dogs' },
+    ],
+  },
+  { label: 'All Breeds', href: '/breeds',    sub: [] },
+  { label: 'Dog Names',  href: '/dog-names', sub: [] },
 ];
 ---
 
@@ -28,8 +53,26 @@ const secondaryLinks = [
 
       <!-- Desktop Nav -->
       <nav class="pw-header__nav" aria-label="Main navigation">
-        {navLinks.map(link => (
-          <a href={link.href} class="pw-header__nav-link">{link.label}</a>
+        {navGroups.map(group => (
+          group.sub.length > 0 ? (
+            <div class="pw-header__nav-item pw-header__dropdown">
+              <a href={group.href} class="pw-header__nav-link pw-header__nav-link--has-sub">
+                {group.label}
+                <svg class="pw-header__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
+                  <path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <div class="pw-header__dropdown-panel" role="menu">
+                {group.sub.map(sub => (
+                  <a href={sub.href} class="pw-header__dropdown-link" role="menuitem">{sub.label}</a>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div class="pw-header__nav-item">
+              <a href={group.href} class="pw-header__nav-link">{group.label}</a>
+            </div>
+          )
         ))}
       </nav>
 
@@ -55,21 +98,37 @@ const secondaryLinks = [
   <!-- Mobile nav -->
   <div id="mobile-nav" class="pw-header__mobile hidden lg:hidden">
     <div class="pw-header__mobile-links">
-      {navLinks.map(link => (
-        <a href={link.href} class="pw-header__mobile-link">{link.label}</a>
-      ))}
-    </div>
-    <div class="pw-header__mobile-secondary">
-      {secondaryLinks.map(link => (
-        <a href={link.href} class="pw-header__mobile-link pw-header__mobile-link--secondary">{link.label}</a>
+      {navGroups.map(group => (
+        group.sub.length > 0 ? (
+          <div class="pw-header__mobile-group">
+            <button
+              class="pw-header__mobile-link pw-header__mobile-group-toggle"
+              aria-expanded="false"
+              data-group-toggle
+            >
+              {group.label}
+              <svg class="pw-header__mobile-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
+                <path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="pw-header__mobile-sublist hidden">
+              <a href={group.href} class="pw-header__mobile-sublink">All {group.label} guides →</a>
+              {group.sub.map(sub => (
+                <a href={sub.href} class="pw-header__mobile-sublink">{sub.label}</a>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <a href={group.href} class="pw-header__mobile-link">{group.label}</a>
+        )
       ))}
     </div>
     <div class="pw-header__mobile-footer">
       <a href="/blog" class="pw-header__cta-btn pw-header__cta-btn--block">All Reviews →</a>
       <div class="pw-header__mobile-meta">
-        <a href="/about" class="pw-header__meta-link">About</a>
+        <a href="/about"       class="pw-header__meta-link">About</a>
         <a href="/how-we-test" class="pw-header__meta-link">How we test</a>
-        <a href="/disclosure" class="pw-header__meta-link">Disclosure</a>
+        <a href="/disclosure"  class="pw-header__meta-link">Disclosure</a>
       </div>
     </div>
   </div>
@@ -123,7 +182,7 @@ const secondaryLinks = [
   .pw-header__nav {
     display: none;
     align-items: center;
-    gap: var(--space-5);
+    gap: var(--space-1);
     font-family: var(--font-sans);
     font-size: var(--text-sm);
     font-weight: var(--weight-medium);
@@ -133,14 +192,75 @@ const secondaryLinks = [
     .pw-header__nav { display: flex; }
   }
 
+  /* Nav items + dropdowns */
+  .pw-header__nav-item {
+    position: relative;
+  }
+
   .pw-header__nav-link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: var(--space-2) var(--space-3);
     color: var(--color-muted);
     text-decoration: none;
-    transition: color var(--transition-base);
+    border-radius: var(--radius-md);
+    transition: color var(--transition-base), background var(--transition-base);
   }
 
   .pw-header__nav-link:hover {
     color: var(--color-link-hover);
+    background: var(--color-surface-alt, var(--color-bg-muted));
+  }
+
+  .pw-header__chevron {
+    opacity: 0.6;
+    transition: transform var(--transition-fast);
+    flex-shrink: 0;
+  }
+
+  .pw-header__nav-item:hover .pw-header__chevron,
+  .pw-header__nav-item:focus-within .pw-header__chevron {
+    transform: rotate(180deg);
+  }
+
+  /* Dropdown panel */
+  .pw-header__dropdown-panel {
+    position: absolute;
+    top: calc(100% + var(--space-1));
+    left: 0;
+    min-width: 210px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    padding: var(--space-2) 0;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: opacity var(--transition-fast), visibility var(--transition-fast);
+    z-index: 200;
+  }
+
+  .pw-header__nav-item:hover .pw-header__dropdown-panel,
+  .pw-header__nav-item:focus-within .pw-header__dropdown-panel {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .pw-header__dropdown-link {
+    display: block;
+    padding: var(--space-2) var(--space-4);
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    text-decoration: none;
+    transition: color var(--transition-fast), background var(--transition-fast);
+  }
+
+  .pw-header__dropdown-link:hover {
+    color: var(--color-primary, var(--color-accent));
+    background: var(--color-surface-alt, var(--color-bg-muted));
   }
 
   /* Desktop CTA */
@@ -217,41 +337,61 @@ const secondaryLinks = [
     padding-top: var(--space-3);
   }
 
-  .pw-header__mobile-secondary {
-    padding: var(--space-2) 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-1);
-  }
-
-  .pw-header__mobile-link--secondary {
-    display: inline-block;
-    padding: var(--space-1) var(--space-3);
-    font-size: var(--text-xs);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-full);
-    color: var(--color-muted) !important;
-    border-bottom: none !important;
-  }
-
-  .pw-header__mobile-link--secondary:hover {
-    background: var(--color-bg-muted);
-    color: var(--color-body-soft) !important;
-  }
-
   .pw-header__mobile-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     padding: var(--space-3) 0;
     font-family: var(--font-sans);
     font-size: var(--text-sm);
     font-weight: var(--weight-medium);
     color: var(--color-body-soft);
     text-decoration: none;
+    background: none;
+    border: none;
     border-bottom: 1px solid var(--color-bg-paper);
+    cursor: pointer;
+    text-align: left;
     transition: color var(--transition-base);
   }
 
   .pw-header__mobile-link:hover {
+    color: var(--color-link-hover);
+  }
+
+  .pw-header__mobile-group {
+    border-bottom: 1px solid var(--color-bg-paper);
+  }
+
+  .pw-header__mobile-group-toggle {
+    border-bottom: none;
+  }
+
+  .pw-header__mobile-chevron {
+    opacity: 0.5;
+    transition: transform var(--transition-fast);
+    flex-shrink: 0;
+  }
+
+  .pw-header__mobile-group-toggle[aria-expanded="true"] .pw-header__mobile-chevron {
+    transform: rotate(180deg);
+  }
+
+  .pw-header__mobile-sublist {
+    padding: 0 0 var(--space-2) var(--space-4);
+  }
+
+  .pw-header__mobile-sublink {
+    display: block;
+    padding: var(--space-2) 0;
+    font-size: var(--text-sm);
+    color: var(--color-muted);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+
+  .pw-header__mobile-sublink:hover {
     color: var(--color-link-hover);
   }
 
@@ -283,6 +423,7 @@ const secondaryLinks = [
 </style>
 
 <script>
+  // Main mobile menu toggle
   const toggle   = document.getElementById('menu-toggle')!;
   const nav      = document.getElementById('mobile-nav')!;
   const iconOpen = document.getElementById('icon-open')!;
@@ -294,5 +435,16 @@ const secondaryLinks = [
     iconOpen.classList.toggle('hidden', !isOpen);
     iconClose.classList.toggle('hidden', isOpen);
     toggle.setAttribute('aria-expanded', String(!isOpen));
+  });
+
+  // Mobile accordion — group toggles
+  document.querySelectorAll<HTMLButtonElement>('[data-group-toggle]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const sublist = btn.nextElementSibling as HTMLElement | null;
+      if (!sublist) return;
+      const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!isExpanded));
+      sublist.classList.toggle('hidden', isExpanded);
+    });
   });
 </script>

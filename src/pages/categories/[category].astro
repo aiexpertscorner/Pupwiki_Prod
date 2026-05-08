@@ -77,10 +77,9 @@ const breedGuides = getCategoryBreedGuides({
   allBreeds: allBreedRecords,
   breedLinkMap: breedLinkMap as any,
   contentStatus: contentStatus as any,
-  limit: 10,
 });
 
-const featuredBreedGuides = breedGuides.slice(0, 6);
+const featuredBreedGuides = breedGuides;
 const breedChips = breedGuides.slice(0, 10);
 const categoryLinks = getCategoryLinks(categorySlug);
 const relatedCards = getRelatedCategoryCards(categorySlug);
