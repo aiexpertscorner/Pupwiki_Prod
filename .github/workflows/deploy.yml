@@ -3,18 +3,16 @@ name: Deploy PupWiki to Cloudflare Pages
 on:
   push:
     branches:
-      - pupwiki
-      - Pupwiki
+      - main
   pull_request:
     branches:
-      - pupwiki
-      - Pupwiki
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       deployments: write
 
     steps:
@@ -80,6 +78,25 @@ jobs:
 
           # Content/image groups are soft-fail (already wrapped in || echo in scripts)
           echo "Enrichment complete — A:$STATUS_A B:$STATUS_B C:$STATUS_C"
+
+      # ── Persist enriched data back to repo ───────────────────────────────
+      - name: Commit enriched data back to repo
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add \
+            src/data/image-cache/ \
+            src/data/awin-programs.json \
+            src/data/awin-products.json \
+            src/data/affiliate-banners.json \
+            src/data/amazon-products.json \
+            src/data/home-hero-images.json \
+            src/content/blog/ \
+            src/data/content-status.json \
+            public/sitemap*.xml 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "chore(ci): persist enriched data [skip ci]"
+          git push origin main || echo "No enrichment changes to push"
 
       # ── Sitemap (needs all content + routes settled) ─────────────────────
       - name: Generate sitemap

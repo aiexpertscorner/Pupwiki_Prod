@@ -36,25 +36,14 @@ import {
   getRelatedCategoryCards,
   isCategorySlug,
 } from '../../lib/categories/categoryHelpers';
+import { CATEGORY_SLUGS } from '../../lib/categories/categoryConfig';
 
 import '../../styles/pages/category-hub.css';
 
 const SITE = 'https://pupwiki.com';
 
 export function getStaticPaths() {
-  return [
-    'dog-food',
-    'toys',
-    'health',
-    'training',
-    'grooming',
-    'beds',
-    'supplements',
-    'smart-tech',
-    'travel',
-    'lifestyle',
-    'home-cleanup',
-  ].map((category) => ({
+  return CATEGORY_SLUGS.map((category) => ({
     params: { category },
   }));
 }
