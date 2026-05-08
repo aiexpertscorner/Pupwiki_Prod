@@ -7,9 +7,10 @@
     "prebuild": "npm run hero:audit && npm run images:hero:ci && npm run awin:sync:ci && npm run amazon:sync && npm run partners:check && npm run content:normalize:check && npm run content:refresh:check && npm run content:inventory && npm run content:audit:public && npm run images:content:ci && npm run images:enrich:ci && npm run sitemap:generate",
     "build": "node --max-old-space-size=4096 ./node_modules/astro/astro.js build",
     "build:fast": "node --max-old-space-size=4096 ./node_modules/astro/astro.js build",
+    "build:ci": "node --max-old-space-size=4096 ./node_modules/astro/astro.js build",
     "build:prod": "npm run build",
     "build:with-images": "npm run images:hero && npm run images:content && npm run images:enrich:force && astro build",
-    "build:with-amazon": "npm run amazon:sync && npm run build:fast",
+    "build:with-amazon": "npm run amazon:sync && npm run build:ci",
     "preview": "astro preview",
     "astro": "astro",
     "hero:audit": "node scripts/audit-hero-system.mjs",
@@ -68,7 +69,6 @@
     "@astrojs/sitemap": "^3.1.6",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.15.0",
-    "astro-compress": "^2.3.0",
     "tailwindcss": "^3.4.13"
   },
   "devDependencies": {

@@ -51,6 +51,7 @@ export type CategoryBreedGuide = {
   href: string;
   size?: string;
   energy?: string;
+  type?: 'purebred' | 'mixed';
   label: string;
 };
 
@@ -191,7 +192,7 @@ export function getCategoryBreedGuides({
   allBreeds,
   breedLinkMap,
   contentStatus,
-  limit = 10,
+  limit = 500,
 }: {
   categorySlug: CategorySlug;
   allBreeds: BreedLikeRecord[];
@@ -224,6 +225,7 @@ export function getCategoryBreedGuides({
       href,
       size: normalizedSize(breed),
       energy: normalizedEnergy(breed),
+      type: (Array.isArray((breed as any).parent_breeds) && (breed as any).parent_breeds.length > 0) ? 'mixed' : 'purebred',
       label: linkKey ? `${meta.shortTitle} guide and owner resources` : 'Breed profile, care needs and owner fit',
     };
   });

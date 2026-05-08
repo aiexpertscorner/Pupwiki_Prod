@@ -1,0 +1,3 @@
+# Cloudflare Pages redirect rules
+# Legacy sitemap.xml now points to the segmented sitemap index
+/sitemap.xml  /sitemap-index.xml  301

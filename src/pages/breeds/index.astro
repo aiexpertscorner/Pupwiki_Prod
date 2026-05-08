@@ -203,6 +203,17 @@ function cardGuideChips(breed: NormalizedBreed) {
       </div>
     </section>
 
+    <!-- Shortlist strip — populated by client JS from localStorage -->
+    <div id="shortlist-strip" class="shortlist-strip" style="display:none" aria-label="Saved breeds shortlist">
+      <div class="breed-directory-container">
+        <div class="shortlist-strip__inner">
+          <p class="shortlist-strip__label">Your saved breeds:</p>
+          <div class="shortlist-strip__chips" id="shortlist-chips"></div>
+          <button class="shortlist-strip__clear" id="shortlist-clear">Clear all</button>
+        </div>
+      </div>
+    </div>
+
     <section id="breed-finder" class="breed-finder" aria-labelledby="breed-finder-title">
       <div class="breed-directory-container">
         <div class="breed-finder__header">
@@ -943,5 +954,51 @@ function cardGuideChips(breed: NormalizedBreed) {
     state = readStateFromUrl();
     showAll = !isDefaultState();
     applyFilters({ updateUrl: false, announce: false });
+  </script>
+
+  <script>
+    (() => {
+      const KEY = 'pupwiki:breed-shortlist:v1';
+      const strip = document.getElementById('shortlist-strip');
+      const chipsEl = document.getElementById('shortlist-chips');
+      const clearBtn = document.getElementById('shortlist-clear');
+      if (!strip || !chipsEl || !clearBtn) return;
+
+      function readList(): { slug: string; name: string }[] {
+        try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; }
+      }
+
+      function writeList(list: { slug: string; name: string }[]) {
+        try { localStorage.setItem(KEY, JSON.stringify(list)); } catch {}
+      }
+
+      function render() {
+        const list = readList();
+        if (list.length === 0) {
+          strip.style.display = 'none';
+          return;
+        }
+        strip.style.display = '';
+        chipsEl.innerHTML = list.map(b => `
+          <a href="/breeds/${b.slug}" class="shortlist-chip">${b.name}</a>
+          <button class="shortlist-chip__remove" data-slug="${b.slug}" aria-label="Remove ${b.name} from shortlist">✕</button>
+        `).join('');
+      }
+
+      chipsEl.addEventListener('click', (e) => {
+        const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-slug]');
+        if (!btn || btn.tagName !== 'BUTTON') return;
+        const list = readList().filter(x => x.slug !== btn.dataset.slug);
+        writeList(list);
+        render();
+      });
+
+      clearBtn.addEventListener('click', () => {
+        writeList([]);
+        render();
+      });
+
+      render();
+    })();
   </script>
 </BaseLayout>
