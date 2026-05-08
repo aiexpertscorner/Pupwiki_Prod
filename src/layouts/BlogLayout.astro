@@ -1,13 +1,14 @@
 ---
 /**
  * BlogLayout.astro — global-styled article layout for PupWiki.
- * Styling lives in public/styles/pages/article.css.
+ * Styling lives in src/styles/pages/article.css (imported below).
  */
 
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumb from '../components/ui/Breadcrumb.astro';
 import PageBannerSlot from '../components/affiliate/PageBannerSlot.astro';
 import AwinProductSlot from '../components/affiliate/AwinProductSlot.astro';
+import '../styles/pages/article.css';
 
 export interface Props {
   title: string;
