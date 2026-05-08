@@ -11,7 +11,7 @@ on:
       branch:
         description: 'Branch to checkout and commit to'
         required: false
-        default: 'Pupwiki'
+        default: 'main'
         type: string
       commit_changes:
         description: 'Commit updated data files'
@@ -30,7 +30,7 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.branch || 'Pupwiki' }}
+          ref: ${{ inputs.branch || 'main' }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
@@ -67,7 +67,7 @@ jobs:
       - name: Commit updated data
         if: steps.changes.outputs.changed == 'true' && (github.event_name == 'schedule' || inputs.commit_changes == 'true')
         run: |
-          TARGET_BRANCH="${{ inputs.branch || 'Pupwiki' }}"
+          TARGET_BRANCH="${{ inputs.branch || 'main' }}"
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add \
@@ -105,5 +105,5 @@ jobs:
             echo "- **Total banners:** ${BANNERS}" >> $GITHUB_STEP_SUMMARY
           fi
 
-          echo "- **Branch:** ${{ inputs.branch || 'Pupwiki' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch:** ${{ inputs.branch || 'main' }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Timestamp:** $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
