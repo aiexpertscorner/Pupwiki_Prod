@@ -9,7 +9,16 @@ breedSlug: "german-shepherd-dog"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/36896059/pexels-photo-36896059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36896059/pexels-photo-36896059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A white shepherd dog stands on grass holding a stuffed tiger toy in its mouth."
+imageAlt: "A white shepherd dog stands on grass holding a stuffed tiger toy in its mouth."
+imageSource: "pexels"
+imageCredit: "Photo by Jo Hel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-shepherd-dog-with-stuffed-tiger-toy-outdoors-36896059/"
+imageSearchQuery: "German Shepherd Dog dog playing toy"
 ---
+
 
 German Shepherd Dogs have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 50–90 lbs, regular exercise energy, regularly shedding, and confident, courageous, smart temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

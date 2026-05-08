@@ -9,7 +9,16 @@ breedSlug: "maltese"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/20233073/pexels-photo-20233073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20233073/pexels-photo-20233073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Shih Tzu dog lying on a tiled floor, playing with a plush teddy bear toy indoors."
+imageAlt: "Cute Shih Tzu dog lying on a tiled floor, playing with a plush teddy bear toy indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Yargo S. Walkowicz on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-with-toy-20233073/"
+imageSearchQuery: "Maltese dog playing toy"
 ---
+
 
 Malteses have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 7–7 lbs, regular exercise energy, infrequent shedding, and gentle, playful, charming temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

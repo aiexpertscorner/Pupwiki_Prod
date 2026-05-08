@@ -8,7 +8,16 @@ author: "The PupWiki Team"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/20016125/pexels-photo-20016125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20016125/pexels-photo-20016125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog lying on grass cuddling a black and white stuffed animal companion outdoors."
+imageAlt: "Cute dog lying on grass cuddling a black and white stuffed animal companion outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Shar Kaminski on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-with-soft-toy-on-grass-20016125/"
+imageSearchQuery: "dog toys"
 ---
+
 
 Physical exercise gets most of the attention in dog care — but mental stimulation is equally important, especially for intelligent breeds. A working dog breed (Border Collie, Australian Shepherd, Malinois) that gets two hours of physical exercise but zero mental challenge will still be destructive, anxious, and difficult to manage.
 Interactive toys that require problem-solving, sniffing, nosework, or manipulation satisfy the mental need that walks and fetch don't. Here are the six best we've found.

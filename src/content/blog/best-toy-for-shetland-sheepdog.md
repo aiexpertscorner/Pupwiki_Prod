@@ -9,7 +9,16 @@ breedSlug: "shetland-sheepdog"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/28895800/pexels-photo-28895800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28895800/pexels-photo-28895800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Shetland Sheepdog enjoying the outdoors, playing with falling leaves in a green field."
+imageAlt: "Shetland Sheepdog enjoying the outdoors, playing with falling leaves in a green field."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-shetland-sheepdog-in-lush-green-field-28895800/"
+imageSearchQuery: "Shetland Sheepdog dog playing toy"
 ---
+
 
 Shetland Sheepdogs have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 15–25 lbs, regular exercise energy, seasonal shedding, and playful, energetic, bright temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

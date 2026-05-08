@@ -9,7 +9,16 @@ breedSlug: "pomeranian"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/36725716/pexels-photo-36725716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36725716/pexels-photo-36725716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A joyful woman playing with her fluffy dog on the sandy beach of Kołobrzeg, Poland."
+imageAlt: "A joyful woman playing with her fluffy dog on the sandy beach of Kołobrzeg, Poland."
+imageSource: "pexels"
+imageCredit: "Photo by Michał Robak on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-playing-with-dog-on-kolobrzeg-beach-36725716/"
+imageSearchQuery: "Pomeranian dog playing toy"
 ---
+
 
 Pomeranians have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 3–7 lbs, regular exercise energy, seasonal shedding, and inquisitive, bold, lively temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

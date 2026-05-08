@@ -9,7 +9,16 @@ breedSlug: "havanese"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/19449515/pexels-photo-19449515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19449515/pexels-photo-19449515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog with a fluffy coat playing with a plush toy indoors, showcasing fun and playful behavior."
+imageAlt: "Cute dog with a fluffy coat playing with a plush toy indoors, showcasing fun and playful behavior."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-holding-a-toy-in-the-mouth-19449515/"
+imageSearchQuery: "Havanese dog playing toy"
 ---
+
 
 Havaneses have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 7–13 lbs, regular exercise energy, occasional shedding, and intelligent, outgoing, funny temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

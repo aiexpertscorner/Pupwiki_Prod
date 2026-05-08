@@ -16,7 +16,16 @@ topProduct:
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/6235124/pexels-photo-6235124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6235124/pexels-photo-6235124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Veterinarian consulting with dog owner in a clinic while holding a Pomeranian."
+imageAlt: "Veterinarian consulting with dog owner in a clinic while holding a Pomeranian."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/man-holding-dog-while-talking-to-a-woman-6235124/"
+imageSearchQuery: "dog owner comparing veterinarian dog health"
 ---
+
 
 Choosing between **Embark Dog DNA Test Kit** and **Wisdom Panel Essential Dog DNA Test** comes down to what you prioritise — price, performance, or specific features for your dog.
 > **Short answer:** Embark Dog DNA Test Kit wins for most dogs and situations. But Wisdom Panel Essential Dog DNA Test is the better choice in specific cases outlined below.

@@ -9,7 +9,16 @@ breedSlug: "chihuahua"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/5942487/pexels-photo-5942487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5942487/pexels-photo-5942487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Small dog playing with a plush toy in a modern living room with a leather sofa."
+imageAlt: "Small dog playing with a plush toy in a modern living room with a leather sofa."
+imageSource: "pexels"
+imageCredit: "Photo by www.kaboompics.com on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-playing-with-toy-in-living-room-5942487/"
+imageSearchQuery: "Chihuahua dog playing toy"
 ---
+
 
 Chihuahuas have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 6–6 lbs, regular exercise energy, occasional shedding, and charming, graceful, sassy temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

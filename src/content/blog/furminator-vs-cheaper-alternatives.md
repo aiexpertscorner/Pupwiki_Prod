@@ -10,7 +10,16 @@ readTime: 7
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/6131150/pexels-photo-6131150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131150/pexels-photo-6131150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Woman washing a small dog in a grooming salon sink, black and white photo."
+imageAlt: "Woman washing a small dog in a grooming salon sink, black and white photo."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-in-long-sleeve-shirt-washing-a-dog-6131150/"
+imageSearchQuery: "dog owner comparing dog grooming"
 ---
+
 
 The FURminator deShedding Tool costs $25-40 depending on size. Half a dozen Amazon alternatives cost $8-15 and look almost identical. Are you paying for the brand — or is there a genuine performance difference?
 We put the FURminator Large Dog deShedding Tool ($29.99) against five budget alternatives across four dogs: a Labrador Retriever, a German Shepherd, a Golden Retriever, and a Siberian Husky. We measured hair removal volume (yes, we weighed the hair), coat condition after, and dogs' tolerance during sessions.

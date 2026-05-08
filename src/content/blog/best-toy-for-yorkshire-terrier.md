@@ -9,7 +9,16 @@ breedSlug: "yorkshire-terrier"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Yorkshire Terrier puppy resting indoors with a toy dog figurine nearby."
+imageAlt: "Cute Yorkshire Terrier puppy resting indoors with a toy dog figurine nearby."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/yorkshire-terrier-with-toy-indoors-portrait-34232518/"
+imageSearchQuery: "Yorkshire Terrier dog playing toy"
 ---
+
 
 Yorkshire Terriers have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 7–7 lbs, regular exercise energy, infrequent shedding, and affectionate, sprightly, tomboyish temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

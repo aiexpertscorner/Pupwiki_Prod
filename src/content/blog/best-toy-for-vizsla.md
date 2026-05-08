@@ -9,7 +9,16 @@ breedSlug: "vizsla"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/3013467/pexels-photo-3013467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3013467/pexels-photo-3013467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Brown Vizsla dog energetically jumping over a log with a toy ball in a lush forest."
+imageAlt: "Brown Vizsla dog energetically jumping over a log with a toy ball in a lush forest."
+imageSource: "pexels"
+imageCredit: "Photo by chepté cormani on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-with-ball-in-mouth-jumping-over-a-fallen-tree-trunk-3013467/"
+imageSearchQuery: "Vizsla dog playing toy"
 ---
+
 
 Vizslas have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 44–60 lbs, energetic energy, seasonal shedding, and affectionate, gentle, energetic temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

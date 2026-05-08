@@ -8,7 +8,16 @@ author: "The PupWiki Team"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of brown dry dog food kibble in various shapes and sizes."
+imageAlt: "A detailed close-up of brown dry dog food kibble in various shapes and sizes."
+imageSource: "pexels"
+imageCredit: "Photo by Rafael Rodrigues on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/"
+imageSearchQuery: "dog food"
 ---
+
 
 Feeding a large breed puppy isn't the same as feeding any other puppy. Large and giant breeds grow at an astonishing rate — a Great Dane goes from 1 lb at birth to 100+ lbs in 18 months. That rapid growth creates specific nutritional vulnerabilities that can result in lifelong skeletal problems if the wrong food is fed.
 The most important word in puppy nutrition for large breeds: **controlled**. Controlled calcium, controlled phosphorus, controlled caloric density. Overfeeding and over-supplementing large breed puppies is as dangerous as underfeeding them.

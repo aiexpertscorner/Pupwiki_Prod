@@ -9,7 +9,16 @@ breedSlug: "border-collie"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/6735801/pexels-photo-6735801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6735801/pexels-photo-6735801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable border collie dog running with a blue toy outdoors in a sunny park."
+imageAlt: "Adorable border collie dog running with a blue toy outdoors in a sunny park."
+imageSource: "pexels"
+imageCredit: "Photo by Son Tung Tran on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-and-brown-border-collie-dog-running-while-biting-a-toy-6735801/"
+imageSearchQuery: "Border Collie dog playing toy"
 ---
+
 
 Border Collies have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 30–55 lbs, needs lots of activity energy, seasonal shedding, and affectionate, smart, energetic temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

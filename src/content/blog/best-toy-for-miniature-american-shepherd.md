@@ -9,7 +9,16 @@ breedSlug: "miniature-american-shepherd"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/5942479/pexels-photo-5942479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5942479/pexels-photo-5942479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute small dog playing with a plush toy on a warm leather sofa in a cozy indoor setting."
+imageAlt: "Cute small dog playing with a plush toy on a warm leather sofa in a cozy indoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by www.kaboompics.com on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-with-a-toy-on-a-sofa-5942479/"
+imageSearchQuery: "Miniature American Shepherd dog playing toy"
 ---
+
 
 Miniature American Shepherds have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 20–40 lbs, energetic energy, frequent shedding, and good-natured, intelligent, devoted temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

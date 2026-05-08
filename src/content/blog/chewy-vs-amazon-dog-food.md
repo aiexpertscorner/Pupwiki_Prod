@@ -10,7 +10,16 @@ readTime: 6
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/5745217/pexels-photo-5745217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5745217/pexels-photo-5745217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "From above of playful cute Akita dog lying on wooden floor and holding hand of unrecognizable bearded ethnic male owner eating yummy croissant"
+imageAlt: "From above of playful cute Akita dog lying on wooden floor and holding hand of unrecognizable bearded ethnic male owner eating yummy croissant"
+imageSource: "pexels"
+imageCredit: "Photo by Zen Chung on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/anonymous-black-man-and-purebred-dog-playing-together-and-eating-croissant-5745217/"
+imageSearchQuery: "dog owner comparing dog food"
 ---
+
 
 Every dog owner buying food online eventually asks: should I be buying this on Chewy instead of Amazon? Or vice versa? We tracked prices for 12 popular dog foods across both platforms for six months to answer this definitively.
 The short answer: **it depends — and it changes over time**. But there are consistent patterns that help you default to the right platform.

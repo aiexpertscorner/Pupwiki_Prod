@@ -9,7 +9,16 @@ breedSlug: "chesapeake-bay-retriever"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/1739093/pexels-photo-1739093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/1739093/pexels-photo-1739093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A happy chocolate Labrador Retriever playing tug-of-war with a colorful toy inside a cozy home."
+imageAlt: "A happy chocolate Labrador Retriever playing tug-of-war with a colorful toy inside a cozy home."
+imageSource: "pexels"
+imageCredit: "Photo by Josh Sorenson on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-pulling-his-toy-1739093/"
+imageSearchQuery: "Chesapeake Bay Retriever dog playing toy"
 ---
+
 
 Chesapeake Bay Retrievers have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 55–80 lbs, energetic energy, regularly shedding, and affectionate, bright, sensitive temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

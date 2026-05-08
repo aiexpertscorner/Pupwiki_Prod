@@ -11,7 +11,16 @@ readTime: 8
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/20016125/pexels-photo-20016125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20016125/pexels-photo-20016125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog lying on grass cuddling a black and white stuffed animal companion outdoors."
+imageAlt: "Cute dog lying on grass cuddling a black and white stuffed animal companion outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Shar Kaminski on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-with-soft-toy-on-grass-20016125/"
+imageSearchQuery: "dog toys"
 ---
+
 
 No toy is truly indestructible — but some come close. If you've ever found a pile of fluff and squeaker parts where a "durable" toy used to be, or watched your dog demolish a supposedly tough rubber toy in under an hour, this guide is for you.
 We tested 15+ chew toys with dogs that owners classified as "aggressive" or "power" chewers — German Shepherds, Rottweilers, Pit Bull mixes, Malinois, and Labrador Retrievers who've been destroying toys since puppyhood. Here's what actually survived.

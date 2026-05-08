@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and white portrait of an American Bulldog with tongue out, showing playful nature."
+imageAlt: "A black and white portrait of an American Bulldog with tongue out, showing playful nature."
+imageSource: "pexels"
+imageCredit: "Photo by Mohssine Oudraoua on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-12768126/"
+imageSearchQuery: "American Bulldog dog portrait"
 ---
+
 
 Naming a American Bulldog is your first chance to match a name to a personality — and American Bulldogs have a distinct one: **Loyal, Self-Confident**.
 The best American Bulldog names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the American Bulldog's breed profile to give you the most matched options.

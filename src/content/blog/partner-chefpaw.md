@@ -3,8 +3,8 @@ title: "Chef Paw (US) Guide for Dog People - Products, Services and Fit Notes"
 seoTitle: "Chef Paw (US) Dog Guide - Products, Services and Fit Notes"
 displayTitle: "Chef Paw (US) guide for dog people"
 description: "A PupWiki guide to Chef Paw (US): what the brand offers, when current or future dog owners may consider it, product or service fit, and practical buying notes."
-pubDate: 2026-05-04
-updatedDate: 2026-05-04
+pubDate: 2026-05-08
+updatedDate: 2026-05-08
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["brand-guide", "dog-food", "food", "nutrition", "feeding", "fresh-food", "raw-food", "sensitive-stomach", "allergies", "care", "appliances"]

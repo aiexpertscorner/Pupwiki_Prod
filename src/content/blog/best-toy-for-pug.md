@@ -9,7 +9,16 @@ breedSlug: "pug"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/4674807/pexels-photo-4674807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4674807/pexels-photo-4674807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute pug dog relaxing on a dark sofa, showcasing its playful and laid-back demeanor."
+imageAlt: "A cute pug dog relaxing on a dark sofa, showcasing its playful and laid-back demeanor."
+imageSource: "pexels"
+imageCredit: "Photo by Pew Nguyen on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-pug-4674807/"
+imageSearchQuery: "Pug dog playing toy"
 ---
+
 
 Pugs have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 14–18 lbs, regular exercise energy, regularly shedding, and charming, mischievous, loving temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

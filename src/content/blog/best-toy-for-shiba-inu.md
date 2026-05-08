@@ -9,7 +9,16 @@ breedSlug: "shiba-inu"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/9157298/pexels-photo-9157298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9157298/pexels-photo-9157298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Shiba Inu dog joyfully playing in the waves on a sunny beach."
+imageAlt: "A Shiba Inu dog joyfully playing in the waves on a sunny beach."
+imageSource: "pexels"
+imageCredit: "Photo by Valeria Boltneva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-at-the-beach-9157298/"
+imageSearchQuery: "Shiba Inu dog playing toy"
 ---
+
 
 Shiba Inus have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 17–23 lbs, regular exercise energy, seasonal shedding, and alert, active, attentive temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

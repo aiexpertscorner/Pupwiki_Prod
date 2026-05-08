@@ -9,7 +9,16 @@ breedSlug: "bernese-mountain-dog"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/11920800/pexels-photo-11920800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11920800/pexels-photo-11920800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Bernese Mountain Dog joyfully playing on a sandy beach near the ocean waves."
+imageAlt: "A Bernese Mountain Dog joyfully playing on a sandy beach near the ocean waves."
+imageSource: "pexels"
+imageCredit: "Photo by ignacio andres yañez grandon on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-burmese-mountain-dog-on-the-beach-11920800/"
+imageSearchQuery: "Bernese Mountain Dog dog playing toy"
 ---
+
 
 Bernese Mountain Dogs have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 70–115 lbs, energetic energy, frequent shedding, and good-natured, calm, strong temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

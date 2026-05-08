@@ -16,7 +16,16 @@ topProduct:
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/6131150/pexels-photo-6131150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131150/pexels-photo-6131150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Woman washing a small dog in a grooming salon sink, black and white photo."
+imageAlt: "Woman washing a small dog in a grooming salon sink, black and white photo."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-in-long-sleeve-shirt-washing-a-dog-6131150/"
+imageSearchQuery: "dog owner comparing dog grooming"
 ---
+
 
 Choosing between **FURminator deShedding Tool for Large Dogs** and **Hertzko Self-Cleaning Slicker Brush** comes down to what you prioritise — price, performance, or specific features for your dog.
 > **Short answer:** FURminator deShedding Tool for Large Dogs wins for most dogs and situations. But Hertzko Self-Cleaning Slicker Brush is the better choice in specific cases outlined below.

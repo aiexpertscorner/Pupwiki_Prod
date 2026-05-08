@@ -3,8 +3,8 @@ title: "RadioFence.com Guide for Dog People - Products, Services and Fit Notes"
 seoTitle: "RadioFence.com Dog Guide - Products, Services and Fit Notes"
 displayTitle: "RadioFence.com guide for dog people"
 description: "A PupWiki guide to RadioFence.com: what the brand offers, when current or future dog owners may consider it, product or service fit, and practical buying notes."
-pubDate: 2026-05-04
-updatedDate: 2026-05-04
+pubDate: 2026-05-08
+updatedDate: 2026-05-08
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["brand-guide", "training", "partner", "gear"]

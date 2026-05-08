@@ -9,7 +9,16 @@ breedSlug: "poodle-toy"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/20780562/pexels-photo-20780562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20780562/pexels-photo-20780562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Young girl in a yellow outfit playing with her poodle dog in a sunny park setting."
+imageAlt: "Young girl in a yellow outfit playing with her poodle dog in a sunny park setting."
+imageSource: "pexels"
+imageCredit: "Photo by MINH VO on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/girl-playing-with-poodle-at-park-20780562/"
+imageSearchQuery: "Poodle (Toy) dog playing toy"
 ---
+
 
 Poodle (Toy)s have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 4–6 lbs, regular exercise energy, infrequent shedding, and agile, intelligent, self-confident temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

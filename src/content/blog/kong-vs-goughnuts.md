@@ -10,7 +10,16 @@ readTime: 7
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/31248612/pexels-photo-31248612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31248612/pexels-photo-31248612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog enthusiastically jumps to catch a toy held by its owner in a park."
+imageAlt: "A dog enthusiastically jumps to catch a toy held by its owner in a park."
+imageSource: "pexels"
+imageCredit: "Photo by Dominik Gryzbon on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-dog-jumping-for-toy-with-owner-outdoors-31248612/"
+imageSearchQuery: "dog owner comparing dog toys"
 ---
+
 
 The KONG Extreme and the Goughnuts MAXX Ring are the two most-recommended tough dog toys on the internet. Both are made from natural rubber. Both are designed for the most aggressive chewers. Both cost significantly more than cheap chew toys.
 But they're very different products — and choosing the wrong one is a $30-40 mistake. We tested both for six weeks with four dogs classified as "power chewers" by their owners. Here's exactly what happened.

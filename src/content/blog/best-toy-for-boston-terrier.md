@@ -9,7 +9,16 @@ breedSlug: "boston-terrier"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/28541002/pexels-photo-28541002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28541002/pexels-photo-28541002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Boston Terrier playing with a blue toy indoors, capturing a cute and candid moment."
+imageAlt: "Adorable Boston Terrier playing with a blue toy indoors, capturing a cute and candid moment."
+imageSource: "pexels"
+imageCredit: "Photo by Sean Brannon on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-boston-terrier-with-toy-at-home-28541002/"
+imageSearchQuery: "Boston Terrier dog playing toy"
 ---
+
 
 Boston Terriers have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 12–25 lbs, regular exercise energy, infrequent shedding, and friendly, bright, amusing temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

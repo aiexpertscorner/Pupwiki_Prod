@@ -9,7 +9,16 @@ breedSlug: "cane-corso"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/13154823/pexels-photo-13154823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13154823/pexels-photo-13154823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A brindle dog playing with a colorful ball on grass under palm leaves."
+imageAlt: "A brindle dog playing with a colorful ball on grass under palm leaves."
+imageSource: "pexels"
+imageCredit: "Photo by Manuel Torres Garcia on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-with-a-toy-13154823/"
+imageSearchQuery: "Cane Corso dog playing toy"
 ---
+
 
 Cane Corsos have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — energetic energy, occasional shedding, and affectionate, intelligent, majestic temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

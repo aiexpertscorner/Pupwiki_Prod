@@ -9,7 +9,16 @@ breedSlug: "belgian-malinois"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/7210318/pexels-photo-7210318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7210318/pexels-photo-7210318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Dog with brown and black wet fur playing with buoy over pool with pure water while looking forward"
+imageAlt: "Dog with brown and black wet fur playing with buoy over pool with pure water while looking forward"
+imageSource: "pexels"
+imageCredit: "Photo by Blue Bird on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-biting-buoy-above-swimming-pool-7210318/"
+imageSearchQuery: "Belgian Malinois dog playing toy"
 ---
+
 
 Belgian Malinoiss have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 40–80 lbs, energetic energy, seasonal shedding, and confident, smart, hardworking temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

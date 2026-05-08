@@ -9,7 +9,16 @@ breedSlug: "german-shorthaired-pointer"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/9649470/pexels-photo-9649470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9649470/pexels-photo-9649470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Energetic German Shorthaired Pointer dog playing fetch with a stick in a grassy backyard."
+imageAlt: "Energetic German Shorthaired Pointer dog playing fetch with a stick in a grassy backyard."
+imageSource: "pexels"
+imageCredit: "Photo by Art Kravchenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-biting-a-tree-branch-9649470/"
+imageSearchQuery: "German Shorthaired Pointer dog playing toy"
 ---
+
 
 German Shorthaired Pointers have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 45–70 lbs, needs lots of activity energy, regularly shedding, and friendly, smart, willing to please temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

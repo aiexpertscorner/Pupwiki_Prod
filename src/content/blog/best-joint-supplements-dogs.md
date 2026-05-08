@@ -10,7 +10,16 @@ readTime: 8
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/18764141/pexels-photo-18764141.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18764141/pexels-photo-18764141.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Detailed shot of brown dog kibble, perfect for pet owners and animal nutrition visuals."
+imageAlt: "Detailed shot of brown dog kibble, perfect for pet owners and animal nutrition visuals."
+imageSource: "pexels"
+imageCredit: "Photo by Rafael Rodrigues on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dog-food-18764141/"
+imageSearchQuery: "dog supplements"
 ---
+
 
 Canine osteoarthritis affects an estimated 20% of dogs over the age of one, and up to 80% of dogs over the age of eight. If your dog is slowing down, hesitating on stairs, or showing stiffness after lying down, a joint supplement may help — but only if you choose the right one.
 The joint supplement market is crowded with products that claim benefits they can't support with evidence. In this guide, we focus on the clinical science, not the marketing.

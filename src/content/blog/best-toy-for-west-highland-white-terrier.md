@@ -9,7 +9,16 @@ breedSlug: "west-highland-white-terrier"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Westie dog lying on a wooden floor, charming and fluffy."
+imageAlt: "Westie dog lying on a wooden floor, charming and fluffy."
+imageSource: "pexels"
+imageCredit: "Photo by Alan han on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-west-highland-white-terrier-indoors-31163319/"
+imageSearchQuery: "West Highland White Terrier dog playing toy"
 ---
+
 
 West Highland White Terriers have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 15–20 lbs, regular exercise energy, seasonal shedding, and loyal, happy, entertaining temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

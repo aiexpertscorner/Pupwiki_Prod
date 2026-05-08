@@ -9,7 +9,16 @@ breedSlug: "weimaraner"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/5705545/pexels-photo-5705545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5705545/pexels-photo-5705545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Weimaraner and Terrier dogs playing on a grassy field surrounded by autumn foliage."
+imageAlt: "Weimaraner and Terrier dogs playing on a grassy field surrounded by autumn foliage."
+imageSource: "pexels"
+imageCredit: "Photo by www.kaboompics.com on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dogs-on-the-grass-5705545/"
+imageSearchQuery: "Weimaraner dog playing toy"
 ---
+
 
 Weimaraners have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 55–90 lbs, needs lots of activity energy, seasonal shedding, and friendly, fearless, obedient temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

@@ -9,7 +9,16 @@ breedSlug: "akita"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/5745213/pexels-photo-5745213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5745213/pexels-photo-5745213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "From above of crop anonymous young bearded black guy sitting on wooden floor and playing with adorable Akita dog"
+imageAlt: "From above of crop anonymous young bearded black guy sitting on wooden floor and playing with adorable Akita dog"
+imageSource: "pexels"
+imageCredit: "Photo by Zen Chung on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/unrecognizable-ethnic-man-training-purebred-dog-sitting-on-floor-5745213/"
+imageSearchQuery: "Akita dog playing toy"
 ---
+
 
 Akitas have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 70–130 lbs, energetic energy, seasonal shedding, and courageous, dignified, profoundly loyal temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

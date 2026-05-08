@@ -9,7 +9,16 @@ breedSlug: "miniature-schnauzer"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/3662360/pexels-photo-3662360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3662360/pexels-photo-3662360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two schnauzer dogs playing energetically on a grassy lawn in a park setting."
+imageAlt: "Two schnauzer dogs playing energetically on a grassy lawn in a park setting."
+imageSource: "pexels"
+imageCredit: "Photo by Sebastian Coman Travel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/two-small-dog-on-a-green-grass-field-3662360/"
+imageSearchQuery: "Miniature Schnauzer dog playing toy"
 ---
+
 
 Miniature Schnauzers have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 11–20 lbs, regular exercise energy, infrequent shedding, and friendly, smart, obedient temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

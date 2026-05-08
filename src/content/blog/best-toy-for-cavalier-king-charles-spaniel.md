@@ -9,7 +9,16 @@ breedSlug: "cavalier-king-charles-spaniel"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/23427657/pexels-photo-23427657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/23427657/pexels-photo-23427657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Cavalier King Charles Spaniel sleeping on a blue table during a dog show."
+imageAlt: "A cute Cavalier King Charles Spaniel sleeping on a blue table during a dog show."
+imageSource: "pexels"
+imageCredit: "Photo by Dmitry Ovsyannikov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/king-charles-spaniel-sleeping-on-a-table-during-a-dog-show-23427657/"
+imageSearchQuery: "Cavalier King Charles Spaniel dog playing toy"
 ---
+
 
 Cavalier King Charles Spaniels have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 13–18 lbs, calm energy, occasional shedding, and affectionate, gentle, graceful temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

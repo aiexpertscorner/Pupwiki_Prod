@@ -9,7 +9,16 @@ breedSlug: "bulldog"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/21261763/pexels-photo-21261763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/21261763/pexels-photo-21261763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable French Bulldog in jacket playing with a toy on the sandy beach in Stamford, CT."
+imageAlt: "Adorable French Bulldog in jacket playing with a toy on the sandy beach in Stamford, CT."
+imageSource: "pexels"
+imageCredit: "Photo by David Kanigan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-french-bulldog-playing-with-a-toy-on-a-beach-21261763/"
+imageSearchQuery: "Bulldog dog playing toy"
 ---
+
 
 Bulldogs have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 40–50 lbs, regular exercise energy, regularly shedding, and friendly, courageous, calm temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

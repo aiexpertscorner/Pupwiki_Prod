@@ -9,7 +9,16 @@ breedSlug: "newfoundland"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/12703103/pexels-photo-12703103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12703103/pexels-photo-12703103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two friendly dogs playing together on outdoor pavement in France."
+imageAlt: "Two friendly dogs playing together on outdoor pavement in France."
+imageSource: "pexels"
+imageCredit: "Photo by Catherine Leclert on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dogs-playing-on-a-stone-pavement-12703103/"
+imageSearchQuery: "Newfoundland dog playing toy"
 ---
+
 
 Newfoundlands have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 100–150 lbs, regular exercise energy, seasonal shedding, and sweet, patient, devoted temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

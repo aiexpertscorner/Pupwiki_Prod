@@ -9,7 +9,16 @@ breedSlug: "pembroke-welsh-corgi"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/30683805/pexels-photo-30683805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30683805/pexels-photo-30683805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Corgi dog wearing a fantasy costume with a toy weapon, enjoying outdoor playtime."
+imageAlt: "Adorable Corgi dog wearing a fantasy costume with a toy weapon, enjoying outdoor playtime."
+imageSource: "pexels"
+imageCredit: "Photo by Lucas Dalamarta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/corgi-dog-in-fantasy-costume-outdoors-30683805/"
+imageSearchQuery: "Pembroke Welsh Corgi dog playing toy"
 ---
+
 
 Pembroke Welsh Corgis have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 28–30 lbs, energetic energy, regularly shedding, and affectionate, smart, alert temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

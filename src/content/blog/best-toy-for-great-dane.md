@@ -9,7 +9,16 @@ breedSlug: "great-dane"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/103540/pexels-photo-103540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/103540/pexels-photo-103540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Great Dane dog lying on grass in a sunny park with backpacks in the background."
+imageAlt: "Great Dane dog lying on grass in a sunny park with backpacks in the background."
+imageSource: "pexels"
+imageCredit: "Photo by Matthias Zomer on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/blue-merle-great-dane-103540/"
+imageSearchQuery: "Great Dane dog playing toy"
 ---
+
 
 Great Danes have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 110–175 lbs, energetic energy, seasonal shedding, and friendly, patient, dependable temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

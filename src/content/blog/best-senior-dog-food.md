@@ -8,7 +8,16 @@ author: "The PupWiki Team"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of brown dry dog food kibble in various shapes and sizes."
+imageAlt: "A detailed close-up of brown dry dog food kibble in various shapes and sizes."
+imageSource: "pexels"
+imageCredit: "Photo by Rafael Rodrigues on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/"
+imageSearchQuery: "dog food"
 ---
+
 
 Somewhere around age 7-9 (depending on size), your dog crosses into senior territory. Their metabolism slows, muscle mass decreases, joints stiffen, and digestive efficiency declines. The food that served them well at age 3 may no longer be ideal.
 Senior dog foods are formulated to address these changes: typically lower in calories (to prevent obesity), higher in quality protein (to maintain muscle mass), enhanced with joint support ingredients, and often easier to digest. Here are the five best options.

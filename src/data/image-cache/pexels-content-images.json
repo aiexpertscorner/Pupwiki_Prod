@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-06T23:45:40.758Z",
+  "syncedAt": "2026-05-08T03:42:37.298Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -7040,12 +7040,652 @@
       "photographerUrl": "https://www.pexels.com/@joolsmagools",
       "pexelsUrl": "https://www.pexels.com/photo/smiling-samoyeds-outdoors-in-ascot-vale-28730603/",
       "id": 28730603
+    },
+    "best-indestructible-dog-toys:dog toys": {
+      "url": "https://images.pexels.com/photos/20016125/pexels-photo-20016125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute dog lying on grass cuddling a black and white stuffed animal companion outdoors.",
+      "photographer": "Shar Kaminski",
+      "photographerUrl": "https://www.pexels.com/@shar-kaminski-927930706",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-with-soft-toy-on-grass-20016125/",
+      "id": 20016125
+    },
+    "best-interactive-dog-toys:dog toys": {
+      "url": "https://images.pexels.com/photos/20016125/pexels-photo-20016125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute dog lying on grass cuddling a black and white stuffed animal companion outdoors.",
+      "photographer": "Shar Kaminski",
+      "photographerUrl": "https://www.pexels.com/@shar-kaminski-927930706",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-with-soft-toy-on-grass-20016125/",
+      "id": 20016125
+    },
+    "best-joint-supplements-dogs:dog supplements": {
+      "url": "https://images.pexels.com/photos/18764141/pexels-photo-18764141.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Detailed shot of brown dog kibble, perfect for pet owners and animal nutrition visuals.",
+      "photographer": "Rafael Rodrigues",
+      "photographerUrl": "https://www.pexels.com/@rrodriguesim",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dog-food-18764141/",
+      "id": 18764141
+    },
+    "best-no-pull-harnesses:dog training": {
+      "url": "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors.",
+      "photographer": "Anton Kudryashov",
+      "photographerUrl": "https://www.pexels.com/@anton-kudryashov-118639843",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/",
+      "id": 9956387
+    },
+    "best-puppy-food-large-breeds:dog food": {
+      "url": "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of brown dry dog food kibble in various shapes and sizes.",
+      "photographer": "Rafael Rodrigues",
+      "photographerUrl": "https://www.pexels.com/@rrodriguesim",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/",
+      "id": 34952073
+    },
+    "best-senior-dog-food:dog food": {
+      "url": "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of brown dry dog food kibble in various shapes and sizes.",
+      "photographer": "Rafael Rodrigues",
+      "photographerUrl": "https://www.pexels.com/@rrodriguesim",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/",
+      "id": 34952073
+    },
+    "best-toy-for-akita:Akita dog playing toy": {
+      "url": "https://images.pexels.com/photos/5745213/pexels-photo-5745213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "From above of crop anonymous young bearded black guy sitting on wooden floor and playing with adorable Akita dog",
+      "photographer": "Zen Chung",
+      "photographerUrl": "https://www.pexels.com/@zen-chung",
+      "pexelsUrl": "https://www.pexels.com/photo/unrecognizable-ethnic-man-training-purebred-dog-sitting-on-floor-5745213/",
+      "id": 5745213
+    },
+    "best-toy-for-australian-shepherd:Australian Shepherd dog playing toy": {
+      "url": "https://images.pexels.com/photos/14796677/pexels-photo-14796677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of an Australian Shepherd dog with a blue ball in the snowy outdoors, showcasing its playful nature.",
+      "photographer": "patrice schoefolt",
+      "photographerUrl": "https://www.pexels.com/@sunny67",
+      "pexelsUrl": "https://www.pexels.com/photo/australian-shepherd-biting-a-blue-ball-14796677/",
+      "id": 14796677
+    },
+    "best-toy-for-basset-hound:Basset Hound dog playing toy": {
+      "url": "https://images.pexels.com/photos/13928695/pexels-photo-13928695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute bobblehead of a dog figurine placed on a car dashboard, perfect for pet lovers.",
+      "photographer": "Gusti Mega",
+      "photographerUrl": "https://www.pexels.com/@gustime",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-a-dog-bobblehead-13928695/",
+      "id": 13928695
+    },
+    "best-toy-for-beagle:Beagle dog playing toy": {
+      "url": "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black dog playing with various colorful toys on a wooden floor indoors.",
+      "photographer": "Mathew Coulton",
+      "photographerUrl": "https://www.pexels.com/@mathew-coulton-2358287",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-lying-on-the-floor-4445461/",
+      "id": 4445461
+    },
+    "best-toy-for-belgian-malinois:Belgian Malinois dog playing toy": {
+      "url": "https://images.pexels.com/photos/7210318/pexels-photo-7210318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dog with brown and black wet fur playing with buoy over pool with pure water while looking forward",
+      "photographer": "Blue Bird",
+      "photographerUrl": "https://www.pexels.com/@blue-bird",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-biting-buoy-above-swimming-pool-7210318/",
+      "id": 7210318
+    },
+    "best-toy-for-bernese-mountain-dog:Bernese Mountain Dog dog playing toy": {
+      "url": "https://images.pexels.com/photos/11920800/pexels-photo-11920800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Bernese Mountain Dog joyfully playing on a sandy beach near the ocean waves.",
+      "photographer": "ignacio andres yañez grandon",
+      "photographerUrl": "https://www.pexels.com/@ignacio-andres-yanez-grandon-142454246",
+      "pexelsUrl": "https://www.pexels.com/photo/a-burmese-mountain-dog-on-the-beach-11920800/",
+      "id": 11920800
+    },
+    "best-toy-for-bichon-frise:Bichon Frise dog playing toy": {
+      "url": "https://images.pexels.com/photos/37130279/pexels-photo-37130279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cheerful white dog energetically runs across a sunlit green lawn in Canonsburg, Pennsylvania.",
+      "photographer": "Jay Brand",
+      "photographerUrl": "https://www.pexels.com/@jay-brand-1763356224",
+      "pexelsUrl": "https://www.pexels.com/photo/playful-white-dog-running-on-green-lawn-37130279/",
+      "id": 37130279
+    },
+    "best-toy-for-bloodhound:Bloodhound dog playing toy": {
+      "url": "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black dog playing with various colorful toys on a wooden floor indoors.",
+      "photographer": "Mathew Coulton",
+      "photographerUrl": "https://www.pexels.com/@mathew-coulton-2358287",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-lying-on-the-floor-4445461/",
+      "id": 4445461
+    },
+    "best-toy-for-border-collie:Border Collie dog playing toy": {
+      "url": "https://images.pexels.com/photos/6735801/pexels-photo-6735801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable border collie dog running with a blue toy outdoors in a sunny park.",
+      "photographer": "Son Tung Tran",
+      "photographerUrl": "https://www.pexels.com/@son-tung-tran-17375059",
+      "pexelsUrl": "https://www.pexels.com/photo/white-and-brown-border-collie-dog-running-while-biting-a-toy-6735801/",
+      "id": 6735801
+    },
+    "best-toy-for-boston-terrier:Boston Terrier dog playing toy": {
+      "url": "https://images.pexels.com/photos/28541002/pexels-photo-28541002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Boston Terrier playing with a blue toy indoors, capturing a cute and candid moment.",
+      "photographer": "Sean Brannon",
+      "photographerUrl": "https://www.pexels.com/@sean-brannon-762373037",
+      "pexelsUrl": "https://www.pexels.com/photo/playful-boston-terrier-with-toy-at-home-28541002/",
+      "id": 28541002
+    },
+    "best-toy-for-boxer:Boxer dog playing toy": {
+      "url": "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black dog playing with various colorful toys on a wooden floor indoors.",
+      "photographer": "Mathew Coulton",
+      "photographerUrl": "https://www.pexels.com/@mathew-coulton-2358287",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-lying-on-the-floor-4445461/",
+      "id": 4445461
+    },
+    "best-toy-for-brittany:Brittany dog playing toy": {
+      "url": "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black dog playing with various colorful toys on a wooden floor indoors.",
+      "photographer": "Mathew Coulton",
+      "photographerUrl": "https://www.pexels.com/@mathew-coulton-2358287",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-lying-on-the-floor-4445461/",
+      "id": 4445461
+    },
+    "best-toy-for-bulldog:Bulldog dog playing toy": {
+      "url": "https://images.pexels.com/photos/21261763/pexels-photo-21261763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable French Bulldog in jacket playing with a toy on the sandy beach in Stamford, CT.",
+      "photographer": "David Kanigan",
+      "photographerUrl": "https://www.pexels.com/@david-kanigan-239927285",
+      "pexelsUrl": "https://www.pexels.com/photo/a-french-bulldog-playing-with-a-toy-on-a-beach-21261763/",
+      "id": 21261763
+    },
+    "best-toy-for-cane-corso:Cane Corso dog playing toy": {
+      "url": "https://images.pexels.com/photos/13154823/pexels-photo-13154823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A brindle dog playing with a colorful ball on grass under palm leaves.",
+      "photographer": "Manuel Torres Garcia",
+      "photographerUrl": "https://www.pexels.com/@matoga",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-with-a-toy-13154823/",
+      "id": 13154823
+    },
+    "best-toy-for-cavalier-king-charles-spaniel:Cavalier King Charles Spaniel dog playing toy": {
+      "url": "https://images.pexels.com/photos/23427657/pexels-photo-23427657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute Cavalier King Charles Spaniel sleeping on a blue table during a dog show.",
+      "photographer": "Dmitry Ovsyannikov",
+      "photographerUrl": "https://www.pexels.com/@dmitry-ovsyannikov-271243380",
+      "pexelsUrl": "https://www.pexels.com/photo/king-charles-spaniel-sleeping-on-a-table-during-a-dog-show-23427657/",
+      "id": 23427657
+    },
+    "best-toy-for-chesapeake-bay-retriever:Chesapeake Bay Retriever dog playing toy": {
+      "url": "https://images.pexels.com/photos/1739093/pexels-photo-1739093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A happy chocolate Labrador Retriever playing tug-of-war with a colorful toy inside a cozy home.",
+      "photographer": "Josh Sorenson",
+      "photographerUrl": "https://www.pexels.com/@joshsorenson",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-pulling-his-toy-1739093/",
+      "id": 1739093
+    },
+    "best-toy-for-chihuahua:Chihuahua dog playing toy": {
+      "url": "https://images.pexels.com/photos/5942487/pexels-photo-5942487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Small dog playing with a plush toy in a modern living room with a leather sofa.",
+      "photographer": "www.kaboompics.com",
+      "photographerUrl": "https://www.pexels.com/@karola-g",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-playing-with-toy-in-living-room-5942487/",
+      "id": 5942487
+    },
+    "best-toy-for-cocker-spaniel:Cocker Spaniel dog playing toy": {
+      "url": "https://images.pexels.com/photos/32812824/pexels-photo-32812824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Playful Cocker Spaniel dog sitting on grass with a toy, enjoying a sunny day outdoors",
+      "photographer": "Germán Latasa",
+      "photographerUrl": "https://www.pexels.com/@german-latasa-814203747",
+      "pexelsUrl": "https://www.pexels.com/photo/happy-cocker-spaniel-dog-in-a-garden-32812824/",
+      "id": 32812824
+    },
+    "best-toy-for-collie:Collie dog playing toy": {
+      "url": "https://images.pexels.com/photos/33722063/pexels-photo-33722063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Energetic dog with a blue toy ball running through a sunlit park, showcasing playful energy and joy.",
+      "photographer": "Patrick",
+      "photographerUrl": "https://www.pexels.com/@jaralol",
+      "pexelsUrl": "https://www.pexels.com/photo/happy-dog-playing-fetch-in-sunny-park-33722063/",
+      "id": 33722063
+    },
+    "best-toy-for-dachshund:Dachshund dog playing toy": {
+      "url": "https://images.pexels.com/photos/29081525/pexels-photo-29081525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dachshund playing with a larger black and white dog on a grassy field.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/dachshund-and-black-dog-playing-outdoors-29081525/",
+      "id": 29081525
+    },
+    "best-toy-for-doberman-pinscher:Doberman Pinscher dog playing toy": {
+      "url": "https://images.pexels.com/photos/32617320/pexels-photo-32617320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Doberman dog energetically runs through a shallow stream in a natural setting.",
+      "photographer": "Anil  Sharma",
+      "photographerUrl": "https://www.pexels.com/@shootsaga",
+      "pexelsUrl": "https://www.pexels.com/photo/energetic-doberman-running-in-a-stream-32617320/",
+      "id": 32617320
+    },
+    "best-toy-for-english-springer-spaniel:English Springer Spaniel dog playing toy": {
+      "url": "https://images.pexels.com/photos/29506737/pexels-photo-29506737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Springer Spaniel dog playing in a snow-covered park on a winter day.",
+      "photographer": "Jack Farinella",
+      "photographerUrl": "https://www.pexels.com/@jackfarinella",
+      "pexelsUrl": "https://www.pexels.com/photo/springer-spaniel-in-snowy-landscape-29506737/",
+      "id": 29506737
+    },
+    "best-toy-for-french-bulldog:French Bulldog dog playing toy": {
+      "url": "https://images.pexels.com/photos/21261763/pexels-photo-21261763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable French Bulldog in jacket playing with a toy on the sandy beach in Stamford, CT.",
+      "photographer": "David Kanigan",
+      "photographerUrl": "https://www.pexels.com/@david-kanigan-239927285",
+      "pexelsUrl": "https://www.pexels.com/photo/a-french-bulldog-playing-with-a-toy-on-a-beach-21261763/",
+      "id": 21261763
+    },
+    "best-toy-for-german-shepherd-dog:German Shepherd Dog dog playing toy": {
+      "url": "https://images.pexels.com/photos/36896059/pexels-photo-36896059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A white shepherd dog stands on grass holding a stuffed tiger toy in its mouth.",
+      "photographer": "Jo Hel",
+      "photographerUrl": "https://www.pexels.com/@jo-hel-1159775010",
+      "pexelsUrl": "https://www.pexels.com/photo/white-shepherd-dog-with-stuffed-tiger-toy-outdoors-36896059/",
+      "id": 36896059
+    },
+    "best-toy-for-german-shorthaired-pointer:German Shorthaired Pointer dog playing toy": {
+      "url": "https://images.pexels.com/photos/9649470/pexels-photo-9649470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Energetic German Shorthaired Pointer dog playing fetch with a stick in a grassy backyard.",
+      "photographer": "Art Kravchenko",
+      "photographerUrl": "https://www.pexels.com/@art-kravchenko-111153412",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-biting-a-tree-branch-9649470/",
+      "id": 9649470
+    },
+    "best-toy-for-golden-retriever:Golden Retriever dog playing toy": {
+      "url": "https://images.pexels.com/photos/14084426/pexels-photo-14084426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Two golden retrievers playing with a plush toy on the grass in a playful outdoor moment.",
+      "photographer": "Barnabas Davoti",
+      "photographerUrl": "https://www.pexels.com/@barnabas-davoti-31615494",
+      "pexelsUrl": "https://www.pexels.com/photo/retriver-dogs-playing-with-plush-monkey-14084426/",
+      "id": 14084426
+    },
+    "best-toy-for-great-dane:Great Dane dog playing toy": {
+      "url": "https://images.pexels.com/photos/103540/pexels-photo-103540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Great Dane dog lying on grass in a sunny park with backpacks in the background.",
+      "photographer": "Matthias Zomer",
+      "photographerUrl": "https://www.pexels.com/@matthiaszomer",
+      "pexelsUrl": "https://www.pexels.com/photo/blue-merle-great-dane-103540/",
+      "id": 103540
+    },
+    "best-toy-for-havanese:Havanese dog playing toy": {
+      "url": "https://images.pexels.com/photos/19449515/pexels-photo-19449515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute dog with a fluffy coat playing with a plush toy indoors, showcasing fun and playful behavior.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-holding-a-toy-in-the-mouth-19449515/",
+      "id": 19449515
+    },
+    "best-toy-for-labrador-retriever:Labrador Retriever dog playing toy": {
+      "url": "https://images.pexels.com/photos/20436462/pexels-photo-20436462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute golden retriever dog sitting by a brick wall holding a plush toy in its mouth.",
+      "photographer": "Mohan Nannapaneni",
+      "photographerUrl": "https://www.pexels.com/@mnannapaneni",
+      "pexelsUrl": "https://www.pexels.com/photo/golden-retriever-sitting-on-pavement-with-toy-in-mouth-20436462/",
+      "id": 20436462
+    },
+    "best-toy-for-maltese:Maltese dog playing toy": {
+      "url": "https://images.pexels.com/photos/20233073/pexels-photo-20233073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Shih Tzu dog lying on a tiled floor, playing with a plush teddy bear toy indoors.",
+      "photographer": "Yargo S. Walkowicz",
+      "photographerUrl": "https://www.pexels.com/@yargo-s-walkowicz-975377583",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-lying-down-with-toy-20233073/",
+      "id": 20233073
+    },
+    "best-toy-for-mastiff:Mastiff dog playing toy": {
+      "url": "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black dog playing with various colorful toys on a wooden floor indoors.",
+      "photographer": "Mathew Coulton",
+      "photographerUrl": "https://www.pexels.com/@mathew-coulton-2358287",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-lying-on-the-floor-4445461/",
+      "id": 4445461
+    },
+    "best-toy-for-miniature-american-shepherd:Miniature American Shepherd dog playing toy": {
+      "url": "https://images.pexels.com/photos/5942479/pexels-photo-5942479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute small dog playing with a plush toy on a warm leather sofa in a cozy indoor setting.",
+      "photographer": "www.kaboompics.com",
+      "photographerUrl": "https://www.pexels.com/@karola-g",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-with-a-toy-on-a-sofa-5942479/",
+      "id": 5942479
+    },
+    "best-toy-for-miniature-schnauzer:Miniature Schnauzer dog playing toy": {
+      "url": "https://images.pexels.com/photos/3662360/pexels-photo-3662360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Two schnauzer dogs playing energetically on a grassy lawn in a park setting.",
+      "photographer": "Sebastian Coman Travel",
+      "photographerUrl": "https://www.pexels.com/@sebcomantravel",
+      "pexelsUrl": "https://www.pexels.com/photo/two-small-dog-on-a-green-grass-field-3662360/",
+      "id": 3662360
+    },
+    "best-toy-for-newfoundland:Newfoundland dog playing toy": {
+      "url": "https://images.pexels.com/photos/12703103/pexels-photo-12703103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Two friendly dogs playing together on outdoor pavement in France.",
+      "photographer": "Catherine Leclert",
+      "photographerUrl": "https://www.pexels.com/@catherine-leclert-139933552",
+      "pexelsUrl": "https://www.pexels.com/photo/dogs-playing-on-a-stone-pavement-12703103/",
+      "id": 12703103
+    },
+    "best-toy-for-pembroke-welsh-corgi:Pembroke Welsh Corgi dog playing toy": {
+      "url": "https://images.pexels.com/photos/30683805/pexels-photo-30683805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Corgi dog wearing a fantasy costume with a toy weapon, enjoying outdoor playtime.",
+      "photographer": "Lucas Dalamarta",
+      "photographerUrl": "https://www.pexels.com/@lucas-dalamarta-823750442",
+      "pexelsUrl": "https://www.pexels.com/photo/corgi-dog-in-fantasy-costume-outdoors-30683805/",
+      "id": 30683805
+    },
+    "best-toy-for-pomeranian:Pomeranian dog playing toy": {
+      "url": "https://images.pexels.com/photos/36725716/pexels-photo-36725716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A joyful woman playing with her fluffy dog on the sandy beach of Kołobrzeg, Poland.",
+      "photographer": "Michał Robak",
+      "photographerUrl": "https://www.pexels.com/@michalrobak",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-playing-with-dog-on-kolobrzeg-beach-36725716/",
+      "id": 36725716
+    },
+    "best-toy-for-poodle-miniature:Poodle (Miniature) dog playing toy": {
+      "url": "https://images.pexels.com/photos/20780562/pexels-photo-20780562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Young girl in a yellow outfit playing with her poodle dog in a sunny park setting.",
+      "photographer": "MINH VO",
+      "photographerUrl": "https://www.pexels.com/@minh-vo-507870144",
+      "pexelsUrl": "https://www.pexels.com/photo/girl-playing-with-poodle-at-park-20780562/",
+      "id": 20780562
+    },
+    "best-toy-for-poodle-standard:Poodle (Standard) dog playing toy": {
+      "url": "https://images.pexels.com/photos/20780562/pexels-photo-20780562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Young girl in a yellow outfit playing with her poodle dog in a sunny park setting.",
+      "photographer": "MINH VO",
+      "photographerUrl": "https://www.pexels.com/@minh-vo-507870144",
+      "pexelsUrl": "https://www.pexels.com/photo/girl-playing-with-poodle-at-park-20780562/",
+      "id": 20780562
+    },
+    "best-toy-for-poodle-toy:Poodle (Toy) dog playing toy": {
+      "url": "https://images.pexels.com/photos/20780562/pexels-photo-20780562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Young girl in a yellow outfit playing with her poodle dog in a sunny park setting.",
+      "photographer": "MINH VO",
+      "photographerUrl": "https://www.pexels.com/@minh-vo-507870144",
+      "pexelsUrl": "https://www.pexels.com/photo/girl-playing-with-poodle-at-park-20780562/",
+      "id": 20780562
+    },
+    "best-toy-for-portuguese-water-dog:Portuguese Water Dog dog playing toy": {
+      "url": "https://images.pexels.com/photos/5482871/pexels-photo-5482871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man holding a red spiky toy while playing fetch with a dog near a pool.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/man-holding-a-red-ball-5482871/",
+      "id": 5482871
+    },
+    "best-toy-for-pug:Pug dog playing toy": {
+      "url": "https://images.pexels.com/photos/4674807/pexels-photo-4674807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute pug dog relaxing on a dark sofa, showcasing its playful and laid-back demeanor.",
+      "photographer": "Pew Nguyen",
+      "photographerUrl": "https://www.pexels.com/@nguyendesigner",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-pug-4674807/",
+      "id": 4674807
+    },
+    "best-toy-for-rhodesian-ridgeback:Rhodesian Ridgeback dog playing toy": {
+      "url": "https://images.pexels.com/photos/5389345/pexels-photo-5389345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of two Rhodesian Ridgeback dogs outdoors, showcasing their attentive expression.",
+      "photographer": "Ilo Frey",
+      "photographerUrl": "https://www.pexels.com/@couleur",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-dogs-on-green-grass-field-5389345/",
+      "id": 5389345
+    },
+    "best-toy-for-rottweiler:Rottweiler dog playing toy": {
+      "url": "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black dog playing with various colorful toys on a wooden floor indoors.",
+      "photographer": "Mathew Coulton",
+      "photographerUrl": "https://www.pexels.com/@mathew-coulton-2358287",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-lying-on-the-floor-4445461/",
+      "id": 4445461
+    },
+    "best-toy-for-saint-bernard:Saint Bernard dog playing toy": {
+      "url": "https://images.pexels.com/photos/12703103/pexels-photo-12703103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Two friendly dogs playing together on outdoor pavement in France.",
+      "photographer": "Catherine Leclert",
+      "photographerUrl": "https://www.pexels.com/@catherine-leclert-139933552",
+      "pexelsUrl": "https://www.pexels.com/photo/dogs-playing-on-a-stone-pavement-12703103/",
+      "id": 12703103
+    },
+    "best-toy-for-shetland-sheepdog:Shetland Sheepdog dog playing toy": {
+      "url": "https://images.pexels.com/photos/28895800/pexels-photo-28895800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Shetland Sheepdog enjoying the outdoors, playing with falling leaves in a green field.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/playful-shetland-sheepdog-in-lush-green-field-28895800/",
+      "id": 28895800
+    },
+    "best-toy-for-shiba-inu:Shiba Inu dog playing toy": {
+      "url": "https://images.pexels.com/photos/9157298/pexels-photo-9157298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Shiba Inu dog joyfully playing in the waves on a sunny beach.",
+      "photographer": "Valeria Boltneva",
+      "photographerUrl": "https://www.pexels.com/@valeriya",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-at-the-beach-9157298/",
+      "id": 9157298
+    },
+    "best-toy-for-shih-tzu:Shih Tzu dog playing toy": {
+      "url": "https://images.pexels.com/photos/20233073/pexels-photo-20233073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Shih Tzu dog lying on a tiled floor, playing with a plush teddy bear toy indoors.",
+      "photographer": "Yargo S. Walkowicz",
+      "photographerUrl": "https://www.pexels.com/@yargo-s-walkowicz-975377583",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-lying-down-with-toy-20233073/",
+      "id": 20233073
+    },
+    "best-toy-for-siberian-husky:Siberian Husky dog playing toy": {
+      "url": "https://images.pexels.com/photos/35055371/pexels-photo-35055371.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Energetic husky dog playing with red toy on a grassy field outdoors.",
+      "photographer": "Karlheinz Strohmaier",
+      "photographerUrl": "https://www.pexels.com/@karlheinz-strohmaier-2153257497",
+      "pexelsUrl": "https://www.pexels.com/photo/husky-playing-with-toy-on-green-grass-outdoors-35055371/",
+      "id": 35055371
+    },
+    "best-toy-for-vizsla:Vizsla dog playing toy": {
+      "url": "https://images.pexels.com/photos/3013467/pexels-photo-3013467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Brown Vizsla dog energetically jumping over a log with a toy ball in a lush forest.",
+      "photographer": "chepté cormani",
+      "photographerUrl": "https://www.pexels.com/@joenibraw",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-with-ball-in-mouth-jumping-over-a-fallen-tree-trunk-3013467/",
+      "id": 3013467
+    },
+    "best-toy-for-weimaraner:Weimaraner dog playing toy": {
+      "url": "https://images.pexels.com/photos/5705545/pexels-photo-5705545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Weimaraner and Terrier dogs playing on a grassy field surrounded by autumn foliage.",
+      "photographer": "www.kaboompics.com",
+      "photographerUrl": "https://www.pexels.com/@karola-g",
+      "pexelsUrl": "https://www.pexels.com/photo/dogs-on-the-grass-5705545/",
+      "id": 5705545
+    },
+    "best-toy-for-west-highland-white-terrier:West Highland White Terrier dog playing toy": {
+      "url": "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Westie dog lying on a wooden floor, charming and fluffy.",
+      "photographer": "Alan han",
+      "photographerUrl": "https://www.pexels.com/@alan-han-1165443528",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-west-highland-white-terrier-indoors-31163319/",
+      "id": 31163319
+    },
+    "best-toy-for-yorkshire-terrier:Yorkshire Terrier dog playing toy": {
+      "url": "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Yorkshire Terrier puppy resting indoors with a toy dog figurine nearby.",
+      "photographer": "Erwin Bosman",
+      "photographerUrl": "https://www.pexels.com/@erwin-bosman-118283",
+      "pexelsUrl": "https://www.pexels.com/photo/yorkshire-terrier-with-toy-indoors-portrait-34232518/",
+      "id": 34232518
+    },
+    "best-training-tools-stubborn-dogs-2026:dog training": {
+      "url": "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors.",
+      "photographer": "Anton Kudryashov",
+      "photographerUrl": "https://www.pexels.com/@anton-kudryashov-118639843",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/",
+      "id": 9956387
+    },
+    "big-barker-orthopedic-vs-petfusion-ultimate-bed:dog owner comparing dog bed": {
+      "url": "https://images.pexels.com/photos/5482847/pexels-photo-5482847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man relaxes in bed while engaging with his Dalmatian dog in a cozy indoor setting.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/man-lying-in-bed-with-his-dalmatian-dog-5482847/",
+      "id": 5482847
+    },
+    "chewy-vs-amazon-dog-food:dog owner comparing dog food": {
+      "url": "https://images.pexels.com/photos/5745217/pexels-photo-5745217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "From above of playful cute Akita dog lying on wooden floor and holding hand of unrecognizable bearded ethnic male owner eating yummy croissant",
+      "photographer": "Zen Chung",
+      "photographerUrl": "https://www.pexels.com/@zen-chung",
+      "pexelsUrl": "https://www.pexels.com/photo/anonymous-black-man-and-purebred-dog-playing-together-and-eating-croissant-5745217/",
+      "id": 5745217
+    },
+    "dog-beds-comfort-home-partners:dog owner comparing dog care": {
+      "url": "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/",
+      "id": 5483258
+    },
+    "dog-food-nutrition-partners:dog owner comparing dog care": {
+      "url": "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/",
+      "id": 5483258
+    },
+    "dog-health-wellness-adjacent-partners:dog owner comparing dog care": {
+      "url": "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/",
+      "id": 5483258
+    },
+    "dog-services-care-planning:dog owner comparing dog care": {
+      "url": "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/",
+      "id": 5483258
+    },
+    "dog-training-gear-safety-partners:dog owner comparing dog care": {
+      "url": "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/",
+      "id": 5483258
+    },
+    "embark-dna-test-vs-wisdom-panel-essential:dog owner comparing veterinarian dog health": {
+      "url": "https://images.pexels.com/photos/6235124/pexels-photo-6235124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Veterinarian consulting with dog owner in a clinic while holding a Pomeranian.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/man-holding-dog-while-talking-to-a-woman-6235124/",
+      "id": 6235124
+    },
+    "fi-series-4-gps-vs-fi-series-3-gps:dog owner comparing dog care": {
+      "url": "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/",
+      "id": 5483258
+    },
+    "fi-series-4-gps-vs-tractive-gps-dog-4:dog owner comparing dog care": {
+      "url": "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/",
+      "id": 5483258
+    },
+    "furminator-deshedding-vs-hertzko-slicker-brush:dog owner comparing dog grooming": {
+      "url": "https://images.pexels.com/photos/6131150/pexels-photo-6131150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Woman washing a small dog in a grooming salon sink, black and white photo.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-in-long-sleeve-shirt-washing-a-dog-6131150/",
+      "id": 6131150
+    },
+    "furminator-vs-cheaper-alternatives:dog owner comparing dog grooming": {
+      "url": "https://images.pexels.com/photos/6131150/pexels-photo-6131150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Woman washing a small dog in a grooming salon sink, black and white photo.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-in-long-sleeve-shirt-washing-a-dog-6131150/",
+      "id": 6131150
+    },
+    "kong-classic-vs-west-paw-toppl:dog owner comparing dog toys": {
+      "url": "https://images.pexels.com/photos/31248612/pexels-photo-31248612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog enthusiastically jumps to catch a toy held by its owner in a park.",
+      "photographer": "Dominik Gryzbon",
+      "photographerUrl": "https://www.pexels.com/@gryziu",
+      "pexelsUrl": "https://www.pexels.com/photo/playful-dog-jumping-for-toy-with-owner-outdoors-31248612/",
+      "id": 31248612
+    },
+    "kong-extreme-vs-goughnuts-maxx:dog owner comparing dog toys": {
+      "url": "https://images.pexels.com/photos/31248612/pexels-photo-31248612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog enthusiastically jumps to catch a toy held by its owner in a park.",
+      "photographer": "Dominik Gryzbon",
+      "photographerUrl": "https://www.pexels.com/@gryziu",
+      "pexelsUrl": "https://www.pexels.com/photo/playful-dog-jumping-for-toy-with-owner-outdoors-31248612/",
+      "id": 31248612
+    },
+    "kong-vs-goughnuts:dog owner comparing dog toys": {
+      "url": "https://images.pexels.com/photos/31248612/pexels-photo-31248612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog enthusiastically jumps to catch a toy held by its owner in a park.",
+      "photographer": "Dominik Gryzbon",
+      "photographerUrl": "https://www.pexels.com/@gryziu",
+      "pexelsUrl": "https://www.pexels.com/photo/playful-dog-jumping-for-toy-with-owner-outdoors-31248612/",
+      "id": 31248612
+    },
+    "names-for-affenpinscher:Affenpinscher dog portrait": {
+      "url": "https://images.pexels.com/photos/6933678/pexels-photo-6933678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A captivating black and white portrait of a Shih Tzu dog, exuding charm and character.",
+      "photographer": "Pedro  Macedo",
+      "photographerUrl": "https://www.pexels.com/@pedro-macedo-30356310",
+      "pexelsUrl": "https://www.pexels.com/photo/grayscale-photo-of-long-coated-dog-6933678/",
+      "id": 6933678
+    },
+    "names-for-afghan-hound:Afghan Hound dog portrait": {
+      "url": "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a brown and white dog with a collar, looking thoughtful against a blurred background.",
+      "photographer": "Marina Riijik",
+      "photographerUrl": "https://www.pexels.com/@marina-riijik-944246039",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dog-20080179/",
+      "id": 20080179
+    },
+    "names-for-airedale-terrier:Airedale Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/36587690/pexels-photo-36587690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A playful Airedale Terrier dog joyfully splashes through water, capturing a dynamic moment outdoors.",
+      "photographer": "Chris F",
+      "photographerUrl": "https://www.pexels.com/@chris-f-38966",
+      "pexelsUrl": "https://www.pexels.com/photo/energetic-airedale-terrier-splashing-in-water-36587690/",
+      "id": 36587690
+    },
+    "names-for-akita:Akita dog portrait": {
+      "url": "https://images.pexels.com/photos/13454740/pexels-photo-13454740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Serene scene of an Akita dog wading through a scenic lake surrounded by lush mountains. Perfect for nature and pet-themed designs.",
+      "photographer": "Amar  Preciado",
+      "photographerUrl": "https://www.pexels.com/@amar",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-standing-on-the-lake-13454740/",
+      "id": 13454740
+    },
+    "names-for-alaskan-malamute:Alaskan Malamute dog portrait": {
+      "url": "https://images.pexels.com/photos/6748158/pexels-photo-6748158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming close-up portrait of a fluffy Alaskan Malamute dog with soft fur and friendly expression.",
+      "photographer": "Aleks Michajlowicz",
+      "photographerUrl": "https://www.pexels.com/@aleks89",
+      "pexelsUrl": "https://www.pexels.com/photo/white-and-gray-siberian-husky-6748158/",
+      "id": 6748158
+    },
+    "names-for-american-bulldog:American Bulldog dog portrait": {
+      "url": "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black and white portrait of an American Bulldog with tongue out, showing playful nature.",
+      "photographer": "Mohssine Oudraoua",
+      "photographerUrl": "https://www.pexels.com/@mohssineoudraoua",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-12768126/",
+      "id": 12768126
     }
   },
   "stats": {
     "scanned": 80,
     "changed": 80,
-    "skipped": 805,
+    "skipped": 72,
     "failed": 0,
     "force": false,
     "dry": false

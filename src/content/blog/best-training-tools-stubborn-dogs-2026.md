@@ -10,7 +10,16 @@ readTime: 9
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors."
+imageAlt: "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Anton Kudryashov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/"
+imageSearchQuery: "dog training"
 ---
+
 
 A dog that doesn't come when called isn't being defiant. Neither is a dog that pulls. Both are doing exactly what the environment is rewarding them for — moving toward interesting things, following smells, going where they want to go. The training problem isn't the dog's attitude; it's the reinforcement history.
 Good equipment reduces friction long enough to build a new one.

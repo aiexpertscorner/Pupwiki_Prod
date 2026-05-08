@@ -9,7 +9,16 @@ breedSlug: "bichon-frise"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/37130279/pexels-photo-37130279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37130279/pexels-photo-37130279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cheerful white dog energetically runs across a sunlit green lawn in Canonsburg, Pennsylvania."
+imageAlt: "A cheerful white dog energetically runs across a sunlit green lawn in Canonsburg, Pennsylvania."
+imageSource: "pexels"
+imageCredit: "Photo by Jay Brand on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-white-dog-running-on-green-lawn-37130279/"
+imageSearchQuery: "Bichon Frise dog playing toy"
 ---
+
 
 Bichon Frises have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 12–18 lbs, regular exercise energy, infrequent shedding, and playful, curious, peppy temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

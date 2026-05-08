@@ -9,7 +9,16 @@ breedSlug: "collie"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/33722063/pexels-photo-33722063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33722063/pexels-photo-33722063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Energetic dog with a blue toy ball running through a sunlit park, showcasing playful energy and joy."
+imageAlt: "Energetic dog with a blue toy ball running through a sunlit park, showcasing playful energy and joy."
+imageSource: "pexels"
+imageCredit: "Photo by Patrick on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/happy-dog-playing-fetch-in-sunny-park-33722063/"
+imageSearchQuery: "Collie dog playing toy"
 ---
+
 
 Collies have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 50–75 lbs, regular exercise energy, seasonal shedding, and devoted, graceful, proud temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

@@ -9,7 +9,16 @@ breedSlug: "brittany"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black dog playing with various colorful toys on a wooden floor indoors."
+imageAlt: "A black dog playing with various colorful toys on a wooden floor indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Mathew Coulton on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-lying-on-the-floor-4445461/"
+imageSearchQuery: "Brittany dog playing toy"
 ---
+
 
 Brittanys have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 30–40 lbs, needs lots of activity energy, seasonal shedding, and bright, fun-loving, upbeat temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

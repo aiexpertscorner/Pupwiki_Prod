@@ -9,7 +9,16 @@ breedSlug: "labrador-retriever"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/20436462/pexels-photo-20436462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20436462/pexels-photo-20436462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute golden retriever dog sitting by a brick wall holding a plush toy in its mouth."
+imageAlt: "A cute golden retriever dog sitting by a brick wall holding a plush toy in its mouth."
+imageSource: "pexels"
+imageCredit: "Photo by Mohan Nannapaneni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/golden-retriever-sitting-on-pavement-with-toy-in-mouth-20436462/"
+imageSearchQuery: "Labrador Retriever dog playing toy"
 ---
+
 
 Labrador Retrievers have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 55–80 lbs, needs lots of activity energy, regularly shedding, and friendly, active, outgoing temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

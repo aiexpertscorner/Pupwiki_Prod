@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/6748158/pexels-photo-6748158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6748158/pexels-photo-6748158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming close-up portrait of a fluffy Alaskan Malamute dog with soft fur and friendly expression."
+imageAlt: "Charming close-up portrait of a fluffy Alaskan Malamute dog with soft fur and friendly expression."
+imageSource: "pexels"
+imageCredit: "Photo by Aleks Michajlowicz on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-and-gray-siberian-husky-6748158/"
+imageSearchQuery: "Alaskan Malamute dog portrait"
 ---
+
 
 Naming a Alaskan Malamute is your first chance to match a name to a personality — and Alaskan Malamutes have a distinct one: **Affectionate, Loyal, Playful**.
 The best Alaskan Malamute names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Alaskan Malamute's breed profile to give you the most matched options.

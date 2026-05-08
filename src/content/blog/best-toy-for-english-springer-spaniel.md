@@ -9,7 +9,16 @@ breedSlug: "english-springer-spaniel"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/29506737/pexels-photo-29506737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29506737/pexels-photo-29506737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Springer Spaniel dog playing in a snow-covered park on a winter day."
+imageAlt: "Springer Spaniel dog playing in a snow-covered park on a winter day."
+imageSource: "pexels"
+imageCredit: "Photo by Jack Farinella on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/springer-spaniel-in-snowy-landscape-29506737/"
+imageSearchQuery: "English Springer Spaniel dog playing toy"
 ---
+
 
 English Springer Spaniels have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 40–50 lbs, regular exercise energy, occasional shedding, and friendly, playful, obedient temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.

@@ -9,7 +9,16 @@ breedSlug: "golden-retriever"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+heroImage: "https://images.pexels.com/photos/14084426/pexels-photo-14084426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14084426/pexels-photo-14084426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two golden retrievers playing with a plush toy on the grass in a playful outdoor moment."
+imageAlt: "Two golden retrievers playing with a plush toy on the grass in a playful outdoor moment."
+imageSource: "pexels"
+imageCredit: "Photo by Barnabas Davoti on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/retriver-dogs-playing-with-plush-monkey-14084426/"
+imageSearchQuery: "Golden Retriever dog playing toy"
 ---
+
 
 Golden Retrievers have specific needs that generic "toy for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 55–75 lbs, needs lots of activity energy, seasonal shedding, and friendly, intelligent, devoted temperament.
 > **reader-support note:** We earn a small commission if you buy through our links. This never influences our rankings — we only recommend what actually works for this breed.
