@@ -74,8 +74,19 @@ const quizData = masterBreeds.map(b => ({
 </style>
 
 <div class="quiz-container" id="breed-quiz">
-  
-  <div class="quiz-step active" data-step="1">
+
+  <!-- Step 0: resume prompt (hidden by default; shown by JS when saved answers exist) -->
+  <div class="quiz-step" data-step="resume" id="quiz-resume-step">
+    <div style="text-align: center; padding: 1rem 0;">
+      <h3 class="quiz-question" style="font-size:1.25rem;">Continue where you left off?</h3>
+      <p style="color: #64748b; margin-bottom: 1.5rem;">You have saved quiz answers from a previous visit.</p>
+      <button id="quiz-resume-btn" style="width:100%;padding:1rem;border-radius:8px;background:var(--color-accent);color:white;font-weight:bold;border:none;cursor:pointer;margin-bottom:0.75rem;">Resume quiz →</button>
+      <button id="quiz-restart-btn" style="background: none; border: none; color: #94a3b8; font-size: 0.85rem; cursor: pointer; text-decoration: underline;">Start over</button>
+    </div>
+  </div>
+
+  <!-- Steps 1–4: questions -->
+  <div class="quiz-step" data-step="1">
     <span style="color:var(--color-accent);font-weight:700;font-size:0.85rem;text-transform:uppercase;">Question 1 of 4</span>
     <h3 class="quiz-question">How big is your living space?</h3>
     <button class="quiz-btn" data-answer="size" data-value="small">Apartment / Small home without yard</button>
@@ -105,6 +116,7 @@ const quizData = masterBreeds.map(b => ({
     <button class="quiz-btn" data-answer="grooming" data-value="high">I don't mind regular brushing or groomer visits</button>
   </div>
 
+  <!-- Step 5: email capture -->
   <div class="quiz-step" data-step="capture">
     <div style="text-align: center;">
       <h3 class="quiz-question">We found your matches!</h3>
@@ -119,78 +131,92 @@ const quizData = masterBreeds.map(b => ({
     <span style="color:var(--color-accent);font-weight:700;font-size:0.85rem;text-transform:uppercase;">Your Matches</span>
     <h3 class="quiz-question">Meet Your Perfect Companions</h3>
     <div id="results-container"></div>
-    <div style="margin-top:2rem;padding:1rem;background:var(--color-surface-warm);border-radius:12px;border:1px solid var(--color-border-strong)">
+    <div style="margin-top:1rem">
+      <button id="quiz-save-shortlist" style="width:100%;padding:0.75rem;border-radius:8px;background:transparent;border:1px solid var(--color-primary,var(--color-accent));color:var(--color-primary,var(--color-accent));font-weight:600;cursor:pointer;margin-bottom:1rem;">♡ Save these breeds to shortlist</button>
+    </div>
+    <div style="margin-top:1rem;padding:1rem;background:var(--color-surface-warm);border-radius:12px;border:1px solid var(--color-border-strong)">
       <p style="font-weight:600;color:var(--color-accent);margin-bottom:0.5rem">Next Step: Prepare Your Budget</p>
       <p style="font-size: 0.9rem; color: #5c340a; margin-bottom: 1rem;">Use our calculator to see the exact lifetime costs for these breeds.</p>
       <a href="/cost-calculator" style="display: block; text-align: center; background: #1e293b; color: white; padding: 0.75rem; border-radius: 8px; text-decoration: none; font-weight: bold;">Go to Cost Calculator</a>
     </div>
+    <button id="quiz-restart-results" style="display:block;margin-top:1rem;background:none;border:none;color:#94a3b8;font-size:0.85rem;cursor:pointer;text-decoration:underline;width:100%;text-align:center;">Start quiz over</button>
   </div>
 
 </div>
 
 <script define:vars={{ quizData }}>
-  const state = {
-    size: null,
-    energy: null,
-    children: null,
-    grooming: null
-  };
+  const ANSWERS_KEY = 'pupwiki:quiz-answers:v1';
+  const SHORTLIST_KEY = 'pupwiki:breed-shortlist:v1';
+
+  const state = { size: null, energy: null, children: null, grooming: null };
+  let lastMatches = [];
 
   const container = document.getElementById('breed-quiz');
+  // DOM order: 0=resume, 1=Q1, 2=Q2, 3=Q3, 4=Q4, 5=capture, 6=results
   const steps = Array.from(container.querySelectorAll('.quiz-step'));
   const buttons = container.querySelectorAll('.quiz-btn');
   const resultsContainer = document.getElementById('results-container');
-  
-  let currentStep = 0;
+  let currentStep = 1;
+
+  const STEP_CAPTURE = 5;
+  const STEP_RESULTS = 6;
 
   function showStep(index) {
-    steps.forEach((step, i) => {
-      if (i === index) step.classList.add('active');
-      else step.classList.remove('active');
-    });
+    steps.forEach((step, i) => step.classList.toggle('active', i === index));
+    currentStep = index;
   }
 
-  // Handle Answer Clicks
+  function saveAnswers() {
+    try { localStorage.setItem(ANSWERS_KEY, JSON.stringify({ ...state, ts: Date.now() })); } catch {}
+  }
+
+  function clearAnswers() {
+    try { localStorage.removeItem(ANSWERS_KEY); } catch {}
+  }
+
+  function loadAnswers() {
+    try {
+      const s = JSON.parse(localStorage.getItem(ANSWERS_KEY) || 'null');
+      if (s && Date.now() - s.ts < 86_400_000) return s;
+    } catch {}
+    return null;
+  }
+
   buttons.forEach(btn => {
     btn.addEventListener('click', (e) => {
-      const type = e.target.dataset.answer;
-      const val = e.target.dataset.value;
-      
-      // Save answer
-      state[type] = val;
-      
-      // Go to next step
-      currentStep++;
-      showStep(currentStep);
+      state[e.target.dataset.answer] = e.target.dataset.value;
+      saveAnswers();
+      showStep(currentStep + 1);
     });
   });
 
-  // Handle Reveal Buttons (with or without email)
-  document.getElementById('show-results-btn').addEventListener('click', () => {
-    const email = document.getElementById('quiz-email').value;
-    if(email) {
-      // Optioneel: Stuur email naar je backend (Mailchimp/Mailerlite API)
-      console.log("Email captured: ", email);
-    }
-    calculateMatches();
+  document.getElementById('show-results-btn').addEventListener('click', calculateMatches);
+  document.getElementById('skip-email-btn').addEventListener('click', calculateMatches);
+
+  document.getElementById('quiz-resume-btn')?.addEventListener('click', () => {
+    const answered = ['size', 'energy', 'children', 'grooming'].filter(k => state[k] !== null).length;
+    showStep(Math.min(answered + 1, STEP_CAPTURE));
   });
 
-  document.getElementById('skip-email-btn').addEventListener('click', () => {
-    calculateMatches();
-  });
+  function doRestart() {
+    Object.keys(state).forEach(k => (state[k] = null));
+    clearAnswers();
+    lastMatches = [];
+    showStep(1);
+  }
 
-  // The Filtering Algorithm
+  document.getElementById('quiz-restart-btn')?.addEventListener('click', doRestart);
+  document.getElementById('quiz-restart-results')?.addEventListener('click', doRestart);
+
   function calculateMatches() {
     let matches = quizData;
 
-    // Filter Size
     if (state.size === 'small') {
       matches = matches.filter(b => b.size === 'small' || b.size === 'medium');
     } else if (state.size === 'medium') {
       matches = matches.filter(b => b.size !== 'giant');
     }
 
-    // Filter Energy
     if (state.energy === 'calm') {
       matches = matches.filter(b => b.energy === 'calm');
     } else if (state.energy === 'regular') {
@@ -199,44 +225,50 @@ const quizData = masterBreeds.map(b => ({
       matches = matches.filter(b => b.energy === 'active' || b.energy === 'regular');
     }
 
-    // Filter Children (if yes, require high children score)
-    if (state.children === 'yes') {
-      matches = matches.filter(b => b.children >= 0.7); // Pas deze threshold aan op basis van je data
-    }
+    if (state.children === 'yes') matches = matches.filter(b => b.children >= 0.7);
+    if (state.grooming === 'low') matches = matches.filter(b => b.grooming <= 0.5);
 
-    // Filter Grooming
-    if (state.grooming === 'low') {
-      matches = matches.filter(b => b.grooming <= 0.5);
-    }
-
-    // Sort by popularity if there are too many, or just take top 3
-    // Assuming your json is already sorted by popularity, we take the first 3 matches
-    const topMatches = matches.slice(0, 3);
-
-    renderResults(topMatches);
-    currentStep++;
-    showStep(currentStep);
+    lastMatches = matches.slice(0, 3);
+    renderResults(lastMatches);
+    clearAnswers();
+    showStep(STEP_RESULTS);
   }
 
   function renderResults(matches) {
-    if (matches.length === 0) {
-      resultsContainer.innerHTML = '<p>We couldn\'t find a perfect match. You might have unique needs!</p>';
+    if (!matches.length) {
+      resultsContainer.innerHTML = '<p>We couldn\'t find a perfect match. Try different answers!</p>';
       return;
     }
-
-    let html = '';
-    matches.forEach((b, index) => {
-      html += `
-        <div class="match-card">
-          <img src="${b.image || '/fallback-dog.jpg'}" alt="${b.name}">
-          <div style="flex-grow: 1;">
-            <strong style="display: block; font-size: 1.1rem; color: #0f172a;">#${index + 1} Match: ${b.name}</strong>
-            <span style="font-size: 0.8rem; color: #64748b; text-transform: capitalize;">${b.size} Size • ${b.energy} Energy</span>
-          </div>
-          <a href="/breeds/${b.slug}" style="padding: 0.5rem 1rem; background: #f1f5f9; color: #1e293b; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.85rem;">View Profile</a>
+    resultsContainer.innerHTML = matches.map((b, i) => `
+      <div class="match-card">
+        <img src="${b.image || '/fallback-dog.jpg'}" alt="${b.name}">
+        <div style="flex-grow:1">
+          <strong style="display:block;font-size:1.1rem;color:#0f172a">#${i + 1} Match: ${b.name}</strong>
+          <span style="font-size:0.8rem;color:#64748b;text-transform:capitalize">${b.size} Size · ${b.energy} Energy</span>
         </div>
-      `;
-    });
-    resultsContainer.innerHTML = html;
+        <a href="/breeds/${b.slug}" style="padding:0.5rem 1rem;background:#f1f5f9;color:#1e293b;border-radius:6px;text-decoration:none;font-weight:600;font-size:0.85rem">View Profile</a>
+      </div>
+    `).join('');
+  }
+
+  document.getElementById('quiz-save-shortlist')?.addEventListener('click', function() {
+    if (!lastMatches.length) return;
+    try {
+      const list = JSON.parse(localStorage.getItem(SHORTLIST_KEY) || '[]');
+      lastMatches.forEach(m => { if (!list.find(x => x.slug === m.slug)) list.push({ slug: m.slug, name: m.name }); });
+      localStorage.setItem(SHORTLIST_KEY, JSON.stringify(list));
+      this.textContent = '✓ Saved — view at /breeds';
+      this.style.borderColor = 'var(--color-success,#16a34a)';
+      this.style.color = 'var(--color-success,#16a34a)';
+    } catch {}
+  });
+
+  // Mount: check for saved answers
+  const saved = loadAnswers();
+  if (saved && ['size', 'energy', 'children', 'grooming'].some(k => saved[k] !== null)) {
+    Object.assign(state, { size: saved.size, energy: saved.energy, children: saved.children, grooming: saved.grooming });
+    showStep(0); // resume prompt
+  } else {
+    showStep(1); // first question
   }
 </script>

@@ -93,7 +93,7 @@ jobs:
           PUBLIC_ENABLE_AMAZON_BUTTONS: ${{ vars.PUBLIC_ENABLE_AMAZON_BUTTONS }}
           PUBLIC_ENABLE_AWIN_MASTERTAG: ${{ vars.PUBLIC_ENABLE_AWIN_MASTERTAG }}
           PUBLIC_EMAILOCTOPUS_URL: ${{ secrets.PUBLIC_EMAILOCTOPUS_URL }}
-        run: npm run build:fast
+        run: npm run build:ci
 
       # ── Post-build validation ─────────────────────────────────────────────
       - name: Audit Amazon products
