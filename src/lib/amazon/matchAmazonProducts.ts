@@ -16,6 +16,8 @@ function normalizeList(values?: string[]) {
 }
 
 function hasValidAmazonLink(product: AmazonProductRecord) {
+  if (product.asin?.trim()) return true;
+  if (product.amazonSearchQuery?.trim()) return true;
   const url = product.amazonAffiliateUrl || '';
   return /^https?:\/\//i.test(url) && (url.includes('amzn.to') || url.includes('amazon.'));
 }

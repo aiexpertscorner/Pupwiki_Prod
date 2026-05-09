@@ -555,7 +555,7 @@ const FILTER_CATS = [
 
   .blog-hero {
     border-bottom: 1px solid var(--color-border);
-    background: linear-gradient(180deg, rgba(255, 250, 243, 0.98) 0%, #ffffff 78%);
+    background: var(--gradient-hero-page);
   }
 
   .blog-hero .blog-container {
@@ -717,7 +717,7 @@ const FILTER_CATS = [
   .blog-tool-card {
     border: 1px solid var(--color-border);
     border-radius: var(--radius-2xl);
-    background: #ffffff;
+    background: var(--color-bg);
     padding: var(--space-4);
     box-shadow: var(--shadow-xs);
   }
@@ -761,7 +761,7 @@ const FILTER_CATS = [
     overflow: hidden;
     border: 1px solid var(--color-border);
     border-radius: var(--radius-3xl);
-    background: #ffffff;
+    background: var(--color-bg);
     box-shadow: var(--shadow-xs);
   }
 
@@ -807,7 +807,7 @@ const FILTER_CATS = [
   .blog-cat-filter {
     border: 1px solid var(--color-border-warm);
     border-radius: var(--radius-full);
-    background: #fff;
+    background: var(--color-bg);
     padding: 0.375rem 0.75rem;
     color: var(--color-body-soft);
     font-family: var(--font-sans);
@@ -818,7 +818,7 @@ const FILTER_CATS = [
   .blog-cat-filter.is-active {
     border-color: var(--color-accent);
     background: var(--color-accent);
-    color: #fff;
+    color: var(--color-text-inverse);
   }
 
   .blog-featured-card__body,
@@ -877,49 +877,15 @@ const FILTER_CATS = [
     z-index: 2;
   }
 
-  .blog-category-pill.is-food {
-    border-color: rgba(146, 64, 14, 0.16);
-    background: #fef3c7;
-    color: #92400e;
-  }
-
-  .blog-category-pill.is-toys {
-    border-color: rgba(6, 95, 70, 0.16);
-    background: #d1fae5;
-    color: #065f46;
-  }
-
-  .blog-category-pill.is-health {
-    border-color: rgba(30, 64, 175, 0.16);
-    background: #dbeafe;
-    color: #1e40af;
-  }
-
+  .blog-category-pill.is-food      { border-color: var(--color-pill-food-border);        background: var(--color-pill-food-bg);        color: var(--color-pill-food-text); }
+  .blog-category-pill.is-toys      { border-color: var(--color-pill-toys-border);        background: var(--color-pill-toys-bg);        color: var(--color-pill-toys-text); }
+  .blog-category-pill.is-health    { border-color: var(--color-pill-health-border);      background: var(--color-pill-health-bg);      color: var(--color-pill-health-text); }
   .blog-category-pill.is-training,
-  .blog-category-pill.is-tech {
-    border-color: rgba(30, 58, 95, 0.16);
-    background: #e0f2fe;
-    color: #1e3a5f;
-  }
-
-  .blog-category-pill.is-grooming {
-    border-color: rgba(131, 24, 67, 0.16);
-    background: #fce7f3;
-    color: #831843;
-  }
-
-  .blog-category-pill.is-supplements {
-    border-color: rgba(20, 83, 45, 0.16);
-    background: #dcfce7;
-    color: #14532d;
-  }
-
+  .blog-category-pill.is-tech      { border-color: var(--color-pill-training-border);    background: var(--color-pill-training-bg);    color: var(--color-pill-training-text); }
+  .blog-category-pill.is-grooming  { border-color: var(--color-pill-grooming-border);    background: var(--color-pill-grooming-bg);    color: var(--color-pill-grooming-text); }
+  .blog-category-pill.is-supplements { border-color: var(--color-pill-supplements-border); background: var(--color-pill-supplements-bg); color: var(--color-pill-supplements-text); }
   .blog-category-pill.is-beds,
-  .blog-category-pill.is-lifestyle {
-    border-color: rgba(76, 29, 149, 0.16);
-    background: #ede9fe;
-    color: #4c1d95;
-  }
+  .blog-category-pill.is-lifestyle { border-color: var(--color-pill-beds-border);        background: var(--color-pill-beds-bg);        color: var(--color-pill-beds-text); }
 
   .blog-card-meta {
     display: flex;
@@ -945,7 +911,7 @@ const FILTER_CATS = [
   .blog-trust-links a {
     border: 1px solid var(--color-border);
     border-radius: var(--radius-xl);
-    background: #ffffff;
+    background: var(--color-bg);
     padding: 0.85rem 1rem;
     color: var(--color-primary);
     font-size: var(--text-sm);

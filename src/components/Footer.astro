@@ -31,7 +31,7 @@ const COMPANY = [
 ];
 ---
 
-<footer class="mt-16" style="background:#1e293b;color:#94a3b8">
+<footer class="mt-16" style="background:var(--color-surface-dark);color:var(--color-subtle)">
 
   <!-- Reader support bar -->
   <div class="text-center py-2.5 px-4 font-sans text-xs" style="background:var(--color-accent);color:white">
@@ -49,7 +49,7 @@ const COMPANY = [
           <span class="text-2xl">🐾</span>
           <span class="font-display font-bold text-xl text-white" style="font-family:'Playfair Display',Georgia,serif">PupWiki</span>
         </a>
-        <p class="font-sans text-sm leading-relaxed mb-5" style="color:#64748b">
+        <p class="font-sans text-sm leading-relaxed mb-5" style="color:var(--color-muted)">
           Expert-tested dog product reviews. Honest, breed-specific, and data-driven.
         </p>
         <!-- Trust badges -->
@@ -59,7 +59,7 @@ const COMPANY = [
             'No paid placements',
             'Updated 2026',
           ].map(badge => (
-            <span class="font-sans text-xs font-semibold px-2.5 py-1 rounded-full" style="background:#334155;color:#94a3b8">
+            <span class="font-sans text-xs font-semibold px-2.5 py-1 rounded-full" style="background:var(--color-surface-dark-raised);color:var(--color-subtle)">
               ✓ {badge}
             </span>
           ))}
@@ -72,7 +72,7 @@ const COMPANY = [
         <ul class="space-y-2.5 font-sans text-sm">
           {CATEGORIES.map(link => (
             <li>
-              <a href={link.href} class="transition-colors hover:text-amber-400" style="color:#94a3b8">
+              <a href={link.href} class="transition-colors hover:text-amber-400" style="color:var(--color-subtle)">
                 {link.label}
               </a>
             </li>
@@ -86,7 +86,7 @@ const COMPANY = [
         <ul class="space-y-2.5 font-sans text-sm">
           {POPULAR.map(link => (
             <li>
-              <a href={link.href} class="transition-colors hover:text-amber-400" style="color:#94a3b8">
+              <a href={link.href} class="transition-colors hover:text-amber-400" style="color:var(--color-subtle)">
                 {link.label}
               </a>
             </li>
@@ -100,7 +100,7 @@ const COMPANY = [
         <ul class="space-y-2.5 font-sans text-sm">
           {COMPANY.map(link => (
             <li>
-              <a href={link.href} class="transition-colors hover:text-amber-400" style="color:#94a3b8">
+              <a href={link.href} class="transition-colors hover:text-amber-400" style="color:var(--color-subtle)">
                 {link.label}
               </a>
             </li>
@@ -111,17 +111,17 @@ const COMPANY = [
     </div>
 
     <!-- Bottom bar -->
-    <div class="pt-8 flex flex-col sm:flex-row justify-between items-center gap-3" style="border-top:1px solid #334155">
-      <div class="font-sans text-xs" style="color:#475569">
+    <div class="pt-8 flex flex-col sm:flex-row justify-between items-center gap-3" style="border-top:1px solid var(--color-surface-dark-raised)">
+      <div class="font-sans text-xs" style="color:var(--color-body-soft)">
         © {year} PupWiki. All rights reserved.
       </div>
-      <div class="font-sans text-xs text-center" style="color:#475569">
+      <div class="font-sans text-xs text-center" style="color:var(--color-body-soft)">
         Amazon prices and availability are subject to change. Always verify before purchasing.
       </div>
       <div class="flex gap-4 font-sans text-xs">
-        <a href="/privacy" class="hover:text-white transition-colors" style="color:#475569">Privacy</a>
-        <a href="/disclosure" class="hover:text-white transition-colors" style="color:#475569">Disclosure</a>
-        <a href="/contact" class="hover:text-white transition-colors" style="color:#475569">Contact</a>
+        <a href="/privacy" class="hover:text-white transition-colors" style="color:var(--color-body-soft)">Privacy</a>
+        <a href="/disclosure" class="hover:text-white transition-colors" style="color:var(--color-body-soft)">Disclosure</a>
+        <a href="/contact" class="hover:text-white transition-colors" style="color:var(--color-body-soft)">Contact</a>
       </div>
     </div>
   </div>

@@ -19,8 +19,8 @@ const quizData = masterBreeds.map(b => ({
   .quiz-container {
     max-width: 600px;
     margin: 0 auto;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
     border-radius: 16px;
     padding: 2rem;
     box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05);
@@ -28,11 +28,11 @@ const quizData = masterBreeds.map(b => ({
   .quiz-step { display: none; }
   .quiz-step.active { display: block; animation: fadeIn 0.3s ease; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-  
+
   .quiz-question {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #0f172a;
+    color: var(--color-heading);
     margin-bottom: 1.5rem;
   }
   .quiz-btn {
@@ -40,12 +40,12 @@ const quizData = masterBreeds.map(b => ({
     width: 100%;
     padding: 1rem;
     margin-bottom: 0.75rem;
-    background: #f8fafc;
-    border: 2px solid #e2e8f0;
+    background: var(--color-bg-muted);
+    border: 2px solid var(--color-border);
     border-radius: 12px;
     font-size: 1rem;
     font-weight: 600;
-    color: #475569;
+    color: var(--color-body-soft);
     cursor: pointer;
     transition: all 0.2s;
     text-align: left;
@@ -55,13 +55,13 @@ const quizData = masterBreeds.map(b => ({
     border-color: var(--color-accent);
     color: var(--color-accent);
   }
-  
+
   .match-card {
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     margin-bottom: 1rem;
   }
@@ -71,6 +71,9 @@ const quizData = masterBreeds.map(b => ({
     border-radius: 50%;
     object-fit: cover;
   }
+  .match-card__name { display: block; font-size: 1.1rem; color: var(--color-heading); }
+  .match-card__meta { font-size: 0.8rem; color: var(--color-muted); text-transform: capitalize; }
+  .match-card__link { padding: 0.5rem 1rem; background: var(--color-bg-muted); color: var(--color-primary); border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.85rem; }
 </style>
 
 <div class="quiz-container" id="breed-quiz">
@@ -79,9 +82,9 @@ const quizData = masterBreeds.map(b => ({
   <div class="quiz-step" data-step="resume" id="quiz-resume-step">
     <div style="text-align: center; padding: 1rem 0;">
       <h3 class="quiz-question" style="font-size:1.25rem;">Continue where you left off?</h3>
-      <p style="color: #64748b; margin-bottom: 1.5rem;">You have saved quiz answers from a previous visit.</p>
+      <p style="color: var(--color-muted); margin-bottom: 1.5rem;">You have saved quiz answers from a previous visit.</p>
       <button id="quiz-resume-btn" style="width:100%;padding:1rem;border-radius:8px;background:var(--color-accent);color:white;font-weight:bold;border:none;cursor:pointer;margin-bottom:0.75rem;">Resume quiz →</button>
-      <button id="quiz-restart-btn" style="background: none; border: none; color: #94a3b8; font-size: 0.85rem; cursor: pointer; text-decoration: underline;">Start over</button>
+      <button id="quiz-restart-btn" style="background: none; border: none; color: var(--color-subtle); font-size: 0.85rem; cursor: pointer; text-decoration: underline;">Start over</button>
     </div>
   </div>
 
@@ -120,10 +123,10 @@ const quizData = masterBreeds.map(b => ({
   <div class="quiz-step" data-step="capture">
     <div style="text-align: center;">
       <h3 class="quiz-question">We found your matches!</h3>
-      <p style="color: #64748b; margin-bottom: 1.5rem;">Enter your email to reveal your top 3 dog breeds and get our free Puppy Prep Guide.</p>
+      <p style="color: var(--color-muted); margin-bottom: 1.5rem;">Enter your email to reveal your top 3 dog breeds and get our free Puppy Prep Guide.</p>
       <input type="email" id="quiz-email" placeholder="your@email.com" style="width: 100%; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0; margin-bottom: 1rem;" />
       <button id="show-results-btn" style="width:100%;padding:1rem;border-radius:8px;background:var(--color-accent);color:white;font-weight:bold;border:none;cursor:pointer;">Reveal My Matches →</button>
-      <button id="skip-email-btn" style="background: none; border: none; color: #94a3b8; font-size: 0.85rem; margin-top: 1rem; cursor: pointer; text-decoration: underline;">Skip and just show my results</button>
+      <button id="skip-email-btn" style="background: none; border: none; color: var(--color-subtle); font-size: 0.85rem; margin-top: 1rem; cursor: pointer; text-decoration: underline;">Skip and just show my results</button>
     </div>
   </div>
 
@@ -136,10 +139,10 @@ const quizData = masterBreeds.map(b => ({
     </div>
     <div style="margin-top:1rem;padding:1rem;background:var(--color-surface-warm);border-radius:12px;border:1px solid var(--color-border-strong)">
       <p style="font-weight:600;color:var(--color-accent);margin-bottom:0.5rem">Next Step: Prepare Your Budget</p>
-      <p style="font-size: 0.9rem; color: #5c340a; margin-bottom: 1rem;">Use our calculator to see the exact lifetime costs for these breeds.</p>
-      <a href="/cost-calculator" style="display: block; text-align: center; background: #1e293b; color: white; padding: 0.75rem; border-radius: 8px; text-decoration: none; font-weight: bold;">Go to Cost Calculator</a>
+      <p style="font-size: 0.9rem; color: var(--color-body); margin-bottom: 1rem;">Use our calculator to see the exact lifetime costs for these breeds.</p>
+      <a href="/cost-calculator" style="display: block; text-align: center; background: var(--color-surface-navy); color: var(--color-text-inverse); padding: 0.75rem; border-radius: 8px; text-decoration: none; font-weight: bold;">Go to Cost Calculator</a>
     </div>
-    <button id="quiz-restart-results" style="display:block;margin-top:1rem;background:none;border:none;color:#94a3b8;font-size:0.85rem;cursor:pointer;text-decoration:underline;width:100%;text-align:center;">Start quiz over</button>
+    <button id="quiz-restart-results" style="display:block;margin-top:1rem;background:none;border:none;color:var(--color-subtle);font-size:0.85rem;cursor:pointer;text-decoration:underline;width:100%;text-align:center;">Start quiz over</button>
   </div>
 
 </div>
@@ -243,10 +246,10 @@ const quizData = masterBreeds.map(b => ({
       <div class="match-card">
         <img src="${b.image || '/fallback-dog.jpg'}" alt="${b.name}">
         <div style="flex-grow:1">
-          <strong style="display:block;font-size:1.1rem;color:#0f172a">#${i + 1} Match: ${b.name}</strong>
-          <span style="font-size:0.8rem;color:#64748b;text-transform:capitalize">${b.size} Size · ${b.energy} Energy</span>
+          <strong class="match-card__name">#${i + 1} Match: ${b.name}</strong>
+          <span class="match-card__meta">${b.size} Size · ${b.energy} Energy</span>
         </div>
-        <a href="/breeds/${b.slug}" style="padding:0.5rem 1rem;background:#f1f5f9;color:#1e293b;border-radius:6px;text-decoration:none;font-weight:600;font-size:0.85rem">View Profile</a>
+        <a href="/breeds/${b.slug}" class="match-card__link">View Profile</a>
       </div>
     `).join('');
   }

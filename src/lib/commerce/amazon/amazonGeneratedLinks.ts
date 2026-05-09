@@ -1,5 +1,5 @@
 import { matchValidatedAmazonProducts } from '../../amazon/matchAmazonProducts';
-import { mergeAmazonProductsWithFallbacks } from '../../amazon/amazonDeeplink';
+import { mergeAmazonProductsWithFallbacks, buildAmazonProductLink } from '../../amazon/amazonDeeplink';
 import type { AmazonPlacementContext, AmazonProductRecord } from '../../amazon/amazonTypes';
 import { buildClusterQuery, buildTagsQuery, toAmazonSearchUrl } from './amazonSearchQueryBuilder';
 import { getAmazonPageIntent, isCommerceAllowed } from './amazonPageIntent';
@@ -23,7 +23,7 @@ function productToCTA(product: AmazonProductRecord): AmazonCTA {
   const isSearch = product.source === 'amazon-search-template';
   return {
     type: isSearch ? 'search' : 'direct',
-    url: product.amazonAffiliateUrl,
+    url: buildAmazonProductLink(product),
     label: product.name,
     query: isSearch ? product.amazonSearchQuery : undefined,
     productId: isSearch ? undefined : product.id,

@@ -1,11 +1,13 @@
 name: Generate PSEO Content (daily)
 
 on:
-  # Run daily at 06:00 UTC — after AWIN sync (03:00) so new partner data is available
+  # Run daily at 06:00 UTC (clusters + top breeds) — after AWIN sync (03:00)
   schedule:
     - cron: '0 6 * * *'
+  # Second daily run at 18:00 UTC — breed pages backlog catch-up
+    - cron: '0 18 * * *'
 
-  # Allow manual trigger with optional branch and limit overrides
+  # Allow manual trigger with overrides
   workflow_dispatch:
     inputs:
       branch:
@@ -16,7 +18,17 @@ on:
       limit:
         description: 'Max pages to generate this run'
         required: false
-        default: '30'
+        default: '100'
+        type: string
+      cluster_limit:
+        description: 'Max cluster hub pages (within limit)'
+        required: false
+        default: '9'
+        type: string
+      breed_limit:
+        description: 'Max breed pages (within limit)'
+        required: false
+        default: '91'
         type: string
       mode:
         description: 'Generation mode: clusters | breed-pages | all'
@@ -60,11 +72,24 @@ jobs:
 
       - name: Generate PSEO opportunity pages
         run: |
-          LIMIT="${{ inputs.limit || '30' }}"
-          MODE="${{ inputs.mode || 'all' }}"
+          # Morning run (06:00): all mode, full limits
+          # Evening run (18:00): breed-pages only for backlog catch-up
+          HOUR=$(date -u +%H)
+          if [ "$HOUR" = "18" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            MODE="breed-pages"
+            CLUSTER_LIMIT="0"
+            BREED_LIMIT="100"
+          else
+            MODE="${{ inputs.mode || 'all' }}"
+            CLUSTER_LIMIT="${{ inputs.cluster_limit || '9' }}"
+            BREED_LIMIT="${{ inputs.breed_limit || '91' }}"
+          fi
+          LIMIT="${{ inputs.limit || '100' }}"
           node scripts/content/generate-pseo-opportunity-pages.mjs \
             --mode="${MODE}" \
             --limit="${LIMIT}" \
+            --cluster-limit="${CLUSTER_LIMIT}" \
+            --breed-limit="${BREED_LIMIT}" \
             --apply \
             || echo "PSEO generation completed (some items may have been skipped)"
 
@@ -100,7 +125,7 @@ jobs:
             src/data/content-status.json \
             src/data/breed-link-map.json \
             public/sitemap.xml
-          LIMIT="${{ inputs.limit || '30' }}"
+          LIMIT="${{ inputs.limit || '100' }}"
           MODE="${{ inputs.mode || 'all' }}"
           git commit -m "feat(pseo): generate content — mode=${MODE} limit=${LIMIT} [skip ci]"
           git push origin "$TARGET_BRANCH"
@@ -110,8 +135,8 @@ jobs:
           echo "### PSEO generation complete" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- **Mode:** ${{ inputs.mode || 'all' }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Limit:** ${{ inputs.limit || '30' }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Branch:** ${{ inputs.branch || 'Pupwiki' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Limit:** ${{ inputs.limit || '100' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch:** ${{ inputs.branch || 'main' }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Changed:** ${{ steps.changes.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Timestamp:** $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
 

@@ -1,5 +1,6 @@
 ---
 import type { AmazonProductRecord } from '../../lib/amazon/amazonTypes';
+import { buildAmazonProductLink } from '../../lib/amazon/amazonDeeplink';
 
 export interface Props {
   product: AmazonProductRecord;
@@ -9,6 +10,7 @@ export interface Props {
 
 const { product, variant = 'card', placement = 'amazon-slot' } = Astro.props;
 
+const productUrl = buildAmazonProductLink(product);
 const categoryLabel = product.categoryLabel || product.categoryGroup || 'Dog product';
 const brandLabel = product.brand || 'Amazon.com';
 const rawNote = product.liveSearchNote || product.recommendedPlacement || 'Useful for dog-parent research and shopping.';
@@ -35,7 +37,7 @@ const note = rawNote
 
     <div class="amazon-card__actions">
       <a
-        href={product.amazonAffiliateUrl}
+        href={productUrl}
         target="_blank"
         rel="nofollow sponsored noopener"
         data-amazon-product-id={product.id}

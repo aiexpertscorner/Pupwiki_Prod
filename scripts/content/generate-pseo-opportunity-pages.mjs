@@ -24,6 +24,8 @@ const APPLY = process.argv.includes('--apply');
 const INCLUDE_EXISTING = process.argv.includes('--include-existing');
 const MODE = getArg('mode') || 'clusters';
 const LIMIT = Number(getArg('limit') || 10);
+const CLUSTER_LIMIT = Number(getArg('cluster-limit') || LIMIT);
+const BREED_LIMIT = Number(getArg('breed-limit') || LIMIT);
 const MIN_PROGRAMS = Number(getArg('min-programs') || 1);
 
 function getArg(name) {
@@ -133,7 +135,49 @@ const RULES = [
     sensitivity: 'high',
     intro: 'Use this guide to compare dog services such as vet support, insurance, grooming appointments, training help, walking, boarding and care subscriptions. Later local pages can connect this same structure to maps and nearby providers.',
   },
+  {
+    slug: 'puppy-essentials-partners',
+    title: 'Puppy Essentials and New Dog Setup',
+    tags: ['puppy', 'puppy-food', 'puppy-training', 'puppy-supplies', 'new-dog', 'crate-training', 'socialization'],
+    amazonQueries: ['puppy food small breed', 'puppy crate training', 'puppy training treats', 'puppy starter kit'],
+    internalTargets: ['/categories/puppy', '/categories/training', '/categories/dog-food', '/breeds', '/blog'],
+    intent: 'puppy',
+    sensitivity: 'medium',
+    intro: 'Use this guide to compare puppy-specific food, training support, crate setup, socialization tools and early-life care decisions by breed size, age stage and owner experience level.',
+  },
+  {
+    slug: 'senior-dog-care-partners',
+    title: 'Senior Dog Care, Comfort and Vet Planning',
+    tags: ['senior', 'senior-dog', 'senior-dogs', 'joint-health', 'senior-food', 'aging', 'geriatric', 'mobility'],
+    amazonQueries: ['senior dog food joint health', 'orthopedic dog bed large breed', 'dog joint supplement glucosamine', 'senior dog ramp stairs'],
+    internalTargets: ['/categories/senior-dogs', '/categories/health', '/categories/beds', '/categories/supplements', '/breeds'],
+    intent: 'senior',
+    sensitivity: 'high',
+    intro: 'Use this guide to compare senior-dog food, joint care, mobility aids, comfortable bedding and vet-care planning while keeping medical decisions with a veterinarian.',
+  },
+  {
+    slug: 'dog-insurance-and-vet-planning',
+    title: 'Dog Insurance and Vet-Care Planning',
+    tags: ['insurance', 'vet', 'health-plan', 'wellness-plan', 'pet-insurance', 'telehealth', 'emergency-vet'],
+    amazonQueries: ['dog first aid kit emergency', 'pet emergency fund tracker', 'dog vaccination record book'],
+    internalTargets: ['/cost-calculator', '/categories/health', '/categories/insurance', '/categories/dog-services', '/breeds'],
+    intent: 'insurance',
+    sensitivity: 'high',
+    intro: 'Use this guide to compare pet insurance options, wellness plans and vet-care cost planning. Breed-specific conditions, waiting periods, exclusions and annual limits all affect total value.',
+  },
 ];
+
+const CLUSTER_GUIDANCE = {
+  'dog-food-nutrition-partners': 'Look for an AAFCO nutritional adequacy statement, a named protein in the first three ingredients, and a formula matched to your dog\'s life stage and size.',
+  'dog-training-gear-safety-partners': 'Match gear to your dog\'s size, strength and training level. Start with the lowest-stimulation option and focus on reward-based methods before adding management tools.',
+  'personalized-dog-gifts-lifestyle-partners': 'Check production time, sizing options and return policy before ordering. Personalised items are usually non-returnable.',
+  'dog-beds-comfort-home-partners': 'Measure your dog stretched out fully, add 12 inches, then match to the bed\'s stated usable sleep surface. Check whether the cover is machine washable.',
+  'dog-health-wellness-adjacent-partners': '⚠️ Always consult your vet before adding supplements or making changes to your dog\'s health routine. This page is for comparison and planning only.',
+  'dog-services-care-planning': 'Compare service area, booking lead time, insurance held by the provider, emergency protocols and genuine reviews before committing to a care service.',
+  'puppy-essentials-partners': 'Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.',
+  'senior-dog-care-partners': '⚠️ Senior dogs often have concurrent health conditions. Get a vet check before introducing new supplements, changing food, or modifying an exercise routine.',
+  'dog-insurance-and-vet-planning': 'Compare waiting periods, breed-specific exclusions, reimbursement models (actual cost vs. benefit schedule) and annual or per-condition limits before choosing a plan.',
+};
 
 function scoreProgram(program) {
   const kpi = program.kpi || {};
@@ -145,8 +189,30 @@ function matches(obj, rule) {
   return rule.tags.some((tag) => tags.includes(slugify(tag)) || blob.includes(String(tag).replace(/-/g, ' ')) || blob.includes(slugify(tag)));
 }
 function productLine(product) {
-  const price = Number(product.price) > 0 ? ` - listed at $${Number(product.price).toFixed(2)} when last checked` : '';
-  return sanitizePublicDogCopy(`- **${product.name}** from ${product.merchant || 'brand'}${price}. ${clean(product.description).slice(0, 150)}${product.url ? ` [Review dog-fit details](${product.url})` : ''}`);
+  const price = Number(product.price) > 0 ? `**Price:** $${Number(product.price).toFixed(2)} (check current price on site)` : '';
+  const img = product.merchant_image_url || product.aw_image_url || '';
+  const descRaw = clean(product.description || '');
+  const highlights = descRaw.split(/\.\s+/).slice(0, 3).filter(Boolean).map((s) => `  - ${s.trim()}.`).join('\n');
+  const link = product.url || product.deepLink || product.aw_deep_link || '';
+  const cta = link ? `[View at ${product.merchant || 'merchant'}](${link}){rel="nofollow sponsored"}` : '';
+  return sanitizePublicDogCopy([
+    `### ${product.name}`,
+    img ? `![${product.name}](${img})` : '',
+    highlights || `  - ${descRaw.slice(0, 120)}`,
+    price,
+    cta,
+  ].filter(Boolean).join('\n'));
+}
+
+function breedContext(breed) {
+  if (!breed) return '';
+  const size = breed.size || 'medium';
+  const weight = breed.weight?.imperial || breed.weight?.metric || 'varies';
+  const energy = breed.traits?.energy_level || breed.energy_level || 'moderate';
+  const shedding = breed.traits?.shedding_level || breed.shedding_level || 'moderate';
+  const coat = breed.traits?.coat_type || breed.coat_type || 'standard';
+  const weightStr = typeof weight === 'object' ? (weight.max ? `${weight.min}–${weight.max} lbs` : `${weight.min} lbs`) : `${weight} lbs`;
+  return `${breed.name}s are ${size}-sized (${weightStr}), with ${energy} energy, ${shedding} shedding, and a ${coat} coat. The recommendations below are matched to these traits.`;
 }
 function partnerLine(program) {
   const details = [
@@ -207,7 +273,8 @@ ${cluster.products.length ? cluster.products.slice(0, 8).map(productLine).join('
 
 ## How to compare these options
 
-- Match the product or service to the dog's life stage, size, activity level and owner goal.
+${CLUSTER_GUIDANCE[cluster.slug] || 'Match the product or service to your dog\'s life stage, size, activity level and your own goal.'}
+
 - Confirm shipping, availability, formula, sizing, subscription terms, return policy or service terms on the partner site.
 - If you are still choosing a dog, use these options to understand the real care, time and budget commitments behind ownership.
 - Treat price and availability as dynamic; do not rely on older imported data.
@@ -255,19 +322,28 @@ function renderBreedPage(item) {
   const breed = breeds.find((breedItem) => breedItem.slug === item.breedSlug);
   const title = `${breed.name} ${titleCase(item.family)} Dog-Care Decision Guide`;
   const tags = unique([item.family, item.cluster, item.commerceCluster, breed.slug, breed.name, ...item.programmes, ...item.amazonQueries]).map(slugify);
+  const sensitive = (item.monetization?.claimSensitivity || 'medium') === 'high';
+  const ctx = breedContext(breed);
+  const guidance = CLUSTER_GUIDANCE[item.commerceCluster] || '';
   const body = `> **Reader-support note:** PupWiki may earn from qualifying partner links.
+${sensitive ? '\n> **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.\n' : ''}
+## Why this guide exists for ${breed.name}s
 
-## Why this guide exists
+${ctx}
 
 This page helps ${breed.name} people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a ${breed.name} fits your home, budget and routine.
 
-Dog brands and services to review:
+## Brands and services to compare
 
-${item.programmes.map((name) => `- ${name}`).join('\n')}
+${item.programmes.map((name) => `- **${name}**`).join('\n')}
 
 ## Products and service details to compare
 
-${item.products.length ? item.products.map(productLine).join('\n') : '- Start with provider fit, service terms, availability, reviews and dog-care purpose. Product-level details may vary by brand and location.'}
+${item.products.length ? item.products.map(productLine).join('\n\n') : '- Start with provider fit, service terms, availability, reviews and dog-care purpose. Product-level details may vary by brand and location.'}
+
+## How to choose for a ${breed.name}
+
+${guidance || `Match the option to a ${breed.name}'s specific size, energy level and coat type. Confirm details directly on the partner site.`}
 
 ## Related PupWiki guides
 
@@ -308,12 +384,16 @@ ${body}`;
 
 const clusters = getClusters().sort((a, b) => b.priorityScore - a.priorityScore);
 const breedPages = getBreedPages(clusters).sort((a, b) => Number(b.priorityScore || 0) - Number(a.priorityScore || 0));
-const selected = [
-  ...(MODE === 'clusters' || MODE === 'all' ? clusters : []),
-  ...(MODE === 'breed-pages' || MODE === 'all' ? breedPages : []),
-].filter((item) => INCLUDE_EXISTING || !existing.has(item.suggestedSlug || item.slug))
-  .sort((a, b) => Number(b.priorityScore || 0) - Number(a.priorityScore || 0))
-  .slice(0, LIMIT);
+
+const filteredClusters = (MODE === 'clusters' || MODE === 'all' ? clusters : [])
+  .filter((item) => INCLUDE_EXISTING || !existing.has(item.suggestedSlug || item.slug))
+  .slice(0, CLUSTER_LIMIT);
+
+const filteredBreeds = (MODE === 'breed-pages' || MODE === 'all' ? breedPages : [])
+  .filter((item) => INCLUDE_EXISTING || !existing.has(item.suggestedSlug || item.slug))
+  .slice(0, BREED_LIMIT);
+
+const selected = [...filteredClusters, ...filteredBreeds];
 
 fs.mkdirSync(BLOG_DIR, { recursive: true });
 const generated = [];

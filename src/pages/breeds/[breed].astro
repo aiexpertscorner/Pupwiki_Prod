@@ -391,7 +391,7 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
             </section>
           )}
 
-          {healthProfile && (
+          {healthProfile ? (
             <section class="breed-section" aria-labelledby="health-title">
               <div class="breed-section__header"><p class="breed-eyebrow breed-eyebrow--danger">Health watch</p><h2 id="health-title">{b.name} Health Context</h2></div>
               <div class="breed-health-note"><strong>Veterinary note</strong><p>This section is general breed information, not veterinary advice. If your dog has symptoms, pain, breathing issues, sudden behavior changes, or urgent concerns, contact a veterinarian.</p></div>
@@ -402,6 +402,13 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
                 })}
               </div>
               {healthProfile.care_tips && <div class="breed-callout breed-callout--info"><span aria-hidden="true">💡</span><p>{healthProfile.care_tips}</p></div>}
+            </section>
+          ) : (
+            <section class="breed-section" aria-labelledby="health-title">
+              <div class="breed-section__header"><p class="breed-eyebrow breed-eyebrow--danger">Health watch</p><h2 id="health-title">{b.name} Health Context</h2></div>
+              <div class="breed-health-note"><strong>Veterinary note</strong><p>Regular veterinary check-ups, preventive care, and breed-aware monitoring are recommended for all dogs. Consult your vet for guidance specific to your {b.name}.</p></div>
+              <p class="breed-muted">Breed-specific health data for the {b.name} is being compiled. Use the cost calculator to estimate veterinary and care costs.</p>
+              <a href={COST_CALC_HREF} class="breed-cost-link"><div><strong>Estimate care costs</strong><p>Plan food, vet care, and lifetime ownership costs for a {b.name}.</p></div><span aria-hidden="true">💰</span></a>
             </section>
           )}
 
