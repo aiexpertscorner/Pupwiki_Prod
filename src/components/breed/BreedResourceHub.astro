@@ -30,7 +30,9 @@ const {
   description = 'Move from breed research to real decisions: costs, food, training, health context, names, lifecycle hubs and partner resources.',
 } = Astro.props;
 
-const visibleItems = items.filter((item) => item.href || item.available !== false).slice(0, 12);
+const enabledItems = items.filter((item) => item.href);
+const disabledItems = items.filter((item) => !item.href && item.available !== false).slice(0, 3);
+const visibleItems = [...enabledItems, ...disabledItems];
 ---
 
 {visibleItems.length > 0 && (
@@ -48,13 +50,14 @@ const visibleItems = items.filter((item) => item.href || item.available !== fals
           <Tag
             href={item.href}
             class:list={['breed-resource-card', item.featured && 'is-featured', !item.href && 'is-disabled']}
+            title={!item.href ? 'Content in progress' : undefined}
           >
             <span class="breed-resource-card__icon" aria-hidden="true">{item.icon || '🐾'}</span>
             <span class="breed-resource-card__body">
               <strong>{item.label}</strong>
               {item.description && <em>{item.description}</em>}
             </span>
-            {item.badge && <span class="breed-resource-card__badge">{item.badge}</span>}
+            {(item.badge || !item.href) && <span class="breed-resource-card__badge">{item.badge || 'Coming soon'}</span>}
             {item.href && <span class="breed-resource-card__arrow" aria-hidden="true">→</span>}
           </Tag>
         );

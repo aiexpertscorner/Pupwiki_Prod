@@ -114,6 +114,71 @@
   --cat-breeds-text: #1e3a8a;
   --cat-breeds-accent: #15365f;
 
+  /* Category pill colors (used in article/blog category badges) */
+  --color-pill-food-bg: #fef3c7;
+  --color-pill-food-text: #92400e;
+  --color-pill-food-border: rgba(146, 64, 14, 0.18);
+  --color-pill-toys-bg: #d1fae5;
+  --color-pill-toys-text: #065f46;
+  --color-pill-toys-border: rgba(6, 95, 70, 0.18);
+  --color-pill-health-bg: #dbeafe;
+  --color-pill-health-text: #1e40af;
+  --color-pill-health-border: rgba(30, 64, 175, 0.18);
+  --color-pill-training-bg: #e0f2fe;
+  --color-pill-training-text: #1e3a5f;
+  --color-pill-training-border: rgba(30, 58, 95, 0.18);
+  --color-pill-grooming-bg: #fce7f3;
+  --color-pill-grooming-text: #831843;
+  --color-pill-grooming-border: rgba(131, 24, 67, 0.18);
+  --color-pill-supplements-bg: #dcfce7;
+  --color-pill-supplements-text: #14532d;
+  --color-pill-supplements-border: rgba(20, 83, 45, 0.18);
+  --color-pill-beds-bg: #ede9fe;
+  --color-pill-beds-text: #4c1d95;
+  --color-pill-beds-border: rgba(76, 29, 149, 0.18);
+
+  /* Category aliases (--color-category-* → --cat-* bridge for new code) */
+  --color-category-food-bg: var(--cat-food-bg);
+  --color-category-food-border: var(--cat-food-border);
+  --color-category-food-text: var(--cat-food-text);
+  --color-category-training-bg: var(--cat-training-bg);
+  --color-category-training-border: var(--cat-training-border);
+  --color-category-training-text: var(--cat-training-text);
+  --color-category-health-bg: var(--cat-health-bg);
+  --color-category-health-border: var(--cat-health-border);
+  --color-category-health-text: var(--cat-health-text);
+  --color-category-products-bg: var(--cat-products-bg);
+  --color-category-products-border: var(--cat-products-border);
+  --color-category-products-text: var(--cat-products-text);
+  --color-category-breeds-bg: var(--cat-breeds-bg);
+  --color-category-breeds-border: var(--cat-breeds-border);
+  --color-category-breeds-text: var(--cat-breeds-text);
+
+  /* Score / rating color tokens */
+  --color-score-good: #16a34a;
+  --color-score-good-light: #f0fdf4;
+  --color-score-good-border: #d1fae5;
+  --color-score-caution: #d97706;
+  --color-score-caution-light: #fef3c7;
+  --color-score-danger: #dc2626;
+  --color-score-danger-light: #fee2e2;
+  --color-score-muted: #6b7280;
+
+  /* Affiliate store brand colors */
+  --color-affiliate-amazon: #FF9900;
+  --color-affiliate-amazon-dark: #e88700;
+  --color-affiliate-chewy: #0052cc;
+  --color-affiliate-chewy-dark: #003d99;
+  --color-affiliate-petco: #0073c9;
+  --color-affiliate-walmart: #00a3e0;
+
+  /* Hero gradient token */
+  --gradient-hero-page: linear-gradient(180deg, rgba(255, 250, 243, 0.98) 0%, var(--color-bg) 78%);
+
+  /* Dark surface tokens (footer, dark cards) */
+  --color-surface-dark: #1e293b;
+  --color-surface-dark-raised: #334155;
+
   /* Typography */
   --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-serif: 'Lora', Georgia, 'Times New Roman', serif;

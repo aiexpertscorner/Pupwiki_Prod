@@ -15,6 +15,16 @@ export function buildAmazonSearchUrl(query: string, tag = AMAZON_ASSOCIATE_TAG) 
   return `https://www.amazon.com/s?${params.toString()}`;
 }
 
+export function buildAmazonProductLink(product: AmazonProductRecord, tag = AMAZON_ASSOCIATE_TAG): string {
+  if (product.asin?.trim()) {
+    return `https://www.amazon.com/dp/${product.asin.trim()}?tag=${tag}`;
+  }
+  if (product.amazonSearchQuery?.trim()) {
+    return buildAmazonSearchUrl(product.amazonSearchQuery.trim(), tag);
+  }
+  return product.amazonAffiliateUrl || buildAmazonSearchUrl('dog supplies essentials', tag);
+}
+
 function unique<T>(items: T[]) {
   return Array.from(new Set(items.filter(Boolean)));
 }

@@ -44,6 +44,7 @@ const FETCH_CREATIVES = boolEnv('AWIN_FETCH_CREATIVES', false);
 const SYNC_DISABLED = boolEnv('AWIN_SYNC_DISABLED', false);
 const ALLOW_FALLBACK_WRITE = boolEnv('AWIN_ALLOW_FALLBACK_WRITE', false);
 const STRICT = process.argv.includes('--strict');
+const DEBUG_FEEDS = process.argv.includes('--debug-feeds');
 const REQUIRE_PRODUCT_FEED_KEY = STRICT || boolEnv('AWIN_REQUIRE_PRODUCT_FEED_KEY', false);
 const REQUIRE_FEED_PRODUCTS = boolEnv('AWIN_REQUIRE_FEED_PRODUCTS', false);
 const TIMEOUT_MS = Number(env('AWIN_TIMEOUT_MS', '25000')) || 25000;
@@ -358,24 +359,42 @@ async function jsonFetch(url, description = url, headers = {}) {
   }
 }
 
-async function rawFetch(url, description = url, headers = {}) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
-  try {
-    const res = await fetch(url, { headers, signal: controller.signal });
-    clearTimeout(timer);
-    runtime.fetches.push({ description, ok: res.ok, status: res.status });
-    if (!res.ok) {
-      warn(`${description} -> HTTP ${res.status}`);
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function rawFetch(url, description = url, headers = {}, maxRetries = 3) {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+    try {
+      const res = await fetch(url, { headers, signal: controller.signal });
+      clearTimeout(timer);
+
+      if (res.status === 429) {
+        const retryAfter = Number(res.headers.get('retry-after') || 0);
+        const delay = retryAfter > 0 ? retryAfter * 1000 : 2000 * Math.pow(2, attempt);
+        warn(`${description} -> HTTP 429 rate-limited (attempt ${attempt + 1}/${maxRetries + 1}); retrying in ${delay}ms`);
+        if (attempt < maxRetries) { await sleep(delay); continue; }
+        runtime.fetches.push({ description, ok: false, status: 429 });
+        return null;
+      }
+
+      runtime.fetches.push({ description, ok: res.ok, status: res.status });
+      if (!res.ok) {
+        const body = await res.text().catch(() => '');
+        warn(`${description} -> HTTP ${res.status}${body ? ` — ${body.slice(0, 200)}` : ''}`);
+        return null;
+      }
+      return await res.text();
+    } catch (err) {
+      clearTimeout(timer);
+      runtime.fetches.push({ description, ok: false, status: 'error' });
+      warn(`${description} -> ${err.message || err}`);
       return null;
     }
-    return await res.text();
-  } catch (err) {
-    clearTimeout(timer);
-    runtime.fetches.push({ description, ok: false, status: 'error' });
-    warn(`${description} -> ${err.message || err}`);
-    return null;
   }
+  return null;
 }
 
 async function fetchProgrammes() {
@@ -840,14 +859,37 @@ async function main() {
 
   for (const program of joined) {
     const advertiserId = String(program.id || program.advertiserId || '');
+    await sleep(200);
     const details = await fetchProgramDetails(advertiserId, 'joined');
     livePrograms.push(normalizeProgram(program, 'joined', details));
   }
 
   for (const program of pending) {
     const advertiserId = String(program.id || program.advertiserId || '');
+    await sleep(200);
     const details = await fetchProgramDetails(advertiserId, 'pending');
     livePrograms.push(normalizeProgram(program, 'pending', details));
+  }
+
+  if (DEBUG_FEEDS) {
+    const feeds = await fetchProductFeeds();
+    const feedMap = buildFeedMap(feeds);
+    log('\n=== DEBUG FEEDS REPORT ===');
+    for (const program of livePrograms.filter((p) => p.relationship === 'joined')) {
+      const feedsForProgram = feedMap.get(program.advertiserId) || [];
+      const ids = feedsForProgram.map(feedIdValue).filter(Boolean);
+      log(`[${program.key}] advertiserId=${program.advertiserId} feedIds=${ids.join(',') || 'none'} hasProductFeed=${feedsForProgram.length > 0}`);
+      for (const feed of feedsForProgram.slice(0, 3)) {
+        const feedId = feedIdValue(feed);
+        const urls = feedProductUrls(feedId, feed);
+        log(`  feed ${feedId}: ${urls[0] || 'no URL'}`);
+        const text = await rawFetch(urls[0], `debug/feed/${feedId}`);
+        const rows = text ? parseMaybeJsonOrDelimited(text) : [];
+        log(`  -> ${rows.length} product rows`);
+      }
+    }
+    log('=== END DEBUG FEEDS REPORT ===\n');
+    return;
   }
 
   const feeds = await fetchProductFeeds();

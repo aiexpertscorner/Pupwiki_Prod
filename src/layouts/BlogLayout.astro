@@ -96,12 +96,12 @@ const defaultArticleSchema = {
   '@type': 'Article',
   headline: displayTitle,
   description,
-  image: heroImage || undefined,
+  ...(heroImage ? { image: heroImage } : {}),
   datePublished: publishedIso,
   dateModified: updatedIso || publishedIso,
   author: { '@type': 'Organization', name: 'PupWiki' },
   publisher: { '@type': 'Organization', name: 'PupWiki' },
-  mainEntityOfPage: canonicalUrl ? { '@type': 'WebPage', '@id': canonicalUrl } : undefined,
+  ...(canonicalUrl ? { mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl } } : {}),
 };
 
 const resolvedSchema = schema || defaultArticleSchema;
