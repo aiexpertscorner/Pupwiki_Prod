@@ -36,9 +36,6 @@ export const SITE_POSITIONING =
 export const AFFILIATE_TAG =
   import.meta.env.PUBLIC_AMAZON_TAG || 'aiexpertscorn-20';
 
-export const ENABLE_CHEWY =
-  import.meta.env.PUBLIC_ENABLE_CHEWY === 'true';
-
 export const ENABLE_AMAZON_BUTTONS =
   import.meta.env.PUBLIC_ENABLE_AMAZON_BUTTONS !== 'false';
 

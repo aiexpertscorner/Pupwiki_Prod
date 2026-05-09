@@ -9,14 +9,10 @@
  *   4. Category emoji (guaranteed fallback, never broken)
  */
 
-import { ENABLE_CHEWY } from '../../lib/site-config';
-
 export interface Props {
   name:          string;
   asin:          string;
   price?:        number;
-  chewy_id?:     string;
-  chewy_price?:  number;
   rating?:       number;
   reviewCount?:  number;
   ourScore?:     number;
@@ -37,7 +33,7 @@ export interface Props {
 }
 
 const {
-  name, asin, price, chewy_id, chewy_price,
+  name, asin, price,
   rating = 4.5, reviewCount, ourScore,
   verdict, pros = [], cons = [], badge, features = [],
   local_image, image, brand_logo, brand_domain,
@@ -46,16 +42,10 @@ const {
 } = Astro.props;
 
 const amazonUrl  = `https://www.amazon.com/dp/${asin}/?tag=${tag}`;
-const chewyUrl   = chewy_id ? `https://www.chewy.com/dp/${chewy_id}?ref=impact` : null;
-const activeChewUrl = ENABLE_CHEWY ? chewyUrl : null;
 const stars      = Math.round(Math.max(1, Math.min(5, rating)));
 const scoreColor = ourScore
-  ? (ourScore >= 9 ? '#16a34a' : ourScore >= 7 ? '#d97706' : '#dc2626')
-  : '#6b7280';
-
-// Price logic
-const showChewyBetter  = !!(activeChewUrl && chewy_price && price && chewy_price < price);
-const showAmazonBetter = !!(price && chewy_price && price < chewy_price && !showChewyBetter);
+  ? (ourScore >= 9 ? 'var(--color-score-good)' : ourScore >= 7 ? 'var(--color-score-caution)' : 'var(--color-score-danger)')
+  : 'var(--color-score-muted)';
 const isSubscription   = asin === 'SUBSCRIPTION';
 
 // ── Image waterfall ───────────────────────────────────────────
@@ -224,63 +214,34 @@ const cardId = `pc-${asin}-${Math.random().toString(36).slice(2,7)}`;
       </div>
     )}
 
-    <!-- Price comparison -->
+    <!-- Price -->
     {price && (
       <div class="flex items-center justify-around mb-3 p-2.5 rounded-xl"
         style="background:var(--color-bg-soft);border:1px solid var(--color-surface-warm)">
         <div class="text-center">
           <p class="font-sans text-xs" style="color:var(--color-subtle)">Amazon</p>
-          <p class="font-sans font-black text-lg leading-tight"
-            style={`color:${showAmazonBetter ? 'var(--color-success)' : 'var(--color-heading)'}`}>
+          <p class="font-sans font-black text-lg leading-tight" style="color:var(--color-heading)">
             ${price.toFixed(2)}
-            {showAmazonBetter && (
-              <span class="font-sans text-xs ml-1" style="color:var(--color-success)">✓</span>
-            )}
           </p>
         </div>
-        {activeChewUrl && chewy_price && (
-          <>
-            <span class="font-sans text-xs" style="color:var(--color-border)">vs</span>
-            <div class="text-center">
-              <p class="font-sans text-xs" style="color:var(--color-subtle)">Chewy</p>
-              <p class="font-sans font-black text-lg leading-tight"
-                style={`color:${showChewyBetter ? 'var(--color-success)' : 'var(--color-heading)'}`}>
-                ${chewy_price.toFixed(2)}
-                {showChewyBetter && (
-                  <span class="font-sans text-xs ml-1" style="color:var(--color-success)">✓</span>
-                )}
-              </p>
-            </div>
-          </>
-        )}
       </div>
     )}
 
-    <!-- ── CTAs ──────────────────────────────────────────────── -->
+    <!-- ── CTA ───────────────────────────────────────────────── -->
     {isSubscription ? (
-      <a href={activeChewUrl || amazonUrl}
+      <a href={amazonUrl}
         rel="nofollow sponsored" target="_blank"
-        class="block text-center font-sans font-bold text-sm py-3 rounded-xl text-white"
-        style="background:linear-gradient(135deg,var(--color-accent),var(--color-accent-hover))">
+        class="block text-center font-sans font-bold text-sm py-3 rounded-xl"
+        style="background:linear-gradient(135deg,var(--color-accent),var(--color-accent-hover));color:var(--color-text-inverse)">
         View subscription →
       </a>
     ) : (
-      <div class={activeChewUrl ? 'grid grid-cols-2 gap-2' : ''}>
-        {activeChewUrl && (
-          <a href={activeChewUrl}
-            rel="nofollow sponsored" target="_blank"
-            class="block text-center font-sans font-bold text-sm py-2.5 rounded-xl text-white transition-opacity hover:opacity-90"
-            style="background:linear-gradient(135deg,#0052cc,#003d99)">
-            🔵 Chewy{showChewyBetter ? ' ✓' : ''}
-          </a>
-        )}
-        <a href={amazonUrl}
-          rel="nofollow sponsored" target="_blank"
-          class="block text-center font-sans font-bold text-sm py-2.5 rounded-xl text-white transition-opacity hover:opacity-90"
-          style={`background:linear-gradient(135deg,#FF9900,#e88700);${!activeChewUrl ? 'grid-column:span 2' : ''}`}>
-          🟡 Amazon{showAmazonBetter ? ' ✓' : ''}
-        </a>
-      </div>
+      <a href={amazonUrl}
+        rel="nofollow sponsored" target="_blank"
+        class="block text-center font-sans font-bold text-sm py-2.5 rounded-xl transition-opacity hover:opacity-90"
+        style="background:linear-gradient(135deg,var(--color-affiliate-amazon),var(--color-affiliate-amazon-dark));color:var(--color-text-inverse)">
+        🟡 View on Amazon →
+      </a>
     )}
   </div>
 </div>
