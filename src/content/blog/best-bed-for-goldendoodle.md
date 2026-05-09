@@ -3,8 +3,8 @@ title: "Goldendoodle Beds Dog-Care Decision Guide"
 seoTitle: "Goldendoodle Beds Dog-Care Decision Guide"
 displayTitle: "Goldendoodle Beds decision guide"
 description: "A PupWiki guide for current and future Goldendoodle people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-08
-updatedDate: 2026-05-08
+pubDate: 2026-05-09
+updatedDate: 2026-05-09
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "goldendoodle", "jugbow", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

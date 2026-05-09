@@ -3,8 +3,8 @@ title: "Puggle Beds Dog-Care Decision Guide"
 seoTitle: "Puggle Beds Dog-Care Decision Guide"
 displayTitle: "Puggle Beds decision guide"
 description: "A PupWiki guide for current and future Puggle people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-08
-updatedDate: 2026-05-08
+pubDate: 2026-05-09
+updatedDate: 2026-05-09
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "puggle", "jugbow", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
