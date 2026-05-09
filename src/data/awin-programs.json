@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-08T05:25:18.140Z",
+  "syncedAt": "2026-05-09T05:42:36.185Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -2031,7 +2031,7 @@
   "stats": {
     "joined": 8,
     "pending": 17,
-    "feeds": 604,
+    "feeds": 607,
     "apiProducts": 0,
     "programOfferProducts": 8,
     "totalProducts": 10,
@@ -2041,7 +2041,7 @@
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
-    "feedProductFetchFailures": 0,
+    "feedProductFetchFailures": 3,
     "experimentalCreativesEnabled": false,
     "warnings": [
       "programmedetails/106409 -> HTTP 429",
@@ -2050,7 +2050,12 @@
       "programmedetails/119433 -> HTTP 429",
       "programmedetails/120007 -> HTTP 429",
       "programmedetails/120960 -> HTTP 429",
-      "programmedetails/122204 -> HTTP 429"
+      "programmedetails/122204 -> HTTP 429",
+      "feed/93508 returned no parseable products from one endpoint; trying next endpoint if available.",
+      "feed/93508 -> HTTP 400",
+      "feed/93508 -> HTTP 404",
+      "feed/93508 -> HTTP 404",
+      "No product rows could be imported from feed 93508 (Chef Paw (US))"
     ],
     "errors": []
   }
