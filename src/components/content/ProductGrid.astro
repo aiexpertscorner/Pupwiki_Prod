@@ -75,7 +75,6 @@ function stars(r: number) {
     <div class={compact ? 'product-grid product-grid--compact' : 'product-grid'}>
       {shown.map((p: any, i: number) => {
         const url          = amazonUrl(p.asin);
-        const chewyUrl     = p.chewy_id ? `https://www.chewy.com/dp/${p.chewy_id}?ref=impact` : null;
         const isSubscription = p.asin === 'SUBSCRIPTION';
         const catKey       = (p.category_key || p.category || '').toLowerCase().replace(/ /g,'-');
 
@@ -94,8 +93,8 @@ function stars(r: number) {
 
             {/* ── Image ── */}
             <div class="product-card__image-wrap">
-              {(url || chewyUrl) ? (
-                <a href={chewyUrl || url} rel="nofollow sponsored" target="_blank"
+              {url ? (
+                <a href={url} rel="nofollow sponsored" target="_blank"
                   tabindex="-1" aria-hidden="true">
                   <img
                     src={primarySrc}
@@ -156,8 +155,8 @@ function stars(r: number) {
                 </span>
               )}
               <h3 class="product-card__name">
-                {(url || chewyUrl)
-                  ? <a href={chewyUrl || url} rel="nofollow sponsored" target="_blank">{p.name}</a>
+                {url
+                  ? <a href={url} rel="nofollow sponsored" target="_blank">{p.name}</a>
                   : p.name
                 }
               </h3>
@@ -203,14 +202,6 @@ function stars(r: number) {
                 : <span class="product-card__price">{isSubscription ? 'Subscription' : '—'}</span>
               }
               <div style="display:flex;gap:6px">
-                {chewyUrl && (
-                  <a href={chewyUrl} rel="nofollow sponsored" target="_blank"
-                    class="product-card__cta"
-                    style="background:#0052cc;padding:4px 8px;border-radius:6px;font-size:0.7rem"
-                    aria-label={`View ${p.name} on Chewy`}>
-                    Chewy →
-                  </a>
-                )}
                 {url && (
                   <a href={url} rel="nofollow sponsored" target="_blank"
                     class="product-card__cta"

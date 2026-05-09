@@ -1,28 +1,17 @@
 ---
-import { ENABLE_CHEWY } from '../lib/site-config';
-
 export interface Props {
   name: string;
   asin: string;
   amazonPrice?: number;
-  chewyPrice?: number;
   petcoPrice?: number;
-  chewySlug?: string;
   tag?: string;
 }
 
-const { name, asin, amazonPrice, chewyPrice, petcoPrice, chewySlug, tag = 'aiexpertscorn-20' } = Astro.props;
+const { name, asin, amazonPrice, petcoPrice, tag = 'aiexpertscorn-20' } = Astro.props;
 
 const allRows = [
-  { store: 'Amazon', url: `https://www.amazon.com/dp/${asin}/?tag=${tag}`, price: amazonPrice, note: 'Prime shipping', color: '#FF9900' },
-  ...(ENABLE_CHEWY ? [{
-    store: 'Chewy',
-    url: chewySlug ? `https://www.chewy.com/${chewySlug}` : `https://www.chewy.com/s?query=${encodeURIComponent(name)}`,
-    price: chewyPrice,
-    note: 'Autoship savings',
-    color: '#00a3e0',
-  }] : []),
-  { store: 'Petco', url: `https://www.petco.com/shop/en/petcostore/search?query=${encodeURIComponent(name)}`, price: petcoPrice, note: 'In-store pickup', color: '#0073c9' },
+  { store: 'Amazon', url: `https://www.amazon.com/dp/${asin}/?tag=${tag}`, price: amazonPrice, note: 'Prime shipping', color: 'var(--color-affiliate-amazon)' },
+  { store: 'Petco', url: `https://www.petco.com/shop/en/petcostore/search?query=${encodeURIComponent(name)}`, price: petcoPrice, note: 'In-store pickup', color: 'var(--color-affiliate-petco)' },
 ];
 
 const lowestIdx = allRows.reduce((li, r, i, a) => (r.price && (!a[li].price || r.price < a[li].price)) ? i : li, 0);
@@ -41,12 +30,12 @@ const lowestIdx = allRows.reduce((li, r, i, a) => (r.price && (!a[li].price || r
           : <span style="font-size:.85rem;color:var(--color-muted)">Check price</span>
         }
         {i === lowestIdx && r.price && (
-          <span style="font-size:.55rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;background:var(--color-success);color:#fff;padding:.15rem .45rem;border-radius:var(--radius-sm)">Best price</span>
+          <span style="font-size:.55rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;background:var(--color-success);color:var(--color-text-inverse);padding:.15rem .45rem;border-radius:var(--radius-sm)">Best price</span>
         )}
         <span style={`font-size:.55rem;text-transform:uppercase;letter-spacing:.04em;color:${r.color};opacity:.7`}>{r.note}</span>
       </div>
       <a href={r.url} rel="nofollow" target="_blank"
-        style="font-size:.7rem;font-weight:700;padding:.4rem .8rem;border-radius:var(--radius-lg);background:var(--color-primary);color:#fff;text-decoration:none;flex-shrink:0">
+        style="font-size:.7rem;font-weight:700;padding:.4rem .8rem;border-radius:var(--radius-lg);background:var(--color-primary);color:var(--color-text-inverse);text-decoration:none;flex-shrink:0">
         Shop →
       </a>
     </div>
