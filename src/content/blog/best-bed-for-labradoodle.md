@@ -3,8 +3,8 @@ title: "Labradoodle Beds Dog-Care Decision Guide"
 seoTitle: "Labradoodle Beds Dog-Care Decision Guide"
 displayTitle: "Labradoodle Beds decision guide"
 description: "A PupWiki guide for current and future Labradoodle people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-09
-updatedDate: 2026-05-09
+pubDate: 2026-05-10
+updatedDate: 2026-05-10
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "labradoodle", "jugbow", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

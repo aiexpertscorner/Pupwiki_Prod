@@ -3,8 +3,8 @@ title: "Bernedoodle Food Dog-Care Decision Guide"
 seoTitle: "Bernedoodle Food Dog-Care Decision Guide"
 displayTitle: "Bernedoodle Food decision guide"
 description: "A PupWiki guide for current and future Bernedoodle people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-09
-updatedDate: 2026-05-09
+pubDate: 2026-05-10
+updatedDate: 2026-05-10
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "bernedoodle", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]

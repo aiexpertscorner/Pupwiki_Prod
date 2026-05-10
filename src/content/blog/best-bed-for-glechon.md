@@ -3,8 +3,8 @@ title: "Glechon Beds Dog-Care Decision Guide"
 seoTitle: "Glechon Beds Dog-Care Decision Guide"
 displayTitle: "Glechon Beds decision guide"
 description: "A PupWiki guide for current and future Glechon people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-09
-updatedDate: 2026-05-09
+pubDate: 2026-05-10
+updatedDate: 2026-05-10
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "glechon", "jugbow", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

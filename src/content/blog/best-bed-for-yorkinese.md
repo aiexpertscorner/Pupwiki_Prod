@@ -3,8 +3,8 @@ title: "Yorkinese Beds Dog-Care Decision Guide"
 seoTitle: "Yorkinese Beds Dog-Care Decision Guide"
 displayTitle: "Yorkinese Beds decision guide"
 description: "A PupWiki guide for current and future Yorkinese people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-09
-updatedDate: 2026-05-09
+pubDate: 2026-05-10
+updatedDate: 2026-05-10
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "yorkinese", "jugbow", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
