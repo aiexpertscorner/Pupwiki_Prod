@@ -3,17 +3,17 @@ title: "Cheagle Beds Dog-Care Decision Guide"
 seoTitle: "Cheagle Beds Dog-Care Decision Guide"
 displayTitle: "Cheagle Beds decision guide"
 description: "A PupWiki guide for current and future Cheagle people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-10
-updatedDate: 2026-05-10
+pubDate: 2026-05-11
+updatedDate: 2026-05-11
 author: "The PupWiki Team"
 category: "Beds"
-tags: ["beds", "dog-beds-comfort-home-partners", "cheagle", "jugbow", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
+tags: ["beds", "dog-beds-comfort-home-partners", "cheagle", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
 postType: "product-roundup"
 contentTier: "money"
 cluster: "beds"
 commerceCluster: "dog-beds-comfort-home-partners"
 productFamilies: ["beds", "dog-beds-comfort-home-partners"]
-awinTopicTags: ["beds", "dog-beds-comfort-home-partners", "cheagle", "jugbow", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
+awinTopicTags: ["beds", "dog-beds-comfort-home-partners", "cheagle", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
 amazonQueries: ["orthopedic dog bed washable cover", "washable dog crate bed", "senior dog bed", "cooling dog bed"]
 internalLinkTargets: ["/breeds/cheagle", "/categories/beds", "/blog", "/blog/dog-beds-comfort-home-partners", "/categories/senior-dogs", "/categories/puppy", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
@@ -33,6 +33,7 @@ Cheagles are medium-sized (varies lbs), with active energy, seasonal shedding, a
 This page helps Cheagle people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Cheagle fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**
+- **Dog Cloud (US)**
 - **Brutus Broth**
 - **Petmate**
 ## Products and service details to compare

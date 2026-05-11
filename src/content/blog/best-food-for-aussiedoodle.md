@@ -3,8 +3,8 @@ title: "Aussiedoodle Food Dog-Care Decision Guide"
 seoTitle: "Aussiedoodle Food Dog-Care Decision Guide"
 displayTitle: "Aussiedoodle Food decision guide"
 description: "A PupWiki guide for current and future Aussiedoodle people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-10
-updatedDate: 2026-05-10
+pubDate: 2026-05-11
+updatedDate: 2026-05-11
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "aussiedoodle", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]

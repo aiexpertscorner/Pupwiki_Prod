@@ -3,17 +3,17 @@ title: "Peekapoo Beds Dog-Care Decision Guide"
 seoTitle: "Peekapoo Beds Dog-Care Decision Guide"
 displayTitle: "Peekapoo Beds decision guide"
 description: "A PupWiki guide for current and future Peekapoo people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-10
-updatedDate: 2026-05-10
+pubDate: 2026-05-11
+updatedDate: 2026-05-11
 author: "The PupWiki Team"
 category: "Beds"
-tags: ["beds", "dog-beds-comfort-home-partners", "peekapoo", "jugbow", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
+tags: ["beds", "dog-beds-comfort-home-partners", "peekapoo", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
 postType: "product-roundup"
 contentTier: "money"
 cluster: "beds"
 commerceCluster: "dog-beds-comfort-home-partners"
 productFamilies: ["beds", "dog-beds-comfort-home-partners"]
-awinTopicTags: ["beds", "dog-beds-comfort-home-partners", "peekapoo", "jugbow", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
+awinTopicTags: ["beds", "dog-beds-comfort-home-partners", "peekapoo", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
 amazonQueries: ["orthopedic dog bed washable cover", "washable dog crate bed", "senior dog bed", "cooling dog bed"]
 internalLinkTargets: ["/breeds/peekapoo", "/categories/beds", "/blog", "/blog/dog-beds-comfort-home-partners", "/categories/senior-dogs", "/categories/puppy", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
@@ -33,6 +33,7 @@ Peekapoos are medium-sized (varies lbs), with calm energy, low shedding, and a w
 This page helps Peekapoo people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Peekapoo fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**
+- **Dog Cloud (US)**
 - **Brutus Broth**
 - **Petmate**
 ## Products and service details to compare
