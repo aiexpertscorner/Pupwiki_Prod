@@ -47,7 +47,7 @@
         "beds"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-10T05:59:16.611Z",
+      "syncedAt": "2026-05-11T06:33:13.717Z",
       "imageFit": "contain"
     },
     {
@@ -83,7 +83,7 @@
         "accessories"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-10T05:59:16.611Z",
+      "syncedAt": "2026-05-11T06:33:13.717Z",
       "imageFit": "contain"
     },
     {
@@ -122,7 +122,7 @@
         "appliances"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-10T05:59:16.611Z",
+      "syncedAt": "2026-05-11T06:33:13.717Z",
       "imageFit": "contain"
     },
     {
@@ -160,7 +160,37 @@
         "gear"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-10T05:59:16.611Z",
+      "syncedAt": "2026-05-11T06:33:13.717Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "dog-cloud-us-brand-logo",
+      "programKey": "dog-cloud-us",
+      "advertiserId": "87483",
+      "advertiser": "Dog Cloud (US)",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Dog Cloud (US) brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/87483.png",
+      "alt": "Dog Cloud (US) logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-11T06:33:13.717Z",
       "imageFit": "contain"
     },
     {
@@ -192,7 +222,7 @@
         "gear"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-10T05:59:16.611Z",
+      "syncedAt": "2026-05-11T06:33:13.717Z",
       "imageFit": "contain"
     },
     {
@@ -224,7 +254,7 @@
         "nutrition"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-10T05:59:16.611Z",
+      "syncedAt": "2026-05-11T06:33:13.717Z",
       "imageFit": "contain"
     },
     {
@@ -255,7 +285,7 @@
         "beds"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-10T05:59:16.611Z",
+      "syncedAt": "2026-05-11T06:33:13.717Z",
       "imageFit": "contain"
     },
     {
@@ -289,7 +319,7 @@
         "lifestyle"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-10T05:59:16.611Z",
+      "syncedAt": "2026-05-11T06:33:13.717Z",
       "imageFit": "contain"
     },
     {

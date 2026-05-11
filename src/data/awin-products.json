@@ -20,7 +20,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-10T05:59:16.610Z"
+    "syncedAt": "2026-05-11T06:33:13.717Z"
   },
   {
     "id": "crownandpaw-partner-offer",
@@ -45,7 +45,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-10T05:59:16.610Z"
+    "syncedAt": "2026-05-11T06:33:13.717Z"
   },
   {
     "id": "chefpaw-partner-offer",
@@ -72,7 +72,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-10T05:59:16.610Z"
+    "syncedAt": "2026-05-11T06:33:13.717Z"
   },
   {
     "id": "jugbow-partner-offer",
@@ -99,7 +99,26 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-10T05:59:16.610Z"
+    "syncedAt": "2026-05-11T06:33:13.717Z"
+  },
+  {
+    "id": "dog-cloud-us-partner-offer",
+    "name": "Dog Cloud (US) partner offer",
+    "description": "Visit Dog Cloud (US) for current pets & pet care offers and availability.",
+    "price": 0,
+    "currency": "USD",
+    "url": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
+    "image": "https://ui.awin.com/images/upload/merchant/profile/87483.png",
+    "merchant": "Dog Cloud (US)",
+    "category": "Pets & Pet Care",
+    "advertiserId": "87483",
+    "programId": "dog-cloud-us",
+    "topicTags": [
+      "partner"
+    ],
+    "availability": "",
+    "source": "awin-program-fallback",
+    "syncedAt": "2026-05-11T06:33:13.717Z"
   },
   {
     "id": "radiofence-com-partner-offer",
@@ -120,7 +139,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-10T05:59:16.610Z"
+    "syncedAt": "2026-05-11T06:33:13.717Z"
   },
   {
     "id": "raw-wild-llc-partner-offer",
@@ -141,7 +160,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-10T05:59:16.610Z"
+    "syncedAt": "2026-05-11T06:33:13.717Z"
   },
   {
     "id": "petmate-partner-offer",
@@ -161,7 +180,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-10T05:59:16.610Z"
+    "syncedAt": "2026-05-11T06:33:13.717Z"
   },
   {
     "id": "mypetdmv-the-original-pet-drivers-license-partner-offer",
@@ -184,7 +203,7 @@
     ],
     "availability": "",
     "source": "awin-program-fallback",
-    "syncedAt": "2026-05-10T05:59:16.610Z"
+    "syncedAt": "2026-05-11T06:33:13.717Z"
   },
   {
     "id": "rawwild-beef-chicken",
