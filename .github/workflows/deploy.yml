@@ -28,20 +28,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # ── Content pipeline (sequential — each step depends on previous) ────
-      - name: Clean stale generated content
-        run: npm run content:clean:ci
-
-      - name: Refresh generated content
-        run: npm run content:refresh
-
-      - name: Generate PSEO cluster pages
-        run: npm run content:generate:pseo:ci  # limit=25 per deploy (up from 12)
-
-      - name: Sync content-status flags with generated posts
-        run: npm run content:status:sync || echo "Content-status sync skipped"
-
       # ── Independent enrichment steps run in parallel ─────────────────────
+      # Content generation runs in generate-pseo.yml (daily); deploy.yml only enriches + builds
       # Group A: content images + inventory audit (content-side)
       # Group B: AWIN affiliate data + partners + Amazon (affiliate-side)
       # Group C: homepage hero images + breed gallery enrichment (image-side)
