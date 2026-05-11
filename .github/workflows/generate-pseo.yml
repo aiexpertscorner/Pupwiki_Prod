@@ -67,24 +67,29 @@ jobs:
       - name: Clean stale generated content
         run: npm run content:clean:ci
 
+      # Sync immediately after clean so breed-link-map reflects deletions before generation
+      - name: Sync content-status after clean
+        run: node scripts/content/sync-content-status.mjs --apply || echo "Content-status post-clean sync skipped"
+
       - name: Refresh existing generated posts
         run: npm run content:refresh
 
       - name: Generate PSEO opportunity pages
         run: |
-          # Morning run (06:00): all mode, full limits
-          # Evening run (18:00): breed-pages only for backlog catch-up
+          # Morning run (06:00): all mode — raised limits to clear backlog fast
+          # Evening run (18:00): breed pages only, high limit for backlog catch-up
           HOUR=$(date -u +%H)
           if [ "$HOUR" = "18" ] && [ "${{ github.event_name }}" = "schedule" ]; then
             MODE="breed-pages"
             CLUSTER_LIMIT="0"
             BREED_LIMIT="5000"
+            LIMIT="5000"
           else
             MODE="${{ inputs.mode || 'all' }}"
-            CLUSTER_LIMIT="${{ inputs.cluster_limit || '9' }}"
-            BREED_LIMIT="${{ inputs.breed_limit || '91' }}"
+            CLUSTER_LIMIT="${{ inputs.cluster_limit || '25' }}"
+            BREED_LIMIT="${{ inputs.breed_limit || '975' }}"
+            LIMIT="${{ inputs.limit || '1000' }}"
           fi
-          LIMIT="${{ inputs.limit || '100' }}"
           node scripts/content/generate-pseo-opportunity-pages.mjs \
             --mode="${MODE}" \
             --limit="${LIMIT}" \
@@ -125,7 +130,7 @@ jobs:
             src/data/content-status.json \
             src/data/breed-link-map.json \
             public/sitemap.xml
-          LIMIT="${{ inputs.limit || '100' }}"
+          LIMIT="${{ inputs.limit || '1000' }}"
           MODE="${{ inputs.mode || 'all' }}"
           git commit -m "feat(pseo): generate content — mode=${MODE} limit=${LIMIT} [skip ci]"
           git push origin "$TARGET_BRANCH"
@@ -135,7 +140,7 @@ jobs:
           echo "### PSEO generation complete" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- **Mode:** ${{ inputs.mode || 'all' }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Limit:** ${{ inputs.limit || '100' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Limit:** ${{ inputs.limit || '1000' }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Branch:** ${{ inputs.branch || 'main' }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Changed:** ${{ steps.changes.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Timestamp:** $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY

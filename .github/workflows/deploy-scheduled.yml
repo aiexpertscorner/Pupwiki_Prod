@@ -1,0 +1,67 @@
+name: Scheduled Deploy to Cloudflare Pages
+
+on:
+  # 07:30 UTC — after AWIN sync (03:00) + morning PSEO run (06:00) have committed
+  # 19:30 UTC — after evening PSEO backlog run (18:00) has committed
+  schedule:
+    - cron: '30 7 * * *'
+    - cron: '30 19 * * *'
+
+  # Fire automatically when generate-pseo.yml finishes (catches any manual PSEO runs too)
+  workflow_run:
+    workflows: ['Generate PSEO Content (daily)']
+    types: [completed]
+    branches: [main]
+
+  # Allow manual trigger for emergency redeploys
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Build and deploy latest main
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate sitemap
+        run: npm run sitemap:generate
+
+      - name: Build Astro site
+        env:
+          PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.PUBLIC_GA_MEASUREMENT_ID }}
+          PUBLIC_AMAZON_TAG: ${{ secrets.PUBLIC_AMAZON_TAG }}
+          PUBLIC_ENABLE_AMAZON_BUTTONS: ${{ vars.PUBLIC_ENABLE_AMAZON_BUTTONS }}
+          PUBLIC_ENABLE_AWIN_MASTERTAG: ${{ vars.PUBLIC_ENABLE_AWIN_MASTERTAG }}
+          PUBLIC_EMAILOCTOPUS_URL: ${{ secrets.PUBLIC_EMAILOCTOPUS_URL }}
+        run: npm run build:ci
+
+      - name: Deploy to Cloudflare Pages
+        run: npx wrangler pages deploy dist --project-name=pupwiki
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Summary
+        run: |
+          echo "### Scheduled deploy complete" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Ref:** main" >> $GITHUB_STEP_SUMMARY
+          echo "- **Timestamp:** $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+          POSTS=$(find src/content/blog -name '*.md' | wc -l)
+          echo "- **Blog posts in build:** ${POSTS}" >> $GITHUB_STEP_SUMMARY
