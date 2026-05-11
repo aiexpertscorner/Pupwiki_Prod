@@ -53,18 +53,18 @@ jobs:
           (npm run images:hero:ci && npm run images:enrich:ci) &
           PID_C=$!
 
-          # Wait for all groups; capture exit codes
-          wait $PID_A; STATUS_A=$?
-          wait $PID_B; STATUS_B=$?
-          wait $PID_C; STATUS_C=$?
+          # Wait for all groups; capture exit codes without triggering bash set -e
+          # (GitHub Actions runs bash -eo pipefail; plain `wait $PID; X=$?` aborts on non-zero wait)
+          wait $PID_A && STATUS_A=0 || STATUS_A=$?
+          wait $PID_B && STATUS_B=0 || STATUS_B=$?
+          wait $PID_C && STATUS_C=0 || STATUS_C=$?
 
-          # AWIN data is synced daily by sync-awin.yml and committed to the repo.
-          # A live re-sync failure should not block the build — use cached data.
-          if [ $STATUS_B -ne 0 ]; then
-            echo "WARNING: Affiliate sync pipeline failed (exit $STATUS_B) — continuing with cached data" >&2
-          fi
+          # All groups are soft-fail: AWIN data is synced daily by sync-awin.yml,
+          # images are cached. A live sync failure uses committed data.
+          [ $STATUS_A -ne 0 ] && echo "WARNING: Content images/inventory failed (exit $STATUS_A)" >&2 || true
+          [ $STATUS_B -ne 0 ] && echo "WARNING: Affiliate sync failed (exit $STATUS_B) — using cached data" >&2 || true
+          [ $STATUS_C -ne 0 ] && echo "WARNING: Hero/gallery images failed (exit $STATUS_C)" >&2 || true
 
-          # Content/image groups are soft-fail (already wrapped in || echo in scripts)
           echo "Enrichment complete — A:$STATUS_A B:$STATUS_B C:$STATUS_C"
 
       # ── Persist enriched data back to repo ───────────────────────────────
