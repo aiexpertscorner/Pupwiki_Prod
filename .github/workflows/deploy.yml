@@ -58,10 +58,10 @@ jobs:
           wait $PID_B; STATUS_B=$?
           wait $PID_C; STATUS_C=$?
 
-          # Affiliate data is critical; fail the build if Group B hard-fails
+          # AWIN data is synced daily by sync-awin.yml and committed to the repo.
+          # A live re-sync failure should not block the build — use cached data.
           if [ $STATUS_B -ne 0 ]; then
-            echo "ERROR: Affiliate sync pipeline failed (exit $STATUS_B)" >&2
-            exit $STATUS_B
+            echo "WARNING: Affiliate sync pipeline failed (exit $STATUS_B) — continuing with cached data" >&2
           fi
 
           # Content/image groups are soft-fail (already wrapped in || echo in scripts)
