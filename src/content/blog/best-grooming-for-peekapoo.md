@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "peekapoo"
 breedName: "Peekapoo"
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-peekapoo"
+heroImage: "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care."
+imageAlt: "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/"
+imageSearchQuery: "Peekapoo dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Peekapoos
 Peekapoos are medium-sized (varies lbs), with calm energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.

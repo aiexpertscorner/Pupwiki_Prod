@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "boxer"
 breedName: "Boxer"
 canonicalUrl: "https://pupwiki.com/blog/boxer-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a black Boxer dog in natural light with a soft background."
+imageAlt: "Portrait of a black Boxer dog in natural light with a soft background."
+imageSource: "pexels"
+imageCredit: "Photo by Karl  Byron on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/"
+imageSearchQuery: "Boxer dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Boxers

@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "jack-a-poo"
 breedName: "Jack-A-Poo"
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-jack-a-poo"
+heroImage: "https://images.pexels.com/photos/30565326/pexels-photo-30565326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30565326/pexels-photo-30565326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a white Shih Poo dog wearing a blue scarf against a dark background."
+imageAlt: "Close-up portrait of a white Shih Poo dog wearing a blue scarf against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Jay Brand on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-shih-poo-dog-wearing-a-scarf-30565326/"
+imageSearchQuery: "Jack-A-Poo dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Jack-A-Poos
 Jack-A-Poos are medium-sized (varies lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

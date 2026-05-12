@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bordeauxoodle"
 breedName: "Bordeauxoodle"
 canonicalUrl: "https://pupwiki.com/blog/bordeauxoodle-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/24917590/pexels-photo-24917590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/24917590/pexels-photo-24917590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming black and white portrait of a happy dog with tongue out against a dark background."
+imageAlt: "Charming black and white portrait of a happy dog with tongue out against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Karl  Byron on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-dog-24917590/"
+imageSearchQuery: "Bordeauxoodle dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bordeauxoodles

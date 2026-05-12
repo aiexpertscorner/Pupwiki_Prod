@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bluetick-coonhound"
 breedName: "Bluetick Coonhound"
 canonicalUrl: "https://pupwiki.com/blog/bluetick-coonhound-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors."
+imageAlt: "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Thais Vitoria on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/"
+imageSearchQuery: "Bluetick Coonhound dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bluetick Coonhounds

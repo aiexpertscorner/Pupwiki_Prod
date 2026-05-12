@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "border-collie"
 breedName: "Border Collie"
 canonicalUrl: "https://pupwiki.com/blog/border-collie-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/32635782/pexels-photo-32635782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32635782/pexels-photo-32635782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a black and white Border Collie dog with a thoughtful expression against a dark background."
+imageAlt: "Close-up portrait of a black and white Border Collie dog with a thoughtful expression against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Mykhailo Petrenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-black-and-white-border-collie-dog-32635782/"
+imageSearchQuery: "Border Collie dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Border Collies

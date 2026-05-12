@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "puggle"
 breedName: "Puggle"
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-puggle"
+heroImage: "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care."
+imageAlt: "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/"
+imageSearchQuery: "Puggle dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Puggles
 Puggles are medium-sized (varies lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

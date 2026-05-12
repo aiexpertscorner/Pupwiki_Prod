@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "biewer-terrier"
 breedName: "Biewer Terrier"
 canonicalUrl: "https://pupwiki.com/blog/biewer-terrier-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/35071356/pexels-photo-35071356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35071356/pexels-photo-35071356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Yorkshire Terrier dog relaxing on outdoor mossy paving. Perfect pet portrait."
+imageAlt: "Adorable Yorkshire Terrier dog relaxing on outdoor mossy paving. Perfect pet portrait."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-yorkshire-terrier-on-mossy-pavement-35071356/"
+imageSearchQuery: "Biewer Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Biewer Terriers

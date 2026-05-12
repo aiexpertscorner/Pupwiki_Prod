@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-12T19:08:29.103Z",
+  "syncedAt": "2026-05-12T19:25:49.549Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -11824,12 +11824,652 @@
       "photographerUrl": "https://www.pexels.com/@nguy-n-vi-t-l-85165636",
       "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-pomeranian-dog-on-pink-table-9360433/",
       "id": 9360433
+    },
+    "best-grooming-for-boxador:Boxador dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-boxeweiler:Boxeweiler dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-bullmatian:Bullmatian dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-cavachon:Cavachon dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-cavapoo:Cavapoo dog grooming": {
+      "url": "https://images.pexels.com/photos/29296767/pexels-photo-29296767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming Cavapoo dog with fluffy coat enjoying outdoor scenery in Ludvika, Sweden.",
+      "photographer": "Olavi Anttila",
+      "photographerUrl": "https://www.pexels.com/@olavi-anttila-264846761",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-cavapoo-dog-outdoors-in-ludvika-29296767/",
+      "id": 29296767
+    },
+    "best-grooming-for-cheagle:Cheagle dog grooming": {
+      "url": "https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog groomer and her assistant tend to a Yorkshire Terrier on a grooming table.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-grooming-a-yorkshire-terrier-6131578/",
+      "id": 6131578
+    },
+    "best-grooming-for-chiweenie:Chiweenie dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-chorkie:Chorkie dog grooming": {
+      "url": "https://images.pexels.com/photos/19145885/pexels-photo-19145885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A woman expertly trims a small dog's fur in a professional pet grooming salon.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/groomer-working-with-dog-19145885/",
+      "id": 19145885
+    },
+    "best-grooming-for-chug:Chug dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-cockapoo:Cockapoo dog grooming": {
+      "url": "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/groomer-washing-dog-19145895/",
+      "id": 19145895
+    },
+    "best-grooming-for-corgipoo:Corgipoo dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-dalmadoodle:Dalmadoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-dorgi:Dorgi dog grooming": {
+      "url": "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/groomer-washing-dog-19145895/",
+      "id": 19145895
+    },
+    "best-grooming-for-flandoodle:Flandoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-frenchton:Frenchton dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-gerberian-shepsky:Gerberian Shepsky dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-goberian:Goberian dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-goldendoodle:Goldendoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/13332364/pexels-photo-13332364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute Goldendoodle dog standing indoors, showcasing its curly brown fur.",
+      "photographer": "Lesli  Whitecotton",
+      "photographerUrl": "https://www.pexels.com/@lesli-whitecotton-237271934",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-dog-in-close-up-shot-13332364/",
+      "id": 13332364
+    },
+    "best-grooming-for-havapoo:Havapoo dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-horgi:Horgi dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-jack-a-poo:Jack-A-Poo dog grooming": {
+      "url": "https://images.pexels.com/photos/30565326/pexels-photo-30565326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a white Shih Poo dog wearing a blue scarf against a dark background.",
+      "photographer": "Jay Brand",
+      "photographerUrl": "https://www.pexels.com/@jay-brand-1763356224",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-shih-poo-dog-wearing-a-scarf-30565326/",
+      "id": 30565326
+    },
+    "best-grooming-for-labradoodle:Labradoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-lhasapoo:Lhasapoo dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-maltipoo:Maltipoo dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-morkie:Morkie dog grooming": {
+      "url": "https://images.pexels.com/photos/19145885/pexels-photo-19145885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A woman expertly trims a small dog's fur in a professional pet grooming salon.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/groomer-working-with-dog-19145885/",
+      "id": 19145885
+    },
+    "best-grooming-for-newfypoo:Newfypoo dog grooming": {
+      "url": "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-being-brushed-19145894/",
+      "id": 19145894
+    },
+    "best-grooming-for-peekapoo:Peekapoo dog grooming": {
+      "url": "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/",
+      "id": 19145876
+    },
+    "best-grooming-for-pitsky:Pitsky dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-pomchi:Pomchi dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-pomsky:Pomsky dog grooming": {
+      "url": "https://images.pexels.com/photos/9360433/pexels-photo-9360433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Pomeranian dog freshly groomed on a pink grooming table indoors, looking happy and playful.",
+      "photographer": "Nguyễn Viết Lễ",
+      "photographerUrl": "https://www.pexels.com/@nguy-n-vi-t-l-85165636",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-pomeranian-dog-on-pink-table-9360433/",
+      "id": 9360433
+    },
+    "best-grooming-for-puggle:Puggle dog grooming": {
+      "url": "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/",
+      "id": 19145876
+    },
+    "best-grooming-for-pyredoodle:Pyredoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-saint-berdoodle:Saint Berdoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-schnoodle:Schnoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-sheepadoodle:Sheepadoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-being-brushed-19145894/",
+      "id": 19145894
+    },
+    "best-grooming-for-shorkie:Shorkie dog grooming": {
+      "url": "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/",
+      "id": 19145876
+    },
+    "best-grooming-for-springerdoodle:Springerdoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/groomer-washing-dog-19145895/",
+      "id": 19145895
+    },
+    "best-grooming-for-whoodle:Whoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-yorkipoo:Yorkipoo dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-zuchon:Zuchon dog grooming": {
+      "url": "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/",
+      "id": 19145876
+    },
+    "bichon-frise-pet-insurance-planning:Bichon Frise dog portrait": {
+      "url": "https://images.pexels.com/photos/14811406/pexels-photo-14811406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Bichon Frise dog standing on a log outdoors, showcasing its fluffy white coat.",
+      "photographer": "David Brown",
+      "photographerUrl": "https://www.pexels.com/@ninobur",
+      "pexelsUrl": "https://www.pexels.com/photo/bichon-frise-dog-sitting-on-brown-rock-14811406/",
+      "id": 14811406
+    },
+    "bichon-frise-senior-dog-care:Bichon Frise dog portrait": {
+      "url": "https://images.pexels.com/photos/14811406/pexels-photo-14811406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Bichon Frise dog standing on a log outdoors, showcasing its fluffy white coat.",
+      "photographer": "David Brown",
+      "photographerUrl": "https://www.pexels.com/@ninobur",
+      "pexelsUrl": "https://www.pexels.com/photo/bichon-frise-dog-sitting-on-brown-rock-14811406/",
+      "id": 14811406
+    },
+    "biewer-terrier-pet-insurance-planning:Biewer Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/35071356/pexels-photo-35071356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Yorkshire Terrier dog relaxing on outdoor mossy paving. Perfect pet portrait.",
+      "photographer": "Erwin Bosman",
+      "photographerUrl": "https://www.pexels.com/@erwin-bosman-118283",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-yorkshire-terrier-on-mossy-pavement-35071356/",
+      "id": 35071356
+    },
+    "biewer-terrier-senior-dog-care:Biewer Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/35071356/pexels-photo-35071356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Yorkshire Terrier dog relaxing on outdoor mossy paving. Perfect pet portrait.",
+      "photographer": "Erwin Bosman",
+      "photographerUrl": "https://www.pexels.com/@erwin-bosman-118283",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-yorkshire-terrier-on-mossy-pavement-35071356/",
+      "id": 35071356
+    },
+    "black-and-tan-coonhound-pet-insurance-planning:Black and Tan Coonhound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "black-and-tan-coonhound-senior-dog-care:Black and Tan Coonhound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "black-russian-terrier-pet-insurance-planning:Black Russian Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Black and white portrait of a fluffy dog in a relaxed pose outdoors.",
+      "photographer": "Silvia Chepkoech.",
+      "photographerUrl": "https://www.pexels.com/@silvia-chepkoech-1346695422",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-with-bandana-28192024/",
+      "id": 28192024
+    },
+    "black-russian-terrier-senior-dog-care:Black Russian Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Black and white portrait of a fluffy dog in a relaxed pose outdoors.",
+      "photographer": "Silvia Chepkoech.",
+      "photographerUrl": "https://www.pexels.com/@silvia-chepkoech-1346695422",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-with-bandana-28192024/",
+      "id": 28192024
+    },
+    "bloodhound-pet-insurance-planning:Bloodhound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "bloodhound-senior-dog-care:Bloodhound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "bluetick-coonhound-pet-insurance-planning:Bluetick Coonhound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "bluetick-coonhound-senior-dog-care:Bluetick Coonhound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "boerboel-pet-insurance-planning:Boerboel dog portrait": {
+      "url": "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black and white portrait of an American Bulldog with tongue out, showing playful nature.",
+      "photographer": "Mohssine Oudraoua",
+      "photographerUrl": "https://www.pexels.com/@mohssineoudraoua",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-12768126/",
+      "id": 12768126
+    },
+    "boerboel-senior-dog-care:Boerboel dog portrait": {
+      "url": "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black and white portrait of an American Bulldog with tongue out, showing playful nature.",
+      "photographer": "Mohssine Oudraoua",
+      "photographerUrl": "https://www.pexels.com/@mohssineoudraoua",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-12768126/",
+      "id": 12768126
+    },
+    "bohemian-shepherd-pet-insurance-planning:Bohemian Shepherd dog portrait": {
+      "url": "https://images.pexels.com/photos/33260770/pexels-photo-33260770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Shiloh Shepherd dog with a soft, blurred background, highlighting its striking features.",
+      "photographer": "Lia Overman",
+      "photographerUrl": "https://www.pexels.com/@lia-overman-62946696",
+      "pexelsUrl": "https://www.pexels.com/photo/shiloh-shepherd-portrait-in-natural-light-33260770/",
+      "id": 33260770
+    },
+    "bohemian-shepherd-senior-dog-care:Bohemian Shepherd dog portrait": {
+      "url": "https://images.pexels.com/photos/33260770/pexels-photo-33260770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Shiloh Shepherd dog with a soft, blurred background, highlighting its striking features.",
+      "photographer": "Lia Overman",
+      "photographerUrl": "https://www.pexels.com/@lia-overman-62946696",
+      "pexelsUrl": "https://www.pexels.com/photo/shiloh-shepherd-portrait-in-natural-light-33260770/",
+      "id": 33260770
+    },
+    "bolognese-pet-insurance-planning:Bolognese dog portrait": {
+      "url": "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up black and white portrait of a curly-haired white dog.",
+      "photographer": "Anna",
+      "photographerUrl": "https://www.pexels.com/@anna-2037514238",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-fluffy-dog-31845857/",
+      "id": 31845857
+    },
+    "bolognese-senior-dog-care:Bolognese dog portrait": {
+      "url": "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up black and white portrait of a curly-haired white dog.",
+      "photographer": "Anna",
+      "photographerUrl": "https://www.pexels.com/@anna-2037514238",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-fluffy-dog-31845857/",
+      "id": 31845857
+    },
+    "borador-pet-insurance-planning:Borador dog portrait": {
+      "url": "https://images.pexels.com/photos/17894089/pexels-photo-17894089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A vibrant outdoor portrait of a cheerful black dog with a bright expression and textured background.",
+      "photographer": "Franco Monsalvo",
+      "photographerUrl": "https://www.pexels.com/@franco-monsalvo-252430633",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-dog-17894089/",
+      "id": 17894089
+    },
+    "borador-senior-dog-care:Borador dog portrait": {
+      "url": "https://images.pexels.com/photos/17894089/pexels-photo-17894089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A vibrant outdoor portrait of a cheerful black dog with a bright expression and textured background.",
+      "photographer": "Franco Monsalvo",
+      "photographerUrl": "https://www.pexels.com/@franco-monsalvo-252430633",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-dog-17894089/",
+      "id": 17894089
+    },
+    "bordeauxoodle-pet-insurance-planning:Bordeauxoodle dog portrait": {
+      "url": "https://images.pexels.com/photos/24917590/pexels-photo-24917590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a happy dog with tongue out against a dark background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-dog-24917590/",
+      "id": 24917590
+    },
+    "bordeauxoodle-senior-dog-care:Bordeauxoodle dog portrait": {
+      "url": "https://images.pexels.com/photos/24917590/pexels-photo-24917590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a happy dog with tongue out against a dark background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-dog-24917590/",
+      "id": 24917590
+    },
+    "border-collie-pet-insurance-planning:Border Collie dog portrait": {
+      "url": "https://images.pexels.com/photos/32635782/pexels-photo-32635782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a black and white Border Collie dog with a thoughtful expression against a dark background.",
+      "photographer": "Mykhailo Petrenko",
+      "photographerUrl": "https://www.pexels.com/@mykhailo-petrenko-2152927294",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-and-white-border-collie-dog-32635782/",
+      "id": 32635782
+    },
+    "border-collie-senior-dog-care:Border Collie dog portrait": {
+      "url": "https://images.pexels.com/photos/32635782/pexels-photo-32635782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a black and white Border Collie dog with a thoughtful expression against a dark background.",
+      "photographer": "Mykhailo Petrenko",
+      "photographerUrl": "https://www.pexels.com/@mykhailo-petrenko-2152927294",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-and-white-border-collie-dog-32635782/",
+      "id": 32635782
+    },
+    "border-terrier-pet-insurance-planning:Border Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/31659157/pexels-photo-31659157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable terrier dog portrait with a dark background and gentle expression.",
+      "photographer": "Bastian Riccardi",
+      "photographerUrl": "https://www.pexels.com/@shutter-speed",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-cute-terrier-dog-31659157/",
+      "id": 31659157
+    },
+    "border-terrier-senior-dog-care:Border Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/31659157/pexels-photo-31659157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable terrier dog portrait with a dark background and gentle expression.",
+      "photographer": "Bastian Riccardi",
+      "photographerUrl": "https://www.pexels.com/@shutter-speed",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-cute-terrier-dog-31659157/",
+      "id": 31659157
+    },
+    "bordoodle-pet-insurance-planning:Bordoodle dog portrait": {
+      "url": "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-yellow-background-16622613/",
+      "id": 16622613
+    },
+    "bordoodle-senior-dog-care:Bordoodle dog portrait": {
+      "url": "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-yellow-background-16622613/",
+      "id": 16622613
+    },
+    "borgi-pet-insurance-planning:Borgi dog portrait": {
+      "url": "https://images.pexels.com/photos/19935666/pexels-photo-19935666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up portrait of a dog in a snowy winter setting, showcasing its expressive eyes.",
+      "photographer": "Михаил Крамор",
+      "photographerUrl": "https://www.pexels.com/@vantik93",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-in-snow-19935666/",
+      "id": 19935666
+    },
+    "borgi-senior-dog-care:Borgi dog portrait": {
+      "url": "https://images.pexels.com/photos/19935666/pexels-photo-19935666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up portrait of a dog in a snowy winter setting, showcasing its expressive eyes.",
+      "photographer": "Михаил Крамор",
+      "photographerUrl": "https://www.pexels.com/@vantik93",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-in-snow-19935666/",
+      "id": 19935666
+    },
+    "borzoi-pet-insurance-planning:Borzoi dog portrait": {
+      "url": "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/",
+      "id": 34242930
+    },
+    "borzoi-senior-dog-care:Borzoi dog portrait": {
+      "url": "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/",
+      "id": 34242930
+    },
+    "boston-terrier-pet-insurance-planning:Boston Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/28531947/pexels-photo-28531947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Boston Terrier dog chewing on a bone with a black background. Perfect for pet lovers.",
+      "photographer": "Sean Brannon",
+      "photographerUrl": "https://www.pexels.com/@sean-brannon-762373037",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-boston-terrier-chewing-on-a-bone-28531947/",
+      "id": 28531947
+    },
+    "boston-terrier-senior-dog-care:Boston Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/28531947/pexels-photo-28531947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Boston Terrier dog chewing on a bone with a black background. Perfect for pet lovers.",
+      "photographer": "Sean Brannon",
+      "photographerUrl": "https://www.pexels.com/@sean-brannon-762373037",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-boston-terrier-chewing-on-a-bone-28531947/",
+      "id": 28531947
+    },
+    "bouvier-des-flandres-pet-insurance-planning:Bouvier des Flandres dog portrait": {
+      "url": "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Black and white portrait of a fluffy dog in a relaxed pose outdoors.",
+      "photographer": "Silvia Chepkoech.",
+      "photographerUrl": "https://www.pexels.com/@silvia-chepkoech-1346695422",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-with-bandana-28192024/",
+      "id": 28192024
+    },
+    "bouvier-des-flandres-senior-dog-care:Bouvier des Flandres dog portrait": {
+      "url": "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Black and white portrait of a fluffy dog in a relaxed pose outdoors.",
+      "photographer": "Silvia Chepkoech.",
+      "photographerUrl": "https://www.pexels.com/@silvia-chepkoech-1346695422",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-with-bandana-28192024/",
+      "id": 28192024
+    },
+    "boxador-pet-insurance-planning:Boxador dog portrait": {
+      "url": "https://images.pexels.com/photos/2419579/pexels-photo-2419579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Labrador Retriever dog with tongue out, captured in dramatic lighting, highlighting its adorable expression.",
+      "photographer": "Will Oliveira",
+      "photographerUrl": "https://www.pexels.com/@willfotografia",
+      "pexelsUrl": "https://www.pexels.com/photo/short-coated-black-dog-2419579/",
+      "id": 2419579
+    },
+    "boxador-senior-dog-care:Boxador dog portrait": {
+      "url": "https://images.pexels.com/photos/2419579/pexels-photo-2419579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Labrador Retriever dog with tongue out, captured in dramatic lighting, highlighting its adorable expression.",
+      "photographer": "Will Oliveira",
+      "photographerUrl": "https://www.pexels.com/@willfotografia",
+      "pexelsUrl": "https://www.pexels.com/photo/short-coated-black-dog-2419579/",
+      "id": 2419579
+    },
+    "boxer-pet-insurance-planning:Boxer dog portrait": {
+      "url": "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a black Boxer dog in natural light with a soft background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/",
+      "id": 30948591
+    },
+    "boxer-senior-dog-care:Boxer dog portrait": {
+      "url": "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a black Boxer dog in natural light with a soft background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/",
+      "id": 30948591
     }
   },
   "stats": {
     "scanned": 80,
     "changed": 80,
-    "skipped": 232,
+    "skipped": 372,
     "failed": 0,
     "force": false,
     "dry": false

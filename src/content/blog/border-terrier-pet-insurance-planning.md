@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "border-terrier"
 breedName: "Border Terrier"
 canonicalUrl: "https://pupwiki.com/blog/border-terrier-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/31659157/pexels-photo-31659157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31659157/pexels-photo-31659157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable terrier dog portrait with a dark background and gentle expression."
+imageAlt: "Adorable terrier dog portrait with a dark background and gentle expression."
+imageSource: "pexels"
+imageCredit: "Photo by Bastian Riccardi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-cute-terrier-dog-31659157/"
+imageSearchQuery: "Border Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Border Terriers

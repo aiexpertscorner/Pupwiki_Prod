@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bichon-frise"
 breedName: "Bichon Frise"
 canonicalUrl: "https://pupwiki.com/blog/bichon-frise-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/14811406/pexels-photo-14811406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14811406/pexels-photo-14811406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Bichon Frise dog standing on a log outdoors, showcasing its fluffy white coat."
+imageAlt: "Cute Bichon Frise dog standing on a log outdoors, showcasing its fluffy white coat."
+imageSource: "pexels"
+imageCredit: "Photo by David Brown on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bichon-frise-dog-sitting-on-brown-rock-14811406/"
+imageSearchQuery: "Bichon Frise dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bichon Frises

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bohemian-shepherd"
 breedName: "Bohemian Shepherd"
 canonicalUrl: "https://pupwiki.com/blog/bohemian-shepherd-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/33260770/pexels-photo-33260770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33260770/pexels-photo-33260770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Shiloh Shepherd dog with a soft, blurred background, highlighting its striking features."
+imageAlt: "Close-up portrait of a Shiloh Shepherd dog with a soft, blurred background, highlighting its striking features."
+imageSource: "pexels"
+imageCredit: "Photo by Lia Overman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/shiloh-shepherd-portrait-in-natural-light-33260770/"
+imageSearchQuery: "Bohemian Shepherd dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bohemian Shepherds

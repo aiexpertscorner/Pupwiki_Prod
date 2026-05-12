@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "borgi"
 breedName: "Borgi"
 canonicalUrl: "https://pupwiki.com/blog/borgi-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/19935666/pexels-photo-19935666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19935666/pexels-photo-19935666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a dog in a snowy winter setting, showcasing its expressive eyes."
+imageAlt: "A detailed close-up portrait of a dog in a snowy winter setting, showcasing its expressive eyes."
+imageSource: "pexels"
+imageCredit: "Photo by Михаил Крамор on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-in-snow-19935666/"
+imageSearchQuery: "Borgi dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Borgis

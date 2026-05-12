@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "boerboel"
 breedName: "Boerboel"
 canonicalUrl: "https://pupwiki.com/blog/boerboel-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and white portrait of an American Bulldog with tongue out, showing playful nature."
+imageAlt: "A black and white portrait of an American Bulldog with tongue out, showing playful nature."
+imageSource: "pexels"
+imageCredit: "Photo by Mohssine Oudraoua on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-12768126/"
+imageSearchQuery: "Boerboel dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Boerboels

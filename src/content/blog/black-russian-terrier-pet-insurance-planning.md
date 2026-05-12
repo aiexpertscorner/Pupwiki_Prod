@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "black-russian-terrier"
 breedName: "Black Russian Terrier"
 canonicalUrl: "https://pupwiki.com/blog/black-russian-terrier-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white portrait of a fluffy dog in a relaxed pose outdoors."
+imageAlt: "Black and white portrait of a fluffy dog in a relaxed pose outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Silvia Chepkoech. on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-with-bandana-28192024/"
+imageSearchQuery: "Black Russian Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Black Russian Terriers

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "borzoi"
 breedName: "Borzoi"
 canonicalUrl: "https://pupwiki.com/blog/borzoi-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression."
+imageAlt: "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/"
+imageSearchQuery: "Borzoi dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Borzois

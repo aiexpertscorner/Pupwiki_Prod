@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "goldendoodle"
 breedName: "Goldendoodle"
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-goldendoodle"
+heroImage: "https://images.pexels.com/photos/13332364/pexels-photo-13332364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13332364/pexels-photo-13332364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Goldendoodle dog standing indoors, showcasing its curly brown fur."
+imageAlt: "A cute Goldendoodle dog standing indoors, showcasing its curly brown fur."
+imageSource: "pexels"
+imageCredit: "Photo by Lesli  Whitecotton on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dog-in-close-up-shot-13332364/"
+imageSearchQuery: "Goldendoodle dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Goldendoodles
 Goldendoodles are medium-sized (varies lbs), with active energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.

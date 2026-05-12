@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bolognese"
 breedName: "Bolognese"
 canonicalUrl: "https://pupwiki.com/blog/bolognese-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up black and white portrait of a curly-haired white dog."
+imageAlt: "Close-up black and white portrait of a curly-haired white dog."
+imageSource: "pexels"
+imageCredit: "Photo by Anna on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-fluffy-dog-31845857/"
+imageSearchQuery: "Bolognese dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bologneses

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bordoodle"
 breedName: "Bordoodle"
 canonicalUrl: "https://pupwiki.com/blog/bordoodle-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageSource: "pexels"
+imageCredit: "Photo by Miguel González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-yellow-background-16622613/"
+imageSearchQuery: "Bordoodle dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bordoodles

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "boxador"
 breedName: "Boxador"
 canonicalUrl: "https://pupwiki.com/blog/boxador-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/2419579/pexels-photo-2419579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/2419579/pexels-photo-2419579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Labrador Retriever dog with tongue out, captured in dramatic lighting, highlighting its adorable expression."
+imageAlt: "Close-up portrait of a Labrador Retriever dog with tongue out, captured in dramatic lighting, highlighting its adorable expression."
+imageSource: "pexels"
+imageCredit: "Photo by Will Oliveira on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/short-coated-black-dog-2419579/"
+imageSearchQuery: "Boxador dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Boxadors

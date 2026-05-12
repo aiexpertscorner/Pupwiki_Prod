@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "lhasapoo"
 breedName: "Lhasapoo"
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-lhasapoo"
+heroImage: "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills."
+imageAlt: "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-groomer-at-work-19145893/"
+imageSearchQuery: "Lhasapoo dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lhasapoos
 Lhasapoos are medium-sized (varies lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.

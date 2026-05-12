@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "boston-terrier"
 breedName: "Boston Terrier"
 canonicalUrl: "https://pupwiki.com/blog/boston-terrier-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/28531947/pexels-photo-28531947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28531947/pexels-photo-28531947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Boston Terrier dog chewing on a bone with a black background. Perfect for pet lovers."
+imageAlt: "Cute Boston Terrier dog chewing on a bone with a black background. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by Sean Brannon on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-boston-terrier-chewing-on-a-bone-28531947/"
+imageSearchQuery: "Boston Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Boston Terriers

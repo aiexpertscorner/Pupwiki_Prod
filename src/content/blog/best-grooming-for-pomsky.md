@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "pomsky"
 breedName: "Pomsky"
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-pomsky"
+heroImage: "https://images.pexels.com/photos/9360433/pexels-photo-9360433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9360433/pexels-photo-9360433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Pomeranian dog freshly groomed on a pink grooming table indoors, looking happy and playful."
+imageAlt: "Cute Pomeranian dog freshly groomed on a pink grooming table indoors, looking happy and playful."
+imageSource: "pexels"
+imageCredit: "Photo by Nguyễn Viết Lễ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-pomeranian-dog-on-pink-table-9360433/"
+imageSearchQuery: "Pomsky dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pomskys
 Pomskys are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

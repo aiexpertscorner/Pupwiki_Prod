@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "cheagle"
 breedName: "Cheagle"
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-cheagle"
+heroImage: "https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog groomer and her assistant tend to a Yorkshire Terrier on a grooming table."
+imageAlt: "A dog groomer and her assistant tend to a Yorkshire Terrier on a grooming table."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-grooming-a-yorkshire-terrier-6131578/"
+imageSearchQuery: "Cheagle dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cheagles
 Cheagles are medium-sized (varies lbs), with active energy, seasonal shedding, and a medium coat. The recommendations below are matched to these traits.
