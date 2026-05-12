@@ -81,10 +81,14 @@
   /* Semantic */
   --color-success: #047857;
   --color-success-light: #d1fae5;
+  --color-success-dark: #065f46;
   --color-warning: #d97706;
   --color-warning-light: #fef3c7;
+  --color-warning-dark: #713f12;
+  --color-star: #f59e0b;
   --color-danger: #dc2626;
   --color-danger-light: #fee2e2;
+  --color-danger-dark: #7f1d1d;
   --color-info: #2563eb;
   --color-info-light: #dbeafe;
 

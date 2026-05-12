@@ -1,8 +1,9 @@
 ---
 /**
  * AmazonProductCard.astro
- * Conversion-optimised product card driven by product-index.json data.
- * Supports both full (default) and compact (sidebar) variants.
+ * Mobile-first product card driven by product-index.json.
+ * No image (broken sources), no price (Amazon ToS risk).
+ * Supports full (default) and compact (sidebar) variants.
  */
 import type { RichAmazonProductRecord } from '../../lib/amazon/productIndexAdapter';
 import { buildAmazonProductLink } from '../../lib/amazon/amazonDeeplink';
@@ -30,18 +31,14 @@ function formatReviews(n?: number) {
   return String(n);
 }
 
-function scoreColor(score?: number) {
+function scoreVariant(score?: number) {
   if (!score) return 'neutral';
   if (score >= 8) return 'good';
   if (score >= 6) return 'ok';
   return 'caution';
 }
 
-const priceUpdatedYear = product.priceUpdated
-  ? new Date(product.priceUpdated).getFullYear()
-  : null;
-
-const features = (product.features ?? []).slice(0, 3);
+const features = (product.features ?? []).slice(0, 2);
 const categoryLabel = product.categoryLabel || (product.categoryGroup ?? '').replace(/-/g, ' ');
 ---
 
@@ -50,272 +47,224 @@ const categoryLabel = product.categoryLabel || (product.categoryGroup ?? '').rep
   data-amazon-product-id={product.id}
   data-amazon-placement={placement}
 >
-  {product.productImage && (
-    <div class="amz-card__image-wrap">
-      <img
-        src={product.productImage}
-        alt={product.name}
-        loading="lazy"
-        decoding="async"
-        class="amz-card__image"
-        onerror="this.style.display='none'"
-      />
+  <div class="amz-card__top">
+    {(product.brand || categoryLabel) && (
+      <p class="amz-card__meta">
+        {product.brand && <strong class="amz-card__brand">{product.brand}</strong>}
+        {product.brand && categoryLabel && <span class="amz-card__meta-sep" aria-hidden="true">·</span>}
+        {categoryLabel && <span class="amz-card__category">{categoryLabel}</span>}
+      </p>
+    )}
+    <h3 class="amz-card__title">{product.name}</h3>
+  </div>
+
+  {stars && (
+    <div class="amz-card__rating" aria-label={`${stars} out of 5 stars`}>
+      <span class="amz-card__stars" aria-hidden="true">
+        {'★'.repeat(fullStars)}{halfStar ? '½' : ''}{'☆'.repeat(emptyStars)}
+      </span>
+      <span class="amz-card__rating-value">{stars}</span>
+      {product.reviewCount && (
+        <span class="amz-card__reviews">({formatReviews(product.reviewCount)})</span>
+      )}
     </div>
   )}
 
-  <div class="amz-card__body">
-    <p class="amz-card__meta">
-      {product.brand && <strong>{product.brand}</strong>}
-      {categoryLabel && <span>{categoryLabel}</span>}
-    </p>
+  {!isCompact && product.verdict && (
+    <p class="amz-card__verdict">"{product.verdict}"</p>
+  )}
 
-    <h3 class="amz-card__title">{product.name}</h3>
+  {!isCompact && features.length > 0 && (
+    <ul class="amz-card__features" aria-label="Key features">
+      {features.map((f) => <li class="amz-card__feature">{f}</li>)}
+    </ul>
+  )}
 
-    {stars && (
-      <div class="amz-card__rating" aria-label={`${stars} out of 5 stars`}>
-        <span class="amz-card__stars" aria-hidden="true">
-          {'★'.repeat(fullStars)}{halfStar ? '½' : ''}{'☆'.repeat(emptyStars)}
-        </span>
-        <span class="amz-card__rating-value">{stars}</span>
-        {product.reviewCount && (
-          <span class="amz-card__reviews">({formatReviews(product.reviewCount)})</span>
-        )}
-      </div>
-    )}
-
-    {!isCompact && product.verdict && (
-      <p class="amz-card__verdict">{product.verdict}</p>
-    )}
-
-    {!isCompact && features.length > 0 && (
-      <ul class="amz-card__features" aria-label="Key features">
-        {features.map((f) => <li>{f}</li>)}
-      </ul>
-    )}
-
-    {!isCompact && product.editorialScore != null && (
-      <div class:list={['amz-card__score', `amz-card__score--${scoreColor(product.editorialScore)}`]}>
-        <span>PupWiki score</span>
-        <strong>{product.editorialScore.toFixed(1)}<small>/10</small></strong>
-      </div>
-    )}
-
-    <div class="amz-card__footer">
-      {product.price && (
-        <p class="amz-card__price">
-          <span>${product.price.toFixed(2)}</span>
-          <small>
-            {priceUpdatedYear
-              ? `price as of ${priceUpdatedYear} — check Amazon`
-              : 'check Amazon for current price'}
-          </small>
-        </p>
-      )}
-
-      <AmazonBadge
-        href={href}
-        size={isCompact ? 'sm' : 'md'}
-        data-amazon-product-id={product.id}
-        data-amazon-product-name={product.name}
-        data-amazon-placement={placement}
-      />
+  {!isCompact && product.editorialScore != null && (
+    <div class:list={['amz-card__score', `amz-card__score--${scoreVariant(product.editorialScore)}`]}>
+      <span>PupWiki score</span>
+      <strong>{product.editorialScore.toFixed(1)}<small>/10</small></strong>
     </div>
+  )}
+
+  <div class="amz-card__cta">
+    <AmazonBadge
+      href={href}
+      size={isCompact ? 'sm' : 'md'}
+      data-amazon-product-id={product.id}
+      data-amazon-product-name={product.name}
+      data-amazon-placement={placement}
+    />
   </div>
 </article>
 
 <style>
   .amz-card {
     display: flex;
-    gap: var(--space-4);
-    background: var(--color-surface);
+    flex-direction: column;
+    gap: var(--space-3);
+    background: var(--color-bg);
     border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg, 0.75rem);
+    border-radius: var(--radius-xl);
     padding: var(--space-4);
-    transition: box-shadow 0.15s;
+    transition: box-shadow var(--transition-base), border-color var(--transition-base);
   }
 
   .amz-card:hover {
-    box-shadow: var(--shadow-md);
+    border-color: var(--color-accent);
+    box-shadow: var(--shadow-card-hover);
   }
 
-  .amz-card__image-wrap {
-    flex-shrink: 0;
-    width: 90px;
-    height: 90px;
-    border-radius: var(--radius-md, 0.5rem);
-    overflow: hidden;
-    background: var(--color-surface-warm);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .amz-card__image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-
-  .amz-card__body {
-    flex: 1;
-    min-width: 0;
+  /* ── Top block: meta + title ── */
+  .amz-card__top {
     display: flex;
     flex-direction: column;
-    gap: var(--space-2);
+    gap: var(--space-1);
   }
 
   .amz-card__meta {
     display: flex;
-    gap: var(--space-2);
+    align-items: center;
+    gap: var(--space-1);
     flex-wrap: wrap;
-    font-size: var(--text-xs, 0.75rem);
+    font-size: var(--text-xs);
     margin: 0;
   }
 
-  .amz-card__meta strong {
-    color: var(--color-text-primary);
-    font-weight: 600;
+  .amz-card__brand {
+    color: var(--color-heading);
+    font-weight: var(--weight-semi);
   }
 
-  .amz-card__meta span {
-    color: var(--color-text-muted);
+  .amz-card__meta-sep {
+    color: var(--color-border);
+  }
+
+  .amz-card__category {
+    color: var(--color-muted);
     text-transform: capitalize;
   }
 
   .amz-card__title {
-    font-size: var(--text-sm, 0.875rem);
-    font-weight: 700;
-    color: var(--color-text-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
     margin: 0;
     line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
+  /* ── Rating row ── */
   .amz-card__rating {
     display: flex;
     align-items: center;
     gap: var(--space-1);
-    font-size: var(--text-xs, 0.75rem);
+    font-size: var(--text-xs);
   }
 
   .amz-card__stars {
-    color: #f59e0b;
+    color: var(--color-star);
     letter-spacing: 0.5px;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
   }
 
   .amz-card__rating-value {
-    font-weight: 600;
-    color: var(--color-text-primary);
+    font-weight: var(--weight-semi);
+    color: var(--color-heading);
   }
 
   .amz-card__reviews {
-    color: var(--color-text-muted);
+    color: var(--color-muted);
   }
 
+  /* ── Verdict ── */
   .amz-card__verdict {
-    font-size: var(--text-xs, 0.75rem);
-    color: var(--color-text-muted);
+    font-size: var(--text-xs);
+    color: var(--color-body-soft);
     font-style: italic;
     margin: 0;
-    border-left: 2px solid var(--color-border);
+    border-left: 2px solid var(--color-border-soft);
     padding-left: var(--space-2);
     line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
+  /* ── Features as inline chips ── */
   .amz-card__features {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
-    gap: var(--space-1);
+    flex-wrap: wrap;
+    gap: var(--space-2);
   }
 
-  .amz-card__features li {
-    font-size: var(--text-xs, 0.75rem);
-    color: var(--color-text-secondary, var(--color-text-muted));
-    display: flex;
-    gap: var(--space-1);
-    align-items: baseline;
+  .amz-card__feature {
+    font-size: var(--text-xs);
+    color: var(--color-body-soft);
+    background: var(--color-bg-soft);
+    border: 1px solid var(--color-border-soft);
+    border-radius: var(--radius-full);
+    padding: 0.15rem var(--space-2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
   }
 
-  .amz-card__features li::before {
-    content: '✓';
+  .amz-card__feature::before {
+    content: '✓ ';
     color: var(--color-accent);
-    flex-shrink: 0;
-    font-weight: 700;
+    font-weight: var(--weight-bold);
   }
 
+  /* ── Score pill ── */
   .amz-card__score {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: var(--space-2);
-    font-size: var(--text-xs, 0.75rem);
-    padding: var(--space-1) var(--space-2);
-    border-radius: var(--radius-sm, 0.25rem);
+    font-size: var(--text-xs);
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-full);
     width: fit-content;
   }
 
-  .amz-card__score--good { background: #d1fae5; color: #065f46; }
-  .amz-card__score--ok { background: #fef9c3; color: #713f12; }
-  .amz-card__score--caution { background: #fee2e2; color: #7f1d1d; }
-  .amz-card__score--neutral { background: var(--color-surface-warm); color: var(--color-text-muted); }
+  .amz-card__score--good    { background: var(--color-success-light); color: var(--color-success-dark); }
+  .amz-card__score--ok      { background: var(--color-warning-light); color: var(--color-warning-dark); }
+  .amz-card__score--caution { background: var(--color-danger-light);  color: var(--color-danger-dark); }
+  .amz-card__score--neutral { background: var(--color-bg-muted); color: var(--color-muted); }
 
   .amz-card__score strong {
-    font-size: var(--text-sm, 0.875rem);
-    font-weight: 800;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-black);
   }
 
   .amz-card__score small {
-    font-weight: 400;
+    font-weight: var(--weight-normal);
     font-size: 0.65rem;
   }
 
-  .amz-card__footer {
+  /* ── CTA ── */
+  .amz-card__cta {
     margin-top: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--space-3);
-    flex-wrap: wrap;
+    padding-top: var(--space-2);
+    border-top: 1px solid var(--color-border-soft);
   }
 
-  .amz-card__price {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-  }
-
-  .amz-card__price span {
-    font-size: var(--text-base, 1rem);
-    font-weight: 700;
-    color: var(--color-text-primary);
-  }
-
-  .amz-card__price small {
-    font-size: 0.65rem;
-    color: var(--color-text-muted);
-  }
-
-  /* compact variant */
+  /* ── Compact variant ── */
   .amz-card--compact {
     padding: var(--space-3);
-    gap: var(--space-3);
-  }
-
-  .amz-card--compact .amz-card__image-wrap {
-    width: 56px;
-    height: 56px;
+    gap: var(--space-2);
   }
 
   .amz-card--compact .amz-card__title {
-    font-size: var(--text-xs, 0.75rem);
-  }
-
-  .amz-card--compact .amz-card__footer {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-2);
+    font-size: var(--text-xs);
+    -webkit-line-clamp: 2;
   }
 </style>
