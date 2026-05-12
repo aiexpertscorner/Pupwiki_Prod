@@ -25,7 +25,7 @@ export const SITE_EMAIL = 'hello@pupwiki.com';
  * If the new media pack has not been copied into /public yet,
  * temporarily switch SITE_LOGO back to /Logo-pupwiki.png.
  */
-export const SITE_LOGO = '/assets/brand/svg/logo-primary.svg';
+export const SITE_LOGO = '/Logo-pupwiki.png';
 export const SITE_LOGO_MARK = '/assets/brand/svg/logo-mark.svg';
 export const SITE_LOGO_REVERSE = '/assets/brand/svg/logo-primary-reverse.svg';
 export const SITE_FAVICON = '/assets/brand/favicons/favicon.svg';
