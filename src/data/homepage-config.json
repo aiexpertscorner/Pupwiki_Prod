@@ -59,10 +59,9 @@
   },
   "hero": {
     "eyebrow": "All your dog information in one place",
-  "title": "Helpful dog information, guides and tools.",
-  "accent": "All in one place.",
-  "subtitle": "Explore breeds and mixes, estimate costs, find names, compare care needs, and get practical help with health, training, food, grooming, products and services."
-},
+    "title": "Helpful dog information, guides and tools.",
+    "accent": "All in one place.",
+    "subtitle": "Explore breeds and mixes, estimate costs, find names, compare care needs, and get practical help with health, training, food, grooming, products and services.",
     "primaryCta": {
       "label": "Explore Breeds",
       "href": "/breeds"
