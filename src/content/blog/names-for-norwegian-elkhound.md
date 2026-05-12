@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/8336011/pexels-photo-8336011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8336011/pexels-photo-8336011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a white dog in a snowy landscape showcasing its serene expression."
+imageAlt: "Portrait of a white dog in a snowy landscape showcasing its serene expression."
+imageSource: "pexels"
+imageCredit: "Photo by Lieke on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-white-dog-8336011/"
+imageSearchQuery: "Norwegian Elkhound dog portrait"
 ---
+
 
 Naming a Norwegian Elkhound is your first chance to match a name to a personality — and Norwegian Elkhounds have a distinct one: **Friendly, Confident, Dependable**.
 The best Norwegian Elkhound names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Norwegian Elkhound's breed profile to give you the most matched options.

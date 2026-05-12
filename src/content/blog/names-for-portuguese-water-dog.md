@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/8414864/pexels-photo-8414864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8414864/pexels-photo-8414864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Portuguese Podengo dog with a curious expression indoors."
+imageAlt: "Close-up portrait of a Portuguese Podengo dog with a curious expression indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Brett Jordan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-close-up-shot-of-a-portuguese-podengo-8414864/"
+imageSearchQuery: "Portuguese Water Dog dog portrait"
 ---
+
 
 Naming a Portuguese Water Dog is your first chance to match a name to a personality — and Portuguese Water Dogs have a distinct one: **Affectionate, Adventurous, Athletic**.
 The best Portuguese Water Dog names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Portuguese Water Dog's breed profile to give you the most matched options.

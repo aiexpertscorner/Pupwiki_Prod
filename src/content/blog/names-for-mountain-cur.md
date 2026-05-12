@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/12164298/pexels-photo-12164298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12164298/pexels-photo-12164298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a joyful dog with mountains in the backdrop, captured outdoors in Nepal."
+imageAlt: "Portrait of a joyful dog with mountains in the backdrop, captured outdoors in Nepal."
+imageSource: "pexels"
+imageCredit: "Photo by Vishnu  Panday on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-12164298/"
+imageSearchQuery: "Mountain Cur dog portrait"
 ---
+
 
 Naming a Mountain Cur is your first chance to match a name to a personality — and Mountain Curs have a distinct one: **Intelligent, Strong-Willed, Reserved with Strangers**.
 The best Mountain Cur names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Mountain Cur's breed profile to give you the most matched options.

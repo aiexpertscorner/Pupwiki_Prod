@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/12778782/pexels-photo-12778782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12778782/pexels-photo-12778782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene close-up portrait of a brown Shar Pei dog with distinct wrinkles, set against a dark background."
+imageAlt: "A serene close-up portrait of a brown Shar Pei dog with distinct wrinkles, set against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Kevin Watkins on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-shar-pei-dog-12778782/"
+imageSearchQuery: "Pudelpointer dog portrait"
 ---
+
 
 Naming a Pudelpointer is your first chance to match a name to a personality — and Pudelpointers have a distinct one: **Friendly, Smart, Willing to Please**.
 The best Pudelpointer names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Pudelpointer's breed profile to give you the most matched options.

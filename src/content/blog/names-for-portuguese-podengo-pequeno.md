@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/8414864/pexels-photo-8414864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8414864/pexels-photo-8414864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Portuguese Podengo dog with a curious expression indoors."
+imageAlt: "Close-up portrait of a Portuguese Podengo dog with a curious expression indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Brett Jordan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-close-up-shot-of-a-portuguese-podengo-8414864/"
+imageSearchQuery: "Portuguese Podengo Pequeno dog portrait"
 ---
+
 
 Naming a Portuguese Podengo Pequeno is your first chance to match a name to a personality — and Portuguese Podengo Pequenos have a distinct one: **Playful, Charming, Lively**.
 The best Portuguese Podengo Pequeno names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Portuguese Podengo Pequeno's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/12443593/pexels-photo-12443593.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12443593/pexels-photo-12443593.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Captivating close-up of a Saluki dog outdoors, showcasing its elegant features."
+imageAlt: "Captivating close-up of a Saluki dog outdoors, showcasing its elegant features."
+imageSource: "pexels"
+imageCredit: "Photo by Alexandra Sullivan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/saluki-dog-in-close-up-photography-12443593/"
+imageSearchQuery: "Saluki dog portrait"
 ---
+
 
 Naming a Saluki is your first chance to match a name to a personality — and Salukis have a distinct one: **Gentle, Dignified, Independent-Minded**.
 The best Saluki names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Saluki's breed profile to give you the most matched options.

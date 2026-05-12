@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/35439522/pexels-photo-35439522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35439522/pexels-photo-35439522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Maltese dog resting on a soft pink cushion, exuding coziness."
+imageAlt: "Adorable Maltese dog resting on a soft pink cushion, exuding coziness."
+imageSource: "pexels"
+imageCredit: "Photo by Ludek Pytloun on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-white-maltese-dog-on-fluffy-pink-cushion-35439522/"
+imageSearchQuery: "Maltese dog portrait"
 ---
+
 
 Naming a Maltese is your first chance to match a name to a personality — and Malteses have a distinct one: **Gentle, Playful, Charming**.
 The best Maltese names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Maltese's breed profile to give you the most matched options.

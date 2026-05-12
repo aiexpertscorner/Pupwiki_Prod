@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop."
+imageAlt: "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop."
+imageSource: "pexels"
+imageCredit: "Photo by Masood Aslami on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/"
+imageSearchQuery: "Nova Scotia Duck Tolling Retriever dog portrait"
 ---
+
 
 Naming a Nova Scotia Duck Tolling Retriever is your first chance to match a name to a personality — and Nova Scotia Duck Tolling Retrievers have a distinct one: **Affectionate, Intelligent, Outgoing**.
 The best Nova Scotia Duck Tolling Retriever names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Nova Scotia Duck Tolling Retriever's breed profile to give you the most matched options.

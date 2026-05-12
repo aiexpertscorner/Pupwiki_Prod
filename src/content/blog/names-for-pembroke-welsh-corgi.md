@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/20368062/pexels-photo-20368062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20368062/pexels-photo-20368062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a Pembroke Welsh Corgi dog lounging comfortably indoors with a cozy expression."
+imageAlt: "Portrait of a Pembroke Welsh Corgi dog lounging comfortably indoors with a cozy expression."
+imageSource: "pexels"
+imageCredit: "Photo by Marina Zvada on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/head-of-pembroke-welsh-corgi-20368062/"
+imageSearchQuery: "Pembroke Welsh Corgi dog portrait"
 ---
+
 
 Naming a Pembroke Welsh Corgi is your first chance to match a name to a personality — and Pembroke Welsh Corgis have a distinct one: **Affectionate, Smart, Alert**.
 The best Pembroke Welsh Corgi names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Pembroke Welsh Corgi's breed profile to give you the most matched options.

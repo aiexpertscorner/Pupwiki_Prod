@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/10832671/pexels-photo-10832671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10832671/pexels-photo-10832671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene side profile portrait of an Anatolian Shepherd Dog outdoors in a natural setting."
+imageAlt: "A serene side profile portrait of an Anatolian Shepherd Dog outdoors in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/an-anatolian-shepherd-dog-in-close-up-photography-10832671/"
+imageSearchQuery: "Pyrenean Shepherd dog portrait"
 ---
+
 
 Naming a Pyrenean Shepherd is your first chance to match a name to a personality — and Pyrenean Shepherds have a distinct one: **Affectionate, Active, Enthusiastic**.
 The best Pyrenean Shepherd names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Pyrenean Shepherd's breed profile to give you the most matched options.

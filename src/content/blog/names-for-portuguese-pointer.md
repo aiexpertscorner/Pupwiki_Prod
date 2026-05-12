@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features."
+imageAlt: "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features."
+imageSource: "pexels"
+imageCredit: "Photo by Алексей Вечерин on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-black-and-white-short-coated-dog-9562585/"
+imageSearchQuery: "Portuguese Pointer dog portrait"
 ---
+
 
 Naming a Portuguese Pointer is your first chance to match a name to a personality — and Portuguese Pointers have a distinct one: **Affectionate, Smart, Energetic**.
 The best Portuguese Pointer names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Portuguese Pointer's breed profile to give you the most matched options.

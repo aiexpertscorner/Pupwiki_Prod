@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/35764006/pexels-photo-35764006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35764006/pexels-photo-35764006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Samoyed dog with tongue out enjoying sunlight indoors. Perfect pet portrait for dog lovers."
+imageAlt: "Adorable Samoyed dog with tongue out enjoying sunlight indoors. Perfect pet portrait for dog lovers."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/fluffy-samoyed-dog-in-soft-indoor-light-35764006/"
+imageSearchQuery: "Samoyed dog portrait"
 ---
+
 
 Naming a Samoyed is your first chance to match a name to a personality — and Samoyeds have a distinct one: **Adaptable, Friendly, Gentle**.
 The best Samoyed names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Samoyed's breed profile to give you the most matched options.

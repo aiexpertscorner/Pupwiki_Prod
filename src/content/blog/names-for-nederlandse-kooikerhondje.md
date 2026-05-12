@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/5694461/pexels-photo-5694461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5694461/pexels-photo-5694461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of an attentive mixed breed dog looking up outdoors."
+imageAlt: "Close-up portrait of an attentive mixed breed dog looking up outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Raphael Brasileiro on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-cute-dog-looking-up-5694461/"
+imageSearchQuery: "Nederlandse Kooikerhondje dog portrait"
 ---
+
 
 Naming a Nederlandse Kooikerhondje is your first chance to match a name to a personality — and Nederlandse Kooikerhondjes have a distinct one: **Friendly, Alert, Quick**.
 The best Nederlandse Kooikerhondje names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Nederlandse Kooikerhondje's breed profile to give you the most matched options.

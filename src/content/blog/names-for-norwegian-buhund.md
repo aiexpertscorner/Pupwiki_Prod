@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/8336011/pexels-photo-8336011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8336011/pexels-photo-8336011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a white dog in a snowy landscape showcasing its serene expression."
+imageAlt: "Portrait of a white dog in a snowy landscape showcasing its serene expression."
+imageSource: "pexels"
+imageCredit: "Photo by Lieke on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-white-dog-8336011/"
+imageSearchQuery: "Norwegian Buhund dog portrait"
 ---
+
 
 Naming a Norwegian Buhund is your first chance to match a name to a personality — and Norwegian Buhunds have a distinct one: **Confident, Smart, Perceptive**.
 The best Norwegian Buhund names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Norwegian Buhund's breed profile to give you the most matched options.

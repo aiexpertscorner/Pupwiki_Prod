@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/4120663/pexels-photo-4120663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4120663/pexels-photo-4120663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of two Schnauzer dogs in a detailed portrait, showcasing their unique features."
+imageAlt: "Close-up of two Schnauzer dogs in a detailed portrait, showcasing their unique features."
+imageSource: "pexels"
+imageCredit: "Photo by Brett Sayles on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-schnauzer-4120663/"
+imageSearchQuery: "Miniature Schnauzer dog portrait"
 ---
+
 
 Naming a Miniature Schnauzer is your first chance to match a name to a personality — and Miniature Schnauzers have a distinct one: **Friendly, Smart, Obedient**.
 The best Miniature Schnauzer names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Miniature Schnauzer's breed profile to give you the most matched options.

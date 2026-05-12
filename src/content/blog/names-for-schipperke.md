@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/29352230/pexels-photo-29352230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29352230/pexels-photo-29352230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a fluffy black dog with autumn leaves in the background."
+imageAlt: "Close-up portrait of a fluffy black dog with autumn leaves in the background."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/fluffy-black-dog-in-autumn-park-portrait-29352230/"
+imageSearchQuery: "Schipperke dog portrait"
 ---
+
 
 Naming a Schipperke is your first chance to match a name to a personality — and Schipperkes have a distinct one: **Confident, Alert, Curious**.
 The best Schipperke names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Schipperke's breed profile to give you the most matched options.

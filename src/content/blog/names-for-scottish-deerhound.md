@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/17065679/pexels-photo-17065679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/17065679/pexels-photo-17065679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene portrait of a Rough Collie dog with its elegant long fur taken outdoors."
+imageAlt: "A serene portrait of a Rough Collie dog with its elegant long fur taken outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Jędrzej Koralewski on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/shetland-sheepdog-portrait-17065679/"
+imageSearchQuery: "Scottish Deerhound dog portrait"
 ---
+
 
 Naming a Scottish Deerhound is your first chance to match a name to a personality — and Scottish Deerhounds have a distinct one: **Gentle, Dignified, Polite**.
 The best Scottish Deerhound names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Scottish Deerhound's breed profile to give you the most matched options.

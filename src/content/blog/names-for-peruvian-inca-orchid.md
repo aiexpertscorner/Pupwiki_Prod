@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/36936630/pexels-photo-36936630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36936630/pexels-photo-36936630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Dramatic low-key portrait of a Xoloitzcuintli dog against a dark background."
+imageAlt: "Dramatic low-key portrait of a Xoloitzcuintli dog against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/captivating-portrait-of-a-xoloitzcuintli-dog-36936630/"
+imageSearchQuery: "Peruvian Inca Orchid dog portrait"
 ---
+
 
 Naming a Peruvian Inca Orchid is your first chance to match a name to a personality — and Peruvian Inca Orchids have a distinct one: **Affectionate, Loyal, Noble**.
 The best Peruvian Inca Orchid names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Peruvian Inca Orchid's breed profile to give you the most matched options.

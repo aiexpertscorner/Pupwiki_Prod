@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors."
+imageAlt: "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Thais Vitoria on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/"
+imageSearchQuery: "Redbone Coonhound dog portrait"
 ---
+
 
 Naming a Redbone Coonhound is your first chance to match a name to a personality — and Redbone Coonhounds have a distinct one: **Even-Tempered, Amiable, Eager to Please**.
 The best Redbone Coonhound names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Redbone Coonhound's breed profile to give you the most matched options.

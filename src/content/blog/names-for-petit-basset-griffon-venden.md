@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Wirehaired Pointing Griffon dog standing outdoors during fall."
+imageAlt: "A Wirehaired Pointing Griffon dog standing outdoors during fall."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/wirehaired-pointing-griffon-standing-outdoors-28811074/"
+imageSearchQuery: "Petit Basset Griffon Vendéen dog portrait"
 ---
+
 
 Naming a Petit Basset Griffon Vendéen is your first chance to match a name to a personality — and Petit Basset Griffon Vendéens have a distinct one: **Alert, Happy, Vivacious**.
 The best Petit Basset Griffon Vendéen names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Petit Basset Griffon Vendéen's breed profile to give you the most matched options.

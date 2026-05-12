@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/27147726/pexels-photo-27147726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27147726/pexels-photo-27147726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white portrait of a Leonberger dog with a muzzle, held by its owner on a leash outdoors."
+imageAlt: "Black and white portrait of a Leonberger dog with a muzzle, held by its owner on a leash outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Dave H on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/eurasier-dog-on-leash-27147726/"
+imageSearchQuery: "Leonberger dog portrait"
 ---
+
 
 Naming a Leonberger is your first chance to match a name to a personality — and Leonbergers have a distinct one: **Friendly, Gentle, Playful**.
 The best Leonberger names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Leonberger's breed profile to give you the most matched options.

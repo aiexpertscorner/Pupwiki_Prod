@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/28282879/pexels-photo-28282879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28282879/pexels-photo-28282879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Mastiff dog exuding confidence and loyalty. Perfect for pet lovers and animal enthusiasts."
+imageAlt: "Close-up of a Mastiff dog exuding confidence and loyalty. Perfect for pet lovers and animal enthusiasts."
+imageSource: "pexels"
+imageCredit: "Photo by Gundula Vogel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cane-corso-rude-28282879/"
+imageSearchQuery: "Mastiff dog portrait"
 ---
+
 
 Naming a Mastiff is your first chance to match a name to a personality — and Mastiffs have a distinct one: **Courageous, Dignified, Good-Natured**.
 The best Mastiff names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Mastiff's breed profile to give you the most matched options.

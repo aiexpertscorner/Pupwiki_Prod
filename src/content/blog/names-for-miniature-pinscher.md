@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/11654136/pexels-photo-11654136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11654136/pexels-photo-11654136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a curious Miniature Pinscher dog outdoors, showcasing its alert expression."
+imageAlt: "Close-up portrait of a curious Miniature Pinscher dog outdoors, showcasing its alert expression."
+imageSource: "pexels"
+imageCredit: "Photo by adrian vieriu on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-miniature-pinscher-11654136/"
+imageSearchQuery: "Miniature Pinscher dog portrait"
 ---
+
 
 Naming a Miniature Pinscher is your first chance to match a name to a personality — and Miniature Pinschers have a distinct one: **Fearless, Fun-Loving, Proud**.
 The best Miniature Pinscher names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Miniature Pinscher's breed profile to give you the most matched options.

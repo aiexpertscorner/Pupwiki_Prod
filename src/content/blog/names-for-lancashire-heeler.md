@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/20463768/pexels-photo-20463768.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20463768/pexels-photo-20463768.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of an Australian Cattle Dog with a vibrant green background. Perfect shot for animal lovers."
+imageAlt: "Portrait of an Australian Cattle Dog with a vibrant green background. Perfect shot for animal lovers."
+imageSource: "pexels"
+imageCredit: "Photo by Yo Ormedi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-black-dog-20463768/"
+imageSearchQuery: "Lancashire Heeler dog portrait"
 ---
+
 
 Naming a Lancashire Heeler is your first chance to match a name to a personality — and Lancashire Heelers have a distinct one: **Affectionate, Versatile, Intelligent**.
 The best Lancashire Heeler names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Lancashire Heeler's breed profile to give you the most matched options.

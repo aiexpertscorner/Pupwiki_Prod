@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/106912/pexels-photo-106912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/106912/pexels-photo-106912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Side profile of a Jack Russell Terrier dog wearing a harness outdoors."
+imageAlt: "Side profile of a Jack Russell Terrier dog wearing a harness outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Leon Woods on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-and-brown-dog-on-sand-during-daytime-106912/"
+imageSearchQuery: "Rat Terrier dog portrait"
 ---
+
 
 Naming a Rat Terrier is your first chance to match a name to a personality — and Rat Terriers have a distinct one: **Friendly, Inquisitive, Lovable**.
 The best Rat Terrier names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Rat Terrier's breed profile to give you the most matched options.

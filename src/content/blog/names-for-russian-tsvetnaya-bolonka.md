@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/12983201/pexels-photo-12983201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12983201/pexels-photo-12983201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Four adorable dogs, including a Black Bolonka and Papillon, sitting on grass in an autumn setting."
+imageAlt: "Four adorable dogs, including a Black Bolonka and Papillon, sitting on grass in an autumn setting."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-dogs-on-grass-12983201/"
+imageSearchQuery: "Russian Tsvetnaya Bolonka dog portrait"
 ---
+
 
 Naming a Russian Tsvetnaya Bolonka is your first chance to match a name to a personality — and Russian Tsvetnaya Bolonkas have a distinct one: **Playful, Charming, Inquisitive**.
 The best Russian Tsvetnaya Bolonka names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Russian Tsvetnaya Bolonka's breed profile to give you the most matched options.

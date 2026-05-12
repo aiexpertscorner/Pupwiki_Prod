@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/30169560/pexels-photo-30169560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30169560/pexels-photo-30169560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white portrait of a large black dog with a thoughtful expression outdoors."
+imageAlt: "Black and white portrait of a large black dog with a thoughtful expression outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Matej Bizjak on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-black-dog-in-black-and-white-30169560/"
+imageSearchQuery: "Newfoundland dog portrait"
 ---
+
 
 Naming a Newfoundland is your first chance to match a name to a personality — and Newfoundlands have a distinct one: **Sweet, Patient, Devoted**.
 The best Newfoundland names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Newfoundland's breed profile to give you the most matched options.

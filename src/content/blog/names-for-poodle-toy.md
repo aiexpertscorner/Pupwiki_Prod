@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/31978616/pexels-photo-31978616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31978616/pexels-photo-31978616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable brown toy poodle sitting in front of pink heart screens indoors."
+imageAlt: "Adorable brown toy poodle sitting in front of pink heart screens indoors."
+imageSource: "pexels"
+imageCredit: "Photo by lizhnni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-toy-poodle-with-pink-heart-background-31978616/"
+imageSearchQuery: "Poodle (Toy) dog portrait"
 ---
+
 
 Naming a Poodle (Toy) is your first chance to match a name to a personality — and Poodle (Toy)s have a distinct one: **Agile, Intelligent, Self-Confident**.
 The best Poodle (Toy) names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Poodle (Toy)'s breed profile to give you the most matched options.

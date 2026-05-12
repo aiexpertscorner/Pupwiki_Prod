@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/4074356/pexels-photo-4074356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4074356/pexels-photo-4074356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Captivating portrait of a dog amidst vibrant greenery, exuding calm and grace."
+imageAlt: "Captivating portrait of a dog amidst vibrant greenery, exuding calm and grace."
+imageSource: "pexels"
+imageCredit: "Photo by Sharon Georgy Prasad on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-in-the-forest-4074356/"
+imageSearchQuery: "Lapponian Herder dog portrait"
 ---
+
 
 Naming a Lapponian Herder is your first chance to match a name to a personality — and Lapponian Herders have a distinct one: **Friendly, Energetic, Intelligent**.
 The best Lapponian Herder names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Lapponian Herder's breed profile to give you the most matched options.

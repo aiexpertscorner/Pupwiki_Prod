@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/35051188/pexels-photo-35051188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35051188/pexels-photo-35051188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Artistic black and white close-up of a Shiba Inu dog's face, showcasing texture and expression."
+imageAlt: "Artistic black and white close-up of a Shiba Inu dog's face, showcasing texture and expression."
+imageSource: "pexels"
+imageCredit: "Photo by Chris F on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-shiba-inu-dog-in-black-and-white-35051188/"
+imageSearchQuery: "Shiba Inu dog portrait"
 ---
+
 
 Naming a Shiba Inu is your first chance to match a name to a personality — and Shiba Inus have a distinct one: **Alert, Active, Attentive**.
 The best Shiba Inu names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Shiba Inu's breed profile to give you the most matched options.

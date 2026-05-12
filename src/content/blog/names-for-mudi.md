@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression."
+imageAlt: "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/"
+imageSearchQuery: "Mudi dog portrait"
 ---
+
 
 Naming a Mudi is your first chance to match a name to a personality — and Mudis have a distinct one: **Loyal, Intelligent, Active**.
 The best Mudi names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Mudi's breed profile to give you the most matched options.

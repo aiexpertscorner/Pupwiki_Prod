@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/15196383/pexels-photo-15196383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15196383/pexels-photo-15196383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a cute white and brown Boxer dog looking through a wire fence outdoors."
+imageAlt: "Portrait of a cute white and brown Boxer dog looking through a wire fence outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Alice Castro on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-cute-dog-sitting-behind-fence-15196383/"
+imageSearchQuery: "Porcelaine dog portrait"
 ---
+
 
 Naming a Porcelaine is your first chance to match a name to a personality — and Porcelaines have a distinct one: **Independent, Energetic, Powerful**.
 The best Porcelaine names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Porcelaine's breed profile to give you the most matched options.

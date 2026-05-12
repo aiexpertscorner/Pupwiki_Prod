@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/12301139/pexels-photo-12301139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12301139/pexels-photo-12301139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A curly-haired poodle enjoys a sunny day in a grassy field. Perfect for pet enthusiasts."
+imageAlt: "A curly-haired poodle enjoys a sunny day in a grassy field. Perfect for pet enthusiasts."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dog-12301139/"
+imageSearchQuery: "Poodle (Miniature) dog portrait"
 ---
+
 
 Naming a Poodle (Miniature) is your first chance to match a name to a personality — and Poodle (Miniature)s have a distinct one: **Active, Proud, Very Smart**.
 The best Poodle (Miniature) names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Poodle (Miniature)'s breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/35069501/pexels-photo-35069501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35069501/pexels-photo-35069501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a fluffy Tibetan Terrier dog with lush greenery in the background."
+imageAlt: "Portrait of a fluffy Tibetan Terrier dog with lush greenery in the background."
+imageSource: "pexels"
+imageCredit: "Photo by Lorna Pauli on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-tibetan-terrier-dog-portrait-outdoors-35069501/"
+imageSearchQuery: "Löwchen dog portrait"
 ---
+
 
 Naming a Löwchen is your first chance to match a name to a personality — and Löwchens have a distinct one: **Affectionate, Outgoing, Positive**.
 The best Löwchen names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Löwchen's breed profile to give you the most matched options.

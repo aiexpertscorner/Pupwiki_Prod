@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageSource: "pexels"
+imageCredit: "Photo by Miguel González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-yellow-background-16622613/"
+imageSearchQuery: "Polish Lowland Sheepdog dog portrait"
 ---
+
 
 Naming a Polish Lowland Sheepdog is your first chance to match a name to a personality — and Polish Lowland Sheepdogs have a distinct one: **Confident, Clever, Lively**.
 The best Polish Lowland Sheepdog names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Polish Lowland Sheepdog's breed profile to give you the most matched options.

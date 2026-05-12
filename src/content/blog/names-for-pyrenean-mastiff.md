@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/7461420/pexels-photo-7461420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7461420/pexels-photo-7461420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming portrait of a Great Pyrenees dog outdoors against an autumn forest backdrop."
+imageAlt: "Charming portrait of a Great Pyrenees dog outdoors against an autumn forest backdrop."
+imageSource: "pexels"
+imageCredit: "Photo by Tychon Krug on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-long-coated-dog-in-close-up-shot-7461420/"
+imageSearchQuery: "Pyrenean Mastiff dog portrait"
 ---
+
 
 Naming a Pyrenean Mastiff is your first chance to match a name to a personality — and Pyrenean Mastiffs have a distinct one: **Gentle, Brave, Noble**.
 The best Pyrenean Mastiff names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Pyrenean Mastiff's breed profile to give you the most matched options.

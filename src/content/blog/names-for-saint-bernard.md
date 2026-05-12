@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression."
+imageAlt: "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression."
+imageSource: "pexels"
+imageCredit: "Photo by Téméraire Marketing Luxembourg on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/"
+imageSearchQuery: "Saint Bernard dog portrait"
 ---
+
 
 Naming a Saint Bernard is your first chance to match a name to a personality — and Saint Bernards have a distinct one: **Playful, Charming, Inquisitive**.
 The best Saint Bernard names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Saint Bernard's breed profile to give you the most matched options.

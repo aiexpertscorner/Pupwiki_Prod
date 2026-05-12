@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/32344718/pexels-photo-32344718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32344718/pexels-photo-32344718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and white close-up portrait of a Pekingese dog showcasing detailed fur texture and thoughtful expression."
+imageAlt: "A black and white close-up portrait of a Pekingese dog showcasing detailed fur texture and thoughtful expression."
+imageSource: "pexels"
+imageCredit: "Photo by Жанна  Алимкулова on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-pekingese-dog-in-black-and-white-32344718/"
+imageSearchQuery: "Pekingese dog portrait"
 ---
+
 
 Naming a Pekingese is your first chance to match a name to a personality — and Pekingeses have a distinct one: **Affectionate, Loyal, Regal in Manner**.
 The best Pekingese names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Pekingese's breed profile to give you the most matched options.

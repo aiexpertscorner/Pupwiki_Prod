@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/36523938/pexels-photo-36523938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36523938/pexels-photo-36523938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white portrait of a happy Pomeranian dog with tongue out."
+imageAlt: "Black and white portrait of a happy Pomeranian dog with tongue out."
+imageSource: "pexels"
+imageCredit: "Photo by Müca 🇩🇪 on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-pomeranian-dog-in-black-and-white-36523938/"
+imageSearchQuery: "Pomeranian dog portrait"
 ---
+
 
 Naming a Pomeranian is your first chance to match a name to a personality — and Pomeranians have a distinct one: **Inquisitive, Bold, Lively**.
 The best Pomeranian names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Pomeranian's breed profile to give you the most matched options.

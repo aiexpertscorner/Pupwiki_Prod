@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/27998957/pexels-photo-27998957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27998957/pexels-photo-27998957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Jack Russell Terrier dog portrait with charming expression in Belgrade, Serbia."
+imageAlt: "Cute Jack Russell Terrier dog portrait with charming expression in Belgrade, Serbia."
+imageSource: "pexels"
+imageCredit: "Photo by Vladimir Petrovic on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/lollobrigida-27998957/"
+imageSearchQuery: "Lakeland Terrier dog portrait"
 ---
+
 
 Naming a Lakeland Terrier is your first chance to match a name to a personality — and Lakeland Terriers have a distinct one: **Friendly, Confident, Bold**.
 The best Lakeland Terrier names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Lakeland Terrier's breed profile to give you the most matched options.

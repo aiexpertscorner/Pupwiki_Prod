@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/4438308/pexels-photo-4438308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4438308/pexels-photo-4438308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Elegant poodle with a dog collar, captured at sunset creating a warm glow."
+imageAlt: "Elegant poodle with a dog collar, captured at sunset creating a warm glow."
+imageSource: "pexels"
+imageCredit: "Photo by Sharon  Snider on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-poodle-wearing-a-dog-collar-4438308/"
+imageSearchQuery: "Poodle (Standard) dog portrait"
 ---
+
 
 Naming a Poodle (Standard) is your first chance to match a name to a personality — and Poodle (Standard)s have a distinct one: **Active, Proud, Very Smart**.
 The best Poodle (Standard) names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Poodle (Standard)'s breed profile to give you the most matched options.

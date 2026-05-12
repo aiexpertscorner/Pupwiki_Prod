@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/10142285/pexels-photo-10142285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10142285/pexels-photo-10142285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Grayscale portrait of a happy dog on a leash outdoors, highlighting its cute expressions."
+imageAlt: "Grayscale portrait of a happy dog on a leash outdoors, highlighting its cute expressions."
+imageSource: "pexels"
+imageCredit: "Photo by Nikita Igonkin on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/grayscale-photo-of-dog-wearing-leash-10142285/"
+imageSearchQuery: "Norrbottenspets dog portrait"
 ---
+
 
 Naming a Norrbottenspets is your first chance to match a name to a personality — and Norrbottenspetss have a distinct one: **Fearless, Agile, Attentive**.
 The best Norrbottenspets names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Norrbottenspets's breed profile to give you the most matched options.

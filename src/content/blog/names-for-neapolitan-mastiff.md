@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/34591402/pexels-photo-34591402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34591402/pexels-photo-34591402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A large Mastiff dog standing outdoors, showcasing its powerful build and calm demeanor in a natural setting."
+imageAlt: "A large Mastiff dog standing outdoors, showcasing its powerful build and calm demeanor in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Malama Mushitu on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/majestic-mastiff-dog-in-sunny-outdoor-setting-34591402/"
+imageSearchQuery: "Neapolitan Mastiff dog portrait"
 ---
+
 
 Naming a Neapolitan Mastiff is your first chance to match a name to a personality — and Neapolitan Mastiffs have a distinct one: **Loyal, Dignified, Watchful**.
 The best Neapolitan Mastiff names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Neapolitan Mastiff's breed profile to give you the most matched options.

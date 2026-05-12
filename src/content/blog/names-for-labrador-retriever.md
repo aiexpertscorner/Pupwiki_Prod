@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/15147687/pexels-photo-15147687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15147687/pexels-photo-15147687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable chocolate Labrador in a studio portrait with a black background and tongue out."
+imageAlt: "Adorable chocolate Labrador in a studio portrait with a black background and tongue out."
+imageSource: "pexels"
+imageCredit: "Photo by Sharon  Snider on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-labrador-retriever-dog-with-tongue-out-15147687/"
+imageSearchQuery: "Labrador Retriever dog portrait"
 ---
+
 
 Naming a Labrador Retriever is your first chance to match a name to a personality — and Labrador Retrievers have a distinct one: **Friendly, Active, Outgoing**.
 The best Labrador Retriever names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Labrador Retriever's breed profile to give you the most matched options.

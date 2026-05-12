@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/35359632/pexels-photo-35359632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35359632/pexels-photo-35359632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a brown and white dog in a serene outdoor setting."
+imageAlt: "Close-up portrait of a brown and white dog in a serene outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Karl  Byron on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-relaxed-brown-and-white-dog-in-nature-35359632/"
+imageSearchQuery: "Schapendoes dog portrait"
 ---
+
 
 Naming a Schapendoes is your first chance to match a name to a personality — and Schapendoess have a distinct one: **Friendly, Watchful, Lively**.
 The best Schapendoes names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Schapendoes's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/8336011/pexels-photo-8336011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8336011/pexels-photo-8336011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a white dog in a snowy landscape showcasing its serene expression."
+imageAlt: "Portrait of a white dog in a snowy landscape showcasing its serene expression."
+imageSource: "pexels"
+imageCredit: "Photo by Lieke on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-white-dog-8336011/"
+imageSearchQuery: "Norwegian Lundehund dog portrait"
 ---
+
 
 Naming a Norwegian Lundehund is your first chance to match a name to a personality — and Norwegian Lundehunds have a distinct one: **Loyal, Energetic, Alert**.
 The best Norwegian Lundehund names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Norwegian Lundehund's breed profile to give you the most matched options.

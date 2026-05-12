@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/30818428/pexels-photo-30818428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30818428/pexels-photo-30818428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a fluffy brown and white Labradoodle dog in sunlight."
+imageAlt: "Portrait of a fluffy brown and white Labradoodle dog in sunlight."
+imageSource: "pexels"
+imageCredit: "Photo by Karl  Byron on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-brown-and-white-labradoodle-outdoors-30818428/"
+imageSearchQuery: "Otterhound dog portrait"
 ---
+
 
 Naming a Otterhound is your first chance to match a name to a personality — and Otterhounds have a distinct one: **Even-Tempered, Amiable, Boisterous**.
 The best Otterhound names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Otterhound's breed profile to give you the most matched options.

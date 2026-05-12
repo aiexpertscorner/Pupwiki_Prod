@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/10442374/pexels-photo-10442374.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10442374/pexels-photo-10442374.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a dog enjoying the beach, facing the ocean."
+imageAlt: "A close-up portrait of a dog enjoying the beach, facing the ocean."
+imageSource: "pexels"
+imageCredit: "Photo by Vitalii Odobesku on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-beach-10442374/"
+imageSearchQuery: "Manchester Terrier (Standard) dog portrait"
 ---
+
 
 Naming a Manchester Terrier (Standard) is your first chance to match a name to a personality — and Manchester Terrier (Standard)s have a distinct one: **Spirited, Bright, Keenly Observant**.
 The best Manchester Terrier (Standard) names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Manchester Terrier (Standard)'s breed profile to give you the most matched options.

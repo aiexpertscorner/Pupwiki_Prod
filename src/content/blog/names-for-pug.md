@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/374908/pexels-photo-374908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/374908/pexels-photo-374908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Detailed low light portrait of a pug dog with a thoughtful expression, highlighting its distinctive features."
+imageAlt: "Detailed low light portrait of a pug dog with a thoughtful expression, highlighting its distinctive features."
+imageSource: "pexels"
+imageCredit: "Photo by Burst on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/low-light-photo-of-pug-374908/"
+imageSearchQuery: "Pug dog portrait"
 ---
+
 
 Naming a Pug is your first chance to match a name to a personality — and Pugs have a distinct one: **Charming, Mischievous, Loving**.
 The best Pug names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Pug's breed profile to give you the most matched options.

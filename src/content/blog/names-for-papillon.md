@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/32132379/pexels-photo-32132379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32132379/pexels-photo-32132379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Captivating black and white portrait of a Papillon dog sitting outdoors, radiating elegance and charm."
+imageAlt: "Captivating black and white portrait of a Papillon dog sitting outdoors, radiating elegance and charm."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-papillon-dog-in-black-and-white-portrait-32132379/"
+imageSearchQuery: "Papillon dog portrait"
 ---
+
 
 Naming a Papillon is your first chance to match a name to a personality — and Papillons have a distinct one: **Friendly, Alert, Happy**.
 The best Papillon names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Papillon's breed profile to give you the most matched options.
