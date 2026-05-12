@@ -1377,3 +1377,99 @@
   flex-shrink: 0;
   font-size: var(--text-sm);
 }
+
+/* ── Sticky page section nav ─────────────────────────────────── */
+.breed-page-nav {
+  position: sticky;
+  top: 4.75rem;
+  z-index: 30;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border-soft);
+  box-shadow: var(--shadow-xs);
+}
+
+.breed-page-nav__links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-block: var(--space-2);
+}
+
+.breed-page-nav__links::-webkit-scrollbar {
+  display: none;
+}
+
+.breed-page-nav__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding-inline: 0.9rem;
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-body-soft);
+  white-space: nowrap;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: color var(--transition-base), background var(--transition-base);
+}
+
+.breed-page-nav__link:hover,
+.breed-page-nav__link.is-active {
+  color: var(--color-primary);
+  background: var(--color-primary-subtle);
+}
+
+/* ── Section scroll offsets (sticky header + sticky nav) ────── */
+#breed-overview,
+#breed-traits,
+#breed-health,
+#breed-products,
+#breed-guides {
+  scroll-margin-top: 8.75rem;
+}
+
+@media (min-width: 1024px) {
+  .breed-page-nav {
+    top: 5.25rem;
+  }
+
+  #breed-overview,
+  #breed-traits,
+  #breed-health,
+  #breed-products,
+  #breed-guides {
+    scroll-margin-top: 9.5rem;
+  }
+}
+
+/* ── Traits grid: 3 columns on small screens ─────────────────── */
+@media (max-width: 640px) {
+  .breed-traits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ── Sidebar: condensed two-card strip at tablet ─────────────── */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .breed-sidebar {
+    display: block;
+  }
+
+  .breed-sidebar__inner {
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+    align-items: start;
+  }
+
+  .breed-sidebar__affiliate {
+    display: none;
+  }
+}
