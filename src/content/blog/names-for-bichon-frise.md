@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/14811406/pexels-photo-14811406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14811406/pexels-photo-14811406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Bichon Frise dog standing on a log outdoors, showcasing its fluffy white coat."
+imageAlt: "Cute Bichon Frise dog standing on a log outdoors, showcasing its fluffy white coat."
+imageSource: "pexels"
+imageCredit: "Photo by David Brown on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bichon-frise-dog-sitting-on-brown-rock-14811406/"
+imageSearchQuery: "Bichon Frise dog portrait"
 ---
+
 
 Naming a Bichon Frise is your first chance to match a name to a personality — and Bichon Frises have a distinct one: **Playful, Curious, Peppy**.
 The best Bichon Frise names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Bichon Frise's breed profile to give you the most matched options.

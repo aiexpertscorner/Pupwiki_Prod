@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/31659157/pexels-photo-31659157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31659157/pexels-photo-31659157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable terrier dog portrait with a dark background and gentle expression."
+imageAlt: "Adorable terrier dog portrait with a dark background and gentle expression."
+imageSource: "pexels"
+imageCredit: "Photo by Bastian Riccardi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-cute-terrier-dog-31659157/"
+imageSearchQuery: "Border Terrier dog portrait"
 ---
+
 
 Naming a Border Terrier is your first chance to match a name to a personality — and Border Terriers have a distinct one: **Affectionate, Happy, Plucky**.
 The best Border Terrier names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Border Terrier's breed profile to give you the most matched options.

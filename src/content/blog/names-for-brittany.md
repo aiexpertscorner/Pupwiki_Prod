@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/7068893/pexels-photo-7068893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7068893/pexels-photo-7068893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Side profile of a Brittany Spaniel dog in a green park, featuring a soft focus background."
+imageAlt: "Side profile of a Brittany Spaniel dog in a green park, featuring a soft focus background."
+imageSource: "pexels"
+imageCredit: "Photo by Ilo Frey on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-white-and-brown-dog-7068893/"
+imageSearchQuery: "Brittany dog portrait"
 ---
+
 
 Naming a Brittany is your first chance to match a name to a personality — and Brittanys have a distinct one: **Bright, Fun-Loving, Upbeat**.
 The best Brittany names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Brittany's breed profile to give you the most matched options.

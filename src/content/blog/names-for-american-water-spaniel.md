@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively."
+imageAlt: "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively."
+imageSource: "pexels"
+imageCredit: "Photo by SlimMars 13 on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/"
+imageSearchQuery: "American Water Spaniel dog portrait"
 ---
+
 
 Naming a American Water Spaniel is your first chance to match a name to a personality — and American Water Spaniels have a distinct one: **Eager, Happy, Charming**.
 The best American Water Spaniel names lean toward names that match their unique character. We filtered our database of 7,000+ names through the American Water Spaniel's breed profile to give you the most matched options.

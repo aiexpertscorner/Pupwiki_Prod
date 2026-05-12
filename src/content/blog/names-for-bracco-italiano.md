@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/28637381/pexels-photo-28637381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28637381/pexels-photo-28637381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of an Italian Spinone dog in a serene field at dusk, capturing calmness and nature."
+imageAlt: "Portrait of an Italian Spinone dog in a serene field at dusk, capturing calmness and nature."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/italian-spinone-dog-in-a-tranquil-field-setting-28637381/"
+imageSearchQuery: "Bracco Italiano dog portrait"
 ---
+
 
 Naming a Bracco Italiano is your first chance to match a name to a personality — and Bracco Italianos have a distinct one: **Affectionate, Intelligent, Enthusiastic**.
 The best Bracco Italiano names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Bracco Italiano's breed profile to give you the most matched options.

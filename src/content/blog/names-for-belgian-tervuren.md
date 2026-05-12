@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Belgian Tervuren dog standing in a grassy field, tongue out."
+imageAlt: "Cute Belgian Tervuren dog standing in a grassy field, tongue out."
+imageSource: "pexels"
+imageCredit: "Photo by Viktorija Stankevičiūtė on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-on-grass-field-12685132/"
+imageSearchQuery: "Belgian Tervuren dog portrait"
 ---
+
 
 Naming a Belgian Tervuren is your first chance to match a name to a personality — and Belgian Tervurens have a distinct one: **Courageous, Alert, Intelligent**.
 The best Belgian Tervuren names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Belgian Tervuren's breed profile to give you the most matched options.

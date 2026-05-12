@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/35071356/pexels-photo-35071356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35071356/pexels-photo-35071356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Yorkshire Terrier dog relaxing on outdoor mossy paving. Perfect pet portrait."
+imageAlt: "Adorable Yorkshire Terrier dog relaxing on outdoor mossy paving. Perfect pet portrait."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-yorkshire-terrier-on-mossy-pavement-35071356/"
+imageSearchQuery: "Biewer Terrier dog portrait"
 ---
+
 
 Naming a Biewer Terrier is your first chance to match a name to a personality — and Biewer Terriers have a distinct one: **Intelligent, Devoted, Amusing**.
 The best Biewer Terrier names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Biewer Terrier's breed profile to give you the most matched options.

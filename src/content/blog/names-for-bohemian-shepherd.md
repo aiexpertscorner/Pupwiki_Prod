@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/33260770/pexels-photo-33260770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33260770/pexels-photo-33260770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Shiloh Shepherd dog with a soft, blurred background, highlighting its striking features."
+imageAlt: "Close-up portrait of a Shiloh Shepherd dog with a soft, blurred background, highlighting its striking features."
+imageSource: "pexels"
+imageCredit: "Photo by Lia Overman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/shiloh-shepherd-portrait-in-natural-light-33260770/"
+imageSearchQuery: "Bohemian Shepherd dog portrait"
 ---
+
 
 Naming a Bohemian Shepherd is your first chance to match a name to a personality — and Bohemian Shepherds have a distinct one: **Friendly, Devoted, Alert and Intelligent**.
 The best Bohemian Shepherd names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Bohemian Shepherd's breed profile to give you the most matched options.

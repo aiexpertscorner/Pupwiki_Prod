@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/7765407/pexels-photo-7765407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7765407/pexels-photo-7765407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Bedlington Terrier dog sits indoors with a leather collar, exuding charm and warmth."
+imageAlt: "A Bedlington Terrier dog sits indoors with a leather collar, exuding charm and warmth."
+imageSource: "pexels"
+imageCredit: "Photo by Jean-Paul  Wright on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-furry-dog-with-a-collar-7765407/"
+imageSearchQuery: "Bedlington Terrier dog portrait"
 ---
+
 
 Naming a Bedlington Terrier is your first chance to match a name to a personality — and Bedlington Terriers have a distinct one: **Loyal, Charming, Frollicking**.
 The best Bedlington Terrier names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Bedlington Terrier's breed profile to give you the most matched options.

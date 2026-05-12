@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/374908/pexels-photo-374908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/374908/pexels-photo-374908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Detailed low light portrait of a pug dog with a thoughtful expression, highlighting its distinctive features."
+imageAlt: "Detailed low light portrait of a pug dog with a thoughtful expression, highlighting its distinctive features."
+imageSource: "pexels"
+imageCredit: "Photo by Burst on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/low-light-photo-of-pug-374908/"
+imageSearchQuery: "Brussels Griffon dog portrait"
 ---
+
 
 Naming a Brussels Griffon is your first chance to match a name to a personality — and Brussels Griffons have a distinct one: **Loyal, Alert, Curious**.
 The best Brussels Griffon names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Brussels Griffon's breed profile to give you the most matched options.

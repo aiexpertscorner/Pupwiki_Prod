@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/18871228/pexels-photo-18871228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18871228/pexels-photo-18871228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up black and white portrait of a pit bull dog, showcasing its attentive and curious expression."
+imageAlt: "Close-up black and white portrait of a pit bull dog, showcasing its attentive and curious expression."
+imageSource: "pexels"
+imageCredit: "Photo by Altaf Shah on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-18871228/"
+imageSearchQuery: "American Staffordshire Terrier dog portrait"
 ---
+
 
 Naming a American Staffordshire Terrier is your first chance to match a name to a personality — and American Staffordshire Terriers have a distinct one: **Confident, Smart, Good-Natured**.
 The best American Staffordshire Terrier names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the American Staffordshire Terrier's breed profile to give you the most matched options.

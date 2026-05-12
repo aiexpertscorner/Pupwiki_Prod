@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/37297117/pexels-photo-37297117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37297117/pexels-photo-37297117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a brown and white dog with alert eyes indoors."
+imageAlt: "A close-up portrait of a brown and white dog with alert eyes indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Harshit Mehta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-portrait-of-a-brown-and-white-dog-indoors-37297117/"
+imageSearchQuery: "Braque du Bourbonnais dog portrait"
 ---
+
 
 Naming a Braque du Bourbonnais is your first chance to match a name to a personality — and Braque du Bourbonnaiss have a distinct one: **Affectionate, Adaptable, Gentle**.
 The best Braque du Bourbonnais names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Braque du Bourbonnais's breed profile to give you the most matched options.

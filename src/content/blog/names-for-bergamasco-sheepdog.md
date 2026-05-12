@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageSource: "pexels"
+imageCredit: "Photo by Miguel González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-yellow-background-16622613/"
+imageSearchQuery: "Bergamasco Sheepdog dog portrait"
 ---
+
 
 Naming a Bergamasco Sheepdog is your first chance to match a name to a personality — and Bergamasco Sheepdogs have a distinct one: **Independent, Sociable, Intelligent**.
 The best Bergamasco Sheepdog names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Bergamasco Sheepdog's breed profile to give you the most matched options.

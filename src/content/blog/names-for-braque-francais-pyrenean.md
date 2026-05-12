@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/3714060/pexels-photo-3714060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3714060/pexels-photo-3714060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a joyful German Shorthaired Pointer dog with mouth open, set in an outdoor grassy area."
+imageAlt: "Close-up portrait of a joyful German Shorthaired Pointer dog with mouth open, set in an outdoor grassy area."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/shallow-focus-photo-of-dog-3714060/"
+imageSearchQuery: "Braque Francais Pyrenean dog portrait"
 ---
+
 
 Naming a Braque Francais Pyrenean is your first chance to match a name to a personality — and Braque Francais Pyreneans have a distinct one: **Friendly, Smart, Willing to Please**.
 The best Braque Francais Pyrenean names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Braque Francais Pyrenean's breed profile to give you the most matched options.

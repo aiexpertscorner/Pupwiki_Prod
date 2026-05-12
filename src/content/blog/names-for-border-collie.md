@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/32635782/pexels-photo-32635782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32635782/pexels-photo-32635782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a black and white Border Collie dog with a thoughtful expression against a dark background."
+imageAlt: "Close-up portrait of a black and white Border Collie dog with a thoughtful expression against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Mykhailo Petrenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-black-and-white-border-collie-dog-32635782/"
+imageSearchQuery: "Border Collie dog portrait"
 ---
+
 
 Naming a Border Collie is your first chance to match a name to a personality — and Border Collies have a distinct one: **Affectionate, Smart, Energetic**.
 The best Border Collie names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Border Collie's breed profile to give you the most matched options.

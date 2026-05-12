@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/17037649/pexels-photo-17037649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/17037649/pexels-photo-17037649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Bull Terrier dog with tongue out against a black background."
+imageAlt: "Close-up portrait of a Bull Terrier dog with tongue out against a black background."
+imageSource: "pexels"
+imageCredit: "Photo by Kenny Fotos CR on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dog-head-17037649/"
+imageSearchQuery: "Bull Terrier dog portrait"
 ---
+
 
 Naming a Bull Terrier is your first chance to match a name to a personality — and Bull Terriers have a distinct one: **Playful, Charming, Mischievous**.
 The best Bull Terrier names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Bull Terrier's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/31086486/pexels-photo-31086486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31086486/pexels-photo-31086486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a beagle dog showing its expressive eyes and features."
+imageAlt: "A detailed close-up portrait of a beagle dog showing its expressive eyes and features."
+imageSource: "pexels"
+imageCredit: "Photo by A D R I A N A on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-beagle-dog-face-31086486/"
+imageSearchQuery: "Beagle dog portrait"
 ---
+
 
 Naming a Beagle is your first chance to match a name to a personality — and Beagles have a distinct one: **Friendly, Curious, Merry**.
 The best Beagle names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Beagle's breed profile to give you the most matched options.

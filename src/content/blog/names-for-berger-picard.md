@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/8498507/pexels-photo-8498507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498507/pexels-photo-8498507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming portrait of a fluffy dog sitting indoors on a sunny day."
+imageAlt: "Charming portrait of a fluffy dog sitting indoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-long-coated-dog-8498507/"
+imageSearchQuery: "Berger Picard dog portrait"
 ---
+
 
 Naming a Berger Picard is your first chance to match a name to a personality — and Berger Picards have a distinct one: **Loyal, Good-Natured, Observant**.
 The best Berger Picard names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Berger Picard's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/8368960/pexels-photo-8368960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8368960/pexels-photo-8368960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of a Bullmastiff dog with a red bandana, showcasing its expressive eyes and strong build outdoors."
+imageAlt: "A detailed close-up of a Bullmastiff dog with a red bandana, showcasing its expressive eyes and strong build outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Saeed Khokhar on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-on-leash-8368960/"
+imageSearchQuery: "Bullmastiff dog portrait"
 ---
+
 
 Naming a Bullmastiff is your first chance to match a name to a personality — and Bullmastiffs have a distinct one: **Affectionate, Loyal, Brave**.
 The best Bullmastiff names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Bullmastiff's breed profile to give you the most matched options.

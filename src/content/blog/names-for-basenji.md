@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/29373072/pexels-photo-29373072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29373072/pexels-photo-29373072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A captivating portrait of a Basenji dog, showcasing its unique features and collar in an outdoor environment."
+imageAlt: "A captivating portrait of a Basenji dog, showcasing its unique features and collar in an outdoor environment."
+imageSource: "pexels"
+imageCredit: "Photo by Sudhir Sangwan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-basenji-dog-in-natural-setting-29373072/"
+imageSearchQuery: "Basenji dog portrait"
 ---
+
 
 Naming a Basenji is your first chance to match a name to a personality — and Basenjis have a distinct one: **Independent, Smart, Poised**.
 The best Basenji names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Basenji's breed profile to give you the most matched options.

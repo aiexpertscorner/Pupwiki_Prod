@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/7210280/pexels-photo-7210280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7210280/pexels-photo-7210280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Closeup of adorable small purebred dog with brown coat and eyes looking away in daylight on blurred background"
+imageAlt: "Closeup of adorable small purebred dog with brown coat and eyes looking away in daylight on blurred background"
+imageSource: "pexels"
+imageCredit: "Photo by Blue Bird on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/norwich-terrier-with-fluffy-fur-in-daytime-7210280/"
+imageSearchQuery: "Cairn Terrier dog portrait"
 ---
+
 
 Naming a Cairn Terrier is your first chance to match a name to a personality — and Cairn Terriers have a distinct one: **Alert, Cheerful, Busy**.
 The best Cairn Terrier names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Cairn Terrier's breed profile to give you the most matched options.

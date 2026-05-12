@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/29250881/pexels-photo-29250881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29250881/pexels-photo-29250881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Doberman dog standing inside a wooden cabin."
+imageAlt: "Close-up portrait of a Doberman dog standing inside a wooden cabin."
+imageSource: "pexels"
+imageCredit: "Photo by jordan besson on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-doberman-dog-posing-indoors-29250881/"
+imageSearchQuery: "Beauceron dog portrait"
 ---
+
 
 Naming a Beauceron is your first chance to match a name to a personality — and Beaucerons have a distinct one: **Gentle, Faithful, Obedient**.
 The best Beauceron names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Beauceron's breed profile to give you the most matched options.

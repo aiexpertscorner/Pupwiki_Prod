@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/36936594/pexels-photo-36936594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36936594/pexels-photo-36936594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Xoloitzcuintli dog with striking lighting against a black background."
+imageAlt: "Close-up portrait of a Xoloitzcuintli dog with striking lighting against a black background."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dramatic-portrait-of-a-hairless-dog-in-dark-36936594/"
+imageSearchQuery: "American Hairless Terrier dog portrait"
 ---
+
 
 Naming a American Hairless Terrier is your first chance to match a name to a personality — and American Hairless Terriers have a distinct one: **Energetic, Alert, Curious**.
 The best American Hairless Terrier names lean toward names that match their unique character. We filtered our database of 7,000+ names through the American Hairless Terrier's breed profile to give you the most matched options.

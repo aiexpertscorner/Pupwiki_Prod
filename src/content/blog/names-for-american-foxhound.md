@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors."
+imageAlt: "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors."
+imageSource: "pexels"
+imageCredit: "Photo by Pexels User on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-beagle-dog-sitting-outside-16902552/"
+imageSearchQuery: "American Foxhound dog portrait"
 ---
+
 
 Naming a American Foxhound is your first chance to match a name to a personality — and American Foxhounds have a distinct one: **Independent, Easy-Going, Sweet-Tempered**.
 The best American Foxhound names lean toward names that match their unique character. We filtered our database of 7,000+ names through the American Foxhound's breed profile to give you the most matched options.

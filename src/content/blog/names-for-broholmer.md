@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/31501540/pexels-photo-31501540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31501540/pexels-photo-31501540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a mixed breed dog lying on grass, showcasing its calm demeanor."
+imageAlt: "Close-up portrait of a mixed breed dog lying on grass, showcasing its calm demeanor."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-mixed-breed-dog-relaxing-on-grass-31501540/"
+imageSearchQuery: "Broholmer dog portrait"
 ---
+
 
 Naming a Broholmer is your first chance to match a name to a personality — and Broholmers have a distinct one: **Friendly, Watchful, Loving**.
 The best Broholmer names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Broholmer's breed profile to give you the most matched options.

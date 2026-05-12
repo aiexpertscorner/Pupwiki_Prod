@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute American Eskimo dog lying on vibrant green grass, looking playfully at the camera."
+imageAlt: "Cute American Eskimo dog lying on vibrant green grass, looking playfully at the camera."
+imageSource: "pexels"
+imageCredit: "Photo by Mohan Nannapaneni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-white-american-eskimo-dog-on-green-grass-7237824/"
+imageSearchQuery: "American Eskimo Dog dog portrait"
 ---
+
 
 Naming a American Eskimo Dog is your first chance to match a name to a personality — and American Eskimo Dogs have a distinct one: **Playful, Perky, Smart**.
 The best American Eskimo Dog names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the American Eskimo Dog's breed profile to give you the most matched options.

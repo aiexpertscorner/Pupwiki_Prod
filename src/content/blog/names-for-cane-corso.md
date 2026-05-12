@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a black Boxer dog in natural light with a soft background."
+imageAlt: "Portrait of a black Boxer dog in natural light with a soft background."
+imageSource: "pexels"
+imageCredit: "Photo by Karl  Byron on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/"
+imageSearchQuery: "Cane Corso dog portrait"
 ---
+
 
 Naming a Cane Corso is your first chance to match a name to a personality — and Cane Corsos have a distinct one: **Affectionate, Intelligent, Majestic**.
 The best Cane Corso names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Cane Corso's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/8198647/pexels-photo-8198647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8198647/pexels-photo-8198647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Crop anonymous owner with cute Welsh Corgi dog in arms standing near blooming apple tree branches in garden against blurred background"
+imageAlt: "Crop anonymous owner with cute Welsh Corgi dog in arms standing near blooming apple tree branches in garden against blurred background"
+imageSource: "pexels"
+imageCredit: "Photo by Valeria Boltneva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/unrecognizable-owner-with-corgi-near-blooming-branches-8198647/"
+imageSearchQuery: "Cardigan Welsh Corgi dog portrait"
 ---
+
 
 Naming a Cardigan Welsh Corgi is your first chance to match a name to a personality — and Cardigan Welsh Corgis have a distinct one: **Affectionate, Loyal, Smart**.
 The best Cardigan Welsh Corgi names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Cardigan Welsh Corgi's breed profile to give you the most matched options.

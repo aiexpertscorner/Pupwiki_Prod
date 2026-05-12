@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and white portrait of an American Bulldog with tongue out, showing playful nature."
+imageAlt: "A black and white portrait of an American Bulldog with tongue out, showing playful nature."
+imageSource: "pexels"
+imageCredit: "Photo by Mohssine Oudraoua on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-12768126/"
+imageSearchQuery: "Boerboel dog portrait"
 ---
+
 
 Naming a Boerboel is your first chance to match a name to a personality — and Boerboels have a distinct one: **Confident, Intelligent, Calm**.
 The best Boerboel names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Boerboel's breed profile to give you the most matched options.

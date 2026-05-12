@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/31501540/pexels-photo-31501540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31501540/pexels-photo-31501540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a mixed breed dog lying on grass, showcasing its calm demeanor."
+imageAlt: "Close-up portrait of a mixed breed dog lying on grass, showcasing its calm demeanor."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-mixed-breed-dog-relaxing-on-grass-31501540/"
+imageSearchQuery: "Canaan Dog dog portrait"
 ---
+
 
 Naming a Canaan Dog is your first chance to match a name to a personality — and Canaan Dogs have a distinct one: **Confident, Alert, Vigilant**.
 The best Canaan Dog names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Canaan Dog's breed profile to give you the most matched options.

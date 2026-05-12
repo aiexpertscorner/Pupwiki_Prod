@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white portrait of a fluffy dog in a relaxed pose outdoors."
+imageAlt: "Black and white portrait of a fluffy dog in a relaxed pose outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Silvia Chepkoech. on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-with-bandana-28192024/"
+imageSearchQuery: "Black Russian Terrier dog portrait"
 ---
+
 
 Naming a Black Russian Terrier is your first chance to match a name to a personality — and Black Russian Terriers have a distinct one: **Intelligent, Calm, Powerful**.
 The best Black Russian Terrier names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Black Russian Terrier's breed profile to give you the most matched options.

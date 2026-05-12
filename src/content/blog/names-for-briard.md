@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/30815432/pexels-photo-30815432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30815432/pexels-photo-30815432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Briard dog with windswept fur captured outdoors on a sunny day in Sittard."
+imageAlt: "Close-up of a Briard dog with windswept fur captured outdoors on a sunny day in Sittard."
+imageSource: "pexels"
+imageCredit: "Photo by Lorna Pauli on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-briard-dog-with-windswept-fur-in-sittard-30815432/"
+imageSearchQuery: "Briard dog portrait"
 ---
+
 
 Naming a Briard is your first chance to match a name to a personality — and Briards have a distinct one: **Confident, Smart, Faithful**.
 The best Briard names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Briard's breed profile to give you the most matched options.

@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-11T23:54:59.100Z",
+  "syncedAt": "2026-05-12T00:27:02.929Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -8320,12 +8320,612 @@
       "photographerUrl": "https://www.pexels.com/@cottonbro",
       "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
       "id": 6568950
+    },
+    "best-food-for-cockapoo:Cockapoo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog sniffs pistachios on a white plate in an overhead, natural setting.",
+      "photographer": "Vie Studio",
+      "photographerUrl": "https://www.pexels.com/@vie-studio",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-smelling-the-pistachios-7421520/",
+      "id": 7421520
+    },
+    "best-food-for-goldendoodle:Goldendoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/13332364/pexels-photo-13332364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute Goldendoodle dog standing indoors, showcasing its curly brown fur.",
+      "photographer": "Lesli  Whitecotton",
+      "photographerUrl": "https://www.pexels.com/@lesli-whitecotton-237271934",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-dog-in-close-up-shot-13332364/",
+      "id": 13332364
+    },
+    "best-food-for-labradoodle:Labradoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/27035105/pexels-photo-27035105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Two shaggy labradoodle dogs wearing collars and leashes outdoors, side by side.",
+      "photographer": "Chris F",
+      "photographerUrl": "https://www.pexels.com/@chris-f-38966",
+      "pexelsUrl": "https://www.pexels.com/photo/two-labradoodles-on-leashes-27035105/",
+      "id": 27035105
+    },
+    "best-food-for-maltipoo:Maltipoo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/33151953/pexels-photo-33151953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Happy poodle dog laying on grass with a toy and tongue out, enjoying sunny day.",
+      "photographer": "Jay Brand",
+      "photographerUrl": "https://www.pexels.com/@jay-brand-1763356224",
+      "pexelsUrl": "https://www.pexels.com/photo/playful-poodle-relaxing-on-grass-outdoors-33151953/",
+      "id": 33151953
+    },
+    "best-food-for-morkie:Morkie dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog sniffs pistachios on a white plate in an overhead, natural setting.",
+      "photographer": "Vie Studio",
+      "photographerUrl": "https://www.pexels.com/@vie-studio",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-smelling-the-pistachios-7421520/",
+      "id": 7421520
+    },
+    "best-food-for-pomsky:Pomsky dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/36624164/pexels-photo-36624164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Pomsky dog enjoying a spring sunset among blooming daffodils. Perfect for springtime themes.",
+      "photographer": "Patricia  Bartosz",
+      "photographerUrl": "https://www.pexels.com/@patricia-bartosz-2160056937",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-pomsky-in-a-field-of-daffodils-at-sunset-36624164/",
+      "id": 36624164
+    },
+    "best-food-for-puggle:Puggle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog sniffs pistachios on a white plate in an overhead, natural setting.",
+      "photographer": "Vie Studio",
+      "photographerUrl": "https://www.pexels.com/@vie-studio",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-smelling-the-pistachios-7421520/",
+      "id": 7421520
+    },
+    "best-food-for-schnoodle:Schnoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/8434633/pexels-photo-8434633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A stainless steel dog bowl filled with dry dog treats on a wooden floor.",
+      "photographer": "MART  PRODUCTION",
+      "photographerUrl": "https://www.pexels.com/@mart-production",
+      "pexelsUrl": "https://www.pexels.com/photo/bowl-of-dog-food-8434633/",
+      "id": 8434633
+    },
+    "best-food-for-sheepadoodle:Sheepadoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-whoodle:Whoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog",
+      "photographer": "Andres  Ayrton",
+      "photographerUrl": "https://www.pexels.com/@andres-ayrton",
+      "pexelsUrl": "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/",
+      "id": 6578830
+    },
+    "best-food-for-yorkipoo:Yorkipoo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog",
+      "photographer": "Andres  Ayrton",
+      "photographerUrl": "https://www.pexels.com/@andres-ayrton",
+      "pexelsUrl": "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/",
+      "id": 6578830
+    },
+    "names-for-american-english-coonhound:American English Coonhound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "names-for-american-eskimo-dog:American Eskimo Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute American Eskimo dog lying on vibrant green grass, looking playfully at the camera.",
+      "photographer": "Mohan Nannapaneni",
+      "photographerUrl": "https://www.pexels.com/@mnannapaneni",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-a-white-american-eskimo-dog-on-green-grass-7237824/",
+      "id": 7237824
+    },
+    "names-for-american-foxhound:American Foxhound dog portrait": {
+      "url": "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors.",
+      "photographer": "Pexels User",
+      "photographerUrl": "https://www.pexels.com/@pexels-user-571463640",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-beagle-dog-sitting-outside-16902552/",
+      "id": 16902552
+    },
+    "names-for-american-hairless-terrier:American Hairless Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/36936594/pexels-photo-36936594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Xoloitzcuintli dog with striking lighting against a black background.",
+      "photographer": "Lorenzo Manera",
+      "photographerUrl": "https://www.pexels.com/@lorenzo-manera-686693293",
+      "pexelsUrl": "https://www.pexels.com/photo/dramatic-portrait-of-a-hairless-dog-in-dark-36936594/",
+      "id": 36936594
+    },
+    "names-for-american-leopard-hound:American Leopard Hound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "names-for-american-staffordshire-terrier:American Staffordshire Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/18871228/pexels-photo-18871228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up black and white portrait of a pit bull dog, showcasing its attentive and curious expression.",
+      "photographer": "Altaf Shah",
+      "photographerUrl": "https://www.pexels.com/@altaf-shah-3143825",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-18871228/",
+      "id": 18871228
+    },
+    "names-for-american-water-spaniel:American Water Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "names-for-anatolian-shepherd-dog:Anatolian Shepherd Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/10832671/pexels-photo-10832671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A serene side profile portrait of an Anatolian Shepherd Dog outdoors in a natural setting.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/an-anatolian-shepherd-dog-in-close-up-photography-10832671/",
+      "id": 10832671
+    },
+    "names-for-appenzeller-sennenhund:Appenzeller Sennenhund dog portrait": {
+      "url": "https://images.pexels.com/photos/11181903/pexels-photo-11181903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Entlebucher Mountain Dog joyfully playing with a toy in the snowy outdoors.",
+      "photographer": "Valeria Boltneva",
+      "photographerUrl": "https://www.pexels.com/@valeriya",
+      "pexelsUrl": "https://www.pexels.com/photo/an-entlebucher-mountain-dog-playing-during-winter-11181903/",
+      "id": 11181903
+    },
+    "names-for-australian-cattle-dog:Australian Cattle Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/35511900/pexels-photo-35511900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Focused portrait of an alert Australian Cattle Dog with its ears perked up.",
+      "photographer": "Helena Lopes",
+      "photographerUrl": "https://www.pexels.com/@helenalopes",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-an-alert-australian-cattle-dog-35511900/",
+      "id": 35511900
+    },
+    "names-for-australian-kelpie:Australian Kelpie dog portrait": {
+      "url": "https://images.pexels.com/photos/13584270/pexels-photo-13584270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed portrait of an Australian Kelpie dog surrounded by lush green foliage.",
+      "photographer": "Magda Ehlers",
+      "photographerUrl": "https://www.pexels.com/@magda-ehlers-pexels",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-a-dog-13584270/",
+      "id": 13584270
+    },
+    "names-for-australian-shepherd:Australian Shepherd dog portrait": {
+      "url": "https://images.pexels.com/photos/37320728/pexels-photo-37320728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a tricolor Australian Shepherd dog with expressive eyes against a dark background.",
+      "photographer": "Thierry Cuzin",
+      "photographerUrl": "https://www.pexels.com/@thierry-cuzin-2158246934",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-an-australian-shepherd-dog-with-tricolor-fur-37320728/",
+      "id": 37320728
+    },
+    "names-for-australian-stumpy-tail-cattle-dog:Australian Stumpy Tail Cattle Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/35511900/pexels-photo-35511900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Focused portrait of an alert Australian Cattle Dog with its ears perked up.",
+      "photographer": "Helena Lopes",
+      "photographerUrl": "https://www.pexels.com/@helenalopes",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-an-alert-australian-cattle-dog-35511900/",
+      "id": 35511900
+    },
+    "names-for-australian-terrier:Australian Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/7210280/pexels-photo-7210280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Closeup of adorable small purebred dog with brown coat and eyes looking away in daylight on blurred background",
+      "photographer": "Blue Bird",
+      "photographerUrl": "https://www.pexels.com/@blue-bird",
+      "pexelsUrl": "https://www.pexels.com/photo/norwich-terrier-with-fluffy-fur-in-daytime-7210280/",
+      "id": 7210280
+    },
+    "names-for-azawakh:Azawakh dog portrait": {
+      "url": "https://images.pexels.com/photos/37293674/pexels-photo-37293674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a light brown dog with focused expression, standing on a gray background.",
+      "photographer": "Александр Лич",
+      "photographerUrl": "https://www.pexels.com/@lich",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-light-brown-dog-outdoors-37293674/",
+      "id": 37293674
+    },
+    "names-for-barbet:Barbet dog portrait": {
+      "url": "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up black and white portrait of a curly-haired white dog.",
+      "photographer": "Anna",
+      "photographerUrl": "https://www.pexels.com/@anna-2037514238",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-fluffy-dog-31845857/",
+      "id": 31845857
+    },
+    "names-for-basenji:Basenji dog portrait": {
+      "url": "https://images.pexels.com/photos/29373072/pexels-photo-29373072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A captivating portrait of a Basenji dog, showcasing its unique features and collar in an outdoor environment.",
+      "photographer": "Sudhir Sangwan",
+      "photographerUrl": "https://www.pexels.com/@sudhirsangwan",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-basenji-dog-in-natural-setting-29373072/",
+      "id": 29373072
+    },
+    "names-for-basset-fauve-de-bretagne:Basset Fauve de Bretagne dog portrait": {
+      "url": "https://images.pexels.com/photos/17157888/pexels-photo-17157888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming portrait of a dog with blue harness standing in a lush meadow.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-with-blue-collar-standing-on-meadow-17157888/",
+      "id": 17157888
+    },
+    "names-for-basset-hound:Basset Hound dog portrait": {
+      "url": "https://images.pexels.com/photos/33979390/pexels-photo-33979390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming basset hound dog with long ears lounging in a sunny garden in Serbia.",
+      "photographer": "Andrea Sretenović",
+      "photographerUrl": "https://www.pexels.com/@andrea-sretenovic-2155974181",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-basset-hound-dog-in-summer-garden-33979390/",
+      "id": 33979390
+    },
+    "names-for-bavarian-mountain-scent-hound:Bavarian Mountain Scent Hound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "names-for-beagle:Beagle dog portrait": {
+      "url": "https://images.pexels.com/photos/31086486/pexels-photo-31086486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up portrait of a beagle dog showing its expressive eyes and features.",
+      "photographer": "A D R I A N A",
+      "photographerUrl": "https://www.pexels.com/@a-d-r-i-a-n-a-1170076",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-beagle-dog-face-31086486/",
+      "id": 31086486
+    },
+    "names-for-bearded-collie:Bearded Collie dog portrait": {
+      "url": "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression.",
+      "photographer": "Tomasz Lemańczyk",
+      "photographerUrl": "https://www.pexels.com/@tomasz-lemanczyk-1422486221",
+      "pexelsUrl": "https://www.pexels.com/photo/beautiful-fluffy-collie-26588116/",
+      "id": 26588116
+    },
+    "names-for-beauceron:Beauceron dog portrait": {
+      "url": "https://images.pexels.com/photos/29250881/pexels-photo-29250881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Doberman dog standing inside a wooden cabin.",
+      "photographer": "jordan besson",
+      "photographerUrl": "https://www.pexels.com/@jordan-besson-2051439001",
+      "pexelsUrl": "https://www.pexels.com/photo/black-doberman-dog-posing-indoors-29250881/",
+      "id": 29250881
+    },
+    "names-for-bedlington-terrier:Bedlington Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/7765407/pexels-photo-7765407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Bedlington Terrier dog sits indoors with a leather collar, exuding charm and warmth.",
+      "photographer": "Jean-Paul  Wright",
+      "photographerUrl": "https://www.pexels.com/@jean-paul-wright-39375669",
+      "pexelsUrl": "https://www.pexels.com/photo/a-furry-dog-with-a-collar-7765407/",
+      "id": 7765407
+    },
+    "names-for-belgian-laekenois:Belgian Laekenois dog portrait": {
+      "url": "https://images.pexels.com/photos/13076152/pexels-photo-13076152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Belgian Malinois dog standing in a scenic, natural outdoor setting with grass and sky.",
+      "photographer": "Laura Paredis",
+      "photographerUrl": "https://www.pexels.com/@laura-paredis-1047081",
+      "pexelsUrl": "https://www.pexels.com/photo/malinois-dog-standing-on-brown-field-under-blue-sky-13076152/",
+      "id": 13076152
+    },
+    "names-for-belgian-malinois:Belgian Malinois dog portrait": {
+      "url": "https://images.pexels.com/photos/13076152/pexels-photo-13076152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Belgian Malinois dog standing in a scenic, natural outdoor setting with grass and sky.",
+      "photographer": "Laura Paredis",
+      "photographerUrl": "https://www.pexels.com/@laura-paredis-1047081",
+      "pexelsUrl": "https://www.pexels.com/photo/malinois-dog-standing-on-brown-field-under-blue-sky-13076152/",
+      "id": 13076152
+    },
+    "names-for-belgian-sheepdog:Belgian Sheepdog dog portrait": {
+      "url": "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-shetland-sheepdog-outdoors-29955884/",
+      "id": 29955884
+    },
+    "names-for-belgian-tervuren:Belgian Tervuren dog portrait": {
+      "url": "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Belgian Tervuren dog standing in a grassy field, tongue out.",
+      "photographer": "Viktorija Stankevičiūtė",
+      "photographerUrl": "https://www.pexels.com/@stankevic",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-on-grass-field-12685132/",
+      "id": 12685132
+    },
+    "names-for-bergamasco-sheepdog:Bergamasco Sheepdog dog portrait": {
+      "url": "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-yellow-background-16622613/",
+      "id": 16622613
+    },
+    "names-for-berger-picard:Berger Picard dog portrait": {
+      "url": "https://images.pexels.com/photos/8498507/pexels-photo-8498507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming portrait of a fluffy dog sitting indoors on a sunny day.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/white-long-coated-dog-8498507/",
+      "id": 8498507
+    },
+    "names-for-bernese-mountain-dog:Bernese Mountain Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression.",
+      "photographer": "Téméraire Marketing Luxembourg",
+      "photographerUrl": "https://www.pexels.com/@temeraire-marketing-luxembourg-532626080",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/",
+      "id": 36237036
+    },
+    "names-for-bichon-frise:Bichon Frise dog portrait": {
+      "url": "https://images.pexels.com/photos/14811406/pexels-photo-14811406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Bichon Frise dog standing on a log outdoors, showcasing its fluffy white coat.",
+      "photographer": "David Brown",
+      "photographerUrl": "https://www.pexels.com/@ninobur",
+      "pexelsUrl": "https://www.pexels.com/photo/bichon-frise-dog-sitting-on-brown-rock-14811406/",
+      "id": 14811406
+    },
+    "names-for-biewer-terrier:Biewer Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/35071356/pexels-photo-35071356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Yorkshire Terrier dog relaxing on outdoor mossy paving. Perfect pet portrait.",
+      "photographer": "Erwin Bosman",
+      "photographerUrl": "https://www.pexels.com/@erwin-bosman-118283",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-yorkshire-terrier-on-mossy-pavement-35071356/",
+      "id": 35071356
+    },
+    "names-for-black-and-tan-coonhound:Black and Tan Coonhound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "names-for-black-russian-terrier:Black Russian Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Black and white portrait of a fluffy dog in a relaxed pose outdoors.",
+      "photographer": "Silvia Chepkoech.",
+      "photographerUrl": "https://www.pexels.com/@silvia-chepkoech-1346695422",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-with-bandana-28192024/",
+      "id": 28192024
+    },
+    "names-for-bloodhound:Bloodhound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "names-for-bluetick-coonhound:Bluetick Coonhound dog portrait": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "names-for-boerboel:Boerboel dog portrait": {
+      "url": "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black and white portrait of an American Bulldog with tongue out, showing playful nature.",
+      "photographer": "Mohssine Oudraoua",
+      "photographerUrl": "https://www.pexels.com/@mohssineoudraoua",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-12768126/",
+      "id": 12768126
+    },
+    "names-for-bohemian-shepherd:Bohemian Shepherd dog portrait": {
+      "url": "https://images.pexels.com/photos/33260770/pexels-photo-33260770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Shiloh Shepherd dog with a soft, blurred background, highlighting its striking features.",
+      "photographer": "Lia Overman",
+      "photographerUrl": "https://www.pexels.com/@lia-overman-62946696",
+      "pexelsUrl": "https://www.pexels.com/photo/shiloh-shepherd-portrait-in-natural-light-33260770/",
+      "id": 33260770
+    },
+    "names-for-bolognese:Bolognese dog portrait": {
+      "url": "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up black and white portrait of a curly-haired white dog.",
+      "photographer": "Anna",
+      "photographerUrl": "https://www.pexels.com/@anna-2037514238",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-fluffy-dog-31845857/",
+      "id": 31845857
+    },
+    "names-for-border-collie:Border Collie dog portrait": {
+      "url": "https://images.pexels.com/photos/32635782/pexels-photo-32635782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a black and white Border Collie dog with a thoughtful expression against a dark background.",
+      "photographer": "Mykhailo Petrenko",
+      "photographerUrl": "https://www.pexels.com/@mykhailo-petrenko-2152927294",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-and-white-border-collie-dog-32635782/",
+      "id": 32635782
+    },
+    "names-for-border-terrier:Border Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/31659157/pexels-photo-31659157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable terrier dog portrait with a dark background and gentle expression.",
+      "photographer": "Bastian Riccardi",
+      "photographerUrl": "https://www.pexels.com/@shutter-speed",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-cute-terrier-dog-31659157/",
+      "id": 31659157
+    },
+    "names-for-borzoi:Borzoi dog portrait": {
+      "url": "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/",
+      "id": 34242930
+    },
+    "names-for-boston-terrier:Boston Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/28531947/pexels-photo-28531947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Boston Terrier dog chewing on a bone with a black background. Perfect for pet lovers.",
+      "photographer": "Sean Brannon",
+      "photographerUrl": "https://www.pexels.com/@sean-brannon-762373037",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-boston-terrier-chewing-on-a-bone-28531947/",
+      "id": 28531947
+    },
+    "names-for-bouvier-des-flandres:Bouvier des Flandres dog portrait": {
+      "url": "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Black and white portrait of a fluffy dog in a relaxed pose outdoors.",
+      "photographer": "Silvia Chepkoech.",
+      "photographerUrl": "https://www.pexels.com/@silvia-chepkoech-1346695422",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-with-bandana-28192024/",
+      "id": 28192024
+    },
+    "names-for-boxer:Boxer dog portrait": {
+      "url": "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a black Boxer dog in natural light with a soft background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/",
+      "id": 30948591
+    },
+    "names-for-boykin-spaniel:Boykin Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "names-for-bracco-italiano:Bracco Italiano dog portrait": {
+      "url": "https://images.pexels.com/photos/28637381/pexels-photo-28637381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of an Italian Spinone dog in a serene field at dusk, capturing calmness and nature.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/italian-spinone-dog-in-a-tranquil-field-setting-28637381/",
+      "id": 28637381
+    },
+    "names-for-braque-du-bourbonnais:Braque du Bourbonnais dog portrait": {
+      "url": "https://images.pexels.com/photos/37297117/pexels-photo-37297117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a brown and white dog with alert eyes indoors.",
+      "photographer": "Harshit Mehta",
+      "photographerUrl": "https://www.pexels.com/@harshit-mehta-2161164138",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-portrait-of-a-brown-and-white-dog-indoors-37297117/",
+      "id": 37297117
+    },
+    "names-for-braque-francais-pyrenean:Braque Francais Pyrenean dog portrait": {
+      "url": "https://images.pexels.com/photos/3714060/pexels-photo-3714060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a joyful German Shorthaired Pointer dog with mouth open, set in an outdoor grassy area.",
+      "photographer": "Helena Lopes",
+      "photographerUrl": "https://www.pexels.com/@helenalopes",
+      "pexelsUrl": "https://www.pexels.com/photo/shallow-focus-photo-of-dog-3714060/",
+      "id": 3714060
+    },
+    "names-for-briard:Briard dog portrait": {
+      "url": "https://images.pexels.com/photos/30815432/pexels-photo-30815432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of a Briard dog with windswept fur captured outdoors on a sunny day in Sittard.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-briard-dog-with-windswept-fur-in-sittard-30815432/",
+      "id": 30815432
+    },
+    "names-for-brittany:Brittany dog portrait": {
+      "url": "https://images.pexels.com/photos/7068893/pexels-photo-7068893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Side profile of a Brittany Spaniel dog in a green park, featuring a soft focus background.",
+      "photographer": "Ilo Frey",
+      "photographerUrl": "https://www.pexels.com/@couleur",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-white-and-brown-dog-7068893/",
+      "id": 7068893
+    },
+    "names-for-broholmer:Broholmer dog portrait": {
+      "url": "https://images.pexels.com/photos/31501540/pexels-photo-31501540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a mixed breed dog lying on grass, showcasing its calm demeanor.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-mixed-breed-dog-relaxing-on-grass-31501540/",
+      "id": 31501540
+    },
+    "names-for-brussels-griffon:Brussels Griffon dog portrait": {
+      "url": "https://images.pexels.com/photos/374908/pexels-photo-374908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Detailed low light portrait of a pug dog with a thoughtful expression, highlighting its distinctive features.",
+      "photographer": "Burst",
+      "photographerUrl": "https://www.pexels.com/@burst",
+      "pexelsUrl": "https://www.pexels.com/photo/low-light-photo-of-pug-374908/",
+      "id": 374908
+    },
+    "names-for-bull-terrier:Bull Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/17037649/pexels-photo-17037649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Bull Terrier dog with tongue out against a black background.",
+      "photographer": "Kenny Fotos CR",
+      "photographerUrl": "https://www.pexels.com/@kennyfotoscr",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dog-head-17037649/",
+      "id": 17037649
+    },
+    "names-for-bulldog:Bulldog dog portrait": {
+      "url": "https://images.pexels.com/photos/36980025/pexels-photo-36980025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable French Bulldog panting outdoors. Perfect for pet lovers and animal enthusiasts.",
+      "photographer": "Sóc Năng Động",
+      "photographerUrl": "https://www.pexels.com/@soc-nang-d-ng-2150345854",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-french-bulldog-outdoors-36980025/",
+      "id": 36980025
+    },
+    "names-for-bullmastiff:Bullmastiff dog portrait": {
+      "url": "https://images.pexels.com/photos/8368960/pexels-photo-8368960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of a Bullmastiff dog with a red bandana, showcasing its expressive eyes and strong build outdoors.",
+      "photographer": "Saeed Khokhar",
+      "photographerUrl": "https://www.pexels.com/@vip-foto",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-a-dog-on-leash-8368960/",
+      "id": 8368960
+    },
+    "names-for-cairn-terrier:Cairn Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/7210280/pexels-photo-7210280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Closeup of adorable small purebred dog with brown coat and eyes looking away in daylight on blurred background",
+      "photographer": "Blue Bird",
+      "photographerUrl": "https://www.pexels.com/@blue-bird",
+      "pexelsUrl": "https://www.pexels.com/photo/norwich-terrier-with-fluffy-fur-in-daytime-7210280/",
+      "id": 7210280
+    },
+    "names-for-canaan-dog:Canaan Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/31501540/pexels-photo-31501540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a mixed breed dog lying on grass, showcasing its calm demeanor.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-mixed-breed-dog-relaxing-on-grass-31501540/",
+      "id": 31501540
+    },
+    "names-for-cane-corso:Cane Corso dog portrait": {
+      "url": "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a black Boxer dog in natural light with a soft background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/",
+      "id": 30948591
+    },
+    "names-for-cardigan-welsh-corgi:Cardigan Welsh Corgi dog portrait": {
+      "url": "https://images.pexels.com/photos/8198647/pexels-photo-8198647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Crop anonymous owner with cute Welsh Corgi dog in arms standing near blooming apple tree branches in garden against blurred background",
+      "photographer": "Valeria Boltneva",
+      "photographerUrl": "https://www.pexels.com/@valeriya",
+      "pexelsUrl": "https://www.pexels.com/photo/unrecognizable-owner-with-corgi-near-blooming-branches-8198647/",
+      "id": 8198647
+    },
+    "names-for-carolina-dog:Carolina Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/37293674/pexels-photo-37293674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a light brown dog with focused expression, standing on a gray background.",
+      "photographer": "Александр Лич",
+      "photographerUrl": "https://www.pexels.com/@lich",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-light-brown-dog-outdoors-37293674/",
+      "id": 37293674
+    },
+    "names-for-catahoula-leopard-dog:Catahoula Leopard Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/37297117/pexels-photo-37297117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a brown and white dog with alert eyes indoors.",
+      "photographer": "Harshit Mehta",
+      "photographerUrl": "https://www.pexels.com/@harshit-mehta-2161164138",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-portrait-of-a-brown-and-white-dog-indoors-37297117/",
+      "id": 37297117
+    },
+    "names-for-caucasian-shepherd-dog:Caucasian Shepherd Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/20522599/pexels-photo-20522599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of an adult German Shepherd dog outdoors, showcasing its fluffy coat and alert expression.",
+      "photographer": "JacLou DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl-214226",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-german-shepherd-puppy-20522599/",
+      "id": 20522599
     }
   },
   "stats": {
     "scanned": 80,
     "changed": 80,
-    "skipped": 68,
+    "skipped": 227,
     "failed": 0,
     "force": false,
     "dry": false

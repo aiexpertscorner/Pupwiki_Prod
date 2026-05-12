@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/37320728/pexels-photo-37320728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37320728/pexels-photo-37320728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a tricolor Australian Shepherd dog with expressive eyes against a dark background."
+imageAlt: "Close-up portrait of a tricolor Australian Shepherd dog with expressive eyes against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Thierry Cuzin on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-an-australian-shepherd-dog-with-tricolor-fur-37320728/"
+imageSearchQuery: "Australian Shepherd dog portrait"
 ---
+
 
 Naming a Australian Shepherd is your first chance to match a name to a personality — and Australian Shepherds have a distinct one: **Smart, Work-Oriented, Exuberant**.
 The best Australian Shepherd names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Australian Shepherd's breed profile to give you the most matched options.

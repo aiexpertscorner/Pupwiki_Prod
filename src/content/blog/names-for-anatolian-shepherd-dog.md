@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/10832671/pexels-photo-10832671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10832671/pexels-photo-10832671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene side profile portrait of an Anatolian Shepherd Dog outdoors in a natural setting."
+imageAlt: "A serene side profile portrait of an Anatolian Shepherd Dog outdoors in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/an-anatolian-shepherd-dog-in-close-up-photography-10832671/"
+imageSearchQuery: "Anatolian Shepherd Dog dog portrait"
 ---
+
 
 Naming a Anatolian Shepherd Dog is your first chance to match a name to a personality — and Anatolian Shepherd Dogs have a distinct one: **Loyal, Independent, Reserved**.
 The best Anatolian Shepherd Dog names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Anatolian Shepherd Dog's breed profile to give you the most matched options.

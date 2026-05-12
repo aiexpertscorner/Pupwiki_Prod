@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/28531947/pexels-photo-28531947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28531947/pexels-photo-28531947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Boston Terrier dog chewing on a bone with a black background. Perfect for pet lovers."
+imageAlt: "Cute Boston Terrier dog chewing on a bone with a black background. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by Sean Brannon on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-boston-terrier-chewing-on-a-bone-28531947/"
+imageSearchQuery: "Boston Terrier dog portrait"
 ---
+
 
 Naming a Boston Terrier is your first chance to match a name to a personality — and Boston Terriers have a distinct one: **Friendly, Bright, Amusing**.
 The best Boston Terrier names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Boston Terrier's breed profile to give you the most matched options.

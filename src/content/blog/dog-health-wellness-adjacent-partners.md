@@ -25,7 +25,16 @@ medicalDisclaimer: true
 partnerProgramKeys: ["chefpaw", "jugbow", "dog-cloud-us", "mypetdmv-the-original-pet-drivers-license", "raw-wild-llc", "radiofence-com", "brutus-broth", "petmate"]
 partnerAdvertiserIds: ["63546", "79708", "87483", "118951", "89689", "87999", "55927", "89913"]
 canonicalUrl: "https://pupwiki.com/blog/dog-health-wellness-adjacent-partners"
+heroImage: "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner."
+imageAlt: "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner."
+imageSource: "pexels"
+imageCredit: "Photo by Bethany Ferr on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/"
+imageSearchQuery: "dog owner comparing dog care"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links. Brand availability, offers, products and terms can change.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## What this guide helps you decide

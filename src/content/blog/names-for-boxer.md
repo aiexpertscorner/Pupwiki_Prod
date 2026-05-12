@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a black Boxer dog in natural light with a soft background."
+imageAlt: "Portrait of a black Boxer dog in natural light with a soft background."
+imageSource: "pexels"
+imageCredit: "Photo by Karl  Byron on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/"
+imageSearchQuery: "Boxer dog portrait"
 ---
+
 
 Naming a Boxer is your first chance to match a name to a personality — and Boxers have a distinct one: **Bright, Fun-Loving, Active**.
 The best Boxer names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Boxer's breed profile to give you the most matched options.

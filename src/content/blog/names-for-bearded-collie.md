@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression."
+imageAlt: "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression."
+imageSource: "pexels"
+imageCredit: "Photo by Tomasz Lemańczyk on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/beautiful-fluffy-collie-26588116/"
+imageSearchQuery: "Bearded Collie dog portrait"
 ---
+
 
 Naming a Bearded Collie is your first chance to match a name to a personality — and Bearded Collies have a distinct one: **Smart, Bouncy, Charismatic**.
 The best Bearded Collie names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Bearded Collie's breed profile to give you the most matched options.

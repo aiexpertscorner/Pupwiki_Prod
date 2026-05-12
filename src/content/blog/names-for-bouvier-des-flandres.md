@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28192024/pexels-photo-28192024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white portrait of a fluffy dog in a relaxed pose outdoors."
+imageAlt: "Black and white portrait of a fluffy dog in a relaxed pose outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Silvia Chepkoech. on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-with-bandana-28192024/"
+imageSearchQuery: "Bouvier des Flandres dog portrait"
 ---
+
 
 Naming a Bouvier des Flandres is your first chance to match a name to a personality — and Bouvier des Flandress have a distinct one: **Affectionate, Courageous, Strong-Willed**.
 The best Bouvier des Flandres names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Bouvier des Flandres's breed profile to give you the most matched options.
