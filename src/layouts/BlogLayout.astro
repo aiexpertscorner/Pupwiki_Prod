@@ -201,6 +201,13 @@ const breadcrumbLd = {
               </aside>
             )}
 
+            <nav class="article-toc article-toc--mobile not-prose" id="article-toc-mobile" aria-label="On this page" hidden>
+              <details>
+                <summary>On this page</summary>
+                <ol class="article-toc__list"></ol>
+              </details>
+            </nav>
+
             <slot />
 
             <div class="article-tool-cta not-prose">
@@ -232,6 +239,11 @@ const breadcrumbLd = {
 
           <aside class="article-sidebar" aria-label="Article sidebar">
             <div class="article-sidebar__inner">
+              <nav class="article-toc article-toc--desktop article-sidebar-card" id="article-toc-desktop" aria-label="On this page" hidden>
+                <h2>On this page</h2>
+                <ol class="article-toc__list"></ol>
+              </nav>
+
               <section class="article-sidebar-card">
                 <h2>Article guide</h2>
                 <dl>
@@ -242,9 +254,11 @@ const breadcrumbLd = {
                 </dl>
               </section>
 
-              <AwinProductSlot topicTags={partnerTopicTags} pageType="blog" category={categoryKey} breedSize={breedSize} breedEnergy={breedEnergy} headline="Helpful dog resources" variant="compact" />
+              <div class="article-sidebar__affiliate">
+                <AwinProductSlot topicTags={partnerTopicTags} pageType="blog" category={categoryKey} breedSize={breedSize} breedEnergy={breedEnergy} headline="Helpful dog resources" variant="compact" />
 
-              {!isHealthSensitive && <PageBannerSlot pageType="blog" placement="sidebar" topic={categoryKey} topicTags={partnerTopicTags} compact={true} />}
+                {!isHealthSensitive && <PageBannerSlot pageType="blog" placement="sidebar" topic={categoryKey} topicTags={partnerTopicTags} compact={true} />}
+              </div>
 
               <section class="article-sidebar-card">
                 <h2>Explore next</h2>
@@ -275,3 +289,74 @@ const breadcrumbLd = {
     </section>
   </main>
 </BaseLayout>
+
+<script>
+  (() => {
+    const article = document.getElementById('article-content');
+    if (!article) return;
+
+    // ── Table of contents ─────────────────────────────────────────
+    const headings = Array.from(article.querySelectorAll<HTMLElement>('h2, h3'))
+      .filter(h => h.id && h.textContent?.trim());
+
+    if (headings.length >= 3) {
+      const buildList = (container: Element | null) => {
+        if (!container) return;
+        const ol = container.querySelector<HTMLOListElement>('.article-toc__list');
+        if (!ol) return;
+        ol.innerHTML = headings.map(h => {
+          const indent = h.tagName === 'H3' ? ' class="article-toc__sub"' : '';
+          return `<li${indent}><a href="#${h.id}">${h.textContent!.trim()}</a></li>`;
+        }).join('');
+      };
+
+      const mobileToc = document.getElementById('article-toc-mobile');
+      const desktopToc = document.getElementById('article-toc-desktop');
+
+      buildList(mobileToc);
+      buildList(desktopToc);
+
+      if (mobileToc) mobileToc.hidden = false;
+      if (desktopToc) desktopToc.hidden = false;
+
+      // Active heading highlight
+      const tocLinks = document.querySelectorAll<HTMLAnchorElement>('.article-toc__list a');
+      const observer = new IntersectionObserver(
+        entries => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) {
+              const id = entry.target.id;
+              tocLinks.forEach(a => a.classList.toggle('is-active', a.getAttribute('href') === `#${id}`));
+            }
+          }
+        },
+        { rootMargin: '-15% 0px -75% 0px', threshold: 0 }
+      );
+      headings.forEach(h => observer.observe(h));
+    }
+
+    // ── Reading progress bar ──────────────────────────────────────
+    const bar = document.createElement('div');
+    bar.className = 'article-progress-bar';
+    bar.setAttribute('aria-hidden', 'true');
+    document.body.insertBefore(bar, document.body.firstChild);
+
+    // ── Back to top button ────────────────────────────────────────
+    const topBtn = document.createElement('button');
+    topBtn.className = 'article-back-to-top';
+    topBtn.setAttribute('aria-label', 'Back to top');
+    topBtn.innerHTML = '↑';
+    document.body.appendChild(topBtn);
+    topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // ── Shared scroll handler ─────────────────────────────────────
+    const docEl = document.documentElement;
+    window.addEventListener('scroll', () => {
+      const scrolled = window.scrollY;
+      const maxScroll = docEl.scrollHeight - docEl.clientHeight;
+      const pct = maxScroll > 0 ? (scrolled / maxScroll) * 100 : 0;
+      bar.style.width = `${pct}%`;
+      topBtn.classList.toggle('is-visible', pct > 40);
+    }, { passive: true });
+  })();
+</script>

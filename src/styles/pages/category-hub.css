@@ -697,3 +697,38 @@
     transform: none !important;
   }
 }
+
+/* ── Visible breadcrumb above hero ───────────────────────────── */
+.category-hub__container .breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  list-style: none;
+  margin: 0;
+  padding: var(--space-4) 0 0;
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+.category-hub__container .breadcrumb__item + .breadcrumb__item::before {
+  content: '›';
+  margin-right: 0.45rem;
+  color: var(--color-border);
+}
+
+.category-hub__container .breadcrumb__link {
+  color: var(--color-primary);
+  font-weight: var(--weight-semi);
+  text-decoration: none;
+}
+
+.category-hub__container .breadcrumb__link:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.category-hub__container .breadcrumb__current {
+  color: var(--color-muted);
+}
