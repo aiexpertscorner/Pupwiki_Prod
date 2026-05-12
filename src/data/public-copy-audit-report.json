@@ -2,7 +2,7 @@
   "ok": false,
   "blocking": true,
   "ciMode": false,
-  "scanned": 1524,
+  "scanned": 1531,
   "count": 3,
   "byFile": {
     "src/components/home/HomeAwinShowcase.astro": 3
@@ -27,5 +27,5 @@
       "snippet": ".pw-awin {"
     }
   ],
-  "generatedAt": "2026-05-12T18:29:38.104Z"
+  "generatedAt": "2026-05-12T19:17:52.646Z"
 }

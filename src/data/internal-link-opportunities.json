@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-12T18:29:37.463Z",
-  "total": 1406,
+  "generatedAt": "2026-05-12T19:17:51.769Z",
+  "total": 1415,
   "items": [
     {
       "sourcePath": "/blog/affenpinscher-pet-insurance-planning",
@@ -10449,6 +10449,79 @@
         "/cost-calculator",
         "/categories/senior-dogs",
         "/breeds/parson-russell-terrier"
+      ]
+    },
+    {
+      "sourcePath": "/blog/partner-brutus-broth",
+      "recommendedTargets": [
+        "/breeds",
+        "/cost-calculator",
+        "/categories/pupwiki-partners",
+        "/categories/senior-dogs"
+      ]
+    },
+    {
+      "sourcePath": "/blog/partner-chefpaw",
+      "recommendedTargets": [
+        "/breeds",
+        "/cost-calculator",
+        "/categories/pupwiki-partners"
+      ]
+    },
+    {
+      "sourcePath": "/blog/partner-crownandpaw",
+      "recommendedTargets": [
+        "/breeds",
+        "/cost-calculator",
+        "/categories/pupwiki-partners"
+      ]
+    },
+    {
+      "sourcePath": "/blog/partner-dog-cloud-us",
+      "recommendedTargets": [
+        "/breeds",
+        "/cost-calculator",
+        "/categories/pupwiki-partners"
+      ]
+    },
+    {
+      "sourcePath": "/blog/partner-jugbow",
+      "recommendedTargets": [
+        "/breeds",
+        "/cost-calculator",
+        "/categories/pupwiki-partners"
+      ]
+    },
+    {
+      "sourcePath": "/blog/partner-mypetdmv-the-original-pet-drivers-license",
+      "recommendedTargets": [
+        "/breeds",
+        "/cost-calculator",
+        "/categories/pupwiki-partners"
+      ]
+    },
+    {
+      "sourcePath": "/blog/partner-petmate",
+      "recommendedTargets": [
+        "/breeds",
+        "/cost-calculator",
+        "/categories/pupwiki-partners"
+      ]
+    },
+    {
+      "sourcePath": "/blog/partner-radiofence-com",
+      "recommendedTargets": [
+        "/breeds",
+        "/cost-calculator",
+        "/categories/pupwiki-partners"
+      ]
+    },
+    {
+      "sourcePath": "/blog/partner-rawwild",
+      "recommendedTargets": [
+        "/breeds",
+        "/cost-calculator",
+        "/categories/pupwiki-partners"
       ]
     },
     {
