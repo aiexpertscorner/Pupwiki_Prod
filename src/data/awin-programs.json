@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-12T01:36:58.669Z",
+  "syncedAt": "2026-05-12T06:01:33.434Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -2134,7 +2134,8 @@
       "programmedetails/111784 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "programmedetails/111784 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/119433 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms"
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms"
     ],
     "errors": []
   }
