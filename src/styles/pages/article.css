@@ -935,6 +935,20 @@
   }
 }
 
+/* ── Generated product roundup: top-pick highlight box ──────── */
+.article-top-pick {
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-xl);
+  padding: var(--space-5);
+  margin: var(--space-5) 0;
+  background: var(--color-accent-subtle, rgba(255, 122, 0, 0.06));
+}
+
+.article-top-pick h3 {
+  margin-top: 0;
+  color: var(--color-primary);
+}
+
 /* ── Reduced motion ──────────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   .article-button,

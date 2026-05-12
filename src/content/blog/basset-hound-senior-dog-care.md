@@ -17,6 +17,7 @@ awinTopicTags: ["senior-dogs", "senior-dog-care-partners", "basset-hound", "brut
 amazonQueries: ["senior dog food joint health", "orthopedic dog bed large breed", "dog joint supplement glucosamine", "senior dog ramp stairs"]
 internalLinkTargets: ["/breeds/basset-hound", "/categories/senior-dogs", "/blog", "/blog/senior-dog-care-partners", "/categories/health", "/categories/beds", "/categories/supplements", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"

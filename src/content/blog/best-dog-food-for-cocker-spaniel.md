@@ -33,9 +33,8 @@ Cocker Spaniels need high-quality protein matched to their regular exercise ener
 - **Lifespan:** 10–14 years
 ---
 ## Our Top Pick for Cocker Spaniels
-<div style="background:#1a1a1a;border:2px solid #CCFF00;padding:1.5rem;margin:1.5rem 0;box-shadow:4px 4px 0 #CCFF00">
+<div class="article-top-pick">
 ### 🏆 Blue Buffalo Life Protection
-<img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001650OE0&Format=_SL300_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=aiexpertscorn-20" alt="Blue Buffalo Life Protection" style="max-width:300px;background:white;padding:.5rem" loading="lazy"/>
 **Rating:** ★★★★★ 4.7/5
 **Price:** $49.99
 **Why it works for Cocker Spaniels:** Quality protein matches this breed's energy needs. The balanced formula suits their moderate activity level.
@@ -52,7 +51,6 @@ Cocker Spaniels need high-quality protein matched to their regular exercise ener
 ---
 ## Runner-Up Options
 ### 2. Purina Pro Plan Large Breed Adult — Best Value
-<img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0042EFNXW&Format=_SL300_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=aiexpertscorn-20" alt="Purina Pro Plan Large Breed Adult" style="max-width:250px;background:white;padding:.5rem;float:right;margin:0 0 1rem 1rem" loading="lazy"/>
 **Price:** $54.99 | **Rating:** ★★★★★ 4.8/5
 - Real chicken as #1 ingredient
 - Glucosamine & EPA for joint health
@@ -62,7 +60,6 @@ Cocker Spaniels need high-quality protein matched to their regular exercise ener
 [Check price on Amazon →](https://www.amazon.com/dp/B0042EFNXW/?tag=aiexpertscorn-20){rel="nofollow sponsored"}
 ---
 ### 3. Hill's Science Diet Adult Large Breed — Premium Pick
-<img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00135X34O&Format=_SL300_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=aiexpertscorn-20" alt="Hill's Science Diet Adult Large Breed" style="max-width:250px;background:white;padding:.5rem;float:right;margin:0 0 1rem 1rem" loading="lazy"/>
 **Price:** $59.99 | **Rating:** ★★★★★ 4.7/5
 - Chicken meal as first ingredient
 - Precise nutrition for large breeds
@@ -72,7 +69,6 @@ Cocker Spaniels need high-quality protein matched to their regular exercise ener
 [Check price on Amazon →](https://www.amazon.com/dp/B00135X34O/?tag=aiexpertscorn-20){rel="nofollow sponsored"}
 ---
 ### 4. Royal Canin Size Health Nutrition Large Breed — Budget Option
-<img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001ELPTDS&Format=_SL300_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=aiexpertscorn-20" alt="Royal Canin Size Health Nutrition Large Breed" style="max-width:250px;background:white;padding:.5rem;float:right;margin:0 0 1rem 1rem" loading="lazy"/>
 **Price:** $68.99 | **Rating:** ★★★★★ 4.8/5
 - Kibble size designed for large breed jaws
 - EPA & DHA for healthy skin and coat

@@ -17,6 +17,7 @@ awinTopicTags: ["insurance", "dog-services-care-planning", "clumber-spaniel", "j
 amazonQueries: []
 internalLinkTargets: ["/breeds/clumber-spaniel", "/categories/insurance", "/blog", "/blog/dog-services-care-planning", "/categories/dog-services", "/categories/health", "/categories/training", "/categories/grooming", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"

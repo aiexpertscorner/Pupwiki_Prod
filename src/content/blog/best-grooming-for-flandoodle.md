@@ -17,6 +17,7 @@ awinTopicTags: ["grooming", "dog-services-care-planning", "flandoodle", "jugbow"
 amazonQueries: []
 internalLinkTargets: ["/breeds/flandoodle", "/categories/grooming", "/blog", "/blog/dog-services-care-planning", "/categories/dog-services", "/categories/health", "/categories/training", "/categories/insurance", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "medium"

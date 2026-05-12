@@ -16,6 +16,7 @@ awinTopicTags: ["personalized-dog-gifts-lifestyle-partners", "gift", "lifestyle"
 amazonQueries: ["personalized dog gifts", "custom dog portrait", "dog owner gifts", "personalized dog id tag"]
 internalLinkTargets: ["/categories/lifestyle", "/dog-names", "/categories/pupwiki-partners", "/breeds", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "low"
