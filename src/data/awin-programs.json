@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-12T21:25:30.568Z",
+  "syncedAt": "2026-05-12T22:32:12.088Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -2118,7 +2118,7 @@
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
-    "feedProductFetchFailures": 0,
+    "feedProductFetchFailures": 3,
     "experimentalCreativesEnabled": false,
     "warnings": [
       "programmedetails/106409 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
@@ -2134,7 +2134,12 @@
       "programmedetails/111784 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "programmedetails/111784 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/119433 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms"
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "feed/93508 returned no parseable products from one endpoint; trying next endpoint if available.",
+      "feed/93508 -> HTTP 400 — \n<h1>Error</h1>\n\n\t<h2>Invalid parameters, see instructions</h2>\n\n\n",
+      "feed/93508 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/93508\\/download\\\"\"}",
+      "feed/93508 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/93508\\/download\\\"\"}",
+      "No product rows could be imported from feed 93508 (Chef Paw (US))"
     ],
     "errors": []
   }
