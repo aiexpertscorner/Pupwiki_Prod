@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "german-shorthaired-pointer"
 breedName: "German Shorthaired Pointer"
 canonicalUrl: "https://pupwiki.com/blog/german-shorthaired-pointer-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/11269657/pexels-photo-11269657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11269657/pexels-photo-11269657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A German Shorthaired Pointer dog rests on a sandy surface outdoors, showing its distinctive coat and relaxed posture."
+imageAlt: "A German Shorthaired Pointer dog rests on a sandy surface outdoors, showing its distinctive coat and relaxed posture."
+imageSource: "pexels"
+imageCredit: "Photo by gabesdotphotos photographer on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-dog-lying-on-brown-sand-11269657/"
+imageSearchQuery: "German Shorthaired Pointer dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for German Shorthaired Pointers

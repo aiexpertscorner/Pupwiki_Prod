@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "giant-schnauzer"
 breedName: "Giant Schnauzer"
 canonicalUrl: "https://pupwiki.com/blog/giant-schnauzer-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/4120663/pexels-photo-4120663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4120663/pexels-photo-4120663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of two Schnauzer dogs in a detailed portrait, showcasing their unique features."
+imageAlt: "Close-up of two Schnauzer dogs in a detailed portrait, showcasing their unique features."
+imageSource: "pexels"
+imageCredit: "Photo by Brett Sayles on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-schnauzer-4120663/"
+imageSearchQuery: "Giant Schnauzer dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Giant Schnauzers

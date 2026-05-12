@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "german-spitz"
 breedName: "German Spitz"
 canonicalUrl: "https://pupwiki.com/blog/german-spitz-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/19454511/pexels-photo-19454511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19454511/pexels-photo-19454511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a fluffy dog on a forest path during fall."
+imageAlt: "Close-up portrait of a fluffy dog on a forest path during fall."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-dog-on-a-path-in-forest-19454511/"
+imageSearchQuery: "German Spitz dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for German Spitzs

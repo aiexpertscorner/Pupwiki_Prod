@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "great-pyrenees"
 breedName: "Great Pyrenees"
 canonicalUrl: "https://pupwiki.com/blog/great-pyrenees-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/7461420/pexels-photo-7461420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7461420/pexels-photo-7461420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming portrait of a Great Pyrenees dog outdoors against an autumn forest backdrop."
+imageAlt: "Charming portrait of a Great Pyrenees dog outdoors against an autumn forest backdrop."
+imageSource: "pexels"
+imageCredit: "Photo by Tychon Krug on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-long-coated-dog-in-close-up-shot-7461420/"
+imageSearchQuery: "Great Pyrenees dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Great Pyreneess

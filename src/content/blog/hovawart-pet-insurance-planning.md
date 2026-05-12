@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "hovawart"
 breedName: "Hovawart"
 canonicalUrl: "https://pupwiki.com/blog/hovawart-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor."
+imageAlt: "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor."
+imageSource: "pexels"
+imageCredit: "Photo by Theo Willems on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-hovawart-dog-16528289/"
+imageSearchQuery: "Hovawart dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Hovawarts

@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "ibizan-hound"
 breedName: "Ibizan Hound"
 canonicalUrl: "https://pupwiki.com/blog/ibizan-hound-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a brown and white dog with a collar, looking thoughtful against a blurred background."
+imageAlt: "Portrait of a brown and white dog with a collar, looking thoughtful against a blurred background."
+imageSource: "pexels"
+imageCredit: "Photo by Marina Riijik on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dog-20080179/"
+imageSearchQuery: "Ibizan Hound dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Ibizan Hounds

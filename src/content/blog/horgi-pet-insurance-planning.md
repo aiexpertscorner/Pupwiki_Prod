@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "horgi"
 breedName: "Horgi"
 canonicalUrl: "https://pupwiki.com/blog/horgi-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/10142285/pexels-photo-10142285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10142285/pexels-photo-10142285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Grayscale portrait of a happy dog on a leash outdoors, highlighting its cute expressions."
+imageAlt: "Grayscale portrait of a happy dog on a leash outdoors, highlighting its cute expressions."
+imageSource: "pexels"
+imageCredit: "Photo by Nikita Igonkin on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/grayscale-photo-of-dog-wearing-leash-10142285/"
+imageSearchQuery: "Horgi dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Horgis

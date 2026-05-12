@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "grand-basset-griffon-venden"
 breedName: "Grand Basset Griffon Vendéen"
 canonicalUrl: "https://pupwiki.com/blog/grand-basset-griffon-venden-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Wirehaired Pointing Griffon dog standing outdoors during fall."
+imageAlt: "A Wirehaired Pointing Griffon dog standing outdoors during fall."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/wirehaired-pointing-griffon-standing-outdoors-28811074/"
+imageSearchQuery: "Grand Basset Griffon Vendéen dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Grand Basset Griffon Vendéens

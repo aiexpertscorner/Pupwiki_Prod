@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "great-dane"
 breedName: "Great Dane"
 canonicalUrl: "https://pupwiki.com/blog/great-dane-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/8660788/pexels-photo-8660788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8660788/pexels-photo-8660788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Side view of a Great Dane dog with a blurred nature background, showcasing its majestic presence."
+imageAlt: "Side view of a Great Dane dog with a blurred nature background, showcasing its majestic presence."
+imageSource: "pexels"
+imageCredit: "Photo by Paparazzi Ratzfatzzi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/side-view-of-a-dog-8660788/"
+imageSearchQuery: "Great Dane dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Great Danes

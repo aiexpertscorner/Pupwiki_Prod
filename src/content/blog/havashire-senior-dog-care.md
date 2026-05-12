@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "havashire"
 breedName: "Havashire"
 canonicalUrl: "https://pupwiki.com/blog/havashire-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/33151951/pexels-photo-33151951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33151951/pexels-photo-33151951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a cheerful white dog outdoors in Canonsburg, Pennsylvania."
+imageAlt: "Close-up portrait of a cheerful white dog outdoors in Canonsburg, Pennsylvania."
+imageSource: "pexels"
+imageCredit: "Photo by Jay Brand on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cheerful-white-dog-outdoors-portrait-33151951/"
+imageSearchQuery: "Havashire dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Havashires

@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "greater-swiss-mountain-dog"
 breedName: "Greater Swiss Mountain Dog"
 canonicalUrl: "https://pupwiki.com/blog/greater-swiss-mountain-dog-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/29220043/pexels-photo-29220043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29220043/pexels-photo-29220043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a Bernese Mountain Dog with long fur outdoors on a sunny day."
+imageAlt: "Portrait of a Bernese Mountain Dog with long fur outdoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Gundula Vogel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bernese-mountain-dog-in-outdoor-setting-29220043/"
+imageSearchQuery: "Greater Swiss Mountain Dog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Greater Swiss Mountain Dogs

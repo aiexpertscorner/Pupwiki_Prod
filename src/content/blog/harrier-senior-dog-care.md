@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "harrier"
 breedName: "Harrier"
 canonicalUrl: "https://pupwiki.com/blog/harrier-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors."
+imageAlt: "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors."
+imageSource: "pexels"
+imageCredit: "Photo by Pexels User on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-beagle-dog-sitting-outside-16902552/"
+imageSearchQuery: "Harrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Harriers

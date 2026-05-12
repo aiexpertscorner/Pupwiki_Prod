@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "irish-setter"
 breedName: "Irish Setter"
 canonicalUrl: "https://pupwiki.com/blog/irish-setter-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/2328863/pexels-photo-2328863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/2328863/pexels-photo-2328863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A captivating portrait of a brown Irish Setter dog against a black background with vibrant red collar."
+imageAlt: "A captivating portrait of a brown Irish Setter dog against a black background with vibrant red collar."
+imageSource: "pexels"
+imageCredit: "Photo by Viktor Talashuk on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-dog-2328863/"
+imageSearchQuery: "Irish Setter dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Irish Setters

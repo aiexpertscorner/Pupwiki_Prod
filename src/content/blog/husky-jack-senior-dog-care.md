@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "husky-jack"
 breedName: "Husky Jack"
 canonicalUrl: "https://pupwiki.com/blog/husky-jack-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/10383270/pexels-photo-10383270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10383270/pexels-photo-10383270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a husky dog with striking heterochromia against a muted background."
+imageAlt: "Close-up portrait of a husky dog with striking heterochromia against a muted background."
+imageSource: "pexels"
+imageCredit: "Photo by Boys in Bristol Photography on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-with-different-colored-eyes-10383270/"
+imageSearchQuery: "Husky Jack dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Husky Jacks

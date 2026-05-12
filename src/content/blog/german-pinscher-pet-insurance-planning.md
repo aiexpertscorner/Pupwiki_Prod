@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "german-pinscher"
 breedName: "German Pinscher"
 canonicalUrl: "https://pupwiki.com/blog/german-pinscher-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/11654136/pexels-photo-11654136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11654136/pexels-photo-11654136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a curious Miniature Pinscher dog outdoors, showcasing its alert expression."
+imageAlt: "Close-up portrait of a curious Miniature Pinscher dog outdoors, showcasing its alert expression."
+imageSource: "pexels"
+imageCredit: "Photo by adrian vieriu on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-miniature-pinscher-11654136/"
+imageSearchQuery: "German Pinscher dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for German Pinschers

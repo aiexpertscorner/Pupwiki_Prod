@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "glen-of-imaal-terrier"
 breedName: "Glen of Imaal Terrier"
 canonicalUrl: "https://pupwiki.com/blog/glen-of-imaal-terrier-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/4395469/pexels-photo-4395469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4395469/pexels-photo-4395469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of an adorable white terrier dog with a furry coat. Perfect for pet lovers."
+imageAlt: "Close-up of an adorable white terrier dog with a furry coat. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by George Orta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/selective-focus-photo-of-a-white-terrier-dog-4395469/"
+imageSearchQuery: "Glen of Imaal Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Glen of Imaal Terriers

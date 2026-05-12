@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "greyhound"
 breedName: "Greyhound"
 canonicalUrl: "https://pupwiki.com/blog/greyhound-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/13957885/pexels-photo-13957885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13957885/pexels-photo-13957885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a Greyhound dog in an outdoor setting."
+imageAlt: "A detailed close-up portrait of a Greyhound dog in an outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Mao Won on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/greyhound-dog-wearing-collar-in-close-up-photography-13957885/"
+imageSearchQuery: "Greyhound dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Greyhounds

@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "german-longhaired-pointer"
 breedName: "German Longhaired Pointer"
 canonicalUrl: "https://pupwiki.com/blog/german-longhaired-pointer-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/26840140/pexels-photo-26840140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26840140/pexels-photo-26840140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable German Shorthaired Pointer dog showing playful expression in a close-up portrait."
+imageAlt: "Adorable German Shorthaired Pointer dog showing playful expression in a close-up portrait."
+imageSource: "pexels"
+imageCredit: "Photo by Arian Fernandez on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-domestic-dog-26840140/"
+imageSearchQuery: "German Longhaired Pointer dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for German Longhaired Pointers

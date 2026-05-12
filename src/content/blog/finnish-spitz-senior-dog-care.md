@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "finnish-spitz"
 breedName: "Finnish Spitz"
 canonicalUrl: "https://pupwiki.com/blog/finnish-spitz-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/1493109/pexels-photo-1493109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/1493109/pexels-photo-1493109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming Finnish Lapphund dog peacefully resting in lush green grass during daytime."
+imageAlt: "Charming Finnish Lapphund dog peacefully resting in lush green grass during daytime."
+imageSource: "pexels"
+imageCredit: "Photo by Janko Ferlic on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-finnish-lapphund-sitting-on-grass-field-1493109/"
+imageSearchQuery: "Finnish Spitz dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Finnish Spitzs

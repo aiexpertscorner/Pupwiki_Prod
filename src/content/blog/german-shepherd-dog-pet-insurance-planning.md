@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "german-shepherd-dog"
 breedName: "German Shepherd Dog"
 canonicalUrl: "https://pupwiki.com/blog/german-shepherd-dog-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/35089284/pexels-photo-35089284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35089284/pexels-photo-35089284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed side portrait of a German Shepherd dog sitting on grass outside."
+imageAlt: "A detailed side portrait of a German Shepherd dog sitting on grass outside."
+imageSource: "pexels"
+imageCredit: "Photo by Dmytro Glazunov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-german-shepherd-outdoors-35089284/"
+imageSearchQuery: "German Shepherd Dog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for German Shepherd Dogs

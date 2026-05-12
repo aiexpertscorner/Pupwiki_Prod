@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "icelandic-sheepdog"
 breedName: "Icelandic Sheepdog"
 canonicalUrl: "https://pupwiki.com/blog/icelandic-sheepdog-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/25713116/pexels-photo-25713116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/25713116/pexels-photo-25713116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a young Icelandic Sheepdog with orange and white fur outdoors."
+imageAlt: "Portrait of a young Icelandic Sheepdog with orange and white fur outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Pragyan Bezbaruah on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-orange-and-white-icelandic-sheepdog-dog-25713116/"
+imageSearchQuery: "Icelandic Sheepdog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Icelandic Sheepdogs

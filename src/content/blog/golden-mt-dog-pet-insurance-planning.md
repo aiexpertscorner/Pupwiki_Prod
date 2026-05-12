@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "golden-mt-dog"
 breedName: "Golden Mt. Dog"
 canonicalUrl: "https://pupwiki.com/blog/golden-mt-dog-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop."
+imageAlt: "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop."
+imageSource: "pexels"
+imageCredit: "Photo by Masood Aslami on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/"
+imageSearchQuery: "Golden Mt. Dog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Golden Mt. Dogs

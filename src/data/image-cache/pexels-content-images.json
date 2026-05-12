@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-12T19:38:00.588Z",
+  "syncedAt": "2026-05-12T19:45:27.847Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -13704,12 +13704,652 @@
       "photographerUrl": "https://www.pexels.com/@itfeelslikefilm",
       "pexelsUrl": "https://www.pexels.com/photo/black-and-white-finnish-lapphund-sitting-on-grass-field-1493109/",
       "id": 1493109
+    },
+    "finnish-spitz-senior-dog-care:Finnish Spitz dog portrait": {
+      "url": "https://images.pexels.com/photos/1493109/pexels-photo-1493109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming Finnish Lapphund dog peacefully resting in lush green grass during daytime.",
+      "photographer": "Janko Ferlic",
+      "photographerUrl": "https://www.pexels.com/@itfeelslikefilm",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-finnish-lapphund-sitting-on-grass-field-1493109/",
+      "id": 1493109
+    },
+    "flandoodle-pet-insurance-planning:Flandoodle dog portrait": {
+      "url": "https://images.pexels.com/photos/24917590/pexels-photo-24917590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a happy dog with tongue out against a dark background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-dog-24917590/",
+      "id": 24917590
+    },
+    "flandoodle-senior-dog-care:Flandoodle dog portrait": {
+      "url": "https://images.pexels.com/photos/24917590/pexels-photo-24917590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a happy dog with tongue out against a dark background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-dog-24917590/",
+      "id": 24917590
+    },
+    "flat-coated-retriever-pet-insurance-planning:Flat-Coated Retriever dog portrait": {
+      "url": "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop.",
+      "photographer": "Masood Aslami",
+      "photographerUrl": "https://www.pexels.com/@masoodaslami",
+      "pexelsUrl": "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/",
+      "id": 30810888
+    },
+    "flat-coated-retriever-senior-dog-care:Flat-Coated Retriever dog portrait": {
+      "url": "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop.",
+      "photographer": "Masood Aslami",
+      "photographerUrl": "https://www.pexels.com/@masoodaslami",
+      "pexelsUrl": "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/",
+      "id": 30810888
+    },
+    "french-bulldog-pet-insurance-planning:French Bulldog dog portrait": {
+      "url": "https://images.pexels.com/photos/32612263/pexels-photo-32612263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a French Bulldog looking upwards with expressive, soulful eyes.",
+      "photographer": "Sóc Năng Động",
+      "photographerUrl": "https://www.pexels.com/@soc-nang-d-ng-2150345854",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-french-bulldog-portrait-with-expressive-eyes-32612263/",
+      "id": 32612263
+    },
+    "french-bulldog-senior-dog-care:French Bulldog dog portrait": {
+      "url": "https://images.pexels.com/photos/32612263/pexels-photo-32612263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a French Bulldog looking upwards with expressive, soulful eyes.",
+      "photographer": "Sóc Năng Động",
+      "photographerUrl": "https://www.pexels.com/@soc-nang-d-ng-2150345854",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-french-bulldog-portrait-with-expressive-eyes-32612263/",
+      "id": 32612263
+    },
+    "french-spaniel-pet-insurance-planning:French Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "french-spaniel-senior-dog-care:French Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "frenchton-pet-insurance-planning:Frenchton dog portrait": {
+      "url": "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a black Boxer dog in natural light with a soft background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/",
+      "id": 30948591
+    },
+    "frenchton-senior-dog-care:Frenchton dog portrait": {
+      "url": "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a black Boxer dog in natural light with a soft background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/",
+      "id": 30948591
+    },
+    "frug-pet-insurance-planning:Frug dog portrait": {
+      "url": "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a black Boxer dog in natural light with a soft background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/",
+      "id": 30948591
+    },
+    "frug-senior-dog-care:Frug dog portrait": {
+      "url": "https://images.pexels.com/photos/30948591/pexels-photo-30948591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a black Boxer dog in natural light with a soft background.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-boxer-dog-outdoors-30948591/",
+      "id": 30948591
+    },
+    "gerberian-shepsky-pet-insurance-planning:Gerberian Shepsky dog portrait": {
+      "url": "https://images.pexels.com/photos/31501540/pexels-photo-31501540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a mixed breed dog lying on grass, showcasing its calm demeanor.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-mixed-breed-dog-relaxing-on-grass-31501540/",
+      "id": 31501540
+    },
+    "gerberian-shepsky-senior-dog-care:Gerberian Shepsky dog portrait": {
+      "url": "https://images.pexels.com/photos/31501540/pexels-photo-31501540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a mixed breed dog lying on grass, showcasing its calm demeanor.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-mixed-breed-dog-relaxing-on-grass-31501540/",
+      "id": 31501540
+    },
+    "german-longhaired-pointer-pet-insurance-planning:German Longhaired Pointer dog portrait": {
+      "url": "https://images.pexels.com/photos/26840140/pexels-photo-26840140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable German Shorthaired Pointer dog showing playful expression in a close-up portrait.",
+      "photographer": "Arian Fernandez",
+      "photographerUrl": "https://www.pexels.com/@troopper84",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-domestic-dog-26840140/",
+      "id": 26840140
+    },
+    "german-longhaired-pointer-senior-dog-care:German Longhaired Pointer dog portrait": {
+      "url": "https://images.pexels.com/photos/26840140/pexels-photo-26840140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable German Shorthaired Pointer dog showing playful expression in a close-up portrait.",
+      "photographer": "Arian Fernandez",
+      "photographerUrl": "https://www.pexels.com/@troopper84",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-domestic-dog-26840140/",
+      "id": 26840140
+    },
+    "german-pinscher-pet-insurance-planning:German Pinscher dog portrait": {
+      "url": "https://images.pexels.com/photos/11654136/pexels-photo-11654136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a curious Miniature Pinscher dog outdoors, showcasing its alert expression.",
+      "photographer": "adrian vieriu",
+      "photographerUrl": "https://www.pexels.com/@printexstar",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-miniature-pinscher-11654136/",
+      "id": 11654136
+    },
+    "german-pinscher-senior-dog-care:German Pinscher dog portrait": {
+      "url": "https://images.pexels.com/photos/11654136/pexels-photo-11654136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a curious Miniature Pinscher dog outdoors, showcasing its alert expression.",
+      "photographer": "adrian vieriu",
+      "photographerUrl": "https://www.pexels.com/@printexstar",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-miniature-pinscher-11654136/",
+      "id": 11654136
+    },
+    "german-shepherd-dog-pet-insurance-planning:German Shepherd Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/35089284/pexels-photo-35089284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed side portrait of a German Shepherd dog sitting on grass outside.",
+      "photographer": "Dmytro Glazunov",
+      "photographerUrl": "https://www.pexels.com/@glazun0v",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-german-shepherd-outdoors-35089284/",
+      "id": 35089284
+    },
+    "german-shepherd-dog-senior-dog-care:German Shepherd Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/35089284/pexels-photo-35089284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed side portrait of a German Shepherd dog sitting on grass outside.",
+      "photographer": "Dmytro Glazunov",
+      "photographerUrl": "https://www.pexels.com/@glazun0v",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-german-shepherd-outdoors-35089284/",
+      "id": 35089284
+    },
+    "german-shorthaired-pointer-pet-insurance-planning:German Shorthaired Pointer dog portrait": {
+      "url": "https://images.pexels.com/photos/11269657/pexels-photo-11269657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A German Shorthaired Pointer dog rests on a sandy surface outdoors, showing its distinctive coat and relaxed posture.",
+      "photographer": "gabesdotphotos photographer",
+      "photographerUrl": "https://www.pexels.com/@gabesphotos",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-dog-lying-on-brown-sand-11269657/",
+      "id": 11269657
+    },
+    "german-shorthaired-pointer-senior-dog-care:German Shorthaired Pointer dog portrait": {
+      "url": "https://images.pexels.com/photos/11269657/pexels-photo-11269657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A German Shorthaired Pointer dog rests on a sandy surface outdoors, showing its distinctive coat and relaxed posture.",
+      "photographer": "gabesdotphotos photographer",
+      "photographerUrl": "https://www.pexels.com/@gabesphotos",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-dog-lying-on-brown-sand-11269657/",
+      "id": 11269657
+    },
+    "german-spitz-pet-insurance-planning:German Spitz dog portrait": {
+      "url": "https://images.pexels.com/photos/19454511/pexels-photo-19454511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a fluffy dog on a forest path during fall.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-dog-on-a-path-in-forest-19454511/",
+      "id": 19454511
+    },
+    "german-spitz-senior-dog-care:German Spitz dog portrait": {
+      "url": "https://images.pexels.com/photos/19454511/pexels-photo-19454511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a fluffy dog on a forest path during fall.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-dog-on-a-path-in-forest-19454511/",
+      "id": 19454511
+    },
+    "german-wirehaired-pointer-pet-insurance-planning:German Wirehaired Pointer dog portrait": {
+      "url": "https://images.pexels.com/photos/28594184/pexels-photo-28594184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Wirehaired dog enjoys a peaceful walk in a serene autumn forest.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/wirehaired-dog-in-autumn-forest-setting-28594184/",
+      "id": 28594184
+    },
+    "german-wirehaired-pointer-senior-dog-care:German Wirehaired Pointer dog portrait": {
+      "url": "https://images.pexels.com/photos/28594184/pexels-photo-28594184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Wirehaired dog enjoys a peaceful walk in a serene autumn forest.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/wirehaired-dog-in-autumn-forest-setting-28594184/",
+      "id": 28594184
+    },
+    "giant-schnauzer-pet-insurance-planning:Giant Schnauzer dog portrait": {
+      "url": "https://images.pexels.com/photos/4120663/pexels-photo-4120663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of two Schnauzer dogs in a detailed portrait, showcasing their unique features.",
+      "photographer": "Brett Sayles",
+      "photographerUrl": "https://www.pexels.com/@brett-sayles",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-schnauzer-4120663/",
+      "id": 4120663
+    },
+    "giant-schnauzer-senior-dog-care:Giant Schnauzer dog portrait": {
+      "url": "https://images.pexels.com/photos/4120663/pexels-photo-4120663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of two Schnauzer dogs in a detailed portrait, showcasing their unique features.",
+      "photographer": "Brett Sayles",
+      "photographerUrl": "https://www.pexels.com/@brett-sayles",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-schnauzer-4120663/",
+      "id": 4120663
+    },
+    "glechon-pet-insurance-planning:Glechon dog portrait": {
+      "url": "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a smiling dog in an outdoor setting.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/",
+      "id": 32130866
+    },
+    "glechon-senior-dog-care:Glechon dog portrait": {
+      "url": "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a smiling dog in an outdoor setting.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/",
+      "id": 32130866
+    },
+    "glen-of-imaal-terrier-pet-insurance-planning:Glen of Imaal Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/4395469/pexels-photo-4395469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of an adorable white terrier dog with a furry coat. Perfect for pet lovers.",
+      "photographer": "George Orta",
+      "photographerUrl": "https://www.pexels.com/@george-orta-2859602",
+      "pexelsUrl": "https://www.pexels.com/photo/selective-focus-photo-of-a-white-terrier-dog-4395469/",
+      "id": 4395469
+    },
+    "glen-of-imaal-terrier-senior-dog-care:Glen of Imaal Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/4395469/pexels-photo-4395469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of an adorable white terrier dog with a furry coat. Perfect for pet lovers.",
+      "photographer": "George Orta",
+      "photographerUrl": "https://www.pexels.com/@george-orta-2859602",
+      "pexelsUrl": "https://www.pexels.com/photo/selective-focus-photo-of-a-white-terrier-dog-4395469/",
+      "id": 4395469
+    },
+    "goberian-pet-insurance-planning:Goberian dog portrait": {
+      "url": "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/",
+      "id": 34242930
+    },
+    "goberian-senior-dog-care:Goberian dog portrait": {
+      "url": "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/",
+      "id": 34242930
+    },
+    "golden-mt-dog-pet-insurance-planning:Golden Mt. Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop.",
+      "photographer": "Masood Aslami",
+      "photographerUrl": "https://www.pexels.com/@masoodaslami",
+      "pexelsUrl": "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/",
+      "id": 30810888
+    },
+    "golden-mt-dog-senior-dog-care:Golden Mt. Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop.",
+      "photographer": "Masood Aslami",
+      "photographerUrl": "https://www.pexels.com/@masoodaslami",
+      "pexelsUrl": "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/",
+      "id": 30810888
+    },
+    "golden-retriever-pet-insurance-planning:Golden Retriever dog portrait": {
+      "url": "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop.",
+      "photographer": "Masood Aslami",
+      "photographerUrl": "https://www.pexels.com/@masoodaslami",
+      "pexelsUrl": "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/",
+      "id": 30810888
+    },
+    "golden-retriever-senior-dog-care:Golden Retriever dog portrait": {
+      "url": "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop.",
+      "photographer": "Masood Aslami",
+      "photographerUrl": "https://www.pexels.com/@masoodaslami",
+      "pexelsUrl": "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/",
+      "id": 30810888
+    },
+    "goldendoodle-pet-insurance-planning:Goldendoodle dog portrait": {
+      "url": "https://images.pexels.com/photos/15488735/pexels-photo-15488735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a Goldendoodle Dog with Mouth Open",
+      "photographer": "ten Brinke photography",
+      "photographerUrl": "https://www.pexels.com/@ten-brinke-photography-3877392",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-goldendoodle-dog-with-mouth-open-15488735/",
+      "id": 15488735
+    },
+    "goldendoodle-senior-dog-care:Goldendoodle dog portrait": {
+      "url": "https://images.pexels.com/photos/15488735/pexels-photo-15488735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a Goldendoodle Dog with Mouth Open",
+      "photographer": "ten Brinke photography",
+      "photographerUrl": "https://www.pexels.com/@ten-brinke-photography-3877392",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-goldendoodle-dog-with-mouth-open-15488735/",
+      "id": 15488735
+    },
+    "gordon-setter-pet-insurance-planning:Gordon Setter dog portrait": {
+      "url": "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black and white portrait of a dog in a park, showcasing its elegance and poise.",
+      "photographer": "Altaf Shah",
+      "photographerUrl": "https://www.pexels.com/@altaf-shah-3143825",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-on-a-leash-18868925/",
+      "id": 18868925
+    },
+    "gordon-setter-senior-dog-care:Gordon Setter dog portrait": {
+      "url": "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black and white portrait of a dog in a park, showcasing its elegance and poise.",
+      "photographer": "Altaf Shah",
+      "photographerUrl": "https://www.pexels.com/@altaf-shah-3143825",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-on-a-leash-18868925/",
+      "id": 18868925
+    },
+    "grand-basset-griffon-venden-pet-insurance-planning:Grand Basset Griffon Vendéen dog portrait": {
+      "url": "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Wirehaired Pointing Griffon dog standing outdoors during fall.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/wirehaired-pointing-griffon-standing-outdoors-28811074/",
+      "id": 28811074
+    },
+    "grand-basset-griffon-venden-senior-dog-care:Grand Basset Griffon Vendéen dog portrait": {
+      "url": "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Wirehaired Pointing Griffon dog standing outdoors during fall.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/wirehaired-pointing-griffon-standing-outdoors-28811074/",
+      "id": 28811074
+    },
+    "great-dane-pet-insurance-planning:Great Dane dog portrait": {
+      "url": "https://images.pexels.com/photos/8660788/pexels-photo-8660788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Side view of a Great Dane dog with a blurred nature background, showcasing its majestic presence.",
+      "photographer": "Paparazzi Ratzfatzzi",
+      "photographerUrl": "https://www.pexels.com/@paparazziratzfatzzi",
+      "pexelsUrl": "https://www.pexels.com/photo/side-view-of-a-dog-8660788/",
+      "id": 8660788
+    },
+    "great-dane-senior-dog-care:Great Dane dog portrait": {
+      "url": "https://images.pexels.com/photos/8660788/pexels-photo-8660788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Side view of a Great Dane dog with a blurred nature background, showcasing its majestic presence.",
+      "photographer": "Paparazzi Ratzfatzzi",
+      "photographerUrl": "https://www.pexels.com/@paparazziratzfatzzi",
+      "pexelsUrl": "https://www.pexels.com/photo/side-view-of-a-dog-8660788/",
+      "id": 8660788
+    },
+    "great-pyrenees-pet-insurance-planning:Great Pyrenees dog portrait": {
+      "url": "https://images.pexels.com/photos/7461420/pexels-photo-7461420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming portrait of a Great Pyrenees dog outdoors against an autumn forest backdrop.",
+      "photographer": "Tychon Krug",
+      "photographerUrl": "https://www.pexels.com/@tychon",
+      "pexelsUrl": "https://www.pexels.com/photo/white-long-coated-dog-in-close-up-shot-7461420/",
+      "id": 7461420
+    },
+    "great-pyrenees-senior-dog-care:Great Pyrenees dog portrait": {
+      "url": "https://images.pexels.com/photos/7461420/pexels-photo-7461420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming portrait of a Great Pyrenees dog outdoors against an autumn forest backdrop.",
+      "photographer": "Tychon Krug",
+      "photographerUrl": "https://www.pexels.com/@tychon",
+      "pexelsUrl": "https://www.pexels.com/photo/white-long-coated-dog-in-close-up-shot-7461420/",
+      "id": 7461420
+    },
+    "greater-swiss-mountain-dog-pet-insurance-planning:Greater Swiss Mountain Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/29220043/pexels-photo-29220043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a Bernese Mountain Dog with long fur outdoors on a sunny day.",
+      "photographer": "Gundula Vogel",
+      "photographerUrl": "https://www.pexels.com/@guvo59",
+      "pexelsUrl": "https://www.pexels.com/photo/bernese-mountain-dog-in-outdoor-setting-29220043/",
+      "id": 29220043
+    },
+    "greater-swiss-mountain-dog-senior-dog-care:Greater Swiss Mountain Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/29220043/pexels-photo-29220043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a Bernese Mountain Dog with long fur outdoors on a sunny day.",
+      "photographer": "Gundula Vogel",
+      "photographerUrl": "https://www.pexels.com/@guvo59",
+      "pexelsUrl": "https://www.pexels.com/photo/bernese-mountain-dog-in-outdoor-setting-29220043/",
+      "id": 29220043
+    },
+    "greyhound-pet-insurance-planning:Greyhound dog portrait": {
+      "url": "https://images.pexels.com/photos/13957885/pexels-photo-13957885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up portrait of a Greyhound dog in an outdoor setting.",
+      "photographer": "Mao Won",
+      "photographerUrl": "https://www.pexels.com/@mao-won-336301805",
+      "pexelsUrl": "https://www.pexels.com/photo/greyhound-dog-wearing-collar-in-close-up-photography-13957885/",
+      "id": 13957885
+    },
+    "greyhound-senior-dog-care:Greyhound dog portrait": {
+      "url": "https://images.pexels.com/photos/13957885/pexels-photo-13957885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up portrait of a Greyhound dog in an outdoor setting.",
+      "photographer": "Mao Won",
+      "photographerUrl": "https://www.pexels.com/@mao-won-336301805",
+      "pexelsUrl": "https://www.pexels.com/photo/greyhound-dog-wearing-collar-in-close-up-photography-13957885/",
+      "id": 13957885
+    },
+    "hamiltonstovare-pet-insurance-planning:Hamiltonstovare dog portrait": {
+      "url": "https://images.pexels.com/photos/19935666/pexels-photo-19935666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up portrait of a dog in a snowy winter setting, showcasing its expressive eyes.",
+      "photographer": "Михаил Крамор",
+      "photographerUrl": "https://www.pexels.com/@vantik93",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-in-snow-19935666/",
+      "id": 19935666
+    },
+    "hamiltonstovare-senior-dog-care:Hamiltonstovare dog portrait": {
+      "url": "https://images.pexels.com/photos/19935666/pexels-photo-19935666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up portrait of a dog in a snowy winter setting, showcasing its expressive eyes.",
+      "photographer": "Михаил Крамор",
+      "photographerUrl": "https://www.pexels.com/@vantik93",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-in-snow-19935666/",
+      "id": 19935666
+    },
+    "hanoverian-scenthound-pet-insurance-planning:Hanoverian Scenthound dog portrait": {
+      "url": "https://images.pexels.com/photos/35813398/pexels-photo-35813398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a noble brown dog with a calm gaze, showcasing its attentive nature.",
+      "photographer": "Gundula Vogel",
+      "photographerUrl": "https://www.pexels.com/@guvo59",
+      "pexelsUrl": "https://www.pexels.com/photo/majestic-dog-portrait-with-calm-expression-35813398/",
+      "id": 35813398
+    },
+    "hanoverian-scenthound-senior-dog-care:Hanoverian Scenthound dog portrait": {
+      "url": "https://images.pexels.com/photos/35813398/pexels-photo-35813398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a noble brown dog with a calm gaze, showcasing its attentive nature.",
+      "photographer": "Gundula Vogel",
+      "photographerUrl": "https://www.pexels.com/@guvo59",
+      "pexelsUrl": "https://www.pexels.com/photo/majestic-dog-portrait-with-calm-expression-35813398/",
+      "id": 35813398
+    },
+    "harrier-pet-insurance-planning:Harrier dog portrait": {
+      "url": "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors.",
+      "photographer": "Pexels User",
+      "photographerUrl": "https://www.pexels.com/@pexels-user-571463640",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-beagle-dog-sitting-outside-16902552/",
+      "id": 16902552
+    },
+    "harrier-senior-dog-care:Harrier dog portrait": {
+      "url": "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors.",
+      "photographer": "Pexels User",
+      "photographerUrl": "https://www.pexels.com/@pexels-user-571463640",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-beagle-dog-sitting-outside-16902552/",
+      "id": 16902552
+    },
+    "havanese-pet-insurance-planning:Havanese dog portrait": {
+      "url": "https://images.pexels.com/photos/12336090/pexels-photo-12336090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Monochrome portrait of a fluffy dog lying down, showcasing its cute expression.",
+      "photographer": "Denis Liendo ✅",
+      "photographerUrl": "https://www.pexels.com/@tonliendo",
+      "pexelsUrl": "https://www.pexels.com/photo/grayscale-photo-of-long-coated-dog-12336090/",
+      "id": 12336090
+    },
+    "havanese-senior-dog-care:Havanese dog portrait": {
+      "url": "https://images.pexels.com/photos/12336090/pexels-photo-12336090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Monochrome portrait of a fluffy dog lying down, showcasing its cute expression.",
+      "photographer": "Denis Liendo ✅",
+      "photographerUrl": "https://www.pexels.com/@tonliendo",
+      "pexelsUrl": "https://www.pexels.com/photo/grayscale-photo-of-long-coated-dog-12336090/",
+      "id": 12336090
+    },
+    "havapoo-pet-insurance-planning:Havapoo dog portrait": {
+      "url": "https://images.pexels.com/photos/33151951/pexels-photo-33151951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a cheerful white dog outdoors in Canonsburg, Pennsylvania.",
+      "photographer": "Jay Brand",
+      "photographerUrl": "https://www.pexels.com/@jay-brand-1763356224",
+      "pexelsUrl": "https://www.pexels.com/photo/cheerful-white-dog-outdoors-portrait-33151951/",
+      "id": 33151951
+    },
+    "havapoo-senior-dog-care:Havapoo dog portrait": {
+      "url": "https://images.pexels.com/photos/33151951/pexels-photo-33151951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a cheerful white dog outdoors in Canonsburg, Pennsylvania.",
+      "photographer": "Jay Brand",
+      "photographerUrl": "https://www.pexels.com/@jay-brand-1763356224",
+      "pexelsUrl": "https://www.pexels.com/photo/cheerful-white-dog-outdoors-portrait-33151951/",
+      "id": 33151951
+    },
+    "havashire-pet-insurance-planning:Havashire dog portrait": {
+      "url": "https://images.pexels.com/photos/33151951/pexels-photo-33151951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a cheerful white dog outdoors in Canonsburg, Pennsylvania.",
+      "photographer": "Jay Brand",
+      "photographerUrl": "https://www.pexels.com/@jay-brand-1763356224",
+      "pexelsUrl": "https://www.pexels.com/photo/cheerful-white-dog-outdoors-portrait-33151951/",
+      "id": 33151951
+    },
+    "havashire-senior-dog-care:Havashire dog portrait": {
+      "url": "https://images.pexels.com/photos/33151951/pexels-photo-33151951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a cheerful white dog outdoors in Canonsburg, Pennsylvania.",
+      "photographer": "Jay Brand",
+      "photographerUrl": "https://www.pexels.com/@jay-brand-1763356224",
+      "pexelsUrl": "https://www.pexels.com/photo/cheerful-white-dog-outdoors-portrait-33151951/",
+      "id": 33151951
+    },
+    "hokkaido-pet-insurance-planning:Hokkaido dog portrait": {
+      "url": "https://images.pexels.com/photos/9956248/pexels-photo-9956248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a cute Shiba Inu dog yawning outdoors.",
+      "photographer": "Maksim Goncharenok",
+      "photographerUrl": "https://www.pexels.com/@maksgelatin",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-a-white-and-brown-shiba-inu-dog-9956248/",
+      "id": 9956248
+    },
+    "hokkaido-senior-dog-care:Hokkaido dog portrait": {
+      "url": "https://images.pexels.com/photos/9956248/pexels-photo-9956248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a cute Shiba Inu dog yawning outdoors.",
+      "photographer": "Maksim Goncharenok",
+      "photographerUrl": "https://www.pexels.com/@maksgelatin",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-a-white-and-brown-shiba-inu-dog-9956248/",
+      "id": 9956248
+    },
+    "horgi-pet-insurance-planning:Horgi dog portrait": {
+      "url": "https://images.pexels.com/photos/10142285/pexels-photo-10142285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Grayscale portrait of a happy dog on a leash outdoors, highlighting its cute expressions.",
+      "photographer": "Nikita Igonkin",
+      "photographerUrl": "https://www.pexels.com/@igonkin",
+      "pexelsUrl": "https://www.pexels.com/photo/grayscale-photo-of-dog-wearing-leash-10142285/",
+      "id": 10142285
+    },
+    "horgi-senior-dog-care:Horgi dog portrait": {
+      "url": "https://images.pexels.com/photos/10142285/pexels-photo-10142285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Grayscale portrait of a happy dog on a leash outdoors, highlighting its cute expressions.",
+      "photographer": "Nikita Igonkin",
+      "photographerUrl": "https://www.pexels.com/@igonkin",
+      "pexelsUrl": "https://www.pexels.com/photo/grayscale-photo-of-dog-wearing-leash-10142285/",
+      "id": 10142285
+    },
+    "hovawart-pet-insurance-planning:Hovawart dog portrait": {
+      "url": "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor.",
+      "photographer": "Theo Willems",
+      "photographerUrl": "https://www.pexels.com/@theo-willems-537669255",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-a-hovawart-dog-16528289/",
+      "id": 16528289
+    },
+    "hovawart-senior-dog-care:Hovawart dog portrait": {
+      "url": "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor.",
+      "photographer": "Theo Willems",
+      "photographerUrl": "https://www.pexels.com/@theo-willems-537669255",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-a-hovawart-dog-16528289/",
+      "id": 16528289
+    },
+    "husky-jack-pet-insurance-planning:Husky Jack dog portrait": {
+      "url": "https://images.pexels.com/photos/10383270/pexels-photo-10383270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a husky dog with striking heterochromia against a muted background.",
+      "photographer": "Boys in Bristol Photography",
+      "photographerUrl": "https://www.pexels.com/@lebele",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-with-different-colored-eyes-10383270/",
+      "id": 10383270
+    },
+    "husky-jack-senior-dog-care:Husky Jack dog portrait": {
+      "url": "https://images.pexels.com/photos/10383270/pexels-photo-10383270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a husky dog with striking heterochromia against a muted background.",
+      "photographer": "Boys in Bristol Photography",
+      "photographerUrl": "https://www.pexels.com/@lebele",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-with-different-colored-eyes-10383270/",
+      "id": 10383270
+    },
+    "ibizan-hound-pet-insurance-planning:Ibizan Hound dog portrait": {
+      "url": "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a brown and white dog with a collar, looking thoughtful against a blurred background.",
+      "photographer": "Marina Riijik",
+      "photographerUrl": "https://www.pexels.com/@marina-riijik-944246039",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dog-20080179/",
+      "id": 20080179
+    },
+    "ibizan-hound-senior-dog-care:Ibizan Hound dog portrait": {
+      "url": "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a brown and white dog with a collar, looking thoughtful against a blurred background.",
+      "photographer": "Marina Riijik",
+      "photographerUrl": "https://www.pexels.com/@marina-riijik-944246039",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dog-20080179/",
+      "id": 20080179
+    },
+    "icelandic-sheepdog-pet-insurance-planning:Icelandic Sheepdog dog portrait": {
+      "url": "https://images.pexels.com/photos/25713116/pexels-photo-25713116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a young Icelandic Sheepdog with orange and white fur outdoors.",
+      "photographer": "Pragyan Bezbaruah",
+      "photographerUrl": "https://www.pexels.com/@pragyanbezbo",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-orange-and-white-icelandic-sheepdog-dog-25713116/",
+      "id": 25713116
+    },
+    "icelandic-sheepdog-senior-dog-care:Icelandic Sheepdog dog portrait": {
+      "url": "https://images.pexels.com/photos/25713116/pexels-photo-25713116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a young Icelandic Sheepdog with orange and white fur outdoors.",
+      "photographer": "Pragyan Bezbaruah",
+      "photographerUrl": "https://www.pexels.com/@pragyanbezbo",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-orange-and-white-icelandic-sheepdog-dog-25713116/",
+      "id": 25713116
+    },
+    "irish-red-and-white-setter-pet-insurance-planning:Irish Red and White Setter dog portrait": {
+      "url": "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black and white portrait of a dog in a park, showcasing its elegance and poise.",
+      "photographer": "Altaf Shah",
+      "photographerUrl": "https://www.pexels.com/@altaf-shah-3143825",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-on-a-leash-18868925/",
+      "id": 18868925
+    },
+    "irish-red-and-white-setter-senior-dog-care:Irish Red and White Setter dog portrait": {
+      "url": "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black and white portrait of a dog in a park, showcasing its elegance and poise.",
+      "photographer": "Altaf Shah",
+      "photographerUrl": "https://www.pexels.com/@altaf-shah-3143825",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-on-a-leash-18868925/",
+      "id": 18868925
+    },
+    "irish-setter-pet-insurance-planning:Irish Setter dog portrait": {
+      "url": "https://images.pexels.com/photos/2328863/pexels-photo-2328863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A captivating portrait of a brown Irish Setter dog against a black background with vibrant red collar.",
+      "photographer": "Viktor Talashuk",
+      "photographerUrl": "https://www.pexels.com/@viktortalashuk",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-a-dog-2328863/",
+      "id": 2328863
     }
   },
   "stats": {
     "scanned": 80,
     "changed": 80,
-    "skipped": 536,
+    "skipped": 618,
     "failed": 0,
     "force": false,
     "dry": false

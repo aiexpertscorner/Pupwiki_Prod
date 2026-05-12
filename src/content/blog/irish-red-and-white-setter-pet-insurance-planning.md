@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "irish-red-and-white-setter"
 breedName: "Irish Red and White Setter"
 canonicalUrl: "https://pupwiki.com/blog/irish-red-and-white-setter-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and white portrait of a dog in a park, showcasing its elegance and poise."
+imageAlt: "A black and white portrait of a dog in a park, showcasing its elegance and poise."
+imageSource: "pexels"
+imageCredit: "Photo by Altaf Shah on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-on-a-leash-18868925/"
+imageSearchQuery: "Irish Red and White Setter dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Irish Red and White Setters

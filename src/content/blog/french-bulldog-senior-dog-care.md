@@ -27,7 +27,16 @@ medicalDisclaimer: true
 breedSlug: "french-bulldog"
 breedName: "French Bulldog"
 canonicalUrl: "https://pupwiki.com/blog/french-bulldog-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/32612263/pexels-photo-32612263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32612263/pexels-photo-32612263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a French Bulldog looking upwards with expressive, soulful eyes."
+imageAlt: "Close-up portrait of a French Bulldog looking upwards with expressive, soulful eyes."
+imageSource: "pexels"
+imageCredit: "Photo by Sóc Năng Động on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-french-bulldog-portrait-with-expressive-eyes-32612263/"
+imageSearchQuery: "French Bulldog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for French Bulldogs
