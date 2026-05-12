@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/29220043/pexels-photo-29220043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29220043/pexels-photo-29220043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a Bernese Mountain Dog with long fur outdoors on a sunny day."
+imageAlt: "Portrait of a Bernese Mountain Dog with long fur outdoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Gundula Vogel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bernese-mountain-dog-in-outdoor-setting-29220043/"
+imageSearchQuery: "Greater Swiss Mountain Dog dog portrait"
 ---
+
 
 Naming a Greater Swiss Mountain Dog is your first chance to match a name to a personality — and Greater Swiss Mountain Dogs have a distinct one: **Faithful, Family-Oriented, Dependable**.
 The best Greater Swiss Mountain Dog names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Greater Swiss Mountain Dog's breed profile to give you the most matched options.

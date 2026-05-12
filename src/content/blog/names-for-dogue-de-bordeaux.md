@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/846292/pexels-photo-846292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/846292/pexels-photo-846292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A striking black and white portrait of a Boxer dog with dark and dramatic studio lighting, capturing its expressive eye."
+imageAlt: "A striking black and white portrait of a Boxer dog with dark and dramatic studio lighting, capturing its expressive eye."
+imageSource: "pexels"
+imageCredit: "Photo by Frank Schrodt on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-short-coated-dog-846292/"
+imageSearchQuery: "Dogue de Bordeaux dog portrait"
 ---
+
 
 Naming a Dogue de Bordeaux is your first chance to match a name to a personality — and Dogue de Bordeauxs have a distinct one: **Affectionate, Loyal, Courageous**.
 The best Dogue de Bordeaux names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Dogue de Bordeaux's breed profile to give you the most matched options.

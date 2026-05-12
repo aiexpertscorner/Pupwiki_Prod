@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/36330660/pexels-photo-36330660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36330660/pexels-photo-36330660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Dalmatian dog resting peacefully on the floor indoors, showcasing its unique black and white spots."
+imageAlt: "A Dalmatian dog resting peacefully on the floor indoors, showcasing its unique black and white spots."
+imageSource: "pexels"
+imageCredit: "Photo by Ayron Junior on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-relaxing-dalmatian-dog-indoors-36330660/"
+imageSearchQuery: "Dalmatian dog portrait"
 ---
+
 
 Naming a Dalmatian is your first chance to match a name to a personality — and Dalmatians have a distinct one: **Dignified, Smart, Outgoing**.
 The best Dalmatian names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Dalmatian's breed profile to give you the most matched options.

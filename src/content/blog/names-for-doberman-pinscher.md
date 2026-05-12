@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/13624062/pexels-photo-13624062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13624062/pexels-photo-13624062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Intimate close-up portrait of a Doberman dog showcasing its striking features against a blurred background."
+imageAlt: "Intimate close-up portrait of a Doberman dog showcasing its striking features against a blurred background."
+imageSource: "pexels"
+imageCredit: "Photo by Denitsa Kireva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-13624062/"
+imageSearchQuery: "Doberman Pinscher dog portrait"
 ---
+
 
 Naming a Doberman Pinscher is your first chance to match a name to a personality — and Doberman Pinschers have a distinct one: **Loyal, Fearless, Alert**.
 The best Doberman Pinscher names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Doberman Pinscher's breed profile to give you the most matched options.

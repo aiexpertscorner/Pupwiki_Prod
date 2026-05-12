@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop."
+imageAlt: "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop."
+imageSource: "pexels"
+imageCredit: "Photo by Masood Aslami on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/"
+imageSearchQuery: "Flat-Coated Retriever dog portrait"
 ---
+
 
 Naming a Flat-Coated Retriever is your first chance to match a name to a personality — and Flat-Coated Retrievers have a distinct one: **Cheerful, Optimistic, Good-Humored**.
 The best Flat-Coated Retriever names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Flat-Coated Retriever's breed profile to give you the most matched options.

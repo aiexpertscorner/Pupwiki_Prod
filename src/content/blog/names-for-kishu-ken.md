@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/15336364/pexels-photo-15336364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15336364/pexels-photo-15336364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A captivating close-up portrait of a white dog outdoors, displaying natural beauty."
+imageAlt: "A captivating close-up portrait of a white dog outdoors, displaying natural beauty."
+imageSource: "pexels"
+imageCredit: "Photo by Shilpa Deekshith on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-15336364/"
+imageSearchQuery: "Kishu Ken dog portrait"
 ---
+
 
 Naming a Kishu Ken is your first chance to match a name to a personality — and Kishu Kens have a distinct one: **Faithful, Noble, Docile**.
 The best Kishu Ken names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Kishu Ken's breed profile to give you the most matched options.

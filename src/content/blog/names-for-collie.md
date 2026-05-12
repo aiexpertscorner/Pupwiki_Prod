@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression."
+imageAlt: "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression."
+imageSource: "pexels"
+imageCredit: "Photo by Tomasz Lemańczyk on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/beautiful-fluffy-collie-26588116/"
+imageSearchQuery: "Collie dog portrait"
 ---
+
 
 Naming a Collie is your first chance to match a name to a personality — and Collies have a distinct one: **Devoted, Graceful, Proud**.
 The best Collie names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Collie's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/10142285/pexels-photo-10142285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10142285/pexels-photo-10142285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Grayscale portrait of a happy dog on a leash outdoors, highlighting its cute expressions."
+imageAlt: "Grayscale portrait of a happy dog on a leash outdoors, highlighting its cute expressions."
+imageSource: "pexels"
+imageCredit: "Photo by Nikita Igonkin on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/grayscale-photo-of-dog-wearing-leash-10142285/"
+imageSearchQuery: "Karelian Bear Dog dog portrait"
 ---
+
 
 Naming a Karelian Bear Dog is your first chance to match a name to a personality — and Karelian Bear Dogs have a distinct one: **Loyal, Independent, Courageous**.
 The best Karelian Bear Dog names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Karelian Bear Dog's breed profile to give you the most matched options.

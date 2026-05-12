@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/5957667/pexels-photo-5957667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5957667/pexels-photo-5957667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming portrait of a Czechoslovakian Wolfdog enjoying a sunny day outdoors."
+imageAlt: "Charming portrait of a Czechoslovakian Wolfdog enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Kanashi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-and-black-short-coated-dog-5957667/"
+imageSearchQuery: "Czechoslovakian Vlcak dog portrait"
 ---
+
 
 Naming a Czechoslovakian Vlcak is your first chance to match a name to a personality — and Czechoslovakian Vlcaks have a distinct one: **Loyal, Intelligent, Active**.
 The best Czechoslovakian Vlcak names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Czechoslovakian Vlcak's breed profile to give you the most matched options.

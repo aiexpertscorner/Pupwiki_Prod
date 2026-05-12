@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/15704644/pexels-photo-15704644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15704644/pexels-photo-15704644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a Chihuahua dog with an alert expression."
+imageAlt: "A detailed close-up portrait of a Chihuahua dog with an alert expression."
+imageSource: "pexels"
+imageCredit: "Photo by Cuong Duy on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-chihuahua-dog-15704644/"
+imageSearchQuery: "Chihuahua dog portrait"
 ---
+
 
 Naming a Chihuahua is your first chance to match a name to a personality — and Chihuahuas have a distinct one: **Charming, Graceful, Sassy**.
 The best Chihuahua names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Chihuahua's breed profile to give you the most matched options.

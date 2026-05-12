@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/33277353/pexels-photo-33277353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33277353/pexels-photo-33277353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a brindle dog with a gentle expression, set against a soft background."
+imageAlt: "Close-up portrait of a brindle dog with a gentle expression, set against a soft background."
+imageSource: "pexels"
+imageCredit: "Photo by Edu Raw on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brindle-dog-portrait-against-soft-background-33277353/"
+imageSearchQuery: "Kai Ken dog portrait"
 ---
+
 
 Naming a Kai Ken is your first chance to match a name to a personality — and Kai Kens have a distinct one: **Loyal, Agile, Keen**.
 The best Kai Ken names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Kai Ken's breed profile to give you the most matched options.

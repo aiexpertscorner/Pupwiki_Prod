@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/13975382/pexels-photo-13975382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13975382/pexels-photo-13975382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of an adorable mixed breed dog with fluffy ears staring into the camera for a portrait."
+imageAlt: "Close-up of an adorable mixed breed dog with fluffy ears staring into the camera for a portrait."
+imageSource: "pexels"
+imageCredit: "Photo by Fran Soza on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-13975382/"
+imageSearchQuery: "Cirneco dell’Etna dog portrait"
 ---
+
 
 Naming a Cirneco dell’Etna is your first chance to match a name to a personality — and Cirneco dell’Etnas have a distinct one: **Affectionate, Friendly, Independent**.
 The best Cirneco dell’Etna names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Cirneco dell’Etna's breed profile to give you the most matched options.

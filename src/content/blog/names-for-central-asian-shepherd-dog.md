@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/33107951/pexels-photo-33107951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33107951/pexels-photo-33107951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a Central Asian Shepherd dog with its tongue out, captured outdoors in Tbilisi, Georgia."
+imageAlt: "Portrait of a Central Asian Shepherd dog with its tongue out, captured outdoors in Tbilisi, Georgia."
+imageSource: "pexels"
+imageCredit: "Photo by Genadi Yakovlev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-central-asian-shepherd-dog-outdoors-33107951/"
+imageSearchQuery: "Central Asian Shepherd Dog dog portrait"
 ---
+
 
 Naming a Central Asian Shepherd Dog is your first chance to match a name to a personality — and Central Asian Shepherd Dogs have a distinct one: **Independent, Courageous, Self-Confident**.
 The best Central Asian Shepherd Dog names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Central Asian Shepherd Dog's breed profile to give you the most matched options.

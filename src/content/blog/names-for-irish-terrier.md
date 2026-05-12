@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/27998957/pexels-photo-27998957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27998957/pexels-photo-27998957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Jack Russell Terrier dog portrait with charming expression in Belgrade, Serbia."
+imageAlt: "Cute Jack Russell Terrier dog portrait with charming expression in Belgrade, Serbia."
+imageSource: "pexels"
+imageCredit: "Photo by Vladimir Petrovic on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/lollobrigida-27998957/"
+imageSearchQuery: "Irish Terrier dog portrait"
 ---
+
 
 Naming a Irish Terrier is your first chance to match a name to a personality — and Irish Terriers have a distinct one: **Bold, Dashing, Tenderhearted**.
 The best Irish Terrier names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Irish Terrier's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/8660788/pexels-photo-8660788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8660788/pexels-photo-8660788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Side view of a Great Dane dog with a blurred nature background, showcasing its majestic presence."
+imageAlt: "Side view of a Great Dane dog with a blurred nature background, showcasing its majestic presence."
+imageSource: "pexels"
+imageCredit: "Photo by Paparazzi Ratzfatzzi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/side-view-of-a-dog-8660788/"
+imageSearchQuery: "Great Dane dog portrait"
 ---
+
 
 Naming a Great Dane is your first chance to match a name to a personality — and Great Danes have a distinct one: **Friendly, Patient, Dependable**.
 The best Great Dane names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Great Dane's breed profile to give you the most matched options.

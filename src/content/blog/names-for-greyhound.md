@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/13957885/pexels-photo-13957885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13957885/pexels-photo-13957885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a Greyhound dog in an outdoor setting."
+imageAlt: "A detailed close-up portrait of a Greyhound dog in an outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Mao Won on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/greyhound-dog-wearing-collar-in-close-up-photography-13957885/"
+imageSearchQuery: "Greyhound dog portrait"
 ---
+
 
 Naming a Greyhound is your first chance to match a name to a personality — and Greyhounds have a distinct one: **Gentle, Independent, Noble**.
 The best Greyhound names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Greyhound's breed profile to give you the most matched options.

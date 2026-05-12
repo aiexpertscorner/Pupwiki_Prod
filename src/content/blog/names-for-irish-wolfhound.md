@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/32344390/pexels-photo-32344390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32344390/pexels-photo-32344390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A golden dog with a green tag on its ear rests on cobblestone pavement."
+imageAlt: "A golden dog with a green tag on its ear rests on cobblestone pavement."
+imageSource: "pexels"
+imageCredit: "Photo by Doğan Alpaslan  Demir on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-golden-dog-resting-on-cobblestones-32344390/"
+imageSearchQuery: "Irish Wolfhound dog portrait"
 ---
+
 
 Naming a Irish Wolfhound is your first chance to match a name to a personality — and Irish Wolfhounds have a distinct one: **Courageous, Dignified, Calm**.
 The best Irish Wolfhound names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Irish Wolfhound's breed profile to give you the most matched options.

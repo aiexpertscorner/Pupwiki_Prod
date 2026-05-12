@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/26920474/pexels-photo-26920474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26920474/pexels-photo-26920474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A captivating black and white portrait of a Eurasier dog outdoors."
+imageAlt: "A captivating black and white portrait of a Eurasier dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-eurasier-dog-in-black-and-white-26920474/"
+imageSearchQuery: "Eurasier dog portrait"
 ---
+
 
 Naming a Eurasier is your first chance to match a name to a personality — and Eurasiers have a distinct one: **Confident, Calm, Family-Oriented**.
 The best Eurasier names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Eurasier's breed profile to give you the most matched options.

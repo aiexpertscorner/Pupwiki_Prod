@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/2328863/pexels-photo-2328863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/2328863/pexels-photo-2328863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A captivating portrait of a brown Irish Setter dog against a black background with vibrant red collar."
+imageAlt: "A captivating portrait of a brown Irish Setter dog against a black background with vibrant red collar."
+imageSource: "pexels"
+imageCredit: "Photo by Viktor Talashuk on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-dog-2328863/"
+imageSearchQuery: "Irish Setter dog portrait"
 ---
+
 
 Naming a Irish Setter is your first chance to match a name to a personality — and Irish Setters have a distinct one: **Active, Outgoing, Sweet-Natured**.
 The best Irish Setter names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Irish Setter's breed profile to give you the most matched options.

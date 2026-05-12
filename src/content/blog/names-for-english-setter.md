@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and white portrait of a dog in a park, showcasing its elegance and poise."
+imageAlt: "A black and white portrait of a dog in a park, showcasing its elegance and poise."
+imageSource: "pexels"
+imageCredit: "Photo by Altaf Shah on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-on-a-leash-18868925/"
+imageSearchQuery: "English Setter dog portrait"
 ---
+
 
 Naming a English Setter is your first chance to match a name to a personality — and English Setters have a distinct one: **Friendly, Mellow, Merry**.
 The best English Setter names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the English Setter's breed profile to give you the most matched options.

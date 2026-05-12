@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting."
+imageAlt: "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-shetland-sheepdog-outdoors-29955884/"
+imageSearchQuery: "Croatian Sheepdog dog portrait"
 ---
+
 
 Naming a Croatian Sheepdog is your first chance to match a name to a personality — and Croatian Sheepdogs have a distinct one: **Loyal, Active, Alert and Intelligent**.
 The best Croatian Sheepdog names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Croatian Sheepdog's breed profile to give you the most matched options.

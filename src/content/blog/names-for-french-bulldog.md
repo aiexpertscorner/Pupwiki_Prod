@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/32612263/pexels-photo-32612263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32612263/pexels-photo-32612263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a French Bulldog looking upwards with expressive, soulful eyes."
+imageAlt: "Close-up portrait of a French Bulldog looking upwards with expressive, soulful eyes."
+imageSource: "pexels"
+imageCredit: "Photo by Sóc Năng Động on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-french-bulldog-portrait-with-expressive-eyes-32612263/"
+imageSearchQuery: "French Bulldog dog portrait"
 ---
+
 
 Naming a French Bulldog is your first chance to match a name to a personality — and French Bulldogs have a distinct one: **Adaptable, Playful, Smart**.
 The best French Bulldog names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the French Bulldog's breed profile to give you the most matched options.

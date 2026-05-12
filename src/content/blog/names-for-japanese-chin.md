@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/37443717/pexels-photo-37443717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37443717/pexels-photo-37443717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming close-up portrait of a fluffy Pekingese dog with its tongue out, showcasing its playful nature."
+imageAlt: "Charming close-up portrait of a fluffy Pekingese dog with its tongue out, showcasing its playful nature."
+imageSource: "pexels"
+imageCredit: "Photo by Baki Can Aktay on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-black-and-white-pekingese-dog-portrait-37443717/"
+imageSearchQuery: "Japanese Chin dog portrait"
 ---
+
 
 Naming a Japanese Chin is your first chance to match a name to a personality — and Japanese Chins have a distinct one: **Charming, Noble, Loving**.
 The best Japanese Chin names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Japanese Chin's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/29352234/pexels-photo-29352234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29352234/pexels-photo-29352234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy black dog sits amidst colorful autumn leaves in a park setting."
+imageAlt: "A fluffy black dog sits amidst colorful autumn leaves in a park setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/fluffy-black-dog-sitting-on-autumn-leaves-29352234/"
+imageSearchQuery: "Keeshond dog portrait"
 ---
+
 
 Naming a Keeshond is your first chance to match a name to a personality — and Keeshonds have a distinct one: **Friendly, Lively, Outgoing**.
 The best Keeshond names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Keeshond's breed profile to give you the most matched options.

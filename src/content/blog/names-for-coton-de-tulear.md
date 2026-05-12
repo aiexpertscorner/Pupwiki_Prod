@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/14166877/pexels-photo-14166877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14166877/pexels-photo-14166877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable fluffy white dog with long hair standing on a wall outdoors, showing its cute face."
+imageAlt: "Adorable fluffy white dog with long hair standing on a wall outdoors, showing its cute face."
+imageSource: "pexels"
+imageCredit: "Photo by SUNAZ NAZAR on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-white-long-coat-small-dog-on-concrete-pavement-14166877/"
+imageSearchQuery: "Coton de Tulear dog portrait"
 ---
+
 
 Naming a Coton de Tulear is your first chance to match a name to a personality — and Coton de Tulears have a distinct one: **Charming, Bright, Happy-Go-Lucky**.
 The best Coton de Tulear names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Coton de Tulear's breed profile to give you the most matched options.

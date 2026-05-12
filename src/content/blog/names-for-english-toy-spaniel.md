@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/30633883/pexels-photo-30633883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30633883/pexels-photo-30633883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Elegant black and white portrait of a Cocker Spaniel dog with long fur."
+imageAlt: "Elegant black and white portrait of a Cocker Spaniel dog with long fur."
+imageSource: "pexels"
+imageCredit: "Photo by Aadi Photography on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-a-cocker-spaniel-30633883/"
+imageSearchQuery: "English Toy Spaniel dog portrait"
 ---
+
 
 Naming a English Toy Spaniel is your first chance to match a name to a personality — and English Toy Spaniels have a distinct one: **Gentle, Playful, Intelligent**.
 The best English Toy Spaniel names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the English Toy Spaniel's breed profile to give you the most matched options.

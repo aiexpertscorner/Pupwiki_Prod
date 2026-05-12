@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/15336364/pexels-photo-15336364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15336364/pexels-photo-15336364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A captivating close-up portrait of a white dog outdoors, displaying natural beauty."
+imageAlt: "A captivating close-up portrait of a white dog outdoors, displaying natural beauty."
+imageSource: "pexels"
+imageCredit: "Photo by Shilpa Deekshith on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-15336364/"
+imageSearchQuery: "Jindo dog portrait"
 ---
+
 
 Naming a Jindo is your first chance to match a name to a personality — and Jindos have a distinct one: **Alert, Intelligent, Bold**.
 The best Jindo names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Jindo's breed profile to give you the most matched options.

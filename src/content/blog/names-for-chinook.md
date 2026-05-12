@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/16465592/pexels-photo-16465592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16465592/pexels-photo-16465592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable close-up portrait of a happy dog looking upwards with a joyful expression."
+imageAlt: "Adorable close-up portrait of a happy dog looking upwards with a joyful expression."
+imageSource: "pexels"
+imageCredit: "Photo by Mia X on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-chinook-16465592/"
+imageSearchQuery: "Chinook dog portrait"
 ---
+
 
 Naming a Chinook is your first chance to match a name to a personality — and Chinooks have a distinct one: **Smart, Patient, Devoted**.
 The best Chinook names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Chinook's breed profile to give you the most matched options.

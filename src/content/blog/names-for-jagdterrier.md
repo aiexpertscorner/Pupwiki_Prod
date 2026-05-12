@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/11654136/pexels-photo-11654136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11654136/pexels-photo-11654136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a curious Miniature Pinscher dog outdoors, showcasing its alert expression."
+imageAlt: "Close-up portrait of a curious Miniature Pinscher dog outdoors, showcasing its alert expression."
+imageSource: "pexels"
+imageCredit: "Photo by adrian vieriu on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-miniature-pinscher-11654136/"
+imageSearchQuery: "Jagdterrier dog portrait"
 ---
+
 
 Naming a Jagdterrier is your first chance to match a name to a personality — and Jagdterriers have a distinct one: **Courageous, Intelligent, Hardworking**.
 The best Jagdterrier names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Jagdterrier's breed profile to give you the most matched options.

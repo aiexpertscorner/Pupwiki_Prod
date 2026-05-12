@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming black and white portrait of a smiling dog in an outdoor setting."
+imageAlt: "Charming black and white portrait of a smiling dog in an outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/"
+imageSearchQuery: "Drever dog portrait"
 ---
+
 
 Naming a Drever is your first chance to match a name to a personality — and Drevers have a distinct one: **Loyal, Even-Tempered, Determined**.
 The best Drever names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Drever's breed profile to give you the most matched options.

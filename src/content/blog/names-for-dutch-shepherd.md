@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/20522599/pexels-photo-20522599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20522599/pexels-photo-20522599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of an adult German Shepherd dog outdoors, showcasing its fluffy coat and alert expression."
+imageAlt: "Portrait of an adult German Shepherd dog outdoors, showcasing its fluffy coat and alert expression."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-german-shepherd-puppy-20522599/"
+imageSearchQuery: "Dutch Shepherd dog portrait"
 ---
+
 
 Naming a Dutch Shepherd is your first chance to match a name to a personality — and Dutch Shepherds have a distinct one: **Intelligent, Lively, Athletic**.
 The best Dutch Shepherd names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Dutch Shepherd's breed profile to give you the most matched options.

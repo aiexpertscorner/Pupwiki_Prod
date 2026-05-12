@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/9956248/pexels-photo-9956248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9956248/pexels-photo-9956248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a cute Shiba Inu dog yawning outdoors."
+imageAlt: "Close-up portrait of a cute Shiba Inu dog yawning outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Maksim Goncharenok on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-white-and-brown-shiba-inu-dog-9956248/"
+imageSearchQuery: "Hokkaido dog portrait"
 ---
+
 
 Naming a Hokkaido is your first chance to match a name to a personality — and Hokkaidos have a distinct one: **Dignified, Alert, Devoted**.
 The best Hokkaido names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Hokkaido's breed profile to give you the most matched options.

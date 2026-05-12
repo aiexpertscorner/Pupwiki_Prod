@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a brown and white dog with a collar, looking thoughtful against a blurred background."
+imageAlt: "Portrait of a brown and white dog with a collar, looking thoughtful against a blurred background."
+imageSource: "pexels"
+imageCredit: "Photo by Marina Riijik on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dog-20080179/"
+imageSearchQuery: "Ibizan Hound dog portrait"
 ---
+
 
 Naming a Ibizan Hound is your first chance to match a name to a personality — and Ibizan Hounds have a distinct one: **Family-Oriented, Even-Tempered, Polite**.
 The best Ibizan Hound names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Ibizan Hound's breed profile to give you the most matched options.

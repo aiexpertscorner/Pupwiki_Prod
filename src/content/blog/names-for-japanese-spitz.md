@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/34404744/pexels-photo-34404744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34404744/pexels-photo-34404744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable close-up of a fluffy white dog with pointed ears in a natural setting."
+imageAlt: "Adorable close-up of a fluffy white dog with pointed ears in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-fluffy-white-dog-outdoors-34404744/"
+imageSearchQuery: "Japanese Spitz dog portrait"
 ---
+
 
 Naming a Japanese Spitz is your first chance to match a name to a personality — and Japanese Spitzs have a distinct one: **Loyal, Playful, Smart**.
 The best Japanese Spitz names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Japanese Spitz's breed profile to give you the most matched options.

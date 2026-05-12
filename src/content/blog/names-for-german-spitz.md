@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/19454511/pexels-photo-19454511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19454511/pexels-photo-19454511.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a fluffy dog on a forest path during fall."
+imageAlt: "Close-up portrait of a fluffy dog on a forest path during fall."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-dog-on-a-path-in-forest-19454511/"
+imageSearchQuery: "German Spitz dog portrait"
 ---
+
 
 Naming a German Spitz is your first chance to match a name to a personality — and German Spitzs have a distinct one: **Devoted, Lively, Attentive**.
 The best German Spitz names lean toward names that match their unique character. We filtered our database of 7,000+ names through the German Spitz's breed profile to give you the most matched options.

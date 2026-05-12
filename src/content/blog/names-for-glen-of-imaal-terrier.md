@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/4395469/pexels-photo-4395469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4395469/pexels-photo-4395469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of an adorable white terrier dog with a furry coat. Perfect for pet lovers."
+imageAlt: "Close-up of an adorable white terrier dog with a furry coat. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by George Orta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/selective-focus-photo-of-a-white-terrier-dog-4395469/"
+imageSearchQuery: "Glen of Imaal Terrier dog portrait"
 ---
+
 
 Naming a Glen of Imaal Terrier is your first chance to match a name to a personality — and Glen of Imaal Terriers have a distinct one: **Gentle, Spirited, Bold**.
 The best Glen of Imaal Terrier names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Glen of Imaal Terrier's breed profile to give you the most matched options.

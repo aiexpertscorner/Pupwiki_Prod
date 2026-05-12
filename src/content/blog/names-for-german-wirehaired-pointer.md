@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/28594184/pexels-photo-28594184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28594184/pexels-photo-28594184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Wirehaired dog enjoys a peaceful walk in a serene autumn forest."
+imageAlt: "Wirehaired dog enjoys a peaceful walk in a serene autumn forest."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/wirehaired-dog-in-autumn-forest-setting-28594184/"
+imageSearchQuery: "German Wirehaired Pointer dog portrait"
 ---
+
 
 Naming a German Wirehaired Pointer is your first chance to match a name to a personality — and German Wirehaired Pointers have a distinct one: **Affectionate, Eager, Enthusiastic**.
 The best German Wirehaired Pointer names lean toward names that match their unique character. We filtered our database of 7,000+ names through the German Wirehaired Pointer's breed profile to give you the most matched options.

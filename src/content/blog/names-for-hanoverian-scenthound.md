@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/35813398/pexels-photo-35813398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35813398/pexels-photo-35813398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a noble brown dog with a calm gaze, showcasing its attentive nature."
+imageAlt: "Portrait of a noble brown dog with a calm gaze, showcasing its attentive nature."
+imageSource: "pexels"
+imageCredit: "Photo by Gundula Vogel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/majestic-dog-portrait-with-calm-expression-35813398/"
+imageSearchQuery: "Hanoverian Scenthound dog portrait"
 ---
+
 
 Naming a Hanoverian Scenthound is your first chance to match a name to a personality — and Hanoverian Scenthounds have a distinct one: **Loyal, Independent, Calm**.
 The best Hanoverian Scenthound names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Hanoverian Scenthound's breed profile to give you the most matched options.

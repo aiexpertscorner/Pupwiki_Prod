@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/18859721/pexels-photo-18859721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18859721/pexels-photo-18859721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a golden retriever dog outdoors, showcasing its thoughtful gaze in natural light."
+imageAlt: "Close-up of a golden retriever dog outdoors, showcasing its thoughtful gaze in natural light."
+imageSource: "pexels"
+imageCredit: "Photo by Rajesh S  Balouria on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-retriever-dog-tied-with-a-chain-18859721/"
+imageSearchQuery: "Chesapeake Bay Retriever dog portrait"
 ---
+
 
 Naming a Chesapeake Bay Retriever is your first chance to match a name to a personality — and Chesapeake Bay Retrievers have a distinct one: **Affectionate, Bright, Sensitive**.
 The best Chesapeake Bay Retriever names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Chesapeake Bay Retriever's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/37297117/pexels-photo-37297117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37297117/pexels-photo-37297117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a brown and white dog with alert eyes indoors."
+imageAlt: "A close-up portrait of a brown and white dog with alert eyes indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Harshit Mehta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-portrait-of-a-brown-and-white-dog-indoors-37297117/"
+imageSearchQuery: "Danish-Swedish Farmdog dog portrait"
 ---
+
 
 Naming a Danish-Swedish Farmdog is your first chance to match a name to a personality — and Danish-Swedish Farmdogs have a distinct one: **Energetic, Trainable, Attentive**.
 The best Danish-Swedish Farmdog names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Danish-Swedish Farmdog's breed profile to give you the most matched options.

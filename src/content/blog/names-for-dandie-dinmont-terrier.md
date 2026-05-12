@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/27960004/pexels-photo-27960004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27960004/pexels-photo-27960004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a cute terrier dog looking intently, highlighting its fluffy fur and bright eyes."
+imageAlt: "Close-up portrait of a cute terrier dog looking intently, highlighting its fluffy fur and bright eyes."
+imageSource: "pexels"
+imageCredit: "Photo by Gundula Vogel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/kleiner-hund-portrat-27960004/"
+imageSearchQuery: "Dandie Dinmont Terrier dog portrait"
 ---
+
 
 Naming a Dandie Dinmont Terrier is your first chance to match a name to a personality — and Dandie Dinmont Terriers have a distinct one: **Independent, Smart, Proud**.
 The best Dandie Dinmont Terrier names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Dandie Dinmont Terrier's breed profile to give you the most matched options.
