@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bulldog"
 breedName: "Bulldog"
 canonicalUrl: "https://pupwiki.com/blog/bulldog-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/36980025/pexels-photo-36980025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36980025/pexels-photo-36980025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable French Bulldog panting outdoors. Perfect for pet lovers and animal enthusiasts."
+imageAlt: "Adorable French Bulldog panting outdoors. Perfect for pet lovers and animal enthusiasts."
+imageSource: "pexels"
+imageCredit: "Photo by Sóc Năng Động on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-french-bulldog-outdoors-36980025/"
+imageSearchQuery: "Bulldog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bulldogs

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bullmastiff"
 breedName: "Bullmastiff"
 canonicalUrl: "https://pupwiki.com/blog/bullmastiff-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/8368960/pexels-photo-8368960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8368960/pexels-photo-8368960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of a Bullmastiff dog with a red bandana, showcasing its expressive eyes and strong build outdoors."
+imageAlt: "A detailed close-up of a Bullmastiff dog with a red bandana, showcasing its expressive eyes and strong build outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Saeed Khokhar on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-on-leash-8368960/"
+imageSearchQuery: "Bullmastiff dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bullmastiffs

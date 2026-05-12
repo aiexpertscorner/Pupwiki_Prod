@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bull-terrier"
 breedName: "Bull Terrier"
 canonicalUrl: "https://pupwiki.com/blog/bull-terrier-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/17037649/pexels-photo-17037649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/17037649/pexels-photo-17037649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Bull Terrier dog with tongue out against a black background."
+imageAlt: "Close-up portrait of a Bull Terrier dog with tongue out against a black background."
+imageSource: "pexels"
+imageCredit: "Photo by Kenny Fotos CR on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dog-head-17037649/"
+imageSearchQuery: "Bull Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bull Terriers

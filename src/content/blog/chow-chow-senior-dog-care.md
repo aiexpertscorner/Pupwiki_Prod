@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "chow-chow"
 breedName: "Chow Chow"
 canonicalUrl: "https://pupwiki.com/blog/chow-chow-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/29352230/pexels-photo-29352230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29352230/pexels-photo-29352230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a fluffy black dog with autumn leaves in the background."
+imageAlt: "Close-up portrait of a fluffy black dog with autumn leaves in the background."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/fluffy-black-dog-in-autumn-park-portrait-29352230/"
+imageSearchQuery: "Chow Chow dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Chow Chows

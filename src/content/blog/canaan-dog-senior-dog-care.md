@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "canaan-dog"
 breedName: "Canaan Dog"
 canonicalUrl: "https://pupwiki.com/blog/canaan-dog-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/31501540/pexels-photo-31501540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31501540/pexels-photo-31501540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a mixed breed dog lying on grass, showcasing its calm demeanor."
+imageAlt: "Close-up portrait of a mixed breed dog lying on grass, showcasing its calm demeanor."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-mixed-breed-dog-relaxing-on-grass-31501540/"
+imageSearchQuery: "Canaan Dog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Canaan Dogs

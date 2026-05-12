@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "chinese-crested"
 breedName: "Chinese Crested"
 canonicalUrl: "https://pupwiki.com/blog/chinese-crested-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/33063604/pexels-photo-33063604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33063604/pexels-photo-33063604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a white-haired Chinese Crested dog with prominent ears and serene expression."
+imageAlt: "Close-up portrait of a white-haired Chinese Crested dog with prominent ears and serene expression."
+imageSource: "pexels"
+imageCredit: "Photo by Veronika Andrews on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-chinese-crested-dog-with-long-hair-33063604/"
+imageSearchQuery: "Chinese Crested dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Chinese Cresteds

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "brittany"
 breedName: "Brittany"
 canonicalUrl: "https://pupwiki.com/blog/brittany-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/7068893/pexels-photo-7068893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7068893/pexels-photo-7068893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Side profile of a Brittany Spaniel dog in a green park, featuring a soft focus background."
+imageAlt: "Side profile of a Brittany Spaniel dog in a green park, featuring a soft focus background."
+imageSource: "pexels"
+imageCredit: "Photo by Ilo Frey on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-white-and-brown-dog-7068893/"
+imageSearchQuery: "Brittany dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Brittanys

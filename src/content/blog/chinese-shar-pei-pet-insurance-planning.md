@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "chinese-shar-pei"
 breedName: "Chinese Shar-Pei"
 canonicalUrl: "https://pupwiki.com/blog/chinese-shar-pei-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/12778782/pexels-photo-12778782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12778782/pexels-photo-12778782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene close-up portrait of a brown Shar Pei dog with distinct wrinkles, set against a dark background."
+imageAlt: "A serene close-up portrait of a brown Shar Pei dog with distinct wrinkles, set against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Kevin Watkins on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-shar-pei-dog-12778782/"
+imageSearchQuery: "Chinese Shar-Pei dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Chinese Shar-Peis

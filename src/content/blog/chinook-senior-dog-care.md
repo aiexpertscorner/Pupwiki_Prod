@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "chinook"
 breedName: "Chinook"
 canonicalUrl: "https://pupwiki.com/blog/chinook-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/16465592/pexels-photo-16465592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16465592/pexels-photo-16465592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable close-up portrait of a happy dog looking upwards with a joyful expression."
+imageAlt: "Adorable close-up portrait of a happy dog looking upwards with a joyful expression."
+imageSource: "pexels"
+imageCredit: "Photo by Mia X on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-chinook-16465592/"
+imageSearchQuery: "Chinook dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Chinooks

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "cirneco-delletna"
 breedName: "Cirneco dell’Etna"
 canonicalUrl: "https://pupwiki.com/blog/cirneco-delletna-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/13975382/pexels-photo-13975382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13975382/pexels-photo-13975382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of an adorable mixed breed dog with fluffy ears staring into the camera for a portrait."
+imageAlt: "Close-up of an adorable mixed breed dog with fluffy ears staring into the camera for a portrait."
+imageSource: "pexels"
+imageCredit: "Photo by Fran Soza on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-13975382/"
+imageSearchQuery: "Cirneco dell’Etna dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Cirneco dell’Etnas

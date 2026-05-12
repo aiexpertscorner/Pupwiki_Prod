@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "chihuahua"
 breedName: "Chihuahua"
 canonicalUrl: "https://pupwiki.com/blog/chihuahua-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/15704644/pexels-photo-15704644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15704644/pexels-photo-15704644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a Chihuahua dog with an alert expression."
+imageAlt: "A detailed close-up portrait of a Chihuahua dog with an alert expression."
+imageSource: "pexels"
+imageCredit: "Photo by Cuong Duy on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-chihuahua-dog-15704644/"
+imageSearchQuery: "Chihuahua dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Chihuahuas

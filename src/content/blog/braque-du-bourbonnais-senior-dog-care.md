@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "braque-du-bourbonnais"
 breedName: "Braque du Bourbonnais"
 canonicalUrl: "https://pupwiki.com/blog/braque-du-bourbonnais-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/37297117/pexels-photo-37297117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37297117/pexels-photo-37297117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a brown and white dog with alert eyes indoors."
+imageAlt: "A close-up portrait of a brown and white dog with alert eyes indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Harshit Mehta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-portrait-of-a-brown-and-white-dog-indoors-37297117/"
+imageSearchQuery: "Braque du Bourbonnais dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Braque du Bourbonnaiss

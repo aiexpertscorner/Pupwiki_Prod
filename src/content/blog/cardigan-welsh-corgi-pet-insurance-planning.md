@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "cardigan-welsh-corgi"
 breedName: "Cardigan Welsh Corgi"
 canonicalUrl: "https://pupwiki.com/blog/cardigan-welsh-corgi-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/8198647/pexels-photo-8198647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8198647/pexels-photo-8198647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Crop anonymous owner with cute Welsh Corgi dog in arms standing near blooming apple tree branches in garden against blurred background"
+imageAlt: "Crop anonymous owner with cute Welsh Corgi dog in arms standing near blooming apple tree branches in garden against blurred background"
+imageSource: "pexels"
+imageCredit: "Photo by Valeria Boltneva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/unrecognizable-owner-with-corgi-near-blooming-branches-8198647/"
+imageSearchQuery: "Cardigan Welsh Corgi dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Cardigan Welsh Corgis

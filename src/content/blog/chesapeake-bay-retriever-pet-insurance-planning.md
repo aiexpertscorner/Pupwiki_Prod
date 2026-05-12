@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "chesapeake-bay-retriever"
 breedName: "Chesapeake Bay Retriever"
 canonicalUrl: "https://pupwiki.com/blog/chesapeake-bay-retriever-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/18859721/pexels-photo-18859721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18859721/pexels-photo-18859721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a golden retriever dog outdoors, showcasing its thoughtful gaze in natural light."
+imageAlt: "Close-up of a golden retriever dog outdoors, showcasing its thoughtful gaze in natural light."
+imageSource: "pexels"
+imageCredit: "Photo by Rajesh S  Balouria on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-retriever-dog-tied-with-a-chain-18859721/"
+imageSearchQuery: "Chesapeake Bay Retriever dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Chesapeake Bay Retrievers

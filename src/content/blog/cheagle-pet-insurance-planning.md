@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "cheagle"
 breedName: "Cheagle"
 canonicalUrl: "https://pupwiki.com/blog/cheagle-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/20455916/pexels-photo-20455916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20455916/pexels-photo-20455916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a cute dog looking upwards, showcasing curiosity and charm."
+imageAlt: "Close-up portrait of a cute dog looking upwards, showcasing curiosity and charm."
+imageSource: "pexels"
+imageCredit: "Photo by ivi nnnnnn on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-small-puppy-looking-up-20455916/"
+imageSearchQuery: "Cheagle dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Cheagles

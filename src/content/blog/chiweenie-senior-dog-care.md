@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "chiweenie"
 breedName: "Chiweenie"
 canonicalUrl: "https://pupwiki.com/blog/chiweenie-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/20680843/pexels-photo-20680843.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20680843/pexels-photo-20680843.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Intimate close-up portrait of a small brown dog with a gentle expression indoors."
+imageAlt: "Intimate close-up portrait of a small brown dog with a gentle expression indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Tokuo Nobuhiro on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/puppy-dog-animal-20680843/"
+imageSearchQuery: "Chiweenie dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Chiweenies

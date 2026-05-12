@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bracco-italiano"
 breedName: "Bracco Italiano"
 canonicalUrl: "https://pupwiki.com/blog/bracco-italiano-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/28637381/pexels-photo-28637381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28637381/pexels-photo-28637381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of an Italian Spinone dog in a serene field at dusk, capturing calmness and nature."
+imageAlt: "Portrait of an Italian Spinone dog in a serene field at dusk, capturing calmness and nature."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/italian-spinone-dog-in-a-tranquil-field-setting-28637381/"
+imageSearchQuery: "Bracco Italiano dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bracco Italianos

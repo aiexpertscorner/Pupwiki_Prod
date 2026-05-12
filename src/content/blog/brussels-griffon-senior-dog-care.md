@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "brussels-griffon"
 breedName: "Brussels Griffon"
 canonicalUrl: "https://pupwiki.com/blog/brussels-griffon-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/374908/pexels-photo-374908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/374908/pexels-photo-374908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Detailed low light portrait of a pug dog with a thoughtful expression, highlighting its distinctive features."
+imageAlt: "Detailed low light portrait of a pug dog with a thoughtful expression, highlighting its distinctive features."
+imageSource: "pexels"
+imageCredit: "Photo by Burst on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/low-light-photo-of-pug-374908/"
+imageSearchQuery: "Brussels Griffon dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Brussels Griffons

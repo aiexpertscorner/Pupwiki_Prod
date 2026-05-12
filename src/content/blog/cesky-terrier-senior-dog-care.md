@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "cesky-terrier"
 breedName: "Cesky Terrier"
 canonicalUrl: "https://pupwiki.com/blog/cesky-terrier-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/35102547/pexels-photo-35102547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35102547/pexels-photo-35102547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed side profile portrait of a wirehaired dog in an indoor setting, showcasing its distinct fur texture and colors."
+imageAlt: "A detailed side profile portrait of a wirehaired dog in an indoor setting, showcasing its distinct fur texture and colors."
+imageSource: "pexels"
+imageCredit: "Photo by Jesús Esteban San José on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-wirehaired-dog-35102547/"
+imageSearchQuery: "Cesky Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Cesky Terriers
