@@ -1,0 +1,97 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Page not found — PupWiki"
+  description="The page you were looking for doesn't exist. Browse our breed guides, blog, or use the links below to find what you need."
+  canonicalUrl="https://pupwiki.com/404"
+>
+  <main class="not-found">
+    <div class="not-found__inner">
+      <p class="not-found__eyebrow">404</p>
+      <h1 class="not-found__heading">Page not found</h1>
+      <p class="not-found__sub">
+        That URL doesn't exist on PupWiki. It may have moved or been removed.
+      </p>
+
+      <nav class="not-found__links" aria-label="Helpful navigation">
+        <a href="/" class="not-found__btn not-found__btn--primary">← Home</a>
+        <a href="/breeds/" class="not-found__btn">Browse breeds</a>
+        <a href="/blog/" class="not-found__btn">Dog care blog</a>
+        <a href="/cost-calculator/" class="not-found__btn">Cost calculator</a>
+      </nav>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    padding: var(--space-12) var(--space-4);
+    text-align: center;
+  }
+
+  .not-found__inner {
+    max-width: 480px;
+  }
+
+  .not-found__eyebrow {
+    font-size: var(--text-5xl, 4rem);
+    font-weight: 800;
+    color: var(--color-accent);
+    line-height: 1;
+    margin: 0 0 var(--space-2);
+  }
+
+  .not-found__heading {
+    font-size: var(--text-3xl, 1.875rem);
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin: 0 0 var(--space-4);
+  }
+
+  .not-found__sub {
+    color: var(--color-text-muted);
+    margin: 0 0 var(--space-8);
+    line-height: 1.6;
+  }
+
+  .not-found__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    justify-content: center;
+  }
+
+  .not-found__btn {
+    display: inline-block;
+    padding: var(--space-2) var(--space-5);
+    border-radius: var(--radius-md, 0.5rem);
+    border: 2px solid var(--color-border);
+    color: var(--color-text-primary);
+    font-weight: 600;
+    text-decoration: none;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .not-found__btn:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
+  .not-found__btn--primary {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
+  }
+
+  .not-found__btn--primary:hover {
+    background: var(--color-accent-hover);
+    border-color: var(--color-accent-hover);
+    color: #fff;
+  }
+</style>

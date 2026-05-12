@@ -1,41 +1,532 @@
 {
-  "generatedAt": "2026-05-01T02:33:12.933Z",
-  "totalProducts": 90,
-  "enabledProducts": 32,
-  "enabledWithAffiliateUrl": 32,
-  "liveEligible": 32,
-  "disabledProducts": 58,
-  "byCategoryGroup": {
-    "grooming_shedding": 10,
-    "toys_enrichment": 9,
-    "crates_gates_home": 6,
-    "food_bowls_feeding": 8,
-    "puppy_starter": 6,
-    "walking_harness_leash": 9,
-    "beds_comfort": 7,
-    "cleanup_odor": 7,
-    "travel_safety": 8,
-    "treats_training": 8,
-    "tech_tracking": 5,
-    "health_adjacent": 7
+  "generatedAt": "2026-05-12T18:30:27.379Z",
+  "source": "product-index.json",
+  "summary": {
+    "total": 125,
+    "active": 125,
+    "withValidAsin": 125,
+    "withImage": 125,
+    "withLocalImage": 3,
+    "withRating": 125,
+    "withEditorialScore": 125,
+    "priceFresh": 0,
+    "priceStale": 125,
+    "priceMissing": 0
   },
-  "liveByCategoryGroup": {
-    "grooming_shedding": 4,
-    "toys_enrichment": 4,
-    "crates_gates_home": 2,
-    "food_bowls_feeding": 2,
-    "puppy_starter": 3,
-    "walking_harness_leash": 3,
-    "beds_comfort": 2,
-    "cleanup_odor": 5,
-    "travel_safety": 1,
-    "treats_training": 4,
-    "tech_tracking": 1,
-    "health_adjacent": 1
+  "byCategory": {
+    "dog-food": 24,
+    "toys": 20,
+    "beds": 13,
+    "health": 15,
+    "training": 9,
+    "grooming": 12,
+    "supplements": 10,
+    "travel": 5,
+    "smart-tech": 10,
+    "lifestyle": 7
   },
-  "byComplianceRisk": {
-    "low": 81,
-    "medium": 9
-  },
-  "enabledMissingLink": []
+  "asinMissing": [],
+  "imageMissing": [],
+  "priceStale": [
+    {
+      "id": "purina-pro-plan-large-breed",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "blue-buffalo-life-protection",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "hills-science-diet-large-breed",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "royal-canin-large-breed",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "taste-of-the-wild",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "wellness-core-large-breed",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "iams-large-breed",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "merrick-senior",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "purina-pro-plan-puppy",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "royal-canin-sensitive-digestion",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "hills-metabolic-weight",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "blue-buffalo-wilderness-large",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "the-farmers-dog",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "open-farm-grass-fed-beef",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "ollie-fresh-food",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "stella-chewys-freeze-dried",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "nulo-freestyle-puppy",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "wild-earth-vegan-protein",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "merrick-limited-ingredient-salmon",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "purina-pro-plan-liveclear",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "orijen-small-breed",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "native-pet-probiotic-powder",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "brutus-broth-bone-broth",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "instinct-raw-boost-mixers",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "kong-extreme",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "goughnuts-maxx",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "west-paw-hurley",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "chuckit-ultra-ball",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "nina-ottosson-dog-tornado",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "kong-classic",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "lickimat-slow-feeder",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "benebone-wishbone",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "hide-a-squirrel",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "kong-wobbler",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "chuckit-flying-squirrel",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "nylabone-durachew",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "nina-ottosson-dog-brick",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "west-paw-toppl",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "snuffle-mat-grass",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "starmark-bob-a-lot",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "goughnuts-ring",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "wobble-wag-giggle",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "petsafe-ball-launcher",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "cleverpet-hub",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "big-barker-orthopedic",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "friends-forever-orthopedic",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "kh-elevated-bed",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "furhaven-plush",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "coolaroo-elevated",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "kh-self-warming-bed",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "best-friends-donut-bed",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "petfusion-ultimate-bed",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "casper-dog-bed",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "yeti-trailhead-dog-bed",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "fable-pet-bed",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "wiggles-wags-cooling-vest",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "sleepypod-mobile-pet-bed",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "embark-dna-test",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "wisdom-panel-essential",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "nexgard-flea-tick",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "seresto-flea-collar",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "vetericyn-wound-care",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "zymox-ear-solution",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "pet-md-dental-wipes",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "greenies-dental-treats",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "adaptil-dap-diffuser",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "vets-best-dental-gel",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "pet-cbd-calming-chews",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "basepaws-gut-microbiome",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "fitpaws-balancing-disk",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "lulus-kitchen-dehydrated-organs",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "hyper-pet-iq-treat-mat",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "fi-series-3-gps",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "whistle-go-explore",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "rabbitgoo-no-pull-harness",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "ruffwear-front-range",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "petsafe-gentle-leader",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "flexi-retractable-leash",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "lupine-martingale-collar",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "mighty-paw-bungee-leash",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "julius-k9-harness",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "furminator-deshedding",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "andis-premium-comb",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "hertzko-slicker-brush",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "safari-nail-trimmer",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "burts-bees-shampoo",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "wahl-calming-shampoo",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "chris-christensen-big-g",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "aquapaw-bathing-tool",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "bodhi-dog-waterless-shampoo",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "burts-bees-oatmeal-shampoo",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "mushers-secret-paw-wax",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "skouts-honor-probiotic-spray",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "nutramax-cosequin",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "zesty-paws-multivitamin",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "zesty-paws-salmon-oil",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "zesty-paws-mobility",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "fortiflora-probiotic",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "vetri-science-calming",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "grizzly-salmon-oil",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "pet-releaf-hemp-oil",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "glandex-fiber-chews",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "avoderm-skin-coat",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "sherpa-travel-bag",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "kurgo-car-seat-cover",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "ruffwear-travel-bowl",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "diggs-revol-crate",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "kurgo-tru-fit-harness",
+      "updated": "2026-03-20"
+    },
+    {
+      "id": "satellai-ai-health-collar",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "petpace-smart-collar",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "fi-series-4-gps",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "furbo-360-ai-camera",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "whistle-switch-smart-health",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "tractive-gps-dog-4",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "petcube-bites-2-lite",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "fitbark-dog-activity-monitor",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "basepaws-breed-health-dna",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "surepet-microchip-feeder",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "wild-one-harness",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "atlas-lifetime-leash",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "earth-rated-poop-bags",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "dexas-mudbuster",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "modernbeast-ceramic-bowls",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "petfusion-elevated-feeder",
+      "updated": "2026-03-22"
+    },
+    {
+      "id": "zee-dog-mesh-harness",
+      "updated": "2026-03-22"
+    }
+  ]
 }
