@@ -58,10 +58,11 @@
     "preferPoodleMixVariety": true
   },
   "hero": {
-    "eyebrow": "Trusted guidance for dog parents",
-    "title": "Research breeds, plan costs, and care smarter.",
-    "accent": "All in one place.",
-    "subtitle": "PupWiki helps dog parents compare breeds and mixed breeds, understand health and care needs, explore training and lifestyle guidance, and make more confident ownership decisions.",
+    "eyebrow": "All your dog information in one place",
+  "title": "Helpful dog information, guides and tools.",
+  "accent": "All in one place.",
+  "subtitle": "Explore breeds and mixes, estimate costs, find names, compare care needs, and get practical help with health, training, food, grooming, products and services."
+},
     "primaryCta": {
       "label": "Explore Breeds",
       "href": "/breeds"
