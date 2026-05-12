@@ -33,18 +33,15 @@ const index = readFileSync(files.index, 'utf8');
 const clean = readFileSync(files.clean, 'utf8');
 const genericHeroCss = readFileSync(files.genericHeroCss, 'utf8');
 
-// pw-hero-v3 namespace — all defined in HomeHeroClean.astro's own <style> block
+// pw-hero namespace — all defined in HomeHeroClean.astro's own <style> block
 const requiredComponentClasses = [
-  'pw-hero-v3',
-  'pw-hero-v3__grid',
-  'pw-hero-v3__content',
-  'pw-hero-v3__visual',
-  'pw-hero-v3__image-card',
-  'pw-hero-v3__insight-card',
-  'pw-hero-v3__actions',
-  'pw-hero-v3__quick-links',
-  'pw-hero-v3__stats',
-  'pw-hero-v3__features',
+  'pw-hero',
+  'pw-hero__shell',
+  'pw-hero__content',
+  'pw-hero__title',
+  'pw-hero__actions',
+  'pw-hero__trust',
+  'pw-hero__card',
 ];
 
 const bannedLegacyClasses = [

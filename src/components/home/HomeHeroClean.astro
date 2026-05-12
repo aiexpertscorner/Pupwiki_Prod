@@ -1,16 +1,9 @@
 ---
 /**
- * HomeHeroClean.astro — PupWiki homepage hero v3
- *
- * Goals:
- * - Matches the supplied mockup direction: editorial, premium, warm, trusted.
- * - Mobile-first and desktop-polished.
- * - Uses existing PupWiki design tokens from tokens.css.
- * - No Tailwind dependency required inside this component; safe in Astro builds.
- * - Static hero, no rotator, no layout shift.
+ * HomeHeroClean.astro — PupWiki homepage hero v4
+ * Full-bleed photo background with dark navy overlay, serif headline,
+ * orange accent, CTA pair, trust badges, and floating search card.
  */
-
-import heroImageData from '../../data/home-hero-images.json';
 
 export interface Cta {
   label: string;
@@ -18,960 +11,545 @@ export interface Cta {
   ariaLabel?: string;
 }
 
-export interface HeroStat {
-  value: string;
-  label: string;
-  detail?: string;
-  icon?: string;
-}
-
-export interface HeroFeature {
-  icon?: string;
-  title: string;
-  text: string;
-  href?: string;
-  cta?: string;
-}
-
-export interface QuickLink {
-  label: string;
-  href: string;
-  icon?: string;
-}
-
 export interface Props {
   id?: string;
-  eyebrow?: string;
   title?: string;
   accent?: string;
   subtitle?: string;
   primaryCta?: Cta;
   secondaryCta?: Cta;
-  imageSrc?: string;
-  imageAlt?: string;
-  heroCardEyebrow?: string;
-  heroCardText?: string;
-  trustItems?: string[];
-  quickLinks?: QuickLink[];
-  features?: HeroFeature[];
-  stats?: HeroStat[];
+  [key: string]: unknown;
 }
 
 const {
   id = 'home-hero',
-  eyebrow = 'Trusted guidance for dog parents',
-  title = 'Research breeds, plan costs, and care smarter.',
-  accent = 'All in one place.',
-  subtitle = 'Expert-backed breed profiles, mixed-breed guides, care needs, and cost planning tools—so you can make confident, informed decisions for your dog.',
-  primaryCta = { label: 'Explore Dog Breeds', href: '/breeds', ariaLabel: 'Explore PupWiki dog breed guides' },
-  secondaryCta = { label: 'Plan Costs', href: '/cost-calculator', ariaLabel: 'Open the PupWiki dog cost planner' },
-  imageSrc = 'https://images.pexels.com/photos/4587996/pexels-photo-4587996.jpeg?auto=compress&cs=tinysrgb&w=1200&h=900&fit=crop',
-  imageAlt = 'Happy dog resting with owner outdoors',
-  heroCardEyebrow = 'Decision support for dog parents',
-  heroCardText = 'Breed profiles, mixed-breed guides, cost tools, care context and practical next steps for real households.',
-  trustItems = ['Expert reviewed', 'Transparent & unbiased', 'Built for real dog parents'],
-  quickLinks = [
-    { label: 'Breed finder', href: '/breeds', icon: 'search' },
-    { label: 'Puppy hub', href: '/categories/puppy', icon: 'puppy' },
-    { label: 'Cost planner', href: '/cost-calculator', icon: 'cost' },
-    { label: 'Senior dogs', href: '/categories/senior-dogs', icon: 'heart' },
-  ],
-  features = [
-    {
-      icon: 'book',
-      title: 'Breed research',
-      text: 'In-depth profiles, traits, and real-world insights to find the right dog for your life.',
-      href: '/breeds',
-      cta: 'Explore breeds',
-    },
-    {
-      icon: 'cost',
-      title: 'Cost planning',
-      text: 'Upfront and ongoing cost breakdowns so you can plan realistically and avoid surprises.',
-      href: '/cost-calculator',
-      cta: 'Plan costs',
-    },
-    {
-      icon: 'heart',
-      title: 'Everyday care',
-      text: 'Practical guides for training, nutrition, health, and life stages—backed by research.',
-      href: '/categories/health',
-      cta: 'Browse care guides',
-    },
-  ],
-  stats = [
-    { value: '350+', label: 'Breed guides', detail: 'Expert-backed profiles', icon: 'book' },
-    { value: '12+', label: 'Cost tools', detail: 'Plan with confidence', icon: 'cost' },
-    { value: '1,000+', label: 'Care guides', detail: 'For every life stage', icon: 'heart' },
-  ],
+  title = 'Research breeds. Plan costs.',
+  accent = 'Care smarter.',
+  subtitle = 'Expert-backed profiles for 277 breeds, mixed-breed guides, cost planning tools, and practical care advice — built for real dog parents.',
+  primaryCta = { label: 'Explore Breeds', href: '/breeds', ariaLabel: 'Browse all dog breed guides on PupWiki' },
+  secondaryCta = { label: 'Plan Costs', href: '/cost-calculator', ariaLabel: 'Open the PupWiki dog cost calculator' },
 } = Astro.props;
 
-const enrichedImages = Array.isArray((heroImageData as any).images)
-  ? (heroImageData as any).images
-  : [];
-
-const mainImage = enrichedImages.find((image: any) => image?.src) || {
-  src: imageSrc,
-  mobileSrc: imageSrc,
-  alt: imageAlt,
-};
-
-const heroStats = stats.slice(0, 3);
-const heroFeatures = features.slice(0, 3);
-const heroQuickLinks = quickLinks.slice(0, 4);
-const heroTrustItems = trustItems.slice(0, 3);
-
-const iconMarkup: Record<string, string> = {
-  search: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35"/><circle cx="11" cy="11" r="7"/></svg>`,
-  puppy: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.8 7.6c.8-.9 1.9-1.4 3.2-1.4s2.4.5 3.2 1.4"/><path d="M7.5 9.2c-1.5-.5-2.7.2-3.1 1.5-.5 1.6.4 3.2 2 3.7"/><path d="M16.5 9.2c1.5-.5 2.7.2 3.1 1.5.5 1.6-.4 3.2-2 3.7"/><path d="M8 14.5c.8 2 2.1 3 4 3s3.2-1 4-3"/><path d="M10 11.2h.01M14 11.2h.01"/><path d="M11 14h2"/></svg>`,
-  cost: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M15 9.2c-.7-.8-1.7-1.2-3-1.2-1.5 0-2.5.8-2.5 2s.9 1.7 2.7 2.1c1.9.4 2.8 1.1 2.8 2.4S13.8 17 12.1 17c-1.4 0-2.6-.5-3.4-1.4"/></svg>`,
-  heart: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.6c0 5-8.8 10.1-8.8 10.1S3.2 13.6 3.2 8.6A4.6 4.6 0 0 1 12 6.7a4.6 4.6 0 0 1 8.8 1.9Z"/></svg>`,
-  book: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.8 5.4c2.2-.8 4.8-.4 7.2 1.2v12c-2.4-1.6-5-2-7.2-1.2V5.4Z"/><path d="M19.2 5.4c-2.2-.8-4.8-.4-7.2 1.2v12c2.4-1.6 5-2 7.2-1.2V5.4Z"/></svg>`,
-  shield: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-3.4 7-10V5.8L12 3 5 5.8V11c0 6.6 7 10 7 10Z"/><path d="m9.4 11.8 1.8 1.8 3.8-4"/></svg>`,
-  check: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.4 12.2 2.3 2.3 4.9-5"/></svg>`,
-  people: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 19v-1.2c0-1.8-1.5-3.3-3.3-3.3H8.3C6.5 14.5 5 16 5 17.8V19"/><circle cx="10.5" cy="8" r="3"/><path d="M19 19v-1c0-1.5-1-2.8-2.4-3.2"/><path d="M15.8 5.2a3 3 0 0 1 0 5.6"/></svg>`,
-  trend: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 17 9.2 11.8l3.4 3.4L20 7.8"/><path d="M15 7.8h5v5"/></svg>`,
-};
-
-const renderIcon = (name = 'heart') => iconMarkup[name] || iconMarkup.heart;
+const trustBadges = ['277 Breeds', '75 Mixed', '5,000+ Names', 'Expert reviewed'];
+const quickLinks = [
+  { label: 'All Breeds', href: '/breeds', icon: '🐕' },
+  { label: 'Cost Planner', href: '/cost-calculator', icon: '💰' },
+  { label: 'Dog Names', href: '/dog-names', icon: '✍️' },
+  { label: 'Mixed Breeds', href: '/breeds', icon: '🐾' },
+];
 ---
 
-<section id={id} class="pw-hero-v3" aria-labelledby={`${id}-title`}>
-  <div class="pw-hero-v3__shell">
-    <div class="pw-hero-v3__grid">
-      <div class="pw-hero-v3__content">
-        <p class="pw-hero-v3__eyebrow">{eyebrow}</p>
+<section id={id} class="pw-hero" aria-labelledby={`${id}-heading`}>
+  <!-- Full-bleed background photo + overlay -->
+  <div class="pw-hero__bg" aria-hidden="true">
+    <img
+      src="/hero/dog-owner-hero.jpg"
+      alt=""
+      class="pw-hero__photo"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+      width="1920"
+      height="1080"
+    />
+    <div class="pw-hero__overlay"></div>
+  </div>
 
-        <h1 id={`${id}-title`} class="pw-hero-v3__title">
-          <span>{title}</span>
-          <em>{accent}</em>
-        </h1>
+  <div class="pw-hero__shell">
+    <!-- Left: headline + CTAs + trust -->
+    <div class="pw-hero__content">
+      <span class="pw-hero__eyebrow">Trusted by dog parents</span>
 
-        <p class="pw-hero-v3__subtitle">{subtitle}</p>
+      <h1 id={`${id}-heading`} class="pw-hero__title">
+        {title}
+        <em class="pw-hero__accent">{accent}</em>
+      </h1>
 
-        <div class="pw-hero-v3__actions" aria-label="Primary homepage actions">
-          <a class="pw-hero-v3__btn pw-hero-v3__btn--primary" href={primaryCta.href} aria-label={primaryCta.ariaLabel || primaryCta.label}>
-            <span>{primaryCta.label}</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-          </a>
+      <p class="pw-hero__subtitle">{subtitle}</p>
 
-          <a class="pw-hero-v3__btn pw-hero-v3__btn--secondary" href={secondaryCta.href} aria-label={secondaryCta.ariaLabel || secondaryCta.label}>
-            <span>{secondaryCta.label}</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="4" width="12" height="16" rx="2"/><path d="M9 8h6M9 12h.01M12 12h.01M15 12h.01M9 16h.01M12 16h.01M15 16h.01" /></svg>
-          </a>
-        </div>
-
-        {heroQuickLinks.length > 0 && (
-          <nav class="pw-hero-v3__quick-links" aria-label="Popular PupWiki starting points">
-            {heroQuickLinks.map((link) => (
-              <a href={link.href} class="pw-hero-v3__quick-link">
-                <span class="pw-hero-v3__quick-icon" set:html={renderIcon(link.icon)} />
-                <span>{link.label}</span>
-              </a>
-            ))}
-          </nav>
-        )}
-
-        {heroTrustItems.length > 0 && (
-          <ul class="pw-hero-v3__trust" aria-label="PupWiki trust signals">
-            {heroTrustItems.map((item, index) => (
-              <li>
-                <span set:html={renderIcon(index === 0 ? 'shield' : index === 1 ? 'check' : 'people')} />
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        )}
+      <div class="pw-hero__actions" aria-label="Main actions">
+        <a
+          href={primaryCta.href}
+          class="pw-hero__btn pw-hero__btn--primary"
+          aria-label={primaryCta.ariaLabel || primaryCta.label}
+        >
+          {primaryCta.label}
+          <svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18">
+            <path d="M5 12h14M13 6l6 6-6 6"/>
+          </svg>
+        </a>
+        <a
+          href={secondaryCta.href}
+          class="pw-hero__btn pw-hero__btn--outline"
+          aria-label={secondaryCta.ariaLabel || secondaryCta.label}
+        >
+          {secondaryCta.label}
+        </a>
       </div>
 
-      <div class="pw-hero-v3__visual">
-        <figure class="pw-hero-v3__image-card">
-          <picture>
-            {mainImage.thumbSrc && (
-              <source srcset={mainImage.thumbSrc} media="(max-width: 400px)" />
-            )}
-            <source srcset={mainImage.mobileSrc || mainImage.src} media="(max-width: 768px)" />
-            <img
-              src={mainImage.src || imageSrc}
-              srcset={mainImage.mobileSrc && mainImage.src !== mainImage.mobileSrc
-                ? `${mainImage.mobileSrc} 940w, ${mainImage.src} 1880w`
-                : undefined}
-              sizes="(max-width: 768px) 100vw, 50vw"
-              alt={mainImage.alt || imageAlt}
-              width="960"
-              height="760"
-              loading="eager"
-              decoding="async"
-              fetchpriority="high"
-            />
-          </picture>
-
-          <div class="pw-hero-v3__image-glow" aria-hidden="true"></div>
-
-          <figcaption class="pw-hero-v3__insight-card">
-            <span class="pw-hero-v3__insight-icon" set:html={renderIcon('trend')} />
-            <span class="pw-hero-v3__insight-copy">
-              <strong>{heroCardEyebrow}</strong>
-              <span>{heroCardText}</span>
-            </span>
-          </figcaption>
-        </figure>
-
-        {heroStats.length > 0 && (
-          <div class="pw-hero-v3__stats" aria-label="PupWiki highlights">
-            {heroStats.map((stat) => (
-              <article class="pw-hero-v3__stat">
-                <span class="pw-hero-v3__stat-icon" set:html={renderIcon(stat.icon)} />
-                <strong>{stat.value}</strong>
-                <span class="pw-hero-v3__stat-label">{stat.label}</span>
-                {stat.detail && <small>{stat.detail}</small>}
-              </article>
-            ))}
-          </div>
-        )}
+      <div class="pw-hero__trust" role="list" aria-label="PupWiki at a glance">
+        {trustBadges.map((badge, i) => (
+          <Fragment>
+            <span role="listitem" class="pw-hero__trust-badge">{badge}</span>
+            {i < trustBadges.length - 1 && <span class="pw-hero__trust-sep" aria-hidden="true">·</span>}
+          </Fragment>
+        ))}
       </div>
     </div>
 
-    {heroFeatures.length > 0 && (
-      <div class="pw-hero-v3__features" aria-label="PupWiki homepage sections">
-        {heroFeatures.map((feature) => (
-          <article class="pw-hero-v3__feature-card">
-            <span class="pw-hero-v3__feature-icon" set:html={renderIcon(feature.icon)} />
-            <div class="pw-hero-v3__feature-copy">
-              <h2>{feature.title}</h2>
-              <p>{feature.text}</p>
-              {feature.href && (
-                <a href={feature.href}>
-                  <span>{feature.cta || 'Learn more'}</span>
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-                </a>
-              )}
-            </div>
-          </article>
+    <!-- Right: floating search + quick links card -->
+    <aside class="pw-hero__card" aria-label="Find your breed">
+      <p class="pw-hero__card-heading">Find your breed</p>
+
+      <form action="/breeds" method="GET" class="pw-hero__search-form" role="search">
+        <label for={`${id}-search`} class="pw-hero__sr-only">Search dog breeds</label>
+        <div class="pw-hero__search-wrap">
+          <svg class="pw-hero__search-icon" viewBox="0 0 24 24" aria-hidden="true" width="16" height="16">
+            <circle cx="11" cy="11" r="7"/>
+            <path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input
+            id={`${id}-search`}
+            type="search"
+            name="q"
+            placeholder="Search 277 breeds…"
+            class="pw-hero__search-input"
+            autocomplete="off"
+          />
+        </div>
+        <button type="submit" class="pw-hero__search-btn">Search breeds</button>
+      </form>
+
+      <div class="pw-hero__card-divider" aria-hidden="true"></div>
+
+      <p class="pw-hero__card-nav-label">Popular sections</p>
+      <nav class="pw-hero__card-nav" aria-label="Quick navigation">
+        {quickLinks.map((link) => (
+          <a href={link.href} class="pw-hero__card-link">
+            <span class="pw-hero__card-link-icon" aria-hidden="true">{link.icon}</span>
+            <span>{link.label}</span>
+            <svg class="pw-hero__card-link-arrow" viewBox="0 0 24 24" aria-hidden="true" width="14" height="14">
+              <path d="M5 12h14M13 6l6 6-6 6"/>
+            </svg>
+          </a>
         ))}
-      </div>
-    )}
+      </nav>
+    </aside>
   </div>
 </section>
 
 <style>
-  .pw-hero-v3,
-  .pw-hero-v3 * {
-    box-sizing: border-box;
-  }
-
-  .pw-hero-v3 {
-    --hero-ink: var(--color-heading);
-    --hero-ink-soft: var(--color-heading-soft);
-    --hero-copy: var(--color-body-soft);
-    --hero-accent: var(--color-accent);
-    --hero-primary: var(--color-primary);
-    --hero-primary-hover: var(--color-primary-hover);
-    --hero-border: var(--color-border);
-    --hero-border-strong: var(--color-border-primary);
-    --hero-surface: var(--color-surface);
-    --hero-surface-soft: var(--color-primary-soft);
-    --hero-warm: var(--color-accent-subtle);
-
+  /* ── Base ── */
+  .pw-hero {
     position: relative;
     isolation: isolate;
+    min-height: min(88vh, 720px);
+    display: flex;
+    align-items: center;
+    color: var(--color-text-inverse);
     overflow: hidden;
-    background:
-      radial-gradient(circle at 74% 22%, rgba(21, 54, 95, 0.075), transparent 30rem),
-      radial-gradient(circle at 18% 26%, rgba(255, 122, 0, 0.075), transparent 26rem),
-      linear-gradient(180deg, var(--color-bg-soft) 0%, var(--color-bg) 82%);
-    color: var(--hero-copy);
-    padding: clamp(var(--space-10), 7vw, var(--space-20)) var(--content-padding-mobile) var(--space-10);
   }
 
-  .pw-hero-v3::before {
-    content: '';
+  /* ── Background ── */
+  .pw-hero__bg {
     position: absolute;
     inset: 0;
-    z-index: -2;
-    pointer-events: none;
-    background:
-      linear-gradient(90deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.42)),
-      repeating-linear-gradient(
-        90deg,
-        rgba(21, 54, 95, 0.035) 0,
-        rgba(21, 54, 95, 0.035) 1px,
-        transparent 1px,
-        transparent 7.5rem
-      );
-    opacity: 0.36;
-  }
-
-  .pw-hero-v3::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
     z-index: -1;
-    height: 34%;
-    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.92));
-    pointer-events: none;
   }
 
-  .pw-hero-v3__shell {
-    width: min(100%, var(--max-width-wide));
+  .pw-hero__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 28%;
+  }
+
+  .pw-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      108deg,
+      rgba(11, 31, 54, 0.95) 0%,
+      rgba(11, 31, 54, 0.85) 32%,
+      rgba(11, 31, 54, 0.6) 55%,
+      rgba(11, 31, 54, 0.25) 75%,
+      rgba(11, 31, 54, 0.08) 100%
+    );
+  }
+
+  /* ── Shell (two-col layout) ── */
+  .pw-hero__shell {
+    width: 100%;
+    max-width: var(--max-width);
     margin-inline: auto;
-  }
-
-  .pw-hero-v3__grid {
+    padding: var(--space-14) var(--content-padding-mobile) var(--space-12);
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--space-8);
     align-items: center;
   }
 
-  .pw-hero-v3__content {
-    max-width: 43rem;
+  /* ── Content column ── */
+  .pw-hero__content {
+    max-width: 52ch;
   }
 
-  .pw-hero-v3__eyebrow {
-    margin: 0 0 var(--space-3);
-    color: var(--hero-primary);
-    font-size: clamp(0.72rem, 1.5vw, var(--text-sm));
-    font-weight: var(--weight-black);
+  .pw-hero__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-bottom: var(--space-5);
+    padding: var(--space-1) var(--space-4);
+    background: rgba(255, 122, 0, 0.16);
+    border: 1px solid rgba(255, 122, 0, 0.32);
+    border-radius: var(--radius-full);
+    color: var(--color-accent-light);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
     letter-spacing: var(--tracking-label);
-    line-height: 1.2;
     text-transform: uppercase;
   }
 
-  .pw-hero-v3__title {
+  .pw-hero__title {
     margin: 0;
-    max-width: 11.5ch;
-    color: var(--hero-ink);
     font-family: var(--font-serif);
-    font-size: clamp(2.75rem, 10vw, 5.85rem);
+    font-size: clamp(2.4rem, 8vw, 5rem);
     font-weight: var(--weight-bold);
-    letter-spacing: -0.065em;
-    line-height: 0.94;
+    line-height: 1.06;
+    letter-spacing: var(--tracking-snug);
+    color: #ffffff;
     text-wrap: balance;
   }
 
-  .pw-hero-v3__title span,
-  .pw-hero-v3__title em {
+  .pw-hero__accent {
     display: block;
-  }
-
-  .pw-hero-v3__title em {
-    margin-top: 0.08em;
-    color: var(--hero-accent);
     font-style: normal;
-    letter-spacing: -0.06em;
+    color: var(--color-accent);
+    margin-top: 0.06em;
   }
 
-  .pw-hero-v3__subtitle {
-    max-width: 40rem;
+  .pw-hero__subtitle {
     margin: var(--space-5) 0 0;
-    color: var(--hero-copy);
-    font-size: clamp(var(--text-base), 1.75vw, var(--text-lg));
+    max-width: 44ch;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: clamp(var(--text-base), 1.8vw, var(--text-lg));
     line-height: var(--leading-relaxed);
   }
 
-  .pw-hero-v3__actions {
-    display: grid;
-    grid-template-columns: 1fr;
+  /* ── CTAs ── */
+  .pw-hero__actions {
+    display: flex;
+    flex-wrap: wrap;
     gap: var(--space-3);
-    margin-top: var(--space-7);
-    max-width: 38rem;
+    margin-top: var(--space-8);
   }
 
-  .pw-hero-v3__btn {
-    min-height: 3.65rem;
+  .pw-hero__btn {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    gap: var(--space-3);
+    gap: var(--space-2);
+    padding: var(--space-4) var(--space-6);
     border-radius: var(--radius-lg);
     font-size: var(--text-base);
-    font-weight: var(--weight-black);
+    font-weight: var(--weight-bold);
     line-height: 1;
     text-decoration: none;
-    transition:
-      transform var(--transition-base),
-      box-shadow var(--transition-base),
-      background-color var(--transition-base),
-      border-color var(--transition-base),
-      color var(--transition-base);
+    transition: var(--transition-smooth);
+    white-space: nowrap;
   }
 
-  .pw-hero-v3__btn svg,
-  .pw-hero-v3__quick-icon svg,
-  .pw-hero-v3__trust svg,
-  .pw-hero-v3__insight-icon svg,
-  .pw-hero-v3__stat-icon svg,
-  .pw-hero-v3__feature-icon svg,
-  .pw-hero-v3__feature-card a svg {
-    width: 1.15em;
-    height: 1.15em;
+  .pw-hero__btn svg {
+    flex-shrink: 0;
     fill: none;
     stroke: currentColor;
-    stroke-width: 2;
+    stroke-width: 2.5;
     stroke-linecap: round;
     stroke-linejoin: round;
   }
 
-  .pw-hero-v3__btn--primary {
-    color: var(--color-text-inverse);
-    background: linear-gradient(135deg, var(--hero-primary), var(--hero-primary-hover));
-    border: 1px solid rgba(8, 26, 46, 0.18);
-    box-shadow: var(--shadow-primary);
+  .pw-hero__btn--primary {
+    background: var(--color-cta);
+    color: #ffffff;
+    box-shadow: var(--shadow-cta);
+    border: 1.5px solid transparent;
   }
 
-  .pw-hero-v3__btn--primary:hover {
-    color: var(--color-text-inverse);
+  .pw-hero__btn--primary:hover {
+    background: var(--color-cta-hover);
     transform: translateY(-2px);
-    box-shadow: 0 18px 34px rgba(21, 54, 95, 0.22);
+    box-shadow: 0 16px 32px rgba(234, 106, 0, 0.42);
   }
 
-  .pw-hero-v3__btn--secondary {
-    color: var(--hero-primary);
-    background: rgba(255, 255, 255, 0.84);
-    border: 1px solid rgba(21, 54, 95, 0.46);
-    box-shadow: var(--shadow-xs);
+  .pw-hero__btn--outline {
+    background: rgba(255, 255, 255, 0.10);
+    color: #ffffff;
+    border: 1.5px solid rgba(255, 255, 255, 0.40);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
   }
 
-  .pw-hero-v3__btn--secondary:hover {
-    color: var(--hero-primary-hover);
-    background: var(--color-primary-subtle);
-    border-color: rgba(21, 54, 95, 0.68);
+  .pw-hero__btn--outline:hover {
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.60);
     transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
   }
 
-  .pw-hero-v3__quick-links {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--space-3);
-    max-width: 41rem;
-    margin-top: var(--space-6);
-  }
-
-  .pw-hero-v3__quick-link {
-    display: inline-flex;
+  /* ── Trust badges ── */
+  .pw-hero__trust {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start;
-    gap: var(--space-2);
-    min-height: 3rem;
-    padding: var(--space-3) var(--space-4);
-    color: var(--hero-ink-soft);
-    background: rgba(255, 255, 255, 0.82);
-    border: 1px solid rgba(226, 232, 240, 0.94);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-xs);
+    gap: var(--space-2) var(--space-3);
+    margin-top: var(--space-7);
+  }
+
+  .pw-hero__trust-badge {
+    color: rgba(255, 255, 255, 0.70);
     font-size: var(--text-sm);
-    font-weight: var(--weight-bold);
-    text-decoration: none;
-    transition: var(--transition-smooth);
-  }
-
-  .pw-hero-v3__quick-link:hover {
-    color: var(--hero-primary);
-    border-color: rgba(21, 54, 95, 0.25);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-  }
-
-  .pw-hero-v3__quick-icon {
-    display: inline-grid;
-    place-items: center;
-    flex: 0 0 auto;
-    width: 1.55rem;
-    height: 1.55rem;
-    color: var(--hero-primary);
-  }
-
-  .pw-hero-v3__trust {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-3);
-    margin: var(--space-6) 0 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .pw-hero-v3__trust li {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-2);
-    color: var(--hero-ink-soft);
-    font-size: var(--text-sm);
-    font-weight: var(--weight-bold);
-    line-height: 1.25;
-  }
-
-  .pw-hero-v3__trust li > span:first-child {
-    display: inline-grid;
-    place-items: center;
-    width: 1.25rem;
-    height: 1.25rem;
-    color: var(--hero-primary);
-  }
-
-  .pw-hero-v3__visual {
-    position: relative;
-    width: 100%;
-    max-width: 42rem;
-    margin-inline: auto;
-  }
-
-  .pw-hero-v3__image-card {
-    position: relative;
-    overflow: hidden;
-    min-height: 21rem;
-    margin: 0;
-    border: 1px solid rgba(255, 255, 255, 0.72);
-    border-radius: var(--radius-2xl);
-    background: var(--color-surface);
-    box-shadow: var(--shadow-xl);
-  }
-
-  .pw-hero-v3__image-card picture,
-  .pw-hero-v3__image-card img {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-
-  .pw-hero-v3__image-card img {
-    min-height: 21rem;
-    object-fit: cover;
-    object-position: center;
-    transform: scale(1.012);
-  }
-
-  .pw-hero-v3__image-glow {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background:
-      linear-gradient(180deg, rgba(11, 31, 54, 0.04) 0%, transparent 32%, rgba(11, 31, 54, 0.32) 100%),
-      radial-gradient(circle at 26% 72%, rgba(255, 250, 243, 0.64), transparent 18rem);
-  }
-
-  .pw-hero-v3__insight-card {
-    position: absolute;
-    left: var(--space-4);
-    right: var(--space-4);
-    bottom: var(--space-4);
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: var(--space-3);
-    align-items: start;
-    padding: var(--space-4);
-    color: var(--hero-copy);
-    background: rgba(255, 255, 255, 0.94);
-    border: 1px solid rgba(255, 255, 255, 0.72);
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-lg);
-    -webkit-backdrop-filter: blur(14px);
-    backdrop-filter: blur(14px);
-  }
-
-  .pw-hero-v3__insight-icon {
-    display: inline-grid;
-    place-items: center;
-    width: 2.65rem;
-    height: 2.65rem;
-    color: var(--color-text-inverse);
-    background: linear-gradient(135deg, var(--hero-primary), var(--hero-primary-hover));
-    border-radius: var(--radius-full);
-    box-shadow: var(--shadow-primary);
-  }
-
-  .pw-hero-v3__insight-copy {
-    min-width: 0;
-  }
-
-  .pw-hero-v3__insight-copy strong,
-  .pw-hero-v3__insight-copy span {
-    display: block;
-  }
-
-  .pw-hero-v3__insight-copy strong {
-    margin-bottom: var(--space-1);
-    color: var(--hero-ink);
-    font-size: var(--text-sm);
-    font-weight: var(--weight-black);
-    line-height: var(--leading-snug);
-  }
-
-  .pw-hero-v3__insight-copy span {
-    color: var(--hero-copy);
-    font-size: var(--text-xs);
-    line-height: 1.55;
-  }
-
-  .pw-hero-v3__stats {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    overflow: hidden;
-    margin-top: -1px;
-    background: rgba(255, 255, 255, 0.94);
-    border: 1px solid rgba(226, 232, 240, 0.92);
-    border-radius: 0 0 var(--radius-2xl) var(--radius-2xl);
-    box-shadow: var(--shadow-lg);
-  }
-
-  .pw-hero-v3__stat {
-    display: grid;
-    justify-items: center;
-    align-content: start;
-    min-height: 7.8rem;
-    padding: var(--space-4) var(--space-2);
-    text-align: center;
-    border-right: 1px solid rgba(226, 232, 240, 0.92);
-  }
-
-  .pw-hero-v3__stat:last-child {
-    border-right: 0;
-  }
-
-  .pw-hero-v3__stat-icon {
-    display: inline-grid;
-    place-items: center;
-    width: 1.65rem;
-    height: 1.65rem;
-    margin-bottom: var(--space-2);
-    color: var(--hero-primary);
-  }
-
-  .pw-hero-v3__stat strong {
-    display: block;
-    color: var(--hero-ink-soft);
-    font-family: var(--font-serif);
-    font-size: clamp(1.55rem, 5vw, 2rem);
-    font-weight: var(--weight-bold);
-    letter-spacing: -0.045em;
-    line-height: 1;
-  }
-
-  .pw-hero-v3__stat-label {
-    display: block;
-    margin-top: var(--space-2);
-    color: var(--hero-ink);
-    font-size: var(--text-xs);
-    font-weight: var(--weight-black);
-    line-height: 1.2;
-  }
-
-  .pw-hero-v3__stat small {
-    display: block;
-    margin-top: var(--space-1);
-    color: var(--color-muted);
-    font-size: 0.68rem;
     font-weight: var(--weight-medium);
-    line-height: 1.35;
   }
 
-  .pw-hero-v3__features {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-4);
-    margin-top: var(--space-10);
-    padding-top: var(--space-8);
-    border-top: 1px solid rgba(226, 232, 240, 0.75);
-  }
-
-  .pw-hero-v3__feature-card {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: var(--space-4);
-    align-items: start;
-    min-height: 13.5rem;
-    padding: var(--space-6);
-    background:
-      linear-gradient(145deg, rgba(255, 255, 255, 0.96), rgba(255, 253, 248, 0.94));
-    border: 1px solid rgba(226, 232, 240, 0.92);
-    border-radius: var(--radius-2xl);
-    box-shadow: var(--shadow-card);
-    transition: var(--transition-smooth);
-  }
-
-  .pw-hero-v3__feature-card:hover {
-    transform: translateY(-3px);
-    border-color: rgba(21, 54, 95, 0.18);
-    box-shadow: var(--shadow-card-hover);
-  }
-
-  .pw-hero-v3__feature-icon {
-    display: inline-grid;
-    place-items: center;
-    width: 4.35rem;
-    height: 4.35rem;
-    color: var(--hero-primary);
-    background:
-      radial-gradient(circle at 35% 25%, rgba(255, 255, 255, 0.96), transparent 42%),
-      var(--color-primary-subtle);
-    border: 1px solid rgba(21, 54, 95, 0.08);
-    border-radius: var(--radius-full);
-  }
-
-  .pw-hero-v3__feature-icon svg {
-    width: 2rem;
-    height: 2rem;
-  }
-
-  .pw-hero-v3__feature-copy h2 {
-    margin: 0;
-    color: var(--hero-ink);
-    font-family: var(--font-serif);
-    font-size: clamp(1.35rem, 2vw, 1.65rem);
-    font-weight: var(--weight-bold);
-    letter-spacing: -0.035em;
-    line-height: var(--leading-tight);
-  }
-
-  .pw-hero-v3__feature-copy p {
-    margin: var(--space-2) 0 0;
-    color: var(--hero-copy);
+  .pw-hero__trust-sep {
+    color: rgba(255, 255, 255, 0.28);
     font-size: var(--text-sm);
-    line-height: var(--leading-relaxed);
   }
 
-  .pw-hero-v3__feature-copy a {
-    display: inline-flex;
+  /* ── Floating search card ── */
+  .pw-hero__card {
+    background: #ffffff;
+    border-radius: var(--radius-2xl);
+    padding: var(--space-6);
+    box-shadow: var(--shadow-xl);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+  }
+
+  .pw-hero__card-heading {
+    margin: 0 0 var(--space-4);
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-xl);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-snug);
+  }
+
+  /* ── Search form ── */
+  .pw-hero__search-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .pw-hero__search-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .pw-hero__search-icon {
+    position: absolute;
+    left: var(--space-3);
+    flex-shrink: 0;
+    fill: none;
+    stroke: var(--color-muted);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .pw-hero__search-input {
+    width: 100%;
+    padding: var(--space-3) var(--space-3) var(--space-3) calc(var(--space-3) + 1.6rem);
+    border: 1.5px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    font-size: var(--text-sm);
+    font-family: var(--font-sans);
+    color: var(--color-heading);
+    background: var(--color-bg-muted);
+    outline: none;
+    transition: border-color var(--transition-base), box-shadow var(--transition-base);
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .pw-hero__search-input:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+    box-shadow: var(--ring-primary);
+  }
+
+  .pw-hero__search-input::placeholder {
+    color: var(--color-placeholder);
+  }
+
+  .pw-hero__search-btn {
+    width: 100%;
+    padding: var(--space-3) var(--space-4);
+    background: var(--color-primary);
+    color: #ffffff;
+    border: none;
+    border-radius: var(--radius-lg);
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    cursor: pointer;
+    transition: background var(--transition-base), transform var(--transition-base);
+  }
+
+  .pw-hero__search-btn:hover {
+    background: var(--color-primary-hover);
+    transform: translateY(-1px);
+  }
+
+  /* ── Card nav ── */
+  .pw-hero__card-divider {
+    height: 1px;
+    background: var(--color-border-soft);
+    margin: var(--space-5) 0 var(--space-4);
+  }
+
+  .pw-hero__card-nav-label {
+    margin: 0 0 var(--space-3);
+    color: var(--color-muted);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .pw-hero__card-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2);
+  }
+
+  .pw-hero__card-link {
+    display: flex;
     align-items: center;
     gap: var(--space-2);
-    margin-top: var(--space-4);
-    color: var(--hero-primary);
+    padding: var(--space-2) var(--space-3);
+    background: var(--color-bg-muted);
+    border: 1px solid var(--color-border-soft);
+    border-radius: var(--radius-md);
+    color: var(--color-body);
     font-size: var(--text-sm);
-    font-weight: var(--weight-black);
+    font-weight: var(--weight-medium);
     text-decoration: none;
+    transition: var(--transition-base);
   }
 
-  .pw-hero-v3__feature-copy a:hover {
-    color: var(--hero-accent);
+  .pw-hero__card-link:hover {
+    background: var(--color-primary-subtle);
+    border-color: rgba(21, 54, 95, 0.18);
+    color: var(--color-primary);
   }
 
-  @media (min-width: 520px) {
-    .pw-hero-v3__actions {
-      grid-template-columns: minmax(13rem, 1.25fr) minmax(11rem, 1fr);
-    }
-
-    .pw-hero-v3__quick-links {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-
-    .pw-hero-v3__quick-link {
-      justify-content: center;
-      padding-inline: var(--space-3);
-    }
-
-    .pw-hero-v3__trust {
-      grid-template-columns: repeat(3, auto);
-      align-items: center;
-    }
+  .pw-hero__card-link-icon {
+    font-size: 1rem;
+    flex-shrink: 0;
   }
 
-  @media (min-width: 760px) {
-    .pw-hero-v3 {
+  .pw-hero__card-link-arrow {
+    margin-left: auto;
+    flex-shrink: 0;
+    fill: none;
+    stroke: var(--color-muted);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    opacity: 0;
+    transition: opacity var(--transition-base), transform var(--transition-base);
+  }
+
+  .pw-hero__card-link:hover .pw-hero__card-link-arrow {
+    opacity: 1;
+    transform: translateX(2px);
+  }
+
+  /* ── Accessibility ── */
+  .pw-hero__sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  /* ── Responsive ── */
+  @media (min-width: 640px) {
+    .pw-hero__shell {
       padding-inline: var(--content-padding);
     }
 
-    .pw-hero-v3__features {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: var(--space-5);
-      margin-top: var(--space-12);
-    }
-
-    .pw-hero-v3__feature-card {
-      min-height: 14.5rem;
+    .pw-hero__actions {
+      flex-wrap: nowrap;
     }
   }
 
-  @media (min-width: 1040px) {
-    .pw-hero-v3 {
-      padding: clamp(var(--space-16), 8vw, var(--space-24)) var(--content-padding-wide) var(--space-12);
+  @media (min-width: 1024px) {
+    .pw-hero__shell {
+      grid-template-columns: 1fr min(420px, 40%);
+      gap: var(--space-16);
+      padding-inline: var(--content-padding-wide);
+      padding-block: var(--space-24) var(--space-20);
     }
 
-    .pw-hero-v3__grid {
-      grid-template-columns: minmax(0, 0.92fr) minmax(31rem, 0.9fr);
-      gap: clamp(var(--space-10), 5vw, var(--space-20));
-    }
-
-    .pw-hero-v3__content {
-      padding-top: var(--space-4);
-    }
-
-    .pw-hero-v3__visual {
-      max-width: none;
-    }
-
-    .pw-hero-v3__image-card {
-      min-height: 33.5rem;
-      border-radius: var(--radius-3xl) var(--radius-3xl) var(--radius-md) var(--radius-md);
-    }
-
-    .pw-hero-v3__image-card img {
-      min-height: 33.5rem;
-    }
-
-    .pw-hero-v3__insight-card {
-      left: var(--space-6);
-      right: auto;
-      bottom: var(--space-6);
-      width: min(74%, 23rem);
-      padding: var(--space-5);
-    }
-
-    .pw-hero-v3__insight-copy strong {
-      font-size: var(--text-base);
-    }
-
-    .pw-hero-v3__insight-copy span {
-      font-size: var(--text-sm);
-    }
-
-    .pw-hero-v3__stats {
-      border-radius: 0 0 var(--radius-2xl) var(--radius-2xl);
-    }
-
-    .pw-hero-v3__stat {
-      min-height: 8.9rem;
-      padding: var(--space-5) var(--space-4);
+    .pw-hero__overlay {
+      background: linear-gradient(
+        108deg,
+        rgba(11, 31, 54, 0.96) 0%,
+        rgba(11, 31, 54, 0.88) 28%,
+        rgba(11, 31, 54, 0.62) 52%,
+        rgba(11, 31, 54, 0.28) 72%,
+        rgba(11, 31, 54, 0.06) 100%
+      );
     }
   }
 
   @media (min-width: 1280px) {
-    .pw-hero-v3__grid {
-      grid-template-columns: minmax(34rem, 0.92fr) minmax(36rem, 0.88fr);
-    }
-
-    .pw-hero-v3__title {
-      font-size: clamp(4.4rem, 5.7vw, 5.95rem);
+    .pw-hero__title {
+      font-size: clamp(3.8rem, 5.2vw, 5.2rem);
     }
   }
 
-  @media (max-width: 420px) {
-    .pw-hero-v3 {
-      padding-inline: var(--space-4);
-      padding-top: var(--space-8);
+  @media (max-width: 480px) {
+    .pw-hero {
+      min-height: min(80vh, 680px);
     }
 
-    .pw-hero-v3__title {
-      font-size: clamp(2.35rem, 13vw, 3.45rem);
+    .pw-hero__shell {
+      padding-block: var(--space-10) var(--space-8);
+      padding-inline: var(--space-5);
     }
 
-    .pw-hero-v3__subtitle {
-      font-size: var(--text-sm);
-      line-height: 1.65;
+    .pw-hero__title {
+      font-size: clamp(2rem, 11vw, 3rem);
     }
 
-    .pw-hero-v3__actions {
-      margin-top: var(--space-5);
+    .pw-hero__subtitle {
+      font-size: var(--text-base);
     }
 
-    .pw-hero-v3__btn {
-      min-height: 3.25rem;
-      font-size: var(--text-sm);
-    }
-
-    .pw-hero-v3__quick-links {
-      gap: var(--space-2);
-      margin-top: var(--space-4);
-    }
-
-    .pw-hero-v3__quick-link {
-      display: grid;
-      justify-items: center;
-      min-height: 4rem;
-      padding: var(--space-2);
-      gap: var(--space-1);
-      font-size: 0.72rem;
-      text-align: center;
-      line-height: 1.15;
-    }
-
-    .pw-hero-v3__trust {
-      display: none;
-    }
-
-    .pw-hero-v3__image-card {
-      min-height: 17.5rem;
-      border-radius: var(--radius-xl) var(--radius-xl) var(--radius-sm) var(--radius-sm);
-    }
-
-    .pw-hero-v3__image-card img {
-      min-height: 17.5rem;
-    }
-
-    .pw-hero-v3__insight-card {
-      left: var(--space-3);
-      right: var(--space-3);
-      bottom: var(--space-3);
-      padding: var(--space-3);
-      border-radius: var(--radius-lg);
-    }
-
-    .pw-hero-v3__insight-icon {
-      width: 2.2rem;
-      height: 2.2rem;
-    }
-
-    .pw-hero-v3__insight-copy strong {
-      font-size: 0.76rem;
-    }
-
-    .pw-hero-v3__insight-copy span {
-      font-size: 0.68rem;
-      line-height: 1.45;
-    }
-
-    .pw-hero-v3__stats {
-      border-radius: 0 0 var(--radius-xl) var(--radius-xl);
-    }
-
-    .pw-hero-v3__stat {
-      min-height: 5.55rem;
-      padding: var(--space-3) var(--space-1);
-    }
-
-    .pw-hero-v3__stat-icon,
-    .pw-hero-v3__stat small {
-      display: none;
-    }
-
-    .pw-hero-v3__stat strong {
-      font-size: 1.32rem;
-    }
-
-    .pw-hero-v3__stat-label {
-      margin-top: var(--space-1);
-      font-size: 0.62rem;
-    }
-
-    .pw-hero-v3__features {
-      margin-top: var(--space-8);
-      padding-top: var(--space-6);
-    }
-
-    .pw-hero-v3__feature-card {
-      grid-template-columns: 1fr;
-      min-height: 0;
-      padding: var(--space-5);
-    }
-
-    .pw-hero-v3__feature-icon {
-      width: 3.5rem;
-      height: 3.5rem;
+    .pw-hero__trust-badge {
+      font-size: var(--text-xs);
     }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .pw-hero-v3__btn,
-    .pw-hero-v3__quick-link,
-    .pw-hero-v3__feature-card {
+    .pw-hero__btn,
+    .pw-hero__card-link,
+    .pw-hero__search-btn {
       transition: none;
     }
 
-    .pw-hero-v3__btn:hover,
-    .pw-hero-v3__quick-link:hover,
-    .pw-hero-v3__feature-card:hover {
+    .pw-hero__btn:hover,
+    .pw-hero__card-link:hover,
+    .pw-hero__search-btn:hover {
       transform: none;
     }
   }
