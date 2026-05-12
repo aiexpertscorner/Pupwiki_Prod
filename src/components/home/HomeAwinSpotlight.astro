@@ -1,9 +1,4 @@
 ---
-/**
- * HomeAwinSpotlight.astro
- * Homepage AWIN partner section — features top AWIN products.
- * Positioned after breed discovery to catch owners ready to shop.
- */
 import awinProducts from '../../data/awin-products.json';
 import affiliateProducts from '../../data/affiliate-products.json';
 
@@ -23,72 +18,94 @@ const fallbackFeatured = products
   .slice(0, 3);
 
 const spotlightProducts = featured.length >= 3 ? featured : fallbackFeatured;
+
+const stars = (rating?: number) => {
+  const r = Math.round(rating ?? 4.5);
+  return '★'.repeat(Math.min(r, 5)) + '☆'.repeat(Math.max(0, 5 - r));
+};
+
+const MERCHANT_BADGES: Record<string, string> = {
+  'Chef Paw (US)': 'ChefPaw',
+  'Raw Wild': 'Raw Wild',
+  'JugBow': 'JugBow',
+  'Crown & Paw': 'Crown & Paw',
+};
 ---
 
 {spotlightProducts.length > 0 && (
-  <section class="py-12 sm:py-14 lg:py-16" style="background:var(--color-bg-soft)">
-    <div class="mx-auto max-w-7xl px-4 sm:px-5 lg:px-6">
+  <section class="pw-spotlight">
+    <div class="pw-spotlight__shell">
 
-      <div class="max-w-3xl mb-8">
-        <p class="text-xs font-bold uppercase tracking-[0.16em]" style="color:var(--color-accent)">
-          Partner picks
-        </p>
-        <h2 class="mt-3 text-3xl font-bold tracking-tight text-[var(--color-heading)] sm:text-4xl">
-          Products we actually recommend
-        </h2>
-        <p class="mt-3 text-base leading-7 text-[var(--color-body-soft)]">
-          Tried-and-tested by dog owners. We earn a small commission if you buy — at no extra cost to you.
-        </p>
-      </div>
+      <header class="pw-spotlight__header">
+        <div class="pw-spotlight__header-text">
+          <p class="pw-spotlight__eyebrow">Partner picks</p>
+          <h2 class="pw-spotlight__title">Products we actually recommend</h2>
+          <p class="pw-spotlight__subtitle">
+            Tried-and-tested by dog owners. We earn a small commission if you buy — at no extra cost to you.
+          </p>
+        </div>
+      </header>
 
-      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="pw-spotlight__grid">
         {spotlightProducts.map((product: any) => (
-          <div class="flex flex-col rounded-2xl border bg-[var(--color-bg)] overflow-hidden shadow-sm" style="border-color:var(--color-border)">
-
-            {/* Image area */}
-            <div class="flex items-center justify-center p-6 min-h-[140px]" style="background:var(--color-bg-soft)">
+          <div class="pw-spotlight__card">
+            <!-- Image -->
+            <div class="pw-spotlight__img-wrap">
               {product.image ? (
                 <img
                   src={product.image}
                   alt={product.name}
-                  width="120"
-                  height="120"
+                  width="140"
+                  height="140"
                   loading="lazy"
-                  class="object-contain max-h-28"
-                  onerror="this.style.display='none'"
+                  decoding="async"
+                  class="pw-spotlight__img"
+                  onerror="this.closest('.pw-spotlight__img-wrap').innerHTML='<span class=\'pw-spotlight__img-placeholder\'>🐾</span>'"
                 />
               ) : (
-                <span class="text-5xl">🐾</span>
+                <span class="pw-spotlight__img-placeholder">🐾</span>
               )}
             </div>
 
-            {/* Details */}
-            <div class="flex flex-col flex-1 p-5 gap-2">
-              <p class="text-xs font-bold uppercase tracking-wider" style="color:var(--color-accent)">
-                {product.merchant}
-              </p>
-              <h3 class="text-sm font-bold leading-snug text-[var(--color-heading)]">
-                {product.name}
-              </h3>
-              <p class="text-xs leading-relaxed text-[var(--color-muted)] flex-1">
-                {product.description?.slice(0, 100)}{product.description?.length > 100 ? '…' : ''}
+            <!-- Details -->
+            <div class="pw-spotlight__details">
+              <div class="pw-spotlight__merchant-row">
+                <span class="pw-spotlight__merchant-badge">
+                  {MERCHANT_BADGES[product.merchant] || product.merchant}
+                </span>
+                {product.category && (
+                  <span class="pw-spotlight__category">{product.category}</span>
+                )}
+              </div>
+
+              <h3 class="pw-spotlight__product-name">{product.name}</h3>
+
+              <p class="pw-spotlight__product-desc">
+                {product.description?.slice(0, 110)}{product.description?.length > 110 ? '…' : ''}
               </p>
 
-              <div class="flex items-center justify-between pt-3 mt-auto" style="border-top:1px solid var(--color-border)">
-                <span class="font-black text-lg text-[var(--color-heading)]">
-                  {Number(product.price) > 0 ? `$${Number(product.price).toFixed(2)}` : 'Partner site'}
+              <div class="pw-spotlight__rating" aria-label={`Rating: ${product.rating ?? 4.5} out of 5`}>
+                <span class="pw-spotlight__stars" aria-hidden="true">{stars(product.rating)}</span>
+                <span class="pw-spotlight__rating-text">{(product.rating ?? 4.5).toFixed(1)}</span>
+              </div>
+
+              <div class="pw-spotlight__action-row">
+                <span class="pw-spotlight__price">
+                  {Number(product.price) > 0 ? `$${Number(product.price).toFixed(2)}` : ''}
                 </span>
                 <a
                   href={product.url}
                   rel="nofollow sponsored"
                   target="_blank"
-                  class="text-xs font-bold px-3 py-2 rounded-xl text-[var(--color-text-inverse)] transition hover:opacity-90"
-                  style="background:linear-gradient(135deg,var(--color-accent),var(--color-accent-hover))"
+                  class="pw-spotlight__shop-btn"
                   data-affiliate-merchant={product.merchant}
                   data-affiliate-product={product.id}
                   data-affiliate-placement="homepage-spotlight"
                 >
-                  Shop now →
+                  Shop now
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="13" height="13" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6"/>
+                  </svg>
                 </a>
               </div>
             </div>
@@ -96,10 +113,286 @@ const spotlightProducts = featured.length >= 3 ? featured : fallbackFeatured;
         ))}
       </div>
 
-      <p class="mt-4 text-xs text-center text-[var(--color-subtle)]">
-        Reader-supported links - we may earn a commission at no extra cost to you.
-        <a href="/disclosure" class="underline hover:text-[var(--color-body-soft)]">See disclosure →</a>
+      <p class="pw-spotlight__disclosure">
+        Reader-supported links — we may earn a commission at no extra cost to you.
+        <a href="/disclosure" class="pw-spotlight__disclosure-link">See disclosure →</a>
       </p>
+
     </div>
   </section>
 )}
+
+<style>
+  .pw-spotlight {
+    background: var(--color-bg-soft);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  .pw-spotlight__shell {
+    max-width: var(--max-width);
+    margin-inline: auto;
+  }
+
+  /* ── Header ───────────────────────────────── */
+  .pw-spotlight__header {
+    margin-bottom: var(--space-10);
+  }
+
+  .pw-spotlight__eyebrow {
+    margin: 0 0 var(--space-3);
+    color: var(--color-cta);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .pw-spotlight__title {
+    margin: 0 0 var(--space-3);
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: clamp(var(--text-2xl), 4vw, var(--text-4xl));
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-snug);
+    line-height: var(--leading-tight);
+  }
+
+  .pw-spotlight__subtitle {
+    margin: 0;
+    color: var(--color-body-soft);
+    font-size: var(--text-base);
+    line-height: var(--leading-relaxed);
+    max-width: 52ch;
+  }
+
+  /* ── Grid ─────────────────────────────────── */
+  .pw-spotlight__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+  }
+
+  /* ── Card ─────────────────────────────────── */
+  .pw-spotlight__card {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-5);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-card);
+    align-items: flex-start;
+    transition: box-shadow var(--transition-base), border-color var(--transition-base);
+  }
+
+  .pw-spotlight__card:hover {
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-border-strong);
+  }
+
+  /* ── Image ────────────────────────────────── */
+  .pw-spotlight__img-wrap {
+    flex-shrink: 0;
+    width: 96px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-soft);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+  }
+
+  .pw-spotlight__img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+
+  .pw-spotlight__img-placeholder {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+
+  /* ── Details ──────────────────────────────── */
+  .pw-spotlight__details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    flex: 1;
+    min-width: 0;
+  }
+
+  .pw-spotlight__merchant-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .pw-spotlight__merchant-badge {
+    padding: 2px var(--space-2);
+    background: var(--color-accent-subtle);
+    border-radius: var(--radius-md);
+    color: var(--color-cta);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 1.6;
+  }
+
+  .pw-spotlight__category {
+    color: var(--color-body-muted);
+    font-size: var(--text-xs);
+  }
+
+  .pw-spotlight__product-name {
+    margin: 0;
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-base);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+    letter-spacing: var(--tracking-snug);
+  }
+
+  .pw-spotlight__product-desc {
+    margin: 0;
+    color: var(--color-body-soft);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .pw-spotlight__rating {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1-5);
+  }
+
+  .pw-spotlight__stars {
+    color: var(--color-cta);
+    font-size: var(--text-sm);
+    letter-spacing: -0.04em;
+  }
+
+  .pw-spotlight__rating-text {
+    color: var(--color-body-soft);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-medium);
+  }
+
+  .pw-spotlight__action-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding-top: var(--space-3);
+    border-top: 1px solid var(--color-border);
+    margin-top: auto;
+  }
+
+  .pw-spotlight__price {
+    color: var(--color-heading);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    line-height: 1;
+  }
+
+  .pw-spotlight__shop-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1-5);
+    padding: var(--space-2) var(--space-5);
+    background: var(--color-cta);
+    border-radius: var(--radius-lg);
+    color: #fff;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    text-decoration: none;
+    transition: opacity var(--transition-base), transform var(--transition-base);
+    white-space: nowrap;
+  }
+
+  .pw-spotlight__shop-btn:hover {
+    opacity: 0.88;
+    transform: translateY(-1px);
+  }
+
+  .pw-spotlight__shop-btn svg {
+    transition: transform var(--transition-base);
+  }
+
+  .pw-spotlight__shop-btn:hover svg {
+    transform: translateX(2px);
+  }
+
+  /* ── Disclosure ───────────────────────────── */
+  .pw-spotlight__disclosure {
+    margin: 0;
+    text-align: center;
+    color: var(--color-body-muted);
+    font-size: var(--text-xs);
+    line-height: var(--leading-relaxed);
+  }
+
+  .pw-spotlight__disclosure-link {
+    color: var(--color-body-soft);
+    text-decoration: underline;
+  }
+
+  .pw-spotlight__disclosure-link:hover {
+    color: var(--color-body);
+  }
+
+  /* ── Responsive ───────────────────────────── */
+  @media (min-width: 640px) {
+    .pw-spotlight {
+      padding-inline: var(--content-padding);
+    }
+
+    .pw-spotlight__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .pw-spotlight__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .pw-spotlight__card {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .pw-spotlight__img-wrap {
+      width: 100%;
+      height: 160px;
+    }
+
+    .pw-spotlight__img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .pw-spotlight {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pw-spotlight__shop-btn {
+      transition: none;
+    }
+
+    .pw-spotlight__shop-btn:hover {
+      transform: none;
+    }
+  }
+</style>

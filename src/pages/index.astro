@@ -1,21 +1,13 @@
 ---
-/**
- * src/pages/index.astro — PupWiki homepage
- * Sprint 1: global design foundation + clean component composition.
- */
-
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 import HomeHero from '../components/home/HomeHeroClean.astro';
 import HomePrimaryJourneys from '../components/home/HomePrimaryJourneys.astro';
-import HomeTrustStrip from '../components/home/HomeTrustStrip.astro';
-import HomeBreedDiscovery from '../components/home/HomeBreedDiscovery.astro';
-import HomeMixedBreedDiscovery from '../components/home/HomeMixedBreedDiscovery.astro';
+import HomeBreedExplorer from '../components/home/HomeBreedExplorer.astro';
 import HomeCareDecisionLayer from '../components/home/HomeCareDecisionLayer.astro';
-import HomeEditorialHighlights from '../components/home/HomeEditorialHighlights.astro';
-import HomeMethodologyTeaser from '../components/home/HomeMethodologyTeaser.astro';
-import HomeLeadCapture from '../components/home/HomeLeadCapture.astro';
 import HomeAwinSpotlight from '../components/home/HomeAwinSpotlight.astro';
+import HomeEditorialHighlights from '../components/home/HomeEditorialHighlights.astro';
+import HomeLeadCapture from '../components/home/HomeLeadCapture.astro';
 
 import getHomepageData from '../lib/homepage/getHomepageData';
 
@@ -26,12 +18,8 @@ const {
   featureFlags,
   hero,
   primaryJourneys,
-  trustStrip,
-  breedDiscovery,
-  mixedBreedDiscovery,
   careDecisionLayer,
   editorialHighlights,
-  methodologyTeaser,
   leadCapture,
 } = homepage;
 
@@ -54,32 +42,10 @@ const structuredData = [
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     name: 'PupWiki homepage journeys',
-    itemListElement: primaryJourneys.items.map((item, index) => ({
+    itemListElement: primaryJourneys.items.map((item: any, index: number) => ({
       '@type': 'ListItem',
       position: index + 1,
       name: item.title,
-      url: new URL(item.href, seo.canonicalUrl).toString(),
-    })),
-  },
-  {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    name: 'Featured breed discovery',
-    itemListElement: breedDiscovery.breeds.map((item, index) => ({
-      '@type': 'ListItem',
-      position: index + 1,
-      name: item.name,
-      url: new URL(item.href, seo.canonicalUrl).toString(),
-    })),
-  },
-  {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    name: 'Featured mixed breed discovery',
-    itemListElement: mixedBreedDiscovery.items.map((item, index) => ({
-      '@type': 'ListItem',
-      position: index + 1,
-      name: item.name,
       url: new URL(item.href, seo.canonicalUrl).toString(),
     })),
   },
@@ -101,33 +67,7 @@ const structuredData = [
 
     {featureFlags.showPrimaryJourneys && <HomePrimaryJourneys {...primaryJourneys} />}
 
-    {featureFlags.showTrustStrip && <HomeTrustStrip {...trustStrip} />}
-
-    {featureFlags.showBreedDiscovery && (
-      <HomeBreedDiscovery
-        id="home-breed-discovery"
-        eyebrow={breedDiscovery.eyebrow}
-        title={breedDiscovery.title}
-        subtitle={breedDiscovery.subtitle}
-        viewAllHref={breedDiscovery.viewAllHref}
-        viewAllLabel={breedDiscovery.viewAllLabel}
-        routePrefix={breedDiscovery.routePrefix}
-        breeds={breedDiscovery.breeds}
-      />
-    )}
-
-    {featureFlags.showMixedBreedDiscovery && (
-      <HomeMixedBreedDiscovery
-        id="home-mixed-breed-discovery"
-        eyebrow={mixedBreedDiscovery.eyebrow}
-        title={mixedBreedDiscovery.title}
-        subtitle={mixedBreedDiscovery.subtitle}
-        viewAllHref={mixedBreedDiscovery.viewAllHref}
-        viewAllLabel={mixedBreedDiscovery.viewAllLabel}
-        detailRoutePrefix={mixedBreedDiscovery.detailRoutePrefix}
-        items={mixedBreedDiscovery.items}
-      />
-    )}
+    <HomeBreedExplorer id="home-breed-explorer" />
 
     {featureFlags.showCareDecisionLayer && <HomeCareDecisionLayer {...careDecisionLayer} />}
 
@@ -144,8 +84,6 @@ const structuredData = [
         items={editorialHighlights.items}
       />
     )}
-
-    {featureFlags.showMethodologyTeaser && <HomeMethodologyTeaser {...methodologyTeaser} />}
 
     {featureFlags.showLeadCapture && <HomeLeadCapture {...leadCapture} />}
   </div>
