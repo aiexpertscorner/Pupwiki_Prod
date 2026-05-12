@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression."
+imageAlt: "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression."
+imageSource: "pexels"
+imageCredit: "Photo by Téméraire Marketing Luxembourg on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/"
+imageSearchQuery: "Tornjak dog portrait"
 ---
+
 
 Naming a Tornjak is your first chance to match a name to a personality — and Tornjaks have a distinct one: **Friendly, Courageous, Intelligent**.
 The best Tornjak names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Tornjak's breed profile to give you the most matched options.

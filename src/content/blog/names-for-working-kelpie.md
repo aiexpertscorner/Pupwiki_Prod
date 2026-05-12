@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/13584270/pexels-photo-13584270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13584270/pexels-photo-13584270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed portrait of an Australian Kelpie dog surrounded by lush green foliage."
+imageAlt: "A detailed portrait of an Australian Kelpie dog surrounded by lush green foliage."
+imageSource: "pexels"
+imageCredit: "Photo by Magda Ehlers on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-13584270/"
+imageSearchQuery: "Working Kelpie dog portrait"
 ---
+
 
 Naming a Working Kelpie is your first chance to match a name to a personality — and Working Kelpies have a distinct one: **Alert, Eager, Intelligent**.
 The best Working Kelpie names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Working Kelpie's breed profile to give you the most matched options.

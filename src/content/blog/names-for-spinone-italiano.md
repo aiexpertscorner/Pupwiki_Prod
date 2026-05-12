@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/28637381/pexels-photo-28637381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28637381/pexels-photo-28637381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of an Italian Spinone dog in a serene field at dusk, capturing calmness and nature."
+imageAlt: "Portrait of an Italian Spinone dog in a serene field at dusk, capturing calmness and nature."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/italian-spinone-dog-in-a-tranquil-field-setting-28637381/"
+imageSearchQuery: "Spinone Italiano dog portrait"
 ---
+
 
 Naming a Spinone Italiano is your first chance to match a name to a personality — and Spinone Italianos have a distinct one: **Sociable, Patient, Docile**.
 The best Spinone Italiano names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Spinone Italiano's breed profile to give you the most matched options.

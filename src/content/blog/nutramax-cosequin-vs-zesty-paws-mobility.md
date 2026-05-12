@@ -16,7 +16,16 @@ topProduct:
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment."
+imageAlt: "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-poodle-shaking-hands-with-owner-outdoors-35276201/"
+imageSearchQuery: "dog owner comparing dog supplements"
 ---
+
 
 Choosing between **Nutramax Cosequin DS Joint Supplement** and **Zesty Paws Mobility Bites Advanced Hip & Joint** comes down to what you prioritise — price, performance, or specific features for your dog.
 > **Short answer:** Nutramax Cosequin DS Joint Supplement wins for most dogs and situations. But Zesty Paws Mobility Bites Advanced Hip & Joint is the better choice in specific cases outlined below.

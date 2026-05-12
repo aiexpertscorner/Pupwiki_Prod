@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/33851477/pexels-photo-33851477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33851477/pexels-photo-33851477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Jack Russell Terrier dog resting on a striped sofa, looking at the camera."
+imageAlt: "A cute Jack Russell Terrier dog resting on a striped sofa, looking at the camera."
+imageSource: "pexels"
+imageCredit: "Photo by Gundula Vogel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/jack-russell-terrier-relaxing-on-sofa-33851477/"
+imageSearchQuery: "Smooth Fox Terrier dog portrait"
 ---
+
 
 Naming a Smooth Fox Terrier is your first chance to match a name to a personality — and Smooth Fox Terriers have a distinct one: **Friendly, Independent, Amusing**.
 The best Smooth Fox Terrier names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Smooth Fox Terrier's breed profile to give you the most matched options.

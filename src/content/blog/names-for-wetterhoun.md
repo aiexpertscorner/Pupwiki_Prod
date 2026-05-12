@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/3427343/pexels-photo-3427343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3427343/pexels-photo-3427343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a black dog with brown eyes in an outdoor setting under daylight."
+imageAlt: "A close-up portrait of a black dog with brown eyes in an outdoor setting under daylight."
+imageSource: "pexels"
+imageCredit: "Photo by Julissa Pires on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photography-of-a-large-dog-3427343/"
+imageSearchQuery: "Wetterhoun dog portrait"
 ---
+
 
 Naming a Wetterhoun is your first chance to match a name to a personality — and Wetterhouns have a distinct one: **Loyal, Good-Natured, Intelligent**.
 The best Wetterhoun names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Wetterhoun's breed profile to give you the most matched options.

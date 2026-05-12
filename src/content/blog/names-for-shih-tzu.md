@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/29185550/pexels-photo-29185550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29185550/pexels-photo-29185550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute monochrome portrait of a Shih Tzu dog with a curious expression."
+imageAlt: "Cute monochrome portrait of a Shih Tzu dog with a curious expression."
+imageSource: "pexels"
+imageCredit: "Photo by Edyttka Stawiarska on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-shih-tzu-dog-portrait-in-monochrome-29185550/"
+imageSearchQuery: "Shih Tzu dog portrait"
 ---
+
 
 Naming a Shih Tzu is your first chance to match a name to a personality — and Shih Tzus have a distinct one: **Affectionate, Playful, Outgoing**.
 The best Shih Tzu names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Shih Tzu's breed profile to give you the most matched options.

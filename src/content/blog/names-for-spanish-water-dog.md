@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/9111572/pexels-photo-9111572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9111572/pexels-photo-9111572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Spanish Water Dog sits on a log surrounded by vibrant greenery in a serene natural setting."
+imageAlt: "A Spanish Water Dog sits on a log surrounded by vibrant greenery in a serene natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas  L on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-9111572/"
+imageSearchQuery: "Spanish Water Dog dog portrait"
 ---
+
 
 Naming a Spanish Water Dog is your first chance to match a name to a personality — and Spanish Water Dogs have a distinct one: **Playful but also Work-Oriented. Very Active and Upbeat.**.
 The best Spanish Water Dog names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Spanish Water Dog's breed profile to give you the most matched options.

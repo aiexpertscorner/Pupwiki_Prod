@@ -16,7 +16,16 @@ topProduct:
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/36700960/pexels-photo-36700960.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36700960/pexels-photo-36700960.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A charming dog wearing a bandana sits in front of its owner in soft focus."
+imageAlt: "A charming dog wearing a bandana sits in front of its owner in soft focus."
+imageSource: "pexels"
+imageCredit: "Photo by Anh Nguyen on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-dog-with-owner-in-soft-focus-36700960/"
+imageSearchQuery: "dog owner comparing dog food"
 ---
+
 
 Choosing between **Purina Pro Plan Large Breed Adult** and **Hill's Science Diet Large Breed Adult** comes down to what you prioritise — price, performance, or specific features for your dog.
 > **Short answer:** Purina Pro Plan Large Breed Adult wins for most dogs and situations. But Hill's Science Diet Large Breed Adult is the better choice in specific cases outlined below.

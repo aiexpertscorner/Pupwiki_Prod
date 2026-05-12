@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-on-grass-24453850/"
+imageSearchQuery: "Welsh Springer Spaniel dog portrait"
 ---
+
 
 Naming a Welsh Springer Spaniel is your first chance to match a name to a personality — and Welsh Springer Spaniels have a distinct one: **Happy, Reserved, Upbeat**.
 The best Welsh Springer Spaniel names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Welsh Springer Spaniel's breed profile to give you the most matched options.

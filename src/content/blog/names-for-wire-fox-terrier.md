@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/31659157/pexels-photo-31659157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31659157/pexels-photo-31659157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable terrier dog portrait with a dark background and gentle expression."
+imageAlt: "Adorable terrier dog portrait with a dark background and gentle expression."
+imageSource: "pexels"
+imageCredit: "Photo by Bastian Riccardi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-cute-terrier-dog-31659157/"
+imageSearchQuery: "Wire Fox Terrier dog portrait"
 ---
+
 
 Naming a Wire Fox Terrier is your first chance to match a name to a personality — and Wire Fox Terriers have a distinct one: **Confident, Alert, Gregarious**.
 The best Wire Fox Terrier names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Wire Fox Terrier's breed profile to give you the most matched options.

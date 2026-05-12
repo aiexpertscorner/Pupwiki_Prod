@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/7526290/pexels-photo-7526290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7526290/pexels-photo-7526290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Yorkshire Terrier dog looking alert outdoors. Perfect for pet lovers."
+imageAlt: "Adorable Yorkshire Terrier dog looking alert outdoors. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by belen capello on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-close-up-shot-of-a-yorkshire-terrier-7526290/"
+imageSearchQuery: "Silky Terrier dog portrait"
 ---
+
 
 Naming a Silky Terrier is your first chance to match a name to a personality — and Silky Terriers have a distinct one: **Friendly, Quick, Keenly Alert**.
 The best Silky Terrier names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Silky Terrier's breed profile to give you the most matched options.

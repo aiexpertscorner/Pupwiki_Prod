@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/36961551/pexels-photo-36961551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36961551/pexels-photo-36961551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up black and white portrait of a dog's face, capturing expressive eyes."
+imageAlt: "Close-up black and white portrait of a dog's face, capturing expressive eyes."
+imageSource: "pexels"
+imageCredit: "Photo by Peter Dyllong on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-a-thoughtful-dog-36961551/"
+imageSearchQuery: "Swedish Vallhund dog portrait"
 ---
+
 
 Naming a Swedish Vallhund is your first chance to match a name to a personality — and Swedish Vallhunds have a distinct one: **Friendly, Energetic, Watchful**.
 The best Swedish Vallhund names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Swedish Vallhund's breed profile to give you the most matched options.

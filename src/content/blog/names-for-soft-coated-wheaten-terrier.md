@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/35102547/pexels-photo-35102547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35102547/pexels-photo-35102547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed side profile portrait of a wirehaired dog in an indoor setting, showcasing its distinct fur texture and colors."
+imageAlt: "A detailed side profile portrait of a wirehaired dog in an indoor setting, showcasing its distinct fur texture and colors."
+imageSource: "pexels"
+imageCredit: "Photo by Jesús Esteban San José on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-wirehaired-dog-35102547/"
+imageSearchQuery: "Soft Coated Wheaten Terrier dog portrait"
 ---
+
 
 Naming a Soft Coated Wheaten Terrier is your first chance to match a name to a personality — and Soft Coated Wheaten Terriers have a distinct one: **Friendly, Happy, Deeply Devoted**.
 The best Soft Coated Wheaten Terrier names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Soft Coated Wheaten Terrier's breed profile to give you the most matched options.

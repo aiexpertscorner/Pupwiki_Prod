@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/17764477/pexels-photo-17764477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/17764477/pexels-photo-17764477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a beautiful Vizsla dog outdoors, showcasing its expressive eyes and silky coat."
+imageAlt: "Portrait of a beautiful Vizsla dog outdoors, showcasing its expressive eyes and silky coat."
+imageSource: "pexels"
+imageCredit: "Photo by Chris Hancock on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-brown-vizsla-dog-17764477/"
+imageSearchQuery: "Vizsla dog portrait"
 ---
+
 
 Naming a Vizsla is your first chance to match a name to a personality — and Vizslas have a distinct one: **Affectionate, Gentle, Energetic**.
 The best Vizsla names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Vizsla's breed profile to give you the most matched options.

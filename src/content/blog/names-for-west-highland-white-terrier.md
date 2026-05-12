@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Westie dog lying on a wooden floor, charming and fluffy."
+imageAlt: "Westie dog lying on a wooden floor, charming and fluffy."
+imageSource: "pexels"
+imageCredit: "Photo by Alan han on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-west-highland-white-terrier-indoors-31163319/"
+imageSearchQuery: "West Highland White Terrier dog portrait"
 ---
+
 
 Naming a West Highland White Terrier is your first chance to match a name to a personality — and West Highland White Terriers have a distinct one: **Loyal, Happy, Entertaining**.
 The best West Highland White Terrier names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the West Highland White Terrier's breed profile to give you the most matched options.

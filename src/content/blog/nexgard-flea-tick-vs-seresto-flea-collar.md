@@ -16,7 +16,16 @@ topProduct:
 schemaType: "Article"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/6235124/pexels-photo-6235124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6235124/pexels-photo-6235124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Veterinarian consulting with dog owner in a clinic while holding a Pomeranian."
+imageAlt: "Veterinarian consulting with dog owner in a clinic while holding a Pomeranian."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/man-holding-dog-while-talking-to-a-woman-6235124/"
+imageSearchQuery: "dog owner comparing veterinarian dog health"
 ---
+
 
 Choosing between **NexGard Chewables for Dogs (Flea & Tick)** and **Seresto Flea and Tick Collar for Dogs** comes down to what you prioritise — price, performance, or specific features for your dog.
 > **Short answer:** NexGard Chewables for Dogs (Flea & Tick) wins for most dogs and situations. But Seresto Flea and Tick Collar for Dogs is the better choice in specific cases outlined below.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/12891907/pexels-photo-12891907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12891907/pexels-photo-12891907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A smiling Siberian Husky dog with blue eyes and a fluffy coat relaxing outdoors."
+imageAlt: "A smiling Siberian Husky dog with blue eyes and a fluffy coat relaxing outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-portrait-of-black-and-white-siberian-husky-12891907/"
+imageSearchQuery: "Siberian Husky dog portrait"
 ---
+
 
 Naming a Siberian Husky is your first chance to match a name to a personality — and Siberian Huskys have a distinct one: **Loyal, Mischievous, Outgoing**.
 The best Siberian Husky names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Siberian Husky's breed profile to give you the most matched options.

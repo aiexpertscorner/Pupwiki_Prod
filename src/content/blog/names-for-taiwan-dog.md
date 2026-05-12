@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/17894089/pexels-photo-17894089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/17894089/pexels-photo-17894089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A vibrant outdoor portrait of a cheerful black dog with a bright expression and textured background."
+imageAlt: "A vibrant outdoor portrait of a cheerful black dog with a bright expression and textured background."
+imageSource: "pexels"
+imageCredit: "Photo by Franco Monsalvo on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-black-dog-17894089/"
+imageSearchQuery: "Taiwan Dog dog portrait"
 ---
+
 
 Naming a Taiwan Dog is your first chance to match a name to a personality — and Taiwan Dogs have a distinct one: **Loyal, Versatile, Intelligent**.
 The best Taiwan Dog names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Taiwan Dog's breed profile to give you the most matched options.

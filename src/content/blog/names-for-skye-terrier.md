@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/20643492/pexels-photo-20643492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20643492/pexels-photo-20643492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene moment of a man and his dog on a bench by the sea in Jönköping, Sweden."
+imageAlt: "A serene moment of a man and his dog on a bench by the sea in Jönköping, Sweden."
+imageSource: "pexels"
+imageCredit: "Photo by Efrem  Efre on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-20643492/"
+imageSearchQuery: "Skye Terrier dog portrait"
 ---
+
 
 Naming a Skye Terrier is your first chance to match a name to a personality — and Skye Terriers have a distinct one: **Courageous, Good-Tempered, Canny**.
 The best Skye Terrier names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Skye Terrier's breed profile to give you the most matched options.

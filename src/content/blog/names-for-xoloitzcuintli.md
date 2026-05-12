@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/36936630/pexels-photo-36936630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36936630/pexels-photo-36936630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Dramatic low-key portrait of a Xoloitzcuintli dog against a dark background."
+imageAlt: "Dramatic low-key portrait of a Xoloitzcuintli dog against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/captivating-portrait-of-a-xoloitzcuintli-dog-36936630/"
+imageSearchQuery: "Xoloitzcuintli dog portrait"
 ---
+
 
 Naming a Xoloitzcuintli is your first chance to match a name to a personality — and Xoloitzcuintlis have a distinct one: **Loyal, Alert, Calm**.
 The best Xoloitzcuintli names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Xoloitzcuintli's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/2528553/pexels-photo-2528553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/2528553/pexels-photo-2528553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Monochrome portrait of a fluffy dog gazing thoughtfully."
+imageAlt: "Monochrome portrait of a fluffy dog gazing thoughtfully."
+imageSource: "pexels"
+imageCredit: "Photo by Aramis Cartam on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/monochrome-photo-of-dog-2528553/"
+imageSearchQuery: "Tibetan Spaniel dog portrait"
 ---
+
 
 Naming a Tibetan Spaniel is your first chance to match a name to a personality — and Tibetan Spaniels have a distinct one: **Playful, Bright, Self-Confident**.
 The best Tibetan Spaniel names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Tibetan Spaniel's breed profile to give you the most matched options.

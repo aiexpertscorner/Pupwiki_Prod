@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/19718742/pexels-photo-19718742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19718742/pexels-photo-19718742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Wirehaired Vizsla dog sitting on a field in a misty rural landscape."
+imageAlt: "Wirehaired Vizsla dog sitting on a field in a misty rural landscape."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-wirehaired-vizsla-dog-sitting-on-the-ground-outside-19718742/"
+imageSearchQuery: "Wirehaired Vizsla dog portrait"
 ---
+
 
 Naming a Wirehaired Vizsla is your first chance to match a name to a personality — and Wirehaired Vizslas have a distinct one: **Gentle, Loyal, Trainable**.
 The best Wirehaired Vizsla names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Wirehaired Vizsla's breed profile to give you the most matched options.

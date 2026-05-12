@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/5988936/pexels-photo-5988936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5988936/pexels-photo-5988936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a Markiesje dog with tongue out in a sunny park. Perfect for pet lovers."
+imageAlt: "Portrait of a Markiesje dog with tongue out in a sunny park. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by La Fattoria di Tobia Rifugio per Animali on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-dog-with-tongue-out-5988936/"
+imageSearchQuery: "Stabyhoun dog portrait"
 ---
+
 
 Naming a Stabyhoun is your first chance to match a name to a personality — and Stabyhouns have a distinct one: **Intelligent, Responsive, Loving**.
 The best Stabyhoun names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Stabyhoun's breed profile to give you the most matched options.

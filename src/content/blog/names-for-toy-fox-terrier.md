@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Yorkshire Terrier puppy resting indoors with a toy dog figurine nearby."
+imageAlt: "Cute Yorkshire Terrier puppy resting indoors with a toy dog figurine nearby."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/yorkshire-terrier-with-toy-indoors-portrait-34232518/"
+imageSearchQuery: "Toy Fox Terrier dog portrait"
 ---
+
 
 Naming a Toy Fox Terrier is your first chance to match a name to a personality — and Toy Fox Terriers have a distinct one: **Friendly, Alert, Intelligent**.
 The best Toy Fox Terrier names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Toy Fox Terrier's breed profile to give you the most matched options.

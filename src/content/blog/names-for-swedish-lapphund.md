@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/29352513/pexels-photo-29352513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29352513/pexels-photo-29352513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Finnish Lapphund dog with a fluffy coat by a serene water background."
+imageAlt: "A Finnish Lapphund dog with a fluffy coat by a serene water background."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-finnish-lapphund-by-the-water-29352513/"
+imageSearchQuery: "Swedish Lapphund dog portrait"
 ---
+
 
 Naming a Swedish Lapphund is your first chance to match a name to a personality — and Swedish Lapphunds have a distinct one: **Playful, Intelligent, Lively**.
 The best Swedish Lapphund names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Swedish Lapphund's breed profile to give you the most matched options.

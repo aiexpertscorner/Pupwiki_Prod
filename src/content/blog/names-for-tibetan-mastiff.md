@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/29689224/pexels-photo-29689224.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29689224/pexels-photo-29689224.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Kangal shepherd dog relaxing in a rural setting beside a wooden house. Calm, tranquil scene."
+imageAlt: "Kangal shepherd dog relaxing in a rural setting beside a wooden house. Calm, tranquil scene."
+imageSource: "pexels"
+imageCredit: "Photo by arda öncül on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/kangal-shepherd-dog-relaxing-near-rustic-dog-house-29689224/"
+imageSearchQuery: "Tibetan Mastiff dog portrait"
 ---
+
 
 Naming a Tibetan Mastiff is your first chance to match a name to a personality — and Tibetan Mastiffs have a distinct one: **Independent, Reserved, Intelligent**.
 The best Tibetan Mastiff names lean toward clever, distinctive names that match their sharp minds. We filtered our database of 7,000+ names through the Tibetan Mastiff's breed profile to give you the most matched options.

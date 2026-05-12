@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor."
+imageAlt: "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor."
+imageSource: "pexels"
+imageCredit: "Photo by Theo Willems on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-hovawart-dog-16528289/"
+imageSearchQuery: "Slovensky Kopov dog portrait"
 ---
+
 
 Naming a Slovensky Kopov is your first chance to match a name to a personality — and Slovensky Kopovs have a distinct one: **Courageous, Alert, Determined**.
 The best Slovensky Kopov names lean toward names that match their unique character. We filtered our database of 7,000+ names through the Slovensky Kopov's breed profile to give you the most matched options.

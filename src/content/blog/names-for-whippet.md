@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/6634812/pexels-photo-6634812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6634812/pexels-photo-6634812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a whippet dog outdoors with a blurred natural background."
+imageAlt: "Portrait of a whippet dog outdoors with a blurred natural background."
+imageSource: "pexels"
+imageCredit: "Photo by Deann DaSilva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-and-brown-short-coated-dog-6634812/"
+imageSearchQuery: "Whippet dog portrait"
 ---
+
 
 Naming a Whippet is your first chance to match a name to a personality — and Whippets have a distinct one: **Affectionate, Playful, Calm**.
 The best Whippet names lean toward soft, elegant names that suit their gentle temperament. We filtered our database of 7,000+ names through the Whippet's breed profile to give you the most matched options.

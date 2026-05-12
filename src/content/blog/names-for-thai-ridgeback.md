@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/1322737/pexels-photo-1322737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/1322737/pexels-photo-1322737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Rhodesian Ridgeback dog in black and white, showcasing its expressive features."
+imageAlt: "Close-up portrait of a Rhodesian Ridgeback dog in black and white, showcasing its expressive features."
+imageSource: "pexels"
+imageCredit: "Photo by Julia Barthold on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-adult-dog-1322737/"
+imageSearchQuery: "Thai Ridgeback dog portrait"
 ---
+
 
 Naming a Thai Ridgeback is your first chance to match a name to a personality — and Thai Ridgebacks have a distinct one: **Loyal, Independent, Agile**.
 The best Thai Ridgeback names lean toward strong, dignified names that reflect their loyal nature. We filtered our database of 7,000+ names through the Thai Ridgeback's breed profile to give you the most matched options.

@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/12646676/pexels-photo-12646676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12646676/pexels-photo-12646676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Detailed close-up portrait of a brindle dog with soulful eyes looking straight at the camera."
+imageAlt: "Detailed close-up portrait of a brindle dog with soulful eyes looking straight at the camera."
+imageSource: "pexels"
+imageCredit: "Photo by CESAR A RAMIREZ VALLEJO TRAPHITHO on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-dog-12646676/"
+imageSearchQuery: "Treeing Tennessee Brindle dog portrait"
 ---
+
 
 Naming a Treeing Tennessee Brindle is your first chance to match a name to a personality — and Treeing Tennessee Brindles have a distinct one: **Friendly, Alert, Intelligent**.
 The best Treeing Tennessee Brindle names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Treeing Tennessee Brindle's breed profile to give you the most matched options.

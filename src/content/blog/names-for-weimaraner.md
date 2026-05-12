@@ -15,7 +15,16 @@ schemaType: "Article"
 noIndex: false
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+heroImage: "https://images.pexels.com/photos/5705543/pexels-photo-5705543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5705543/pexels-photo-5705543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a Weimaraner dog wearing a collar, set in an outdoor environment."
+imageAlt: "A detailed close-up portrait of a Weimaraner dog wearing a collar, set in an outdoor environment."
+imageSource: "pexels"
+imageCredit: "Photo by www.kaboompics.com on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-face-5705543/"
+imageSearchQuery: "Weimaraner dog portrait"
 ---
+
 
 Naming a Weimaraner is your first chance to match a name to a personality — and Weimaraners have a distinct one: **Friendly, Fearless, Obedient**.
 The best Weimaraner names lean toward social, approachable names that match their outgoing personality. We filtered our database of 7,000+ names through the Weimaraner's breed profile to give you the most matched options.
