@@ -343,6 +343,13 @@
 
   --sw-text-label:   0.52rem;
   --sw-text-nano:    0.45rem;
+
+  /* Derived accent/danger overlays for prose and card UI */
+  --sw-accent-subtle:  rgba(204, 255, 0, 0.06);
+  --sw-accent-border:  rgba(204, 255, 0, 0.20);
+  --sw-danger-subtle:  rgba(255, 59, 59, 0.06);
+  --sw-danger-border:  rgba(255, 59, 59, 0.20);
+  --sw-score-mid:      #ffd600;
 }
 
 html {

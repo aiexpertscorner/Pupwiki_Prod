@@ -5,12 +5,14 @@ export interface Props {
   badge?:string; features?:string[]; image?:string; tag?:string;
 }
 const {
-  name,asin,price,rating=4.5,reviewCount,ourScore,verdict,
-  pros=[],cons=[],badge,features=[],image,tag="aiexpertscorn-20"
+  name,asin,price,rating=4.5,reviewCount,ourScore,
+  verdict,pros=[],cons=[],badge,features=[],image,tag="aiexpertscorn-20"
 } = Astro.props;
 const url   = `https://www.amazon.com/dp/${asin}/?tag=${tag}`;
 const stars = Math.round(rating);
-const sc    = ourScore ? (ourScore>=9?'#CCFF00':ourScore>=7?'#FFD600':'#FF3B3B') : '#888';
+const scoreClass = ourScore
+  ? (ourScore >= 9 ? 'score--high' : ourScore >= 7 ? 'score--mid' : 'score--low')
+  : 'score--none';
 const schema = JSON.stringify({
   "@context":"https://schema.org","@type":"Review",
   "itemReviewed":{"@type":"Product","name":name,"offers":price?{"@type":"Offer","price":price,"priceCurrency":"USD","url":url}:undefined},
@@ -18,66 +20,288 @@ const schema = JSON.stringify({
   "author":{"@type":"Organization","name":"PupWiki"},"reviewBody":verdict
 });
 ---
-<div style="background:#222;border:2px solid rgba(255,255,255,.1);overflow:hidden;transition:border-color .15s"
-     onmouseover="this.style.borderColor='#CCFF00'" onmouseout="this.style.borderColor='rgba(255,255,255,.1)'">
+
+<div class="prc">
   <script type="application/ld+json" set:html={schema}/>
-  {badge && <div style="background:#CCFF00;padding:.3rem 1rem;font-family:'Archivo Black',sans-serif;font-size:.62rem;text-transform:uppercase;letter-spacing:.1em;color:#0A0A0A">{badge}</div>}
-  <div style="padding:1.1rem;display:flex;flex-direction:column;gap:.65rem">
-    <div style="display:flex;align-items:flex-start;gap:.9rem">
-      <a href={url} rel="nofollow sponsored" target="_blank"
-         style="display:block;background:#fff;flex-shrink:0;width:72px;height:72px;overflow:hidden;border:1px solid rgba(255,255,255,.08)">
+  {badge && <div class="prc__badge">{badge}</div>}
+  <div class="prc__body">
+    <div class="prc__header">
+      <a href={url} rel="nofollow sponsored" target="_blank" class="prc__image-link">
         {image ? (
-          <img src={image} alt={name} loading="lazy" width="72" height="72"
-               style="width:100%;height:100%;object-fit:contain;padding:.2rem;transition:transform .2s;display:block"
-               onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform=''"/>
+          <img src={image} alt={name} loading="lazy" width="72" height="72" class="prc__image"/>
         ) : (
-          <div style="width:100%;height:100%;background:#111;display:flex;align-items:center;justify-content:center">
-            <span style="font-size:1.8rem">🐾</span>
-          </div>
+          <div class="prc__image-placeholder"><span>🐾</span></div>
         )}
       </a>
-      <div style="flex:1">
-        <h3 style="font-family:'Archivo Black',sans-serif;font-size:.88rem;text-transform:uppercase;color:#F0F0F0;margin:0 0 .3rem;line-height:1.2">{name}</h3>
-        <div style="display:flex;flex-wrap:wrap;align-items:center;gap:.4rem">
-          <span style="color:#CCFF00;font-size:.78rem">{'★'.repeat(stars)}</span>
-          <span style="font-family:'Space Mono',monospace;font-size:.58rem;color:#888">{rating.toFixed(1)}{reviewCount&&` (${reviewCount.toLocaleString()})`}</span>
-          {price&&<span style="font-family:'Archivo Black',sans-serif;color:#CCFF00">${price.toFixed(2)}</span>}
+      <div class="prc__meta">
+        <h3 class="prc__name">{name}</h3>
+        <div class="prc__rating-row">
+          <span class="prc__stars" aria-label={`${rating} out of 5`}>{'★'.repeat(stars)}</span>
+          <span class="prc__rating-text">{rating.toFixed(1)}{reviewCount && ` (${reviewCount.toLocaleString()})`}</span>
+          {price && <span class="prc__price">${price.toFixed(2)}</span>}
         </div>
       </div>
-      {ourScore&&(
-        <div style="text-align:center;flex-shrink:0">
-          <div style={`font-family:'Anton',sans-serif;font-size:1.6rem;color:${sc};line-height:1`}>{ourScore}<span style="font-size:.7rem;color:#666">/10</span></div>
-          <div style="font-family:'Space Mono',monospace;font-size:.52rem;color:#666;text-transform:uppercase">SCORE</div>
+      {ourScore && (
+        <div class={`prc__score ${scoreClass}`}>
+          <span class="prc__score-value">{ourScore}<span class="prc__score-denom">/10</span></span>
+          <span class="prc__score-label">SCORE</span>
         </div>
       )}
     </div>
-    {verdict&&<p style="font-family:'Barlow Condensed',sans-serif;font-size:.92rem;color:#AAA;border-left:3px solid #CCFF00;padding:.25rem .65rem;margin:0;font-style:italic">"{verdict}"</p>}
-    {features.length>0&&(
-      <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.2rem">
-        {features.slice(0,3).map(f=>(
-          <li style="font-family:'Barlow Condensed',sans-serif;font-size:.88rem;color:#AAA;display:flex;gap:.35rem">
-            <span style="color:#CCFF00;flex-shrink:0;font-size:.7rem">→</span>{f}
-          </li>
+
+    {verdict && (
+      <p class="prc__verdict">"{verdict}"</p>
+    )}
+
+    {features.length > 0 && (
+      <ul class="prc__features">
+        {features.slice(0, 3).map(f => (
+          <li class="prc__feature"><span class="prc__feature-arrow">→</span>{f}</li>
         ))}
       </ul>
     )}
-    {(pros.length>0||cons.length>0)&&(
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.4rem">
-        {pros.length>0&&<div style="background:rgba(204,255,0,.06);border:1px solid rgba(204,255,0,.2);padding:.5rem .65rem">
-          <p style="font-family:'Archivo Black',sans-serif;font-size:.58rem;text-transform:uppercase;color:#CCFF00;margin:0 0 .3rem">✓ PROS</p>
-          {pros.slice(0,3).map(p=><p style="font-family:'Barlow Condensed',sans-serif;font-size:.78rem;color:#AAA;margin:0 0 .12rem">{p}</p>)}
-        </div>}
-        {cons.length>0&&<div style="background:rgba(255,59,59,.06);border:1px solid rgba(255,59,59,.2);padding:.5rem .65rem">
-          <p style="font-family:'Archivo Black',sans-serif;font-size:.58rem;text-transform:uppercase;color:#FF3B3B;margin:0 0 .3rem">✗ CONS</p>
-          {cons.slice(0,3).map(c=><p style="font-family:'Barlow Condensed',sans-serif;font-size:.78rem;color:#AAA;margin:0 0 .12rem">{c}</p>)}
-        </div>}
+
+    {(pros.length > 0 || cons.length > 0) && (
+      <div class="prc__pros-cons">
+        {pros.length > 0 && (
+          <div class="prc__pros">
+            <p class="prc__pros-heading">✓ PROS</p>
+            {pros.slice(0, 3).map(p => <p class="prc__pros-item">{p}</p>)}
+          </div>
+        )}
+        {cons.length > 0 && (
+          <div class="prc__cons">
+            <p class="prc__cons-heading">✗ CONS</p>
+            {cons.slice(0, 3).map(c => <p class="prc__cons-item">{c}</p>)}
+          </div>
+        )}
       </div>
     )}
-    <a href={url} rel="nofollow sponsored" target="_blank"
-       style="display:block;background:#CCFF00;color:#0A0A0A;font-family:'Archivo Black',sans-serif;font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;padding:.75rem;border:2px solid #0A0A0A;box-shadow:3px 3px 0 #0A0A0A;text-decoration:none;text-align:center;transition:all .1s"
-       onmouseover="this.style.transform='translate(-2px,-2px)';this.style.boxShadow='5px 5px 0 #0A0A0A'"
-       onmouseout="this.style.transform='';this.style.boxShadow='3px 3px 0 #0A0A0A'">
+
+    <a href={url} rel="nofollow sponsored" target="_blank" class="prc__cta">
       CHECK PRICE ON AMAZON →
     </a>
   </div>
 </div>
+
+<style>
+  /* ── Root card ── */
+  .prc {
+    background: var(--sw-bg);
+    border: 2px solid var(--sw-border);
+    overflow: hidden;
+    transition: border-color var(--transition-base);
+  }
+  .prc:hover {
+    border-color: var(--sw-accent);
+  }
+
+  /* ── Badge strip ── */
+  .prc__badge {
+    background: var(--sw-accent);
+    padding: 0.3rem 1rem;
+    font-family: var(--sw-font-heading);
+    font-size: var(--sw-text-label);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--sw-midnight);
+  }
+
+  /* ── Body padding ── */
+  .prc__body {
+    padding: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  /* ── Header row: image + meta + score ── */
+  .prc__header {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9rem;
+  }
+
+  .prc__image-link {
+    display: block;
+    background: var(--color-bg);
+    flex-shrink: 0;
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+    border: 1px solid var(--sw-border);
+  }
+  .prc__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0.2rem;
+    display: block;
+    transition: transform var(--transition-slow);
+  }
+  .prc__image-link:hover .prc__image {
+    transform: scale(1.08);
+  }
+  .prc__image-placeholder {
+    width: 100%;
+    height: 100%;
+    background: var(--sw-bg-deep);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+  }
+
+  .prc__meta {
+    flex: 1;
+  }
+  .prc__name {
+    font-family: var(--sw-font-heading);
+    font-size: 0.88rem;
+    text-transform: uppercase;
+    color: var(--sw-text);
+    margin: 0 0 0.3rem;
+    line-height: 1.2;
+  }
+  .prc__rating-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .prc__stars {
+    color: var(--sw-accent);
+    font-size: 0.78rem;
+  }
+  .prc__rating-text {
+    font-family: var(--sw-font-mono);
+    font-size: var(--sw-text-label);
+    color: var(--sw-text-muted);
+  }
+  .prc__price {
+    font-family: var(--sw-font-heading);
+    color: var(--sw-accent);
+  }
+
+  /* ── Score block ── */
+  .prc__score {
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .prc__score-value {
+    display: block;
+    font-family: var(--sw-font-display);
+    font-size: 1.6rem;
+    line-height: 1;
+    color: var(--sw-text-dim);
+  }
+  .prc__score-denom {
+    font-size: 0.7rem;
+    color: var(--sw-text-dim);
+  }
+  .prc__score-label {
+    display: block;
+    font-family: var(--sw-font-mono);
+    font-size: var(--sw-text-nano);
+    color: var(--sw-text-dim);
+    text-transform: uppercase;
+  }
+  .score--high .prc__score-value { color: var(--sw-accent); }
+  .score--high .prc__score-denom { color: var(--sw-text-muted); }
+  .score--mid  .prc__score-value { color: var(--sw-score-mid); }
+  .score--mid  .prc__score-denom { color: var(--sw-text-muted); }
+  .score--low  .prc__score-value { color: var(--color-danger); }
+  .score--low  .prc__score-denom { color: var(--sw-text-muted); }
+
+  /* ── Verdict quote ── */
+  .prc__verdict {
+    font-family: var(--sw-font-body);
+    font-size: 0.92rem;
+    color: var(--sw-text-muted);
+    border-left: 3px solid var(--sw-accent);
+    padding: 0.25rem 0.65rem;
+    margin: 0;
+    font-style: italic;
+  }
+
+  /* ── Feature list ── */
+  .prc__features {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .prc__feature {
+    font-family: var(--sw-font-body);
+    font-size: 0.88rem;
+    color: var(--sw-text-muted);
+    display: flex;
+    gap: 0.35rem;
+  }
+  .prc__feature-arrow {
+    color: var(--sw-accent);
+    flex-shrink: 0;
+    font-size: 0.7rem;
+  }
+
+  /* ── Pros / Cons ── */
+  .prc__pros-cons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4rem;
+  }
+  .prc__pros {
+    background: var(--sw-accent-subtle);
+    border: 1px solid var(--sw-accent-border);
+    padding: 0.5rem 0.65rem;
+  }
+  .prc__cons {
+    background: var(--sw-danger-subtle);
+    border: 1px solid var(--sw-danger-border);
+    padding: 0.5rem 0.65rem;
+  }
+  .prc__pros-heading {
+    font-family: var(--sw-font-heading);
+    font-size: var(--sw-text-label);
+    text-transform: uppercase;
+    color: var(--sw-accent);
+    margin: 0 0 0.3rem;
+  }
+  .prc__cons-heading {
+    font-family: var(--sw-font-heading);
+    font-size: var(--sw-text-label);
+    text-transform: uppercase;
+    color: var(--color-danger);
+    margin: 0 0 0.3rem;
+  }
+  .prc__pros-item,
+  .prc__cons-item {
+    font-family: var(--sw-font-body);
+    font-size: 0.78rem;
+    color: var(--sw-text-muted);
+    margin: 0 0 0.12rem;
+  }
+
+  /* ── CTA button ── */
+  .prc__cta {
+    display: block;
+    background: var(--sw-accent);
+    color: var(--sw-midnight);
+    font-family: var(--sw-font-heading);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.75rem;
+    border: 2px solid var(--sw-midnight);
+    box-shadow: 3px 3px 0 var(--sw-midnight);
+    text-decoration: none;
+    text-align: center;
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  }
+  .prc__cta:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 var(--sw-midnight);
+  }
+</style>

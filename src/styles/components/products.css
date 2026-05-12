@@ -22,7 +22,7 @@
 
 .product-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(255, 122, 0, 0.24);
+  border-color: var(--color-accent);
   box-shadow: var(--shadow-card-hover);
 }
 
@@ -85,6 +85,22 @@
   font-size: var(--text-lg);
   font-weight: var(--weight-black);
   color: var(--color-heading);
+}
+
+.product-card__brand {
+  font-size: 0.7rem;
+  color: var(--color-accent);
+  display: block;
+  margin-bottom: 0.2rem;
+  text-decoration: none;
+}
+.product-card__brand:hover {
+  text-decoration: underline;
+}
+
+.product-card__cta-group {
+  display: flex;
+  gap: 6px;
 }
 
 .affiliate-note {
