@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "frug"
 breedName: "Frug"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-frug"
+heroImage: "https://images.pexels.com/photos/15628462/pexels-photo-15628462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15628462/pexels-photo-15628462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute merle French Bulldog puppy sleeping on a dark blue sofa indoors."
+imageAlt: "Cute merle French Bulldog puppy sleeping on a dark blue sofa indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Bo Ponomari on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/puppy-sleeping-15628462/"
+imageSearchQuery: "Frug dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Frugs
 Frugs are medium-sized (varies lbs), with calm energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

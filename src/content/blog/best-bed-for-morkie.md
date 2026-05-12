@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "morkie"
 breedName: "Morkie"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-morkie"
+heroImage: "https://images.pexels.com/photos/7282668/pexels-photo-7282668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7282668/pexels-photo-7282668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Overhead of cute little child and sleeping Morkies dogs on bed in daylight"
+imageAlt: "Overhead of cute little child and sleeping Morkies dogs on bed in daylight"
+imageSource: "pexels"
+imageCredit: "Photo by Sarah  Chai on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/morkies-dogs-sleeping-near-little-baby-on-bed-7282668/"
+imageSearchQuery: "Morkie dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Morkies
 Morkies are medium-sized (varies lbs), with regular energy, minimal shedding, and a silky coat. The recommendations below are matched to these traits.

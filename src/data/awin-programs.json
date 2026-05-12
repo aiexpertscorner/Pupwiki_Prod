@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-12T18:34:36.316Z",
+  "syncedAt": "2026-05-12T18:47:38.921Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -141,11 +141,11 @@
       "advertiserId": "63546",
       "name": "Chef Paw (US)",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "displayUrl": "https://www.chefpaw.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=63546&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/63546.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -161,9 +161,22 @@
           "domain": "*.chefpaw.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [
+        {
+          "min": 8,
+          "max": 10,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "25",
+        "approvalPercentage": 75.27,
+        "epc": 1.91,
+        "conversionRate": 7.7,
+        "validationDays": 1,
+        "awinIndex": 81.1
+      },
+      "linkStatus": "online",
       "staticProgramId": "chefpaw",
       "feedId": "93508",
       "configuredDeeplink": "https://tidd.ly/41TPa44",
@@ -304,11 +317,11 @@
       "advertiserId": "87999",
       "name": "RadioFence.com",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://www.radiofence.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87999&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87999.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -321,21 +334,8 @@
           "domain": "www.radiofence.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 4,
-          "max": 4,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "38",
-        "approvalPercentage": 65.38,
-        "epc": 0.48,
-        "conversionRate": 10.35,
-        "validationDays": 10,
-        "awinIndex": 72.8
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": "radiofence-com",
       "feedId": "105980",
@@ -1521,7 +1521,7 @@
       "advertiserId": "63546",
       "name": "Chef Paw (US)",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "hasProductFeed": true,
       "feedIds": [
@@ -1532,7 +1532,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/63546.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=63546&id=2861861",
       "topicTags": [
@@ -1602,7 +1602,7 @@
       "advertiserId": "87999",
       "name": "RadioFence.com",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": true,
       "feedIds": [
@@ -1612,7 +1612,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87999.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87999&id=2861861",
       "topicTags": [
@@ -2082,10 +2082,6 @@
     "feedProductFetchFailures": 3,
     "experimentalCreativesEnabled": false,
     "warnings": [
-      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/79708 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/79708 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/79708 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
@@ -2097,6 +2093,10 @@
       "programmedetails/87999 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/87999 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/87999 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/87999 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/89689 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/89689 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/89689 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "programmedetails/98349 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/98349 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/98349 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
@@ -2113,7 +2113,7 @@
       "programmedetails/111784 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/111784 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "feed/93508 returned no parseable products from one endpoint; trying next endpoint if available.",
-      "feed/93508 -> HTTP 400 — \n<h1>Error</h1>\n\n\t<h2>Invalid parameters, see instructions</h2>\n\n\n",
+      "feed/93508 -> HTTP 415 — {\"timestamp\":\"2026-05-12T18:47:36.320273177Z\",\"path\":\"/datafeed/download/apikey/e466e47be4dadeca127cf45dc6969055/language/en/fid/93508/columns/aw_product_id%2Cmerchant_product_id%2Cproduct_name%2Cdesc",
       "feed/93508 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/93508\\/download\\\"\"}",
       "feed/93508 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/93508\\/download\\\"\"}",
       "No product rows could be imported from feed 93508 (Chef Paw (US))"

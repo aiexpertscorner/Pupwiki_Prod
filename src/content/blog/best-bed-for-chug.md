@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "chug"
 breedName: "Chug"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-chug"
+heroImage: "https://images.pexels.com/photos/5420821/pexels-photo-5420821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5420821/pexels-photo-5420821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A calm small dog sleeping soundly on a soft bed, showcasing relaxation."
+imageAlt: "A calm small dog sleeping soundly on a soft bed, showcasing relaxation."
+imageSource: "pexels"
+imageCredit: "Photo by www.kaboompics.com on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-bed-5420821/"
+imageSearchQuery: "Chug dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chugs
 Chugs are medium-sized (varies lbs), with regular energy, seasonal shedding, and a medium coat. The recommendations below are matched to these traits.

@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-12T18:32:43.459Z",
+  "syncedAt": "2026-05-12T18:45:25.381Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -11272,12 +11272,44 @@
       "photographerUrl": "https://www.pexels.com/@mikegles",
       "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-gray-and-white-terrier-16622679/",
       "id": 16622679
+    },
+    "bernese-mix-pet-insurance-planning:Bernese Mix dog portrait": {
+      "url": "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression.",
+      "photographer": "Téméraire Marketing Luxembourg",
+      "photographerUrl": "https://www.pexels.com/@temeraire-marketing-luxembourg-532626080",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/",
+      "id": 36237036
+    },
+    "bernese-mix-senior-dog-care:Bernese Mix dog portrait": {
+      "url": "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression.",
+      "photographer": "Téméraire Marketing Luxembourg",
+      "photographerUrl": "https://www.pexels.com/@temeraire-marketing-luxembourg-532626080",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/",
+      "id": 36237036
+    },
+    "bernese-mountain-dog-pet-insurance-planning:Bernese Mountain Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression.",
+      "photographer": "Téméraire Marketing Luxembourg",
+      "photographerUrl": "https://www.pexels.com/@temeraire-marketing-luxembourg-532626080",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/",
+      "id": 36237036
+    },
+    "bernese-mountain-dog-senior-dog-care:Bernese Mountain Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression.",
+      "photographer": "Téméraire Marketing Luxembourg",
+      "photographerUrl": "https://www.pexels.com/@temeraire-marketing-luxembourg-532626080",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/",
+      "id": 36237036
     }
   },
   "stats": {
     "scanned": 80,
     "changed": 80,
-    "skipped": 1,
+    "skipped": 148,
     "failed": 0,
     "force": false,
     "dry": false

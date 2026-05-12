@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bernese-mountain-dog"
 breedName: "Bernese Mountain Dog"
 canonicalUrl: "https://pupwiki.com/blog/bernese-mountain-dog-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression."
+imageAlt: "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression."
+imageSource: "pexels"
+imageCredit: "Photo by Téméraire Marketing Luxembourg on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/"
+imageSearchQuery: "Bernese Mountain Dog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bernese Mountain Dogs
