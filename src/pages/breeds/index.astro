@@ -227,7 +227,7 @@ function cardGuideChips(breed: NormalizedBreed) {
         </div>
 
         <div class="breed-search-panel">
-          <div class="breed-search-panel__top">
+          <form class="breed-search-panel__top" action="/breeds" method="get" data-breed-form>
             <div class="breed-search-field" role="search">
               <label for="breed-search">Search breeds</label>
               <div class="breed-search-field__control">
@@ -249,7 +249,7 @@ function cardGuideChips(breed: NormalizedBreed) {
 
             <div class="breed-sort-field">
               <label for="breed-sort">Sort</label>
-              <select id="breed-sort" data-breed-sort>
+              <select id="breed-sort" name="sort" data-breed-sort>
                 <option value="recommended">Recommended</option>
                 <option value="popular">Most popular</option>
                 <option value="az">A → Z</option>
@@ -262,7 +262,12 @@ function cardGuideChips(breed: NormalizedBreed) {
                 <option value="easy-training">Easiest to train</option>
               </select>
             </div>
-          </div>
+            <button type="submit" class="breed-search-submit sr-only">Search</button>
+          </form>
+
+          <noscript>
+            <p class="breed-noscript-note">Search above works without JavaScript. Tap-to-filter and advanced filters require JavaScript to be enabled.</p>
+          </noscript>
 
           <div class="breed-quick-filters" aria-label="Quick breed filters">
             {QUICK_BREED_FILTERS.map((item) => (
@@ -296,6 +301,7 @@ function cardGuideChips(breed: NormalizedBreed) {
             aria-controls="breed-filter-panel"
           >
             <span>Advanced filters</span>
+            <span class="breed-filter-count" id="breed-filter-count" hidden>0</span>
             <em aria-hidden="true">▾</em>
           </button>
 
@@ -644,7 +650,9 @@ function cardGuideChips(breed: NormalizedBreed) {
     const srAnnounce = document.getElementById('breed-sr-announce');
     const filterPanel = document.querySelector('[data-filter-panel]');
     const filterToggle = document.querySelector('[data-filter-toggle]');
+    const filterCountBadge = document.getElementById('breed-filter-count');
     const showAllButton = document.querySelector('[data-show-all]');
+    const searchForm = document.querySelector('[data-breed-form]');
     const cards = Array.from(document.querySelectorAll('[data-breed-card]'));
 
     let showAll = false;
@@ -817,6 +825,12 @@ function cardGuideChips(breed: NormalizedBreed) {
       }
 
       if (clearFilters) clearFilters.hidden = isDefaultState();
+
+      if (filterCountBadge) {
+        const activeFilterCount = FILTER_KEYS.filter((k) => state[k] !== DEFAULT_STATE[k]).length;
+        filterCountBadge.textContent = String(activeFilterCount);
+        filterCountBadge.hidden = activeFilterCount === 0;
+      }
     }
 
     function updateDynamicCounts() {
@@ -935,6 +949,13 @@ function cardGuideChips(breed: NormalizedBreed) {
     filterToggle?.addEventListener('click', () => {
       const isOpen = filterPanel?.classList.toggle('is-open');
       filterToggle.setAttribute('aria-expanded', String(Boolean(isOpen)));
+    });
+
+    searchForm?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      state.q = searchInput?.value || '';
+      showAll = true;
+      applyFilters();
     });
 
     document.querySelectorAll('[data-card-image]').forEach((image) => {
