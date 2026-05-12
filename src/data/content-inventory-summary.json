@@ -1,56 +1,56 @@
 {
-  "generatedAt": "2026-05-08T03:36:55.650Z",
+  "generatedAt": "2026-05-12T18:29:37.463Z",
   "totals": {
     "breeds": 277,
     "crossbreeds": 75,
-    "blogPosts": 2375,
-    "astroPages": 24,
+    "blogPosts": 1406,
+    "astroPages": 25,
     "clusters": 15,
-    "awinJoinedPrograms": 8,
+    "awinJoinedPrograms": 9,
     "partnerProfilesGenerated": 7,
     "opportunities": 1500
   },
   "familyStats": [
     {
       "family": "food",
-      "existing": 277,
-      "missing": 75,
+      "existing": 127,
+      "missing": 225,
       "total": 352
     },
     {
       "family": "toys",
-      "existing": 277,
-      "missing": 75,
+      "existing": 52,
+      "missing": 300,
       "total": 352
     },
     {
       "family": "beds",
-      "existing": 277,
-      "missing": 75,
+      "existing": 75,
+      "missing": 277,
       "total": 352
     },
     {
       "family": "grooming",
-      "existing": 277,
-      "missing": 75,
+      "existing": 46,
+      "missing": 306,
       "total": 352
     },
     {
       "family": "health",
-      "existing": 277,
-      "missing": 75,
+      "existing": 0,
+      "missing": 352,
       "total": 352
     },
     {
       "family": "supplements",
-      "existing": 277,
-      "missing": 75,
+      "existing": 0,
+      "missing": 352,
       "total": 352
     },
     {
       "family": "training",
-      "existing": 277,
-      "missing": 75,
+      "existing": 75,
+      "missing": 277,
       "total": 352
     },
     {
@@ -61,14 +61,14 @@
     },
     {
       "family": "senior-dogs",
-      "existing": 0,
-      "missing": 352,
+      "existing": 352,
+      "missing": 0,
       "total": 352
     },
     {
       "family": "insurance",
-      "existing": 0,
-      "missing": 352,
+      "existing": 352,
+      "missing": 0,
       "total": 352
     }
   ],
@@ -162,8 +162,7 @@
       "monetization": {
         "awinPrograms": [
           "JUGBOW",
-          "RadioFence.com",
-          "MyPetDMV - The original Pet Drivers License"
+          "RadioFence.com"
         ],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true
@@ -188,7 +187,6 @@
       },
       "monetization": {
         "awinPrograms": [
-          "Brutus Broth",
           "Petmate"
         ],
         "amazonValidatedSeedLikely": true,
@@ -198,7 +196,7 @@
     {
       "id": "cluster:toys",
       "type": "cluster-hub",
-      "priorityScore": 95,
+      "priorityScore": 105,
       "cluster": "toys",
       "suggestedPath": "/categories/toys",
       "exists": false,
@@ -213,7 +211,9 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "Petmate"
+        ],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true
       }
@@ -293,7 +293,7 @@
     {
       "id": "cluster:supplements",
       "type": "cluster-hub",
-      "priorityScore": 82,
+      "priorityScore": 92,
       "cluster": "supplements",
       "suggestedPath": "/categories/supplements",
       "exists": false,
@@ -308,7 +308,9 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "Brutus Broth"
+        ],
         "amazonValidatedSeedLikely": false,
         "amazonSearchFallback": false
       }
@@ -433,8 +435,8 @@
     }
   ],
   "sitemapInputs": {
-    "staticPageCount": 24,
-    "dynamicBlogCount": 2375,
+    "staticPageCount": 25,
+    "dynamicBlogCount": 1406,
     "dynamicBreedCount": 352,
     "clusterSlugs": [
       "puppy",
