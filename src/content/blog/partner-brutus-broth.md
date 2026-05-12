@@ -12,6 +12,7 @@ postType: "comparison"
 contentTier: "money"
 indexInBlog: false
 generated: true
+noIndex: true
 reviewMethod: "editorial-research"
 claimSensitivity: "high"
 monetizationIntent: "service"

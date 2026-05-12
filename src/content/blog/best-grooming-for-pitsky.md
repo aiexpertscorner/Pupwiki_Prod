@@ -17,6 +17,7 @@ awinTopicTags: ["grooming", "dog-services-care-planning", "pitsky", "jugbow", "r
 amazonQueries: []
 internalLinkTargets: ["/breeds/pitsky", "/categories/grooming", "/blog", "/blog/dog-services-care-planning", "/categories/dog-services", "/categories/health", "/categories/training", "/categories/insurance", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "medium"

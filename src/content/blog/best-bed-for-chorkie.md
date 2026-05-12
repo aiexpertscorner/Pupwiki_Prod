@@ -17,6 +17,7 @@ awinTopicTags: ["beds", "dog-beds-comfort-home-partners", "chorkie", "jugbow", "
 amazonQueries: ["orthopedic dog bed washable cover", "washable dog crate bed", "senior dog bed", "cooling dog bed"]
 internalLinkTargets: ["/breeds/chorkie", "/categories/beds", "/blog", "/blog/dog-beds-comfort-home-partners", "/categories/senior-dogs", "/categories/puppy", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "medium"

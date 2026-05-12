@@ -17,6 +17,7 @@ awinTopicTags: ["training", "dog-services-care-planning", "westiepoo", "jugbow",
 amazonQueries: []
 internalLinkTargets: ["/breeds/westiepoo", "/categories/training", "/blog", "/blog/dog-services-care-planning", "/categories/dog-services", "/categories/health", "/categories/grooming", "/categories/insurance", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "medium"

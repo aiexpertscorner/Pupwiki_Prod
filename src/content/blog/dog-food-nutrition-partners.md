@@ -16,6 +16,7 @@ awinTopicTags: ["dog-food-nutrition-partners", "food", "nutrition", "feeding", "
 amazonQueries: ["dog food storage container", "slow feeder dog bowl", "dog broth topper", "freeze dried raw dog food"]
 internalLinkTargets: ["/categories/dog-food", "/categories/puppy", "/categories/senior-dogs", "/breeds", "/cost-calculator", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"

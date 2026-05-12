@@ -17,6 +17,7 @@ awinTopicTags: ["insurance", "dog-services-care-planning", "bracco-italiano", "j
 amazonQueries: []
 internalLinkTargets: ["/breeds/bracco-italiano", "/categories/insurance", "/blog", "/blog/dog-services-care-planning", "/categories/dog-services", "/categories/health", "/categories/training", "/categories/grooming", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"

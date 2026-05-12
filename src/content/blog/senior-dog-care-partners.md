@@ -16,6 +16,7 @@ awinTopicTags: ["senior-dog-care-partners", "senior", "senior-dog", "senior-dogs
 amazonQueries: ["senior dog food joint health", "orthopedic dog bed large breed", "dog joint supplement glucosamine", "senior dog ramp stairs"]
 internalLinkTargets: ["/categories/senior-dogs", "/categories/health", "/categories/beds", "/categories/supplements", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"

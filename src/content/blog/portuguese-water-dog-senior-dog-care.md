@@ -17,6 +17,7 @@ awinTopicTags: ["senior-dogs", "senior-dog-care-partners", "portuguese-water-dog
 amazonQueries: ["senior dog food joint health", "orthopedic dog bed large breed", "dog joint supplement glucosamine", "senior dog ramp stairs"]
 internalLinkTargets: ["/breeds/portuguese-water-dog", "/categories/senior-dogs", "/blog", "/blog/senior-dog-care-partners", "/categories/health", "/categories/beds", "/categories/supplements", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"

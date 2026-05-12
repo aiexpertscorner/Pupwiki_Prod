@@ -16,6 +16,7 @@ awinTopicTags: ["dog-training-gear-safety-partners", "training", "behavior", "ob
 amazonQueries: ["no pull dog harness", "long leash recall training", "dog training treats", "dog training clicker"]
 internalLinkTargets: ["/categories/training", "/categories/dog-services", "/categories/puppy", "/categories/travel", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "medium"

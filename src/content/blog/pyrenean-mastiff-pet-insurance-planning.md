@@ -17,6 +17,7 @@ awinTopicTags: ["insurance", "dog-services-care-planning", "pyrenean-mastiff", "
 amazonQueries: []
 internalLinkTargets: ["/breeds/pyrenean-mastiff", "/categories/insurance", "/blog", "/blog/dog-services-care-planning", "/categories/dog-services", "/categories/health", "/categories/training", "/categories/grooming", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"

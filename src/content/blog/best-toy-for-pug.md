@@ -33,9 +33,8 @@ Pugs enjoy regular play sessions and benefit from toys that match their natural 
 - **Lifespan:** 13–15 years
 ---
 ## Our Top Pick for Pugs
-<div style="background:#1a1a1a;border:2px solid #CCFF00;padding:1.5rem;margin:1.5rem 0;box-shadow:4px 4px 0 #CCFF00">
+<div class="article-top-pick">
 ### 🏆 KONG Extreme Dog Toy
-<img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0002AR0II&Format=_SL300_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=aiexpertscorn-20" alt="KONG Extreme Dog Toy" style="max-width:300px;background:white;padding:.5rem" loading="lazy"/>
 **Rating:** ★★★★★ 4.7/5
 **Price:** $17.99
 **Why it works for Pugs:** Provides the mental and physical engagement this breed needs. Durable enough for this breed's play style.
@@ -52,7 +51,6 @@ Pugs enjoy regular play sessions and benefit from toys that match their natural 
 ---
 ## Runner-Up Options
 ### 2. Goughnuts MAXX Ring Chew Toy — Best Value
-<img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004RWVB5K&Format=_SL300_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=aiexpertscorn-20" alt="Goughnuts MAXX Ring Chew Toy" style="max-width:250px;background:white;padding:.5rem;float:right;margin:0 0 1rem 1rem" loading="lazy"/>
 **Price:** $38.99 | **Rating:** ★★★★★ 4.5/5
 - Safety indicator system (red layer inside)
 - Natural rubber construction
@@ -62,7 +60,6 @@ Pugs enjoy regular play sessions and benefit from toys that match their natural 
 [Check price on Amazon →](https://www.amazon.com/dp/B004RWVB5K/?tag=aiexpertscorn-20){rel="nofollow sponsored"}
 ---
 ### 3. West Paw Zogoflex Hurley Dog Bone — Premium Pick
-<img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001W0EIOU&Format=_SL300_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=aiexpertscorn-20" alt="West Paw Zogoflex Hurley Dog Bone" style="max-width:250px;background:white;padding:.5rem;float:right;margin:0 0 1rem 1rem" loading="lazy"/>
 **Price:** $20.99 | **Rating:** ★★★★☆ 4.4/5
 - Made in USA from non-toxic Zogoflex material
 - Floats in water
@@ -72,7 +69,6 @@ Pugs enjoy regular play sessions and benefit from toys that match their natural 
 [Check price on Amazon →](https://www.amazon.com/dp/B001W0EIOU/?tag=aiexpertscorn-20){rel="nofollow sponsored"}
 ---
 ### 4. Chuckit! Ultra Ball — Budget Option
-<img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000F4AVPA&Format=_SL300_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=aiexpertscorn-20" alt="Chuckit! Ultra Ball" style="max-width:250px;background:white;padding:.5rem;float:right;margin:0 0 1rem 1rem" loading="lazy"/>
 **Price:** $12.99 | **Rating:** ★★★★★ 4.7/5
 - High-bounce natural rubber
 - Works with Chuckit! launchers

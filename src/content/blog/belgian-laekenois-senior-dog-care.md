@@ -17,6 +17,7 @@ awinTopicTags: ["senior-dogs", "senior-dog-care-partners", "belgian-laekenois", 
 amazonQueries: ["senior dog food joint health", "orthopedic dog bed large breed", "dog joint supplement glucosamine", "senior dog ramp stairs"]
 internalLinkTargets: ["/breeds/belgian-laekenois", "/categories/senior-dogs", "/blog", "/blog/senior-dog-care-partners", "/categories/health", "/categories/beds", "/categories/supplements", "/breeds", "/categories/pupwiki-partners", "/disclosure"]
 generated: true
+noIndex: true
 indexInBlog: false
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
