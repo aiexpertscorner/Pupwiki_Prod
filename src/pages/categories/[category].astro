@@ -18,6 +18,7 @@ import CategoryOwnerResources from '../../components/category/CategoryOwnerResou
 import CategoryArticleGrid from '../../components/category/CategoryArticleGrid.astro';
 import CategoryRelatedTopics from '../../components/category/CategoryRelatedTopics.astro';
 import CategoryEmptyState from '../../components/category/CategoryEmptyState.astro';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
 
 import masterBreeds from '../../data/master-breeds.json';
 import masterCrossbreeds from '../../data/master-crossbreeds.json';
@@ -94,6 +95,15 @@ const itemListLd = buildItemListLd({
   {itemListLd && <script type="application/ld+json" set:html={itemListLd} />}
 
   <main class:list={['category-hub', `category-hub--${meta.theme}`]}>
+    <div class="category-hub__container">
+      <Breadcrumb
+        items={[
+          { label: 'Home', href: '/' },
+          { label: meta.title, current: true },
+        ]}
+      />
+    </div>
+
     <CategoryHero meta={meta} />
 
     <CategoryQuickNav
