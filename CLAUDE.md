@@ -2,75 +2,167 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+---
+
+## Last Session (May 2026)
+
+Recent completed work — context for the next session:
+
+- **PR #110** — Amazon pipeline overhaul: rewrote `matchAmazonProducts.ts`, added `amazonDeeplink.ts`, internal routing audit + broken link fixes
+- **PR #109** — AWIN showcase: dynamic carousel in `HomeAwinShowcase.astro`, full `awin-program-config.json`, fixed 0-product sync bug in `sync-awin.mjs`
+- **PR #108** — Full homepage visual rework: `HomeHeroClean.astro`, `HomeBreedDiscovery.astro`, `HomeAwinShowcase.astro`, `HomeTrustStrip.astro`
+- **PRs #105–107** — Cloudflare CI/CD stabilization: soft-fail AWIN sync, fix `set -e` aborting on wait codes, closed deployment gap
+- **pSEO pipeline** — `generate-pseo.yml` workflow generating content in CI (mode=all, limit=1000)
+
+**Currently known tech debt to address next:**
+- Hardcoded `#a0621c` in `src/components/content/ProductGrid.astro:166` → use `var(--color-accent)`
+- Inline hex palette (`#CCFF00`, `#222`, `#0A0A0A`, `#F0F0F0`) in `src/components/ProductReviewCard.astro` → use token vars
+
+---
+
 ## Build and Dev Commands
 
 ```bash
-npm run dev        # Start Astro dev server
-npm run build      # Production build → dist/
-npm run preview    # Preview the production build locally
-node generate-sitemap.mjs   # Regenerate public/sitemap.xml after adding new pages/breeds
+npm run dev              # Start Astro dev server
+npm run build            # Production build → dist/ (triggers full prebuild chain)
+npm run preview          # Preview the production build locally
+npm run sitemap:generate # Regenerate public/sitemap.xml after adding pages/breeds
 ```
 
-There are no lint or test scripts configured. The build (`astro build`) is the primary validation step.
+There are no lint or test scripts. The build (`astro build`) is the primary validation step.
 
-Data/content utility scripts live in both the root directory and `scripts/`. They are run with `node <script>.mjs` directly and handle tasks like enriching breed data, downloading product images, and auditing content status.
+**Prebuild chain** — runs automatically before every `npm run build`:
+```
+hero:audit → images:hero:ci → awin:sync:ci → partners:check →
+content:normalize:check → content:refresh:check → content:inventory →
+content:audit:public → images:content:ci → images:enrich:ci → sitemap:generate
+```
+
+**Main npm script groups** (60+ total scripts in `package.json`):
+- `npm run awin:sync` / `awin:audit` — sync & validate AWIN products + programs
+- `npm run content:refresh` / `content:clean` / `content:normalize` — pSEO content lifecycle
+- `npm run content:generate:pseo` — generate new pSEO pages from backlog
+- `npm run images:enrich` / `images:hero` / `images:content` — image enrichment pipeline
+- `npm run analytics:audit` — Cloudflare + GA4 traffic analysis
+- `npm run design:audit:inline` — scan for inline CSS violations
+
+---
 
 ## Architecture
 
-This is a fully static Astro 4 site deployed to Cloudflare Pages via GitHub Actions (`.github/workflows/deploy.yml`). All pages are statically generated at build time using `getStaticPaths()`.
+Fully static Astro 4 site deployed to Cloudflare Pages via GitHub Actions (`.github/workflows/deploy.yml`). All pages statically generated at build time via `getStaticPaths()`.
 
-**Page routes and their data sources:**
+**Page routes and data sources:**
 
-- `/breeds/[breed]` — one page per entry in `src/data/master-breeds.json`, enriched with `src/data/product-index.json`, `src/data/breed-link-map.json`, and `src/data/content-status.json`
-- `/blog/[slug]` — sourced from Astro content collections at `src/content/blog/` (Markdown files)
-- `/categories/[category]` — statically defined set of 10 category slugs; filters blog posts by category/tag
-- `/dog-names/[breed]` — one per breed, sourced from `src/data/dog-names.json` and `master-breeds.json`
-- `/cost-calculator/[breed]` — per-breed cost calculator
-- `/brands/[brand]` — sourced from `src/data/brands.json`
+| Route | Data Source |
+|---|---|
+| `/breeds/[breed]` | `master-breeds.json` + `product-index.json` + `breed-link-map.json` + `content-status.json` |
+| `/blog/[slug]` | Astro content collections at `src/content/blog/` (1,415 Markdown files) |
+| `/categories/[category]` | Dynamic + 4 static pages: `insurance`, `puppy`, `senior-dogs`, `pupwiki-partners` |
+| `/dog-names/[breed]` | `dog-names.json` + `master-breeds.json` |
+| `/cost-calculator/[breed]` | `master-breeds.json` + actuarial JSON files |
+| `/brands/[brand]` | `brands.json` |
+| `/guides/first-dog` | Static page |
+| `/pet-insurance` | Static hub page |
 
 **Data layer (`src/data/`):**
 
-The core data files are JSON, imported directly into `.astro` files:
-- `master-breeds.json` — canonical breed records (slug, traits, size, temperament, AKC/FCI data, `product_picks` mapping category→product-id)
-- `product-index.json` — flat keyed map of product objects (id, ASIN, price, rating, image URL)
-- `products.json` — products organized by category array
-- `breed-link-map.json` — maps each breed slug to all its cluster page URLs (food_post, toy_post, bed_post, etc.)
-- `content-status.json` — tracks which cluster content types exist per breed (boolean flags)
-- `brands.json`, `category-taxonomy.json`, `cluster-definitions.json` — supporting reference data
+Core breed + content:
+- `master-breeds.json` (1.6 MB) — canonical breed records (slug, traits, size, temperament, AKC/FCI, `product_picks`)
+- `master-crossbreeds.json` (921 KB) — crossbreed data (no route pages yet — see BACKLOG.md)
+- `breed-link-map.json` — maps breed slug → all cluster page URLs
+- `content-status.json` — boolean flags for what cluster content exists per breed
+- `dog-names.json` (919 KB) — master names database
+
+Products + affiliate:
+- `product-index.json` — flat keyed map (id, ASIN, price, rating, image URL)
+- `products.json` — products by category array
+- `amazon-products.json` — Amazon product data
+- `awin-products.json`, `awin-programs.json`, `awin-program-config.json` — AWIN data layer
+- `affiliate-links.ts` — hardcoded AWIN tidd.ly deeplinks with performance data
+- `affiliate-banners.json`, `affiliate-offers.json` — banner + offer configs
+
+Homepage + config:
+- `homepage-config.json` — homepage hero + section config (edit here to change homepage layout)
+- `content-inventory-summary.json` — content stats per breed
+
+SEO + pSEO:
+- `pseo-opportunity-backlog.json` (1.3 MB) — candidate pSEO pages
+- `internal-link-opportunities.json` (326 KB) — crosslink suggestions
+- `routing-audit.json` (233 KB) — URL structure audit results
+
+Insurance + geo:
+- `us-states-insurance-index.json` — 50 states + DC, multipliers 0.84 (MS) → 1.38 (NY)
+- `actuarial-breed-rates.json` — 35+ breed base monthly premiums
+- `actuarial-age-factors.json` — 16 age buckets, 0.77× (puppy) → 3.53× (geriatric)
+
+Supporting reference:
+- `brands.json`, `category-taxonomy.json`, `cluster-definitions.json`
 
 **Content collections (`src/content/blog/`):**
 
-Markdown posts use Astro content collections. The schema is defined in `src/config.ts` and requires: `title`, `description`, `pubDate`. Optional: `updatedDate`, `image`, `category`, `tags`, `author`.
+1,415 Markdown posts. Schema defined in `src/content/config.ts`. Required: `title`, `description`, `pubDate`. Optional: `updatedDate`, `image`, `category`, `tags`, `author`, `breedSlug`, `breedName`, `topProduct` (with `asin`).
 
-**Layouts:**
+**Layouts (`src/layouts/`):**
 
-- `BaseLayout.astro` — root layout with full `<head>`, OG/Twitter meta, Schema.org WebSite JSON-LD, GA4 (via `PUBLIC_GA_MEASUREMENT_ID` env var), and a single `main.css` import
-- `BlogLayout.astro` — extends BaseLayout; adds article hero, affiliate disclosure notice, and a two-column article + sidebar layout
+- `BaseLayout.astro` — root layout: `<head>`, OG/Twitter meta, Schema.org WebSite JSON-LD, GA4, single `main.css` import
+- `BlogLayout.astro` — extends BaseLayout; adds article hero, affiliate disclosure, two-column article + sidebar
+- `NameLayout.astro` — specialized layout for dog names pages
 
-**Styling:**
+**Components (`src/components/`):**
 
-CSS is split into a design token system at `src/styles/`:
-- `tokens.css` — all CSS custom properties (colors, typography, spacing, shadows, z-index, transitions)
-- `main.css` — entry point that imports tokens, base, grid, and all component/feature CSS files
-- Tailwind CSS (`tailwind.config.mjs`) is also active and used in many `.astro` files alongside the custom CSS
+92+ components organized across 12 subdirectories:
 
-The site uses a light theme only (dark mode intentionally left empty in tokens.css). Primary brand color is teal (`#0D9488`), accent is amber (`#F59E0B`). The Tailwind config extends with custom colors (`midnight`, `concrete`, `lime`/`#CCFF00`) and animations (marquee, glitch, flicker) for streetwear-aesthetic sections.
+| Directory | Purpose |
+|---|---|
+| `ui/` | **Canonical** Header + Footer — these are what all layouts import |
+| `primitives/` | PageHero, Breadcrumb, ComparisonPanel, ResourceGrid |
+| `breed/` | BreedStats, BreedImage, BreedCommerceSuite, ClusterLinks |
+| `home/` | HomeHeroClean, HomeBreedDiscovery, HomeAwinShowcase, HomeTrustStrip |
+| `affiliate/` | AWIN + Amazon CTA integration components |
+| `amazon/` | AmazonProductSlot, AmazonProductCard |
+| `blog/` | BlogCard, ArticleCommerceSuite, BlogTopicCard |
+| `category/` | CategoryHero, CategoryArticleGrid, CategoryBreedGuides |
+| `content/` | ProductGrid, reusable content cards |
+| `names/` | NameGenerator, NameGrid, BreedNameDirectory |
+| `enrichment/` | BreedCareProfile |
+| `monetization/` | LeadgenCard, OfferSlot |
+
+> **Note:** `src/components/Header.astro` and `src/components/Footer.astro` at root level are **unused legacy files** — all layouts import from `src/components/ui/`. Do not reference or restore them.
+
+**Styling (`src/styles/`):**
+
+20 CSS files in a layered import system. `main.css` is the entry point:
+1. `tokens.css` — all CSS custom properties (150+ variables)
+2. `base.css` — global reset + typography
+3. `layout.css`, `grid.css` — structural layout
+4. `components.css`, `nav.css`, `buttons.css`, `cards.css` — UI components
+5. `hero.css`, `home.css`, `blog.css` — page/section features
+6. `breed-page.css`, `breed-directory.css` — breed routes
+7. `names.css` (25 KB) — dog names pages
+8. `article.css`, `category-hub.css` — content pages
+9. `monetization.css`, `affiliate.css`, `amazon-affiliate.css`, `products.css` — commerce
+10. `misc.css` — utilities
+
+**Tailwind** (`tailwind.config.mjs`) is also active alongside the custom CSS.
+
+---
 
 ## Key Conventions
 
-**Affiliate links:** Amazon Associates tag `aiexpertscorn-20` is hardcoded in breed/dog-names pages as `const AFFILIATE_TAG`. Product ASINs are stored in `product-index.json`; the helper `amzUrl(asin)` constructs the full Amazon link.
+**Affiliate links:** Amazon tag `aiexpertscorn-20` is in `src/data/affiliate-links.ts` as `AMAZON_TAG`. Use `amzUrl(asin)` to build product links.
 
-**Breed cluster model:** Each breed has a "cluster" of up to 10 content types (food, toys, beds, grooming, training, supplements, names, health, cost calculator, hub page). `breed-link-map.json` stores the URLs; `content-status.json` stores booleans for what exists. Pages check these before rendering links.
+**Breed cluster model:** Each breed has a "cluster" of up to 10 content types (food, toys, beds, grooming, training, supplements, names, health, cost calculator, hub page). `breed-link-map.json` stores URLs; `content-status.json` stores booleans for what exists.
 
-**Static paths pattern:** All dynamic routes call `getStaticPaths()` that maps over the relevant JSON data file. Example: `masterBreeds.map(b => ({ params: { breed: b.slug } }))`.
+**Static paths pattern:** All dynamic routes use `getStaticPaths()` mapping over JSON data. Example: `masterBreeds.map(b => ({ params: { breed: b.slug } }))`.
 
-**Sitemap:** The built-in `@astrojs/sitemap` integration is disabled. The sitemap is generated manually with `node generate-sitemap.mjs` and committed to `public/sitemap.xml`.
+**Sitemap:** Built-in `@astrojs/sitemap` is disabled. Sitemap generated via `npm run sitemap:generate` (5 files: sitemap-index, breeds, categories, blog, main).
 
-**No framework JavaScript:** The site ships no client-side JS framework. Interactivity (mobile menu, search trigger) is handled with vanilla JS in `<script>` tags within `.astro` files or in `public/scripts/`.
+**No framework JS:** No client-side JS framework. Interactivity uses vanilla JS in `<script>` tags within `.astro` files or `public/scripts/`.
 
-**Blog frontmatter:** Posts optionally include `breedSlug` and `breedName` to associate them with a breed cluster, and `topProduct` (with `asin`) to populate the sidebar product widget.
-
-**Environment variable:** `PUBLIC_GA_MEASUREMENT_ID` enables Google Analytics 4 in the base layout when set.
+**Environment variables:**
+- `PUBLIC_GA_MEASUREMENT_ID` — enables GA4
+- `PUBLIC_AMAZON_TAG` — Amazon affiliate tag (falls back to hardcoded value)
 
 ---
 
@@ -78,18 +170,59 @@ The site uses a light theme only (dark mode intentionally left empty in tokens.c
 
 **CRITICAL: Always use CSS token variables. Never hardcode hex values.**
 
-Token substitution map for legacy values:
-- `#a0621c` → `var(--color-accent)`
-- `#7d4a10` → `var(--color-accent-hover)`
-- `#f5e8d0` → `var(--color-surface-warm)`
-- `bark-500` / `bark-700` / `bark-100` Tailwind classes → replace with token vars inline
+**Brand colors:**
+- Primary: Navy `#15365f` → `var(--color-primary)`
+- Accent / CTA: Orange `#ff7a00` → `var(--color-accent)` / `var(--color-cta)`
+- Dark mode palette: Midnight `#0A0A0A` → `midnight` (Tailwind) / `var(--color-dark-bg)`, Lime `#CCFF00` → `lime` (Tailwind) / `var(--color-lime)`
 
-When writing new component styles:
-- Colors: only `var(--color-*)` tokens from `tokens.css`
+**Typography:**
+- Display headings: Anton, Archivo Black → Tailwind `font-display`, `font-heading`
+- Body text: Barlow Condensed → Tailwind `font-body`
+- Mono: Space Mono → Tailwind `font-mono`
+- Serif / prose: Source Serif 4 → Tailwind `font-serif`
+
+**Dark mode:** The `midnight`/`lime` palette is **active** for streetwear-aesthetic sections (not empty). Use `midnight`, `concrete`, `lime`, `ash`, `offwhite` Tailwind classes for dark UI sections.
+
+**Current token violation hotspots to fix:**
+
+| File | Issue |
+|---|---|
+| `src/components/content/ProductGrid.astro:166` | `color:#a0621c` → `var(--color-accent)` |
+| `src/components/ProductReviewCard.astro` | Multiple inline `#CCFF00`, `#222`, `#0A0A0A`, `#F0F0F0` → use token vars |
+
+**When writing new component styles:**
+- Colors: only `var(--color-*)` tokens or named Tailwind classes from the config
 - Spacing: prefer `var(--space-*)` tokens
 - Typography: prefer `var(--text-*)` and `var(--font-*)` tokens
-- Shadows: `var(--shadow-*)` tokens
-- The "bark" Tailwind colour group has been removed — do not reference `bark-*` classes
+- Shadows: `var(--shadow-*)` tokens or Tailwind `shadow-hard`, `shadow-glow-lime`
+- Never reference `bark-*` Tailwind classes (removed)
+
+---
+
+## Scripts Reference
+
+Scripts live in `scripts/` subdirectories. Run with `node scripts/<path>.mjs` or via npm scripts.
+
+**`scripts/content/`** — pSEO content lifecycle:
+- `generate-pseo-opportunity-pages.mjs` — generate pages from backlog
+- `generate-awin-partner-pages.mjs` — partner landing pages
+- `refresh-generated-posts.mjs`, `clean-generated-content.mjs` — content maintenance
+- `normalize-generated-frontmatter.mjs` — fix frontmatter issues
+- `audit-pseo-copy.mjs`, `audit-public-copy.mjs`, `audit-claims.mjs` — quality checks
+- `sync-content-status.mjs`, `audit-content-inventory.mjs` — status tracking
+
+**`scripts/lib/`** — shared utilities:
+- `breed-profile.mjs`, `seo-builder.mjs`, `pseo-copy-engine.mjs`, `pexels.mjs`
+
+**`scripts/analytics/`** — traffic analysis:
+- `audit-traffic.mjs` — combined Cloudflare + GA4 audit
+
+**Root `scripts/`** — enrichment + data:
+- `enrich-breed-images.mjs`, `enrich-breed-image-gallery.mjs` — Pexels + Dog CEO image fetch
+- `enrich-products.mjs`, `validate-products.mjs` — product data pipeline
+- `sync-awin.mjs` (39 KB) — bidirectional AWIN product/program sync
+- `discover-products.mjs`, `populate-product-images.mjs` — product discovery
+- `import-brand-logos.mjs`, `download-brand-logos.mjs` — brand assets
 
 ---
 
@@ -100,11 +233,14 @@ When writing new component styles:
 2. **Amazon (secondary):** use for product roundups where no AWIN match exists
 3. **Chewy:** disabled as primary CTA (`ENABLE_CHEWY = false` in `src/lib/site-config.ts`)
 
-**Active AWIN deeplinks (from `src/data/affiliate-links.ts`):**
-- JugBow: `https://tidd.ly/3QryFd6`
-- ChefPaw: `https://tidd.ly/41TPa44`
-- Raw Wild: `https://tidd.ly/4e36ta9`
-- Crown & Paw: `https://tidd.ly/496jo7K`
+**Active AWIN partners (from `src/data/affiliate-links.ts`):**
+
+| Partner | Deeplink | EPC | Conv Rate | Cookie |
+|---|---|---|---|---|
+| JugBow | `https://tidd.ly/3QryFd6` | $0.23 | 4.74% | 30 days |
+| ChefPaw | `https://tidd.ly/41TPa44` | $2.26 | 6.96% | 30 days |
+| Raw Wild | `https://tidd.ly/4e36ta9` | $1.91 | — | 120 days |
+| Crown & Paw | `https://tidd.ly/496jo7K` | — | 8.35% | 60 days |
 
 **Amazon badge compliance:** Use the badge image for Amazon CTAs:
 ```
@@ -130,9 +266,9 @@ Never use the Amazon badge image for AWIN / non-Amazon links.
 - `dog-breeds-by-country-2025.csv` — breed counts by country of origin
 - `origin_country` field in `master-breeds.json` — exposed via breed page badge + filter
 
-**State selector:** The `StateAgeSelector.astro` component handles 50-state dropdown + age bucket selector. It emits `stateChange` and `ageChange` DOM events. Cost calculator pages embed this and recalculate using vanilla JS.
+**State selector:** `StateAgeSelector.astro` handles 50-state dropdown + age bucket selector. Emits `stateChange` and `ageChange` DOM events. Cost calculator pages embed this and recalculate using vanilla JS.
 
-**Default state:** Always default to `CA` (California) when no state is selected, with a visible "Showing costs for: California" label that updates on selection.
+**Default state:** Always default to `CA` (California) when no state is selected, with a visible "Showing costs for: California" label.
 
 ---
 
@@ -147,9 +283,9 @@ Every page template MUST include:
 5. **Meta description** — every page must have a unique `description` in frontmatter or passed to BaseLayout
 
 **Cross-link pattern (breed cluster):**
-- Breed page links to: cost calculator, dog names, relevant health/food/training posts
-- Cost calculator links to: breed page, health profile, supplement recommendations
-- Dog names page links to: breed page, cost calculator
+- Breed page → cost calculator, dog names, relevant health/food/training posts
+- Cost calculator → breed page, health profile, supplement recommendations
+- Dog names page → breed page, cost calculator
 
 **Schema requirements by page type:**
 - Blog post: `Article` with `datePublished`, `dateModified`, `author`
