@@ -928,7 +928,6 @@ const jsonLd = JSON.stringify({
 
 <style>
   .cost-detail {
-    overflow-x: clip;
     background:
       radial-gradient(circle at 86% 4%, rgba(255, 122, 0, 0.1), transparent 24rem),
       radial-gradient(circle at 6% 2%, rgba(21, 54, 95, 0.08), transparent 22rem),
@@ -1340,7 +1339,7 @@ const jsonLd = JSON.stringify({
 
   .cost-insurance-metrics {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: var(--space-3);
   }
 
@@ -1695,7 +1694,7 @@ const jsonLd = JSON.stringify({
 
   .cost-detail-table {
     width: 100%;
-    min-width: 520px;
+    min-width: 360px;
     border-collapse: collapse;
     font-family: var(--font-sans);
     font-size: var(--text-sm);
@@ -1917,7 +1916,7 @@ const jsonLd = JSON.stringify({
     gap: var(--space-3);
   }
 
-  @media (min-width: 520px) {
+  @media (min-width: 640px) {
     .cost-detail-hero__actions {
       flex-direction: row;
       align-items: center;
@@ -1941,7 +1940,6 @@ const jsonLd = JSON.stringify({
     .cost-detail-hero__grid,
     .cost-detail-layout,
     .cost-summary-grid,
-    .cost-insurance-metrics,
     .saving-tip-grid {
       grid-template-columns: 1fr !important;
     }
@@ -2058,10 +2056,6 @@ const jsonLd = JSON.stringify({
       border-right: 0;
       border-left: 0;
       border-radius: 0;
-    }
-
-    .cost-detail-table {
-      min-width: 480px;
     }
 
     .cost-sidebar-card dl div {
