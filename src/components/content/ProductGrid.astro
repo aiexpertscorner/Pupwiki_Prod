@@ -162,8 +162,7 @@ function stars(r: number) {
               </h3>
               {p.brand_name && p.brand_slug && (
                 <a href={`/brands/${p.brand_slug}`}
-                  class="product-card__brand"
-                  style="font-size:0.7rem;color:#a0621c;display:block;margin-bottom:0.2rem">
+                  class="product-card__brand">
                   by {p.brand_name} →
                 </a>
               )}
@@ -201,7 +200,7 @@ function stars(r: number) {
                 ? <span class="product-card__price">${parseFloat(p.price).toFixed(2)}</span>
                 : <span class="product-card__price">{isSubscription ? 'Subscription' : '—'}</span>
               }
-              <div style="display:flex;gap:6px">
+              <div class="product-card__cta-group">
                 {url && (
                   <a href={url} rel="nofollow sponsored" target="_blank"
                     class="product-card__cta"
