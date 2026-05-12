@@ -357,18 +357,34 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
       </div>
     </section>
 
-    <BreedDecisionSnapshot title={`Should you choose a ${b.name}?`} description="Start with these ownership signals before comparing deeper traits, health context, costs and partner resources." items={decisionItems} />
+    <nav class="breed-page-nav" aria-label="Jump to section">
+      <div class="breed-container">
+        <div class="breed-page-nav__links">
+          <a href="#breed-overview" class="breed-page-nav__link">Overview</a>
+          <a href="#breed-traits" class="breed-page-nav__link">Traits</a>
+          <a href="#breed-health" class="breed-page-nav__link">Health</a>
+          <a href="#breed-products" class="breed-page-nav__link">Products</a>
+          <a href="#breed-guides" class="breed-page-nav__link">Guides</a>
+        </div>
+      </div>
+    </nav>
 
-    <div id="breed-resources">
-      <BreedResourceHub breedName={b.name} items={resourceItems} />
+    <div id="breed-overview">
+      <BreedDecisionSnapshot title={`Should you choose a ${b.name}?`} description="Start with these ownership signals before comparing deeper traits, health context, costs and partner resources." items={decisionItems} />
+
+      <div id="breed-resources">
+        <BreedResourceHub breedName={b.name} items={resourceItems} />
+      </div>
     </div>
 
-    <BreedCommerceSuite breedName={b.name} breedSlug={slug} breedSize={b.size_category} breedEnergy={b.energy_level} breedTraining={b.training_level} breedCoat={b.coat_type} topicTags={awinBaseTags} partnerClusters={partnerClusterLinks} />
+    <div id="breed-products">
+      <BreedCommerceSuite breedName={b.name} breedSlug={slug} breedSize={b.size_category} breedEnergy={b.energy_level} breedTraining={b.training_level} breedCoat={b.coat_type} topicTags={awinBaseTags} partnerClusters={partnerClusterLinks} />
+    </div>
 
     <div class="breed-container breed-main">
       <div class="breed-layout">
         <div class="breed-content">
-          <section class="breed-section" aria-labelledby="characteristics-title">
+          <section id="breed-traits" class="breed-section" aria-labelledby="characteristics-title">
             <div class="breed-section__header"><p class="breed-eyebrow">Traits</p><h2 id="characteristics-title">{b.name} Characteristics</h2></div>
             <div class="breed-traits-grid">
               {TRAITS.map((trait) => <article class="breed-trait-card"><p>{trait.label}</p><div class="breed-meter" aria-hidden="true"><span class={`${trait.className} w-${pctBucket(trait.val)}`}></span></div><strong>{pctBar(trait.val)}%</strong></article>)}
@@ -392,7 +408,7 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
           )}
 
           {healthProfile ? (
-            <section class="breed-section" aria-labelledby="health-title">
+            <section id="breed-health" class="breed-section" aria-labelledby="health-title">
               <div class="breed-section__header"><p class="breed-eyebrow breed-eyebrow--danger">Health watch</p><h2 id="health-title">{b.name} Health Context</h2></div>
               <div class="breed-health-note"><strong>Veterinary note</strong><p>This section is general breed information, not veterinary advice. If your dog has symptoms, pain, breathing issues, sudden behavior changes, or urgent concerns, contact a veterinarian.</p></div>
               <div class="breed-health-list">
@@ -404,7 +420,7 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
               {healthProfile.care_tips && <div class="breed-callout breed-callout--info"><span aria-hidden="true">💡</span><p>{healthProfile.care_tips}</p></div>}
             </section>
           ) : (
-            <section class="breed-section" aria-labelledby="health-title">
+            <section id="breed-health" class="breed-section" aria-labelledby="health-title">
               <div class="breed-section__header"><p class="breed-eyebrow breed-eyebrow--danger">Health watch</p><h2 id="health-title">{b.name} Health Context</h2></div>
               <div class="breed-health-note"><strong>Veterinary note</strong><p>Regular veterinary check-ups, preventive care, and breed-aware monitoring are recommended for all dogs. Consult your vet for guidance specific to your {b.name}.</p></div>
               <p class="breed-muted">Breed-specific health data for the {b.name} is being compiled. Use the cost calculator to estimate veterinary and care costs.</p>
@@ -422,7 +438,7 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
 
           {enrichmentData?.careProfile && <section class="breed-section" aria-label={`${b.name} care profile`}><BreedCareProfile breedName={b.name} careProfile={enrichmentData.careProfile} /></section>}
 
-          <section class="breed-section" aria-labelledby="all-guides-title"><div class="breed-section__header"><p class="breed-eyebrow">Related guides</p><h2 id="all-guides-title">All {b.name} Guides</h2></div><a href={COST_CALC_HREF} class="breed-feature-link"><span aria-hidden="true">💰</span><div><strong>{b.name} Cost Calculator</strong><p>Puppy price, annual costs, food estimate, and lifetime ownership planning.</p></div><em aria-hidden="true">→</em></a><div class="breed-guide-grid">{CLUSTER_LINKS.map((item) => status[item.key] && item.href ? <a href={item.href} class="breed-guide-link"><span>{item.emoji}</span><strong>{item.label}</strong><em aria-hidden="true">→</em></a> : <div class="breed-guide-link is-disabled"><span>{item.emoji}</span><strong>{item.label}</strong></div>)}</div></section>
+          <section id="breed-guides" class="breed-section" aria-labelledby="all-guides-title"><div class="breed-section__header"><p class="breed-eyebrow">Related guides</p><h2 id="all-guides-title">All {b.name} Guides</h2></div><a href={COST_CALC_HREF} class="breed-feature-link"><span aria-hidden="true">💰</span><div><strong>{b.name} Cost Calculator</strong><p>Puppy price, annual costs, food estimate, and lifetime ownership planning.</p></div><em aria-hidden="true">→</em></a><div class="breed-guide-grid">{CLUSTER_LINKS.map((item) => status[item.key] && item.href ? <a href={item.href} class="breed-guide-link"><span>{item.emoji}</span><strong>{item.label}</strong><em aria-hidden="true">→</em></a> : <div class="breed-guide-link is-disabled"><span>{item.emoji}</span><strong>{item.label}</strong></div>)}</div></section>
 
           {b.fci_group && <section class="breed-section" aria-labelledby="fci-title"><div class="breed-section__header"><p class="breed-eyebrow">Classification</p><h2 id="fci-title">FCI Classification</h2></div><div class="breed-classification-grid"><article><span>FCI Group</span><strong>Group {b.fci_group} — {b.fci_group_name}</strong></article>{b.fci_section && <article><span>Section</span><strong>{b.fci_section}</strong></article>}{b.fci_status && <article><span>Status</span><strong>{titleCase(b.fci_status)}</strong></article>}</div></section>}
 
@@ -458,8 +474,10 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
               ['Size', titleCase(b.size_category)], ['Energy', titleCase(b.energy_level)], ['Shedding', titleCase(b.shedding_level)], ['Training', titleCase(b.training_level)], ['Coat', COAT_LABEL[b.coat_type] || titleCase(b.coat_type)], ['Grooming', b.grooming_freq], wt.min_lbs ? ['Weight', `${wt.min_lbs}–${wt.max_lbs} lbs`] : null, life.min ? ['Lifespan', `${life.min}–${life.max} years`] : null, b.akc_group ? ['AKC Group', b.akc_group.replace(' Group', '')] : null, b.origin_country ? ['Origin', b.origin_country] : null, profile.intelligence_tier ? ['Intelligence', titleCase(profile.intelligence_tier as string)] : null, ['Owner difficulty', `${profile.owner_difficulty}/10`],
             ].filter(Boolean).map((row: any) => <div><dt>{row[0]}</dt><dd>{row[1]}</dd></div>)}</dl></section>
 
-            <AwinProductSlot topicTags={[...awinBaseTags, 'dog-owner', 'care', 'lifestyle']} pageType="breed" breedSize={b.size_category} breedEnergy={b.energy_level} breedTraining={b.training_level} headline={`For ${b.name} owners`} variant="compact" />
-            <PageBannerSlot pageType="breed" placement="after-summary" topic="care" topicTags={[...awinBaseTags, 'care']} compact={true} />
+            <div class="breed-sidebar__affiliate">
+              <AwinProductSlot topicTags={[...awinBaseTags, 'dog-owner', 'care', 'lifestyle']} pageType="breed" breedSize={b.size_category} breedEnergy={b.energy_level} breedTraining={b.training_level} headline={`For ${b.name} owners`} variant="compact" />
+              <PageBannerSlot pageType="breed" placement="after-summary" topic="care" topicTags={[...awinBaseTags, 'care']} compact={true} />
+            </div>
 
             <section class="breed-sidebar-card"><h2>{b.name} Guides</h2><nav class="breed-sidebar-nav"><a href={COST_CALC_HREF} class="is-featured"><span>💰</span><strong>Cost calculator</strong></a>{CLUSTER_LINKS.filter((item) => status[item.key] && item.href).map((item) => <a href={item.href}><span>{item.emoji}</span><strong>{item.label}</strong></a>)}{partnerClusterLinks.slice(0, 3).map((item) => <a href={item.href}><span>{item.icon}</span><strong>{item.label}</strong></a>)}</nav></section>
           </div>
@@ -506,5 +524,28 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
       writeList(list);
       syncBtn();
     });
+  })();
+
+  // Sticky nav: highlight active section via IntersectionObserver
+  (() => {
+    const navLinks = document.querySelectorAll<HTMLAnchorElement>('.breed-page-nav__link');
+    if (!navLinks.length) return;
+    const sectionIds = ['breed-overview', 'breed-traits', 'breed-health', 'breed-products', 'breed-guides'];
+    const sections = sectionIds.map(id => document.getElementById(id)).filter((el): el is HTMLElement => el !== null);
+    if (!sections.length) return;
+    const setActive = (id: string) => {
+      navLinks.forEach(link => link.classList.toggle('is-active', link.getAttribute('href') === `#${id}`));
+    };
+    // Default to first section
+    if (sections[0]) setActive(sections[0].id);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) setActive(entry.target.id);
+        }
+      },
+      { rootMargin: '-15% 0px -75% 0px', threshold: 0 }
+    );
+    sections.forEach(s => observer.observe(s));
   })();
 </script>

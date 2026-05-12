@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-12T18:29:37.463Z",
+  "generatedAt": "2026-05-12T19:17:51.769Z",
   "totals": {
     "breeds": 277,
     "crossbreeds": 75,
-    "blogPosts": 1406,
+    "blogPosts": 1415,
     "astroPages": 25,
     "clusters": 15,
     "awinJoinedPrograms": 9,
@@ -436,7 +436,7 @@
   ],
   "sitemapInputs": {
     "staticPageCount": 25,
-    "dynamicBlogCount": 1406,
+    "dynamicBlogCount": 1415,
     "dynamicBreedCount": 352,
     "clusterSlugs": [
       "puppy",
