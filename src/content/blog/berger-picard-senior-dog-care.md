@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "berger-picard"
 breedName: "Berger Picard"
 canonicalUrl: "https://pupwiki.com/blog/berger-picard-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/8498507/pexels-photo-8498507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498507/pexels-photo-8498507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming portrait of a fluffy dog sitting indoors on a sunny day."
+imageAlt: "Charming portrait of a fluffy dog sitting indoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-long-coated-dog-8498507/"
+imageSearchQuery: "Berger Picard dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Berger Picards

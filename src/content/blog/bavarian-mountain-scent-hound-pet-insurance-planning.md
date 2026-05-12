@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bavarian-mountain-scent-hound"
 breedName: "Bavarian Mountain Scent Hound"
 canonicalUrl: "https://pupwiki.com/blog/bavarian-mountain-scent-hound-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/35813398/pexels-photo-35813398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35813398/pexels-photo-35813398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a noble brown dog with a calm gaze, showcasing its attentive nature."
+imageAlt: "Portrait of a noble brown dog with a calm gaze, showcasing its attentive nature."
+imageSource: "pexels"
+imageCredit: "Photo by Gundula Vogel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/majestic-dog-portrait-with-calm-expression-35813398/"
+imageSearchQuery: "Bavarian Mountain Scent Hound dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bavarian Mountain Scent Hounds

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "american-hairless-terrier"
 breedName: "American Hairless Terrier"
 canonicalUrl: "https://pupwiki.com/blog/american-hairless-terrier-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/35406086/pexels-photo-35406086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35406086/pexels-photo-35406086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Xoloitzcuintli dog wrapped in a scarf, outdoors in nature."
+imageAlt: "Close-up portrait of a Xoloitzcuintli dog wrapped in a scarf, outdoors in nature."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-xoloitzcuintli-dog-in-outdoor-setting-35406086/"
+imageSearchQuery: "American Hairless Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for American Hairless Terriers

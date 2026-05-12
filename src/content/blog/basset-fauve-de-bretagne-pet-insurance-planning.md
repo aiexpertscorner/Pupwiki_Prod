@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "basset-fauve-de-bretagne"
 breedName: "Basset Fauve de Bretagne"
 canonicalUrl: "https://pupwiki.com/blog/basset-fauve-de-bretagne-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/17157888/pexels-photo-17157888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/17157888/pexels-photo-17157888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming portrait of a dog with blue harness standing in a lush meadow."
+imageAlt: "Charming portrait of a dog with blue harness standing in a lush meadow."
+imageSource: "pexels"
+imageCredit: "Photo by Karl  Byron on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-with-blue-collar-standing-on-meadow-17157888/"
+imageSearchQuery: "Basset Fauve de Bretagne dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Basset Fauve de Bretagnes

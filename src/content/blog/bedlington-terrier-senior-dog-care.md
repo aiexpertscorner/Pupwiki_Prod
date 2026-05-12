@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bedlington-terrier"
 breedName: "Bedlington Terrier"
 canonicalUrl: "https://pupwiki.com/blog/bedlington-terrier-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/7765407/pexels-photo-7765407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7765407/pexels-photo-7765407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Bedlington Terrier dog sits indoors with a leather collar, exuding charm and warmth."
+imageAlt: "A Bedlington Terrier dog sits indoors with a leather collar, exuding charm and warmth."
+imageSource: "pexels"
+imageCredit: "Photo by Jean-Paul  Wright on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-furry-dog-with-a-collar-7765407/"
+imageSearchQuery: "Bedlington Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bedlington Terriers

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "american-eskimo-dog"
 breedName: "American Eskimo Dog"
 canonicalUrl: "https://pupwiki.com/blog/american-eskimo-dog-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute American Eskimo dog lying on vibrant green grass, looking playfully at the camera."
+imageAlt: "Cute American Eskimo dog lying on vibrant green grass, looking playfully at the camera."
+imageSource: "pexels"
+imageCredit: "Photo by Mohan Nannapaneni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-white-american-eskimo-dog-on-green-grass-7237824/"
+imageSearchQuery: "American Eskimo Dog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for American Eskimo Dogs

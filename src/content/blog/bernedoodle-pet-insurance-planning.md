@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "bernedoodle"
 breedName: "Bernedoodle"
 canonicalUrl: "https://pupwiki.com/blog/bernedoodle-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/16622679/pexels-photo-16622679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16622679/pexels-photo-16622679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a joyful terrier dog sitting against a vibrant orange and blue background."
+imageAlt: "Portrait of a joyful terrier dog sitting against a vibrant orange and blue background."
+imageSource: "pexels"
+imageCredit: "Photo by Miguel González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-gray-and-white-terrier-16622679/"
+imageSearchQuery: "Bernedoodle dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Bernedoodles

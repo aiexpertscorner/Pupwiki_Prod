@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "basenji"
 breedName: "Basenji"
 canonicalUrl: "https://pupwiki.com/blog/basenji-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/29373072/pexels-photo-29373072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29373072/pexels-photo-29373072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A captivating portrait of a Basenji dog, showcasing its unique features and collar in an outdoor environment."
+imageAlt: "A captivating portrait of a Basenji dog, showcasing its unique features and collar in an outdoor environment."
+imageSource: "pexels"
+imageCredit: "Photo by Sudhir Sangwan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-basenji-dog-in-natural-setting-29373072/"
+imageSearchQuery: "Basenji dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Basenjis

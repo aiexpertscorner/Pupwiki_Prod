@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "alaskan-malamute"
 breedName: "Alaskan Malamute"
 canonicalUrl: "https://pupwiki.com/blog/alaskan-malamute-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/6748158/pexels-photo-6748158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6748158/pexels-photo-6748158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming close-up portrait of a fluffy Alaskan Malamute dog with soft fur and friendly expression."
+imageAlt: "Charming close-up portrait of a fluffy Alaskan Malamute dog with soft fur and friendly expression."
+imageSource: "pexels"
+imageCredit: "Photo by Aleks Michajlowicz on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-and-gray-siberian-husky-6748158/"
+imageSearchQuery: "Alaskan Malamute dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Alaskan Malamutes

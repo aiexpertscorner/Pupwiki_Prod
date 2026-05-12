@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "belgian-tervuren"
 breedName: "Belgian Tervuren"
 canonicalUrl: "https://pupwiki.com/blog/belgian-tervuren-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Belgian Tervuren dog standing in a grassy field, tongue out."
+imageAlt: "Cute Belgian Tervuren dog standing in a grassy field, tongue out."
+imageSource: "pexels"
+imageCredit: "Photo by Viktorija Stankevičiūtė on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-on-grass-field-12685132/"
+imageSearchQuery: "Belgian Tervuren dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Belgian Tervurens

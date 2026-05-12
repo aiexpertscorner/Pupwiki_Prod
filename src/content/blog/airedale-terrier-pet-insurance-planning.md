@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "airedale-terrier"
 breedName: "Airedale Terrier"
 canonicalUrl: "https://pupwiki.com/blog/airedale-terrier-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/36587690/pexels-photo-36587690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36587690/pexels-photo-36587690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A playful Airedale Terrier dog joyfully splashes through water, capturing a dynamic moment outdoors."
+imageAlt: "A playful Airedale Terrier dog joyfully splashes through water, capturing a dynamic moment outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Chris F on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/energetic-airedale-terrier-splashing-in-water-36587690/"
+imageSearchQuery: "Airedale Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Airedale Terriers

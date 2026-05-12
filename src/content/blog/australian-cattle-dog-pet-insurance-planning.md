@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "australian-cattle-dog"
 breedName: "Australian Cattle Dog"
 canonicalUrl: "https://pupwiki.com/blog/australian-cattle-dog-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/35511900/pexels-photo-35511900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35511900/pexels-photo-35511900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Focused portrait of an alert Australian Cattle Dog with its ears perked up."
+imageAlt: "Focused portrait of an alert Australian Cattle Dog with its ears perked up."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-an-alert-australian-cattle-dog-35511900/"
+imageSearchQuery: "Australian Cattle Dog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Australian Cattle Dogs

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "anatolian-shepherd-dog"
 breedName: "Anatolian Shepherd Dog"
 canonicalUrl: "https://pupwiki.com/blog/anatolian-shepherd-dog-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/10832671/pexels-photo-10832671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10832671/pexels-photo-10832671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene side profile portrait of an Anatolian Shepherd Dog outdoors in a natural setting."
+imageAlt: "A serene side profile portrait of an Anatolian Shepherd Dog outdoors in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/an-anatolian-shepherd-dog-in-close-up-photography-10832671/"
+imageSearchQuery: "Anatolian Shepherd Dog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Anatolian Shepherd Dogs

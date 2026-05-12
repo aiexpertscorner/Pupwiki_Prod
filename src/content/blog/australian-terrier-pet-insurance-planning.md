@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "australian-terrier"
 breedName: "Australian Terrier"
 canonicalUrl: "https://pupwiki.com/blog/australian-terrier-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/7210280/pexels-photo-7210280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7210280/pexels-photo-7210280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Closeup of adorable small purebred dog with brown coat and eyes looking away in daylight on blurred background"
+imageAlt: "Closeup of adorable small purebred dog with brown coat and eyes looking away in daylight on blurred background"
+imageSource: "pexels"
+imageCredit: "Photo by Blue Bird on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/norwich-terrier-with-fluffy-fur-in-daytime-7210280/"
+imageSearchQuery: "Australian Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Australian Terriers

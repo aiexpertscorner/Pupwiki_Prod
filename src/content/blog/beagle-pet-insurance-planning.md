@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "beagle"
 breedName: "Beagle"
 canonicalUrl: "https://pupwiki.com/blog/beagle-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/31086486/pexels-photo-31086486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31086486/pexels-photo-31086486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a beagle dog showing its expressive eyes and features."
+imageAlt: "A detailed close-up portrait of a beagle dog showing its expressive eyes and features."
+imageSource: "pexels"
+imageCredit: "Photo by A D R I A N A on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-beagle-dog-face-31086486/"
+imageSearchQuery: "Beagle dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Beagles
