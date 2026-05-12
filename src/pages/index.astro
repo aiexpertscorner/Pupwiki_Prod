@@ -5,7 +5,7 @@ import HomeHero from '../components/home/HomeHeroClean.astro';
 import HomePrimaryJourneys from '../components/home/HomePrimaryJourneys.astro';
 import HomeBreedExplorer from '../components/home/HomeBreedExplorer.astro';
 import HomeCareDecisionLayer from '../components/home/HomeCareDecisionLayer.astro';
-import HomeAwinSpotlight from '../components/home/HomeAwinSpotlight.astro';
+import HomeAwinShowcase from '../components/home/HomeAwinShowcase.astro';
 import HomeEditorialHighlights from '../components/home/HomeEditorialHighlights.astro';
 import HomeLeadCapture from '../components/home/HomeLeadCapture.astro';
 
@@ -71,7 +71,7 @@ const structuredData = [
 
     {featureFlags.showCareDecisionLayer && <HomeCareDecisionLayer {...careDecisionLayer} />}
 
-    {(featureFlags as any).showAwinSpotlight && <HomeAwinSpotlight />}
+    {(featureFlags as any).showAwinSpotlight && <HomeAwinShowcase />}
 
     {featureFlags.showEditorialHighlights && (
       <HomeEditorialHighlights

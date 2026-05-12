@@ -1,7 +1,7 @@
 {
   "_meta": {
     "schema": "awin-program-config",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisherId": "2861861",
     "notes": [
       "This is our static editorial config per AWIN program.",
@@ -31,7 +31,7 @@
     },
     {
       "id": "rawwild",
-      "merchantId": null,
+      "merchantId": "89689",
       "feedId": null,
       "label": "Raw Wild",
       "description": "Freeze-dried raw dog food — single-protein, wild-caught, no fillers",
@@ -50,10 +50,10 @@
     {
       "id": "jugbow",
       "merchantId": "79708",
-      "feedId": null,
+      "feedId": "108549",
       "label": "JugBow",
       "description": "Training collars, leashes, no-pull harnesses, recall training",
-      "hasFeed": false,
+      "hasFeed": true,
       "deeplink": "https://tidd.ly/3QryFd6",
       "cta": "Shop JugBow",
       "badge": "AWIN Partner",
@@ -68,7 +68,7 @@
     {
       "id": "crownandpaw",
       "merchantId": "57823",
-      "feedId": null,
+      "feedId": "103192",
       "label": "Crown & Paw",
       "description": "Custom pet portraits, gifts for dog lovers, memorial gifts",
       "hasFeed": true,
@@ -82,6 +82,78 @@
       "topicTags": ["gift", "lifestyle", "portrait", "memorial", "dog-names", "apparel", "accessories"],
       "pageTypes": ["blog", "breed", "homepage"],
       "excludeTopicTags": ["food", "training", "health", "emergency-vet"]
+    },
+    {
+      "id": "brutus-broth",
+      "merchantId": "55927",
+      "feedId": "105633",
+      "label": "Brutus Broth",
+      "description": "Premium bone broth for dogs — hydration, joint health, digestion support",
+      "hasFeed": true,
+      "deeplink": "",
+      "cta": "Shop Brutus Broth",
+      "badge": "AWIN Partner",
+      "priority": 70,
+      "epc": 0,
+      "conversionRate": 0,
+      "cookieDays": 30,
+      "topicTags": ["food", "nutrition", "supplements", "hydration", "joint-health", "digestion", "senior", "recovery"],
+      "pageTypes": ["blog", "breed", "category"],
+      "excludeTopicTags": ["training", "toys", "gear", "emergency-vet"]
+    },
+    {
+      "id": "radiofence-com",
+      "merchantId": "87999",
+      "feedId": "105980",
+      "label": "RadioFence",
+      "description": "Pet containment systems, invisible fences, GPS trackers for dogs",
+      "hasFeed": true,
+      "deeplink": "",
+      "cta": "Shop RadioFence",
+      "badge": "AWIN Partner",
+      "priority": 60,
+      "epc": 0,
+      "conversionRate": 10.35,
+      "cookieDays": 30,
+      "topicTags": ["training", "gear", "containment", "fence", "gps", "tracking", "outdoor", "active", "safety"],
+      "pageTypes": ["blog", "breed", "category"],
+      "excludeTopicTags": ["food", "health", "emergency-vet"]
+    },
+    {
+      "id": "petmate",
+      "merchantId": "89913",
+      "feedId": "107829",
+      "label": "Petmate",
+      "description": "Everyday dog essentials — beds, crates, carriers, bowls, toys",
+      "hasFeed": true,
+      "deeplink": "",
+      "cta": "Shop Petmate",
+      "badge": "AWIN Partner",
+      "priority": 55,
+      "epc": 0,
+      "conversionRate": 0,
+      "cookieDays": 30,
+      "topicTags": ["beds", "gear", "crates", "carriers", "toys", "bowls", "accessories", "home"],
+      "pageTypes": ["blog", "breed", "category", "homepage"],
+      "excludeTopicTags": ["food", "health", "emergency-vet"]
+    },
+    {
+      "id": "mypetdmv-the-original-pet-drivers-license",
+      "merchantId": "118951",
+      "feedId": null,
+      "label": "MyPetDMV",
+      "description": "Fun custom pet ID licenses and novelty gifts for dog owners",
+      "hasFeed": false,
+      "deeplink": "",
+      "cta": "Get your pet's license",
+      "badge": "AWIN Partner",
+      "priority": 50,
+      "epc": 0,
+      "conversionRate": 20.83,
+      "cookieDays": 30,
+      "topicTags": ["gift", "lifestyle", "novelty", "accessories", "dog-names", "fun"],
+      "pageTypes": ["blog", "breed", "homepage"],
+      "excludeTopicTags": ["food", "health", "training", "emergency-vet"]
     }
   ]
 }

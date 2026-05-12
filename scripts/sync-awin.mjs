@@ -502,6 +502,25 @@ function valueFrom(raw, keys) {
   return '';
 }
 
+// Normalize camelCase/PascalCase JSON field names into snake_case and all-lowercase
+// variants so valueFrom() can find them regardless of how the AWIN API serialises them.
+// e.g. { awProductId: "1", productName: "Dog Food" }
+//   → { awProductId: "1", awproductid: "1", aw_product_id: "1", productName: "Dog Food", productname: "Dog Food", product_name: "Dog Food" }
+function normalizeRawKeys(raw) {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return raw;
+  const out = {};
+  for (const [k, v] of Object.entries(raw)) {
+    out[k] = v;
+    out[k.toLowerCase()] = v;
+    const snake = k
+      .replace(/([a-z0-9])([A-Z])/g, '$1_$2')
+      .replace(/([A-Z]{2,})([A-Z][a-z])/g, '$1_$2')
+      .toLowerCase();
+    if (snake !== k.toLowerCase()) out[snake] = v;
+  }
+  return out;
+}
+
 function feedAdvertiserId(feed) {
   return String(valueFrom(feed, [
     'advertiser_id', 'advertiserid', 'advertiser', 'advertiserId',
@@ -641,26 +660,27 @@ function normalizeCreative(creative, program) {
 }
 
 function normalizeProduct(raw, program) {
-  const rawId = valueFrom(raw, [
+  const raw_ = normalizeRawKeys(raw);
+  const rawId = valueFrom(raw_, [
     'aw_product_id', 'awproductid', 'id', 'product_id', 'productid', 'merchant_product_id', 'merchantproductid', 'sku', 'ean', 'gtin',
   ]);
-  const name = valueFrom(raw, ['product_name', 'productname', 'name', 'title', 'product_title', 'producttitle']);
+  const name = valueFrom(raw_, ['product_name', 'productname', 'name', 'title', 'product_title', 'producttitle']);
   if (!rawId || !name) return null;
 
-  const price = Number.parseFloat(String(valueFrom(raw, ['search_price', 'searchprice', 'price', 'current_price', 'currentprice', 'display_price'])).replace(/[^0-9.,-]/g, '').replace(',', '.')) || 0;
-  const merchant = valueFrom(raw, ['merchant_name', 'merchantname', 'merchant', 'advertiser_name', 'advertisername']) || program.name || '';
-  const category = valueFrom(raw, ['category_name', 'categoryname', 'category', 'merchant_category', 'merchantcategory']) || program.primarySector || '';
-  const image = valueFrom(raw, ['merchant_image_url', 'merchantimageurl', 'aw_image_url', 'awimageurl', 'image', 'image_url', 'imageurl', 'product_image', 'productimage']);
-  const url = valueFrom(raw, ['aw_deep_link', 'awdeeplink', 'deep_link', 'deeplink', 'aw_link', 'awlink', 'url', 'product_url', 'producturl']) || program.deeplink || program.clickThroughUrl || '';
+  const price = Number.parseFloat(String(valueFrom(raw_, ['search_price', 'searchprice', 'price', 'current_price', 'currentprice', 'display_price'])).replace(/[^0-9.,-]/g, '').replace(',', '.')) || 0;
+  const merchant = valueFrom(raw_, ['merchant_name', 'merchantname', 'merchant', 'advertiser_name', 'advertisername']) || program.name || '';
+  const category = valueFrom(raw_, ['category_name', 'categoryname', 'category', 'merchant_category', 'merchantcategory']) || program.primarySector || '';
+  const image = valueFrom(raw_, ['merchant_image_url', 'merchantimageurl', 'aw_image_url', 'awimageurl', 'image', 'image_url', 'imageurl', 'product_image', 'productimage']);
+  const url = valueFrom(raw_, ['aw_deep_link', 'awdeeplink', 'deep_link', 'deeplink', 'aw_link', 'awlink', 'url', 'product_url', 'producturl']) || program.deeplink || program.clickThroughUrl || '';
 
   return {
     id: `${program.key}-${String(rawId).replace(/\W+/g, '-').toLowerCase()}`,
-    awProductId: String(valueFrom(raw, ['aw_product_id', 'awproductid', 'id']) || ''),
-    merchantProductId: String(valueFrom(raw, ['merchant_product_id', 'merchantproductid', 'sku']) || ''),
+    awProductId: String(valueFrom(raw_, ['aw_product_id', 'awproductid', 'id']) || ''),
+    merchantProductId: String(valueFrom(raw_, ['merchant_product_id', 'merchantproductid', 'sku']) || ''),
     name: String(name).trim(),
-    description: String(valueFrom(raw, ['description', 'product_description', 'productdescription', 'short_description', 'shortdescription']) || '').trim().slice(0, 500),
+    description: String(valueFrom(raw_, ['description', 'product_description', 'productdescription', 'short_description', 'shortdescription']) || '').trim().slice(0, 500),
     price,
-    currency: valueFrom(raw, ['currency', 'currency_code', 'currencycode']) || program.currencyCode || 'USD',
+    currency: valueFrom(raw_, ['currency', 'currency_code', 'currencycode']) || program.currencyCode || 'USD',
     url,
     image,
     merchant: String(merchant).trim(),
@@ -668,7 +688,7 @@ function normalizeProduct(raw, program) {
     advertiserId: program.advertiserId,
     programId: program.key,
     topicTags: program.topicTags || [],
-    availability: valueFrom(raw, ['in_stock', 'instock', 'availability', 'stock_status', 'stockstatus']) || '',
+    availability: valueFrom(raw_, ['in_stock', 'instock', 'availability', 'stock_status', 'stockstatus']) || '',
     source: 'awin-product-feed',
     syncedAt: new Date().toISOString(),
   };
