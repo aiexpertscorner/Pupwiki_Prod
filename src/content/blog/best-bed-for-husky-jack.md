@@ -3,8 +3,8 @@ title: "Husky Jack Beds Dog-Care Decision Guide"
 seoTitle: "Husky Jack Beds Dog-Care Decision Guide"
 displayTitle: "Husky Jack Beds decision guide"
 description: "A PupWiki guide for current and future Husky Jack people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-11
-updatedDate: 2026-05-11
+pubDate: 2026-05-12
+updatedDate: 2026-05-12
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "husky-jack", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -26,16 +26,7 @@ medicalDisclaimer: false
 breedSlug: "husky-jack"
 breedName: "Husky Jack"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-husky-jack"
-heroImage: "https://images.pexels.com/photos/2102839/pexels-photo-2102839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/2102839/pexels-photo-2102839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Adorable Jack Russell Terrier dog sleeping peacefully on a bed indoors."
-imageAlt: "Adorable Jack Russell Terrier dog sleeping peacefully on a bed indoors."
-imageSource: "pexels"
-imageCredit: "Photo by Lisa from Pexels on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/adult-dog-on-white-bed-2102839/"
-imageSearchQuery: "Husky Jack dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Husky Jacks
 Husky Jacks are medium-sized (varies lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.

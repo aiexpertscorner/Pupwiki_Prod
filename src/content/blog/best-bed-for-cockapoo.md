@@ -3,8 +3,8 @@ title: "Cockapoo Beds Dog-Care Decision Guide"
 seoTitle: "Cockapoo Beds Dog-Care Decision Guide"
 displayTitle: "Cockapoo Beds decision guide"
 description: "A PupWiki guide for current and future Cockapoo people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-11
-updatedDate: 2026-05-11
+pubDate: 2026-05-12
+updatedDate: 2026-05-12
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "cockapoo", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -26,16 +26,7 @@ medicalDisclaimer: false
 breedSlug: "cockapoo"
 breedName: "Cockapoo"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-cockapoo"
-heroImage: "https://images.pexels.com/photos/1367002/pexels-photo-1367002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/1367002/pexels-photo-1367002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Two dogs peacefully sleeping on a patterned sofa in a cozy living room setting."
-imageAlt: "Two dogs peacefully sleeping on a patterned sofa in a cozy living room setting."
-imageSource: "pexels"
-imageCredit: "Photo by Lisa from Pexels on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/white-and-black-dogs-lying-on-white-loveseat-1367002/"
-imageSearchQuery: "Cockapoo dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cockapoos
 Cockapoos are medium-sized (varies lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.

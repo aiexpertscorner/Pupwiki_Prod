@@ -3,8 +3,8 @@ title: "Lhasapoo Beds Dog-Care Decision Guide"
 seoTitle: "Lhasapoo Beds Dog-Care Decision Guide"
 displayTitle: "Lhasapoo Beds decision guide"
 description: "A PupWiki guide for current and future Lhasapoo people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-11
-updatedDate: 2026-05-11
+pubDate: 2026-05-12
+updatedDate: 2026-05-12
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "lhasapoo", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -26,16 +26,7 @@ medicalDisclaimer: false
 breedSlug: "lhasapoo"
 breedName: "Lhasapoo"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-lhasapoo"
-heroImage: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
-imageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
-imageSource: "pexels"
-imageCredit: "Photo by Andreas Schnabl on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/adorable-dog-sleeping-cozy-in-bed-33288452/"
-imageSearchQuery: "Lhasapoo dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lhasapoos
 Lhasapoos are medium-sized (varies lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.

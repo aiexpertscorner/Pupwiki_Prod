@@ -3,8 +3,8 @@ title: "Yorkipoo Food Dog-Care Decision Guide"
 seoTitle: "Yorkipoo Food Dog-Care Decision Guide"
 displayTitle: "Yorkipoo Food decision guide"
 description: "A PupWiki guide for current and future Yorkipoo people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-11
-updatedDate: 2026-05-11
+pubDate: 2026-05-12
+updatedDate: 2026-05-12
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "yorkipoo", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -26,16 +26,7 @@ medicalDisclaimer: false
 breedSlug: "yorkipoo"
 breedName: "Yorkipoo"
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-yorkipoo"
-heroImage: "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog"
-imageAlt: "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog"
-imageSource: "pexels"
-imageCredit: "Photo by Andres  Ayrton on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/"
-imageSearchQuery: "Yorkipoo dog eating healthy food"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Yorkipoos
 Yorkipoos are medium-sized (varies lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
@@ -53,17 +44,6 @@ This page helps Yorkipoo people compare useful brands, products and services for
 [View at Chef Paw (US)](https://tidd.ly/41TPa44){rel="nofollow sponsored"}
 ### Raw Wild LLC partner offer
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
-[View at Raw Wild LLC](https://www.awin1.com/awclick.php?mid=89689&id=2861861){rel="nofollow sponsored"}
-### Raw Wild Beef & Chicken Freeze-Dried Raw Dog Food
-  - Biologically appropriate freeze-dried raw dog food made from 100% wild-caught and free-range US proteins.
-  - No fillers, no grains, no artificial preservatives..
-**Price:** $49.99 (check current price on site)
-[View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
-### Raw Wild Elk Freeze-Dried Raw Dog Food
-  - Single-protein elk formula for dogs with food sensitivities.
-  - Sourced from wild-harvested US elk.
-  - Naturally rich in iron and amino acids..
-**Price:** $54.99 (check current price on site)
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Yorkipoo
 Look for an AAFCO nutritional adequacy statement, a named protein in the first three ingredients, and a formula matched to your dog's life stage and size.

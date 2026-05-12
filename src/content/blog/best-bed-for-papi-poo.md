@@ -3,8 +3,8 @@ title: "Papi-poo Beds Dog-Care Decision Guide"
 seoTitle: "Papi-poo Beds Dog-Care Decision Guide"
 displayTitle: "Papi-poo Beds decision guide"
 description: "A PupWiki guide for current and future Papi-poo people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-11
-updatedDate: 2026-05-11
+pubDate: 2026-05-12
+updatedDate: 2026-05-12
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "papi-poo", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -26,16 +26,7 @@ medicalDisclaimer: false
 breedSlug: "papi-poo"
 breedName: "Papi-poo"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-papi-poo"
-heroImage: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
-imageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
-imageSource: "pexels"
-imageCredit: "Photo by Andreas Schnabl on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/adorable-dog-sleeping-cozy-in-bed-33288452/"
-imageSearchQuery: "Papi-poo dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Papi-poos
 Papi-poos are medium-sized (varies lbs), with regular energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.

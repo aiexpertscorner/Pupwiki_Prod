@@ -3,8 +3,8 @@ title: "Golden Mt. Dog Beds Dog-Care Decision Guide"
 seoTitle: "Golden Mt. Dog Beds Dog-Care Decision Guide"
 displayTitle: "Golden Mt. Dog Beds decision guide"
 description: "A PupWiki guide for current and future Golden Mt. Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-11
-updatedDate: 2026-05-11
+pubDate: 2026-05-12
+updatedDate: 2026-05-12
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "golden-mt-dog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -26,16 +26,7 @@ medicalDisclaimer: false
 breedSlug: "golden-mt-dog"
 breedName: "Golden Mt. Dog"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-golden-mt-dog"
-heroImage: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
-imageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
-imageSource: "pexels"
-imageCredit: "Photo by Andreas Schnabl on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/adorable-dog-sleeping-cozy-in-bed-33288452/"
-imageSearchQuery: "Golden Mt. Dog dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Golden Mt. Dogs
 Golden Mt. Dogs are medium-sized (varies lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.

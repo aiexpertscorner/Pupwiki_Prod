@@ -3,8 +3,8 @@ title: "Borgi Beds Dog-Care Decision Guide"
 seoTitle: "Borgi Beds Dog-Care Decision Guide"
 displayTitle: "Borgi Beds decision guide"
 description: "A PupWiki guide for current and future Borgi people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-11
-updatedDate: 2026-05-11
+pubDate: 2026-05-12
+updatedDate: 2026-05-12
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "borgi", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -26,16 +26,7 @@ medicalDisclaimer: false
 breedSlug: "borgi"
 breedName: "Borgi"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-borgi"
-heroImage: "https://images.pexels.com/photos/36198590/pexels-photo-36198590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/36198590/pexels-photo-36198590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Close-up of a black and white dog sleeping peacefully on a bed in a cozy setting."
-imageAlt: "Close-up of a black and white dog sleeping peacefully on a bed in a cozy setting."
-imageSource: "pexels"
-imageCredit: "Photo by Magda Ehlers on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/sleeping-dog-on-bed-with-relaxing-atmosphere-36198590/"
-imageSearchQuery: "Borgi dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Borgis
 Borgis are medium-sized (varies lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

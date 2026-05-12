@@ -3,8 +3,8 @@ title: "Chorkie Beds Dog-Care Decision Guide"
 seoTitle: "Chorkie Beds Dog-Care Decision Guide"
 displayTitle: "Chorkie Beds decision guide"
 description: "A PupWiki guide for current and future Chorkie people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-11
-updatedDate: 2026-05-11
+pubDate: 2026-05-12
+updatedDate: 2026-05-12
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "chorkie", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -26,16 +26,7 @@ medicalDisclaimer: false
 breedSlug: "chorkie"
 breedName: "Chorkie"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-chorkie"
-heroImage: "https://images.pexels.com/photos/19176926/pexels-photo-19176926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/19176926/pexels-photo-19176926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A Shiba Inu dog peacefully sleeping curled up on a fluffy pet bed with warm sunlight."
-imageAlt: "A Shiba Inu dog peacefully sleeping curled up on a fluffy pet bed with warm sunlight."
-imageSource: "pexels"
-imageCredit: "Photo by Stephen on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/red-dog-sleeping-curled-up-in-a-fuzzy-pet-bed-19176926/"
-imageSearchQuery: "Chorkie dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chorkies
 Chorkies are medium-sized (varies lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
