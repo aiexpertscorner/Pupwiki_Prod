@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "croatian-sheepdog"
 breedName: "Croatian Sheepdog"
 canonicalUrl: "https://pupwiki.com/blog/croatian-sheepdog-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting."
+imageAlt: "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-shetland-sheepdog-outdoors-29955884/"
+imageSearchQuery: "Croatian Sheepdog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Croatian Sheepdogs

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "dalmatian"
 breedName: "Dalmatian"
 canonicalUrl: "https://pupwiki.com/blog/dalmatian-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/36330660/pexels-photo-36330660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36330660/pexels-photo-36330660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Dalmatian dog resting peacefully on the floor indoors, showcasing its unique black and white spots."
+imageAlt: "A Dalmatian dog resting peacefully on the floor indoors, showcasing its unique black and white spots."
+imageSource: "pexels"
+imageCredit: "Photo by Ayron Junior on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-relaxing-dalmatian-dog-indoors-36330660/"
+imageSearchQuery: "Dalmatian dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Dalmatians

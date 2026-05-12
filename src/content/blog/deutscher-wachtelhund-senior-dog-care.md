@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "deutscher-wachtelhund"
 breedName: "Deutscher Wachtelhund"
 canonicalUrl: "https://pupwiki.com/blog/deutscher-wachtelhund-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/3427343/pexels-photo-3427343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3427343/pexels-photo-3427343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a black dog with brown eyes in an outdoor setting under daylight."
+imageAlt: "A close-up portrait of a black dog with brown eyes in an outdoor setting under daylight."
+imageSource: "pexels"
+imageCredit: "Photo by Julissa Pires on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photography-of-a-large-dog-3427343/"
+imageSearchQuery: "Deutscher Wachtelhund dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Deutscher Wachtelhunds

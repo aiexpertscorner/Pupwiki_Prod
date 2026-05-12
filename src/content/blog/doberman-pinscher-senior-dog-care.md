@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "doberman-pinscher"
 breedName: "Doberman Pinscher"
 canonicalUrl: "https://pupwiki.com/blog/doberman-pinscher-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/13624062/pexels-photo-13624062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13624062/pexels-photo-13624062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Intimate close-up portrait of a Doberman dog showcasing its striking features against a blurred background."
+imageAlt: "Intimate close-up portrait of a Doberman dog showcasing its striking features against a blurred background."
+imageSource: "pexels"
+imageCredit: "Photo by Denitsa Kireva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-13624062/"
+imageSearchQuery: "Doberman Pinscher dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Doberman Pinschers

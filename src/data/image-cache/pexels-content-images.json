@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-12T19:32:57.746Z",
+  "syncedAt": "2026-05-12T19:38:00.588Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -13104,12 +13104,612 @@
       "photographerUrl": "https://www.pexels.com/@fran-soza-189684",
       "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-13975382/",
       "id": 13975382
+    },
+    "clumber-spaniel-pet-insurance-planning:Clumber Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "clumber-spaniel-senior-dog-care:Clumber Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "cockapoo-pet-insurance-planning:Cockapoo dog portrait": {
+      "url": "https://images.pexels.com/photos/16622927/pexels-photo-16622927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute fluffy dog posing against a vibrant blue background, captured in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/puppy-on-blue-background-16622927/",
+      "id": 16622927
+    },
+    "cockapoo-senior-dog-care:Cockapoo dog portrait": {
+      "url": "https://images.pexels.com/photos/16622927/pexels-photo-16622927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute fluffy dog posing against a vibrant blue background, captured in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/puppy-on-blue-background-16622927/",
+      "id": 16622927
+    },
+    "cocker-spaniel-pet-insurance-planning:Cocker Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "cocker-spaniel-senior-dog-care:Cocker Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "collie-pet-insurance-planning:Collie dog portrait": {
+      "url": "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression.",
+      "photographer": "Tomasz Lemańczyk",
+      "photographerUrl": "https://www.pexels.com/@tomasz-lemanczyk-1422486221",
+      "pexelsUrl": "https://www.pexels.com/photo/beautiful-fluffy-collie-26588116/",
+      "id": 26588116
+    },
+    "collie-senior-dog-care:Collie dog portrait": {
+      "url": "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression.",
+      "photographer": "Tomasz Lemańczyk",
+      "photographerUrl": "https://www.pexels.com/@tomasz-lemanczyk-1422486221",
+      "pexelsUrl": "https://www.pexels.com/photo/beautiful-fluffy-collie-26588116/",
+      "id": 26588116
+    },
+    "corgidor-pet-insurance-planning:Corgidor dog portrait": {
+      "url": "https://images.pexels.com/photos/17894089/pexels-photo-17894089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A vibrant outdoor portrait of a cheerful black dog with a bright expression and textured background.",
+      "photographer": "Franco Monsalvo",
+      "photographerUrl": "https://www.pexels.com/@franco-monsalvo-252430633",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-dog-17894089/",
+      "id": 17894089
+    },
+    "corgidor-senior-dog-care:Corgidor dog portrait": {
+      "url": "https://images.pexels.com/photos/17894089/pexels-photo-17894089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A vibrant outdoor portrait of a cheerful black dog with a bright expression and textured background.",
+      "photographer": "Franco Monsalvo",
+      "photographerUrl": "https://www.pexels.com/@franco-monsalvo-252430633",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-dog-17894089/",
+      "id": 17894089
+    },
+    "corgipoo-pet-insurance-planning:Corgipoo dog portrait": {
+      "url": "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a smiling dog in an outdoor setting.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/",
+      "id": 32130866
+    },
+    "corgipoo-senior-dog-care:Corgipoo dog portrait": {
+      "url": "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a smiling dog in an outdoor setting.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/",
+      "id": 32130866
+    },
+    "corman-shepherd-pet-insurance-planning:Corman Shepherd dog portrait": {
+      "url": "https://images.pexels.com/photos/17269699/pexels-photo-17269699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a German Shepherd dog standing in a grassy outdoor yard.",
+      "photographer": "Doğan Alpaslan  Demir",
+      "photographerUrl": "https://www.pexels.com/@izafi",
+      "pexelsUrl": "https://www.pexels.com/photo/side-view-of-a-german-shepherd-outside-17269699/",
+      "id": 17269699
+    },
+    "corman-shepherd-senior-dog-care:Corman Shepherd dog portrait": {
+      "url": "https://images.pexels.com/photos/17269699/pexels-photo-17269699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a German Shepherd dog standing in a grassy outdoor yard.",
+      "photographer": "Doğan Alpaslan  Demir",
+      "photographerUrl": "https://www.pexels.com/@izafi",
+      "pexelsUrl": "https://www.pexels.com/photo/side-view-of-a-german-shepherd-outside-17269699/",
+      "id": 17269699
+    },
+    "coton-de-tulear-pet-insurance-planning:Coton de Tulear dog portrait": {
+      "url": "https://images.pexels.com/photos/14166877/pexels-photo-14166877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable fluffy white dog with long hair standing on a wall outdoors, showing its cute face.",
+      "photographer": "SUNAZ NAZAR",
+      "photographerUrl": "https://www.pexels.com/@dzain",
+      "pexelsUrl": "https://www.pexels.com/photo/a-white-long-coat-small-dog-on-concrete-pavement-14166877/",
+      "id": 14166877
+    },
+    "coton-de-tulear-senior-dog-care:Coton de Tulear dog portrait": {
+      "url": "https://images.pexels.com/photos/14166877/pexels-photo-14166877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable fluffy white dog with long hair standing on a wall outdoors, showing its cute face.",
+      "photographer": "SUNAZ NAZAR",
+      "photographerUrl": "https://www.pexels.com/@dzain",
+      "pexelsUrl": "https://www.pexels.com/photo/a-white-long-coat-small-dog-on-concrete-pavement-14166877/",
+      "id": 14166877
+    },
+    "croatian-sheepdog-pet-insurance-planning:Croatian Sheepdog dog portrait": {
+      "url": "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-shetland-sheepdog-outdoors-29955884/",
+      "id": 29955884
+    },
+    "croatian-sheepdog-senior-dog-care:Croatian Sheepdog dog portrait": {
+      "url": "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-shetland-sheepdog-outdoors-29955884/",
+      "id": 29955884
+    },
+    "curly-coated-retriever-pet-insurance-planning:Curly-Coated Retriever dog portrait": {
+      "url": "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop.",
+      "photographer": "Masood Aslami",
+      "photographerUrl": "https://www.pexels.com/@masoodaslami",
+      "pexelsUrl": "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/",
+      "id": 30810888
+    },
+    "curly-coated-retriever-senior-dog-care:Curly-Coated Retriever dog portrait": {
+      "url": "https://images.pexels.com/photos/30810888/pexels-photo-30810888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Golden Retriever dog with soft focus outdoor backdrop.",
+      "photographer": "Masood Aslami",
+      "photographerUrl": "https://www.pexels.com/@masoodaslami",
+      "pexelsUrl": "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/",
+      "id": 30810888
+    },
+    "czechoslovakian-vlcak-pet-insurance-planning:Czechoslovakian Vlcak dog portrait": {
+      "url": "https://images.pexels.com/photos/5957667/pexels-photo-5957667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming portrait of a Czechoslovakian Wolfdog enjoying a sunny day outdoors.",
+      "photographer": "Kanashi",
+      "photographerUrl": "https://www.pexels.com/@kanashi-6228312",
+      "pexelsUrl": "https://www.pexels.com/photo/white-and-black-short-coated-dog-5957667/",
+      "id": 5957667
+    },
+    "czechoslovakian-vlcak-senior-dog-care:Czechoslovakian Vlcak dog portrait": {
+      "url": "https://images.pexels.com/photos/5957667/pexels-photo-5957667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming portrait of a Czechoslovakian Wolfdog enjoying a sunny day outdoors.",
+      "photographer": "Kanashi",
+      "photographerUrl": "https://www.pexels.com/@kanashi-6228312",
+      "pexelsUrl": "https://www.pexels.com/photo/white-and-black-short-coated-dog-5957667/",
+      "id": 5957667
+    },
+    "dachshund-pet-insurance-planning:Dachshund dog portrait": {
+      "url": "https://images.pexels.com/photos/37375243/pexels-photo-37375243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up photo of a Dachshund dog with thoughtful expression, indoors.",
+      "photographer": "Peter Jochim",
+      "photographerUrl": "https://www.pexels.com/@peterjochim-fotografie",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-dachshund-with-thoughtful-eyes-37375243/",
+      "id": 37375243
+    },
+    "dachshund-senior-dog-care:Dachshund dog portrait": {
+      "url": "https://images.pexels.com/photos/37375243/pexels-photo-37375243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up photo of a Dachshund dog with thoughtful expression, indoors.",
+      "photographer": "Peter Jochim",
+      "photographerUrl": "https://www.pexels.com/@peterjochim-fotografie",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-dachshund-with-thoughtful-eyes-37375243/",
+      "id": 37375243
+    },
+    "dalmadoodle-pet-insurance-planning:Dalmadoodle dog portrait": {
+      "url": "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-yellow-background-16622613/",
+      "id": 16622613
+    },
+    "dalmadoodle-senior-dog-care:Dalmadoodle dog portrait": {
+      "url": "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-yellow-background-16622613/",
+      "id": 16622613
+    },
+    "dalmatian-pet-insurance-planning:Dalmatian dog portrait": {
+      "url": "https://images.pexels.com/photos/36330660/pexels-photo-36330660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Dalmatian dog resting peacefully on the floor indoors, showcasing its unique black and white spots.",
+      "photographer": "Ayron Junior",
+      "photographerUrl": "https://www.pexels.com/@ayron-junior-2159700636",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-relaxing-dalmatian-dog-indoors-36330660/",
+      "id": 36330660
+    },
+    "dalmatian-senior-dog-care:Dalmatian dog portrait": {
+      "url": "https://images.pexels.com/photos/36330660/pexels-photo-36330660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Dalmatian dog resting peacefully on the floor indoors, showcasing its unique black and white spots.",
+      "photographer": "Ayron Junior",
+      "photographerUrl": "https://www.pexels.com/@ayron-junior-2159700636",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-relaxing-dalmatian-dog-indoors-36330660/",
+      "id": 36330660
+    },
+    "dameranian-pet-insurance-planning:Dameranian dog portrait": {
+      "url": "https://images.pexels.com/photos/17894089/pexels-photo-17894089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A vibrant outdoor portrait of a cheerful black dog with a bright expression and textured background.",
+      "photographer": "Franco Monsalvo",
+      "photographerUrl": "https://www.pexels.com/@franco-monsalvo-252430633",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-dog-17894089/",
+      "id": 17894089
+    },
+    "dameranian-senior-dog-care:Dameranian dog portrait": {
+      "url": "https://images.pexels.com/photos/17894089/pexels-photo-17894089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A vibrant outdoor portrait of a cheerful black dog with a bright expression and textured background.",
+      "photographer": "Franco Monsalvo",
+      "photographerUrl": "https://www.pexels.com/@franco-monsalvo-252430633",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-dog-17894089/",
+      "id": 17894089
+    },
+    "dandie-dinmont-terrier-pet-insurance-planning:Dandie Dinmont Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/27960004/pexels-photo-27960004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a cute terrier dog looking intently, highlighting its fluffy fur and bright eyes.",
+      "photographer": "Gundula Vogel",
+      "photographerUrl": "https://www.pexels.com/@guvo59",
+      "pexelsUrl": "https://www.pexels.com/photo/kleiner-hund-portrat-27960004/",
+      "id": 27960004
+    },
+    "dandie-dinmont-terrier-senior-dog-care:Dandie Dinmont Terrier dog portrait": {
+      "url": "https://images.pexels.com/photos/27960004/pexels-photo-27960004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a cute terrier dog looking intently, highlighting its fluffy fur and bright eyes.",
+      "photographer": "Gundula Vogel",
+      "photographerUrl": "https://www.pexels.com/@guvo59",
+      "pexelsUrl": "https://www.pexels.com/photo/kleiner-hund-portrat-27960004/",
+      "id": 27960004
+    },
+    "danish-swedish-farmdog-pet-insurance-planning:Danish-Swedish Farmdog dog portrait": {
+      "url": "https://images.pexels.com/photos/37297117/pexels-photo-37297117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a brown and white dog with alert eyes indoors.",
+      "photographer": "Harshit Mehta",
+      "photographerUrl": "https://www.pexels.com/@harshit-mehta-2161164138",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-portrait-of-a-brown-and-white-dog-indoors-37297117/",
+      "id": 37297117
+    },
+    "danish-swedish-farmdog-senior-dog-care:Danish-Swedish Farmdog dog portrait": {
+      "url": "https://images.pexels.com/photos/37297117/pexels-photo-37297117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a brown and white dog with alert eyes indoors.",
+      "photographer": "Harshit Mehta",
+      "photographerUrl": "https://www.pexels.com/@harshit-mehta-2161164138",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-portrait-of-a-brown-and-white-dog-indoors-37297117/",
+      "id": 37297117
+    },
+    "deutscher-wachtelhund-pet-insurance-planning:Deutscher Wachtelhund dog portrait": {
+      "url": "https://images.pexels.com/photos/3427343/pexels-photo-3427343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black dog with brown eyes in an outdoor setting under daylight.",
+      "photographer": "Julissa Pires",
+      "photographerUrl": "https://www.pexels.com/@julissapires",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photography-of-a-large-dog-3427343/",
+      "id": 3427343
+    },
+    "deutscher-wachtelhund-senior-dog-care:Deutscher Wachtelhund dog portrait": {
+      "url": "https://images.pexels.com/photos/3427343/pexels-photo-3427343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black dog with brown eyes in an outdoor setting under daylight.",
+      "photographer": "Julissa Pires",
+      "photographerUrl": "https://www.pexels.com/@julissapires",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photography-of-a-large-dog-3427343/",
+      "id": 3427343
+    },
+    "doberman-pinscher-pet-insurance-planning:Doberman Pinscher dog portrait": {
+      "url": "https://images.pexels.com/photos/13624062/pexels-photo-13624062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Intimate close-up portrait of a Doberman dog showcasing its striking features against a blurred background.",
+      "photographer": "Denitsa Kireva",
+      "photographerUrl": "https://www.pexels.com/@denitsa-kireva-2915302",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-13624062/",
+      "id": 13624062
+    },
+    "doberman-pinscher-senior-dog-care:Doberman Pinscher dog portrait": {
+      "url": "https://images.pexels.com/photos/13624062/pexels-photo-13624062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Intimate close-up portrait of a Doberman dog showcasing its striking features against a blurred background.",
+      "photographer": "Denitsa Kireva",
+      "photographerUrl": "https://www.pexels.com/@denitsa-kireva-2915302",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-13624062/",
+      "id": 13624062
+    },
+    "dogo-argentino-pet-insurance-planning:Dogo Argentino dog portrait": {
+      "url": "https://images.pexels.com/photos/288392/pexels-photo-288392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "White dog on a leash enjoying a bright winter day outdoors, captured in portrait style.",
+      "photographer": "freestocks.org",
+      "photographerUrl": "https://www.pexels.com/@freestocks",
+      "pexelsUrl": "https://www.pexels.com/photo/adult-white-pitbull-terrier-near-tree-288392/",
+      "id": 288392
+    },
+    "dogo-argentino-senior-dog-care:Dogo Argentino dog portrait": {
+      "url": "https://images.pexels.com/photos/288392/pexels-photo-288392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "White dog on a leash enjoying a bright winter day outdoors, captured in portrait style.",
+      "photographer": "freestocks.org",
+      "photographerUrl": "https://www.pexels.com/@freestocks",
+      "pexelsUrl": "https://www.pexels.com/photo/adult-white-pitbull-terrier-near-tree-288392/",
+      "id": 288392
+    },
+    "dogue-de-bordeaux-pet-insurance-planning:Dogue de Bordeaux dog portrait": {
+      "url": "https://images.pexels.com/photos/846292/pexels-photo-846292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A striking black and white portrait of a Boxer dog with dark and dramatic studio lighting, capturing its expressive eye.",
+      "photographer": "Frank Schrodt",
+      "photographerUrl": "https://www.pexels.com/@frank-schrodt-287739",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-short-coated-dog-846292/",
+      "id": 846292
+    },
+    "dogue-de-bordeaux-senior-dog-care:Dogue de Bordeaux dog portrait": {
+      "url": "https://images.pexels.com/photos/846292/pexels-photo-846292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A striking black and white portrait of a Boxer dog with dark and dramatic studio lighting, capturing its expressive eye.",
+      "photographer": "Frank Schrodt",
+      "photographerUrl": "https://www.pexels.com/@frank-schrodt-287739",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-short-coated-dog-846292/",
+      "id": 846292
+    },
+    "dorgi-pet-insurance-planning:Dorgi dog portrait": {
+      "url": "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a smiling dog in an outdoor setting.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/",
+      "id": 32130866
+    },
+    "dorgi-senior-dog-care:Dorgi dog portrait": {
+      "url": "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a smiling dog in an outdoor setting.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/",
+      "id": 32130866
+    },
+    "doxie-poo-pet-insurance-planning:Doxie-poo dog portrait": {
+      "url": "https://images.pexels.com/photos/30565326/pexels-photo-30565326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a white Shih Poo dog wearing a blue scarf against a dark background.",
+      "photographer": "Jay Brand",
+      "photographerUrl": "https://www.pexels.com/@jay-brand-1763356224",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-shih-poo-dog-wearing-a-scarf-30565326/",
+      "id": 30565326
+    },
+    "doxie-poo-senior-dog-care:Doxie-poo dog portrait": {
+      "url": "https://images.pexels.com/photos/30565326/pexels-photo-30565326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a white Shih Poo dog wearing a blue scarf against a dark background.",
+      "photographer": "Jay Brand",
+      "photographerUrl": "https://www.pexels.com/@jay-brand-1763356224",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-shih-poo-dog-wearing-a-scarf-30565326/",
+      "id": 30565326
+    },
+    "drentsche-patrijshond-pet-insurance-planning:Drentsche Patrijshond dog portrait": {
+      "url": "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression.",
+      "photographer": "Téméraire Marketing Luxembourg",
+      "photographerUrl": "https://www.pexels.com/@temeraire-marketing-luxembourg-532626080",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/",
+      "id": 36237036
+    },
+    "drentsche-patrijshond-senior-dog-care:Drentsche Patrijshond dog portrait": {
+      "url": "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression.",
+      "photographer": "Téméraire Marketing Luxembourg",
+      "photographerUrl": "https://www.pexels.com/@temeraire-marketing-luxembourg-532626080",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/",
+      "id": 36237036
+    },
+    "drever-pet-insurance-planning:Drever dog portrait": {
+      "url": "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a smiling dog in an outdoor setting.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/",
+      "id": 32130866
+    },
+    "drever-senior-dog-care:Drever dog portrait": {
+      "url": "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming black and white portrait of a smiling dog in an outdoor setting.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/",
+      "id": 32130866
+    },
+    "dutch-shepherd-pet-insurance-planning:Dutch Shepherd dog portrait": {
+      "url": "https://images.pexels.com/photos/20522599/pexels-photo-20522599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of an adult German Shepherd dog outdoors, showcasing its fluffy coat and alert expression.",
+      "photographer": "JacLou DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl-214226",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-german-shepherd-puppy-20522599/",
+      "id": 20522599
+    },
+    "dutch-shepherd-senior-dog-care:Dutch Shepherd dog portrait": {
+      "url": "https://images.pexels.com/photos/20522599/pexels-photo-20522599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of an adult German Shepherd dog outdoors, showcasing its fluffy coat and alert expression.",
+      "photographer": "JacLou DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl-214226",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-german-shepherd-puppy-20522599/",
+      "id": 20522599
+    },
+    "english-boodle-pet-insurance-planning:English Boodle dog portrait": {
+      "url": "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-yellow-background-16622613/",
+      "id": 16622613
+    },
+    "english-boodle-senior-dog-care:English Boodle dog portrait": {
+      "url": "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-yellow-background-16622613/",
+      "id": 16622613
+    },
+    "english-cocker-spaniel-pet-insurance-planning:English Cocker Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "english-cocker-spaniel-senior-dog-care:English Cocker Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "english-foxhound-pet-insurance-planning:English Foxhound dog portrait": {
+      "url": "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features.",
+      "photographer": "Алексей Вечерин",
+      "photographerUrl": "https://www.pexels.com/@107014568",
+      "pexelsUrl": "https://www.pexels.com/photo/a-black-and-white-short-coated-dog-9562585/",
+      "id": 9562585
+    },
+    "english-foxhound-senior-dog-care:English Foxhound dog portrait": {
+      "url": "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features.",
+      "photographer": "Алексей Вечерин",
+      "photographerUrl": "https://www.pexels.com/@107014568",
+      "pexelsUrl": "https://www.pexels.com/photo/a-black-and-white-short-coated-dog-9562585/",
+      "id": 9562585
+    },
+    "english-setter-pet-insurance-planning:English Setter dog portrait": {
+      "url": "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black and white portrait of a dog in a park, showcasing its elegance and poise.",
+      "photographer": "Altaf Shah",
+      "photographerUrl": "https://www.pexels.com/@altaf-shah-3143825",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-on-a-leash-18868925/",
+      "id": 18868925
+    },
+    "english-setter-senior-dog-care:English Setter dog portrait": {
+      "url": "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black and white portrait of a dog in a park, showcasing its elegance and poise.",
+      "photographer": "Altaf Shah",
+      "photographerUrl": "https://www.pexels.com/@altaf-shah-3143825",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-on-a-leash-18868925/",
+      "id": 18868925
+    },
+    "english-springer-spaniel-pet-insurance-planning:English Springer Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors.",
+      "photographer": "Lorenzo Manera",
+      "photographerUrl": "https://www.pexels.com/@lorenzo-manera-686693293",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-lying-down-on-grass-24453850/",
+      "id": 24453850
+    },
+    "english-springer-spaniel-senior-dog-care:English Springer Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors.",
+      "photographer": "Lorenzo Manera",
+      "photographerUrl": "https://www.pexels.com/@lorenzo-manera-686693293",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-lying-down-on-grass-24453850/",
+      "id": 24453850
+    },
+    "english-toy-spaniel-pet-insurance-planning:English Toy Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/30633883/pexels-photo-30633883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Elegant black and white portrait of a Cocker Spaniel dog with long fur.",
+      "photographer": "Aadi Photography",
+      "photographerUrl": "https://www.pexels.com/@aadi-photography-2149351585",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-cocker-spaniel-30633883/",
+      "id": 30633883
+    },
+    "english-toy-spaniel-senior-dog-care:English Toy Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/30633883/pexels-photo-30633883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Elegant black and white portrait of a Cocker Spaniel dog with long fur.",
+      "photographer": "Aadi Photography",
+      "photographerUrl": "https://www.pexels.com/@aadi-photography-2149351585",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-cocker-spaniel-30633883/",
+      "id": 30633883
+    },
+    "entlebucher-mountain-dog-pet-insurance-planning:Entlebucher Mountain Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression.",
+      "photographer": "Téméraire Marketing Luxembourg",
+      "photographerUrl": "https://www.pexels.com/@temeraire-marketing-luxembourg-532626080",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/",
+      "id": 36237036
+    },
+    "entlebucher-mountain-dog-senior-dog-care:Entlebucher Mountain Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a Bernese Mountain Dog showcasing its calm and gentle expression.",
+      "photographer": "Téméraire Marketing Luxembourg",
+      "photographerUrl": "https://www.pexels.com/@temeraire-marketing-luxembourg-532626080",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/",
+      "id": 36237036
+    },
+    "estrela-mountain-dog-pet-insurance-planning:Estrela Mountain Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/36405811/pexels-photo-36405811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A striking black and white portrait of a Himalayan dog in Jibhi, HP, India.",
+      "photographer": "Tejash Mishra",
+      "photographerUrl": "https://www.pexels.com/@tejash-mishra-2159944989",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-himalayan-dog-36405811/",
+      "id": 36405811
+    },
+    "estrela-mountain-dog-senior-dog-care:Estrela Mountain Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/36405811/pexels-photo-36405811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A striking black and white portrait of a Himalayan dog in Jibhi, HP, India.",
+      "photographer": "Tejash Mishra",
+      "photographerUrl": "https://www.pexels.com/@tejash-mishra-2159944989",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-a-himalayan-dog-36405811/",
+      "id": 36405811
+    },
+    "eurasier-pet-insurance-planning:Eurasier dog portrait": {
+      "url": "https://images.pexels.com/photos/26920474/pexels-photo-26920474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A captivating black and white portrait of a Eurasier dog outdoors.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-eurasier-dog-in-black-and-white-26920474/",
+      "id": 26920474
+    },
+    "eurasier-senior-dog-care:Eurasier dog portrait": {
+      "url": "https://images.pexels.com/photos/26920474/pexels-photo-26920474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A captivating black and white portrait of a Eurasier dog outdoors.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-eurasier-dog-in-black-and-white-26920474/",
+      "id": 26920474
+    },
+    "field-spaniel-pet-insurance-planning:Field Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "field-spaniel-senior-dog-care:Field Spaniel dog portrait": {
+      "url": "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively.",
+      "photographer": "SlimMars 13",
+      "photographerUrl": "https://www.pexels.com/@slimmars-13-197677686",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/",
+      "id": 34913554
+    },
+    "finnish-lapphund-pet-insurance-planning:Finnish Lapphund dog portrait": {
+      "url": "https://images.pexels.com/photos/29352513/pexels-photo-29352513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Finnish Lapphund dog with a fluffy coat by a serene water background.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-finnish-lapphund-by-the-water-29352513/",
+      "id": 29352513
+    },
+    "finnish-lapphund-senior-dog-care:Finnish Lapphund dog portrait": {
+      "url": "https://images.pexels.com/photos/29352513/pexels-photo-29352513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Finnish Lapphund dog with a fluffy coat by a serene water background.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-finnish-lapphund-by-the-water-29352513/",
+      "id": 29352513
+    },
+    "finnish-spitz-pet-insurance-planning:Finnish Spitz dog portrait": {
+      "url": "https://images.pexels.com/photos/1493109/pexels-photo-1493109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming Finnish Lapphund dog peacefully resting in lush green grass during daytime.",
+      "photographer": "Janko Ferlic",
+      "photographerUrl": "https://www.pexels.com/@itfeelslikefilm",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-finnish-lapphund-sitting-on-grass-field-1493109/",
+      "id": 1493109
     }
   },
   "stats": {
     "scanned": 80,
     "changed": 80,
-    "skipped": 453,
+    "skipped": 536,
     "failed": 0,
     "force": false,
     "dry": false

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "eurasier"
 breedName: "Eurasier"
 canonicalUrl: "https://pupwiki.com/blog/eurasier-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/26920474/pexels-photo-26920474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26920474/pexels-photo-26920474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A captivating black and white portrait of a Eurasier dog outdoors."
+imageAlt: "A captivating black and white portrait of a Eurasier dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-eurasier-dog-in-black-and-white-26920474/"
+imageSearchQuery: "Eurasier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Eurasiers

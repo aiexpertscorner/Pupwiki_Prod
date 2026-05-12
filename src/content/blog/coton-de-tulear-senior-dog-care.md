@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "coton-de-tulear"
 breedName: "Coton de Tulear"
 canonicalUrl: "https://pupwiki.com/blog/coton-de-tulear-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/14166877/pexels-photo-14166877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14166877/pexels-photo-14166877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable fluffy white dog with long hair standing on a wall outdoors, showing its cute face."
+imageAlt: "Adorable fluffy white dog with long hair standing on a wall outdoors, showing its cute face."
+imageSource: "pexels"
+imageCredit: "Photo by SUNAZ NAZAR on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-white-long-coat-small-dog-on-concrete-pavement-14166877/"
+imageSearchQuery: "Coton de Tulear dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Coton de Tulears

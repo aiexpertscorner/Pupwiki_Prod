@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "field-spaniel"
 breedName: "Field Spaniel"
 canonicalUrl: "https://pupwiki.com/blog/field-spaniel-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively."
+imageAlt: "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively."
+imageSource: "pexels"
+imageCredit: "Photo by SlimMars 13 on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/"
+imageSearchQuery: "Field Spaniel dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Field Spaniels

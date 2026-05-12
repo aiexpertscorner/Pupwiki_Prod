@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "dameranian"
 breedName: "Dameranian"
 canonicalUrl: "https://pupwiki.com/blog/dameranian-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/17894089/pexels-photo-17894089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/17894089/pexels-photo-17894089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A vibrant outdoor portrait of a cheerful black dog with a bright expression and textured background."
+imageAlt: "A vibrant outdoor portrait of a cheerful black dog with a bright expression and textured background."
+imageSource: "pexels"
+imageCredit: "Photo by Franco Monsalvo on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-black-dog-17894089/"
+imageSearchQuery: "Dameranian dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Dameranians

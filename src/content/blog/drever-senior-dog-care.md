@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "drever"
 breedName: "Drever"
 canonicalUrl: "https://pupwiki.com/blog/drever-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming black and white portrait of a smiling dog in an outdoor setting."
+imageAlt: "Charming black and white portrait of a smiling dog in an outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/"
+imageSearchQuery: "Drever dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Drevers

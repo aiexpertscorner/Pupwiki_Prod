@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "dachshund"
 breedName: "Dachshund"
 canonicalUrl: "https://pupwiki.com/blog/dachshund-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/37375243/pexels-photo-37375243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37375243/pexels-photo-37375243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up photo of a Dachshund dog with thoughtful expression, indoors."
+imageAlt: "A close-up photo of a Dachshund dog with thoughtful expression, indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Peter Jochim on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-dachshund-with-thoughtful-eyes-37375243/"
+imageSearchQuery: "Dachshund dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Dachshunds

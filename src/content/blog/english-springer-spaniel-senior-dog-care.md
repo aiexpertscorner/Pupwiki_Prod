@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "english-springer-spaniel"
 breedName: "English Springer Spaniel"
 canonicalUrl: "https://pupwiki.com/blog/english-springer-spaniel-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-on-grass-24453850/"
+imageSearchQuery: "English Springer Spaniel dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for English Springer Spaniels

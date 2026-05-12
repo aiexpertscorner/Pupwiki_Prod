@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "finnish-lapphund"
 breedName: "Finnish Lapphund"
 canonicalUrl: "https://pupwiki.com/blog/finnish-lapphund-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/29352513/pexels-photo-29352513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29352513/pexels-photo-29352513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Finnish Lapphund dog with a fluffy coat by a serene water background."
+imageAlt: "A Finnish Lapphund dog with a fluffy coat by a serene water background."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-finnish-lapphund-by-the-water-29352513/"
+imageSearchQuery: "Finnish Lapphund dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Finnish Lapphunds

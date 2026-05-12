@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "dogo-argentino"
 breedName: "Dogo Argentino"
 canonicalUrl: "https://pupwiki.com/blog/dogo-argentino-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/288392/pexels-photo-288392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/288392/pexels-photo-288392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "White dog on a leash enjoying a bright winter day outdoors, captured in portrait style."
+imageAlt: "White dog on a leash enjoying a bright winter day outdoors, captured in portrait style."
+imageSource: "pexels"
+imageCredit: "Photo by freestocks.org on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adult-white-pitbull-terrier-near-tree-288392/"
+imageSearchQuery: "Dogo Argentino dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Dogo Argentinos

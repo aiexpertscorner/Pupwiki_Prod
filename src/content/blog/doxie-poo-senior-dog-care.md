@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "doxie-poo"
 breedName: "Doxie-poo"
 canonicalUrl: "https://pupwiki.com/blog/doxie-poo-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/30565326/pexels-photo-30565326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30565326/pexels-photo-30565326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a white Shih Poo dog wearing a blue scarf against a dark background."
+imageAlt: "Close-up portrait of a white Shih Poo dog wearing a blue scarf against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Jay Brand on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-shih-poo-dog-wearing-a-scarf-30565326/"
+imageSearchQuery: "Doxie-poo dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Doxie-poos

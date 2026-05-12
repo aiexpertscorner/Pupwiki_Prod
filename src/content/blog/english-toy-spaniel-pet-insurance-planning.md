@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "english-toy-spaniel"
 breedName: "English Toy Spaniel"
 canonicalUrl: "https://pupwiki.com/blog/english-toy-spaniel-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/30633883/pexels-photo-30633883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30633883/pexels-photo-30633883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Elegant black and white portrait of a Cocker Spaniel dog with long fur."
+imageAlt: "Elegant black and white portrait of a Cocker Spaniel dog with long fur."
+imageSource: "pexels"
+imageCredit: "Photo by Aadi Photography on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-a-cocker-spaniel-30633883/"
+imageSearchQuery: "English Toy Spaniel dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for English Toy Spaniels

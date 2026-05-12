@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "estrela-mountain-dog"
 breedName: "Estrela Mountain Dog"
 canonicalUrl: "https://pupwiki.com/blog/estrela-mountain-dog-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/36405811/pexels-photo-36405811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36405811/pexels-photo-36405811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A striking black and white portrait of a Himalayan dog in Jibhi, HP, India."
+imageAlt: "A striking black and white portrait of a Himalayan dog in Jibhi, HP, India."
+imageSource: "pexels"
+imageCredit: "Photo by Tejash Mishra on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-a-himalayan-dog-36405811/"
+imageSearchQuery: "Estrela Mountain Dog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Estrela Mountain Dogs

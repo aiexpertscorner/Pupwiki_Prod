@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "collie"
 breedName: "Collie"
 canonicalUrl: "https://pupwiki.com/blog/collie-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression."
+imageAlt: "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression."
+imageSource: "pexels"
+imageCredit: "Photo by Tomasz Lemańczyk on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/beautiful-fluffy-collie-26588116/"
+imageSearchQuery: "Collie dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Collies

@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "dogue-de-bordeaux"
 breedName: "Dogue de Bordeaux"
 canonicalUrl: "https://pupwiki.com/blog/dogue-de-bordeaux-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/846292/pexels-photo-846292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/846292/pexels-photo-846292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A striking black and white portrait of a Boxer dog with dark and dramatic studio lighting, capturing its expressive eye."
+imageAlt: "A striking black and white portrait of a Boxer dog with dark and dramatic studio lighting, capturing its expressive eye."
+imageSource: "pexels"
+imageCredit: "Photo by Frank Schrodt on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-short-coated-dog-846292/"
+imageSearchQuery: "Dogue de Bordeaux dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Dogue de Bordeauxs

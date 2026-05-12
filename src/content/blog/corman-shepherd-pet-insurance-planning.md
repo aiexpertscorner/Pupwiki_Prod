@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "corman-shepherd"
 breedName: "Corman Shepherd"
 canonicalUrl: "https://pupwiki.com/blog/corman-shepherd-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/17269699/pexels-photo-17269699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/17269699/pexels-photo-17269699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a German Shepherd dog standing in a grassy outdoor yard."
+imageAlt: "Portrait of a German Shepherd dog standing in a grassy outdoor yard."
+imageSource: "pexels"
+imageCredit: "Photo by Doğan Alpaslan  Demir on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/side-view-of-a-german-shepherd-outside-17269699/"
+imageSearchQuery: "Corman Shepherd dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Corman Shepherds

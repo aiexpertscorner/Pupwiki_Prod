@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "cockapoo"
 breedName: "Cockapoo"
 canonicalUrl: "https://pupwiki.com/blog/cockapoo-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/16622927/pexels-photo-16622927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16622927/pexels-photo-16622927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute fluffy dog posing against a vibrant blue background, captured in Mexico City."
+imageAlt: "A cute fluffy dog posing against a vibrant blue background, captured in Mexico City."
+imageSource: "pexels"
+imageCredit: "Photo by Miguel González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/puppy-on-blue-background-16622927/"
+imageSearchQuery: "Cockapoo dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Cockapoos

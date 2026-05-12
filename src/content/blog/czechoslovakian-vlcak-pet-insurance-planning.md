@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "czechoslovakian-vlcak"
 breedName: "Czechoslovakian Vlcak"
 canonicalUrl: "https://pupwiki.com/blog/czechoslovakian-vlcak-pet-insurance-planning"
+heroImage: "https://images.pexels.com/photos/5957667/pexels-photo-5957667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5957667/pexels-photo-5957667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming portrait of a Czechoslovakian Wolfdog enjoying a sunny day outdoors."
+imageAlt: "Charming portrait of a Czechoslovakian Wolfdog enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Kanashi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-and-black-short-coated-dog-5957667/"
+imageSearchQuery: "Czechoslovakian Vlcak dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Czechoslovakian Vlcaks

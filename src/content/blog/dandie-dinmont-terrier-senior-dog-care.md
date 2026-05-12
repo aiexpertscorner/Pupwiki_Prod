@@ -26,7 +26,16 @@ medicalDisclaimer: true
 breedSlug: "dandie-dinmont-terrier"
 breedName: "Dandie Dinmont Terrier"
 canonicalUrl: "https://pupwiki.com/blog/dandie-dinmont-terrier-senior-dog-care"
+heroImage: "https://images.pexels.com/photos/27960004/pexels-photo-27960004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27960004/pexels-photo-27960004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a cute terrier dog looking intently, highlighting its fluffy fur and bright eyes."
+imageAlt: "Close-up portrait of a cute terrier dog looking intently, highlighting its fluffy fur and bright eyes."
+imageSource: "pexels"
+imageCredit: "Photo by Gundula Vogel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/kleiner-hund-portrat-27960004/"
+imageSearchQuery: "Dandie Dinmont Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## Why this guide exists for Dandie Dinmont Terriers
