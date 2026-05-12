@@ -23,19 +23,19 @@ export interface Props {
 
 const {
   id = 'home-hero',
-  title = 'Research breeds. Plan costs.',
-  accent = 'Care smarter.',
-  subtitle = 'Expert-backed profiles for 277 breeds, mixed-breed guides, cost planning tools, and practical care advice — built for real dog parents.',
-  primaryCta = { label: 'Explore Breeds', href: '/breeds', ariaLabel: 'Browse all dog breed guides on PupWiki' },
-  secondaryCta = { label: 'Plan Costs', href: '/cost-calculator', ariaLabel: 'Open the PupWiki dog cost calculator' },
+  title = 'Find the right dog.',
+  accent = 'Plan what comes next.',
+  subtitle = 'Browse breed and mixed-breed guides, compare ownership costs, find name ideas, and get clear help with health, training, food, grooming and everyday care.',
+  primaryCta = { label: 'Browse Breeds', href: '/breeds', ariaLabel: 'Browse dog breed and mixed-breed guides on PupWiki' },
+  secondaryCta = { label: 'Estimate Costs', href: '/cost-calculator', ariaLabel: 'Open the PupWiki dog cost calculator' },
 } = Astro.props;
 
-const trustBadges = ['277 Breeds', '75 Mixed', '5,000+ Names', 'Expert reviewed'];
+const trustBadges = ['352 Breed & Mix Guides', 'Cost Tools', '5,000+ Names', 'Care Guides'];
 const quickLinks = [
-  { label: 'All Breeds', href: '/breeds', icon: '🐕' },
-  { label: 'Cost Planner', href: '/cost-calculator', icon: '💰' },
+  { label: 'Breed Guides', href: '/breeds', icon: '🐕' },
+  { label: 'Cost Calculator', href: '/cost-calculator', icon: '💰' },
   { label: 'Dog Names', href: '/dog-names', icon: '✍️' },
-  { label: 'Mixed Breeds', href: '/breeds', icon: '🐾' },
+  { label: 'Health & Care', href: '/categories/health', icon: '🐾' },
 ];
 ---
 
@@ -58,7 +58,7 @@ const quickLinks = [
   <div class="pw-hero__shell">
     <!-- Left: headline + CTAs + trust -->
     <div class="pw-hero__content">
-      <span class="pw-hero__eyebrow">Trusted by dog parents</span>
+      <span class="pw-hero__eyebrow">Dog breeds, costs, names and care</span>
 
       <h1 id={`${id}-heading`} class="pw-hero__title">
         {title}
@@ -98,11 +98,11 @@ const quickLinks = [
     </div>
 
     <!-- Right: floating search + quick links card -->
-    <aside class="pw-hero__card" aria-label="Find your breed">
-      <p class="pw-hero__card-heading">Find your breed</p>
+    <aside class="pw-hero__card" aria-label="Find a dog breed">
+      <p class="pw-hero__card-heading">Find a dog breed</p>
 
       <form action="/breeds" method="GET" class="pw-hero__search-form" role="search">
-        <label for={`${id}-search`} class="pw-hero__sr-only">Search dog breeds</label>
+        <label for={`${id}-search`} class="pw-hero__sr-only">Search dog breeds and mixes</label>
         <div class="pw-hero__search-wrap">
           <svg class="pw-hero__search-icon" viewBox="0 0 24 24" aria-hidden="true" width="16" height="16">
             <circle cx="11" cy="11" r="7"/>
@@ -112,17 +112,17 @@ const quickLinks = [
             id={`${id}-search`}
             type="search"
             name="q"
-            placeholder="Search 277 breeds…"
+            placeholder="Search breeds and mixes…"
             class="pw-hero__search-input"
             autocomplete="off"
           />
         </div>
-        <button type="submit" class="pw-hero__search-btn">Search breeds</button>
+        <button type="submit" class="pw-hero__search-btn">Search</button>
       </form>
 
       <div class="pw-hero__card-divider" aria-hidden="true"></div>
 
-      <p class="pw-hero__card-nav-label">Popular sections</p>
+      <p class="pw-hero__card-nav-label">Start here</p>
       <nav class="pw-hero__card-nav" aria-label="Quick navigation">
         {quickLinks.map((link) => (
           <a href={link.href} class="pw-hero__card-link">
