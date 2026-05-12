@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "beaglier"
 breedName: "Beaglier"
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-beaglier"
+heroImage: "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care."
+imageAlt: "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/groomer-washing-dog-19145895/"
+imageSearchQuery: "Beaglier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Beagliers
 Beagliers are medium-sized (varies lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

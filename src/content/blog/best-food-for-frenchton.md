@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "frenchton"
 breedName: "Frenchton"
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-frenchton"
+heroImage: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageSource: "pexels"
+imageCredit: "Photo by cottonbro studio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/"
+imageSearchQuery: "Frenchton dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Frenchtons
 Frenchtons are medium-sized (varies lbs), with calm energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

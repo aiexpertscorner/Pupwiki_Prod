@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "corman-shepherd"
 breedName: "Corman Shepherd"
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-corman-shepherd"
+heroImage: "https://images.pexels.com/photos/12685133/pexels-photo-12685133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12685133/pexels-photo-12685133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Belgian Tervuren dog with a blue harness running in a lush green field."
+imageAlt: "A Belgian Tervuren dog with a blue harness running in a lush green field."
+imageSource: "pexels"
+imageCredit: "Photo by Viktorija Stankevičiūtė on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-on-green-grass-field-12685133/"
+imageSearchQuery: "Corman Shepherd dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Corman Shepherds
 Corman Shepherds are medium-sized (varies lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

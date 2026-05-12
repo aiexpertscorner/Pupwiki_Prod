@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "labrabull"
 breedName: "Labrabull"
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-labrabull"
+heroImage: "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog"
+imageAlt: "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog"
+imageSource: "pexels"
+imageCredit: "Photo by Andres  Ayrton on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/"
+imageSearchQuery: "Labrabull dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Labrabulls
 Labrabulls are medium-sized (varies lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

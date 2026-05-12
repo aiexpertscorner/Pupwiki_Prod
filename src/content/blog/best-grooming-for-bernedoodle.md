@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "bernedoodle"
 breedName: "Bernedoodle"
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bernedoodle"
+heroImage: "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools."
+imageAlt: "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-being-brushed-19145894/"
+imageSearchQuery: "Bernedoodle dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bernedoodles
 Bernedoodles are medium-sized (varies lbs), with active energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.

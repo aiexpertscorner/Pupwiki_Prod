@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "puggle"
 breedName: "Puggle"
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-puggle"
+heroImage: "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog sniffs pistachios on a white plate in an overhead, natural setting."
+imageAlt: "A dog sniffs pistachios on a white plate in an overhead, natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Vie Studio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-smelling-the-pistachios-7421520/"
+imageSearchQuery: "Puggle dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Puggles
 Puggles are medium-sized (varies lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

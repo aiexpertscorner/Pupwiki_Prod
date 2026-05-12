@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "westiepoo"
 breedName: "Westiepoo"
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-westiepoo"
+heroImage: "https://images.pexels.com/photos/20770546/pexels-photo-20770546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20770546/pexels-photo-20770546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming close-up of a Westiepoo dog looking up with lush greenery background."
+imageAlt: "Charming close-up of a Westiepoo dog looking up with lush greenery background."
+imageSource: "pexels"
+imageCredit: "Photo by Ana Morales on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/blond-dog-looking-up-20770546/"
+imageSearchQuery: "Westiepoo dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Westiepoos
 Westiepoos are medium-sized (varies lbs), with regular energy, low shedding, and a curly coat. The recommendations below are matched to these traits.

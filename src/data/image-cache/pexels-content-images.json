@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-12T18:45:25.381Z",
+  "syncedAt": "2026-05-12T19:08:29.103Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -11304,12 +11304,532 @@
       "photographerUrl": "https://www.pexels.com/@temeraire-marketing-luxembourg-532626080",
       "pexelsUrl": "https://www.pexels.com/photo/charming-bernese-mountain-dog-close-up-portrait-36237036/",
       "id": 36237036
+    },
+    "best-food-for-baskin:Baskin dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-beaglier:Beaglier dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries.",
+      "photographer": "Rarnie McCudden",
+      "photographerUrl": "https://www.pexels.com/@rarnie-mccudden",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+      "id": 770363
+    },
+    "best-food-for-bernese-mix:Bernese Mix dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-borador:Borador dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-bordeauxoodle:Bordeauxoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog",
+      "photographer": "Andres  Ayrton",
+      "photographerUrl": "https://www.pexels.com/@andres-ayrton",
+      "pexelsUrl": "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/",
+      "id": 6578830
+    },
+    "best-food-for-bordoodle:Bordoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-borgi:Borgi dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-boxador:Boxador dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-boxeweiler:Boxeweiler dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-bugg:Bugg dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-bull-a-mador:Bull-A-Mador dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries.",
+      "photographer": "Rarnie McCudden",
+      "photographerUrl": "https://www.pexels.com/@rarnie-mccudden",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+      "id": 770363
+    },
+    "best-food-for-bull-boxer:Bull-Boxer dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/32371133/pexels-photo-32371133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of a Boxer dog resting on the floor indoors, expressing a tender and relaxed mood.",
+      "photographer": "Laurence FUSCO",
+      "photographerUrl": "https://www.pexels.com/@laurence-fusco-2149766614",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-boxer-dog-lying-on-floor-indoors-32371133/",
+      "id": 32371133
+    },
+    "best-food-for-bullmatian:Bullmatian dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-cavadoodle:Cavadoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries.",
+      "photographer": "Rarnie McCudden",
+      "photographerUrl": "https://www.pexels.com/@rarnie-mccudden",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+      "id": 770363
+    },
+    "best-food-for-cheagle:Cheagle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-chorkie:Chorkie dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-chug:Chug dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog",
+      "photographer": "Andres  Ayrton",
+      "photographerUrl": "https://www.pexels.com/@andres-ayrton",
+      "pexelsUrl": "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/",
+      "id": 6578830
+    },
+    "best-food-for-corgidor:Corgidor dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/8434633/pexels-photo-8434633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A stainless steel dog bowl filled with dry dog treats on a wooden floor.",
+      "photographer": "MART  PRODUCTION",
+      "photographerUrl": "https://www.pexels.com/@mart-production",
+      "pexelsUrl": "https://www.pexels.com/photo/bowl-of-dog-food-8434633/",
+      "id": 8434633
+    },
+    "best-food-for-corgipoo:Corgipoo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-corman-shepherd:Corman Shepherd dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/12685133/pexels-photo-12685133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Belgian Tervuren dog with a blue harness running in a lush green field.",
+      "photographer": "Viktorija Stankevičiūtė",
+      "photographerUrl": "https://www.pexels.com/@stankevic",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-on-green-grass-field-12685133/",
+      "id": 12685133
+    },
+    "best-food-for-dalmadoodle:Dalmadoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog",
+      "photographer": "Andres  Ayrton",
+      "photographerUrl": "https://www.pexels.com/@andres-ayrton",
+      "pexelsUrl": "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/",
+      "id": 6578830
+    },
+    "best-food-for-dameranian:Dameranian dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-dorgi:Dorgi dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-doxie-poo:Doxie-poo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries.",
+      "photographer": "Rarnie McCudden",
+      "photographerUrl": "https://www.pexels.com/@rarnie-mccudden",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+      "id": 770363
+    },
+    "best-food-for-english-boodle:English Boodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-flandoodle:Flandoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-frenchton:Frenchton dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-frug:Frug dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-gerberian-shepsky:Gerberian Shepsky dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-glechon:Glechon dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-goberian:Goberian dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/9632144/pexels-photo-9632144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A joyful moment of a woman sharing pizza with her husky dog at an outdoor café.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-and-dog-eating-pizza-together-9632144/",
+      "id": 9632144
+    },
+    "best-food-for-golden-mt-dog:Golden Mt. Dog dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-havapoo:Havapoo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog",
+      "photographer": "Andres  Ayrton",
+      "photographerUrl": "https://www.pexels.com/@andres-ayrton",
+      "pexelsUrl": "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/",
+      "id": 6578830
+    },
+    "best-food-for-havashire:Havashire dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog sniffs pistachios on a white plate in an overhead, natural setting.",
+      "photographer": "Vie Studio",
+      "photographerUrl": "https://www.pexels.com/@vie-studio",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-smelling-the-pistachios-7421520/",
+      "id": 7421520
+    },
+    "best-food-for-horgi:Horgi dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-husky-jack:Husky Jack dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/13254310/pexels-photo-13254310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog plays with a ball on a beach during a beautiful sunset, creating a serene and playful scene.",
+      "photographer": "Jorge Acre",
+      "photographerUrl": "https://www.pexels.com/@jorge-acre-239933086",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-biting-a-coconut-shell-on-the-beach-13254310/",
+      "id": 13254310
+    },
+    "best-food-for-jack-a-poo:Jack-A-Poo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries.",
+      "photographer": "Rarnie McCudden",
+      "photographerUrl": "https://www.pexels.com/@rarnie-mccudden",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+      "id": 770363
+    },
+    "best-food-for-labrabull:Labrabull dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog",
+      "photographer": "Andres  Ayrton",
+      "photographerUrl": "https://www.pexels.com/@andres-ayrton",
+      "pexelsUrl": "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/",
+      "id": 6578830
+    },
+    "best-food-for-lhasapoo:Lhasapoo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog",
+      "photographer": "Andres  Ayrton",
+      "photographerUrl": "https://www.pexels.com/@andres-ayrton",
+      "pexelsUrl": "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/",
+      "id": 6578830
+    },
+    "best-food-for-mastidoodle:Mastidoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog",
+      "photographer": "Andres  Ayrton",
+      "photographerUrl": "https://www.pexels.com/@andres-ayrton",
+      "pexelsUrl": "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/",
+      "id": 6578830
+    },
+    "best-food-for-newfypoo:Newfypoo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-papi-poo:Papi-poo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/29296759/pexels-photo-29296759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute Cavapoo dog with curly fur enjoying a sunny day outdoors in Sweden.",
+      "photographer": "Olavi Anttila",
+      "photographerUrl": "https://www.pexels.com/@olavi-anttila-264846761",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-cavapoo-outdoors-on-a-sunny-day-29296759/",
+      "id": 29296759
+    },
+    "best-food-for-peekapoo:Peekapoo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries.",
+      "photographer": "Rarnie McCudden",
+      "photographerUrl": "https://www.pexels.com/@rarnie-mccudden",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+      "id": 770363
+    },
+    "best-food-for-pitsky:Pitsky dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-pomchi:Pomchi dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-poochon:Poochon dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog sniffs pistachios on a white plate in an overhead, natural setting.",
+      "photographer": "Vie Studio",
+      "photographerUrl": "https://www.pexels.com/@vie-studio",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-smelling-the-pistachios-7421520/",
+      "id": 7421520
+    },
+    "best-food-for-poogle:Poogle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries.",
+      "photographer": "Rarnie McCudden",
+      "photographerUrl": "https://www.pexels.com/@rarnie-mccudden",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+      "id": 770363
+    },
+    "best-food-for-pyredoodle:Pyredoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-rottle:Rottle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-saint-berdoodle:Saint Berdoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries.",
+      "photographer": "Rarnie McCudden",
+      "photographerUrl": "https://www.pexels.com/@rarnie-mccudden",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+      "id": 770363
+    },
+    "best-food-for-shih-poo:Shih-poo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/27175968/pexels-photo-27175968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A woman in a casual outfit feeds her small dog indoors, creating a warm, cozy atmosphere.",
+      "photographer": "Helena Lopes",
+      "photographerUrl": "https://www.pexels.com/@helenalopes",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-feeding-dog-in-home-27175968/",
+      "id": 27175968
+    },
+    "best-food-for-shorkie:Shorkie dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries.",
+      "photographer": "Rarnie McCudden",
+      "photographerUrl": "https://www.pexels.com/@rarnie-mccudden",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+      "id": 770363
+    },
+    "best-food-for-springerdoodle:Springerdoodle dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-sprollie:Sprollie dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-swissydog:Swissydog dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-taco-terrier:Taco Terrier dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living.",
+      "photographer": "MART  PRODUCTION",
+      "photographerUrl": "https://www.pexels.com/@mart-production",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-eating-on-a-bowl-8434725/",
+      "id": 8434725
+    },
+    "best-food-for-westiepoo:Westiepoo dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/20770546/pexels-photo-20770546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming close-up of a Westiepoo dog looking up with lush greenery background.",
+      "photographer": "Ana Morales",
+      "photographerUrl": "https://www.pexels.com/@ana-morales-1110685853",
+      "pexelsUrl": "https://www.pexels.com/photo/blond-dog-looking-up-20770546/",
+      "id": 20770546
+    },
+    "best-food-for-yorkinese:Yorkinese dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-zuchon:Zuchon dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living.",
+      "photographer": "MART  PRODUCTION",
+      "photographerUrl": "https://www.pexels.com/@mart-production",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-eating-on-a-bowl-8434725/",
+      "id": 8434725
+    },
+    "best-grooming-for-aussiedoodle:Aussiedoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-baskin:Baskin dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-beaglier:Beaglier dog grooming": {
+      "url": "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/groomer-washing-dog-19145895/",
+      "id": 19145895
+    },
+    "best-grooming-for-bernedoodle:Bernedoodle dog grooming": {
+      "url": "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-being-brushed-19145894/",
+      "id": 19145894
+    },
+    "best-grooming-for-borador:Borador dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-borgi:Borgi dog grooming": {
+      "url": "https://images.pexels.com/photos/9360433/pexels-photo-9360433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Pomeranian dog freshly groomed on a pink grooming table indoors, looking happy and playful.",
+      "photographer": "Nguyễn Viết Lễ",
+      "photographerUrl": "https://www.pexels.com/@nguy-n-vi-t-l-85165636",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-pomeranian-dog-on-pink-table-9360433/",
+      "id": 9360433
     }
   },
   "stats": {
     "scanned": 80,
     "changed": 80,
-    "skipped": 148,
+    "skipped": 232,
     "failed": 0,
     "force": false,
     "dry": false

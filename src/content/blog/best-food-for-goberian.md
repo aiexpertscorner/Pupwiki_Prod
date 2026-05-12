@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "goberian"
 breedName: "Goberian"
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-goberian"
+heroImage: "https://images.pexels.com/photos/9632144/pexels-photo-9632144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9632144/pexels-photo-9632144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A joyful moment of a woman sharing pizza with her husky dog at an outdoor café."
+imageAlt: "A joyful moment of a woman sharing pizza with her husky dog at an outdoor café."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-and-dog-eating-pizza-together-9632144/"
+imageSearchQuery: "Goberian dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Goberians
 Goberians are medium-sized (varies lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "maltipoo"
 breedName: "Maltipoo"
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-maltipoo"
+heroImage: "https://images.pexels.com/photos/33151953/pexels-photo-33151953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33151953/pexels-photo-33151953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Happy poodle dog laying on grass with a toy and tongue out, enjoying sunny day."
+imageAlt: "Happy poodle dog laying on grass with a toy and tongue out, enjoying sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Jay Brand on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-poodle-relaxing-on-grass-outdoors-33151953/"
+imageSearchQuery: "Maltipoo dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Maltipoos
 Maltipoos are medium-sized (varies lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
