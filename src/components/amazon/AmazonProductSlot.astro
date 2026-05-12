@@ -1,17 +1,27 @@
 ---
+/**
+ * AmazonProductSlot.astro
+ * Smart Amazon product placement driven by product-index.json.
+ * Replaces the old amazon-products.json / SiteStripe pipeline.
+ */
 import { matchValidatedAmazonProducts } from '../../lib/amazon/matchAmazonProducts';
 import { mergeAmazonProductsWithFallbacks } from '../../lib/amazon/amazonDeeplink';
 import { isCommerceAllowed, getAmazonPageIntent } from '../../lib/commerce/amazon/amazonPageIntent';
-import AmazonBadge from '../ui/AmazonBadge.astro';
+import { adaptProductIndex } from '../../lib/amazon/productIndexAdapter';
+import { scoreRichProductBonus } from '../../lib/amazon/productIndexAdapter';
+import AmazonProductCard from './AmazonProductCard.astro';
 import AmazonDisclosure from '../affiliate/AmazonDisclosure.astro';
 import AmazonClickTracker from '../affiliate/AmazonClickTracker.astro';
 import { ENABLE_AMAZON_BUTTONS } from '../../lib/amazon/amazonConfig';
 import type { AmazonCTAContext } from '../../lib/commerce/amazon/amazonGeneratedLinks';
+import type { RichAmazonProductRecord } from '../../lib/amazon/productIndexAdapter';
 
-let allProducts: any[] = [];
+// Load from product-index.json (new engine — real ASINs, rich metadata)
+let allProducts: RichAmazonProductRecord[] = [];
 try {
-  const imported = await import('../../data/amazon-products.json');
-  allProducts = Array.isArray(imported.default) ? imported.default : [];
+  const imported = await import('../../data/product-index.json');
+  const raw = imported.default as Record<string, any>;
+  allProducts = adaptProductIndex(raw);
 } catch {}
 
 export interface Props extends AmazonCTAContext {
@@ -36,74 +46,104 @@ const {
   ...context
 } = Astro.props;
 
-const commerceContext = { pageType: context.pageType, category: context.cluster || context.category, topicTags: context.topicTags, claimSensitivity: context.claimSensitivity };
+const commerceContext = {
+  pageType: context.pageType,
+  category: context.cluster || context.category,
+  topicTags: context.topicTags,
+  claimSensitivity: context.claimSensitivity,
+};
 const intent = getAmazonPageIntent(commerceContext);
 const resolvedLimit = limit ?? (variant === 'compact' ? 2 : intent === 'high' ? 3 : intent === 'medium' ? 2 : 1);
 
+const matchContext = { ...context, limit: resolvedLimit, allowMediumRisk, allowHighRisk };
+
+// Score with rich bonus on top of base scorer
+const scored = allProducts
+  .filter((p) => p.enabled)
+  .map((p) => ({
+    product: p,
+    bonus: scoreRichProductBonus(p, matchContext),
+  }));
+
+// Inject bonus into priorityScore for matchValidatedAmazonProducts
+const boostedProducts = scored.map(({ product, bonus }) => ({
+  ...product,
+  priorityScore: (product.priorityScore ?? 50) + bonus,
+}));
+
 const products = ENABLE_AMAZON_BUTTONS && isCommerceAllowed(commerceContext)
   ? mergeAmazonProductsWithFallbacks(
-      matchValidatedAmazonProducts(allProducts, { ...context, limit: resolvedLimit, allowMediumRisk, allowHighRisk }),
-      { ...context, limit: resolvedLimit }
-    )
+      matchValidatedAmazonProducts(boostedProducts, matchContext),
+      matchContext
+    ) as RichAmazonProductRecord[]
   : [];
+
+const cardVariant = variant === 'compact' ? 'compact' : 'card';
 ---
 
 {products.length > 0 && (
   <section class:list={['amazon-slot', variant === 'compact' && 'amazon-slot--compact']} aria-label={headline}>
     <div class="amazon-slot__header">
-      <p>{eyebrow}</p>
-      <h2>{headline}</h2>
-      <span>{note}</span>
+      <p class="amazon-slot__eyebrow">{eyebrow}</p>
+      <h2 class="amazon-slot__title">{headline}</h2>
+      <span class="amazon-slot__note">{note}</span>
     </div>
 
-    <div class="amazon-slot__grid">
-      {products.map((product) => {
-        const isSearch = product.source === 'amazon-search-template';
-        const sourceLabel = isSearch ? 'Search shortcut' : 'Product resource';
-        const categoryLabel = product.categoryLabel || product.categoryGroup || 'Dog supplies';
-        const cardPlacement = `${placement}|${product.id}`;
-        const placement2 = `${placement}|${isSearch ? 'search' : 'direct'}`;
-        const productDesc = product.recommendedPlacement || (isSearch
-          ? `Search Amazon.com for ${product.name.toLowerCase()} and compare current options.`
-          : 'Selected for this dog-care topic. Confirm current details before buying.');
-        return (
-          <article class:list={['amazon-slot__card', isSearch && 'amazon-slot__card--search']}>
-            <span class="amazon-slot__source">{sourceLabel}</span>
-
-            <div class="amazon-slot__meta">
-              <span>{categoryLabel}</span>
-              {product.brand && <strong>{product.brand}</strong>}
-            </div>
-
-            <h3>{product.name}</h3>
-            <p>{productDesc}</p>
-
-            {isSearch && product.amazonSearchQuery && (
-              <p><strong>Search phrase:</strong> {product.amazonSearchQuery}</p>
-            )}
-
-            {Array.isArray(product.topicTags) && product.topicTags.length > 0 && (
-              <div class="amazon-slot__tags" aria-label="Product fit tags">
-                {product.topicTags.slice(0, 4).map((tag) => <span>{String(tag).replace(/[-_]+/g, ' ')}</span>)}
-              </div>
-            )}
-
-            <div class="amazon-slot__actions">
-              <AmazonBadge
-                href={product.amazonAffiliateUrl}
-                size={variant === 'compact' ? 'sm' : 'md'}
-                label={isSearch ? 'Search Amazon.com' : undefined}
-                data-amazon-product-id={product.id}
-                data-amazon-product-name={product.name}
-                data-amazon-placement={cardPlacement}
-              />
-            </div>
-          </article>
-        );
-      })}
+    <div class:list={['amazon-slot__grid', variant === 'compact' && 'amazon-slot__grid--compact']}>
+      {products.map((product) => (
+        <AmazonProductCard
+          product={product as RichAmazonProductRecord}
+          variant={cardVariant}
+          placement={`${placement}|${product.id}`}
+        />
+      ))}
     </div>
 
     {showDisclosure && <AmazonDisclosure />}
     <AmazonClickTracker />
   </section>
 )}
+
+<style>
+  .amazon-slot {
+    container-type: inline-size;
+  }
+
+  .amazon-slot__header {
+    margin-bottom: var(--space-4);
+  }
+
+  .amazon-slot__eyebrow {
+    font-size: var(--text-xs, 0.75rem);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-accent);
+    margin: 0 0 var(--space-1);
+  }
+
+  .amazon-slot__title {
+    font-size: var(--text-lg, 1.125rem);
+    font-weight: 700;
+    margin: 0 0 var(--space-1);
+    color: var(--color-text-primary);
+  }
+
+  .amazon-slot__note {
+    font-size: var(--text-xs, 0.75rem);
+    color: var(--color-text-muted);
+  }
+
+  .amazon-slot__grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  @container (min-width: 560px) {
+    .amazon-slot__grid:not(.amazon-slot__grid--compact) {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+  }
+</style>

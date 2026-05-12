@@ -1,68 +1,129 @@
-#!/usr/bin/env node
 /**
- * PupWiki Amazon product audit.
+ * scripts/audit-amazon-products.mjs
  *
- * Reads src/data/amazon-products.json and prints a build-safe summary.
- * Usage:
- *   node scripts/audit-amazon-products.mjs
+ * Audits src/data/product-index.json — the canonical Amazon product data source.
+ * Replaces the old amazon-products.json / SiteStripe pipeline audit.
+ *
+ * Usage: npm run amazon:audit
  */
 
-import { existsSync, readFileSync, writeFileSync } from 'node:fs';
-import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
-const DATA = join(ROOT, 'src', 'data');
-const INPUT = join(DATA, 'amazon-products.json');
-const OUTPUT = join(DATA, 'amazon-products-audit.json');
 
-function groupBy(items, getKey) {
-  return items.reduce((acc, item) => {
-    const key = getKey(item) || 'unknown';
-    acc[key] = (acc[key] || 0) + 1;
-    return acc;
-  }, {});
-}
+const productIndexPath = join(ROOT, 'src/data/product-index.json');
+const auditOutputPath = join(ROOT, 'src/data/amazon-products-audit.json');
+const publicImagesDir = join(ROOT, 'public/images/products');
 
-if (!existsSync(INPUT)) {
-  console.error('[audit-amazon-products] Missing src/data/amazon-products.json');
-  console.error('[audit-amazon-products] Run: npm run amazon:sync');
-  process.exit(1);
-}
+const productIndex = JSON.parse(readFileSync(productIndexPath, 'utf8'));
+const products = Object.values(productIndex);
 
-const products = JSON.parse(readFileSync(INPUT, 'utf8'));
+const now = new Date();
+const STALE_DAYS = 30;
 
-const live = products.filter((product) => product.enabled && product.amazonAffiliateUrl);
-const liveEligible = products.filter((product) => product.isLiveEligible);
-const enabledMissingLink = products
-  .filter((product) => product.enabled && !product.amazonAffiliateUrl)
-  .sort((a, b) => (b.priorityScore ?? 0) - (a.priorityScore ?? 0));
-
-const audit = {
-  generatedAt: new Date().toISOString(),
-  totalProducts: products.length,
-  enabledProducts: products.filter((product) => product.enabled).length,
-  enabledWithAffiliateUrl: live.length,
-  liveEligible: liveEligible.length,
-  disabledProducts: products.filter((product) => !product.enabled).length,
-  byCategoryGroup: groupBy(products, (product) => product.categoryGroup),
-  liveByCategoryGroup: groupBy(liveEligible, (product) => product.categoryGroup),
-  byComplianceRisk: groupBy(products, (product) => product.complianceRisk),
-  enabledMissingLink: enabledMissingLink.map((product) => ({
-    id: product.id,
-    name: product.name,
-    categoryGroup: product.categoryGroup,
-    priorityScore: product.priorityScore,
-  })),
+const stats = {
+  total: products.length,
+  active: 0,
+  withAsin: 0,
+  withImage: 0,
+  withLocalImage: 0,
+  priceFresh: 0,
+  priceStale: 0,
+  priceMissing: 0,
+  withRating: 0,
+  withScore: 0,
+  byCategory: {},
+  asinMissing: [],
+  imageMissing: [],
+  priceStaleList: [],
 };
 
-writeFileSync(OUTPUT, JSON.stringify(audit, null, 2), 'utf8');
+for (const p of products) {
+  if (p.active !== false) stats.active++;
 
-console.log('[audit-amazon-products] Amazon product audit');
-console.log(`  Total products: ${audit.totalProducts}`);
-console.log(`  Enabled: ${audit.enabledProducts}`);
-console.log(`  Enabled with SiteStripe link: ${audit.enabledWithAffiliateUrl}`);
-console.log(`  Live eligible: ${audit.liveEligible}`);
-console.log(`  Enabled but missing link: ${audit.enabledMissingLink.length}`);
-console.log(`  Audit written: ${OUTPUT}`);
+  if (p.asin?.trim()) {
+    stats.withAsin++;
+  } else {
+    stats.asinMissing.push(p.id);
+  }
+
+  if (p.image) {
+    stats.withImage++;
+  } else {
+    stats.imageMissing.push(p.id);
+  }
+
+  const localPath = join(publicImagesDir, `${p.id}.jpg`);
+  const localPathPng = join(publicImagesDir, `${p.id}.png`);
+  if (p.local_image || existsSync(localPath) || existsSync(localPathPng)) {
+    stats.withLocalImage++;
+  }
+
+  if (p.price_updated) {
+    const updated = new Date(p.price_updated);
+    const ageDays = (now - updated) / (1000 * 60 * 60 * 24);
+    if (ageDays <= STALE_DAYS) {
+      stats.priceFresh++;
+    } else {
+      stats.priceStale++;
+      stats.priceStaleList.push({ id: p.id, updated: p.price_updated });
+    }
+  } else {
+    stats.priceMissing++;
+  }
+
+  if (p.rating) stats.withRating++;
+  if (p.score != null) stats.withScore++;
+
+  const cat = p.category || 'unknown';
+  stats.byCategory[cat] = (stats.byCategory[cat] || 0) + 1;
+}
+
+const audit = {
+  generatedAt: now.toISOString(),
+  source: 'product-index.json',
+  summary: {
+    total: stats.total,
+    active: stats.active,
+    withValidAsin: stats.withAsin,
+    withImage: stats.withImage,
+    withLocalImage: stats.withLocalImage,
+    withRating: stats.withRating,
+    withEditorialScore: stats.withScore,
+    priceFresh: stats.priceFresh,
+    priceStale: stats.priceStale,
+    priceMissing: stats.priceMissing,
+  },
+  byCategory: stats.byCategory,
+  asinMissing: stats.asinMissing,
+  imageMissing: stats.imageMissing,
+  priceStale: stats.priceStaleList,
+};
+
+writeFileSync(auditOutputPath, JSON.stringify(audit, null, 2) + '\n');
+
+console.log('\n[audit-amazon-products] Amazon product audit (product-index.json)');
+console.log(`  Total products   : ${stats.total}`);
+console.log(`  Active           : ${stats.active}`);
+console.log(`  With valid ASIN  : ${stats.withAsin}  (${stats.asinMissing.length} missing)`);
+console.log(`  With image URL   : ${stats.withImage}`);
+console.log(`  With local image : ${stats.withLocalImage}`);
+console.log(`  With rating      : ${stats.withRating}`);
+console.log(`  With score       : ${stats.withScore}`);
+console.log(`  Price fresh (<${STALE_DAYS}d): ${stats.priceFresh}`);
+console.log(`  Price stale (>${STALE_DAYS}d): ${stats.priceStale}`);
+console.log(`  Price missing    : ${stats.priceMissing}`);
+console.log('\n  By category:');
+for (const [cat, n] of Object.entries(stats.byCategory).sort()) {
+  console.log(`    ${String(cat).padEnd(14)} ${n}`);
+}
+if (stats.asinMissing.length > 0) {
+  console.log(`\n  ⚠  ASIN missing for: ${stats.asinMissing.join(', ')}`);
+}
+if (stats.priceStale > 0) {
+  console.log(`\n  ⚠  ${stats.priceStale} products have stale prices (>${STALE_DAYS} days old)`);
+}
+console.log(`\n  Audit written: src/data/amazon-products-audit.json\n`);

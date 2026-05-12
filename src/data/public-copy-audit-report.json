@@ -1,10 +1,31 @@
 {
-  "ok": true,
+  "ok": false,
   "blocking": true,
   "ciMode": false,
-  "scanned": 2489,
-  "count": 0,
-  "byFile": {},
-  "hits": [],
-  "generatedAt": "2026-05-08T03:36:57.270Z"
+  "scanned": 1524,
+  "count": 3,
+  "byFile": {
+    "src/components/home/HomeAwinShowcase.astro": 3
+  },
+  "hits": [
+    {
+      "file": "src/components/home/HomeAwinShowcase.astro",
+      "line": 156,
+      "pattern": "/\\bAWIN\\b/i",
+      "snippet": ".pw-awin {"
+    },
+    {
+      "file": "src/components/home/HomeAwinShowcase.astro",
+      "line": 685,
+      "pattern": "/\\bAWIN\\b/i",
+      "snippet": ".pw-awin {"
+    },
+    {
+      "file": "src/components/home/HomeAwinShowcase.astro",
+      "line": 705,
+      "pattern": "/\\bAWIN\\b/i",
+      "snippet": ".pw-awin {"
+    }
+  ],
+  "generatedAt": "2026-05-12T18:29:38.104Z"
 }
