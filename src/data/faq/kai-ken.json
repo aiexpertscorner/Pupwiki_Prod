@@ -1,0 +1,183 @@
+{
+  "breedSlug": "kai-ken",
+  "breedName": "Kai Ken",
+  "generatedAt": "2026-05-14",
+  "topics": {
+    "cost": {
+      "label": "Cost",
+      "slug": "kai-ken-cost",
+      "faqs": [
+        {
+          "q": "How much does a Kai Ken cost to buy?",
+          "a": "Reputable breeders typically charge $800–$3,000 for a Kai Ken puppy. Prices vary by breeder reputation, health testing, and lineage. Rescue adoption fees are typically $100–$500 and include vaccinations, neutering, and microchipping."
+        },
+        {
+          "q": "What is the monthly cost of owning a Kai Ken?",
+          "a": "Budget $150–$300 per month for a Kai Ken, covering food, preventive vet care, insurance, grooming and supplies. Mid-size breeds sit in the moderate cost range across most ownership categories."
+        },
+        {
+          "q": "What are the biggest ongoing costs for a Kai Ken?",
+          "a": "The three largest annual expenses are food ($500–900), veterinary care ($400–$1,200 budgeted annually), and pet insurance ($$400–$1,200 per year). Grooming costs are lower for short-coated breeds managed at home."
+        },
+        {
+          "q": "How much does a Kai Ken cost in the first year?",
+          "a": "Year one costs for a Kai Ken are significantly higher than subsequent years, typically $2,000–$4,000. This covers the purchase price or adoption fee, initial vet checks, vaccinations, spay/neuter, microchipping, crate, bedding, collar, leads and puppy training classes."
+        }
+      ]
+    },
+    "grooming": {
+      "label": "Grooming",
+      "slug": "kai-ken-grooming",
+      "faqs": [
+        {
+          "q": "How often should I groom a Kai Ken?",
+          "a": "Kai Kens need brushing 3–5 times per week, daily during seasonal coat blows. The dense undercoat requires a dedicated undercoat rake, not just a surface slicker brush. Nails should be trimmed every 3–4 weeks. Ears should be checked and cleaned monthly."
+        },
+        {
+          "q": "Do Kai Kens shed a lot?",
+          "a": "Kai Kens have seasonal shedding — manageable with a consistent brushing routine. "
+        },
+        {
+          "q": "What grooming tools does a Kai Ken need?",
+          "a": "A slicker brush for surface debris and an undercoat rake for the dense undercoat are both essential. A shedding blade or deshedding tool helps during heavy moult periods. A nail grinder is useful if your Kai Ken is sensitive to clippers."
+        },
+        {
+          "q": "How often should I bathe a Kai Ken?",
+          "a": "Every 4–6 weeks is appropriate for most Kai Kens that live indoors. More frequent bathing is needed if they swim or spend time in mud. Over-bathing strips natural skin oils — use a pH-balanced dog shampoo rather than human products."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training",
+      "slug": "kai-ken-training",
+      "faqs": [
+        {
+          "q": "Are Kai Kens easy to train?",
+          "a": "Kai Kens are independent thinkers and can be challenging to train. They respond best to high-value rewards and clear, consistent criteria. A structured puppy class from week one is strongly recommended."
+        },
+        {
+          "q": "What training method works best for a Kai Ken?",
+          "a": "Reward-based training using treats, praise and toy rewards is the most effective and well-researched approach for Kai Kens. Clicker training with precise timing works well to mark the exact moment of correct behaviour. Avoid aversive methods — they increase anxiety and often create secondary behavioural problems."
+        },
+        {
+          "q": "At what age should I start training my Kai Ken?",
+          "a": "Start training from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations."
+        },
+        {
+          "q": "How long does it take to train a Kai Ken?",
+          "a": "Kai Kens can take longer to reach reliable obedience than easier-to-train breeds — expect 3–6 months of consistent daily training for solid basics. Their independent nature means results compound slowly but durably with patience."
+        }
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "slug": "kai-ken-health",
+      "faqs": [
+        {
+          "q": "What health problems do Kai Kens commonly have?",
+          "a": "Kai Kens are most commonly associated with routine age-related conditions. Regular vet checks, appropriate weight management, and breed-specific screening tests help detect issues early. Ask any breeder for health test results before purchasing."
+        },
+        {
+          "q": "How long do Kai Kens live?",
+          "a": "Kai Kens have an average lifespan of 12–15 years. Good nutrition, appropriate exercise, weight management and regular vet visits are the key factors in achieving the upper end of this range."
+        },
+        {
+          "q": "Are Kai Kens prone to hip dysplasia?",
+          "a": "Hip dysplasia is less common in Kai Kens than in large working breeds, but it can still occur. Responsible breeders screen breeding stock. Keeping your Kai Ken at a healthy weight is the most effective preventive measure."
+        },
+        {
+          "q": "What health tests should a Kai Ken puppy have?",
+          "a": "At minimum, your Kai Ken puppy should have a vet health check, first vaccinations, deworming, and microchipping before coming home. Ask the breeder for parent health certificates relevant to Kai Ken-specific conditions. A vet check within 72 hours of bringing your puppy home is recommended to establish a baseline."
+        }
+      ]
+    },
+    "behavior": {
+      "label": "Behaviour",
+      "slug": "kai-ken-behavior",
+      "faqs": [
+        {
+          "q": "Are Kai Kens good with kids?",
+          "a": "Kai Kens can do well with children when properly socialised from puppyhood. Every dog is an individual — early exposure to children's behaviour (noise, sudden movements) is the most effective preparation."
+        },
+        {
+          "q": "Do Kai Kens get along with other dogs?",
+          "a": "Kai Kens are generally sociable with other dogs, particularly when well-socialised from puppyhood. Introduce new dogs on neutral territory and keep initial meetings brief and positive."
+        },
+        {
+          "q": "Do Kai Kens bark a lot?",
+          "a": "Kai Kens tend to be vocal — they may bark at strangers, sounds, or when under-stimulated. Adequate daily exercise and mental enrichment (training sessions, puzzle feeders) significantly reduce nuisance barking. Teaching a \"quiet\" cue early is worthwhile."
+        },
+        {
+          "q": "Are Kai Kens good apartment dogs?",
+          "a": "Kai Kens can live in apartments if their exercise needs are met consistently. The key variable is owner commitment to daily walks and enrichment — breed size alone doesn't determine apartment suitability."
+        }
+      ]
+    },
+    "exercise": {
+      "label": "Exercise",
+      "slug": "kai-ken-exercise",
+      "faqs": [
+        {
+          "q": "How much exercise does a Kai Ken need per day?",
+          "a": "Kai Kens need approximately 60–90 minutes of exercise daily. Split across at least two sessions daily, with one higher-intensity session (running, fetch, swimming) and one loose-lead sniff walk. Mental exercise (training sessions, puzzle feeders) counts toward overall stimulation needs and can reduce restless behaviour."
+        },
+        {
+          "q": "Are Kai Kens good running partners?",
+          "a": "Yes — Kai Kens make excellent running partners once fully grown (typically 12–18 months for medium breeds, 18–24 months for large breeds). Start with shorter distances and build gradually to protect developing joints."
+        },
+        {
+          "q": "What happens if a Kai Ken doesn't get enough exercise?",
+          "a": "Under-exercised Kai Kens often develop destructive behaviours — chewing, digging, excessive barking, and hyperactivity indoors. These are symptoms of frustration, not bad temperament. Two missed exercise sessions back-to-back typically shows up as restlessness or nuisance behaviour."
+        },
+        {
+          "q": "Can a Kai Ken be off-lead?",
+          "a": "Kai Kens can be off-lead in secure areas once recall is reliable. Reliable recall typically takes 3–4 months of consistent training with progressive distance and distractions. Never trust off-lead recall in an unfenced area until it's been tested in controlled conditions first."
+        }
+      ]
+    },
+    "feeding": {
+      "label": "Feeding",
+      "slug": "kai-ken-feeding",
+      "faqs": [
+        {
+          "q": "How much should I feed my Kai Ken?",
+          "a": "A Kai Ken needs approximately 1½–3 cups of dry food per day for an adult, split across two meals. Always follow the feeding guide on your specific formula — calorie density varies significantly between brands. Adjust portions based on body condition: you should be able to feel (but not easily see) the ribs."
+        },
+        {
+          "q": "How many times a day should I feed a Kai Ken?",
+          "a": "Adult Kai Kens should eat twice daily. Puppies (under 6 months) need 3–4 smaller meals per day to support growth and prevent hypoglycaemia, particularly in small breeds. "
+        },
+        {
+          "q": "What is the best food for a Kai Ken?",
+          "a": "Look for a formula carrying an AAFCO adequacy statement for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear first in the ingredient list. Active Kai Kens benefit from higher-protein formulas (26–30% crude protein) to support muscle maintenance."
+        },
+        {
+          "q": "When should I switch my Kai Ken from puppy to adult food?",
+          "a": "Most Kai Kens can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days — mix 25% new food with 75% old food and shift the ratio every 2 days to avoid digestive upset."
+        }
+      ]
+    },
+    "suitability": {
+      "label": "Suitability",
+      "slug": "kai-ken-suitability",
+      "faqs": [
+        {
+          "q": "Is a Kai Ken a good dog for first-time owners?",
+          "a": "Kai Kens can be challenging for first-time owners due to their independent temperament. Prior dog experience or professional training classes from the start significantly improves outcomes. Research the breed thoroughly before committing."
+        },
+        {
+          "q": "Are Kai Kens good family dogs?",
+          "a": "Kai Kens can be excellent family dogs for active households. They thrive with children who can match their energy level. A calm household with limited exercise may not suit this breed's temperament."
+        },
+        {
+          "q": "Do Kai Kens do well when left alone?",
+          "a": "Kai Kens form strong bonds with their owners and do not do well with extended isolation. Aim for no more than 4–6 hours alone at a time. If your schedule requires longer absences, consider a dog walker, doggy daycare, or a companion dog."
+        },
+        {
+          "q": "How much time do you need for a Kai Ken?",
+          "a": "Plan for 2–3 hours per day dedicated to your Kai Ken — covering exercise, training, feeding and general interaction.  The commitment is consistent year-round, not just when convenient."
+        }
+      ]
+    }
+  }
+}

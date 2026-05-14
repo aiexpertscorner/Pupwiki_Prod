@@ -46,7 +46,16 @@ This page helps Chinese Shar-Pei people compare useful brands, products and serv
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Chinese Shar-Pei
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+Prioritise formulas with an AAFCO adequacy statement — this confirms the recipe is complete and balanced. Named proteins should appear before grains in the ingredient list. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+### What to look for in food for a Chinese Shar-Pei
+Medium breeds like the Chinese Shar-Pei do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Chinese Shar-Pei needs fewer calories than an athletic one. Chinese Shar-Peis shed seasonally — look for formulas that include omega-3 fatty acids (EPA/DHA from salmon or fish oil) to support coat health from the inside out.
+### Frequently asked questions about Chinese Shar-Pei feeding
+**How much should I feed my Chinese Shar-Pei?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Chinese Shar-Peis need 2–3 meals per day as adults.
+**What food formula works best for a Chinese Shar-Pei?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my Chinese Shar-Pei from puppy to adult food?**
+Most Chinese Shar-Peis can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > Chinese Shar Pei](/breeds/chinese-shar-pei)
 - [Categories > Dog Food](/categories/dog-food)

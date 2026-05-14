@@ -1,0 +1,183 @@
+{
+  "breedSlug": "samoyed",
+  "breedName": "Samoyed",
+  "generatedAt": "2026-05-14",
+  "topics": {
+    "cost": {
+      "label": "Cost",
+      "slug": "samoyed-cost",
+      "faqs": [
+        {
+          "q": "How much does a Samoyed cost to buy?",
+          "a": "Reputable breeders typically charge $800–$3,000 for a Samoyed puppy. Prices vary by breeder reputation, health testing, and lineage. Rescue adoption fees are typically $100–$500 and include vaccinations, neutering, and microchipping."
+        },
+        {
+          "q": "What is the monthly cost of owning a Samoyed?",
+          "a": "Budget $150–$300 per month for a Samoyed, covering food, preventive vet care, insurance, grooming and supplies. Mid-size breeds sit in the moderate cost range across most ownership categories."
+        },
+        {
+          "q": "What are the biggest ongoing costs for a Samoyed?",
+          "a": "The three largest annual expenses are food ($500–900), veterinary care ($400–$1,200 budgeted annually), and pet insurance ($$400–$1,200 per year). Grooming costs are lower for short-coated breeds managed at home."
+        },
+        {
+          "q": "How much does a Samoyed cost in the first year?",
+          "a": "Year one costs for a Samoyed are significantly higher than subsequent years, typically $2,000–$4,000. This covers the purchase price or adoption fee, initial vet checks, vaccinations, spay/neuter, microchipping, crate, bedding, collar, leads and puppy training classes."
+        }
+      ]
+    },
+    "grooming": {
+      "label": "Grooming",
+      "slug": "samoyed-grooming",
+      "faqs": [
+        {
+          "q": "How often should I groom a Samoyed?",
+          "a": "Samoyeds need brushing 3–5 times per week, daily during seasonal coat blows. The dense undercoat requires a dedicated undercoat rake, not just a surface slicker brush. Nails should be trimmed every 3–4 weeks. Ears should be checked and cleaned monthly."
+        },
+        {
+          "q": "Do Samoyeds shed a lot?",
+          "a": "Samoyeds have seasonal shedding — manageable with a consistent brushing routine. "
+        },
+        {
+          "q": "What grooming tools does a Samoyed need?",
+          "a": "A slicker brush for surface debris and an undercoat rake for the dense undercoat are both essential. A shedding blade or deshedding tool helps during heavy moult periods. A nail grinder is useful if your Samoyed is sensitive to clippers."
+        },
+        {
+          "q": "How often should I bathe a Samoyed?",
+          "a": "Every 4–6 weeks is appropriate for most Samoyeds that live indoors. More frequent bathing is needed if they swim or spend time in mud. Over-bathing strips natural skin oils — use a pH-balanced dog shampoo rather than human products."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training",
+      "slug": "samoyed-training",
+      "faqs": [
+        {
+          "q": "Are Samoyeds easy to train?",
+          "a": "Samoyeds are independent thinkers and can be challenging to train. They respond best to high-value rewards and clear, consistent criteria. A structured puppy class from week one is strongly recommended."
+        },
+        {
+          "q": "What training method works best for a Samoyed?",
+          "a": "Reward-based training using treats, praise and toy rewards is the most effective and well-researched approach for Samoyeds. Clicker training with precise timing works well to mark the exact moment of correct behaviour. Avoid aversive methods — they increase anxiety and often create secondary behavioural problems."
+        },
+        {
+          "q": "At what age should I start training my Samoyed?",
+          "a": "Start training from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations."
+        },
+        {
+          "q": "How long does it take to train a Samoyed?",
+          "a": "Samoyeds can take longer to reach reliable obedience than easier-to-train breeds — expect 3–6 months of consistent daily training for solid basics. Their independent nature means results compound slowly but durably with patience."
+        }
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "slug": "samoyed-health",
+      "faqs": [
+        {
+          "q": "What health problems do Samoyeds commonly have?",
+          "a": "Samoyeds are most commonly associated with hip problems and other breed-specific conditions. Regular vet checks, appropriate weight management, and breed-specific screening tests help detect issues early. Ask any breeder for health test results before purchasing."
+        },
+        {
+          "q": "How long do Samoyeds live?",
+          "a": "Samoyeds have an average lifespan of 12–14 years. Good nutrition, appropriate exercise, weight management and regular vet visits are the key factors in achieving the upper end of this range."
+        },
+        {
+          "q": "Are Samoyeds prone to hip dysplasia?",
+          "a": "Samoyeds have a moderate-to-elevated risk of hip dysplasia, particularly for large or active breeds. Ask for OFA or PennHIP hip evaluation certificates when buying from a breeder. Weight control and avoiding high-impact exercise during bone growth (under 18 months) reduces risk."
+        },
+        {
+          "q": "What health tests should a Samoyed puppy have?",
+          "a": "At minimum, your Samoyed puppy should have a vet health check, first vaccinations, deworming, and microchipping before coming home. Ask the breeder for parent health certificates relevant to Samoyed-specific conditions. A vet check within 72 hours of bringing your puppy home is recommended to establish a baseline."
+        }
+      ]
+    },
+    "behavior": {
+      "label": "Behaviour",
+      "slug": "samoyed-behavior",
+      "faqs": [
+        {
+          "q": "Are Samoyeds good with kids?",
+          "a": "Samoyeds are generally known for being friendly and patient, making them well-suited to family life with children. Supervision is always recommended with young children regardless of breed — interactions should be taught from both sides."
+        },
+        {
+          "q": "Do Samoyeds get along with other dogs?",
+          "a": "Samoyeds are generally sociable with other dogs, particularly when well-socialised from puppyhood. Introduce new dogs on neutral territory and keep initial meetings brief and positive."
+        },
+        {
+          "q": "Do Samoyeds bark a lot?",
+          "a": "Samoyeds tend to be vocal — they may bark at strangers, sounds, or when under-stimulated. Adequate daily exercise and mental enrichment (training sessions, puzzle feeders) significantly reduce nuisance barking. Teaching a \"quiet\" cue early is worthwhile."
+        },
+        {
+          "q": "Are Samoyeds good apartment dogs?",
+          "a": "Samoyeds can live in apartments if their exercise needs are met consistently. The key variable is owner commitment to daily walks and enrichment — breed size alone doesn't determine apartment suitability."
+        }
+      ]
+    },
+    "exercise": {
+      "label": "Exercise",
+      "slug": "samoyed-exercise",
+      "faqs": [
+        {
+          "q": "How much exercise does a Samoyed need per day?",
+          "a": "Samoyeds need approximately 60–90 minutes of exercise daily. Split across at least two sessions daily, with one higher-intensity session (running, fetch, swimming) and one loose-lead sniff walk. Mental exercise (training sessions, puzzle feeders) counts toward overall stimulation needs and can reduce restless behaviour."
+        },
+        {
+          "q": "Are Samoyeds good running partners?",
+          "a": "Yes — Samoyeds make excellent running partners once fully grown (typically 12–18 months for medium breeds, 18–24 months for large breeds). Start with shorter distances and build gradually to protect developing joints."
+        },
+        {
+          "q": "What happens if a Samoyed doesn't get enough exercise?",
+          "a": "Under-exercised Samoyeds often develop destructive behaviours — chewing, digging, excessive barking, and hyperactivity indoors. These are symptoms of frustration, not bad temperament. Two missed exercise sessions back-to-back typically shows up as restlessness or nuisance behaviour."
+        },
+        {
+          "q": "Can a Samoyed be off-lead?",
+          "a": "Samoyeds can be off-lead in secure areas once recall is reliable. Reliable recall typically takes 3–4 months of consistent training with progressive distance and distractions. Never trust off-lead recall in an unfenced area until it's been tested in controlled conditions first."
+        }
+      ]
+    },
+    "feeding": {
+      "label": "Feeding",
+      "slug": "samoyed-feeding",
+      "faqs": [
+        {
+          "q": "How much should I feed my Samoyed?",
+          "a": "A Samoyed needs approximately 1½–3 cups of dry food per day for an adult, split across two meals. Always follow the feeding guide on your specific formula — calorie density varies significantly between brands. Adjust portions based on body condition: you should be able to feel (but not easily see) the ribs."
+        },
+        {
+          "q": "How many times a day should I feed a Samoyed?",
+          "a": "Adult Samoyeds should eat twice daily. Puppies (under 6 months) need 3–4 smaller meals per day to support growth and prevent hypoglycaemia, particularly in small breeds. "
+        },
+        {
+          "q": "What is the best food for a Samoyed?",
+          "a": "Look for a formula carrying an AAFCO adequacy statement for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear first in the ingredient list. Active Samoyeds benefit from higher-protein formulas (26–30% crude protein) to support muscle maintenance."
+        },
+        {
+          "q": "When should I switch my Samoyed from puppy to adult food?",
+          "a": "Most Samoyeds can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days — mix 25% new food with 75% old food and shift the ratio every 2 days to avoid digestive upset."
+        }
+      ]
+    },
+    "suitability": {
+      "label": "Suitability",
+      "slug": "samoyed-suitability",
+      "faqs": [
+        {
+          "q": "Is a Samoyed a good dog for first-time owners?",
+          "a": "Samoyeds can be challenging for first-time owners due to their independent temperament. Prior dog experience or professional training classes from the start significantly improves outcomes. Research the breed thoroughly before committing."
+        },
+        {
+          "q": "Are Samoyeds good family dogs?",
+          "a": "Samoyeds are typically affectionate family dogs that do well with children and adapt to household routines. Their sociable nature means they prefer company over isolation."
+        },
+        {
+          "q": "Do Samoyeds do well when left alone?",
+          "a": "Samoyeds form strong bonds with their owners and do not do well with extended isolation. Aim for no more than 4–6 hours alone at a time. If your schedule requires longer absences, consider a dog walker, doggy daycare, or a companion dog."
+        },
+        {
+          "q": "How much time do you need for a Samoyed?",
+          "a": "Plan for 2–3 hours per day dedicated to your Samoyed — covering exercise, training, feeding and general interaction.  The commitment is consistent year-round, not just when convenient."
+        }
+      ]
+    }
+  }
+}

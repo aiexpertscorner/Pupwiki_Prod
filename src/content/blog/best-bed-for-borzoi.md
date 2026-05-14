@@ -48,6 +48,15 @@ This page helps Borzoi people compare useful brands, products and services for a
 [View at Petmate](https://www.awin1.com/awclick.php?mid=89913&id=2861861){rel="nofollow sponsored"}
 ## How to choose for a Borzoi
 Measure your dog stretched out fully, add 12 inches, then match to the bed's stated usable sleep surface. Check whether the cover is machine washable.
+### What to look for in a bed for a Borzoi
+Large breeds need beds with a usable sleep surface of at least 40–48 inches. Look for memory foam or orthopedic foam rather than fibrefill, which compresses flat under heavier dogs within months. Orthopedic foam matters most once your Borzoi reaches 7+ years — earlier than most owners expect for medium breeds. If your dog is already showing joint stiffness, prioritise pressure-relief foam over aesthetics. Active Borzois tend to dig and circle before lying down — look for beds with reinforced stitching at the corners and a water-resistant inner liner to extend the usable lifespan.
+### Frequently asked questions about Borzoi beds
+**What size bed does a Borzoi need?**
+Measure your Borzoi fully stretched (nose to tail base) and add 12 inches. Most large-breed dogs need a 40–48 inch usable sleep surface. Check the actual foam dimensions, not the outer shell size.
+**Is an orthopedic bed worth it for a Borzoi?**
+For any dog over 7 years, or one already showing joint stiffness, an orthopedic foam bed offers meaningful pressure relief. For younger healthy Borzois, a quality foam bed with a washable cover is adequate — you can upgrade as they age.
+**How often should I replace my Borzoi's bed?**
+Most dog beds need replacing every 1–2 years under regular use. Signs it's time: visible compression of the foam (it no longer springs back), persistent odour after washing, or your Borzoi choosing the floor over the bed.
 ## Related PupWiki guides
 - [Breeds > Borzoi](/breeds/borzoi)
 - [Categories > Beds](/categories/beds)

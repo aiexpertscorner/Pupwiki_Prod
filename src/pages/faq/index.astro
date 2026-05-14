@@ -1,0 +1,388 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const faqDir = path.resolve('src/data/faq');
+const faqFiles = fs.existsSync(faqDir)
+  ? fs.readdirSync(faqDir).filter((f) => f.endsWith('.json'))
+  : [];
+
+const FEATURED_BREEDS = [
+  'labrador-retriever', 'golden-retriever', 'german-shepherd-dog', 'french-bulldog',
+  'bulldog', 'poodle-standard', 'beagle', 'rottweiler', 'dachshund',
+  'pembroke-welsh-corgi', 'australian-shepherd', 'yorkshire-terrier',
+];
+
+const featuredBreeds = FEATURED_BREEDS
+  .map((slug) => {
+    const file = path.join(faqDir, `${slug}.json`);
+    if (!fs.existsSync(file)) return null;
+    const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+    return { slug: data.breedSlug, name: data.breedName };
+  })
+  .filter(Boolean);
+
+const allBreeds = faqFiles
+  .map((f) => {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(faqDir, f), 'utf8'));
+      return { slug: data.breedSlug, name: data.breedName };
+    } catch { return null; }
+  })
+  .filter(Boolean)
+  .sort((a, b) => a!.name.localeCompare(b!.name));
+
+const TOPICS = [
+  { key: 'cost',        label: 'Cost',        icon: '💰', desc: 'Purchase price, monthly expenses and year-one cost estimates.' },
+  { key: 'grooming',    label: 'Grooming',    icon: '✂️', desc: 'Brushing schedules, shedding, bath frequency and at-home tools.' },
+  { key: 'training',    label: 'Training',    icon: '🦮', desc: 'Trainability, methods, timeline and gear for every breed.' },
+  { key: 'health',      label: 'Health',      icon: '🩺', desc: 'Common conditions, lifespan, screening tests and prevention.' },
+  { key: 'behavior',    label: 'Behaviour',   icon: '🐾', desc: 'Family compatibility, other pets, barking and apartment suitability.' },
+  { key: 'exercise',    label: 'Exercise',    icon: '🏃', desc: 'Daily exercise needs, running suitability and off-lead guidance.' },
+  { key: 'feeding',     label: 'Feeding',     icon: '🍖', desc: 'Portion sizes, meal frequency, formula choice and life-stage switching.' },
+  { key: 'suitability', label: 'Suitability', icon: '🏠', desc: 'First-time owners, family dogs, alone time and time commitment.' },
+];
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pupwiki.com/' },
+    { '@type': 'ListItem', position: 2, name: 'FAQ' },
+  ],
+};
+
+const faqPageLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How much does a dog cost per month?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Monthly dog ownership costs range from $120–$400+ depending on breed size. Small breeds average $120–$200/month; medium breeds $150–$300/month; large breeds $200–$400+/month. Use the PupWiki Cost Calculator for breed-specific estimates.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Which dog breeds are easiest to train?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Border Collies, Golden Retrievers, Labrador Retrievers, Poodles and German Shepherd Dogs consistently rank as easiest to train due to their intelligence and eagerness to work with handlers. All breeds can be trained effectively with reward-based methods and consistent practice.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What dog is best for apartment living?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'French Bulldogs, Cavalier King Charles Spaniels, Pugs, Shih Tzus and Basset Hounds adapt well to apartments due to lower exercise needs and moderate size. The key factor is daily exercise commitment — even apartment-friendly breeds need consistent walks.',
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Dog FAQ Hub — Breed Questions Answered | PupWiki"
+  description="Answers to common questions about 277 dog breeds. Browse by topic — cost, grooming, training, health, behaviour, exercise, feeding and suitability."
+  canonicalUrl="https://pupwiki.com/faq"
+  pageType="collection"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(faqPageLd)} slot="head" />
+
+  <div class="faq-hub">
+    <div class="container">
+
+      <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol class="breadcrumb__list">
+          <li class="breadcrumb__item">
+            <a href="/" class="breadcrumb__link">Home</a>
+            <span class="breadcrumb__sep" aria-hidden="true">›</span>
+          </li>
+          <li class="breadcrumb__item">
+            <span class="breadcrumb__current" aria-current="page">FAQ</span>
+          </li>
+        </ol>
+      </nav>
+
+      <header class="faq-hub__header">
+        <h1 class="faq-hub__title">Dog FAQ: Answers for Every Breed</h1>
+        <p class="faq-hub__lead">
+          Browse {allBreeds.length} breed FAQ guides across 8 topics — cost, grooming, training, health,
+          behaviour, exercise, feeding and suitability. Every answer is matched to the breed's actual size,
+          energy level and known traits.
+        </p>
+      </header>
+
+      <section aria-labelledby="faq-topics-title">
+        <h2 id="faq-topics-title" class="faq-hub__section-heading">Browse by Topic</h2>
+        <div class="faq-hub__topics-grid">
+          {TOPICS.map((topic) => (
+            <div class="faq-hub__topic-card">
+              <div class="faq-hub__topic-header">
+                <span class="faq-hub__topic-icon" aria-hidden="true">{topic.icon}</span>
+                <h3 class="faq-hub__topic-title">{topic.label}</h3>
+              </div>
+              <p class="faq-hub__topic-desc">{topic.desc}</p>
+              <a href={`/faq/labrador-retriever-${topic.key}`} class="faq-hub__topic-example">
+                Example: Labrador Retriever →
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section aria-labelledby="faq-breeds-title" class="faq-hub__section">
+        <h2 id="faq-breeds-title" class="faq-hub__section-heading">Popular Breeds</h2>
+        <div class="faq-hub__breed-grid">
+          {featuredBreeds.map((breed) => breed && (
+            <a href={`/faq/${breed.slug}-cost`} class="faq-hub__breed-card">
+              <span class="faq-hub__breed-name">{breed.name}</span>
+              <span class="faq-hub__breed-arrow" aria-hidden="true">→</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section aria-labelledby="faq-all-breeds-title" class="faq-hub__section">
+        <h2 id="faq-all-breeds-title" class="faq-hub__section-heading">All Breeds A–Z</h2>
+        <div class="faq-hub__all-breeds">
+          {allBreeds.map((breed) => breed && (
+            <a href={`/faq/${breed.slug}-cost`} class="faq-hub__all-breed-link">
+              {breed.name}
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section aria-labelledby="faq-common-title" class="faq-hub__section">
+        <h2 id="faq-common-title" class="faq-hub__section-heading">Common Questions</h2>
+        <div class="faq-hub__faq">
+          <div class="faq-hub__qa">
+            <h3 class="faq-hub__q">How much does a dog cost per month?</h3>
+            <p class="faq-hub__a">Monthly ownership costs range from $120–$400+ depending on breed size. Small breeds average $120–$200/month; medium breeds $150–$300/month; large breeds $200–$400+/month. Use the <a href="/cost-calculator">Breed Cost Calculator</a> for breed-specific estimates with your state's cost of living.</p>
+          </div>
+          <div class="faq-hub__qa">
+            <h3 class="faq-hub__q">Which dog breeds are easiest to train?</h3>
+            <p class="faq-hub__a">Border Collies, Golden Retrievers, Labrador Retrievers, Standard Poodles and German Shepherd Dogs consistently rank as easiest to train. All breeds respond to reward-based methods — the difference is learning speed and consistency required. Browse <a href="/faq/border-collie-training">Border Collie training FAQs</a> or <a href="/faq/golden-retriever-training">Golden Retriever training FAQs</a>.</p>
+          </div>
+          <div class="faq-hub__qa">
+            <h3 class="faq-hub__q">What dog is best for apartment living?</h3>
+            <p class="faq-hub__a">French Bulldogs, Cavalier King Charles Spaniels, Pugs, Shih Tzus and Basset Hounds adapt well to apartments. The key variable is daily exercise commitment, not size alone. See <a href="/faq/french-bulldog-suitability">French Bulldog suitability</a> or <a href="/breed-quiz">take the Breed Suitability Quiz</a> for a personalised recommendation.</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+.faq-hub {
+  padding-block: var(--space-10);
+}
+
+.faq-hub .container {
+  max-width: 1100px;
+  margin-inline: auto;
+  padding-inline: var(--space-4);
+}
+
+.faq-hub__header {
+  margin-block: var(--space-6) var(--space-8);
+}
+
+.faq-hub__title {
+  font-family: var(--font-display);
+  font-size: clamp(var(--text-2xl), 4vw, var(--text-4xl));
+  color: var(--color-heading);
+  margin-block-end: var(--space-3);
+}
+
+.faq-hub__lead {
+  max-width: 64ch;
+  color: var(--color-body-soft);
+  font-size: var(--text-base);
+  line-height: 1.65;
+}
+
+.faq-hub__section {
+  margin-block-start: var(--space-10);
+}
+
+.faq-hub__section-heading {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  color: var(--color-heading);
+  margin-block-end: var(--space-4);
+  padding-block-end: var(--space-2);
+  border-block-end: 2px solid var(--color-border);
+}
+
+.faq-hub__topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-4);
+}
+
+.faq-hub__topic-card {
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.faq-hub__topic-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-block-end: var(--space-2);
+}
+
+.faq-hub__topic-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.faq-hub__topic-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-base);
+  font-weight: var(--weight-semibold);
+  color: var(--color-heading);
+}
+
+.faq-hub__topic-desc {
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: 1.55;
+  margin-block-end: var(--space-3);
+}
+
+.faq-hub__topic-example {
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: var(--weight-medium);
+}
+
+.faq-hub__topic-example:hover {
+  text-decoration: underline;
+}
+
+.faq-hub__breed-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-3);
+}
+
+.faq-hub__breed-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  text-decoration: none;
+  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.faq-hub__breed-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-sm);
+}
+
+.faq-hub__breed-name {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-heading);
+}
+
+.faq-hub__breed-arrow {
+  color: var(--color-accent);
+  font-size: var(--text-base);
+}
+
+.faq-hub__all-breeds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.faq-hub__all-breed-link {
+  display: inline-block;
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  text-decoration: none;
+  background: var(--color-surface);
+  transition: border-color var(--transition-base), color var(--transition-base);
+}
+
+.faq-hub__all-breed-link:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.faq-hub__faq {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.faq-hub__qa {
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.faq-hub__q {
+  font-family: var(--font-heading);
+  font-size: var(--text-base);
+  font-weight: var(--weight-semibold);
+  color: var(--color-heading);
+  margin-block-end: var(--space-2);
+}
+
+.faq-hub__a {
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.faq-hub__a a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+/* Breadcrumb */
+.breadcrumb { padding-block: var(--space-3); }
+.breadcrumb__list { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1); list-style: none; padding: 0; margin: 0; }
+.breadcrumb__item { display: inline-flex; align-items: center; gap: var(--space-1); }
+.breadcrumb__link { font-size: var(--text-sm); color: var(--color-muted); text-decoration: none; transition: color var(--transition-base); }
+.breadcrumb__link:hover { color: var(--color-heading); }
+.breadcrumb__current { font-size: var(--text-sm); color: var(--color-body-soft); font-weight: var(--weight-medium); }
+.breadcrumb__sep { color: var(--color-placeholder); font-size: var(--text-sm); }
+
+@media (max-width: 768px) {
+  .faq-hub__topics-grid,
+  .faq-hub__breed-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-hub__topics-grid,
+  .faq-hub__breed-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

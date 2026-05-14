@@ -46,7 +46,16 @@ This page helps Australian Stumpy Tail Cattle Dog people compare useful brands, 
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Australian Stumpy Tail Cattle Dog
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Australian Stumpy Tail Cattle Dog is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+An AAFCO-approved formula with a whole protein source — chicken, beef, salmon, or turkey — listed first is the baseline standard. Avoid formulas where the first ingredient is a grain or generic "meat by-products". Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Australian Stumpy Tail Cattle Dog is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+### What to look for in food for a Australian Stumpy Tail Cattle Dog
+Medium breeds like the Australian Stumpy Tail Cattle Dog do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Australian Stumpy Tail Cattle Dogs are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands.
+### Frequently asked questions about Australian Stumpy Tail Cattle Dog feeding
+**How much should I feed my Australian Stumpy Tail Cattle Dog?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Australian Stumpy Tail Cattle Dogs need 2–3 meals per day as adults.
+**What food formula works best for a Australian Stumpy Tail Cattle Dog?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my Australian Stumpy Tail Cattle Dog from puppy to adult food?**
+Most Australian Stumpy Tail Cattle Dogs can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > Australian Stumpy Tail Cattle Dog](/breeds/australian-stumpy-tail-cattle-dog)
 - [Categories > Dog Food](/categories/dog-food)

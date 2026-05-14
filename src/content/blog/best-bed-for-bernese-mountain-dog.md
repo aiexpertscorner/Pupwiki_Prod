@@ -48,6 +48,15 @@ This page helps Bernese Mountain Dog people compare useful brands, products and 
 [View at Petmate](https://www.awin1.com/awclick.php?mid=89913&id=2861861){rel="nofollow sponsored"}
 ## How to choose for a Bernese Mountain Dog
 Measure your dog stretched out fully, add 12 inches, then match to the bed's stated usable sleep surface. Check whether the cover is machine washable.
+### What to look for in a bed for a Bernese Mountain Dog
+Large breeds need beds with a usable sleep surface of at least 40–48 inches. Look for memory foam or orthopedic foam rather than fibrefill, which compresses flat under heavier dogs within months. Orthopedic foam matters most once your Bernese Mountain Dog reaches 7+ years — earlier than most owners expect for medium breeds. If your dog is already showing joint stiffness, prioritise pressure-relief foam over aesthetics. Active Bernese Mountain Dogs tend to dig and circle before lying down — look for beds with reinforced stitching at the corners and a water-resistant inner liner to extend the usable lifespan.
+### Frequently asked questions about Bernese Mountain Dog beds
+**What size bed does a Bernese Mountain Dog need?**
+Measure your Bernese Mountain Dog fully stretched (nose to tail base) and add 12 inches. Most large-breed dogs need a 40–48 inch usable sleep surface. Check the actual foam dimensions, not the outer shell size.
+**Is an orthopedic bed worth it for a Bernese Mountain Dog?**
+For any dog over 7 years, or one already showing joint stiffness, an orthopedic foam bed offers meaningful pressure relief. For younger healthy Bernese Mountain Dogs, a quality foam bed with a washable cover is adequate — you can upgrade as they age.
+**How often should I replace my Bernese Mountain Dog's bed?**
+Most dog beds need replacing every 1–2 years under regular use. Signs it's time: visible compression of the foam (it no longer springs back), persistent odour after washing, or your Bernese Mountain Dog choosing the floor over the bed.
 ## Related PupWiki guides
 - [Breeds > Bernese Mountain Dog](/breeds/bernese-mountain-dog)
 - [Categories > Beds](/categories/beds)

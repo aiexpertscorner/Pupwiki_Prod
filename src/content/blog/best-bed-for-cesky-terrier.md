@@ -48,6 +48,15 @@ This page helps Cesky Terrier people compare useful brands, products and service
 [View at Petmate](https://www.awin1.com/awclick.php?mid=89913&id=2861861){rel="nofollow sponsored"}
 ## How to choose for a Cesky Terrier
 Measure your dog stretched out fully, add 12 inches, then match to the bed's stated usable sleep surface. Check whether the cover is machine washable.
+### What to look for in a bed for a Cesky Terrier
+Measure your Cesky Terrier when fully stretched — add 12 inches to that length for the ideal sleep surface. Smaller breeds often prefer bolster or donut-style beds that let them curl up, rather than flat mats. Orthopedic foam matters most once your Cesky Terrier reaches 7+ years — earlier than most owners expect for medium breeds. If your dog is already showing joint stiffness, prioritise pressure-relief foam over aesthetics. Choose a cover with a zipper rather than a slip-on sleeve so the insert stays in place even when your Cesky Terrier rearranges it overnight.
+### Frequently asked questions about Cesky Terrier beds
+**What size bed does a Cesky Terrier need?**
+Measure your Cesky Terrier when fully stretched out and add 12 inches. Small breeds often sleep curled up but still need space to stretch — a 24–30 inch bed usually covers most small-breed dogs.
+**Is an orthopedic bed worth it for a Cesky Terrier?**
+For any dog over 7 years, or one already showing joint stiffness, an orthopedic foam bed offers meaningful pressure relief. For younger healthy Cesky Terriers, a quality foam bed with a washable cover is adequate — you can upgrade as they age.
+**How often should I replace my Cesky Terrier's bed?**
+Most dog beds need replacing every 1–2 years under regular use. Signs it's time: visible compression of the foam (it no longer springs back), persistent odour after washing, or your Cesky Terrier choosing the floor over the bed.
 ## Related PupWiki guides
 - [Breeds > Cesky Terrier](/breeds/cesky-terrier)
 - [Categories > Beds](/categories/beds)

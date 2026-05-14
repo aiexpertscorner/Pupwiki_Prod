@@ -1,0 +1,183 @@
+{
+  "breedSlug": "french-bulldog",
+  "breedName": "French Bulldog",
+  "generatedAt": "2026-05-14",
+  "topics": {
+    "cost": {
+      "label": "Cost",
+      "slug": "french-bulldog-cost",
+      "faqs": [
+        {
+          "q": "How much does a French Bulldog cost to buy?",
+          "a": "Reputable breeders typically charge $800–$3,000 for a French Bulldog puppy. Prices vary by breeder reputation, health testing, and lineage. Rescue adoption fees are typically $100–$500 and include vaccinations, neutering, and microchipping."
+        },
+        {
+          "q": "What is the monthly cost of owning a French Bulldog?",
+          "a": "Budget $150–$300 per month for a French Bulldog, covering food, preventive vet care, insurance, grooming and supplies. Mid-size breeds sit in the moderate cost range across most ownership categories."
+        },
+        {
+          "q": "What are the biggest ongoing costs for a French Bulldog?",
+          "a": "The three largest annual expenses are food ($500–900), veterinary care ($400–$1,200 budgeted annually), and pet insurance ($$400–$1,200 per year). Grooming adds $400–$1,200 annually for French Bulldogs due to their coat type."
+        },
+        {
+          "q": "How much does a French Bulldog cost in the first year?",
+          "a": "Year one costs for a French Bulldog are significantly higher than subsequent years, typically $2,000–$4,000. This covers the purchase price or adoption fee, initial vet checks, vaccinations, spay/neuter, microchipping, crate, bedding, collar, leads and puppy training classes."
+        }
+      ]
+    },
+    "grooming": {
+      "label": "Grooming",
+      "slug": "french-bulldog-grooming",
+      "faqs": [
+        {
+          "q": "How often should I groom a French Bulldog?",
+          "a": "French Bulldogs need brushing 3–5 times per week, daily during seasonal coat blows.  Nails should be trimmed every 3–4 weeks. Ears should be checked and cleaned monthly."
+        },
+        {
+          "q": "Do French Bulldogs shed a lot?",
+          "a": "Yes — they are considered heavy shedders. Regular brushing is the most effective control tool. A slicker brush and undercoat rake are both essential for French Bulldogs. Deshedding treatments from professional groomers can reduce seasonal shedding temporarily."
+        },
+        {
+          "q": "What grooming tools does a French Bulldog need?",
+          "a": "A slicker brush for surface debris and an undercoat rake for the dense undercoat are both essential. A shedding blade or deshedding tool helps during heavy moult periods. A nail grinder is useful if your French Bulldog is sensitive to clippers."
+        },
+        {
+          "q": "How often should I bathe a French Bulldog?",
+          "a": "Every 4–6 weeks is appropriate for most French Bulldogs that live indoors. More frequent bathing is needed if they swim or spend time in mud. Over-bathing strips natural skin oils — use a pH-balanced dog shampoo rather than human products."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training",
+      "slug": "french-bulldog-training",
+      "faqs": [
+        {
+          "q": "Are French Bulldogs easy to train?",
+          "a": "French Bulldogs are considered easier to train than average — they respond quickly to reward-based methods and generalise cues well. Short 10–15 minute sessions outperform long correction-heavy drills."
+        },
+        {
+          "q": "What training method works best for a French Bulldog?",
+          "a": "Reward-based training using treats, praise and toy rewards is the most effective and well-researched approach for French Bulldogs. Keep sessions short and positive, end on a success, and vary your rewards to maintain engagement."
+        },
+        {
+          "q": "At what age should I start training my French Bulldog?",
+          "a": "Start training from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations."
+        },
+        {
+          "q": "How long does it take to train a French Bulldog?",
+          "a": "Most French Bulldogs learn basic obedience cues (sit, stay, come, down) within 2–4 weeks of daily practice. Reliable recall in distracting environments typically takes 2–3 months of consistent reinforcement."
+        }
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "slug": "french-bulldog-health",
+      "faqs": [
+        {
+          "q": "What health problems do French Bulldogs commonly have?",
+          "a": "French Bulldogs are most commonly associated with brachycephalic airway issues. Regular vet checks, appropriate weight management, and breed-specific screening tests help detect issues early. Ask any breeder for health test results before purchasing."
+        },
+        {
+          "q": "How long do French Bulldogs live?",
+          "a": "French Bulldogs have an average lifespan of 10–12 years. Good nutrition, appropriate exercise, weight management and regular vet visits are the key factors in achieving the upper end of this range."
+        },
+        {
+          "q": "Are French Bulldogs prone to hip dysplasia?",
+          "a": "French Bulldogs have a moderate-to-elevated risk of hip dysplasia, particularly for large or active breeds. Ask for OFA or PennHIP hip evaluation certificates when buying from a breeder. Weight control and avoiding high-impact exercise during bone growth (under 18 months) reduces risk."
+        },
+        {
+          "q": "What health tests should a French Bulldog puppy have?",
+          "a": "At minimum, your French Bulldog puppy should have a vet health check, first vaccinations, deworming, and microchipping before coming home. Ask the breeder for parent health certificates relevant to French Bulldog-specific conditions. A vet check within 72 hours of bringing your puppy home is recommended to establish a baseline."
+        }
+      ]
+    },
+    "behavior": {
+      "label": "Behaviour",
+      "slug": "french-bulldog-behavior",
+      "faqs": [
+        {
+          "q": "Are French Bulldogs good with kids?",
+          "a": "French Bulldogs can do well with children when properly socialised from puppyhood. Every dog is an individual — early exposure to children's behaviour (noise, sudden movements) is the most effective preparation."
+        },
+        {
+          "q": "Do French Bulldogs get along with other dogs?",
+          "a": "French Bulldogs are generally sociable with other dogs, particularly when well-socialised from puppyhood. Introduce new dogs on neutral territory and keep initial meetings brief and positive."
+        },
+        {
+          "q": "Do French Bulldogs bark a lot?",
+          "a": "French Bulldogs are not considered excessive barkers. They may alert to strangers or unusual sounds, but are generally manageable with basic training. Consistent \"quiet\" reinforcement from puppyhood keeps this in check."
+        },
+        {
+          "q": "Are French Bulldogs good apartment dogs?",
+          "a": "French Bulldogs adapt reasonably well to apartment living, particularly if they receive consistent daily walks and indoor enrichment. Their calm nature makes them less disruptive in confined spaces than high-energy large breeds."
+        }
+      ]
+    },
+    "exercise": {
+      "label": "Exercise",
+      "slug": "french-bulldog-exercise",
+      "faqs": [
+        {
+          "q": "How much exercise does a French Bulldog need per day?",
+          "a": "French Bulldogs need approximately 30–45 minutes of exercise daily. A structured morning walk and an evening sniff walk usually cover their needs. Mental exercise (training sessions, puzzle feeders) counts toward overall stimulation needs and can reduce restless behaviour."
+        },
+        {
+          "q": "Are French Bulldogs good running partners?",
+          "a": "French Bulldogs are lower-energy dogs and are better suited to brisk walks or short jogs than distance running. Long runs can cause joint strain in lower-activity breeds — stick to 20–30 minute jogs rather than endurance runs."
+        },
+        {
+          "q": "What happens if a French Bulldog doesn't get enough exercise?",
+          "a": "French Bulldogs are less demanding than high-energy breeds, but chronic under-exercise still leads to weight gain and low-level restlessness. Even lower-energy breeds benefit from a consistent daily walk for both physical health and mental stimulation."
+        },
+        {
+          "q": "Can a French Bulldog be off-lead?",
+          "a": "French Bulldogs can be off-lead in secure areas once recall is reliable. Reliable recall typically takes 3–4 months of consistent training with progressive distance and distractions. Never trust off-lead recall in an unfenced area until it's been tested in controlled conditions first."
+        }
+      ]
+    },
+    "feeding": {
+      "label": "Feeding",
+      "slug": "french-bulldog-feeding",
+      "faqs": [
+        {
+          "q": "How much should I feed my French Bulldog?",
+          "a": "A French Bulldog needs approximately 1½–3 cups of dry food per day for an adult, split across two meals. Always follow the feeding guide on your specific formula — calorie density varies significantly between brands. Adjust portions based on body condition: you should be able to feel (but not easily see) the ribs."
+        },
+        {
+          "q": "How many times a day should I feed a French Bulldog?",
+          "a": "Adult French Bulldogs should eat twice daily. Puppies (under 6 months) need 3–4 smaller meals per day to support growth and prevent hypoglycaemia, particularly in small breeds. "
+        },
+        {
+          "q": "What is the best food for a French Bulldog?",
+          "a": "Look for a formula carrying an AAFCO adequacy statement for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear first in the ingredient list. Lower-energy French Bulldogs are prone to weight gain — choose a formula with controlled fat content and avoid calorie-dense performance formulas."
+        },
+        {
+          "q": "When should I switch my French Bulldog from puppy to adult food?",
+          "a": "Most French Bulldogs can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days — mix 25% new food with 75% old food and shift the ratio every 2 days to avoid digestive upset."
+        }
+      ]
+    },
+    "suitability": {
+      "label": "Suitability",
+      "slug": "french-bulldog-suitability",
+      "faqs": [
+        {
+          "q": "Is a French Bulldog a good dog for first-time owners?",
+          "a": "French Bulldogs are generally considered suitable for first-time owners. They're responsive to training, manageable in size, and adaptable to different home environments. A puppy class is still recommended to build a strong foundation."
+        },
+        {
+          "q": "Are French Bulldogs good family dogs?",
+          "a": "French Bulldogs can be good family dogs when properly socialised. Their suitability depends more on individual temperament and upbringing than breed alone."
+        },
+        {
+          "q": "Do French Bulldogs do well when left alone?",
+          "a": "French Bulldogs form strong bonds with their owners and do not do well with extended isolation. Aim for no more than 4–6 hours alone at a time. If your schedule requires longer absences, consider a dog walker, doggy daycare, or a companion dog."
+        },
+        {
+          "q": "How much time do you need for a French Bulldog?",
+          "a": "Plan for 1–1.5 hours per day dedicated to your French Bulldog — covering exercise, training, feeding and general interaction. Add 15–30 minutes for grooming 3–4 times weekly. The commitment is consistent year-round, not just when convenient."
+        }
+      ]
+    }
+  }
+}

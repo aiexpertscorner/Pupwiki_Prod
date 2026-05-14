@@ -46,7 +46,16 @@ This page helps Transylvanian Hound people compare useful brands, products and s
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Transylvanian Hound
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Transylvanian Hound is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+Start with AAFCO compliance: the label should state the food is complete and balanced for the appropriate life stage. A clearly named protein (not just "meat" or "poultry") as the first ingredient is the next filter. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Transylvanian Hound is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+### What to look for in food for a Transylvanian Hound
+Medium breeds like the Transylvanian Hound do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Transylvanian Hounds are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands.
+### Frequently asked questions about Transylvanian Hound feeding
+**How much should I feed my Transylvanian Hound?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Transylvanian Hounds need 2–3 meals per day as adults.
+**What food formula works best for a Transylvanian Hound?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my Transylvanian Hound from puppy to adult food?**
+Most Transylvanian Hounds can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > Transylvanian Hound](/breeds/transylvanian-hound)
 - [Categories > Dog Food](/categories/dog-food)

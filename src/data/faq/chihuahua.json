@@ -1,0 +1,183 @@
+{
+  "breedSlug": "chihuahua",
+  "breedName": "Chihuahua",
+  "generatedAt": "2026-05-14",
+  "topics": {
+    "cost": {
+      "label": "Cost",
+      "slug": "chihuahua-cost",
+      "faqs": [
+        {
+          "q": "How much does a Chihuahua cost to buy?",
+          "a": "Reputable breeders typically charge $500–$2,000 for a Chihuahua puppy. Prices vary by breeder reputation, health testing, and lineage. Rescue adoption fees are typically $100–$500 and include vaccinations, neutering, and microchipping."
+        },
+        {
+          "q": "What is the monthly cost of owning a Chihuahua?",
+          "a": "Budget $120–$200 per month for a Chihuahua, covering food, preventive vet care, insurance, grooming and supplies. Small breeds often cost less on food and some products, but vet bills don't proportionally reduce — procedures cost similar amounts regardless of size."
+        },
+        {
+          "q": "What are the biggest ongoing costs for a Chihuahua?",
+          "a": "The three largest annual expenses are food ($300–600), veterinary care ($400–$1,200 budgeted annually), and pet insurance ($$400–$1,200 per year). Grooming costs are lower for short-coated breeds managed at home."
+        },
+        {
+          "q": "How much does a Chihuahua cost in the first year?",
+          "a": "Year one costs for a Chihuahua are significantly higher than subsequent years, typically $1,500–$3,000. This covers the purchase price or adoption fee, initial vet checks, vaccinations, spay/neuter, microchipping, crate, bedding, collar, leads and puppy training classes."
+        }
+      ]
+    },
+    "grooming": {
+      "label": "Grooming",
+      "slug": "chihuahua-grooming",
+      "faqs": [
+        {
+          "q": "How often should I groom a Chihuahua?",
+          "a": "Chihuahuas need brushing once or twice per week.  Nails should be trimmed every 3–4 weeks. Ears should be checked and cleaned monthly."
+        },
+        {
+          "q": "Do Chihuahuas shed a lot?",
+          "a": "Chihuahuas shed minimally. A weekly brush is usually sufficient. "
+        },
+        {
+          "q": "What grooming tools does a Chihuahua need?",
+          "a": "A rubber grooming glove or soft-bristle brush is sufficient for weekly maintenance on the Chihuahua's medium coat. Add a nail grinder and ear cleaner for a complete grooming kit."
+        },
+        {
+          "q": "How often should I bathe a Chihuahua?",
+          "a": "Every 4–6 weeks is appropriate for most Chihuahuas that live indoors. More frequent bathing is needed if they swim or spend time in mud. Over-bathing strips natural skin oils — use a pH-balanced dog shampoo rather than human products."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training",
+      "slug": "chihuahua-training",
+      "faqs": [
+        {
+          "q": "Are Chihuahuas easy to train?",
+          "a": "Chihuahuas are independent thinkers and can be challenging to train. They respond best to high-value rewards and clear, consistent criteria. A structured puppy class from week one is strongly recommended."
+        },
+        {
+          "q": "What training method works best for a Chihuahua?",
+          "a": "Reward-based training using treats, praise and toy rewards is the most effective and well-researched approach for Chihuahuas. Clicker training with precise timing works well to mark the exact moment of correct behaviour. Avoid aversive methods — they increase anxiety and often create secondary behavioural problems."
+        },
+        {
+          "q": "At what age should I start training my Chihuahua?",
+          "a": "Start training from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations."
+        },
+        {
+          "q": "How long does it take to train a Chihuahua?",
+          "a": "Chihuahuas can take longer to reach reliable obedience than easier-to-train breeds — expect 3–6 months of consistent daily training for solid basics. Their independent nature means results compound slowly but durably with patience."
+        }
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "slug": "chihuahua-health",
+      "faqs": [
+        {
+          "q": "What health problems do Chihuahuas commonly have?",
+          "a": "Chihuahuas are most commonly associated with knee problems and other breed-specific conditions. Regular vet checks, appropriate weight management, and breed-specific screening tests help detect issues early. Ask any breeder for health test results before purchasing."
+        },
+        {
+          "q": "How long do Chihuahuas live?",
+          "a": "Chihuahuas have an average lifespan of 14–16 years. Small breeds often live longer than large breeds. Dental care is particularly important for small dogs, as dental disease is a common longevity issue."
+        },
+        {
+          "q": "Are Chihuahuas prone to hip dysplasia?",
+          "a": "Hip dysplasia is less common in Chihuahuas than in large working breeds, but it can still occur. Responsible breeders screen breeding stock. Keeping your Chihuahua at a healthy weight is the most effective preventive measure."
+        },
+        {
+          "q": "What health tests should a Chihuahua puppy have?",
+          "a": "At minimum, your Chihuahua puppy should have a vet health check, first vaccinations, deworming, and microchipping before coming home. Ask the breeder for parent health certificates relevant to Chihuahua-specific conditions. A vet check within 72 hours of bringing your puppy home is recommended to establish a baseline."
+        }
+      ]
+    },
+    "behavior": {
+      "label": "Behaviour",
+      "slug": "chihuahua-behavior",
+      "faqs": [
+        {
+          "q": "Are Chihuahuas good with kids?",
+          "a": "Chihuahuas can do well with children when properly socialised from puppyhood. Every dog is an individual — early exposure to children's behaviour (noise, sudden movements) is the most effective preparation."
+        },
+        {
+          "q": "Do Chihuahuas get along with other dogs?",
+          "a": "Chihuahuas are generally sociable with other dogs, particularly when well-socialised from puppyhood. Introduce new dogs on neutral territory and keep initial meetings brief and positive."
+        },
+        {
+          "q": "Do Chihuahuas bark a lot?",
+          "a": "Chihuahuas are not considered excessive barkers. They may alert to strangers or unusual sounds, but are generally manageable with basic training. Consistent \"quiet\" reinforcement from puppyhood keeps this in check."
+        },
+        {
+          "q": "Are Chihuahuas good apartment dogs?",
+          "a": "Chihuahuas adapt reasonably well to apartment living, particularly if they receive consistent daily walks and indoor enrichment. Their compact nature makes them less disruptive in confined spaces than high-energy large breeds."
+        }
+      ]
+    },
+    "exercise": {
+      "label": "Exercise",
+      "slug": "chihuahua-exercise",
+      "faqs": [
+        {
+          "q": "How much exercise does a Chihuahua need per day?",
+          "a": "Chihuahuas need approximately 45–60 minutes of exercise daily. A structured morning walk and an evening sniff walk usually cover their needs. Mental exercise (training sessions, puzzle feeders) counts toward overall stimulation needs and can reduce restless behaviour."
+        },
+        {
+          "q": "Are Chihuahuas good running partners?",
+          "a": "Chihuahuas can join you for moderate runs once fully grown. They're better suited to steady 3–5 mile runs than extended distance. Watch for signs of fatigue and always run in cooler hours during summer."
+        },
+        {
+          "q": "What happens if a Chihuahua doesn't get enough exercise?",
+          "a": "Chihuahuas are less demanding than high-energy breeds, but chronic under-exercise still leads to weight gain and low-level restlessness. Even lower-energy breeds benefit from a consistent daily walk for both physical health and mental stimulation."
+        },
+        {
+          "q": "Can a Chihuahua be off-lead?",
+          "a": "Chihuahuas can be off-lead in secure areas once recall is reliable. Reliable recall typically takes 3–4 months of consistent training with progressive distance and distractions. Never trust off-lead recall in an unfenced area until it's been tested in controlled conditions first."
+        }
+      ]
+    },
+    "feeding": {
+      "label": "Feeding",
+      "slug": "chihuahua-feeding",
+      "faqs": [
+        {
+          "q": "How much should I feed my Chihuahua?",
+          "a": "A Chihuahua needs approximately ½–1½ cups of dry food per day for an adult, split across two meals. Always follow the feeding guide on your specific formula — calorie density varies significantly between brands. Adjust portions based on body condition: you should be able to feel (but not easily see) the ribs."
+        },
+        {
+          "q": "How many times a day should I feed a Chihuahua?",
+          "a": "Adult Chihuahuas should eat twice daily. Puppies (under 6 months) need 3–4 smaller meals per day to support growth and prevent hypoglycaemia, particularly in small breeds. "
+        },
+        {
+          "q": "What is the best food for a Chihuahua?",
+          "a": "Look for a formula carrying an AAFCO adequacy statement for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear first in the ingredient list. Medium-energy Chihuahuas do well on standard adult maintenance formulas with named protein as the first ingredient."
+        },
+        {
+          "q": "When should I switch my Chihuahua from puppy to adult food?",
+          "a": "Small breeds typically transition to adult food around 12 months. Moving too late keeps them on higher-calorie puppy formulas that can cause weight gain in lower-activity adults."
+        }
+      ]
+    },
+    "suitability": {
+      "label": "Suitability",
+      "slug": "chihuahua-suitability",
+      "faqs": [
+        {
+          "q": "Is a Chihuahua a good dog for first-time owners?",
+          "a": "Chihuahuas can be challenging for first-time owners due to their independent temperament. Prior dog experience or professional training classes from the start significantly improves outcomes. Research the breed thoroughly before committing."
+        },
+        {
+          "q": "Are Chihuahuas good family dogs?",
+          "a": "Chihuahuas can be good family dogs when properly socialised. Their suitability depends more on individual temperament and upbringing than breed alone."
+        },
+        {
+          "q": "Do Chihuahuas do well when left alone?",
+          "a": "Chihuahuas form strong bonds with their owners and do not do well with extended isolation. Aim for no more than 4–6 hours alone at a time. If your schedule requires longer absences, consider a dog walker, doggy daycare, or a companion dog."
+        },
+        {
+          "q": "How much time do you need for a Chihuahua?",
+          "a": "Plan for 1.5–2 hours per day dedicated to your Chihuahua — covering exercise, training, feeding and general interaction.  The commitment is consistent year-round, not just when convenient."
+        }
+      ]
+    }
+  }
+}

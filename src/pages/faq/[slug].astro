@@ -1,0 +1,418 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export async function getStaticPaths() {
+  const faqDir = path.resolve('src/data/faq');
+  if (!fs.existsSync(faqDir)) return [];
+
+  const files = fs.readdirSync(faqDir).filter((f) => f.endsWith('.json'));
+  const paths = [];
+
+  for (const file of files) {
+    const data = JSON.parse(fs.readFileSync(path.join(faqDir, file), 'utf8'));
+    for (const [topicKey, topic] of Object.entries(data.topics || {})) {
+      paths.push({
+        params: { slug: `${data.breedSlug}-${topicKey}` },
+        props: {
+          breedSlug: data.breedSlug,
+          breedName: data.breedName,
+          topicKey,
+          topicLabel: topic.label,
+          faqs: topic.faqs,
+          allTopics: Object.entries(data.topics).map(([k, t]) => ({
+            key: k,
+            label: t.label,
+            slug: t.slug,
+          })),
+        },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { breedSlug, breedName, topicKey, topicLabel, faqs, allTopics } = Astro.props;
+
+const title = `${breedName} ${topicLabel}: Common Questions Answered`;
+const description = `Frequently asked questions about ${breedName} ${topicLabel.toLowerCase()} — answered with breed-specific guidance from PupWiki.`;
+const canonicalUrl = `https://pupwiki.com/faq/${breedSlug}-${topicKey}`;
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pupwiki.com/' },
+    { '@type': 'ListItem', position: 2, name: 'FAQ', item: 'https://pupwiki.com/faq' },
+    { '@type': 'ListItem', position: 3, name: breedName, item: `https://pupwiki.com/faq/${breedSlug}-cost` },
+    { '@type': 'ListItem', position: 4, name: topicLabel },
+  ],
+};
+
+const faqPageLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq: { q: string; a: string }) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.a,
+    },
+  })),
+};
+
+const articleLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  url: canonicalUrl,
+  datePublished: '2026-05-14',
+  dateModified: '2026-05-14',
+  author: { '@type': 'Organization', name: 'PupWiki', url: 'https://pupwiki.com' },
+  publisher: { '@type': 'Organization', name: 'PupWiki', url: 'https://pupwiki.com' },
+};
+
+const TOPIC_ICONS: Record<string, string> = {
+  cost: '💰', grooming: '✂️', training: '🦮', health: '🩺',
+  behavior: '🐾', exercise: '🏃', feeding: '🍖', suitability: '🏠',
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalUrl={canonicalUrl}
+  pageType="article"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(faqPageLd)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(articleLd)} slot="head" />
+
+  <div class="faq-page">
+    <div class="container">
+
+      <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol class="breadcrumb__list">
+          <li class="breadcrumb__item">
+            <a href="/" class="breadcrumb__link">Home</a>
+            <span class="breadcrumb__sep" aria-hidden="true">›</span>
+          </li>
+          <li class="breadcrumb__item">
+            <a href="/faq" class="breadcrumb__link">FAQ</a>
+            <span class="breadcrumb__sep" aria-hidden="true">›</span>
+          </li>
+          <li class="breadcrumb__item">
+            <a href={`/breeds/${breedSlug}`} class="breadcrumb__link">{breedName}</a>
+            <span class="breadcrumb__sep" aria-hidden="true">›</span>
+          </li>
+          <li class="breadcrumb__item">
+            <span class="breadcrumb__current" aria-current="page">{topicLabel}</span>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="faq-page__layout">
+
+        <main class="faq-page__main">
+          <header class="faq-page__header">
+            <div class="faq-page__badges">
+              <span class="faq-page__badge faq-page__badge--breed">{breedName}</span>
+              <span class="faq-page__badge faq-page__badge--topic">
+                {TOPIC_ICONS[topicKey] || '🐶'} {topicLabel}
+              </span>
+            </div>
+            <h1 class="faq-page__title">{breedName} {topicLabel}: Common Questions Answered</h1>
+            <p class="faq-page__lead">
+              Breed-specific answers to common questions about {breedName} {topicLabel.toLowerCase()}.
+              All guidance is matched to the {breedName}'s size, energy level and known traits.
+            </p>
+          </header>
+
+          <div class="faq-page__questions" itemscope itemtype="https://schema.org/FAQPage">
+            {faqs.map((faq: { q: string; a: string }, i: number) => (
+              <div
+                class="faq-page__qa"
+                itemscope
+                itemprop="mainEntity"
+                itemtype="https://schema.org/Question"
+              >
+                <h2 class="faq-page__q" itemprop="name">
+                  <span class="faq-page__q-num">{i + 1}</span>
+                  {faq.q}
+                </h2>
+                <div
+                  class="faq-page__a"
+                  itemscope
+                  itemprop="acceptedAnswer"
+                  itemtype="https://schema.org/Answer"
+                >
+                  <p itemprop="text">{faq.a}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <footer class="faq-page__footer">
+            <p class="faq-page__disclaimer">
+              This page provides general breed-specific guidance and does not replace professional veterinary,
+              behavioural, or financial advice. Individual dogs vary significantly within any breed.
+            </p>
+          </footer>
+        </main>
+
+        <aside class="faq-page__sidebar">
+          <div class="faq-page__sidebar-card">
+            <h3 class="faq-page__sidebar-title">More {breedName} Topics</h3>
+            <ul class="faq-page__topic-list">
+              {allTopics.map((t) => (
+                <li>
+                  <a
+                    href={`/faq/${t.slug}`}
+                    class={`faq-page__topic-link${t.key === topicKey ? ' faq-page__topic-link--active' : ''}`}
+                  >
+                    {TOPIC_ICONS[t.key] || '🐶'} {t.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="faq-page__sidebar-card">
+            <h3 class="faq-page__sidebar-title">{breedName} Resources</h3>
+            <ul class="faq-page__resource-list">
+              <li><a href={`/breeds/${breedSlug}`} class="faq-page__resource-link">🐶 {breedName} Breed Guide</a></li>
+              <li><a href={`/cost-calculator/${breedSlug}`} class="faq-page__resource-link">💰 {breedName} Cost Calculator</a></li>
+              <li><a href={`/dog-names/${breedSlug}`} class="faq-page__resource-link">✍️ {breedName} Dog Names</a></li>
+              <li><a href="/faq" class="faq-page__resource-link">📚 FAQ Hub</a></li>
+            </ul>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+.faq-page {
+  padding-block: var(--space-10);
+}
+
+.faq-page .container {
+  max-width: 1100px;
+  margin-inline: auto;
+  padding-inline: var(--space-4);
+}
+
+.faq-page__layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: var(--space-8);
+  margin-block-start: var(--space-6);
+  align-items: start;
+}
+
+.faq-page__header {
+  margin-block-end: var(--space-8);
+}
+
+.faq-page__badges {
+  display: flex;
+  gap: var(--space-2);
+  margin-block-end: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.faq-page__badge {
+  display: inline-block;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.faq-page__badge--breed {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.faq-page__badge--topic {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.faq-page__title {
+  font-family: var(--font-display);
+  font-size: clamp(var(--text-xl), 3vw, var(--text-3xl));
+  color: var(--color-heading);
+  line-height: 1.25;
+  margin-block-end: var(--space-3);
+}
+
+.faq-page__lead {
+  font-size: var(--text-base);
+  color: var(--color-body-soft);
+  line-height: 1.65;
+  max-width: 60ch;
+}
+
+.faq-page__questions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.faq-page__qa {
+  border-block-start: 2px solid var(--color-border);
+  padding-block-start: var(--space-5);
+}
+
+.faq-page__q {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-semibold);
+  color: var(--color-heading);
+  line-height: 1.35;
+  margin-block-end: var(--space-3);
+}
+
+.faq-page__q-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  min-width: 1.75rem;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  font-family: var(--font-body);
+  line-height: 1;
+}
+
+.faq-page__a {
+  padding-inline-start: calc(1.75rem + var(--space-3));
+}
+
+.faq-page__a p {
+  font-size: var(--text-base);
+  color: var(--color-body);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.faq-page__footer {
+  margin-block-start: var(--space-10);
+  padding-block-start: var(--space-4);
+  border-block-start: 1px solid var(--color-border);
+}
+
+.faq-page__disclaimer {
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0;
+}
+
+.faq-page__sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.faq-page__sidebar-card {
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.faq-page__sidebar-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-body-soft);
+  margin-block-end: var(--space-3);
+}
+
+.faq-page__topic-list,
+.faq-page__resource-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.faq-page__topic-link,
+.faq-page__resource-link {
+  display: block;
+  padding: var(--space-2) var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  transition: background var(--transition-base), color var(--transition-base);
+}
+
+.faq-page__topic-link:hover,
+.faq-page__resource-link:hover {
+  background: var(--color-surface-raised);
+  color: var(--color-accent);
+}
+
+.faq-page__topic-link--active {
+  background: var(--color-accent);
+  color: #fff;
+  font-weight: var(--weight-semibold);
+}
+
+.faq-page__topic-link--active:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* Breadcrumb */
+.breadcrumb { padding-block: var(--space-3); }
+.breadcrumb__list { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1); list-style: none; padding: 0; margin: 0; }
+.breadcrumb__item { display: inline-flex; align-items: center; gap: var(--space-1); }
+.breadcrumb__link { font-size: var(--text-sm); color: var(--color-muted); text-decoration: none; transition: color var(--transition-base); }
+.breadcrumb__link:hover { color: var(--color-heading); }
+.breadcrumb__current { font-size: var(--text-sm); color: var(--color-body-soft); font-weight: var(--weight-medium); }
+.breadcrumb__sep { color: var(--color-placeholder); font-size: var(--text-sm); }
+
+@media (max-width: 1024px) {
+  .faq-page__layout {
+    grid-template-columns: 1fr;
+  }
+  .faq-page__sidebar {
+    order: -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .faq-page__sidebar {
+    grid-template-columns: 1fr;
+  }
+  .faq-page__q {
+    font-size: var(--text-base);
+  }
+}
+</style>

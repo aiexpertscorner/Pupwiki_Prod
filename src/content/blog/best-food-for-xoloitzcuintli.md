@@ -46,7 +46,16 @@ This page helps Xoloitzcuintli people compare useful brands, products and servic
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Xoloitzcuintli
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Xoloitzcuintli is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+Prioritise formulas with an AAFCO adequacy statement — this confirms the recipe is complete and balanced. Named proteins should appear before grains in the ingredient list. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Xoloitzcuintli is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+### What to look for in food for a Xoloitzcuintli
+Medium breeds like the Xoloitzcuintli do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Xoloitzcuintlis are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands.
+### Frequently asked questions about Xoloitzcuintli feeding
+**How much should I feed my Xoloitzcuintli?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Xoloitzcuintlis need 2–3 meals per day as adults.
+**What food formula works best for a Xoloitzcuintli?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my Xoloitzcuintli from puppy to adult food?**
+Most Xoloitzcuintlis can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > Xoloitzcuintli](/breeds/xoloitzcuintli)
 - [Categories > Dog Food](/categories/dog-food)

@@ -46,7 +46,16 @@ This page helps Grand Basset Griffon Vendéen people compare useful brands, prod
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Grand Basset Griffon Vendéen
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Grand Basset Griffon Vendéen is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+An AAFCO-approved formula with a whole protein source — chicken, beef, salmon, or turkey — listed first is the baseline standard. Avoid formulas where the first ingredient is a grain or generic "meat by-products". Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Grand Basset Griffon Vendéen is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+### What to look for in food for a Grand Basset Griffon Vendéen
+Medium breeds like the Grand Basset Griffon Vendéen do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Grand Basset Griffon Vendéens are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands.
+### Frequently asked questions about Grand Basset Griffon Vendéen feeding
+**How much should I feed my Grand Basset Griffon Vendéen?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Grand Basset Griffon Vendéens need 2–3 meals per day as adults.
+**What food formula works best for a Grand Basset Griffon Vendéen?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my Grand Basset Griffon Vendéen from puppy to adult food?**
+Most Grand Basset Griffon Vendéens can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > Grand Basset Griffon Venden](/breeds/grand-basset-griffon-venden)
 - [Categories > Dog Food](/categories/dog-food)

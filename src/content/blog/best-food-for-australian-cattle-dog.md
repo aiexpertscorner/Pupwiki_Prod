@@ -46,7 +46,16 @@ This page helps Australian Cattle Dog people compare useful brands, products and
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Australian Cattle Dog
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Australian Cattle Dog is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Australian Cattle Dog is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+### What to look for in food for a Australian Cattle Dog
+Medium breeds like the Australian Cattle Dog do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Australian Cattle Dogs are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands. Australian Cattle Dogs shed seasonally — look for formulas that include omega-3 fatty acids (EPA/DHA from salmon or fish oil) to support coat health from the inside out.
+### Frequently asked questions about Australian Cattle Dog feeding
+**How much should I feed my Australian Cattle Dog?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Australian Cattle Dogs need 2–3 meals per day as adults.
+**What food formula works best for a Australian Cattle Dog?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my Australian Cattle Dog from puppy to adult food?**
+Most Australian Cattle Dogs can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > Australian Cattle Dog](/breeds/australian-cattle-dog)
 - [Categories > Dog Food](/categories/dog-food)

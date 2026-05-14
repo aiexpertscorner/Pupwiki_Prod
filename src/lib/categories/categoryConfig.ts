@@ -339,3 +339,22 @@ export const PREFERRED_BREED_SLUGS = [
   'cavalier-king-charles-spaniel',
   'goldendoodle',
 ] as const;
+
+// ─── Unified cluster config re-exports ───────────────────────────────────────
+// New code should import from unifiedClusterConfig directly. These re-exports
+// make the unified API available from this module without migrating all callers.
+
+export {
+  CLUSTERS,
+  DYNAMIC_CATEGORY_SLUGS,
+  getCluster,
+  getClusterAwinTags,
+  getClusterAmazonSearches,
+  getRelatedClusters,
+  isDynamicCategorySlug,
+  type UnifiedCluster,
+  type AmazonSearch,
+  type ClusterLink,
+  type ClusterCta,
+  type ClusterType,
+} from '../content/unifiedClusterConfig';

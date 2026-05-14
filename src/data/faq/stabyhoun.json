@@ -1,0 +1,183 @@
+{
+  "breedSlug": "stabyhoun",
+  "breedName": "Stabyhoun",
+  "generatedAt": "2026-05-14",
+  "topics": {
+    "cost": {
+      "label": "Cost",
+      "slug": "stabyhoun-cost",
+      "faqs": [
+        {
+          "q": "How much does a Stabyhoun cost to buy?",
+          "a": "Reputable breeders typically charge $800–$3,000 for a Stabyhoun puppy. Prices vary by breeder reputation, health testing, and lineage. Rescue adoption fees are typically $100–$500 and include vaccinations, neutering, and microchipping."
+        },
+        {
+          "q": "What is the monthly cost of owning a Stabyhoun?",
+          "a": "Budget $150–$300 per month for a Stabyhoun, covering food, preventive vet care, insurance, grooming and supplies. Mid-size breeds sit in the moderate cost range across most ownership categories."
+        },
+        {
+          "q": "What are the biggest ongoing costs for a Stabyhoun?",
+          "a": "The three largest annual expenses are food ($500–900), veterinary care ($400–$1,200 budgeted annually), and pet insurance ($$400–$1,200 per year). Grooming costs are lower for short-coated breeds managed at home."
+        },
+        {
+          "q": "How much does a Stabyhoun cost in the first year?",
+          "a": "Year one costs for a Stabyhoun are significantly higher than subsequent years, typically $2,000–$4,000. This covers the purchase price or adoption fee, initial vet checks, vaccinations, spay/neuter, microchipping, crate, bedding, collar, leads and puppy training classes."
+        }
+      ]
+    },
+    "grooming": {
+      "label": "Grooming",
+      "slug": "stabyhoun-grooming",
+      "faqs": [
+        {
+          "q": "How often should I groom a Stabyhoun?",
+          "a": "Stabyhouns need brushing 3–5 times per week, daily during seasonal coat blows. The dense undercoat requires a dedicated undercoat rake, not just a surface slicker brush. Nails should be trimmed every 3–4 weeks. Ears should be checked and cleaned monthly."
+        },
+        {
+          "q": "Do Stabyhouns shed a lot?",
+          "a": "Stabyhouns have seasonal shedding — manageable with a consistent brushing routine. "
+        },
+        {
+          "q": "What grooming tools does a Stabyhoun need?",
+          "a": "A slicker brush for surface debris and an undercoat rake for the dense undercoat are both essential. A shedding blade or deshedding tool helps during heavy moult periods. A nail grinder is useful if your Stabyhoun is sensitive to clippers."
+        },
+        {
+          "q": "How often should I bathe a Stabyhoun?",
+          "a": "Every 4–6 weeks is appropriate for most Stabyhouns that live indoors. More frequent bathing is needed if they swim or spend time in mud. Over-bathing strips natural skin oils — use a pH-balanced dog shampoo rather than human products."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training",
+      "slug": "stabyhoun-training",
+      "faqs": [
+        {
+          "q": "Are Stabyhouns easy to train?",
+          "a": "Stabyhouns are considered easier to train than average — they respond quickly to reward-based methods and generalise cues well. Short 10–15 minute sessions outperform long correction-heavy drills."
+        },
+        {
+          "q": "What training method works best for a Stabyhoun?",
+          "a": "Reward-based training using treats, praise and toy rewards is the most effective and well-researched approach for Stabyhouns. Keep sessions short and positive, end on a success, and vary your rewards to maintain engagement."
+        },
+        {
+          "q": "At what age should I start training my Stabyhoun?",
+          "a": "Start training from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations."
+        },
+        {
+          "q": "How long does it take to train a Stabyhoun?",
+          "a": "Most Stabyhouns learn basic obedience cues (sit, stay, come, down) within 2–4 weeks of daily practice. Reliable recall in distracting environments typically takes 2–3 months of consistent reinforcement."
+        }
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "slug": "stabyhoun-health",
+      "faqs": [
+        {
+          "q": "What health problems do Stabyhouns commonly have?",
+          "a": "Stabyhouns are most commonly associated with routine age-related conditions. Regular vet checks, appropriate weight management, and breed-specific screening tests help detect issues early. Ask any breeder for health test results before purchasing."
+        },
+        {
+          "q": "How long do Stabyhouns live?",
+          "a": "Stabyhouns have an average lifespan of 13–15 years. Good nutrition, appropriate exercise, weight management and regular vet visits are the key factors in achieving the upper end of this range."
+        },
+        {
+          "q": "Are Stabyhouns prone to hip dysplasia?",
+          "a": "Hip dysplasia is less common in Stabyhouns than in large working breeds, but it can still occur. Responsible breeders screen breeding stock. Keeping your Stabyhoun at a healthy weight is the most effective preventive measure."
+        },
+        {
+          "q": "What health tests should a Stabyhoun puppy have?",
+          "a": "At minimum, your Stabyhoun puppy should have a vet health check, first vaccinations, deworming, and microchipping before coming home. Ask the breeder for parent health certificates relevant to Stabyhoun-specific conditions. A vet check within 72 hours of bringing your puppy home is recommended to establish a baseline."
+        }
+      ]
+    },
+    "behavior": {
+      "label": "Behaviour",
+      "slug": "stabyhoun-behavior",
+      "faqs": [
+        {
+          "q": "Are Stabyhouns good with kids?",
+          "a": "Stabyhouns are generally known for being friendly and patient, making them well-suited to family life with children. Supervision is always recommended with young children regardless of breed — interactions should be taught from both sides."
+        },
+        {
+          "q": "Do Stabyhouns get along with other dogs?",
+          "a": "Stabyhouns are generally sociable with other dogs, particularly when well-socialised from puppyhood. Introduce new dogs on neutral territory and keep initial meetings brief and positive."
+        },
+        {
+          "q": "Do Stabyhouns bark a lot?",
+          "a": "Stabyhouns tend to be vocal — they may bark at strangers, sounds, or when under-stimulated. Adequate daily exercise and mental enrichment (training sessions, puzzle feeders) significantly reduce nuisance barking. Teaching a \"quiet\" cue early is worthwhile."
+        },
+        {
+          "q": "Are Stabyhouns good apartment dogs?",
+          "a": "Stabyhouns can live in apartments if their exercise needs are met consistently. The key variable is owner commitment to daily walks and enrichment — breed size alone doesn't determine apartment suitability."
+        }
+      ]
+    },
+    "exercise": {
+      "label": "Exercise",
+      "slug": "stabyhoun-exercise",
+      "faqs": [
+        {
+          "q": "How much exercise does a Stabyhoun need per day?",
+          "a": "Stabyhouns need approximately 60–90 minutes of exercise daily. Split across at least two sessions daily, with one higher-intensity session (running, fetch, swimming) and one loose-lead sniff walk. Mental exercise (training sessions, puzzle feeders) counts toward overall stimulation needs and can reduce restless behaviour."
+        },
+        {
+          "q": "Are Stabyhouns good running partners?",
+          "a": "Yes — Stabyhouns make excellent running partners once fully grown (typically 12–18 months for medium breeds, 18–24 months for large breeds). Start with shorter distances and build gradually to protect developing joints."
+        },
+        {
+          "q": "What happens if a Stabyhoun doesn't get enough exercise?",
+          "a": "Under-exercised Stabyhouns often develop destructive behaviours — chewing, digging, excessive barking, and hyperactivity indoors. These are symptoms of frustration, not bad temperament. Two missed exercise sessions back-to-back typically shows up as restlessness or nuisance behaviour."
+        },
+        {
+          "q": "Can a Stabyhoun be off-lead?",
+          "a": "Off-lead freedom for a Stabyhoun depends on recall reliability, not breed alone. Train recall from puppyhood using long-line sessions before progressing to full off-lead. A standard 20-foot long-line gives freedom while maintaining safety during the training phase."
+        }
+      ]
+    },
+    "feeding": {
+      "label": "Feeding",
+      "slug": "stabyhoun-feeding",
+      "faqs": [
+        {
+          "q": "How much should I feed my Stabyhoun?",
+          "a": "A Stabyhoun needs approximately 1½–3 cups of dry food per day for an adult, split across two meals. Always follow the feeding guide on your specific formula — calorie density varies significantly between brands. Adjust portions based on body condition: you should be able to feel (but not easily see) the ribs."
+        },
+        {
+          "q": "How many times a day should I feed a Stabyhoun?",
+          "a": "Adult Stabyhouns should eat twice daily. Puppies (under 6 months) need 3–4 smaller meals per day to support growth and prevent hypoglycaemia, particularly in small breeds. "
+        },
+        {
+          "q": "What is the best food for a Stabyhoun?",
+          "a": "Look for a formula carrying an AAFCO adequacy statement for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear first in the ingredient list. Active Stabyhouns benefit from higher-protein formulas (26–30% crude protein) to support muscle maintenance."
+        },
+        {
+          "q": "When should I switch my Stabyhoun from puppy to adult food?",
+          "a": "Most Stabyhouns can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days — mix 25% new food with 75% old food and shift the ratio every 2 days to avoid digestive upset."
+        }
+      ]
+    },
+    "suitability": {
+      "label": "Suitability",
+      "slug": "stabyhoun-suitability",
+      "faqs": [
+        {
+          "q": "Is a Stabyhoun a good dog for first-time owners?",
+          "a": "Stabyhouns are manageable for motivated first-time owners who research the breed, commit to early training, and have realistic expectations about time and cost."
+        },
+        {
+          "q": "Are Stabyhouns good family dogs?",
+          "a": "Stabyhouns are typically affectionate family dogs that do well with children and adapt to household routines. Their sociable nature means they prefer company over isolation."
+        },
+        {
+          "q": "Do Stabyhouns do well when left alone?",
+          "a": "Stabyhouns form strong bonds with their owners and do not do well with extended isolation. Aim for no more than 4–6 hours alone at a time. If your schedule requires longer absences, consider a dog walker, doggy daycare, or a companion dog."
+        },
+        {
+          "q": "How much time do you need for a Stabyhoun?",
+          "a": "Plan for 2–3 hours per day dedicated to your Stabyhoun — covering exercise, training, feeding and general interaction.  The commitment is consistent year-round, not just when convenient."
+        }
+      ]
+    }
+  }
+}

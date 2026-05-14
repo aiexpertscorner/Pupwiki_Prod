@@ -46,7 +46,16 @@ This page helps Bohemian Shepherd people compare useful brands, products and ser
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Bohemian Shepherd
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.
+An AAFCO-approved formula with a whole protein source — chicken, beef, salmon, or turkey — listed first is the baseline standard. Avoid formulas where the first ingredient is a grain or generic "meat by-products". Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.
+### What to look for in food for a Bohemian Shepherd
+Medium breeds like the Bohemian Shepherd do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Bohemian Shepherd needs fewer calories than an athletic one.
+### Frequently asked questions about Bohemian Shepherd feeding
+**How much should I feed my Bohemian Shepherd?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Bohemian Shepherds need 2–3 meals per day as adults.
+**What food formula works best for a Bohemian Shepherd?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my Bohemian Shepherd from puppy to adult food?**
+Most Bohemian Shepherds can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > Bohemian Shepherd](/breeds/bohemian-shepherd)
 - [Categories > Dog Food](/categories/dog-food)

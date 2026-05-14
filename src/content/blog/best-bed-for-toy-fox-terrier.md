@@ -48,6 +48,15 @@ This page helps Toy Fox Terrier people compare useful brands, products and servi
 [View at Petmate](https://www.awin1.com/awclick.php?mid=89913&id=2861861){rel="nofollow sponsored"}
 ## How to choose for a Toy Fox Terrier
 Measure your dog stretched out fully, add 12 inches, then match to the bed's stated usable sleep surface. Check whether the cover is machine washable.
+### What to look for in a bed for a Toy Fox Terrier
+Measure your Toy Fox Terrier when fully stretched — add 12 inches to that length for the ideal sleep surface. Smaller breeds often prefer bolster or donut-style beds that let them curl up, rather than flat mats. Orthopedic foam matters most once your Toy Fox Terrier reaches 7+ years — earlier than most owners expect for medium breeds. If your dog is already showing joint stiffness, prioritise pressure-relief foam over aesthetics. Active Toy Fox Terriers tend to dig and circle before lying down — look for beds with reinforced stitching at the corners and a water-resistant inner liner to extend the usable lifespan.
+### Frequently asked questions about Toy Fox Terrier beds
+**What size bed does a Toy Fox Terrier need?**
+Measure your Toy Fox Terrier when fully stretched out and add 12 inches. Small breeds often sleep curled up but still need space to stretch — a 24–30 inch bed usually covers most small-breed dogs.
+**Is an orthopedic bed worth it for a Toy Fox Terrier?**
+For any dog over 7 years, or one already showing joint stiffness, an orthopedic foam bed offers meaningful pressure relief. For younger healthy Toy Fox Terriers, a quality foam bed with a washable cover is adequate — you can upgrade as they age.
+**How often should I replace my Toy Fox Terrier's bed?**
+Most dog beds need replacing every 1–2 years under regular use. Signs it's time: visible compression of the foam (it no longer springs back), persistent odour after washing, or your Toy Fox Terrier choosing the floor over the bed.
 ## Related PupWiki guides
 - [Breeds > Toy Fox Terrier](/breeds/toy-fox-terrier)
 - [Categories > Beds](/categories/beds)
