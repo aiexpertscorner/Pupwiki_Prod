@@ -1,9 +1,4 @@
 ---
-export interface HiddenField {
-  name: string;
-  value: string;
-}
-
 export interface LinkItem {
   label: string;
   href: string;
@@ -13,11 +8,6 @@ export interface Props {
   id?: string;
   title?: string;
   description?: string;
-  formAction?: string;
-  method?: 'POST' | 'GET';
-  emailPlaceholder?: string;
-  buttonLabel?: string;
-  hiddenFields?: HiddenField[];
   fallbackPrimary?: LinkItem;
   fallbackSecondary?: LinkItem;
   disclaimer?: string;
@@ -25,19 +15,12 @@ export interface Props {
 
 const {
   id = 'home-lead-capture',
-  title = 'Better care starts here.',
-  description = 'Get practical breed guides, care tips, and product recommendations — straight to your inbox. No fluff.',
-  formAction = '',
-  method = 'POST',
-  emailPlaceholder = 'your@email.com',
-  buttonLabel = 'Subscribe free',
-  hiddenFields = [],
-  fallbackPrimary = { label: 'Explore Breeds', href: '/breeds' },
-  fallbackSecondary = { label: 'Read the Blog', href: '/blog' },
-  disclaimer = 'No spam. Only practical dog guidance and occasional curated recommendations.',
+  title = 'Ready to find your perfect dog?',
+  description = 'Explore 352 breed and mixed breed guides, estimate real ownership costs, and find the right match for your lifestyle.',
+  fallbackPrimary = { label: 'Browse All Breeds', href: '/breeds' },
+  fallbackSecondary = { label: 'Cost Calculator', href: '/cost-calculator' },
+  disclaimer = 'Free to use. No account required.',
 } = Astro.props;
-
-const hasLiveForm = typeof formAction === 'string' && formAction.trim().length > 0;
 ---
 
 <section id={id} class="pw-capture">
@@ -60,36 +43,17 @@ const hasLiveForm = typeof formAction === 'string' && formAction.trim().length >
         <h2 class="pw-capture__title">{title}</h2>
         <p class="pw-capture__desc">{description}</p>
 
-        {hasLiveForm ? (
-          <form action={formAction} method={method} class="pw-capture__form">
-            {hiddenFields.map((field) => (
-              <input type="hidden" name={field.name} value={field.value} />
-            ))}
-            <div class="pw-capture__form-row">
-              <input
-                type="email"
-                name="email"
-                required
-                placeholder={emailPlaceholder}
-                class="pw-capture__email-input"
-                autocomplete="email"
-              />
-              <button type="submit" class="pw-capture__submit">{buttonLabel}</button>
-            </div>
-          </form>
-        ) : (
-          <div class="pw-capture__cta-row">
-            <a href={fallbackPrimary.href} class="pw-capture__cta-primary">
-              {fallbackPrimary.label}
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true">
-                <path d="M5 12h14M13 6l6 6-6 6"/>
-              </svg>
-            </a>
-            <a href={fallbackSecondary.href} class="pw-capture__cta-secondary">
-              {fallbackSecondary.label}
-            </a>
-          </div>
-        )}
+        <div class="pw-capture__cta-row">
+          <a href={fallbackPrimary.href} class="pw-capture__cta-primary">
+            {fallbackPrimary.label}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true">
+              <path d="M5 12h14M13 6l6 6-6 6"/>
+            </svg>
+          </a>
+          <a href={fallbackSecondary.href} class="pw-capture__cta-secondary">
+            {fallbackSecondary.label}
+          </a>
+        </div>
 
         <p class="pw-capture__disclaimer">{disclaimer}</p>
       </div>

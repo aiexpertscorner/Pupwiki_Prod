@@ -4,9 +4,11 @@ export interface EditorialCard {
   title: string;
   description: string;
   href: string;
-  image?: string;
+  imageUrl?: string;
+  imageAlt?: string;
   readTime?: string;
   date?: string;
+  publishedAt?: string;
 }
 
 export interface Props {
@@ -71,10 +73,10 @@ const {
           return (
             <a href={item.href} class="pw-editorial__card">
               <div class="pw-editorial__card-img-wrap">
-                {item.image ? (
+                {item.imageUrl ? (
                   <img
-                    src={item.image}
-                    alt={item.title}
+                    src={item.imageUrl}
+                    alt={item.imageAlt || item.title}
                     class="pw-editorial__card-img"
                     loading="lazy"
                     decoding="async"
