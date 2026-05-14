@@ -1,16 +1,20 @@
 ---
 import NameLayout from '../../layouts/NameLayout.astro';
 import masterBreeds from '../../data/master-breeds.json';
+import masterCrossbreeds from '../../data/master-crossbreeds.json';
 import allNamesData from '../../data/dog-names.json';
 import breedLinkMap from '../../data/breed-link-map.json';
 import productIndex from '../../data/product-index.json';
 
+const allBreeds = [...(masterBreeds as any[]), ...(masterCrossbreeds as any[])];
+
 export function getStaticPaths() {
-  return (masterBreeds as any[]).map((b) => ({ params: { breed: b.slug } }));
+  const breeds = [...(masterBreeds as any[]), ...(masterCrossbreeds as any[])];
+  return breeds.filter((b) => b?.slug).map((b) => ({ params: { breed: b.slug } }));
 }
 
 const { breed: slug } = Astro.params;
-const b = (masterBreeds as any[]).find((x) => x.slug === slug);
+const b = allBreeds.find((x) => x.slug === slug);
 
 if (!b) return Astro.redirect('/dog-names');
 
@@ -126,7 +130,7 @@ const intel_note = rank.intelligence_rank
   ? `Ranked #${rank.intelligence_rank} in canine intelligence, ${n}s learn their name quickly — 1–2 syllable names ending in a vowel work best.`
   : `${n}s respond best to 1–2 syllable names ending in a vowel (Bella, Milo, Daisy).`;
 
-const relatedBreeds = (masterBreeds as any[])
+const relatedBreeds = allBreeds
   .filter((x) => x.slug !== slug && x.size_category === b.size_category && x.image_url)
   .slice(0, 4);
 

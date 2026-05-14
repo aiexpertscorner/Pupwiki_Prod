@@ -11,15 +11,17 @@ const { slug, breed_name, content, link_map } = Astro.props;
 const n = breed_name;
 
 const CLUSTERS = [
-  { key: 'food_post',       href: link_map.food_post,       emoji: '🍖', label: `Best food for ${n}s`,       priority: 'P1' },
-  { key: 'toy_post',        href: link_map.toy_post,         emoji: '🎾', label: `Best toys for ${n}s`,       priority: 'P1' },
-  { key: 'names_page',      href: link_map.names_page,       emoji: '✍️', label: `${n} names`,                priority: 'P1' },
-  { key: 'bed_post',        href: link_map.bed_post,         emoji: '🛏️', label: `Best beds for ${n}s`,       priority: 'P2' },
-  { key: 'grooming_post',   href: link_map.grooming_post,    emoji: '✂️', label: `${n} grooming guide`,       priority: 'P2' },
-  { key: 'health_post',     href: link_map.health_post,      emoji: '🩺', label: `${n} health problems`,      priority: 'P2' },
-  { key: 'supplement_post', href: link_map.supplement_post,  emoji: '💊', label: `Best supplements for ${n}s`,priority: 'P3' },
-  { key: 'training_post',   href: link_map.training_post,    emoji: '🦮', label: `How to train a ${n}`,       priority: 'P3' },
-  { key: 'cost_calculator', href: link_map.cost_calculator,  emoji: '💰', label: `${n} cost guide`,           priority: 'P3' },
+  { key: 'food_post',       href: link_map.food_post,       emoji: '🍖', label: `Best food for ${n}s`,        priority: 'P1', hideWhenMissing: false },
+  { key: 'toy_post',        href: link_map.toy_post,         emoji: '🎾', label: `Best toys for ${n}s`,        priority: 'P1', hideWhenMissing: false },
+  { key: 'names_page',      href: link_map.names_page,       emoji: '✍️', label: `${n} names`,                 priority: 'P1', hideWhenMissing: false },
+  { key: 'bed_post',        href: link_map.bed_post,         emoji: '🛏️', label: `Best beds for ${n}s`,        priority: 'P2', hideWhenMissing: false },
+  { key: 'grooming_post',   href: link_map.grooming_post,    emoji: '✂️', label: `${n} grooming guide`,        priority: 'P2', hideWhenMissing: false },
+  // health_post < 5% coverage — only show link when content actually exists
+  { key: 'health_post',     href: link_map.health_post,      emoji: '🩺', label: `${n} health problems`,       priority: 'P2', hideWhenMissing: true },
+  // supplement_post ~0% coverage — suppress placeholder until content exists
+  { key: 'supplement_post', href: link_map.supplement_post,  emoji: '💊', label: `Best supplements for ${n}s`, priority: 'P3', hideWhenMissing: true },
+  { key: 'training_post',   href: link_map.training_post,    emoji: '🦮', label: `How to train a ${n}`,        priority: 'P3', hideWhenMissing: false },
+  { key: 'cost_calculator', href: link_map.cost_calculator,  emoji: '💰', label: `${n} cost guide`,            priority: 'P3', hideWhenMissing: false },
 ];
 ---
 
@@ -27,6 +29,7 @@ const CLUSTERS = [
   <div class="cluster-nav">
     {CLUSTERS.map(c => {
       const done = content[c.key];
+      if (!done && c.hideWhenMissing) return null;
       return done ? (
         <a href={c.href} class="cluster-nav__item cluster-nav__item--done">
           <span class="cluster-nav__emoji" aria-hidden="true">{c.emoji}</span>

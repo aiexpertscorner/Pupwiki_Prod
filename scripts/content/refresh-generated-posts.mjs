@@ -328,7 +328,7 @@ for (const filename of readdirSync(BLOG_DIR).filter((file) => file.endsWith('.md
     productFamilies: yamlList([copy.familyKey, clusterData.cluster]),
     awinTopicTags: yamlList(clusterData.tags),
     amazonQueries: yamlList(clusterData.amazonQueries),
-    internalLinkTargets: yamlList([`/breeds/${breed.slug}`, `/categories/${clusterData.cluster}`, '/cost-calculator', '/dog-names', '/categories/puppy', '/categories/senior-dogs', '/categories/insurance']),
+    internalLinkTargets: yamlList([`/breeds/${breed.slug}`, `/categories/${clusterData.cluster}`, '/cost-calculator', '/dog-names', '/categories/puppy', '/categories/senior-dogs', '/pet-insurance']),
     generated: 'true',
     indexInBlog: 'false',
     reviewMethod: quote(normalizeReviewMethod(copy.reviewMethod)),

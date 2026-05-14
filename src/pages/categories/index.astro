@@ -1,0 +1,265 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/primitives/Breadcrumb.astro';
+import { CATEGORY_META, CATEGORY_SLUGS } from '../../lib/categories/categoryConfig';
+
+const dynamicCategories = CATEGORY_SLUGS.map((slug) => ({
+  slug,
+  href: `/categories/${slug}`,
+  ...CATEGORY_META[slug],
+}));
+
+const staticCategories = [
+  {
+    slug: 'puppy',
+    href: '/categories/puppy',
+    title: 'Puppy Essentials',
+    shortTitle: 'Puppy',
+    desc: 'First-year puppy guides, gear, vaccinations, feeding schedules and new-owner planning resources.',
+    emoji: '🐶',
+  },
+  {
+    slug: 'senior-dogs',
+    href: '/categories/senior-dogs',
+    title: 'Senior Dogs',
+    shortTitle: 'Senior',
+    desc: 'Care planning, comfort, health monitoring and nutrition resources for dogs aged 7 and older.',
+    emoji: '🐕',
+  },
+  {
+    slug: 'insurance',
+    href: '/pet-insurance',
+    title: 'Pet Insurance',
+    shortTitle: 'Insurance',
+    desc: 'Breed-specific pet insurance cost estimates, coverage comparisons and owner planning guides.',
+    emoji: '🛡️',
+  },
+  {
+    slug: 'pupwiki-partners',
+    href: '/categories/pupwiki-partners',
+    title: 'Our Partners',
+    shortTitle: 'Partners',
+    desc: 'Vetted dog-care partners, curated affiliate programs and preferred brands trusted by PupWiki.',
+    emoji: '🤝',
+  },
+];
+---
+
+<BaseLayout
+  title="Dog Care Categories — Browse All Topics | PupWiki"
+  description="Browse all PupWiki dog care categories: food, health, training, grooming, beds, supplements, travel, smart tech, lifestyle, puppy essentials and pet insurance guides."
+  canonicalUrl="https://pupwiki.com/categories"
+  pageType="collection"
+>
+  <div class="categories-index">
+    <div class="container">
+      <Breadcrumb
+        crumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Categories' },
+        ]}
+      />
+
+      <header class="categories-index__header">
+        <h1 class="categories-index__title">Browse Dog Care Categories</h1>
+        <p class="categories-index__lead">
+          PupWiki organises all breed guides, product research and owner planning tools by topic.
+          Pick a category to find breed-matched guides, expert resources and affiliate-supported recommendations.
+        </p>
+      </header>
+
+      <section aria-labelledby="care-categories-title">
+        <h2 id="care-categories-title" class="categories-index__section-heading">Care &amp; Product Topics</h2>
+        <div class="categories-index__grid">
+          {dynamicCategories.map((cat) => (
+            <a href={cat.href} class="categories-index__card">
+              <span class="categories-index__card-emoji" aria-hidden="true">{cat.emoji}</span>
+              <div class="categories-index__card-body">
+                <h3 class="categories-index__card-title">{cat.title}</h3>
+                <p class="categories-index__card-desc">{cat.desc}</p>
+              </div>
+              <span class="categories-index__card-arrow" aria-hidden="true">→</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section aria-labelledby="life-stage-title" class="categories-index__section">
+        <h2 id="life-stage-title" class="categories-index__section-heading">Life Stage &amp; Planning</h2>
+        <div class="categories-index__grid categories-index__grid--two">
+          {staticCategories.map((cat) => (
+            <a href={cat.href} class="categories-index__card">
+              <span class="categories-index__card-emoji" aria-hidden="true">{cat.emoji}</span>
+              <div class="categories-index__card-body">
+                <h3 class="categories-index__card-title">{cat.title}</h3>
+                <p class="categories-index__card-desc">{cat.desc}</p>
+              </div>
+              <span class="categories-index__card-arrow" aria-hidden="true">→</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <nav class="categories-index__tools" aria-label="Planning tools">
+        <h2 class="categories-index__section-heading">Planning Tools</h2>
+        <div class="categories-index__tools-row">
+          <a href="/cost-calculator" class="categories-index__tool-link">
+            <span aria-hidden="true">💰</span>
+            <span>Breed Cost Calculator</span>
+          </a>
+          <a href="/breeds" class="categories-index__tool-link">
+            <span aria-hidden="true">🐾</span>
+            <span>Browse All Breeds</span>
+          </a>
+          <a href="/dog-names" class="categories-index__tool-link">
+            <span aria-hidden="true">✍️</span>
+            <span>Dog Name Generator</span>
+          </a>
+          <a href="/breed-quiz" class="categories-index__tool-link">
+            <span aria-hidden="true">🧩</span>
+            <span>Breed Suitability Quiz</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+.categories-index {
+  padding-block: var(--space-10);
+}
+
+.categories-index .container {
+  max-width: 1100px;
+  margin-inline: auto;
+  padding-inline: var(--space-4);
+}
+
+.categories-index__header {
+  margin-block: var(--space-6) var(--space-8);
+}
+
+.categories-index__title {
+  font-family: var(--font-display);
+  font-size: clamp(var(--text-2xl), 4vw, var(--text-4xl));
+  color: var(--color-heading);
+  margin-block-end: var(--space-3);
+}
+
+.categories-index__lead {
+  max-width: 60ch;
+  color: var(--color-body-soft);
+  font-size: var(--text-base);
+  line-height: 1.65;
+}
+
+.categories-index__section {
+  margin-block-start: var(--space-10);
+}
+
+.categories-index__section-heading {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  color: var(--color-heading);
+  margin-block-end: var(--space-4);
+  padding-block-end: var(--space-2);
+  border-block-end: 2px solid var(--color-border);
+}
+
+.categories-index__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-4);
+}
+
+.categories-index__grid--two {
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.categories-index__card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  text-decoration: none;
+  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.categories-index__card:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-md);
+}
+
+.categories-index__card-emoji {
+  font-size: 1.75rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.categories-index__card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.categories-index__card-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-base);
+  font-weight: var(--weight-semibold);
+  color: var(--color-heading);
+  margin-block-end: var(--space-1);
+}
+
+.categories-index__card-desc {
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: 1.55;
+}
+
+.categories-index__card-arrow {
+  color: var(--color-accent);
+  font-size: var(--text-lg);
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.categories-index__tools {
+  margin-block-start: var(--space-10);
+}
+
+.categories-index__tools-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.categories-index__tool-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-body);
+  text-decoration: none;
+  transition: border-color var(--transition-base), color var(--transition-base);
+}
+
+.categories-index__tool-link:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+@media (max-width: 768px) {
+  .categories-index__grid,
+  .categories-index__grid--two {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

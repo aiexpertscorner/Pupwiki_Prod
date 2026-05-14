@@ -1,18 +1,28 @@
 ---
-/**
- * Breadcrumb.astro
- */
 export interface Props {
   items: Array<{ label: string; href?: string; current?: boolean }>;
+  baseUrl?: string;
 }
-const { items } = Astro.props;
+const { items, baseUrl = 'https://pupwiki.com' } = Astro.props;
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: item.label,
+    ...(item.href ? { item: `${baseUrl}${item.href}` } : {}),
+  })),
+};
 ---
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)} />
 <nav aria-label="Breadcrumb" class="page-hero__eyebrow">
   <ol class="breadcrumb">
     {items.map((item, i) => (
       <li class="breadcrumb__item">
         {item.current
-          ? <span class="breadcrumb__current">{item.label}</span>
+          ? <span class="breadcrumb__current" aria-current="page">{item.label}</span>
           : <a href={item.href} class="breadcrumb__link">{item.label}</a>
         }
       </li>

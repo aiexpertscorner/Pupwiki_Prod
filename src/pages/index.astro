@@ -49,6 +49,52 @@ const structuredData = [
       url: new URL(item.href, seo.canonicalUrl).toString(),
     })),
   },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How do I choose the right dog breed for my lifestyle?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Match breed energy level, size, grooming needs and temperament to your living situation, activity level and experience. PupWiki\'s breed quiz compares your lifestyle with 277+ breed profiles to suggest the best fit.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How much does it cost to own a dog per year?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Annual dog ownership costs typically range from $1,200 to $3,500+ depending on breed size, location and care choices. PupWiki\'s cost calculator provides breed-specific, state-adjusted estimates covering food, vet care, grooming and supplies.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What is the difference between purebred and mixed breed dogs?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Purebred dogs have predictable size, temperament and coat traits documented over generations. Mixed breeds (crossbreeds) often blend traits from two or more breeds. PupWiki covers 277 purebred profiles and 75 popular crossbreeds including Goldendoodles, Labradoodles and Cockapoos.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are the best names for a new puppy?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Short names with 1–2 syllables ending in a vowel (Bella, Milo, Luna) work best for training. PupWiki\'s dog name generator filters 7,000+ names by breed temperament, style and inspiration — breed-matched for better fit.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Is pet insurance worth it for dogs?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Pet insurance is most valuable for breeds with known health risks, puppies (lower premiums, no pre-existing conditions), and owners without a dedicated emergency fund. Use PupWiki\'s cost calculator for breed-specific insurance cost estimates.',
+        },
+      },
+    ],
+  },
 ];
 ---
 
