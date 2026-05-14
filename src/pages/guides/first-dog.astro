@@ -140,5 +140,29 @@ const steps = [
       </a>
     </section>
 
+    <!-- Related content -->
+    <section>
+      <p class="font-sans text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--color-primary)">Keep exploring</p>
+      <h2 class="font-display text-2xl font-bold mb-5" style="font-family:var(--font-serif);color:var(--color-heading)">
+        More PupWiki guides
+      </h2>
+      <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+        {[
+          { icon: '🐾', label: 'Breed Explorer', desc: 'Filter 277+ breeds by size, energy, and coat type to find your perfect match.', href: '/breeds' },
+          { icon: '💰', label: 'True Cost Calculator', desc: 'See the real annual and lifetime cost of owning your chosen breed — before you commit.', href: '/cost-calculator' },
+          { icon: '🏥', label: 'Pet Insurance Guide', desc: 'Learn what coverage types exist, what breed risk means, and what to look for in a policy.', href: '/pet-insurance' },
+          { icon: '✍️', label: 'Dog Name Generator', desc: 'Find the perfect name for your new dog — filtered by breed personality and style.', href: '/dog-names' },
+          { icon: '🍖', label: 'Best Dog Food by Breed', desc: 'Every breed has different nutritional needs. Find the right food from day one.', href: '/categories/dog-food' },
+          { icon: '🛏️', label: 'Beds & Crates', desc: 'Set up a safe, comfortable space before your dog arrives home.', href: '/categories/beds' },
+        ].map(item => (
+          <a href={item.href} class="rounded-2xl p-5 hover:shadow-md transition-shadow" style="background:var(--color-bg);border:1px solid var(--color-border);text-decoration:none;display:block">
+            <span style="font-size:1.5rem;display:block;margin-bottom:var(--space-3)">{item.icon}</span>
+            <p class="font-sans font-bold text-sm mb-1" style="color:var(--color-heading)">{item.label}</p>
+            <p class="font-sans text-xs leading-relaxed" style="color:var(--color-muted)">{item.desc}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
   </div>
 </BaseLayout>

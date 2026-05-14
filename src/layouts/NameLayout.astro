@@ -1,21 +1,37 @@
 ---
 /**
  * src/layouts/NameLayout.astro
- * Thin layout wrapper for PupWiki dog-name pages.
+ * Layout for all PupWiki dog-name pages (/dog-names and /dog-names/[breed]).
+ * Wraps BaseLayout; applies pw-names design token context.
+ *
+ * Styling:
+ *   Global: src/styles/names.css (imported via main.css → BaseLayout)
+ *   Scoped:  none — all class names are prefixed pw-names__* or dog-name-*
  */
 
 import BaseLayout from './BaseLayout.astro';
+import Breadcrumb from '../components/ui/Breadcrumb.astro';
 import { SITE_URL } from '../lib/site-config';
 
 type StructuredData = Record<string, unknown> | Array<Record<string, unknown>>;
+
+export interface BreadcrumbItem {
+  label: string;
+  href?: string;
+  current?: boolean;
+}
 
 export interface Props {
   title: string;
   description: string;
   canonicalPath?: string;
   ogImage?: string;
+  ogImageAlt?: string;
   structuredData?: StructuredData;
   pageType?: 'website' | 'article' | 'collection' | 'tool' | 'profile';
+  noIndex?: boolean;
+  breadcrumb?: BreadcrumbItem[];
+  bodyClass?: string;
 }
 
 const {
@@ -23,11 +39,24 @@ const {
   description,
   canonicalPath = '/dog-names',
   ogImage,
+  ogImageAlt,
   structuredData = [],
   pageType = 'collection',
+  noIndex = false,
+  breadcrumb,
+  bodyClass = '',
 } = Astro.props;
 
-const canonicalUrl = canonicalPath.startsWith('http') ? canonicalPath : `${SITE_URL}${canonicalPath}`;
+const canonicalUrl = canonicalPath.startsWith('http')
+  ? canonicalPath
+  : `${SITE_URL}${canonicalPath}`;
+
+const defaultBreadcrumb: BreadcrumbItem[] = [
+  { label: 'Home', href: '/' },
+  { label: 'Dog Names', href: '/dog-names', current: canonicalPath === '/dog-names' },
+];
+
+const resolvedBreadcrumb = breadcrumb ?? defaultBreadcrumb;
 ---
 
 <BaseLayout
@@ -35,11 +64,21 @@ const canonicalUrl = canonicalPath.startsWith('http') ? canonicalPath : `${SITE_
   description={description}
   canonicalUrl={canonicalUrl}
   ogImage={ogImage}
+  ogImageAlt={ogImageAlt ?? title}
   pageType={pageType}
-  bodyClass="pw-names-page"
+  bodyClass={['pw-names-page', bodyClass].filter(Boolean).join(' ')}
   structuredData={structuredData}
+  noIndex={noIndex}
 >
+  <slot name="head" slot="head" />
+
   <main class="pw-names" id="dog-names-content">
+    <div class="pw-names__breadcrumb-bar">
+      <div class="pw-names__container">
+        <Breadcrumb items={resolvedBreadcrumb} />
+      </div>
+    </div>
+
     <slot />
   </main>
 </BaseLayout>

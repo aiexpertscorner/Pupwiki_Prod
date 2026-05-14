@@ -1,12 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import NameLayout from '../../layouts/NameLayout.astro';
 import masterBreeds from '../../data/master-breeds.json';
 import allNamesData from '../../data/dog-names.json';
 import breedLinkMap from '../../data/breed-link-map.json';
 import productIndex from '../../data/product-index.json';
-
-const SITE = 'https://pupwiki.com';
-const TAG = 'aiexpertscorn-20';
 
 export function getStaticPaths() {
   return (masterBreeds as any[]).map((b) => ({ params: { breed: b.slug } }));
@@ -174,7 +171,7 @@ const generatorBreed = {
   inspirations: insps,
 };
 
-const jsonLd = JSON.stringify({
+const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
@@ -195,28 +192,25 @@ const jsonLd = JSON.stringify({
       },
     },
   ],
-});
+};
 ---
 
-<BaseLayout
+<NameLayout
   title={`Best ${n} Names 2026 — ${boys[0]?.name}, ${girls[0]?.name} & More Boy & Girl Picks`}
   description={`${boys.length + girls.length}+ names for ${n}s matched to their ${personality} personality. Ranked lists, themed collections, and expert naming tips.`}
-  canonicalUrl={`${SITE}/dog-names/${slug}`}
-  bodyClass="dog-name-detail-page bg-white text-slate-900"
+  canonicalPath={`/dog-names/${slug}`}
+  structuredData={jsonLd}
+  pageType="collection"
+  breadcrumb={[
+    { label: 'Home', href: '/' },
+    { label: 'Dog Names', href: '/dog-names' },
+    { label: `${n} Names`, current: true },
+  ]}
 >
-  <script type="application/ld+json" set:html={jsonLd} />
 
-  <main class="dog-name-detail">
+  <div class="dog-name-detail">
     <section class="dog-name-detail-hero" aria-labelledby="dog-name-detail-title">
       <div class="dog-name-detail-container">
-        <nav class="dog-name-detail-breadcrumb" aria-label="Breadcrumb">
-          <a href="/">Home</a>
-          <span aria-hidden="true">›</span>
-          <a href="/dog-names">Dog Names</a>
-          <span aria-hidden="true">›</span>
-          <span>{n}</span>
-        </nav>
-
         <div class="dog-name-detail-hero__grid">
           {b.image_url && (
             <div class="dog-name-detail-hero__media">
@@ -674,7 +668,7 @@ const jsonLd = JSON.stringify({
         </div>
       </div>
     </section>
-  </main>
+  </div>
 
   <script define:vars={{ generatorNames, generatorBreed }}>
     const STORAGE_KEY = 'pupwiki:dog-name-favorites:v1';
@@ -1031,5 +1025,5 @@ const jsonLd = JSON.stringify({
     renderFavorites();
     generate();
   </script>
-</BaseLayout>
+</NameLayout>
 

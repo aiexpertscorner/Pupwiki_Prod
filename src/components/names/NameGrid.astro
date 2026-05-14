@@ -28,8 +28,8 @@
   <div class="ng-grid" data-ng-grid aria-label="Namenlijst" role="list">
     <!-- Loading skeleton: shown before JS kicks in -->
     {Array.from({ length: 24 }).map(() => (
-      <div class="ng-card" aria-hidden="true" style="opacity:0.3;pointer-events:none">
-        <div class="ng-card__name" style="background:rgba(255,255,255,.08);color:transparent;border-radius:2px">Loading</div>
+      <div class="ng-card ng-card--skeleton" aria-hidden="true">
+        <div class="ng-card__name ng-card__name--skeleton">Loading</div>
       </div>
     ))}
   </div>
