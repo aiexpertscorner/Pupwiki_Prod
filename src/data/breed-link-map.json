@@ -3326,7 +3326,7 @@
   "goldendoodle": {
     "hub": "/breeds/goldendoodle",
     "cost_calculator": "/cost-calculator/goldendoodle",
-    "names_page": null,
+    "names_page": "/dog-names/goldendoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-goldendoodle",
@@ -3338,7 +3338,7 @@
   "labradoodle": {
     "hub": "/breeds/labradoodle",
     "cost_calculator": "/cost-calculator/labradoodle",
-    "names_page": null,
+    "names_page": "/dog-names/labradoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-labradoodle",
@@ -3350,7 +3350,7 @@
   "cockapoo": {
     "hub": "/breeds/cockapoo",
     "cost_calculator": "/cost-calculator/cockapoo",
-    "names_page": null,
+    "names_page": "/dog-names/cockapoo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-cockapoo",
@@ -3362,7 +3362,7 @@
   "pomsky": {
     "hub": "/breeds/pomsky",
     "cost_calculator": "/cost-calculator/pomsky",
-    "names_page": null,
+    "names_page": "/dog-names/pomsky",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-pomsky",
@@ -3374,7 +3374,7 @@
   "maltipoo": {
     "hub": "/breeds/maltipoo",
     "cost_calculator": "/cost-calculator/maltipoo",
-    "names_page": null,
+    "names_page": "/dog-names/maltipoo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-maltipoo",
@@ -3386,7 +3386,7 @@
   "cavapoo": {
     "hub": "/breeds/cavapoo",
     "cost_calculator": "/cost-calculator/cavapoo",
-    "names_page": null,
+    "names_page": "/dog-names/cavapoo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-cavapoo",
@@ -3398,7 +3398,7 @@
   "bernedoodle": {
     "hub": "/breeds/bernedoodle",
     "cost_calculator": "/cost-calculator/bernedoodle",
-    "names_page": null,
+    "names_page": "/dog-names/bernedoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-bernedoodle",
@@ -3410,7 +3410,7 @@
   "aussiedoodle": {
     "hub": "/breeds/aussiedoodle",
     "cost_calculator": "/cost-calculator/aussiedoodle",
-    "names_page": null,
+    "names_page": "/dog-names/aussiedoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-aussiedoodle",
@@ -3422,7 +3422,7 @@
   "yorkipoo": {
     "hub": "/breeds/yorkipoo",
     "cost_calculator": "/cost-calculator/yorkipoo",
-    "names_page": null,
+    "names_page": "/dog-names/yorkipoo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-yorkipoo",
@@ -3434,7 +3434,7 @@
   "puggle": {
     "hub": "/breeds/puggle",
     "cost_calculator": "/cost-calculator/puggle",
-    "names_page": null,
+    "names_page": "/dog-names/puggle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-puggle",
@@ -3446,7 +3446,7 @@
   "sheepadoodle": {
     "hub": "/breeds/sheepadoodle",
     "cost_calculator": "/cost-calculator/sheepadoodle",
-    "names_page": null,
+    "names_page": "/dog-names/sheepadoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-sheepadoodle",
@@ -3458,7 +3458,7 @@
   "schnoodle": {
     "hub": "/breeds/schnoodle",
     "cost_calculator": "/cost-calculator/schnoodle",
-    "names_page": null,
+    "names_page": "/dog-names/schnoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-schnoodle",
@@ -3470,7 +3470,7 @@
   "chiweenie": {
     "hub": "/breeds/chiweenie",
     "cost_calculator": "/cost-calculator/chiweenie",
-    "names_page": null,
+    "names_page": "/dog-names/chiweenie",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-chiweenie",
@@ -3482,7 +3482,7 @@
   "morkie": {
     "hub": "/breeds/morkie",
     "cost_calculator": "/cost-calculator/morkie",
-    "names_page": null,
+    "names_page": "/dog-names/morkie",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-morkie",
@@ -3494,7 +3494,7 @@
   "cavachon": {
     "hub": "/breeds/cavachon",
     "cost_calculator": "/cost-calculator/cavachon",
-    "names_page": null,
+    "names_page": "/dog-names/cavachon",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-cavachon",
@@ -3506,7 +3506,7 @@
   "whoodle": {
     "hub": "/breeds/whoodle",
     "cost_calculator": "/cost-calculator/whoodle",
-    "names_page": null,
+    "names_page": "/dog-names/whoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-whoodle",
@@ -3518,7 +3518,7 @@
   "peekapoo": {
     "hub": "/breeds/peekapoo",
     "cost_calculator": "/cost-calculator/peekapoo",
-    "names_page": null,
+    "names_page": "/dog-names/peekapoo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-peekapoo",
@@ -3530,7 +3530,7 @@
   "pomchi": {
     "hub": "/breeds/pomchi",
     "cost_calculator": "/cost-calculator/pomchi",
-    "names_page": null,
+    "names_page": "/dog-names/pomchi",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-pomchi",
@@ -3542,7 +3542,7 @@
   "shorkie": {
     "hub": "/breeds/shorkie",
     "cost_calculator": "/cost-calculator/shorkie",
-    "names_page": null,
+    "names_page": "/dog-names/shorkie",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-shorkie",
@@ -3554,7 +3554,7 @@
   "gerberian-shepsky": {
     "hub": "/breeds/gerberian-shepsky",
     "cost_calculator": "/cost-calculator/gerberian-shepsky",
-    "names_page": null,
+    "names_page": "/dog-names/gerberian-shepsky",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-gerberian-shepsky",
@@ -3566,7 +3566,7 @@
   "bullmatian": {
     "hub": "/breeds/bullmatian",
     "cost_calculator": "/cost-calculator/bullmatian",
-    "names_page": null,
+    "names_page": "/dog-names/bullmatian",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-bullmatian",
@@ -3578,7 +3578,7 @@
   "chug": {
     "hub": "/breeds/chug",
     "cost_calculator": "/cost-calculator/chug",
-    "names_page": null,
+    "names_page": "/dog-names/chug",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-chug",
@@ -3590,7 +3590,7 @@
   "boxador": {
     "hub": "/breeds/boxador",
     "cost_calculator": "/cost-calculator/boxador",
-    "names_page": null,
+    "names_page": "/dog-names/boxador",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-boxador",
@@ -3602,7 +3602,7 @@
   "borgi": {
     "hub": "/breeds/borgi",
     "cost_calculator": "/cost-calculator/borgi",
-    "names_page": null,
+    "names_page": "/dog-names/borgi",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-borgi",
@@ -3614,7 +3614,7 @@
   "horgi": {
     "hub": "/breeds/horgi",
     "cost_calculator": "/cost-calculator/horgi",
-    "names_page": null,
+    "names_page": "/dog-names/horgi",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-horgi",
@@ -3626,7 +3626,7 @@
   "chorkie": {
     "hub": "/breeds/chorkie",
     "cost_calculator": "/cost-calculator/chorkie",
-    "names_page": null,
+    "names_page": "/dog-names/chorkie",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-chorkie",
@@ -3638,7 +3638,7 @@
   "frenchton": {
     "hub": "/breeds/frenchton",
     "cost_calculator": "/cost-calculator/frenchton",
-    "names_page": null,
+    "names_page": "/dog-names/frenchton",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-frenchton",
@@ -3650,7 +3650,7 @@
   "borador": {
     "hub": "/breeds/borador",
     "cost_calculator": "/cost-calculator/borador",
-    "names_page": null,
+    "names_page": "/dog-names/borador",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-borador",
@@ -3662,7 +3662,7 @@
   "zuchon": {
     "hub": "/breeds/zuchon",
     "cost_calculator": "/cost-calculator/zuchon",
-    "names_page": null,
+    "names_page": "/dog-names/zuchon",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-zuchon",
@@ -3674,7 +3674,7 @@
   "saint-berdoodle": {
     "hub": "/breeds/saint-berdoodle",
     "cost_calculator": "/cost-calculator/saint-berdoodle",
-    "names_page": null,
+    "names_page": "/dog-names/saint-berdoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-saint-berdoodle",
@@ -3686,7 +3686,7 @@
   "goberian": {
     "hub": "/breeds/goberian",
     "cost_calculator": "/cost-calculator/goberian",
-    "names_page": null,
+    "names_page": "/dog-names/goberian",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-goberian",
@@ -3698,7 +3698,7 @@
   "corgipoo": {
     "hub": "/breeds/corgipoo",
     "cost_calculator": "/cost-calculator/corgipoo",
-    "names_page": null,
+    "names_page": "/dog-names/corgipoo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-corgipoo",
@@ -3710,7 +3710,7 @@
   "pitsky": {
     "hub": "/breeds/pitsky",
     "cost_calculator": "/cost-calculator/pitsky",
-    "names_page": null,
+    "names_page": "/dog-names/pitsky",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-pitsky",
@@ -3722,7 +3722,7 @@
   "newfypoo": {
     "hub": "/breeds/newfypoo",
     "cost_calculator": "/cost-calculator/newfypoo",
-    "names_page": null,
+    "names_page": "/dog-names/newfypoo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-newfypoo",
@@ -3734,7 +3734,7 @@
   "dorgi": {
     "hub": "/breeds/dorgi",
     "cost_calculator": "/cost-calculator/dorgi",
-    "names_page": null,
+    "names_page": "/dog-names/dorgi",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-dorgi",
@@ -3746,7 +3746,7 @@
   "pyredoodle": {
     "hub": "/breeds/pyredoodle",
     "cost_calculator": "/cost-calculator/pyredoodle",
-    "names_page": null,
+    "names_page": "/dog-names/pyredoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-pyredoodle",
@@ -3758,7 +3758,7 @@
   "baskin": {
     "hub": "/breeds/baskin",
     "cost_calculator": "/cost-calculator/baskin",
-    "names_page": null,
+    "names_page": "/dog-names/baskin",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-baskin",
@@ -3770,7 +3770,7 @@
   "beaglier": {
     "hub": "/breeds/beaglier",
     "cost_calculator": "/cost-calculator/beaglier",
-    "names_page": null,
+    "names_page": "/dog-names/beaglier",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-beaglier",
@@ -3782,7 +3782,7 @@
   "cheagle": {
     "hub": "/breeds/cheagle",
     "cost_calculator": "/cost-calculator/cheagle",
-    "names_page": null,
+    "names_page": "/dog-names/cheagle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-cheagle",
@@ -3794,7 +3794,7 @@
   "dalmadoodle": {
     "hub": "/breeds/dalmadoodle",
     "cost_calculator": "/cost-calculator/dalmadoodle",
-    "names_page": null,
+    "names_page": "/dog-names/dalmadoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-dalmadoodle",
@@ -3806,7 +3806,7 @@
   "flandoodle": {
     "hub": "/breeds/flandoodle",
     "cost_calculator": "/cost-calculator/flandoodle",
-    "names_page": null,
+    "names_page": "/dog-names/flandoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-flandoodle",
@@ -3818,7 +3818,7 @@
   "havapoo": {
     "hub": "/breeds/havapoo",
     "cost_calculator": "/cost-calculator/havapoo",
-    "names_page": null,
+    "names_page": "/dog-names/havapoo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-havapoo",
@@ -3830,7 +3830,7 @@
   "jack-a-poo": {
     "hub": "/breeds/jack-a-poo",
     "cost_calculator": "/cost-calculator/jack-a-poo",
-    "names_page": null,
+    "names_page": "/dog-names/jack-a-poo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-jack-a-poo",
@@ -3842,7 +3842,7 @@
   "lhasapoo": {
     "hub": "/breeds/lhasapoo",
     "cost_calculator": "/cost-calculator/lhasapoo",
-    "names_page": null,
+    "names_page": "/dog-names/lhasapoo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-lhasapoo",
@@ -3854,7 +3854,7 @@
   "springerdoodle": {
     "hub": "/breeds/springerdoodle",
     "cost_calculator": "/cost-calculator/springerdoodle",
-    "names_page": null,
+    "names_page": "/dog-names/springerdoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-springerdoodle",
@@ -3866,7 +3866,7 @@
   "boxeweiler": {
     "hub": "/breeds/boxeweiler",
     "cost_calculator": "/cost-calculator/boxeweiler",
-    "names_page": null,
+    "names_page": "/dog-names/boxeweiler",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-boxeweiler",
@@ -3878,7 +3878,7 @@
   "bordoodle": {
     "hub": "/breeds/bordoodle",
     "cost_calculator": "/cost-calculator/bordoodle",
-    "names_page": null,
+    "names_page": "/dog-names/bordoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-bordoodle",
@@ -3890,7 +3890,7 @@
   "bugg": {
     "hub": "/breeds/bugg",
     "cost_calculator": "/cost-calculator/bugg",
-    "names_page": null,
+    "names_page": "/dog-names/bugg",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-bugg",
@@ -3902,7 +3902,7 @@
   "bull-a-mador": {
     "hub": "/breeds/bull-a-mador",
     "cost_calculator": "/cost-calculator/bull-a-mador",
-    "names_page": null,
+    "names_page": "/dog-names/bull-a-mador",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-bull-a-mador",
@@ -3914,7 +3914,7 @@
   "corman-shepherd": {
     "hub": "/breeds/corman-shepherd",
     "cost_calculator": "/cost-calculator/corman-shepherd",
-    "names_page": null,
+    "names_page": "/dog-names/corman-shepherd",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-corman-shepherd",
@@ -3926,7 +3926,7 @@
   "dameranian": {
     "hub": "/breeds/dameranian",
     "cost_calculator": "/cost-calculator/dameranian",
-    "names_page": null,
+    "names_page": "/dog-names/dameranian",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-dameranian",
@@ -3938,7 +3938,7 @@
   "english-boodle": {
     "hub": "/breeds/english-boodle",
     "cost_calculator": "/cost-calculator/english-boodle",
-    "names_page": null,
+    "names_page": "/dog-names/english-boodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-english-boodle",
@@ -3950,7 +3950,7 @@
   "frug": {
     "hub": "/breeds/frug",
     "cost_calculator": "/cost-calculator/frug",
-    "names_page": null,
+    "names_page": "/dog-names/frug",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-frug",
@@ -3962,7 +3962,7 @@
   "glechon": {
     "hub": "/breeds/glechon",
     "cost_calculator": "/cost-calculator/glechon",
-    "names_page": null,
+    "names_page": "/dog-names/glechon",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-glechon",
@@ -3974,7 +3974,7 @@
   "golden-mt-dog": {
     "hub": "/breeds/golden-mt-dog",
     "cost_calculator": "/cost-calculator/golden-mt-dog",
-    "names_page": null,
+    "names_page": "/dog-names/golden-mt-dog",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-golden-mt-dog",
@@ -3986,7 +3986,7 @@
   "havashire": {
     "hub": "/breeds/havashire",
     "cost_calculator": "/cost-calculator/havashire",
-    "names_page": null,
+    "names_page": "/dog-names/havashire",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-havashire",
@@ -3998,7 +3998,7 @@
   "husky-jack": {
     "hub": "/breeds/husky-jack",
     "cost_calculator": "/cost-calculator/husky-jack",
-    "names_page": null,
+    "names_page": "/dog-names/husky-jack",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-husky-jack",
@@ -4010,7 +4010,7 @@
   "labrabull": {
     "hub": "/breeds/labrabull",
     "cost_calculator": "/cost-calculator/labrabull",
-    "names_page": null,
+    "names_page": "/dog-names/labrabull",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-labrabull",
@@ -4022,7 +4022,7 @@
   "mastidoodle": {
     "hub": "/breeds/mastidoodle",
     "cost_calculator": "/cost-calculator/mastidoodle",
-    "names_page": null,
+    "names_page": "/dog-names/mastidoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-mastidoodle",
@@ -4034,7 +4034,7 @@
   "papi-poo": {
     "hub": "/breeds/papi-poo",
     "cost_calculator": "/cost-calculator/papi-poo",
-    "names_page": null,
+    "names_page": "/dog-names/papi-poo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-papi-poo",
@@ -4046,7 +4046,7 @@
   "poogle": {
     "hub": "/breeds/poogle",
     "cost_calculator": "/cost-calculator/poogle",
-    "names_page": null,
+    "names_page": "/dog-names/poogle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-poogle",
@@ -4058,7 +4058,7 @@
   "rottle": {
     "hub": "/breeds/rottle",
     "cost_calculator": "/cost-calculator/rottle",
-    "names_page": null,
+    "names_page": "/dog-names/rottle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-rottle",
@@ -4070,7 +4070,7 @@
   "sprollie": {
     "hub": "/breeds/sprollie",
     "cost_calculator": "/cost-calculator/sprollie",
-    "names_page": null,
+    "names_page": "/dog-names/sprollie",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-sprollie",
@@ -4082,7 +4082,7 @@
   "taco-terrier": {
     "hub": "/breeds/taco-terrier",
     "cost_calculator": "/cost-calculator/taco-terrier",
-    "names_page": null,
+    "names_page": "/dog-names/taco-terrier",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-taco-terrier",
@@ -4094,7 +4094,7 @@
   "westiepoo": {
     "hub": "/breeds/westiepoo",
     "cost_calculator": "/cost-calculator/westiepoo",
-    "names_page": null,
+    "names_page": "/dog-names/westiepoo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-westiepoo",
@@ -4106,7 +4106,7 @@
   "yorkinese": {
     "hub": "/breeds/yorkinese",
     "cost_calculator": "/cost-calculator/yorkinese",
-    "names_page": null,
+    "names_page": "/dog-names/yorkinese",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-yorkinese",
@@ -4118,7 +4118,7 @@
   "bernese-mix": {
     "hub": "/breeds/bernese-mix",
     "cost_calculator": "/cost-calculator/bernese-mix",
-    "names_page": null,
+    "names_page": "/dog-names/bernese-mix",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-bernese-mix",
@@ -4130,7 +4130,7 @@
   "bull-boxer": {
     "hub": "/breeds/bull-boxer",
     "cost_calculator": "/cost-calculator/bull-boxer",
-    "names_page": null,
+    "names_page": "/dog-names/bull-boxer",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-bull-boxer",
@@ -4142,7 +4142,7 @@
   "doxie-poo": {
     "hub": "/breeds/doxie-poo",
     "cost_calculator": "/cost-calculator/doxie-poo",
-    "names_page": null,
+    "names_page": "/dog-names/doxie-poo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-doxie-poo",
@@ -4154,7 +4154,7 @@
   "cavadoodle": {
     "hub": "/breeds/cavadoodle",
     "cost_calculator": "/cost-calculator/cavadoodle",
-    "names_page": null,
+    "names_page": "/dog-names/cavadoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-cavadoodle",
@@ -4166,7 +4166,7 @@
   "poochon": {
     "hub": "/breeds/poochon",
     "cost_calculator": "/cost-calculator/poochon",
-    "names_page": null,
+    "names_page": "/dog-names/poochon",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-poochon",
@@ -4178,7 +4178,7 @@
   "swissydog": {
     "hub": "/breeds/swissydog",
     "cost_calculator": "/cost-calculator/swissydog",
-    "names_page": null,
+    "names_page": "/dog-names/swissydog",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-swissydog",
@@ -4190,7 +4190,7 @@
   "bordeauxoodle": {
     "hub": "/breeds/bordeauxoodle",
     "cost_calculator": "/cost-calculator/bordeauxoodle",
-    "names_page": null,
+    "names_page": "/dog-names/bordeauxoodle",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-bordeauxoodle",
@@ -4202,7 +4202,7 @@
   "shih-poo": {
     "hub": "/breeds/shih-poo",
     "cost_calculator": "/cost-calculator/shih-poo",
-    "names_page": null,
+    "names_page": "/dog-names/shih-poo",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-shih-poo",
@@ -4214,7 +4214,7 @@
   "corgidor": {
     "hub": "/breeds/corgidor",
     "cost_calculator": "/cost-calculator/corgidor",
-    "names_page": null,
+    "names_page": "/dog-names/corgidor",
     "food_post": null,
     "toy_post": null,
     "bed_post": "/blog/best-bed-for-corgidor",

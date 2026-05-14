@@ -4157,7 +4157,7 @@
   "goldendoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4172,7 +4172,7 @@
   "labradoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4187,7 +4187,7 @@
   "cockapoo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4202,7 +4202,7 @@
   "pomsky": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4217,7 +4217,7 @@
   "maltipoo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4232,7 +4232,7 @@
   "cavapoo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4247,7 +4247,7 @@
   "bernedoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4262,7 +4262,7 @@
   "aussiedoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4277,7 +4277,7 @@
   "yorkipoo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4292,7 +4292,7 @@
   "puggle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4307,7 +4307,7 @@
   "sheepadoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4322,7 +4322,7 @@
   "schnoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4337,7 +4337,7 @@
   "chiweenie": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4352,7 +4352,7 @@
   "morkie": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4367,7 +4367,7 @@
   "cavachon": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4382,7 +4382,7 @@
   "whoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4397,7 +4397,7 @@
   "peekapoo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4412,7 +4412,7 @@
   "pomchi": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4427,7 +4427,7 @@
   "shorkie": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4442,7 +4442,7 @@
   "gerberian-shepsky": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4457,7 +4457,7 @@
   "bullmatian": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4472,7 +4472,7 @@
   "chug": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4487,7 +4487,7 @@
   "boxador": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4502,7 +4502,7 @@
   "borgi": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4517,7 +4517,7 @@
   "horgi": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4532,7 +4532,7 @@
   "chorkie": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4547,7 +4547,7 @@
   "frenchton": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4562,7 +4562,7 @@
   "borador": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4577,7 +4577,7 @@
   "zuchon": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4592,7 +4592,7 @@
   "saint-berdoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4607,7 +4607,7 @@
   "goberian": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4622,7 +4622,7 @@
   "corgipoo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4637,7 +4637,7 @@
   "pitsky": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4652,7 +4652,7 @@
   "newfypoo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4667,7 +4667,7 @@
   "dorgi": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4682,7 +4682,7 @@
   "pyredoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4697,7 +4697,7 @@
   "baskin": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4712,7 +4712,7 @@
   "beaglier": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4727,7 +4727,7 @@
   "cheagle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4742,7 +4742,7 @@
   "dalmadoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4757,7 +4757,7 @@
   "flandoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4772,7 +4772,7 @@
   "havapoo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4787,7 +4787,7 @@
   "jack-a-poo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4802,7 +4802,7 @@
   "lhasapoo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4817,7 +4817,7 @@
   "springerdoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4832,7 +4832,7 @@
   "boxeweiler": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4847,7 +4847,7 @@
   "bordoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4862,7 +4862,7 @@
   "bugg": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4877,7 +4877,7 @@
   "bull-a-mador": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4892,7 +4892,7 @@
   "corman-shepherd": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4907,7 +4907,7 @@
   "dameranian": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4922,7 +4922,7 @@
   "english-boodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4937,7 +4937,7 @@
   "frug": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4952,7 +4952,7 @@
   "glechon": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4967,7 +4967,7 @@
   "golden-mt-dog": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4982,7 +4982,7 @@
   "havashire": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -4997,7 +4997,7 @@
   "husky-jack": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5012,7 +5012,7 @@
   "labrabull": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5027,7 +5027,7 @@
   "mastidoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5042,7 +5042,7 @@
   "papi-poo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5057,7 +5057,7 @@
   "poogle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5072,7 +5072,7 @@
   "rottle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5087,7 +5087,7 @@
   "sprollie": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5102,7 +5102,7 @@
   "taco-terrier": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5117,7 +5117,7 @@
   "westiepoo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5132,7 +5132,7 @@
   "yorkinese": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5147,7 +5147,7 @@
   "bernese-mix": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5162,7 +5162,7 @@
   "bull-boxer": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5177,7 +5177,7 @@
   "doxie-poo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5192,7 +5192,7 @@
   "cavadoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5207,7 +5207,7 @@
   "poochon": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5222,7 +5222,7 @@
   "swissydog": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5237,7 +5237,7 @@
   "bordeauxoodle": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5252,7 +5252,7 @@
   "shih-poo": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,
@@ -5267,7 +5267,7 @@
   "corgidor": {
     "hub": true,
     "cost_calculator": true,
-    "names_page": false,
+    "names_page": true,
     "food_post": false,
     "toy_post": false,
     "bed_post": true,

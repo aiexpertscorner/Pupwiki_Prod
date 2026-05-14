@@ -82,9 +82,12 @@ add('/contact', 0.35, 'monthly');
 add('/how-we-test', 0.55, 'monthly');
 
 // Category and cluster pages.
+// Note: 'insurance' omitted — /categories/insurance 301 redirects to /pet-insurance.
 const legacyCategories = ['dog-food','toys','beds','health','training','grooming','supplements','smart-tech','travel','lifestyle'];
 const clusters = loadClusterSlugs();
-[...new Set([...legacyCategories, ...clusters])].forEach((c) => add(`/categories/${c}`, c === 'puppy' || c === 'senior-dogs' || c === 'insurance' ? 0.88 : 0.84, 'weekly'));
+[...new Set([...legacyCategories, ...clusters])].forEach((c) => add(`/categories/${c}`, c === 'puppy' || c === 'senior-dogs' ? 0.88 : 0.84, 'weekly'));
+add('/pet-insurance', 0.88, 'weekly');
+add('/categories', 0.78, 'weekly');
 
 // Breed hubs and tools.
 for (const breed of breeds) {
