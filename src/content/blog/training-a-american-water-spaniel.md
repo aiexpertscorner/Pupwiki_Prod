@@ -3,8 +3,8 @@ title: "American Water Spaniel Training Dog-Care Decision Guide"
 seoTitle: "American Water Spaniel Training Dog-Care Decision Guide"
 displayTitle: "American Water Spaniel Training decision guide"
 description: "A PupWiki guide for current and future American Water Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "american-water-spaniel", "jugbow", "radiofence-com"]

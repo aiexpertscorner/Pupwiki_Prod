@@ -3,8 +3,8 @@ title: "Poodle (Standard) Grooming Dog-Care Decision Guide"
 seoTitle: "Poodle (Standard) Grooming Dog-Care Decision Guide"
 displayTitle: "Poodle (Standard) Grooming decision guide"
 description: "A PupWiki guide for current and future Poodle (Standard) people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "poodle-standard", "jugbow", "radiofence-com"]

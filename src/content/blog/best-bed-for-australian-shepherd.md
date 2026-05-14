@@ -3,8 +3,8 @@ title: "Australian Shepherd Beds Dog-Care Decision Guide"
 seoTitle: "Australian Shepherd Beds Dog-Care Decision Guide"
 displayTitle: "Australian Shepherd Beds decision guide"
 description: "A PupWiki guide for current and future Australian Shepherd people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "australian-shepherd", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

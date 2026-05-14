@@ -3,8 +3,8 @@ title: "Cavalier King Charles Spaniel Training Dog-Care Decision Guide"
 seoTitle: "Cavalier King Charles Spaniel Training Dog-Care Decision Guide"
 displayTitle: "Cavalier King Charles Spaniel Training decision guide"
 description: "A PupWiki guide for current and future Cavalier King Charles Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "cavalier-king-charles-spaniel", "jugbow", "radiofence-com"]

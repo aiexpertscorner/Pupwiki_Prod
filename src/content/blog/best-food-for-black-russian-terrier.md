@@ -3,8 +3,8 @@ title: "Black Russian Terrier Food Dog-Care Decision Guide"
 seoTitle: "Black Russian Terrier Food Dog-Care Decision Guide"
 displayTitle: "Black Russian Terrier Food decision guide"
 description: "A PupWiki guide for current and future Black Russian Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "black-russian-terrier", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -46,7 +46,7 @@ This page helps Black Russian Terrier people compare useful brands, products and
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Black Russian Terrier
-Look for an AAFCO nutritional adequacy statement, a named protein in the first three ingredients, and a formula matched to your dog's life stage and size.
+Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. Black Russian Terrier is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
 ## Related PupWiki guides
 - [Breeds > Black Russian Terrier](/breeds/black-russian-terrier)
 - [Categories > Dog Food](/categories/dog-food)

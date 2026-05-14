@@ -3,8 +3,8 @@ title: "Portuguese Water Dog Grooming Dog-Care Decision Guide"
 seoTitle: "Portuguese Water Dog Grooming Dog-Care Decision Guide"
 displayTitle: "Portuguese Water Dog Grooming decision guide"
 description: "A PupWiki guide for current and future Portuguese Water Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "portuguese-water-dog", "jugbow", "radiofence-com"]

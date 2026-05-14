@@ -3,8 +3,8 @@ title: "Skye Terrier Food Dog-Care Decision Guide"
 seoTitle: "Skye Terrier Food Dog-Care Decision Guide"
 displayTitle: "Skye Terrier Food decision guide"
 description: "A PupWiki guide for current and future Skye Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "skye-terrier", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -46,7 +46,7 @@ This page helps Skye Terrier people compare useful brands, products and services
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Skye Terrier
-Look for an AAFCO nutritional adequacy statement, a named protein in the first three ingredients, and a formula matched to your dog's life stage and size.
+Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.
 ## Related PupWiki guides
 - [Breeds > Skye Terrier](/breeds/skye-terrier)
 - [Categories > Dog Food](/categories/dog-food)

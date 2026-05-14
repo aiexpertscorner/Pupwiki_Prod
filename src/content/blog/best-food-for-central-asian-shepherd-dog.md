@@ -3,8 +3,8 @@ title: "Central Asian Shepherd Dog Food Dog-Care Decision Guide"
 seoTitle: "Central Asian Shepherd Dog Food Dog-Care Decision Guide"
 displayTitle: "Central Asian Shepherd Dog Food decision guide"
 description: "A PupWiki guide for current and future Central Asian Shepherd Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "central-asian-shepherd-dog", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -46,7 +46,7 @@ This page helps Central Asian Shepherd Dog people compare useful brands, product
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Central Asian Shepherd Dog
-Look for an AAFCO nutritional adequacy statement, a named protein in the first three ingredients, and a formula matched to your dog's life stage and size.
+Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. Central Asian Shepherd Dog has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
 ## Related PupWiki guides
 - [Breeds > Central Asian Shepherd Dog](/breeds/central-asian-shepherd-dog)
 - [Categories > Dog Food](/categories/dog-food)

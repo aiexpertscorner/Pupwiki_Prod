@@ -3,8 +3,8 @@ title: "Bearded Collie Training Dog-Care Decision Guide"
 seoTitle: "Bearded Collie Training Dog-Care Decision Guide"
 displayTitle: "Bearded Collie Training decision guide"
 description: "A PupWiki guide for current and future Bearded Collie people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "bearded-collie", "jugbow", "radiofence-com"]

@@ -3,8 +3,8 @@ title: "Australian Cattle Dog Training Dog-Care Decision Guide"
 seoTitle: "Australian Cattle Dog Training Dog-Care Decision Guide"
 displayTitle: "Australian Cattle Dog Training decision guide"
 description: "A PupWiki guide for current and future Australian Cattle Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "australian-cattle-dog", "jugbow", "radiofence-com"]

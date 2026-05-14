@@ -3,8 +3,8 @@ title: "Australian Shepherd Grooming Dog-Care Decision Guide"
 seoTitle: "Australian Shepherd Grooming Dog-Care Decision Guide"
 displayTitle: "Australian Shepherd Grooming decision guide"
 description: "A PupWiki guide for current and future Australian Shepherd people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "australian-shepherd", "jugbow", "radiofence-com"]

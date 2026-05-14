@@ -3,8 +3,8 @@ title: "Carolina Dog Training Dog-Care Decision Guide"
 seoTitle: "Carolina Dog Training Dog-Care Decision Guide"
 displayTitle: "Carolina Dog Training decision guide"
 description: "A PupWiki guide for current and future Carolina Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "carolina-dog", "jugbow", "radiofence-com"]

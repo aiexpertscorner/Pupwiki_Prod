@@ -3,8 +3,8 @@ title: "Black Russian Terrier Training Dog-Care Decision Guide"
 seoTitle: "Black Russian Terrier Training Dog-Care Decision Guide"
 displayTitle: "Black Russian Terrier Training decision guide"
 description: "A PupWiki guide for current and future Black Russian Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "black-russian-terrier", "jugbow", "radiofence-com"]

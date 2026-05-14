@@ -3,8 +3,8 @@ title: "Brittany Grooming Dog-Care Decision Guide"
 seoTitle: "Brittany Grooming Dog-Care Decision Guide"
 displayTitle: "Brittany Grooming decision guide"
 description: "A PupWiki guide for current and future Brittany people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "brittany", "jugbow", "radiofence-com"]

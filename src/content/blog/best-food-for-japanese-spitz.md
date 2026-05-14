@@ -3,8 +3,8 @@ title: "Japanese Spitz Food Dog-Care Decision Guide"
 seoTitle: "Japanese Spitz Food Dog-Care Decision Guide"
 displayTitle: "Japanese Spitz Food decision guide"
 description: "A PupWiki guide for current and future Japanese Spitz people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "japanese-spitz", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -46,7 +46,7 @@ This page helps Japanese Spitz people compare useful brands, products and servic
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Japanese Spitz
-Look for an AAFCO nutritional adequacy statement, a named protein in the first three ingredients, and a formula matched to your dog's life stage and size.
+Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth.
 ## Related PupWiki guides
 - [Breeds > Japanese Spitz](/breeds/japanese-spitz)
 - [Categories > Dog Food](/categories/dog-food)

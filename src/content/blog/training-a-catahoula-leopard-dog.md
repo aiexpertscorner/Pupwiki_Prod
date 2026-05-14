@@ -3,8 +3,8 @@ title: "Catahoula Leopard Dog Training Dog-Care Decision Guide"
 seoTitle: "Catahoula Leopard Dog Training Dog-Care Decision Guide"
 displayTitle: "Catahoula Leopard Dog Training decision guide"
 description: "A PupWiki guide for current and future Catahoula Leopard Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "catahoula-leopard-dog", "jugbow", "radiofence-com"]

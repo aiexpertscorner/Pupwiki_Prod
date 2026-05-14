@@ -3,8 +3,8 @@ title: "Wire Fox Terrier Training Dog-Care Decision Guide"
 seoTitle: "Wire Fox Terrier Training Dog-Care Decision Guide"
 displayTitle: "Wire Fox Terrier Training decision guide"
 description: "A PupWiki guide for current and future Wire Fox Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "wire-fox-terrier", "jugbow", "radiofence-com"]

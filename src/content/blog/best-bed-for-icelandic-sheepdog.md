@@ -3,8 +3,8 @@ title: "Icelandic Sheepdog Beds Dog-Care Decision Guide"
 seoTitle: "Icelandic Sheepdog Beds Dog-Care Decision Guide"
 displayTitle: "Icelandic Sheepdog Beds decision guide"
 description: "A PupWiki guide for current and future Icelandic Sheepdog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "icelandic-sheepdog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

@@ -3,8 +3,8 @@ title: "Petit Basset Griffon Vendéen Beds Dog-Care Decision Guide"
 seoTitle: "Petit Basset Griffon Vendéen Beds Dog-Care Decision Guide"
 displayTitle: "Petit Basset Griffon Vendéen Beds decision guide"
 description: "A PupWiki guide for current and future Petit Basset Griffon Vendéen people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "petit-basset-griffon-venden", "petit-basset-griffon-vend-en", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

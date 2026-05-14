@@ -3,8 +3,8 @@ title: "Bulldog Training Dog-Care Decision Guide"
 seoTitle: "Bulldog Training Dog-Care Decision Guide"
 displayTitle: "Bulldog Training decision guide"
 description: "A PupWiki guide for current and future Bulldog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "bulldog", "jugbow", "radiofence-com"]

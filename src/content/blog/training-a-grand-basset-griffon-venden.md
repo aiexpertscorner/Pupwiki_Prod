@@ -3,8 +3,8 @@ title: "Grand Basset Griffon Vendéen Training Dog-Care Decision Guide"
 seoTitle: "Grand Basset Griffon Vendéen Training Dog-Care Decision Guide"
 displayTitle: "Grand Basset Griffon Vendéen Training decision guide"
 description: "A PupWiki guide for current and future Grand Basset Griffon Vendéen people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "grand-basset-griffon-venden", "grand-basset-griffon-vend-en", "jugbow", "radiofence-com"]

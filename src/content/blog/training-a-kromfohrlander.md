@@ -3,8 +3,8 @@ title: "Kromfohrlander Training Dog-Care Decision Guide"
 seoTitle: "Kromfohrlander Training Dog-Care Decision Guide"
 displayTitle: "Kromfohrlander Training decision guide"
 description: "A PupWiki guide for current and future Kromfohrlander people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "kromfohrlander", "jugbow", "radiofence-com"]

@@ -3,8 +3,8 @@ title: "Dog Services, Local Care and Booking Questions - PupWiki Dog Guide"
 seoTitle: "Dog Services, Local Care and Booking Questions - Brands, Services and Dog-Fit Checks"
 displayTitle: "Dog Services, Local Care and Booking Questions"
 description: "Compare dog-focused brands, products and services for dog services, local care and booking questions, with practical checks for current and future dog owners."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-services-care-planning", "service", "services", "vet", "telehealth", "grooming", "training", "boarding", "walking", "daycare", "insurance", "subscription", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear", "containment", "fence", "gps", "link", "outdoor", "safety"]

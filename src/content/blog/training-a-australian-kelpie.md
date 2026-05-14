@@ -3,8 +3,8 @@ title: "Australian Kelpie Training Dog-Care Decision Guide"
 seoTitle: "Australian Kelpie Training Dog-Care Decision Guide"
 displayTitle: "Australian Kelpie Training decision guide"
 description: "A PupWiki guide for current and future Australian Kelpie people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-13
-updatedDate: 2026-05-13
+pubDate: 2026-05-14
+updatedDate: 2026-05-14
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "australian-kelpie", "jugbow", "radiofence-com"]
