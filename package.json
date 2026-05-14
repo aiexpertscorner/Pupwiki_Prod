@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "npm run hero:audit && npm run images:hero:ci && npm run awin:sync:ci && npm run partners:check && npm run content:normalize:check && npm run content:refresh:check && npm run content:inventory && npm run content:audit:public && npm run images:content:ci && npm run images:enrich:ci && npm run sitemap:generate",
+    "prebuild": "npm run hero:audit && npm run images:hero:ci && npm run awin:sync:ci && npm run partners:check && npm run content:normalize:check && npm run content:refresh:check && npm run content:inventory && npm run faq:generate:ci && npm run content:audit:public && npm run images:content:ci && npm run images:enrich:ci && npm run sitemap:generate",
     "build": "node --max-old-space-size=4096 ./node_modules/astro/astro.js build",
     "build:fast": "node --max-old-space-size=4096 ./node_modules/astro/astro.js build",
     "build:ci": "node --max-old-space-size=4096 ./node_modules/astro/astro.js build",
@@ -41,6 +41,9 @@
     "content:status:check": "node scripts/content/sync-content-status.mjs --report",
     "content:inventory": "node scripts/content/audit-content-inventory.mjs",
     "content:opportunities": "node scripts/content/audit-content-inventory.mjs",
+    "faq:generate": "node scripts/content/generate-faq-pages.mjs --apply",
+    "faq:generate:check": "node scripts/content/generate-faq-pages.mjs",
+    "faq:generate:ci": "node scripts/content/generate-faq-pages.mjs --apply || echo \"FAQ generation failed or skipped; continuing build with existing FAQ data\"",
     "content:generate:pseo:check": "node scripts/content/generate-pseo-opportunity-pages.mjs --mode=clusters --limit=20",
     "content:generate:pseo:ci": "node scripts/content/generate-pseo-opportunity-pages.mjs --mode=all --limit=100 --cluster-limit=20 --breed-limit=400 --apply || echo \"PSEO generation paused/skipped; continuing build with existing reviewed content\"",
     "content:generate:pseo:clusters": "node scripts/content/generate-pseo-opportunity-pages.mjs --mode=clusters --limit=20 --apply",

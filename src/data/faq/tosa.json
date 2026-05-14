@@ -1,0 +1,183 @@
+{
+  "breedSlug": "tosa",
+  "breedName": "Tosa",
+  "generatedAt": "2026-05-14",
+  "topics": {
+    "cost": {
+      "label": "Cost",
+      "slug": "tosa-cost",
+      "faqs": [
+        {
+          "q": "How much does a Tosa cost to buy?",
+          "a": "Reputable breeders typically charge $1,200–$4,000 for a Tosa puppy. Prices vary by breeder reputation, health testing, and lineage. Rescue adoption fees are typically $100–$500 and include vaccinations, neutering, and microchipping."
+        },
+        {
+          "q": "What is the monthly cost of owning a Tosa?",
+          "a": "Budget $200–$400 per month for a Tosa, covering food, preventive vet care, insurance, grooming and supplies. Large breeds cost more across every category — food portions, medication doses and professional services all scale with weight."
+        },
+        {
+          "q": "What are the biggest ongoing costs for a Tosa?",
+          "a": "The three largest annual expenses are food ($800–1,200), veterinary care ($400–$1,200 budgeted annually), and pet insurance ($800–1,800 per year). Grooming costs are lower for short-coated breeds managed at home."
+        },
+        {
+          "q": "How much does a Tosa cost in the first year?",
+          "a": "Year one costs for a Tosa are significantly higher than subsequent years, typically $2,500–$5,000. This covers the purchase price or adoption fee, initial vet checks, vaccinations, spay/neuter, microchipping, crate, bedding, collar, leads and puppy training classes."
+        }
+      ]
+    },
+    "grooming": {
+      "label": "Grooming",
+      "slug": "tosa-grooming",
+      "faqs": [
+        {
+          "q": "How often should I groom a Tosa?",
+          "a": "Tosas need brushing once or twice per week.  Nails should be trimmed every 3–4 weeks. Ears should be checked and cleaned monthly."
+        },
+        {
+          "q": "Do Tosas shed a lot?",
+          "a": "Tosas shed minimally. A weekly brush is usually sufficient. "
+        },
+        {
+          "q": "What grooming tools does a Tosa need?",
+          "a": "A rubber grooming glove or soft-bristle brush is sufficient for weekly maintenance on the Tosa's medium coat. Add a nail grinder and ear cleaner for a complete grooming kit."
+        },
+        {
+          "q": "How often should I bathe a Tosa?",
+          "a": "Every 4–6 weeks is appropriate for most Tosas that live indoors. More frequent bathing is needed if they swim or spend time in mud. Over-bathing strips natural skin oils — use a pH-balanced dog shampoo rather than human products."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training",
+      "slug": "tosa-training",
+      "faqs": [
+        {
+          "q": "Are Tosas easy to train?",
+          "a": "Tosas are considered easier to train than average — they respond quickly to reward-based methods and generalise cues well. Short 10–15 minute sessions outperform long correction-heavy drills."
+        },
+        {
+          "q": "What training method works best for a Tosa?",
+          "a": "Reward-based training using treats, praise and toy rewards is the most effective and well-researched approach for Tosas. Keep sessions short and positive, end on a success, and vary your rewards to maintain engagement."
+        },
+        {
+          "q": "At what age should I start training my Tosa?",
+          "a": "Start training from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations."
+        },
+        {
+          "q": "How long does it take to train a Tosa?",
+          "a": "Most Tosas learn basic obedience cues (sit, stay, come, down) within 2–4 weeks of daily practice. Reliable recall in distracting environments typically takes 2–3 months of consistent reinforcement."
+        }
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "slug": "tosa-health",
+      "faqs": [
+        {
+          "q": "What health problems do Tosas commonly have?",
+          "a": "Tosas are most commonly associated with routine age-related conditions. Regular vet checks, appropriate weight management, and breed-specific screening tests help detect issues early. Ask any breeder for health test results before purchasing."
+        },
+        {
+          "q": "How long do Tosas live?",
+          "a": "Tosas have an average lifespan of 10–12 years. Larger breeds typically have shorter lifespans than smaller breeds. Maintaining a healthy weight and regular vet care are the most impactful factors for longevity."
+        },
+        {
+          "q": "Are Tosas prone to hip dysplasia?",
+          "a": "Tosas have a moderate-to-elevated risk of hip dysplasia, particularly for large or active breeds. Ask for OFA or PennHIP hip evaluation certificates when buying from a breeder. Weight control and avoiding high-impact exercise during bone growth (under 18 months) reduces risk."
+        },
+        {
+          "q": "What health tests should a Tosa puppy have?",
+          "a": "At minimum, your Tosa puppy should have a vet health check, first vaccinations, deworming, and microchipping before coming home. Ask the breeder for parent health certificates relevant to Tosa-specific conditions. A vet check within 72 hours of bringing your puppy home is recommended to establish a baseline."
+        }
+      ]
+    },
+    "behavior": {
+      "label": "Behaviour",
+      "slug": "tosa-behavior",
+      "faqs": [
+        {
+          "q": "Are Tosas good with kids?",
+          "a": "Tosas can do well with children when properly socialised from puppyhood. Every dog is an individual — early exposure to children's behaviour (noise, sudden movements) is the most effective preparation."
+        },
+        {
+          "q": "Do Tosas get along with other dogs?",
+          "a": "Tosas are generally sociable with other dogs, particularly when well-socialised from puppyhood. Introduce new dogs on neutral territory and keep initial meetings brief and positive."
+        },
+        {
+          "q": "Do Tosas bark a lot?",
+          "a": "Tosas are not considered excessive barkers. They may alert to strangers or unusual sounds, but are generally manageable with basic training. Consistent \"quiet\" reinforcement from puppyhood keeps this in check."
+        },
+        {
+          "q": "Are Tosas good apartment dogs?",
+          "a": "Tosas adapt reasonably well to apartment living, particularly if they receive consistent daily walks and indoor enrichment. Their calm nature makes them less disruptive in confined spaces than high-energy large breeds."
+        }
+      ]
+    },
+    "exercise": {
+      "label": "Exercise",
+      "slug": "tosa-exercise",
+      "faqs": [
+        {
+          "q": "How much exercise does a Tosa need per day?",
+          "a": "Tosas need approximately 30–45 minutes of exercise daily. A structured morning walk and an evening sniff walk usually cover their needs. Mental exercise (training sessions, puzzle feeders) counts toward overall stimulation needs and can reduce restless behaviour."
+        },
+        {
+          "q": "Are Tosas good running partners?",
+          "a": "Tosas are lower-energy dogs and are better suited to brisk walks or short jogs than distance running. Long runs can cause joint strain in lower-activity breeds — stick to 20–30 minute jogs rather than endurance runs."
+        },
+        {
+          "q": "What happens if a Tosa doesn't get enough exercise?",
+          "a": "Tosas are less demanding than high-energy breeds, but chronic under-exercise still leads to weight gain and low-level restlessness. Even lower-energy breeds benefit from a consistent daily walk for both physical health and mental stimulation."
+        },
+        {
+          "q": "Can a Tosa be off-lead?",
+          "a": "Off-lead freedom for a Tosa depends on recall reliability, not breed alone. Train recall from puppyhood using long-line sessions before progressing to full off-lead. A standard 20-foot long-line gives freedom while maintaining safety during the training phase."
+        }
+      ]
+    },
+    "feeding": {
+      "label": "Feeding",
+      "slug": "tosa-feeding",
+      "faqs": [
+        {
+          "q": "How much should I feed my Tosa?",
+          "a": "A Tosa needs approximately 3–5 cups of dry food per day for an adult, split across two meals. Always follow the feeding guide on your specific formula — calorie density varies significantly between brands. Adjust portions based on body condition: you should be able to feel (but not easily see) the ribs."
+        },
+        {
+          "q": "How many times a day should I feed a Tosa?",
+          "a": "Adult Tosas should eat twice daily. Puppies (under 6 months) need 3–4 smaller meals per day to support growth and prevent hypoglycaemia, particularly in small breeds. For large and giant breeds, twice daily feeding also reduces the risk of bloat (GDV) compared to one large daily meal."
+        },
+        {
+          "q": "What is the best food for a Tosa?",
+          "a": "Look for a formula carrying an AAFCO adequacy statement for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear first in the ingredient list. Lower-energy Tosas are prone to weight gain — choose a formula with controlled fat content and avoid calorie-dense performance formulas."
+        },
+        {
+          "q": "When should I switch my Tosa from puppy to adult food?",
+          "a": "Large breeds should stay on a large-breed puppy formula until 18–24 months, then transition to an adult formula. Switching too early can disrupt joint development during the growth phase."
+        }
+      ]
+    },
+    "suitability": {
+      "label": "Suitability",
+      "slug": "tosa-suitability",
+      "faqs": [
+        {
+          "q": "Is a Tosa a good dog for first-time owners?",
+          "a": "Tosas are manageable for motivated first-time owners who research the breed, commit to early training, and have realistic expectations about time and cost."
+        },
+        {
+          "q": "Are Tosas good family dogs?",
+          "a": "Tosas can be good family dogs when properly socialised. Their suitability depends more on individual temperament and upbringing than breed alone."
+        },
+        {
+          "q": "Do Tosas do well when left alone?",
+          "a": "Tosas form strong bonds with their owners and do not do well with extended isolation. Aim for no more than 4–6 hours alone at a time. If your schedule requires longer absences, consider a dog walker, doggy daycare, or a companion dog."
+        },
+        {
+          "q": "How much time do you need for a Tosa?",
+          "a": "Plan for 1–1.5 hours per day dedicated to your Tosa — covering exercise, training, feeding and general interaction.  The commitment is consistent year-round, not just when convenient."
+        }
+      ]
+    }
+  }
+}

@@ -72,6 +72,8 @@ function add(loc, priority = 0.6, changefreq = 'weekly', lastmod = TODAY) {
 add('/', 1.0, 'daily');
 add('/breeds', 0.92, 'weekly');
 add('/blog', 0.82, 'daily');
+add('/guides', 0.85, 'weekly');
+add('/faq', 0.85, 'weekly');
 add('/categories', 0.74, 'weekly');
 add('/dog-names', 0.82, 'weekly');
 add('/cost-calculator', 0.9, 'weekly');
@@ -139,6 +141,18 @@ for (const item of backlog.items || []) {
   }
 }
 
+// FAQ pages — generated from src/data/faq/*.json
+const faqDataDir = path.join(ROOT, 'src/data/faq');
+if (fs.existsSync(faqDataDir)) {
+  const FAQ_TOPICS = ['cost', 'grooming', 'training', 'health', 'behavior', 'exercise', 'feeding', 'suitability'];
+  for (const file of fs.readdirSync(faqDataDir).filter((f) => f.endsWith('.json'))) {
+    const breedSlug = file.replace('.json', '');
+    for (const topic of FAQ_TOPICS) {
+      add(`/faq/${breedSlug}-${topic}`, 0.75, 'monthly');
+    }
+  }
+}
+
 function buildUrlset(entries) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -156,7 +170,8 @@ const all = [...urls.values()].sort((a, b) => a.loc.localeCompare(b.loc));
 
 const breedUrls = all.filter((u) => /\/(breeds|cost-calculator|dog-names)\//.test(u.loc));
 const blogUrls = all.filter((u) => u.loc.includes('/blog/'));
-const categoryUrls = all.filter((u) => !breedUrls.includes(u) && !blogUrls.includes(u));
+const faqUrls = all.filter((u) => u.loc.includes('/faq/'));
+const categoryUrls = all.filter((u) => !breedUrls.includes(u) && !blogUrls.includes(u) && !faqUrls.includes(u));
 
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 
@@ -164,17 +179,20 @@ fs.mkdirSync(path.dirname(OUT), { recursive: true });
 const BREEDS_OUT = path.join(ROOT, 'public', 'sitemap-breeds.xml');
 const BLOG_OUT = path.join(ROOT, 'public', 'sitemap-blog.xml');
 const CAT_OUT = path.join(ROOT, 'public', 'sitemap-categories.xml');
+const FAQ_OUT = path.join(ROOT, 'public', 'sitemap-faq.xml');
 const INDEX_OUT = path.join(ROOT, 'public', 'sitemap-index.xml');
 
 fs.writeFileSync(BREEDS_OUT, buildUrlset(breedUrls), 'utf8');
 fs.writeFileSync(BLOG_OUT, buildUrlset(blogUrls), 'utf8');
 fs.writeFileSync(CAT_OUT, buildUrlset(categoryUrls), 'utf8');
+fs.writeFileSync(FAQ_OUT, buildUrlset(faqUrls), 'utf8');
 
 const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap><loc>${SITE}/sitemap-breeds.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
   <sitemap><loc>${SITE}/sitemap-blog.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
   <sitemap><loc>${SITE}/sitemap-categories.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${SITE}/sitemap-faq.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
 </sitemapindex>`;
 
 fs.writeFileSync(INDEX_OUT, sitemapIndex, 'utf8');
@@ -186,6 +204,7 @@ const legacyXml = `<?xml version="1.0" encoding="UTF-8"?>
   <sitemap><loc>${SITE}/sitemap-breeds.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
   <sitemap><loc>${SITE}/sitemap-blog.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
   <sitemap><loc>${SITE}/sitemap-categories.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${SITE}/sitemap-faq.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
 </sitemapindex>`;
 fs.writeFileSync(OUT, legacyXml, 'utf8');
 
@@ -193,5 +212,6 @@ console.log(`\n✓ Segmented sitemaps written to public/`);
 console.log(`  sitemap-breeds.xml:     ${breedUrls.length} URLs`);
 console.log(`  sitemap-blog.xml:       ${blogUrls.length} URLs`);
 console.log(`  sitemap-categories.xml: ${categoryUrls.length} URLs`);
+console.log(`  sitemap-faq.xml:        ${faqUrls.length} URLs`);
 console.log(`  Total URLs: ${all.length}`);
 console.log(`\nSubmit: https://pupwiki.com/sitemap.xml\n`);

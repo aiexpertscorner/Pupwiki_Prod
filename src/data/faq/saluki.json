@@ -1,0 +1,183 @@
+{
+  "breedSlug": "saluki",
+  "breedName": "Saluki",
+  "generatedAt": "2026-05-14",
+  "topics": {
+    "cost": {
+      "label": "Cost",
+      "slug": "saluki-cost",
+      "faqs": [
+        {
+          "q": "How much does a Saluki cost to buy?",
+          "a": "Reputable breeders typically charge $800–$3,000 for a Saluki puppy. Prices vary by breeder reputation, health testing, and lineage. Rescue adoption fees are typically $100–$500 and include vaccinations, neutering, and microchipping."
+        },
+        {
+          "q": "What is the monthly cost of owning a Saluki?",
+          "a": "Budget $150–$300 per month for a Saluki, covering food, preventive vet care, insurance, grooming and supplies. Mid-size breeds sit in the moderate cost range across most ownership categories."
+        },
+        {
+          "q": "What are the biggest ongoing costs for a Saluki?",
+          "a": "The three largest annual expenses are food ($500–900), veterinary care ($400–$1,200 budgeted annually), and pet insurance ($$400–$1,200 per year). Grooming adds $400–$1,200 annually for Salukis due to their coat type."
+        },
+        {
+          "q": "How much does a Saluki cost in the first year?",
+          "a": "Year one costs for a Saluki are significantly higher than subsequent years, typically $2,000–$4,000. This covers the purchase price or adoption fee, initial vet checks, vaccinations, spay/neuter, microchipping, crate, bedding, collar, leads and puppy training classes."
+        }
+      ]
+    },
+    "grooming": {
+      "label": "Grooming",
+      "slug": "saluki-grooming",
+      "faqs": [
+        {
+          "q": "How often should I groom a Saluki?",
+          "a": "Salukis need brushing 3–4 times per week to prevent matting.  Nails should be trimmed every 3–4 weeks. Ears should be checked and cleaned monthly."
+        },
+        {
+          "q": "Do Salukis shed a lot?",
+          "a": "Salukis shed minimally. A weekly brush is usually sufficient. "
+        },
+        {
+          "q": "What grooming tools does a Saluki need?",
+          "a": "A wide-tooth comb, pin brush, and detangling spray are the core tools for a Saluki's silky coat. Add a nail grinder and ear cleaner for complete at-home maintenance."
+        },
+        {
+          "q": "How often should I bathe a Saluki?",
+          "a": "Every 4–6 weeks is appropriate for most Salukis that live indoors. More frequent bathing is needed if they swim or spend time in mud. Over-bathing strips natural skin oils — use a pH-balanced dog shampoo rather than human products."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training",
+      "slug": "saluki-training",
+      "faqs": [
+        {
+          "q": "Are Salukis easy to train?",
+          "a": "Salukis are independent thinkers and can be challenging to train. They respond best to high-value rewards and clear, consistent criteria. A structured puppy class from week one is strongly recommended."
+        },
+        {
+          "q": "What training method works best for a Saluki?",
+          "a": "Reward-based training using treats, praise and toy rewards is the most effective and well-researched approach for Salukis. Clicker training with precise timing works well to mark the exact moment of correct behaviour. Avoid aversive methods — they increase anxiety and often create secondary behavioural problems."
+        },
+        {
+          "q": "At what age should I start training my Saluki?",
+          "a": "Start training from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations."
+        },
+        {
+          "q": "How long does it take to train a Saluki?",
+          "a": "Salukis can take longer to reach reliable obedience than easier-to-train breeds — expect 3–6 months of consistent daily training for solid basics. Their independent nature means results compound slowly but durably with patience."
+        }
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "slug": "saluki-health",
+      "faqs": [
+        {
+          "q": "What health problems do Salukis commonly have?",
+          "a": "Salukis are most commonly associated with ear infections. Regular vet checks, appropriate weight management, and breed-specific screening tests help detect issues early. Ask any breeder for health test results before purchasing."
+        },
+        {
+          "q": "How long do Salukis live?",
+          "a": "Salukis have an average lifespan of 10–17 years. Good nutrition, appropriate exercise, weight management and regular vet visits are the key factors in achieving the upper end of this range."
+        },
+        {
+          "q": "Are Salukis prone to hip dysplasia?",
+          "a": "Hip dysplasia is less common in Salukis than in large working breeds, but it can still occur. Responsible breeders screen breeding stock. Keeping your Saluki at a healthy weight is the most effective preventive measure."
+        },
+        {
+          "q": "What health tests should a Saluki puppy have?",
+          "a": "At minimum, your Saluki puppy should have a vet health check, first vaccinations, deworming, and microchipping before coming home. Ask the breeder for parent health certificates relevant to Saluki-specific conditions. A vet check within 72 hours of bringing your puppy home is recommended to establish a baseline."
+        }
+      ]
+    },
+    "behavior": {
+      "label": "Behaviour",
+      "slug": "saluki-behavior",
+      "faqs": [
+        {
+          "q": "Are Salukis good with kids?",
+          "a": "Salukis are generally known for being friendly and patient, making them well-suited to family life with children. Supervision is always recommended with young children regardless of breed — interactions should be taught from both sides."
+        },
+        {
+          "q": "Do Salukis get along with other dogs?",
+          "a": "Salukis can be selective with other dogs due to their independent nature. Early socialisation in puppy classes and controlled on-lead introductions with other dogs help build positive associations."
+        },
+        {
+          "q": "Do Salukis bark a lot?",
+          "a": "Salukis tend to be vocal — they may bark at strangers, sounds, or when under-stimulated. Adequate daily exercise and mental enrichment (training sessions, puzzle feeders) significantly reduce nuisance barking. Teaching a \"quiet\" cue early is worthwhile."
+        },
+        {
+          "q": "Are Salukis good apartment dogs?",
+          "a": "Salukis can live in apartments if their exercise needs are met consistently. The key variable is owner commitment to daily walks and enrichment — breed size alone doesn't determine apartment suitability."
+        }
+      ]
+    },
+    "exercise": {
+      "label": "Exercise",
+      "slug": "saluki-exercise",
+      "faqs": [
+        {
+          "q": "How much exercise does a Saluki need per day?",
+          "a": "Salukis need approximately 60–90 minutes of exercise daily. Split across at least two sessions daily, with one higher-intensity session (running, fetch, swimming) and one loose-lead sniff walk. Mental exercise (training sessions, puzzle feeders) counts toward overall stimulation needs and can reduce restless behaviour."
+        },
+        {
+          "q": "Are Salukis good running partners?",
+          "a": "Yes — Salukis make excellent running partners once fully grown (typically 12–18 months for medium breeds, 18–24 months for large breeds). Start with shorter distances and build gradually to protect developing joints."
+        },
+        {
+          "q": "What happens if a Saluki doesn't get enough exercise?",
+          "a": "Under-exercised Salukis often develop destructive behaviours — chewing, digging, excessive barking, and hyperactivity indoors. These are symptoms of frustration, not bad temperament. Two missed exercise sessions back-to-back typically shows up as restlessness or nuisance behaviour."
+        },
+        {
+          "q": "Can a Saluki be off-lead?",
+          "a": "Off-lead freedom for a Saluki depends on recall reliability, not breed alone. Train recall from puppyhood using long-line sessions before progressing to full off-lead. A long-line is recommended as an intermediate step for several months."
+        }
+      ]
+    },
+    "feeding": {
+      "label": "Feeding",
+      "slug": "saluki-feeding",
+      "faqs": [
+        {
+          "q": "How much should I feed my Saluki?",
+          "a": "A Saluki needs approximately 1½–3 cups of dry food per day for an adult, split across two meals. Always follow the feeding guide on your specific formula — calorie density varies significantly between brands. Adjust portions based on body condition: you should be able to feel (but not easily see) the ribs."
+        },
+        {
+          "q": "How many times a day should I feed a Saluki?",
+          "a": "Adult Salukis should eat twice daily. Puppies (under 6 months) need 3–4 smaller meals per day to support growth and prevent hypoglycaemia, particularly in small breeds. "
+        },
+        {
+          "q": "What is the best food for a Saluki?",
+          "a": "Look for a formula carrying an AAFCO adequacy statement for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear first in the ingredient list. Active Salukis benefit from higher-protein formulas (26–30% crude protein) to support muscle maintenance."
+        },
+        {
+          "q": "When should I switch my Saluki from puppy to adult food?",
+          "a": "Most Salukis can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days — mix 25% new food with 75% old food and shift the ratio every 2 days to avoid digestive upset."
+        }
+      ]
+    },
+    "suitability": {
+      "label": "Suitability",
+      "slug": "saluki-suitability",
+      "faqs": [
+        {
+          "q": "Is a Saluki a good dog for first-time owners?",
+          "a": "Salukis can be challenging for first-time owners due to their independent temperament. Prior dog experience or professional training classes from the start significantly improves outcomes. Research the breed thoroughly before committing."
+        },
+        {
+          "q": "Are Salukis good family dogs?",
+          "a": "Salukis are typically affectionate family dogs that do well with children and adapt to household routines. Their sociable nature means they prefer company over isolation."
+        },
+        {
+          "q": "Do Salukis do well when left alone?",
+          "a": "Salukis are more independent than many breeds and generally tolerate alone time better than highly social dogs. Still, aim for no more than 4–6 hours alone for an adult dog, and less for puppies."
+        },
+        {
+          "q": "How much time do you need for a Saluki?",
+          "a": "Plan for 2–3 hours per day dedicated to your Saluki — covering exercise, training, feeding and general interaction. Add 15–30 minutes for grooming 3–4 times weekly. The commitment is consistent year-round, not just when convenient."
+        }
+      ]
+    }
+  }
+}

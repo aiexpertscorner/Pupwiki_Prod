@@ -1,0 +1,183 @@
+{
+  "breedSlug": "newfoundland",
+  "breedName": "Newfoundland",
+  "generatedAt": "2026-05-14",
+  "topics": {
+    "cost": {
+      "label": "Cost",
+      "slug": "newfoundland-cost",
+      "faqs": [
+        {
+          "q": "How much does a Newfoundland cost to buy?",
+          "a": "Reputable breeders typically charge $1,200–$4,000 for a Newfoundland puppy. Prices vary by breeder reputation, health testing, and lineage. Rescue adoption fees are typically $100–$500 and include vaccinations, neutering, and microchipping."
+        },
+        {
+          "q": "What is the monthly cost of owning a Newfoundland?",
+          "a": "Budget $200–$400 per month for a Newfoundland, covering food, preventive vet care, insurance, grooming and supplies. Large breeds cost more across every category — food portions, medication doses and professional services all scale with weight."
+        },
+        {
+          "q": "What are the biggest ongoing costs for a Newfoundland?",
+          "a": "The three largest annual expenses are food ($800–1,200), veterinary care ($400–$1,200 budgeted annually), and pet insurance ($800–1,800 per year). Grooming adds $400–$1,200 annually for Newfoundlands due to their coat type."
+        },
+        {
+          "q": "How much does a Newfoundland cost in the first year?",
+          "a": "Year one costs for a Newfoundland are significantly higher than subsequent years, typically $2,500–$5,000. This covers the purchase price or adoption fee, initial vet checks, vaccinations, spay/neuter, microchipping, crate, bedding, collar, leads and puppy training classes."
+        }
+      ]
+    },
+    "grooming": {
+      "label": "Grooming",
+      "slug": "newfoundland-grooming",
+      "faqs": [
+        {
+          "q": "How often should I groom a Newfoundland?",
+          "a": "Newfoundlands need brushing 3–4 times per week to prevent matting.  Nails should be trimmed every 3–4 weeks. Ears should be checked and cleaned monthly."
+        },
+        {
+          "q": "Do Newfoundlands shed a lot?",
+          "a": "Newfoundlands have seasonal shedding — manageable with a consistent brushing routine. "
+        },
+        {
+          "q": "What grooming tools does a Newfoundland need?",
+          "a": "A wide-tooth comb, pin brush, and detangling spray are the core tools for a Newfoundland's long coat. Add a nail grinder and ear cleaner for complete at-home maintenance."
+        },
+        {
+          "q": "How often should I bathe a Newfoundland?",
+          "a": "Every 4–6 weeks is appropriate for most Newfoundlands that live indoors. More frequent bathing is needed if they swim or spend time in mud. Over-bathing strips natural skin oils — use a pH-balanced dog shampoo rather than human products."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training",
+      "slug": "newfoundland-training",
+      "faqs": [
+        {
+          "q": "Are Newfoundlands easy to train?",
+          "a": "Newfoundlands are considered easier to train than average — they respond quickly to reward-based methods and generalise cues well. Short 10–15 minute sessions outperform long correction-heavy drills."
+        },
+        {
+          "q": "What training method works best for a Newfoundland?",
+          "a": "Reward-based training using treats, praise and toy rewards is the most effective and well-researched approach for Newfoundlands. Keep sessions short and positive, end on a success, and vary your rewards to maintain engagement."
+        },
+        {
+          "q": "At what age should I start training my Newfoundland?",
+          "a": "Start training from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations."
+        },
+        {
+          "q": "How long does it take to train a Newfoundland?",
+          "a": "Most Newfoundlands learn basic obedience cues (sit, stay, come, down) within 2–4 weeks of daily practice. Reliable recall in distracting environments typically takes 2–3 months of consistent reinforcement."
+        }
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "slug": "newfoundland-health",
+      "faqs": [
+        {
+          "q": "What health problems do Newfoundlands commonly have?",
+          "a": "Newfoundlands are most commonly associated with hip problems and other breed-specific conditions. Regular vet checks, appropriate weight management, and breed-specific screening tests help detect issues early. Ask any breeder for health test results before purchasing."
+        },
+        {
+          "q": "How long do Newfoundlands live?",
+          "a": "Newfoundlands have an average lifespan of 9–10 years. Larger breeds typically have shorter lifespans than smaller breeds. Maintaining a healthy weight and regular vet care are the most impactful factors for longevity."
+        },
+        {
+          "q": "Are Newfoundlands prone to hip dysplasia?",
+          "a": "Newfoundlands have a moderate-to-elevated risk of hip dysplasia, particularly for large or active breeds. Ask for OFA or PennHIP hip evaluation certificates when buying from a breeder. Weight control and avoiding high-impact exercise during bone growth (under 18 months) reduces risk."
+        },
+        {
+          "q": "What health tests should a Newfoundland puppy have?",
+          "a": "At minimum, your Newfoundland puppy should have a vet health check, first vaccinations, deworming, and microchipping before coming home. Ask the breeder for parent health certificates relevant to Newfoundland-specific conditions. A vet check within 72 hours of bringing your puppy home is recommended to establish a baseline."
+        }
+      ]
+    },
+    "behavior": {
+      "label": "Behaviour",
+      "slug": "newfoundland-behavior",
+      "faqs": [
+        {
+          "q": "Are Newfoundlands good with kids?",
+          "a": "Newfoundlands can do well with children when properly socialised from puppyhood. Every dog is an individual — early exposure to children's behaviour (noise, sudden movements) is the most effective preparation."
+        },
+        {
+          "q": "Do Newfoundlands get along with other dogs?",
+          "a": "Newfoundlands are generally sociable with other dogs, particularly when well-socialised from puppyhood. Introduce new dogs on neutral territory and keep initial meetings brief and positive."
+        },
+        {
+          "q": "Do Newfoundlands bark a lot?",
+          "a": "Newfoundlands are not considered excessive barkers. They may alert to strangers or unusual sounds, but are generally manageable with basic training. Consistent \"quiet\" reinforcement from puppyhood keeps this in check."
+        },
+        {
+          "q": "Are Newfoundlands good apartment dogs?",
+          "a": "Newfoundlands can live in apartments if their exercise needs are met consistently. The key variable is owner commitment to daily walks and enrichment — breed size alone doesn't determine apartment suitability."
+        }
+      ]
+    },
+    "exercise": {
+      "label": "Exercise",
+      "slug": "newfoundland-exercise",
+      "faqs": [
+        {
+          "q": "How much exercise does a Newfoundland need per day?",
+          "a": "Newfoundlands need approximately 45–60 minutes of exercise daily. A structured morning walk and an evening sniff walk usually cover their needs. Mental exercise (training sessions, puzzle feeders) counts toward overall stimulation needs and can reduce restless behaviour."
+        },
+        {
+          "q": "Are Newfoundlands good running partners?",
+          "a": "Newfoundlands can join you for moderate runs once fully grown. They're better suited to steady 3–5 mile runs than extended distance. Watch for signs of fatigue and always run in cooler hours during summer."
+        },
+        {
+          "q": "What happens if a Newfoundland doesn't get enough exercise?",
+          "a": "Newfoundlands are less demanding than high-energy breeds, but chronic under-exercise still leads to weight gain and low-level restlessness. Even lower-energy breeds benefit from a consistent daily walk for both physical health and mental stimulation."
+        },
+        {
+          "q": "Can a Newfoundland be off-lead?",
+          "a": "Off-lead freedom for a Newfoundland depends on recall reliability, not breed alone. Train recall from puppyhood using long-line sessions before progressing to full off-lead. A standard 20-foot long-line gives freedom while maintaining safety during the training phase."
+        }
+      ]
+    },
+    "feeding": {
+      "label": "Feeding",
+      "slug": "newfoundland-feeding",
+      "faqs": [
+        {
+          "q": "How much should I feed my Newfoundland?",
+          "a": "A Newfoundland needs approximately 3–5 cups of dry food per day for an adult, split across two meals. Always follow the feeding guide on your specific formula — calorie density varies significantly between brands. Adjust portions based on body condition: you should be able to feel (but not easily see) the ribs."
+        },
+        {
+          "q": "How many times a day should I feed a Newfoundland?",
+          "a": "Adult Newfoundlands should eat twice daily. Puppies (under 6 months) need 3–4 smaller meals per day to support growth and prevent hypoglycaemia, particularly in small breeds. For large and giant breeds, twice daily feeding also reduces the risk of bloat (GDV) compared to one large daily meal."
+        },
+        {
+          "q": "What is the best food for a Newfoundland?",
+          "a": "Look for a formula carrying an AAFCO adequacy statement for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear first in the ingredient list. Medium-energy Newfoundlands do well on standard adult maintenance formulas with named protein as the first ingredient."
+        },
+        {
+          "q": "When should I switch my Newfoundland from puppy to adult food?",
+          "a": "Large breeds should stay on a large-breed puppy formula until 18–24 months, then transition to an adult formula. Switching too early can disrupt joint development during the growth phase."
+        }
+      ]
+    },
+    "suitability": {
+      "label": "Suitability",
+      "slug": "newfoundland-suitability",
+      "faqs": [
+        {
+          "q": "Is a Newfoundland a good dog for first-time owners?",
+          "a": "Newfoundlands are manageable for motivated first-time owners who research the breed, commit to early training, and have realistic expectations about time and cost."
+        },
+        {
+          "q": "Are Newfoundlands good family dogs?",
+          "a": "Newfoundlands can be good family dogs when properly socialised. Their suitability depends more on individual temperament and upbringing than breed alone."
+        },
+        {
+          "q": "Do Newfoundlands do well when left alone?",
+          "a": "Newfoundlands form strong bonds with their owners and do not do well with extended isolation. Aim for no more than 4–6 hours alone at a time. If your schedule requires longer absences, consider a dog walker, doggy daycare, or a companion dog."
+        },
+        {
+          "q": "How much time do you need for a Newfoundland?",
+          "a": "Plan for 1.5–2 hours per day dedicated to your Newfoundland — covering exercise, training, feeding and general interaction. Add 15–30 minutes for grooming 3–4 times weekly. The commitment is consistent year-round, not just when convenient."
+        }
+      ]
+    }
+  }
+}

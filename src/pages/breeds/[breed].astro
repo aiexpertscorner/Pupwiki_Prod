@@ -32,7 +32,7 @@ import {
 } from '../../lib/breeds/buildBreedResourceItems';
 
 import { deriveProfile } from '../../../scripts/lib/breed-profile.mjs';
-import { existsSync } from 'fs';
+import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 
 const SITE = 'https://pupwiki.com';
@@ -61,6 +61,13 @@ const healthProfileList = Array.isArray((healthProfiles as any).profiles)
   ? (healthProfiles as any).profiles
   : [];
 const healthProfile = healthProfileList.find((p: any) => p.breed_slug === slug) ?? null;
+
+const faqDataPath = join(process.cwd(), 'src/data/faq', `${slug}.json`);
+const breedFaqData = existsSync(faqDataPath)
+  ? JSON.parse(readFileSync(faqDataPath, 'utf8'))
+  : null;
+const previewFaqTopic = breedFaqData?.topics?.suitability || breedFaqData?.topics?.behavior || null;
+const previewFaqs: { q: string; a: string }[] = previewFaqTopic?.faqs?.slice(0, 3) || [];
 
 const imageUrls = [
   ...(Array.isArray(b.image_urls) ? b.image_urls : []),
@@ -441,6 +448,26 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
           <section id="breed-guides" class="breed-section" aria-labelledby="all-guides-title"><div class="breed-section__header"><p class="breed-eyebrow">Related guides</p><h2 id="all-guides-title">All {b.name} Guides</h2></div><a href={COST_CALC_HREF} class="breed-feature-link"><span aria-hidden="true">💰</span><div><strong>{b.name} Cost Calculator</strong><p>Puppy price, annual costs, food estimate, and lifetime ownership planning.</p></div><em aria-hidden="true">→</em></a><div class="breed-guide-grid">{CLUSTER_LINKS.map((item) => status[item.key] && item.href ? <a href={item.href} class="breed-guide-link"><span>{item.emoji}</span><strong>{item.label}</strong><em aria-hidden="true">→</em></a> : <div class="breed-guide-link is-disabled"><span>{item.emoji}</span><strong>{item.label}</strong></div>)}</div></section>
 
           {b.fci_group && <section class="breed-section" aria-labelledby="fci-title"><div class="breed-section__header"><p class="breed-eyebrow">Classification</p><h2 id="fci-title">FCI Classification</h2></div><div class="breed-classification-grid"><article><span>FCI Group</span><strong>Group {b.fci_group} — {b.fci_group_name}</strong></article>{b.fci_section && <article><span>Section</span><strong>{b.fci_section}</strong></article>}{b.fci_status && <article><span>Status</span><strong>{titleCase(b.fci_status)}</strong></article>}</div></section>}
+
+          {previewFaqs.length > 0 && (
+            <section class="breed-section" aria-labelledby="breed-faq-title">
+              <div class="breed-section__header">
+                <p class="breed-eyebrow">Common questions</p>
+                <h2 id="breed-faq-title">{b.name} Frequently Asked Questions</h2>
+              </div>
+              <div class="breed-faq-list">
+                {previewFaqs.map((faq) => (
+                  <div class="breed-faq-item">
+                    <h3 class="breed-faq-q">{faq.q}</h3>
+                    <p class="breed-faq-a">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+              <a href={`/faq/${slug}-suitability`} class="breed-faq-cta">
+                See all {b.name} FAQ topics →
+              </a>
+            </section>
+          )}
 
           <section class="breed-section" aria-labelledby="related-editorial-title"><div class="breed-section__header"><p class="breed-eyebrow">Helpful reads</p><h2 id="related-editorial-title">More for {b.name} Owners</h2></div><div class="breed-editorial-grid">{relatedGuides.map((guide) => <a href={guide.href}><span aria-hidden="true">{guide.emoji}</span><div><em>{guide.tag}</em><strong>{guide.label}</strong><p>{guide.desc}</p></div></a>)}</div></section>
 

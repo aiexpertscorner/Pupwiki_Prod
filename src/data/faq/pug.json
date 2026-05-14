@@ -1,0 +1,183 @@
+{
+  "breedSlug": "pug",
+  "breedName": "Pug",
+  "generatedAt": "2026-05-14",
+  "topics": {
+    "cost": {
+      "label": "Cost",
+      "slug": "pug-cost",
+      "faqs": [
+        {
+          "q": "How much does a Pug cost to buy?",
+          "a": "Reputable breeders typically charge $500–$2,000 for a Pug puppy. Prices vary by breeder reputation, health testing, and lineage. Rescue adoption fees are typically $100–$500 and include vaccinations, neutering, and microchipping."
+        },
+        {
+          "q": "What is the monthly cost of owning a Pug?",
+          "a": "Budget $120–$200 per month for a Pug, covering food, preventive vet care, insurance, grooming and supplies. Small breeds often cost less on food and some products, but vet bills don't proportionally reduce — procedures cost similar amounts regardless of size."
+        },
+        {
+          "q": "What are the biggest ongoing costs for a Pug?",
+          "a": "The three largest annual expenses are food ($300–600), veterinary care ($400–$1,200 budgeted annually), and pet insurance ($$400–$1,200 per year). Grooming adds $400–$1,200 annually for Pugs due to their coat type."
+        },
+        {
+          "q": "How much does a Pug cost in the first year?",
+          "a": "Year one costs for a Pug are significantly higher than subsequent years, typically $1,500–$3,000. This covers the purchase price or adoption fee, initial vet checks, vaccinations, spay/neuter, microchipping, crate, bedding, collar, leads and puppy training classes."
+        }
+      ]
+    },
+    "grooming": {
+      "label": "Grooming",
+      "slug": "pug-grooming",
+      "faqs": [
+        {
+          "q": "How often should I groom a Pug?",
+          "a": "Pugs need brushing 3–5 times per week, daily during seasonal coat blows.  Nails should be trimmed every 3–4 weeks. Ears should be checked and cleaned monthly."
+        },
+        {
+          "q": "Do Pugs shed a lot?",
+          "a": "Yes — they are considered heavy shedders. Regular brushing is the most effective control tool. A slicker brush and undercoat rake are both essential for Pugs. Deshedding treatments from professional groomers can reduce seasonal shedding temporarily."
+        },
+        {
+          "q": "What grooming tools does a Pug need?",
+          "a": "A slicker brush for surface debris and an undercoat rake for the dense undercoat are both essential. A shedding blade or deshedding tool helps during heavy moult periods. A nail grinder is useful if your Pug is sensitive to clippers."
+        },
+        {
+          "q": "How often should I bathe a Pug?",
+          "a": "Every 4–6 weeks is appropriate for most Pugs that live indoors. More frequent bathing is needed if they swim or spend time in mud. Over-bathing strips natural skin oils — use a pH-balanced dog shampoo rather than human products."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training",
+      "slug": "pug-training",
+      "faqs": [
+        {
+          "q": "Are Pugs easy to train?",
+          "a": "Pugs are considered easier to train than average — they respond quickly to reward-based methods and generalise cues well. Short 10–15 minute sessions outperform long correction-heavy drills."
+        },
+        {
+          "q": "What training method works best for a Pug?",
+          "a": "Reward-based training using treats, praise and toy rewards is the most effective and well-researched approach for Pugs. Keep sessions short and positive, end on a success, and vary your rewards to maintain engagement."
+        },
+        {
+          "q": "At what age should I start training my Pug?",
+          "a": "Start training from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations."
+        },
+        {
+          "q": "How long does it take to train a Pug?",
+          "a": "Most Pugs learn basic obedience cues (sit, stay, come, down) within 2–4 weeks of daily practice. Reliable recall in distracting environments typically takes 2–3 months of consistent reinforcement."
+        }
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "slug": "pug-health",
+      "faqs": [
+        {
+          "q": "What health problems do Pugs commonly have?",
+          "a": "Pugs are most commonly associated with 'dry eye' and other breed-specific conditions. Regular vet checks, appropriate weight management, and breed-specific screening tests help detect issues early. Ask any breeder for health test results before purchasing."
+        },
+        {
+          "q": "How long do Pugs live?",
+          "a": "Pugs have an average lifespan of 13–15 years. Small breeds often live longer than large breeds. Dental care is particularly important for small dogs, as dental disease is a common longevity issue."
+        },
+        {
+          "q": "Are Pugs prone to hip dysplasia?",
+          "a": "Hip dysplasia is less common in Pugs than in large working breeds, but it can still occur. Responsible breeders screen breeding stock. Keeping your Pug at a healthy weight is the most effective preventive measure."
+        },
+        {
+          "q": "What health tests should a Pug puppy have?",
+          "a": "At minimum, your Pug puppy should have a vet health check, first vaccinations, deworming, and microchipping before coming home. Ask the breeder for parent health certificates relevant to Pug-specific conditions. A vet check within 72 hours of bringing your puppy home is recommended to establish a baseline."
+        }
+      ]
+    },
+    "behavior": {
+      "label": "Behaviour",
+      "slug": "pug-behavior",
+      "faqs": [
+        {
+          "q": "Are Pugs good with kids?",
+          "a": "Pugs are generally known for being friendly and patient, making them well-suited to family life with children. Supervision is always recommended with young children regardless of breed — interactions should be taught from both sides."
+        },
+        {
+          "q": "Do Pugs get along with other dogs?",
+          "a": "Pugs are generally sociable with other dogs, particularly when well-socialised from puppyhood. Introduce new dogs on neutral territory and keep initial meetings brief and positive."
+        },
+        {
+          "q": "Do Pugs bark a lot?",
+          "a": "Pugs are not considered excessive barkers. They may alert to strangers or unusual sounds, but are generally manageable with basic training. Consistent \"quiet\" reinforcement from puppyhood keeps this in check."
+        },
+        {
+          "q": "Are Pugs good apartment dogs?",
+          "a": "Pugs adapt reasonably well to apartment living, particularly if they receive consistent daily walks and indoor enrichment. Their compact nature makes them less disruptive in confined spaces than high-energy large breeds."
+        }
+      ]
+    },
+    "exercise": {
+      "label": "Exercise",
+      "slug": "pug-exercise",
+      "faqs": [
+        {
+          "q": "How much exercise does a Pug need per day?",
+          "a": "Pugs need approximately 45–60 minutes of exercise daily. A structured morning walk and an evening sniff walk usually cover their needs. Mental exercise (training sessions, puzzle feeders) counts toward overall stimulation needs and can reduce restless behaviour."
+        },
+        {
+          "q": "Are Pugs good running partners?",
+          "a": "Pugs can join you for moderate runs once fully grown. They're better suited to steady 3–5 mile runs than extended distance. Watch for signs of fatigue and always run in cooler hours during summer."
+        },
+        {
+          "q": "What happens if a Pug doesn't get enough exercise?",
+          "a": "Pugs are less demanding than high-energy breeds, but chronic under-exercise still leads to weight gain and low-level restlessness. Even lower-energy breeds benefit from a consistent daily walk for both physical health and mental stimulation."
+        },
+        {
+          "q": "Can a Pug be off-lead?",
+          "a": "Pugs can be off-lead in secure areas once recall is reliable. Reliable recall typically takes 3–4 months of consistent training with progressive distance and distractions. Never trust off-lead recall in an unfenced area until it's been tested in controlled conditions first."
+        }
+      ]
+    },
+    "feeding": {
+      "label": "Feeding",
+      "slug": "pug-feeding",
+      "faqs": [
+        {
+          "q": "How much should I feed my Pug?",
+          "a": "A Pug needs approximately ½–1½ cups of dry food per day for an adult, split across two meals. Always follow the feeding guide on your specific formula — calorie density varies significantly between brands. Adjust portions based on body condition: you should be able to feel (but not easily see) the ribs."
+        },
+        {
+          "q": "How many times a day should I feed a Pug?",
+          "a": "Adult Pugs should eat twice daily. Puppies (under 6 months) need 3–4 smaller meals per day to support growth and prevent hypoglycaemia, particularly in small breeds. "
+        },
+        {
+          "q": "What is the best food for a Pug?",
+          "a": "Look for a formula carrying an AAFCO adequacy statement for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear first in the ingredient list. Medium-energy Pugs do well on standard adult maintenance formulas with named protein as the first ingredient."
+        },
+        {
+          "q": "When should I switch my Pug from puppy to adult food?",
+          "a": "Small breeds typically transition to adult food around 12 months. Moving too late keeps them on higher-calorie puppy formulas that can cause weight gain in lower-activity adults."
+        }
+      ]
+    },
+    "suitability": {
+      "label": "Suitability",
+      "slug": "pug-suitability",
+      "faqs": [
+        {
+          "q": "Is a Pug a good dog for first-time owners?",
+          "a": "Pugs are generally considered suitable for first-time owners. They're responsive to training, manageable in size, and adaptable to different home environments. A puppy class is still recommended to build a strong foundation."
+        },
+        {
+          "q": "Are Pugs good family dogs?",
+          "a": "Pugs are typically affectionate family dogs that do well with children and adapt to household routines. Their sociable nature means they prefer company over isolation."
+        },
+        {
+          "q": "Do Pugs do well when left alone?",
+          "a": "Pugs form strong bonds with their owners and do not do well with extended isolation. Aim for no more than 4–6 hours alone at a time. If your schedule requires longer absences, consider a dog walker, doggy daycare, or a companion dog."
+        },
+        {
+          "q": "How much time do you need for a Pug?",
+          "a": "Plan for 1.5–2 hours per day dedicated to your Pug — covering exercise, training, feeding and general interaction. Add 15–30 minutes for grooming 3–4 times weekly. The commitment is consistent year-round, not just when convenient."
+        }
+      ]
+    }
+  }
+}

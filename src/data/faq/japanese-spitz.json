@@ -1,0 +1,183 @@
+{
+  "breedSlug": "japanese-spitz",
+  "breedName": "Japanese Spitz",
+  "generatedAt": "2026-05-14",
+  "topics": {
+    "cost": {
+      "label": "Cost",
+      "slug": "japanese-spitz-cost",
+      "faqs": [
+        {
+          "q": "How much does a Japanese Spitz cost to buy?",
+          "a": "Reputable breeders typically charge $500–$2,000 for a Japanese Spitz puppy. Prices vary by breeder reputation, health testing, and lineage. Rescue adoption fees are typically $100–$500 and include vaccinations, neutering, and microchipping."
+        },
+        {
+          "q": "What is the monthly cost of owning a Japanese Spitz?",
+          "a": "Budget $120–$200 per month for a Japanese Spitz, covering food, preventive vet care, insurance, grooming and supplies. Small breeds often cost less on food and some products, but vet bills don't proportionally reduce — procedures cost similar amounts regardless of size."
+        },
+        {
+          "q": "What are the biggest ongoing costs for a Japanese Spitz?",
+          "a": "The three largest annual expenses are food ($300–600), veterinary care ($400–$1,200 budgeted annually), and pet insurance ($$400–$1,200 per year). Grooming adds $400–$1,200 annually for Japanese Spitzs due to their coat type."
+        },
+        {
+          "q": "How much does a Japanese Spitz cost in the first year?",
+          "a": "Year one costs for a Japanese Spitz are significantly higher than subsequent years, typically $1,500–$3,000. This covers the purchase price or adoption fee, initial vet checks, vaccinations, spay/neuter, microchipping, crate, bedding, collar, leads and puppy training classes."
+        }
+      ]
+    },
+    "grooming": {
+      "label": "Grooming",
+      "slug": "japanese-spitz-grooming",
+      "faqs": [
+        {
+          "q": "How often should I groom a Japanese Spitz?",
+          "a": "Japanese Spitzs need brushing 3–4 times per week to prevent matting.  Nails should be trimmed every 3–4 weeks. Ears should be checked and cleaned monthly."
+        },
+        {
+          "q": "Do Japanese Spitzs shed a lot?",
+          "a": "Japanese Spitzs shed minimally. A weekly brush is usually sufficient. "
+        },
+        {
+          "q": "What grooming tools does a Japanese Spitz need?",
+          "a": "A wide-tooth comb, pin brush, and detangling spray are the core tools for a Japanese Spitz's long coat. Add a nail grinder and ear cleaner for complete at-home maintenance."
+        },
+        {
+          "q": "How often should I bathe a Japanese Spitz?",
+          "a": "Every 4–6 weeks is appropriate for most Japanese Spitzs that live indoors. More frequent bathing is needed if they swim or spend time in mud. Over-bathing strips natural skin oils — use a pH-balanced dog shampoo rather than human products."
+        }
+      ]
+    },
+    "training": {
+      "label": "Training",
+      "slug": "japanese-spitz-training",
+      "faqs": [
+        {
+          "q": "Are Japanese Spitzs easy to train?",
+          "a": "Japanese Spitzs are considered easier to train than average — they respond quickly to reward-based methods and generalise cues well. Short 10–15 minute sessions outperform long correction-heavy drills."
+        },
+        {
+          "q": "What training method works best for a Japanese Spitz?",
+          "a": "Reward-based training using treats, praise and toy rewards is the most effective and well-researched approach for Japanese Spitzs. Keep sessions short and positive, end on a success, and vary your rewards to maintain engagement."
+        },
+        {
+          "q": "At what age should I start training my Japanese Spitz?",
+          "a": "Start training from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations."
+        },
+        {
+          "q": "How long does it take to train a Japanese Spitz?",
+          "a": "Most Japanese Spitzs learn basic obedience cues (sit, stay, come, down) within 2–4 weeks of daily practice. Reliable recall in distracting environments typically takes 2–3 months of consistent reinforcement."
+        }
+      ]
+    },
+    "health": {
+      "label": "Health",
+      "slug": "japanese-spitz-health",
+      "faqs": [
+        {
+          "q": "What health problems do Japanese Spitzs commonly have?",
+          "a": "Japanese Spitzs are most commonly associated with routine age-related conditions. Regular vet checks, appropriate weight management, and breed-specific screening tests help detect issues early. Ask any breeder for health test results before purchasing."
+        },
+        {
+          "q": "How long do Japanese Spitzs live?",
+          "a": "Japanese Spitzs have an average lifespan of 12–14 years. Small breeds often live longer than large breeds. Dental care is particularly important for small dogs, as dental disease is a common longevity issue."
+        },
+        {
+          "q": "Are Japanese Spitzs prone to hip dysplasia?",
+          "a": "Hip dysplasia is less common in Japanese Spitzs than in large working breeds, but it can still occur. Responsible breeders screen breeding stock. Keeping your Japanese Spitz at a healthy weight is the most effective preventive measure."
+        },
+        {
+          "q": "What health tests should a Japanese Spitz puppy have?",
+          "a": "At minimum, your Japanese Spitz puppy should have a vet health check, first vaccinations, deworming, and microchipping before coming home. Ask the breeder for parent health certificates relevant to Japanese Spitz-specific conditions. A vet check within 72 hours of bringing your puppy home is recommended to establish a baseline."
+        }
+      ]
+    },
+    "behavior": {
+      "label": "Behaviour",
+      "slug": "japanese-spitz-behavior",
+      "faqs": [
+        {
+          "q": "Are Japanese Spitzs good with kids?",
+          "a": "Japanese Spitzs can do well with children when properly socialised from puppyhood. Every dog is an individual — early exposure to children's behaviour (noise, sudden movements) is the most effective preparation."
+        },
+        {
+          "q": "Do Japanese Spitzs get along with other dogs?",
+          "a": "Japanese Spitzs are generally sociable with other dogs, particularly when well-socialised from puppyhood. Introduce new dogs on neutral territory and keep initial meetings brief and positive."
+        },
+        {
+          "q": "Do Japanese Spitzs bark a lot?",
+          "a": "Japanese Spitzs are not considered excessive barkers. They may alert to strangers or unusual sounds, but are generally manageable with basic training. Consistent \"quiet\" reinforcement from puppyhood keeps this in check."
+        },
+        {
+          "q": "Are Japanese Spitzs good apartment dogs?",
+          "a": "Japanese Spitzs adapt reasonably well to apartment living, particularly if they receive consistent daily walks and indoor enrichment. Their compact nature makes them less disruptive in confined spaces than high-energy large breeds."
+        }
+      ]
+    },
+    "exercise": {
+      "label": "Exercise",
+      "slug": "japanese-spitz-exercise",
+      "faqs": [
+        {
+          "q": "How much exercise does a Japanese Spitz need per day?",
+          "a": "Japanese Spitzs need approximately 45–60 minutes of exercise daily. A structured morning walk and an evening sniff walk usually cover their needs. Mental exercise (training sessions, puzzle feeders) counts toward overall stimulation needs and can reduce restless behaviour."
+        },
+        {
+          "q": "Are Japanese Spitzs good running partners?",
+          "a": "Japanese Spitzs can join you for moderate runs once fully grown. They're better suited to steady 3–5 mile runs than extended distance. Watch for signs of fatigue and always run in cooler hours during summer."
+        },
+        {
+          "q": "What happens if a Japanese Spitz doesn't get enough exercise?",
+          "a": "Japanese Spitzs are less demanding than high-energy breeds, but chronic under-exercise still leads to weight gain and low-level restlessness. Even lower-energy breeds benefit from a consistent daily walk for both physical health and mental stimulation."
+        },
+        {
+          "q": "Can a Japanese Spitz be off-lead?",
+          "a": "Japanese Spitzs can be off-lead in secure areas once recall is reliable. Reliable recall typically takes 3–4 months of consistent training with progressive distance and distractions. Never trust off-lead recall in an unfenced area until it's been tested in controlled conditions first."
+        }
+      ]
+    },
+    "feeding": {
+      "label": "Feeding",
+      "slug": "japanese-spitz-feeding",
+      "faqs": [
+        {
+          "q": "How much should I feed my Japanese Spitz?",
+          "a": "A Japanese Spitz needs approximately ½–1½ cups of dry food per day for an adult, split across two meals. Always follow the feeding guide on your specific formula — calorie density varies significantly between brands. Adjust portions based on body condition: you should be able to feel (but not easily see) the ribs."
+        },
+        {
+          "q": "How many times a day should I feed a Japanese Spitz?",
+          "a": "Adult Japanese Spitzs should eat twice daily. Puppies (under 6 months) need 3–4 smaller meals per day to support growth and prevent hypoglycaemia, particularly in small breeds. "
+        },
+        {
+          "q": "What is the best food for a Japanese Spitz?",
+          "a": "Look for a formula carrying an AAFCO adequacy statement for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear first in the ingredient list. Medium-energy Japanese Spitzs do well on standard adult maintenance formulas with named protein as the first ingredient."
+        },
+        {
+          "q": "When should I switch my Japanese Spitz from puppy to adult food?",
+          "a": "Small breeds typically transition to adult food around 12 months. Moving too late keeps them on higher-calorie puppy formulas that can cause weight gain in lower-activity adults."
+        }
+      ]
+    },
+    "suitability": {
+      "label": "Suitability",
+      "slug": "japanese-spitz-suitability",
+      "faqs": [
+        {
+          "q": "Is a Japanese Spitz a good dog for first-time owners?",
+          "a": "Japanese Spitzs are generally considered suitable for first-time owners. They're responsive to training, manageable in size, and adaptable to different home environments. A puppy class is still recommended to build a strong foundation."
+        },
+        {
+          "q": "Are Japanese Spitzs good family dogs?",
+          "a": "Japanese Spitzs can be good family dogs when properly socialised. Their suitability depends more on individual temperament and upbringing than breed alone."
+        },
+        {
+          "q": "Do Japanese Spitzs do well when left alone?",
+          "a": "Japanese Spitzs form strong bonds with their owners and do not do well with extended isolation. Aim for no more than 4–6 hours alone at a time. If your schedule requires longer absences, consider a dog walker, doggy daycare, or a companion dog."
+        },
+        {
+          "q": "How much time do you need for a Japanese Spitz?",
+          "a": "Plan for 1.5–2 hours per day dedicated to your Japanese Spitz — covering exercise, training, feeding and general interaction. Add 15–30 minutes for grooming 3–4 times weekly. The commitment is consistent year-round, not just when convenient."
+        }
+      ]
+    }
+  }
+}
