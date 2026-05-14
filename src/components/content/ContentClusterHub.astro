@@ -31,6 +31,15 @@ const structuredData = [
       name,
     })),
   },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 2, name: 'Categories', item: `${SITE}/categories` },
+      { '@type': 'ListItem', position: 3, name: cluster.shortTitle },
+    ],
+  },
 ];
 
 const showResources = cluster.monetizationAllowed;
