@@ -46,7 +46,16 @@ This page helps American English Coonhound people compare useful brands, product
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a American English Coonhound
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. American English Coonhound is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+Start with AAFCO compliance: the label should state the food is complete and balanced for the appropriate life stage. A clearly named protein (not just "meat" or "poultry") as the first ingredient is the next filter. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. American English Coonhound is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+### What to look for in food for a American English Coonhound
+Medium breeds like the American English Coonhound do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. American English Coonhounds are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands.
+### Frequently asked questions about American English Coonhound feeding
+**How much should I feed my American English Coonhound?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most American English Coonhounds need 2–3 meals per day as adults.
+**What food formula works best for a American English Coonhound?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my American English Coonhound from puppy to adult food?**
+Most American English Coonhounds can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > American English Coonhound](/breeds/american-english-coonhound)
 - [Categories > Dog Food](/categories/dog-food)

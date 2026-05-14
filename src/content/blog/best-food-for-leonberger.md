@@ -46,7 +46,16 @@ This page helps Leonberger people compare useful brands, products and services f
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Leonberger
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+Start with AAFCO compliance: the label should state the food is complete and balanced for the appropriate life stage. A clearly named protein (not just "meat" or "poultry") as the first ingredient is the next filter. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+### What to look for in food for a Leonberger
+Large breeds benefit from formulas with a controlled calcium-to-phosphorus ratio. Look for products specifically labelled for large or giant breeds, as these manage growth rate and joint load more carefully. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Leonberger needs fewer calories than an athletic one. Leonbergers shed seasonally — look for formulas that include omega-3 fatty acids (EPA/DHA from salmon or fish oil) to support coat health from the inside out.
+### Frequently asked questions about Leonberger feeding
+**How much should I feed my Leonberger?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Leonbergers need 2–3 meals per day as adults.
+**What food formula works best for a Leonberger?**
+Look for formulas specifically labelled for large breeds, which manage calcium and phosphorus ratios to support joint development. Avoid puppy formulas designed for small dogs even if your Leonberger is young.
+**When should I switch my Leonberger from puppy to adult food?**
+Large breeds should stay on a large-breed puppy formula until 18–24 months, then transition to an adult formula. Switching too early can disrupt joint development during the growth phase.
 ## Related PupWiki guides
 - [Breeds > Leonberger](/breeds/leonberger)
 - [Categories > Dog Food](/categories/dog-food)

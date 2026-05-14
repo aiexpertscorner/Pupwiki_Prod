@@ -46,7 +46,16 @@ This page helps American Water Spaniel people compare useful brands, products an
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a American Water Spaniel
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.
+Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.
+### What to look for in food for a American Water Spaniel
+Medium breeds like the American Water Spaniel do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active American Water Spaniel needs fewer calories than an athletic one.
+### Frequently asked questions about American Water Spaniel feeding
+**How much should I feed my American Water Spaniel?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most American Water Spaniels need 2–3 meals per day as adults.
+**What food formula works best for a American Water Spaniel?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my American Water Spaniel from puppy to adult food?**
+Most American Water Spaniels can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > American Water Spaniel](/breeds/american-water-spaniel)
 - [Categories > Dog Food](/categories/dog-food)

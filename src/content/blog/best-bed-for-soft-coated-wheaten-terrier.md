@@ -48,6 +48,15 @@ This page helps Soft Coated Wheaten Terrier people compare useful brands, produc
 [View at Petmate](https://www.awin1.com/awclick.php?mid=89913&id=2861861){rel="nofollow sponsored"}
 ## How to choose for a Soft Coated Wheaten Terrier
 Measure your dog stretched out fully, add 12 inches, then match to the bed's stated usable sleep surface. Check whether the cover is machine washable.
+### What to look for in a bed for a Soft Coated Wheaten Terrier
+Mid-size breeds like the Soft Coated Wheaten Terrier do well in rectangular flat beds (30–36 inch) with a removable washable cover. Washability matters more than most buyers expect — plan to launder every 2–3 weeks. Orthopedic foam matters most once your Soft Coated Wheaten Terrier reaches 7+ years — earlier than most owners expect for medium breeds. If your dog is already showing joint stiffness, prioritise pressure-relief foam over aesthetics. Active Soft Coated Wheaten Terriers tend to dig and circle before lying down — look for beds with reinforced stitching at the corners and a water-resistant inner liner to extend the usable lifespan.
+### Frequently asked questions about Soft Coated Wheaten Terrier beds
+**What size bed does a Soft Coated Wheaten Terrier need?**
+Measure your Soft Coated Wheaten Terrier stretched out and add 12 inches. Medium breeds (30–40 lb) typically need a 30–36 inch bed. If they hang off the edges regularly, size up.
+**Is an orthopedic bed worth it for a Soft Coated Wheaten Terrier?**
+For any dog over 7 years, or one already showing joint stiffness, an orthopedic foam bed offers meaningful pressure relief. For younger healthy Soft Coated Wheaten Terriers, a quality foam bed with a washable cover is adequate — you can upgrade as they age.
+**How often should I replace my Soft Coated Wheaten Terrier's bed?**
+Most dog beds need replacing every 1–2 years under regular use. Signs it's time: visible compression of the foam (it no longer springs back), persistent odour after washing, or your Soft Coated Wheaten Terrier choosing the floor over the bed.
 ## Related PupWiki guides
 - [Breeds > Soft Coated Wheaten Terrier](/breeds/soft-coated-wheaten-terrier)
 - [Categories > Beds](/categories/beds)

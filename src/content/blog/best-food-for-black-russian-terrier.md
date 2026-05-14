@@ -46,7 +46,16 @@ This page helps Black Russian Terrier people compare useful brands, products and
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Black Russian Terrier
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. Black Russian Terrier is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. Black Russian Terrier is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+### What to look for in food for a Black Russian Terrier
+Large breeds benefit from formulas with a controlled calcium-to-phosphorus ratio. Look for products specifically labelled for large or giant breeds, as these manage growth rate and joint load more carefully. Black Russian Terriers are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands.
+### Frequently asked questions about Black Russian Terrier feeding
+**How much should I feed my Black Russian Terrier?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Black Russian Terriers need 2–3 meals per day as adults.
+**What food formula works best for a Black Russian Terrier?**
+Look for formulas specifically labelled for large breeds, which manage calcium and phosphorus ratios to support joint development. Avoid puppy formulas designed for small dogs even if your Black Russian Terrier is young.
+**When should I switch my Black Russian Terrier from puppy to adult food?**
+Large breeds should stay on a large-breed puppy formula until 18–24 months, then transition to an adult formula. Switching too early can disrupt joint development during the growth phase.
 ## Related PupWiki guides
 - [Breeds > Black Russian Terrier](/breeds/black-russian-terrier)
 - [Categories > Dog Food](/categories/dog-food)

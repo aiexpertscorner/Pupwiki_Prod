@@ -48,6 +48,15 @@ This page helps Boykin Spaniel people compare useful brands, products and servic
 [View at Petmate](https://www.awin1.com/awclick.php?mid=89913&id=2861861){rel="nofollow sponsored"}
 ## How to choose for a Boykin Spaniel
 Measure your dog stretched out fully, add 12 inches, then match to the bed's stated usable sleep surface. Check whether the cover is machine washable.
+### What to look for in a bed for a Boykin Spaniel
+Mid-size breeds like the Boykin Spaniel do well in rectangular flat beds (30–36 inch) with a removable washable cover. Washability matters more than most buyers expect — plan to launder every 2–3 weeks. Orthopedic foam matters most once your Boykin Spaniel reaches 7+ years — earlier than most owners expect for medium breeds. If your dog is already showing joint stiffness, prioritise pressure-relief foam over aesthetics. Choose a cover with a zipper rather than a slip-on sleeve so the insert stays in place even when your Boykin Spaniel rearranges it overnight.
+### Frequently asked questions about Boykin Spaniel beds
+**What size bed does a Boykin Spaniel need?**
+Measure your Boykin Spaniel stretched out and add 12 inches. Medium breeds (30–40 lb) typically need a 30–36 inch bed. If they hang off the edges regularly, size up.
+**Is an orthopedic bed worth it for a Boykin Spaniel?**
+For any dog over 7 years, or one already showing joint stiffness, an orthopedic foam bed offers meaningful pressure relief. For younger healthy Boykin Spaniels, a quality foam bed with a washable cover is adequate — you can upgrade as they age.
+**How often should I replace my Boykin Spaniel's bed?**
+Most dog beds need replacing every 1–2 years under regular use. Signs it's time: visible compression of the foam (it no longer springs back), persistent odour after washing, or your Boykin Spaniel choosing the floor over the bed.
 ## Related PupWiki guides
 - [Breeds > Boykin Spaniel](/breeds/boykin-spaniel)
 - [Categories > Beds](/categories/beds)

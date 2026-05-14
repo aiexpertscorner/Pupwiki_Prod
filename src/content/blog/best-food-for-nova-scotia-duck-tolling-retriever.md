@@ -46,7 +46,16 @@ This page helps Nova Scotia Duck Tolling Retriever people compare useful brands,
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Nova Scotia Duck Tolling Retriever
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Nova Scotia Duck Tolling Retriever is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+Start with AAFCO compliance: the label should state the food is complete and balanced for the appropriate life stage. A clearly named protein (not just "meat" or "poultry") as the first ingredient is the next filter. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. Nova Scotia Duck Tolling Retriever is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+### What to look for in food for a Nova Scotia Duck Tolling Retriever
+Medium breeds like the Nova Scotia Duck Tolling Retriever do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Nova Scotia Duck Tolling Retrievers are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands. Nova Scotia Duck Tolling Retrievers shed seasonally — look for formulas that include omega-3 fatty acids (EPA/DHA from salmon or fish oil) to support coat health from the inside out.
+### Frequently asked questions about Nova Scotia Duck Tolling Retriever feeding
+**How much should I feed my Nova Scotia Duck Tolling Retriever?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Nova Scotia Duck Tolling Retrievers need 2–3 meals per day as adults.
+**What food formula works best for a Nova Scotia Duck Tolling Retriever?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my Nova Scotia Duck Tolling Retriever from puppy to adult food?**
+Most Nova Scotia Duck Tolling Retrievers can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > Nova Scotia Duck Tolling Retriever](/breeds/nova-scotia-duck-tolling-retriever)
 - [Categories > Dog Food](/categories/dog-food)

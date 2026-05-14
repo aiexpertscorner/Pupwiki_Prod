@@ -46,7 +46,16 @@ This page helps Komondor people compare useful brands, products and services for
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Komondor
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues.
+An AAFCO-approved formula with a whole protein source — chicken, beef, salmon, or turkey — listed first is the baseline standard. Avoid formulas where the first ingredient is a grain or generic "meat by-products". Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues.
+### What to look for in food for a Komondor
+Large breeds benefit from formulas with a controlled calcium-to-phosphorus ratio. Look for products specifically labelled for large or giant breeds, as these manage growth rate and joint load more carefully. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Komondor needs fewer calories than an athletic one.
+### Frequently asked questions about Komondor feeding
+**How much should I feed my Komondor?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Komondors need 2–3 meals per day as adults.
+**What food formula works best for a Komondor?**
+Look for formulas specifically labelled for large breeds, which manage calcium and phosphorus ratios to support joint development. Avoid puppy formulas designed for small dogs even if your Komondor is young.
+**When should I switch my Komondor from puppy to adult food?**
+Large breeds should stay on a large-breed puppy formula until 18–24 months, then transition to an adult formula. Switching too early can disrupt joint development during the growth phase.
 ## Related PupWiki guides
 - [Breeds > Komondor](/breeds/komondor)
 - [Categories > Dog Food](/categories/dog-food)

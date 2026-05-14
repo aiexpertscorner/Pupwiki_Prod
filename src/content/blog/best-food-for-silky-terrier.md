@@ -46,7 +46,16 @@ This page helps Silky Terrier people compare useful brands, products and service
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Silky Terrier
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth.
+Prioritise formulas with an AAFCO adequacy statement — this confirms the recipe is complete and balanced. Named proteins should appear before grains in the ingredient list. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth.
+### What to look for in food for a Silky Terrier
+Small and toy breeds like the Silky Terrier have fast metabolisms — look for formulas with calorie-dense kibble sized for smaller jaws, and avoid large-breed blends designed for slower growth rates. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Silky Terrier needs fewer calories than an athletic one.
+### Frequently asked questions about Silky Terrier feeding
+**How much should I feed my Silky Terrier?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Silky Terriers need 2–3 meals per day as adults.
+**What food formula works best for a Silky Terrier?**
+Small-breed formulas with higher protein and smaller kibble sizes are the right starting point. Avoid large-breed or generic "all sizes" formulas, which may have inappropriate calcium levels for fast metabolisms.
+**When should I switch my Silky Terrier from puppy to adult food?**
+Small breeds typically transition to adult food around 12 months. Moving too late keeps them on higher-calorie puppy formulas that can cause weight gain in lower-activity adults.
 ## Related PupWiki guides
 - [Breeds > Silky Terrier](/breeds/silky-terrier)
 - [Categories > Dog Food](/categories/dog-food)

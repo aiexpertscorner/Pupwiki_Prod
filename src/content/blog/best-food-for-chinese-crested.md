@@ -46,7 +46,16 @@ This page helps Chinese Crested people compare useful brands, products and servi
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Chinese Crested
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth.
+Prioritise formulas with an AAFCO adequacy statement — this confirms the recipe is complete and balanced. Named proteins should appear before grains in the ingredient list. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth.
+### What to look for in food for a Chinese Crested
+Small and toy breeds like the Chinese Crested have fast metabolisms — look for formulas with calorie-dense kibble sized for smaller jaws, and avoid large-breed blends designed for slower growth rates. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Chinese Crested needs fewer calories than an athletic one.
+### Frequently asked questions about Chinese Crested feeding
+**How much should I feed my Chinese Crested?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Chinese Cresteds need 2–3 meals per day as adults.
+**What food formula works best for a Chinese Crested?**
+Small-breed formulas with higher protein and smaller kibble sizes are the right starting point. Avoid large-breed or generic "all sizes" formulas, which may have inappropriate calcium levels for fast metabolisms.
+**When should I switch my Chinese Crested from puppy to adult food?**
+Small breeds typically transition to adult food around 12 months. Moving too late keeps them on higher-calorie puppy formulas that can cause weight gain in lower-activity adults.
 ## Related PupWiki guides
 - [Breeds > Chinese Crested](/breeds/chinese-crested)
 - [Categories > Dog Food](/categories/dog-food)

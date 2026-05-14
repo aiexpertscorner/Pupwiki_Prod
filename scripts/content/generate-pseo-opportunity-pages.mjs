@@ -167,13 +167,215 @@ const RULES = [
   },
 ];
 
+// ─── Breed-attribute-driven content sections ──────────────────────────────────
+
+function getBreedTraits(breed) {
+  const size = (breed?.size_category || breed?.size || 'medium').toLowerCase();
+  const energy = (breed?.energy_level || breed?.traits?.energy_level || 'moderate').toLowerCase();
+  const coat = (breed?.coat_type || breed?.traits?.coat_type || 'short').toLowerCase();
+  const shedding = (breed?.shedding_level || breed?.traits?.shedding_level || 'moderate').toLowerCase();
+  const training = (breed?.training_level || breed?.traits?.training_level || 'moderate').toLowerCase();
+  const health = breed?.primary_health_concern || '';
+  const name = breed?.name || 'This breed';
+  const weight = breed?.weight?.imperial || breed?.weight?.metric;
+  const weightStr = weight
+    ? (typeof weight === 'object' ? `${weight.min || ''}–${weight.max || ''} lbs` : `${weight} lbs`)
+    : null;
+  const isSmall = /toy|small/i.test(size);
+  const isLarge = /large|giant/i.test(size);
+  const isActive = /high|active|very active/i.test(energy);
+  const isCalm = /low|calm|sedentary/i.test(energy);
+  const isEasyTrain = /easy|eager|high/i.test(training);
+  const isHardTrain = /independent|stubborn|challenging|hard/i.test(training);
+  const isHighShed = /high|heavy/i.test(shedding);
+  const isDoubleCoat = /double/i.test(coat);
+  return { size, energy, coat, shedding, training, health, name, weightStr, isSmall, isLarge, isActive, isCalm, isEasyTrain, isHardTrain, isHighShed, isDoubleCoat };
+}
+
+function buildWhatToLookFor(breed, commerceCluster, pseoFamily) {
+  const t = getBreedTraits(breed);
+  const family = pseoFamily || (commerceCluster || '').replace('dog-', '').replace('-partners', '').replace('-nutrition', '').split('-')[0];
+
+  if (family === 'food' || commerceCluster === 'dog-food-nutrition-partners') {
+    const sizeNote = t.isSmall
+      ? `Small and toy breeds like the ${t.name} have fast metabolisms — look for formulas with calorie-dense kibble sized for smaller jaws, and avoid large-breed blends designed for slower growth rates.`
+      : t.isLarge
+      ? `Large breeds benefit from formulas with a controlled calcium-to-phosphorus ratio. Look for products specifically labelled for large or giant breeds, as these manage growth rate and joint load more carefully.`
+      : `Medium breeds like the ${t.name} do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage.`;
+    const energyNote = t.isActive
+      ? `${t.name}s are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands.`
+      : t.isCalm
+      ? `${t.name}s tend toward lower activity — choose a formula with controlled fat content to avoid the weight gain that commonly affects lower-energy breeds over time.`
+      : `Match calorie density to your individual dog's actual activity level, not just the breed average — a less active ${t.name} needs fewer calories than an athletic one.`;
+    const coatNote = (t.isHighShed || t.isDoubleCoat)
+      ? `${t.name}s shed seasonally — look for formulas that include omega-3 fatty acids (EPA/DHA from salmon or fish oil) to support coat health from the inside out.`
+      : '';
+    return `### What to look for in food for a ${t.name}\n\n${sizeNote} ${energyNote}${coatNote ? ' ' + coatNote : ''}`;
+  }
+
+  if (family === 'beds' || commerceCluster === 'dog-beds-comfort-home-partners') {
+    const sizeNote = t.isSmall
+      ? `Measure your ${t.name} when fully stretched — add 12 inches to that length for the ideal sleep surface. Smaller breeds often prefer bolster or donut-style beds that let them curl up, rather than flat mats.`
+      : t.isLarge
+      ? `Large breeds need beds with a usable sleep surface of at least 40–48 inches. Look for memory foam or orthopedic foam rather than fibrefill, which compresses flat under heavier dogs within months.`
+      : `Mid-size breeds like the ${t.name} do well in rectangular flat beds (30–36 inch) with a removable washable cover. Washability matters more than most buyers expect — plan to launder every 2–3 weeks.`;
+    const ageNote = `Orthopedic foam matters most once your ${t.name} reaches 7+ years — earlier than most owners expect for medium breeds. If your dog is already showing joint stiffness, prioritise pressure-relief foam over aesthetics.`;
+    const durabilityNote = t.isActive
+      ? `Active ${t.name}s tend to dig and circle before lying down — look for beds with reinforced stitching at the corners and a water-resistant inner liner to extend the usable lifespan.`
+      : `Choose a cover with a zipper rather than a slip-on sleeve so the insert stays in place even when your ${t.name} rearranges it overnight.`;
+    return `### What to look for in a bed for a ${t.name}\n\n${sizeNote} ${ageNote} ${durabilityNote}`;
+  }
+
+  if (family === 'grooming' || commerceCluster === 'dog-grooming-care-partners') {
+    const coatNote = t.isHighShed || t.isDoubleCoat
+      ? `The ${t.name} is a heavy shedder — a slicker brush for surface debris and an undercoat rake for the dense undercoat are both essential, not optional. Plan for deshedding sessions at least twice weekly during peak shedding seasons.`
+      : /curly|wavy|long/i.test(t.coat)
+      ? `${t.name}s have a ${t.coat} coat that mats if neglected — a wide-tooth comb used after each brush session catches tangles before they tighten. Professional trims every 6–8 weeks keep the coat manageable.`
+      : `The ${t.name}'s ${t.coat} coat is relatively low-maintenance — a soft-bristle brush once or twice weekly keeps it clean and distributes natural oils. A rubber deshedding glove works well for weekly use.`;
+    const bathNote = `Bathing frequency depends on lifestyle: every 4–6 weeks for a dog that mostly stays indoors, more often if they swim or dig regularly. Over-bathing strips protective oils — use a pH-balanced dog shampoo rather than human products.`;
+    const nailNote = `Nail trims are often the most neglected part of ${t.name} grooming. Nails that click on hard floors are already too long — plan for trims every 3–4 weeks or use a grinder if your dog is sensitive to clippers.`;
+    return `### What to look for in grooming tools for a ${t.name}\n\n${coatNote} ${bathNote} ${nailNote}`;
+  }
+
+  if (family === 'training' || commerceCluster === 'dog-training-gear-safety-partners') {
+    const difficultyNote = t.isEasyTrain
+      ? `${t.name}s are responsive to training — they generalise cues quickly and stay engaged through reward-based sessions. Short 10–15 minute sessions with high-value treats outperform long correction-based drills for this breed.`
+      : t.isHardTrain
+      ? `${t.name}s are independent thinkers — they need clear, consistent boundaries from day one. Enrol in a structured puppy class in the first two weeks home and use a marker-reward system to reduce ambiguity in what earns reinforcement.`
+      : `${t.name}s respond best to consistent, reward-focused training. Keep sessions under 15 minutes, end on a success, and involve every person in the household — selective compliance is common when rules differ by person.`;
+    const gearNote = `For walking gear, start with a flat collar for ID and a front-clip harness for leash training — avoid using aversive tools (prong collars, choke chains) while building leash skills. A 6-foot leash for street work and a 20–30 foot long-line for recall practice cover 90% of training scenarios.`;
+    const socialNote = `Socialisation matters as much as obedience: expose your ${t.name} to different surfaces, sounds, dogs, and strangers between 8 and 16 weeks. A well-socialised ${t.name} with moderate obedience is more manageable than a precisely trained but under-socialised one. Many trainers recommend structured puppy classes over solo home training for this reason — the peer exposure is as valuable as the instruction.`;
+    return `### What to look for in training gear for a ${t.name}\n\n${difficultyNote} ${gearNote} ${socialNote}`;
+  }
+
+  // Generic fallback for other families
+  const sizeNote = t.isSmall
+    ? `${t.name}s are small dogs — always verify sizing, weight limits, and portion sizes are appropriate for a ${t.size}-sized breed before buying.`
+    : t.isLarge
+    ? `${t.name}s are large dogs — look for products rated to the correct weight range and make sure durability specs account for a heavier, stronger dog.`
+    : `The ${t.name} is a ${t.size}-sized dog — check that sizing, portions, and product ratings are appropriate before purchasing.`;
+  const traitNote = t.isActive
+    ? `As an active breed, the ${t.name} needs products and services that match a higher energy output and more frequent use.`
+    : `The ${t.name} is a ${t.energy}-energy breed — match any ongoing product commitments (subscriptions, portions, sessions) to actual activity level.`;
+  return `### What to look for for a ${t.name}\n\n${sizeNote} ${traitNote}`;
+}
+
+function buildMiniFAQ(breed, commerceCluster, pseoFamily) {
+  const t = getBreedTraits(breed);
+  const family = pseoFamily || (commerceCluster || '').replace('dog-', '').replace('-partners', '').replace('-nutrition', '').split('-')[0];
+  const pairs = [];
+
+  if (family === 'food' || commerceCluster === 'dog-food-nutrition-partners') {
+    const portionNote = t.weightStr
+      ? `A rough starting point for ${t.name}s (${t.weightStr}) is 1–2 cups per day for smaller adults and 3–4 cups for larger ones — always follow the feeding guidelines on the specific formula and adjust based on body condition, not just weight.`
+      : `Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most ${t.name}s need 2–3 meals per day as adults.`;
+    const formulaNote = t.isSmall
+      ? `Small-breed formulas with higher protein and smaller kibble sizes are the right starting point. Avoid large-breed or generic "all sizes" formulas, which may have inappropriate calcium levels for fast metabolisms.`
+      : t.isLarge
+      ? `Look for formulas specifically labelled for large breeds, which manage calcium and phosphorus ratios to support joint development. Avoid puppy formulas designed for small dogs even if your ${t.name} is young.`
+      : `An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.`;
+    const switchNote = t.isSmall
+      ? `Small breeds typically transition to adult food around 12 months. Moving too late keeps them on higher-calorie puppy formulas that can cause weight gain in lower-activity adults.`
+      : t.isLarge
+      ? `Large breeds should stay on a large-breed puppy formula until 18–24 months, then transition to an adult formula. Switching too early can disrupt joint development during the growth phase.`
+      : `Most ${t.name}s can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.`;
+    pairs.push(
+      { q: `How much should I feed my ${t.name}?`, a: portionNote },
+      { q: `What food formula works best for a ${t.name}?`, a: formulaNote },
+      { q: `When should I switch my ${t.name} from puppy to adult food?`, a: switchNote },
+    );
+  } else if (family === 'beds' || commerceCluster === 'dog-beds-comfort-home-partners') {
+    const sizeNote = t.isSmall
+      ? `Measure your ${t.name} when fully stretched out and add 12 inches. Small breeds often sleep curled up but still need space to stretch — a 24–30 inch bed usually covers most ${t.size}-breed dogs.`
+      : t.isLarge
+      ? `Measure your ${t.name} fully stretched (nose to tail base) and add 12 inches. Most large-breed dogs need a 40–48 inch usable sleep surface. Check the actual foam dimensions, not the outer shell size.`
+      : `Measure your ${t.name} stretched out and add 12 inches. Medium breeds (30–40 lb) typically need a 30–36 inch bed. If they hang off the edges regularly, size up.`;
+    const orthNote = `For any dog over 7 years, or one already showing joint stiffness, an orthopedic foam bed offers meaningful pressure relief. For younger healthy ${t.name}s, a quality foam bed with a washable cover is adequate — you can upgrade as they age.`;
+    const replaceNote = `Most dog beds need replacing every 1–2 years under regular use. Signs it's time: visible compression of the foam (it no longer springs back), persistent odour after washing, or your ${t.name} choosing the floor over the bed.`;
+    pairs.push(
+      { q: `What size bed does a ${t.name} need?`, a: sizeNote },
+      { q: `Is an orthopedic bed worth it for a ${t.name}?`, a: orthNote },
+      { q: `How often should I replace my ${t.name}'s bed?`, a: replaceNote },
+    );
+  } else if (family === 'grooming' || commerceCluster === 'dog-grooming-care-partners') {
+    const freqNote = t.isHighShed || t.isDoubleCoat
+      ? `${t.name}s are heavy shedders and typically need brushing 3–5 times per week — daily during seasonal coat blows. Skipping this schedule leads to matting and significantly increases grooming time.`
+      : /curly|wavy|long/i.test(t.coat)
+      ? `${t.name}s have a ${t.coat} coat that should be brushed at least 3–4 times per week to prevent matting. Professional grooming every 6–8 weeks helps maintain coat health and reduces the at-home workload.`
+      : `${t.name}s generally need brushing once or twice a week. More frequent brushing during shedding season (typically spring and autumn) helps contain hair in the home.`;
+    const shedNote = t.isHighShed
+      ? `Yes — ${t.name}s are considered heavy shedders. Regular brushing is the most effective tool; deshedding treatments from professional groomers can reduce seasonal shedding by up to 80% temporarily.`
+      : `${t.name}s have ${t.shedding} shedding. It's manageable with a consistent brushing routine — a quality slicker brush or rubber grooming glove catches most loose hair before it reaches your furniture.`;
+    const homeNote = t.isHighShed || /curly|long/i.test(t.coat)
+      ? `Home grooming is possible with the right tools — slicker brush, undercoat rake, and nail grinder — but many ${t.name} owners supplement with professional grooming 3–4 times per year to maintain coat condition and avoid burn-out.`
+      : `Yes — most ${t.name} owners can handle routine maintenance at home with a slicker brush and nail grinder. Professional grooming once or twice per year for a bath and trim keeps things manageable.`;
+    pairs.push(
+      { q: `How often should I groom a ${t.name}?`, a: freqNote },
+      { q: `Do ${t.name}s shed a lot?`, a: shedNote },
+      { q: `Can I groom a ${t.name} at home?`, a: homeNote },
+    );
+  } else if (family === 'training' || commerceCluster === 'dog-training-gear-safety-partners') {
+    const easeNote = t.isEasyTrain
+      ? `${t.name}s are considered easier to train than average — they respond well to reward-based methods and pick up new cues quickly. Consistency matters more than intensity; short daily sessions outperform occasional long ones.`
+      : t.isHardTrain
+      ? `${t.name}s are independent-minded and can be challenging to train. They respond better to high-value rewards and clear criteria than to corrections. Enrol in a structured class early and stay consistent — improvement compounds with time.`
+      : `${t.name}s are moderately easy to train. They benefit from positive reinforcement methods and early socialisation. Most owners with some prior dog experience find them straightforward; first-time owners benefit from a puppy class.`;
+    const methodNote = `Reward-based training (treats, praise, toy rewards) is the most effective and well-researched approach for ${t.name}s. Clicker training works well if you're precise with timing. Avoid aversive methods — they increase anxiety in dogs and can create secondary behavioural problems.`;
+    const ageNote = `Start training your ${t.name} puppy from the day they arrive home — typically 8 weeks. Early socialisation (weeks 8–16) is the most sensitive developmental window. Enrol in a puppy class within the first two weeks for structured socialisation alongside basic obedience foundations.`;
+    pairs.push(
+      { q: `How easy is it to train a ${t.name}?`, a: easeNote },
+      { q: `What training method works best for a ${t.name}?`, a: methodNote },
+      { q: `At what age should I start training my ${t.name}?`, a: ageNote },
+    );
+  } else {
+    // Generic fallback
+    const q1 = `Is a ${t.name} expensive to care for?`;
+    const a1 = t.isLarge
+      ? `Large breeds like the ${t.name} generally cost more in food, vet care, and products due to weight-based dosing and larger product sizes. Budget $2,000–$4,500 per year for ongoing care excluding unexpected vet bills.`
+      : t.isSmall
+      ? `Small breeds like the ${t.name} often cost less in food and some products, but vet bills don't scale proportionally — procedures cost similar amounts regardless of dog size. Budget $1,500–$3,000 per year for routine care.`
+      : `The ${t.name} is a ${t.size}-sized breed with typical mid-range ownership costs. Budget $1,800–$3,500 per year for food, vet care, grooming, and supplies — more in the first year when startup costs are highest.`;
+    const q2 = `How active is a ${t.name}?`;
+    const a2 = t.isActive
+      ? `${t.name}s are high-energy dogs that need at least 60–90 minutes of structured activity daily. They do best with owners who enjoy outdoor activities and can commit to a consistent exercise routine.`
+      : t.isCalm
+      ? `${t.name}s have lower energy requirements compared to many breeds — 30–45 minutes of daily exercise is typically sufficient. They adapt well to apartment living and quieter households.`
+      : `${t.name}s have moderate energy needs — plan for 45–60 minutes of daily exercise split into two sessions. They're versatile companions that adapt to both active and calmer owner lifestyles.`;
+    const q3 = `Is a ${t.name} good for first-time owners?`;
+    const a3 = t.isEasyTrain && !t.isLarge
+      ? `${t.name}s are generally considered suitable for first-time owners — they're responsive, manageable in size, and respond well to reward-based training. A puppy class is still recommended to build good foundations.`
+      : t.isHardTrain || t.isLarge
+      ? `${t.name}s can be challenging for first-time owners due to their ${t.isHardTrain ? 'independent temperament' : 'large size and strength'}. Prior dog experience helps significantly — at minimum, commit to professional puppy training and ongoing socialisation.`
+      : `${t.name}s are manageable for motivated first-time owners who research the breed thoroughly, commit to early training, and have realistic expectations about time and cost.`;
+    pairs.push({ q: q1, a: a1 }, { q: q2, a: a2 }, { q: q3, a: a3 });
+  }
+
+  const faqMd = pairs.map(({ q, a }) => `**${q}**\n\n${a}`).join('\n\n');
+  return `### Frequently asked questions about ${t.name} ${family === 'food' ? 'feeding' : family === 'beds' ? 'beds' : family === 'grooming' ? 'grooming' : family === 'training' ? 'training' : 'care'}\n\n${faqMd}`;
+}
+
+const AAFCO_BASELINES = [
+  'Look for AAFCO compliance — the label should confirm the formula is complete and balanced for your dog\'s life stage. A named protein (chicken, salmon, beef) should be the first ingredient listed.',
+  'Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient.',
+  'Prioritise formulas with an AAFCO adequacy statement — this confirms the recipe is complete and balanced. Named proteins should appear before grains in the ingredient list.',
+  'An AAFCO-approved formula with a whole protein source — chicken, beef, salmon, or turkey — listed first is the baseline standard. Avoid formulas where the first ingredient is a grain or generic "meat by-products".',
+  'Start with AAFCO compliance: the label should state the food is complete and balanced for the appropriate life stage. A clearly named protein (not just "meat" or "poultry") as the first ingredient is the next filter.',
+];
+
+function djb2Hash(str) {
+  let hash = 5381;
+  for (let i = 0; i < str.length; i++) hash = ((hash << 5) + hash) + str.charCodeAt(i);
+  return Math.abs(hash);
+}
+
 function breedFoodGuidance(breed) {
   const size = (breed?.size_category || breed?.size || '').toLowerCase();
   const energy = (breed?.energy_level || breed?.traits?.energy_level || '').toLowerCase();
   const coat = (breed?.coat_type || breed?.traits?.coat_type || '').toLowerCase();
   const shedding = (breed?.shedding_level || breed?.traits?.shedding_level || '').toLowerCase();
 
-  const baseLine = 'Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient.';
+  const baselineIdx = djb2Hash(breed?.slug || breed?.name || 'default') % AAFCO_BASELINES.length;
+  const baseLine = AAFCO_BASELINES[baselineIdx];
 
   const sizeNote = size === 'toy' || size === 'small'
     ? `Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth.`
@@ -375,6 +577,10 @@ ${item.products.length ? item.products.map(productLine).join('\n\n') : '- Start 
 ## How to choose for a ${breed.name}
 
 ${guidance || `Match the option to a ${breed.name}'s specific size, energy level and coat type. Confirm details directly on the partner site.`}
+
+${buildWhatToLookFor(breed, item.commerceCluster, item.family)}
+
+${buildMiniFAQ(breed, item.commerceCluster, item.family)}
 
 ## Related PupWiki guides
 

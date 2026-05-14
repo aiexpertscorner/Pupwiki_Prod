@@ -46,7 +46,16 @@ This page helps Boerboel people compare useful brands, products and services for
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Boerboel
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. Boerboel has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs.
+Start with AAFCO compliance: the label should state the food is complete and balanced for the appropriate life stage. A clearly named protein (not just "meat" or "poultry") as the first ingredient is the next filter. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. Boerboel has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs.
+### What to look for in food for a Boerboel
+Large breeds benefit from formulas with a controlled calcium-to-phosphorus ratio. Look for products specifically labelled for large or giant breeds, as these manage growth rate and joint load more carefully. Boerboels tend toward lower activity — choose a formula with controlled fat content to avoid the weight gain that commonly affects lower-energy breeds over time.
+### Frequently asked questions about Boerboel feeding
+**How much should I feed my Boerboel?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Boerboels need 2–3 meals per day as adults.
+**What food formula works best for a Boerboel?**
+Look for formulas specifically labelled for large breeds, which manage calcium and phosphorus ratios to support joint development. Avoid puppy formulas designed for small dogs even if your Boerboel is young.
+**When should I switch my Boerboel from puppy to adult food?**
+Large breeds should stay on a large-breed puppy formula until 18–24 months, then transition to an adult formula. Switching too early can disrupt joint development during the growth phase.
 ## Related PupWiki guides
 - [Breeds > Boerboel](/breeds/boerboel)
 - [Categories > Dog Food](/categories/dog-food)

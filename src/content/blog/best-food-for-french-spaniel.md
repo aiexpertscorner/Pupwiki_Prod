@@ -46,7 +46,16 @@ This page helps French Spaniel people compare useful brands, products and servic
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a French Spaniel
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.
+Start with AAFCO compliance: the label should state the food is complete and balanced for the appropriate life stage. A clearly named protein (not just "meat" or "poultry") as the first ingredient is the next filter. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.
+### What to look for in food for a French Spaniel
+Medium breeds like the French Spaniel do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active French Spaniel needs fewer calories than an athletic one.
+### Frequently asked questions about French Spaniel feeding
+**How much should I feed my French Spaniel?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most French Spaniels need 2–3 meals per day as adults.
+**What food formula works best for a French Spaniel?**
+An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
+**When should I switch my French Spaniel from puppy to adult food?**
+Most French Spaniels can transition to adult food between 12 and 15 months. Transition gradually over 7–10 days to avoid digestive upset.
 ## Related PupWiki guides
 - [Breeds > French Spaniel](/breeds/french-spaniel)
 - [Categories > Dog Food](/categories/dog-food)

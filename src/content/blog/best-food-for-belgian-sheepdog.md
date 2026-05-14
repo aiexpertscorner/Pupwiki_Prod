@@ -46,7 +46,16 @@ This page helps Belgian Sheepdog people compare useful brands, products and serv
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Belgian Sheepdog
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. Belgian Sheepdog is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+Look for AAFCO compliance — the label should confirm the formula is complete and balanced for your dog's life stage. A named protein (chicken, salmon, beef) should be the first ingredient listed. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. Belgian Sheepdog is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+### What to look for in food for a Belgian Sheepdog
+Large breeds benefit from formulas with a controlled calcium-to-phosphorus ratio. Look for products specifically labelled for large or giant breeds, as these manage growth rate and joint load more carefully. Belgian Sheepdogs are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands.
+### Frequently asked questions about Belgian Sheepdog feeding
+**How much should I feed my Belgian Sheepdog?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Belgian Sheepdogs need 2–3 meals per day as adults.
+**What food formula works best for a Belgian Sheepdog?**
+Look for formulas specifically labelled for large breeds, which manage calcium and phosphorus ratios to support joint development. Avoid puppy formulas designed for small dogs even if your Belgian Sheepdog is young.
+**When should I switch my Belgian Sheepdog from puppy to adult food?**
+Large breeds should stay on a large-breed puppy formula until 18–24 months, then transition to an adult formula. Switching too early can disrupt joint development during the growth phase.
 ## Related PupWiki guides
 - [Breeds > Belgian Sheepdog](/breeds/belgian-sheepdog)
 - [Categories > Dog Food](/categories/dog-food)

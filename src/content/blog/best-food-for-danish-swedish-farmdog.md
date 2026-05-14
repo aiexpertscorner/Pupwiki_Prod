@@ -46,7 +46,16 @@ This page helps Danish-Swedish Farmdog people compare useful brands, products an
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Danish-Swedish Farmdog
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth. Danish-Swedish Farmdog is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+Look for AAFCO compliance — the label should confirm the formula is complete and balanced for your dog's life stage. A named protein (chicken, salmon, beef) should be the first ingredient listed. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth. Danish-Swedish Farmdog is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.
+### What to look for in food for a Danish-Swedish Farmdog
+Small and toy breeds like the Danish-Swedish Farmdog have fast metabolisms — look for formulas with calorie-dense kibble sized for smaller jaws, and avoid large-breed blends designed for slower growth rates. Danish-Swedish Farmdogs are active dogs — a higher-protein formula (26–30% crude protein) supports muscle maintenance and sustained energy through their exercise demands.
+### Frequently asked questions about Danish-Swedish Farmdog feeding
+**How much should I feed my Danish-Swedish Farmdog?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Danish-Swedish Farmdogs need 2–3 meals per day as adults.
+**What food formula works best for a Danish-Swedish Farmdog?**
+Small-breed formulas with higher protein and smaller kibble sizes are the right starting point. Avoid large-breed or generic "all sizes" formulas, which may have inappropriate calcium levels for fast metabolisms.
+**When should I switch my Danish-Swedish Farmdog from puppy to adult food?**
+Small breeds typically transition to adult food around 12 months. Moving too late keeps them on higher-calorie puppy formulas that can cause weight gain in lower-activity adults.
 ## Related PupWiki guides
 - [Breeds > Danish Swedish Farmdog](/breeds/danish-swedish-farmdog)
 - [Categories > Dog Food](/categories/dog-food)

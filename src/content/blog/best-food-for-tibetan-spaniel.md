@@ -46,7 +46,16 @@ This page helps Tibetan Spaniel people compare useful brands, products and servi
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Tibetan Spaniel
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth. Tibetan Spaniel has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+Look for AAFCO compliance — the label should confirm the formula is complete and balanced for your dog's life stage. A named protein (chicken, salmon, beef) should be the first ingredient listed. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth. Tibetan Spaniel has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+### What to look for in food for a Tibetan Spaniel
+Small and toy breeds like the Tibetan Spaniel have fast metabolisms — look for formulas with calorie-dense kibble sized for smaller jaws, and avoid large-breed blends designed for slower growth rates. Tibetan Spaniels tend toward lower activity — choose a formula with controlled fat content to avoid the weight gain that commonly affects lower-energy breeds over time. Tibetan Spaniels shed seasonally — look for formulas that include omega-3 fatty acids (EPA/DHA from salmon or fish oil) to support coat health from the inside out.
+### Frequently asked questions about Tibetan Spaniel feeding
+**How much should I feed my Tibetan Spaniel?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Tibetan Spaniels need 2–3 meals per day as adults.
+**What food formula works best for a Tibetan Spaniel?**
+Small-breed formulas with higher protein and smaller kibble sizes are the right starting point. Avoid large-breed or generic "all sizes" formulas, which may have inappropriate calcium levels for fast metabolisms.
+**When should I switch my Tibetan Spaniel from puppy to adult food?**
+Small breeds typically transition to adult food around 12 months. Moving too late keeps them on higher-calorie puppy formulas that can cause weight gain in lower-activity adults.
 ## Related PupWiki guides
 - [Breeds > Tibetan Spaniel](/breeds/tibetan-spaniel)
 - [Categories > Dog Food](/categories/dog-food)

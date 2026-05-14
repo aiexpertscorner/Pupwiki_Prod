@@ -46,7 +46,16 @@ This page helps Bolognese people compare useful brands, products and services fo
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Bolognese
-Look for an AAFCO nutritional adequacy statement and a named protein (chicken, salmon, beef) as the first ingredient. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth. Bolognese has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs.
+Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient. Small and toy breeds have faster metabolisms and do better with smaller kibble sizes and calorie-dense formulas — avoid large-breed formulations designed for slower growth. Bolognese has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs.
+### What to look for in food for a Bolognese
+Small and toy breeds like the Bolognese have fast metabolisms — look for formulas with calorie-dense kibble sized for smaller jaws, and avoid large-breed blends designed for slower growth rates. Bologneses tend toward lower activity — choose a formula with controlled fat content to avoid the weight gain that commonly affects lower-energy breeds over time.
+### Frequently asked questions about Bolognese feeding
+**How much should I feed my Bolognese?**
+Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Bologneses need 2–3 meals per day as adults.
+**What food formula works best for a Bolognese?**
+Small-breed formulas with higher protein and smaller kibble sizes are the right starting point. Avoid large-breed or generic "all sizes" formulas, which may have inappropriate calcium levels for fast metabolisms.
+**When should I switch my Bolognese from puppy to adult food?**
+Small breeds typically transition to adult food around 12 months. Moving too late keeps them on higher-calorie puppy formulas that can cause weight gain in lower-activity adults.
 ## Related PupWiki guides
 - [Breeds > Bolognese](/breeds/bolognese)
 - [Categories > Dog Food](/categories/dog-food)
