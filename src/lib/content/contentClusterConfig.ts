@@ -373,3 +373,18 @@ export function getClusterTopicTags(slug?: string | null) {
   if (!cluster) return [];
   return Array.from(new Set([...cluster.awinTopicTags, ...cluster.amazonTopicTags]));
 }
+
+// ─── Unified cluster config re-exports ───────────────────────────────────────
+// New code should import from unifiedClusterConfig directly.
+
+export {
+  CLUSTERS,
+  CLUSTER_SLUGS,
+  DYNAMIC_CATEGORY_SLUGS,
+  PREFERRED_BREED_SLUGS as UNIFIED_PREFERRED_BREED_SLUGS,
+  getCluster,
+  getRelatedClusters,
+  isDynamicCategorySlug,
+  type UnifiedCluster,
+  type ClusterType,
+} from './unifiedClusterConfig';

@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/primitives/Breadcrumb.astro';
 import { CATEGORY_META, CATEGORY_SLUGS } from '../../lib/categories/categoryConfig';
+import { CLUSTERS } from '../../lib/content/unifiedClusterConfig';
 
 const dynamicCategories = CATEGORY_SLUGS.map((slug) => ({
   slug,
@@ -9,40 +10,17 @@ const dynamicCategories = CATEGORY_SLUGS.map((slug) => ({
   ...CATEGORY_META[slug],
 }));
 
-const staticCategories = [
-  {
-    slug: 'puppy',
-    href: '/categories/puppy',
-    title: 'Puppy Essentials',
-    shortTitle: 'Puppy',
-    desc: 'First-year puppy guides, gear, vaccinations, feeding schedules and new-owner planning resources.',
-    emoji: '🐶',
-  },
-  {
-    slug: 'senior-dogs',
-    href: '/categories/senior-dogs',
-    title: 'Senior Dogs',
-    shortTitle: 'Senior',
-    desc: 'Care planning, comfort, health monitoring and nutrition resources for dogs aged 7 and older.',
-    emoji: '🐕',
-  },
-  {
-    slug: 'insurance',
-    href: '/pet-insurance',
-    title: 'Pet Insurance',
-    shortTitle: 'Insurance',
-    desc: 'Breed-specific pet insurance cost estimates, coverage comparisons and owner planning guides.',
-    emoji: '🛡️',
-  },
-  {
-    slug: 'pupwiki-partners',
-    href: '/categories/pupwiki-partners',
-    title: 'Our Partners',
-    shortTitle: 'Partners',
-    desc: 'Vetted dog-care partners, curated affiliate programs and preferred brands trusted by PupWiki.',
-    emoji: '🤝',
-  },
-];
+const staticCategories = ['puppy', 'senior-dogs', 'insurance', 'pupwiki-partners'].map((slug) => {
+  const c = CLUSTERS[slug];
+  return {
+    slug: c.slug,
+    href: c.categoryPath,
+    title: c.title,
+    shortTitle: c.shortTitle,
+    desc: c.description,
+    emoji: c.icon,
+  };
+});
 ---
 
 <BaseLayout
