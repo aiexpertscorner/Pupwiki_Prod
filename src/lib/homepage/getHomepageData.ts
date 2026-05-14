@@ -25,7 +25,19 @@ export type HomepageBreedCard = {
   tags: string[];
   size?: string;
   energy?: string;
+  trainability?: string;
   popularity?: number | null;
+};
+
+export type HomepageCostBreed = {
+  slug: string;
+  href: string;
+  name: string;
+  imageUrl: string;
+  imageAlt: string;
+  annualFoodCost: number;
+  lifetimeCost: number;
+  size: string;
 };
 
 export type HomepageMixedBreedCard = {
@@ -70,6 +82,10 @@ export type HomepageData = {
   };
   mixedBreedDiscovery: HomepageConfig['mixedBreedDiscovery'] & {
     items: HomepageMixedBreedCard[];
+  };
+  lifestyleFilters: HomepageConfig['lifestyleFilters'];
+  quickCostTeaser: HomepageConfig['quickCostTeaser'] & {
+    breeds: HomepageCostBreed[];
   };
   careDecisionLayer: HomepageConfig['careDecisionLayer'];
   editorialHighlights: HomepageConfig['editorialHighlights'] & {
@@ -185,8 +201,43 @@ function normaliseBreedCard(breed: BreedLike): HomepageBreedCard {
     tags: buildBreedTags(breed),
     size: toStringValue(breed.size_category),
     energy: toStringValue(breed.energy_level),
+    trainability: toStringValue(breed.training_level),
     popularity: toNumberValue(breed.akc_popularity),
   };
+}
+
+function pickCostTeaserBreeds(): HomepageCostBreed[] {
+  const limit = 3;
+  const withCost = [...breeds].filter(
+    (b) => b.ranking_data?.lifetime_cost_usd && hasUsableImage(b) && b.akc_popularity
+  ).sort(compareBreedsForHomepage);
+
+  // Prefer size variety: pick one large, one medium, one small if possible
+  const selected: BreedLike[] = [];
+  for (const size of ['large', 'medium', 'small']) {
+    if (selected.length >= limit) break;
+    const match = withCost.find((b) => b.size_category === size && !selected.includes(b));
+    if (match) selected.push(match);
+  }
+  for (const b of withCost) {
+    if (selected.length >= limit) break;
+    if (!selected.includes(b)) selected.push(b);
+  }
+
+  return selected.slice(0, limit).map((b) => {
+    const slug = toStringValue(b.slug);
+    const name = toStringValue(b.name, titleFromSlug(slug));
+    return {
+      slug,
+      href: `/cost-calculator/${slug}`,
+      name,
+      imageUrl: b.image_url,
+      imageAlt: `${name} dog`,
+      annualFoodCost: Number(b.ranking_data.annual_food_cost),
+      lifetimeCost: Number(b.ranking_data.lifetime_cost_usd),
+      size: toStringValue(b.size_category),
+    };
+  });
 }
 
 function normaliseMixedBreedCard(mix: BreedLike): HomepageMixedBreedCard {
@@ -406,6 +457,7 @@ export async function getHomepageData(): Promise<HomepageData> {
 
   const breedCards = pickBreedCards();
   const mixedBreedCards = pickMixedBreedCards();
+  const costTeaserBreeds = pickCostTeaserBreeds();
   const editorialItems = await pickEditorialHighlights();
 
   return {
@@ -426,6 +478,11 @@ export async function getHomepageData(): Promise<HomepageData> {
     breedDiscovery: {
       ...config.breedDiscovery,
       breeds: breedCards,
+    },
+    lifestyleFilters: config.lifestyleFilters,
+    quickCostTeaser: {
+      ...config.quickCostTeaser,
+      breeds: costTeaserBreeds,
     },
     mixedBreedDiscovery: {
       ...config.mixedBreedDiscovery,

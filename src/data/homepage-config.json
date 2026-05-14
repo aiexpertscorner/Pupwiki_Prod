@@ -36,21 +36,24 @@
   },
   "featureFlags": {
     "showHero": true,
-    "showPrimaryJourneys": true,
     "showTrustStrip": true,
+    "showPrimaryJourneys": true,
     "showBreedDiscovery": true,
+    "showLifestyleFilter": true,
     "showMixedBreedDiscovery": true,
+    "showQuickCostTeaser": true,
     "showCareDecisionLayer": true,
     "showEditorialHighlights": true,
+    "showAwinSpotlight": true,
     "showMethodologyTeaser": true,
     "showLeadCapture": true,
-    "showAwinSpotlight": true
+    "showBreedExplorer": false
   },
   "selection": {
     "breedDiscoveryMode": "dynamic_with_fallback",
     "breedDiscoveryLimit": 6,
     "mixedBreedDiscoveryMode": "dynamic_with_fallback",
-    "mixedBreedDiscoveryLimit": 8,
+    "mixedBreedDiscoveryLimit": 6,
     "editorialMode": "dynamic_with_curated_fallback",
     "editorialLimit": 3,
     "preferPopularBreeds": true,
@@ -70,15 +73,14 @@
       "label": "Cost & Insurance",
       "href": "/cost-calculator"
     },
-    "imageSrc": "https://images.unsplash.com/photo-1544568100-847a948585b9?w=1400&q=80&fit=crop",
     "imageAlt": "Happy dog owner with a golden retriever",
     "heroCardEyebrow": "Data-backed dog guidance",
     "heroCardText": "Breed profiles, mixed breeds, cost tools, care guidance, and practical next steps.",
     "trustItems": [
-      "277 breed guides",
+      "352 breed & mix guides",
       "75 mixed breeds",
       "5,000+ dog names",
-      "Cost and care tools"
+      "Cost & care tools"
     ],
     "stats": [
       {
@@ -273,6 +275,56 @@
       }
     ]
   },
+  "lifestyleFilters": {
+    "eyebrow": "Find your match",
+    "title": "What kind of dog fits you?",
+    "subtitle": "Start with your lifestyle — then explore breeds that actually match.",
+    "items": [
+      {
+        "label": "Apartment Friendly",
+        "description": "Small, calm, low-maintenance breeds that thrive indoors.",
+        "href": "/breeds?size=small&energy=calm",
+        "colorVar": "--color-info"
+      },
+      {
+        "label": "Active & Outdoorsy",
+        "description": "High-energy dogs that love long runs, hikes, and outdoor time.",
+        "href": "/breeds?energy=active",
+        "colorVar": "--color-success"
+      },
+      {
+        "label": "Family with Kids",
+        "description": "Gentle, patient, and sociable breeds suited for family life.",
+        "href": "/breeds?energy=regular",
+        "colorVar": "--color-accent"
+      },
+      {
+        "label": "Low-Shedding",
+        "description": "Minimal grooming overhead — ideal for allergy-sensitive households.",
+        "href": "/breeds?shedding=minimal",
+        "colorVar": "--color-primary"
+      },
+      {
+        "label": "Easy to Train",
+        "description": "Smart, responsive breeds that pick up commands quickly.",
+        "href": "/breeds?training=easy",
+        "colorVar": "--color-cta"
+      },
+      {
+        "label": "Calm Companion",
+        "description": "Relaxed, low-key temperament — great for quieter households.",
+        "href": "/breeds?energy=calm",
+        "colorVar": "--color-warning"
+      }
+    ]
+  },
+  "quickCostTeaser": {
+    "eyebrow": "Real ownership costs",
+    "title": "What does a dog actually cost?",
+    "subtitle": "Annual food, vet, grooming and gear — estimated by breed. Use the calculator for a full breakdown.",
+    "ctaLabel": "Open the cost calculator",
+    "ctaHref": "/cost-calculator"
+  },
   "careDecisionLayer": {
     "eyebrow": "Care smarter",
     "title": "The practical side of dog ownership",
@@ -355,21 +407,16 @@
     }
   },
   "leadCapture": {
-    "title": "Stay in the loop",
-    "description": "Get practical dog guidance, new breed and mixed-breed guides, and carefully selected updates from PupWiki.",
-    "formAction": "",
-    "method": "POST",
-    "emailPlaceholder": "Enter your email address",
-    "buttonLabel": "Subscribe",
-    "hiddenFields": [],
+    "title": "Ready to find your perfect dog?",
+    "description": "Explore 352 breed and mixed breed guides, estimate real ownership costs, and find the right match for your lifestyle.",
     "fallbackPrimary": {
-      "label": "Explore Breeds",
+      "label": "Browse All Breeds",
       "href": "/breeds"
     },
     "fallbackSecondary": {
-      "label": "Read the Blog",
-      "href": "/blog"
+      "label": "Cost Calculator",
+      "href": "/cost-calculator"
     },
-    "disclaimer": "No spam. Only practical dog guidance, updates, and occasional curated recommendations."
+    "disclaimer": "Free to use. No account required."
   }
 }
