@@ -20,20 +20,12 @@ export interface Props {
 
 const { heading, subheading, names } = Astro.props;
 
-const categoryColor: Record<string, string> = {
-  Classic: 'rgba(204,255,0,0.15)',
-  Trendy:  'rgba(136,204,255,0.12)',
-  Cute:    'rgba(255,170,204,0.12)',
-  Tough:   'rgba(255,100,100,0.12)',
-  General: 'rgba(255,255,255,0.06)',
-};
-
-const categoryText: Record<string, string> = {
-  Classic: 'var(--ng-lime)',
-  Trendy:  '#88CCFF',
-  Cute:    '#FFAACC',
-  Tough:   '#FF8888',
-  General: 'var(--ng-ash)',
+const categoryClass: Record<string, string> = {
+  Classic: 'ng-card--cat-classic',
+  Trendy:  'ng-card--cat-trendy',
+  Cute:    'ng-card--cat-cute',
+  Tough:   'ng-card--cat-tough',
+  General: 'ng-card--cat-general',
 };
 ---
 
@@ -49,8 +41,7 @@ const categoryText: Record<string, string> = {
   <ol class="ng-top-list__grid" role="list">
     {names.map((n, i) => (
       <li
-        class="ng-card"
-        style={`--cat-bg:${categoryColor[n.category] ?? 'rgba(255,255,255,0.05)'};--cat-text:${categoryText[n.category] ?? 'var(--ng-ash)'}`}
+        class:list={['ng-card', categoryClass[n.category] ?? 'ng-card--cat-general']}
         data-ng-card
         data-name={n.name}
         role="listitem button"
@@ -63,9 +54,7 @@ const categoryText: Record<string, string> = {
           title={n.gender === 'boy' ? 'Jongen' : 'Meisje'}
         ></span>
         <div class="ng-card__name">
-          <small style="font-family:var(--ng-font-mono);font-size:0.52rem;color:var(--ng-ash);display:block;margin-bottom:2px">
-            #{i + 1}
-          </small>
+          <small class="ng-card__rank">#{i + 1}</small>
           {n.name}
         </div>
         <div class="ng-card__meta">

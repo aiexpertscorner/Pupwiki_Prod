@@ -219,7 +219,7 @@
   min-height: 3.35rem;
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-xl);
-  background: #fff;
+  background: var(--color-bg);
   color: var(--color-heading);
   font: inherit;
   font-weight: var(--weight-semi);
@@ -257,7 +257,7 @@
   overflow: hidden;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
-  background: #fff;
+  background: var(--color-bg);
   box-shadow: var(--shadow-lg);
 }
 
@@ -402,7 +402,7 @@
   gap: var(--space-2);
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-lg);
-  background: #fff;
+  background: var(--color-bg);
   padding: 0 var(--space-5);
   color: var(--color-primary);
   font-family: var(--font-sans);
@@ -616,7 +616,7 @@
   place-items: center;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  background: #fff;
+  background: var(--color-bg);
   color: var(--color-primary);
 }
 
@@ -757,7 +757,7 @@
   height: 2.3rem;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  background: #fff;
+  background: var(--color-bg);
   color: var(--color-primary);
   font-size: var(--text-sm);
   font-weight: var(--weight-black);
@@ -841,7 +841,7 @@
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: var(--radius-3xl);
-  background: #fff;
+  background: var(--color-bg);
   box-shadow: var(--shadow-xl);
 }
 
@@ -866,7 +866,7 @@
   display: inline-flex;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  background: #fff;
+  background: var(--color-bg);
   padding: 0.45rem 0.7rem;
   color: var(--color-primary);
   font-family: var(--font-sans);
@@ -920,7 +920,7 @@
 
 .pw-name-top-picks strong {
   border-radius: var(--radius-full);
-  background: #fff;
+  background: var(--color-bg);
   border: 1px solid var(--color-border);
   padding: 0.55rem 0.85rem;
   color: var(--color-heading);
@@ -975,7 +975,7 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: var(--space-3);
-  background: #fff;
+  background: var(--color-bg);
   font-weight: var(--weight-bold);
 }
 
@@ -983,7 +983,7 @@
   overflow: hidden;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-2xl);
-  background: #fff;
+  background: var(--color-bg);
   box-shadow: var(--shadow-card);
 }
 
@@ -1024,7 +1024,7 @@
 .pw-name-theme-card__names span {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  background: #fff;
+  background: var(--color-bg);
   padding: 0.45rem 0.7rem;
   font-weight: var(--weight-bold);
   color: var(--color-heading);
@@ -1048,7 +1048,7 @@
 .pw-name-faq details {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
-  background: #fff;
+  background: var(--color-bg);
   padding: var(--space-4);
   box-shadow: var(--shadow-xs);
 }
@@ -2228,4 +2228,103 @@
     transition: none;
     transform: none !important;
   }
+}
+
+/* ── NameLayout breadcrumb bar ───────────────────────────────── */
+.pw-names__breadcrumb-bar {
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+.pw-names__breadcrumb-bar .breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+  padding: var(--space-3) 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+.pw-names__breadcrumb-bar .breadcrumb__item + .breadcrumb__item::before {
+  content: '›';
+  margin-right: 0.45rem;
+  color: var(--color-border-strong);
+}
+
+.pw-names__breadcrumb-bar .breadcrumb__link {
+  color: var(--color-primary);
+  font-weight: var(--weight-semi);
+  text-decoration: none;
+}
+
+.pw-names__breadcrumb-bar .breadcrumb__link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.pw-names__breadcrumb-bar .breadcrumb__current {
+  color: var(--color-muted);
+}
+
+/* ---------------------------------------------------------
+   Names component: category colour variants (token-driven)
+   Replaces old JS-generated inline --cat-bg / --cat-text styles
+   --------------------------------------------------------- */
+
+.ng-card--cat-classic {
+  --cat-bg:   var(--color-success-light);
+  --cat-text: var(--color-success-dark);
+}
+.ng-card--cat-trendy {
+  --cat-bg:   var(--color-info-light);
+  --cat-text: var(--color-info);
+}
+.ng-card--cat-cute {
+  --cat-bg:   var(--color-danger-light);
+  --cat-text: var(--color-danger-dark);
+}
+.ng-card--cat-tough {
+  --cat-bg:   var(--color-warning-light);
+  --cat-text: var(--color-warning-dark);
+}
+.ng-card--cat-general {
+  --cat-bg:   var(--color-bg-muted);
+  --cat-text: var(--color-muted);
+}
+
+/* Rank label inside name card (replaces inline <small> style) */
+.ng-card__rank {
+  font-family: var(--font-mono);
+  font-size: 0.52rem;
+  color: var(--color-muted);
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* Shortlist header actions row (replaces inline style="display:flex;gap:0.5rem") */
+.ng-shortlist__actions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+/* Breed hero CTA row (replaces inline style="display:flex;flex-wrap:wrap;gap:0.75rem;margin-top:1.25rem") */
+.ng-breed-hero__cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+/* Skeleton loading card (replaces inline opacity/pointer-events) */
+.ng-card--skeleton {
+  opacity: 0.3;
+  pointer-events: none;
+}
+.ng-card__name--skeleton {
+  background: rgba(21, 54, 95, 0.08);
+  color: transparent;
+  border-radius: var(--radius-sm);
 }

@@ -169,6 +169,30 @@ const breadcrumbLd = JSON.stringify({
       </div>
     </section>
 
+    <!-- Explore PupWiki -->
+    <section>
+      <p class="font-sans text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--color-primary)">Explore</p>
+      <h2 class="font-display text-2xl font-bold mb-6" style="font-family:var(--font-serif);color:var(--color-heading)">
+        Dig into PupWiki
+      </h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        {[
+          { icon: '🐾', label: 'Breed Explorer', desc: 'Browse and filter 277+ recognised breeds by size, energy, coat, and group', href: '/breeds' },
+          { icon: '💰', label: 'Cost Calculator', desc: 'Get breed-specific annual and lifetime dog ownership cost breakdowns', href: '/cost-calculator' },
+          { icon: '✍️', label: 'Dog Name Guides', desc: '7,000+ curated names filtered by breed personality and style', href: '/dog-names' },
+          { icon: '🐕', label: 'First Dog Guide', desc: 'Step-by-step planning guide for first-time dog owners', href: '/guides/first-dog' },
+          { icon: '🏥', label: 'Pet Insurance', desc: 'Understand coverage types, breed risks, and what to look for in a policy', href: '/pet-insurance' },
+          { icon: '📖', label: 'Breed Guides', desc: 'Deep-dive care hubs covering health, feeding, training, and products per breed', href: '/breeds' },
+        ].map(item => (
+          <a href={item.href} class="rounded-2xl p-5 hover:shadow-md transition-shadow" style="background:var(--color-bg);border:1px solid var(--color-border-warm);text-decoration:none;display:block">
+            <span style="font-size:1.5rem;display:block;margin-bottom:var(--space-3)">{item.icon}</span>
+            <p class="font-sans font-bold text-sm mb-1" style="color:var(--color-heading)">{item.label}</p>
+            <p class="font-sans text-xs leading-relaxed" style="color:var(--color-muted)">{item.desc}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
     <!-- Contact CTA -->
     <section class="text-center">
       <h2 class="font-display text-2xl font-bold mb-3" style="font-family:var(--font-serif);color:var(--color-heading)">

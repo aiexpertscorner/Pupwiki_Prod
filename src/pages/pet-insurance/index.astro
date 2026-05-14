@@ -40,6 +40,15 @@ const faqLd = JSON.stringify({
   })),
 });
 
+const webPageLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Do You Need Pet Insurance for Your Dog?',
+  description: 'An honest guide to pet insurance for dogs — what it covers, what it costs, who should get it, and what to look for before buying.',
+  url: `${SITE}/pet-insurance`,
+  inLanguage: 'en-US',
+});
+
 // Load enrichment data for breed strip
 const enrichDir = join(process.cwd(), 'src/data/enrichment/breeds');
 const enrichBreeds = readdirSync(enrichDir)
@@ -84,6 +93,7 @@ const whatToLookFor = [
   <Fragment slot="head">
     <script type="application/ld+json" set:html={breadcrumbLd} />
     <script type="application/ld+json" set:html={faqLd} />
+    <script type="application/ld+json" set:html={webPageLd} />
   </Fragment>
 
   <div class="pi-page">
@@ -136,36 +146,36 @@ const whatToLookFor = [
           <h2 class="font-sans font-bold mb-3 pi-heading">Who pet insurance is commonly recommended for</h2>
           <ul class="pi-list font-sans text-sm pi-muted">
             <li><strong class="pi-heading">Puppies</strong> — Premiums are lower for younger dogs and you avoid the pre-existing condition trap.</li>
-            <li><strong style="color:var(--color-heading)">Breeds with known health risks</strong> — French Bulldogs, Great Danes, and Golden Retrievers have higher average lifetime vet costs.</li>
-            <li><strong style="color:var(--color-heading)">Owners without an emergency fund</strong> — A $3,000–$8,000 surgery bill can be devastating without insurance or savings.</li>
-            <li><strong style="color:var(--color-heading)">Multi-dog households</strong> — Some insurers offer multi-pet discounts that meaningfully reduce per-dog costs.</li>
+            <li><strong class="pi-heading">Breeds with known health risks</strong> — French Bulldogs, Great Danes, and Golden Retrievers have higher average lifetime vet costs.</li>
+            <li><strong class="pi-heading">Owners without an emergency fund</strong> — A $3,000–$8,000 surgery bill can be devastating without insurance or savings.</li>
+            <li><strong class="pi-heading">Multi-dog households</strong> — Some insurers offer multi-pet discounts that meaningfully reduce per-dog costs.</li>
           </ul>
         </section>
 
         <!-- Who can skip it -->
         <section class="pi-section">
-          <h2 class="font-sans font-bold mb-3" style="color:var(--color-heading)">Who might reasonably skip it</h2>
-          <ul class="pi-list font-sans text-sm" style="color:var(--color-muted)">
-            <li><strong style="color:var(--color-heading)">Owners with a dedicated vet emergency fund</strong> — $5,000–$10,000 in a separate savings account achieves a similar result without monthly premiums.</li>
-            <li><strong style="color:var(--color-heading)">Healthy low-risk breeds on a tight budget</strong> — Breeds with minimal hereditary conditions and no known chronic issues may not see return on premiums paid.</li>
-            <li><strong style="color:var(--color-heading)">Senior dogs with existing diagnoses</strong> — New policies won't cover pre-existing conditions; weigh carefully what would and wouldn't be covered.</li>
+          <h2 class="font-sans font-bold mb-3 pi-heading">Who might reasonably skip it</h2>
+          <ul class="pi-list font-sans text-sm pi-muted">
+            <li><strong class="pi-heading">Owners with a dedicated vet emergency fund</strong> — $5,000–$10,000 in a separate savings account achieves a similar result without monthly premiums.</li>
+            <li><strong class="pi-heading">Healthy low-risk breeds on a tight budget</strong> — Breeds with minimal hereditary conditions and no known chronic issues may not see return on premiums paid.</li>
+            <li><strong class="pi-heading">Senior dogs with existing diagnoses</strong> — New policies won't cover pre-existing conditions; weigh carefully what would and wouldn't be covered.</li>
           </ul>
-          <p class="font-sans text-sm mt-3" style="color:var(--color-muted)">
+          <p class="font-sans text-sm mt-3 pi-muted">
             This is a personal financial decision. Discuss breed-specific health risks with your vet before deciding.
           </p>
         </section>
 
-        <!-- OfferSlot mid-content (disabled — renders nothing until offers enabled) -->
+        <!-- OfferSlot mid-content -->
         <OfferSlot placement="mid-content" pageType="health" topicTags={['insurance']} />
 
         <!-- What to look for -->
         <section class="pi-section">
-          <h2 class="font-sans font-bold mb-3" style="color:var(--color-heading)">What to look for when comparing plans</h2>
+          <h2 class="font-sans font-bold mb-3 pi-heading">What to look for when comparing plans</h2>
           <div class="pi-lookfor-list">
             {whatToLookFor.map(item => (
-              <div class="pi-lookfor-row" style="border-bottom:1px solid var(--color-border-warm);padding:0.75rem 0">
-                <p class="font-sans text-sm font-bold mb-0.5" style="color:var(--color-heading)">{item.label}</p>
-                <p class="font-sans text-sm mb-0" style="color:var(--color-muted)">{item.detail}</p>
+              <div class="pi-lookfor-row">
+                <p class="font-sans text-sm font-bold mb-0.5 pi-heading">{item.label}</p>
+                <p class="font-sans text-sm mb-0 pi-muted">{item.detail}</p>
               </div>
             ))}
           </div>
@@ -176,8 +186,8 @@ const whatToLookFor = [
 
         <!-- Cost table -->
         <section class="pi-section">
-          <h2 class="font-sans font-bold mb-3" style="color:var(--color-heading)">Average monthly cost by dog size</h2>
-          <p class="font-sans text-sm mb-4" style="color:var(--color-muted)">
+          <h2 class="font-sans font-bold mb-3 pi-heading">Average monthly cost by dog size</h2>
+          <p class="font-sans text-sm mb-4 pi-muted">
             Estimates based on PupWiki actuarial research. Actual premiums vary by age, breed health history, location, deductible, and reimbursement level.
           </p>
           <div class="pi-table-wrap rounded-xl overflow-hidden">
@@ -190,41 +200,37 @@ const whatToLookFor = [
                 </tr>
               </thead>
               <tbody>
-                {costTable.map((row, i) => (
-                  <tr style={`background:${i % 2 === 0 ? 'white' : 'var(--color-bg-soft)'}`}>
-                    <td class="px-4 py-3" style="color:var(--color-heading)">{row.size}</td>
-                    <td class="px-4 py-3 font-semibold" style="color:var(--color-accent)">{row.range}</td>
-                    <td class="px-4 py-3 hidden sm:table-cell" style="color:var(--color-muted)">{row.example}</td>
+                {costTable.map((row) => (
+                  <tr class="pi-table-row">
+                    <td class="px-4 py-3 pi-heading">{row.size}</td>
+                    <td class="px-4 py-3 font-semibold pi-accent">{row.range}</td>
+                    <td class="px-4 py-3 hidden sm:table-cell pi-muted">{row.example}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p class="font-sans text-xs mt-2" style="color:var(--color-subtle)">
-            Use our <a href="/cost-calculator" style="color:var(--color-accent)">breed cost calculator</a> for a state-adjusted, age-adjusted estimate for your specific breed.
+          <p class="font-sans text-xs mt-2 pi-subtle">
+            Use our <a href="/cost-calculator" class="pi-link">breed cost calculator</a> for a state-adjusted, age-adjusted estimate for your specific breed.
           </p>
         </section>
 
         <!-- Breed considerations strip -->
         {enrichBreeds.length > 0 && (
           <section class="pi-section">
-            <h2 class="font-sans font-bold mb-2" style="color:var(--color-heading)">Breeds where insurance is commonly discussed</h2>
-            <p class="font-sans text-sm mb-4" style="color:var(--color-muted)">
+            <h2 class="font-sans font-bold mb-2 pi-heading">Breeds where insurance is commonly discussed</h2>
+            <p class="font-sans text-sm mb-4 pi-muted">
               Based on known health profiles and typical vet cost patterns — not a guarantee of need.
             </p>
             <div class="pi-breed-strip">
               {enrichBreeds.map(e => (
                 <a
                   href={`/breeds/${e.breedSlug}`}
-                  class="pi-breed-card rounded-xl p-4"
-                  style="background:var(--color-bg-soft);border:1px solid var(--color-border-warm);text-decoration:none;display:block"
+                  class:list={['pi-breed-card rounded-xl p-4', e.monetizationHooks.insurance === 'high' ? 'pi-breed-card--high' : 'pi-breed-card--medium']}
                 >
-                  <p class="font-sans text-sm font-bold mb-1" style="color:var(--color-heading)">{e.breedName}</p>
-                  <p class="font-sans text-xs mb-1" style="color:var(--color-muted)">{e.costDrivers.insurance}</p>
-                  <span
-                    class="font-sans text-xs font-semibold px-2 py-0.5 rounded-full capitalize"
-                    style={`background:${e.monetizationHooks.insurance === 'high' ? 'var(--color-warning-light)' : 'var(--color-bg-soft)'};color:${e.monetizationHooks.insurance === 'high' ? 'var(--color-heading)' : 'var(--color-muted)'};border:1px solid var(--color-border-warm)`}
-                  >
+                  <p class="font-sans text-sm font-bold mb-1 pi-heading">{e.breedName}</p>
+                  <p class="font-sans text-xs mb-1 pi-muted">{e.costDrivers.insurance}</p>
+                  <span class:list={['pi-badge font-sans text-xs font-semibold px-2 py-0.5 rounded-full capitalize', e.monetizationHooks.insurance === 'high' ? 'pi-badge--high' : 'pi-badge--medium']}>
                     {e.monetizationHooks.insurance === 'high' ? 'Worth considering' : 'Moderate relevance'}
                   </span>
                 </a>
@@ -235,12 +241,12 @@ const whatToLookFor = [
 
         <!-- FAQ -->
         <section class="pi-section">
-          <h2 class="font-sans font-bold mb-5" style="color:var(--color-heading)">Frequently asked questions</h2>
+          <h2 class="font-sans font-bold mb-5 pi-heading">Frequently asked questions</h2>
           <div class="pi-faq">
             {faqItems.map(item => (
-              <details class="pi-faq-item" style="border-bottom:1px solid var(--color-border-warm);padding-bottom:1rem;margin-bottom:1rem">
-                <summary class="font-sans text-sm font-bold cursor-pointer" style="color:var(--color-heading)">{item.q}</summary>
-                <p class="font-sans text-sm mt-2 mb-0" style="color:var(--color-muted)">{item.a}</p>
+              <details class="pi-faq-item">
+                <summary class="font-sans text-sm font-bold cursor-pointer pi-heading">{item.q}</summary>
+                <p class="font-sans text-sm mt-2 mb-0 pi-muted">{item.a}</p>
               </details>
             ))}
           </div>
@@ -249,22 +255,22 @@ const whatToLookFor = [
       </main>
 
       <aside class="pi-sidebar">
-        <div class="pi-sidebar-card rounded-2xl p-5 mb-6" style="background:var(--color-surface-warm);border:1px solid var(--color-border-warm)">
-          <p class="font-sans text-xs font-bold uppercase tracking-widest mb-3" style="color:var(--color-accent)">Estimate your costs</p>
-          <p class="font-sans text-sm font-bold mb-2" style="color:var(--color-heading)">Breed cost calculator</p>
-          <p class="font-sans text-sm mb-4" style="color:var(--color-muted)">Get a state-adjusted, age-adjusted insurance estimate alongside food, grooming, vet care, and lifetime totals.</p>
-          <a href="/cost-calculator" class="font-sans text-sm font-semibold block text-center px-4 py-2 rounded-full" style="background:var(--color-accent);color:white;text-decoration:none">
+        <div class="pi-sidebar-card pi-sidebar-card--warm rounded-2xl p-5 mb-6">
+          <p class="font-sans text-xs font-bold uppercase tracking-widest mb-3 pi-kicker">Estimate your costs</p>
+          <p class="font-sans text-sm font-bold mb-2 pi-heading">Breed cost calculator</p>
+          <p class="font-sans text-sm mb-4 pi-muted">Get a state-adjusted, age-adjusted insurance estimate alongside food, grooming, vet care, and lifetime totals.</p>
+          <a href="/cost-calculator" class="pi-sidebar-cta font-sans text-sm font-semibold block text-center px-4 py-2 rounded-full">
             Open cost calculator →
           </a>
         </div>
 
-        <div class="pi-sidebar-card rounded-2xl p-5" style="background:var(--color-bg-soft);border:1px solid var(--color-border-warm)">
-          <p class="font-sans text-xs font-bold uppercase tracking-widest mb-3" style="color:var(--color-accent)">Research tools</p>
-          <ul class="font-sans text-sm" style="color:var(--color-muted);list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.5rem">
-            <li><a href="/breeds" style="color:var(--color-accent)">Browse breeds by health profile</a></li>
-            <li><a href="/how-we-test" style="color:var(--color-accent)">How we research</a></li>
-            <li><a href="/guides/first-dog" style="color:var(--color-accent)">First dog planning guide</a></li>
-            <li><a href="/contact" style="color:var(--color-accent)">Ask us a question</a></li>
+        <div class="pi-sidebar-card rounded-2xl p-5">
+          <p class="font-sans text-xs font-bold uppercase tracking-widest mb-3 pi-kicker">Research tools</p>
+          <ul class="pi-sidebar-links font-sans text-sm pi-muted">
+            <li><a href="/breeds" class="pi-link">Browse breeds by health profile</a></li>
+            <li><a href="/how-we-test" class="pi-link">How we research</a></li>
+            <li><a href="/guides/first-dog" class="pi-link">First dog planning guide</a></li>
+            <li><a href="/contact" class="pi-link">Ask us a question</a></li>
           </ul>
         </div>
       </aside>
@@ -279,18 +285,19 @@ const whatToLookFor = [
   padding: 1.5rem 1rem 4rem;
 }
 .pi-breadcrumb { margin-bottom: 1.5rem; }
-.pi-kicker, .pi-link { color: var(--color-accent); }
-.pi-link { text-decoration: none; }
+.pi-kicker { color: var(--color-accent); }
+.pi-link { color: var(--color-accent); text-decoration: none; }
+.pi-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .pi-heading { color: var(--color-heading); }
 .pi-muted { color: var(--color-muted); }
 .pi-subtle { color: var(--color-subtle); }
+.pi-accent { color: var(--color-accent); }
+.pi-list li strong { color: var(--color-heading); }
 .pi-card {
   background: var(--color-bg-soft);
   border: 1px solid var(--color-border-warm);
 }
-.pi-hero {
-  margin-bottom: 2rem;
-}
+.pi-hero { margin-bottom: 2rem; }
 .pi-hero h1 { font-size: clamp(1.5rem, 3vw, 2.25rem); line-height: 1.2; }
 .pi-layout {
   display: grid;
@@ -320,18 +327,77 @@ const whatToLookFor = [
 }
 .pi-list li { padding-left: 1.25rem; position: relative; }
 .pi-list li::before { content: '→'; position: absolute; left: 0; color: var(--color-accent); }
+.pi-lookfor-row {
+  border-bottom: 1px solid var(--color-border-warm);
+  padding: 0.75rem 0;
+}
 .pi-table { border-collapse: collapse; }
-.pi-table th, .pi-table td { border-bottom: 1px solid var(--color-border-warm); }
+.pi-table th,
+.pi-table td { border-bottom: 1px solid var(--color-border-warm); }
 .pi-table-wrap { border: 1px solid var(--color-border-warm); }
 .pi-table-head { background: var(--color-surface-warm); }
+.pi-table-row:nth-child(even) { background: var(--color-bg-soft); }
 .pi-breed-strip {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 0.75rem;
 }
-.pi-faq-item { list-style: none; }
+.pi-breed-card {
+  text-decoration: none;
+  display: block;
+  border: 1px solid var(--color-border-warm);
+  background: var(--color-bg-soft);
+  transition: box-shadow 0.15s ease;
+}
+.pi-breed-card:hover { box-shadow: var(--shadow-md); }
+.pi-breed-card--high { border-color: var(--color-warning-light); background: color-mix(in srgb, var(--color-warning-light) 30%, var(--color-bg)); }
+.pi-breed-card--medium { background: var(--color-bg-soft); }
+.pi-badge {
+  display: inline-block;
+  border: 1px solid var(--color-border-warm);
+}
+.pi-badge--high {
+  background: var(--color-warning-light);
+  color: var(--color-heading);
+  border-color: transparent;
+}
+.pi-badge--medium {
+  background: var(--color-bg-soft);
+  color: var(--color-muted);
+}
+.pi-faq { display: flex; flex-direction: column; }
+.pi-faq-item {
+  border-bottom: 1px solid var(--color-border-warm);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.pi-faq-item summary { list-style: none; }
+.pi-faq-item summary::-webkit-details-marker { display: none; }
 .pi-sidebar { align-self: start; }
 @media (min-width: 1024px) {
   .pi-sidebar { position: sticky; top: 5rem; }
+}
+.pi-sidebar-card {
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-border-warm);
+}
+.pi-sidebar-card--warm {
+  background: var(--color-surface-warm);
+}
+.pi-sidebar-cta {
+  display: block;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+.pi-sidebar-cta:hover { background: var(--color-accent-hover); }
+.pi-sidebar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 </style>
