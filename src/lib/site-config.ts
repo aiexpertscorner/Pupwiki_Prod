@@ -69,7 +69,7 @@ export const SITE_HOMEPAGE_EYEBROW =
   'Dog breeds, costs, names and care';
 
 export const SITE_HOMEPAGE_HEADLINE =
-  'Helpful dog information, guides and tools. All in one place.';
+  'Dog care, gear & tools. All in one place.';
 
 export const SITE_HOMEPAGE_DESCRIPTION =
   'Explore breeds and mixes, estimate costs, find names, compare care needs, and get practical help with health, training, food, grooming, products, and services.';
