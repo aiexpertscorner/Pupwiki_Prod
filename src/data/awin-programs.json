@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-14T06:19:51.564Z",
+  "syncedAt": "2026-05-15T06:28:23.558Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -2108,7 +2108,7 @@
   "stats": {
     "joined": 9,
     "pending": 16,
-    "feeds": 606,
+    "feeds": 604,
     "apiProducts": 0,
     "programOfferProducts": 9,
     "totalProducts": 9,
@@ -2118,7 +2118,7 @@
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
-    "feedProductFetchFailures": 0,
+    "feedProductFetchFailures": 3,
     "experimentalCreativesEnabled": false,
     "warnings": [
       "programmedetails/106409 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
@@ -2134,7 +2134,13 @@
       "programmedetails/111784 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "programmedetails/111784 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/119433 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms"
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "feed/93508 returned no parseable products from one endpoint; trying next endpoint if available.",
+      "feed/93508 -> HTTP 415 — {\"timestamp\":\"2026-05-15T06:28:20.567693040Z\",\"path\":\"/datafeed/download/apikey/e466e47be4dadeca127cf45dc6969055/language/en/fid/93508/columns/aw_product_id%2Cmerchant_product_id%2Cproduct_name%2Cdesc",
+      "feed/93508 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/93508\\/download\\\"\"}",
+      "feed/93508 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/93508\\/download\\\"\"}",
+      "No product rows could be imported from feed 93508 (Chef Paw (US))"
     ],
     "errors": []
   }
