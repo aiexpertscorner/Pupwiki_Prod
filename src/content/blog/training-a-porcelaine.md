@@ -3,8 +3,8 @@ title: "Porcelaine Training Dog-Care Decision Guide"
 seoTitle: "Porcelaine Training Dog-Care Decision Guide"
 displayTitle: "Porcelaine Training decision guide"
 description: "A PupWiki guide for current and future Porcelaine people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "porcelaine", "jugbow", "radiofence-com"]

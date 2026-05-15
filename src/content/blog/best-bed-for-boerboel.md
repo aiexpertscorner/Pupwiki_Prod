@@ -3,8 +3,8 @@ title: "Boerboel Beds Dog-Care Decision Guide"
 seoTitle: "Boerboel Beds Dog-Care Decision Guide"
 displayTitle: "Boerboel Beds decision guide"
 description: "A PupWiki guide for current and future Boerboel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "boerboel", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

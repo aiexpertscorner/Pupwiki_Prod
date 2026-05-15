@@ -3,8 +3,8 @@ title: "Shiba Inu Grooming Dog-Care Decision Guide"
 seoTitle: "Shiba Inu Grooming Dog-Care Decision Guide"
 displayTitle: "Shiba Inu Grooming decision guide"
 description: "A PupWiki guide for current and future Shiba Inu people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "shiba-inu", "jugbow", "radiofence-com"]

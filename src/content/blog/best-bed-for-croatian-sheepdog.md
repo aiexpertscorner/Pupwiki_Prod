@@ -3,8 +3,8 @@ title: "Croatian Sheepdog Beds Dog-Care Decision Guide"
 seoTitle: "Croatian Sheepdog Beds Dog-Care Decision Guide"
 displayTitle: "Croatian Sheepdog Beds decision guide"
 description: "A PupWiki guide for current and future Croatian Sheepdog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "croatian-sheepdog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

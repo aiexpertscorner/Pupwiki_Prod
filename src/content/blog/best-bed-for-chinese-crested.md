@@ -3,8 +3,8 @@ title: "Chinese Crested Beds Dog-Care Decision Guide"
 seoTitle: "Chinese Crested Beds Dog-Care Decision Guide"
 displayTitle: "Chinese Crested Beds decision guide"
 description: "A PupWiki guide for current and future Chinese Crested people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "chinese-crested", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

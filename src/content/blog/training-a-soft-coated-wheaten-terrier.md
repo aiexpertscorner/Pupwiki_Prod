@@ -3,8 +3,8 @@ title: "Soft Coated Wheaten Terrier Training Dog-Care Decision Guide"
 seoTitle: "Soft Coated Wheaten Terrier Training Dog-Care Decision Guide"
 displayTitle: "Soft Coated Wheaten Terrier Training decision guide"
 description: "A PupWiki guide for current and future Soft Coated Wheaten Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "soft-coated-wheaten-terrier", "jugbow", "radiofence-com"]

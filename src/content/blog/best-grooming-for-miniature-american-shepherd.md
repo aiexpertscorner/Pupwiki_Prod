@@ -3,8 +3,8 @@ title: "Miniature American Shepherd Grooming Dog-Care Decision Guide"
 seoTitle: "Miniature American Shepherd Grooming Dog-Care Decision Guide"
 displayTitle: "Miniature American Shepherd Grooming decision guide"
 description: "A PupWiki guide for current and future Miniature American Shepherd people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "miniature-american-shepherd", "jugbow", "radiofence-com"]

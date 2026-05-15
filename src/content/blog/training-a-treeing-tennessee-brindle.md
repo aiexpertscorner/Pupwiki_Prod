@@ -3,8 +3,8 @@ title: "Treeing Tennessee Brindle Training Dog-Care Decision Guide"
 seoTitle: "Treeing Tennessee Brindle Training Dog-Care Decision Guide"
 displayTitle: "Treeing Tennessee Brindle Training decision guide"
 description: "A PupWiki guide for current and future Treeing Tennessee Brindle people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "treeing-tennessee-brindle", "jugbow", "radiofence-com"]

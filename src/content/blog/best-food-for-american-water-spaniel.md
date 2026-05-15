@@ -3,8 +3,8 @@ title: "American Water Spaniel Food Dog-Care Decision Guide"
 seoTitle: "American Water Spaniel Food Dog-Care Decision Guide"
 displayTitle: "American Water Spaniel Food decision guide"
 description: "A PupWiki guide for current and future American Water Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "american-water-spaniel", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]

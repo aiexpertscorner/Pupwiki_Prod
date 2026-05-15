@@ -3,8 +3,8 @@ title: "Manchester Terrier (Toy) Beds Dog-Care Decision Guide"
 seoTitle: "Manchester Terrier (Toy) Beds Dog-Care Decision Guide"
 displayTitle: "Manchester Terrier (Toy) Beds decision guide"
 description: "A PupWiki guide for current and future Manchester Terrier (Toy) people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "manchester-terrier-toy", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

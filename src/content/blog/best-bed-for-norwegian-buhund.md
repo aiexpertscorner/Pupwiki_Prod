@@ -3,8 +3,8 @@ title: "Norwegian Buhund Beds Dog-Care Decision Guide"
 seoTitle: "Norwegian Buhund Beds Dog-Care Decision Guide"
 displayTitle: "Norwegian Buhund Beds decision guide"
 description: "A PupWiki guide for current and future Norwegian Buhund people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "norwegian-buhund", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]

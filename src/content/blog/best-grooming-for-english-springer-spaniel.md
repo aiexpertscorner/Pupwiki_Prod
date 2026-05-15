@@ -3,8 +3,8 @@ title: "English Springer Spaniel Grooming Dog-Care Decision Guide"
 seoTitle: "English Springer Spaniel Grooming Dog-Care Decision Guide"
 displayTitle: "English Springer Spaniel Grooming decision guide"
 description: "A PupWiki guide for current and future English Springer Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "english-springer-spaniel", "jugbow", "radiofence-com"]

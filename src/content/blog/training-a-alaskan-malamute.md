@@ -3,8 +3,8 @@ title: "Alaskan Malamute Training Dog-Care Decision Guide"
 seoTitle: "Alaskan Malamute Training Dog-Care Decision Guide"
 displayTitle: "Alaskan Malamute Training decision guide"
 description: "A PupWiki guide for current and future Alaskan Malamute people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "alaskan-malamute", "jugbow", "radiofence-com"]

@@ -3,8 +3,8 @@ title: "Basset Hound Grooming Dog-Care Decision Guide"
 seoTitle: "Basset Hound Grooming Dog-Care Decision Guide"
 displayTitle: "Basset Hound Grooming decision guide"
 description: "A PupWiki guide for current and future Basset Hound people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "basset-hound", "jugbow", "radiofence-com"]

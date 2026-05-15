@@ -3,8 +3,8 @@ title: "Pyrenean Shepherd Training Dog-Care Decision Guide"
 seoTitle: "Pyrenean Shepherd Training Dog-Care Decision Guide"
 displayTitle: "Pyrenean Shepherd Training decision guide"
 description: "A PupWiki guide for current and future Pyrenean Shepherd people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "pyrenean-shepherd", "jugbow", "radiofence-com"]

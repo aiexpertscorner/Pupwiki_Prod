@@ -3,8 +3,8 @@ title: "Glen of Imaal Terrier Training Dog-Care Decision Guide"
 seoTitle: "Glen of Imaal Terrier Training Dog-Care Decision Guide"
 displayTitle: "Glen of Imaal Terrier Training decision guide"
 description: "A PupWiki guide for current and future Glen of Imaal Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "glen-of-imaal-terrier", "jugbow", "radiofence-com"]

@@ -3,8 +3,8 @@ title: "Bullmastiff Grooming Dog-Care Decision Guide"
 seoTitle: "Bullmastiff Grooming Dog-Care Decision Guide"
 displayTitle: "Bullmastiff Grooming decision guide"
 description: "A PupWiki guide for current and future Bullmastiff people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-14
-updatedDate: 2026-05-14
+pubDate: 2026-05-15
+updatedDate: 2026-05-15
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "bullmastiff", "jugbow", "radiofence-com"]
