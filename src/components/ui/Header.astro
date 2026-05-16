@@ -4,12 +4,12 @@ import { SITE_LOGO, SITE_NAME, SITE_TAGLINE } from '../../lib/site-config';
 const currentPath = Astro.url.pathname;
 
 const navLinks = [
-  { label: 'All Breeds',   href: '/breeds',             isActive: currentPath === '/breeds' || currentPath.startsWith('/breeds/') },
-  { label: 'Dog Names',    href: '/dog-names',           isActive: currentPath === '/dog-names' || currentPath.startsWith('/dog-names/') },
-  { label: 'Health & Care',href: '/categories/health',   isActive: currentPath.startsWith('/categories/health') },
-  { label: 'Training',     href: '/categories/training', isActive: currentPath.startsWith('/categories/training') },
-  { label: 'Reviews',      href: '/blog',                isActive: currentPath === '/blog' || currentPath.startsWith('/blog/') },
-  { label: 'Breed Quiz',   href: '/breed-quiz',          isActive: currentPath === '/breed-quiz' },
+  { label: 'All Breeds', href: '/breeds',     isActive: currentPath === '/breeds' || currentPath.startsWith('/breeds/') },
+  { label: 'Dog Names',  href: '/dog-names',  isActive: currentPath === '/dog-names' || currentPath.startsWith('/dog-names/') },
+  { label: 'Guides',     href: '/guides',     isActive: currentPath === '/guides' || currentPath.startsWith('/guides/') || currentPath.startsWith('/categories/') },
+  { label: 'Reviews',    href: '/reviews',    isActive: currentPath === '/reviews' || currentPath.startsWith('/reviews/') },
+  { label: 'FAQ',        href: '/faq',        isActive: currentPath === '/faq' || currentPath.startsWith('/faq/') },
+  { label: 'Breed Quiz', href: '/breed-quiz', isActive: currentPath === '/breed-quiz' },
 ];
 
 const utilityLinks = [

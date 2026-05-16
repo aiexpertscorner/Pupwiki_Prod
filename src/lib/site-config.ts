@@ -123,7 +123,9 @@ export const DOG_NAMES_PAGE_PATH = '/dog-names';
 export const COST_CALCULATOR_PAGE_PATH = '/cost-calculator';
 export const BREED_QUIZ_PAGE_PATH = '/breed-quiz';
 export const BLOG_PAGE_PATH = '/blog';
-export const REVIEWS_PAGE_PATH = '/blog';
+export const REVIEWS_PAGE_PATH = '/reviews';
+export const GUIDES_PAGE_PATH = '/guides';
+export const FAQ_PAGE_PATH = '/faq';
 export const SEARCH_PATH = '/search';
 
 /**
@@ -272,9 +274,9 @@ export const SITE_NAV = {
   primary: [
     { label: 'All Breeds', href: BREEDS_PAGE_PATH },
     { label: 'Dog Names', href: DOG_NAMES_PAGE_PATH },
-    { label: 'Health & Care', href: HEALTH_PAGE_PATH },
-    { label: 'Training', href: TRAINING_PAGE_PATH },
+    { label: 'Guides', href: GUIDES_PAGE_PATH },
     { label: 'Reviews', href: REVIEWS_PAGE_PATH },
+    { label: 'FAQ', href: FAQ_PAGE_PATH },
     { label: 'Breed Quiz', href: BREED_QUIZ_PAGE_PATH },
   ],
   utility: [
@@ -299,7 +301,9 @@ export const SITE_FOOTER_GROUPS = [
       { label: 'All Breeds', href: BREEDS_PAGE_PATH },
       { label: 'Mixed Breeds', href: MIXED_BREEDS_PAGE_PATH },
       { label: 'Dog Names', href: DOG_NAMES_PAGE_PATH },
-      { label: 'Blog', href: BLOG_PAGE_PATH },
+      { label: 'Guides', href: GUIDES_PAGE_PATH },
+      { label: 'Reviews', href: REVIEWS_PAGE_PATH },
+      { label: 'FAQ', href: FAQ_PAGE_PATH },
     ],
   },
   {
@@ -420,6 +424,8 @@ export const SITE_CONFIG = {
     breedQuiz: BREED_QUIZ_PAGE_PATH,
     blog: BLOG_PAGE_PATH,
     reviews: REVIEWS_PAGE_PATH,
+    guides: GUIDES_PAGE_PATH,
+    faq: FAQ_PAGE_PATH,
     search: SEARCH_PATH,
     health: HEALTH_PAGE_PATH,
     training: TRAINING_PAGE_PATH,
