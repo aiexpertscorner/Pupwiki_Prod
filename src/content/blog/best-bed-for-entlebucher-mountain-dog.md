@@ -27,7 +27,16 @@ breedSlug: "entlebucher-mountain-dog"
 breedName: "Entlebucher Mountain Dog"
 wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-entlebucher-mountain-dog"
+heroImage: "https://images.pexels.com/photos/28860748/pexels-photo-28860748.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28860748/pexels-photo-28860748.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Happy Bernese Mountain Dog relaxing on a comfortable dog bed indoors with sunlight streaming in."
+imageAlt: "Happy Bernese Mountain Dog relaxing on a comfortable dog bed indoors with sunlight streaming in."
+imageSource: "pexels"
+imageCredit: "Photo by Impact Dog Crates on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bernese-mountain-dog-relaxing-on-dog-bed-indoors-28860748/"
+imageSearchQuery: "Entlebucher Mountain Dog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Entlebucher Mountain Dogs
 Entlebucher Mountain Dogs are medium-sized (40–65 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

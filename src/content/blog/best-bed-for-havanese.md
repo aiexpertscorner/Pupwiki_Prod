@@ -27,7 +27,16 @@ breedSlug: "havanese"
 breedName: "Havanese"
 wordCountEstimate: 370
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-havanese"
+heroImage: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
+imageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-dog-sleeping-cozy-in-bed-33288452/"
+imageSearchQuery: "Havanese dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Havaneses
 Havaneses are small-sized (7–13 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.

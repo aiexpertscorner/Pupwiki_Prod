@@ -27,7 +27,16 @@ breedSlug: "english-springer-spaniel"
 breedName: "English Springer Spaniel"
 wordCountEstimate: 388
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-english-springer-spaniel"
+heroImage: "https://images.pexels.com/photos/20744921/pexels-photo-20744921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20744921/pexels-photo-20744921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and white dog sleeping on a paved sidewalk next to a car tire."
+imageAlt: "A black and white dog sleeping on a paved sidewalk next to a car tire."
+imageSource: "pexels"
+imageCredit: "Photo by Muhammed Tubtemur on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-sleeping-on-sidewalk-20744921/"
+imageSearchQuery: "English Springer Spaniel dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Springer Spaniels
 English Springer Spaniels are medium-sized (40–50 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

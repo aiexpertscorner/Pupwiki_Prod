@@ -27,7 +27,16 @@ breedSlug: "german-shorthaired-pointer"
 breedName: "German Shorthaired Pointer"
 wordCountEstimate: 399
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-german-shorthaired-pointer"
+heroImage: "https://images.pexels.com/photos/11424963/pexels-photo-11424963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11424963/pexels-photo-11424963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A charming German Shorthaired Pointer dog lounging indoors, looking playfully upwards."
+imageAlt: "A charming German Shorthaired Pointer dog lounging indoors, looking playfully upwards."
+imageSource: "pexels"
+imageCredit: "Photo by Brixiv on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-german-shorthaired-pointer-11424963/"
+imageSearchQuery: "German Shorthaired Pointer dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Shorthaired Pointers
 German Shorthaired Pointers are large-sized (45–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "pembroke-welsh-corgi"
 breedName: "Pembroke Welsh Corgi"
 wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-pembroke-welsh-corgi"
+heroImage: "https://images.pexels.com/photos/19823543/pexels-photo-19823543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19823543/pexels-photo-19823543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable corgi dog wrapped in a blue blanket peacefully resting on a grey sofa indoors."
+imageAlt: "Adorable corgi dog wrapped in a blue blanket peacefully resting on a grey sofa indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Marina Zvada on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-under-blanket-lying-on-sofa-19823543/"
+imageSearchQuery: "Pembroke Welsh Corgi dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pembroke Welsh Corgis
 Pembroke Welsh Corgis are medium-sized (28–30 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

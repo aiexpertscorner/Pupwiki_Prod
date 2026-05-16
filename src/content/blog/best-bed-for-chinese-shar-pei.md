@@ -27,7 +27,16 @@ breedSlug: "chinese-shar-pei"
 breedName: "Chinese Shar-Pei"
 wordCountEstimate: 376
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-chinese-shar-pei"
+heroImage: "https://images.pexels.com/photos/15960405/pexels-photo-15960405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15960405/pexels-photo-15960405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene Shar Pei dog sleeping outdoors on a sunny day, showcasing peaceful pet life."
+imageAlt: "A serene Shar Pei dog sleeping outdoors on a sunny day, showcasing peaceful pet life."
+imageSource: "pexels"
+imageCredit: "Photo by Thierry Rossier on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-and-sleeping-15960405/"
+imageSearchQuery: "Chinese Shar-Pei dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chinese Shar-Peis
 Chinese Shar-Peis are medium-sized (45–60 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

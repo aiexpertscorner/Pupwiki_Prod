@@ -27,7 +27,16 @@ breedSlug: "finnish-lapphund"
 breedName: "Finnish Lapphund"
 wordCountEstimate: 375
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-finnish-lapphund"
+heroImage: "https://images.pexels.com/photos/29352513/pexels-photo-29352513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29352513/pexels-photo-29352513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Finnish Lapphund dog with a fluffy coat by a serene water background."
+imageAlt: "A Finnish Lapphund dog with a fluffy coat by a serene water background."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-finnish-lapphund-by-the-water-29352513/"
+imageSearchQuery: "Finnish Lapphund dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Finnish Lapphunds
 Finnish Lapphunds are medium-sized (33–53 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

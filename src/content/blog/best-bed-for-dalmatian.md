@@ -27,7 +27,16 @@ breedSlug: "dalmatian"
 breedName: "Dalmatian"
 wordCountEstimate: 375
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-dalmatian"
+heroImage: "https://images.pexels.com/photos/5482847/pexels-photo-5482847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5482847/pexels-photo-5482847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A man relaxes in bed while engaging with his Dalmatian dog in a cozy indoor setting."
+imageAlt: "A man relaxes in bed while engaging with his Dalmatian dog in a cozy indoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Bethany Ferr on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/man-lying-in-bed-with-his-dalmatian-dog-5482847/"
+imageSearchQuery: "Dalmatian dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dalmatians
 Dalmatians are large-sized (45–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

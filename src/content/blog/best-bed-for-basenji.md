@@ -27,7 +27,16 @@ breedSlug: "basenji"
 breedName: "Basenji"
 wordCountEstimate: 377
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-basenji"
+heroImage: "https://images.pexels.com/photos/19176926/pexels-photo-19176926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19176926/pexels-photo-19176926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Shiba Inu dog peacefully sleeping curled up on a fluffy pet bed with warm sunlight."
+imageAlt: "A Shiba Inu dog peacefully sleeping curled up on a fluffy pet bed with warm sunlight."
+imageSource: "pexels"
+imageCredit: "Photo by Stephen on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/red-dog-sleeping-curled-up-in-a-fuzzy-pet-bed-19176926/"
+imageSearchQuery: "Basenji dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Basenjis
 Basenjis are small-sized (22–24 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

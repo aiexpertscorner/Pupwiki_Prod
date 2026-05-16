@@ -27,7 +27,16 @@ breedSlug: "old-english-sheepdog"
 breedName: "Old English Sheepdog"
 wordCountEstimate: 392
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-old-english-sheepdog"
+heroImage: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageSource: "pexels"
+imageCredit: "Photo by Miguel González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-yellow-background-16622613/"
+imageSearchQuery: "Old English Sheepdog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Old English Sheepdogs
 Old English Sheepdogs are large-sized (60–100 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

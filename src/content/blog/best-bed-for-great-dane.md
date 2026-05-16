@@ -27,7 +27,16 @@ breedSlug: "great-dane"
 breedName: "Great Dane"
 wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-great-dane"
+heroImage: "https://images.pexels.com/photos/2102839/pexels-photo-2102839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/2102839/pexels-photo-2102839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Jack Russell Terrier dog sleeping peacefully on a bed indoors."
+imageAlt: "Adorable Jack Russell Terrier dog sleeping peacefully on a bed indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Lisa from Pexels on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adult-dog-on-white-bed-2102839/"
+imageSearchQuery: "Great Dane dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Great Danes
 Great Danes are large-sized (110–175 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

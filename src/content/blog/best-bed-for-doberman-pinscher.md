@@ -27,7 +27,16 @@ breedSlug: "doberman-pinscher"
 breedName: "Doberman Pinscher"
 wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-doberman-pinscher"
+heroImage: "https://images.pexels.com/photos/5938112/pexels-photo-5938112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5938112/pexels-photo-5938112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Doberman lying comfortably on a dog bed in a cozy indoor room with bookshelves."
+imageAlt: "A Doberman lying comfortably on a dog bed in a cozy indoor room with bookshelves."
+imageSource: "pexels"
+imageCredit: "Photo by Aysun Kahraman Öktem on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-doberman-dog-lying-on-canine-bed-in-room-5938112/"
+imageSearchQuery: "Doberman Pinscher dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Doberman Pinschers
 Doberman Pinschers are large-sized (60–100 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

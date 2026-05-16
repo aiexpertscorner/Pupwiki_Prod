@@ -27,7 +27,16 @@ breedSlug: "pomeranian"
 breedName: "Pomeranian"
 wordCountEstimate: 370
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-pomeranian"
+heroImage: "https://images.pexels.com/photos/8473258/pexels-photo-8473258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8473258/pexels-photo-8473258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Pomeranian dog sitting on a cozy bed with fluffy fur and a curious look."
+imageAlt: "Adorable Pomeranian dog sitting on a cozy bed with fluffy fur and a curious look."
+imageSource: "pexels"
+imageCredit: "Photo by Cup of  Couple on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-sitting-on-the-bed-8473258/"
+imageSearchQuery: "Pomeranian dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pomeranians
 Pomeranians are small-sized (3–7 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

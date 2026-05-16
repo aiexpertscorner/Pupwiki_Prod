@@ -27,7 +27,16 @@ breedSlug: "poodle-standard"
 breedName: "Poodle (Standard)"
 wordCountEstimate: 380
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-poodle-standard"
+heroImage: "https://images.pexels.com/photos/35932746/pexels-photo-35932746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35932746/pexels-photo-35932746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A brown Labradoodle dog lying comfortably on a couch, enjoying a peaceful nap indoors."
+imageAlt: "A brown Labradoodle dog lying comfortably on a couch, enjoying a peaceful nap indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Akshay  Nayak on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cozy-brown-labradoodle-relaxing-at-home-35932746/"
+imageSearchQuery: "Poodle (Standard) dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Poodle (Standard)s
 Poodle (Standard)s are large-sized (40–70 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

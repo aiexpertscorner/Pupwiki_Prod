@@ -27,7 +27,16 @@ breedSlug: "danish-swedish-farmdog"
 breedName: "Danish-Swedish Farmdog"
 wordCountEstimate: 391
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-danish-swedish-farmdog"
+heroImage: "https://images.pexels.com/photos/36198590/pexels-photo-36198590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36198590/pexels-photo-36198590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a black and white dog sleeping peacefully on a bed in a cozy setting."
+imageAlt: "Close-up of a black and white dog sleeping peacefully on a bed in a cozy setting."
+imageSource: "pexels"
+imageCredit: "Photo by Magda Ehlers on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/sleeping-dog-on-bed-with-relaxing-atmosphere-36198590/"
+imageSearchQuery: "Danish-Swedish Farmdog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Danish-Swedish Farmdogs
 Danish-Swedish Farmdogs are small-sized (15–20 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

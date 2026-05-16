@@ -27,7 +27,16 @@ breedSlug: "golden-retriever"
 breedName: "Golden Retriever"
 wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-golden-retriever"
+heroImage: "https://images.pexels.com/photos/4458433/pexels-photo-4458433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4458433/pexels-photo-4458433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog peacefully sleeping on a stylish cushion on a sunlit sofa indoors, creating a relaxing atmosphere."
+imageAlt: "A dog peacefully sleeping on a stylish cushion on a sunlit sofa indoors, creating a relaxing atmosphere."
+imageSource: "pexels"
+imageCredit: "Photo by Enrique on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-brown-dog-lying-on-throw-pillow-4458433/"
+imageSearchQuery: "Golden Retriever dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Golden Retrievers
 Golden Retrievers are large-sized (55–75 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "irish-setter"
 breedName: "Irish Setter"
 wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-irish-setter"
+heroImage: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
+imageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-dog-sleeping-cozy-in-bed-33288452/"
+imageSearchQuery: "Irish Setter dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Irish Setters
 Irish Setters are large-sized (60–70 lbs), with active energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

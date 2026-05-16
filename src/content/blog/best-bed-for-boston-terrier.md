@@ -27,7 +27,16 @@ breedSlug: "boston-terrier"
 breedName: "Boston Terrier"
 wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-boston-terrier"
+heroImage: "https://images.pexels.com/photos/33711318/pexels-photo-33711318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33711318/pexels-photo-33711318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Boston Terrier dog peacefully sleeping in a comfortable checkered bag."
+imageAlt: "A cute Boston Terrier dog peacefully sleeping in a comfortable checkered bag."
+imageSource: "pexels"
+imageCredit: "Photo by Gundula Vogel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-boston-terrier-napping-in-a-cozy-bag-33711318/"
+imageSearchQuery: "Boston Terrier dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Boston Terriers
 Boston Terriers are small-sized (12–25 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

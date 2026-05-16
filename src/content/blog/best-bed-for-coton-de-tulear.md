@@ -27,7 +27,16 @@ breedSlug: "coton-de-tulear"
 breedName: "Coton de Tulear"
 wordCountEstimate: 396
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-coton-de-tulear"
+heroImage: "https://images.pexels.com/photos/2102839/pexels-photo-2102839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/2102839/pexels-photo-2102839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Jack Russell Terrier dog sleeping peacefully on a bed indoors."
+imageAlt: "Adorable Jack Russell Terrier dog sleeping peacefully on a bed indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Lisa from Pexels on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adult-dog-on-white-bed-2102839/"
+imageSearchQuery: "Coton de Tulear dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Coton de Tulears
 Coton de Tulears are small-sized (8–15 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.

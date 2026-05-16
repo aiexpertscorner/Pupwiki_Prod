@@ -27,7 +27,16 @@ breedSlug: "english-setter"
 breedName: "English Setter"
 wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-english-setter"
+heroImage: "https://images.pexels.com/photos/20744921/pexels-photo-20744921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20744921/pexels-photo-20744921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and white dog sleeping on a paved sidewalk next to a car tire."
+imageAlt: "A black and white dog sleeping on a paved sidewalk next to a car tire."
+imageSource: "pexels"
+imageCredit: "Photo by Muhammed Tubtemur on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-sleeping-on-sidewalk-20744921/"
+imageSearchQuery: "English Setter dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Setters
 English Setters are large-sized (45–80 lbs), with active energy, heavy shedding, and a silky coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "peruvian-inca-orchid"
 breedName: "Peruvian Inca Orchid"
 wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-peruvian-inca-orchid"
+heroImage: "https://images.pexels.com/photos/20348444/pexels-photo-20348444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20348444/pexels-photo-20348444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable dog peacefully sleeping with a colorful toy indoors, creating a cozy and loving scene."
+imageAlt: "Adorable dog peacefully sleeping with a colorful toy indoors, creating a cozy and loving scene."
+imageSource: "pexels"
+imageCredit: "Photo by Sonny Vermeer on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/little-brown-dog-enjoys-the-sun-with-her-toy-20348444/"
+imageSearchQuery: "Peruvian Inca Orchid dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Peruvian Inca Orchids
 Peruvian Inca Orchids are medium-sized (8.5–55 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

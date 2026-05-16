@@ -27,7 +27,16 @@ breedSlug: "cardigan-welsh-corgi"
 breedName: "Cardigan Welsh Corgi"
 wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-cardigan-welsh-corgi"
+heroImage: "https://images.pexels.com/photos/5264082/pexels-photo-5264082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5264082/pexels-photo-5264082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute corgi dog lying comfortably on a bed in a bright, cozy bedroom setting."
+imageAlt: "Cute corgi dog lying comfortably on a bed in a bright, cozy bedroom setting."
+imageSource: "pexels"
+imageCredit: "Photo by KATRIN  BOLOVTSOVA on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-corgi-dog-lying-in-bed-5264082/"
+imageSearchQuery: "Cardigan Welsh Corgi dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cardigan Welsh Corgis
 Cardigan Welsh Corgis are medium-sized (25–38 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

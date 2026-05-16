@@ -27,7 +27,16 @@ breedSlug: "flat-coated-retriever"
 breedName: "Flat-Coated Retriever"
 wordCountEstimate: 388
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-flat-coated-retriever"
+heroImage: "https://images.pexels.com/photos/25078644/pexels-photo-25078644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/25078644/pexels-photo-25078644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Detailed close-up of a dog's paws resting on a comfortable bed, featuring soft lighting and shallow depth of field."
+imageAlt: "Detailed close-up of a dog's paws resting on a comfortable bed, featuring soft lighting and shallow depth of field."
+imageSource: "pexels"
+imageCredit: "Photo by Su La Pyae on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/paws-of-dog-lying-down-25078644/"
+imageSearchQuery: "Flat-Coated Retriever dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Flat-Coated Retrievers
 Flat-Coated Retrievers are large-sized (60–70 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

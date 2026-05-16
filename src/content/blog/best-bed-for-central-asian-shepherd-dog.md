@@ -27,7 +27,16 @@ breedSlug: "central-asian-shepherd-dog"
 breedName: "Central Asian Shepherd Dog"
 wordCountEstimate: 404
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-central-asian-shepherd-dog"
+heroImage: "https://images.pexels.com/photos/21928868/pexels-photo-21928868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/21928868/pexels-photo-21928868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Calm stray dog sleeping against a brick wall in Bornova, İzmir, Türkiye."
+imageAlt: "Calm stray dog sleeping against a brick wall in Bornova, İzmir, Türkiye."
+imageSource: "pexels"
+imageCredit: "Photo by Doğan Alpaslan  Demir on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/stray-dog-lying-down-and-sleeping-21928868/"
+imageSearchQuery: "Central Asian Shepherd Dog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Central Asian Shepherd Dogs
 Central Asian Shepherd Dogs are large-sized (88–110 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

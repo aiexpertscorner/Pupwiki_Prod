@@ -27,7 +27,16 @@ breedSlug: "eurasier"
 breedName: "Eurasier"
 wordCountEstimate: 368
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-eurasier"
+heroImage: "https://images.pexels.com/photos/14224184/pexels-photo-14224184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14224184/pexels-photo-14224184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up of a Eurasier dog with fluffy fur, showcasing its serene expression in an outdoor setting."
+imageAlt: "A close-up of a Eurasier dog with fluffy fur, showcasing its serene expression in an outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dog-in-close-up-photography-14224184/"
+imageSearchQuery: "Eurasier dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Eurasiers
 Eurasiers are large-sized (40–70 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "bluetick-coonhound"
 breedName: "Bluetick Coonhound"
 wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-bluetick-coonhound"
+heroImage: "https://images.pexels.com/photos/14832500/pexels-photo-14832500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14832500/pexels-photo-14832500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A greyhound dog peacefully sleeping on a bed with a geometric patterned cover, viewed from above."
+imageAlt: "A greyhound dog peacefully sleeping on a bed with a geometric patterned cover, viewed from above."
+imageSource: "pexels"
+imageCredit: "Photo by Alina Skazka on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-lying-in-bed-14832500/"
+imageSearchQuery: "Bluetick Coonhound dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bluetick Coonhounds
 Bluetick Coonhounds are large-sized (45–80 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "alaskan-malamute"
 breedName: "Alaskan Malamute"
 wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-alaskan-malamute"
+heroImage: "https://images.pexels.com/photos/8734661/pexels-photo-8734661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8734661/pexels-photo-8734661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene husky dog sleeping on the snow during a sunny winter day."
+imageAlt: "A serene husky dog sleeping on the snow during a sunny winter day."
+imageSource: "pexels"
+imageCredit: "Photo by Павел Гавриков on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-sleeping-on-the-snow-ground-8734661/"
+imageSearchQuery: "Alaskan Malamute dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Alaskan Malamutes
 Alaskan Malamutes are large-sized (75–85 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

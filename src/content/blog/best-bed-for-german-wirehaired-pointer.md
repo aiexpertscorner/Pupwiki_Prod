@@ -27,7 +27,16 @@ breedSlug: "german-wirehaired-pointer"
 breedName: "German Wirehaired Pointer"
 wordCountEstimate: 399
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-german-wirehaired-pointer"
+heroImage: "https://images.pexels.com/photos/16286841/pexels-photo-16286841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16286841/pexels-photo-16286841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A playful dog runs through a stream in a rural setting, enjoying the outdoors."
+imageAlt: "A playful dog runs through a stream in a rural setting, enjoying the outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Denitsa Kireva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-in-water-16286841/"
+imageSearchQuery: "German Wirehaired Pointer dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Wirehaired Pointers
 German Wirehaired Pointers are large-sized (50–70 lbs), with active energy, heavy shedding, and a wiry coat. The recommendations below are matched to these traits.
