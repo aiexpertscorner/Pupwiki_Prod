@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-16T22:11:23.083Z",
+  "generatedAt": "2026-05-16T22:24:18.209Z",
   "totals": {
     "breeds": 277,
     "crossbreeds": 75,
-    "blogPosts": 1326,
+    "blogPosts": 2226,
     "astroPages": 30,
     "clusters": 15,
     "awinJoinedPrograms": 0,
     "partnerProfilesGenerated": 7,
-    "opportunities": 1500
+    "opportunities": 786
   },
   "familyStats": [
     {
       "family": "food",
-      "existing": 277,
-      "missing": 75,
+      "existing": 352,
+      "missing": 0,
       "total": 352
     },
     {
@@ -31,14 +31,14 @@
     },
     {
       "family": "grooming",
-      "existing": 112,
-      "missing": 240,
+      "existing": 352,
+      "missing": 0,
       "total": 352
     },
     {
       "family": "health",
-      "existing": 0,
-      "missing": 352,
+      "existing": 233,
+      "missing": 119,
       "total": 352
     },
     {
@@ -55,8 +55,8 @@
     },
     {
       "family": "puppy",
-      "existing": 0,
-      "missing": 352,
+      "existing": 352,
+      "missing": 0,
       "total": 352
     },
     {
@@ -422,7 +422,7 @@
   ],
   "sitemapInputs": {
     "staticPageCount": 30,
-    "dynamicBlogCount": 1326,
+    "dynamicBlogCount": 2226,
     "dynamicBreedCount": 352,
     "clusterSlugs": [
       "puppy",
