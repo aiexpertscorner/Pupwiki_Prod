@@ -27,7 +27,16 @@ breedSlug: "cockapoo"
 breedName: "Cockapoo"
 wordCountEstimate: 533
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-cockapoo"
+heroImage: "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog sniffs pistachios on a white plate in an overhead, natural setting."
+imageAlt: "A dog sniffs pistachios on a white plate in an overhead, natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Vie Studio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-smelling-the-pistachios-7421520/"
+imageSearchQuery: "Cockapoo dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cockapoos
 Cockapoos are small-sized (13.23–24.25 lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.

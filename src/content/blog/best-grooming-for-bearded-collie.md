@@ -27,7 +27,16 @@ breedSlug: "bearded-collie"
 breedName: "Bearded Collie"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bearded-collie"
+heroImage: "https://images.pexels.com/photos/13446978/pexels-photo-13446978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13446978/pexels-photo-13446978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy dog with windblown fur enjoys a sunny day at the sandy beach."
+imageAlt: "A fluffy dog with windblown fur enjoys a sunny day at the sandy beach."
+imageSource: "pexels"
+imageCredit: "Photo by Ray Bilcliff on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-dog-on-a-beach-13446978/"
+imageSearchQuery: "Bearded Collie dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bearded Collies
 Bearded Collies are medium-sized (45–55 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

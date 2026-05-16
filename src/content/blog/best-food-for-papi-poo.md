@@ -27,7 +27,16 @@ breedSlug: "papi-poo"
 breedName: "Papi-poo"
 wordCountEstimate: 499
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-papi-poo"
+heroImage: "https://images.pexels.com/photos/29296759/pexels-photo-29296759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29296759/pexels-photo-29296759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Cavapoo dog with curly fur enjoying a sunny day outdoors in Sweden."
+imageAlt: "A cute Cavapoo dog with curly fur enjoying a sunny day outdoors in Sweden."
+imageSource: "pexels"
+imageCredit: "Photo by Olavi Anttila on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-cavapoo-outdoors-on-a-sunny-day-29296759/"
+imageSearchQuery: "Papi-poo dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Papi-poos
 Papi-poos are small-sized (6.61–13.23 lbs), with regular energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.

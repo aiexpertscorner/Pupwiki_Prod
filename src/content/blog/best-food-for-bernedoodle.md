@@ -27,7 +27,16 @@ breedSlug: "bernedoodle"
 breedName: "Bernedoodle"
 wordCountEstimate: 557
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-bernedoodle"
+heroImage: "https://images.pexels.com/photos/4173708/pexels-photo-4173708.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4173708/pexels-photo-4173708.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Bernese Mountain Dog enjoys a sunny day outdoors on the grass, exuding playfulness and joy."
+imageAlt: "A Bernese Mountain Dog enjoys a sunny day outdoors on the grass, exuding playfulness and joy."
+imageSource: "pexels"
+imageCredit: "Photo by Gregory Wolf on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-bernese-mountain-dog-on-the-grass-4173708/"
+imageSearchQuery: "Bernedoodle dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bernedoodles
 Bernedoodles are large-sized (55.12–99.21 lbs), with active energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.

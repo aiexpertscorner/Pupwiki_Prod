@@ -27,7 +27,16 @@ breedSlug: "beaglier"
 breedName: "Beaglier"
 wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/beaglier-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming black and white portrait of a smiling dog in an outdoor setting."
+imageAlt: "Charming black and white portrait of a smiling dog in an outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-a-happy-dog-32130866/"
+imageSearchQuery: "Beaglier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Beagliers
 Beagliers are small-sized (11.02–24.25 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

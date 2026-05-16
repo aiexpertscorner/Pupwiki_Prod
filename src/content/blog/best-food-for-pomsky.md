@@ -27,7 +27,16 @@ breedSlug: "pomsky"
 breedName: "Pomsky"
 wordCountEstimate: 588
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-pomsky"
+heroImage: "https://images.pexels.com/photos/36624164/pexels-photo-36624164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36624164/pexels-photo-36624164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Pomsky dog enjoying a spring sunset among blooming daffodils. Perfect for springtime themes."
+imageAlt: "Cute Pomsky dog enjoying a spring sunset among blooming daffodils. Perfect for springtime themes."
+imageSource: "pexels"
+imageCredit: "Photo by Patricia  Bartosz on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-pomsky-in-a-field-of-daffodils-at-sunset-36624164/"
+imageSearchQuery: "Pomsky dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pomskys
 Pomskys are medium-sized (19.84–30.86 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "cavapoo"
 breedName: "Cavapoo"
 wordCountEstimate: 543
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-cavapoo"
+heroImage: "https://images.pexels.com/photos/29296759/pexels-photo-29296759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29296759/pexels-photo-29296759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Cavapoo dog with curly fur enjoying a sunny day outdoors in Sweden."
+imageAlt: "A cute Cavapoo dog with curly fur enjoying a sunny day outdoors in Sweden."
+imageSource: "pexels"
+imageCredit: "Photo by Olavi Anttila on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-cavapoo-outdoors-on-a-sunny-day-29296759/"
+imageSearchQuery: "Cavapoo dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cavapoos
 Cavapoos are small-sized (11.02–24.25 lbs), with calm energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.

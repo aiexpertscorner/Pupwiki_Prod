@@ -27,7 +27,16 @@ breedSlug: "bull-boxer"
 breedName: "Bull-Boxer"
 wordCountEstimate: 582
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-bull-boxer"
+heroImage: "https://images.pexels.com/photos/32371133/pexels-photo-32371133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32371133/pexels-photo-32371133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of a Boxer dog resting on the floor indoors, expressing a tender and relaxed mood."
+imageAlt: "A detailed close-up of a Boxer dog resting on the floor indoors, expressing a tender and relaxed mood."
+imageSource: "pexels"
+imageCredit: "Photo by Laurence FUSCO on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-boxer-dog-lying-on-floor-indoors-32371133/"
+imageSearchQuery: "Bull-Boxer dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bull-Boxers
 Bull-Boxers are large-sized (55.12–88.18 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

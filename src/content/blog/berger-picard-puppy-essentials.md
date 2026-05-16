@@ -27,7 +27,16 @@ breedSlug: "berger-picard"
 breedName: "Berger Picard"
 wordCountEstimate: 372
 canonicalUrl: "https://pupwiki.com/blog/berger-picard-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/19722865/pexels-photo-19722865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19722865/pexels-photo-19722865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white portrait of a Basque shepherd dog outdoors, capturing the essence of loyalty."
+imageAlt: "Black and white portrait of a Basque shepherd dog outdoors, capturing the essence of loyalty."
+imageSource: "pexels"
+imageCredit: "Photo by Roman Biernacki on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/basque-shepherd-dog-19722865/"
+imageSearchQuery: "Berger Picard dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Berger Picards
 Berger Picards are large-sized (50–70 lbs), with active energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.

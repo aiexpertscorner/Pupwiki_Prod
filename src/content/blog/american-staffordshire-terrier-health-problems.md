@@ -27,7 +27,16 @@ breedSlug: "american-staffordshire-terrier"
 breedName: "American Staffordshire Terrier"
 wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/american-staffordshire-terrier-health-problems"
+heroImage: "https://images.pexels.com/photos/35611837/pexels-photo-35611837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35611837/pexels-photo-35611837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Lively brown pit bull dog lying on grass with a toy, enjoying a sunny day outdoors."
+imageAlt: "Lively brown pit bull dog lying on grass with a toy, enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Joshua B on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-brown-pit-bull-with-toy-in-sunshine-35611837/"
+imageSearchQuery: "American Staffordshire Terrier dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About American Staffordshire Terriers

@@ -27,7 +27,16 @@ breedSlug: "australian-kelpie"
 breedName: "Australian Kelpie"
 wordCountEstimate: 386
 canonicalUrl: "https://pupwiki.com/blog/australian-kelpie-health-problems"
+heroImage: "https://images.pexels.com/photos/5142688/pexels-photo-5142688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5142688/pexels-photo-5142688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a smiling Australian Kelpie dog sitting in a vibrant green garden."
+imageAlt: "Close-up of a smiling Australian Kelpie dog sitting in a vibrant green garden."
+imageSource: "pexels"
+imageCredit: "Photo by Ana Morais on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-5142688/"
+imageSearchQuery: "Australian Kelpie dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Australian Kelpies

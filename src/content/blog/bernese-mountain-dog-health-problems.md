@@ -27,7 +27,16 @@ breedSlug: "bernese-mountain-dog"
 breedName: "Bernese Mountain Dog"
 wordCountEstimate: 543
 canonicalUrl: "https://pupwiki.com/blog/bernese-mountain-dog-health-problems"
+heroImage: "https://images.pexels.com/photos/10842583/pexels-photo-10842583.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10842583/pexels-photo-10842583.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming Bernese Mountain Dog in a sunlit field of wildflowers, radiating joy."
+imageAlt: "Charming Bernese Mountain Dog in a sunlit field of wildflowers, radiating joy."
+imageSource: "pexels"
+imageCredit: "Photo by David  Floyd on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-close-up-shot-of-a-bernese-mountain-dog-10842583/"
+imageSearchQuery: "Bernese Mountain Dog dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Bernese Mountain Dogs

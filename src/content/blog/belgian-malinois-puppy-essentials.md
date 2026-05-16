@@ -27,7 +27,16 @@ breedSlug: "belgian-malinois"
 breedName: "Belgian Malinois"
 wordCountEstimate: 372
 canonicalUrl: "https://pupwiki.com/blog/belgian-malinois-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/13076152/pexels-photo-13076152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13076152/pexels-photo-13076152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Belgian Malinois dog standing in a scenic, natural outdoor setting with grass and sky."
+imageAlt: "Belgian Malinois dog standing in a scenic, natural outdoor setting with grass and sky."
+imageSource: "pexels"
+imageCredit: "Photo by Laura Paredis on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/malinois-dog-standing-on-brown-field-under-blue-sky-13076152/"
+imageSearchQuery: "Belgian Malinois dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Belgian Malinoiss
 Belgian Malinoiss are large-sized (40–80 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

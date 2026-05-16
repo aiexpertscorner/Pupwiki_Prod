@@ -27,7 +27,16 @@ breedSlug: "beagle"
 breedName: "Beagle"
 wordCountEstimate: 463
 canonicalUrl: "https://pupwiki.com/blog/beagle-health-problems"
+heroImage: "https://images.pexels.com/photos/31086486/pexels-photo-31086486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31086486/pexels-photo-31086486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a beagle dog showing its expressive eyes and features."
+imageAlt: "A detailed close-up portrait of a beagle dog showing its expressive eyes and features."
+imageSource: "pexels"
+imageCredit: "Photo by A D R I A N A on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-beagle-dog-face-31086486/"
+imageSearchQuery: "Beagle dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Beagles

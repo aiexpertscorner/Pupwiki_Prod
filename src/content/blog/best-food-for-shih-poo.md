@@ -27,7 +27,16 @@ breedSlug: "shih-poo"
 breedName: "Shih-poo"
 wordCountEstimate: 494
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-shih-poo"
+heroImage: "https://images.pexels.com/photos/27175968/pexels-photo-27175968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27175968/pexels-photo-27175968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A woman in a casual outfit feeds her small dog indoors, creating a warm, cozy atmosphere."
+imageAlt: "A woman in a casual outfit feeds her small dog indoors, creating a warm, cozy atmosphere."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-feeding-dog-in-home-27175968/"
+imageSearchQuery: "Shih-poo dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Shih-poos
 Shih-poos are small-sized (8.82–17.64 lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "american-water-spaniel"
 breedName: "American Water Spaniel"
 wordCountEstimate: 408
 canonicalUrl: "https://pupwiki.com/blog/american-water-spaniel-health-problems"
+heroImage: "https://images.pexels.com/photos/36739473/pexels-photo-36739473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36739473/pexels-photo-36739473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cheerful brown and white dog sits in a vibrant green field, enjoying the sunshine."
+imageAlt: "A cheerful brown and white dog sits in a vibrant green field, enjoying the sunshine."
+imageSource: "pexels"
+imageCredit: "Photo by KB Photography on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/happy-dog-sitting-in-sunlit-field-36739473/"
+imageSearchQuery: "American Water Spaniel dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About American Water Spaniels

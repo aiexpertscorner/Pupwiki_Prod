@@ -27,7 +27,16 @@ breedSlug: "american-staffordshire-terrier"
 breedName: "American Staffordshire Terrier"
 wordCountEstimate: 369
 canonicalUrl: "https://pupwiki.com/blog/american-staffordshire-terrier-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/18871228/pexels-photo-18871228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18871228/pexels-photo-18871228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up black and white portrait of a pit bull dog, showcasing its attentive and curious expression."
+imageAlt: "Close-up black and white portrait of a pit bull dog, showcasing its attentive and curious expression."
+imageSource: "pexels"
+imageCredit: "Photo by Altaf Shah on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-18871228/"
+imageSearchQuery: "American Staffordshire Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Staffordshire Terriers
 American Staffordshire Terriers are large-sized (40–70 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.

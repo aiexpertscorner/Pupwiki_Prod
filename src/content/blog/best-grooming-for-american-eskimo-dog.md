@@ -27,7 +27,16 @@ breedSlug: "american-eskimo-dog"
 breedName: "American Eskimo Dog"
 wordCountEstimate: 451
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-american-eskimo-dog"
+heroImage: "https://images.pexels.com/photos/27744185/pexels-photo-27744185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27744185/pexels-photo-27744185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming American Eskimo dog sitting in lush green grass, exuding cuteness and friendly vibes."
+imageAlt: "Charming American Eskimo dog sitting in lush green grass, exuding cuteness and friendly vibes."
+imageSource: "pexels"
+imageCredit: "Photo by Mohan Nannapaneni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-white-dog-sitting-in-the-grass-with-its-tongue-out-27744185/"
+imageSearchQuery: "American Eskimo Dog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Eskimo Dogs
 American Eskimo Dogs are medium-sized (6–35 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

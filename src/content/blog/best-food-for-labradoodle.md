@@ -27,7 +27,16 @@ breedSlug: "labradoodle"
 breedName: "Labradoodle"
 wordCountEstimate: 562
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-labradoodle"
+heroImage: "https://images.pexels.com/photos/27035105/pexels-photo-27035105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27035105/pexels-photo-27035105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two shaggy labradoodle dogs wearing collars and leashes outdoors, side by side."
+imageAlt: "Two shaggy labradoodle dogs wearing collars and leashes outdoors, side by side."
+imageSource: "pexels"
+imageCredit: "Photo by Chris F on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/two-labradoodles-on-leashes-27035105/"
+imageSearchQuery: "Labradoodle dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Labradoodles
 Labradoodles are large-sized (48.5–83.78 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.

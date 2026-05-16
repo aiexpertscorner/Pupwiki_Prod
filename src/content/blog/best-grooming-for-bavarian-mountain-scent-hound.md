@@ -27,7 +27,16 @@ breedSlug: "bavarian-mountain-scent-hound"
 breedName: "Bavarian Mountain Scent Hound"
 wordCountEstimate: 468
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bavarian-mountain-scent-hound"
+heroImage: "https://images.pexels.com/photos/32797668/pexels-photo-32797668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32797668/pexels-photo-32797668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog playing in the snow with a stick, capturing a joyful winter moment."
+imageAlt: "Cute dog playing in the snow with a stick, capturing a joyful winter moment."
+imageSource: "pexels"
+imageCredit: "Photo by Oliver Wagenblatt on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-dog-in-snow-with-stick-32797668/"
+imageSearchQuery: "Bavarian Mountain Scent Hound dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bavarian Mountain Scent Hounds
 Bavarian Mountain Scent Hounds are large-sized (37–66 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "affenpinscher"
 breedName: "Affenpinscher"
 wordCountEstimate: 416
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-affenpinscher"
+heroImage: "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care."
+imageAlt: "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/"
+imageSearchQuery: "Affenpinscher dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Affenpinschers
 Affenpinschers are small-sized (7–10 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.

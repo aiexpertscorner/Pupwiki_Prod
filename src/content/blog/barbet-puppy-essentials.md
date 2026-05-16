@@ -27,7 +27,16 @@ breedSlug: "barbet"
 breedName: "Barbet"
 wordCountEstimate: 334
 canonicalUrl: "https://pupwiki.com/blog/barbet-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up black and white portrait of a curly-haired white dog."
+imageAlt: "Close-up black and white portrait of a curly-haired white dog."
+imageSource: "pexels"
+imageCredit: "Photo by Anna on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-fluffy-dog-31845857/"
+imageSearchQuery: "Barbet dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Barbets
 Barbets are medium-sized (35–65 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "beauceron"
 breedName: "Beauceron"
 wordCountEstimate: 364
 canonicalUrl: "https://pupwiki.com/blog/beauceron-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/29250881/pexels-photo-29250881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29250881/pexels-photo-29250881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Doberman dog standing inside a wooden cabin."
+imageAlt: "Close-up portrait of a Doberman dog standing inside a wooden cabin."
+imageSource: "pexels"
+imageCredit: "Photo by jordan besson on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-doberman-dog-posing-indoors-29250881/"
+imageSearchQuery: "Beauceron dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Beaucerons
 Beaucerons are large-sized (70–110 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

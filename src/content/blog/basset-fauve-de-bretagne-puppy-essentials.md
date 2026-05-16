@@ -27,7 +27,16 @@ breedSlug: "basset-fauve-de-bretagne"
 breedName: "Basset Fauve de Bretagne"
 wordCountEstimate: 367
 canonicalUrl: "https://pupwiki.com/blog/basset-fauve-de-bretagne-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/24917590/pexels-photo-24917590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/24917590/pexels-photo-24917590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming black and white portrait of a happy dog with tongue out against a dark background."
+imageAlt: "Charming black and white portrait of a happy dog with tongue out against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Karl  Byron on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-dog-24917590/"
+imageSearchQuery: "Basset Fauve de Bretagne dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Basset Fauve de Bretagnes
 Basset Fauve de Bretagnes are medium-sized (27–35 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.

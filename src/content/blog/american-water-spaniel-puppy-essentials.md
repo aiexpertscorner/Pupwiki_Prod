@@ -27,7 +27,16 @@ breedSlug: "american-water-spaniel"
 breedName: "American Water Spaniel"
 wordCountEstimate: 371
 canonicalUrl: "https://pupwiki.com/blog/american-water-spaniel-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively."
+imageAlt: "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively."
+imageSource: "pexels"
+imageCredit: "Photo by SlimMars 13 on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/"
+imageSearchQuery: "American Water Spaniel dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Water Spaniels
 American Water Spaniels are medium-sized (25–45 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

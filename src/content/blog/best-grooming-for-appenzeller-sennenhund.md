@@ -27,7 +27,16 @@ breedSlug: "appenzeller-sennenhund"
 breedName: "Appenzeller Sennenhund"
 wordCountEstimate: 444
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-appenzeller-sennenhund"
+heroImage: "https://images.pexels.com/photos/31948569/pexels-photo-31948569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31948569/pexels-photo-31948569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Bernese Mountain Dog sits contently in a lush green meadow on a sunny day."
+imageAlt: "A Bernese Mountain Dog sits contently in a lush green meadow on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Magda Ehlers on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bernese-mountain-dog-relaxing-in-green-meadow-31948569/"
+imageSearchQuery: "Appenzeller Sennenhund dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Appenzeller Sennenhunds
 Appenzeller Sennenhunds are large-sized (48–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

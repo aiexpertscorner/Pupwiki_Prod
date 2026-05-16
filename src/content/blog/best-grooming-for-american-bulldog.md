@@ -27,7 +27,16 @@ breedSlug: "american-bulldog"
 breedName: "American Bulldog"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-american-bulldog"
+heroImage: "https://images.pexels.com/photos/6738222/pexels-photo-6738222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6738222/pexels-photo-6738222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "An American Bulldog bites a log outdoors in a grassy area, showcasing playfulness."
+imageAlt: "An American Bulldog bites a log outdoors in a grassy area, showcasing playfulness."
+imageSource: "pexels"
+imageCredit: "Photo by GODMODE INTRUST on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-an-american-bulldog-biting-a-tree-log-6738222/"
+imageSearchQuery: "American Bulldog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Bulldogs
 American Bulldogs are large-sized (60–100 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

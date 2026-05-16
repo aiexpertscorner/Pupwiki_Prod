@@ -27,7 +27,16 @@ breedSlug: "beagle"
 breedName: "Beagle"
 wordCountEstimate: 414
 canonicalUrl: "https://pupwiki.com/blog/beagle-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/31086486/pexels-photo-31086486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31086486/pexels-photo-31086486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a beagle dog showing its expressive eyes and features."
+imageAlt: "A detailed close-up portrait of a beagle dog showing its expressive eyes and features."
+imageSource: "pexels"
+imageCredit: "Photo by A D R I A N A on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-beagle-dog-face-31086486/"
+imageSearchQuery: "Beagle dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Beagles
 Beagles are medium-sized (13–30 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

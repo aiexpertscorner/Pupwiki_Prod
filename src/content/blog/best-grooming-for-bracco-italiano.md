@@ -27,7 +27,16 @@ breedSlug: "bracco-italiano"
 breedName: "Bracco Italiano"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bracco-italiano"
+heroImage: "https://images.pexels.com/photos/28964676/pexels-photo-28964676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28964676/pexels-photo-28964676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up image of a Spinone Italiano dog with distinctive curly fur indoors."
+imageAlt: "Close-up image of a Spinone Italiano dog with distinctive curly fur indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-spinone-italiano-dog-with-curly-fur-28964676/"
+imageSearchQuery: "Bracco Italiano dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bracco Italianos
 Bracco Italianos are large-sized (55–90 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

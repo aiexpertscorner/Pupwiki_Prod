@@ -27,7 +27,16 @@ breedSlug: "bergamasco-sheepdog"
 breedName: "Bergamasco Sheepdog"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bergamasco-sheepdog"
+heroImage: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageSource: "pexels"
+imageCredit: "Photo by Miguel González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-yellow-background-16622613/"
+imageSearchQuery: "Bergamasco Sheepdog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bergamasco Sheepdogs
 Bergamasco Sheepdogs are large-sized (57–84 lbs), with calm energy, minimal shedding, and a corded coat. The recommendations below are matched to these traits.

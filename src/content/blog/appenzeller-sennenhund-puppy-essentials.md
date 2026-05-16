@@ -27,7 +27,16 @@ breedSlug: "appenzeller-sennenhund"
 breedName: "Appenzeller Sennenhund"
 wordCountEstimate: 372
 canonicalUrl: "https://pupwiki.com/blog/appenzeller-sennenhund-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/11181903/pexels-photo-11181903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11181903/pexels-photo-11181903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Entlebucher Mountain Dog joyfully playing with a toy in the snowy outdoors."
+imageAlt: "Entlebucher Mountain Dog joyfully playing with a toy in the snowy outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Valeria Boltneva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/an-entlebucher-mountain-dog-playing-during-winter-11181903/"
+imageSearchQuery: "Appenzeller Sennenhund dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Appenzeller Sennenhunds
 Appenzeller Sennenhunds are large-sized (48–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

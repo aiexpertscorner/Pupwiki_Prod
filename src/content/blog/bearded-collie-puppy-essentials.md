@@ -27,7 +27,16 @@ breedSlug: "bearded-collie"
 breedName: "Bearded Collie"
 wordCountEstimate: 365
 canonicalUrl: "https://pupwiki.com/blog/bearded-collie-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression."
+imageAlt: "Close-up portrait of a fluffy Collie dog outdoors, showing its beautiful fur and friendly expression."
+imageSource: "pexels"
+imageCredit: "Photo by Tomasz Lemańczyk on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/beautiful-fluffy-collie-26588116/"
+imageSearchQuery: "Bearded Collie dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bearded Collies
 Bearded Collies are medium-sized (45–55 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "basenji"
 breedName: "Basenji"
 wordCountEstimate: 492
 canonicalUrl: "https://pupwiki.com/blog/basenji-health-problems"
+heroImage: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A professional veterinarian in mask examines a dog indoors during a checkup."
+imageAlt: "A professional veterinarian in mask examines a dog indoors during a checkup."
+imageSource: "pexels"
+imageCredit: "Photo by Mikhail Nilov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/man-checking-on-a-dog-7468978/"
+imageSearchQuery: "Basenji dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Basenjis

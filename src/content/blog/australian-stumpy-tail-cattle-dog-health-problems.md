@@ -27,7 +27,16 @@ breedSlug: "australian-stumpy-tail-cattle-dog"
 breedName: "Australian Stumpy Tail Cattle Dog"
 wordCountEstimate: 396
 canonicalUrl: "https://pupwiki.com/blog/australian-stumpy-tail-cattle-dog-health-problems"
+heroImage: "https://images.pexels.com/photos/34182536/pexels-photo-34182536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34182536/pexels-photo-34182536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming Australian Cattle Dog puppies exploring rocky terrain with lush greenery in the background."
+imageAlt: "Charming Australian Cattle Dog puppies exploring rocky terrain with lush greenery in the background."
+imageSource: "pexels"
+imageCredit: "Photo by Magda Ehlers on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/australian-cattle-dog-puppy-exploring-outdoors-34182536/"
+imageSearchQuery: "Australian Stumpy Tail Cattle Dog dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Australian Stumpy Tail Cattle Dogs

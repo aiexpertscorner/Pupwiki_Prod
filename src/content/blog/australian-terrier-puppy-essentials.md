@@ -27,7 +27,16 @@ breedSlug: "australian-terrier"
 breedName: "Australian Terrier"
 wordCountEstimate: 418
 canonicalUrl: "https://pupwiki.com/blog/australian-terrier-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/7210280/pexels-photo-7210280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7210280/pexels-photo-7210280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Closeup of adorable small purebred dog with brown coat and eyes looking away in daylight on blurred background"
+imageAlt: "Closeup of adorable small purebred dog with brown coat and eyes looking away in daylight on blurred background"
+imageSource: "pexels"
+imageCredit: "Photo by Blue Bird on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/norwich-terrier-with-fluffy-fur-in-daytime-7210280/"
+imageSearchQuery: "Australian Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Australian Terriers
 Australian Terriers are small-sized (15–20 lbs), with active energy, minimal shedding, and a rough coat. The recommendations below are matched to these traits.

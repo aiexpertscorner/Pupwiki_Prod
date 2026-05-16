@@ -27,7 +27,16 @@ breedSlug: "anatolian-shepherd-dog"
 breedName: "Anatolian Shepherd Dog"
 wordCountEstimate: 451
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-anatolian-shepherd-dog"
+heroImage: "https://images.pexels.com/photos/9810628/pexels-photo-9810628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9810628/pexels-photo-9810628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Anatolian Shepherd dog enjoying outside on a sunny day."
+imageAlt: "Cute Anatolian Shepherd dog enjoying outside on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Plato Terentev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-cute-dog-with-brown-fur-9810628/"
+imageSearchQuery: "Anatolian Shepherd Dog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Anatolian Shepherd Dogs
 Anatolian Shepherd Dogs are large-sized (80–150 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

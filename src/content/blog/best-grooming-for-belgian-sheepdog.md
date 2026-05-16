@@ -27,7 +27,16 @@ breedSlug: "belgian-sheepdog"
 breedName: "Belgian Sheepdog"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-belgian-sheepdog"
+heroImage: "https://images.pexels.com/photos/14320525/pexels-photo-14320525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14320525/pexels-photo-14320525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable black dog sitting in grassy field, tongue out, during daylight."
+imageAlt: "Adorable black dog sitting in grassy field, tongue out, during daylight."
+imageSource: "pexels"
+imageCredit: "Photo by Sharon  Snider on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-dog-sitting-on-green-grass-field-14320525/"
+imageSearchQuery: "Belgian Sheepdog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Belgian Sheepdogs
 Belgian Sheepdogs are large-sized (45–75 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

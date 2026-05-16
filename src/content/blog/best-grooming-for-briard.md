@@ -27,7 +27,16 @@ breedSlug: "briard"
 breedName: "Briard"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-briard"
+heroImage: "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy white dog being gently brushed on a wooden floor during grooming."
+imageAlt: "A fluffy white dog being gently brushed on a wooden floor during grooming."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/"
+imageSearchQuery: "Briard dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Briards
 Briards are large-sized (55–100 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

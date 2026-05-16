@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-16T22:18:15.629Z",
+  "syncedAt": "2026-05-16T22:31:21.604Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -411,11 +411,11 @@
       "advertiserId": "89689",
       "name": "Raw Wild LLC",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://raw-wild-2.myshopify.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89689&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89689.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -434,26 +434,8 @@
           "domain": "*.raw-wild-2.myshopify.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 0,
-          "max": 0,
-          "type": "amount"
-        },
-        {
-          "min": 0,
-          "max": 8,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "26",
-        "approvalPercentage": 97.62,
-        "epc": 1.78,
-        "conversionRate": 10.89,
-        "validationDays": 3,
-        "awinIndex": 92.11
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": "rawwild",
       "feedId": null,
@@ -487,11 +469,11 @@
       "advertiserId": "89913",
       "name": "Petmate",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://www.petmate.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -504,21 +486,8 @@
           "domain": "www.petmate.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 10,
-          "max": 15,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "34",
-        "approvalPercentage": 64.68,
-        "epc": 0.24,
-        "conversionRate": 4.07,
-        "validationDays": 6,
-        "awinIndex": 69.21
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": "petmate",
       "feedId": "107829",
@@ -555,11 +524,11 @@
       "advertiserId": "118951",
       "name": "MyPetDMV - The original Pet Drivers License",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://www.mypetdmv.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=118951&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/118951.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -575,22 +544,9 @@
           "domain": "*.mypetdmv.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 20,
-          "max": 20,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "57",
-        "approvalPercentage": 100,
-        "epc": 1.35,
-        "conversionRate": 20.83,
-        "validationDays": 37,
-        "awinIndex": 70.47
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
       "staticProgramId": "mypetdmv-the-original-pet-drivers-license",
       "feedId": null,
       "configuredDeeplink": "",
@@ -623,11 +579,11 @@
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.remember.bereaveorders.com/pets",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "primarySector": "Gifts & Flowers",
       "primaryRegion": {
@@ -640,8 +596,15 @@
           "domain": "https://www.remember.bereaveorders.com/pets"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "",
+        "approvalPercentage": 100,
+        "epc": 1.03,
+        "conversionRate": 2.6,
+        "validationDays": 21,
+        "awinIndex": 73.7
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -670,11 +633,11 @@
       "advertiserId": "68990",
       "name": "Odie Pet Insurance Marketing, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://getodie.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=68990&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/68990.png",
       "primarySector": "Insurance",
       "primaryRegion": {
@@ -687,8 +650,15 @@
           "domain": "getodie.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "57",
+        "approvalPercentage": 99.73,
+        "epc": 0.19,
+        "conversionRate": 5.15,
+        "validationDays": 51,
+        "awinIndex": 56.05
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -716,11 +686,11 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.dutch.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "primarySector": "Health & Beauty",
       "primaryRegion": {
@@ -739,8 +709,15 @@
           "domain": "*.dutch.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "71",
+        "approvalPercentage": 100,
+        "epc": 0.66,
+        "conversionRate": 2.73,
+        "validationDays": 51,
+        "awinIndex": 53.79
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1099,11 +1076,11 @@
       "advertiserId": "106409",
       "name": "Wuffes.com",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://wuffes.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=106409&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/106409.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1119,16 +1096,9 @@
           "domain": "*.wuffes.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "72",
-        "approvalPercentage": 100,
-        "epc": 3.89,
-        "conversionRate": 24.09,
-        "validationDays": 31,
-        "awinIndex": 74.72
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1155,11 +1125,11 @@
       "advertiserId": "111234",
       "name": "PetLink (US)",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://store.petlink.net/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111234&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111234.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1178,16 +1148,9 @@
           "domain": "store.petlink.net"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "76",
-        "approvalPercentage": 100,
-        "epc": 0.06,
-        "conversionRate": 1.52,
-        "validationDays": 30,
-        "awinIndex": 66.52
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1213,11 +1176,11 @@
       "advertiserId": "111784",
       "name": "peaksNpaws",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.peaksnpaws.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111784&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111784.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -1230,15 +1193,8 @@
           "domain": "www.peaksnpaws.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "73",
-        "approvalPercentage": 100,
-        "epc": 0.83,
-        "conversionRate": 5.35,
-        "validationDays": 50,
-        "awinIndex": 57.1
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1325,11 +1281,11 @@
       "advertiserId": "120007",
       "name": "Pupford US",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://pupford.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120007&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120007.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1345,9 +1301,16 @@
           "domain": "*.pupford.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "27",
+        "approvalPercentage": 100,
+        "epc": 0.07,
+        "conversionRate": 13.36,
+        "validationDays": 7,
+        "awinIndex": 90.34
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1377,11 +1340,11 @@
       "advertiserId": "120960",
       "name": "Furry Muse (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://furrymuse.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120960&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120960.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1397,9 +1360,16 @@
           "domain": "*.furrymuse.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "71",
+        "approvalPercentage": 100,
+        "epc": 0.66,
+        "conversionRate": 4.53,
+        "validationDays": 30,
+        "awinIndex": 69.6
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1427,11 +1397,11 @@
       "advertiserId": "122204",
       "name": "Montana Dog Food Co (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://montanadogfoodco.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=122204&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/122204.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1450,9 +1420,16 @@
           "domain": "19ac94-10.myshopify.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "40",
+        "approvalPercentage": 100,
+        "epc": 0.22,
+        "conversionRate": 5.56,
+        "validationDays": 15,
+        "awinIndex": 80.58
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1650,7 +1627,7 @@
       "advertiserId": "89689",
       "name": "Raw Wild LLC",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1658,7 +1635,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89689.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89689&id=2861861",
       "topicTags": [
@@ -1677,7 +1654,7 @@
       "advertiserId": "89913",
       "name": "Petmate",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": true,
       "feedIds": [
@@ -1687,7 +1664,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
       "topicTags": [
@@ -1706,7 +1683,7 @@
       "advertiserId": "118951",
       "name": "MyPetDMV - The original Pet Drivers License",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1714,7 +1691,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/118951.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=118951&id=2861861",
       "topicTags": [
@@ -1731,7 +1708,7 @@
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1739,7 +1716,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
       "topicTags": [
@@ -1753,7 +1730,7 @@
       "advertiserId": "68990",
       "name": "Odie Pet Insurance Marketing, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1761,7 +1738,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/68990.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=68990&id=2861861",
       "topicTags": [
@@ -1774,7 +1751,7 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1782,7 +1759,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
       "topicTags": [
@@ -1934,7 +1911,7 @@
       "advertiserId": "106409",
       "name": "Wuffes.com",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1942,7 +1919,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/106409.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=106409&id=2861861",
       "topicTags": [
@@ -1955,7 +1932,7 @@
       "advertiserId": "111234",
       "name": "PetLink (US)",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1963,7 +1940,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111234.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111234&id=2861861",
       "topicTags": [
@@ -1975,7 +1952,7 @@
       "advertiserId": "111784",
       "name": "peaksNpaws",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1983,7 +1960,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111784.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111784&id=2861861",
       "topicTags": [
@@ -2020,7 +1997,7 @@
       "advertiserId": "120007",
       "name": "Pupford US",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2028,7 +2005,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120007.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120007&id=2861861",
       "topicTags": [
@@ -2044,7 +2021,7 @@
       "advertiserId": "120960",
       "name": "Furry Muse (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2052,7 +2029,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120960.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120960&id=2861861",
       "topicTags": [
@@ -2066,7 +2043,7 @@
       "advertiserId": "122204",
       "name": "Montana Dog Food Co (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2074,7 +2051,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/122204.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=122204&id=2861861",
       "topicTags": [
@@ -2100,33 +2077,36 @@
     "feedProductFetchFailures": 0,
     "experimentalCreativesEnabled": false,
     "warnings": [
+      "programmedetails/89689 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/89689 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/89689 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/89689 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/89913 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/89913 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/89913 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/89913 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/118951 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/118951 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/118951 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/118951 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/120960 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/120960 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/120960 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/120960 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms"
+      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms"
     ],
     "errors": []
   }

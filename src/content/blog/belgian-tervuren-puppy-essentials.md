@@ -27,7 +27,16 @@ breedSlug: "belgian-tervuren"
 breedName: "Belgian Tervuren"
 wordCountEstimate: 450
 canonicalUrl: "https://pupwiki.com/blog/belgian-tervuren-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Belgian Tervuren dog standing in a grassy field, tongue out."
+imageAlt: "Cute Belgian Tervuren dog standing in a grassy field, tongue out."
+imageSource: "pexels"
+imageCredit: "Photo by Viktorija Stankevičiūtė on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-on-grass-field-12685132/"
+imageSearchQuery: "Belgian Tervuren dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Belgian Tervurens
 Belgian Tervurens are large-sized (45–75 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

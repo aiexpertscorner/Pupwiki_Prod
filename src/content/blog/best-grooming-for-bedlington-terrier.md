@@ -27,7 +27,16 @@ breedSlug: "bedlington-terrier"
 breedName: "Bedlington Terrier"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bedlington-terrier"
+heroImage: "https://images.pexels.com/photos/7765407/pexels-photo-7765407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7765407/pexels-photo-7765407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Bedlington Terrier dog sits indoors with a leather collar, exuding charm and warmth."
+imageAlt: "A Bedlington Terrier dog sits indoors with a leather collar, exuding charm and warmth."
+imageSource: "pexels"
+imageCredit: "Photo by Jean-Paul  Wright on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-furry-dog-with-a-collar-7765407/"
+imageSearchQuery: "Bedlington Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bedlington Terriers
 Bedlington Terriers are small-sized (17–23 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.

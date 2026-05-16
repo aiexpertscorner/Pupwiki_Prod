@@ -27,7 +27,16 @@ breedSlug: "american-foxhound"
 breedName: "American Foxhound"
 wordCountEstimate: 372
 canonicalUrl: "https://pupwiki.com/blog/american-foxhound-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors."
+imageAlt: "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors."
+imageSource: "pexels"
+imageCredit: "Photo by Pexels User on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-beagle-dog-sitting-outside-16902552/"
+imageSearchQuery: "American Foxhound dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Foxhounds
 American Foxhounds are large-sized (60–70 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

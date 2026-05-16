@@ -27,7 +27,16 @@ breedSlug: "azawakh"
 breedName: "Azawakh"
 wordCountEstimate: 325
 canonicalUrl: "https://pupwiki.com/blog/azawakh-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/37293674/pexels-photo-37293674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37293674/pexels-photo-37293674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a light brown dog with focused expression, standing on a gray background."
+imageAlt: "Close-up portrait of a light brown dog with focused expression, standing on a gray background."
+imageSource: "pexels"
+imageCredit: "Photo by Александр Лич on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-light-brown-dog-outdoors-37293674/"
+imageSearchQuery: "Azawakh dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Azawakhs
 Azawakhs are medium-sized (33–55 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.

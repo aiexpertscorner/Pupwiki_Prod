@@ -27,7 +27,16 @@ breedSlug: "anatolian-shepherd-dog"
 breedName: "Anatolian Shepherd Dog"
 wordCountEstimate: 399
 canonicalUrl: "https://pupwiki.com/blog/anatolian-shepherd-dog-health-problems"
+heroImage: "https://images.pexels.com/photos/9810628/pexels-photo-9810628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9810628/pexels-photo-9810628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Anatolian Shepherd dog enjoying outside on a sunny day."
+imageAlt: "Cute Anatolian Shepherd dog enjoying outside on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Plato Terentev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-cute-dog-with-brown-fur-9810628/"
+imageSearchQuery: "Anatolian Shepherd Dog dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Anatolian Shepherd Dogs

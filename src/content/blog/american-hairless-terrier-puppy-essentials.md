@@ -27,7 +27,16 @@ breedSlug: "american-hairless-terrier"
 breedName: "American Hairless Terrier"
 wordCountEstimate: 352
 canonicalUrl: "https://pupwiki.com/blog/american-hairless-terrier-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/36936594/pexels-photo-36936594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36936594/pexels-photo-36936594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Xoloitzcuintli dog with striking lighting against a black background."
+imageAlt: "Close-up portrait of a Xoloitzcuintli dog with striking lighting against a black background."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dramatic-portrait-of-a-hairless-dog-in-dark-36936594/"
+imageSearchQuery: "American Hairless Terrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Hairless Terriers
 American Hairless Terriers are small-sized (12–16 lbs), with regular energy, low shedding, and a hairless coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "corgidor"
 breedName: "Corgidor"
 wordCountEstimate: 598
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-corgidor"
+heroImage: "https://images.pexels.com/photos/8434633/pexels-photo-8434633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8434633/pexels-photo-8434633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A stainless steel dog bowl filled with dry dog treats on a wooden floor."
+imageAlt: "A stainless steel dog bowl filled with dry dog treats on a wooden floor."
+imageSource: "pexels"
+imageCredit: "Photo by MART  PRODUCTION on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bowl-of-dog-food-8434633/"
+imageSearchQuery: "Corgidor dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Corgidors
 Corgidors are medium-sized (33.07–55.12 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

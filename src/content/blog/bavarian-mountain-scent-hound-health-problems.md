@@ -27,7 +27,16 @@ breedSlug: "bavarian-mountain-scent-hound"
 breedName: "Bavarian Mountain Scent Hound"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/bavarian-mountain-scent-hound-health-problems"
+heroImage: "https://images.pexels.com/photos/6234622/pexels-photo-6234622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6234622/pexels-photo-6234622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A veterinarian examines a dog's teeth, showcasing pet healthcare and dental check-up in a clinic setting."
+imageAlt: "A veterinarian examines a dog's teeth, showcasing pet healthcare and dental check-up in a clinic setting."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-veterinarian-checking-a-dog-6234622/"
+imageSearchQuery: "Bavarian Mountain Scent Hound dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Bavarian Mountain Scent Hounds

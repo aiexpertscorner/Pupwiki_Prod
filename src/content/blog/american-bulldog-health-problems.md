@@ -27,7 +27,16 @@ breedSlug: "american-bulldog"
 breedName: "American Bulldog"
 wordCountEstimate: 388
 canonicalUrl: "https://pupwiki.com/blog/american-bulldog-health-problems"
+heroImage: "https://images.pexels.com/photos/6738222/pexels-photo-6738222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6738222/pexels-photo-6738222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "An American Bulldog bites a log outdoors in a grassy area, showcasing playfulness."
+imageAlt: "An American Bulldog bites a log outdoors in a grassy area, showcasing playfulness."
+imageSource: "pexels"
+imageCredit: "Photo by GODMODE INTRUST on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-an-american-bulldog-biting-a-tree-log-6738222/"
+imageSearchQuery: "American Bulldog dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About American Bulldogs

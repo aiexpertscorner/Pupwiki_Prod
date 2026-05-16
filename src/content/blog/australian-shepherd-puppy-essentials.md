@@ -27,7 +27,16 @@ breedSlug: "australian-shepherd"
 breedName: "Australian Shepherd"
 wordCountEstimate: 419
 canonicalUrl: "https://pupwiki.com/blog/australian-shepherd-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/37320728/pexels-photo-37320728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37320728/pexels-photo-37320728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a tricolor Australian Shepherd dog with expressive eyes against a dark background."
+imageAlt: "Close-up portrait of a tricolor Australian Shepherd dog with expressive eyes against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Thierry Cuzin on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-an-australian-shepherd-dog-with-tricolor-fur-37320728/"
+imageSearchQuery: "Australian Shepherd dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Australian Shepherds
 Australian Shepherds are medium-sized (40–65 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

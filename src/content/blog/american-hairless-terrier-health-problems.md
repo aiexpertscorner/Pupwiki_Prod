@@ -27,7 +27,16 @@ breedSlug: "american-hairless-terrier"
 breedName: "American Hairless Terrier"
 wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/american-hairless-terrier-health-problems"
+heroImage: "https://images.pexels.com/photos/35548226/pexels-photo-35548226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35548226/pexels-photo-35548226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A hairless and a terrier dog walking energetically on a mossy outdoor pavement."
+imageAlt: "A hairless and a terrier dog walking energetically on a mossy outdoor pavement."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/active-hairless-and-terrier-dogs-walking-outdoors-35548226/"
+imageSearchQuery: "American Hairless Terrier dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About American Hairless Terriers

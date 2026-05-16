@@ -27,7 +27,16 @@ breedSlug: "akita"
 breedName: "Akita"
 wordCountEstimate: 449
 canonicalUrl: "https://pupwiki.com/blog/akita-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/13454740/pexels-photo-13454740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13454740/pexels-photo-13454740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Serene scene of an Akita dog wading through a scenic lake surrounded by lush mountains. Perfect for nature and pet-themed designs."
+imageAlt: "Serene scene of an Akita dog wading through a scenic lake surrounded by lush mountains. Perfect for nature and pet-themed designs."
+imageSource: "pexels"
+imageCredit: "Photo by Amar  Preciado on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-standing-on-the-lake-13454740/"
+imageSearchQuery: "Akita dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Akitas
 Akitas are large-sized (70–130 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

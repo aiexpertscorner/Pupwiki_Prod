@@ -27,7 +27,16 @@ breedSlug: "boykin-spaniel"
 breedName: "Boykin Spaniel"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-boykin-spaniel"
+heroImage: "https://images.pexels.com/photos/19145879/pexels-photo-19145879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145879/pexels-photo-19145879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Cocker Spaniel dog being groomed indoors by a professional groomer."
+imageAlt: "A Cocker Spaniel dog being groomed indoors by a professional groomer."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/groomer-brushing-a-dog-19145879/"
+imageSearchQuery: "Boykin Spaniel dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Boykin Spaniels
 Boykin Spaniels are medium-sized (25–40 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

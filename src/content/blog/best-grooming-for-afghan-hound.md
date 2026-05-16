@@ -27,7 +27,16 @@ breedSlug: "afghan-hound"
 breedName: "Afghan Hound"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-afghan-hound"
+heroImage: "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools."
+imageAlt: "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-being-brushed-19145894/"
+imageSearchQuery: "Afghan Hound dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Afghan Hounds
 Afghan Hounds are medium-sized (50–60 lbs), with active energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

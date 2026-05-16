@@ -27,7 +27,16 @@ breedSlug: "jack-a-poo"
 breedName: "Jack-A-Poo"
 wordCountEstimate: 508
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-jack-a-poo"
+heroImage: "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries."
+imageAlt: "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries."
+imageSource: "pexels"
+imageCredit: "Photo by Rarnie McCudden on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/"
+imageSearchQuery: "Jack-A-Poo dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Jack-A-Poos
 Jack-A-Poos are small-sized (13.23–26.46 lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

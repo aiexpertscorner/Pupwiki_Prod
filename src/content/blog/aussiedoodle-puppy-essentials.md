@@ -27,7 +27,16 @@ breedSlug: "aussiedoodle"
 breedName: "Aussiedoodle"
 wordCountEstimate: 426
 canonicalUrl: "https://pupwiki.com/blog/aussiedoodle-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageSource: "pexels"
+imageCredit: "Photo by Miguel González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-yellow-background-16622613/"
+imageSearchQuery: "Aussiedoodle dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Aussiedoodles
 Aussiedoodles are medium-sized (24.25–70.55 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.

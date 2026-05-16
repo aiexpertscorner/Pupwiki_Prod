@@ -27,7 +27,16 @@ breedSlug: "affenpinscher"
 breedName: "Affenpinscher"
 wordCountEstimate: 464
 canonicalUrl: "https://pupwiki.com/blog/affenpinscher-health-problems"
+heroImage: "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A veterinarian examining a Pomeranian dog using an ultrasound machine in a clinic setting."
+imageAlt: "A veterinarian examining a Pomeranian dog using an ultrasound machine in a clinic setting."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-woman-in-white-long-sleeves-holding-brown-pomeranian-6234980/"
+imageSearchQuery: "Affenpinscher dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Affenpinschers

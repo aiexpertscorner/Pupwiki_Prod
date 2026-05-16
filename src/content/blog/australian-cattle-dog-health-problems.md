@@ -27,7 +27,16 @@ breedSlug: "australian-cattle-dog"
 breedName: "Australian Cattle Dog"
 wordCountEstimate: 478
 canonicalUrl: "https://pupwiki.com/blog/australian-cattle-dog-health-problems"
+heroImage: "https://images.pexels.com/photos/35511903/pexels-photo-35511903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35511903/pexels-photo-35511903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "An Australian Cattle Dog sitting on lush green grass, showing a friendly expression."
+imageAlt: "An Australian Cattle Dog sitting on lush green grass, showing a friendly expression."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/australian-cattle-dog-sitting-on-green-grass-35511903/"
+imageSearchQuery: "Australian Cattle Dog dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Australian Cattle Dogs

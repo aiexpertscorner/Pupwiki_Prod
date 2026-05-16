@@ -27,7 +27,16 @@ breedSlug: "australian-kelpie"
 breedName: "Australian Kelpie"
 wordCountEstimate: 352
 canonicalUrl: "https://pupwiki.com/blog/australian-kelpie-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/13584270/pexels-photo-13584270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13584270/pexels-photo-13584270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed portrait of an Australian Kelpie dog surrounded by lush green foliage."
+imageAlt: "A detailed portrait of an Australian Kelpie dog surrounded by lush green foliage."
+imageSource: "pexels"
+imageCredit: "Photo by Magda Ehlers on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-13584270/"
+imageSearchQuery: "Australian Kelpie dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Australian Kelpies
 Australian Kelpies are medium-sized, with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "husky-jack"
 breedName: "Husky Jack"
 wordCountEstimate: 566
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-husky-jack"
+heroImage: "https://images.pexels.com/photos/13254310/pexels-photo-13254310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13254310/pexels-photo-13254310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog plays with a ball on a beach during a beautiful sunset, creating a serene and playful scene."
+imageAlt: "A dog plays with a ball on a beach during a beautiful sunset, creating a serene and playful scene."
+imageSource: "pexels"
+imageCredit: "Photo by Jorge Acre on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-biting-a-coconut-shell-on-the-beach-13254310/"
+imageSearchQuery: "Husky Jack dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Husky Jacks
 Husky Jacks are medium-sized (22.05–39.68 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.

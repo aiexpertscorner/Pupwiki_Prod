@@ -27,7 +27,16 @@ breedSlug: "airedale-terrier"
 breedName: "Airedale Terrier"
 wordCountEstimate: 399
 canonicalUrl: "https://pupwiki.com/blog/airedale-terrier-health-problems"
+heroImage: "https://images.pexels.com/photos/6235655/pexels-photo-6235655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6235655/pexels-photo-6235655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Pomeranian dog being examined by veterinarians. Black and white image captures a detailed check-up scene."
+imageAlt: "Pomeranian dog being examined by veterinarians. Black and white image captures a detailed check-up scene."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-getting-a-check-up-6235655/"
+imageSearchQuery: "Airedale Terrier dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Airedale Terriers

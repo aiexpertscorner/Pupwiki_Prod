@@ -27,7 +27,16 @@ breedSlug: "australian-shepherd"
 breedName: "Australian Shepherd"
 wordCountEstimate: 492
 canonicalUrl: "https://pupwiki.com/blog/australian-shepherd-health-problems"
+heroImage: "https://images.pexels.com/photos/32854630/pexels-photo-32854630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32854630/pexels-photo-32854630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Detailed close-up of an attentive Australian Shepherd dog outdoors."
+imageAlt: "Detailed close-up of an attentive Australian Shepherd dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by DΛVΞ GΛRCIΛ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-an-australian-shepherd-dog-32854630/"
+imageSearchQuery: "Australian Shepherd dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Australian Shepherds
