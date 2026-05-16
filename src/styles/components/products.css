@@ -100,7 +100,21 @@
 
 .product-card__cta-group {
   display: flex;
+  align-items: center;
   gap: 6px;
+}
+
+.product-card__sponsored {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-muted, #64748b);
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  padding: 0.1em 0.35em;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .affiliate-note {

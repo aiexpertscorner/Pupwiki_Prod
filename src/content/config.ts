@@ -54,8 +54,25 @@ const blog = defineCollection({
     monetizationIntent:  z.enum(['none','insurance','food','dna','training','grooming','vet-care','gift','cost','service']).optional(),
     qualityScore:        z.number().optional(),
     uniqueBlocks:        z.array(z.string()).default([]),
+    wordCountEstimate:   z.number().optional(),
     medicalDisclaimer:   z.boolean().default(false),
     affiliateDisclosure: z.boolean().default(true),
+  }).superRefine((data, ctx) => {
+    if (!data.generated) return;
+    if (data.qualityScore !== undefined && data.qualityScore < 40) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: `Generated post qualityScore ${data.qualityScore} is below minimum threshold of 40`,
+        path: ['qualityScore'],
+      });
+    }
+    if (data.wordCountEstimate !== undefined && data.wordCountEstimate < 600) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: `Generated post wordCountEstimate ${data.wordCountEstimate} is below the 600-word minimum`,
+        path: ['wordCountEstimate'],
+      });
+    }
   }),
 });
 

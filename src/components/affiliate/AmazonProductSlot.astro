@@ -83,7 +83,7 @@ const productById = new Map(allProducts.map((p) => [p.id, p]));
       <span>{description}</span>
     </div>
 
-    <div class="amazon-slot__grid">
+    <div class="amazon-slot__grid" style={`min-height: ${Math.min(ctas.length, 3) * 160}px;`}>
       {ctas.map((cta) => {
         const cardPlacement = `${placement}|${cta.productId || 'search'}`;
         const full = cta.productId ? productById.get(cta.productId) : null;

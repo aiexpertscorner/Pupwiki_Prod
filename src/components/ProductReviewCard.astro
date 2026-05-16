@@ -13,11 +13,50 @@ const stars = Math.round(rating);
 const scoreClass = ourScore
   ? (ourScore >= 9 ? 'score--high' : ourScore >= 7 ? 'score--mid' : 'score--low')
   : 'score--none';
+const today = new Date().toISOString().split('T')[0];
 const schema = JSON.stringify({
-  "@context":"https://schema.org","@type":"Review",
-  "itemReviewed":{"@type":"Product","name":name,"offers":price?{"@type":"Offer","price":price,"priceCurrency":"USD","url":url}:undefined},
-  "reviewRating":{"@type":"Rating","ratingValue":ourScore||rating,"bestRating":10,"worstRating":1},
-  "author":{"@type":"Organization","name":"PupWiki"},"reviewBody":verdict
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "datePublished": today,
+  "reviewBody": verdict || "",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": name,
+    ...(price ? {
+      "offers": {
+        "@type": "Offer",
+        "price": price,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": url,
+      },
+    } : {}),
+    ...(rating ? {
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": rating,
+        "bestRating": 5,
+        "worstRating": 1,
+        ...(reviewCount ? { "reviewCount": reviewCount } : {}),
+      },
+    } : {}),
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": ourScore || rating,
+    "bestRating": ourScore ? 10 : 5,
+    "worstRating": 1,
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "PupWiki",
+    "url": "https://pupwiki.com/how-we-test",
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "PupWiki",
+    "url": "https://pupwiki.com",
+  },
 });
 ---
 

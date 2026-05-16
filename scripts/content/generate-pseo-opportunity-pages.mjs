@@ -177,9 +177,10 @@ function getBreedTraits(breed) {
   const training = (breed?.training_level || breed?.traits?.training_level || 'moderate').toLowerCase();
   const health = breed?.primary_health_concern || '';
   const name = breed?.name || 'This breed';
-  const weight = breed?.weight?.imperial || breed?.weight?.metric;
-  const weightStr = weight
-    ? (typeof weight === 'object' ? `${weight.min || ''}–${weight.max || ''} lbs` : `${weight} lbs`)
+  const wMin = breed?.weight?.min_lbs ?? breed?.weight?.imperial?.min;
+  const wMax = breed?.weight?.max_lbs ?? breed?.weight?.imperial?.max;
+  const weightStr = (wMin || wMax)
+    ? (wMin && wMax && wMin !== wMax ? `${wMin}–${wMax} lbs` : `${wMin || wMax} lbs`)
     : null;
   const isSmall = /toy|small/i.test(size);
   const isLarge = /large|giant/i.test(size);
@@ -437,13 +438,17 @@ function productLine(product) {
 
 function breedContext(breed) {
   if (!breed) return '';
-  const size = breed.size || 'medium';
-  const weight = breed.weight?.imperial || breed.weight?.metric || 'varies';
+  const size = breed.size_category || breed.size || 'medium';
+  const wMin = breed.weight?.min_lbs ?? breed.weight?.imperial?.min;
+  const wMax = breed.weight?.max_lbs ?? breed.weight?.imperial?.max;
+  const weightStr = (wMin || wMax)
+    ? (wMin && wMax && wMin !== wMax ? `${wMin}–${wMax} lbs` : `${wMin || wMax} lbs`)
+    : null;
   const energy = breed.traits?.energy_level || breed.energy_level || 'moderate';
   const shedding = breed.traits?.shedding_level || breed.shedding_level || 'moderate';
   const coat = breed.traits?.coat_type || breed.coat_type || 'standard';
-  const weightStr = typeof weight === 'object' ? (weight.max ? `${weight.min}–${weight.max} lbs` : `${weight.min} lbs`) : `${weight} lbs`;
-  return `${breed.name}s are ${size}-sized (${weightStr}), with ${energy} energy, ${shedding} shedding, and a ${coat} coat. The recommendations below are matched to these traits.`;
+  const weightPart = weightStr ? ` (${weightStr})` : '';
+  return `${breed.name}s are ${size}-sized${weightPart}, with ${energy} energy, ${shedding} shedding, and a ${coat} coat. The recommendations below are matched to these traits.`;
 }
 function partnerLine(program) {
   const details = [

@@ -25,10 +25,17 @@
   display: block;
   width: 100%;
   height: auto;
+  /* Explicit aspect-ratio reserves space before image loads, preventing CLS */
+  aspect-ratio: 468 / 60;
 }
 
 .affiliate-banner__image--desktop {
   display: none;
+  aspect-ratio: 728 / 90;
+}
+
+.affiliate-banner__image--mobile {
+  aspect-ratio: 320 / 50;
 }
 
 .affiliate-banner__meta {
