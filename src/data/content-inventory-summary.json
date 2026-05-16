@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-12T19:17:51.769Z",
+  "generatedAt": "2026-05-16T22:11:23.083Z",
   "totals": {
     "breeds": 277,
     "crossbreeds": 75,
-    "blogPosts": 1415,
-    "astroPages": 25,
+    "blogPosts": 1326,
+    "astroPages": 30,
     "clusters": 15,
-    "awinJoinedPrograms": 9,
+    "awinJoinedPrograms": 0,
     "partnerProfilesGenerated": 7,
     "opportunities": 1500
   },
   "familyStats": [
     {
       "family": "food",
-      "existing": 127,
-      "missing": 225,
+      "existing": 277,
+      "missing": 75,
       "total": 352
     },
     {
@@ -25,14 +25,14 @@
     },
     {
       "family": "beds",
-      "existing": 75,
-      "missing": 277,
+      "existing": 352,
+      "missing": 0,
       "total": 352
     },
     {
       "family": "grooming",
-      "existing": 46,
-      "missing": 306,
+      "existing": 112,
+      "missing": 240,
       "total": 352
     },
     {
@@ -49,8 +49,8 @@
     },
     {
       "family": "training",
-      "existing": 75,
-      "missing": 277,
+      "existing": 352,
+      "missing": 0,
       "total": 352
     },
     {
@@ -145,7 +145,7 @@
     {
       "id": "cluster:training",
       "type": "cluster-hub",
-      "priorityScore": 105,
+      "priorityScore": 95,
       "cluster": "training",
       "suggestedPath": "/categories/training",
       "exists": false,
@@ -160,10 +160,7 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [
-          "JUGBOW",
-          "RadioFence.com"
-        ],
+        "awinPrograms": [],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true
       }
@@ -171,7 +168,7 @@
     {
       "id": "cluster:beds",
       "type": "cluster-hub",
-      "priorityScore": 105,
+      "priorityScore": 95,
       "cluster": "beds",
       "suggestedPath": "/categories/beds",
       "exists": false,
@@ -186,9 +183,7 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [
-          "Petmate"
-        ],
+        "awinPrograms": [],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true
       }
@@ -196,7 +191,7 @@
     {
       "id": "cluster:toys",
       "type": "cluster-hub",
-      "priorityScore": 105,
+      "priorityScore": 95,
       "cluster": "toys",
       "suggestedPath": "/categories/toys",
       "exists": false,
@@ -211,9 +206,7 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [
-          "Petmate"
-        ],
+        "awinPrograms": [],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true
       }
@@ -245,7 +238,7 @@
     {
       "id": "cluster:health",
       "type": "cluster-hub",
-      "priorityScore": 97,
+      "priorityScore": 87,
       "cluster": "health",
       "suggestedPath": "/categories/health",
       "exists": false,
@@ -260,9 +253,7 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [
-          "Brutus Broth"
-        ],
+        "awinPrograms": [],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": false
       }
@@ -293,7 +284,7 @@
     {
       "id": "cluster:supplements",
       "type": "cluster-hub",
-      "priorityScore": 92,
+      "priorityScore": 82,
       "cluster": "supplements",
       "suggestedPath": "/categories/supplements",
       "exists": false,
@@ -308,9 +299,7 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [
-          "Brutus Broth"
-        ],
+        "awinPrograms": [],
         "amazonValidatedSeedLikely": false,
         "amazonSearchFallback": false
       }
@@ -341,7 +330,7 @@
     {
       "id": "cluster:lifestyle",
       "type": "cluster-hub",
-      "priorityScore": 92,
+      "priorityScore": 82,
       "cluster": "lifestyle",
       "suggestedPath": "/categories/lifestyle",
       "exists": false,
@@ -356,10 +345,7 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [
-          "Crown and Paw",
-          "MyPetDMV - The original Pet Drivers License"
-        ],
+        "awinPrograms": [],
         "amazonValidatedSeedLikely": false,
         "amazonSearchFallback": false
       }
@@ -435,8 +421,8 @@
     }
   ],
   "sitemapInputs": {
-    "staticPageCount": 25,
-    "dynamicBlogCount": 1415,
+    "staticPageCount": 30,
+    "dynamicBlogCount": 1326,
     "dynamicBreedCount": 352,
     "clusterSlugs": [
       "puppy",
