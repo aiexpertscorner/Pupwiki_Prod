@@ -71,6 +71,7 @@ const awin = readJson('src/data/awin-programs.json', { programs: [] });
 const products = readJson('src/data/awin-products.json', []);
 const backlog = readJson('src/data/pseo-opportunity-backlog.json', { items: [] });
 const breeds = [...readJson('src/data/master-breeds.json', []), ...readJson('src/data/master-crossbreeds.json', [])];
+const aiSummaries = readJson('src/data/ai-breed-summaries.json', {}); // cached AI summaries (empty = not yet generated)
 const existing = new Set(walk(BLOG_DIR).filter((file) => file.endsWith('.md')).map((file) => path.basename(file, '.md')));
 const programs = (awin.programs || []).filter((program) => program.relationship === 'joined' && program.isActive !== false);
 
@@ -623,6 +624,7 @@ function renderBreedPage(item) {
   const tags = unique([item.family, item.cluster, item.commerceCluster, breed.slug, breed.name, ...item.programmes, ...item.amazonQueries]).map(slugify);
   const sensitive = (item.monetization?.claimSensitivity || 'medium') === 'high';
   const ctx = breedContext(breed);
+  const aiSummary = aiSummaries[breed.slug]?.summary || '';
   const guidance = item.commerceCluster === 'dog-food-nutrition-partners'
     ? breedFoodGuidance(breed)
     : (CLUSTER_GUIDANCE[item.commerceCluster] || '');
@@ -631,7 +633,7 @@ ${sensitive ? '\n> **Health-sensitive note:** This page is for comparison and pl
 ## Why this guide exists for ${breed.name}s
 
 ${ctx}
-
+${aiSummary ? `\n${aiSummary}\n` : ''}
 This page helps ${breed.name} people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a ${breed.name} fits your home, budget and routine.
 
 ## Brands and services to compare

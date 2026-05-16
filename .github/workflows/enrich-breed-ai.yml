@@ -1,0 +1,65 @@
+name: Enrich Breed AI Summaries
+
+# MANUAL ONLY — never triggers automatically.
+# Run this once to generate gpt-4o-mini breed summaries and cache them.
+# Cost: ~$0.05 for all 277 breeds. Skips already-cached breeds by default.
+# After running, trigger "Generate PSEO Content" to regenerate posts with AI layer.
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_regen:
+        description: 'Overwrite existing cache entries (default: skip cached breeds)'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+      breed_limit:
+        description: 'Max breeds to process this run (0 = all uncached)'
+        required: false
+        default: '0'
+        type: string
+
+jobs:
+  enrich:
+    name: Generate AI breed summaries
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Run breed AI enrichment
+        run: node scripts/enrich-breed-ai-summaries.mjs
+        env:
+          OPENAI_API_KEY: ${{ secrets.PUPWIKI_GPT_KEY }}
+          FORCE_REGEN: ${{ inputs.force_regen }}
+          BREED_LIMIT: ${{ inputs.breed_limit }}
+
+      - name: Commit AI summaries cache
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/ai-breed-summaries.json
+          if git diff --cached --quiet; then
+            echo "No changes to ai-breed-summaries.json — nothing to commit."
+          else
+            SUMMARY_COUNT=$(node -e "const d=require('./src/data/ai-breed-summaries.json'); console.log(Object.keys(d).length)")
+            git commit -m "chore(ai): update breed AI summaries (${SUMMARY_COUNT} breeds cached) [skip ci]"
+            git push origin main
+            echo "Committed and pushed ai-breed-summaries.json (${SUMMARY_COUNT} breeds)"
+          fi
