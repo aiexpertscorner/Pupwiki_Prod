@@ -27,7 +27,16 @@ breedSlug: "dogo-argentino"
 breedName: "Dogo Argentino"
 wordCountEstimate: 445
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-dogo-argentino"
+heroImage: "https://images.pexels.com/photos/15900274/pexels-photo-15900274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15900274/pexels-photo-15900274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Dogo Argentino dog enjoying sunlight with its tongue out, depicting relaxation and contentment."
+imageAlt: "Dogo Argentino dog enjoying sunlight with its tongue out, depicting relaxation and contentment."
+imageSource: "pexels"
+imageCredit: "Photo by Laetitia Boumeraou on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dog-head-15900274/"
+imageSearchQuery: "Dogo Argentino dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dogo Argentinos
 Dogo Argentinos are large-sized (88–100 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

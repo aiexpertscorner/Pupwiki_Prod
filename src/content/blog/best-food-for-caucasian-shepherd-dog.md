@@ -27,7 +27,16 @@ breedSlug: "caucasian-shepherd-dog"
 breedName: "Caucasian Shepherd Dog"
 wordCountEstimate: 519
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-caucasian-shepherd-dog"
+heroImage: "https://images.pexels.com/photos/17752810/pexels-photo-17752810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/17752810/pexels-photo-17752810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Caucasian Shepherd Dog rests on grass in Sakarya, Türkiye highlighting its majestic coat."
+imageAlt: "A Caucasian Shepherd Dog rests on grass in Sakarya, Türkiye highlighting its majestic coat."
+imageSource: "pexels"
+imageCredit: "Photo by Osman Sami Akman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-shepherd-dog-17752810/"
+imageSearchQuery: "Caucasian Shepherd Dog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Caucasian Shepherd Dogs
 Caucasian Shepherd Dogs are large-sized (99–170 lbs), with calm energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

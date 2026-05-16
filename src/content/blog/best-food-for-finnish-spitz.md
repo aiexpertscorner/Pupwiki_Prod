@@ -27,7 +27,16 @@ breedSlug: "finnish-spitz"
 breedName: "Finnish Spitz"
 wordCountEstimate: 488
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-finnish-spitz"
+heroImage: "https://images.pexels.com/photos/10782387/pexels-photo-10782387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10782387/pexels-photo-10782387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Profile of a Finnish Lapphund dog in a snowy backyard setting, showing off its thick fur coat."
+imageAlt: "Profile of a Finnish Lapphund dog in a snowy backyard setting, showing off its thick fur coat."
+imageSource: "pexels"
+imageCredit: "Photo by chickenbunny on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-near-wooden-fence-in-close-up-photography-10782387/"
+imageSearchQuery: "Finnish Spitz dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Finnish Spitzs
 Finnish Spitzs are medium-sized (20–33 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

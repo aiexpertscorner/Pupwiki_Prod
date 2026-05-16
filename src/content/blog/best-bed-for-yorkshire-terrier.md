@@ -27,7 +27,16 @@ breedSlug: "yorkshire-terrier"
 breedName: "Yorkshire Terrier"
 wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-yorkshire-terrier"
+heroImage: "https://images.pexels.com/photos/34927548/pexels-photo-34927548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34927548/pexels-photo-34927548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Yorkshire Terrier puppy relaxing comfortably on a blue dog bed outdoors."
+imageAlt: "A cute Yorkshire Terrier puppy relaxing comfortably on a blue dog bed outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-yorkshire-terrier-relaxing-on-dog-bed-34927548/"
+imageSearchQuery: "Yorkshire Terrier dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Yorkshire Terriers
 Yorkshire Terriers are small-sized (7 lbs), with regular energy, minimal shedding, and a silky coat. The recommendations below are matched to these traits.

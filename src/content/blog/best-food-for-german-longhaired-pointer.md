@@ -27,7 +27,16 @@ breedSlug: "german-longhaired-pointer"
 breedName: "German Longhaired Pointer"
 wordCountEstimate: 460
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-german-longhaired-pointer"
+heroImage: "https://images.pexels.com/photos/11269657/pexels-photo-11269657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11269657/pexels-photo-11269657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A German Shorthaired Pointer dog rests on a sandy surface outdoors, showing its distinctive coat and relaxed posture."
+imageAlt: "A German Shorthaired Pointer dog rests on a sandy surface outdoors, showing its distinctive coat and relaxed posture."
+imageSource: "pexels"
+imageCredit: "Photo by gabesdotphotos photographer on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-dog-lying-on-brown-sand-11269657/"
+imageSearchQuery: "German Longhaired Pointer dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Longhaired Pointers
 German Longhaired Pointers are large-sized (55–80 lbs), with active energy, low shedding, and a long coat. The recommendations below are matched to these traits.

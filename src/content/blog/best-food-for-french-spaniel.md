@@ -27,7 +27,16 @@ breedSlug: "french-spaniel"
 breedName: "French Spaniel"
 wordCountEstimate: 435
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-french-spaniel"
+heroImage: "https://images.pexels.com/photos/34975281/pexels-photo-34975281.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34975281/pexels-photo-34975281.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cocker Spaniel dog rests on rocky terrain in Ogliastro with mountain backdrop. Beautiful day outdoors."
+imageAlt: "Cocker Spaniel dog rests on rocky terrain in Ogliastro with mountain backdrop. Beautiful day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by SlimMars 13 on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cocker-spaniel-relaxing-in-ogliastro-scenery-34975281/"
+imageSearchQuery: "French Spaniel dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for French Spaniels
 French Spaniels are medium-sized (50–60 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

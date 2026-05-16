@@ -27,7 +27,16 @@ breedSlug: "briard"
 breedName: "Briard"
 wordCountEstimate: 468
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-briard"
+heroImage: "https://images.pexels.com/photos/30162045/pexels-photo-30162045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30162045/pexels-photo-30162045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Briard dog playful in snowy Sittard, Limburg, Netherlands, biting a stick."
+imageAlt: "A Briard dog playful in snowy Sittard, Limburg, Netherlands, biting a stick."
+imageSource: "pexels"
+imageCredit: "Photo by Lorna Pauli on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-briard-dog-chewing-stick-in-snow-30162045/"
+imageSearchQuery: "Briard dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Briards
 Briards are large-sized (55–100 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

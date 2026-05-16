@@ -27,7 +27,16 @@ breedSlug: "irish-wolfhound"
 breedName: "Irish Wolfhound"
 wordCountEstimate: 492
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-irish-wolfhound"
+heroImage: "https://images.pexels.com/photos/37163902/pexels-photo-37163902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37163902/pexels-photo-37163902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A large black dog with a harness stands on grass by a lake surrounded by hills."
+imageAlt: "A large black dog with a harness stands on grass by a lake surrounded by hills."
+imageSource: "pexels"
+imageCredit: "Photo by Josef Holub on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/large-black-dog-wearing-harness-by-a-lake-37163902/"
+imageSearchQuery: "Irish Wolfhound dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Irish Wolfhounds
 Irish Wolfhounds are large-sized (105–120 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.

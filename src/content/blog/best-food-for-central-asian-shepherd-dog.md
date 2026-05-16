@@ -27,7 +27,16 @@ breedSlug: "central-asian-shepherd-dog"
 breedName: "Central Asian Shepherd Dog"
 wordCountEstimate: 527
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-central-asian-shepherd-dog"
+heroImage: "https://images.pexels.com/photos/33107951/pexels-photo-33107951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33107951/pexels-photo-33107951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a Central Asian Shepherd dog with its tongue out, captured outdoors in Tbilisi, Georgia."
+imageAlt: "Portrait of a Central Asian Shepherd dog with its tongue out, captured outdoors in Tbilisi, Georgia."
+imageSource: "pexels"
+imageCredit: "Photo by Genadi Yakovlev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-central-asian-shepherd-dog-outdoors-33107951/"
+imageSearchQuery: "Central Asian Shepherd Dog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Central Asian Shepherd Dogs
 Central Asian Shepherd Dogs are large-sized (88–110 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

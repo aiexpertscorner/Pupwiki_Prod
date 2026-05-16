@@ -27,7 +27,16 @@ breedSlug: "bergamasco-sheepdog"
 breedName: "Bergamasco Sheepdog"
 wordCountEstimate: 453
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-bergamasco-sheepdog"
+heroImage: "https://images.pexels.com/photos/12910849/pexels-photo-12910849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12910849/pexels-photo-12910849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Polish Lowland Sheepdog eagerly awaiting a treat in a vibrant green field."
+imageAlt: "Close-up of a Polish Lowland Sheepdog eagerly awaiting a treat in a vibrant green field."
+imageSource: "pexels"
+imageCredit: "Photo by Denis Liendo ✅ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-12910849/"
+imageSearchQuery: "Bergamasco Sheepdog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bergamasco Sheepdogs
 Bergamasco Sheepdogs are large-sized (57–84 lbs), with calm energy, minimal shedding, and a corded coat. The recommendations below are matched to these traits.

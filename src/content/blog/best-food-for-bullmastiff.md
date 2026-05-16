@@ -27,7 +27,16 @@ breedSlug: "bullmastiff"
 breedName: "Bullmastiff"
 wordCountEstimate: 488
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-bullmastiff"
+heroImage: "https://images.pexels.com/photos/16222914/pexels-photo-16222914.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16222914/pexels-photo-16222914.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A bullmastiff dog lying on a wooden porch, gazing upward in a peaceful outdoor setting."
+imageAlt: "A bullmastiff dog lying on a wooden porch, gazing upward in a peaceful outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Lifestyle Farmer on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-lying-on-the-porch-16222914/"
+imageSearchQuery: "Bullmastiff dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bullmastiffs
 Bullmastiffs are large-sized (100–130 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

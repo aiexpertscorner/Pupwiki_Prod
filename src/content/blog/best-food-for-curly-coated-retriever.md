@@ -27,7 +27,16 @@ breedSlug: "curly-coated-retriever"
 breedName: "Curly-Coated Retriever"
 wordCountEstimate: 444
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-curly-coated-retriever"
+heroImage: "https://images.pexels.com/photos/32104152/pexels-photo-32104152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32104152/pexels-photo-32104152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Curly-coated dog standing near a bird bath in a lush garden in Athens, Alabama."
+imageAlt: "Curly-coated dog standing near a bird bath in a lush garden in Athens, Alabama."
+imageSource: "pexels"
+imageCredit: "Photo by A. G. Rosales on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/curly-coated-adult-dog-beside-bird-bath-32104152/"
+imageSearchQuery: "Curly-Coated Retriever dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Curly-Coated Retrievers
 Curly-Coated Retrievers are large-sized (60–95 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.

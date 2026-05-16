@@ -27,7 +27,16 @@ breedSlug: "carolina-dog"
 breedName: "Carolina Dog"
 wordCountEstimate: 480
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-carolina-dog"
+heroImage: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageSource: "pexels"
+imageCredit: "Photo by cottonbro studio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/"
+imageSearchQuery: "Carolina Dog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Carolina Dogs
 Carolina Dogs are medium-sized (30–55 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

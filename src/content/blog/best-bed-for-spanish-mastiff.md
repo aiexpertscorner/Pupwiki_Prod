@@ -27,7 +27,16 @@ breedSlug: "spanish-mastiff"
 breedName: "Spanish Mastiff"
 wordCountEstimate: 380
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-spanish-mastiff"
+heroImage: "https://images.pexels.com/photos/18174961/pexels-photo-18174961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18174961/pexels-photo-18174961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A relaxed dog sleeping by a rustic door in Leh, India, showcasing tranquility and warmth."
+imageAlt: "A relaxed dog sleeping by a rustic door in Leh, India, showcasing tranquility and warmth."
+imageSource: "pexels"
+imageCredit: "Photo by Anay Chitre on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/ginger-dog-sleeping-by-house-entrance-18174961/"
+imageSearchQuery: "Spanish Mastiff dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Spanish Mastiffs
 Spanish Mastiffs are large-sized (140–200 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

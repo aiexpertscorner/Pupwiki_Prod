@@ -27,7 +27,16 @@ breedSlug: "german-spitz"
 breedName: "German Spitz"
 wordCountEstimate: 480
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-german-spitz"
+heroImage: "https://images.pexels.com/photos/36953700/pexels-photo-36953700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36953700/pexels-photo-36953700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute fluffy dog panting happily outdoors, displaying playful charm."
+imageAlt: "A cute fluffy dog panting happily outdoors, displaying playful charm."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-fluffy-dog-in-outdoor-setting-36953700/"
+imageSearchQuery: "German Spitz dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Spitzs
 German Spitzs are medium-sized (24–26 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

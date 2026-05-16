@@ -1,34 +1,879 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-16T21:28:56.941Z",
-  "programs": [],
+  "syncedAt": "2026-05-16T22:02:52.376Z",
+  "programs": [
+    {
+      "key": "brutus-broth",
+      "advertiserId": "55927",
+      "name": "Brutus Broth",
+      "relationship": "joined",
+      "status": "Active",
+      "isActive": true,
+      "displayUrl": "https://www.brutusbroth.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=55927&id=2861861",
+      "deeplinkEnabled": false,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/55927.png",
+      "primarySector": "Home & Garden",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "www.brutusbroth.com"
+        }
+      ],
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "online",
+      "staticProgramId": "brutus-broth",
+      "feedId": "105633",
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=55927&id=2861861",
+      "topicTags": [
+        "food",
+        "nutrition",
+        "supplements",
+        "hydration",
+        "joint-health",
+        "digestion",
+        "senior",
+        "recovery"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "priority": 70,
+      "hasProductFeed": true,
+      "feedIds": [
+        "105633"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "crownandpaw",
+      "advertiserId": "57823",
+      "name": "Crown and Paw",
+      "relationship": "joined",
+      "status": "Active",
+      "isActive": true,
+      "displayUrl": "https://www.crownandpaw.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=57823&id=2861861",
+      "deeplinkEnabled": false,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/57823.png",
+      "primarySector": "Gifts & Flowers",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "www.crownandpaw.com"
+        }
+      ],
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "online",
+      "staticProgramId": "crownandpaw",
+      "feedId": "103192",
+      "configuredDeeplink": "https://tidd.ly/496jo7K",
+      "deeplink": "https://tidd.ly/496jo7K",
+      "topicTags": [
+        "gift",
+        "lifestyle",
+        "portrait",
+        "memorial",
+        "dog-names",
+        "apparel",
+        "accessories"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "homepage"
+      ],
+      "priority": 75,
+      "hasProductFeed": true,
+      "feedIds": [
+        "103192"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "chefpaw",
+      "advertiserId": "63546",
+      "name": "Chef Paw (US)",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.chefpaw.com/",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=63546&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/63546.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "chefpaw.com"
+        },
+        {
+          "domain": "*.chefpaw.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 8,
+          "max": 10,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "25",
+        "approvalPercentage": 75.27,
+        "epc": 1.91,
+        "conversionRate": 7.7,
+        "validationDays": 1,
+        "awinIndex": 81.1
+      },
+      "linkStatus": "online",
+      "staticProgramId": "chefpaw",
+      "feedId": "93508",
+      "configuredDeeplink": "https://tidd.ly/41TPa44",
+      "deeplink": "https://tidd.ly/41TPa44",
+      "topicTags": [
+        "food",
+        "nutrition",
+        "feeding",
+        "fresh-food",
+        "raw-food",
+        "sensitive-stomach",
+        "allergies",
+        "care",
+        "appliances"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category",
+        "homepage"
+      ],
+      "priority": 85,
+      "hasProductFeed": true,
+      "feedIds": [
+        "88241",
+        "93508"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "jugbow",
+      "advertiserId": "79708",
+      "name": "JUGBOW",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://JUGBOW.COM",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=79708&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/79708.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "JUGBOW.COM"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 8,
+          "max": 8,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "48",
+        "approvalPercentage": 97.73,
+        "epc": 0.24,
+        "conversionRate": 5.57,
+        "validationDays": 21,
+        "awinIndex": 75.57
+      },
+      "linkStatus": "online",
+      "staticProgramId": "jugbow",
+      "feedId": "108549",
+      "configuredDeeplink": "https://tidd.ly/3QryFd6",
+      "deeplink": "https://tidd.ly/3QryFd6",
+      "topicTags": [
+        "training",
+        "behavior",
+        "obedience",
+        "recall",
+        "leash",
+        "harness",
+        "working",
+        "active",
+        "gear"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "priority": 90,
+      "hasProductFeed": true,
+      "feedIds": [
+        "108549"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "dog-cloud-us",
+      "advertiserId": "87483",
+      "name": "Dog Cloud (US)",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://dogcloudbeds.com/",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87483.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "dogcloudbeds.com"
+        },
+        {
+          "domain": "*.dogcloudbeds.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 10,
+          "max": 10,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "54",
+        "approvalPercentage": 100,
+        "epc": 4.83,
+        "conversionRate": 5.61,
+        "validationDays": 30,
+        "awinIndex": 71.1
+      },
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
+      "topicTags": [
+        "partner"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "radiofence-com",
+      "advertiserId": "87999",
+      "name": "RadioFence.com",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.radiofence.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87999&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87999.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "www.radiofence.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 4,
+          "max": 4,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "38",
+        "approvalPercentage": 65.38,
+        "epc": 0.48,
+        "conversionRate": 10.35,
+        "validationDays": 10,
+        "awinIndex": 72.8
+      },
+      "linkStatus": "online",
+      "staticProgramId": "radiofence-com",
+      "feedId": "105980",
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=87999&id=2861861",
+      "topicTags": [
+        "training",
+        "gear",
+        "containment",
+        "fence",
+        "gps",
+        "tracking",
+        "outdoor",
+        "active",
+        "safety"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "priority": 60,
+      "hasProductFeed": true,
+      "feedIds": [
+        "105980"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "rawwild",
+      "advertiserId": "89689",
+      "name": "Raw Wild LLC",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://raw-wild-2.myshopify.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89689&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89689.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "www.rawwild.com"
+        },
+        {
+          "domain": "raw-wild-2.myshopify.com"
+        },
+        {
+          "domain": "*.raw-wild-2.myshopify.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 0,
+          "max": 8,
+          "type": "percentage"
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "type": "amount"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "26",
+        "approvalPercentage": 97.62,
+        "epc": 1.78,
+        "conversionRate": 10.89,
+        "validationDays": 3,
+        "awinIndex": 92.11
+      },
+      "linkStatus": "online",
+      "staticProgramId": "rawwild",
+      "feedId": null,
+      "configuredDeeplink": "https://tidd.ly/4e36ta9",
+      "deeplink": "https://tidd.ly/4e36ta9",
+      "topicTags": [
+        "food",
+        "nutrition",
+        "raw-food",
+        "freeze-dried",
+        "sensitive-stomach",
+        "allergies",
+        "feeding",
+        "single-protein"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "priority": 80,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "petmate",
+      "advertiserId": "89913",
+      "name": "Petmate",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.petmate.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "www.petmate.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 10,
+          "max": 15,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "34",
+        "approvalPercentage": 64.68,
+        "epc": 0.24,
+        "conversionRate": 4.07,
+        "validationDays": 6,
+        "awinIndex": 69.21
+      },
+      "linkStatus": "online",
+      "staticProgramId": "petmate",
+      "feedId": "107829",
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
+      "topicTags": [
+        "beds",
+        "gear",
+        "crates",
+        "carriers",
+        "toys",
+        "bowls",
+        "accessories",
+        "home"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category",
+        "homepage"
+      ],
+      "priority": 55,
+      "hasProductFeed": true,
+      "feedIds": [
+        "107829"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "mypetdmv-the-original-pet-drivers-license",
+      "advertiserId": "118951",
+      "name": "MyPetDMV - The original Pet Drivers License",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.mypetdmv.com/",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=118951&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/118951.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "mypetdmv.com"
+        },
+        {
+          "domain": "*.mypetdmv.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 20,
+          "max": 20,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "57",
+        "approvalPercentage": 100,
+        "epc": 1.35,
+        "conversionRate": 20.83,
+        "validationDays": 37,
+        "awinIndex": 70.47
+      },
+      "linkStatus": "online",
+      "staticProgramId": "mypetdmv-the-original-pet-drivers-license",
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=118951&id=2861861",
+      "topicTags": [
+        "gift",
+        "lifestyle",
+        "novelty",
+        "accessories",
+        "dog-names",
+        "fun"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "homepage"
+      ],
+      "priority": 50,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    }
+  ],
   "pendingPrograms": [],
-  "summary": [],
+  "summary": [
+    {
+      "key": "brutus-broth",
+      "advertiserId": "55927",
+      "name": "Brutus Broth",
+      "relationship": "joined",
+      "status": "Active",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "105633"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": false,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/55927.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=55927&id=2861861",
+      "topicTags": [
+        "food",
+        "nutrition",
+        "supplements",
+        "hydration",
+        "joint-health",
+        "digestion",
+        "senior",
+        "recovery"
+      ]
+    },
+    {
+      "key": "crownandpaw",
+      "advertiserId": "57823",
+      "name": "Crown and Paw",
+      "relationship": "joined",
+      "status": "Active",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "103192"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": false,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/57823.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=57823&id=2861861",
+      "topicTags": [
+        "gift",
+        "lifestyle",
+        "portrait",
+        "memorial",
+        "dog-names",
+        "apparel",
+        "accessories"
+      ]
+    },
+    {
+      "key": "chefpaw",
+      "advertiserId": "63546",
+      "name": "Chef Paw (US)",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "88241",
+        "93508"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/63546.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=63546&id=2861861",
+      "topicTags": [
+        "food",
+        "nutrition",
+        "feeding",
+        "fresh-food",
+        "raw-food",
+        "sensitive-stomach",
+        "allergies",
+        "care",
+        "appliances"
+      ]
+    },
+    {
+      "key": "jugbow",
+      "advertiserId": "79708",
+      "name": "JUGBOW",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "108549"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/79708.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=79708&id=2861861",
+      "topicTags": [
+        "training",
+        "behavior",
+        "obedience",
+        "recall",
+        "leash",
+        "harness",
+        "working",
+        "active",
+        "gear"
+      ]
+    },
+    {
+      "key": "dog-cloud-us",
+      "advertiserId": "87483",
+      "name": "Dog Cloud (US)",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87483.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
+      "topicTags": [
+        "partner"
+      ]
+    },
+    {
+      "key": "radiofence-com",
+      "advertiserId": "87999",
+      "name": "RadioFence.com",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "105980"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87999.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87999&id=2861861",
+      "topicTags": [
+        "training",
+        "gear",
+        "containment",
+        "fence",
+        "gps",
+        "tracking",
+        "outdoor",
+        "active",
+        "safety"
+      ]
+    },
+    {
+      "key": "rawwild",
+      "advertiserId": "89689",
+      "name": "Raw Wild LLC",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89689.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89689&id=2861861",
+      "topicTags": [
+        "food",
+        "nutrition",
+        "raw-food",
+        "freeze-dried",
+        "sensitive-stomach",
+        "allergies",
+        "feeding",
+        "single-protein"
+      ]
+    },
+    {
+      "key": "petmate",
+      "advertiserId": "89913",
+      "name": "Petmate",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "107829"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
+      "topicTags": [
+        "beds",
+        "gear",
+        "crates",
+        "carriers",
+        "toys",
+        "bowls",
+        "accessories",
+        "home"
+      ]
+    },
+    {
+      "key": "mypetdmv-the-original-pet-drivers-license",
+      "advertiserId": "118951",
+      "name": "MyPetDMV - The original Pet Drivers License",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/118951.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=118951&id=2861861",
+      "topicTags": [
+        "gift",
+        "lifestyle",
+        "novelty",
+        "accessories",
+        "dog-names",
+        "fun"
+      ]
+    }
+  ],
   "stats": {
-    "joined": 0,
+    "joined": 9,
     "pending": 0,
     "feeds": 598,
     "apiProducts": 0,
-    "programOfferProducts": 0,
-    "totalProducts": 15,
+    "programOfferProducts": 9,
+    "totalProducts": 9,
     "apiBanners": 0,
-    "logoBanners": 0,
-    "totalBanners": 6,
+    "logoBanners": 9,
+    "totalBanners": 15,
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
     "feedProductFetchFailures": 0,
     "experimentalCreativesEnabled": false,
     "warnings": [
-      "programmes/joined -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmes/joined -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmes/joined -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmes/joined -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmes/pending -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmes/pending -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmes/pending -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmes/pending -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms"
+      "programmes/pending -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/55927 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/55927 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/55927 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/55927 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/57823 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/57823 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/57823 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/57823 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms"
     ],
     "errors": []
   }

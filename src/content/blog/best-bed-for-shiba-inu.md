@@ -27,7 +27,16 @@ breedSlug: "shiba-inu"
 breedName: "Shiba Inu"
 wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-shiba-inu"
+heroImage: "https://images.pexels.com/photos/19176926/pexels-photo-19176926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19176926/pexels-photo-19176926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Shiba Inu dog peacefully sleeping curled up on a fluffy pet bed with warm sunlight."
+imageAlt: "A Shiba Inu dog peacefully sleeping curled up on a fluffy pet bed with warm sunlight."
+imageSource: "pexels"
+imageCredit: "Photo by Stephen on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/red-dog-sleeping-curled-up-in-a-fuzzy-pet-bed-19176926/"
+imageSearchQuery: "Shiba Inu dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Shiba Inus
 Shiba Inus are small-sized (17–23 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

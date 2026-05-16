@@ -27,7 +27,16 @@ breedSlug: "flat-coated-retriever"
 breedName: "Flat-Coated Retriever"
 wordCountEstimate: 492
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-flat-coated-retriever"
+heroImage: "https://images.pexels.com/photos/12486139/pexels-photo-12486139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12486139/pexels-photo-12486139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black dog enjoying a walk in a scenic snowy mountain landscape during early spring."
+imageAlt: "Black dog enjoying a walk in a scenic snowy mountain landscape during early spring."
+imageSource: "pexels"
+imageCredit: "Photo by Alina Bystrova on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-black-dog-in-the-field-12486139/"
+imageSearchQuery: "Flat-Coated Retriever dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Flat-Coated Retrievers
 Flat-Coated Retrievers are large-sized (60–70 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

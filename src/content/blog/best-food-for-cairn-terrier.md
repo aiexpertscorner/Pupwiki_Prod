@@ -27,7 +27,16 @@ breedSlug: "cairn-terrier"
 breedName: "Cairn Terrier"
 wordCountEstimate: 460
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-cairn-terrier"
+heroImage: "https://images.pexels.com/photos/5427923/pexels-photo-5427923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5427923/pexels-photo-5427923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Crop anonymous pregnant woman in casual dress feeding Yorkshire terrier dogs while standing together with husband in contemporary kitchen in daylight"
+imageAlt: "Crop anonymous pregnant woman in casual dress feeding Yorkshire terrier dogs while standing together with husband in contemporary kitchen in daylight"
+imageSource: "pexels"
+imageCredit: "Photo by Amina Filkins on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-feeding-dogs-5427923/"
+imageSearchQuery: "Cairn Terrier dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cairn Terriers
 Cairn Terriers are small-sized (13–14 lbs), with regular energy, low shedding, and a rough coat. The recommendations below are matched to these traits.

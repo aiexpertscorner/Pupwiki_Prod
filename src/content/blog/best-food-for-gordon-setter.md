@@ -27,7 +27,16 @@ breedSlug: "gordon-setter"
 breedName: "Gordon Setter"
 wordCountEstimate: 443
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-gordon-setter"
+heroImage: "https://images.pexels.com/photos/35964766/pexels-photo-35964766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35964766/pexels-photo-35964766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and tan dog with a harness sits on a snowy terrain, enjoying a sunny winter day."
+imageAlt: "A black and tan dog with a harness sits on a snowy terrain, enjoying a sunny winter day."
+imageSource: "pexels"
+imageCredit: "Photo by Jesús Esteban San José on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-tan-dog-sitting-in-snow-outdoors-35964766/"
+imageSearchQuery: "Gordon Setter dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Gordon Setters
 Gordon Setters are large-sized (45–80 lbs), with active energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

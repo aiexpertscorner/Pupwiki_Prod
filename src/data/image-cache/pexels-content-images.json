@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-16T21:28:25.822Z",
+  "syncedAt": "2026-05-16T22:01:46.676Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -14352,12 +14352,52 @@
       "photographerUrl": "https://www.pexels.com/@anton-kudryashov-118639843",
       "pexelsUrl": "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/",
       "id": 9956387
+    },
+    "best-food-for-australian-stumpy-tail-cattle-dog:Australian Stumpy Tail Cattle Dog dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/35511909/pexels-photo-35511909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Happy Australian Cattle Dog sitting on grass, looking playfully at the camera. Perfect for pet lovers.",
+      "photographer": "Helena Lopes",
+      "photographerUrl": "https://www.pexels.com/@helenalopes",
+      "pexelsUrl": "https://www.pexels.com/photo/australian-cattle-dog-smiling-in-grass-35511909/",
+      "id": 35511909
+    },
+    "best-food-for-australian-terrier:Australian Terrier dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living.",
+      "photographer": "MART  PRODUCTION",
+      "photographerUrl": "https://www.pexels.com/@mart-production",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-eating-on-a-bowl-8434725/",
+      "id": 8434725
+    },
+    "best-food-for-azawakh:Azawakh dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries.",
+      "photographer": "Rarnie McCudden",
+      "photographerUrl": "https://www.pexels.com/@rarnie-mccudden",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+      "id": 770363
+    },
+    "best-food-for-barbet:Barbet dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog eating kibble from a white bowl indoors.",
+      "photographer": "cottonbro studio",
+      "photographerUrl": "https://www.pexels.com/@cottonbro",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+      "id": 6568950
+    },
+    "best-food-for-basenji:Basenji dog eating healthy food": {
+      "url": "https://images.pexels.com/photos/8258701/pexels-photo-8258701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Basenji dog in an orange harness stands alertly on grass, showcasing its elegant posture in an outdoor setting.",
+      "photographer": "Toma Ha",
+      "photographerUrl": "https://www.pexels.com/@hathang73",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-wearing-a-harness-8258701/",
+      "id": 8258701
     }
   },
   "stats": {
     "scanned": 200,
     "changed": 200,
-    "skipped": 3,
+    "skipped": 269,
     "failed": 0,
     "force": false,
     "dry": false

@@ -27,7 +27,16 @@ breedSlug: "japanese-spitz"
 breedName: "Japanese Spitz"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-japanese-spitz"
+heroImage: "https://images.pexels.com/photos/34404744/pexels-photo-34404744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34404744/pexels-photo-34404744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable close-up of a fluffy white dog with pointed ears in a natural setting."
+imageAlt: "Adorable close-up of a fluffy white dog with pointed ears in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-fluffy-white-dog-outdoors-34404744/"
+imageSearchQuery: "Japanese Spitz dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Japanese Spitzs
 Japanese Spitzs are small-sized (10–25 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.

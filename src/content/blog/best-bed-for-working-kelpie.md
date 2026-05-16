@@ -27,7 +27,16 @@ breedSlug: "working-kelpie"
 breedName: "Working Kelpie"
 wordCountEstimate: 382
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-working-kelpie"
+heroImage: "https://images.pexels.com/photos/36198590/pexels-photo-36198590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36198590/pexels-photo-36198590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a black and white dog sleeping peacefully on a bed in a cozy setting."
+imageAlt: "Close-up of a black and white dog sleeping peacefully on a bed in a cozy setting."
+imageSource: "pexels"
+imageCredit: "Photo by Magda Ehlers on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/sleeping-dog-on-bed-with-relaxing-atmosphere-36198590/"
+imageSearchQuery: "Working Kelpie dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Working Kelpies
 Working Kelpies are medium-sized (28–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

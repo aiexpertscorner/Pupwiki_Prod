@@ -27,7 +27,16 @@ breedSlug: "danish-swedish-farmdog"
 breedName: "Danish-Swedish Farmdog"
 wordCountEstimate: 444
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-danish-swedish-farmdog"
+heroImage: "https://images.pexels.com/photos/25905568/pexels-photo-25905568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/25905568/pexels-photo-25905568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog lying on the ground eating outdoors, showcasing its natural behavior."
+imageAlt: "Cute dog lying on the ground eating outdoors, showcasing its natural behavior."
+imageSource: "pexels"
+imageCredit: "Photo by Михаил Крамор on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/puppy-smelling-food-25905568/"
+imageSearchQuery: "Danish-Swedish Farmdog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Danish-Swedish Farmdogs
 Danish-Swedish Farmdogs are small-sized (15–20 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

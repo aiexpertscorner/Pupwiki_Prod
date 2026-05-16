@@ -27,7 +27,16 @@ breedSlug: "coton-de-tulear"
 breedName: "Coton de Tulear"
 wordCountEstimate: 444
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-coton-de-tulear"
+heroImage: "https://images.pexels.com/photos/9428284/pexels-photo-9428284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9428284/pexels-photo-9428284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy white dog sitting indoors next to food bowls on a patterned carpet."
+imageAlt: "A fluffy white dog sitting indoors next to food bowls on a patterned carpet."
+imageSource: "pexels"
+imageCredit: "Photo by Katya Wolf on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-long-coat-small-dog-sitting-on-chair-9428284/"
+imageSearchQuery: "Coton de Tulear dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Coton de Tulears
 Coton de Tulears are small-sized (8–15 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.

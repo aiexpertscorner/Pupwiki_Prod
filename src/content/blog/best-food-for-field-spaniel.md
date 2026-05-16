@@ -27,7 +27,16 @@ breedSlug: "field-spaniel"
 breedName: "Field Spaniel"
 wordCountEstimate: 483
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-field-spaniel"
+heroImage: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-on-grass-24453850/"
+imageSearchQuery: "Field Spaniel dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Field Spaniels
 Field Spaniels are medium-sized (35–50 lbs), with regular energy, heavy shedding, and a silky coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "american-eskimo-dog"
 breedName: "American Eskimo Dog"
 wordCountEstimate: 497
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-american-eskimo-dog"
+heroImage: "https://images.pexels.com/photos/14744550/pexels-photo-14744550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14744550/pexels-photo-14744550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy American Eskimo dog sitting on lush green grass on a sunny day in Southborough, MA."
+imageAlt: "A fluffy American Eskimo dog sitting on lush green grass on a sunny day in Southborough, MA."
+imageSource: "pexels"
+imageCredit: "Photo by Mohan Nannapaneni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/an-american-eskimo-dog-on-the-grass-14744550/"
+imageSearchQuery: "American Eskimo Dog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Eskimo Dogs
 American Eskimo Dogs are medium-sized (6–35 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

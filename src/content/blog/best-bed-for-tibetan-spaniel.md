@@ -27,7 +27,16 @@ breedSlug: "tibetan-spaniel"
 breedName: "Tibetan Spaniel"
 wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-tibetan-spaniel"
+heroImage: "https://images.pexels.com/photos/20628584/pexels-photo-20628584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20628584/pexels-photo-20628584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming Tibetan Spaniel dog with fluffy fur, sticking out its tongue in a playful pose outdoors."
+imageAlt: "Charming Tibetan Spaniel dog with fluffy fur, sticking out its tongue in a playful pose outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Gundula Vogel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/fluffy-tibetan-spaniel-20628584/"
+imageSearchQuery: "Tibetan Spaniel dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Tibetan Spaniels
 Tibetan Spaniels are small-sized (9–15 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

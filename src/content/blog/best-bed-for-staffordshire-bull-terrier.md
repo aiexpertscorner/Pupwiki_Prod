@@ -27,7 +27,16 @@ breedSlug: "staffordshire-bull-terrier"
 breedName: "Staffordshire Bull Terrier"
 wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-staffordshire-bull-terrier"
+heroImage: "https://images.pexels.com/photos/3880818/pexels-photo-3880818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3880818/pexels-photo-3880818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A brown and white dog sitting comfortably on a bed in an indoor setting."
+imageAlt: "A brown and white dog sitting comfortably on a bed in an indoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Viktoria B. on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-sitting-on-the-bed-3880818/"
+imageSearchQuery: "Staffordshire Bull Terrier dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Staffordshire Bull Terriers
 Staffordshire Bull Terriers are medium-sized (24–38 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

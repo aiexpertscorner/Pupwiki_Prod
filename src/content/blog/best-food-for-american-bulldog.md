@@ -27,7 +27,16 @@ breedSlug: "american-bulldog"
 breedName: "American Bulldog"
 wordCountEstimate: 438
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-american-bulldog"
+heroImage: "https://images.pexels.com/photos/10800099/pexels-photo-10800099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10800099/pexels-photo-10800099.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Detailed close-up of an American Bulldog in black and white, showcasing its expressive features."
+imageAlt: "Detailed close-up of an American Bulldog in black and white, showcasing its expressive features."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/grayscale-photo-of-short-coated-dog-10800099/"
+imageSearchQuery: "American Bulldog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Bulldogs
 American Bulldogs are large-sized (60–100 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

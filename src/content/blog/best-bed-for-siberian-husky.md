@@ -27,7 +27,16 @@ breedSlug: "siberian-husky"
 breedName: "Siberian Husky"
 wordCountEstimate: 382
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-siberian-husky"
+heroImage: "https://images.pexels.com/photos/15104207/pexels-photo-15104207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15104207/pexels-photo-15104207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Siberian Husky dog peacefully sleeping on an outdoor pavement."
+imageAlt: "A Siberian Husky dog peacefully sleeping on an outdoor pavement."
+imageSource: "pexels"
+imageCredit: "Photo by Valeriia Miller on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-siberian-husky-sleeping-on-the-floor-15104207/"
+imageSearchQuery: "Siberian Husky dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Siberian Huskys
 Siberian Huskys are medium-sized (35–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

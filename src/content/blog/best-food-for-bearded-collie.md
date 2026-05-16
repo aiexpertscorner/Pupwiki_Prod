@@ -27,7 +27,16 @@ breedSlug: "bearded-collie"
 breedName: "Bearded Collie"
 wordCountEstimate: 430
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-bearded-collie"
+heroImage: "https://images.pexels.com/photos/32952729/pexels-photo-32952729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32952729/pexels-photo-32952729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A joyful border collie dog with heterochromia standing in a field of wildflowers during the day."
+imageAlt: "A joyful border collie dog with heterochromia standing in a field of wildflowers during the day."
+imageSource: "pexels"
+imageCredit: "Photo by Michal Petráš on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/happy-border-collie-enjoying-a-sunny-day-outdoors-32952729/"
+imageSearchQuery: "Bearded Collie dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bearded Collies
 Bearded Collies are medium-sized (45–55 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

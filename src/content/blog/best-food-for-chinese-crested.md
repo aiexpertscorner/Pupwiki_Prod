@@ -27,7 +27,16 @@ breedSlug: "chinese-crested"
 breedName: "Chinese Crested"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-chinese-crested"
+heroImage: "https://images.pexels.com/photos/33063627/pexels-photo-33063627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33063627/pexels-photo-33063627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A lively Chinese Crested dog joyfully catching a tennis ball in a sunny outdoor garden setting."
+imageAlt: "A lively Chinese Crested dog joyfully catching a tennis ball in a sunny outdoor garden setting."
+imageSource: "pexels"
+imageCredit: "Photo by Veronika Andrews on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-chinese-crested-dog-catching-ball-outdoors-33063627/"
+imageSearchQuery: "Chinese Crested dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chinese Cresteds
 Chinese Cresteds are small-sized (8–12 lbs), with regular energy, minimal shedding, and a hairless coat. The recommendations below are matched to these traits.

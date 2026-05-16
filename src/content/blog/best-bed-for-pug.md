@@ -27,7 +27,16 @@ breedSlug: "pug"
 breedName: "Pug"
 wordCountEstimate: 370
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-pug"
+heroImage: "https://images.pexels.com/photos/4921933/pexels-photo-4921933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4921933/pexels-photo-4921933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute pug dog peacefully sleeping on a light-colored couch indoors."
+imageAlt: "A cute pug dog peacefully sleeping on a light-colored couch indoors."
+imageSource: "pexels"
+imageCredit: "Photo by phloge on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-pug-on-a-couch-4921933/"
+imageSearchQuery: "Pug dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pugs
 Pugs are small-sized (14–18 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

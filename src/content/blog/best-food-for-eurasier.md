@@ -27,7 +27,16 @@ breedSlug: "eurasier"
 breedName: "Eurasier"
 wordCountEstimate: 474
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-eurasier"
+heroImage: "https://images.pexels.com/photos/29134547/pexels-photo-29134547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29134547/pexels-photo-29134547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy Eurasier dog sitting contentedly on grass in a sunny outdoor setting."
+imageAlt: "A fluffy Eurasier dog sitting contentedly on grass in a sunny outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/fluffy-eurasier-enjoying-a-sunny-day-outdoors-29134547/"
+imageSearchQuery: "Eurasier dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Eurasiers
 Eurasiers are large-sized (40–70 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

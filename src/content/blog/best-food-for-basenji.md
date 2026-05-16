@@ -27,7 +27,16 @@ breedSlug: "basenji"
 breedName: "Basenji"
 wordCountEstimate: 469
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-basenji"
+heroImage: "https://images.pexels.com/photos/8258701/pexels-photo-8258701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8258701/pexels-photo-8258701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Basenji dog in an orange harness stands alertly on grass, showcasing its elegant posture in an outdoor setting."
+imageAlt: "Basenji dog in an orange harness stands alertly on grass, showcasing its elegant posture in an outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Toma Ha on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-wearing-a-harness-8258701/"
+imageSearchQuery: "Basenji dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Basenjis
 Basenjis are small-sized (22–24 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

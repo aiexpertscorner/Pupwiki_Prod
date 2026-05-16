@@ -27,7 +27,16 @@ breedSlug: "rhodesian-ridgeback"
 breedName: "Rhodesian Ridgeback"
 wordCountEstimate: 380
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-rhodesian-ridgeback"
+heroImage: "https://images.pexels.com/photos/35706794/pexels-photo-35706794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35706794/pexels-photo-35706794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Rhodesian Ridgeback dog rests comfortably indoors, capturing a serene moment."
+imageAlt: "A Rhodesian Ridgeback dog rests comfortably indoors, capturing a serene moment."
+imageSource: "pexels"
+imageCredit: "Photo by Charlene Du Toit on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/rhodesian-ridgeback-relaxing-indoors-35706794/"
+imageSearchQuery: "Rhodesian Ridgeback dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Rhodesian Ridgebacks
 Rhodesian Ridgebacks are large-sized (70–85 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

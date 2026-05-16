@@ -27,7 +27,16 @@ breedSlug: "airedale-terrier"
 breedName: "Airedale Terrier"
 wordCountEstimate: 433
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-airedale-terrier"
+heroImage: "https://images.pexels.com/photos/36587690/pexels-photo-36587690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36587690/pexels-photo-36587690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A playful Airedale Terrier dog joyfully splashes through water, capturing a dynamic moment outdoors."
+imageAlt: "A playful Airedale Terrier dog joyfully splashes through water, capturing a dynamic moment outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Chris F on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/energetic-airedale-terrier-splashing-in-water-36587690/"
+imageSearchQuery: "Airedale Terrier dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Airedale Terriers
 Airedale Terriers are large-sized (50–70 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.

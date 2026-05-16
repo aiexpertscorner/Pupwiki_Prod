@@ -27,7 +27,16 @@ breedSlug: "russell-terrier"
 breedName: "Russell Terrier"
 wordCountEstimate: 390
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-russell-terrier"
+heroImage: "https://images.pexels.com/photos/1753144/pexels-photo-1753144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/1753144/pexels-photo-1753144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A peaceful dog sleeping on a warm couch, capturing a moment of relaxation."
+imageAlt: "A peaceful dog sleeping on a warm couch, capturing a moment of relaxation."
+imageSource: "pexels"
+imageCredit: "Photo by Lisa from Pexels on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/sleeping-dog-1753144/"
+imageSearchQuery: "Russell Terrier dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Russell Terriers
 Russell Terriers are small-sized (9–15 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "irish-setter"
 breedName: "Irish Setter"
 wordCountEstimate: 499
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-irish-setter"
+heroImage: "https://images.pexels.com/photos/6510333/pexels-photo-6510333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6510333/pexels-photo-6510333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable dog with brown fur lying on sandy coast near calm lake in sunny nature against cloudy sky and hilly terrain"
+imageAlt: "Adorable dog with brown fur lying on sandy coast near calm lake in sunny nature against cloudy sky and hilly terrain"
+imageSource: "pexels"
+imageCredit: "Photo by Lachlan  Ross on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-irish-setter-on-shore-6510333/"
+imageSearchQuery: "Irish Setter dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Irish Setters
 Irish Setters are large-sized (60–70 lbs), with active energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

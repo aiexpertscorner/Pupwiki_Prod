@@ -27,7 +27,16 @@ breedSlug: "english-toy-spaniel"
 breedName: "English Toy Spaniel"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-english-toy-spaniel"
+heroImage: "https://images.pexels.com/photos/23427657/pexels-photo-23427657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/23427657/pexels-photo-23427657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Cavalier King Charles Spaniel sleeping on a blue table during a dog show."
+imageAlt: "A cute Cavalier King Charles Spaniel sleeping on a blue table during a dog show."
+imageSource: "pexels"
+imageCredit: "Photo by Dmitry Ovsyannikov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/king-charles-spaniel-sleeping-on-a-table-during-a-dog-show-23427657/"
+imageSearchQuery: "English Toy Spaniel dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Toy Spaniels
 English Toy Spaniels are small-sized (8–14 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

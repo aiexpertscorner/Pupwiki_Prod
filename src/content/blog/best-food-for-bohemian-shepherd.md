@@ -27,7 +27,16 @@ breedSlug: "bohemian-shepherd"
 breedName: "Bohemian Shepherd"
 wordCountEstimate: 430
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-bohemian-shepherd"
+heroImage: "https://images.pexels.com/photos/35089311/pexels-photo-35089311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35089311/pexels-photo-35089311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "German Shepherd dog standing alert in a grassy field on a clear day."
+imageAlt: "German Shepherd dog standing alert in a grassy field on a clear day."
+imageSource: "pexels"
+imageCredit: "Photo by Dmytro Glazunov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/german-shepherd-standing-in-a-grassy-field-35089311/"
+imageSearchQuery: "Bohemian Shepherd dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bohemian Shepherds
 Bohemian Shepherds are medium-sized (37–60 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

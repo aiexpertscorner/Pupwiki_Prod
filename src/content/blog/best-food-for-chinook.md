@@ -27,7 +27,16 @@ breedSlug: "chinook"
 breedName: "Chinook"
 wordCountEstimate: 473
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-chinook"
+heroImage: "https://images.pexels.com/photos/11515770/pexels-photo-11515770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11515770/pexels-photo-11515770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Chinook dog lying on the ground in Nazilli, Turkey. Warm tones emphasize its gentle nature."
+imageAlt: "Close-up of a Chinook dog lying on the ground in Nazilli, Turkey. Warm tones emphasize its gentle nature."
+imageSource: "pexels"
+imageCredit: "Photo by Tolga deniz Aran on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-11515770/"
+imageSearchQuery: "Chinook dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chinooks
 Chinooks are large-sized (50–90 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

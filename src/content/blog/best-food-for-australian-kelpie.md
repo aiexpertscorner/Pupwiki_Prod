@@ -27,7 +27,16 @@ breedSlug: "australian-kelpie"
 breedName: "Australian Kelpie"
 wordCountEstimate: 429
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-australian-kelpie"
+heroImage: "https://images.pexels.com/photos/5142688/pexels-photo-5142688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5142688/pexels-photo-5142688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a smiling Australian Kelpie dog sitting in a vibrant green garden."
+imageAlt: "Close-up of a smiling Australian Kelpie dog sitting in a vibrant green garden."
+imageSource: "pexels"
+imageCredit: "Photo by Ana Morais on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-5142688/"
+imageSearchQuery: "Australian Kelpie dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Australian Kelpies
 Australian Kelpies are medium-sized, with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

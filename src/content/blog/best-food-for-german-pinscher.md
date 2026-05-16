@@ -27,7 +27,16 @@ breedSlug: "german-pinscher"
 breedName: "German Pinscher"
 wordCountEstimate: 435
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-german-pinscher"
+heroImage: "https://images.pexels.com/photos/11654885/pexels-photo-11654885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11654885/pexels-photo-11654885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Miniature Pinscher dog sitting among autumn leaves outdoors."
+imageAlt: "A cute Miniature Pinscher dog sitting among autumn leaves outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by adrian vieriu on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-11654885/"
+imageSearchQuery: "German Pinscher dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Pinschers
 German Pinschers are medium-sized (25–45 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

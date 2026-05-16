@@ -17,6 +17,334 @@
   },
   "banners": [
     {
+      "id": "brutus-broth-brand-logo",
+      "programKey": "brutus-broth",
+      "advertiserId": "55927",
+      "advertiser": "Brutus Broth",
+      "network": "awin",
+      "enabled": false,
+      "priority": 50,
+      "label": "Brutus Broth brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=55927&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/55927.png",
+      "alt": "Brutus Broth logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "food",
+        "nutrition",
+        "supplements",
+        "hydration",
+        "joint-health",
+        "digestion",
+        "senior",
+        "recovery"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-16T22:02:52.375Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "crownandpaw-brand-logo",
+      "programKey": "crownandpaw",
+      "advertiserId": "57823",
+      "advertiser": "Crown and Paw",
+      "network": "awin",
+      "enabled": false,
+      "priority": 55,
+      "label": "Crown and Paw brand logo",
+      "type": "image_link",
+      "href": "https://tidd.ly/496jo7K",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/57823.png",
+      "alt": "Crown and Paw logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "homepage"
+      ],
+      "topicTags": [
+        "gift",
+        "lifestyle",
+        "portrait",
+        "memorial",
+        "dog-names",
+        "apparel",
+        "accessories"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-16T22:02:52.375Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "chefpaw-brand-logo",
+      "programKey": "chefpaw",
+      "advertiserId": "63546",
+      "advertiser": "Chef Paw (US)",
+      "network": "awin",
+      "enabled": false,
+      "priority": 65,
+      "label": "Chef Paw (US) brand logo",
+      "type": "image_link",
+      "href": "https://tidd.ly/41TPa44",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/63546.png",
+      "alt": "Chef Paw (US) logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category",
+        "homepage"
+      ],
+      "topicTags": [
+        "food",
+        "nutrition",
+        "feeding",
+        "fresh-food",
+        "raw-food",
+        "sensitive-stomach",
+        "allergies",
+        "care",
+        "appliances"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-16T22:02:52.375Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "jugbow-brand-logo",
+      "programKey": "jugbow",
+      "advertiserId": "79708",
+      "advertiser": "JUGBOW",
+      "network": "awin",
+      "enabled": false,
+      "priority": 70,
+      "label": "JUGBOW brand logo",
+      "type": "image_link",
+      "href": "https://tidd.ly/3QryFd6",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/79708.png",
+      "alt": "JUGBOW logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "training",
+        "behavior",
+        "obedience",
+        "recall",
+        "leash",
+        "harness",
+        "working",
+        "active",
+        "gear"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-16T22:02:52.375Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "dog-cloud-us-brand-logo",
+      "programKey": "dog-cloud-us",
+      "advertiserId": "87483",
+      "advertiser": "Dog Cloud (US)",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Dog Cloud (US) brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/87483.png",
+      "alt": "Dog Cloud (US) logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-16T22:02:52.375Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "radiofence-com-brand-logo",
+      "programKey": "radiofence-com",
+      "advertiserId": "87999",
+      "advertiser": "RadioFence.com",
+      "network": "awin",
+      "enabled": false,
+      "priority": 40,
+      "label": "RadioFence.com brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=87999&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/87999.png",
+      "alt": "RadioFence.com logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "training",
+        "gear",
+        "containment",
+        "fence",
+        "gps",
+        "tracking",
+        "outdoor",
+        "active",
+        "safety"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-16T22:02:52.375Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "rawwild-brand-logo",
+      "programKey": "rawwild",
+      "advertiserId": "89689",
+      "advertiser": "Raw Wild LLC",
+      "network": "awin",
+      "enabled": false,
+      "priority": 60,
+      "label": "Raw Wild LLC brand logo",
+      "type": "image_link",
+      "href": "https://tidd.ly/4e36ta9",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/89689.png",
+      "alt": "Raw Wild LLC logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "food",
+        "nutrition",
+        "raw-food",
+        "freeze-dried",
+        "sensitive-stomach",
+        "allergies",
+        "feeding",
+        "single-protein"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-16T22:02:52.375Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "petmate-brand-logo",
+      "programKey": "petmate",
+      "advertiserId": "89913",
+      "advertiser": "Petmate",
+      "network": "awin",
+      "enabled": false,
+      "priority": 35,
+      "label": "Petmate brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=89913&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
+      "alt": "Petmate logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category",
+        "homepage"
+      ],
+      "topicTags": [
+        "beds",
+        "gear",
+        "crates",
+        "carriers",
+        "toys",
+        "bowls",
+        "accessories",
+        "home"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-16T22:02:52.375Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "mypetdmv-the-original-pet-drivers-license-brand-logo",
+      "programKey": "mypetdmv-the-original-pet-drivers-license",
+      "advertiserId": "118951",
+      "advertiser": "MyPetDMV - The original Pet Drivers License",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "MyPetDMV - The original Pet Drivers License brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=118951&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/118951.png",
+      "alt": "MyPetDMV - The original Pet Drivers License logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "homepage"
+      ],
+      "topicTags": [
+        "gift",
+        "lifestyle",
+        "novelty",
+        "accessories",
+        "dog-names",
+        "fun"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-16T22:02:52.375Z",
+      "imageFit": "contain"
+    },
+    {
       "id": "chefpaw-food-maker-primary",
       "advertiser": "ChefPaw",
       "network": "awin",

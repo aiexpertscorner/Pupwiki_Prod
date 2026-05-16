@@ -27,7 +27,16 @@ breedSlug: "american-water-spaniel"
 breedName: "American Water Spaniel"
 wordCountEstimate: 444
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-american-water-spaniel"
+heroImage: "https://images.pexels.com/photos/7323691/pexels-photo-7323691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7323691/pexels-photo-7323691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "American Cocker Spaniel wearing harness, walking on the wet beach sand with water reflection."
+imageAlt: "American Cocker Spaniel wearing harness, walking on the wet beach sand with water reflection."
+imageSource: "pexels"
+imageCredit: "Photo by Ray Bilcliff on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-walking-on-the-shore-7323691/"
+imageSearchQuery: "American Water Spaniel dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Water Spaniels
 American Water Spaniels are medium-sized (25–45 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

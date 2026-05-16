@@ -27,7 +27,16 @@ breedSlug: "shetland-sheepdog"
 breedName: "Shetland Sheepdog"
 wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-shetland-sheepdog"
+heroImage: "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting."
+imageAlt: "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-shetland-sheepdog-outdoors-29955884/"
+imageSearchQuery: "Shetland Sheepdog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Shetland Sheepdogs
 Shetland Sheepdogs are small-sized (15–25 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

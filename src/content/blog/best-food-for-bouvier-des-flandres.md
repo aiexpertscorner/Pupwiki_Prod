@@ -27,7 +27,16 @@ breedSlug: "bouvier-des-flandres"
 breedName: "Bouvier des Flandres"
 wordCountEstimate: 510
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-bouvier-des-flandres"
+heroImage: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageSource: "pexels"
+imageCredit: "Photo by cottonbro studio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/"
+imageSearchQuery: "Bouvier des Flandres dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bouvier des Flandress
 Bouvier des Flandress are large-sized (70–110 lbs), with active energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.

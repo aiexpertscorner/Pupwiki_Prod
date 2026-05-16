@@ -27,7 +27,16 @@ breedSlug: "shih-tzu"
 breedName: "Shih Tzu"
 wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-shih-tzu"
+heroImage: "https://images.pexels.com/photos/27105001/pexels-photo-27105001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27105001/pexels-photo-27105001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming Shih Tzu dog peacefully sleeping on a stylish red lips chair in a studio setting."
+imageAlt: "Charming Shih Tzu dog peacefully sleeping on a stylish red lips chair in a studio setting."
+imageSource: "pexels"
+imageCredit: "Photo by the  cinematic on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-small-dog-is-sleeping-on-a-red-chair-27105001/"
+imageSearchQuery: "Shih Tzu dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Shih Tzus
 Shih Tzus are small-sized (9–16 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

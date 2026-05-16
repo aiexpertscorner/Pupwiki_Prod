@@ -27,7 +27,16 @@ breedSlug: "soft-coated-wheaten-terrier"
 breedName: "Soft Coated Wheaten Terrier"
 wordCountEstimate: 408
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-soft-coated-wheaten-terrier"
+heroImage: "https://images.pexels.com/photos/5255147/pexels-photo-5255147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5255147/pexels-photo-5255147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "From above of adorable obedient dog sitting on soft bed near crop unrecognizable sleeping female owner"
+imageAlt: "From above of adorable obedient dog sitting on soft bed near crop unrecognizable sleeping female owner"
+imageSource: "pexels"
+imageCredit: "Photo by Samson Katt on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cut-dog-sitting-near-anonymous-woman-lying-on-bed-5255147/"
+imageSearchQuery: "Soft Coated Wheaten Terrier dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Soft Coated Wheaten Terriers
 Soft Coated Wheaten Terriers are medium-sized (30–40 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

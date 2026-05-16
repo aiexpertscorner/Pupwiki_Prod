@@ -27,7 +27,16 @@ breedSlug: "treeing-tennessee-brindle"
 breedName: "Treeing Tennessee Brindle"
 wordCountEstimate: 388
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-treeing-tennessee-brindle"
+heroImage: "https://images.pexels.com/photos/27237342/pexels-photo-27237342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27237342/pexels-photo-27237342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A brown brindle stray dog peacefully sleeping on a city street with cars in the background."
+imageAlt: "A brown brindle stray dog peacefully sleeping on a city street with cars in the background."
+imageSource: "pexels"
+imageCredit: "Photo by Eudes cs on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-large-dog-laying-on-the-sidewalk-with-its-head-down-27237342/"
+imageSearchQuery: "Treeing Tennessee Brindle dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Treeing Tennessee Brindles
 Treeing Tennessee Brindles are medium-sized (30–50 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

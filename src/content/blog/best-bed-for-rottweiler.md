@@ -27,7 +27,16 @@ breedSlug: "rottweiler"
 breedName: "Rottweiler"
 wordCountEstimate: 368
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-rottweiler"
+heroImage: "https://images.pexels.com/photos/347687/pexels-photo-347687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/347687/pexels-photo-347687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a sleeping dog peacefully resting on a brown leather sofa."
+imageAlt: "Close-up of a sleeping dog peacefully resting on a brown leather sofa."
+imageSource: "pexels"
+imageCredit: "Photo by Torsten Dettlaff on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/selective-focus-of-tan-dog-lying-on-sofa-347687/"
+imageSearchQuery: "Rottweiler dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Rottweilers
 Rottweilers are large-sized (80–135 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

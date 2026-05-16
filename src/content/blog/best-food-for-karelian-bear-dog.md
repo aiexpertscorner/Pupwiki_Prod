@@ -27,7 +27,16 @@ breedSlug: "karelian-bear-dog"
 breedName: "Karelian Bear Dog"
 wordCountEstimate: 512
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-karelian-bear-dog"
+heroImage: "https://images.pexels.com/photos/25905568/pexels-photo-25905568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/25905568/pexels-photo-25905568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog lying on the ground eating outdoors, showcasing its natural behavior."
+imageAlt: "Cute dog lying on the ground eating outdoors, showcasing its natural behavior."
+imageSource: "pexels"
+imageCredit: "Photo by Михаил Крамор on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/puppy-smelling-food-25905568/"
+imageSearchQuery: "Karelian Bear Dog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Karelian Bear Dogs
 Karelian Bear Dogs are medium-sized (44–49 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

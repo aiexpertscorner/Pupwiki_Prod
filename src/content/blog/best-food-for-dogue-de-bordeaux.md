@@ -27,7 +27,16 @@ breedSlug: "dogue-de-bordeaux"
 breedName: "Dogue de Bordeaux"
 wordCountEstimate: 493
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-dogue-de-bordeaux"
+heroImage: "https://images.pexels.com/photos/34315/bordeaux-mastiff-dog-animal.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34315/bordeaux-mastiff-dog-animal.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A French Bulldog enjoying a spring day in a green grassy field."
+imageAlt: "A French Bulldog enjoying a spring day in a green grassy field."
+imageSource: "pexels"
+imageCredit: "Photo by Pixabay on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-short-haired-dog-on-green-ground-cover-plants-during-daytime-34315/"
+imageSearchQuery: "Dogue de Bordeaux dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dogue de Bordeauxs
 Dogue de Bordeauxs are large-sized (99–110 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

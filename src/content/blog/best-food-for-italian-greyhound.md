@@ -27,7 +27,16 @@ breedSlug: "italian-greyhound"
 breedName: "Italian Greyhound"
 wordCountEstimate: 435
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-italian-greyhound"
+heroImage: "https://images.pexels.com/photos/16485353/pexels-photo-16485353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16485353/pexels-photo-16485353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog wrapped in a red plaid blanket, sitting on a holiday-themed couch."
+imageAlt: "Cute dog wrapped in a red plaid blanket, sitting on a holiday-themed couch."
+imageSource: "pexels"
+imageCredit: "Photo by Jacob Sierra on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-wrapped-in-a-red-checkered-blanket-16485353/"
+imageSearchQuery: "Italian Greyhound dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Italian Greyhounds
 Italian Greyhounds are small-sized (7–14 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

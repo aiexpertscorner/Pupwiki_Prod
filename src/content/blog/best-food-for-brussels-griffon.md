@@ -27,7 +27,16 @@ breedSlug: "brussels-griffon"
 breedName: "Brussels Griffon"
 wordCountEstimate: 433
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-brussels-griffon"
+heroImage: "https://images.pexels.com/photos/33719277/pexels-photo-33719277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33719277/pexels-photo-33719277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Brussels Griffon dog standing on wooden floor indoors, looking curious."
+imageAlt: "Adorable Brussels Griffon dog standing on wooden floor indoors, looking curious."
+imageSource: "pexels"
+imageCredit: "Photo by Tahir Xəlfə on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brussels-griffon-dog-standing-indoors-33719277/"
+imageSearchQuery: "Brussels Griffon dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Brussels Griffons
 Brussels Griffons are small-sized (8–10 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.

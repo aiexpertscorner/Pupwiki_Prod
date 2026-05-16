@@ -27,7 +27,16 @@ breedSlug: "transylvanian-hound"
 breedName: "Transylvanian Hound"
 wordCountEstimate: 382
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-transylvanian-hound"
+heroImage: "https://images.pexels.com/photos/3703787/pexels-photo-3703787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3703787/pexels-photo-3703787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A tranquil brown dog sleeping peacefully outdoors in Alanya, Turkey."
+imageAlt: "A tranquil brown dog sleeping peacefully outdoors in Alanya, Turkey."
+imageSource: "pexels"
+imageCredit: "Photo by Anna Kapustina on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-sleeping-dog-3703787/"
+imageSearchQuery: "Transylvanian Hound dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Transylvanian Hounds
 Transylvanian Hounds are medium-sized (55 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "afghan-hound"
 breedName: "Afghan Hound"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-afghan-hound"
+heroImage: "https://images.pexels.com/photos/13382042/pexels-photo-13382042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13382042/pexels-photo-13382042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Top view of bone-shaped dog treats in a white bowl, on a light blue background."
+imageAlt: "Top view of bone-shaped dog treats in a white bowl, on a light blue background."
+imageSource: "pexels"
+imageCredit: "Photo by Lana Kravchenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-treat-in-the-shape-of-bones-13382042/"
+imageSearchQuery: "Afghan Hound dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Afghan Hounds
 Afghan Hounds are medium-sized (50–60 lbs), with active energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

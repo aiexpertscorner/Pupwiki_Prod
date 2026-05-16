@@ -27,7 +27,16 @@ breedSlug: "ibizan-hound"
 breedName: "Ibizan Hound"
 wordCountEstimate: 445
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-ibizan-hound"
+heroImage: "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a brown and white dog with a collar, looking thoughtful against a blurred background."
+imageAlt: "Portrait of a brown and white dog with a collar, looking thoughtful against a blurred background."
+imageSource: "pexels"
+imageCredit: "Photo by Marina Riijik on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dog-20080179/"
+imageSearchQuery: "Ibizan Hound dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Ibizan Hounds
 Ibizan Hounds are medium-sized (45–50 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

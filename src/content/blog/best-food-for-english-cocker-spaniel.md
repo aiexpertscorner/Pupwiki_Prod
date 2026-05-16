@@ -27,7 +27,16 @@ breedSlug: "english-cocker-spaniel"
 breedName: "English Cocker Spaniel"
 wordCountEstimate: 442
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-english-cocker-spaniel"
+heroImage: "https://images.pexels.com/photos/35261898/pexels-photo-35261898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35261898/pexels-photo-35261898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Cocker Spaniel dog peacefully resting on a white background."
+imageAlt: "Adorable Cocker Spaniel dog peacefully resting on a white background."
+imageSource: "pexels"
+imageCredit: "Photo by Christopher Welsch Leveroni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/sleeping-cocker-spaniel-dog-portrait-35261898/"
+imageSearchQuery: "English Cocker Spaniel dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Cocker Spaniels
 English Cocker Spaniels are medium-sized (26–34 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

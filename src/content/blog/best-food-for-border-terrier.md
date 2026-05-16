@@ -27,7 +27,16 @@ breedSlug: "border-terrier"
 breedName: "Border Terrier"
 wordCountEstimate: 435
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-border-terrier"
+heroImage: "https://images.pexels.com/photos/31730620/pexels-photo-31730620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31730620/pexels-photo-31730620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Border Terrier dog stands alert in a lush green garden, showcasing its shaggy coat."
+imageAlt: "A Border Terrier dog stands alert in a lush green garden, showcasing its shaggy coat."
+imageSource: "pexels"
+imageCredit: "Photo by Jamie VI on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-border-terrier-in-a-garden-setting-31730620/"
+imageSearchQuery: "Border Terrier dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Border Terriers
 Border Terriers are small-sized (11.5–15.5 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.

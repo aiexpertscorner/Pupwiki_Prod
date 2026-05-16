@@ -27,7 +27,16 @@ breedSlug: "australian-stumpy-tail-cattle-dog"
 breedName: "Australian Stumpy Tail Cattle Dog"
 wordCountEstimate: 479
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-australian-stumpy-tail-cattle-dog"
+heroImage: "https://images.pexels.com/photos/35511909/pexels-photo-35511909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35511909/pexels-photo-35511909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Happy Australian Cattle Dog sitting on grass, looking playfully at the camera. Perfect for pet lovers."
+imageAlt: "Happy Australian Cattle Dog sitting on grass, looking playfully at the camera. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/australian-cattle-dog-smiling-in-grass-35511909/"
+imageSearchQuery: "Australian Stumpy Tail Cattle Dog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Australian Stumpy Tail Cattle Dogs
 Australian Stumpy Tail Cattle Dogs are medium-sized (32–45 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "hanoverian-scenthound"
 breedName: "Hanoverian Scenthound"
 wordCountEstimate: 433
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-hanoverian-scenthound"
+heroImage: "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living."
+imageAlt: "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living."
+imageSource: "pexels"
+imageCredit: "Photo by MART  PRODUCTION on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-eating-on-a-bowl-8434725/"
+imageSearchQuery: "Hanoverian Scenthound dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Hanoverian Scenthounds
 Hanoverian Scenthounds are large-sized (79–99 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

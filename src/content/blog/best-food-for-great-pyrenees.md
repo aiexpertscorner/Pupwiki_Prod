@@ -27,7 +27,16 @@ breedSlug: "great-pyrenees"
 breedName: "Great Pyrenees"
 wordCountEstimate: 448
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-great-pyrenees"
+heroImage: "https://images.pexels.com/photos/7461420/pexels-photo-7461420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7461420/pexels-photo-7461420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming portrait of a Great Pyrenees dog outdoors against an autumn forest backdrop."
+imageAlt: "Charming portrait of a Great Pyrenees dog outdoors against an autumn forest backdrop."
+imageSource: "pexels"
+imageCredit: "Photo by Tychon Krug on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-long-coated-dog-in-close-up-shot-7461420/"
+imageSearchQuery: "Great Pyrenees dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Great Pyreneess
 Great Pyreneess are large-sized (85–100 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

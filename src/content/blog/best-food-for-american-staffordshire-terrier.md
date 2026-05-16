@@ -27,7 +27,16 @@ breedSlug: "american-staffordshire-terrier"
 breedName: "American Staffordshire Terrier"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-american-staffordshire-terrier"
+heroImage: "https://images.pexels.com/photos/35611837/pexels-photo-35611837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35611837/pexels-photo-35611837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Lively brown pit bull dog lying on grass with a toy, enjoying a sunny day outdoors."
+imageAlt: "Lively brown pit bull dog lying on grass with a toy, enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Joshua B on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-brown-pit-bull-with-toy-in-sunshine-35611837/"
+imageSearchQuery: "American Staffordshire Terrier dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Staffordshire Terriers
 American Staffordshire Terriers are large-sized (40–70 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.

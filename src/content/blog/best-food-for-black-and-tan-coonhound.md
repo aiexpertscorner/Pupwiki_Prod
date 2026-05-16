@@ -27,7 +27,16 @@ breedSlug: "black-and-tan-coonhound"
 breedName: "Black and Tan Coonhound"
 wordCountEstimate: 455
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-black-and-tan-coonhound"
+heroImage: "https://images.pexels.com/photos/25905568/pexels-photo-25905568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/25905568/pexels-photo-25905568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog lying on the ground eating outdoors, showcasing its natural behavior."
+imageAlt: "Cute dog lying on the ground eating outdoors, showcasing its natural behavior."
+imageSource: "pexels"
+imageCredit: "Photo by Михаил Крамор on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/puppy-smelling-food-25905568/"
+imageSearchQuery: "Black and Tan Coonhound dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Black and Tan Coonhounds
 Black and Tan Coonhounds are large-sized (65–110 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

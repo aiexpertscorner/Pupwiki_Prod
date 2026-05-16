@@ -27,7 +27,16 @@ breedSlug: "chinese-shar-pei"
 breedName: "Chinese Shar-Pei"
 wordCountEstimate: 474
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-chinese-shar-pei"
+heroImage: "https://images.pexels.com/photos/16024345/pexels-photo-16024345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16024345/pexels-photo-16024345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A lively Shar Pei dog joyfully runs across a lush green field, captured in action."
+imageAlt: "A lively Shar Pei dog joyfully runs across a lush green field, captured in action."
+imageSource: "pexels"
+imageCredit: "Photo by Thierry Rossier on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-running-on-grass-16024345/"
+imageSearchQuery: "Chinese Shar-Pei dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chinese Shar-Peis
 Chinese Shar-Peis are medium-sized (45–60 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

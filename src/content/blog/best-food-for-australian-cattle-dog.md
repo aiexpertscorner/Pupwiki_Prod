@@ -27,7 +27,16 @@ breedSlug: "australian-cattle-dog"
 breedName: "Australian Cattle Dog"
 wordCountEstimate: 559
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-australian-cattle-dog"
+heroImage: "https://images.pexels.com/photos/35511909/pexels-photo-35511909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35511909/pexels-photo-35511909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Happy Australian Cattle Dog sitting on grass, looking playfully at the camera. Perfect for pet lovers."
+imageAlt: "Happy Australian Cattle Dog sitting on grass, looking playfully at the camera. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/australian-cattle-dog-smiling-in-grass-35511909/"
+imageSearchQuery: "Australian Cattle Dog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Australian Cattle Dogs
 Australian Cattle Dogs are medium-sized (35–50 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
