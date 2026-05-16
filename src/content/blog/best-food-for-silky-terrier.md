@@ -27,7 +27,16 @@ breedSlug: "silky-terrier"
 breedName: "Silky Terrier"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-silky-terrier"
+heroImage: "https://images.pexels.com/photos/7526290/pexels-photo-7526290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7526290/pexels-photo-7526290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Yorkshire Terrier dog looking alert outdoors. Perfect for pet lovers."
+imageAlt: "Adorable Yorkshire Terrier dog looking alert outdoors. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by belen capello on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-close-up-shot-of-a-yorkshire-terrier-7526290/"
+imageSearchQuery: "Silky Terrier dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Silky Terriers
 Silky Terriers are small-sized (10 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

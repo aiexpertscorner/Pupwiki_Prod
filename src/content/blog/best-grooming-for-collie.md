@@ -27,7 +27,16 @@ breedSlug: "collie"
 breedName: "Collie"
 wordCountEstimate: 341
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-collie"
+heroImage: "https://images.pexels.com/photos/5957235/pexels-photo-5957235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5957235/pexels-photo-5957235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming Collie dog with fluffy coat and open mouth panting outdoors."
+imageAlt: "Charming Collie dog with fluffy coat and open mouth panting outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Kanashi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-close-up-shot-of-a-collie-dog-5957235/"
+imageSearchQuery: "Collie dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Collies
 Collies are large-sized (50–75 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

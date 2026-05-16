@@ -27,7 +27,16 @@ breedSlug: "perro-de-presa-canario"
 breedName: "Perro de Presa Canario"
 wordCountEstimate: 527
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-perro-de-presa-canario"
+heroImage: "https://images.pexels.com/photos/31339390/pexels-photo-31339390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31339390/pexels-photo-31339390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute brown dog lies on a paved sidewalk in Perú, showcasing a relaxed and content expression."
+imageAlt: "A cute brown dog lies on a paved sidewalk in Perú, showcasing a relaxed and content expression."
+imageSource: "pexels"
+imageCredit: "Photo by Christopher Welsch Leveroni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-brown-dog-relaxing-outdoors-in-peru-31339390/"
+imageSearchQuery: "Perro de Presa Canario dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Perro de Presa Canarios
 Perro de Presa Canarios are large-sized (84–110 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

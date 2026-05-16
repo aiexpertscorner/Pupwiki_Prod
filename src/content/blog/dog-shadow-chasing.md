@@ -20,7 +20,16 @@ monetizationIntent: training
 medicalDisclaimer: true
 affiliateDisclosure: true
 uniqueBlocks: []
+heroImage: "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A veterinarian and volunteer examine a happy dog with a stethoscope."
+imageAlt: "A veterinarian and volunteer examine a happy dog with a stethoscope."
+imageSource: "pexels"
+imageCredit: "Photo by Mikhail Nilov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/"
+imageSearchQuery: "dog care"
 ---
+
 
 Does your dog obsessively chase shadows, snap at invisible flies or stare at nothing? These behaviours can be puzzling and sometimes distressing. While occasional play with light or shadows is harmless, repetitive and compulsive behaviour may indicate an underlying issue. Understanding the causes and providing appropriate intervention can improve your dog’s quality of life.
 

@@ -27,7 +27,16 @@ breedSlug: "spanish-mastiff"
 breedName: "Spanish Mastiff"
 wordCountEstimate: 503
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-spanish-mastiff"
+heroImage: "https://images.pexels.com/photos/29689224/pexels-photo-29689224.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29689224/pexels-photo-29689224.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Kangal shepherd dog relaxing in a rural setting beside a wooden house. Calm, tranquil scene."
+imageAlt: "Kangal shepherd dog relaxing in a rural setting beside a wooden house. Calm, tranquil scene."
+imageSource: "pexels"
+imageCredit: "Photo by arda öncül on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/kangal-shepherd-dog-relaxing-near-rustic-dog-house-29689224/"
+imageSearchQuery: "Spanish Mastiff dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Spanish Mastiffs
 Spanish Mastiffs are large-sized (140–200 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

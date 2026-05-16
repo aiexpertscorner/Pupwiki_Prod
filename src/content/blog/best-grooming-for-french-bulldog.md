@@ -27,7 +27,16 @@ breedSlug: "french-bulldog"
 breedName: "French Bulldog"
 wordCountEstimate: 358
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-french-bulldog"
+heroImage: "https://images.pexels.com/photos/20741414/pexels-photo-20741414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20741414/pexels-photo-20741414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable French Bulldog being washed in a kitchen sink, showing a cute and curious expression."
+imageAlt: "Adorable French Bulldog being washed in a kitchen sink, showing a cute and curious expression."
+imageSource: "pexels"
+imageCredit: "Photo by David Kanigan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-french-bulldog-being-washed-in-a-kitchen-sink-20741414/"
+imageSearchQuery: "French Bulldog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for French Bulldogs
 French Bulldogs are medium-sized (28 lbs), with calm energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

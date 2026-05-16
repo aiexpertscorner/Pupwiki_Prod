@@ -27,7 +27,16 @@ breedSlug: "belgian-malinois"
 breedName: "Belgian Malinois"
 wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-belgian-malinois"
+heroImage: "https://images.pexels.com/photos/20207074/pexels-photo-20207074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20207074/pexels-photo-20207074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Belgian Malinois dog standing in shallow water, showcasing its alert posture and calm surroundings."
+imageAlt: "A Belgian Malinois dog standing in shallow water, showcasing its alert posture and calm surroundings."
+imageSource: "pexels"
+imageCredit: "Photo by Jozef Fehér on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/belgian-malinois-dog-in-water-on-sea-shore-20207074/"
+imageSearchQuery: "Belgian Malinois dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Belgian Malinoiss
 Belgian Malinoiss are large-sized (40–80 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "bulldog"
 breedName: "Bulldog"
 wordCountEstimate: 346
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bulldog"
+heroImage: "https://images.pexels.com/photos/20741414/pexels-photo-20741414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20741414/pexels-photo-20741414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable French Bulldog being washed in a kitchen sink, showing a cute and curious expression."
+imageAlt: "Adorable French Bulldog being washed in a kitchen sink, showing a cute and curious expression."
+imageSource: "pexels"
+imageCredit: "Photo by David Kanigan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-french-bulldog-being-washed-in-a-kitchen-sink-20741414/"
+imageSearchQuery: "Bulldog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bulldogs
 Bulldogs are medium-sized (40–50 lbs), with regular energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "treeing-walker-coonhound"
 breedName: "Treeing Walker Coonhound"
 wordCountEstimate: 446
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-treeing-walker-coonhound"
+heroImage: "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors."
+imageAlt: "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Thais Vitoria on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/"
+imageSearchQuery: "Treeing Walker Coonhound dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Treeing Walker Coonhounds
 Treeing Walker Coonhounds are large-sized (50–70 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "boxer"
 breedName: "Boxer"
 wordCountEstimate: 330
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-boxer"
+heroImage: "https://images.pexels.com/photos/32371133/pexels-photo-32371133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32371133/pexels-photo-32371133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of a Boxer dog resting on the floor indoors, expressing a tender and relaxed mood."
+imageAlt: "A detailed close-up of a Boxer dog resting on the floor indoors, expressing a tender and relaxed mood."
+imageSource: "pexels"
+imageCredit: "Photo by Laurence FUSCO on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-boxer-dog-lying-on-floor-indoors-32371133/"
+imageSearchQuery: "Boxer dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Boxers
 Boxers are large-sized (15–80 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

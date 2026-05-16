@@ -27,7 +27,16 @@ breedSlug: "portuguese-podengo"
 breedName: "Portuguese Podengo"
 wordCountEstimate: 491
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-portuguese-podengo"
+heroImage: "https://images.pexels.com/photos/8414864/pexels-photo-8414864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8414864/pexels-photo-8414864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a Portuguese Podengo dog with a curious expression indoors."
+imageAlt: "Close-up portrait of a Portuguese Podengo dog with a curious expression indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Brett Jordan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-close-up-shot-of-a-portuguese-podengo-8414864/"
+imageSearchQuery: "Portuguese Podengo dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Portuguese Podengos
 Portuguese Podengos are large-sized (35–66 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

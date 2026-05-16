@@ -27,7 +27,16 @@ breedSlug: "manchester-terrier-toy"
 breedName: "Manchester Terrier (Toy)"
 wordCountEstimate: 449
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-manchester-terrier-toy"
+heroImage: "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living."
+imageAlt: "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living."
+imageSource: "pexels"
+imageCredit: "Photo by MART  PRODUCTION on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-eating-on-a-bowl-8434725/"
+imageSearchQuery: "Manchester Terrier (Toy) dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Manchester Terrier (Toy)s
 Manchester Terrier (Toy)s are small-sized (12 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

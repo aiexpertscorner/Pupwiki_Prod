@@ -27,7 +27,16 @@ breedSlug: "papillon"
 breedName: "Papillon"
 wordCountEstimate: 330
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-papillon"
+heroImage: "https://images.pexels.com/photos/7210606/pexels-photo-7210606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7210606/pexels-photo-7210606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Full body happy cute Papillon dog with fluffy white and brown fur standing with tongue out on rural roadway in sunny countryside and looking away with curiosity"
+imageAlt: "Full body happy cute Papillon dog with fluffy white and brown fur standing with tongue out on rural roadway in sunny countryside and looking away with curiosity"
+imageSource: "pexels"
+imageCredit: "Photo by Blue Bird on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-papillon-dog-standing-on-rural-road-in-sunny-nature-7210606/"
+imageSearchQuery: "Papillon dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Papillons
 Papillons are small-sized (5–10 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "bichon-frise"
 breedName: "Bichon Frise"
 wordCountEstimate: 354
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bichon-frise"
+heroImage: "https://images.pexels.com/photos/16109762/pexels-photo-16109762.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16109762/pexels-photo-16109762.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy Bichon Frise dog standing on a tree stump in a rural landscape."
+imageAlt: "A fluffy Bichon Frise dog standing on a tree stump in a rural landscape."
+imageSource: "pexels"
+imageCredit: "Photo by David Brown on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bichon-frise-standing-on-a-tree-trunk-16109762/"
+imageSearchQuery: "Bichon Frise dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bichon Frises
 Bichon Frises are small-sized (12–18 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

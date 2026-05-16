@@ -27,7 +27,16 @@ breedSlug: "boston-terrier"
 breedName: "Boston Terrier"
 wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-boston-terrier"
+heroImage: "https://images.pexels.com/photos/26664437/pexels-photo-26664437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26664437/pexels-photo-26664437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Boston Terrier dog with a curious expression sitting by a window."
+imageAlt: "Close-up of a Boston Terrier dog with a curious expression sitting by a window."
+imageSource: "pexels"
+imageCredit: "Photo by Sean Brannon on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/boston-terrier-in-close-up-26664437/"
+imageSearchQuery: "Boston Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Boston Terriers
 Boston Terriers are small-sized (12–25 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

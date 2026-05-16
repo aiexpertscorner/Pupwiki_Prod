@@ -27,7 +27,16 @@ breedSlug: "chinese-shar-pei"
 breedName: "Chinese Shar-Pei"
 wordCountEstimate: 359
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-chinese-shar-pei"
+heroImage: "https://images.pexels.com/photos/12778782/pexels-photo-12778782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12778782/pexels-photo-12778782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene close-up portrait of a brown Shar Pei dog with distinct wrinkles, set against a dark background."
+imageAlt: "A serene close-up portrait of a brown Shar Pei dog with distinct wrinkles, set against a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Kevin Watkins on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-shar-pei-dog-12778782/"
+imageSearchQuery: "Chinese Shar-Pei dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chinese Shar-Peis
 Chinese Shar-Peis are medium-sized (45–60 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

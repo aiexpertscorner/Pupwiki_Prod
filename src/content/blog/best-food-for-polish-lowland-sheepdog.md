@@ -27,7 +27,16 @@ breedSlug: "polish-lowland-sheepdog"
 breedName: "Polish Lowland Sheepdog"
 wordCountEstimate: 448
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-polish-lowland-sheepdog"
+heroImage: "https://images.pexels.com/photos/12910849/pexels-photo-12910849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12910849/pexels-photo-12910849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Polish Lowland Sheepdog eagerly awaiting a treat in a vibrant green field."
+imageAlt: "Close-up of a Polish Lowland Sheepdog eagerly awaiting a treat in a vibrant green field."
+imageSource: "pexels"
+imageCredit: "Photo by Denis Liendo ✅ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-12910849/"
+imageSearchQuery: "Polish Lowland Sheepdog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Polish Lowland Sheepdogs
 Polish Lowland Sheepdogs are medium-sized (30–50 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

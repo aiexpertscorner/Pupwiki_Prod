@@ -27,7 +27,16 @@ breedSlug: "shiba-inu"
 breedName: "Shiba Inu"
 wordCountEstimate: 353
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-shiba-inu"
+heroImage: "https://images.pexels.com/photos/35051188/pexels-photo-35051188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35051188/pexels-photo-35051188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Artistic black and white close-up of a Shiba Inu dog's face, showcasing texture and expression."
+imageAlt: "Artistic black and white close-up of a Shiba Inu dog's face, showcasing texture and expression."
+imageSource: "pexels"
+imageCredit: "Photo by Chris F on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-shiba-inu-dog-in-black-and-white-35051188/"
+imageSearchQuery: "Shiba Inu dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Shiba Inus
 Shiba Inus are small-sized (17–23 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

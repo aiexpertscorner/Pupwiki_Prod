@@ -27,7 +27,16 @@ breedSlug: "saint-bernard"
 breedName: "Saint Bernard"
 wordCountEstimate: 353
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-saint-bernard"
+heroImage: "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care."
+imageAlt: "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/"
+imageSearchQuery: "Saint Bernard dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Saint Bernards
 Saint Bernards are large-sized (120–180 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

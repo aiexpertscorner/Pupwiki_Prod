@@ -27,7 +27,16 @@ breedSlug: "dachshund"
 breedName: "Dachshund"
 wordCountEstimate: 330
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-dachshund"
+heroImage: "https://images.pexels.com/photos/9774919/pexels-photo-9774919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9774919/pexels-photo-9774919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fashionable dachshund dog wearing a coat stands on a sunny sidewalk with green grass."
+imageAlt: "A fashionable dachshund dog wearing a coat stands on a sunny sidewalk with green grass."
+imageSource: "pexels"
+imageCredit: "Photo by Diana ✨ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dachshund-wearing-a-shirt-standing-on-concrete-floor-9774919/"
+imageSearchQuery: "Dachshund dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dachshunds
 Dachshunds are medium-sized (11–32 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

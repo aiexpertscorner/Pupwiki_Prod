@@ -27,7 +27,16 @@ breedSlug: "toy-fox-terrier"
 breedName: "Toy Fox Terrier"
 wordCountEstimate: 460
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-toy-fox-terrier"
+heroImage: "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living."
+imageAlt: "A small brown dog enjoys a meal from its bowl indoors, showcasing cozy living."
+imageSource: "pexels"
+imageCredit: "Photo by MART  PRODUCTION on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-eating-on-a-bowl-8434725/"
+imageSearchQuery: "Toy Fox Terrier dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Toy Fox Terriers
 Toy Fox Terriers are small-sized (3.5–7 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

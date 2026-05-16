@@ -27,7 +27,16 @@ breedSlug: "akita"
 breedName: "Akita"
 wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-akita"
+heroImage: "https://images.pexels.com/photos/13062569/pexels-photo-13062569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13062569/pexels-photo-13062569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a joyful Shiba Inu dog taking a bath with its tongue out. Perfect pet care moment."
+imageAlt: "Close-up of a joyful Shiba Inu dog taking a bath with its tongue out. Perfect pet care moment."
+imageSource: "pexels"
+imageCredit: "Photo by Makiko Fujimoto on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-13062569/"
+imageSearchQuery: "Akita dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Akitas
 Akitas are large-sized (70–130 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

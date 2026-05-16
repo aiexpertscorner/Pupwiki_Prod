@@ -27,7 +27,16 @@ breedSlug: "plott-hound"
 breedName: "Plott Hound"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-plott-hound"
+heroImage: "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors."
+imageAlt: "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Thais Vitoria on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/"
+imageSearchQuery: "Plott Hound dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Plott Hounds
 Plott Hounds are medium-sized (40–60 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

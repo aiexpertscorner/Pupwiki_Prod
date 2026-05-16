@@ -27,7 +27,16 @@ breedSlug: "bernese-mountain-dog"
 breedName: "Bernese Mountain Dog"
 wordCountEstimate: 370
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bernese-mountain-dog"
+heroImage: "https://images.pexels.com/photos/10842583/pexels-photo-10842583.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10842583/pexels-photo-10842583.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming Bernese Mountain Dog in a sunlit field of wildflowers, radiating joy."
+imageAlt: "Charming Bernese Mountain Dog in a sunlit field of wildflowers, radiating joy."
+imageSource: "pexels"
+imageCredit: "Photo by David  Floyd on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-close-up-shot-of-a-bernese-mountain-dog-10842583/"
+imageSearchQuery: "Bernese Mountain Dog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bernese Mountain Dogs
 Bernese Mountain Dogs are large-sized (70–115 lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.

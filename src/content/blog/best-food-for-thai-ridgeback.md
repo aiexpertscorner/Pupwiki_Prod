@@ -27,7 +27,16 @@ breedSlug: "thai-ridgeback"
 breedName: "Thai Ridgeback"
 wordCountEstimate: 448
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-thai-ridgeback"
+heroImage: "https://images.pexels.com/photos/4418651/pexels-photo-4418651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4418651/pexels-photo-4418651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Ground level of obedient mongrel dog with striped brown fur eating bread while resting in yard on sunny day"
+imageAlt: "Ground level of obedient mongrel dog with striped brown fur eating bread while resting in yard on sunny day"
+imageSource: "pexels"
+imageCredit: "Photo by FOX ^.ᆽ.^= ∫ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/tranquil-mongrel-dog-lying-on-ground-with-piece-of-bread-4418651/"
+imageSearchQuery: "Thai Ridgeback dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Thai Ridgebacks
 Thai Ridgebacks are large-sized (35–75 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

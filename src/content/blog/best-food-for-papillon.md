@@ -27,7 +27,16 @@ breedSlug: "papillon"
 breedName: "Papillon"
 wordCountEstimate: 474
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-papillon"
+heroImage: "https://images.pexels.com/photos/7210610/pexels-photo-7210610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7210610/pexels-photo-7210610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable purebred Papillon dog sitting on grassy lawn in summer nature and looking away with curiosity on sunny weather"
+imageAlt: "Adorable purebred Papillon dog sitting on grassy lawn in summer nature and looking away with curiosity on sunny weather"
+imageSource: "pexels"
+imageCredit: "Photo by Blue Bird on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-fluffy-papillon-dog-sitting-on-grassy-meadow-7210610/"
+imageSearchQuery: "Papillon dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Papillons
 Papillons are small-sized (5–10 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "scottish-terrier"
 breedName: "Scottish Terrier"
 wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-scottish-terrier"
+heroImage: "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Westie dog lying on a wooden floor, charming and fluffy."
+imageAlt: "Westie dog lying on a wooden floor, charming and fluffy."
+imageSource: "pexels"
+imageCredit: "Photo by Alan han on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-west-highland-white-terrier-indoors-31163319/"
+imageSearchQuery: "Scottish Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Scottish Terriers
 Scottish Terriers are small-sized (18–22 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.

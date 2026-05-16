@@ -27,7 +27,16 @@ breedSlug: "dalmatian"
 breedName: "Dalmatian"
 wordCountEstimate: 346
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-dalmatian"
+heroImage: "https://images.pexels.com/photos/36330660/pexels-photo-36330660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36330660/pexels-photo-36330660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Dalmatian dog resting peacefully on the floor indoors, showcasing its unique black and white spots."
+imageAlt: "A Dalmatian dog resting peacefully on the floor indoors, showcasing its unique black and white spots."
+imageSource: "pexels"
+imageCredit: "Photo by Ayron Junior on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-relaxing-dalmatian-dog-indoors-36330660/"
+imageSearchQuery: "Dalmatian dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dalmatians
 Dalmatians are large-sized (45–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "wetterhoun"
 breedName: "Wetterhoun"
 wordCountEstimate: 422
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-wetterhoun"
+heroImage: "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6578830/pexels-photo-6578830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog"
+imageAlt: "Concentrated young African American couple with curly hairs in casual outfits eating takeaway salad and pizza while watching TV sitting on sofa near cute purebred dog"
+imageSource: "pexels"
+imageCredit: "Photo by Andres  Ayrton on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/focused-young-black-couple-having-lunch-and-watching-tv-on-couch-near-curious-dog-6578830/"
+imageSearchQuery: "Wetterhoun dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Wetterhouns
 Wetterhouns are large-sized (50–75 lbs), with regular energy, low shedding, and a curly coat. The recommendations below are matched to these traits.

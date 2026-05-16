@@ -27,7 +27,16 @@ breedSlug: "leonberger"
 breedName: "Leonberger"
 wordCountEstimate: 474
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-leonberger"
+heroImage: "https://images.pexels.com/photos/36537011/pexels-photo-36537011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36537011/pexels-photo-36537011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two Leonberger dogs enjoying a snowy day in the mountains with a stunning backdrop."
+imageAlt: "Two Leonberger dogs enjoying a snowy day in the mountains with a stunning backdrop."
+imageSource: "pexels"
+imageCredit: "Photo by Toki No Ori on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/leonbergers-in-snowy-mountain-landscape-36537011/"
+imageSearchQuery: "Leonberger dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Leonbergers
 Leonbergers are large-sized (90–170 lbs), with regular energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.

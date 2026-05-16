@@ -27,7 +27,16 @@ breedSlug: "shih-tzu"
 breedName: "Shih Tzu"
 wordCountEstimate: 354
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-shih-tzu"
+heroImage: "https://images.pexels.com/photos/19145883/pexels-photo-19145883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145883/pexels-photo-19145883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Shih Tzu dog being bathed at a pet grooming salon by a tattooed groomer."
+imageAlt: "A Shih Tzu dog being bathed at a pet grooming salon by a tattooed groomer."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/arms-of-a-person-bathing-a-dog-19145883/"
+imageSearchQuery: "Shih Tzu dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Shih Tzus
 Shih Tzus are small-sized (9–16 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

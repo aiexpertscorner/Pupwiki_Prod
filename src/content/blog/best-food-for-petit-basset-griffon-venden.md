@@ -27,7 +27,16 @@ breedSlug: "petit-basset-griffon-venden"
 breedName: "Petit Basset Griffon Vendéen"
 wordCountEstimate: 468
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-petit-basset-griffon-venden"
+heroImage: "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7421520/pexels-photo-7421520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog sniffs pistachios on a white plate in an overhead, natural setting."
+imageAlt: "A dog sniffs pistachios on a white plate in an overhead, natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Vie Studio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-smelling-the-pistachios-7421520/"
+imageSearchQuery: "Petit Basset Griffon Vendéen dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Petit Basset Griffon Vendéens
 Petit Basset Griffon Vendéens are medium-sized (25–40 lbs), with active energy, low shedding, and a rough coat. The recommendations below are matched to these traits.

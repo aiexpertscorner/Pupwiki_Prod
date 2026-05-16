@@ -27,7 +27,16 @@ breedSlug: "english-cocker-spaniel"
 breedName: "English Cocker Spaniel"
 wordCountEstimate: 354
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-english-cocker-spaniel"
+heroImage: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively."
+imageAlt: "A close-up portrait of a black and white Cocker Spaniel dog indoors, staring attentively."
+imageSource: "pexels"
+imageCredit: "Photo by SlimMars 13 on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-black-and-white-cocker-spaniel-indoors-34913554/"
+imageSearchQuery: "English Cocker Spaniel dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Cocker Spaniels
 English Cocker Spaniels are medium-sized (26–34 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "poodle-standard"
 breedName: "Poodle (Standard)"
 wordCountEstimate: 354
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-poodle-standard"
+heroImage: "https://images.pexels.com/photos/35276199/pexels-photo-35276199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35276199/pexels-photo-35276199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Beautiful black poodle dog with curly fur sitting on a green lawn in a garden."
+imageAlt: "Beautiful black poodle dog with curly fur sitting on a green lawn in a garden."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-poodle-sitting-in-green-garden-outdoors-35276199/"
+imageSearchQuery: "Poodle (Standard) dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Poodle (Standard)s
 Poodle (Standard)s are large-sized (40–70 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

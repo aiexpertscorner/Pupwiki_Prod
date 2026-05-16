@@ -27,7 +27,16 @@ breedSlug: "working-kelpie"
 breedName: "Working Kelpie"
 wordCountEstimate: 493
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-working-kelpie"
+heroImage: "https://images.pexels.com/photos/13565285/pexels-photo-13565285.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13565285/pexels-photo-13565285.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of an Australian Kelpie dog in front of wooden logs, showcasing its attentive expression."
+imageAlt: "A detailed close-up of an Australian Kelpie dog in front of wooden logs, showcasing its attentive expression."
+imageSource: "pexels"
+imageCredit: "Photo by James Knight on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-brown-and-black-dog-13565285/"
+imageSearchQuery: "Working Kelpie dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Working Kelpies
 Working Kelpies are medium-sized (28–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

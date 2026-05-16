@@ -27,7 +27,16 @@ breedSlug: "norwich-terrier"
 breedName: "Norwich Terrier"
 wordCountEstimate: 448
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-norwich-terrier"
+heroImage: "https://images.pexels.com/photos/7210443/pexels-photo-7210443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7210443/pexels-photo-7210443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "From above adorable Norwich Terrier dog with tongue out walking on asphalt path and looking away on sunny day"
+imageAlt: "From above adorable Norwich Terrier dog with tongue out walking on asphalt path and looking away on sunny day"
+imageSource: "pexels"
+imageCredit: "Photo by Blue Bird on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-dog-walking-on-asphalt-road-7210443/"
+imageSearchQuery: "Norwich Terrier dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Norwich Terriers
 Norwich Terriers are small-sized (12 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.

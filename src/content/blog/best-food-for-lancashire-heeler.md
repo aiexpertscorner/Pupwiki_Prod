@@ -27,7 +27,16 @@ breedSlug: "lancashire-heeler"
 breedName: "Lancashire Heeler"
 wordCountEstimate: 491
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-lancashire-heeler"
+heroImage: "https://images.pexels.com/photos/6633910/pexels-photo-6633910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6633910/pexels-photo-6633910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Lancashire Heeler dog playing with a ball on snow-covered ground during winter."
+imageAlt: "Lancashire Heeler dog playing with a ball on snow-covered ground during winter."
+imageSource: "pexels"
+imageCredit: "Photo by www.kaboompics.com on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-playing-with-a-ballon-snow-covered-ground-6633910/"
+imageSearchQuery: "Lancashire Heeler dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lancashire Heelers
 Lancashire Heelers are small-sized (9–17 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

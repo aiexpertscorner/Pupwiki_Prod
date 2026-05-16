@@ -27,7 +27,16 @@ breedSlug: "scottish-deerhound"
 breedName: "Scottish Deerhound"
 wordCountEstimate: 435
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-scottish-deerhound"
+heroImage: "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries."
+imageAlt: "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries."
+imageSource: "pexels"
+imageCredit: "Photo by Rarnie McCudden on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/"
+imageSearchQuery: "Scottish Deerhound dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Scottish Deerhounds
 Scottish Deerhounds are large-sized (75–110 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.

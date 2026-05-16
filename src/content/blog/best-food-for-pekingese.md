@@ -27,7 +27,16 @@ breedSlug: "pekingese"
 breedName: "Pekingese"
 wordCountEstimate: 443
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-pekingese"
+heroImage: "https://images.pexels.com/photos/35531848/pexels-photo-35531848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35531848/pexels-photo-35531848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Pekingese dog standing on a rainy autumn path, showcasing its fluffy fur."
+imageAlt: "Adorable Pekingese dog standing on a rainy autumn path, showcasing its fluffy fur."
+imageSource: "pexels"
+imageCredit: "Photo by Roman Biernacki on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/pekingese-dog-on-a-wet-autumn-pathway-outdoors-35531848/"
+imageSearchQuery: "Pekingese dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pekingeses
 Pekingeses are small-sized (14 lbs), with calm energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

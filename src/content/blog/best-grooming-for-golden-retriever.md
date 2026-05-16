@@ -27,7 +27,16 @@ breedSlug: "golden-retriever"
 breedName: "Golden Retriever"
 wordCountEstimate: 354
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-golden-retriever"
+heroImage: "https://images.pexels.com/photos/19145880/pexels-photo-19145880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145880/pexels-photo-19145880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Professional dog grooming with scissors focusing on leg trimming indoors."
+imageAlt: "Professional dog grooming with scissors focusing on leg trimming indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-hand-trimming-dog-19145880/"
+imageSearchQuery: "Golden Retriever dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Golden Retrievers
 Golden Retrievers are large-sized (55–75 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

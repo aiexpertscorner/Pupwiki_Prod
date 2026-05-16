@@ -27,7 +27,16 @@ breedSlug: "shetland-sheepdog"
 breedName: "Shetland Sheepdog"
 wordCountEstimate: 354
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-shetland-sheepdog"
+heroImage: "https://images.pexels.com/photos/16669179/pexels-photo-16669179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16669179/pexels-photo-16669179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Shetland Sheepdog resting on a vibrant summer meadow, showcasing its elegant fur."
+imageAlt: "Adorable Shetland Sheepdog resting on a vibrant summer meadow, showcasing its elegant fur."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/shetland-sheepdog-on-the-grass-in-summer-16669179/"
+imageSearchQuery: "Shetland Sheepdog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Shetland Sheepdogs
 Shetland Sheepdogs are small-sized (15–25 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

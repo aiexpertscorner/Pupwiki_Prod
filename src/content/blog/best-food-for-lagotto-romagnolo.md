@@ -27,7 +27,16 @@ breedSlug: "lagotto-romagnolo"
 breedName: "Lagotto Romagnolo"
 wordCountEstimate: 430
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-lagotto-romagnolo"
+heroImage: "https://images.pexels.com/photos/20066093/pexels-photo-20066093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20066093/pexels-photo-20066093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Joyful Lagotto Romagnolo dog running through a vibrant green field in sunny rural setting."
+imageAlt: "Joyful Lagotto Romagnolo dog running through a vibrant green field in sunny rural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Hans-Jörg B. on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-running-on-the-grass-20066093/"
+imageSearchQuery: "Lagotto Romagnolo dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lagotto Romagnolos
 Lagotto Romagnolos are medium-sized (24–35 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

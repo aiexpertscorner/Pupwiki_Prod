@@ -27,7 +27,16 @@ breedSlug: "yorkshire-terrier"
 breedName: "Yorkshire Terrier"
 wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-yorkshire-terrier"
+heroImage: "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A female pet groomer trims a terrier dog's fur in an indoor grooming salon."
+imageAlt: "A female pet groomer trims a terrier dog's fur in an indoor grooming salon."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/"
+imageSearchQuery: "Yorkshire Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Yorkshire Terriers
 Yorkshire Terriers are small-sized (7 lbs), with regular energy, minimal shedding, and a silky coat. The recommendations below are matched to these traits.

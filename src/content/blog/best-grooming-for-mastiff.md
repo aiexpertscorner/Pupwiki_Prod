@@ -27,7 +27,16 @@ breedSlug: "mastiff"
 breedName: "Mastiff"
 wordCountEstimate: 330
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-mastiff"
+heroImage: "https://images.pexels.com/photos/34315/bordeaux-mastiff-dog-animal.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34315/bordeaux-mastiff-dog-animal.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A French Bulldog enjoying a spring day in a green grassy field."
+imageAlt: "A French Bulldog enjoying a spring day in a green grassy field."
+imageSource: "pexels"
+imageCredit: "Photo by Pixabay on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-short-haired-dog-on-green-ground-cover-plants-during-daytime-34315/"
+imageSearchQuery: "Mastiff dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Mastiffs
 Mastiffs are large-sized (120–230 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.

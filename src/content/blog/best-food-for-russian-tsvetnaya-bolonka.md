@@ -27,7 +27,16 @@ breedSlug: "russian-tsvetnaya-bolonka"
 breedName: "Russian Tsvetnaya Bolonka"
 wordCountEstimate: 444
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-russian-tsvetnaya-bolonka"
+heroImage: "https://images.pexels.com/photos/12983201/pexels-photo-12983201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12983201/pexels-photo-12983201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Four adorable dogs, including a Black Bolonka and Papillon, sitting on grass in an autumn setting."
+imageAlt: "Four adorable dogs, including a Black Bolonka and Papillon, sitting on grass in an autumn setting."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-dogs-on-grass-12983201/"
+imageSearchQuery: "Russian Tsvetnaya Bolonka dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Russian Tsvetnaya Bolonkas
 Russian Tsvetnaya Bolonkas are small-sized (4.5–11 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

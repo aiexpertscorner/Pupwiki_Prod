@@ -27,7 +27,16 @@ breedSlug: "samoyed"
 breedName: "Samoyed"
 wordCountEstimate: 527
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-samoyed"
+heroImage: "https://images.pexels.com/photos/4453088/pexels-photo-4453088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4453088/pexels-photo-4453088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Samoyed dog with tongue out sits on a sunlit deck."
+imageAlt: "Adorable Samoyed dog with tongue out sits on a sunlit deck."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-long-coat-small-dog-4453088/"
+imageSearchQuery: "Samoyed dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Samoyeds
 Samoyeds are medium-sized (35–65 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

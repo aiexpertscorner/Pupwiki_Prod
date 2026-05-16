@@ -27,7 +27,16 @@ breedSlug: "samoyed"
 breedName: "Samoyed"
 wordCountEstimate: 341
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-samoyed"
+heroImage: "https://images.pexels.com/photos/28730603/pexels-photo-28730603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28730603/pexels-photo-28730603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two fluffy Samoyed dogs happily sitting together in a sunny garden."
+imageAlt: "Two fluffy Samoyed dogs happily sitting together in a sunny garden."
+imageSource: "pexels"
+imageCredit: "Photo by Jools Magools on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/smiling-samoyeds-outdoors-in-ascot-vale-28730603/"
+imageSearchQuery: "Samoyed dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Samoyeds
 Samoyeds are medium-sized (35–65 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

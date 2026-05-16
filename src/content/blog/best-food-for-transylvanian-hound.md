@@ -27,7 +27,16 @@ breedSlug: "transylvanian-hound"
 breedName: "Transylvanian Hound"
 wordCountEstimate: 445
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-transylvanian-hound"
+heroImage: "https://images.pexels.com/photos/28931359/pexels-photo-28931359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28931359/pexels-photo-28931359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and tan dog on a leash standing on paved surface in Whistler, BC."
+imageAlt: "Black and tan dog on a leash standing on paved surface in Whistler, BC."
+imageSource: "pexels"
+imageCredit: "Photo by Bethany Ellis on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-tan-dog-on-leash-in-whistler-28931359/"
+imageSearchQuery: "Transylvanian Hound dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Transylvanian Hounds
 Transylvanian Hounds are medium-sized (55 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

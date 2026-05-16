@@ -27,7 +27,16 @@ breedSlug: "kuvasz"
 breedName: "Kuvasz"
 wordCountEstimate: 474
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-kuvasz"
+heroImage: "https://images.pexels.com/photos/27046439/pexels-photo-27046439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27046439/pexels-photo-27046439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A white dog eats from a bowl on the grass outside, with a second bowl nearby."
+imageAlt: "A white dog eats from a bowl on the grass outside, with a second bowl nearby."
+imageSource: "pexels"
+imageCredit: "Photo by Magda Ehlers on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-with-bowls-of-food-27046439/"
+imageSearchQuery: "Kuvasz dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Kuvaszs
 Kuvaszs are large-sized (70–115 lbs), with regular energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

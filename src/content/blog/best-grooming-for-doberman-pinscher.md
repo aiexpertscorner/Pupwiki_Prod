@@ -27,7 +27,16 @@ breedSlug: "doberman-pinscher"
 breedName: "Doberman Pinscher"
 wordCountEstimate: 358
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-doberman-pinscher"
+heroImage: "https://images.pexels.com/photos/11169490/pexels-photo-11169490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11169490/pexels-photo-11169490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of a Doberman dog with a focus on its face and collar."
+imageAlt: "A detailed close-up of a Doberman dog with a focus on its face and collar."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-doberman-11169490/"
+imageSearchQuery: "Doberman Pinscher dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Doberman Pinschers
 Doberman Pinschers are large-sized (60–100 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

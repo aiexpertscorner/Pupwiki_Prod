@@ -27,7 +27,16 @@ breedSlug: "bull-terrier"
 breedName: "Bull Terrier"
 wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bull-terrier"
+heroImage: "https://images.pexels.com/photos/159692/dog-training-joy-fun-159692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/159692/dog-training-joy-fun-159692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A joyful bull terrier dog leaps high in an open grassy field on a sunny day."
+imageAlt: "A joyful bull terrier dog leaps high in an open grassy field on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Pixabay on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-dog-terrier-jumping-near-grass-field-during-daytime-159692/"
+imageSearchQuery: "Bull Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bull Terriers
 Bull Terriers are large-sized (50–70 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "border-collie"
 breedName: "Border Collie"
 wordCountEstimate: 353
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-border-collie"
+heroImage: "https://images.pexels.com/photos/35815215/pexels-photo-35815215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35815215/pexels-photo-35815215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A beautiful Border Collie dog stands in a snowy landscape near Poprad, Slovakia."
+imageAlt: "A beautiful Border Collie dog stands in a snowy landscape near Poprad, Slovakia."
+imageSource: "pexels"
+imageCredit: "Photo by Michal Petráš on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/border-collie-in-snowy-landscape-slovakia-35815215/"
+imageSearchQuery: "Border Collie dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Border Collies
 Border Collies are medium-sized (30–55 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

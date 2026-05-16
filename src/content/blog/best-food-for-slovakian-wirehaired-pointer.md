@@ -27,7 +27,16 @@ breedSlug: "slovakian-wirehaired-pointer"
 breedName: "Slovakian Wirehaired Pointer"
 wordCountEstimate: 453
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-slovakian-wirehaired-pointer"
+heroImage: "https://images.pexels.com/photos/28594184/pexels-photo-28594184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28594184/pexels-photo-28594184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Wirehaired dog enjoys a peaceful walk in a serene autumn forest."
+imageAlt: "Wirehaired dog enjoys a peaceful walk in a serene autumn forest."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/wirehaired-dog-in-autumn-forest-setting-28594184/"
+imageSearchQuery: "Slovakian Wirehaired Pointer dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Slovakian Wirehaired Pointers
 Slovakian Wirehaired Pointers are medium-sized (50–65 lbs), with active energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.

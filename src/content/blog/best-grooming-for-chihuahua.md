@@ -27,7 +27,16 @@ breedSlug: "chihuahua"
 breedName: "Chihuahua"
 wordCountEstimate: 330
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-chihuahua"
+heroImage: "https://images.pexels.com/photos/485294/pexels-photo-485294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/485294/pexels-photo-485294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute chihuahua dog enjoys bath with playful foam hat in orange tub."
+imageAlt: "Cute chihuahua dog enjoys bath with playful foam hat in orange tub."
+imageSource: "pexels"
+imageCredit: "Photo by nishizuka on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-chihuahua-485294/"
+imageSearchQuery: "Chihuahua dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chihuahuas
 Chihuahuas are small-sized (6 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

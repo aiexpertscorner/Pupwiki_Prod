@@ -27,7 +27,16 @@ breedSlug: "havanese"
 breedName: "Havanese"
 wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-havanese"
+heroImage: "https://images.pexels.com/photos/31365340/pexels-photo-31365340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31365340/pexels-photo-31365340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute fluffy dog sitting on a tranquil sandy beach, surrounded by coastal grass."
+imageAlt: "Cute fluffy dog sitting on a tranquil sandy beach, surrounded by coastal grass."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-fluffy-dog-relaxing-on-sandy-beach-31365340/"
+imageSearchQuery: "Havanese dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Havaneses
 Havaneses are small-sized (7–13 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.

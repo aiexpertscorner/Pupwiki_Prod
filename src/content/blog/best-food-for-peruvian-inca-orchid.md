@@ -27,7 +27,16 @@ breedSlug: "peruvian-inca-orchid"
 breedName: "Peruvian Inca Orchid"
 wordCountEstimate: 504
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-peruvian-inca-orchid"
+heroImage: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageAlt: "A close-up of a brown dog eating kibble from a white bowl indoors."
+imageSource: "pexels"
+imageCredit: "Photo by cottonbro studio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/"
+imageSearchQuery: "Peruvian Inca Orchid dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Peruvian Inca Orchids
 Peruvian Inca Orchids are medium-sized (8.5–55 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "german-shepherd-dog"
 breedName: "German Shepherd Dog"
 wordCountEstimate: 370
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-german-shepherd-dog"
+heroImage: "https://images.pexels.com/photos/34618465/pexels-photo-34618465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34618465/pexels-photo-34618465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up photo of a German Shepherd dog looking directly at the camera outdoors."
+imageAlt: "A detailed close-up photo of a German Shepherd dog looking directly at the camera outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Thái Trường Giang on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-german-shepherd-dog-34618465/"
+imageSearchQuery: "German Shepherd Dog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Shepherd Dogs
 German Shepherd Dogs are large-sized (50–90 lbs), with regular energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

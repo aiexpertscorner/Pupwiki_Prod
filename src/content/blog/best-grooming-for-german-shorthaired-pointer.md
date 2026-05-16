@@ -27,7 +27,16 @@ breedSlug: "german-shorthaired-pointer"
 breedName: "German Shorthaired Pointer"
 wordCountEstimate: 370
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-german-shorthaired-pointer"
+heroImage: "https://images.pexels.com/photos/11269657/pexels-photo-11269657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11269657/pexels-photo-11269657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A German Shorthaired Pointer dog rests on a sandy surface outdoors, showing its distinctive coat and relaxed posture."
+imageAlt: "A German Shorthaired Pointer dog rests on a sandy surface outdoors, showing its distinctive coat and relaxed posture."
+imageSource: "pexels"
+imageCredit: "Photo by gabesdotphotos photographer on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-dog-lying-on-brown-sand-11269657/"
+imageSearchQuery: "German Shorthaired Pointer dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Shorthaired Pointers
 German Shorthaired Pointers are large-sized (45–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

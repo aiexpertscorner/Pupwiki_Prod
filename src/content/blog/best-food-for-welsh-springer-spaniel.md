@@ -27,7 +27,16 @@ breedSlug: "welsh-springer-spaniel"
 breedName: "Welsh Springer Spaniel"
 wordCountEstimate: 510
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-welsh-springer-spaniel"
+heroImage: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-on-grass-24453850/"
+imageSearchQuery: "Welsh Springer Spaniel dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Welsh Springer Spaniels
 Welsh Springer Spaniels are medium-sized (35–55 lbs), with active energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

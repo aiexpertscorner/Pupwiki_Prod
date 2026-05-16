@@ -27,7 +27,16 @@ breedSlug: "treeing-tennessee-brindle"
 breedName: "Treeing Tennessee Brindle"
 wordCountEstimate: 444
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-treeing-tennessee-brindle"
+heroImage: "https://images.pexels.com/photos/28614820/pexels-photo-28614820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28614820/pexels-photo-28614820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A brindle dog wearing a harness explores a snowy landscape filled with trees."
+imageAlt: "A brindle dog wearing a harness explores a snowy landscape filled with trees."
+imageSource: "pexels"
+imageCredit: "Photo by Stephen Leonardi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brindle-dog-on-snowy-outdoor-adventure-28614820/"
+imageSearchQuery: "Treeing Tennessee Brindle dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Treeing Tennessee Brindles
 Treeing Tennessee Brindles are medium-sized (30–50 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

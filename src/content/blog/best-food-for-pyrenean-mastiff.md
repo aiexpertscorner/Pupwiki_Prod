@@ -27,7 +27,16 @@ breedSlug: "pyrenean-mastiff"
 breedName: "Pyrenean Mastiff"
 wordCountEstimate: 501
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-pyrenean-mastiff"
+heroImage: "https://images.pexels.com/photos/30434990/pexels-photo-30434990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30434990/pexels-photo-30434990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A large fluffy dog basks in the sunlight against a clear blue sky."
+imageAlt: "A large fluffy dog basks in the sunlight against a clear blue sky."
+imageSource: "pexels"
+imageCredit: "Photo by Gioele Gatto on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-fluffy-dog-against-blue-sky-30434990/"
+imageSearchQuery: "Pyrenean Mastiff dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pyrenean Mastiffs
 Pyrenean Mastiffs are large-sized (120–240 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

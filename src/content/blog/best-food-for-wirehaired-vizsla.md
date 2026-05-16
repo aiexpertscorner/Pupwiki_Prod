@@ -27,7 +27,16 @@ breedSlug: "wirehaired-vizsla"
 breedName: "Wirehaired Vizsla"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-wirehaired-vizsla"
+heroImage: "https://images.pexels.com/photos/19324999/pexels-photo-19324999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19324999/pexels-photo-19324999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A brown dog lying on a frozen lake in winter, captured with selective focus."
+imageAlt: "A brown dog lying on a frozen lake in winter, captured with selective focus."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dog-lying-on-the-ice-19324999/"
+imageSearchQuery: "Wirehaired Vizsla dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Wirehaired Vizslas
 Wirehaired Vizslas are medium-sized (45–65 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.

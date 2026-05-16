@@ -27,7 +27,16 @@ breedSlug: "portuguese-pointer"
 breedName: "Portuguese Pointer"
 wordCountEstimate: 445
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-portuguese-pointer"
+heroImage: "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features."
+imageAlt: "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features."
+imageSource: "pexels"
+imageCredit: "Photo by Алексей Вечерин on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-black-and-white-short-coated-dog-9562585/"
+imageSearchQuery: "Portuguese Pointer dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Portuguese Pointers
 Portuguese Pointers are medium-sized (35–59 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

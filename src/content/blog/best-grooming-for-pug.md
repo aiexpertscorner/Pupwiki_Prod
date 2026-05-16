@@ -27,7 +27,16 @@ breedSlug: "pug"
 breedName: "Pug"
 wordCountEstimate: 346
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-pug"
+heroImage: "https://images.pexels.com/photos/32151207/pexels-photo-32151207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32151207/pexels-photo-32151207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming pug dog with a wrinkled face posing outdoors, showcasing its adorable features."
+imageAlt: "Charming pug dog with a wrinkled face posing outdoors, showcasing its adorable features."
+imageSource: "pexels"
+imageCredit: "Photo by Rajesh S  Balouria on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-pug-dog-posing-outdoors-32151207/"
+imageSearchQuery: "Pug dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pugs
 Pugs are small-sized (14–18 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

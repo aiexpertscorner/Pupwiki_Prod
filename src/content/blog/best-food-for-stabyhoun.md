@@ -27,7 +27,16 @@ breedSlug: "stabyhoun"
 breedName: "Stabyhoun"
 wordCountEstimate: 479
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-stabyhoun"
+heroImage: "https://images.pexels.com/photos/10991599/pexels-photo-10991599.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10991599/pexels-photo-10991599.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Stabyhoun dog holding a soccer ball in the snow during winter."
+imageAlt: "Close-up of a Stabyhoun dog holding a soccer ball in the snow during winter."
+imageSource: "pexels"
+imageCredit: "Photo by Nele We on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-in-close-up-photography-10991599/"
+imageSearchQuery: "Stabyhoun dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Stabyhouns
 Stabyhouns are medium-sized (40–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

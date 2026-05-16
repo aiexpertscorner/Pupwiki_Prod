@@ -27,7 +27,16 @@ breedSlug: "portuguese-sheepdog"
 breedName: "Portuguese Sheepdog"
 wordCountEstimate: 435
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-portuguese-sheepdog"
+heroImage: "https://images.pexels.com/photos/12910849/pexels-photo-12910849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12910849/pexels-photo-12910849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Polish Lowland Sheepdog eagerly awaiting a treat in a vibrant green field."
+imageAlt: "Close-up of a Polish Lowland Sheepdog eagerly awaiting a treat in a vibrant green field."
+imageSource: "pexels"
+imageCredit: "Photo by Denis Liendo ✅ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-12910849/"
+imageSearchQuery: "Portuguese Sheepdog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Portuguese Sheepdogs
 Portuguese Sheepdogs are medium-sized (37.5–59 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

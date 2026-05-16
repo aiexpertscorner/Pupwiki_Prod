@@ -27,7 +27,16 @@ breedSlug: "rottweiler"
 breedName: "Rottweiler"
 wordCountEstimate: 330
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-rottweiler"
+heroImage: "https://images.pexels.com/photos/4390792/pexels-photo-4390792.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4390792/pexels-photo-4390792.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Pedigree Rottweiler dog with tongue out lying on sandy ground near black fence in sunny day and looking away"
+imageAlt: "Pedigree Rottweiler dog with tongue out lying on sandy ground near black fence in sunny day and looking away"
+imageSource: "pexels"
+imageCredit: "Photo by Vova Kras on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/rottweiler-dog-lying-near-black-fence-4390792/"
+imageSearchQuery: "Rottweiler dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Rottweilers
 Rottweilers are large-sized (80–135 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

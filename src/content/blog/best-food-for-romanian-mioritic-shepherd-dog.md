@@ -27,7 +27,16 @@ breedSlug: "romanian-mioritic-shepherd-dog"
 breedName: "Romanian Mioritic Shepherd Dog"
 wordCountEstimate: 457
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-romanian-mioritic-shepherd-dog"
+heroImage: "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries."
+imageAlt: "Dalmatian dog sniffing tropical fruits on a platter, including figs and raspberries."
+imageSource: "pexels"
+imageCredit: "Photo by Rarnie McCudden on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/"
+imageSearchQuery: "Romanian Mioritic Shepherd Dog dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Romanian Mioritic Shepherd Dogs
 Romanian Mioritic Shepherd Dogs are large-sized (100–130 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

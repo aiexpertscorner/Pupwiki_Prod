@@ -27,7 +27,16 @@ breedSlug: "labrador-retriever"
 breedName: "Labrador Retriever"
 wordCountEstimate: 358
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-labrador-retriever"
+heroImage: "https://images.pexels.com/photos/11106504/pexels-photo-11106504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11106504/pexels-photo-11106504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Golden Retriever dog lying on lush green grass with tongue out, showcasing its playful and relaxed nature."
+imageAlt: "Golden Retriever dog lying on lush green grass with tongue out, showcasing its playful and relaxed nature."
+imageSource: "pexels"
+imageCredit: "Photo by Barnabas Davoti on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/golden-retriever-lying-on-green-grass-field-11106504/"
+imageSearchQuery: "Labrador Retriever dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Labrador Retrievers
 Labrador Retrievers are large-sized (55–80 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

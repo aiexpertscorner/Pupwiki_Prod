@@ -27,7 +27,16 @@ breedSlug: "poodle-toy"
 breedName: "Poodle (Toy)"
 wordCountEstimate: 354
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-poodle-toy"
+heroImage: "https://images.pexels.com/photos/19145875/pexels-photo-19145875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145875/pexels-photo-19145875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A professional groomer sprays a poodle during a grooming session indoors."
+imageAlt: "A professional groomer sprays a poodle during a grooming session indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/poodle-while-professional-grooming-19145875/"
+imageSearchQuery: "Poodle (Toy) dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Poodle (Toy)s
 Poodle (Toy)s are small-sized (4–6 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

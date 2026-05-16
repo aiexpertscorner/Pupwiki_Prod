@@ -27,7 +27,16 @@ breedSlug: "maltese"
 breedName: "Maltese"
 wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-maltese"
+heroImage: "https://images.pexels.com/photos/26201108/pexels-photo-26201108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26201108/pexels-photo-26201108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a white Bichon Frise dog, highlighting its fluffy fur in an indoor environment."
+imageAlt: "Close-up of a white Bichon Frise dog, highlighting its fluffy fur in an indoor environment."
+imageSource: "pexels"
+imageCredit: "Photo by Doğan Alpaslan  Demir on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-sitting-down-26201108/"
+imageSearchQuery: "Maltese dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Malteses
 Malteses are small-sized (7 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

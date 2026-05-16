@@ -27,7 +27,16 @@ breedSlug: "lhasa-apso"
 breedName: "Lhasa Apso"
 wordCountEstimate: 435
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-lhasa-apso"
+heroImage: "https://images.pexels.com/photos/12800450/pexels-photo-12800450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12800450/pexels-photo-12800450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Lhasa Apso dog standing on a path surrounded by nature."
+imageAlt: "Adorable Lhasa Apso dog standing on a path surrounded by nature."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dog-on-dirt-road-12800450/"
+imageSearchQuery: "Lhasa Apso dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lhasa Apsos
 Lhasa Apsos are small-sized (12–18 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

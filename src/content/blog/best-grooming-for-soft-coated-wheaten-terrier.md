@@ -27,7 +27,16 @@ breedSlug: "soft-coated-wheaten-terrier"
 breedName: "Soft Coated Wheaten Terrier"
 wordCountEstimate: 366
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-soft-coated-wheaten-terrier"
+heroImage: "https://images.pexels.com/photos/1376882/pexels-photo-1376882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/1376882/pexels-photo-1376882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A white dog with a collar stands confidently on a railroad track in nature."
+imageAlt: "A white dog with a collar stands confidently on a railroad track in nature."
+imageSource: "pexels"
+imageCredit: "Photo by Audrius Vizbaras on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-on-a-railroad-1376882/"
+imageSearchQuery: "Soft Coated Wheaten Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Soft Coated Wheaten Terriers
 Soft Coated Wheaten Terriers are medium-sized (30–40 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

@@ -20,7 +20,16 @@ monetizationIntent: food
 medicalDisclaimer: true
 affiliateDisclosure: true
 uniqueBlocks: []
+heroImage: "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of brown dry dog food kibble in various shapes and sizes."
+imageAlt: "A detailed close-up of brown dry dog food kibble in various shapes and sizes."
+imageSource: "pexels"
+imageCredit: "Photo by Rafael Rodrigues on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/"
+imageSearchQuery: "dog food"
 ---
+
 
 Understanding food allergies in dogs starts with knowing what drives the behaviour. Explain allergy vs intolerance and elimination diet. This guide covers the root causes, practical steps and products that help.
 

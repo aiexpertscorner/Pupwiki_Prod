@@ -27,7 +27,16 @@ breedSlug: "mountain-cur"
 breedName: "Mountain Cur"
 wordCountEstimate: 483
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-mountain-cur"
+heroImage: "https://images.pexels.com/photos/4418651/pexels-photo-4418651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4418651/pexels-photo-4418651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Ground level of obedient mongrel dog with striped brown fur eating bread while resting in yard on sunny day"
+imageAlt: "Ground level of obedient mongrel dog with striped brown fur eating bread while resting in yard on sunny day"
+imageSource: "pexels"
+imageCredit: "Photo by FOX ^.ᆽ.^= ∫ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/tranquil-mongrel-dog-lying-on-ground-with-piece-of-bread-4418651/"
+imageSearchQuery: "Mountain Cur dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Mountain Curs
 Mountain Curs are medium-sized (30–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

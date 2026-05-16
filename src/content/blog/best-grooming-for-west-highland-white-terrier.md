@@ -27,7 +27,16 @@ breedSlug: "west-highland-white-terrier"
 breedName: "West Highland White Terrier"
 wordCountEstimate: 366
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-west-highland-white-terrier"
+heroImage: "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Westie dog lying on a wooden floor, charming and fluffy."
+imageAlt: "Westie dog lying on a wooden floor, charming and fluffy."
+imageSource: "pexels"
+imageCredit: "Photo by Alan han on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-west-highland-white-terrier-indoors-31163319/"
+imageSearchQuery: "West Highland White Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for West Highland White Terriers
 West Highland White Terriers are small-sized (15–20 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.

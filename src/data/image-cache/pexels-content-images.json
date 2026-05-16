@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-16T22:01:46.676Z",
+  "syncedAt": "2026-05-16T22:07:15.276Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -14392,12 +14392,308 @@
       "photographerUrl": "https://www.pexels.com/@hathang73",
       "pexelsUrl": "https://www.pexels.com/photo/a-dog-wearing-a-harness-8258701/",
       "id": 8258701
+    },
+    "best-grooming-for-scottish-terrier:Scottish Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Westie dog lying on a wooden floor, charming and fluffy.",
+      "photographer": "Alan han",
+      "photographerUrl": "https://www.pexels.com/@alan-han-1165443528",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-west-highland-white-terrier-indoors-31163319/",
+      "id": 31163319
+    },
+    "best-grooming-for-shetland-sheepdog:Shetland Sheepdog dog grooming": {
+      "url": "https://images.pexels.com/photos/16669179/pexels-photo-16669179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Shetland Sheepdog resting on a vibrant summer meadow, showcasing its elegant fur.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/shetland-sheepdog-on-the-grass-in-summer-16669179/",
+      "id": 16669179
+    },
+    "best-grooming-for-shiba-inu:Shiba Inu dog grooming": {
+      "url": "https://images.pexels.com/photos/35051188/pexels-photo-35051188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Artistic black and white close-up of a Shiba Inu dog's face, showcasing texture and expression.",
+      "photographer": "Chris F",
+      "photographerUrl": "https://www.pexels.com/@chris-f-38966",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-shiba-inu-dog-in-black-and-white-35051188/",
+      "id": 35051188
+    },
+    "best-grooming-for-shih-tzu:Shih Tzu dog grooming": {
+      "url": "https://images.pexels.com/photos/19145883/pexels-photo-19145883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Shih Tzu dog being bathed at a pet grooming salon by a tattooed groomer.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/arms-of-a-person-bathing-a-dog-19145883/",
+      "id": 19145883
+    },
+    "best-grooming-for-siberian-husky:Siberian Husky dog grooming": {
+      "url": "https://images.pexels.com/photos/9632122/pexels-photo-9632122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A tattooed hand grooming a happy Siberian Husky dog with a pink brush.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/tattooed-person-combing-the-dog-9632122/",
+      "id": 9632122
+    },
+    "best-grooming-for-soft-coated-wheaten-terrier:Soft Coated Wheaten Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/1376882/pexels-photo-1376882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A white dog with a collar stands confidently on a railroad track in nature.",
+      "photographer": "Audrius Vizbaras",
+      "photographerUrl": "https://www.pexels.com/@audrius-vizbaras-584203",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-on-a-railroad-1376882/",
+      "id": 1376882
+    },
+    "best-grooming-for-vizsla:Vizsla dog grooming": {
+      "url": "https://images.pexels.com/photos/36007541/pexels-photo-36007541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Two dogs standing on a sunny field, showcasing their joyful nature and playful spirit.",
+      "photographer": "Nina Kvaltinova",
+      "photographerUrl": "https://www.pexels.com/@nina-kvaltinova-2159369153",
+      "pexelsUrl": "https://www.pexels.com/photo/two-dogs-enjoying-a-sunny-day-outdoors-36007541/",
+      "id": 36007541
+    },
+    "best-grooming-for-weimaraner:Weimaraner dog grooming": {
+      "url": "https://images.pexels.com/photos/36007541/pexels-photo-36007541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Two dogs standing on a sunny field, showcasing their joyful nature and playful spirit.",
+      "photographer": "Nina Kvaltinova",
+      "photographerUrl": "https://www.pexels.com/@nina-kvaltinova-2159369153",
+      "pexelsUrl": "https://www.pexels.com/photo/two-dogs-enjoying-a-sunny-day-outdoors-36007541/",
+      "id": 36007541
+    },
+    "best-grooming-for-west-highland-white-terrier:West Highland White Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/31163319/pexels-photo-31163319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Westie dog lying on a wooden floor, charming and fluffy.",
+      "photographer": "Alan han",
+      "photographerUrl": "https://www.pexels.com/@alan-han-1165443528",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-west-highland-white-terrier-indoors-31163319/",
+      "id": 31163319
+    },
+    "best-grooming-for-whippet:Whippet dog grooming": {
+      "url": "https://images.pexels.com/photos/3732454/pexels-photo-3732454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A sleek whippet dog wearing a red coat lies on a lush green grass field, capturing a serene and playful moment.",
+      "photographer": "Ion Ceban  @ionelceban",
+      "photographerUrl": "https://www.pexels.com/@ionelceban",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-and-white-short-coat-dog-on-green-grass-field-3732454/",
+      "id": 3732454
+    },
+    "best-grooming-for-yorkshire-terrier:Yorkshire Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A female pet groomer trims a terrier dog's fur in an indoor grooming salon.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/",
+      "id": 6131568
+    },
+    "dog-afraid-of-strangers:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "dog-body-language-signs:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "dog-chasing-cars:dog owner dog care": {
+      "url": "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A French Bulldog on a leash walking with its owner in a park setting.",
+      "photographer": "Abhishek  Navlakha",
+      "photographerUrl": "https://www.pexels.com/@navlakha",
+      "pexelsUrl": "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/",
+      "id": 32442916
+    },
+    "dog-digging-carpet:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "dog-eating-grass-and-dirt:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "dog-fence-fighting:dog owner dog care": {
+      "url": "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A French Bulldog on a leash walking with its owner in a park setting.",
+      "photographer": "Abhishek  Navlakha",
+      "photographerUrl": "https://www.pexels.com/@navlakha",
+      "pexelsUrl": "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/",
+      "id": 32442916
+    },
+    "dog-food-sensitive-stomach:dog food": {
+      "url": "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of brown dry dog food kibble in various shapes and sizes.",
+      "photographer": "Rafael Rodrigues",
+      "photographerUrl": "https://www.pexels.com/@rrodriguesim",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/",
+      "id": 34952073
+    },
+    "dog-leash-reactivity:dog owner dog care": {
+      "url": "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A French Bulldog on a leash walking with its owner in a park setting.",
+      "photographer": "Abhishek  Navlakha",
+      "photographerUrl": "https://www.pexels.com/@navlakha",
+      "pexelsUrl": "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/",
+      "id": 32442916
+    },
+    "dog-park-aggression:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "dog-playing-vs-fighting:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "dog-refusing-to-eat-kibble:dog food": {
+      "url": "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of brown dry dog food kibble in various shapes and sizes.",
+      "photographer": "Rafael Rodrigues",
+      "photographerUrl": "https://www.pexels.com/@rrodriguesim",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/",
+      "id": 34952073
+    },
+    "dog-shadow-chasing:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "dog-walking-extreme-heat:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "fear-aggression-in-dogs:dog owner dog care": {
+      "url": "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A French Bulldog on a leash walking with its owner in a park setting.",
+      "photographer": "Abhishek  Navlakha",
+      "photographerUrl": "https://www.pexels.com/@navlakha",
+      "pexelsUrl": "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/",
+      "id": 32442916
+    },
+    "fix-dog-separation-anxiety:dog training": {
+      "url": "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors.",
+      "photographer": "Anton Kudryashov",
+      "photographerUrl": "https://www.pexels.com/@anton-kudryashov-118639843",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/",
+      "id": 9956387
+    },
+    "food-allergies-in-dogs:dog food": {
+      "url": "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of brown dry dog food kibble in various shapes and sizes.",
+      "photographer": "Rafael Rodrigues",
+      "photographerUrl": "https://www.pexels.com/@rrodriguesim",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/",
+      "id": 34952073
+    },
+    "hiking-with-your-dog:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "house-trained-dog-having-accidents:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "human-foods-toxic-to-dogs:dog food": {
+      "url": "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of brown dry dog food kibble in various shapes and sizes.",
+      "photographer": "Rafael Rodrigues",
+      "photographerUrl": "https://www.pexels.com/@rrodriguesim",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/",
+      "id": 34952073
+    },
+    "introduce-dog-to-cat:dog owner dog care": {
+      "url": "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A French Bulldog on a leash walking with its owner in a park setting.",
+      "photographer": "Abhishek  Navlakha",
+      "photographerUrl": "https://www.pexels.com/@navlakha",
+      "pexelsUrl": "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/",
+      "id": 32442916
+    },
+    "introduce-puppy-to-older-dog:dog owner dog care": {
+      "url": "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A French Bulldog on a leash walking with its owner in a park setting.",
+      "photographer": "Abhishek  Navlakha",
+      "photographerUrl": "https://www.pexels.com/@navlakha",
+      "pexelsUrl": "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/",
+      "id": 32442916
+    },
+    "keep-dog-entertained-home-alone:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "potty-train-stubborn-puppy:dog owner dog care": {
+      "url": "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A French Bulldog on a leash walking with its owner in a park setting.",
+      "photographer": "Abhishek  Navlakha",
+      "photographerUrl": "https://www.pexels.com/@navlakha",
+      "pexelsUrl": "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/",
+      "id": 32442916
+    },
+    "puppy-crate-training-guide:dog owner dog training": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "raw-food-diet-for-dogs:dog food": {
+      "url": "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of brown dry dog food kibble in various shapes and sizes.",
+      "photographer": "Rafael Rodrigues",
+      "photographerUrl": "https://www.pexels.com/@rrodriguesim",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/",
+      "id": 34952073
+    },
+    "senior-dog-care-partners:dog owner comparing dog care": {
+      "url": "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/",
+      "id": 5483258
     }
   },
   "stats": {
     "scanned": 200,
     "changed": 200,
-    "skipped": 269,
+    "skipped": 832,
     "failed": 0,
     "force": false,
     "dry": false

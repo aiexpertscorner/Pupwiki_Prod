@@ -27,7 +27,16 @@ breedSlug: "sussex-spaniel"
 breedName: "Sussex Spaniel"
 wordCountEstimate: 430
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-sussex-spaniel"
+heroImage: "https://images.pexels.com/photos/35261898/pexels-photo-35261898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35261898/pexels-photo-35261898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Cocker Spaniel dog peacefully resting on a white background."
+imageAlt: "Adorable Cocker Spaniel dog peacefully resting on a white background."
+imageSource: "pexels"
+imageCredit: "Photo by Christopher Welsch Leveroni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/sleeping-cocker-spaniel-dog-portrait-35261898/"
+imageSearchQuery: "Sussex Spaniel dog eating healthy food"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Sussex Spaniels
 Sussex Spaniels are medium-sized (35–45 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
