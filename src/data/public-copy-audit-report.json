@@ -1,31 +1,10 @@
 {
-  "ok": false,
+  "ok": true,
   "blocking": true,
   "ciMode": false,
-  "scanned": 1531,
-  "count": 3,
-  "byFile": {
-    "src/components/home/HomeAwinShowcase.astro": 3
-  },
-  "hits": [
-    {
-      "file": "src/components/home/HomeAwinShowcase.astro",
-      "line": 156,
-      "pattern": "/\\bAWIN\\b/i",
-      "snippet": ".pw-awin {"
-    },
-    {
-      "file": "src/components/home/HomeAwinShowcase.astro",
-      "line": 685,
-      "pattern": "/\\bAWIN\\b/i",
-      "snippet": ".pw-awin {"
-    },
-    {
-      "file": "src/components/home/HomeAwinShowcase.astro",
-      "line": 705,
-      "pattern": "/\\bAWIN\\b/i",
-      "snippet": ".pw-awin {"
-    }
-  ],
-  "generatedAt": "2026-05-12T19:17:52.646Z"
+  "scanned": 1453,
+  "count": 0,
+  "byFile": {},
+  "hits": [],
+  "generatedAt": "2026-05-16T22:11:24.032Z"
 }
