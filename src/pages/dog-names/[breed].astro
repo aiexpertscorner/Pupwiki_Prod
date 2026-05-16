@@ -175,28 +175,76 @@ const generatorBreed = {
   inspirations: insps,
 };
 
-const jsonLd = {
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pupwiki.com' },
+    { '@type': 'ListItem', position: 2, name: 'Dog Names', item: 'https://pupwiki.com/dog-names' },
+    { '@type': 'ListItem', position: 3, name: `${n} Names`, item: `https://pupwiki.com/dog-names/${slug}` },
+  ],
+};
+
+const topBoyNames = boys.slice(0, 5).map((x) => x.name);
+const topGirlNames = girls.slice(0, 5).map((x) => x.name);
+const allTopNames = [...topBoyNames, ...topGirlNames];
+
+const faqLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
     {
       '@type': 'Question',
-      name: `Best boy names for ${n}s?`,
+      name: `What are the best boy names for a ${n}?`,
       acceptedAnswer: {
         '@type': 'Answer',
-        text: `Top boy names: ${boys.slice(0, 5).map((x) => x.name).join(', ')}.`,
+        text: `Top boy names for ${n}s: ${topBoyNames.join(', ')}. Short, 1–2 syllable names ending in a vowel work best for training recall.`,
       },
     },
     {
       '@type': 'Question',
-      name: `Best girl names for ${n}s?`,
+      name: `What are the best girl names for a ${n}?`,
       acceptedAnswer: {
         '@type': 'Answer',
-        text: `Top girl names: ${girls.slice(0, 5).map((x) => x.name).join(', ')}.`,
+        text: `Top girl names for ${n}s: ${topGirlNames.join(', ')}. Names that end in a vowel sound are easier for dogs to distinguish from everyday commands.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `How do I pick a name that works for training a ${n}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Choose a name with 1–2 syllables and a distinct vowel ending (like ${allTopNames[0] || 'Bella'} or ${allTopNames[2] || 'Milo'}). Avoid names that sound like common commands — "Ray" (stay), "Bo" (no), "Art" (sit). Test it by calling the name clearly in a quiet room: if the dog looks up within 2 seconds, it's a good fit.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `What name fits a ${personality} ${n}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `For a ${personality} ${n}, names like ${allTopNames.slice(0, 3).join(', ')} match their character well. Names that project energy or warmth tend to suit ${n}s based on their temperament and owner feedback.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `Can I change my ${n}'s name after adopting them?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Yes — dogs can learn new names at any age. Pair the new name with high-value treats over 7–14 days, calling the name once and immediately rewarding attention. Avoid repeating the old name once the switch begins. Most dogs adapt within 2 weeks.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `What are unique ${n} name ideas beyond the top lists?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Beyond the top picks, ${n} owners often choose nature-inspired or mythology names for a distinctive feel. Our name generator above lets you filter by theme, gender, and style to find something that feels personal to your dog.`,
       },
     },
   ],
 };
+
+const jsonLd = [breadcrumbLd, faqLd];
 ---
 
 <NameLayout

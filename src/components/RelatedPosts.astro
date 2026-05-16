@@ -5,8 +5,8 @@ const { currentTags = [], currentSlug = '' } = Astro.props;
 const all = await getCollection('blog');
 const related = all
   .filter(p => `/blog/${p.slug}` !== currentSlug && (currentTags.some(t => (p.data.tags||[]).includes(t))))
-  .slice(0, 3);
-const posts = related.length >= 2 ? related : all.filter(p => `/blog/${p.slug}` !== currentSlug).slice(0, 3);
+  .slice(0, 6);
+const posts = related.length >= 2 ? related : all.filter(p => `/blog/${p.slug}` !== currentSlug).slice(0, 6);
 ---
 {posts.length > 0 && (
   <div class="related-posts">

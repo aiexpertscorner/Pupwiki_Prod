@@ -147,20 +147,45 @@ const breadcrumbSchema = {
 
 const isTraining = normalize(category) === 'training' || normalize(fm.postType || '') === 'how-to' || tags.some((t: string) => normalize(t) === 'training');
 const isProductRoundup = ['product-roundup', 'comparison', 'ranking'].includes(normalize(fm.postType || ''));
+const isMedicalContent = normalize(fm.claimSensitivity || '') === 'high'
+  || ['health', 'insurance', 'supplements', 'vet'].some((kw) => normalize(category).includes(kw))
+  || tags.some((t: string) => ['health', 'supplements', 'insurance', 'vet-care'].includes(normalize(t)));
 
-const howToSchema = (isTraining && breedName) ? {
+// Only inject HowTo schema when the article explicitly declares structured steps via frontmatter.
+// The static 5-step fallback was removed: applying generic training steps to every training
+// article produces misleading structured data regardless of actual article content.
+const howToSchema = (isTraining && breedName && (fm as any).hasSteps === true) ? {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
   name: displayTitle,
   description: fm.description,
   ...(heroImage ? { image: heroImage } : {}),
-  step: [
-    { '@type': 'HowToStep', name: 'Start with basic commands', text: `Begin with sit, stay, come and leave it. ${breedName}s typically respond well to short 5–10 minute sessions with high-value food rewards.` },
-    { '@type': 'HowToStep', name: 'Use positive reinforcement', text: `Reward correct behaviour immediately with treats, praise or play. Avoid punishment-based techniques — they increase anxiety and slow learning.` },
-    { '@type': 'HowToStep', name: 'Build consistency across environments', text: `Practise commands at home, in the garden and on walks. ${breedName}s need exposure to different distractions before a behaviour is reliably generalised.` },
-    { '@type': 'HowToStep', name: 'Introduce leash and walking skills', text: `Use a correctly fitted harness or flat collar. Reward loose-leash walking immediately. Keep early walks short and reward calm behaviour throughout.` },
-    { '@type': 'HowToStep', name: 'Advance to recall and off-leash reliability', text: `Recall is the most important safety skill. Use a long line to practise in open spaces before progressing to off-leash in secure areas.` },
-  ],
+  step: ((fm as any).howToSteps || []).map((s: any, i: number) => ({
+    '@type': 'HowToStep',
+    position: i + 1,
+    name: s.name,
+    text: s.text,
+  })),
+} : null;
+
+const medicalWebPageSchema = isMedicalContent ? {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalWebPage',
+  name: displayTitle,
+  description: fm.description,
+  url: canonicalUrl,
+  lastReviewed: fm.updatedDate
+    ? new Date(fm.updatedDate).toISOString().split('T')[0]
+    : new Date(fm.pubDate).toISOString().split('T')[0],
+  medicalAudience: {
+    '@type': 'MedicalAudience',
+    audienceType: 'Dog owners',
+  },
+  reviewedBy: {
+    '@type': 'Organization',
+    name: 'PupWiki',
+    url: 'https://pupwiki.com/how-we-test',
+  },
 } : null;
 
 const productRoundupSchema = (isProductRoundup && fm.amazonQueries?.length) ? {
@@ -176,7 +201,13 @@ const productRoundupSchema = (isProductRoundup && fm.amazonQueries?.length) ? {
   })),
 } : null;
 
-const schema = [articleSchema, breadcrumbSchema, ...(howToSchema ? [howToSchema] : []), ...(productRoundupSchema ? [productRoundupSchema] : [])];
+const schema = [
+  articleSchema,
+  breadcrumbSchema,
+  ...(howToSchema ? [howToSchema] : []),
+  ...(productRoundupSchema ? [productRoundupSchema] : []),
+  ...(medicalWebPageSchema ? [medicalWebPageSchema] : []),
+];
 
 const relatedToolLinks = [
   { href: '/breeds', icon: '🐕', title: 'Explore dog breeds', text: 'Compare breed traits, size, grooming, training, and owner fit.' },

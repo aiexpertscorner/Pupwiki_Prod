@@ -88,8 +88,34 @@ function stars(r: number) {
         const fallback1   = localImg ? (brandImg || catImg) : (brandImg ? catImg : null);
         const fallback2   = localImg && brandImg ? catImg : null;
 
+        const productSchema = JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": p.name,
+          ...(p.brand_name ? { "brand": { "@type": "Brand", "name": p.brand_name } } : {}),
+          ...(p.rating ? {
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": parseFloat(p.rating || 4.5),
+              "bestRating": 5,
+              "worstRating": 1,
+              ...(p.reviewCount ? { "reviewCount": p.reviewCount } : {}),
+            },
+          } : {}),
+          ...(url && p.price ? {
+            "offers": {
+              "@type": "Offer",
+              "price": parseFloat(p.price),
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "url": url,
+            },
+          } : {}),
+        });
+
         return (
           <div class="product-card">
+            <script type="application/ld+json" set:html={productSchema} />
 
             {/* ── Image ── */}
             <div class="product-card__image-wrap">
@@ -202,11 +228,14 @@ function stars(r: number) {
               }
               <div class="product-card__cta-group">
                 {url && (
-                  <a href={url} rel="nofollow sponsored" target="_blank"
-                    class="product-card__cta"
-                    aria-label={`Check price for ${p.name} on Amazon.com`}>
-                    {isSubscription ? 'View plan' : 'Amazon.com'} →
-                  </a>
+                  <>
+                    <span class="product-card__sponsored" aria-label="Affiliate link">Affiliate</span>
+                    <a href={url} rel="nofollow sponsored" target="_blank"
+                      class="product-card__cta"
+                      aria-label={`Check price for ${p.name} on Amazon.com`}>
+                      {isSubscription ? 'View plan' : 'Amazon.com'} →
+                    </a>
+                  </>
                 )}
               </div>
             </div>

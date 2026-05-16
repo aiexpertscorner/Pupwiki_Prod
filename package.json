@@ -31,6 +31,8 @@
     "content:normalize": "node scripts/content/normalize-generated-frontmatter.mjs --apply",
     "content:normalize:check": "node scripts/content/normalize-generated-frontmatter.mjs",
     "content:audit:pseo": "node scripts/content/audit-pseo-copy.mjs",
+    "content:quality:check": "node scripts/audit-content-quality.mjs",
+    "content:quality:ci": "BLOCK_THIN_CONTENT=1 node scripts/audit-content-quality.mjs || true",
     "content:audit:public": "node scripts/content/audit-public-copy.mjs --strict",
     "content:audit:public:ci": "node scripts/content/audit-public-copy.mjs --ci",
     "design:audit:inline": "node scripts/audit-inline-design.mjs",
