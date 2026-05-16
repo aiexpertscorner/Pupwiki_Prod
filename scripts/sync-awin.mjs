@@ -611,7 +611,8 @@ async function fetchFeedProducts(feed, label) {
       ok(`${products.length} product row(s) from feed ${feedId}`);
       return products;
     }
-    warn(`feed/${feedId} returned no parseable products from one endpoint; trying next endpoint if available.`);
+    const preview = text.slice(0, 300).replace(/\s+/g, ' ');
+    warn(`feed/${feedId} returned no parseable products. Response preview: ${preview}`);
   }
 
   warn(`No product rows could be imported from feed ${feedId} (${label})`);
