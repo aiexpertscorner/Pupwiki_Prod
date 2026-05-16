@@ -174,3 +174,18 @@
   background: var(--color-bg-soft);
   color: var(--color-muted);
 }
+
+/* ── Ad slots — CLS-safe placeholders ─────────────────────────── */
+.ad-slot {
+  display: block;
+  width: 100%;
+  min-height: 90px;
+  background: transparent;
+  contain: layout;
+  overflow: hidden;
+}
+
+.ad-slot ins.adsbygoogle {
+  display: block;
+  min-height: 90px;
+}

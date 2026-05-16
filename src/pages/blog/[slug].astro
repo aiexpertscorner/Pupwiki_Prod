@@ -236,7 +236,7 @@ const relatedToolLinks = [
   breedSize={breed?.size_category}
   breedEnergy={breed?.energy_level}
   breedCoat={breed?.coat_type}
-  noIndex={fm.noIndex || false}
+  noIndex={fm.noIndex === true || (fm.generated === true && fm.indexInBlog === false)}
 >
   {isGeneratedSupport && (
     <aside class="article-support-note not-prose" aria-label="Support content note">

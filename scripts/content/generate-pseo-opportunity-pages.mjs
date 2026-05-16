@@ -211,7 +211,16 @@ function buildWhatToLookFor(breed, commerceCluster, pseoFamily) {
     const coatNote = (t.isHighShed || t.isDoubleCoat)
       ? `${t.name}s shed seasonally — look for formulas that include omega-3 fatty acids (EPA/DHA from salmon or fish oil) to support coat health from the inside out.`
       : '';
-    return `### What to look for in food for a ${t.name}\n\n${sizeNote} ${energyNote}${coatNote ? ' ' + coatNote : ''}`;
+    // Breed health conditions note
+    const ailmentNames = String(breed?.ranking_data?.genetic_ailment_names || '').toLowerCase();
+    const ailmentCount = Number(breed?.ranking_data?.genetic_ailments || 0);
+    let ailmentNote = '';
+    if (/hip|elbow|joint/.test(ailmentNames)) {
+      ailmentNote = `${t.name}s have a documented risk of joint conditions. Formulas with added glucosamine and chondroitin offer a convenient way to support joint health alongside the diet.`;
+    } else if (ailmentCount >= 3) {
+      ailmentNote = `${t.name}s carry ${ailmentCount} known genetic health conditions — discuss with your vet whether any specific nutritional adjustments make sense for your individual dog.`;
+    }
+    return `### What to look for in food for a ${t.name}\n\n${sizeNote} ${energyNote}${coatNote ? ' ' + coatNote : ''}${ailmentNote ? ' ' + ailmentNote : ''}`;
   }
 
   if (family === 'beds' || commerceCluster === 'dog-beds-comfort-home-partners') {
@@ -374,6 +383,9 @@ function breedFoodGuidance(breed) {
   const energy = (breed?.energy_level || breed?.traits?.energy_level || '').toLowerCase();
   const coat = (breed?.coat_type || breed?.traits?.coat_type || '').toLowerCase();
   const shedding = (breed?.shedding_level || breed?.traits?.shedding_level || '').toLowerCase();
+  const name = breed?.name || 'This breed';
+  // traits.energy_value is a 0-1 float scale
+  const energyValue = Number(breed?.traits?.energy_value ?? -1);
 
   const baselineIdx = djb2Hash(breed?.slug || breed?.name || 'default') % AAFCO_BASELINES.length;
   const baseLine = AAFCO_BASELINES[baselineIdx];
@@ -386,17 +398,54 @@ function breedFoodGuidance(breed) {
     ? `Giant breeds require large-breed-specific formulas with precisely balanced calcium and phosphorus levels. Avoid puppy formulas designed for smaller dogs, which can cause developmental issues.`
     : `Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.`;
 
-  const energyNote = (energy === 'high' || energy === 'active' || energy === 'very active')
-    ? `${breed?.name || 'This breed'} is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.`
-    : (energy === 'low' || energy === 'calm' || energy === 'sedentary')
-    ? `${breed?.name || 'This breed'} has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs.`
+  const isHighEnergy = energy === 'high' || energy === 'active' || energy === 'very active' || energyValue >= 0.7;
+  const isLowEnergy = energy === 'low' || energy === 'calm' || energy === 'sedentary' || (energyValue >= 0 && energyValue <= 0.3);
+  const energyNote = isHighEnergy
+    ? `${name} is an active breed — a higher-protein, moderate-fat formula supports sustained energy without excess weight gain.`
+    : isLowEnergy
+    ? `${name} has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs.`
     : '';
 
   const coatNote = (coat.includes('double') || shedding === 'high' || shedding === 'heavy')
     ? `High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.`
     : '';
 
-  return [baseLine, sizeNote, energyNote, coatNote].filter(Boolean).join(' ');
+  // Breed-specific health note from ranking_data.genetic_ailment_names
+  const ailmentNames = String(breed?.ranking_data?.genetic_ailment_names || '').toLowerCase();
+  const ailmentCount = Number(breed?.ranking_data?.genetic_ailments || 0);
+  let healthNote = '';
+  if (ailmentNames && ailmentCount > 0) {
+    if (/hip|elbow|joint|dysplasi/.test(ailmentNames)) {
+      healthNote = `${name}s are documented for joint conditions (${ailmentNames}) — look for formulas listing glucosamine and chondroitin as added ingredients, or plan to add a separate joint supplement after age 5.`;
+    } else if (/skin|derm|allerg/.test(ailmentNames)) {
+      healthNote = `${name}s have a noted tendency for skin and allergy conditions — limited-ingredient or single-protein diets can help identify food triggers. Fish-based formulas (salmon, whitefish) also support skin barrier health.`;
+    } else if (/heart|cardiac/.test(ailmentNames)) {
+      healthNote = `${name}s have an elevated risk for cardiac conditions. Current evidence suggests caution with grain-free diets as a primary choice — consult your vet before selecting a formula, and ensure it meets AAFCO nutritional standards.`;
+    } else if (/bloat|gastric/.test(ailmentNames)) {
+      healthNote = `${name}s can be susceptible to bloat (gastric dilatation-volvulus). Feed two or three smaller meals per day rather than one large meal, and avoid feeding immediately before or after vigorous exercise.`;
+    } else if (ailmentCount >= 3) {
+      healthNote = `${name}s carry ${ailmentCount} known genetic health conditions. Discuss nutritional support strategies with your vet when choosing a long-term formula.`;
+    }
+  }
+
+  // Calorie note using actual weight data
+  const wMin = breed?.weight?.min_lbs ?? breed?.weight?.imperial?.min;
+  const wMax = breed?.weight?.max_lbs ?? breed?.weight?.imperial?.max;
+  let calorieNote = '';
+  if (wMin && wMax) {
+    const midWeight = Math.round((Number(wMin) + Number(wMax)) / 2);
+    const baseCals = Math.round(70 * Math.pow(midWeight * 0.453592, 0.75));
+    const activeMult = isHighEnergy ? 1.6 : isLowEnergy ? 1.2 : 1.4;
+    const estCals = Math.round(baseCals * activeMult);
+    calorieNote = `For a typical adult ${name} (${wMin}–${wMax} lbs), the estimated resting energy requirement is around ${baseCals} kcal/day — with a ${energy || 'moderate'}-energy activity factor, daily intake sits roughly in the ${Math.round(estCals * 0.9)}–${Math.round(estCals * 1.1)} kcal range. Most quality kibbles list kcal/cup on the bag; use this to portion accurately rather than relying on the default "suggested feeding" table alone.`;
+  }
+
+  // Food-related care tip
+  const careTips = Array.isArray(breed?.care_tips) ? breed.care_tips : [];
+  const foodRelatedTip = careTips.find(t => /food|feed|diet|nutrition|eat|meal|treat/i.test(String(t)));
+  const careTipNote = foodRelatedTip ? `PupWiki care note: ${foodRelatedTip}` : '';
+
+  return [baseLine, sizeNote, energyNote, coatNote, healthNote, calorieNote, careTipNote].filter(Boolean).join(' ');
 }
 
 const CLUSTER_GUIDANCE = {
@@ -554,6 +603,20 @@ canonicalUrl: ${quote(`https://pupwiki.com/blog/${cluster.slug}`)}
 
 ${body}`;
 }
+function estimateWordCount(markdown) {
+  return markdown
+    .replace(/```[\s\S]*?```/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/^#{1,6}\s+.+$/gm, '')
+    .replace(/^[-*+]\s+/gm, '')
+    .replace(/^>\s*/gm, '')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1')
+    .trim()
+    .split(/\s+/)
+    .filter(w => w.length > 1).length;
+}
+
 function renderBreedPage(item) {
   const breed = breeds.find((breedItem) => breedItem.slug === item.breedSlug);
   const title = `${breed.name} ${titleCase(item.family)} Dog-Care Decision Guide`;
@@ -591,6 +654,7 @@ ${buildMiniFAQ(breed, item.commerceCluster, item.family)}
 
 ${item.internalLinkTargets.map((href) => `- [${titleCase(href.replace(/^\//, '').replace(/\//g, ' > '))}](${href})`).join('\n')}
 `;
+  const wordCount = estimateWordCount(body);
   return `---
 title: ${quote(title)}
 seoTitle: ${quote(title)}
@@ -618,6 +682,7 @@ affiliateDisclosure: true
 medicalDisclaimer: ${item.monetization?.claimSensitivity === 'high' ? 'true' : 'false'}
 breedSlug: ${quote(breed.slug)}
 breedName: ${quote(breed.name)}
+wordCountEstimate: ${wordCount}
 canonicalUrl: ${quote(`https://pupwiki.com/blog/${item.suggestedSlug}`)}
 ---
 

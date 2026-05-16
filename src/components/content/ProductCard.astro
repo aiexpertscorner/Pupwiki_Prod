@@ -76,10 +76,37 @@ const CAT_EMOJI: Record<string,string> = {
 const emoji = CAT_EMOJI[catKey] || '🐾';
 
 const cardId = `pc-${asin}-${Math.random().toString(36).slice(2,7)}`;
+
+const productSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name,
+  ...(brand_name ? { brand: { '@type': 'Brand', name: brand_name } } : {}),
+  ...(rating ? {
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: parseFloat(String(rating)),
+      bestRating: 5,
+      worstRating: 1,
+      ...(reviewCount ? { reviewCount } : {}),
+    },
+  } : {}),
+  ...(!isSubscription && price ? {
+    offers: {
+      '@type': 'Offer',
+      price: parseFloat(String(price)),
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      url: amazonUrl,
+    },
+  } : {}),
+});
 ---
 
 <div class="not-prose bg-white rounded-2xl border overflow-hidden shadow-sm hover:shadow-md transition-shadow"
   style="border-color:var(--color-surface-warm)">
+
+  <script type="application/ld+json" set:html={productSchema} />
 
   {badge && (
     <div class="font-sans text-xs font-bold uppercase tracking-wider text-center py-1.5 text-white"

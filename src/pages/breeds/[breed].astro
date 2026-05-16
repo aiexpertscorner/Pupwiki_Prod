@@ -280,6 +280,24 @@ const faqItems: { q: string; a: string }[] = [
         a: `${b.name}s may be prone to ${(healthProfile.common_issues as any[]).slice(0, 3).map((i: any) => i.name || i).join(', ')}. Regular veterinary check-ups and breed-specific health screening are recommended. This is general information — consult your vet for guidance specific to your dog.`,
       }]
     : []),
+  ...(rank.longevity_years
+    ? [{
+        q: `How long do ${b.name}s live?`,
+        a: life.min && life.max
+          ? `The ${b.name} has an average lifespan of ${life.min}–${life.max} years. Data from breed registries puts the median around ${rank.longevity_years} years. Genetics, diet, exercise, and preventive veterinary care all influence individual longevity.`
+          : `The average lifespan for a ${b.name} is around ${rank.longevity_years} years. Regular veterinary care, a balanced diet, and appropriate exercise help maximise healthy years.`,
+      }]
+    : []),
+  ...(rank.lifetime_cost_usd || rank.annual_food_cost
+    ? [{
+        q: `How much does it cost to own a ${b.name}?`,
+        a: rank.lifetime_cost_usd && rank.annual_food_cost
+          ? `Estimated lifetime ownership cost for a ${b.name} is around $${rank.lifetime_cost_usd.toLocaleString()}, with annual food costs typically around $${rank.annual_food_cost.toLocaleString()}. First-year costs are higher due to setup expenses, vaccinations, and spay/neuter. Use the PupWiki cost calculator for a personalised breakdown.`
+          : rank.annual_food_cost
+          ? `Annual food costs for a ${b.name} typically run around $${rank.annual_food_cost.toLocaleString()} per year. Total ownership costs vary based on health, grooming needs, and care choices — use the PupWiki cost calculator for a personalised estimate.`
+          : `Estimated lifetime ownership cost for a ${b.name} is around $${(rank.lifetime_cost_usd as number).toLocaleString()}. This includes food, vet care, grooming, and supplies averaged over the breed's typical lifespan.`,
+      }]
+    : []),
 ];
 
 const faqLd = faqItems.length > 0 ? JSON.stringify({
@@ -386,6 +404,19 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
 
     <div id="breed-products">
       <BreedCommerceSuite breedName={b.name} breedSlug={slug} breedSize={b.size_category} breedEnergy={b.energy_level} breedTraining={b.training_level} breedCoat={b.coat_type} topicTags={awinBaseTags} partnerClusters={partnerClusterLinks} />
+    </div>
+
+    <div class="breed-container" aria-hidden="true">
+      <div class="ad-slot">
+        <ins class="adsbygoogle"
+          style="display:block; min-height:90px; width:100%"
+          data-ad-client="ca-pub-4011000703937954"
+          data-ad-slot="auto"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
     </div>
 
     <div class="breed-container breed-main">
