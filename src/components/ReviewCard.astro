@@ -1,0 +1,257 @@
+---
+import RatingStars from './primitives/RatingStars.astro';
+import RatingBadge from './primitives/RatingBadge.astro';
+
+export interface Props {
+  name: string;
+  href: string;
+  image?: string;
+  price?: number;
+  rating?: number;
+  reviewCount?: number;
+  ourScore?: number;
+  verdict?: string;
+  pros?: string[];
+  cons?: string[];
+  badge?: string;
+  featured?: boolean;
+}
+const {
+  name, href, image, price, rating = 4.5, reviewCount,
+  ourScore, verdict, pros = [], cons = [], badge, featured = false,
+} = Astro.props;
+
+const today = new Date().toISOString().split('T')[0];
+const schema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "datePublished": today,
+  "reviewBody": verdict ?? "",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": name,
+    ...(price ? { "offers": { "@type": "Offer", "price": price, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": href } } : {}),
+    ...(rating ? { "aggregateRating": { "@type": "AggregateRating", "ratingValue": rating, "bestRating": 5, "worstRating": 1, ...(reviewCount ? { "reviewCount": reviewCount } : {}) } } : {}),
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": ourScore ?? rating,
+    "bestRating": ourScore ? 10 : 5,
+    "worstRating": 1,
+  },
+  "author": { "@type": "Organization", "name": "PupWiki", "url": "https://pupwiki.com/how-we-test" },
+});
+---
+
+<article class:list={['rc', { 'rc--featured': featured }]}>
+  <script type="application/ld+json" set:html={schema} />
+
+  {badge && <div class="rc__badge">{badge}</div>}
+
+  <div class="rc__body">
+    <div class="rc__header">
+      <a href={href} rel="nofollow sponsored" target="_blank" class="rc__image-link" aria-label={`View ${name}`}>
+        {image
+          ? <img src={image} alt={name} loading="lazy" width="80" height="80" class="rc__image" />
+          : <div class="rc__image-placeholder" aria-hidden="true">🐾</div>
+        }
+      </a>
+
+      <div class="rc__meta">
+        <h3 class="rc__name">{name}</h3>
+        <div class="rc__rating-row">
+          <RatingStars rating={rating} size="sm" />
+          <span class="rc__rating-text">{rating.toFixed(1)}{reviewCount && ` (${reviewCount.toLocaleString()})`}</span>
+          {price && <span class="rc__price">${price.toFixed(2)}</span>}
+        </div>
+      </div>
+
+      {ourScore && <RatingBadge score={ourScore} size="sm" />}
+    </div>
+
+    {verdict && <p class="rc__verdict">"{verdict}"</p>}
+
+    {(pros.length > 0 || cons.length > 0) && (
+      <div class="rc__pros-cons">
+        {pros.length > 0 && (
+          <div class="rc__pros">
+            <p class="rc__list-heading">Pros</p>
+            {pros.slice(0, 3).map(p => <p class="rc__list-item rc__list-item--pro">{p}</p>)}
+          </div>
+        )}
+        {cons.length > 0 && (
+          <div class="rc__cons">
+            <p class="rc__list-heading">Cons</p>
+            {cons.slice(0, 3).map(c => <p class="rc__list-item rc__list-item--con">{c}</p>)}
+          </div>
+        )}
+      </div>
+    )}
+
+    <a href={href} rel="nofollow sponsored" target="_blank" class="rc__cta btn btn--accent">
+      Check Price →
+    </a>
+  </div>
+</article>
+
+<style>
+  .rc {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    transition: box-shadow var(--transition-base), border-color var(--transition-base);
+    display: flex;
+    flex-direction: column;
+  }
+  .rc:hover {
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-accent-light);
+  }
+  .rc--featured {
+    border-color: var(--color-accent);
+    border-width: 2px;
+    box-shadow: var(--shadow-card);
+  }
+
+  .rc__badge {
+    background: var(--color-accent);
+    color: var(--color-text-inverse);
+    padding: 0.25rem 1rem;
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .rc__body {
+    padding: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    flex: 1;
+  }
+
+  .rc__header {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
+  }
+
+  .rc__image-link {
+    display: block;
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--color-border-soft);
+    background: var(--color-bg-muted);
+  }
+  .rc__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0.25rem;
+    display: block;
+    transition: transform var(--transition-slow);
+  }
+  .rc__image-link:hover .rc__image {
+    transform: scale(1.05);
+  }
+  .rc__image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  .rc__meta {
+    flex: 1;
+    min-width: 0;
+  }
+  .rc__name {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: var(--weight-semi);
+    color: var(--color-heading);
+    margin: 0 0 0.35rem;
+    line-height: 1.3;
+  }
+  .rc__rating-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  .rc__rating-text {
+    font-size: 0.78rem;
+    color: var(--color-muted);
+    font-family: var(--font-mono);
+  }
+  .rc__price {
+    font-size: 0.82rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-accent);
+    margin-left: auto;
+  }
+
+  .rc__verdict {
+    font-size: 0.9rem;
+    color: var(--color-body-soft);
+    border-left: 3px solid var(--color-accent-light);
+    padding: 0.2rem 0.6rem;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  .rc__pros-cons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+  .rc__pros {
+    background: var(--color-score-good-light);
+    border: 1px solid var(--color-score-good-border);
+    border-radius: var(--radius-md);
+    padding: 0.5rem 0.65rem;
+  }
+  .rc__cons {
+    background: var(--color-danger-light);
+    border: 1px solid var(--color-danger-light);
+    border-radius: var(--radius-md);
+    padding: 0.5rem 0.65rem;
+  }
+  .rc__list-heading {
+    font-size: 0.7rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0 0 0.25rem;
+    color: var(--color-heading);
+  }
+  .rc__pros .rc__list-heading { color: var(--color-score-good); }
+  .rc__cons .rc__list-heading { color: var(--color-score-danger); }
+  .rc__list-item {
+    font-size: 0.78rem;
+    color: var(--color-body-soft);
+    margin: 0 0 0.1rem;
+    line-height: 1.4;
+  }
+
+  .rc__cta {
+    margin-top: auto;
+    text-align: center;
+    display: block;
+  }
+
+  @media (max-width: 480px) {
+    .rc__pros-cons {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

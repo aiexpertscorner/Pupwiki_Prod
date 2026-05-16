@@ -30,6 +30,9 @@
 @import './components/affiliate.css';
 @import './components/monetization.css';
 
+/* Reviews, ratings, content-type badges */
+@import './components/reviews.css';
+
 /* Domain modules */
 @import './components/breed.css';
 @import './components/breed-page.css';

@@ -78,6 +78,8 @@ const BANNED = [
 
 const ALLOWED_LINE_PATTERNS = [
   /no account,\s*no backend,\s*no saved user profile/i,
+  />\s*\*\*affiliate disclosure\*\*:/i,
+  /affiliate links? on this page|earn.*commission.*no extra cost/i,
 ];
 
 function walk(dir) {
@@ -107,6 +109,10 @@ function stripInlineScripts(text) {
   return text.replace(/<script\b[\s\S]*?<\/script>/gi, '');
 }
 
+function stripStyleBlocks(text) {
+  return text.replace(/<style\b[\s\S]*?<\/style>/gi, '');
+}
+
 function stripAttributes(text) {
   return text.replace(/<([A-Za-z][A-Za-z0-9:-]*)(\s[^>]*)?>/g, '<$1>');
 }
@@ -115,7 +121,7 @@ function publicTextFor(file) {
   const raw = readFileSync(file, 'utf8');
   const ext = extname(file);
   if (ext === '.md' || ext === '.mdx') return stripFrontmatter(raw);
-  if (ext === '.astro') return stripAttributes(stripCodeComments(stripInlineScripts(stripFrontmatter(raw))));
+  if (ext === '.astro') return stripAttributes(stripCodeComments(stripStyleBlocks(stripInlineScripts(stripFrontmatter(raw)))));
   return raw;
 }
 

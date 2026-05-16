@@ -3,19 +3,19 @@ export interface Props { faqs: Array<{question:string; answer:string}>; heading?
 const { faqs, heading = "FAQ" } = Astro.props;
 const schema = JSON.stringify({ "@context":"https://schema.org","@type":"FAQPage","mainEntity":faqs.map(f=>({ "@type":"Question","name":f.question,"acceptedAnswer":{"@type":"Answer","text":f.answer} })) });
 ---
-<section style="margin:2.5rem 0">
+<section class="faq">
   <script type="application/ld+json" set:html={schema} />
-  <h2 style="font-family:'Anton',sans-serif;font-size:2.5rem;text-transform:uppercase;color:var(--offwhite);margin:0 0 1.25rem;letter-spacing:-.02em">{heading}</h2>
-  <div style="display:flex;flex-direction:column;gap:.5rem">
+  <h2 class="faq__heading">{heading}</h2>
+  <div class="faq__list">
     {faqs.map((f,i) => (
-      <div style="border:2px solid rgba(255,255,255,0.1);background:var(--concrete);overflow:hidden">
+      <div class="faq__item">
         <button onclick={`toggleFaq(${i})`}
-          style="width:100%;text-align:left;padding:1rem 1.25rem;font-family:'Archivo Black',sans-serif;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;background:transparent;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;color:var(--offwhite)"
+          class="faq__btn"
           id={`faqbtn${i}`} aria-expanded="false">
           <span>{f.question}</span>
-          <span style="color:var(--lime);transition:transform .2s;flex-shrink:0;margin-left:.5rem;font-size:.75rem" id={`faqico${i}`}>▼</span>
+          <span class="faq__icon" id={`faqico${i}`}>▼</span>
         </button>
-        <div id={`faqbody${i}`} style="display:none;padding:.25rem 1.25rem 1rem;font-family:'Barlow Condensed',sans-serif;font-size:1rem;color:var(--smoke);line-height:1.65;border-top:1px solid rgba(255,255,255,.06)">{f.answer}</div>
+        <div id={`faqbody${i}`} class="faq__body" hidden>{f.answer}</div>
       </div>
     ))}
   </div>
@@ -25,7 +25,68 @@ const schema = JSON.stringify({ "@context":"https://schema.org","@type":"FAQPage
     const b=document.getElementById('faqbody'+i), btn=document.getElementById('faqbtn'+i), ico=document.getElementById('faqico'+i);
     const open=btn.getAttribute('aria-expanded')==='true';
     btn.setAttribute('aria-expanded',String(!open));
-    if(b)b.style.display=open?'none':'block';
+    if(b){ b.hidden=open; }
     if(ico)ico.style.transform=open?'':'rotate(180deg)';
   }
 </script>
+
+<style>
+  .faq {
+    margin: 2.5rem 0;
+  }
+  .faq__heading {
+    font-family: var(--sw-font-display);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--offwhite);
+    margin: 0 0 1.25rem;
+    letter-spacing: -0.02em;
+  }
+  .faq__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .faq__item {
+    border: 2px solid rgba(255,255,255,0.1);
+    background: var(--concrete);
+    overflow: hidden;
+  }
+  .faq__btn {
+    width: 100%;
+    text-align: left;
+    padding: 1rem 1.25rem;
+    font-family: var(--sw-font-heading);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--offwhite);
+  }
+  .faq__btn:hover {
+    color: var(--lime);
+  }
+  .faq__icon {
+    color: var(--lime);
+    transition: transform 0.2s;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+  }
+  .faq__body {
+    padding: 0.25rem 1.25rem 1rem;
+    font-family: var(--sw-font-body);
+    font-size: 1rem;
+    color: var(--smoke);
+    line-height: 1.65;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .faq__body[hidden] {
+    display: none;
+  }
+</style>

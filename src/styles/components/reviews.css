@@ -1,0 +1,102 @@
+/* =============================================================
+   reviews.css — Review hub, review grid, and rating utilities
+   ============================================================= */
+
+/* ── Review grid ── */
+.review-grid {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+}
+
+/* ── Review section heading ── */
+.review-section__heading {
+  font-family: var(--font-sans);
+  font-size: var(--text-h2);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+  margin: 0 0 var(--space-2);
+}
+.review-section__sub {
+  font-size: var(--text-md);
+  color: var(--color-muted);
+  margin: 0 0 var(--space-8);
+}
+
+/* ── Inline rating row (used outside cards) ── */
+.rating-row {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+.rating-row__count {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+}
+
+/* ── Content type badge (Product Review / Guide / How-To) ── */
+.content-type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: var(--weight-semi);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 1px solid currentColor;
+}
+.content-type-badge--review  { color: var(--color-accent); background: var(--color-accent-subtle); }
+.content-type-badge--guide   { color: var(--color-primary); background: var(--color-primary-subtle); }
+.content-type-badge--howto   { color: var(--color-success); background: var(--color-success-light); }
+.content-type-badge--faq     { color: var(--color-warning); background: var(--color-warning-light); }
+
+/* ── Verdict box ── */
+.verdict-box {
+  background: var(--color-primary-subtle);
+  border-left: 4px solid var(--color-primary);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  padding: var(--space-4) var(--space-5);
+}
+.verdict-box__label {
+  font-size: 0.7rem;
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-primary);
+  margin-bottom: var(--space-1);
+}
+.verdict-box__text {
+  font-size: var(--text-md);
+  color: var(--color-body);
+  margin: 0;
+  line-height: var(--leading-relaxed);
+}
+
+/* ── Review hub filter bar ── */
+.review-filters {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-8);
+}
+.review-filter-btn {
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-body);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  cursor: pointer;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+.review-filter-btn:hover,
+.review-filter-btn[aria-pressed="true"] {
+  border-color: var(--color-accent);
+  background: var(--color-accent-subtle);
+  color: var(--color-accent);
+}
