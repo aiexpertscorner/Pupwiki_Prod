@@ -170,6 +170,59 @@ const RULES = [
 
 // ─── Breed-attribute-driven content sections ──────────────────────────────────
 
+function lifeExpStr(breed) {
+  const life = breed?.life_expectancy;
+  if (!life?.min && !life?.max) return null;
+  return life.min === life.max ? `${life.min} years` : `${life.min}–${life.max} years`;
+}
+
+function buildHealthRisks(breed) {
+  const t = getBreedTraits(breed);
+  const ailmentNames = String(breed?.ranking_data?.genetic_ailment_names || '').trim();
+  const ailmentCount = Number(breed?.ranking_data?.genetic_ailments || 0);
+  const lifeStr = lifeExpStr(breed);
+
+  if (!ailmentNames || ailmentCount === 0) {
+    return `### Common health concerns for ${t.name}s\n\nNo breed-specific genetic ailments are currently documented for the ${t.name}${lifeStr ? ` (typical life expectancy: ${lifeStr})` : ''}. Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.`;
+  }
+
+  const ailmentList = ailmentNames.split(/[,;]+/).map((s) => s.trim()).filter(Boolean);
+  const bulletList = ailmentList.map((a) => `- **${a.charAt(0).toUpperCase() + a.slice(1)}**: Ask your vet about recommended screening and prevention for this condition in ${t.name}s.`).join('\n');
+
+  return `### Common health concerns for ${t.name}s
+
+${t.name}s have ${ailmentCount} documented genetic health condition${ailmentCount !== 1 ? 's' : ''}: ${ailmentNames}.${lifeStr ? ` Typical life expectancy is ${lifeStr}.` : ''}
+
+${bulletList}
+
+> **Important:** This list is drawn from breed-level genetic data and does not predict what any individual dog will experience. Only a vet can assess your dog's specific health risk based on exam findings, parentage, and history.`;
+}
+
+function buildCostContext(breed) {
+  const t = getBreedTraits(breed);
+  const rd = breed?.ranking_data || {};
+  const lifetimeCost = rd.lifetime_cost_usd;
+  const annualFood = rd.annual_food_cost;
+  const purchasePrice = rd.purchase_price_usd;
+
+  if (!lifetimeCost && !annualFood && !purchasePrice) return '';
+
+  const parts = [];
+  if (purchasePrice) parts.push(`**Typical purchase price:** $${Number(purchasePrice).toLocaleString()} (varies by breeder quality and region)`);
+  if (annualFood) parts.push(`**Annual food cost:** ~$${Number(annualFood).toLocaleString()} for a ${t.size}-sized ${t.name}`);
+  if (lifetimeCost) parts.push(`**Estimated lifetime cost:** ~$${Number(lifetimeCost).toLocaleString()} (food, vet, grooming, and supplies — excludes major unexpected costs)`);
+
+  return `### Cost context for ${t.name} owners\n\n${parts.join('\n')}\n\nThese figures are estimates from aggregated ownership data. Actual costs vary significantly by region, individual health, and care choices. Use the [PupWiki cost calculator](/cost-calculator/${breed.slug}) for a personalised estimate.`;
+}
+
+function buildCareTips(breed, maxTips = 4) {
+  const t = getBreedTraits(breed);
+  const tips = Array.isArray(breed?.care_tips) ? breed.care_tips : [];
+  if (tips.length === 0) return '';
+  const bulletList = tips.slice(0, maxTips).map((tip) => `- ${tip}`).join('\n');
+  return `### Care tips for ${t.name} owners\n\n${bulletList}`;
+}
+
 function getBreedTraits(breed) {
   const size = (breed?.size_category || breed?.size || 'medium').toLowerCase();
   const energy = (breed?.energy_level || breed?.traits?.energy_level || 'moderate').toLowerCase();
@@ -259,6 +312,53 @@ function buildWhatToLookFor(breed, commerceCluster, pseoFamily) {
     return `### What to look for in training gear for a ${t.name}\n\n${difficultyNote} ${gearNote} ${socialNote}`;
   }
 
+  if (family === 'health') {
+    const ailmentNames = String(breed?.ranking_data?.genetic_ailment_names || '').trim();
+    const ailmentCount = Number(breed?.ranking_data?.genetic_ailments || 0);
+    const lifeStr = lifeExpStr(breed);
+    const riskNote = ailmentCount > 0 && ailmentNames
+      ? `${t.name}s have ${ailmentCount} documented genetic health condition${ailmentCount !== 1 ? 's' : ''}: **${ailmentNames}**. Knowing these in advance helps you choose the right insurance timing and ask targeted screening questions at vet appointments.`
+      : `No specific genetic ailments are documented for the ${t.name} in current breed data. Standard preventive care still applies.`;
+    const sizeNote2 = t.isLarge
+      ? `Large breeds like the ${t.name} are statistically more prone to joint issues and shorter lifespans. Vet visits every 6 months from age 6 onward are generally recommended over the standard annual check.`
+      : t.isSmall
+      ? `Toy and small breeds like the ${t.name} often live longer but are more prone to dental disease, luxating patellas, and tracheal collapse. Annual dental checks from age 2 onward are more important for small breeds than most owners realise.`
+      : `Medium breeds generally have fewer size-specific health risks than very small or very large breeds, but breed-specific genetic screening still applies.`;
+    const insuranceNote = `For any breed with documented genetic conditions, consider enrolling in pet insurance before symptoms appear — most policies exclude pre-existing conditions.${lifeStr ? ` With a typical ${t.name} life expectancy of ${lifeStr}, insurance decisions made in the first year can significantly affect lifetime vet coverage.` : ''}`;
+    return `### What to know about ${t.name} health planning\n\n${riskNote} ${sizeNote2} ${insuranceNote}`;
+  }
+
+  if (family === 'supplements') {
+    const ailmentNames = String(breed?.ranking_data?.genetic_ailment_names || '').toLowerCase();
+    const ailmentCount = Number(breed?.ranking_data?.genetic_ailments || 0);
+    const vetFirstNote = `⚠️ Always discuss supplements with your vet before starting. Supplements are not regulated as rigorously as medications — quality and dosing vary widely between products.`;
+    let conditionNote = '';
+    if (/hip|elbow|joint|dysplasi/.test(ailmentNames)) {
+      conditionNote = `${t.name}s have documented joint conditions (${ailmentNames}). Glucosamine and chondroitin are among the most studied supplements for joint support in dogs — discuss appropriate timing with your vet before symptoms appear.`;
+    } else if (/skin|derm|allerg/.test(ailmentNames)) {
+      conditionNote = `${t.name}s have noted skin and allergy conditions. Omega-3 fatty acids (EPA/DHA from fish oil) are well-studied for skin barrier support. Ask your vet about dosing specific to your dog's weight.`;
+    } else if (/heart|cardiac/.test(ailmentNames)) {
+      conditionNote = `${t.name}s have elevated cardiac risk. Be cautious with supplements marketed for "heart health" that lack veterinary evidence. Discuss any supplement plan with a veterinary cardiologist if indicated.`;
+    } else if (ailmentCount > 0) {
+      conditionNote = `${t.name}s have ${ailmentCount} documented genetic conditions. Supplements relevant to these conditions may offer support — confirm relevance and safety with your vet before starting any.`;
+    } else {
+      conditionNote = `No breed-specific supplement priority is indicated by current genetic data for the ${t.name}. A balanced AAFCO-compliant diet is the baseline — supplements fill specific gaps identified by your vet, not general prevention.`;
+    }
+    const labelNote = `When evaluating supplements, prioritise products with NASC (National Animal Supplement Council) certification, a published Certificate of Analysis (CoA) for third-party testing, and a clearly stated active-ingredient concentration on the label.`;
+    return `### What to look for in supplements for a ${t.name}\n\n${vetFirstNote} ${conditionNote} ${labelNote}`;
+  }
+
+  if (family === 'puppy') {
+    const sizeNote2 = t.isSmall
+      ? `Small-breed puppies like the ${t.name} have fast metabolisms and small stomachs — feed 3–4 small meals per day until 6 months, then twice daily. Use a small-breed puppy formula; avoid large-breed or all-breed blends with inappropriate calorie density.`
+      : t.isLarge
+      ? `Large-breed puppies like the ${t.name} need large-breed-specific puppy formulas that control calcium and phosphorus ratios. Avoid generic puppy food — rapid growth from inappropriate nutrition is a major cause of joint problems in large breeds. Limit stairs and jumping until growth plates close at 12–18 months.`
+      : `Medium-breed puppies do well on standard puppy formulas — look for AAFCO "growth" or "all life stages" labelling. Transition to adult food between 12 and 15 months.`;
+    const vetNote = `Schedule a vet visit within the first 72 hours of bringing your ${t.name} puppy home. The first-year vet schedule typically includes: 8-week vaccines, 12-week booster, 16-week final puppy booster, 6-month neuter/spay consultation, and 12-month first adult check.`;
+    const socialNote = `The critical socialisation window is 8–16 weeks. Each week, introduce new sounds, surfaces, people, and vaccinated calm dogs. A puppy class started at 8–10 weeks provides peer exposure that home training alone cannot replicate.`;
+    return `### What to prioritise in the first weeks with a ${t.name} puppy\n\n${sizeNote2} ${vetNote} ${socialNote}`;
+  }
+
   // Generic fallback for other families
   const sizeNote = t.isSmall
     ? `${t.name}s are small dogs — always verify sizing, weight limits, and portion sizes are appropriate for a ${t.size}-sized breed before buying.`
@@ -338,6 +438,61 @@ function buildMiniFAQ(breed, commerceCluster, pseoFamily) {
       { q: `What training method works best for a ${t.name}?`, a: methodNote },
       { q: `At what age should I start training my ${t.name}?`, a: ageNote },
     );
+  } else if (family === 'health') {
+    const ailmentNames = String(breed?.ranking_data?.genetic_ailment_names || '').trim();
+    const ailmentCount = Number(breed?.ranking_data?.genetic_ailments || 0);
+    const lifeStr = lifeExpStr(breed);
+    const q1 = `What are the most common health problems in ${t.name}s?`;
+    const a1 = ailmentCount > 0 && ailmentNames
+      ? `${t.name}s have ${ailmentCount} documented genetic health condition${ailmentCount !== 1 ? 's' : ''}: ${ailmentNames}. These are breed-level statistical risks — not every ${t.name} will develop these conditions. Your vet can recommend targeted screening based on your dog's individual history.`
+      : `No specific genetic ailments are currently documented for the ${t.name}. Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and healthy weight — applies to all dogs. Ask your vet whether any breed-specific screening is recommended.`;
+    const q2 = `How long do ${t.name}s live?`;
+    const a2 = lifeStr
+      ? `${t.name}s have a typical life expectancy of ${lifeStr}. Individual lifespan depends on genetics, weight management, preventive care, and whether any genetic conditions develop. Annual vet visits and maintaining a healthy weight are among the most evidence-backed longevity factors for dogs.`
+      : `Life expectancy varies by individual dog. Annual preventive vet care, healthy weight, and early detection of any breed-specific conditions are the most evidence-backed factors affecting lifespan.`;
+    const q3 = `Should I get pet insurance for a ${t.name}?`;
+    const a3 = ailmentCount >= 3
+      ? `${t.name}s have ${ailmentCount} documented genetic conditions — pet insurance is worth serious consideration. Enrol before any symptoms appear, as most policies exclude pre-existing conditions. Compare waiting periods, breed-specific exclusions, and annual limits across providers.`
+      : ailmentCount > 0
+      ? `With ${ailmentCount} documented genetic condition${ailmentCount !== 1 ? 's' : ''}, pet insurance can help manage financial risk for ${t.name}s. Get a quote before your puppy's first vet visit — some conditions can be flagged as pre-existing quickly.`
+      : `Pet insurance is worth considering for any dog. Even without breed-specific genetic conditions, unexpected accidents and illnesses affect most dogs over a lifetime. Compare plans by waiting period, reimbursement model, and annual or per-condition limits.`;
+    pairs.push({ q: q1, a: a1 }, { q: q2, a: a2 }, { q: q3, a: a3 });
+  } else if (family === 'supplements') {
+    const ailmentNames = String(breed?.ranking_data?.genetic_ailment_names || '').toLowerCase();
+    const ailmentCount = Number(breed?.ranking_data?.genetic_ailments || 0);
+    const q1 = `What supplements are most relevant for a ${t.name}?`;
+    let a1 = '';
+    if (/hip|elbow|joint|dysplasi/.test(ailmentNames)) {
+      a1 = `${t.name}s have documented joint conditions — glucosamine (500–1,000 mg/day depending on weight), chondroitin (400–800 mg/day), and omega-3 fatty acids are among the most studied options for joint support in dogs. Confirm dosing with your vet.`;
+    } else if (/skin|derm|allerg/.test(ailmentNames)) {
+      a1 = `${t.name}s have noted skin and allergy conditions. Fish oil (EPA+DHA omega-3s) is well-supported for skin barrier health. Biotin and vitamin E are sometimes added but have weaker evidence. Discuss with your vet before starting.`;
+    } else {
+      a1 = `No breed-specific supplement priority is clearly indicated for the ${t.name}. Omega-3 fatty acids are broadly supported for coat health and inflammation. Joint supplements become relevant around age 5+ for many breeds. Always confirm with your vet before starting any supplement.`;
+    }
+    const q2 = `Are supplements safe for ${t.name}s?`;
+    const a2 = `Dog supplements are not FDA-regulated the same way medications are — quality varies significantly between brands. Choose products with NASC certification, a published Certificate of Analysis (CoA) from third-party testing, and clearly stated active ingredient concentrations. Always disclose supplement use to your vet, as interactions with medications and health conditions are possible.`;
+    const q3 = `At what age should I start supplements for a ${t.name}?`;
+    const a3 = t.isLarge
+      ? `For large breeds like the ${t.name}, joint supplements can be introduced as early as age 3–5 — before symptoms develop — if your vet agrees. This is particularly relevant for breeds with documented joint conditions. Don't wait until limping or stiffness appears if genetic risk is high.`
+      : `Most supplements are most relevant from middle age onward (5–7 years depending on size). Puppies should generally not receive adult-strength supplements — ask your vet about puppy-appropriate options if indicated.`;
+    pairs.push({ q: q1, a: a1 }, { q: q2, a: a2 }, { q: q3, a: a3 });
+  } else if (family === 'puppy') {
+    const rd = breed?.ranking_data || {};
+    const purchasePrice = rd.purchase_price_usd;
+    const annualFood = rd.annual_food_cost;
+    const q1 = `What does a ${t.name} puppy need in the first week?`;
+    const a1 = t.isLarge
+      ? `In the first week: vet check within 72 hours, a large-breed puppy formula (2–3 meals/day — avoid one large meal), a crate sized for an adult ${t.name}, and crate training started with short positive sessions. Limit stairs and jumping — growth plates are open until 12–18 months.`
+      : t.isSmall
+      ? `In the first week: vet check within 72 hours, a small-breed puppy formula (3–4 small meals/day), a crate the right size for sleeping, and gentle exposure to household sounds. Avoid dog parks and public areas until vaccinations are complete.`
+      : `In the first week: vet check within 72 hours, a puppy formula appropriate for ${t.size} breeds (3 meals/day until 6 months), crate introduction with positive reinforcement, and household exposure. Avoid public dog areas until vaccines are complete.`;
+    const q2 = `How do I socialise a ${t.name} puppy?`;
+    const a2 = `The critical window is 8–16 weeks. Each week, introduce new sounds (traffic, appliances, children), new surfaces (gravel, carpet, grass, pavement), new people, and vaccinated calm dogs. A structured puppy class started at 8–10 weeks is the most efficient route — it covers socialisation and basic obedience in one place. After 16 weeks the window closes — missed socialisation is harder (not impossible) to compensate for later.`;
+    const q3 = `How much does a ${t.name} puppy cost in the first year?`;
+    const a3 = (purchasePrice || annualFood)
+      ? `Beyond the purchase price (~$${purchasePrice ? Number(purchasePrice).toLocaleString() : '500–2,000'} for a ${t.name}), the first year typically includes: ${annualFood ? `food (~$${Math.round(Number(annualFood) * 0.85)}–${Math.round(Number(annualFood) * 1.15)} for puppy-stage feeding)` : 'food ($300–$800 depending on size)'}, puppy vaccines and vet checks ($300–$600), supplies/setup ($200–$500), and spay/neuter ($200–$600). Total first-year cost is often 50–100% higher than subsequent years.`
+      : `The first year is typically the most expensive — beyond the purchase price, budget for vaccines ($300–$600), supplies/setup ($200–$500), food ($300–$800), and spay/neuter ($200–$600). Use the PupWiki cost calculator for a ${t.name}-specific estimate.`;
+    pairs.push({ q: q1, a: a1 }, { q: q2, a: a2 }, { q: q3, a: a3 });
   } else {
     // Generic fallback
     const q1 = `Is a ${t.name} expensive to care for?`;
@@ -362,7 +517,8 @@ function buildMiniFAQ(breed, commerceCluster, pseoFamily) {
   }
 
   const faqMd = pairs.map(({ q, a }) => `**${q}**\n\n${a}`).join('\n\n');
-  return `### Frequently asked questions about ${t.name} ${family === 'food' ? 'feeding' : family === 'beds' ? 'beds' : family === 'grooming' ? 'grooming' : family === 'training' ? 'training' : 'care'}\n\n${faqMd}`;
+  const faqLabel = { food: 'feeding', beds: 'beds', grooming: 'grooming', training: 'training', health: 'health', supplements: 'supplements', puppy: 'puppy care' }[family] || 'care';
+  return `### Frequently asked questions about ${t.name} ${faqLabel}\n\n${faqMd}`;
 }
 
 const AAFCO_BASELINES = [
@@ -620,7 +776,37 @@ function estimateWordCount(markdown) {
 
 function renderBreedPage(item) {
   const breed = breeds.find((breedItem) => breedItem.slug === item.breedSlug);
-  const title = `${breed.name} ${titleCase(item.family)} Dog-Care Decision Guide`;
+  const pseoFamilyKey = item.family || '';
+  const isHealthFamily = pseoFamilyKey === 'health';
+  const isSuppFamily = pseoFamilyKey === 'supplements';
+  const isPuppyFamily = pseoFamilyKey === 'puppy';
+
+  const FAMILY_TITLE_MAP = {
+    health: `${breed.name} Health Guide: Common Issues and Vet Planning`,
+    puppy: `${breed.name} Puppy Guide: First Year Setup and Care`,
+    supplements: `${breed.name} Supplement Guide: What to Ask Your Vet`,
+  };
+  const FAMILY_DESC_MAP = {
+    health: `A practical ${breed.name} health guide covering genetic risks, vet care scheduling, insurance timing, and preventive care.`,
+    puppy: `What new ${breed.name} owners need in the first year: feeding, socialisation, vet schedule, and first-year budget.`,
+    supplements: `Supplement guidance for ${breed.name} owners, including breed-specific joint, skin, and gut health context and vet-check reminders.`,
+  };
+  const FAMILY_DISPLAY_MAP = {
+    health: `${breed.name} health guide: common issues and vet planning`,
+    puppy: `${breed.name} puppy guide: first year setup and care`,
+    supplements: `${breed.name} supplement guide: what to ask your vet`,
+  };
+  const FAMILY_POSTTYPE_MAP = {
+    health: 'health',
+    puppy: 'general',
+    supplements: 'product-roundup',
+  };
+
+  const title = FAMILY_TITLE_MAP[pseoFamilyKey] || `${breed.name} ${titleCase(item.family)} Dog-Care Decision Guide`;
+  const description = FAMILY_DESC_MAP[pseoFamilyKey] || `A PupWiki guide for current and future ${breed.name} people comparing dog-care brands, products, services and practical next steps.`;
+  const displayTitle = FAMILY_DISPLAY_MAP[pseoFamilyKey] || `${breed.name} ${titleCase(item.family)} decision guide`;
+  const postType = FAMILY_POSTTYPE_MAP[pseoFamilyKey] || 'product-roundup';
+
   const tags = unique([item.family, item.cluster, item.commerceCluster, breed.slug, breed.name, ...item.programmes, ...item.amazonQueries]).map(slugify);
   const sensitive = (item.monetization?.claimSensitivity || 'medium') === 'high';
   const ctx = breedContext(breed);
@@ -628,23 +814,36 @@ function renderBreedPage(item) {
   const guidance = item.commerceCluster === 'dog-food-nutrition-partners'
     ? breedFoodGuidance(breed)
     : (CLUSTER_GUIDANCE[item.commerceCluster] || '');
+
+  // Normalise internal links: /blog → /guides
+  item = {
+    ...item,
+    internalLinkTargets: (item.internalLinkTargets || []).map((href) => href === '/blog' ? '/guides' : href),
+  };
+  const isEnrichedFamily = isHealthFamily || isSuppFamily || isPuppyFamily;
+
+  const healthRisksSection = (isHealthFamily || isSuppFamily) ? buildHealthRisks(breed) : '';
+  const costSection = isEnrichedFamily ? buildCostContext(breed) : '';
+  const careTipsSection = isEnrichedFamily ? buildCareTips(breed) : '';
+
   const body = `> **Reader-support note:** PupWiki may earn from qualifying partner links.
 ${sensitive ? '\n> **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.\n' : ''}
-## Why this guide exists for ${breed.name}s
+## About ${breed.name}s
 
 ${ctx}
 ${aiSummary ? `\n${aiSummary}\n` : ''}
-This page helps ${breed.name} people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a ${breed.name} fits your home, budget and routine.
+${isEnrichedFamily ? '' : `This page helps ${breed.name} people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a ${breed.name} fits your home, budget and routine.`}
 
-## Brands and services to compare
+${healthRisksSection ? `${healthRisksSection}\n` : ''}
+${!isEnrichedFamily ? `## Brands and services to compare
 
 ${item.programmes.map((name) => `- **${name}**`).join('\n')}
 
 ## Products and service details to compare
 
-${item.products.length ? item.products.map(productLine).join('\n\n') : '- Start with provider fit, service terms, availability, reviews and dog-care purpose. Product-level details may vary by brand and location.'}
+${item.products.length ? item.products.map(productLine).join('\n\n') : '- Start with provider fit, service terms, availability, reviews and dog-care purpose. Product-level details may vary by brand and location.'}` : ''}
 
-## How to choose for a ${breed.name}
+## How to approach ${isHealthFamily ? `${breed.name} health` : isSuppFamily ? `supplements for ${breed.name}s` : isPuppyFamily ? `a ${breed.name} puppy's first year` : `${breed.name} care`}
 
 ${guidance || `Match the option to a ${breed.name}'s specific size, energy level and coat type. Confirm details directly on the partner site.`}
 
@@ -652,6 +851,8 @@ ${buildWhatToLookFor(breed, item.commerceCluster, item.family)}
 
 ${buildMiniFAQ(breed, item.commerceCluster, item.family)}
 
+${careTipsSection ? `${careTipsSection}\n` : ''}
+${costSection ? `${costSection}\n` : ''}
 ## Related PupWiki guides
 
 ${item.internalLinkTargets.map((href) => `- [${titleCase(href.replace(/^\//, '').replace(/\//g, ' > '))}](${href})`).join('\n')}
@@ -660,14 +861,14 @@ ${item.internalLinkTargets.map((href) => `- [${titleCase(href.replace(/^\//, '')
   return `---
 title: ${quote(title)}
 seoTitle: ${quote(title)}
-displayTitle: ${quote(`${breed.name} ${titleCase(item.family)} decision guide`)}
-description: ${quote(`A PupWiki guide for current and future ${breed.name} people comparing dog-care brands, products, services and practical next steps.`)}
+displayTitle: ${quote(displayTitle)}
+description: ${quote(description)}
 pubDate: ${TODAY}
 updatedDate: ${TODAY}
 author: "The PupWiki Team"
 category: ${quote(titleCase(item.cluster))}
 tags: ${yamlList(tags)}
-postType: "product-roundup"
+postType: ${quote(postType)}
 contentTier: "money"
 cluster: ${quote(item.cluster)}
 commerceCluster: ${quote(item.commerceCluster)}

@@ -235,6 +235,34 @@ const FAMILY_CONFIG = {
       picks: `${b.name} training plan and common mistakes`,
     }),
   },
+  puppy: {
+    category: 'Puppy',
+    postType: 'general',
+    sensitivity: 'medium',
+    monetizationIntent: 'puppy',
+    contentTier: 'support',
+    intent: 'puppy',
+    titleTemplates: [
+      { id: 'puppy-first-weeks', seo: (b) => `${b.name} Puppy Guide: First Weeks Home`, h1: (b) => `${b.name} puppy guide: first weeks home` },
+      { id: 'puppy-essentials', seo: (b) => `${b.name} Puppy Essentials: Setup Checklist`, h1: (b) => `${b.name} puppy essentials and setup checklist` },
+      { id: 'puppy-care-schedule', seo: (b) => `${b.name} Puppy Care Schedule and First Year`, h1: (b) => `${b.name} puppy care schedule and first year` },
+      { id: 'puppy-owner-checklist', seo: (b) => `${b.name} New Owner Checklist for Puppy Setup`, h1: (b) => `${b.name} new owner checklist for puppy setup` },
+      { id: 'puppy-socialisation', seo: (b) => `${b.name} Puppy Socialisation and Early Training`, h1: (b) => `${b.name} puppy socialisation and early training` },
+      { id: 'puppy-budget', seo: (b) => `${b.name} Puppy Costs and First Year Budget`, h1: (b) => `${b.name} puppy costs and first year budget` },
+      { id: 'puppy-health-checks', seo: (b) => `${b.name} Puppy Health Checks and Vet Schedule`, h1: (b) => `${b.name} puppy health checks and vet schedule` },
+      { id: 'puppy-training-start', seo: (b) => `${b.name} Puppy Training: Where to Start`, h1: (b) => `${b.name} puppy training: where to start` },
+    ],
+    descriptionTemplates: [
+      (b) => `A practical ${b.name} puppy guide covering first weeks setup, socialisation, vet schedule, early training, and first-year budget planning.`,
+      (b, f) => `What new ${b.name} owners need to know about puppy care, training, health checks, and ${f.size}-breed-specific setup decisions.`,
+      (b) => `Set up your ${b.name} puppy for success with a checklist covering feeding, socialisation, training, and first-year vet care.`,
+    ],
+    h2: (b) => ({
+      comparison: `${b.name} puppy setup checklist`,
+      why: `What to know before bringing a ${b.name} puppy home`,
+      picks: `${b.name} puppy care priorities`,
+    }),
+  },
 };
 
 const PREFIXES = [
@@ -364,6 +392,13 @@ export function getPseoFamilyFromFilename(filename) {
     return {
       familyKey: 'health',
       breedSlug: filename.replace(/-health-problems\.md$/, ''),
+    };
+  }
+
+  if (filename.endsWith('-puppy-essentials.md')) {
+    return {
+      familyKey: 'puppy',
+      breedSlug: filename.replace(/-puppy-essentials\.md$/, ''),
     };
   }
 
