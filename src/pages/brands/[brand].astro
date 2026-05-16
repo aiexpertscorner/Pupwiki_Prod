@@ -29,14 +29,25 @@ const matchingBreeds = (masterBreeds as any[])
   })
   .slice(0, 8);
 
-const jsonLd = JSON.stringify({
-  '@context': 'https://schema.org',
-  '@type': 'Organization',
-  name: brand.name,
-  url: `https://${brand.domain}`,
-  logo: `${SITE}${brand.logo_url}`,
-  description: `${brand.name} dog products — expert reviews and best picks for your breed.`,
-});
+const jsonLd = JSON.stringify([
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: brand.name,
+    url: `https://${brand.domain}`,
+    logo: `${SITE}${brand.logo_url}`,
+    description: `${brand.name} dog products — expert reviews and best picks for your breed.`,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home',   item: SITE },
+      { '@type': 'ListItem', position: 2, name: 'Brands', item: `${SITE}/brands` },
+      { '@type': 'ListItem', position: 3, name: brand.name, item: `${SITE}/brands/${slug}` },
+    ],
+  },
+]);
 
 const categoryLinks = [
   ['/categories/dog-food',    '🍖', 'Dog Food'],
