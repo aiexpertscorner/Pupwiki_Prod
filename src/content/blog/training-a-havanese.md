@@ -27,7 +27,16 @@ breedSlug: "havanese"
 breedName: "Havanese"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-havanese"
+heroImage: "https://images.pexels.com/photos/756714/pexels-photo-756714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/756714/pexels-photo-756714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute white dog with fluffy fur standing outdoors on a snowy day, looking intently at the camera."
+imageAlt: "Cute white dog with fluffy fur standing outdoors on a snowy day, looking intently at the camera."
+imageSource: "pexels"
+imageCredit: "Photo by Jim Fawns on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/grayscale-photo-of-shih-tzu-756714/"
+imageSearchQuery: "Havanese dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Havaneses
 Havaneses are small-sized (7–13 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.

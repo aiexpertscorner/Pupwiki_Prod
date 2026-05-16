@@ -27,7 +27,16 @@ breedSlug: "jindo"
 breedName: "Jindo"
 wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-jindo"
+heroImage: "https://images.pexels.com/photos/5745238/pexels-photo-5745238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5745238/pexels-photo-5745238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Side view of crop unrecognizable male in sportswear and sneakers training obedient Akita dog on leash while standing on grassy lawn on sunny day"
+imageAlt: "Side view of crop unrecognizable male in sportswear and sneakers training obedient Akita dog on leash while standing on grassy lawn on sunny day"
+imageSource: "pexels"
+imageCredit: "Photo by Zen Chung on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/faceless-young-guy-training-purebred-dog-on-lawn-in-park-5745238/"
+imageSearchQuery: "Jindo dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Jindos
 Jindos are medium-sized (30–50 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

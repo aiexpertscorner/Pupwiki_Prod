@@ -27,7 +27,16 @@ breedSlug: "neapolitan-mastiff"
 breedName: "Neapolitan Mastiff"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-neapolitan-mastiff"
+heroImage: "https://images.pexels.com/photos/34591402/pexels-photo-34591402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34591402/pexels-photo-34591402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A large Mastiff dog standing outdoors, showcasing its powerful build and calm demeanor in a natural setting."
+imageAlt: "A large Mastiff dog standing outdoors, showcasing its powerful build and calm demeanor in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by Malama Mushitu on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/majestic-mastiff-dog-in-sunny-outdoor-setting-34591402/"
+imageSearchQuery: "Neapolitan Mastiff dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Neapolitan Mastiffs
 Neapolitan Mastiffs are large-sized (110–150 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

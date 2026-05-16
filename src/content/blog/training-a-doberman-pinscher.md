@@ -27,7 +27,16 @@ breedSlug: "doberman-pinscher"
 breedName: "Doberman Pinscher"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-doberman-pinscher"
+heroImage: "https://images.pexels.com/photos/29226662/pexels-photo-29226662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29226662/pexels-photo-29226662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Four Doberman dogs wearing harnesses on a snowy path outdoors with a person."
+imageAlt: "Four Doberman dogs wearing harnesses on a snowy path outdoors with a person."
+imageSource: "pexels"
+imageCredit: "Photo by Sergei Starostin on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/group-of-dobermans-in-snowy-landscape-29226662/"
+imageSearchQuery: "Doberman Pinscher dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Doberman Pinschers
 Doberman Pinschers are large-sized (60–100 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

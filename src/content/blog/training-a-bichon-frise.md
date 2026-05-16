@@ -27,7 +27,16 @@ breedSlug: "bichon-frise"
 breedName: "Bichon Frise"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-bichon-frise"
+heroImage: "https://images.pexels.com/photos/14811406/pexels-photo-14811406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14811406/pexels-photo-14811406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Bichon Frise dog standing on a log outdoors, showcasing its fluffy white coat."
+imageAlt: "Cute Bichon Frise dog standing on a log outdoors, showcasing its fluffy white coat."
+imageSource: "pexels"
+imageCredit: "Photo by David Brown on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bichon-frise-dog-sitting-on-brown-rock-14811406/"
+imageSearchQuery: "Bichon Frise dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bichon Frises
 Bichon Frises are small-sized (12–18 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

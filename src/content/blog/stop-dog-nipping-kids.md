@@ -20,7 +20,16 @@ monetizationIntent: none
 medicalDisclaimer: false
 affiliateDisclosure: true
 uniqueBlocks: []
+heroImage: "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A veterinarian and volunteer examine a happy dog with a stethoscope."
+imageAlt: "A veterinarian and volunteer examine a happy dog with a stethoscope."
+imageSource: "pexels"
+imageCredit: "Photo by Mikhail Nilov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/"
+imageSearchQuery: "dog care"
 ---
+
 
 Understanding stop dog nipping kids starts with knowing what drives the behaviour. Management, supervision and child education. This guide covers the root causes, practical steps and products that help.
 

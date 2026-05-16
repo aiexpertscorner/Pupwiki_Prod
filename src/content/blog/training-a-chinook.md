@@ -27,7 +27,16 @@ breedSlug: "chinook"
 breedName: "Chinook"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-chinook"
+heroImage: "https://images.pexels.com/photos/5864504/pexels-photo-5864504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5864504/pexels-photo-5864504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Woman interacts with her dog outdoors next to a white wall, showcasing pet training."
+imageAlt: "Woman interacts with her dog outdoors next to a white wall, showcasing pet training."
+imageSource: "pexels"
+imageCredit: "Photo by Rachel Claire on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-feeding-a-brown-dog-5864504/"
+imageSearchQuery: "Chinook dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chinooks
 Chinooks are large-sized (50–90 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "leonberger"
 breedName: "Leonberger"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-leonberger"
+heroImage: "https://images.pexels.com/photos/27147726/pexels-photo-27147726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27147726/pexels-photo-27147726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white portrait of a Leonberger dog with a muzzle, held by its owner on a leash outdoors."
+imageAlt: "Black and white portrait of a Leonberger dog with a muzzle, held by its owner on a leash outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Dave H on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/eurasier-dog-on-leash-27147726/"
+imageSearchQuery: "Leonberger dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Leonbergers
 Leonbergers are large-sized (90–170 lbs), with regular energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.

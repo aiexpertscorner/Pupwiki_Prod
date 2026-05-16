@@ -27,7 +27,16 @@ breedSlug: "japanese-spitz"
 breedName: "Japanese Spitz"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-japanese-spitz"
+heroImage: "https://images.pexels.com/photos/5913074/pexels-photo-5913074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5913074/pexels-photo-5913074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Japanese Spitz dog lying on lush green grass, enjoying the day outdoors."
+imageAlt: "Cute Japanese Spitz dog lying on lush green grass, enjoying the day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Mohan Nannapaneni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-lying-down-on-the-grass-5913074/"
+imageSearchQuery: "Japanese Spitz dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Japanese Spitzs
 Japanese Spitzs are small-sized (10–25 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.

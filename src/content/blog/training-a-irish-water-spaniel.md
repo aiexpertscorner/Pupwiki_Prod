@@ -27,7 +27,16 @@ breedSlug: "irish-water-spaniel"
 breedName: "Irish Water Spaniel"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-irish-water-spaniel"
+heroImage: "https://images.pexels.com/photos/5837291/pexels-photo-5837291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5837291/pexels-photo-5837291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up of a brown dog panting happily in a sunny field, captured outdoors."
+imageAlt: "A close-up of a brown dog panting happily in a sunny field, captured outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by seppe machielsen on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-5837291/"
+imageSearchQuery: "Irish Water Spaniel dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Irish Water Spaniels
 Irish Water Spaniels are large-sized (45–68 lbs), with active energy, seasonal shedding, and a curly coat. The recommendations below are matched to these traits.

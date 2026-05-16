@@ -27,7 +27,16 @@ breedSlug: "bulldog"
 breedName: "Bulldog"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-bulldog"
+heroImage: "https://images.pexels.com/photos/4057436/pexels-photo-4057436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4057436/pexels-photo-4057436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A young brown French Bulldog standing outdoors on a grassy field."
+imageAlt: "A young brown French Bulldog standing outdoors on a grassy field."
+imageSource: "pexels"
+imageCredit: "Photo by GUSTAVO H on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-short-coated-dog-on-brown-grass-field-4057436/"
+imageSearchQuery: "Bulldog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bulldogs
 Bulldogs are medium-sized (40–50 lbs), with regular energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

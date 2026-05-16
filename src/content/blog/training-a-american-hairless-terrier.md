@@ -27,7 +27,16 @@ breedSlug: "american-hairless-terrier"
 breedName: "American Hairless Terrier"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-american-hairless-terrier"
+heroImage: "https://images.pexels.com/photos/34624206/pexels-photo-34624206.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34624206/pexels-photo-34624206.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Unique hairless dog standing outdoors in a garden, showcasing its distinctive features and curious demeanor."
+imageAlt: "Unique hairless dog standing outdoors in a garden, showcasing its distinctive features and curious demeanor."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/bald-canine-dog-in-outdoor-garden-setting-34624206/"
+imageSearchQuery: "American Hairless Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Hairless Terriers
 American Hairless Terriers are small-sized (12–16 lbs), with regular energy, low shedding, and a hairless coat. The recommendations below are matched to these traits.

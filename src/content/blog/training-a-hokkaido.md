@@ -27,7 +27,16 @@ breedSlug: "hokkaido"
 breedName: "Hokkaido"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-hokkaido"
+heroImage: "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors."
+imageAlt: "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Anton Kudryashov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/"
+imageSearchQuery: "Hokkaido dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Hokkaidos
 Hokkaidos are large-sized (44–66 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "lancashire-heeler"
 breedName: "Lancashire Heeler"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-lancashire-heeler"
+heroImage: "https://images.pexels.com/photos/12010778/pexels-photo-12010778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12010778/pexels-photo-12010778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Australian Cattle Dog photographed outdoors in a backyard setting, showcasing its distinctive features."
+imageAlt: "Australian Cattle Dog photographed outdoors in a backyard setting, showcasing its distinctive features."
+imageSource: "pexels"
+imageCredit: "Photo by AJ Spearman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-in-close-up-photography-12010778/"
+imageSearchQuery: "Lancashire Heeler dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lancashire Heelers
 Lancashire Heelers are small-sized (9–17 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

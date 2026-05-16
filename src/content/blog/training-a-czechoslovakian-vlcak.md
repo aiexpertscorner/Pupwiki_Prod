@@ -27,7 +27,16 @@ breedSlug: "czechoslovakian-vlcak"
 breedName: "Czechoslovakian Vlcak"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-czechoslovakian-vlcak"
+heroImage: "https://images.pexels.com/photos/5957667/pexels-photo-5957667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5957667/pexels-photo-5957667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming portrait of a Czechoslovakian Wolfdog enjoying a sunny day outdoors."
+imageAlt: "Charming portrait of a Czechoslovakian Wolfdog enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Kanashi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-and-black-short-coated-dog-5957667/"
+imageSearchQuery: "Czechoslovakian Vlcak dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Czechoslovakian Vlcaks
 Czechoslovakian Vlcaks are medium-sized (44–57 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

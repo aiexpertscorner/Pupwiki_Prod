@@ -27,7 +27,16 @@ breedSlug: "caucasian-shepherd-dog"
 breedName: "Caucasian Shepherd Dog"
 wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/training-a-caucasian-shepherd-dog"
+heroImage: "https://images.pexels.com/photos/9259432/pexels-photo-9259432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9259432/pexels-photo-9259432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A German Shepherd dog sitting on a dirt path outdoors, looking directly at the camera."
+imageAlt: "A German Shepherd dog sitting on a dirt path outdoors, looking directly at the camera."
+imageSource: "pexels"
+imageCredit: "Photo by Denitsa Kireva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-german-shepherd-sitting-9259432/"
+imageSearchQuery: "Caucasian Shepherd Dog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Caucasian Shepherd Dogs
 Caucasian Shepherd Dogs are large-sized (99–170 lbs), with calm energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

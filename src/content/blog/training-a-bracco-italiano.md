@@ -27,7 +27,16 @@ breedSlug: "bracco-italiano"
 breedName: "Bracco Italiano"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-bracco-italiano"
+heroImage: "https://images.pexels.com/photos/19202649/pexels-photo-19202649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19202649/pexels-photo-19202649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Spinone Italiano dog energetically plays in a scenic mountain setting. Captured outdoors."
+imageAlt: "A Spinone Italiano dog energetically plays in a scenic mountain setting. Captured outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/spinone-italiano-dog-on-mountain-19202649/"
+imageSearchQuery: "Bracco Italiano dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bracco Italianos
 Bracco Italianos are large-sized (55–90 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

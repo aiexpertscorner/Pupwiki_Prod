@@ -27,7 +27,16 @@ breedSlug: "maltese"
 breedName: "Maltese"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-maltese"
+heroImage: "https://images.pexels.com/photos/28959770/pexels-photo-28959770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28959770/pexels-photo-28959770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Maltese dog lying on grass outdoors in daylight, serene and calm."
+imageAlt: "Cute Maltese dog lying on grass outdoors in daylight, serene and calm."
+imageSource: "pexels"
+imageCredit: "Photo by Raul Hernandez on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-maltese-dog-relaxing-on-lawn-28959770/"
+imageSearchQuery: "Maltese dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Malteses
 Malteses are small-sized (7 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

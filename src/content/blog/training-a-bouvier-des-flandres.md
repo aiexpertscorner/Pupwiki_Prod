@@ -27,7 +27,16 @@ breedSlug: "bouvier-des-flandres"
 breedName: "Bouvier des Flandres"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-bouvier-des-flandres"
+heroImage: "https://images.pexels.com/photos/15519401/pexels-photo-15519401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15519401/pexels-photo-15519401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Bouvier des Flandres dog outdoors with a blurred nature background."
+imageAlt: "Close-up of a Bouvier des Flandres dog outdoors with a blurred nature background."
+imageSource: "pexels"
+imageCredit: "Photo by Hobi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-long-haired-black-dog-15519401/"
+imageSearchQuery: "Bouvier des Flandres dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bouvier des Flandress
 Bouvier des Flandress are large-sized (70–110 lbs), with active energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.

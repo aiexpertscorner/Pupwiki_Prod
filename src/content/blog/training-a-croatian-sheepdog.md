@@ -27,7 +27,16 @@ breedSlug: "croatian-sheepdog"
 breedName: "Croatian Sheepdog"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-croatian-sheepdog"
+heroImage: "https://images.pexels.com/photos/28895818/pexels-photo-28895818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28895818/pexels-photo-28895818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Shetland Sheepdog attentively receiving training treats in a vibrant autumn setting."
+imageAlt: "Shetland Sheepdog attentively receiving training treats in a vibrant autumn setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/shetland-sheepdog-training-outdoors-in-autumn-28895818/"
+imageSearchQuery: "Croatian Sheepdog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Croatian Sheepdogs
 Croatian Sheepdogs are medium-sized (29–44 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

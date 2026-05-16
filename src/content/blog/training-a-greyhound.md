@@ -27,7 +27,16 @@ breedSlug: "greyhound"
 breedName: "Greyhound"
 wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-greyhound"
+heroImage: "https://images.pexels.com/photos/13957885/pexels-photo-13957885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13957885/pexels-photo-13957885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up portrait of a Greyhound dog in an outdoor setting."
+imageAlt: "A detailed close-up portrait of a Greyhound dog in an outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Mao Won on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/greyhound-dog-wearing-collar-in-close-up-photography-13957885/"
+imageSearchQuery: "Greyhound dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Greyhounds
 Greyhounds are large-sized (60–70 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

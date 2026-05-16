@@ -27,7 +27,16 @@ breedSlug: "kerry-blue-terrier"
 breedName: "Kerry Blue Terrier"
 wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/training-a-kerry-blue-terrier"
+heroImage: "https://images.pexels.com/photos/5733139/pexels-photo-5733139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5733139/pexels-photo-5733139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "High angle side view of crop Asian kid training purebred dog on leash on asphalt pavement in city"
+imageAlt: "High angle side view of crop Asian kid training purebred dog on leash on asphalt pavement in city"
+imageSource: "pexels"
+imageCredit: "Photo by Sam Lion on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/child-playing-with-a-dog-on-a-basketball-ground-5733139/"
+imageSearchQuery: "Kerry Blue Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Kerry Blue Terriers
 Kerry Blue Terriers are medium-sized (33–40 lbs), with regular energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "english-setter"
 breedName: "English Setter"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-english-setter"
+heroImage: "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18868925/pexels-photo-18868925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black and white portrait of a dog in a park, showcasing its elegance and poise."
+imageAlt: "A black and white portrait of a dog in a park, showcasing its elegance and poise."
+imageSource: "pexels"
+imageCredit: "Photo by Altaf Shah on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-photo-of-a-dog-on-a-leash-18868925/"
+imageSearchQuery: "English Setter dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Setters
 English Setters are large-sized (45–80 lbs), with active energy, heavy shedding, and a silky coat. The recommendations below are matched to these traits.

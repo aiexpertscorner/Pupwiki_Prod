@@ -27,7 +27,16 @@ breedSlug: "lagotto-romagnolo"
 breedName: "Lagotto Romagnolo"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-lagotto-romagnolo"
+heroImage: "https://images.pexels.com/photos/37107262/pexels-photo-37107262.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37107262/pexels-photo-37107262.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A woman guides a dog through an agility course outdoors, showcasing training and activity."
+imageAlt: "A woman guides a dog through an agility course outdoors, showcasing training and activity."
+imageSource: "pexels"
+imageCredit: "Photo by Willians Huerta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-with-dog-on-agility-course-outdoors-37107262/"
+imageSearchQuery: "Lagotto Romagnolo dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lagotto Romagnolos
 Lagotto Romagnolos are medium-sized (24–35 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

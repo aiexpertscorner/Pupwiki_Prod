@@ -27,7 +27,16 @@ breedSlug: "labrador-retriever"
 breedName: "Labrador Retriever"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-labrador-retriever"
+heroImage: "https://images.pexels.com/photos/34097676/pexels-photo-34097676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34097676/pexels-photo-34097676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Labrador Retriever dog plays with a yellow ball on a sunny day outdoors."
+imageAlt: "A Labrador Retriever dog plays with a yellow ball on a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Ar kay on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/labrador-retriever-playing-with-ball-on-grass-34097676/"
+imageSearchQuery: "Labrador Retriever dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Labrador Retrievers
 Labrador Retrievers are large-sized (55–80 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

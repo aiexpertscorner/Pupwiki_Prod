@@ -27,7 +27,16 @@ breedSlug: "american-eskimo-dog"
 breedName: "American Eskimo Dog"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-american-eskimo-dog"
+heroImage: "https://images.pexels.com/photos/5913074/pexels-photo-5913074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5913074/pexels-photo-5913074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Japanese Spitz dog lying on lush green grass, enjoying the day outdoors."
+imageAlt: "Cute Japanese Spitz dog lying on lush green grass, enjoying the day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Mohan Nannapaneni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-lying-down-on-the-grass-5913074/"
+imageSearchQuery: "American Eskimo Dog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Eskimo Dogs
 American Eskimo Dogs are medium-sized (6–35 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

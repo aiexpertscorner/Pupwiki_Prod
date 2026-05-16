@@ -27,7 +27,16 @@ breedSlug: "bohemian-shepherd"
 breedName: "Bohemian Shepherd"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-bohemian-shepherd"
+heroImage: "https://images.pexels.com/photos/34265055/pexels-photo-34265055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34265055/pexels-photo-34265055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black shepherd dog lying on green grass outdoors, tongue out, in a sunny setting."
+imageAlt: "Black shepherd dog lying on green grass outdoors, tongue out, in a sunny setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-shepherd-dog-relaxing-outdoors-in-grass-34265055/"
+imageSearchQuery: "Bohemian Shepherd dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bohemian Shepherds
 Bohemian Shepherds are medium-sized (37–60 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "cesky-terrier"
 breedName: "Cesky Terrier"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-cesky-terrier"
+heroImage: "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Tibetan Terrier dog sitting attentively for training in a backyard setting."
+imageAlt: "A Tibetan Terrier dog sitting attentively for training in a backyard setting."
+imageSource: "pexels"
+imageCredit: "Photo by Lorna Pauli on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/"
+imageSearchQuery: "Cesky Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cesky Terriers
 Cesky Terriers are small-sized (14–24 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

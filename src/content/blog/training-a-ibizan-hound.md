@@ -27,7 +27,16 @@ breedSlug: "ibizan-hound"
 breedName: "Ibizan Hound"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-ibizan-hound"
+heroImage: "https://images.pexels.com/photos/27132297/pexels-photo-27132297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27132297/pexels-photo-27132297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A lively dog on a leash enjoying the outdoors in a grassy field."
+imageAlt: "A lively dog on a leash enjoying the outdoors in a grassy field."
+imageSource: "pexels"
+imageCredit: "Photo by Karl  Byron on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-leash-on-grass-27132297/"
+imageSearchQuery: "Ibizan Hound dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Ibizan Hounds
 Ibizan Hounds are medium-sized (45–50 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

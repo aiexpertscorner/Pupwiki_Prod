@@ -27,7 +27,16 @@ breedSlug: "chesapeake-bay-retriever"
 breedName: "Chesapeake Bay Retriever"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-chesapeake-bay-retriever"
+heroImage: "https://images.pexels.com/photos/7210633/pexels-photo-7210633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7210633/pexels-photo-7210633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Crop unrecognizable person gesticulating while teaching attentive purebred dog with smooth coat on blurred background"
+imageAlt: "Crop unrecognizable person gesticulating while teaching attentive purebred dog with smooth coat on blurred background"
+imageSource: "pexels"
+imageCredit: "Photo by Blue Bird on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/crop-owner-taming-labrador-retriever-in-sunlight-outdoors-7210633/"
+imageSearchQuery: "Chesapeake Bay Retriever dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chesapeake Bay Retrievers
 Chesapeake Bay Retrievers are large-sized (55–80 lbs), with active energy, heavy shedding, and a wavy coat. The recommendations below are matched to these traits.

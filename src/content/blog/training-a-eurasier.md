@@ -27,7 +27,16 @@ breedSlug: "eurasier"
 breedName: "Eurasier"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-eurasier"
+heroImage: "https://images.pexels.com/photos/16170494/pexels-photo-16170494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16170494/pexels-photo-16170494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming close-up of a black Eurasier dog with tongue out, set outdoors."
+imageAlt: "Charming close-up of a black Eurasier dog with tongue out, set outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-black-eurasier-16170494/"
+imageSearchQuery: "Eurasier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Eurasiers
 Eurasiers are large-sized (40–70 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

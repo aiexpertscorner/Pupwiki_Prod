@@ -27,7 +27,16 @@ breedSlug: "canaan-dog"
 breedName: "Canaan Dog"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-canaan-dog"
+heroImage: "https://images.pexels.com/photos/18472243/pexels-photo-18472243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18472243/pexels-photo-18472243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a calm Canaan dog lying on grass, enjoying the peaceful outdoors."
+imageAlt: "Close-up of a calm Canaan dog lying on grass, enjoying the peaceful outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Sudhir Sangwan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-with-squinting-eyes-lying-on-the-grass-18472243/"
+imageSearchQuery: "Canaan Dog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Canaan Dogs
 Canaan Dogs are medium-sized (35–55 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

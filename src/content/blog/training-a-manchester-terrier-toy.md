@@ -27,7 +27,16 @@ breedSlug: "manchester-terrier-toy"
 breedName: "Manchester Terrier (Toy)"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-manchester-terrier-toy"
+heroImage: "https://images.pexels.com/photos/35611837/pexels-photo-35611837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35611837/pexels-photo-35611837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Lively brown pit bull dog lying on grass with a toy, enjoying a sunny day outdoors."
+imageAlt: "Lively brown pit bull dog lying on grass with a toy, enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Joshua B on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-brown-pit-bull-with-toy-in-sunshine-35611837/"
+imageSearchQuery: "Manchester Terrier (Toy) dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Manchester Terrier (Toy)s
 Manchester Terrier (Toy)s are small-sized (12 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

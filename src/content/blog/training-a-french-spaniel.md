@@ -27,7 +27,16 @@ breedSlug: "french-spaniel"
 breedName: "French Spaniel"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-french-spaniel"
+heroImage: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageAlt: "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Lorenzo Manera on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-on-grass-24453850/"
+imageSearchQuery: "French Spaniel dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for French Spaniels
 French Spaniels are medium-sized (50–60 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

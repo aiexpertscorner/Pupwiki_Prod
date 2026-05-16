@@ -27,7 +27,16 @@ breedSlug: "dutch-shepherd"
 breedName: "Dutch Shepherd"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-dutch-shepherd"
+heroImage: "https://images.pexels.com/photos/9259432/pexels-photo-9259432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9259432/pexels-photo-9259432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A German Shepherd dog sitting on a dirt path outdoors, looking directly at the camera."
+imageAlt: "A German Shepherd dog sitting on a dirt path outdoors, looking directly at the camera."
+imageSource: "pexels"
+imageCredit: "Photo by Denitsa Kireva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-german-shepherd-sitting-9259432/"
+imageSearchQuery: "Dutch Shepherd dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dutch Shepherds
 Dutch Shepherds are large-sized (42–75 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

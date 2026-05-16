@@ -27,7 +27,16 @@ breedSlug: "giant-schnauzer"
 breedName: "Giant Schnauzer"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-giant-schnauzer"
+heroImage: "https://images.pexels.com/photos/971726/pexels-photo-971726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/971726/pexels-photo-971726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up of a Schnauzer dog being petted with affection outdoors. Focus on dog's face and owner's hand."
+imageAlt: "A close-up of a Schnauzer dog being petted with affection outdoors. Focus on dog's face and owner's hand."
+imageSource: "pexels"
+imageCredit: "Photo by Matthias Cooper on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/hairy-dog-971726/"
+imageSearchQuery: "Giant Schnauzer dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Giant Schnauzers
 Giant Schnauzers are large-sized (55–85 lbs), with active energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.

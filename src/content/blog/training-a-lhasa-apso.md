@@ -27,7 +27,16 @@ breedSlug: "lhasa-apso"
 breedName: "Lhasa Apso"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-lhasa-apso"
+heroImage: "https://images.pexels.com/photos/5138260/pexels-photo-5138260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5138260/pexels-photo-5138260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute fluffy dog on a leash, enjoying a walk outdoors. Perfect pet portrait."
+imageAlt: "Cute fluffy dog on a leash, enjoying a walk outdoors. Perfect pet portrait."
+imageSource: "pexels"
+imageCredit: "Photo by Fritz dela Cruz on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-puppy-on-a-leash-5138260/"
+imageSearchQuery: "Lhasa Apso dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lhasa Apsos
 Lhasa Apsos are small-sized (12–18 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

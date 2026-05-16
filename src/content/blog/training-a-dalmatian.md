@@ -27,7 +27,16 @@ breedSlug: "dalmatian"
 breedName: "Dalmatian"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-dalmatian"
+heroImage: "https://images.pexels.com/photos/5482863/pexels-photo-5482863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5482863/pexels-photo-5482863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A man adjusting the leash of a Dalmatian dog outdoors in a garden."
+imageAlt: "A man adjusting the leash of a Dalmatian dog outdoors in a garden."
+imageSource: "pexels"
+imageCredit: "Photo by Bethany Ferr on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/man-putting-a-leash-on-his-dalmatian-dog-5482863/"
+imageSearchQuery: "Dalmatian dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dalmatians
 Dalmatians are large-sized (45–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

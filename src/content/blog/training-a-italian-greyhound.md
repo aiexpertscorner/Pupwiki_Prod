@@ -27,7 +27,16 @@ breedSlug: "italian-greyhound"
 breedName: "Italian Greyhound"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-italian-greyhound"
+heroImage: "https://images.pexels.com/photos/8145378/pexels-photo-8145378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8145378/pexels-photo-8145378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two dogs joyfully running through a lush green field on a bright day, capturing playful energy."
+imageAlt: "Two dogs joyfully running through a lush green field on a bright day, capturing playful energy."
+imageSource: "pexels"
+imageCredit: "Photo by Nihongraphy  2 on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dogs-running-on-tall-grass-8145378/"
+imageSearchQuery: "Italian Greyhound dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Italian Greyhounds
 Italian Greyhounds are small-sized (7–14 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "basenji"
 breedName: "Basenji"
 wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-basenji"
+heroImage: "https://images.pexels.com/photos/28787701/pexels-photo-28787701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28787701/pexels-photo-28787701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a brown and white dog with attentive ears photographed outdoors."
+imageAlt: "Close-up of a brown and white dog with attentive ears photographed outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Nadejda Bostanova on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-alert-brown-and-white-dog-outdoors-28787701/"
+imageSearchQuery: "Basenji dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Basenjis
 Basenjis are small-sized (22–24 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

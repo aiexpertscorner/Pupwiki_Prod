@@ -27,7 +27,16 @@ breedSlug: "boxer"
 breedName: "Boxer"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-boxer"
+heroImage: "https://images.pexels.com/photos/20185157/pexels-photo-20185157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20185157/pexels-photo-20185157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a focused boxer dog wearing a red harness outdoors."
+imageAlt: "Close-up of a focused boxer dog wearing a red harness outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Nicki Dick on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/focused-boxer-dog-20185157/"
+imageSearchQuery: "Boxer dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Boxers
 Boxers are large-sized (15–80 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

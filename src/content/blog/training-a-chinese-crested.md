@@ -27,7 +27,16 @@ breedSlug: "chinese-crested"
 breedName: "Chinese Crested"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-chinese-crested"
+heroImage: "https://images.pexels.com/photos/33063683/pexels-photo-33063683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33063683/pexels-photo-33063683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A lively Chinese Crested dog runs energetically with a tennis ball outdoors on a sunny day."
+imageAlt: "A lively Chinese Crested dog runs energetically with a tennis ball outdoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Veronika Andrews on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-chinese-crested-dog-chasing-tennis-ball-outdoors-33063683/"
+imageSearchQuery: "Chinese Crested dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chinese Cresteds
 Chinese Cresteds are small-sized (8–12 lbs), with regular energy, minimal shedding, and a hairless coat. The recommendations below are matched to these traits.

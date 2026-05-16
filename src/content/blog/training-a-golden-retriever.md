@@ -27,7 +27,16 @@ breedSlug: "golden-retriever"
 breedName: "Golden Retriever"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-golden-retriever"
+heroImage: "https://images.pexels.com/photos/29955885/pexels-photo-29955885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29955885/pexels-photo-29955885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Golden Retriever puppy chewing on a stick in a grassy field outdoors."
+imageAlt: "Adorable Golden Retriever puppy chewing on a stick in a grassy field outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/golden-retriever-puppy-playing-with-a-stick-29955885/"
+imageSearchQuery: "Golden Retriever dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Golden Retrievers
 Golden Retrievers are large-sized (55–75 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

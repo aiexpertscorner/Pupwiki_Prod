@@ -27,7 +27,16 @@ breedSlug: "miniature-bull-terrier"
 breedName: "Miniature Bull Terrier"
 wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/training-a-miniature-bull-terrier"
+heroImage: "https://images.pexels.com/photos/35611837/pexels-photo-35611837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35611837/pexels-photo-35611837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Lively brown pit bull dog lying on grass with a toy, enjoying a sunny day outdoors."
+imageAlt: "Lively brown pit bull dog lying on grass with a toy, enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Joshua B on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-brown-pit-bull-with-toy-in-sunshine-35611837/"
+imageSearchQuery: "Miniature Bull Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Miniature Bull Terriers
 Miniature Bull Terriers are medium-sized (18–28 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

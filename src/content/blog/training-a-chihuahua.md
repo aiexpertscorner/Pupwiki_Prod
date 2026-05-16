@@ -27,7 +27,16 @@ breedSlug: "chihuahua"
 breedName: "Chihuahua"
 wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-chihuahua"
+heroImage: "https://images.pexels.com/photos/33471226/pexels-photo-33471226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33471226/pexels-photo-33471226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A small Chihuahua dog is standing outdoors on a tree stump, looking sideways."
+imageAlt: "A small Chihuahua dog is standing outdoors on a tree stump, looking sideways."
+imageSource: "pexels"
+imageCredit: "Photo by Ludovic Delot on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/chihuahua-standing-outdoors-on-tree-stump-33471226/"
+imageSearchQuery: "Chihuahua dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chihuahuas
 Chihuahuas are small-sized (6 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "biewer-terrier"
 breedName: "Biewer Terrier"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-biewer-terrier"
+heroImage: "https://images.pexels.com/photos/34912310/pexels-photo-34912310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34912310/pexels-photo-34912310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Yorkshire Terrier dog with fluffy coat relaxing outdoors on a sunny day."
+imageAlt: "Adorable Yorkshire Terrier dog with fluffy coat relaxing outdoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/playful-yorkshire-terrier-relaxing-outdoors-34912310/"
+imageSearchQuery: "Biewer Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Biewer Terriers
 Biewer Terriers are small-sized (4–8 lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

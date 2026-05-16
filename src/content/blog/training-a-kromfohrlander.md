@@ -27,7 +27,16 @@ breedSlug: "kromfohrlander"
 breedName: "Kromfohrlander"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-kromfohrlander"
+heroImage: "https://images.pexels.com/photos/29590681/pexels-photo-29590681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29590681/pexels-photo-29590681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Woman training her dog on a forest path during fall. Engaged interaction in nature."
+imageAlt: "Woman training her dog on a forest path during fall. Engaged interaction in nature."
+imageSource: "pexels"
+imageCredit: "Photo by Michał Robak on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-training-dog-in-forest-setting-29590681/"
+imageSearchQuery: "Kromfohrlander dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Kromfohrlanders
 Kromfohrlanders are medium-sized (20–35 lbs), with regular energy, heavy shedding, and a rough coat. The recommendations below are matched to these traits.

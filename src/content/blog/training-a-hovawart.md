@@ -27,7 +27,16 @@ breedSlug: "hovawart"
 breedName: "Hovawart"
 wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-hovawart"
+heroImage: "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor."
+imageAlt: "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor."
+imageSource: "pexels"
+imageCredit: "Photo by Theo Willems on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-hovawart-dog-16528289/"
+imageSearchQuery: "Hovawart dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Hovawarts
 Hovawarts are large-sized (65–90 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

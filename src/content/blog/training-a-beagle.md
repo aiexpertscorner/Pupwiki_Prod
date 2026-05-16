@@ -27,7 +27,16 @@ breedSlug: "beagle"
 breedName: "Beagle"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-beagle"
+heroImage: "https://images.pexels.com/photos/29209884/pexels-photo-29209884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29209884/pexels-photo-29209884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Beagle dog with a leash looking up in a forest setting."
+imageAlt: "A cute Beagle dog with a leash looking up in a forest setting."
+imageSource: "pexels"
+imageCredit: "Photo by Sergei Starostin on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-beagle-dog-on-a-leash-in-forest-29209884/"
+imageSearchQuery: "Beagle dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Beagles
 Beagles are medium-sized (13–30 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

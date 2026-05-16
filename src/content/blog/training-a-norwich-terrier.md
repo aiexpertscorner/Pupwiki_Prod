@@ -27,7 +27,16 @@ breedSlug: "norwich-terrier"
 breedName: "Norwich Terrier"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-norwich-terrier"
+heroImage: "https://images.pexels.com/photos/7210523/pexels-photo-7210523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7210523/pexels-photo-7210523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Young woman joyfully holding her Norwich terrier dog outdoors in a sunlit park."
+imageAlt: "Young woman joyfully holding her Norwich terrier dog outdoors in a sunlit park."
+imageSource: "pexels"
+imageCredit: "Photo by Blue Bird on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-smiling-woman-carrying-a-small-dog-in-a-park-7210523/"
+imageSearchQuery: "Norwich Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Norwich Terriers
 Norwich Terriers are small-sized (12 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.

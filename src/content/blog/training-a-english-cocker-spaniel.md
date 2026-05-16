@@ -27,7 +27,16 @@ breedSlug: "english-cocker-spaniel"
 breedName: "English Cocker Spaniel"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-english-cocker-spaniel"
+heroImage: "https://images.pexels.com/photos/6069147/pexels-photo-6069147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6069147/pexels-photo-6069147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a cocker spaniel dog sitting on grass, lit by bright sunlight."
+imageAlt: "Close-up of a cocker spaniel dog sitting on grass, lit by bright sunlight."
+imageSource: "pexels"
+imageCredit: "Photo by German Suarez on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-cocker-spaniel-in-close-up-shot-6069147/"
+imageSearchQuery: "English Cocker Spaniel dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Cocker Spaniels
 English Cocker Spaniels are medium-sized (26–34 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

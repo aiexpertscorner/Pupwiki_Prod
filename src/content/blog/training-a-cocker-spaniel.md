@@ -27,7 +27,16 @@ breedSlug: "cocker-spaniel"
 breedName: "Cocker Spaniel"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-cocker-spaniel"
+heroImage: "https://images.pexels.com/photos/32812824/pexels-photo-32812824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32812824/pexels-photo-32812824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Playful Cocker Spaniel dog sitting on grass with a toy, enjoying a sunny day outdoors"
+imageAlt: "Playful Cocker Spaniel dog sitting on grass with a toy, enjoying a sunny day outdoors"
+imageSource: "pexels"
+imageCredit: "Photo by Germán Latasa on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/happy-cocker-spaniel-dog-in-a-garden-32812824/"
+imageSearchQuery: "Cocker Spaniel dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cocker Spaniels
 Cocker Spaniels are medium-sized (20–30 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.

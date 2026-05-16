@@ -27,7 +27,16 @@ breedSlug: "karelian-bear-dog"
 breedName: "Karelian Bear Dog"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-karelian-bear-dog"
+heroImage: "https://images.pexels.com/photos/6000304/pexels-photo-6000304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6000304/pexels-photo-6000304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Young Border Collie dog on a leash, sitting outdoors on a dark track."
+imageAlt: "Young Border Collie dog on a leash, sitting outdoors on a dark track."
+imageSource: "pexels"
+imageCredit: "Photo by Brixiv on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-6000304/"
+imageSearchQuery: "Karelian Bear Dog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Karelian Bear Dogs
 Karelian Bear Dogs are medium-sized (44–49 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

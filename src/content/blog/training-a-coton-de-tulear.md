@@ -27,7 +27,16 @@ breedSlug: "coton-de-tulear"
 breedName: "Coton de Tulear"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-coton-de-tulear"
+heroImage: "https://images.pexels.com/photos/14166877/pexels-photo-14166877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14166877/pexels-photo-14166877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable fluffy white dog with long hair standing on a wall outdoors, showing its cute face."
+imageAlt: "Adorable fluffy white dog with long hair standing on a wall outdoors, showing its cute face."
+imageSource: "pexels"
+imageCredit: "Photo by SUNAZ NAZAR on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-white-long-coat-small-dog-on-concrete-pavement-14166877/"
+imageSearchQuery: "Coton de Tulear dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Coton de Tulears
 Coton de Tulears are small-sized (8–15 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "great-dane"
 breedName: "Great Dane"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-great-dane"
+heroImage: "https://images.pexels.com/photos/8660788/pexels-photo-8660788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8660788/pexels-photo-8660788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Side view of a Great Dane dog with a blurred nature background, showcasing its majestic presence."
+imageAlt: "Side view of a Great Dane dog with a blurred nature background, showcasing its majestic presence."
+imageSource: "pexels"
+imageCredit: "Photo by Paparazzi Ratzfatzzi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/side-view-of-a-dog-8660788/"
+imageSearchQuery: "Great Dane dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Great Danes
 Great Danes are large-sized (110–175 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

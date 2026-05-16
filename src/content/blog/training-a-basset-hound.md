@@ -27,7 +27,16 @@ breedSlug: "basset-hound"
 breedName: "Basset Hound"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-basset-hound"
+heroImage: "https://images.pexels.com/photos/33979390/pexels-photo-33979390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33979390/pexels-photo-33979390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming basset hound dog with long ears lounging in a sunny garden in Serbia."
+imageAlt: "Charming basset hound dog with long ears lounging in a sunny garden in Serbia."
+imageSource: "pexels"
+imageCredit: "Photo by Andrea Sretenović on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-basset-hound-dog-in-summer-garden-33979390/"
+imageSearchQuery: "Basset Hound dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Basset Hounds
 Basset Hounds are medium-sized (40–65 lbs), with calm energy, low shedding, and a short coat. The recommendations below are matched to these traits.

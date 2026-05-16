@@ -27,7 +27,16 @@ breedSlug: "boston-terrier"
 breedName: "Boston Terrier"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-boston-terrier"
+heroImage: "https://images.pexels.com/photos/28244179/pexels-photo-28244179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28244179/pexels-photo-28244179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Boston Terrier dog lounging outdoors on a sunny day, showing its adorable features."
+imageAlt: "Cute Boston Terrier dog lounging outdoors on a sunny day, showing its adorable features."
+imageSource: "pexels"
+imageCredit: "Photo by Sean Brannon on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/boston-terrier-puppy-28244179/"
+imageSearchQuery: "Boston Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Boston Terriers
 Boston Terriers are small-sized (12–25 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "belgian-laekenois"
 breedName: "Belgian Laekenois"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-belgian-laekenois"
+heroImage: "https://images.pexels.com/photos/37107257/pexels-photo-37107257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37107257/pexels-photo-37107257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Belgian Malinois dog training outdoors with handler in grassy field."
+imageAlt: "Belgian Malinois dog training outdoors with handler in grassy field."
+imageSource: "pexels"
+imageCredit: "Photo by Willians Huerta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/belgian-malinois-dog-training-in-field-37107257/"
+imageSearchQuery: "Belgian Laekenois dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Belgian Laekenoiss
 Belgian Laekenoiss are medium-sized (55–65 lbs), with active energy, heavy shedding, and a rough coat. The recommendations below are matched to these traits.

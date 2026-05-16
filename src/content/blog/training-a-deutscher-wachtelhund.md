@@ -27,7 +27,16 @@ breedSlug: "deutscher-wachtelhund"
 breedName: "Deutscher Wachtelhund"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-deutscher-wachtelhund"
+heroImage: "https://images.pexels.com/photos/7339555/pexels-photo-7339555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7339555/pexels-photo-7339555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Happy Border Collie dog outdoors in a training session, showcasing its enthusiasm and intelligence."
+imageAlt: "Happy Border Collie dog outdoors in a training session, showcasing its enthusiasm and intelligence."
+imageSource: "pexels"
+imageCredit: "Photo by Alessandro Ceracchi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-border-collie-7339555/"
+imageSearchQuery: "Deutscher Wachtelhund dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Deutscher Wachtelhunds
 Deutscher Wachtelhunds are medium-sized (40–55 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "braque-francais-pyrenean"
 breedName: "Braque Francais Pyrenean"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-braque-francais-pyrenean"
+heroImage: "https://images.pexels.com/photos/11512112/pexels-photo-11512112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11512112/pexels-photo-11512112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A leashed dog sitting attentively on grass in a sunlit park with its owner."
+imageAlt: "A leashed dog sitting attentively on grass in a sunlit park with its owner."
+imageSource: "pexels"
+imageCredit: "Photo by gabesdotphotos photographer on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/leashed-dog-sitting-on-grass-in-park-11512112/"
+imageSearchQuery: "Braque Francais Pyrenean dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Braque Francais Pyreneans
 Braque Francais Pyreneans are medium-sized (40–55 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "black-and-tan-coonhound"
 breedName: "Black and Tan Coonhound"
 wordCountEstimate: 437
 canonicalUrl: "https://pupwiki.com/blog/training-a-black-and-tan-coonhound"
+heroImage: "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors."
+imageAlt: "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Thais Vitoria on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/"
+imageSearchQuery: "Black and Tan Coonhound dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Black and Tan Coonhounds
 Black and Tan Coonhounds are large-sized (65–110 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

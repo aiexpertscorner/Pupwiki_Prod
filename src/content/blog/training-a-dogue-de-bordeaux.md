@@ -27,7 +27,16 @@ breedSlug: "dogue-de-bordeaux"
 breedName: "Dogue de Bordeaux"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-dogue-de-bordeaux"
+heroImage: "https://images.pexels.com/photos/32329256/pexels-photo-32329256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32329256/pexels-photo-32329256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Dogue de Bordeaux puppy sleeping on a wooden floor outdoors in sunlight."
+imageAlt: "Adorable Dogue de Bordeaux puppy sleeping on a wooden floor outdoors in sunlight."
+imageSource: "pexels"
+imageCredit: "Photo by Marcelo Gonzalez on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-dogue-de-bordeaux-puppy-sleeping-peacefully-32329256/"
+imageSearchQuery: "Dogue de Bordeaux dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dogue de Bordeauxs
 Dogue de Bordeauxs are large-sized (99–110 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

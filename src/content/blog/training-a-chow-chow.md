@@ -27,7 +27,16 @@ breedSlug: "chow-chow"
 breedName: "Chow Chow"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-chow-chow"
+heroImage: "https://images.pexels.com/photos/4083603/pexels-photo-4083603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4083603/pexels-photo-4083603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two fluffy Chow Chow dogs sitting on a grassy hill, enjoying the outdoors."
+imageAlt: "Two fluffy Chow Chow dogs sitting on a grassy hill, enjoying the outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by SHARMAINE MONTICALBO on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dogs-on-ground-4083603/"
+imageSearchQuery: "Chow Chow dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chow Chows
 Chow Chows are large-sized (45–70 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

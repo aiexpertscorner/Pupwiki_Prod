@@ -27,7 +27,16 @@ breedSlug: "danish-swedish-farmdog"
 breedName: "Danish-Swedish Farmdog"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-danish-swedish-farmdog"
+heroImage: "https://images.pexels.com/photos/5863557/pexels-photo-5863557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5863557/pexels-photo-5863557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A person in boots training a black dog outdoors in a dry field."
+imageAlt: "A person in boots training a black dog outdoors in a dry field."
+imageSource: "pexels"
+imageCredit: "Photo by Rachel Claire on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/man-teaching-his-dog-to-sit-5863557/"
+imageSearchQuery: "Danish-Swedish Farmdog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Danish-Swedish Farmdogs
 Danish-Swedish Farmdogs are small-sized (15–20 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

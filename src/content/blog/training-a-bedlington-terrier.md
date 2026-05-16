@@ -27,7 +27,16 @@ breedSlug: "bedlington-terrier"
 breedName: "Bedlington Terrier"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-bedlington-terrier"
+heroImage: "https://images.pexels.com/photos/36924252/pexels-photo-36924252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36924252/pexels-photo-36924252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A charming mixed breed dog with gray and white fur enjoying the outdoors in Uruguay."
+imageAlt: "A charming mixed breed dog with gray and white fur enjoying the outdoors in Uruguay."
+imageSource: "pexels"
+imageCredit: "Photo by German Suarez on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-mixed-breed-dog-in-nature-setting-36924252/"
+imageSearchQuery: "Bedlington Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bedlington Terriers
 Bedlington Terriers are small-sized (17–23 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.

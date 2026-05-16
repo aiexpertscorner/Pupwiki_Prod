@@ -27,7 +27,16 @@ breedSlug: "brittany"
 breedName: "Brittany"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-brittany"
+heroImage: "https://images.pexels.com/photos/15274904/pexels-photo-15274904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15274904/pexels-photo-15274904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Brittany dog with a collar gazes through bars outdoors, surrounded by greenery."
+imageAlt: "A Brittany dog with a collar gazes through bars outdoors, surrounded by greenery."
+imageSource: "pexels"
+imageCredit: "Photo by Denitsa Kireva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-in-cage-15274904/"
+imageSearchQuery: "Brittany dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Brittanys
 Brittanys are medium-sized (30–40 lbs), with active energy, seasonal shedding, and a wavy coat. The recommendations below are matched to these traits.

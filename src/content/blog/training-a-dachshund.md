@@ -27,7 +27,16 @@ breedSlug: "dachshund"
 breedName: "Dachshund"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-dachshund"
+heroImage: "https://images.pexels.com/photos/26607797/pexels-photo-26607797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26607797/pexels-photo-26607797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dachshund dog holds a stick in its mouth outdoors, filled with playful energy."
+imageAlt: "A dachshund dog holds a stick in its mouth outdoors, filled with playful energy."
+imageSource: "pexels"
+imageCredit: "Photo by Gustavo Denuncio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-dachshund-with-stick-26607797/"
+imageSearchQuery: "Dachshund dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dachshunds
 Dachshunds are medium-sized (11–32 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

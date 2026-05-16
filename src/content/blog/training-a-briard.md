@@ -27,7 +27,16 @@ breedSlug: "briard"
 breedName: "Briard"
 wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-briard"
+heroImage: "https://images.pexels.com/photos/29356790/pexels-photo-29356790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29356790/pexels-photo-29356790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A shaggy, long-haired dog stands playfully outdoors, enjoying a sunny day."
+imageAlt: "A shaggy, long-haired dog stands playfully outdoors, enjoying a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Lorna Pauli on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-long-haired-dog-in-outdoor-setting-29356790/"
+imageSearchQuery: "Briard dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Briards
 Briards are large-sized (55–100 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

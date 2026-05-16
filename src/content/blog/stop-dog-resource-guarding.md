@@ -20,7 +20,16 @@ monetizationIntent: none
 medicalDisclaimer: false
 affiliateDisclosure: true
 uniqueBlocks: []
+heroImage: "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A French Bulldog on a leash walking with its owner in a park setting."
+imageAlt: "A French Bulldog on a leash walking with its owner in a park setting."
+imageSource: "pexels"
+imageCredit: "Photo by Abhishek  Navlakha on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/"
+imageSearchQuery: "dog owner dog care"
 ---
+
 
 Resource guarding is a natural survival behaviour: dogs instinctively protect food, toys or sleeping spaces because these resources have ensured survival for millennia. While mild guarding is normal, guarding that escalates into growling, snapping or biting can become dangerous. This guide explains why dogs guard, how to recognise the warning signs and—most importantly—offers humane strategies to prevent and modify the behaviour.
 

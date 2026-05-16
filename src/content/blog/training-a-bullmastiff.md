@@ -27,7 +27,16 @@ breedSlug: "bullmastiff"
 breedName: "Bullmastiff"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-bullmastiff"
+heroImage: "https://images.pexels.com/photos/8368960/pexels-photo-8368960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8368960/pexels-photo-8368960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A detailed close-up of a Bullmastiff dog with a red bandana, showcasing its expressive eyes and strong build outdoors."
+imageAlt: "A detailed close-up of a Bullmastiff dog with a red bandana, showcasing its expressive eyes and strong build outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Saeed Khokhar on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-on-leash-8368960/"
+imageSearchQuery: "Bullmastiff dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bullmastiffs
 Bullmastiffs are large-sized (100–130 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

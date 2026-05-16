@@ -27,7 +27,16 @@ breedSlug: "bavarian-mountain-scent-hound"
 breedName: "Bavarian Mountain Scent Hound"
 wordCountEstimate: 436
 canonicalUrl: "https://pupwiki.com/blog/training-a-bavarian-mountain-scent-hound"
+heroImage: "https://images.pexels.com/photos/29547466/pexels-photo-29547466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29547466/pexels-photo-29547466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two Weimaraner dogs sniffing grass, wearing vests and collars outdoors."
+imageAlt: "Two Weimaraner dogs sniffing grass, wearing vests and collars outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Karl  Byron on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/two-weimaraner-dogs-enjoying-outdoor-exploration-29547466/"
+imageSearchQuery: "Bavarian Mountain Scent Hound dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bavarian Mountain Scent Hounds
 Bavarian Mountain Scent Hounds are large-sized (37–66 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

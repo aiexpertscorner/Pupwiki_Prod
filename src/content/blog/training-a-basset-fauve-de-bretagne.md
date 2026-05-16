@@ -27,7 +27,16 @@ breedSlug: "basset-fauve-de-bretagne"
 breedName: "Basset Fauve de Bretagne"
 wordCountEstimate: 437
 canonicalUrl: "https://pupwiki.com/blog/training-a-basset-fauve-de-bretagne"
+heroImage: "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Tibetan Terrier dog sitting attentively for training in a backyard setting."
+imageAlt: "A Tibetan Terrier dog sitting attentively for training in a backyard setting."
+imageSource: "pexels"
+imageCredit: "Photo by Lorna Pauli on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/"
+imageSearchQuery: "Basset Fauve de Bretagne dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Basset Fauve de Bretagnes
 Basset Fauve de Bretagnes are medium-sized (27–35 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.

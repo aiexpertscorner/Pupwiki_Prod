@@ -27,7 +27,16 @@ breedSlug: "cavalier-king-charles-spaniel"
 breedName: "Cavalier King Charles Spaniel"
 wordCountEstimate: 436
 canonicalUrl: "https://pupwiki.com/blog/training-a-cavalier-king-charles-spaniel"
+heroImage: "https://images.pexels.com/photos/37083342/pexels-photo-37083342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37083342/pexels-photo-37083342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Cavalier King Charles Spaniel puppy sitting in a wicker basket outdoors."
+imageAlt: "Cute Cavalier King Charles Spaniel puppy sitting in a wicker basket outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Susanne Jutzeler, suju-foto on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-cavalier-king-charles-puppy-in-basket-37083342/"
+imageSearchQuery: "Cavalier King Charles Spaniel dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cavalier King Charles Spaniels
 Cavalier King Charles Spaniels are small-sized (13–18 lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

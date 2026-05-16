@@ -20,7 +20,16 @@ monetizationIntent: none
 medicalDisclaimer: true
 affiliateDisclosure: true
 uniqueBlocks: []
+heroImage: "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A French Bulldog on a leash walking with its owner in a park setting."
+imageAlt: "A French Bulldog on a leash walking with its owner in a park setting."
+imageSource: "pexels"
+imageCredit: "Photo by Abhishek  Navlakha on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/"
+imageSearchQuery: "dog owner dog care"
 ---
+
 
 Finding a puddle on the floor when greeting your puppy can be disheartening. Submissive or excitement urination is a common but often misunderstood puppy behaviour. Young dogs may squat and urinate during greetings as a way to communicate appeasement or because they lack full bladder control. This article explains why it happens and how to manage it without damaging your puppy’s confidence.
 

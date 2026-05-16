@@ -27,7 +27,16 @@ breedSlug: "dogo-argentino"
 breedName: "Dogo Argentino"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-dogo-argentino"
+heroImage: "https://images.pexels.com/photos/288392/pexels-photo-288392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/288392/pexels-photo-288392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "White dog on a leash enjoying a bright winter day outdoors, captured in portrait style."
+imageAlt: "White dog on a leash enjoying a bright winter day outdoors, captured in portrait style."
+imageSource: "pexels"
+imageCredit: "Photo by freestocks.org on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adult-white-pitbull-terrier-near-tree-288392/"
+imageSearchQuery: "Dogo Argentino dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dogo Argentinos
 Dogo Argentinos are large-sized (88–100 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

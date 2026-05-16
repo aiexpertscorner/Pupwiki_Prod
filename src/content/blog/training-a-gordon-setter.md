@@ -27,7 +27,16 @@ breedSlug: "gordon-setter"
 breedName: "Gordon Setter"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-gordon-setter"
+heroImage: "https://images.pexels.com/photos/36098110/pexels-photo-36098110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36098110/pexels-photo-36098110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Gordon Setter dog in a harness enjoys a winter day outdoors amidst snow and mountains."
+imageAlt: "A Gordon Setter dog in a harness enjoys a winter day outdoors amidst snow and mountains."
+imageSource: "pexels"
+imageCredit: "Photo by Jesús Esteban San José on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/gordon-setter-dog-in-snowy-mountain-scenery-36098110/"
+imageSearchQuery: "Gordon Setter dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Gordon Setters
 Gordon Setters are large-sized (45–80 lbs), with active energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

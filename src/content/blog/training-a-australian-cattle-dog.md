@@ -27,7 +27,16 @@ breedSlug: "australian-cattle-dog"
 breedName: "Australian Cattle Dog"
 wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/training-a-australian-cattle-dog"
+heroImage: "https://images.pexels.com/photos/9203189/pexels-photo-9203189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9203189/pexels-photo-9203189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Profile view of a happy dog with tongue out, sitting outdoors on a sunny day."
+imageAlt: "Profile view of a happy dog with tongue out, sitting outdoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Thiago  Soares on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-dog-with-its-tongue-out-9203189/"
+imageSearchQuery: "Australian Cattle Dog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Australian Cattle Dogs
 Australian Cattle Dogs are medium-sized (35–50 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

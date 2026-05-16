@@ -27,7 +27,16 @@ breedSlug: "finnish-lapphund"
 breedName: "Finnish Lapphund"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-finnish-lapphund"
+heroImage: "https://images.pexels.com/photos/29352510/pexels-photo-29352510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29352510/pexels-photo-29352510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white image of a woman hugging her fluffy dog outdoors on a grassy area."
+imageAlt: "Black and white image of a woman hugging her fluffy dog outdoors on a grassy area."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/monochrome-portrait-of-woman-with-fluffy-dog-outdoors-29352510/"
+imageSearchQuery: "Finnish Lapphund dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Finnish Lapphunds
 Finnish Lapphunds are medium-sized (33–53 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "alaskan-malamute"
 breedName: "Alaskan Malamute"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-alaskan-malamute"
+heroImage: "https://images.pexels.com/photos/27062468/pexels-photo-27062468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27062468/pexels-photo-27062468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of an Alaskan Malamute dog's profile outdoors, focusing on its expressive face."
+imageAlt: "Close-up of an Alaskan Malamute dog's profile outdoors, focusing on its expressive face."
+imageSource: "pexels"
+imageCredit: "Photo by Mohan Nannapaneni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/alaskan-malamute-dog-27062468/"
+imageSearchQuery: "Alaskan Malamute dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Alaskan Malamutes
 Alaskan Malamutes are large-sized (75–85 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

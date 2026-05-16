@@ -27,7 +27,16 @@ breedSlug: "bernese-mountain-dog"
 breedName: "Bernese Mountain Dog"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-bernese-mountain-dog"
+heroImage: "https://images.pexels.com/photos/12984753/pexels-photo-12984753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12984753/pexels-photo-12984753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Bernese Mountain Dog puppy sitting happily on green grass outdoors."
+imageAlt: "A cute Bernese Mountain Dog puppy sitting happily on green grass outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Karen F on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/tricolor-bernese-mountain-dog-on-green-grass-field-12984753/"
+imageSearchQuery: "Bernese Mountain Dog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bernese Mountain Dogs
 Bernese Mountain Dogs are large-sized (70–115 lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.

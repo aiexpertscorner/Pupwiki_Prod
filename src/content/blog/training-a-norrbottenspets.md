@@ -27,7 +27,16 @@ breedSlug: "norrbottenspets"
 breedName: "Norrbottenspets"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-norrbottenspets"
+heroImage: "https://images.pexels.com/photos/20709094/pexels-photo-20709094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20709094/pexels-photo-20709094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog demonstrates discipline by balancing a treat on its nose outdoors."
+imageAlt: "A dog demonstrates discipline by balancing a treat on its nose outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Karlee Heck on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-balancing-biscuits-on-the-nose-20709094/"
+imageSearchQuery: "Norrbottenspets dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Norrbottenspetss
 Norrbottenspetss are medium-sized (20–30 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

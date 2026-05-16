@@ -27,7 +27,16 @@ breedSlug: "nova-scotia-duck-tolling-retriever"
 breedName: "Nova Scotia Duck Tolling Retriever"
 wordCountEstimate: 449
 canonicalUrl: "https://pupwiki.com/blog/training-a-nova-scotia-duck-tolling-retriever"
+heroImage: "https://images.pexels.com/photos/29756767/pexels-photo-29756767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29756767/pexels-photo-29756767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A woman enjoys an autumn day playing with her jumping dog in a field."
+imageAlt: "A woman enjoys an autumn day playing with her jumping dog in a field."
+imageSource: "pexels"
+imageCredit: "Photo by Michał Robak on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-playing-with-dog-in-autumn-field-29756767/"
+imageSearchQuery: "Nova Scotia Duck Tolling Retriever dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Nova Scotia Duck Tolling Retrievers
 Nova Scotia Duck Tolling Retrievers are medium-sized (35–50 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

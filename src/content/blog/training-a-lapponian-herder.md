@@ -27,7 +27,16 @@ breedSlug: "lapponian-herder"
 breedName: "Lapponian Herder"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-lapponian-herder"
+heroImage: "https://images.pexels.com/photos/13622949/pexels-photo-13622949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13622949/pexels-photo-13622949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "West Siberian Laika dog sitting outdoors near bench and pathway."
+imageAlt: "West Siberian Laika dog sitting outdoors near bench and pathway."
+imageSource: "pexels"
+imageCredit: "Photo by Viktorija Stankevičiūtė on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-sitting-on-the-ground-13622949/"
+imageSearchQuery: "Lapponian Herder dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lapponian Herders
 Lapponian Herders are large-sized (70 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

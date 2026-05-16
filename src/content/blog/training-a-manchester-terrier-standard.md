@@ -27,7 +27,16 @@ breedSlug: "manchester-terrier-standard"
 breedName: "Manchester Terrier (Standard)"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-manchester-terrier-standard"
+heroImage: "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment."
+imageAlt: "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-poodle-shaking-hands-with-owner-outdoors-35276201/"
+imageSearchQuery: "Manchester Terrier (Standard) dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Manchester Terrier (Standard)s
 Manchester Terrier (Standard)s are small-sized (12–22 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

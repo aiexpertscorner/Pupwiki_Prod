@@ -27,7 +27,16 @@ breedSlug: "old-english-sheepdog"
 breedName: "Old English Sheepdog"
 wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/training-a-old-english-sheepdog"
+heroImage: "https://images.pexels.com/photos/3367616/pexels-photo-3367616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3367616/pexels-photo-3367616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy dog relaxing outdoors near a rustic cabin in a mountainous winter setting."
+imageAlt: "A fluffy dog relaxing outdoors near a rustic cabin in a mountainous winter setting."
+imageSource: "pexels"
+imageCredit: "Photo by Tomáš Malík on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/beige-and-black-coated-dog-3367616/"
+imageSearchQuery: "Old English Sheepdog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Old English Sheepdogs
 Old English Sheepdogs are large-sized (60–100 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

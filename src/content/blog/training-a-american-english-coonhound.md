@@ -27,7 +27,16 @@ breedSlug: "american-english-coonhound"
 breedName: "American English Coonhound"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-american-english-coonhound"
+heroImage: "https://images.pexels.com/photos/32820404/pexels-photo-32820404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32820404/pexels-photo-32820404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Pointer dog and handler outdoors, showcasing companionship and control."
+imageAlt: "Pointer dog and handler outdoors, showcasing companionship and control."
+imageSource: "pexels"
+imageCredit: "Photo by Jiří Dočkal on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/pointer-dog-with-handler-in-outdoor-setting-32820404/"
+imageSearchQuery: "American English Coonhound dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American English Coonhounds
 American English Coonhounds are medium-sized (45–65 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

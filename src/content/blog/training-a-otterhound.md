@@ -27,7 +27,16 @@ breedSlug: "otterhound"
 breedName: "Otterhound"
 wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-otterhound"
+heroImage: "https://images.pexels.com/photos/12453603/pexels-photo-12453603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/12453603/pexels-photo-12453603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable close-up of a furry Otterhound dog with a captivating gaze outdoors."
+imageAlt: "Adorable close-up of a furry Otterhound dog with a captivating gaze outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Alexander  Taranenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-an-otterhound-12453603/"
+imageSearchQuery: "Otterhound dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Otterhounds
 Otterhounds are large-sized (80–115 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
