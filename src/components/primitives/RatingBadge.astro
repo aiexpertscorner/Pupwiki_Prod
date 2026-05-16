@@ -1,0 +1,58 @@
+---
+export interface Props {
+  score: number;
+  max?: number;
+  label?: string;
+  size?: 'sm' | 'md' | 'lg';
+}
+const { score, max = 10, label = 'Score', size = 'md' } = Astro.props;
+const tier = score >= 8 ? 'good' : score >= 6 ? 'caution' : 'danger';
+---
+
+<div class={`rbadge rbadge--${tier} rbadge--${size}`} title={`${label}: ${score}/${max}`}>
+  <span class="rbadge__value">{score}<span class="rbadge__denom">/{max}</span></span>
+  <span class="rbadge__label">{label}</span>
+</div>
+
+<style>
+  .rbadge {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.35rem 0.6rem;
+    border-radius: var(--radius-lg);
+    border: 2px solid currentColor;
+    min-width: 3.2rem;
+    text-align: center;
+    gap: 0.1rem;
+  }
+
+  .rbadge--good    { color: var(--color-score-good); background: var(--color-score-good-light); border-color: var(--color-score-good-border); }
+  .rbadge--caution { color: var(--color-score-caution); background: var(--color-score-caution-light); border-color: var(--color-score-caution); }
+  .rbadge--danger  { color: var(--color-score-danger); background: var(--color-score-danger-light); border-color: var(--color-score-danger); }
+
+  .rbadge--sm .rbadge__value { font-size: 1rem; }
+  .rbadge--md .rbadge__value { font-size: 1.4rem; }
+  .rbadge--lg .rbadge__value { font-size: 1.8rem; }
+
+  .rbadge__value {
+    display: block;
+    font-family: var(--font-mono);
+    font-weight: var(--weight-bold);
+    line-height: 1;
+  }
+  .rbadge__denom {
+    font-size: 0.55em;
+    opacity: 0.7;
+  }
+  .rbadge__label {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.6rem;
+    font-weight: var(--weight-semi);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.8;
+  }
+</style>
