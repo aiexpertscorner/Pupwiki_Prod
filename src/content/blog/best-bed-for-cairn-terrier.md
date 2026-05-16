@@ -3,8 +3,8 @@ title: "Cairn Terrier Beds Dog-Care Decision Guide"
 seoTitle: "Cairn Terrier Beds Dog-Care Decision Guide"
 displayTitle: "Cairn Terrier Beds decision guide"
 description: "A PupWiki guide for current and future Cairn Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "cairn-terrier", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "cairn-terrier"
 breedName: "Cairn Terrier"
+wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-cairn-terrier"
-heroImage: "https://images.pexels.com/photos/5420821/pexels-photo-5420821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/5420821/pexels-photo-5420821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A calm small dog sleeping soundly on a soft bed, showcasing relaxation."
-imageAlt: "A calm small dog sleeping soundly on a soft bed, showcasing relaxation."
-imageSource: "pexels"
-imageCredit: "Photo by www.kaboompics.com on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/dog-on-bed-5420821/"
-imageSearchQuery: "Cairn Terrier dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cairn Terriers
-Cairn Terriers are medium-sized (varies lbs), with regular energy, low shedding, and a rough coat. The recommendations below are matched to these traits.
+Cairn Terriers are small-sized (13–14 lbs), with regular energy, low shedding, and a rough coat. The recommendations below are matched to these traits.
 This page helps Cairn Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Cairn Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

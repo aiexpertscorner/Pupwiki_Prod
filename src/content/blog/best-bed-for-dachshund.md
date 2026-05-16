@@ -3,8 +3,8 @@ title: "Dachshund Beds Dog-Care Decision Guide"
 seoTitle: "Dachshund Beds Dog-Care Decision Guide"
 displayTitle: "Dachshund Beds decision guide"
 description: "A PupWiki guide for current and future Dachshund people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "dachshund", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "dachshund"
 breedName: "Dachshund"
+wordCountEstimate: 362
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-dachshund"
-heroImage: "https://images.pexels.com/photos/36422580/pexels-photo-36422580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/36422580/pexels-photo-36422580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A dachshund basks in the sunlight on a cozy dog bed indoors, exuding calm and warmth."
-imageAlt: "A dachshund basks in the sunlight on a cozy dog bed indoors, exuding calm and warmth."
-imageSource: "pexels"
-imageCredit: "Photo by Giovanna Kamimura on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/dachshund-relaxing-in-sunlit-dog-bed-indoors-36422580/"
-imageSearchQuery: "Dachshund dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dachshunds
-Dachshunds are medium-sized (varies lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Dachshunds are medium-sized (11–32 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
 This page helps Dachshund people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Dachshund fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

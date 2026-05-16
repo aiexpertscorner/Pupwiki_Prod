@@ -3,8 +3,8 @@ title: "Ibizan Hound Training Dog-Care Decision Guide"
 seoTitle: "Ibizan Hound Training Dog-Care Decision Guide"
 displayTitle: "Ibizan Hound Training decision guide"
 description: "A PupWiki guide for current and future Ibizan Hound people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "ibizan-hound", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "ibizan-hound"
 breedName: "Ibizan Hound"
+wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-ibizan-hound"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Ibizan Hounds
-Ibizan Hounds are medium-sized (varies lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Ibizan Hounds are medium-sized (45–50 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Ibizan Hound people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Ibizan Hound fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "Otterhound Training Dog-Care Decision Guide"
 seoTitle: "Otterhound Training Dog-Care Decision Guide"
 displayTitle: "Otterhound Training decision guide"
 description: "A PupWiki guide for current and future Otterhound people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "otterhound", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "otterhound"
 breedName: "Otterhound"
+wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-otterhound"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Otterhounds
-Otterhounds are medium-sized (varies lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+Otterhounds are large-sized (80–115 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
 This page helps Otterhound people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Otterhound fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

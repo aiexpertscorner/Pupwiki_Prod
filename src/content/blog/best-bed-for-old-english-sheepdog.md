@@ -3,8 +3,8 @@ title: "Old English Sheepdog Beds Dog-Care Decision Guide"
 seoTitle: "Old English Sheepdog Beds Dog-Care Decision Guide"
 displayTitle: "Old English Sheepdog Beds decision guide"
 description: "A PupWiki guide for current and future Old English Sheepdog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "old-english-sheepdog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "old-english-sheepdog"
 breedName: "Old English Sheepdog"
+wordCountEstimate: 392
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-old-english-sheepdog"
-heroImage: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
-imageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
-imageSource: "pexels"
-imageCredit: "Photo by Miguel González on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/dog-on-yellow-background-16622613/"
-imageSearchQuery: "Old English Sheepdog dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Old English Sheepdogs
-Old English Sheepdogs are medium-sized (varies lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Old English Sheepdogs are large-sized (60–100 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Old English Sheepdog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Old English Sheepdog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

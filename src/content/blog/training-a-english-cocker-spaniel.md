@@ -3,8 +3,8 @@ title: "English Cocker Spaniel Training Dog-Care Decision Guide"
 seoTitle: "English Cocker Spaniel Training Dog-Care Decision Guide"
 displayTitle: "English Cocker Spaniel Training decision guide"
 description: "A PupWiki guide for current and future English Cocker Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "english-cocker-spaniel", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "english-cocker-spaniel"
 breedName: "English Cocker Spaniel"
+wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-english-cocker-spaniel"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Cocker Spaniels
-English Cocker Spaniels are medium-sized (varies lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+English Cocker Spaniels are medium-sized (26–34 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
 This page helps English Cocker Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a English Cocker Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "Pekingese Beds Dog-Care Decision Guide"
 seoTitle: "Pekingese Beds Dog-Care Decision Guide"
 displayTitle: "Pekingese Beds decision guide"
 description: "A PupWiki guide for current and future Pekingese people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "pekingese", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "pekingese"
 breedName: "Pekingese"
+wordCountEstimate: 370
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-pekingese"
-heroImage: "https://images.pexels.com/photos/11060037/pexels-photo-11060037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/11060037/pexels-photo-11060037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Close-up of a cute brown dog peacefully sleeping on a plaid pillow, showcasing tranquility and comfort."
-imageAlt: "Close-up of a cute brown dog peacefully sleeping on a plaid pillow, showcasing tranquility and comfort."
-imageSource: "pexels"
-imageCredit: "Photo by Alexas Fotos on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-sleeping-dog-11060037/"
-imageSearchQuery: "Pekingese dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pekingeses
-Pekingeses are medium-sized (varies lbs), with calm energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Pekingeses are small-sized (14 lbs), with calm energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Pekingese people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Pekingese fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

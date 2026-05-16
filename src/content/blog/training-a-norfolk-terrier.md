@@ -3,8 +3,8 @@ title: "Norfolk Terrier Training Dog-Care Decision Guide"
 seoTitle: "Norfolk Terrier Training Dog-Care Decision Guide"
 displayTitle: "Norfolk Terrier Training decision guide"
 description: "A PupWiki guide for current and future Norfolk Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "norfolk-terrier", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "norfolk-terrier"
 breedName: "Norfolk Terrier"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-norfolk-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Norfolk Terriers
-Norfolk Terriers are medium-sized (varies lbs), with regular energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Norfolk Terriers are small-sized (11–12 lbs), with regular energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
 This page helps Norfolk Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Norfolk Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

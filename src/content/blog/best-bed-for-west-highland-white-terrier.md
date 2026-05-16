@@ -3,8 +3,8 @@ title: "West Highland White Terrier Beds Dog-Care Decision Guide"
 seoTitle: "West Highland White Terrier Beds Dog-Care Decision Guide"
 displayTitle: "West Highland White Terrier Beds decision guide"
 description: "A PupWiki guide for current and future West Highland White Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "west-highland-white-terrier", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "west-highland-white-terrier"
 breedName: "West Highland White Terrier"
+wordCountEstimate: 409
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-west-highland-white-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for West Highland White Terriers
-West Highland White Terriers are medium-sized (varies lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+West Highland White Terriers are small-sized (15–20 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
 This page helps West Highland White Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a West Highland White Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

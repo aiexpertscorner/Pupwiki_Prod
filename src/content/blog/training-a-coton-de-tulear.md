@@ -3,8 +3,8 @@ title: "Coton de Tulear Training Dog-Care Decision Guide"
 seoTitle: "Coton de Tulear Training Dog-Care Decision Guide"
 displayTitle: "Coton de Tulear Training decision guide"
 description: "A PupWiki guide for current and future Coton de Tulear people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "coton-de-tulear", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "coton-de-tulear"
 breedName: "Coton de Tulear"
+wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-coton-de-tulear"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Coton de Tulears
-Coton de Tulears are medium-sized (varies lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+Coton de Tulears are small-sized (8–15 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Coton de Tulear people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Coton de Tulear fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

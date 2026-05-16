@@ -3,8 +3,8 @@ title: "Sloughi Beds Dog-Care Decision Guide"
 seoTitle: "Sloughi Beds Dog-Care Decision Guide"
 displayTitle: "Sloughi Beds decision guide"
 description: "A PupWiki guide for current and future Sloughi people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "sloughi", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "sloughi"
 breedName: "Sloughi"
+wordCountEstimate: 362
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-sloughi"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Sloughis
-Sloughis are medium-sized (varies lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Sloughis are medium-sized (35–50 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Sloughi people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Sloughi fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

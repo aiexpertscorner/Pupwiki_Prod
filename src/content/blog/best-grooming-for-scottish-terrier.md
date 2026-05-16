@@ -3,8 +3,8 @@ title: "Scottish Terrier Grooming Dog-Care Decision Guide"
 seoTitle: "Scottish Terrier Grooming Dog-Care Decision Guide"
 displayTitle: "Scottish Terrier Grooming decision guide"
 description: "A PupWiki guide for current and future Scottish Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "scottish-terrier", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "scottish-terrier"
 breedName: "Scottish Terrier"
+wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-scottish-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Scottish Terriers
-Scottish Terriers are medium-sized (varies lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+Scottish Terriers are small-sized (18–22 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
 This page helps Scottish Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Scottish Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

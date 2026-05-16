@@ -3,8 +3,8 @@ title: "Tibetan Spaniel Beds Dog-Care Decision Guide"
 seoTitle: "Tibetan Spaniel Beds Dog-Care Decision Guide"
 displayTitle: "Tibetan Spaniel Beds decision guide"
 description: "A PupWiki guide for current and future Tibetan Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "tibetan-spaniel", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "tibetan-spaniel"
 breedName: "Tibetan Spaniel"
+wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-tibetan-spaniel"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Tibetan Spaniels
-Tibetan Spaniels are medium-sized (varies lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Tibetan Spaniels are small-sized (9–15 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Tibetan Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Tibetan Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

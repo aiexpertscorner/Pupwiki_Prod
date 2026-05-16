@@ -3,8 +3,8 @@ title: "Australian Cattle Dog Beds Dog-Care Decision Guide"
 seoTitle: "Australian Cattle Dog Beds Dog-Care Decision Guide"
 displayTitle: "Australian Cattle Dog Beds decision guide"
 description: "A PupWiki guide for current and future Australian Cattle Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "australian-cattle-dog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "australian-cattle-dog"
 breedName: "Australian Cattle Dog"
+wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-australian-cattle-dog"
-heroImage: "https://images.pexels.com/photos/35511903/pexels-photo-35511903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/35511903/pexels-photo-35511903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "An Australian Cattle Dog sitting on lush green grass, showing a friendly expression."
-imageAlt: "An Australian Cattle Dog sitting on lush green grass, showing a friendly expression."
-imageSource: "pexels"
-imageCredit: "Photo by Helena Lopes on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/australian-cattle-dog-sitting-on-green-grass-35511903/"
-imageSearchQuery: "Australian Cattle Dog dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Australian Cattle Dogs
-Australian Cattle Dogs are medium-sized (varies lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Australian Cattle Dogs are medium-sized (35–50 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Australian Cattle Dog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Australian Cattle Dog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

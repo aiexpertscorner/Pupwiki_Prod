@@ -3,8 +3,8 @@ title: "American Eskimo Dog Beds Dog-Care Decision Guide"
 seoTitle: "American Eskimo Dog Beds Dog-Care Decision Guide"
 displayTitle: "American Eskimo Dog Beds decision guide"
 description: "A PupWiki guide for current and future American Eskimo Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "american-eskimo-dog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "american-eskimo-dog"
 breedName: "American Eskimo Dog"
+wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-american-eskimo-dog"
-heroImage: "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Cute American Eskimo dog lying on vibrant green grass, looking playfully at the camera."
-imageAlt: "Cute American Eskimo dog lying on vibrant green grass, looking playfully at the camera."
-imageSource: "pexels"
-imageCredit: "Photo by Mohan Nannapaneni on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-white-american-eskimo-dog-on-green-grass-7237824/"
-imageSearchQuery: "American Eskimo Dog dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Eskimo Dogs
-American Eskimo Dogs are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+American Eskimo Dogs are medium-sized (6–35 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps American Eskimo Dog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a American Eskimo Dog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

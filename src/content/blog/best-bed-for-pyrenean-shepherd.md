@@ -3,8 +3,8 @@ title: "Pyrenean Shepherd Beds Dog-Care Decision Guide"
 seoTitle: "Pyrenean Shepherd Beds Dog-Care Decision Guide"
 displayTitle: "Pyrenean Shepherd Beds decision guide"
 description: "A PupWiki guide for current and future Pyrenean Shepherd people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "pyrenean-shepherd", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "pyrenean-shepherd"
 breedName: "Pyrenean Shepherd"
+wordCountEstimate: 382
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-pyrenean-shepherd"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pyrenean Shepherds
-Pyrenean Shepherds are medium-sized (varies lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Pyrenean Shepherds are medium-sized (15–30 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Pyrenean Shepherd people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Pyrenean Shepherd fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

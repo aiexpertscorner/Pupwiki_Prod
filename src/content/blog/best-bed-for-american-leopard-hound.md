@@ -3,8 +3,8 @@ title: "American Leopard Hound Beds Dog-Care Decision Guide"
 seoTitle: "American Leopard Hound Beds Dog-Care Decision Guide"
 displayTitle: "American Leopard Hound Beds decision guide"
 description: "A PupWiki guide for current and future American Leopard Hound people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "american-leopard-hound", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "american-leopard-hound"
 breedName: "American Leopard Hound"
+wordCountEstimate: 399
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-american-leopard-hound"
-heroImage: "https://images.pexels.com/photos/19027991/pexels-photo-19027991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/19027991/pexels-photo-19027991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A Weimaraner dog peacefully sleeping on a fluffy dog bed in a cozy living room."
-imageAlt: "A Weimaraner dog peacefully sleeping on a fluffy dog bed in a cozy living room."
-imageSource: "pexels"
-imageCredit: "Photo by Olivier Leysen on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/a-dog-sleeping-in-a-dog-bed-next-to-a-sofa-19027991/"
-imageSearchQuery: "American Leopard Hound dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Leopard Hounds
-American Leopard Hounds are medium-sized (varies lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+American Leopard Hounds are large-sized (45–70 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps American Leopard Hound people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a American Leopard Hound fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

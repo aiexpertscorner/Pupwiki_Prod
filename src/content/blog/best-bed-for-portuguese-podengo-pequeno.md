@@ -3,8 +3,8 @@ title: "Portuguese Podengo Pequeno Beds Dog-Care Decision Guide"
 seoTitle: "Portuguese Podengo Pequeno Beds Dog-Care Decision Guide"
 displayTitle: "Portuguese Podengo Pequeno Beds decision guide"
 description: "A PupWiki guide for current and future Portuguese Podengo Pequeno people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "portuguese-podengo-pequeno", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "portuguese-podengo-pequeno"
 breedName: "Portuguese Podengo Pequeno"
+wordCountEstimate: 403
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-portuguese-podengo-pequeno"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Portuguese Podengo Pequenos
-Portuguese Podengo Pequenos are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Portuguese Podengo Pequenos are small-sized (9–13 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Portuguese Podengo Pequeno people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Portuguese Podengo Pequeno fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

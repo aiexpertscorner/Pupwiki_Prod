@@ -3,8 +3,8 @@ title: "Alaskan Malamute Beds Dog-Care Decision Guide"
 seoTitle: "Alaskan Malamute Beds Dog-Care Decision Guide"
 displayTitle: "Alaskan Malamute Beds decision guide"
 description: "A PupWiki guide for current and future Alaskan Malamute people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "alaskan-malamute", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "alaskan-malamute"
 breedName: "Alaskan Malamute"
+wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-alaskan-malamute"
-heroImage: "https://images.pexels.com/photos/8734661/pexels-photo-8734661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/8734661/pexels-photo-8734661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A serene husky dog sleeping on the snow during a sunny winter day."
-imageAlt: "A serene husky dog sleeping on the snow during a sunny winter day."
-imageSource: "pexels"
-imageCredit: "Photo by Павел Гавриков on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/a-dog-sleeping-on-the-snow-ground-8734661/"
-imageSearchQuery: "Alaskan Malamute dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Alaskan Malamutes
-Alaskan Malamutes are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Alaskan Malamutes are large-sized (75–85 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Alaskan Malamute people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Alaskan Malamute fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

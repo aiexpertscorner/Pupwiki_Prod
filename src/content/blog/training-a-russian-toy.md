@@ -3,8 +3,8 @@ title: "Russian Toy Training Dog-Care Decision Guide"
 seoTitle: "Russian Toy Training Dog-Care Decision Guide"
 displayTitle: "Russian Toy Training decision guide"
 description: "A PupWiki guide for current and future Russian Toy people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "russian-toy", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "russian-toy"
 breedName: "Russian Toy"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-russian-toy"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Russian Toys
-Russian Toys are medium-sized (varies lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Russian Toys are small-sized (6.5 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Russian Toy people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Russian Toy fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

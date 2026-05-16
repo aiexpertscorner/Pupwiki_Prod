@@ -3,8 +3,8 @@ title: "Dogue de Bordeaux Food Dog-Care Decision Guide"
 seoTitle: "Dogue de Bordeaux Food Dog-Care Decision Guide"
 displayTitle: "Dogue de Bordeaux Food decision guide"
 description: "A PupWiki guide for current and future Dogue de Bordeaux people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "dogue-de-bordeaux", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "dogue-de-bordeaux"
 breedName: "Dogue de Bordeaux"
+wordCountEstimate: 493
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-dogue-de-bordeaux"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dogue de Bordeauxs
-Dogue de Bordeauxs are medium-sized (varies lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Dogue de Bordeauxs are large-sized (99–110 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Dogue de Bordeaux people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Dogue de Bordeaux fits your home, budget and routine.
 ## Brands and services to compare
 - **Chef Paw (US)**
@@ -46,12 +47,12 @@ This page helps Dogue de Bordeaux people compare useful brands, products and ser
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Dogue de Bordeaux
-Look for AAFCO compliance — the label should confirm the formula is complete and balanced for your dog's life stage. A named protein (chicken, salmon, beef) should be the first ingredient listed. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+Look for AAFCO compliance — the label should confirm the formula is complete and balanced for your dog's life stage. A named protein (chicken, salmon, beef) should be the first ingredient listed. Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient. For a typical adult Dogue de Bordeaux (99–110 lbs), the estimated resting energy requirement is around 1269 kcal/day — with a regular-energy activity factor, daily intake sits roughly in the 1599–1955 kcal range. Most quality kibbles list kcal/cup on the bag; use this to portion accurately rather than relying on the default "suggested feeding" table alone.
 ### What to look for in food for a Dogue de Bordeaux
 Large breeds benefit from formulas with a controlled calcium-to-phosphorus ratio. Look for products specifically labelled for large or giant breeds, as these manage growth rate and joint load more carefully. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Dogue de Bordeaux needs fewer calories than an athletic one. Dogue de Bordeauxs shed seasonally — look for formulas that include omega-3 fatty acids (EPA/DHA from salmon or fish oil) to support coat health from the inside out.
 ### Frequently asked questions about Dogue de Bordeaux feeding
 **How much should I feed my Dogue de Bordeaux?**
-Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Dogue de Bordeauxs need 2–3 meals per day as adults.
+A rough starting point for Dogue de Bordeauxs (99–110 lbs) is 1–2 cups per day for smaller adults and 3–4 cups for larger ones — always follow the feeding guidelines on the specific formula and adjust based on body condition, not just weight.
 **What food formula works best for a Dogue de Bordeaux?**
 Look for formulas specifically labelled for large breeds, which manage calcium and phosphorus ratios to support joint development. Avoid puppy formulas designed for small dogs even if your Dogue de Bordeaux is young.
 **When should I switch my Dogue de Bordeaux from puppy to adult food?**

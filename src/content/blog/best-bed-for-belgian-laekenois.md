@@ -3,8 +3,8 @@ title: "Belgian Laekenois Beds Dog-Care Decision Guide"
 seoTitle: "Belgian Laekenois Beds Dog-Care Decision Guide"
 displayTitle: "Belgian Laekenois Beds decision guide"
 description: "A PupWiki guide for current and future Belgian Laekenois people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "belgian-laekenois", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "belgian-laekenois"
 breedName: "Belgian Laekenois"
+wordCountEstimate: 382
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-belgian-laekenois"
-heroImage: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
-imageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
-imageSource: "pexels"
-imageCredit: "Photo by Andreas Schnabl on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/adorable-dog-sleeping-cozy-in-bed-33288452/"
-imageSearchQuery: "Belgian Laekenois dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Belgian Laekenoiss
-Belgian Laekenoiss are medium-sized (varies lbs), with active energy, heavy shedding, and a rough coat. The recommendations below are matched to these traits.
+Belgian Laekenoiss are medium-sized (55–65 lbs), with active energy, heavy shedding, and a rough coat. The recommendations below are matched to these traits.
 This page helps Belgian Laekenois people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Belgian Laekenois fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

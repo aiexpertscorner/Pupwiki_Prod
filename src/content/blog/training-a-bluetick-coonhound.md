@@ -3,8 +3,8 @@ title: "Bluetick Coonhound Training Dog-Care Decision Guide"
 seoTitle: "Bluetick Coonhound Training Dog-Care Decision Guide"
 displayTitle: "Bluetick Coonhound Training decision guide"
 description: "A PupWiki guide for current and future Bluetick Coonhound people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "bluetick-coonhound", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "bluetick-coonhound"
 breedName: "Bluetick Coonhound"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-bluetick-coonhound"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bluetick Coonhounds
-Bluetick Coonhounds are medium-sized (varies lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Bluetick Coonhounds are large-sized (45–80 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Bluetick Coonhound people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Bluetick Coonhound fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

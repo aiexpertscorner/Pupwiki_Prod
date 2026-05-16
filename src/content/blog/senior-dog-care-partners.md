@@ -3,8 +3,8 @@ title: "Senior Dog Care, Comfort and Vet Planning - PupWiki Dog Guide"
 seoTitle: "Senior Dog Care, Comfort and Vet Planning - Brands, Services and Dog-Fit Checks"
 displayTitle: "Senior Dog Care, Comfort and Vet Planning"
 description: "Compare dog-focused brands, products and services for senior dog care, comfort and vet planning, with practical checks for current and future dog owners."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["senior-dog-care-partners", "senior", "senior-dog", "senior-dogs", "joint-health", "senior-food", "aging", "geriatric", "mobility", "food", "nutrition", "supplements", "hydration", "digestion", "recovery"]

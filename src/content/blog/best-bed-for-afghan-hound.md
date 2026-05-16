@@ -3,8 +3,8 @@ title: "Afghan Hound Beds Dog-Care Decision Guide"
 seoTitle: "Afghan Hound Beds Dog-Care Decision Guide"
 displayTitle: "Afghan Hound Beds decision guide"
 description: "A PupWiki guide for current and future Afghan Hound people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "afghan-hound", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "afghan-hound"
 breedName: "Afghan Hound"
+wordCountEstimate: 382
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-afghan-hound"
-heroImage: "https://images.pexels.com/photos/19027991/pexels-photo-19027991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/19027991/pexels-photo-19027991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A Weimaraner dog peacefully sleeping on a fluffy dog bed in a cozy living room."
-imageAlt: "A Weimaraner dog peacefully sleeping on a fluffy dog bed in a cozy living room."
-imageSource: "pexels"
-imageCredit: "Photo by Olivier Leysen on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/a-dog-sleeping-in-a-dog-bed-next-to-a-sofa-19027991/"
-imageSearchQuery: "Afghan Hound dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Afghan Hounds
-Afghan Hounds are medium-sized (varies lbs), with active energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Afghan Hounds are medium-sized (50–60 lbs), with active energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Afghan Hound people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Afghan Hound fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

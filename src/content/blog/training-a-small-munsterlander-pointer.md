@@ -3,8 +3,8 @@ title: "Small Munsterlander Pointer Training Dog-Care Decision Guide"
 seoTitle: "Small Munsterlander Pointer Training Dog-Care Decision Guide"
 displayTitle: "Small Munsterlander Pointer Training decision guide"
 description: "A PupWiki guide for current and future Small Munsterlander Pointer people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "small-munsterlander-pointer", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "small-munsterlander-pointer"
 breedName: "Small Munsterlander Pointer"
+wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-small-munsterlander-pointer"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Small Munsterlander Pointers
-Small Munsterlander Pointers are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Small Munsterlander Pointers are medium-sized (40–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Small Munsterlander Pointer people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Small Munsterlander Pointer fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

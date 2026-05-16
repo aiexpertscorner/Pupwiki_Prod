@@ -3,8 +3,8 @@ title: "Poodle (Toy) Training Dog-Care Decision Guide"
 seoTitle: "Poodle (Toy) Training Dog-Care Decision Guide"
 displayTitle: "Poodle (Toy) Training decision guide"
 description: "A PupWiki guide for current and future Poodle (Toy) people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "poodle-toy", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "poodle-toy"
 breedName: "Poodle (Toy)"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-poodle-toy"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Poodle (Toy)s
-Poodle (Toy)s are medium-sized (varies lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Poodle (Toy)s are small-sized (4–6 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Poodle (Toy) people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Poodle (Toy) fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

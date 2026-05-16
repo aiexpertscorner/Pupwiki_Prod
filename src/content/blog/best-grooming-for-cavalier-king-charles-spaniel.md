@@ -3,8 +3,8 @@ title: "Cavalier King Charles Spaniel Grooming Dog-Care Decision Guide"
 seoTitle: "Cavalier King Charles Spaniel Grooming Dog-Care Decision Guide"
 displayTitle: "Cavalier King Charles Spaniel Grooming decision guide"
 description: "A PupWiki guide for current and future Cavalier King Charles Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "cavalier-king-charles-spaniel", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "cavalier-king-charles-spaniel"
 breedName: "Cavalier King Charles Spaniel"
+wordCountEstimate: 366
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-cavalier-king-charles-spaniel"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cavalier King Charles Spaniels
-Cavalier King Charles Spaniels are medium-sized (varies lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Cavalier King Charles Spaniels are small-sized (13–18 lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
 This page helps Cavalier King Charles Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Cavalier King Charles Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

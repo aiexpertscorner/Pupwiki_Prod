@@ -3,8 +3,8 @@ title: "Cirneco dell’Etna Training Dog-Care Decision Guide"
 seoTitle: "Cirneco dell’Etna Training Dog-Care Decision Guide"
 displayTitle: "Cirneco dell’Etna Training decision guide"
 description: "A PupWiki guide for current and future Cirneco dell’Etna people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "cirneco-delletna", "cirneco-dell-etna", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "cirneco-delletna"
 breedName: "Cirneco dell’Etna"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-cirneco-delletna"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cirneco dell’Etnas
-Cirneco dell’Etnas are medium-sized (varies lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Cirneco dell’Etnas are medium-sized (17–26 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Cirneco dell’Etna people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Cirneco dell’Etna fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

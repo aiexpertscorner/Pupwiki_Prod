@@ -3,8 +3,8 @@ title: "Spanish Water Dog Beds Dog-Care Decision Guide"
 seoTitle: "Spanish Water Dog Beds Dog-Care Decision Guide"
 displayTitle: "Spanish Water Dog Beds decision guide"
 description: "A PupWiki guide for current and future Spanish Water Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "spanish-water-dog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "spanish-water-dog"
 breedName: "Spanish Water Dog"
+wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-spanish-water-dog"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Spanish Water Dogs
-Spanish Water Dogs are medium-sized (varies lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+Spanish Water Dogs are medium-sized (31–49 lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
 This page helps Spanish Water Dog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Spanish Water Dog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

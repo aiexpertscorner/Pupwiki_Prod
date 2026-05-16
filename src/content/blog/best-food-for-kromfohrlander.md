@@ -3,8 +3,8 @@ title: "Kromfohrlander Food Dog-Care Decision Guide"
 seoTitle: "Kromfohrlander Food Dog-Care Decision Guide"
 displayTitle: "Kromfohrlander Food decision guide"
 description: "A PupWiki guide for current and future Kromfohrlander people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "kromfohrlander", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "kromfohrlander"
 breedName: "Kromfohrlander"
+wordCountEstimate: 460
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-kromfohrlander"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Kromfohrlanders
-Kromfohrlanders are medium-sized (varies lbs), with regular energy, heavy shedding, and a rough coat. The recommendations below are matched to these traits.
+Kromfohrlanders are medium-sized (20–35 lbs), with regular energy, heavy shedding, and a rough coat. The recommendations below are matched to these traits.
 This page helps Kromfohrlander people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Kromfohrlander fits your home, budget and routine.
 ## Brands and services to compare
 - **Chef Paw (US)**
@@ -46,12 +47,12 @@ This page helps Kromfohrlander people compare useful brands, products and servic
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Kromfohrlander
-Prioritise formulas with an AAFCO adequacy statement — this confirms the recipe is complete and balanced. Named proteins should appear before grains in the ingredient list. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient.
+Prioritise formulas with an AAFCO adequacy statement — this confirms the recipe is complete and balanced. Named proteins should appear before grains in the ingredient list. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. High-shedding and double-coated breeds often benefit from omega-3 fatty acids (EPA/DHA) — look for formulas with salmon or fish oil as a listed ingredient. For a typical adult Kromfohrlander (20–35 lbs), the estimated resting energy requirement is around 471 kcal/day — with a regular-energy activity factor, daily intake sits roughly in the 593–725 kcal range. Most quality kibbles list kcal/cup on the bag; use this to portion accurately rather than relying on the default "suggested feeding" table alone.
 ### What to look for in food for a Kromfohrlander
 Medium breeds like the Kromfohrlander do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Kromfohrlander needs fewer calories than an athletic one. Kromfohrlanders shed seasonally — look for formulas that include omega-3 fatty acids (EPA/DHA from salmon or fish oil) to support coat health from the inside out.
 ### Frequently asked questions about Kromfohrlander feeding
 **How much should I feed my Kromfohrlander?**
-Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Kromfohrlanders need 2–3 meals per day as adults.
+A rough starting point for Kromfohrlanders (20–35 lbs) is 1–2 cups per day for smaller adults and 3–4 cups for larger ones — always follow the feeding guidelines on the specific formula and adjust based on body condition, not just weight.
 **What food formula works best for a Kromfohrlander?**
 An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
 **When should I switch my Kromfohrlander from puppy to adult food?**

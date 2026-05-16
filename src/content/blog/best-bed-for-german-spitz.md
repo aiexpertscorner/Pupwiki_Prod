@@ -3,8 +3,8 @@ title: "German Spitz Beds Dog-Care Decision Guide"
 seoTitle: "German Spitz Beds Dog-Care Decision Guide"
 displayTitle: "German Spitz Beds decision guide"
 description: "A PupWiki guide for current and future German Spitz people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "german-spitz", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "german-spitz"
 breedName: "German Spitz"
+wordCountEstimate: 375
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-german-spitz"
-heroImage: "https://images.pexels.com/photos/8473538/pexels-photo-8473538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/8473538/pexels-photo-8473538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A fluffy Pomeranian dog peacefully sleeping on a modern yellow chair indoors."
-imageAlt: "A fluffy Pomeranian dog peacefully sleeping on a modern yellow chair indoors."
-imageSource: "pexels"
-imageCredit: "Photo by Cup of  Couple on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/brown-dog-sleeping-on-the-chair-8473538/"
-imageSearchQuery: "German Spitz dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Spitzs
-German Spitzs are medium-sized (varies lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+German Spitzs are medium-sized (24–26 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps German Spitz people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a German Spitz fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

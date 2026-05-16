@@ -3,8 +3,8 @@ title: "Bernese Mountain Dog Grooming Dog-Care Decision Guide"
 seoTitle: "Bernese Mountain Dog Grooming Dog-Care Decision Guide"
 displayTitle: "Bernese Mountain Dog Grooming decision guide"
 description: "A PupWiki guide for current and future Bernese Mountain Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "bernese-mountain-dog", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "bernese-mountain-dog"
 breedName: "Bernese Mountain Dog"
+wordCountEstimate: 370
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bernese-mountain-dog"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bernese Mountain Dogs
-Bernese Mountain Dogs are medium-sized (varies lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.
+Bernese Mountain Dogs are large-sized (70–115 lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Bernese Mountain Dog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Bernese Mountain Dog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

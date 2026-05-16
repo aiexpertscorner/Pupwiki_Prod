@@ -3,8 +3,8 @@ title: "Portuguese Pointer Training Dog-Care Decision Guide"
 seoTitle: "Portuguese Pointer Training Dog-Care Decision Guide"
 displayTitle: "Portuguese Pointer Training decision guide"
 description: "A PupWiki guide for current and future Portuguese Pointer people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "portuguese-pointer", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "portuguese-pointer"
 breedName: "Portuguese Pointer"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-portuguese-pointer"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Portuguese Pointers
-Portuguese Pointers are medium-sized (varies lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Portuguese Pointers are medium-sized (35–59 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Portuguese Pointer people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Portuguese Pointer fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "Chinese Crested Training Dog-Care Decision Guide"
 seoTitle: "Chinese Crested Training Dog-Care Decision Guide"
 displayTitle: "Chinese Crested Training decision guide"
 description: "A PupWiki guide for current and future Chinese Crested people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "chinese-crested", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "chinese-crested"
 breedName: "Chinese Crested"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-chinese-crested"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chinese Cresteds
-Chinese Cresteds are medium-sized (varies lbs), with regular energy, minimal shedding, and a hairless coat. The recommendations below are matched to these traits.
+Chinese Cresteds are small-sized (8–12 lbs), with regular energy, minimal shedding, and a hairless coat. The recommendations below are matched to these traits.
 This page helps Chinese Crested people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Chinese Crested fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

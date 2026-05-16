@@ -3,8 +3,8 @@ title: "American English Coonhound Beds Dog-Care Decision Guide"
 seoTitle: "American English Coonhound Beds Dog-Care Decision Guide"
 displayTitle: "American English Coonhound Beds decision guide"
 description: "A PupWiki guide for current and future American English Coonhound people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "american-english-coonhound", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "american-english-coonhound"
 breedName: "American English Coonhound"
+wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-american-english-coonhound"
-heroImage: "https://images.pexels.com/photos/2102839/pexels-photo-2102839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/2102839/pexels-photo-2102839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Adorable Jack Russell Terrier dog sleeping peacefully on a bed indoors."
-imageAlt: "Adorable Jack Russell Terrier dog sleeping peacefully on a bed indoors."
-imageSource: "pexels"
-imageCredit: "Photo by Lisa from Pexels on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/adult-dog-on-white-bed-2102839/"
-imageSearchQuery: "American English Coonhound dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American English Coonhounds
-American English Coonhounds are medium-sized (varies lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+American English Coonhounds are medium-sized (45–65 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps American English Coonhound people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a American English Coonhound fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

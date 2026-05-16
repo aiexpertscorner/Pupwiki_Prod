@@ -3,8 +3,8 @@ title: "Puli Food Dog-Care Decision Guide"
 seoTitle: "Puli Food Dog-Care Decision Guide"
 displayTitle: "Puli Food decision guide"
 description: "A PupWiki guide for current and future Puli people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "puli", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "puli"
 breedName: "Puli"
+wordCountEstimate: 420
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-puli"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pulis
-Pulis are medium-sized (varies lbs), with regular energy, minimal shedding, and a corded coat. The recommendations below are matched to these traits.
+Pulis are medium-sized (25–35 lbs), with regular energy, minimal shedding, and a corded coat. The recommendations below are matched to these traits.
 This page helps Puli people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Puli fits your home, budget and routine.
 ## Brands and services to compare
 - **Chef Paw (US)**
@@ -46,12 +47,12 @@ This page helps Puli people compare useful brands, products and services for a r
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Puli
-Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.
+Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. For a typical adult Puli (25–35 lbs), the estimated resting energy requirement is around 496 kcal/day — with a regular-energy activity factor, daily intake sits roughly in the 625–763 kcal range. Most quality kibbles list kcal/cup on the bag; use this to portion accurately rather than relying on the default "suggested feeding" table alone.
 ### What to look for in food for a Puli
 Medium breeds like the Puli do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Puli needs fewer calories than an athletic one.
 ### Frequently asked questions about Puli feeding
 **How much should I feed my Puli?**
-Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Pulis need 2–3 meals per day as adults.
+A rough starting point for Pulis (25–35 lbs) is 1–2 cups per day for smaller adults and 3–4 cups for larger ones — always follow the feeding guidelines on the specific formula and adjust based on body condition, not just weight.
 **What food formula works best for a Puli?**
 An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
 **When should I switch my Puli from puppy to adult food?**

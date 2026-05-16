@@ -3,8 +3,8 @@ title: "Dandie Dinmont Terrier Training Dog-Care Decision Guide"
 seoTitle: "Dandie Dinmont Terrier Training Dog-Care Decision Guide"
 displayTitle: "Dandie Dinmont Terrier Training decision guide"
 description: "A PupWiki guide for current and future Dandie Dinmont Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "dandie-dinmont-terrier", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "dandie-dinmont-terrier"
 breedName: "Dandie Dinmont Terrier"
+wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/training-a-dandie-dinmont-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dandie Dinmont Terriers
-Dandie Dinmont Terriers are medium-sized (varies lbs), with regular energy, minimal shedding, and a rough coat. The recommendations below are matched to these traits.
+Dandie Dinmont Terriers are small-sized (18–24 lbs), with regular energy, minimal shedding, and a rough coat. The recommendations below are matched to these traits.
 This page helps Dandie Dinmont Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Dandie Dinmont Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

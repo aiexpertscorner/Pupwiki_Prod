@@ -3,8 +3,8 @@ title: "Icelandic Sheepdog Beds Dog-Care Decision Guide"
 seoTitle: "Icelandic Sheepdog Beds Dog-Care Decision Guide"
 displayTitle: "Icelandic Sheepdog Beds decision guide"
 description: "A PupWiki guide for current and future Icelandic Sheepdog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "icelandic-sheepdog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "icelandic-sheepdog"
 breedName: "Icelandic Sheepdog"
+wordCountEstimate: 382
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-icelandic-sheepdog"
-heroImage: "https://images.pexels.com/photos/19176926/pexels-photo-19176926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/19176926/pexels-photo-19176926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A Shiba Inu dog peacefully sleeping curled up on a fluffy pet bed with warm sunlight."
-imageAlt: "A Shiba Inu dog peacefully sleeping curled up on a fluffy pet bed with warm sunlight."
-imageSource: "pexels"
-imageCredit: "Photo by Stephen on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/red-dog-sleeping-curled-up-in-a-fuzzy-pet-bed-19176926/"
-imageSearchQuery: "Icelandic Sheepdog dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Icelandic Sheepdogs
-Icelandic Sheepdogs are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Icelandic Sheepdogs are medium-sized (25–30 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Icelandic Sheepdog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Icelandic Sheepdog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

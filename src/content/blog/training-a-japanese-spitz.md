@@ -3,8 +3,8 @@ title: "Japanese Spitz Training Dog-Care Decision Guide"
 seoTitle: "Japanese Spitz Training Dog-Care Decision Guide"
 displayTitle: "Japanese Spitz Training decision guide"
 description: "A PupWiki guide for current and future Japanese Spitz people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "japanese-spitz", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "japanese-spitz"
 breedName: "Japanese Spitz"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-japanese-spitz"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Japanese Spitzs
-Japanese Spitzs are medium-sized (varies lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+Japanese Spitzs are small-sized (10–25 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Japanese Spitz people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Japanese Spitz fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

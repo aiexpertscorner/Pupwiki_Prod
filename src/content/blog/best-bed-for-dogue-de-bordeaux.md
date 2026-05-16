@@ -3,8 +3,8 @@ title: "Dogue de Bordeaux Beds Dog-Care Decision Guide"
 seoTitle: "Dogue de Bordeaux Beds Dog-Care Decision Guide"
 displayTitle: "Dogue de Bordeaux Beds decision guide"
 description: "A PupWiki guide for current and future Dogue de Bordeaux people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "dogue-de-bordeaux", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "dogue-de-bordeaux"
 breedName: "Dogue de Bordeaux"
+wordCountEstimate: 392
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-dogue-de-bordeaux"
-heroImage: "https://images.pexels.com/photos/32329256/pexels-photo-32329256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/32329256/pexels-photo-32329256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Adorable Dogue de Bordeaux puppy sleeping on a wooden floor outdoors in sunlight."
-imageAlt: "Adorable Dogue de Bordeaux puppy sleeping on a wooden floor outdoors in sunlight."
-imageSource: "pexels"
-imageCredit: "Photo by Marcelo Gonzalez on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/cute-dogue-de-bordeaux-puppy-sleeping-peacefully-32329256/"
-imageSearchQuery: "Dogue de Bordeaux dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dogue de Bordeauxs
-Dogue de Bordeauxs are medium-sized (varies lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Dogue de Bordeauxs are large-sized (99–110 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Dogue de Bordeaux people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Dogue de Bordeaux fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

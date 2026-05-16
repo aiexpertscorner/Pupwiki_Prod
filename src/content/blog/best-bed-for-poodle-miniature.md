@@ -3,8 +3,8 @@ title: "Poodle (Miniature) Beds Dog-Care Decision Guide"
 seoTitle: "Poodle (Miniature) Beds Dog-Care Decision Guide"
 displayTitle: "Poodle (Miniature) Beds decision guide"
 description: "A PupWiki guide for current and future Poodle (Miniature) people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "poodle-miniature", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "poodle-miniature"
 breedName: "Poodle (Miniature)"
+wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-poodle-miniature"
-heroImage: "https://images.pexels.com/photos/19902451/pexels-photo-19902451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/19902451/pexels-photo-19902451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Adorable white dog peacefully sleeping on the ground outdoors in Skikda, Algeria."
-imageAlt: "Adorable white dog peacefully sleeping on the ground outdoors in Skikda, Algeria."
-imageSource: "pexels"
-imageCredit: "Photo by Mallem Amir on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-domestic-dog-sleeping-on-the-ground-19902451/"
-imageSearchQuery: "Poodle (Miniature) dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Poodle (Miniature)s
-Poodle (Miniature)s are medium-sized (varies lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Poodle (Miniature)s are small-sized (10–15 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
 This page helps Poodle (Miniature) people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Poodle (Miniature) fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

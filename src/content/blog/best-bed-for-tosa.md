@@ -3,8 +3,8 @@ title: "Tosa Beds Dog-Care Decision Guide"
 seoTitle: "Tosa Beds Dog-Care Decision Guide"
 displayTitle: "Tosa Beds decision guide"
 description: "A PupWiki guide for current and future Tosa people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "tosa", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "tosa"
 breedName: "Tosa"
+wordCountEstimate: 368
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-tosa"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Tosas
-Tosas are medium-sized (varies lbs), with calm energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Tosas are large-sized (100–200 lbs), with calm energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
 This page helps Tosa people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Tosa fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

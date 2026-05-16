@@ -3,8 +3,8 @@ title: "English Toy Spaniel Training Dog-Care Decision Guide"
 seoTitle: "English Toy Spaniel Training Dog-Care Decision Guide"
 displayTitle: "English Toy Spaniel Training decision guide"
 description: "A PupWiki guide for current and future English Toy Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "english-toy-spaniel", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "english-toy-spaniel"
 breedName: "English Toy Spaniel"
+wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/training-a-english-toy-spaniel"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Toy Spaniels
-English Toy Spaniels are medium-sized (varies lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+English Toy Spaniels are small-sized (8–14 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
 This page helps English Toy Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a English Toy Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

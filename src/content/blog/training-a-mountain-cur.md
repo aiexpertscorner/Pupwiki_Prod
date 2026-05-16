@@ -3,8 +3,8 @@ title: "Mountain Cur Training Dog-Care Decision Guide"
 seoTitle: "Mountain Cur Training Dog-Care Decision Guide"
 displayTitle: "Mountain Cur Training decision guide"
 description: "A PupWiki guide for current and future Mountain Cur people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "mountain-cur", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "mountain-cur"
 breedName: "Mountain Cur"
+wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-mountain-cur"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Mountain Curs
-Mountain Curs are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Mountain Curs are medium-sized (30–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Mountain Cur people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Mountain Cur fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

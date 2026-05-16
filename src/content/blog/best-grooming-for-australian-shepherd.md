@@ -3,8 +3,8 @@ title: "Australian Shepherd Grooming Dog-Care Decision Guide"
 seoTitle: "Australian Shepherd Grooming Dog-Care Decision Guide"
 displayTitle: "Australian Shepherd Grooming decision guide"
 description: "A PupWiki guide for current and future Australian Shepherd people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "australian-shepherd", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "australian-shepherd"
 breedName: "Australian Shepherd"
+wordCountEstimate: 353
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-australian-shepherd"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Australian Shepherds
-Australian Shepherds are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Australian Shepherds are medium-sized (40–65 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Australian Shepherd people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Australian Shepherd fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

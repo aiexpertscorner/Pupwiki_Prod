@@ -3,8 +3,8 @@ title: "Bichon Frise Training Dog-Care Decision Guide"
 seoTitle: "Bichon Frise Training Dog-Care Decision Guide"
 displayTitle: "Bichon Frise Training decision guide"
 description: "A PupWiki guide for current and future Bichon Frise people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "bichon-frise", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "bichon-frise"
 breedName: "Bichon Frise"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-bichon-frise"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Bichon Frises
-Bichon Frises are medium-sized (varies lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+Bichon Frises are small-sized (12–18 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
 This page helps Bichon Frise people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Bichon Frise fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

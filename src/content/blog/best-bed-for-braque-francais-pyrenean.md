@@ -3,8 +3,8 @@ title: "Braque Francais Pyrenean Beds Dog-Care Decision Guide"
 seoTitle: "Braque Francais Pyrenean Beds Dog-Care Decision Guide"
 displayTitle: "Braque Francais Pyrenean Beds decision guide"
 description: "A PupWiki guide for current and future Braque Francais Pyrenean people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "braque-francais-pyrenean", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "braque-francais-pyrenean"
 breedName: "Braque Francais Pyrenean"
+wordCountEstimate: 395
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-braque-francais-pyrenean"
-heroImage: "https://images.pexels.com/photos/15628462/pexels-photo-15628462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/15628462/pexels-photo-15628462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Cute merle French Bulldog puppy sleeping on a dark blue sofa indoors."
-imageAlt: "Cute merle French Bulldog puppy sleeping on a dark blue sofa indoors."
-imageSource: "pexels"
-imageCredit: "Photo by Bo Ponomari on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/puppy-sleeping-15628462/"
-imageSearchQuery: "Braque Francais Pyrenean dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Braque Francais Pyreneans
-Braque Francais Pyreneans are medium-sized (varies lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Braque Francais Pyreneans are medium-sized (40–55 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Braque Francais Pyrenean people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Braque Francais Pyrenean fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

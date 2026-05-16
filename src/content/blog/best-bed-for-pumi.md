@@ -3,8 +3,8 @@ title: "Pumi Beds Dog-Care Decision Guide"
 seoTitle: "Pumi Beds Dog-Care Decision Guide"
 displayTitle: "Pumi Beds decision guide"
 description: "A PupWiki guide for current and future Pumi people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "pumi", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "pumi"
 breedName: "Pumi"
+wordCountEstimate: 369
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-pumi"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pumis
-Pumis are medium-sized (varies lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+Pumis are medium-sized (22–29 lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
 This page helps Pumi people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Pumi fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

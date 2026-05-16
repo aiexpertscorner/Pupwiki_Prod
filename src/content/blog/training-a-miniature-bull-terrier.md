@@ -3,8 +3,8 @@ title: "Miniature Bull Terrier Training Dog-Care Decision Guide"
 seoTitle: "Miniature Bull Terrier Training Dog-Care Decision Guide"
 displayTitle: "Miniature Bull Terrier Training decision guide"
 description: "A PupWiki guide for current and future Miniature Bull Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "miniature-bull-terrier", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "miniature-bull-terrier"
 breedName: "Miniature Bull Terrier"
+wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/training-a-miniature-bull-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Miniature Bull Terriers
-Miniature Bull Terriers are medium-sized (varies lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Miniature Bull Terriers are medium-sized (18–28 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
 This page helps Miniature Bull Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Miniature Bull Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

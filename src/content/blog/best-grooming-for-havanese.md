@@ -3,8 +3,8 @@ title: "Havanese Grooming Dog-Care Decision Guide"
 seoTitle: "Havanese Grooming Dog-Care Decision Guide"
 displayTitle: "Havanese Grooming decision guide"
 description: "A PupWiki guide for current and future Havanese people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "havanese", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "havanese"
 breedName: "Havanese"
+wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-havanese"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Havaneses
-Havaneses are medium-sized (varies lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+Havaneses are small-sized (7–13 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Havanese people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Havanese fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

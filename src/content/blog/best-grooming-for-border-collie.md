@@ -3,8 +3,8 @@ title: "Border Collie Grooming Dog-Care Decision Guide"
 seoTitle: "Border Collie Grooming Dog-Care Decision Guide"
 displayTitle: "Border Collie Grooming decision guide"
 description: "A PupWiki guide for current and future Border Collie people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "border-collie", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "border-collie"
 breedName: "Border Collie"
+wordCountEstimate: 353
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-border-collie"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Border Collies
-Border Collies are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Border Collies are medium-sized (30–55 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Border Collie people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Border Collie fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

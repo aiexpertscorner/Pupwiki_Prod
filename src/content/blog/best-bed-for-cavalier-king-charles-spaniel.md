@@ -3,8 +3,8 @@ title: "Cavalier King Charles Spaniel Beds Dog-Care Decision Guide"
 seoTitle: "Cavalier King Charles Spaniel Beds Dog-Care Decision Guide"
 displayTitle: "Cavalier King Charles Spaniel Beds decision guide"
 description: "A PupWiki guide for current and future Cavalier King Charles Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "cavalier-king-charles-spaniel", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "cavalier-king-charles-spaniel"
 breedName: "Cavalier King Charles Spaniel"
+wordCountEstimate: 409
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-cavalier-king-charles-spaniel"
-heroImage: "https://images.pexels.com/photos/23427657/pexels-photo-23427657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/23427657/pexels-photo-23427657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A cute Cavalier King Charles Spaniel sleeping on a blue table during a dog show."
-imageAlt: "A cute Cavalier King Charles Spaniel sleeping on a blue table during a dog show."
-imageSource: "pexels"
-imageCredit: "Photo by Dmitry Ovsyannikov on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/king-charles-spaniel-sleeping-on-a-table-during-a-dog-show-23427657/"
-imageSearchQuery: "Cavalier King Charles Spaniel dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cavalier King Charles Spaniels
-Cavalier King Charles Spaniels are medium-sized (varies lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Cavalier King Charles Spaniels are small-sized (13–18 lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
 This page helps Cavalier King Charles Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Cavalier King Charles Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

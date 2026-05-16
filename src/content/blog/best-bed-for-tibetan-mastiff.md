@@ -3,8 +3,8 @@ title: "Tibetan Mastiff Beds Dog-Care Decision Guide"
 seoTitle: "Tibetan Mastiff Beds Dog-Care Decision Guide"
 displayTitle: "Tibetan Mastiff Beds decision guide"
 description: "A PupWiki guide for current and future Tibetan Mastiff people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "tibetan-mastiff", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "tibetan-mastiff"
 breedName: "Tibetan Mastiff"
+wordCountEstimate: 380
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-tibetan-mastiff"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Tibetan Mastiffs
-Tibetan Mastiffs are medium-sized (varies lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Tibetan Mastiffs are large-sized (70–150 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Tibetan Mastiff people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Tibetan Mastiff fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

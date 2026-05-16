@@ -3,8 +3,8 @@ title: "Japanese Spitz Beds Dog-Care Decision Guide"
 seoTitle: "Japanese Spitz Beds Dog-Care Decision Guide"
 displayTitle: "Japanese Spitz Beds decision guide"
 description: "A PupWiki guide for current and future Japanese Spitz people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "japanese-spitz", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "japanese-spitz"
 breedName: "Japanese Spitz"
+wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-japanese-spitz"
-heroImage: "https://images.pexels.com/photos/37105501/pexels-photo-37105501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/37105501/pexels-photo-37105501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Charming fluffy white dog lounging on a comfortable brown leather couch with soft natural lighting."
-imageAlt: "Charming fluffy white dog lounging on a comfortable brown leather couch with soft natural lighting."
-imageSource: "pexels"
-imageCredit: "Photo by Tomal Bhattacharjee on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/fluffy-white-dog-relaxing-on-a-leather-couch-37105501/"
-imageSearchQuery: "Japanese Spitz dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Japanese Spitzs
-Japanese Spitzs are medium-sized (varies lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+Japanese Spitzs are small-sized (10–25 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Japanese Spitz people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Japanese Spitz fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

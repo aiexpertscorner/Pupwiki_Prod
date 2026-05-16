@@ -3,8 +3,8 @@ title: "Collie Training Dog-Care Decision Guide"
 seoTitle: "Collie Training Dog-Care Decision Guide"
 displayTitle: "Collie Training decision guide"
 description: "A PupWiki guide for current and future Collie people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "collie", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "collie"
 breedName: "Collie"
+wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-collie"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Collies
-Collies are medium-sized (varies lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Collies are large-sized (50–75 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Collie people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Collie fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

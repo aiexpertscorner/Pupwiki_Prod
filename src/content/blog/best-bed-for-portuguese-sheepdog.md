@@ -3,8 +3,8 @@ title: "Portuguese Sheepdog Beds Dog-Care Decision Guide"
 seoTitle: "Portuguese Sheepdog Beds Dog-Care Decision Guide"
 displayTitle: "Portuguese Sheepdog Beds decision guide"
 description: "A PupWiki guide for current and future Portuguese Sheepdog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "portuguese-sheepdog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "portuguese-sheepdog"
 breedName: "Portuguese Sheepdog"
+wordCountEstimate: 382
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-portuguese-sheepdog"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Portuguese Sheepdogs
-Portuguese Sheepdogs are medium-sized (varies lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Portuguese Sheepdogs are medium-sized (37.5–59 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
 This page helps Portuguese Sheepdog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Portuguese Sheepdog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "Catahoula Leopard Dog Beds Dog-Care Decision Guide"
 seoTitle: "Catahoula Leopard Dog Beds Dog-Care Decision Guide"
 displayTitle: "Catahoula Leopard Dog Beds decision guide"
 description: "A PupWiki guide for current and future Catahoula Leopard Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "catahoula-leopard-dog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "catahoula-leopard-dog"
 breedName: "Catahoula Leopard Dog"
+wordCountEstimate: 399
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-catahoula-leopard-dog"
-heroImage: "https://images.pexels.com/photos/15628462/pexels-photo-15628462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/15628462/pexels-photo-15628462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Cute merle French Bulldog puppy sleeping on a dark blue sofa indoors."
-imageAlt: "Cute merle French Bulldog puppy sleeping on a dark blue sofa indoors."
-imageSource: "pexels"
-imageCredit: "Photo by Bo Ponomari on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/puppy-sleeping-15628462/"
-imageSearchQuery: "Catahoula Leopard Dog dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Catahoula Leopard Dogs
-Catahoula Leopard Dogs are medium-sized (varies lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Catahoula Leopard Dogs are large-sized (50–95 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
 This page helps Catahoula Leopard Dog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Catahoula Leopard Dog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

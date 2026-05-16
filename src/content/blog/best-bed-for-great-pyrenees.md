@@ -3,8 +3,8 @@ title: "Great Pyrenees Beds Dog-Care Decision Guide"
 seoTitle: "Great Pyrenees Beds Dog-Care Decision Guide"
 displayTitle: "Great Pyrenees Beds decision guide"
 description: "A PupWiki guide for current and future Great Pyrenees people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "great-pyrenees", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "great-pyrenees"
 breedName: "Great Pyrenees"
+wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-great-pyrenees"
-heroImage: "https://images.pexels.com/photos/7461420/pexels-photo-7461420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/7461420/pexels-photo-7461420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Charming portrait of a Great Pyrenees dog outdoors against an autumn forest backdrop."
-imageAlt: "Charming portrait of a Great Pyrenees dog outdoors against an autumn forest backdrop."
-imageSource: "pexels"
-imageCredit: "Photo by Tychon Krug on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/white-long-coated-dog-in-close-up-shot-7461420/"
-imageSearchQuery: "Great Pyrenees dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Great Pyreneess
-Great Pyreneess are medium-sized (varies lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Great Pyreneess are large-sized (85–100 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Great Pyrenees people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Great Pyrenees fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

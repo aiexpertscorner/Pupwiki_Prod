@@ -3,8 +3,8 @@ title: "Irish Water Spaniel Training Dog-Care Decision Guide"
 seoTitle: "Irish Water Spaniel Training Dog-Care Decision Guide"
 displayTitle: "Irish Water Spaniel Training decision guide"
 description: "A PupWiki guide for current and future Irish Water Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "irish-water-spaniel", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "irish-water-spaniel"
 breedName: "Irish Water Spaniel"
+wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-irish-water-spaniel"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Irish Water Spaniels
-Irish Water Spaniels are medium-sized (varies lbs), with active energy, seasonal shedding, and a curly coat. The recommendations below are matched to these traits.
+Irish Water Spaniels are large-sized (45–68 lbs), with active energy, seasonal shedding, and a curly coat. The recommendations below are matched to these traits.
 This page helps Irish Water Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Irish Water Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "Whippet Food Dog-Care Decision Guide"
 seoTitle: "Whippet Food Dog-Care Decision Guide"
 displayTitle: "Whippet Food decision guide"
 description: "A PupWiki guide for current and future Whippet people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "whippet", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "whippet"
 breedName: "Whippet"
+wordCountEstimate: 420
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-whippet"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Whippets
-Whippets are medium-sized (varies lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Whippets are medium-sized (25–40 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Whippet people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Whippet fits your home, budget and routine.
 ## Brands and services to compare
 - **Chef Paw (US)**
@@ -46,12 +47,12 @@ This page helps Whippet people compare useful brands, products and services for 
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Whippet
-Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.
+Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. For a typical adult Whippet (25–40 lbs), the estimated resting energy requirement is around 533 kcal/day — with a regular-energy activity factor, daily intake sits roughly in the 671–821 kcal range. Most quality kibbles list kcal/cup on the bag; use this to portion accurately rather than relying on the default "suggested feeding" table alone.
 ### What to look for in food for a Whippet
 Medium breeds like the Whippet do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Whippet needs fewer calories than an athletic one.
 ### Frequently asked questions about Whippet feeding
 **How much should I feed my Whippet?**
-Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Whippets need 2–3 meals per day as adults.
+A rough starting point for Whippets (25–40 lbs) is 1–2 cups per day for smaller adults and 3–4 cups for larger ones — always follow the feeding guidelines on the specific formula and adjust based on body condition, not just weight.
 **What food formula works best for a Whippet?**
 An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
 **When should I switch my Whippet from puppy to adult food?**

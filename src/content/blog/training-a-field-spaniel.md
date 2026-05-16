@@ -3,8 +3,8 @@ title: "Field Spaniel Training Dog-Care Decision Guide"
 seoTitle: "Field Spaniel Training Dog-Care Decision Guide"
 displayTitle: "Field Spaniel Training decision guide"
 description: "A PupWiki guide for current and future Field Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "field-spaniel", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "field-spaniel"
 breedName: "Field Spaniel"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-field-spaniel"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Field Spaniels
-Field Spaniels are medium-sized (varies lbs), with regular energy, heavy shedding, and a silky coat. The recommendations below are matched to these traits.
+Field Spaniels are medium-sized (35–50 lbs), with regular energy, heavy shedding, and a silky coat. The recommendations below are matched to these traits.
 This page helps Field Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Field Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "Lakeland Terrier Training Dog-Care Decision Guide"
 seoTitle: "Lakeland Terrier Training Dog-Care Decision Guide"
 displayTitle: "Lakeland Terrier Training decision guide"
 description: "A PupWiki guide for current and future Lakeland Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "lakeland-terrier", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "lakeland-terrier"
 breedName: "Lakeland Terrier"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-lakeland-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lakeland Terriers
-Lakeland Terriers are medium-sized (varies lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Lakeland Terriers are small-sized (17 lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.
 This page helps Lakeland Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Lakeland Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

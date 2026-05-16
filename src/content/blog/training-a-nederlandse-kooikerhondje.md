@@ -3,8 +3,8 @@ title: "Nederlandse Kooikerhondje Training Dog-Care Decision Guide"
 seoTitle: "Nederlandse Kooikerhondje Training Dog-Care Decision Guide"
 displayTitle: "Nederlandse Kooikerhondje Training decision guide"
 description: "A PupWiki guide for current and future Nederlandse Kooikerhondje people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "nederlandse-kooikerhondje", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "nederlandse-kooikerhondje"
 breedName: "Nederlandse Kooikerhondje"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-nederlandse-kooikerhondje"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Nederlandse Kooikerhondjes
-Nederlandse Kooikerhondjes are medium-sized (varies lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Nederlandse Kooikerhondjes are medium-sized (20–30 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Nederlandse Kooikerhondje people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Nederlandse Kooikerhondje fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

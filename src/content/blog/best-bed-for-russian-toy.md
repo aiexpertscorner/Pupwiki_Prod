@@ -3,8 +3,8 @@ title: "Russian Toy Beds Dog-Care Decision Guide"
 seoTitle: "Russian Toy Beds Dog-Care Decision Guide"
 displayTitle: "Russian Toy Beds decision guide"
 description: "A PupWiki guide for current and future Russian Toy people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "russian-toy", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "russian-toy"
 breedName: "Russian Toy"
+wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-russian-toy"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Russian Toys
-Russian Toys are medium-sized (varies lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Russian Toys are small-sized (6.5 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Russian Toy people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Russian Toy fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

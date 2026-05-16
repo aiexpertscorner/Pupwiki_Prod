@@ -3,8 +3,8 @@ title: "American Water Spaniel Beds Dog-Care Decision Guide"
 seoTitle: "American Water Spaniel Beds Dog-Care Decision Guide"
 displayTitle: "American Water Spaniel Beds decision guide"
 description: "A PupWiki guide for current and future American Water Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "american-water-spaniel", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "american-water-spaniel"
 breedName: "American Water Spaniel"
+wordCountEstimate: 388
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-american-water-spaniel"
-heroImage: "https://images.pexels.com/photos/20744921/pexels-photo-20744921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/20744921/pexels-photo-20744921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A black and white dog sleeping on a paved sidewalk next to a car tire."
-imageAlt: "A black and white dog sleeping on a paved sidewalk next to a car tire."
-imageSource: "pexels"
-imageCredit: "Photo by Muhammed Tubtemur on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/dog-sleeping-on-sidewalk-20744921/"
-imageSearchQuery: "American Water Spaniel dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Water Spaniels
-American Water Spaniels are medium-sized (varies lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+American Water Spaniels are medium-sized (25–45 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
 This page helps American Water Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a American Water Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

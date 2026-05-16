@@ -3,8 +3,8 @@ title: "English Foxhound Beds Dog-Care Decision Guide"
 seoTitle: "English Foxhound Beds Dog-Care Decision Guide"
 displayTitle: "English Foxhound Beds decision guide"
 description: "A PupWiki guide for current and future English Foxhound people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "english-foxhound", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "english-foxhound"
 breedName: "English Foxhound"
+wordCountEstimate: 387
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-english-foxhound"
-heroImage: "https://images.pexels.com/photos/2102839/pexels-photo-2102839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/2102839/pexels-photo-2102839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Adorable Jack Russell Terrier dog sleeping peacefully on a bed indoors."
-imageAlt: "Adorable Jack Russell Terrier dog sleeping peacefully on a bed indoors."
-imageSource: "pexels"
-imageCredit: "Photo by Lisa from Pexels on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/adult-dog-on-white-bed-2102839/"
-imageSearchQuery: "English Foxhound dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Foxhounds
-English Foxhounds are medium-sized (varies lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+English Foxhounds are large-sized (60–75 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps English Foxhound people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a English Foxhound fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

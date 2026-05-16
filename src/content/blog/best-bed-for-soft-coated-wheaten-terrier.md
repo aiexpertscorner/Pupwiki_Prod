@@ -3,8 +3,8 @@ title: "Soft Coated Wheaten Terrier Beds Dog-Care Decision Guide"
 seoTitle: "Soft Coated Wheaten Terrier Beds Dog-Care Decision Guide"
 displayTitle: "Soft Coated Wheaten Terrier Beds decision guide"
 description: "A PupWiki guide for current and future Soft Coated Wheaten Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "soft-coated-wheaten-terrier", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "soft-coated-wheaten-terrier"
 breedName: "Soft Coated Wheaten Terrier"
+wordCountEstimate: 408
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-soft-coated-wheaten-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Soft Coated Wheaten Terriers
-Soft Coated Wheaten Terriers are medium-sized (varies lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Soft Coated Wheaten Terriers are medium-sized (30–40 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Soft Coated Wheaten Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Soft Coated Wheaten Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

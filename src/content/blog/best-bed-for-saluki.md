@@ -3,8 +3,8 @@ title: "Saluki Beds Dog-Care Decision Guide"
 seoTitle: "Saluki Beds Dog-Care Decision Guide"
 displayTitle: "Saluki Beds decision guide"
 description: "A PupWiki guide for current and future Saluki people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "saluki", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "saluki"
 breedName: "Saluki"
+wordCountEstimate: 369
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-saluki"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Salukis
-Salukis are medium-sized (varies lbs), with active energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Salukis are medium-sized (40–65 lbs), with active energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
 This page helps Saluki people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Saluki fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

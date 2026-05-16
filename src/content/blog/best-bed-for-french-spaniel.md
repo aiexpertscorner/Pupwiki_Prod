@@ -3,8 +3,8 @@ title: "French Spaniel Beds Dog-Care Decision Guide"
 seoTitle: "French Spaniel Beds Dog-Care Decision Guide"
 displayTitle: "French Spaniel Beds decision guide"
 description: "A PupWiki guide for current and future French Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "french-spaniel", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "french-spaniel"
 breedName: "French Spaniel"
+wordCountEstimate: 375
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-french-spaniel"
-heroImage: "https://images.pexels.com/photos/20744921/pexels-photo-20744921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/20744921/pexels-photo-20744921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A black and white dog sleeping on a paved sidewalk next to a car tire."
-imageAlt: "A black and white dog sleeping on a paved sidewalk next to a car tire."
-imageSource: "pexels"
-imageCredit: "Photo by Muhammed Tubtemur on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/dog-sleeping-on-sidewalk-20744921/"
-imageSearchQuery: "French Spaniel dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for French Spaniels
-French Spaniels are medium-sized (varies lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+French Spaniels are medium-sized (50–60 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
 This page helps French Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a French Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

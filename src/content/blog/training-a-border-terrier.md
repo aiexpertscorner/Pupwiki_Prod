@@ -3,8 +3,8 @@ title: "Border Terrier Training Dog-Care Decision Guide"
 seoTitle: "Border Terrier Training Dog-Care Decision Guide"
 displayTitle: "Border Terrier Training decision guide"
 description: "A PupWiki guide for current and future Border Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "border-terrier", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "border-terrier"
 breedName: "Border Terrier"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-border-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Border Terriers
-Border Terriers are medium-sized (varies lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+Border Terriers are small-sized (11.5–15.5 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
 This page helps Border Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Border Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

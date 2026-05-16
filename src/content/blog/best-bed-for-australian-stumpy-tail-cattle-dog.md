@@ -3,8 +3,8 @@ title: "Australian Stumpy Tail Cattle Dog Beds Dog-Care Decision Guide"
 seoTitle: "Australian Stumpy Tail Cattle Dog Beds Dog-Care Decision Guide"
 displayTitle: "Australian Stumpy Tail Cattle Dog Beds decision guide"
 description: "A PupWiki guide for current and future Australian Stumpy Tail Cattle Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "australian-stumpy-tail-cattle-dog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "australian-stumpy-tail-cattle-dog"
 breedName: "Australian Stumpy Tail Cattle Dog"
+wordCountEstimate: 421
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-australian-stumpy-tail-cattle-dog"
-heroImage: "https://images.pexels.com/photos/9869907/pexels-photo-9869907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/9869907/pexels-photo-9869907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Australian Cattle Dog standing on a rock in a scenic mountain setting, surrounded by tall grass."
-imageAlt: "Australian Cattle Dog standing on a rock in a scenic mountain setting, surrounded by tall grass."
-imageSource: "pexels"
-imageCredit: "Photo by Alexander  Savchuk on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/a-dog-standing-on-a-rock-9869907/"
-imageSearchQuery: "Australian Stumpy Tail Cattle Dog dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Australian Stumpy Tail Cattle Dogs
-Australian Stumpy Tail Cattle Dogs are medium-sized (varies lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Australian Stumpy Tail Cattle Dogs are medium-sized (32–45 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Australian Stumpy Tail Cattle Dog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Australian Stumpy Tail Cattle Dog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

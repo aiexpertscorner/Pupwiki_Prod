@@ -3,8 +3,8 @@ title: "Skye Terrier Food Dog-Care Decision Guide"
 seoTitle: "Skye Terrier Food Dog-Care Decision Guide"
 displayTitle: "Skye Terrier Food decision guide"
 description: "A PupWiki guide for current and future Skye Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "skye-terrier", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "skye-terrier"
 breedName: "Skye Terrier"
+wordCountEstimate: 432
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-skye-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Skye Terriers
-Skye Terriers are medium-sized (varies lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Skye Terriers are medium-sized (35–45 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Skye Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Skye Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **Chef Paw (US)**
@@ -46,12 +47,12 @@ This page helps Skye Terrier people compare useful brands, products and services
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Skye Terrier
-Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level.
+Check for an AAFCO adequacy statement, which confirms the food meets minimum nutritional standards for the correct life stage. A named protein source (chicken, turkey, beef, salmon) should appear as the first ingredient. Medium breeds do well on standard adult maintenance formulas — prioritise named protein sources and appropriate calorie density for their activity level. For a typical adult Skye Terrier (35–45 lbs), the estimated resting energy requirement is around 615 kcal/day — with a regular-energy activity factor, daily intake sits roughly in the 775–947 kcal range. Most quality kibbles list kcal/cup on the bag; use this to portion accurately rather than relying on the default "suggested feeding" table alone.
 ### What to look for in food for a Skye Terrier
 Medium breeds like the Skye Terrier do well on standard adult maintenance formulas. Prioritise a named protein source in the first ingredient and an AAFCO adequacy statement for the right life stage. Match calorie density to your individual dog's actual activity level, not just the breed average — a less active Skye Terrier needs fewer calories than an athletic one.
 ### Frequently asked questions about Skye Terrier feeding
 **How much should I feed my Skye Terrier?**
-Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Skye Terriers need 2–3 meals per day as adults.
+A rough starting point for Skye Terriers (35–45 lbs) is 1–2 cups per day for smaller adults and 3–4 cups for larger ones — always follow the feeding guidelines on the specific formula and adjust based on body condition, not just weight.
 **What food formula works best for a Skye Terrier?**
 An AAFCO-compliant adult maintenance formula with a named protein source (not "meat meal") as the first ingredient is the right baseline. Fresh or freeze-dried toppers can add variety without the commitment of a full diet switch.
 **When should I switch my Skye Terrier from puppy to adult food?**

@@ -3,8 +3,8 @@ title: "Parson Russell Terrier Beds Dog-Care Decision Guide"
 seoTitle: "Parson Russell Terrier Beds Dog-Care Decision Guide"
 displayTitle: "Parson Russell Terrier Beds decision guide"
 description: "A PupWiki guide for current and future Parson Russell Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "parson-russell-terrier", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "parson-russell-terrier"
 breedName: "Parson Russell Terrier"
+wordCountEstimate: 403
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-parson-russell-terrier"
-heroImage: "https://images.pexels.com/photos/1753144/pexels-photo-1753144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/1753144/pexels-photo-1753144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A peaceful dog sleeping on a warm couch, capturing a moment of relaxation."
-imageAlt: "A peaceful dog sleeping on a warm couch, capturing a moment of relaxation."
-imageSource: "pexels"
-imageCredit: "Photo by Lisa from Pexels on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/sleeping-dog-1753144/"
-imageSearchQuery: "Parson Russell Terrier dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Parson Russell Terriers
-Parson Russell Terriers are medium-sized (varies lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Parson Russell Terriers are small-sized (13–17 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
 This page helps Parson Russell Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Parson Russell Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

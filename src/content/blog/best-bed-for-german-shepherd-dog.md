@@ -3,8 +3,8 @@ title: "German Shepherd Dog Beds Dog-Care Decision Guide"
 seoTitle: "German Shepherd Dog Beds Dog-Care Decision Guide"
 displayTitle: "German Shepherd Dog Beds decision guide"
 description: "A PupWiki guide for current and future German Shepherd Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "german-shepherd-dog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "german-shepherd-dog"
 breedName: "German Shepherd Dog"
+wordCountEstimate: 392
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-german-shepherd-dog"
-heroImage: "https://images.pexels.com/photos/11645726/pexels-photo-11645726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/11645726/pexels-photo-11645726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A calm German Shepherd dog laying on a textured gray surface, looking content."
-imageAlt: "A calm German Shepherd dog laying on a textured gray surface, looking content."
-imageSource: "pexels"
-imageCredit: "Photo by Inge Van den Heuvel on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-german-shepherd-11645726/"
-imageSearchQuery: "German Shepherd Dog dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Shepherd Dogs
-German Shepherd Dogs are medium-sized (varies lbs), with regular energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+German Shepherd Dogs are large-sized (50–90 lbs), with regular energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps German Shepherd Dog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a German Shepherd Dog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

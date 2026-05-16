@@ -3,8 +3,8 @@ title: "German Wirehaired Pointer Beds Dog-Care Decision Guide"
 seoTitle: "German Wirehaired Pointer Beds Dog-Care Decision Guide"
 displayTitle: "German Wirehaired Pointer Beds decision guide"
 description: "A PupWiki guide for current and future German Wirehaired Pointer people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "german-wirehaired-pointer", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "german-wirehaired-pointer"
 breedName: "German Wirehaired Pointer"
+wordCountEstimate: 399
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-german-wirehaired-pointer"
-heroImage: "https://images.pexels.com/photos/16286841/pexels-photo-16286841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/16286841/pexels-photo-16286841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A playful dog runs through a stream in a rural setting, enjoying the outdoors."
-imageAlt: "A playful dog runs through a stream in a rural setting, enjoying the outdoors."
-imageSource: "pexels"
-imageCredit: "Photo by Denitsa Kireva on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/dog-in-water-16286841/"
-imageSearchQuery: "German Wirehaired Pointer dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Wirehaired Pointers
-German Wirehaired Pointers are medium-sized (varies lbs), with active energy, heavy shedding, and a wiry coat. The recommendations below are matched to these traits.
+German Wirehaired Pointers are large-sized (50–70 lbs), with active energy, heavy shedding, and a wiry coat. The recommendations below are matched to these traits.
 This page helps German Wirehaired Pointer people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a German Wirehaired Pointer fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

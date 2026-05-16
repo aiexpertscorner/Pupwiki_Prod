@@ -3,8 +3,8 @@ title: "Cardigan Welsh Corgi Training Dog-Care Decision Guide"
 seoTitle: "Cardigan Welsh Corgi Training Dog-Care Decision Guide"
 displayTitle: "Cardigan Welsh Corgi Training decision guide"
 description: "A PupWiki guide for current and future Cardigan Welsh Corgi people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "cardigan-welsh-corgi", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "cardigan-welsh-corgi"
 breedName: "Cardigan Welsh Corgi"
+wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-cardigan-welsh-corgi"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Cardigan Welsh Corgis
-Cardigan Welsh Corgis are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Cardigan Welsh Corgis are medium-sized (25–38 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Cardigan Welsh Corgi people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Cardigan Welsh Corgi fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

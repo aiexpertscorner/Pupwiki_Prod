@@ -3,8 +3,8 @@ title: "American Hairless Terrier Training Dog-Care Decision Guide"
 seoTitle: "American Hairless Terrier Training Dog-Care Decision Guide"
 displayTitle: "American Hairless Terrier Training decision guide"
 description: "A PupWiki guide for current and future American Hairless Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "american-hairless-terrier", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "american-hairless-terrier"
 breedName: "American Hairless Terrier"
+wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-american-hairless-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Hairless Terriers
-American Hairless Terriers are medium-sized (varies lbs), with regular energy, low shedding, and a hairless coat. The recommendations below are matched to these traits.
+American Hairless Terriers are small-sized (12–16 lbs), with regular energy, low shedding, and a hairless coat. The recommendations below are matched to these traits.
 This page helps American Hairless Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a American Hairless Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "Tosa Food Dog-Care Decision Guide"
 seoTitle: "Tosa Food Dog-Care Decision Guide"
 displayTitle: "Tosa Food decision guide"
 description: "A PupWiki guide for current and future Tosa people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Dog Food"
 tags: ["food", "dog-food", "dog-food-nutrition-partners", "tosa", "chef-paw-us", "raw-wild-llc", "brutus-broth", "dog-food-storage-container", "slow-feeder-dog-bowl", "dog-broth-topper", "freeze-dried-raw-dog-food"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "tosa"
 breedName: "Tosa"
+wordCountEstimate: 441
 canonicalUrl: "https://pupwiki.com/blog/best-food-for-tosa"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Tosas
-Tosas are medium-sized (varies lbs), with calm energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Tosas are large-sized (100–200 lbs), with calm energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
 This page helps Tosa people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Tosa fits your home, budget and routine.
 ## Brands and services to compare
 - **Chef Paw (US)**
@@ -46,12 +47,12 @@ This page helps Tosa people compare useful brands, products and services for a r
   - Visit Raw Wild LLC for current pets & pet care offers and availability..
 [View at Raw Wild LLC](https://tidd.ly/4e36ta9){rel="nofollow sponsored"}
 ## How to choose for a Tosa
-An AAFCO-approved formula with a whole protein source — chicken, beef, salmon, or turkey — listed first is the baseline standard. Avoid formulas where the first ingredient is a grain or generic "meat by-products". Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. Tosa has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs.
+An AAFCO-approved formula with a whole protein source — chicken, beef, salmon, or turkey — listed first is the baseline standard. Avoid formulas where the first ingredient is a grain or generic "meat by-products". Large breeds benefit from formulas with controlled calcium-to-phosphorus ratios and moderate fat content to support joint health and avoid rapid growth issues. Tosa has a lower activity level — choose a formula with controlled fat content to avoid obesity, which is a common risk for lower-energy dogs. For a typical adult Tosa (100–200 lbs), the estimated resting energy requirement is around 1658 kcal/day — with a calm-energy activity factor, daily intake sits roughly in the 1791–2189 kcal range. Most quality kibbles list kcal/cup on the bag; use this to portion accurately rather than relying on the default "suggested feeding" table alone.
 ### What to look for in food for a Tosa
 Large breeds benefit from formulas with a controlled calcium-to-phosphorus ratio. Look for products specifically labelled for large or giant breeds, as these manage growth rate and joint load more carefully. Tosas tend toward lower activity — choose a formula with controlled fat content to avoid the weight gain that commonly affects lower-energy breeds over time.
 ### Frequently asked questions about Tosa feeding
 **How much should I feed my Tosa?**
-Follow the feeding guide on your chosen formula and adjust based on body condition — you should be able to feel (but not see) the ribs. Most Tosas need 2–3 meals per day as adults.
+A rough starting point for Tosas (100–200 lbs) is 1–2 cups per day for smaller adults and 3–4 cups for larger ones — always follow the feeding guidelines on the specific formula and adjust based on body condition, not just weight.
 **What food formula works best for a Tosa?**
 Look for formulas specifically labelled for large breeds, which manage calcium and phosphorus ratios to support joint development. Avoid puppy formulas designed for small dogs even if your Tosa is young.
 **When should I switch my Tosa from puppy to adult food?**

@@ -3,8 +3,8 @@ title: "Puli Training Dog-Care Decision Guide"
 seoTitle: "Puli Training Dog-Care Decision Guide"
 displayTitle: "Puli Training decision guide"
 description: "A PupWiki guide for current and future Puli people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "puli", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "puli"
 breedName: "Puli"
+wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-puli"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pulis
-Pulis are medium-sized (varies lbs), with regular energy, minimal shedding, and a corded coat. The recommendations below are matched to these traits.
+Pulis are medium-sized (25–35 lbs), with regular energy, minimal shedding, and a corded coat. The recommendations below are matched to these traits.
 This page helps Puli people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Puli fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

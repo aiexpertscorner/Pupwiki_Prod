@@ -3,8 +3,8 @@ title: "Greyhound Beds Dog-Care Decision Guide"
 seoTitle: "Greyhound Beds Dog-Care Decision Guide"
 displayTitle: "Greyhound Beds decision guide"
 description: "A PupWiki guide for current and future Greyhound people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "greyhound", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "greyhound"
 breedName: "Greyhound"
+wordCountEstimate: 375
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-greyhound"
-heroImage: "https://images.pexels.com/photos/14832500/pexels-photo-14832500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/14832500/pexels-photo-14832500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A greyhound dog peacefully sleeping on a bed with a geometric patterned cover, viewed from above."
-imageAlt: "A greyhound dog peacefully sleeping on a bed with a geometric patterned cover, viewed from above."
-imageSource: "pexels"
-imageCredit: "Photo by Alina Skazka on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/a-dog-lying-in-bed-14832500/"
-imageSearchQuery: "Greyhound dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Greyhounds
-Greyhounds are medium-sized (varies lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Greyhounds are large-sized (60–70 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Greyhound people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Greyhound fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

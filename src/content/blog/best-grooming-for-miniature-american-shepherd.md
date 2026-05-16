@@ -3,8 +3,8 @@ title: "Miniature American Shepherd Grooming Dog-Care Decision Guide"
 seoTitle: "Miniature American Shepherd Grooming Dog-Care Decision Guide"
 displayTitle: "Miniature American Shepherd Grooming decision guide"
 description: "A PupWiki guide for current and future Miniature American Shepherd people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "miniature-american-shepherd", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "miniature-american-shepherd"
 breedName: "Miniature American Shepherd"
+wordCountEstimate: 370
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-miniature-american-shepherd"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Miniature American Shepherds
-Miniature American Shepherds are medium-sized (varies lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.
+Miniature American Shepherds are medium-sized (20–40 lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Miniature American Shepherd people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Miniature American Shepherd fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "American Water Spaniel Training Dog-Care Decision Guide"
 seoTitle: "American Water Spaniel Training Dog-Care Decision Guide"
 displayTitle: "American Water Spaniel Training decision guide"
 description: "A PupWiki guide for current and future American Water Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "american-water-spaniel", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "american-water-spaniel"
 breedName: "American Water Spaniel"
+wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-american-water-spaniel"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Water Spaniels
-American Water Spaniels are medium-sized (varies lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+American Water Spaniels are medium-sized (25–45 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
 This page helps American Water Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a American Water Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

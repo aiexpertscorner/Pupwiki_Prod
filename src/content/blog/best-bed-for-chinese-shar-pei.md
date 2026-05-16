@@ -3,8 +3,8 @@ title: "Chinese Shar-Pei Beds Dog-Care Decision Guide"
 seoTitle: "Chinese Shar-Pei Beds Dog-Care Decision Guide"
 displayTitle: "Chinese Shar-Pei Beds decision guide"
 description: "A PupWiki guide for current and future Chinese Shar-Pei people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "chinese-shar-pei", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "chinese-shar-pei"
 breedName: "Chinese Shar-Pei"
+wordCountEstimate: 376
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-chinese-shar-pei"
-heroImage: "https://images.pexels.com/photos/15960405/pexels-photo-15960405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/15960405/pexels-photo-15960405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A serene Shar Pei dog sleeping outdoors on a sunny day, showcasing peaceful pet life."
-imageAlt: "A serene Shar Pei dog sleeping outdoors on a sunny day, showcasing peaceful pet life."
-imageSource: "pexels"
-imageCredit: "Photo by Thierry Rossier on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-and-sleeping-15960405/"
-imageSearchQuery: "Chinese Shar-Pei dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chinese Shar-Peis
-Chinese Shar-Peis are medium-sized (varies lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Chinese Shar-Peis are medium-sized (45–60 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Chinese Shar-Pei people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Chinese Shar-Pei fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

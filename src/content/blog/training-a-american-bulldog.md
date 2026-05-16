@@ -3,8 +3,8 @@ title: "American Bulldog Training Dog-Care Decision Guide"
 seoTitle: "American Bulldog Training Dog-Care Decision Guide"
 displayTitle: "American Bulldog Training decision guide"
 description: "A PupWiki guide for current and future American Bulldog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "american-bulldog", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "american-bulldog"
 breedName: "American Bulldog"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-american-bulldog"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Bulldogs
-American Bulldogs are medium-sized (varies lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+American Bulldogs are large-sized (60–100 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps American Bulldog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a American Bulldog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

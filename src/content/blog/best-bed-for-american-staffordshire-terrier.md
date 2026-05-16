@@ -3,8 +3,8 @@ title: "American Staffordshire Terrier Beds Dog-Care Decision Guide"
 seoTitle: "American Staffordshire Terrier Beds Dog-Care Decision Guide"
 displayTitle: "American Staffordshire Terrier Beds decision guide"
 description: "A PupWiki guide for current and future American Staffordshire Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "american-staffordshire-terrier", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "american-staffordshire-terrier"
 breedName: "American Staffordshire Terrier"
+wordCountEstimate: 392
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-american-staffordshire-terrier"
-heroImage: "https://images.pexels.com/photos/5330031/pexels-photo-5330031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/5330031/pexels-photo-5330031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Cute purebred white dog with closed eyes napping on comfortable bed while embracing toy at home"
-imageAlt: "Cute purebred white dog with closed eyes napping on comfortable bed while embracing toy at home"
-imageSource: "pexels"
-imageCredit: "Photo by K on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/adorable-american-bulldog-sleeping-with-toy-on-bed-5330031/"
-imageSearchQuery: "American Staffordshire Terrier dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Staffordshire Terriers
-American Staffordshire Terriers are medium-sized (varies lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+American Staffordshire Terriers are large-sized (40–70 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps American Staffordshire Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a American Staffordshire Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "English Cocker Spaniel Beds Dog-Care Decision Guide"
 seoTitle: "English Cocker Spaniel Beds Dog-Care Decision Guide"
 displayTitle: "English Cocker Spaniel Beds decision guide"
 description: "A PupWiki guide for current and future English Cocker Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "english-cocker-spaniel", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "english-cocker-spaniel"
 breedName: "English Cocker Spaniel"
+wordCountEstimate: 388
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-english-cocker-spaniel"
-heroImage: "https://images.pexels.com/photos/8056880/pexels-photo-8056880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/8056880/pexels-photo-8056880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Adorable close-up of a sleeping dog with a focus on its furry paw. Cozy and cute pet scene."
-imageAlt: "Adorable close-up of a sleeping dog with a focus on its furry paw. Cozy and cute pet scene."
-imageSource: "pexels"
-imageCredit: "Photo by Duygu  Basoglu on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/the-black-paw-of-a-pet-dog-8056880/"
-imageSearchQuery: "English Cocker Spaniel dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Cocker Spaniels
-English Cocker Spaniels are medium-sized (varies lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+English Cocker Spaniels are medium-sized (26–34 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
 This page helps English Cocker Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a English Cocker Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

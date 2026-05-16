@@ -3,8 +3,8 @@ title: "Basset Fauve de Bretagne Beds Dog-Care Decision Guide"
 seoTitle: "Basset Fauve de Bretagne Beds Dog-Care Decision Guide"
 displayTitle: "Basset Fauve de Bretagne Beds decision guide"
 description: "A PupWiki guide for current and future Basset Fauve de Bretagne people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "basset-fauve-de-bretagne", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "basset-fauve-de-bretagne"
 breedName: "Basset Fauve de Bretagne"
+wordCountEstimate: 401
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-basset-fauve-de-bretagne"
-heroImage: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
-imageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
-imageSource: "pexels"
-imageCredit: "Photo by Andreas Schnabl on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/adorable-dog-sleeping-cozy-in-bed-33288452/"
-imageSearchQuery: "Basset Fauve de Bretagne dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Basset Fauve de Bretagnes
-Basset Fauve de Bretagnes are medium-sized (varies lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+Basset Fauve de Bretagnes are medium-sized (27–35 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
 This page helps Basset Fauve de Bretagne people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Basset Fauve de Bretagne fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "Briard Training Dog-Care Decision Guide"
 seoTitle: "Briard Training Dog-Care Decision Guide"
 displayTitle: "Briard Training decision guide"
 description: "A PupWiki guide for current and future Briard people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "briard", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "briard"
 breedName: "Briard"
+wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-briard"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Briards
-Briards are medium-sized (varies lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Briards are large-sized (55–100 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Briard people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Briard fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

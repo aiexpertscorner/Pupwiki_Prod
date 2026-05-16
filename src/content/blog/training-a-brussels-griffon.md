@@ -3,8 +3,8 @@ title: "Brussels Griffon Training Dog-Care Decision Guide"
 seoTitle: "Brussels Griffon Training Dog-Care Decision Guide"
 displayTitle: "Brussels Griffon Training decision guide"
 description: "A PupWiki guide for current and future Brussels Griffon people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "brussels-griffon", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "brussels-griffon"
 breedName: "Brussels Griffon"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-brussels-griffon"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Brussels Griffons
-Brussels Griffons are medium-sized (varies lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+Brussels Griffons are small-sized (8–10 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
 This page helps Brussels Griffon people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Brussels Griffon fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

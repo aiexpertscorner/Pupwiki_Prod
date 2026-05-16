@@ -3,8 +3,8 @@ title: "Teddy Roosevelt Terrier Beds Dog-Care Decision Guide"
 seoTitle: "Teddy Roosevelt Terrier Beds Dog-Care Decision Guide"
 displayTitle: "Teddy Roosevelt Terrier Beds decision guide"
 description: "A PupWiki guide for current and future Teddy Roosevelt Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "teddy-roosevelt-terrier", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "teddy-roosevelt-terrier"
 breedName: "Teddy Roosevelt Terrier"
+wordCountEstimate: 403
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-teddy-roosevelt-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Teddy Roosevelt Terriers
-Teddy Roosevelt Terriers are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Teddy Roosevelt Terriers are small-sized (8–25 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Teddy Roosevelt Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Teddy Roosevelt Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

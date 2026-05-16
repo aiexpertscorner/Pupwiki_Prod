@@ -3,8 +3,8 @@ title: "Central Asian Shepherd Dog Training Dog-Care Decision Guide"
 seoTitle: "Central Asian Shepherd Dog Training Dog-Care Decision Guide"
 displayTitle: "Central Asian Shepherd Dog Training decision guide"
 description: "A PupWiki guide for current and future Central Asian Shepherd Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "central-asian-shepherd-dog", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "central-asian-shepherd-dog"
 breedName: "Central Asian Shepherd Dog"
+wordCountEstimate: 437
 canonicalUrl: "https://pupwiki.com/blog/training-a-central-asian-shepherd-dog"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Central Asian Shepherd Dogs
-Central Asian Shepherd Dogs are medium-sized (varies lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Central Asian Shepherd Dogs are large-sized (88–110 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Central Asian Shepherd Dog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Central Asian Shepherd Dog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

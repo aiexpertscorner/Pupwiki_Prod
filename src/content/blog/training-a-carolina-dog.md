@@ -3,8 +3,8 @@ title: "Carolina Dog Training Dog-Care Decision Guide"
 seoTitle: "Carolina Dog Training Dog-Care Decision Guide"
 displayTitle: "Carolina Dog Training decision guide"
 description: "A PupWiki guide for current and future Carolina Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "carolina-dog", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "carolina-dog"
 breedName: "Carolina Dog"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-carolina-dog"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Carolina Dogs
-Carolina Dogs are medium-sized (varies lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Carolina Dogs are medium-sized (30–55 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Carolina Dog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Carolina Dog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "Tornjak Beds Dog-Care Decision Guide"
 seoTitle: "Tornjak Beds Dog-Care Decision Guide"
 displayTitle: "Tornjak Beds decision guide"
 description: "A PupWiki guide for current and future Tornjak people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "tornjak", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "tornjak"
 breedName: "Tornjak"
+wordCountEstimate: 368
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-tornjak"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Tornjaks
-Tornjaks are medium-sized (varies lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+Tornjaks are large-sized (62–110 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Tornjak people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Tornjak fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

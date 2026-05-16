@@ -3,8 +3,8 @@ title: "Toy Fox Terrier Beds Dog-Care Decision Guide"
 seoTitle: "Toy Fox Terrier Beds Dog-Care Decision Guide"
 displayTitle: "Toy Fox Terrier Beds decision guide"
 description: "A PupWiki guide for current and future Toy Fox Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "toy-fox-terrier", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "toy-fox-terrier"
 breedName: "Toy Fox Terrier"
+wordCountEstimate: 403
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-toy-fox-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Toy Fox Terriers
-Toy Fox Terriers are medium-sized (varies lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Toy Fox Terriers are small-sized (3.5–7 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Toy Fox Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Toy Fox Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

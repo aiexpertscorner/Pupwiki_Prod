@@ -3,8 +3,8 @@ title: "Chinese Shar-Pei Grooming Dog-Care Decision Guide"
 seoTitle: "Chinese Shar-Pei Grooming Dog-Care Decision Guide"
 displayTitle: "Chinese Shar-Pei Grooming decision guide"
 description: "A PupWiki guide for current and future Chinese Shar-Pei people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "chinese-shar-pei", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "chinese-shar-pei"
 breedName: "Chinese Shar-Pei"
+wordCountEstimate: 359
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-chinese-shar-pei"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chinese Shar-Peis
-Chinese Shar-Peis are medium-sized (varies lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Chinese Shar-Peis are medium-sized (45–60 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Chinese Shar-Pei people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Chinese Shar-Pei fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

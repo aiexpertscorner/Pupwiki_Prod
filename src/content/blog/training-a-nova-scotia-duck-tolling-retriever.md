@@ -3,8 +3,8 @@ title: "Nova Scotia Duck Tolling Retriever Training Dog-Care Decision Guide"
 seoTitle: "Nova Scotia Duck Tolling Retriever Training Dog-Care Decision Guide"
 displayTitle: "Nova Scotia Duck Tolling Retriever Training decision guide"
 description: "A PupWiki guide for current and future Nova Scotia Duck Tolling Retriever people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "nova-scotia-duck-tolling-retriever", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "nova-scotia-duck-tolling-retriever"
 breedName: "Nova Scotia Duck Tolling Retriever"
+wordCountEstimate: 449
 canonicalUrl: "https://pupwiki.com/blog/training-a-nova-scotia-duck-tolling-retriever"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Nova Scotia Duck Tolling Retrievers
-Nova Scotia Duck Tolling Retrievers are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Nova Scotia Duck Tolling Retrievers are medium-sized (35–50 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Nova Scotia Duck Tolling Retriever people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Nova Scotia Duck Tolling Retriever fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

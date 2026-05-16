@@ -3,8 +3,8 @@ title: "Lancashire Heeler Training Dog-Care Decision Guide"
 seoTitle: "Lancashire Heeler Training Dog-Care Decision Guide"
 displayTitle: "Lancashire Heeler Training decision guide"
 description: "A PupWiki guide for current and future Lancashire Heeler people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "lancashire-heeler", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "lancashire-heeler"
 breedName: "Lancashire Heeler"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-lancashire-heeler"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Lancashire Heelers
-Lancashire Heelers are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Lancashire Heelers are small-sized (9–17 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Lancashire Heeler people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Lancashire Heeler fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

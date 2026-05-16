@@ -3,8 +3,8 @@ title: "Miniature Schnauzer Beds Dog-Care Decision Guide"
 seoTitle: "Miniature Schnauzer Beds Dog-Care Decision Guide"
 displayTitle: "Miniature Schnauzer Beds decision guide"
 description: "A PupWiki guide for current and future Miniature Schnauzer people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "miniature-schnauzer", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "miniature-schnauzer"
 breedName: "Miniature Schnauzer"
+wordCountEstimate: 383
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-miniature-schnauzer"
-heroImage: "https://images.pexels.com/photos/3655387/pexels-photo-3655387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/3655387/pexels-photo-3655387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "Smiling Schnauzer dog laying on a soft rug, showcasing happiness indoors."
-imageAlt: "Smiling Schnauzer dog laying on a soft rug, showcasing happiness indoors."
-imageSource: "pexels"
-imageCredit: "Photo by Sebastian Coman Travel on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/photo-of-schnauzer-3655387/"
-imageSearchQuery: "Miniature Schnauzer dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Miniature Schnauzers
-Miniature Schnauzers are medium-sized (varies lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Miniature Schnauzers are small-sized (11–20 lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.
 This page helps Miniature Schnauzer people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Miniature Schnauzer fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

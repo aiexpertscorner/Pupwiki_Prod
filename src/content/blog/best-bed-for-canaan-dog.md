@@ -3,8 +3,8 @@ title: "Canaan Dog Beds Dog-Care Decision Guide"
 seoTitle: "Canaan Dog Beds Dog-Care Decision Guide"
 displayTitle: "Canaan Dog Beds decision guide"
 description: "A PupWiki guide for current and future Canaan Dog people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "canaan-dog", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,20 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "canaan-dog"
 breedName: "Canaan Dog"
+wordCountEstimate: 375
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-canaan-dog"
-heroImage: "https://images.pexels.com/photos/19176926/pexels-photo-19176926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/19176926/pexels-photo-19176926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A Shiba Inu dog peacefully sleeping curled up on a fluffy pet bed with warm sunlight."
-imageAlt: "A Shiba Inu dog peacefully sleeping curled up on a fluffy pet bed with warm sunlight."
-imageSource: "pexels"
-imageCredit: "Photo by Stephen on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/red-dog-sleeping-curled-up-in-a-fuzzy-pet-bed-19176926/"
-imageSearchQuery: "Canaan Dog dog sleeping bed"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Canaan Dogs
-Canaan Dogs are medium-sized (varies lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Canaan Dogs are medium-sized (35–55 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Canaan Dog people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Canaan Dog fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

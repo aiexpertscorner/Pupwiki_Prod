@@ -3,8 +3,8 @@ title: "Poodle (Standard) Grooming Dog-Care Decision Guide"
 seoTitle: "Poodle (Standard) Grooming Dog-Care Decision Guide"
 displayTitle: "Poodle (Standard) Grooming decision guide"
 description: "A PupWiki guide for current and future Poodle (Standard) people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Grooming"
 tags: ["grooming", "dog-services-care-planning", "poodle-standard", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "poodle-standard"
 breedName: "Poodle (Standard)"
+wordCountEstimate: 354
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-poodle-standard"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Poodle (Standard)s
-Poodle (Standard)s are medium-sized (varies lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Poodle (Standard)s are large-sized (40–70 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
 This page helps Poodle (Standard) people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Poodle (Standard) fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

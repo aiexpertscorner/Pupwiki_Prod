@@ -3,8 +3,8 @@ title: "Whippet Beds Dog-Care Decision Guide"
 seoTitle: "Whippet Beds Dog-Care Decision Guide"
 displayTitle: "Whippet Beds decision guide"
 description: "A PupWiki guide for current and future Whippet people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Beds"
 tags: ["beds", "dog-beds-comfort-home-partners", "whippet", "jugbow", "dog-cloud-us", "brutus-broth", "petmate", "orthopedic-dog-bed-washable-cover", "washable-dog-crate-bed", "senior-dog-bed", "cooling-dog-bed"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "whippet"
 breedName: "Whippet"
+wordCountEstimate: 362
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-whippet"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Whippets
-Whippets are medium-sized (varies lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Whippets are medium-sized (25–40 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Whippet people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Whippet fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

@@ -3,8 +3,8 @@ title: "Smooth Fox Terrier Training Dog-Care Decision Guide"
 seoTitle: "Smooth Fox Terrier Training Dog-Care Decision Guide"
 displayTitle: "Smooth Fox Terrier Training decision guide"
 description: "A PupWiki guide for current and future Smooth Fox Terrier people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "smooth-fox-terrier", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "smooth-fox-terrier"
 breedName: "Smooth Fox Terrier"
+wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-smooth-fox-terrier"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Smooth Fox Terriers
-Smooth Fox Terriers are medium-sized (varies lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Smooth Fox Terriers are small-sized (15–18 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
 This page helps Smooth Fox Terrier people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Smooth Fox Terrier fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**

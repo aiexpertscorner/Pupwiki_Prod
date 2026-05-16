@@ -3,8 +3,8 @@ title: "Tibetan Spaniel Training Dog-Care Decision Guide"
 seoTitle: "Tibetan Spaniel Training Dog-Care Decision Guide"
 displayTitle: "Tibetan Spaniel Training decision guide"
 description: "A PupWiki guide for current and future Tibetan Spaniel people comparing dog-care brands, products, services and practical next steps."
-pubDate: 2026-05-15
-updatedDate: 2026-05-15
+pubDate: 2026-05-16
+updatedDate: 2026-05-16
 author: "The PupWiki Team"
 category: "Training"
 tags: ["training", "dog-services-care-planning", "tibetan-spaniel", "jugbow", "radiofence-com"]
@@ -25,11 +25,12 @@ affiliateDisclosure: true
 medicalDisclaimer: false
 breedSlug: "tibetan-spaniel"
 breedName: "Tibetan Spaniel"
+wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-tibetan-spaniel"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Tibetan Spaniels
-Tibetan Spaniels are medium-sized (varies lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Tibetan Spaniels are small-sized (9–15 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
 This page helps Tibetan Spaniel people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a Tibetan Spaniel fits your home, budget and routine.
 ## Brands and services to compare
 - **JUGBOW**
