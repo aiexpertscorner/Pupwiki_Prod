@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "border-collie"
 breedName: "Border Collie"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-border-collie"
+heroImage: "https://images.pexels.com/photos/2835842/pexels-photo-2835842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/2835842/pexels-photo-2835842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A serene white dog sleeping indoors on a wooden floor, surrounded by a cozy atmosphere."
+imageAlt: "A serene white dog sleeping indoors on a wooden floor, surrounded by a cozy atmosphere."
+imageSource: "pexels"
+imageCredit: "Photo by Harper Sunday on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-dog-while-sleeping-2835842/"
+imageSearchQuery: "Border Collie dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Border Collies
 Border Collies are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

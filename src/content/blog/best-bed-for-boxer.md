@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "boxer"
 breedName: "Boxer"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-boxer"
+heroImage: "https://images.pexels.com/photos/34349199/pexels-photo-34349199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34349199/pexels-photo-34349199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable close-up of a Boxer dog's nose while sleeping, showcasing serene and peaceful canine rest."
+imageAlt: "Adorable close-up of a Boxer dog's nose while sleeping, showcasing serene and peaceful canine rest."
+imageSource: "pexels"
+imageCredit: "Photo by Aneta Goodyear on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-sleeping-boxer-dog-s-nose-34349199/"
+imageSearchQuery: "Boxer dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Boxers
 Boxers are medium-sized (varies lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

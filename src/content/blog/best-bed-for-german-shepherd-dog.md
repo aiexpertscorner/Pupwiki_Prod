@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "german-shepherd-dog"
 breedName: "German Shepherd Dog"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-german-shepherd-dog"
+heroImage: "https://images.pexels.com/photos/11645726/pexels-photo-11645726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11645726/pexels-photo-11645726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A calm German Shepherd dog laying on a textured gray surface, looking content."
+imageAlt: "A calm German Shepherd dog laying on a textured gray surface, looking content."
+imageSource: "pexels"
+imageCredit: "Photo by Inge Van den Heuvel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-german-shepherd-11645726/"
+imageSearchQuery: "German Shepherd Dog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Shepherd Dogs
 German Shepherd Dogs are medium-sized (varies lbs), with regular energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

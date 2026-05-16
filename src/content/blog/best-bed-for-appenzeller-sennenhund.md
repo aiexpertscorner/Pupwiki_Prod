@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "appenzeller-sennenhund"
 breedName: "Appenzeller Sennenhund"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-appenzeller-sennenhund"
+heroImage: "https://images.pexels.com/photos/36198590/pexels-photo-36198590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36198590/pexels-photo-36198590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a black and white dog sleeping peacefully on a bed in a cozy setting."
+imageAlt: "Close-up of a black and white dog sleeping peacefully on a bed in a cozy setting."
+imageSource: "pexels"
+imageCredit: "Photo by Magda Ehlers on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/sleeping-dog-on-bed-with-relaxing-atmosphere-36198590/"
+imageSearchQuery: "Appenzeller Sennenhund dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Appenzeller Sennenhunds
 Appenzeller Sennenhunds are medium-sized (varies lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "braque-francais-pyrenean"
 breedName: "Braque Francais Pyrenean"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-braque-francais-pyrenean"
+heroImage: "https://images.pexels.com/photos/15628462/pexels-photo-15628462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15628462/pexels-photo-15628462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute merle French Bulldog puppy sleeping on a dark blue sofa indoors."
+imageAlt: "Cute merle French Bulldog puppy sleeping on a dark blue sofa indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Bo Ponomari on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/puppy-sleeping-15628462/"
+imageSearchQuery: "Braque Francais Pyrenean dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Braque Francais Pyreneans
 Braque Francais Pyreneans are medium-sized (varies lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

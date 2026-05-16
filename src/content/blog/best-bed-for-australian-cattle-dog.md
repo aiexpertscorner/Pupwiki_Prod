@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "australian-cattle-dog"
 breedName: "Australian Cattle Dog"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-australian-cattle-dog"
+heroImage: "https://images.pexels.com/photos/35511903/pexels-photo-35511903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35511903/pexels-photo-35511903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "An Australian Cattle Dog sitting on lush green grass, showing a friendly expression."
+imageAlt: "An Australian Cattle Dog sitting on lush green grass, showing a friendly expression."
+imageSource: "pexels"
+imageCredit: "Photo by Helena Lopes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/australian-cattle-dog-sitting-on-green-grass-35511903/"
+imageSearchQuery: "Australian Cattle Dog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Australian Cattle Dogs
 Australian Cattle Dogs are medium-sized (varies lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

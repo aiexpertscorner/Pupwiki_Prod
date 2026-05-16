@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "chow-chow"
 breedName: "Chow Chow"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-chow-chow"
+heroImage: "https://images.pexels.com/photos/20840675/pexels-photo-20840675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20840675/pexels-photo-20840675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy white dog peacefully sleeping on grass, enjoying a sunny day outdoors."
+imageAlt: "A fluffy white dog peacefully sleeping on grass, enjoying a sunny day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Ivan B on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-fluffy-dog-sleeping-on-the-grass-20840675/"
+imageSearchQuery: "Chow Chow dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Chow Chows
 Chow Chows are medium-sized (varies lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

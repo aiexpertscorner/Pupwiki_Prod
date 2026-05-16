@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "german-spitz"
 breedName: "German Spitz"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-german-spitz"
+heroImage: "https://images.pexels.com/photos/8473538/pexels-photo-8473538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8473538/pexels-photo-8473538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy Pomeranian dog peacefully sleeping on a modern yellow chair indoors."
+imageAlt: "A fluffy Pomeranian dog peacefully sleeping on a modern yellow chair indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Cup of  Couple on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dog-sleeping-on-the-chair-8473538/"
+imageSearchQuery: "German Spitz dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for German Spitzs
 German Spitzs are medium-sized (varies lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

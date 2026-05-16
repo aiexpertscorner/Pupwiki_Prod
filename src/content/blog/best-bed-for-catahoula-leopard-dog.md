@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "catahoula-leopard-dog"
 breedName: "Catahoula Leopard Dog"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-catahoula-leopard-dog"
+heroImage: "https://images.pexels.com/photos/15628462/pexels-photo-15628462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15628462/pexels-photo-15628462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute merle French Bulldog puppy sleeping on a dark blue sofa indoors."
+imageAlt: "Cute merle French Bulldog puppy sleeping on a dark blue sofa indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Bo Ponomari on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/puppy-sleeping-15628462/"
+imageSearchQuery: "Catahoula Leopard Dog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Catahoula Leopard Dogs
 Catahoula Leopard Dogs are medium-sized (varies lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

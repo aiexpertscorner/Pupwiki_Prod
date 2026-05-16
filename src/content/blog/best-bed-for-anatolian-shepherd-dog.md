@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "anatolian-shepherd-dog"
 breedName: "Anatolian Shepherd Dog"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-anatolian-shepherd-dog"
+heroImage: "https://images.pexels.com/photos/21928868/pexels-photo-21928868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/21928868/pexels-photo-21928868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Calm stray dog sleeping against a brick wall in Bornova, İzmir, Türkiye."
+imageAlt: "Calm stray dog sleeping against a brick wall in Bornova, İzmir, Türkiye."
+imageSource: "pexels"
+imageCredit: "Photo by Doğan Alpaslan  Demir on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/stray-dog-lying-down-and-sleeping-21928868/"
+imageSearchQuery: "Anatolian Shepherd Dog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Anatolian Shepherd Dogs
 Anatolian Shepherd Dogs are medium-sized (varies lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "estrela-mountain-dog"
 breedName: "Estrela Mountain Dog"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-estrela-mountain-dog"
+heroImage: "https://images.pexels.com/photos/5420821/pexels-photo-5420821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5420821/pexels-photo-5420821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A calm small dog sleeping soundly on a soft bed, showcasing relaxation."
+imageAlt: "A calm small dog sleeping soundly on a soft bed, showcasing relaxation."
+imageSource: "pexels"
+imageCredit: "Photo by www.kaboompics.com on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-bed-5420821/"
+imageSearchQuery: "Estrela Mountain Dog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Estrela Mountain Dogs
 Estrela Mountain Dogs are medium-sized (varies lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

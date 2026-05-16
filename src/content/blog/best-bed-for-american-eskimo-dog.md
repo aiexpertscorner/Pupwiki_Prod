@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "american-eskimo-dog"
 breedName: "American Eskimo Dog"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-american-eskimo-dog"
+heroImage: "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute American Eskimo dog lying on vibrant green grass, looking playfully at the camera."
+imageAlt: "Cute American Eskimo dog lying on vibrant green grass, looking playfully at the camera."
+imageSource: "pexels"
+imageCredit: "Photo by Mohan Nannapaneni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-white-american-eskimo-dog-on-green-grass-7237824/"
+imageSearchQuery: "American Eskimo Dog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Eskimo Dogs
 American Eskimo Dogs are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

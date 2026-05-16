@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "english-cocker-spaniel"
 breedName: "English Cocker Spaniel"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-english-cocker-spaniel"
+heroImage: "https://images.pexels.com/photos/8056880/pexels-photo-8056880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8056880/pexels-photo-8056880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable close-up of a sleeping dog with a focus on its furry paw. Cozy and cute pet scene."
+imageAlt: "Adorable close-up of a sleeping dog with a focus on its furry paw. Cozy and cute pet scene."
+imageSource: "pexels"
+imageCredit: "Photo by Duygu  Basoglu on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/the-black-paw-of-a-pet-dog-8056880/"
+imageSearchQuery: "English Cocker Spaniel dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for English Cocker Spaniels
 English Cocker Spaniels are medium-sized (varies lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

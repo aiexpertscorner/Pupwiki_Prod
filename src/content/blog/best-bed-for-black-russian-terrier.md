@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "black-russian-terrier"
 breedName: "Black Russian Terrier"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-black-russian-terrier"
+heroImage: "https://images.pexels.com/photos/5255155/pexels-photo-5255155.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5255155/pexels-photo-5255155.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "From above of crop unrecognizable barefooted female lying on comfortable bed near cute loyal dog looking at camera"
+imageAlt: "From above of crop unrecognizable barefooted female lying on comfortable bed near cute loyal dog looking at camera"
+imageSource: "pexels"
+imageCredit: "Photo by Samson Katt on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-lying-on-bed-near-faceless-young-female-owner-5255155/"
+imageSearchQuery: "Black Russian Terrier dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Black Russian Terriers
 Black Russian Terriers are medium-sized (varies lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.

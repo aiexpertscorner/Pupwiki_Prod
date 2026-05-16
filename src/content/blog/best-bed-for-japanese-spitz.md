@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "japanese-spitz"
 breedName: "Japanese Spitz"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-japanese-spitz"
+heroImage: "https://images.pexels.com/photos/37105501/pexels-photo-37105501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37105501/pexels-photo-37105501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming fluffy white dog lounging on a comfortable brown leather couch with soft natural lighting."
+imageAlt: "Charming fluffy white dog lounging on a comfortable brown leather couch with soft natural lighting."
+imageSource: "pexels"
+imageCredit: "Photo by Tomal Bhattacharjee on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/fluffy-white-dog-relaxing-on-a-leather-couch-37105501/"
+imageSearchQuery: "Japanese Spitz dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Japanese Spitzs
 Japanese Spitzs are medium-sized (varies lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.

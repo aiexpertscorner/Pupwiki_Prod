@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "black-and-tan-coonhound"
 breedName: "Black and Tan Coonhound"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-black-and-tan-coonhound"
+heroImage: "https://images.pexels.com/photos/20348444/pexels-photo-20348444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20348444/pexels-photo-20348444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable dog peacefully sleeping with a colorful toy indoors, creating a cozy and loving scene."
+imageAlt: "Adorable dog peacefully sleeping with a colorful toy indoors, creating a cozy and loving scene."
+imageSource: "pexels"
+imageCredit: "Photo by Sonny Vermeer on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/little-brown-dog-enjoys-the-sun-with-her-toy-20348444/"
+imageSearchQuery: "Black and Tan Coonhound dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Black and Tan Coonhounds
 Black and Tan Coonhounds are medium-sized (varies lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

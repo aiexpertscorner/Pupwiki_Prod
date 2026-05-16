@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "american-staffordshire-terrier"
 breedName: "American Staffordshire Terrier"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-american-staffordshire-terrier"
+heroImage: "https://images.pexels.com/photos/5330031/pexels-photo-5330031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5330031/pexels-photo-5330031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute purebred white dog with closed eyes napping on comfortable bed while embracing toy at home"
+imageAlt: "Cute purebred white dog with closed eyes napping on comfortable bed while embracing toy at home"
+imageSource: "pexels"
+imageCredit: "Photo by K on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-american-bulldog-sleeping-with-toy-on-bed-5330031/"
+imageSearchQuery: "American Staffordshire Terrier dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for American Staffordshire Terriers
 American Staffordshire Terriers are medium-sized (varies lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.

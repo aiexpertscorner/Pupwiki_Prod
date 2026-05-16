@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "beagle"
 breedName: "Beagle"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-beagle"
+heroImage: "https://images.pexels.com/photos/5109227/pexels-photo-5109227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5109227/pexels-photo-5109227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming beagle dog lying on a cozy bed indoors, showcasing its expressive eyes in a close-up shot."
+imageAlt: "Charming beagle dog lying on a cozy bed indoors, showcasing its expressive eyes in a close-up shot."
+imageSource: "pexels"
+imageCredit: "Photo by Brett Jordan on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-beagle-5109227/"
+imageSearchQuery: "Beagle dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Beagles
 Beagles are medium-sized (varies lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

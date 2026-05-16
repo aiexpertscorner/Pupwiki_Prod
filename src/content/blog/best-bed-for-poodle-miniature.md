@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "poodle-miniature"
 breedName: "Poodle (Miniature)"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-poodle-miniature"
+heroImage: "https://images.pexels.com/photos/19902451/pexels-photo-19902451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19902451/pexels-photo-19902451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable white dog peacefully sleeping on the ground outdoors in Skikda, Algeria."
+imageAlt: "Adorable white dog peacefully sleeping on the ground outdoors in Skikda, Algeria."
+imageSource: "pexels"
+imageCredit: "Photo by Mallem Amir on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-domestic-dog-sleeping-on-the-ground-19902451/"
+imageSearchQuery: "Poodle (Miniature) dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Poodle (Miniature)s
 Poodle (Miniature)s are medium-sized (varies lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

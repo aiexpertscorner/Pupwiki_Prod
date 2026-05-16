@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "labrador-retriever"
 breedName: "Labrador Retriever"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-labrador-retriever"
+heroImage: "https://images.pexels.com/photos/544269/pexels-photo-544269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/544269/pexels-photo-544269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A chocolate Labrador dog lounging on a cozy rug with a dark background."
+imageAlt: "A chocolate Labrador dog lounging on a cozy rug with a dark background."
+imageSource: "pexels"
+imageCredit: "Photo by Binyamin Mellish on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adult-chocolate-labrador-retriever-lying-on-brown-and-white-striped-textile-544269/"
+imageSearchQuery: "Labrador Retriever dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Labrador Retrievers
 Labrador Retrievers are medium-sized (varies lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

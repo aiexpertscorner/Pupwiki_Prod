@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "australian-stumpy-tail-cattle-dog"
 breedName: "Australian Stumpy Tail Cattle Dog"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-australian-stumpy-tail-cattle-dog"
+heroImage: "https://images.pexels.com/photos/9869907/pexels-photo-9869907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9869907/pexels-photo-9869907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Australian Cattle Dog standing on a rock in a scenic mountain setting, surrounded by tall grass."
+imageAlt: "Australian Cattle Dog standing on a rock in a scenic mountain setting, surrounded by tall grass."
+imageSource: "pexels"
+imageCredit: "Photo by Alexander  Savchuk on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-standing-on-a-rock-9869907/"
+imageSearchQuery: "Australian Stumpy Tail Cattle Dog dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Australian Stumpy Tail Cattle Dogs
 Australian Stumpy Tail Cattle Dogs are medium-sized (varies lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

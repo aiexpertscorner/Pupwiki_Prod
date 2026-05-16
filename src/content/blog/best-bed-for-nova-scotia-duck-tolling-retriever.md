@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "nova-scotia-duck-tolling-retriever"
 breedName: "Nova Scotia Duck Tolling Retriever"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-nova-scotia-duck-tolling-retriever"
+heroImage: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33288452/pexels-photo-33288452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
+imageAlt: "Cute dog comfortably sleeping in bed with floral sheets and pillows."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-dog-sleeping-cozy-in-bed-33288452/"
+imageSearchQuery: "Nova Scotia Duck Tolling Retriever dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Nova Scotia Duck Tolling Retrievers
 Nova Scotia Duck Tolling Retrievers are medium-sized (varies lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

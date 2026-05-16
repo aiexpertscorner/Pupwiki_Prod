@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "pekingese"
 breedName: "Pekingese"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-pekingese"
+heroImage: "https://images.pexels.com/photos/11060037/pexels-photo-11060037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11060037/pexels-photo-11060037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a cute brown dog peacefully sleeping on a plaid pillow, showcasing tranquility and comfort."
+imageAlt: "Close-up of a cute brown dog peacefully sleeping on a plaid pillow, showcasing tranquility and comfort."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-sleeping-dog-11060037/"
+imageSearchQuery: "Pekingese dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pekingeses
 Pekingeses are medium-sized (varies lbs), with calm energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

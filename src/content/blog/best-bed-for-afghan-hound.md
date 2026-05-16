@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "afghan-hound"
 breedName: "Afghan Hound"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-afghan-hound"
+heroImage: "https://images.pexels.com/photos/19027991/pexels-photo-19027991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19027991/pexels-photo-19027991.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Weimaraner dog peacefully sleeping on a fluffy dog bed in a cozy living room."
+imageAlt: "A Weimaraner dog peacefully sleeping on a fluffy dog bed in a cozy living room."
+imageSource: "pexels"
+imageCredit: "Photo by Olivier Leysen on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-sleeping-in-a-dog-bed-next-to-a-sofa-19027991/"
+imageSearchQuery: "Afghan Hound dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Afghan Hounds
 Afghan Hounds are medium-sized (varies lbs), with active energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

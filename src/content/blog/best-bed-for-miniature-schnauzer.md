@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "miniature-schnauzer"
 breedName: "Miniature Schnauzer"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-miniature-schnauzer"
+heroImage: "https://images.pexels.com/photos/3655387/pexels-photo-3655387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3655387/pexels-photo-3655387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Smiling Schnauzer dog laying on a soft rug, showcasing happiness indoors."
+imageAlt: "Smiling Schnauzer dog laying on a soft rug, showcasing happiness indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Sebastian Coman Travel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-schnauzer-3655387/"
+imageSearchQuery: "Miniature Schnauzer dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Miniature Schnauzers
 Miniature Schnauzers are medium-sized (varies lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.

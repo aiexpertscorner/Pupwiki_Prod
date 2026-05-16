@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "dachshund"
 breedName: "Dachshund"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-dachshund"
+heroImage: "https://images.pexels.com/photos/36422580/pexels-photo-36422580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36422580/pexels-photo-36422580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dachshund basks in the sunlight on a cozy dog bed indoors, exuding calm and warmth."
+imageAlt: "A dachshund basks in the sunlight on a cozy dog bed indoors, exuding calm and warmth."
+imageSource: "pexels"
+imageCredit: "Photo by Giovanna Kamimura on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dachshund-relaxing-in-sunlit-dog-bed-indoors-36422580/"
+imageSearchQuery: "Dachshund dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Dachshunds
 Dachshunds are medium-sized (varies lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

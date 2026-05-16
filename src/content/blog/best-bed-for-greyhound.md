@@ -26,7 +26,16 @@ medicalDisclaimer: false
 breedSlug: "greyhound"
 breedName: "Greyhound"
 canonicalUrl: "https://pupwiki.com/blog/best-bed-for-greyhound"
+heroImage: "https://images.pexels.com/photos/14832500/pexels-photo-14832500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14832500/pexels-photo-14832500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A greyhound dog peacefully sleeping on a bed with a geometric patterned cover, viewed from above."
+imageAlt: "A greyhound dog peacefully sleeping on a bed with a geometric patterned cover, viewed from above."
+imageSource: "pexels"
+imageCredit: "Photo by Alina Skazka on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-lying-in-bed-14832500/"
+imageSearchQuery: "Greyhound dog sleeping bed"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Greyhounds
 Greyhounds are medium-sized (varies lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
