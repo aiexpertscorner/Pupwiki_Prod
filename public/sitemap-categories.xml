@@ -13,12 +13,6 @@
     <priority>0.40</priority>
   </url>
   <url>
-    <loc>https://pupwiki.com/blog</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.82</priority>
-  </url>
-  <url>
     <loc>https://pupwiki.com/breeds</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -152,12 +146,6 @@
   </url>
   <url>
     <loc>https://pupwiki.com/faq</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://pupwiki.com/guides</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
