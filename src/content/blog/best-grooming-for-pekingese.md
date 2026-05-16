@@ -27,7 +27,16 @@ breedSlug: "pekingese"
 breedName: "Pekingese"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-pekingese"
+heroImage: "https://images.pexels.com/photos/16337777/pexels-photo-16337777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16337777/pexels-photo-16337777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black Pekingese dog lies on a sunlit stone pavement, casting a shadow."
+imageAlt: "A black Pekingese dog lies on a sunlit stone pavement, casting a shadow."
+imageSource: "pexels"
+imageCredit: "Photo by Irina Solianyk on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/cute-dog-lying-on-ground-16337777/"
+imageSearchQuery: "Pekingese dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pekingeses
 Pekingeses are small-sized (14 lbs), with calm energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

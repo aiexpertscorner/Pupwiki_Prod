@@ -27,7 +27,16 @@ breedSlug: "polish-lowland-sheepdog"
 breedName: "Polish Lowland Sheepdog"
 wordCountEstimate: 452
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-polish-lowland-sheepdog"
+heroImage: "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cozy indoor scene of a person grooming a large fluffy dog using a brush."
+imageAlt: "A cozy indoor scene of a person grooming a large fluffy dog using a brush."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-brushing-the-dog-s-fur-8498543/"
+imageSearchQuery: "Polish Lowland Sheepdog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Polish Lowland Sheepdogs
 Polish Lowland Sheepdogs are medium-sized (30–50 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

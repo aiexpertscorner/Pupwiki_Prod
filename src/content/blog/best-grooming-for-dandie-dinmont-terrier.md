@@ -27,7 +27,16 @@ breedSlug: "dandie-dinmont-terrier"
 breedName: "Dandie Dinmont Terrier"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-dandie-dinmont-terrier"
+heroImage: "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A female pet groomer trims a terrier dog's fur in an indoor grooming salon."
+imageAlt: "A female pet groomer trims a terrier dog's fur in an indoor grooming salon."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/"
+imageSearchQuery: "Dandie Dinmont Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Dandie Dinmont Terriers
 Dandie Dinmont Terriers are small-sized (18–24 lbs), with regular energy, minimal shedding, and a rough coat. The recommendations below are matched to these traits.

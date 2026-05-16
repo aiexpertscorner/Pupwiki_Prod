@@ -27,7 +27,16 @@ breedSlug: "danish-swedish-farmdog"
 breedName: "Danish-Swedish Farmdog"
 wordCountEstimate: 429
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-danish-swedish-farmdog"
+heroImage: "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy white dog being gently brushed on a wooden floor during grooming."
+imageAlt: "A fluffy white dog being gently brushed on a wooden floor during grooming."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/"
+imageSearchQuery: "Danish-Swedish Farmdog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Danish-Swedish Farmdogs
 Danish-Swedish Farmdogs are small-sized (15–20 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

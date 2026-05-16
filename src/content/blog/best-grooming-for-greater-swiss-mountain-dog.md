@@ -27,7 +27,16 @@ breedSlug: "greater-swiss-mountain-dog"
 breedName: "Greater Swiss Mountain Dog"
 wordCountEstimate: 452
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-greater-swiss-mountain-dog"
+heroImage: "https://images.pexels.com/photos/11181910/pexels-photo-11181910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11181910/pexels-photo-11181910.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Greater Swiss Mountain Dog joyfully running through a snow-covered park adorned with Christmas trees."
+imageAlt: "A Greater Swiss Mountain Dog joyfully running through a snow-covered park adorned with Christmas trees."
+imageSource: "pexels"
+imageCredit: "Photo by Valeria Boltneva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-dog-running-on-snow-covered-ground-11181910/"
+imageSearchQuery: "Greater Swiss Mountain Dog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Greater Swiss Mountain Dogs
 Greater Swiss Mountain Dogs are large-sized (85–140 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

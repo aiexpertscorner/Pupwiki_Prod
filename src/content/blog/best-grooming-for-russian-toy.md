@@ -27,7 +27,16 @@ breedSlug: "russian-toy"
 breedName: "Russian Toy"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-russian-toy"
+heroImage: "https://images.pexels.com/photos/10594773/pexels-photo-10594773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10594773/pexels-photo-10594773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Russian Toy dog with long ears lying comfortably indoors."
+imageAlt: "Close-up of a Russian Toy dog with long ears lying comfortably indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-brown-dog-10594773/"
+imageSearchQuery: "Russian Toy dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Russian Toys
 Russian Toys are small-sized (6.5 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

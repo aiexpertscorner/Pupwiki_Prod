@@ -27,7 +27,16 @@ breedSlug: "icelandic-sheepdog"
 breedName: "Icelandic Sheepdog"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-icelandic-sheepdog"
+heroImage: "https://images.pexels.com/photos/14725406/pexels-photo-14725406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14725406/pexels-photo-14725406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "An Icelandic Sheepdog joyfully runs across a sandy beach, showing its playful and energetic nature."
+imageAlt: "An Icelandic Sheepdog joyfully runs across a sandy beach, showing its playful and energetic nature."
+imageSource: "pexels"
+imageCredit: "Photo by Mohan Nannapaneni on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-an-icelandic-sheepdog-on-the-sand-14725406/"
+imageSearchQuery: "Icelandic Sheepdog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Icelandic Sheepdogs
 Icelandic Sheepdogs are medium-sized (25–30 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

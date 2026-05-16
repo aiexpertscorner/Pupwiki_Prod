@@ -27,7 +27,16 @@ breedSlug: "portuguese-sheepdog"
 breedName: "Portuguese Sheepdog"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-portuguese-sheepdog"
+heroImage: "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cozy indoor scene of a person grooming a large fluffy dog using a brush."
+imageAlt: "A cozy indoor scene of a person grooming a large fluffy dog using a brush."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-brushing-the-dog-s-fur-8498543/"
+imageSearchQuery: "Portuguese Sheepdog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Portuguese Sheepdogs
 Portuguese Sheepdogs are medium-sized (37.5–59 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

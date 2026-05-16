@@ -27,7 +27,16 @@ breedSlug: "miniature-pinscher"
 breedName: "Miniature Pinscher"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-miniature-pinscher"
+heroImage: "https://images.pexels.com/photos/11654885/pexels-photo-11654885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11654885/pexels-photo-11654885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Miniature Pinscher dog sitting among autumn leaves outdoors."
+imageAlt: "A cute Miniature Pinscher dog sitting among autumn leaves outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by adrian vieriu on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-11654885/"
+imageSearchQuery: "Miniature Pinscher dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Miniature Pinschers
 Miniature Pinschers are small-sized (8–10 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

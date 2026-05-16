@@ -27,7 +27,16 @@ breedSlug: "yakutian-laika"
 breedName: "Yakutian Laika"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-yakutian-laika"
+heroImage: "https://images.pexels.com/photos/9632122/pexels-photo-9632122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9632122/pexels-photo-9632122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A tattooed hand grooming a happy Siberian Husky dog with a pink brush."
+imageAlt: "A tattooed hand grooming a happy Siberian Husky dog with a pink brush."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/tattooed-person-combing-the-dog-9632122/"
+imageSearchQuery: "Yakutian Laika dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Yakutian Laikas
 Yakutian Laikas are medium-sized (40–55 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

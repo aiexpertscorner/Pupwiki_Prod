@@ -27,7 +27,16 @@ breedSlug: "peruvian-inca-orchid"
 breedName: "Peruvian Inca Orchid"
 wordCountEstimate: 456
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-peruvian-inca-orchid"
+heroImage: "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A pet groomer trims a dog's fur on a grooming table in a professional salon setting."
+imageAlt: "A pet groomer trims a dog's fur on a grooming table in a professional salon setting."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/"
+imageSearchQuery: "Peruvian Inca Orchid dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Peruvian Inca Orchids
 Peruvian Inca Orchids are medium-sized (8.5–55 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

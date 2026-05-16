@@ -27,7 +27,16 @@ breedSlug: "norwegian-elkhound"
 breedName: "Norwegian Elkhound"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-norwegian-elkhound"
+heroImage: "https://images.pexels.com/photos/4148864/pexels-photo-4148864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4148864/pexels-photo-4148864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A woman grooming her fluffy dog outdoors in a sunlit field, showcasing pet care and affection."
+imageAlt: "A woman grooming her fluffy dog outdoors in a sunlit field, showcasing pet care and affection."
+imageSource: "pexels"
+imageCredit: "Photo by Gustavo Fring on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-woman-brushing-her-dog-4148864/"
+imageSearchQuery: "Norwegian Elkhound dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Norwegian Elkhounds
 Norwegian Elkhounds are medium-sized (48–55 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

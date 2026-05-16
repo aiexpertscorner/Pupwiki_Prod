@@ -27,7 +27,16 @@ breedSlug: "bull-boxer"
 breedName: "Bull-Boxer"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-bull-boxer"
+heroImage: "https://images.pexels.com/photos/6303371/pexels-photo-6303371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6303371/pexels-photo-6303371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Brown dog dressed in a reindeer costume enjoys a snowy day outdoors."
+imageAlt: "Brown dog dressed in a reindeer costume enjoys a snowy day outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Hannah Gambino on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-boxer-dog-wearing-a-costume-6303371/"
+imageSearchQuery: "Bull-Boxer dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bull-Boxers
 Bull-Boxers are large-sized (55.12–88.18 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

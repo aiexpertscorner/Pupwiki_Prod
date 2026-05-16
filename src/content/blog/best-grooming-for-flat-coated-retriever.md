@@ -27,7 +27,16 @@ breedSlug: "flat-coated-retriever"
 breedName: "Flat-Coated Retriever"
 wordCountEstimate: 445
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-flat-coated-retriever"
+heroImage: "https://images.pexels.com/photos/19145880/pexels-photo-19145880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145880/pexels-photo-19145880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Professional dog grooming with scissors focusing on leg trimming indoors."
+imageAlt: "Professional dog grooming with scissors focusing on leg trimming indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-hand-trimming-dog-19145880/"
+imageSearchQuery: "Flat-Coated Retriever dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Flat-Coated Retrievers
 Flat-Coated Retrievers are large-sized (60–70 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

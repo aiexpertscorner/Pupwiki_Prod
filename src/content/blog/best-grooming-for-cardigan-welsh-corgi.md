@@ -27,7 +27,16 @@ breedSlug: "cardigan-welsh-corgi"
 breedName: "Cardigan Welsh Corgi"
 wordCountEstimate: 451
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-cardigan-welsh-corgi"
+heroImage: "https://images.pexels.com/photos/8198647/pexels-photo-8198647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8198647/pexels-photo-8198647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Crop anonymous owner with cute Welsh Corgi dog in arms standing near blooming apple tree branches in garden against blurred background"
+imageAlt: "Crop anonymous owner with cute Welsh Corgi dog in arms standing near blooming apple tree branches in garden against blurred background"
+imageSource: "pexels"
+imageCredit: "Photo by Valeria Boltneva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/unrecognizable-owner-with-corgi-near-blooming-branches-8198647/"
+imageSearchQuery: "Cardigan Welsh Corgi dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cardigan Welsh Corgis
 Cardigan Welsh Corgis are medium-sized (25–38 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

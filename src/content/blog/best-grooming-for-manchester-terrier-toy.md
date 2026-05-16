@@ -27,7 +27,16 @@ breedSlug: "manchester-terrier-toy"
 breedName: "Manchester Terrier (Toy)"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-manchester-terrier-toy"
+heroImage: "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Yorkshire Terrier puppy resting indoors with a toy dog figurine nearby."
+imageAlt: "Cute Yorkshire Terrier puppy resting indoors with a toy dog figurine nearby."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/yorkshire-terrier-with-toy-indoors-portrait-34232518/"
+imageSearchQuery: "Manchester Terrier (Toy) dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Manchester Terrier (Toy)s
 Manchester Terrier (Toy)s are small-sized (12 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

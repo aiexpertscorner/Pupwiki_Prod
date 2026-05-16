@@ -27,7 +27,16 @@ breedSlug: "silky-terrier"
 breedName: "Silky Terrier"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-silky-terrier"
+heroImage: "https://images.pexels.com/photos/6816837/pexels-photo-6816837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6816837/pexels-photo-6816837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A groomer trims a small dog's fur at a modern pet salon indoors."
+imageAlt: "A groomer trims a small dog's fur at a modern pet salon indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Gustavo Fring on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/small-dog-in-grooming-salon-6816837/"
+imageSearchQuery: "Silky Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Silky Terriers
 Silky Terriers are small-sized (10 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

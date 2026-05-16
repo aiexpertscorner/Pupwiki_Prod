@@ -27,7 +27,16 @@ breedSlug: "keeshond"
 breedName: "Keeshond"
 wordCountEstimate: 427
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-keeshond"
+heroImage: "https://images.pexels.com/photos/29352234/pexels-photo-29352234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29352234/pexels-photo-29352234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy black dog sits amidst colorful autumn leaves in a park setting."
+imageAlt: "A fluffy black dog sits amidst colorful autumn leaves in a park setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/fluffy-black-dog-sitting-on-autumn-leaves-29352234/"
+imageSearchQuery: "Keeshond dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Keeshonds
 Keeshonds are medium-sized (35–45 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

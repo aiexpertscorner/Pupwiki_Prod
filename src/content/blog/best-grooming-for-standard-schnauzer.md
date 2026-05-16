@@ -27,7 +27,16 @@ breedSlug: "standard-schnauzer"
 breedName: "Standard Schnauzer"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-standard-schnauzer"
+heroImage: "https://images.pexels.com/photos/3655387/pexels-photo-3655387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3655387/pexels-photo-3655387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Smiling Schnauzer dog laying on a soft rug, showcasing happiness indoors."
+imageAlt: "Smiling Schnauzer dog laying on a soft rug, showcasing happiness indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Sebastian Coman Travel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-schnauzer-3655387/"
+imageSearchQuery: "Standard Schnauzer dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Standard Schnauzers
 Standard Schnauzers are medium-sized (30–50 lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.

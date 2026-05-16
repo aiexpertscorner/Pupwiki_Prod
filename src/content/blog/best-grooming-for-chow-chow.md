@@ -27,7 +27,16 @@ breedSlug: "chow-chow"
 breedName: "Chow Chow"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-chow-chow"
+heroImage: "https://images.pexels.com/photos/8412357/pexels-photo-8412357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8412357/pexels-photo-8412357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Chow Chow dog lounging indoors, surrounded by greenery."
+imageAlt: "Adorable Chow Chow dog lounging indoors, surrounded by greenery."
+imageSource: "pexels"
+imageCredit: "Photo by Lemuel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-close-up-shot-of-a-chow-chow-8412357/"
+imageSearchQuery: "Chow Chow dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Chow Chows
 Chow Chows are large-sized (45–70 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

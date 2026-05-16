@@ -27,7 +27,16 @@ breedSlug: "russell-terrier"
 breedName: "Russell Terrier"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-russell-terrier"
+heroImage: "https://images.pexels.com/photos/27998957/pexels-photo-27998957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/27998957/pexels-photo-27998957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Jack Russell Terrier dog portrait with charming expression in Belgrade, Serbia."
+imageAlt: "Cute Jack Russell Terrier dog portrait with charming expression in Belgrade, Serbia."
+imageSource: "pexels"
+imageCredit: "Photo by Vladimir Petrovic on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/lollobrigida-27998957/"
+imageSearchQuery: "Russell Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Russell Terriers
 Russell Terriers are small-sized (9–15 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

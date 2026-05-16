@@ -27,7 +27,16 @@ breedSlug: "cirneco-delletna"
 breedName: "Cirneco dell’Etna"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-cirneco-delletna"
+heroImage: "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A pet groomer trims a dog's fur on a grooming table in a professional salon setting."
+imageAlt: "A pet groomer trims a dog's fur on a grooming table in a professional salon setting."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/"
+imageSearchQuery: "Cirneco dell’Etna dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cirneco dell’Etnas
 Cirneco dell’Etnas are medium-sized (17–26 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

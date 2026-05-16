@@ -27,7 +27,16 @@ breedSlug: "lhasa-apso"
 breedName: "Lhasa Apso"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-lhasa-apso"
+heroImage: "https://images.pexels.com/photos/13035238/pexels-photo-13035238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13035238/pexels-photo-13035238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Shih Tzu dog with long fur stands in lush green grass, looking attentively."
+imageAlt: "A cute Shih Tzu dog with long fur stands in lush green grass, looking attentively."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-shih-tzu-dog-on-green-grass-13035238/"
+imageSearchQuery: "Lhasa Apso dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Lhasa Apsos
 Lhasa Apsos are small-sized (12–18 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

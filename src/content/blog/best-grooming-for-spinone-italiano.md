@@ -27,7 +27,16 @@ breedSlug: "spinone-italiano"
 breedName: "Spinone Italiano"
 wordCountEstimate: 426
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-spinone-italiano"
+heroImage: "https://images.pexels.com/photos/28964676/pexels-photo-28964676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28964676/pexels-photo-28964676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up image of a Spinone Italiano dog with distinctive curly fur indoors."
+imageAlt: "Close-up image of a Spinone Italiano dog with distinctive curly fur indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-spinone-italiano-dog-with-curly-fur-28964676/"
+imageSearchQuery: "Spinone Italiano dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Spinone Italianos
 Spinone Italianos are medium-sized, with active energy, low shedding, and a rough coat. The recommendations below are matched to these traits.

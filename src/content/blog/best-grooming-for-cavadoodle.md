@@ -27,7 +27,16 @@ breedSlug: "cavadoodle"
 breedName: "Cavadoodle"
 wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-cavadoodle"
+heroImage: "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care."
+imageAlt: "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/groomer-washing-dog-19145895/"
+imageSearchQuery: "Cavadoodle dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cavadoodles
 Cavadoodles are medium-sized (26.46–39.68 lbs), with calm energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.

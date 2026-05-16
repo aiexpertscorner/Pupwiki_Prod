@@ -27,7 +27,16 @@ breedSlug: "german-spitz"
 breedName: "German Spitz"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-german-spitz"
+heroImage: "https://images.pexels.com/photos/8473542/pexels-photo-8473542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8473542/pexels-photo-8473542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming Pomeranian dog posing with a fluffy coat and friendly expression in an indoor setting."
+imageAlt: "Charming Pomeranian dog posing with a fluffy coat and friendly expression in an indoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Cup of  Couple on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-pomeranian-puppy-in-close-up-photography-8473542/"
+imageSearchQuery: "German Spitz dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About German Spitzs
 German Spitzs are medium-sized (24–26 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

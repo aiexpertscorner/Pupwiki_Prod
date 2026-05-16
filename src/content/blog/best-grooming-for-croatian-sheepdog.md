@@ -27,7 +27,16 @@ breedSlug: "croatian-sheepdog"
 breedName: "Croatian Sheepdog"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-croatian-sheepdog"
+heroImage: "https://images.pexels.com/photos/15804375/pexels-photo-15804375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15804375/pexels-photo-15804375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black Croatian sheepdog stands in a serene winter forest setting with snow."
+imageAlt: "A black Croatian sheepdog stands in a serene winter forest setting with snow."
+imageSource: "pexels"
+imageCredit: "Photo by Adnana Kelic on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-dog-in-forest-15804375/"
+imageSearchQuery: "Croatian Sheepdog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Croatian Sheepdogs
 Croatian Sheepdogs are medium-sized (29–44 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

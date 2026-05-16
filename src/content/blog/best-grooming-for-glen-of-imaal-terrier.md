@@ -27,7 +27,16 @@ breedSlug: "glen-of-imaal-terrier"
 breedName: "Glen of Imaal Terrier"
 wordCountEstimate: 452
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-glen-of-imaal-terrier"
+heroImage: "https://images.pexels.com/photos/4395469/pexels-photo-4395469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4395469/pexels-photo-4395469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of an adorable white terrier dog with a furry coat. Perfect for pet lovers."
+imageAlt: "Close-up of an adorable white terrier dog with a furry coat. Perfect for pet lovers."
+imageSource: "pexels"
+imageCredit: "Photo by George Orta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/selective-focus-photo-of-a-white-terrier-dog-4395469/"
+imageSearchQuery: "Glen of Imaal Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Glen of Imaal Terriers
 Glen of Imaal Terriers are medium-sized (32–40 lbs), with regular energy, low shedding, and a rough coat. The recommendations below are matched to these traits.

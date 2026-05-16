@@ -27,7 +27,16 @@ breedSlug: "husky-jack"
 breedName: "Husky Jack"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-husky-jack"
+heroImage: "https://images.pexels.com/photos/9631839/pexels-photo-9631839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9631839/pexels-photo-9631839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Young woman in pink top grooming her Siberian Husky dog outdoors."
+imageAlt: "Young woman in pink top grooming her Siberian Husky dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-woman-brushing-her-pet-husky-9631839/"
+imageSearchQuery: "Husky Jack dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Husky Jacks
 Husky Jacks are medium-sized (22.05–39.68 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.

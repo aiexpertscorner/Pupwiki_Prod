@@ -27,7 +27,16 @@ breedSlug: "mudi"
 breedName: "Mudi"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-mudi"
+heroImage: "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy white dog being gently brushed on a wooden floor during grooming."
+imageAlt: "A fluffy white dog being gently brushed on a wooden floor during grooming."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/"
+imageSearchQuery: "Mudi dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Mudis
 Mudis are medium-sized (18–29 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.

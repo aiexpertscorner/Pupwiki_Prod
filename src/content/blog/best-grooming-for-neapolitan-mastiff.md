@@ -27,7 +27,16 @@ breedSlug: "neapolitan-mastiff"
 breedName: "Neapolitan Mastiff"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-neapolitan-mastiff"
+heroImage: "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145894/pexels-photo-19145894.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools."
+imageAlt: "A professional groomer trimming a large dog's fur indoors, showcasing grooming tools."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-being-brushed-19145894/"
+imageSearchQuery: "Neapolitan Mastiff dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Neapolitan Mastiffs
 Neapolitan Mastiffs are large-sized (110–150 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

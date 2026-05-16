@@ -27,7 +27,16 @@ breedSlug: "norwegian-buhund"
 breedName: "Norwegian Buhund"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-norwegian-buhund"
+heroImage: "https://images.pexels.com/photos/8498540/pexels-photo-8498540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498540/pexels-photo-8498540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy dog getting a grooming session with a hairdryer by its owner at home."
+imageAlt: "A fluffy dog getting a grooming session with a hairdryer by its owner at home."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-drying-her-dog-8498540/"
+imageSearchQuery: "Norwegian Buhund dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Norwegian Buhunds
 Norwegian Buhunds are medium-sized (26–40 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

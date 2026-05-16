@@ -27,7 +27,16 @@ breedSlug: "romanian-mioritic-shepherd-dog"
 breedName: "Romanian Mioritic Shepherd Dog"
 wordCountEstimate: 452
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-romanian-mioritic-shepherd-dog"
+heroImage: "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498543/pexels-photo-8498543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cozy indoor scene of a person grooming a large fluffy dog using a brush."
+imageAlt: "A cozy indoor scene of a person grooming a large fluffy dog using a brush."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-brushing-the-dog-s-fur-8498543/"
+imageSearchQuery: "Romanian Mioritic Shepherd Dog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Romanian Mioritic Shepherd Dogs
 Romanian Mioritic Shepherd Dogs are large-sized (100–130 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

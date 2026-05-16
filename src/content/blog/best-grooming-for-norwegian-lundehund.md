@@ -27,7 +27,16 @@ breedSlug: "norwegian-lundehund"
 breedName: "Norwegian Lundehund"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-norwegian-lundehund"
+heroImage: "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills."
+imageAlt: "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-groomer-at-work-19145893/"
+imageSearchQuery: "Norwegian Lundehund dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Norwegian Lundehunds
 Norwegian Lundehunds are medium-sized (20–30 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

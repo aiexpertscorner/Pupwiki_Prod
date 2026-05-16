@@ -27,7 +27,16 @@ breedSlug: "corgidor"
 breedName: "Corgidor"
 wordCountEstimate: 432
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-corgidor"
+heroImage: "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy white dog being gently brushed on a wooden floor during grooming."
+imageAlt: "A fluffy white dog being gently brushed on a wooden floor during grooming."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/"
+imageSearchQuery: "Corgidor dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Corgidors
 Corgidors are medium-sized (33.07–55.12 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "chinese-crested"
 breedName: "Chinese Crested"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-chinese-crested"
+heroImage: "https://images.pexels.com/photos/36380498/pexels-photo-36380498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/36380498/pexels-photo-36380498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Chinese Crested Dog standing on gravel with blurred background, showcasing its distinctive fur."
+imageAlt: "A Chinese Crested Dog standing on gravel with blurred background, showcasing its distinctive fur."
+imageSource: "pexels"
+imageCredit: "Photo by Veronika Andrews on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/chinese-crested-dog-standing-on-gravel-surface-36380498/"
+imageSearchQuery: "Chinese Crested dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Chinese Cresteds
 Chinese Cresteds are small-sized (8–12 lbs), with regular energy, minimal shedding, and a hairless coat. The recommendations below are matched to these traits.

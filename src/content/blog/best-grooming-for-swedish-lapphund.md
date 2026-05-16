@@ -27,7 +27,16 @@ breedSlug: "swedish-lapphund"
 breedName: "Swedish Lapphund"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-swedish-lapphund"
+heroImage: "https://images.pexels.com/photos/29352513/pexels-photo-29352513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29352513/pexels-photo-29352513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Finnish Lapphund dog with a fluffy coat by a serene water background."
+imageAlt: "A Finnish Lapphund dog with a fluffy coat by a serene water background."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-finnish-lapphund-by-the-water-29352513/"
+imageSearchQuery: "Swedish Lapphund dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Swedish Lapphunds
 Swedish Lapphunds are medium-sized (30–45 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

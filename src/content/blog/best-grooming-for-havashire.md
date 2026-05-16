@@ -27,7 +27,16 @@ breedSlug: "havashire"
 breedName: "Havashire"
 wordCountEstimate: 416
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-havashire"
+heroImage: "https://images.pexels.com/photos/19145885/pexels-photo-19145885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145885/pexels-photo-19145885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A woman expertly trims a small dog's fur in a professional pet grooming salon."
+imageAlt: "A woman expertly trims a small dog's fur in a professional pet grooming salon."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/groomer-working-with-dog-19145885/"
+imageSearchQuery: "Havashire dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Havashires
 Havashires are small-sized (6.61–13.23 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.

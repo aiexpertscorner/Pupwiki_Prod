@@ -27,7 +27,16 @@ breedSlug: "toy-fox-terrier"
 breedName: "Toy Fox Terrier"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-toy-fox-terrier"
+heroImage: "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Yorkshire Terrier puppy resting indoors with a toy dog figurine nearby."
+imageAlt: "Cute Yorkshire Terrier puppy resting indoors with a toy dog figurine nearby."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/yorkshire-terrier-with-toy-indoors-portrait-34232518/"
+imageSearchQuery: "Toy Fox Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Toy Fox Terriers
 Toy Fox Terriers are small-sized (3.5–7 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "spanish-water-dog"
 breedName: "Spanish Water Dog"
 wordCountEstimate: 452
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-spanish-water-dog"
+heroImage: "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care."
+imageAlt: "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/groomer-washing-dog-19145895/"
+imageSearchQuery: "Spanish Water Dog dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Spanish Water Dogs
 Spanish Water Dogs are medium-sized (31–49 lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

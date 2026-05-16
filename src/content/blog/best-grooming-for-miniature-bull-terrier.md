@@ -27,7 +27,16 @@ breedSlug: "miniature-bull-terrier"
 breedName: "Miniature Bull Terrier"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-miniature-bull-terrier"
+heroImage: "https://images.pexels.com/photos/15264143/pexels-photo-15264143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15264143/pexels-photo-15264143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A bull terrier dog comfortably lounging on a blue folding camping chair in a sunny outdoor setting."
+imageAlt: "A bull terrier dog comfortably lounging on a blue folding camping chair in a sunny outdoor setting."
+imageSource: "pexels"
+imageCredit: "Photo by Vitali Adutskevich on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-lying-in-a-chair-15264143/"
+imageSearchQuery: "Miniature Bull Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Miniature Bull Terriers
 Miniature Bull Terriers are medium-sized (18–28 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

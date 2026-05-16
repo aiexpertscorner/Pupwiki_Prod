@@ -27,7 +27,16 @@ breedSlug: "poochon"
 breedName: "Poochon"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-poochon"
+heroImage: "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care."
+imageAlt: "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/groomer-washing-dog-19145895/"
+imageSearchQuery: "Poochon dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Poochons
 Poochons are small-sized (8.82–17.64 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

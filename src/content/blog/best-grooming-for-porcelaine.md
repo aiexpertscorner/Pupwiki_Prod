@@ -27,7 +27,16 @@ breedSlug: "porcelaine"
 breedName: "Porcelaine"
 wordCountEstimate: 416
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-porcelaine"
+heroImage: "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy white dog being gently brushed on a wooden floor during grooming."
+imageAlt: "A fluffy white dog being gently brushed on a wooden floor during grooming."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/"
+imageSearchQuery: "Porcelaine dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Porcelaines
 Porcelaines are medium-sized (55–62 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

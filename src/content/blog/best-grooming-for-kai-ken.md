@@ -27,7 +27,16 @@ breedSlug: "kai-ken"
 breedName: "Kai Ken"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-kai-ken"
+heroImage: "https://images.pexels.com/photos/16264607/pexels-photo-16264607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16264607/pexels-photo-16264607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Shiba Inu dog getting its claws painted in a pet grooming salon, emphasizing luxury pet care."
+imageAlt: "A Shiba Inu dog getting its claws painted in a pet grooming salon, emphasizing luxury pet care."
+imageSource: "pexels"
+imageCredit: "Photo by Aliaksei Smalenski on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/shiba-inu-dog-an-appointment-at-the-beautician-in-a-beauty-salon-close-up-16264607/"
+imageSearchQuery: "Kai Ken dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Kai Kens
 Kai Kens are medium-sized (20–40 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

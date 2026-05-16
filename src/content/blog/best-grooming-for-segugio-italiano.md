@@ -27,7 +27,16 @@ breedSlug: "segugio-italiano"
 breedName: "Segugio Italiano"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-segugio-italiano"
+heroImage: "https://images.pexels.com/photos/28964676/pexels-photo-28964676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28964676/pexels-photo-28964676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up image of a Spinone Italiano dog with distinctive curly fur indoors."
+imageAlt: "Close-up image of a Spinone Italiano dog with distinctive curly fur indoors."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-spinone-italiano-dog-with-curly-fur-28964676/"
+imageSearchQuery: "Segugio Italiano dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Segugio Italianos
 Segugio Italianos are medium-sized (40–60 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

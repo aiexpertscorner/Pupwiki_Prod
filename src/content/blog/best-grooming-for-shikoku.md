@@ -27,7 +27,16 @@ breedSlug: "shikoku"
 breedName: "Shikoku"
 wordCountEstimate: 427
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-shikoku"
+heroImage: "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19145876/pexels-photo-19145876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care."
+imageAlt: "A Shih Tzu dog receives a professional grooming session with a focus on haircut and care."
+imageSource: "pexels"
+imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-getting-professional-haircut-19145876/"
+imageSearchQuery: "Shikoku dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Shikokus
 Shikokus are medium-sized (35–55 lbs), with regular energy, low shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "slovensky-kopov"
 breedName: "Slovensky Kopov"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-slovensky-kopov"
+heroImage: "https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog groomer and her assistant tend to a Yorkshire Terrier on a grooming table."
+imageAlt: "A dog groomer and her assistant tend to a Yorkshire Terrier on a grooming table."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-grooming-a-yorkshire-terrier-6131578/"
+imageSearchQuery: "Slovensky Kopov dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Slovensky Kopovs
 Slovensky Kopovs are medium-sized (33–44 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

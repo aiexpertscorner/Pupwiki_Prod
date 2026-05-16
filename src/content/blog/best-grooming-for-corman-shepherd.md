@@ -27,7 +27,16 @@ breedSlug: "corman-shepherd"
 breedName: "Corman Shepherd"
 wordCountEstimate: 444
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-corman-shepherd"
+heroImage: "https://images.pexels.com/photos/32854630/pexels-photo-32854630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32854630/pexels-photo-32854630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Detailed close-up of an attentive Australian Shepherd dog outdoors."
+imageAlt: "Detailed close-up of an attentive Australian Shepherd dog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by DΛVΞ GΛRCIΛ on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-an-australian-shepherd-dog-32854630/"
+imageSearchQuery: "Corman Shepherd dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Corman Shepherds
 Corman Shepherds are medium-sized (39.68–70.55 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "hamiltonstovare"
 breedName: "Hamiltonstovare"
 wordCountEstimate: 416
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-hamiltonstovare"
+heroImage: "https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dog groomer and her assistant tend to a Yorkshire Terrier on a grooming table."
+imageAlt: "A dog groomer and her assistant tend to a Yorkshire Terrier on a grooming table."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-grooming-a-yorkshire-terrier-6131578/"
+imageSearchQuery: "Hamiltonstovare dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Hamiltonstovares
 Hamiltonstovares are large-sized (40–75 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

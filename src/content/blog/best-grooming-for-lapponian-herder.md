@@ -27,7 +27,16 @@ breedSlug: "lapponian-herder"
 breedName: "Lapponian Herder"
 wordCountEstimate: 439
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-lapponian-herder"
+heroImage: "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A pet groomer trims a dog's fur on a grooming table in a professional salon setting."
+imageAlt: "A pet groomer trims a dog's fur on a grooming table in a professional salon setting."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/"
+imageSearchQuery: "Lapponian Herder dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Lapponian Herders
 Lapponian Herders are large-sized (70 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
