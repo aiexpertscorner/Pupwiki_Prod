@@ -1,3 +1,10 @@
+import { readFileSync, existsSync } from 'fs';
+import { fileURLToPath } from 'url';
+import path from 'path';
+
+const _aiCachePath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../src/data/ai-breed-summaries.json');
+let _aiSummaries = null;
+
 const FAMILY_CONFIG = {
   food: {
     category: 'Dog Food',
@@ -394,4 +401,17 @@ export function buildPseoCopy(familyKey, breed = {}) {
 
 export function getAllPseoFamilyKeys() {
   return Object.keys(FAMILY_CONFIG);
+}
+
+export function getAISummary(breedSlug) {
+  if (!_aiSummaries) {
+    try {
+      _aiSummaries = existsSync(_aiCachePath)
+        ? JSON.parse(readFileSync(_aiCachePath, 'utf-8'))
+        : {};
+    } catch {
+      _aiSummaries = {};
+    }
+  }
+  return _aiSummaries[breedSlug]?.summary || '';
 }
