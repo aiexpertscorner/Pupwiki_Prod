@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "newfoundland"
 breedName: "Newfoundland"
 wordCountEstimate: 427
+image: "https://images.dog.ceo/breeds/newfoundland/n02111277_3456.jpg"
 canonicalUrl: "https://pupwiki.com/blog/newfoundland-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Newfoundlands
-Newfoundlands are large-sized (100–150 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+A male Newfoundland can weigh up to 150 pounds and stand 28 inches at the shoulder; females typically go 100 to 120 pounds. The Newf head is majestic, the expression soft and soulful. The outer coat is flat and coarse. Colors are gray, brown, black, and a black-and-white coat named for artist Sir Edwin Landseer, who popularized the look in his paintings.The Newfie breed standard says that a sweet temperament is the “most important single characteristic of the breed.” The Newf’s sterling character is expressed in their affinity for kids. Trusting and trainable, Newfs respond well to gentle guidance. These noble giants are among the world’s biggest dogs, and acquiring a pet that could outweigh you comes with obvious challenges. The massive Newfoundland is a strikingly large, powerful working dog of heavy bone and dignified bearing. The sweet-tempered Newfie is a famously good companion and The Newfoundland ranks #40 in AKC breed popularity.
+
+### Newfoundland at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#34** in canine intelligence (Above average tier), the Newfoundland responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Newfoundland puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Newfoundland puppy

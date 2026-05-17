@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "gordon-setter"
 breedName: "Gordon Setter"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/setter-gordon/n02101006_1637.jpg"
 canonicalUrl: "https://pupwiki.com/blog/gordon-setter-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Gordon Setters
-Gordon Setters are large-sized (45–80 lbs), with active energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+Gordons are the largest and most substantial of the setters—a big male might stand 27 inches at the shoulder and weigh 80 pounds. The stunning coat is a glistening black, with tan markings and long hair on the ears, belly, legs, chest, and tail. Tan spots above the bright brown eyes point up a wise and willing expression. Like other Scots breeds, from the compact Scottish Terrier to the majestic Scottish Deerhound, Gordons were built to withstand their homeland’s tough terrain and foul weather. The Gordon Setter, the black avenger of the Highlands, is a substantial bird dog named for a Scottish aristocrat. Athletic and outdoorsy, Gordons are bold, confident, and resolute in the field, and sweetly affectionate by the fireside.
+
+### Gordon Setter at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#34** in canine intelligence (Above average tier), the Gordon Setter benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Gordon Setter puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Gordon Setter puppy

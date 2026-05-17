@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "icelandic-sheepdog"
 breedName: "Icelandic Sheepdog"
 wordCountEstimate: 354
+image: "https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_17706.jpg"
 canonicalUrl: "https://pupwiki.com/blog/icelandic-sheepdog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Icelandic Sheepdogs
-Icelandic Sheepdogs are medium-sized (25–30 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Icelandics are one of the 50 or so northern breeds from around the world classified as spitzes. The breed’s “spitziness” is expressed by a dense coat, foxy face, pointed ears, and a bushy, curling tail. Icelandics, standing no higher than 18 inches at the shoulder, are just under what we’d consider medium sized. They come in several predominant colors, always accompanied by white markings. An endearing trait is the facial expression: friendly, happy, always looking as though there’s no place they’d rather be than with you. The Icelandic Sheepdog, Iceland’s only native dog breed, is a charmingly friendly and faithful all-around herder of small-to-medium size. A densely coated Nordic spitz-type breed, Icelandics are enthusiastically devoted to their humans.
+
+### Icelandic Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a Icelandic Sheepdog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Icelandic Sheepdog puppy

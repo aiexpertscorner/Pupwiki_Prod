@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "soft-coated-
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/soft-coated-wheaten-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "soft-coated-wheaten-terrier"
 breedName: "Soft Coated Wheaten Terrier"
 wordCountEstimate: 408
+image: "https://images.dog.ceo/breeds/terrier-wheaten/n02098105_1155.jpg"
 canonicalUrl: "https://pupwiki.com/blog/soft-coated-wheaten-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Soft Coated Wheaten Terriers
-Soft Coated Wheaten Terriers are medium-sized (30–40 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+The hallmark of these merry extroverts, and what sets them apart from other terriers, is the silky, gently waving coat. It runs from a pale beige to a shimmering gold, recalling the color of ripening wheat. Topping out at 19 inches tall and 40 pounds, Wheatens are square, sturdy terriers with a peek-a-boo hairdo and dashing goatee. The overall picture is that of a hard-muscled but soft-coated working terrier or, as the breed has been described, an iron fist in a velvet glove. The Soft Coated Wheaten Terrier, an exuberant Irish farm dog, is happy, friendly, deeply devoted, and just stubborn enough to remind you he’s a terrier. The unique wheaten coat is low-shedding but needs diligent care to avoid matting.
+
+### Soft Coated Wheaten Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Soft Coated Wheaten Terriers
 No breed-specific genetic ailments are currently documented for the Soft Coated Wheaten Terrier (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Soft Coated Wheaten Terrier health

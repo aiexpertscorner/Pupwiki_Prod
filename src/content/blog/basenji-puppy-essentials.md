@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "basenji"
 breedName: "Basenji"
 wordCountEstimate: 400
+image: "https://images.dog.ceo/breeds/basenji/n02110806_3171.jpg"
 canonicalUrl: "https://pupwiki.com/blog/basenji-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Basenjis
-Basenjis are small-sized (22–24 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Basenjis are small, graceful hounds standing 16 or 17 inches at the shoulder. They are recognizable by their glistening short coat, tightly curled tail, and wrinkled forehead and expressive almond-shaped eyes that convey a variety of subtle, humanlike emotions.Basenjis are a lovely sight at a standstill but more impressive yet at a fast trot, when they exhibit the long, smooth strides of a mini-racehorse. And yes, it’s true, they don’t bark, but they make their feelings known with an odd sound described as something between a chortle and a yodel. Basenjis are fastidious and will groom themselves like cats. This has been called a “cult breed”—small in numbers, but those lucky enough to own one do so with singular devotion. The Basenji, Africa’s “Barkless Dog,” is a compact, sweet-faced hunter of intelligence and poise. They are unique and beguiling pets, best for owners who can meet their
+
+Originally from Congo, the Basenji belongs to the Spitz and Primitive Types group.
+
+### Basenji at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#79** in canine intelligence (Lowest tier), the Basenji benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Basenji puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Basenji puppy

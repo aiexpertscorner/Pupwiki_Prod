@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "sloughi"
 breedName: "Sloughi"
 wordCountEstimate: 334
+image: "https://images.dog.ceo/breeds/saluki/n02091831_627.jpg"
 canonicalUrl: "https://pupwiki.com/blog/sloughi-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Sloughis
-Sloughis are medium-sized (35–50 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+The Sloughi (SLOO-ghee) is a classically constructed sighthound of ancient lineage, originally bred to work on such game as hare, fox, jackal, gazelle, and wild pigs on the punishing terrain of its homeland. This is a lean, no-frills hound standing between 24 to 29 inches at the shoulder. Coat colors include shades of light sand to mahogany red-fawn, with or without brindling, with or without black markings, with no invasive white markings. The Sloughi’s big, dark eyes are often described as “melancholy.” The ancient Sloughi, nicknamed the “Arabian Greyhound,” is a lean, swift coursing hound who hunted a variety of game in North African deserts. A classic sighthound, the Sloughi is regally aloof with strangers and gentle with loved ones.
+
+### Sloughi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Sloughi puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Sloughi puppy

@@ -112,7 +112,7 @@ function pctBucket(value: number) {
   return Math.round(pct / 10) * 10;
 }
 
-function truncate(value?: string, max = 280) {
+function truncate(value?: string, max = 420) {
   if (!value) return '';
   return value.length > max ? `${value.slice(0, max).trim()}…` : value;
 }
@@ -123,6 +123,24 @@ function moneyK(value?: number) {
 }
 
 const COST_CALC_HREF = `/cost-calculator/${slug}`;
+const puppyHref = status.puppy_post ? `/blog/${slug}-puppy-essentials` : null;
+
+const intelligenceRank = rank.intelligence_rank ? Number(rank.intelligence_rank) : null;
+const intelligenceLabel = rank.intelligence_label ? String(rank.intelligence_label).trim() : null;
+const trainabilityVal = b.traits?.trainability_value != null ? Number(b.traits.trainability_value) : null;
+
+function buildIntelligenceSentence(): string {
+  if (!intelligenceRank || !intelligenceLabel) return '';
+  const topNote = intelligenceRank <= 10 ? 'the most' : intelligenceRank <= 30 ? 'the more' : 'the moderately';
+  const trainNote = trainabilityVal != null
+    ? trainabilityVal >= 0.7 ? 'picks up commands quickly and responds well to positive reinforcement'
+    : trainabilityVal >= 0.4 ? 'learns reliably with consistent training'
+    : 'benefits from patient, reward-based training'
+    : 'responds to consistent training';
+  return `Ranked **#${intelligenceRank}** in canine intelligence (${intelligenceLabel} tier), the ${b.name} ${trainNote} — placing it among ${topNote} trainable breeds.`;
+}
+const intelligenceSentence = buildIntelligenceSentence();
+
 const enrichmentPath = join(process.cwd(), 'src/data/enrichment/breeds', `${slug}.json`);
 let enrichmentData: any = null;
 if (existsSync(enrichmentPath)) {
@@ -162,6 +180,7 @@ const CLUSTER_LINKS = [
   { key: 'bed_post', href: links.bed_post, emoji: '🛏️', label: `${b.name} bed & sleep guide` },
   { key: 'grooming_post', href: links.grooming_post, emoji: '✂️', label: `${b.name} grooming guide` },
   { key: 'health_post', href: links.health_post, emoji: '🩺', label: `${b.name} health concerns` },
+  { key: 'puppy_post', href: puppyHref, emoji: '🐶', label: `${b.name} puppy guide` },
   { key: 'supplement_post', href: links.supplement_post, emoji: '💊', label: `${b.name} supplement considerations` },
   { key: 'training_post', href: links.training_post, emoji: '🦮', label: `${b.name} training guide` },
 ];
@@ -386,6 +405,7 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
       <div class="breed-container">
         <div class="breed-page-nav__links">
           <a href="#breed-overview" class="breed-page-nav__link">Overview</a>
+          {b.description && <a href="#breed-about" class="breed-page-nav__link">About</a>}
           <a href="#breed-traits" class="breed-page-nav__link">Traits</a>
           <a href="#breed-health" class="breed-page-nav__link">Health</a>
           <a href="#breed-products" class="breed-page-nav__link">Products</a>
@@ -422,6 +442,39 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
     <div class="breed-container breed-main">
       <div class="breed-layout">
         <div class="breed-content">
+          {b.description && (
+            <section id="breed-about" class="breed-section breed-about" aria-labelledby="breed-about-title">
+              <div class="breed-section__header">
+                <p class="breed-eyebrow">About the breed</p>
+                <h2 id="breed-about-title">About the {b.name}</h2>
+              </div>
+              <p class="breed-about__body">{b.description}</p>
+              {intelligenceSentence && (
+                <div class="breed-about__intelligence">
+                  <span class="breed-about__intelligence-icon" aria-hidden="true">🧠</span>
+                  <p>{intelligenceSentence}</p>
+                </div>
+              )}
+              <div class="breed-about__meta">
+                {b.origin_country && (
+                  <span class="breed-about__meta-item">
+                    <strong>Origin:</strong> {b.origin_country}
+                  </span>
+                )}
+                {b.fci_group_name && (
+                  <span class="breed-about__meta-item">
+                    <strong>Group:</strong> {b.fci_group_name}
+                  </span>
+                )}
+                {b.akc_popularity && (
+                  <span class="breed-about__meta-item">
+                    <strong>AKC rank:</strong> #{b.akc_popularity} most popular
+                  </span>
+                )}
+              </div>
+            </section>
+          )}
+
           <section id="breed-traits" class="breed-section" aria-labelledby="characteristics-title">
             <div class="breed-section__header"><p class="breed-eyebrow">Traits</p><h2 id="characteristics-title">{b.name} Characteristics</h2></div>
             <div class="breed-traits-grid">
@@ -588,7 +641,7 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
   (() => {
     const navLinks = document.querySelectorAll<HTMLAnchorElement>('.breed-page-nav__link');
     if (!navLinks.length) return;
-    const sectionIds = ['breed-overview', 'breed-traits', 'breed-health', 'breed-products', 'breed-guides'];
+    const sectionIds = ['breed-overview', 'breed-about', 'breed-traits', 'breed-health', 'breed-products', 'breed-guides'];
     const sections = sectionIds.map(id => document.getElementById(id)).filter((el): el is HTMLElement => el !== null);
     if (!sections.length) return;
     const setActive = (id: string) => {

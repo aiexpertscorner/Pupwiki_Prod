@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "american-bul
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/american-bulldog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "american-bulldog"
 breedName: "American Bulldog"
 wordCountEstimate: 388
+image: "https://images.dog.ceo/breeds/bulldog-french/n02108915_5669.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-bulldog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About American Bulldogs
-American Bulldogs are large-sized (60–100 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+The American Bulldog is a descendant of the English Bulldog. It is believed that the bulldog was in America as early as the 17th century. They came to the United States in the 1800s, with immigrants who brought their working bulldogs with them. Small farmers and ranchers used this all-around working dog for many tasks including farm guardians, stock dogs, and catch dogs. The breed largely survived, particularly in the southern states, due to its ability to bring down and catch feral pigs.The breed we know as the American Bulldog was originally known by many different names before the name American Bulldog became the standard. In different parts of the South he was known as the White English Southern Bulldog, but most commonly just “bulldog.” The breed was not called a bulldog because of a certain look, but because they did real bulldog work. Breed Contact InformationKatrina HuffmasterPho
+
+### American Bulldog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for American Bulldogs
 No breed-specific genetic ailments are currently documented for the American Bulldog (typical life expectancy: 10–12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach American Bulldog health

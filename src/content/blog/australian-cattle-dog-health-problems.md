@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "australian-c
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/australian-cattle-dog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "australian-cattle-dog"
 breedName: "Australian Cattle Dog"
 wordCountEstimate: 478
+image: "https://images.dog.ceo/breeds/cattledog-australian/IMG_7057.jpg"
 canonicalUrl: "https://pupwiki.com/blog/australian-cattle-dog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Australian Cattle Dogs
-Australian Cattle Dogs are medium-sized (35–50 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Standing between 17 to 20 inches at the shoulder, the Australian Cattle Dog is a sturdy, hard-muscled herder of strength and agility. The ACD is born with a white coat that turns blue-gray or red. Both coat varieties feature distinctive mottling or specking patterns. ACDs have immense work drive and excel at hunting, chasing, and, of course, moving livestock. Their boundless energy and supple gait make them excellent running partners.ACDs are true-blue loyal, famously smart, ever alert, and wary of strangers. If an ACD isn’t challenged, he easily becomes bored and gets into mischief. It is recommended that ACD owners participate with their dog in some work, sport, or regular exercise to keep him mentally and physically fit. The compact but muscular Australian Cattle Dog, also called Blue Heeler or Queensland Heeler, is related to Australia’s famous wild dog, the Dingo. These resilient he
+
+Originally from Australia, the Australian Cattle Dog belongs to the Sheepdogs and Cattledogs group.
+
+### Australian Cattle Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ████░ Heavy |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | ██░░░ Selective |
+
+Ranked **#10** in canine intelligence (Brightest tier), the Australian Cattle Dog benefits from patient repetition and high-value rewards — placing it among the top 10 most trainable breeds.
 ### Common health concerns for Australian Cattle Dogs
 Australian Cattle Dogs have 1 documented genetic health condition: hip problems. Typical life expectancy is 12–16 years.
 - **Hip problems**: Ask your vet about recommended screening and prevention for this condition in Australian Cattle Dogs.

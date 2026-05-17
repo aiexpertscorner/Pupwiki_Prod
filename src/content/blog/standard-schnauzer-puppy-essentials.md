@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "standard-schnauzer"
 breedName: "Standard Schnauzer"
 wordCountEstimate: 354
+image: "https://images.dog.ceo/breeds/schnauzer-giant/n02097130_1287.jpg"
 canonicalUrl: "https://pupwiki.com/blog/standard-schnauzer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Standard Schnauzers
-Standard Schnauzers are medium-sized (30–50 lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.
+A medium-sized dog weighing between 35 and 45 pounds, the Standard Schnauzer is truly the standard Schnauzer: larger than Miniatures, smaller than Giants. Schnauzers of all three sizes share several breed hallmarks: a wiry, tight-fitting coat of pure black or “pepper and salt”; a robust, square-built frame; and an elongated head furnished with arched eyebrows and bristly whiskers, framing eyes gleaming with keen intelligence.Standards are sociable companions, alert watchdogs, enthusiastic backyard squirrel chasers, and are good with kids and protective of loved ones. Approached with a firm but gentle hand, Standards train beautifully. Owners must provide outlets for their dog’s upbeat athleticism and highly developed senses. The bold, bewhiskered Standard Schnauzer is a high-spirited farm dog from Germany. They are the sometimes-willful but ever reliable medium-sized members of the Schna
+
+Originally from Germany, the Standard Schnauzer belongs to the Pinschers, Schnauzers, Molosser and Swiss Mountain Dogs group.
+
+### Standard Schnauzer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
 ## How to approach a Standard Schnauzer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Standard Schnauzer puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "labradoodle"
 breedName: "Labradoodle"
 wordCountEstimate: 452
+image: "https://images.dog.ceo/breeds/labradoodle/labradoodle-forrest.jpg"
 canonicalUrl: "https://pupwiki.com/blog/labradoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Labradoodles
-Labradoodles are large-sized (48.5–83.78 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Labradoodle is a designer cross between the Labrador Retriever and the Poodle (Standard). This mix usually weighs about 48-84 pounds, often has a curly, low-shed-leaning coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Hip/Elbow dysplasia, Progressive Retinal Atrophy (PRA). Originally from United Kingdom.
+
+### Labradoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
+
+Ranked **#7** in canine intelligence (Brightest tier), the Labradoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Labradoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Labradoodle puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "saint-bernard"
 breedName: "Saint Bernard"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/stbernard/n02109525_15746.jpg"
 canonicalUrl: "https://pupwiki.com/blog/saint-bernard-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Saint Bernards
-Saint Bernards are large-sized (120–180 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Not ranked particularly high in AKC registrations, this genial giant is nonetheless among the world’s most famous and beloved breeds. The Saint’s written standard abounds with phrases like “very powerful,” “extraordinarily muscular,” “imposing,” and “massive.” A male stands a minimum 27.5 inches at the shoulder; females will be smaller and more delicately built. The huge head features a wrinkled brow, a short muzzle, and dark eyes, combining to give Saints the intelligent, friendly expression that was such a welcome sight to stranded Alpine travelers. The Saint Bernard does not rank very high in AKC registrations, but the genial giant of the Swiss Alps is nonetheless among the world’s most famous and beloved breeds. Saints are famously watchful, patient, and careful with children. Originally from Switzerland, the Saint Bernard belongs to the Pinschers, Schnauzers, Molosser and Swiss Mountain Dogs group. The Saint Bernard ranks #48 in AKC breed popularity.
+
+### Saint Bernard at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#65** in canine intelligence (Fair tier), the Saint Bernard responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Saint Bernard puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Saint Bernard puppy

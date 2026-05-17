@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "silky-terrie
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/silky-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "silky-terrier"
 breedName: "Silky Terrier"
 wordCountEstimate: 397
+image: "https://images.dog.ceo/breeds/terrier-silky/n02097658_6672.jpg"
 canonicalUrl: "https://pupwiki.com/blog/silky-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Silky Terriers
-Silky Terriers are small-sized (10 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Small but not fragile, feisty but not yappy, pretty but not sculpted, Silkys are 10-inch-tall dynamos animated by curiosity and high spirits. The glorious blue-and-tan coat is straight and glossy, and it feels and behaves much like human hair. The wedge-shaped head is topped by profuse hair parted down the middle, and erect V-shaped ears draw attention to the keen, piercing expression of the almond-shaped eyes. Silkys are more refined than typical ratting terriers, but they should still look and behave like a true earthdog. A charming member of the AKC Toy Group, the compact, glossy-coated Silky Terrier is nonetheless a true terrier of energetic high spirits. The Silky, a native of Sydney, Australia, is larger than his close cousin, the Yorkshire Terrier.
+
+### Silky Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Silky Terriers
 No breed-specific genetic ailments are currently documented for the Silky Terrier (typical life expectancy: 13–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Silky Terrier health

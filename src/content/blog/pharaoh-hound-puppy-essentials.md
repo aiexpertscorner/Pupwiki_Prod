@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "pharaoh-hound"
 breedName: "Pharaoh Hound"
 wordCountEstimate: 409
+image: "https://images.dog.ceo/breeds/hound-ibizan/n02091244_5638.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pharaoh-hound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pharaoh Hounds
-Pharaoh Hounds are medium-sized (45–55 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Pharaohs are sleek, aerodynamic coursing hounds bred for high-speed pursuit on rocky terrain. Among their several distinguishing traits are a tight tan coat with matching leather on the nose, ears, and eye rims; ravishing amber eyes; a white-tipped tail; the ability to smile; and a unique way of blushing when happy or excited (“His face glows like a god,” wrote an admirer some 3,000 years ago). These elegant visitors from antiquity posses the speed and graceful movement of all coursers descended from Bronze Age hounds. The Pharaoh Hound, ancient "Blushing Dog" of Malta, is an elegant but rugged sprinting hound bred to course small game over punishing terrain. Quick and tenacious on scent, these friendly, affectionate hounds settle down nicely at home.
+
+### Pharaoh Hound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#37** in canine intelligence (Above average tier), the Pharaoh Hound benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Pharaoh Hound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pharaoh Hound puppy

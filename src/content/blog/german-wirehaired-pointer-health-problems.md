@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "german-wireh
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/german-wirehaired-pointer", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "german-wirehaired-pointer"
 breedName: "German Wirehaired Pointer"
 wordCountEstimate: 409
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_4463.jpg"
 canonicalUrl: "https://pupwiki.com/blog/german-wirehaired-pointer-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About German Wirehaired Pointers
-German Wirehaired Pointers are large-sized (50–70 lbs), with active energy, heavy shedding, and a wiry coat. The recommendations below are matched to these traits.
+Standing as high as 26 inches at the shoulder, GWPs are a bit taller and heavier than their close relative, the German Shorthaired Pointer. GWPs are balanced, well muscled, resilient, agile, and generally built to beat the bushes all day long without tiring. The harsh wire coat protects against thorny underbrush and foul weather, and the shaggy beard and eyebrows complete an intelligent, worldly expression.“The need for running in the great outdoors is a must!” says one veteran owner. “This breed will not be happy to be on the couch all day.” GWPs are bright and eager, but their independent, inquisitive nature might frustrate novice owners. A good fit for those looking for a loving companion who enjoys sports and togetherness. With his sporty weatherproof coat and can-do attitude, the noble German Wirehaired Pointer is a versatile, sturdy gundog who thrives on outdoor activity. Around th
+
+Originally from Germany, the German Wirehaired Pointer belongs to the Pointing Dogs group.
+
+### German Wirehaired Pointer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for German Wirehaired Pointers
 No breed-specific genetic ailments are currently documented for the German Wirehaired Pointer (typical life expectancy: 14–16 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach German Wirehaired Pointer health

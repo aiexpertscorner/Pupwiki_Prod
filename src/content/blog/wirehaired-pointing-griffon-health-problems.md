@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "wirehaired-p
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/wirehaired-pointing-griffon", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "wirehaired-pointing-griffon"
 breedName: "Wirehaired Pointing Griffon"
 wordCountEstimate: 399
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_1997.jpg"
 canonicalUrl: "https://pupwiki.com/blog/wirehaired-pointing-griffon-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Wirehaired Pointing Griffons
-Wirehaired Pointing Griffons are large-sized (35–70 lbs), with active energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+Griffs are medium-sized, all-purpose gundogs standing no higher than 24 inches at the shoulder. They’re known for an extremely harsh and bristly coat that gives them a natural, unkempt appearance. The preferred color is steel gray with brown markings. A lavish mustache and eyebrows frame large, rounded eyes that gleam with a keen intelligence. Griffs are the very picture of an honest, hardworking sporting dog, whose handsome looks are the result of a noble and unaffected ruggedness rather than fussy grooming. The hardworking Wirehaired Pointing Griffon, renowned as the “supreme gundog,” is known for the harsh, low-shedding coat the breed is named for. Outgoing, eager, and quick-witted, Griffs are incomparable in the field and loving at home.
+
+### Wirehaired Pointing Griffon at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Wirehaired Pointing Griffons
 No breed-specific genetic ailments are currently documented for the Wirehaired Pointing Griffon (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Wirehaired Pointing Griffon health

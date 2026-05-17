@@ -26,11 +26,23 @@ medicalDisclaimer: false
 breedSlug: "bedlington-terrier"
 breedName: "Bedlington Terrier"
 wordCountEstimate: 422
+image: "https://images.dog.ceo/breeds/terrier-bedlington/n02093647_3356.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bedlington-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bedlington Terriers
-Bedlington Terriers are small-sized (17–23 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Bedlingtons are lithe, energetic Englishmen. The crisp, curly coat; arched back; tasseled ears; scimitar-shaped tail; and fleecy, pear-shaped head are identifying features of this one-of-a-kind breed. As the curvy contours indicate, there’s sighthound—Whippet, most likely—in their family tree. Bedlingtons move with a light, springy step and when roused to pursuit can run like the wind.Rollicking, charming, and full of fun, Bedlingtons want most to be their family’s center of attention and are known to be protective of loved ones. For an active family looking for a no-shedding, lively, and loyal companion, the search might end here. Graceful terriers in sheep’s clothing, Bedlington Terriers, named for the English mining shire where they were first bred, are genial housemates, alert watchdogs, versatile athletes, and irresistibly cuddly TV-time companions.
+
+### Bedlington Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#40** in canine intelligence (Average tier), the Bedlington Terrier responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Bedlington Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bedlington Terrier puppy

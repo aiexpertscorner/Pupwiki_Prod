@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "cardigan-welsh-corgi"
 breedName: "Cardigan Welsh Corgi"
 wordCountEstimate: 351
+image: "https://images.dog.ceo/breeds/corgi-cardigan/n02113186_1016.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cardigan-welsh-corgi-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cardigan Welsh Corgis
-Cardigan Welsh Corgis are medium-sized (25–38 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Long, low-set dogs with sturdy bone, short legs, and a deep chest, Cardigans are powerful workers of deceptive speed and grace. Cardis can weigh anywhere from 25 to 34 pounds, with females at the lower end of the scale. They come in several coat colors, from red to the popular blue-merle pattern. The quickest way to distinguish Cardis from their cousins, Pembroke Welsh Corgis, is to check out the hindquarters: Cardigans have tails; Pembrokes do not.Cardis are trainable, faithful, and vigilant guardians with a “big dog” bark. Well-socialized Cardis are especially fond of kids and agreeable with other pets. These athletic, rugged herders have a love for the outdoors, and they thrive on mental stimulation and physical activity. The Cardigan Welsh Corgi is a masterpiece of the breeder’s art: Every aspect of its makeup is perfectly suited to moving cattle, and yet it is so congenial and sweet
+
+### Cardigan Welsh Corgi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Cardigan Welsh Corgi puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Cardigan Welsh Corgi puppy

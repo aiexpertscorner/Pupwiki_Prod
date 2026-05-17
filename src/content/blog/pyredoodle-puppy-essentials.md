@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "pyredoodle"
 breedName: "Pyredoodle"
 wordCountEstimate: 454
+image: "https://images.dog.ceo/breeds/poodle-miniature/n02113712_9159.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pyredoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pyredoodles
-Pyredoodles are large-sized (88.18–110.23 lbs), with active energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.
+Pyredoodle is a designer cross between the Great Pyrenees and the Poodle (Standard). This mix usually weighs about 88-110 pounds, often has a wavy or fleece-like coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Bloat, Hip dysplasia.
+
+### Pyredoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
+
+Ranked **#45** in canine intelligence (Average tier), the Pyredoodle responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Pyredoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pyredoodle puppy

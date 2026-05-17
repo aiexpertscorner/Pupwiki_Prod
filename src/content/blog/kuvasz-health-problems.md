@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "kuvasz", "do
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/kuvasz", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "kuvasz"
 breedName: "Kuvasz"
 wordCountEstimate: 377
+image: "https://images.dog.ceo/breeds/kuvasz/n02104029_4789.jpg"
 canonicalUrl: "https://pupwiki.com/blog/kuvasz-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Kuvaszs
-Kuvaszs are large-sized (70–115 lbs), with regular energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+Imposing, impressive, majestic, massive, mighty—pick the adjective you like best, they all apply to the Kuvasz (pronounced KOO-vahz; the plural is Kuvaszok, pronounced KOO-vah-sock). This snow-white livestock guardian of luxuriant coat can stand as high as 30 inches at the shoulder, and weigh between 70 and 110 pounds. Despite their size and strength, Kuvs are quick-moving, nimble-footed protectors when meeting a threat. The breed’s fans say that the elegantly proportioned head “is considered to be the most beautiful part of the Kuvasz.” The snow-white Kuvasz is Hungary's majestic guardian of flocks and companion of kings. A working dog of impressive size and strength, the imposing and thickly coated Kuvasz is a beautiful, smart, profoundly loyal, but challenging breed.
+
+### Kuvasz at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Kuvaszs
 No breed-specific genetic ailments are currently documented for the Kuvasz (typical life expectancy: 10–12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Kuvasz health

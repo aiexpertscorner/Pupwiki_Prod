@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "english-cock
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/english-cocker-spaniel", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "english-cocker-spaniel"
 breedName: "English Cocker Spaniel"
 wordCountEstimate: 458
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_5855.jpg"
 canonicalUrl: "https://pupwiki.com/blog/english-cocker-spaniel-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About English Cocker Spaniels
-English Cocker Spaniels are medium-sized (26–34 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+The English Cocker Spaniel is a compactly built sporting dog standing between 15 to 17 inches at the shoulder. The softly contoured head, with its dark, melting eyes that convey an alert and dignified expression, is framed by lush, close-lying ears. The medium-length coat, seen in a variety of striking colors and patterns, is silky to the touch. “Balance” is a key word in understanding the breed: The EC is balanced in temperament, construction, and movement.Beneath the EC’s physical beauty beats the heart of a tireless, eager-to-please hunter’s helper, famous the world over for his ability to flush and retrieve gamebirds. For those who prefer more domestic pursuits, there is no more charming and agreeable household companion. English Cocker Spaniel lovers often use the word “merry” to describe their breed. Upbeat in the field and mellow at home, this compact, silky-coated bird dog is wid
+
+Originally from United Kingdom, the English Cocker Spaniel belongs to the Retrievers, Flushing Dogs and Water Dogs group.
+
+### English Cocker Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#18** in canine intelligence (Excellent tier), the English Cocker Spaniel responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ### Common health concerns for English Cocker Spaniels
 No breed-specific genetic ailments are currently documented for the English Cocker Spaniel (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach English Cocker Spaniel health

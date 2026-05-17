@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "drever"
 breedName: "Drever"
 wordCountEstimate: 325
+image: "https://images.dog.ceo/breeds/hound-basset/n02088238_6035.jpg"
 canonicalUrl: "https://pupwiki.com/blog/drever-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Drevers
-Drevers are medium-sized (35–40 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+The Drever was developed in the early twentieth century in Sweden. Hunting deer was difficult due to terrain and herd locations so hunters soon realized the benefits of using this short-legged, long-bodied dog to drive the deer over long distances and rough terrain right to them. A keen and even-tempered hound, the Drever is never aggressive, nervous or shy. They are content in most living situations, but tend to be vocal when alerting or at play. The Drever is robust and strong rather than elegant and speedy. They have a proud carriage, well-developed muscles and agile appearance. Affectionate, playful, and sweet, the Drever gets along well with most other breeds and is great in groups.
+
+### Drever at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | ███░░ Balanced |
 ## How to approach a Drever puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Drever puppy

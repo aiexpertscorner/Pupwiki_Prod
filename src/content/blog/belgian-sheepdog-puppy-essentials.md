@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "belgian-sheepdog"
 breedName: "Belgian Sheepdog"
 wordCountEstimate: 385
+image: "https://images.dog.ceo/breeds/groenendael/n02105056_2552.jpg"
 canonicalUrl: "https://pupwiki.com/blog/belgian-sheepdog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Belgian Sheepdogs
-Belgian Sheepdogs are large-sized (45–75 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+The stirring silhouette of a Belgian Sheepdog conveys both elegance and muscular determination. A handsome feature of the breed is the exceedingly proud carriage of the head and neck. A male might stand 26 inches at the shoulder; females are smaller. The dark eyes sparkle with a questioning intelligence, and the black coat is abundant, from the neck’s “collarette” to the “breeches” of the hindquarters. In all ways, Belgian Sheepdogs are bright-eyed and bushy-tailed.In any sport or activity, a Belgian will always give 100 percent. In turn, owners tend to form a special bond with their eager workaholics. As one devotee puts it, Belgians “inspire such intense loyalty because they themselves live and love with such great passion.” The Belgian Sheepdog is a highly trainable herder whose versatility and intelligence is the stuff of canine legend. This is a breed built for hard work, and plenty
+
+### Belgian Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
 ## How to approach a Belgian Sheepdog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Belgian Sheepdog puppy

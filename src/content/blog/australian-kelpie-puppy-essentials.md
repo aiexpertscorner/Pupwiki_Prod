@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "australian-kelpie"
 breedName: "Australian Kelpie"
 wordCountEstimate: 352
+image: "https://images.dog.ceo/breeds/australian-kelpie/IMG_3675.jpg"
 canonicalUrl: "https://pupwiki.com/blog/australian-kelpie-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Australian Kelpies
-Australian Kelpies are medium-sized, with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+As a herding dog, the Australian Kelpie is intensely loyal and devoted to duty. He has a natural instinct and aptitude for working in sheep, whether it be in open fields or enclosed yards. This breed originated from Collie type dogs imported from Scotland, but was developed to withstand the harsh heat and dry conditions of the vast open spaces of Australia. The Australian Kelpie is a lithe, active dog, capable of untiring work. He is extremely intelligent, alert, and eager with unlimited energy.
+
+### Australian Kelpie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
 ## How to approach a Australian Kelpie puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Australian Kelpie puppy

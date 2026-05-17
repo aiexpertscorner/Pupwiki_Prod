@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "bernedoodle"
 breedName: "Bernedoodle"
 wordCountEstimate: 452
+image: "https://images.dog.ceo/breeds/mountain-bernese/n02107683_697.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bernedoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bernedoodles
-Bernedoodles are large-sized (55.12–99.21 lbs), with active energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.
+Bernedoodle is a designer cross between the Bernese Mountain Dog and the Poodle (Standard). This mix usually weighs about 55-99 pounds, often has a wavy or fleece-like coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Hip dysplasia, Elbow issues, Certain cancers. Originally from Switzerland.
+
+### Bernedoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
+
+Ranked **#22** in canine intelligence (Excellent tier), the Bernedoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ## How to approach a Bernedoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bernedoodle puppy

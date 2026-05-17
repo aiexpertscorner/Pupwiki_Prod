@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "border-terri
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/border-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "border-terrier"
 breedName: "Border Terrier"
 wordCountEstimate: 442
+image: "https://images.dog.ceo/breeds/terrier-border/n02093754_5190.jpg"
 canonicalUrl: "https://pupwiki.com/blog/border-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Border Terriers
-Border Terriers are small-sized (11.5–15.5 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+Border Terriers, standing from 11 to 16 inches at the shoulder, are easy to recognize among other small terriers by their unique head shape—the breed has an “otter head,” as fanciers say. Another distinguishing trait is that they are longer in leg than other small terriers. The wire coat can be grizzle and tan, blue and tan, wheaten, or red.Borders are described as “hard as nails” when working, but at home they’re good-tempered, affectionate, and trainable. Borders love exploring outdoors and make fine childhood playmates. Bred to be country dogs, Borders adapt well to city life—as long as they get plenty of exercise. Borders tend to get along with other dogs, but their hunting instincts can be aroused when cats or squirrels cross their path. Admirers of the upbeat and agile Border Terrier cherish their breed’s reputation as a tough, no-frills working terrier. These plucky, happy, and af
+
+### Border Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#30** in canine intelligence (Above average tier), the Border Terrier responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Border Terriers
 No breed-specific genetic ailments are currently documented for the Border Terrier (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Border Terrier health

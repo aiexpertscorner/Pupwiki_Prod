@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "dalmadoodle"
 breedName: "Dalmadoodle"
 wordCountEstimate: 426
+image: "https://images.dog.ceo/breeds/poodle-miniature/n02113712_163.jpg"
 canonicalUrl: "https://pupwiki.com/blog/dalmadoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Dalmadoodles
-Dalmadoodles are medium-sized (39.68–70.55 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Dalmadoodle is a designer cross between the Dalmatian and the Poodle (Standard). This mix usually weighs about 40-71 pounds, often has a curly, low-shed-leaning coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Urolithiasis (Stones), Hip dysplasia. Originally from Croatia.
+
+### Dalmadoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#39** in canine intelligence (Above average tier), the Dalmadoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Dalmadoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Dalmadoodle puppy

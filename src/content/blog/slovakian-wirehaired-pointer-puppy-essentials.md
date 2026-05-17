@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "slovakian-wirehaired-pointer"
 breedName: "Slovakian Wirehaired Pointer"
 wordCountEstimate: 348
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_3283.jpg"
 canonicalUrl: "https://pupwiki.com/blog/slovakian-wirehaired-pointer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Slovakian Wirehaired Pointers
-Slovakian Wirehaired Pointers are medium-sized (50–65 lbs), with active energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+Slovakian Wirehaired Pointer is a dog of moderate strength, working type, but with nobleness in his lines. The basic color of the coat is called “grey” and the hair is harsh (hard). He must be fit and able to work on the plain, in the woods and in the water and especially to work after the shooting, searching and retrieving wounded game. He is obedient and easy to train. Slovakian Wirehaired Pointer is a dog of moderate strength, working type, but with nobleness in his lines.
+
+### Slovakian Wirehaired Pointer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | █████ Very Friendly |
 ## How to approach a Slovakian Wirehaired Pointer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Slovakian Wirehaired Pointer puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "berger-picard"
 breedName: "Berger Picard"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/briard/n02105251_8240.jpg"
 canonicalUrl: "https://pupwiki.com/blog/berger-picard-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Berger Picards
-Berger Picards are large-sized (50–70 lbs), with active energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+You can spot a Berger Picard a mile away thanks to his erect ears standing 4 to 5 inches high, a wavy fawn or brindle coat, and a strong tail that tapers to a distinctive J-hook. Males stand as high as 26 inches, and females as low as 21 inches. The eyes are dark and glistening, and the rectangular head is furnished with shaggy eyebrows, beard, and mustache— the very image of a sagacious and worldly Frenchman.The Berger Picard is an ideal companion for athletic owners. Their rugged constitution, agility, and boundless energy make them eager partners in all kinds of sports, games, and outdoor pastimes. Exercise is a must; prolonged idleness and neglect will likely lead these sensitive, super-smart dogs to destructive behavior. The Berger Picard is a lanky herding dog of strong bone and sturdy build. Picards spent centuries as take-charge independent problem-solvers, so early socialization
+
+### Berger Picard at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ## How to approach a Berger Picard puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Berger Picard puppy

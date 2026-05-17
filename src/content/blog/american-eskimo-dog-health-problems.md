@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "american-esk
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/american-eskimo-dog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "american-eskimo-dog"
 breedName: "American Eskimo Dog"
 wordCountEstimate: 407
+image: "https://images.dog.ceo/breeds/eskimo/n02109961_3479.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-eskimo-dog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About American Eskimo Dogs
-American Eskimo Dogs are medium-sized (6–35 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The American Eskimo Dog comes in three sizes—standard, miniature, and toy—standing as tall as 19 inches at the shoulder or as short as 9 inches. Distinctive traits include a dense, sparkling white coat with a lion-like ruff around the chest and shoulders; a smiling face, with black nose, lips, and eye-rims that convey a keen, intelligent expression; and a plumed tail carried over the back. Some Eskies have markings with the delicious color name “biscuit cream.” They move with a bold and agile gait.Eskies are social animals and can develop problem behaviors when neglected or undertrained—they insist on being part of family life. Among the most trainable of breeds, the clever, kid-friendly Eskie practically invented the phrase “eager to please.” The American Eskimo Dog combines striking good looks with a quick and clever mind in a total brains-and-beauty package. Neither shy nor aggressive
+
+### American Eskimo Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
 ### Common health concerns for American Eskimo Dogs
 No breed-specific genetic ailments are currently documented for the American Eskimo Dog (typical life expectancy: 13–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach American Eskimo Dog health

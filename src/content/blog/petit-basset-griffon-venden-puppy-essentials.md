@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "petit-basset-griffon-venden"
 breedName: "Petit Basset Griffon Vendéen"
 wordCountEstimate: 346
+image: "https://images.dog.ceo/breeds/hound-basset/n02088238_10451.jpg"
 canonicalUrl: "https://pupwiki.com/blog/petit-basset-griffon-venden-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Petit Basset Griffon Vendéens
-Petit Basset Griffon Vendéens are medium-sized (25–40 lbs), with active energy, low shedding, and a rough coat. The recommendations below are matched to these traits.
+A loose translation of the name describes the dog well: Petit (small), Basset (low), Griffon (rough-coated), Vendéen (from the Vendée region of France). Put it all together and you have a diminutive hound, standing 13 to 15 inches at the shoulder, with short but strong legs and a rough tousled coat, bred to hunt rabbits on the rugged west coast of France. Other distinctive features of these little extroverts are a proudly carried head, a saber tail, and a loud, hound bark. The Petit Basset Griffon Vendéen is a vivacious small French hunting hound known for a happy demeanor and durable constitution. Bred to work in a pack, PBGVs enjoy company and do well with other dogs and kids.
+
+### Petit Basset Griffon Vendéen at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
 ## How to approach a Petit Basset Griffon Vendéen puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Petit Basset Griffon Vendéen puppy

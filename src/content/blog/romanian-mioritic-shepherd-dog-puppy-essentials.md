@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "romanian-mioritic-shepherd-dog"
 breedName: "Romanian Mioritic Shepherd Dog"
 wordCountEstimate: 389
+image: "https://images.dog.ceo/breeds/sheepdog-english/Finnigan_Chair_sml.jpg"
 canonicalUrl: "https://pupwiki.com/blog/romanian-mioritic-shepherd-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Romanian Mioritic Shepherd Dogs
-Romanian Mioritic Shepherd Dogs are large-sized (100–130 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Used for centuries to guard livestock in its homeland of Romania, the Mioritic Sheepdog is a typical Livestock Guarding Dog (LGD). Loyal, reliable, independent, and fiercely protective, he is friendly and devoted to his family but very mistrusting of strangers. It is a large dog with long coat which requires regular grooming, and with any dog of this size and temperament requires daily exercise and basic obedience training.Mioritics are lively and stubborn but in spite of all their independence they are very sensitive creatures in their furry armor. As puppies they stick to the pack which has accepted them. This can be any kind of creature – dog, cat, horse, sheep, the Mioritic needs very close family ties; a house without doors it thinks would be ideal. This certainly depends a great deal on the weather. Its favorite place is always very close to its favorite person. It determines its r
+
+### Romanian Mioritic Shepherd Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | █░░░░ Reserved |
 ## How to approach a Romanian Mioritic Shepherd Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Romanian Mioritic Shepherd Dog puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "caucasian-shepherd-dog"
 breedName: "Caucasian Shepherd Dog"
 wordCountEstimate: 407
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_7788.jpg"
 canonicalUrl: "https://pupwiki.com/blog/caucasian-shepherd-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Caucasian Shepherd Dogs
-Caucasian Shepherd Dogs are large-sized (99–170 lbs), with calm energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+Caucasian Shepherd dogs were used for centuries to protect properties from trespassers, guard livestock from large and small predators such as wolves and coyotes, and for many other duties. In modern days, especially in the West, they’re most commonly companions and watchdogs. There is a great variety of types among the Caucasian dogs depending on their home region. For almost a century, there has been two breed types and standards: The Mountain type, which is long-coated and has a heavier body mass than the Steppe type, a shorter-coated dog with a lighter body mass. Other names for the breed include Caucasian Ovcharka, Caucasian Sheepdog, Kawkasky Owtscharka, and Kaukasische Schaferhund. The Caucasian Shepherd dog is a serious guardian breed and should never be taken lightly. The Caucasian is bold, fearless, self-confident and fierce when a threat is present, but he is soft, devoted, ki
+
+### Caucasian Shepherd Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | █░░░░ Reserved |
 ## How to approach a Caucasian Shepherd Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Caucasian Shepherd Dog puppy

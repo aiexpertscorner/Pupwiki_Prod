@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "border-collie"
 breedName: "Border Collie"
 wordCountEstimate: 432
+image: "https://images.dog.ceo/breeds/collie-border/n02106166_7804.jpg"
 canonicalUrl: "https://pupwiki.com/blog/border-collie-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Border Collies
-Border Collies are medium-sized (30–55 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Borders are athletic, medium-sized herders standing 18 to 22 inches at the shoulder. The overall look is that of a muscular but nimble worker unspoiled by passing fads. Both the rough coat and the smooth coat come in a variety of colors and patterns.The almond eyes are the focus of an intelligent expression—an intense gaze, the Border’s famous “herding eye”, is a breed hallmark. On the move, Borders are among the canine kingdom’s most agile, balanced, and durable citizens.The intelligence, athleticism, and trainability of Borders have a perfect outlet in agility training. Having a job to perform, like agility—or herding or obedience work—is key to Border happiness. Amiable among friends, they may be reserved with strangers. A remarkably bright workaholic, the Border Collie is an amazing dog—maybe a bit too amazing for owners without the time, energy, or means to keep it occupied. These e
+
+Originally from United Kingdom, the Border Collie belongs to the Sheepdogs and Cattledogs group. The Border Collie ranks #35 in AKC breed popularity.
+
+### Border Collie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
+
+Ranked **#1** in canine intelligence (Brightest tier), the Border Collie responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Border Collie puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Border Collie puppy

@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "ibizan-hound
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/ibizan-hound", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "ibizan-hound"
 breedName: "Ibizan Hound"
 wordCountEstimate: 366
+image: "https://images.dog.ceo/breeds/hound-ibizan/n02091244_2919.jpg"
 canonicalUrl: "https://pupwiki.com/blog/ibizan-hound-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Ibizan Hounds
-Ibizan Hounds are medium-sized (45–50 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Ibizans are lithe and leggy visitors from the dawn of civilization. Art history students will recognize the elongated head, with its large erect ears, as a familiar motif of ancient Egypt. The elegant, racy body stands 22.5 to 27.5 inches at the shoulder, with coat colors of solid red or white, or red and white patterns. The rosy-colored leathers of the nose, eye rims, and lips—along with amber or caramel eyes—perfectly complement the coat. The breed’s quiet grace is often described as deer-like. The Ibizan Hound is a lithe and leggy visitor from the dawn of civilization, bred as a rabbit courser on the rocky shores of Spain’s Balearic Islands. World-class sprinters and leapers, Ibizans need ample space to air out their engines.
+
+### Ibizan Hound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Ibizan Hounds
 No breed-specific genetic ailments are currently documented for the Ibizan Hound (typical life expectancy: 11–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Ibizan Hound health

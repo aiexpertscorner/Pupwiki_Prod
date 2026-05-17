@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "skye-terrier
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/skye-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "skye-terrier"
 breedName: "Skye Terrier"
 wordCountEstimate: 390
+image: "https://images.dog.ceo/breeds/terrier-australian/n02096294_4925.jpg"
 canonicalUrl: "https://pupwiki.com/blog/skye-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Skye Terriers
-Skye Terriers are medium-sized (35–45 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Long, low, and level, this unique earthdog is among the AKC’s most distinctive-looking breeds. Skyes stand 9 or 10 inches high and feature a long, flat-lying coat and peekaboo hairdo. They’re known for big, feathery ears that stand up like bat wings, but Skyes can also have “drop ears,” which lie flat against the large, long head. Beneath the profuse coat are short, muscular legs and a deep chest. When seen in profile, these elegant but substantial terriers are twice as long as they are high. “The heavenly breed with the heart of a lion,” the long, low, and level Skye Terrier is among the AKC’s most distinctive-looking breeds. This elegant but sturdy aristocrat was bred as an exterminator on Scotland’s remote Isle of Skye.
+
+### Skye Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Skye Terriers
 No breed-specific genetic ailments are currently documented for the Skye Terrier (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Skye Terrier health

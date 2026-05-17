@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "anatolian-sh
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/anatolian-shepherd-dog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "anatolian-shepherd-dog"
 breedName: "Anatolian Shepherd Dog"
 wordCountEstimate: 399
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_103.jpg"
 canonicalUrl: "https://pupwiki.com/blog/anatolian-shepherd-dog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Anatolian Shepherd Dogs
-Anatolian Shepherd Dogs are large-sized (80–150 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Anatolian Shepherd Dog stands between 27 and 29 inches at the shoulder and can weigh as much as 150 pounds. Profusely muscled but nimble afoot, Anatolians are more than a match for the predators and harsh terrain of their homeland. Anatolians descend from some of the oldest known domestic-canine bloodlines. This lends the breed a sense of timelessness, a no-frills, untouched quality that takes us back 6,000 years to the Bronze Age.Anatolians are smart, devoted, responsive, and adaptable. They will protect their flock—livestock, children, smaller dogs, even the family cat—with intensity. Anatolian owners must be strong leaders, willing and able to handle a dog as dominating and demanding as he is calm and loving. An Anatolian Shepherd Dog is a rugged, imposing flock guardian of ancient lineage. Protective and territorial, but also intelligent, patient, and profoundly loyal, these musc
+
+### Anatolian Shepherd Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Anatolian Shepherd Dogs
 No breed-specific genetic ailments are currently documented for the Anatolian Shepherd Dog (typical life expectancy: 11–13 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Anatolian Shepherd Dog health

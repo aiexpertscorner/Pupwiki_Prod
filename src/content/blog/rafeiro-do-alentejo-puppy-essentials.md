@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "rafeiro-do-alentejo"
 breedName: "Rafeiro do Alentejo"
 wordCountEstimate: 383
+image: "https://images.dog.ceo/breeds/mastiff-bull/n02108422_1305.jpg"
 canonicalUrl: "https://pupwiki.com/blog/rafeiro-do-alentejo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Rafeiro do Alentejos
-Rafeiro do Alentejos are large-sized (77–132 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Since the beginning of the breed’s history, Rafeiros Alentejanos were used in packs as hunting dogs for big game, though this function has gradually disappeared over time. More recently, the breed is a guard dog for property and livestock, watching sheep and cattle. They also often work alone in prairies and will defend the herd against any intruders. Hailing from Portugal, the Rafeiro do Alentejo is a large-sized dog, powerful, rustic, sober, and calm. He moves with a heavy, slow roll. His coat is short or medium-length and thick, straight and dense. They can be black, wolf grey, or fawn, with or without brindling, always with white markings; or white with patches of these colors. The Rafeiro do Alentejo is an excellent farm and estate watch dog. He is also a very useful livestock protector, being more vigilant at night and very serious when guarding territory or any other property entr
+
+### Rafeiro do Alentejo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
 ## How to approach a Rafeiro do Alentejo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Rafeiro do Alentejo puppy

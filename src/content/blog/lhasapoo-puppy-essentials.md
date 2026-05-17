@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "lhasapoo"
 breedName: "Lhasapoo"
 wordCountEstimate: 425
+image: "https://images.dog.ceo/breeds/lhasa/n02098413_8575.jpg"
 canonicalUrl: "https://pupwiki.com/blog/lhasapoo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Lhasapoos
-Lhasapoos are small-sized (11.02–19.84 lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
+Lhasapoo is a designer cross between the Lhasa Apso and the Poodle (Miniature). This mix usually weighs about 11-20 pounds, often has a wavy or fleece-like coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Kidney dysfunction, Sebaceous adenitis.
+
+### Lhasapoo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#68** in canine intelligence (Fair tier), the Lhasapoo benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Lhasapoo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Lhasapoo puppy

@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "poodle-stand
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/poodle-standard", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "poodle-standard"
 breedName: "Poodle (Standard)"
 wordCountEstimate: 395
+image: "https://images.dog.ceo/breeds/poodle-standard/n02113799_1140.jpg"
 canonicalUrl: "https://pupwiki.com/blog/poodle-standard-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Poodle (Standard)s
-Poodle (Standard)s are large-sized (40–70 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Poodles come in three size varieties: Standards should be more than 15 inches tall at the shoulder; Miniatures are 15 inches or under; Toys stand no more than 10 inches. All three varieties have the same build and proportions. At dog shows, Poodles are usually seen in the elaborate Continental Clip. Most pet owners prefer the simpler Sporting Clip, in which the coat is shorn to follow the outline of the squarely built, smoothly muscled body.Forget those old stereotypes of Poodles as sissy dogs. Poodles are eager, athletic, and wickedly smart “real dogs” of remarkable versatility. The Standard, with his greater size and strength, is the best all-around athlete of the family, but all Poodles can be trained with great success. Whether Standard, Miniature, or Toy, and either black, white, or apricot, the Poodle stands proudly among dogdom’s true aristocrats. Beneath the curly, low-allergen c The Poodle (Standard) ranks #7 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Poodle (Standard) at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Poodle (Standard)s
 No breed-specific genetic ailments are currently documented for the Poodle (Standard) (typical life expectancy: 10–18 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Poodle (Standard) health

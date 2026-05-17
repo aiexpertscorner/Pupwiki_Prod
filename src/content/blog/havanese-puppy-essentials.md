@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "havanese"
 breedName: "Havanese"
 wordCountEstimate: 358
+image: "https://images.dog.ceo/breeds/havanese/00100trPORTRAIT_00100_BURST20191103202017556_COVER.jpg"
 canonicalUrl: "https://pupwiki.com/blog/havanese-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Havaneses
-Havaneses are small-sized (7–13 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+Distinctive features of the Havanese include a curled-over tail and a gorgeous silky coat, which comes in a variety of colors. Some owners enjoy cording the coat, in the manner of a Puli, and others clip it short to reduce grooming time. Happily, Havenese are just as cute no matter what hairdo you give them.Their small but sturdy bodies, adaptable nature, and social skills make Havanese an ideal city dog, but they are content to be anywhere that they can command the attention of admirers young and old alike. Havanese, smart and trainable extroverts with the comic instincts of a born clown, are natural trick dogs. Havanese are also excellent watchdogs and take the job seriously, but will usually keep the barking to a minimum. Havanese, the only dog breed native to Cuba, are cheerful little dogs with a spring in their step and a gleam in their big, brown eyes. These vivacious and sociable The Havanese ranks #24 in AKC breed popularity.
+
+### Havanese at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | █████ Very Friendly |
 ## How to approach a Havanese puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Havanese puppy

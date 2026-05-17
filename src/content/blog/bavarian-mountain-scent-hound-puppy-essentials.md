@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "bavarian-mountain-scent-hound"
 breedName: "Bavarian Mountain Scent Hound"
 wordCountEstimate: 390
+image: "https://images.dog.ceo/breeds/hound-basset/n02088238_9993.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bavarian-mountain-scent-hound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bavarian Mountain Scent Hounds
-Bavarian Mountain Scent Hounds are large-sized (37–66 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Hailing from Germany, the Bavarian Mountain Scent Hound is the Bayerischer Gebirgsschweisshund in its native German. The breed’s most notable trait is its outstanding “cold nose” tracking ability. His nose is so acute, he can distinguish between the injured game he is hunting and other animals of the same species. This somewhat lightweight, active, medium-sized breed is devoted to his owner, but can be reserved with strangers. He is not a kennel dog and prefers to be around his human family. The Bavarian Mountain Scent Hound is calm and balanced, devoted to its owner, and reserved with strangers. He is a sound, self-assured, unafraid, biddable dog, neither shy nor aggressive.
+
+### Bavarian Mountain Scent Hound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Bavarian Mountain Scent Hound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bavarian Mountain Scent Hound puppy

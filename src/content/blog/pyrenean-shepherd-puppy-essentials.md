@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "pyrenean-shepherd"
 breedName: "Pyrenean Shepherd"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_13586.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pyrenean-shepherd-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pyrenean Shepherds
-Pyrenean Shepherds are medium-sized (15–30 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+These tough, lean, and lively herders, famous for their vigorous and free-flowing movement, come in two coat varieties: rough-faced and smooth-faced. Roughs have profuse, “windswept” hair above the muzzle and a generally harsh coat; smooths have short facial hair, a finer-textured coat, and a slightly longer, pointier muzzle. Both varieties of this sinewy, rectangular breed come in many colors and patterns. Pyr Sheps see the world through dark almond-shaped eyes conveying an alert and cunning expression. Enthusiastic, mischievous, and whip-smart, the Pyrenean Shepherd is an indefatigable herder descended from ancient sheepdogs of the Pyrenees mountains. Tough and sinewy Pyr Sheps come in “rough-faced” and “smooth-faced” coat varieties.
+
+### Pyrenean Shepherd at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Pyrenean Shepherd puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pyrenean Shepherd puppy

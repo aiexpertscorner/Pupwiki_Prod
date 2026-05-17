@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "west-highlan
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/west-highland-white-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "west-highland-white-terrier"
 breedName: "West Highland White Terrier"
 wordCountEstimate: 575
+image: "https://images.dog.ceo/breeds/terrier-westhighland/n02098286_516.jpg"
 canonicalUrl: "https://pupwiki.com/blog/west-highland-white-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About West Highland White Terriers
-West Highland White Terriers are small-sized (15–20 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+Standing 10 to 11 inches at the shoulder, with dark piercing eyes, compact body, and a carrot-shaped tail wagging with delight, the Westie’s looks are irresistible. Beneath the plush-toy exterior, though, is a true working terrier of gameness and courage. Bred to hunt rats and other underground rodents, Westies are surprisingly strong and tough. The all-white double coat is hard to the touch, not soft and fluffy.Alert and active, Westies exhibit traits of a plucky and self-reliant ratting terrier: They require no pampering, they will chase after anything that moves, and their independence can make training a challenge. But, thanks to their faithfulness and keen intelligence, Westies will train nicely with time and patience. Smart, confident, and always entertaining at play, the adorable West Highland White Terrier (Westie, for short) has charmed owners for over 300 years. This diminutive The West Highland White Terrier ranks #42 in AKC breed popularity.
+
+### West Highland White Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#47** in canine intelligence (Average tier), the West Highland White Terrier responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for West Highland White Terriers
 West Highland White Terriers have 3 documented genetic health conditions: 'lion jaw', 'dry eye', skin problems. Typical life expectancy is 13–15 years.
 - **'lion jaw'**: Ask your vet about recommended screening and prevention for this condition in West Highland White Terriers.

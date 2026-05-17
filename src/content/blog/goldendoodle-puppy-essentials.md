@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "goldendoodle"
 breedName: "Goldendoodle"
 wordCountEstimate: 451
+image: "https://images.dog.ceo/breeds/labradoodle/lola.jpg"
 canonicalUrl: "https://pupwiki.com/blog/goldendoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Goldendoodles
-Goldendoodles are large-sized (44.09–88.18 lbs), with active energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.
+Goldendoodle is a designer cross between the Golden Retriever and the Poodle (Standard). This mix usually weighs about 44-88 pounds, often has a wavy or fleece-like coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Hip dysplasia, Heart issues (SAS), Addison’s disease. Originally from United Kingdom.
+
+### Goldendoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#4** in canine intelligence (Brightest tier), the Goldendoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Goldendoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Goldendoodle puppy

@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "keeshond", "
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/keeshond", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "keeshond"
 breedName: "Keeshond"
 wordCountEstimate: 381
+image: "https://images.dog.ceo/breeds/keeshond/n02112350_5904.jpg"
 canonicalUrl: "https://pupwiki.com/blog/keeshond-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Keeshonds
-Keeshonds are medium-sized (35–45 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+These square, sturdy companions descend from the same ancient stock as other spitz types, such as Pomeranians and Samoyeds. Typically “spitzy,” Keeshonden have a foxy face, pointed ears, an abundant coat, and a plumed tail carried high over the back. A unique breed characteristic—and one of the most charming hallmarks in all dogdom—is the “spectacles.” These shadings and markings around the eyes give the impression that a Kees is wearing designer eyewear. The specs draw attention to an alert, intelligent expression. The amiable Keeshond is a medium-sized spitz dog of ample coat, famous for the distinctive “spectacles” on his foxy face. Once a fixture on the canal barges of his native Holland, the Kees was, and remains, a symbol of Dutch patriotism. Originally from Netherlands, the Keeshond belongs to the Spitz and Primitive Types group.
+
+### Keeshond at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Keeshonds
 No breed-specific genetic ailments are currently documented for the Keeshond (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Keeshond health

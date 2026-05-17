@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "boston-terrier"
 breedName: "Boston Terrier"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/terrier-boston/bostonTerrier_000003.jpg"
 canonicalUrl: "https://pupwiki.com/blog/boston-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Boston Terriers
-Boston Terriers are small-sized (12–25 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Boston Terriers are compact, short-tailed, well-balanced little dogs weighing no more than 25 pounds. The stylish “tuxedo” coat can be white and either black, brindle, or seal (black with a red cast when viewed in sun or bright light). The head is square, the muzzle is short, and the large, round eyes can shine with kindness, curiosity, or mischief. Ever alert to their surroundings, Bostons move with a jaunty, rhythmic step.It’s a safe bet that a breed named for a city—the Havanese or Brussels Griffon, for instance—will make an excellent urban pet. Bostons are no exception: they are sturdy but portable, people-oriented, and always up for a brisk walk to the park or outdoor cafe. A bright dog with a natural gift for comedy, the dapper Bostonian is a steady source of smiles. The Boston Terrier is a lively little companion recognized by his tight tuxedo jacket, sporty but compact body, and
+
+Originally from United States, the Boston Terrier belongs to the Companion and Toy Dogs group. The Boston Terrier ranks #21 in AKC breed popularity.
+
+### Boston Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
+
+Ranked **#54** in canine intelligence (Average tier), the Boston Terrier responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Boston Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Boston Terrier puppy

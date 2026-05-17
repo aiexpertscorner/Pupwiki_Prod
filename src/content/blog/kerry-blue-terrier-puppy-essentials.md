@@ -26,11 +26,23 @@ medicalDisclaimer: false
 breedSlug: "kerry-blue-terrier"
 breedName: "Kerry Blue Terrier"
 wordCountEstimate: 418
+image: "https://images.dog.ceo/breeds/terrier-kerryblue/n02093859_3209.jpg"
 canonicalUrl: "https://pupwiki.com/blog/kerry-blue-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Kerry Blue Terriers
-Kerry Blue Terriers are medium-sized (33–40 lbs), with regular energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.
+Of course, we begin with the show-stopping coat that turns heads wherever Kerries go. It comes in shades of blue—from a deep slate to a light blue-gray—and is so soft that it’s as pleasing to the touch as it is to the eye. The dense coat covers a muscular, well-developed body standing below 20 inches at the shoulder and weighing up to 40 pounds. A sporty beard and dark, keen eyes accentuate the nobility of the long terrier head. Among the largest of AKC terriers, the Kerry Blue Terrier is famous for his show-stopping blue coat. Named for the Irish county of his birth, this onetime farm dog is today an alert, adaptable, and animated watchdog and family companion. Originally from Ireland, the Kerry Blue Terrier belongs to the Terriers group.
+
+### Kerry Blue Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █░░░░ Challenging |
+| Sociability | ███░░ Balanced |
+
+Ranked **#35** in canine intelligence (Above average tier), the Kerry Blue Terrier benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Kerry Blue Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Kerry Blue Terrier puppy

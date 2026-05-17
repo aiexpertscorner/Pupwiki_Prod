@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "belgian-laekenois"
 breedName: "Belgian Laekenois"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/malinois/n02105162_5913.jpg"
 canonicalUrl: "https://pupwiki.com/blog/belgian-laekenois-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Belgian Laekenoiss
-Belgian Laekenoiss are medium-sized (55–65 lbs), with active energy, heavy shedding, and a rough coat. The recommendations below are matched to these traits.
+Of the four closely-related Belgian herders—the Belgian Sheepdog, Malinois, Tervuren, and Laekenois—the Laekenois is the rarest. This strong and sturdy dog is distinguished from his brethren by a rough, tousled coat that comes in shades of red or fawn or in grayish tones. The blackening around the muzzle points up the expression of keen watchfulness shining from the dark almond-shaped eyes.The Belgian Laekenois is protective of his master and property. Although observant with strangers, the breed is affectionate and friendly with those he knows well. The Laekenois coat requires regular brushing and occasional bathing, and as a working dog, it needs daily exercise. Strong, agile and full of life, the Belgian Laekenois (pronounced "Lak-in-wah") is one of four native dogs of Belgium. Although similar in body and temperament to the Malinois, Shepherd and Tervuren, the Laekenois differs in co
+
+### Belgian Laekenois at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
 ## How to approach a Belgian Laekenois puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Belgian Laekenois puppy

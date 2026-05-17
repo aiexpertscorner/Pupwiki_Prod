@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "pointer"
 breedName: "Pointer"
 wordCountEstimate: 415
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_4379.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pointer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pointers
-Pointers are large-sized (45–75 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+The noble Pointer is the ultimate expression of canine power and grace. Unquestioned aristocrats of the sporting world, Pointers carry themselves proudly and are capable of great speed and agility. The coat comes in several colors, solid or in patterns—but as the breed’s devotees like to say, a good Pointer can’t be a bad color. A large male can stand 28 inches at the shoulder and weigh up to 75 pounds; a small female might weigh as little as 45 pounds and stand 23 inches. The Pointer is the ultimate expression of canine power and grace. The breed’s name is its job description: Pointers point game birds, and they have been pointing for centuries. The high-energy Pointer is an excellent runner’s companion.
+
+### Pointer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#43** in canine intelligence (Average tier), the Pointer responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Pointer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pointer puppy

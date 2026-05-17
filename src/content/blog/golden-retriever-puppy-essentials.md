@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "golden-retriever"
 breedName: "Golden Retriever"
 wordCountEstimate: 447
+image: "https://images.dog.ceo/breeds/retriever-golden/n02099601_2994.jpg"
 canonicalUrl: "https://pupwiki.com/blog/golden-retriever-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Golden Retrievers
-Golden Retrievers are large-sized (55–75 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+The Golden Retriever is a sturdy, muscular dog of medium size, famous for the dense, lustrous coat of gold that gives the breed its name. The broad head, with its friendly and intelligent eyes, short ears, and straight muzzle, is a breed hallmark. In motion, Goldens move with a smooth, powerful gait, and the feathery tail is carried, as breed fanciers say, with a “merry action.”The most complete records of the development of the Golden Retriever are included in the record books that were kept from 1835 until about 1890 by the gamekeepers at the Guisachan (pronounced Gooeesicun) estate of Lord Tweedmouth at Inverness-Shire, Scotland. These records were released to public notice in Country Life in 1952, when Lord Tweedmouth’s great-nephew, the sixth Earl of Ilchester, historian and sportsman, published material that had been left by his ancestor. They provided factual confirmation to the s
+
+Originally from United Kingdom, the Golden Retriever belongs to the Retrievers, Flushing Dogs and Water Dogs group. The Golden Retriever ranks #3 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Golden Retriever at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#4** in canine intelligence (Brightest tier), the Golden Retriever responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Golden Retriever puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Golden Retriever puppy

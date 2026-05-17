@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "shetland-she
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/shetland-sheepdog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "shetland-sheepdog"
 breedName: "Shetland Sheepdog"
 wordCountEstimate: 578
+image: "https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_18288.jpg"
 canonicalUrl: "https://pupwiki.com/blog/shetland-sheepdog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Shetland Sheepdogs
-Shetland Sheepdogs are small-sized (15–25 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+The Shetland Sheepdog is a small, active, and agile herding dog standing between 13 and 16 inches at the shoulder. The long coat is harsh and straight, with a dense undercoat, and comes in black, blue merle, and sable, with white markings. The coat, along with a long, wedge-shaped head; small, three-quarter erect ears; and deep-chested, level-backed torso, give Shelties the look of a rough-coated Collie in miniature.Bright and eager Shelties are easy trainers and world-class competitors in obedience, agility, and herding trials. They are sensitive and affectionate family dogs, highly in tune with the mood of the household. They like to bark and tend to be reserved toward strangers—two qualifications of an excellent watchdog. The Shetland Sheepdog, also known as the Sheltie, is an extremely intelligent, quick, and obedient herder from Scotland’s remote and rugged Shetland Islands. Sheltie The Shetland Sheepdog ranks #25 in AKC breed popularity.
+
+### Shetland Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
+
+Ranked **#6** in canine intelligence (Brightest tier), the Shetland Sheepdog responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ### Common health concerns for Shetland Sheepdogs
 Shetland Sheepdogs have 5 documented genetic health conditions: eye problems, deafness, skin + heart problems, blood clotting disorders. Typical life expectancy is 12–14 years.
 - **Eye problems**: Ask your vet about recommended screening and prevention for this condition in Shetland Sheepdogs.

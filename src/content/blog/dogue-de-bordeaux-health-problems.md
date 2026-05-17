@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "dogue-de-bor
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/dogue-de-bordeaux", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "dogue-de-bordeaux"
 breedName: "Dogue de Bordeaux"
 wordCountEstimate: 399
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_810.jpg"
 canonicalUrl: "https://pupwiki.com/blog/dogue-de-bordeaux-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Dogue de Bordeauxs
-Dogue de Bordeauxs are large-sized (99–110 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+The Dogue de Bordeaux is an immensely powerful mastiff-type guardian. Males can go 27 inches high and 110 pounds. The short, eye-catching coat is a richly colored fawn. The massive head features a Bulldog-like undershot jaw, expressive eyes, and a deeply furrowed brow. It is, proportionately, the largest head in the canine kingdom. The body is stocky and close to the ground, but Dogues can move like lions when duty calls.DDBs of proper temperament are sweet and sensitive souls. Owners appreciate their breed’s loyalty to loved ones of all ages, but also say DDBs can be stubborn and will dominate those who fail to apply firm training in puppyhood. When acquiring such a strapping super-dog, finding a responsible breeder is key. The most ancient of French dog breeds, the Dogue de Bordeaux (“Mastiff of Bordeaux”) was around even before France was France. These brawny fawn-coated guardians of
+
+Originally from France, the Dogue de Bordeaux belongs to the Pinschers, Schnauzers, Molosser and Swiss Mountain Dogs group.
+
+### Dogue de Bordeaux at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Dogue de Bordeauxs
 No breed-specific genetic ailments are currently documented for the Dogue de Bordeaux (typical life expectancy: 5–8 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Dogue de Bordeaux health

@@ -26,11 +26,21 @@ medicalDisclaimer: false
 breedSlug: "irish-red-and-white-setter"
 breedName: "Irish Red and White Setter"
 wordCountEstimate: 353
+image: "https://images.dog.ceo/breeds/setter-irish/n02100877_4716.jpg"
 canonicalUrl: "https://pupwiki.com/blog/irish-red-and-white-setter-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Irish Red and White Setters
-Irish Red and White Setters are medium-sized (35–60 lbs), with active energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Sportsmen thrill at the sight of a noble Red and White frozen on point, motionless as a statue. These medium-to-large bird dogs are powerful, solid, and sinewy, with enough stamina and bird sense to get the job done any day of the week and twice on Sunday. The stunning coat—vivid red “islands” floating on a sea of pearl white—has a practical function: It enables hunters to spot their dog at a distance. The handsome face projects a keen but kindly expression. The rollicking Irish Red and White Setter is an athletic medium-sized bird dog bred primarily for hunting. Fun-loving, friendly, and high-spirited, Irish Red and Whites are a bit shorter and stockier than their cousin the Irish Setter.
+
+### Irish Red and White Setter at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ## How to approach a Irish Red and White Setter puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Irish Red and White Setter puppy

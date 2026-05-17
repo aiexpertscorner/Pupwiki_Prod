@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "bergamasco-sheepdog"
 breedName: "Bergamasco Sheepdog"
 wordCountEstimate: 371
+image: "https://images.dog.ceo/breeds/komondor/n02105505_3806.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bergamasco-sheepdog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bergamasco Sheepdogs
-Bergamasco Sheepdogs are large-sized (57–84 lbs), with calm energy, minimal shedding, and a corded coat. The recommendations below are matched to these traits.
+Beneath the one-of-a-kind coat is a large, muscular shepherd dog of ancient pedigree. But, since the coat is the breed’s hallmark, let’s take a close look. The Bergamasco Sheepdog has hair of three different textures that form naturally occurring loose mats, or “flocks” (strands of hair woven together, creating flat layers of felted hair), covering the body and legs. The flocks provide protection from the fierce cold and wild predators of the Italian Alps, the breed’s ancestral homeland.Bergamascos are bright, loyal, loving, and trainable—with a dash of mountain-dog independence. They take to watching over loved ones with a serene vigilance. Wary of strangers until properly introduced, Bergamascos are aggressive only as a last resort. Generally happy with kids and other animals, the low-maintenance and robustly healthy Bergamasco is much more than a show-stopping hairdo. Eager to please,
+
+### Bergamasco Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Bergamasco Sheepdog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bergamasco Sheepdog puppy

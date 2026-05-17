@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "australian-s
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/australian-stumpy-tail-cattle-dog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "australian-stumpy-tail-cattle-dog"
 breedName: "Australian Stumpy Tail Cattle Dog"
 wordCountEstimate: 396
+image: "https://images.dog.ceo/breeds/cattledog-australian/IMG_1418.jpg"
 canonicalUrl: "https://pupwiki.com/blog/australian-stumpy-tail-cattle-dog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Australian Stumpy Tail Cattle Dogs
-Australian Stumpy Tail Cattle Dogs are medium-sized (32–45 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+The Australian Stumpy Tail Cattle Dog is not an Australian Cattle Dog with a docked tail. There are major structural differences in breed type between the two breeds of cattle dogs. Stumpy Tail Cattle Dogs are a natural bob-tail breed. Some Stumpy Tail pups are born with long tails and should not be discarded from a breeding program if they are of structural quality, but rather bred back to quality natural bob tails. Australian Stumpy Tail Cattle Dog Society of the United StatesDenyse Adams: chredacds8@gmail.comLori Graham: lgraham1145@yahoo.comKim McDonald: breezyacresstumpies@gmail.comKevin Nicholson: nicholson.klnicholson@gmail.com The Australian Stumpy Tail Cattle Dog is not an Australian Cattle Dog with a docked tail. He is a naturally bob-tailed breed and stands square with plenty of leg length under the body.
+
+### Australian Stumpy Tail Cattle Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Australian Stumpy Tail Cattle Dogs
 No breed-specific genetic ailments are currently documented for the Australian Stumpy Tail Cattle Dog (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Australian Stumpy Tail Cattle Dog health

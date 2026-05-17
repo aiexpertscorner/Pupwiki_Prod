@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "bolognese"
 breedName: "Bolognese"
 wordCountEstimate: 360
+image: "https://images.dog.ceo/breeds/maltese/n02085936_8447.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bolognese-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bologneses
-Bologneses are small-sized (5.5–9 lbs), with calm energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+The Bolognese is small, stocky, and squarely built. He is rather serene and inactive, and devoted to his master and his people. They can be shy towards strangers, but warm up quickly if they are properly socialized. Prone to separation anxiety, the Bolognese does not do well alone for long periods of time. They would be ill-suited for people with a 9-5 workday. Bolos are an old breed, known by royals and noblemen in Roman times, and were given as precious gifts between the wealthy and powerful. A small companion breed originating in Italy, the Bolognese is a calm, faithful dog with a long, fluffy pure-white coat. They are very playful, easy-going and love people.
+
+### Bolognese at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Bolognese puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bolognese puppy

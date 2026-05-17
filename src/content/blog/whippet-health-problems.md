@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "whippet", "d
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/whippet", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "whippet"
 breedName: "Whippet"
 wordCountEstimate: 413
+image: "https://images.dog.ceo/breeds/whippet/n02091134_17054.jpg"
 canonicalUrl: "https://pupwiki.com/blog/whippet-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Whippets
-Whippets are medium-sized (25–40 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+At somewhere between 18 and 22 inches at the shoulder, the Whippet looks like a Greyhound, but smaller. The Whippet exhibits the classic “inverted S” lines of the sighthound. The deep chest and trim waist; a lean head supported by a long, arched neck; and slim but sturdy legs combine in a picture of an agile, fleet-footed athlete.Between bursts of intense pursuit, Whippets love to stretch out and relax for long hours, enjoying the role of a loving, and loved, companion. Whippets like a fenced yard to run in, but they do nicely in cozy apartments too—as long as they are exercised properly. Another plus for city dwellers: Whippets rarely bark. Despite the breed’s elegant looks, the Whippet is a robust, low-maintenance dog. The sleek, sweet-faced Whippet, the “Poor Man’s Racehorse,” is lightning quick. He is an amiable, dignified, and gentle soul, but give him something to chase and he’s al
+
+### Whippet at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#51** in canine intelligence (Average tier), the Whippet benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Whippets
 No breed-specific genetic ailments are currently documented for the Whippet (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Whippet health

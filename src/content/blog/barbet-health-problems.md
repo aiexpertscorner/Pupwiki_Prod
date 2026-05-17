@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "barbet", "do
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/barbet", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "barbet"
 breedName: "Barbet"
 wordCountEstimate: 365
+image: "https://images.dog.ceo/breeds/spaniel-cocker/bella3.jpg"
 canonicalUrl: "https://pupwiki.com/blog/barbet-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Barbets
-Barbets are medium-sized (35–65 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+The defining characteristic of this rustic, medium-sized bird dog is the dense curly coat that covers him from the top of his large, broad head to the tip of his curving tail. The coat comes in shades of black, gray, brown, or fawn, sometimes with white markings. The breed’s delightfully shaggy coat and amiable nature creates the impression of a Muppet come to life, but the Barbet is a strong, solidly-built dog bred for centuries to be a keen hunter and tireless swimmer. Barbets are very intelligent and learn new things quickly. They have a calm nature and are easy to live with as long as their exercise needs are being met. An archetypic water dog of France, the Barbet is a rustic breed of medium size and balanced proportions who appears in artwork as early as the 16th century. In profile, the Barbet is slightly rectangular with a substantial head and long, sweeping tail. He has a long,
+
+### Barbet at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Barbets
 No breed-specific genetic ailments are currently documented for the Barbet (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Barbet health

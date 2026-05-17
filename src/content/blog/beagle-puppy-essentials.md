@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "beagle"
 breedName: "Beagle"
 wordCountEstimate: 414
+image: "https://images.dog.ceo/breeds/beagle/n02088364_17530.jpg"
 canonicalUrl: "https://pupwiki.com/blog/beagle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Beagles
-Beagles are medium-sized (13–30 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+There are two Beagle varieties: those standing under 13 inches at the shoulder, and those between 13 and 15 inches. Both varieties are sturdy, solid, and “big for their inches,” as dog folks say. They come in such pleasing colors as lemon, red and white, and tricolor. The Beagle’s fortune is in his adorable face, with its big brown or hazel eyes set off by long, houndy ears set low on a broad head.A breed described as “merry” by its fanciers, Beagles are loving and lovable, happy, and companionable—all qualities that make them excellent family dogs. No wonder that for years the Beagle has been the most popular hound dog among American pet owners. These are curious, clever, and energetic hounds who require plenty of playtime. Not only is the Beagle an excellent hunting dog and loyal companion, it is also happy-go-lucky, funny, and—thanks to its pleading expression—cute. They were bred to
+
+Originally from United Kingdom, the Beagle belongs to the Scent Hounds and Related Breeds group. The Beagle ranks #6 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Beagle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#73** in canine intelligence (Lowest tier), the Beagle responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Beagle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Beagle puppy

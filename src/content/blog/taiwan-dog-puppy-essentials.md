@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "taiwan-dog"
 breedName: "Taiwan Dog"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/shiba/shiba-3i.jpg"
 canonicalUrl: "https://pupwiki.com/blog/taiwan-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Taiwan Dogs
-Taiwan Dogs are medium-sized (26–40 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+The Taiwan Dog’s intuitive nature and connection to its master were most likely honed from generations of collaboratively hunting small game in the mountains. This also means that they are extremely responsive to commands and easily trained. This breed can be reserved towards strangers and are fearless in protecting their family. Therefore, socialization for the Taiwan Dog is necessary to mediate its strong instinct to protect its master and family. They should be an integral part of the family household and not an outside dog as they excel with daily interaction and socialization. Club Contact DetailsClub: Taiwan Dog Club of AmericaAddress: PO Box 640, Chino Hills, CA 91709Email: info@taiwandog.org The Taiwan Dog is extremely faithful to his master, keen in sense, alert in movement, bold and fearless. He is a medium-sized dog with triangular head, almond shaped eyes, thin pricked ears a
+
+### Taiwan Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
 ## How to approach a Taiwan Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Taiwan Dog puppy

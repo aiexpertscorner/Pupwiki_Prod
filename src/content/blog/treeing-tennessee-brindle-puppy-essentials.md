@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "treeing-tennessee-brindle"
 breedName: "Treeing Tennessee Brindle"
 wordCountEstimate: 339
+image: "https://images.dog.ceo/breeds/hound-afghan/n02088094_60.jpg"
 canonicalUrl: "https://pupwiki.com/blog/treeing-tennessee-brindle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Treeing Tennessee Brindles
-Treeing Tennessee Brindles are medium-sized (30–50 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+The Treeing Tennessee Brindle originated in the United States, most notably the areas in and around the Appalachian and Ozark Mountains. They are bred from Cur dogs with a focus to have great scenting power, be an open trailer with good voice, and retain the uncanny ability to tree all kinds of game. Brindle-colored, smaller in size, and with a shorter ear, they are different in conformation than the Plott. The Treeing Tennessee Brindles are a very intelligent, courageous, and companionable breed. Alert, agile, and fast, they make for wonderful hunting dogs. The Treeing Tennessee Brindle is an exceptionally sturdy and healthy breed. They are intelligent, brave, courageous and loyal companions with a strong inbred instinct for hunting. The breed bays during a hunt, which means they cry out to the hunter.
+
+### Treeing Tennessee Brindle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
 ## How to approach a Treeing Tennessee Brindle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Treeing Tennessee Brindle puppy

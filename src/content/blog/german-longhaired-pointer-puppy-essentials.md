@@ -26,11 +26,21 @@ medicalDisclaimer: false
 breedSlug: "german-longhaired-pointer"
 breedName: "German Longhaired Pointer"
 wordCountEstimate: 379
+image: "https://images.dog.ceo/breeds/pointer-germanlonghair/hans2.jpg"
 canonicalUrl: "https://pupwiki.com/blog/german-longhaired-pointer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About German Longhaired Pointers
-German Longhaired Pointers are large-sized (55–80 lbs), with active energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+German Longhaired Pointers are a gun dog and as such, they are expected to search, point, track and retrieve game. They can excel in all types of hunting situations: waterfowl hunting, searching for upland game birds, or retrieving furred game in the woods or prairies, typically rabbit and squirrel in North America. They have a unique ability in being able to switch from a calm household pet to a fiery, passionate hunter. Having been bred for hunting for over a century, they are a superior, tried and tested hunting companion. Club: German Longhaired Pointer Club of North AmericaName: Del Peterson, PresidentPhone: 509-697-3972Email: glpcna@germanlonghairpointers.com A good way to describe the German Longhaired Pointer is that, in appearance, it’s Continental Europe’s version of a Setter: a pointing dog with full tail and a long coat with dense guard hairs and a moderate undercoat. One not
+
+### German Longhaired Pointer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a German Longhaired Pointer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a German Longhaired Pointer puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "cavapoo"
 breedName: "Cavapoo"
 wordCountEstimate: 435
+image: "https://images.dog.ceo/breeds/cavapoo/doggo2.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cavapoo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cavapoos
-Cavapoos are small-sized (11.02–24.25 lbs), with calm energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
+Cavapoo is a designer cross between the Cavalier King Charles Spaniel and the Poodle (Miniature). This mix usually weighs about 11-24 pounds, often has a wavy or fleece-like coat, and often blends a calmer companion temperament with moderate activity needs from both sides of the pedigree. Common monitoring areas include Mitral Valve Disease (Heart), Syringomyelia. Originally from United Kingdom.
+
+### Cavapoo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#44** in canine intelligence (Average tier), the Cavapoo responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Cavapoo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Cavapoo puppy

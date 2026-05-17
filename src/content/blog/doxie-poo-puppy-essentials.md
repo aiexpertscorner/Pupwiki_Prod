@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "doxie-poo"
 breedName: "Doxie-poo"
 wordCountEstimate: 427
+image: "https://images.dog.ceo/breeds/dachshund/dachshund-1018409_640.jpg"
 canonicalUrl: "https://pupwiki.com/blog/doxie-poo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Doxie-poos
-Doxie-poos are medium-sized (11.02–30.86 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+Doxie-poo is a designer cross between the Dachshund and the Poodle (Miniature). This mix usually weighs about 11-31 pounds, often has a curly, low-shed-leaning coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include IVDD, Hip dysplasia. Originally from Germany.
+
+### Doxie-poo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#49** in canine intelligence (Average tier), the Doxie-poo responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Doxie-poo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Doxie-poo puppy

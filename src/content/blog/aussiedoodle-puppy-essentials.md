@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "aussiedoodle"
 breedName: "Aussiedoodle"
 wordCountEstimate: 426
+image: "https://images.dog.ceo/breeds/australian-shepherd/pepper.jpg"
 canonicalUrl: "https://pupwiki.com/blog/aussiedoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Aussiedoodles
-Aussiedoodles are medium-sized (24.25–70.55 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Aussiedoodle is a designer cross between the Australian Shepherd and the Poodle (Standard). This mix usually weighs about 24-71 pounds, often has a curly, low-shed-leaning coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include MDR1 Gene Mutation, Cataracts, Hip dysplasia. Originally from United States.
+
+### Aussiedoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#42** in canine intelligence (Average tier), the Aussiedoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Aussiedoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Aussiedoodle puppy

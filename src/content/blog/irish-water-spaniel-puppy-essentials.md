@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "irish-water-spaniel"
 breedName: "Irish Water Spaniel"
 wordCountEstimate: 381
+image: "https://images.dog.ceo/breeds/spaniel-irish/n02102973_3999.jpg"
 canonicalUrl: "https://pupwiki.com/blog/irish-water-spaniel-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Irish Water Spaniels
-Irish Water Spaniels are large-sized (45–68 lbs), with active energy, seasonal shedding, and a curly coat. The recommendations below are matched to these traits.
+Standing 21 to 24 inches at the shoulder and weighing 55 to 65 pounds, the Irish Water Spaniel straddles the line between “medium” and “large” dogs on our scale of size. Among its distinguishing characteristics are a crisply curled, liver-colored, waterproof coat; a tapered “rat tail”; and a cleanly chiseled head crowned with a topknot of long, loose curls. The IWS moves with a smooth ground-covering gait, enabling him to put in a long day’s work in the field. The tallest of the AKC’s spaniels, the Irish Water Spaniel is instantly recognizable by its crisply curled coat and tapering “rat tail.” Among the champion swimmers of dogdom, the alert and inquisitive IWS is hardworking and brave in the field, and playfully affectionate at home. Originally from Ireland, the Irish Water Spaniel belongs to the Retrievers, Flushing Dogs and Water Dogs group.
+
+### Irish Water Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
 ## How to approach a Irish Water Spaniel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Irish Water Spaniel puppy

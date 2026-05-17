@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "coton-de-tulear"
 breedName: "Coton de Tulear"
 wordCountEstimate: 373
+image: "https://images.dog.ceo/breeds/cotondetulear/100_2397.jpg"
 canonicalUrl: "https://pupwiki.com/blog/coton-de-tulear-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Coton de Tulears
-Coton de Tulears are small-sized (8–15 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+The Coton de Tulear (KO-Tone Dih TOO-Lay-ARE) is a small, immensely charming dog standing between 9 and 11 inches high and weighing anywhere from 8 to 13 pounds. Cotons are known for a profuse white coat that is as soft as cotton (or, as the French say, “coton”). Their primary job is to provide amusement, comfort, and companionship.The bond between Cotons and their people is so tight that owners discuss it in human terms. Coton fanciers describe them as “witty” companions “at times boisterous but never demanding” and “naturally clownish and lighthearted,” who possess a “remarkably gentle, sympathetic awareness.” Amusing traits of these long-lived jesters include unique vocalizations and a knack for walking on their hind legs. The Coton de Tulear, “Royal Dog of Madagascar,” is a bright, happy-go-lucky companion dog whose favorite activities include clowning, cavorting, and following their
+
+### Coton de Tulear at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | █████ Very Friendly |
 ## How to approach a Coton de Tulear puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Coton de Tulear puppy

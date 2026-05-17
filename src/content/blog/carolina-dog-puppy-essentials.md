@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "carolina-dog"
 breedName: "Carolina Dog"
 wordCountEstimate: 354
+image: "https://images.dog.ceo/breeds/dingo/n02115641_7549.jpg"
 canonicalUrl: "https://pupwiki.com/blog/carolina-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Carolina Dogs
-Carolina Dogs are medium-sized (30–55 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Carolina dogs are descended from the canines that accompanied the Paleo-Indians who traveled from Asia to North America over the Bering land bridge. Today, they can still be found living wild near the Georgia-South Carolina border, but have also been seen as far north as Ohio and Pennsylvania and as far west as Arizona; rural areas are the common denominator. The typical Carolina dog has pointed ears, a fox-like snout and a tail that curves like a fishhook when it is raised. They look similar to Australian Dingoes but, taxonomically, they fall under canis familiaris. Hesitant with strangers, they will sound the alarm when unaware of who’s at the door, but once they see their people, they are ecstatic. Carolina Dogs have an extreme pack mentality, as this was a necessity for survival in the wild. Club Contact DetailsClub: Carolina Dog Club of AmericaName: Lane Watkins, PresidentEmail: pre
+
+### Carolina Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
 ## How to approach a Carolina Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Carolina Dog puppy

@@ -26,11 +26,12 @@ medicalDisclaimer: false
 breedSlug: "jagdterrier"
 breedName: "Jagdterrier"
 wordCountEstimate: 336
+image: "https://images.dog.ceo/breeds/terrier-border/n02093754_4949.jpg"
 canonicalUrl: "https://pupwiki.com/blog/jagdterrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Jagdterriers
-Jagdterriers are small-sized (17–22 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+The Jagdterrier is a versatile hunting dog from Germany. In German, jagdterrier literally means “hunt terrier.” He is particularly suited to hunting under the ground and as a flushing dog and is relatively small, compact, and well-proportioned. His dense coat, either hard and rough or course and smooth, is usually black and tan, but can be dark brown or grayish-black as well. The tan markings are on his eyebrows, muzzle, chest, legs, and at the base of his tail. He could also have small white markings on his chest and toes. Also known as the Deutscher Jagdterrier, the Jagdterrier is courageous, enduring, vital, full of temperament, reliable, sociable and trainable. He always takes pleasure in his work.
 ## How to approach a Jagdterrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Jagdterrier puppy

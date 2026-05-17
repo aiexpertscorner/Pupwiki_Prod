@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "lwchen"
 breedName: "Löwchen"
 wordCountEstimate: 354
+image: "https://images.dog.ceo/breeds/maltese/n02085936_7537.jpg"
 canonicalUrl: "https://pupwiki.com/blog/lwchen-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Löwchens
-Löwchens are small-sized (10–15 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Small dogs with enormous heart, Löwchen (the same singular or plural) stand a bit over a foot tall at the shoulder. The coat is traditionally kept in a “lion clip,” in which most of the hindquarters and tail are clipped down close to the skin. The overall effect is that of a mini lion, with a full mane and plumed tail. The coat comes in several colors and color combinations. Beneath the coat is a dog that’s strong and sturdy, but elegant and artfully balanced. A companion dog whose name is German for “little lion,” the Löwchen has been a popular pet among Continental Europeans for more than 500 years. The portable, non-shedding Löwchen is said to be affectionate, lively, and brave as a lion.
+
+### Löwchen at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
 ## How to approach a Löwchen puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Löwchen puppy

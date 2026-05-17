@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "scottish-deerhound"
 breedName: "Scottish Deerhound"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/deerhound-scottish/n02092002_525.jpg"
 canonicalUrl: "https://pupwiki.com/blog/scottish-deerhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Scottish Deerhounds
-Scottish Deerhounds are large-sized (75–110 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+Stand back: You need a little distance to fully appreciate the majesty of this ancient beast. In silhouette we see a noble coursing hound struck from the classic Greyhound template. Deerhounds are, though, much larger and more substantial than Greyhounds—a good-size male can stand 32 inches at the shoulder and weigh 110 pounds. The crisp coat is seen in several colors; breed aficionados prefer the dark blue-gray coat. The tapered head and long neck add extra lift to an already stately hound. The crisply coated Scottish Deerhound, “Royal Dog of Scotland,” is a majestically large coursing hound struck from the ancient Greyhound template. Among the tallest of dog breeds, the Deerhound was bred to stalk the giant wild red deer.
+
+### Scottish Deerhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ## How to approach a Scottish Deerhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Scottish Deerhound puppy

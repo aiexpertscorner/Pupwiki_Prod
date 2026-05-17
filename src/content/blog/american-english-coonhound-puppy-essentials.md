@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "american-english-coonhound"
 breedName: "American English Coonhound"
 wordCountEstimate: 339
+image: "https://images.dog.ceo/breeds/coonhound/n02089078_376.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-english-coonhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American English Coonhounds
-American English Coonhounds are medium-sized (45–65 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Standing as high as 26 inches at the shoulder, American English Coonhounds are deep-chested, sweet-faced athletes beloved by sportsmen for their speed and endurance. Stretched tightly across the athletic frame is a medium-length coat of various patterns, some with ticking. The head is broad with a domed skull, with soft, low-hung ears and dark-brown eyes that glow with warmth and kindness.American English Coonhounds are mellow when off duty but tenacious and stubborn in pursuit of their ring-tailed prey. Their work drive and energy, the patience it takes to train them for things other than coon hunting, and their loud, ringing bark can make the breed a bad fit as house pets for novice owners. Some passionate fans of American English Coonhounds feel that without a sporting outlet for this breed’s houndy virtues, you’re simply wasting a good dog. These sleek and racy, lean but muscular hou
+
+### American English Coonhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a American English Coonhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a American English Coonhound puppy

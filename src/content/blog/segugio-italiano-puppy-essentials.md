@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "segugio-italiano"
 breedName: "Segugio Italiano"
 wordCountEstimate: 354
+image: "https://images.dog.ceo/breeds/hound-basset/n02088238_11124.jpg"
 canonicalUrl: "https://pupwiki.com/blog/segugio-italiano-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Segugio Italianos
-Segugio Italianos are medium-sized (40–60 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Calm, responsive, and intelligent, the Segugio Italiano is a tenacious hunter and an excellent pet.
+
+### Segugio Italiano at a glance
+
+| Trait | Level |
+|-------|-------|
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
 ## How to approach a Segugio Italiano puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Segugio Italiano puppy

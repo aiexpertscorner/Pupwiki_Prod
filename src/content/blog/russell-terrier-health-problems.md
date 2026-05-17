@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "russell-terr
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/russell-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "russell-terrier"
 breedName: "Russell Terrier"
 wordCountEstimate: 384
+image: "https://images.dog.ceo/breeds/terrier-russell/IMG_7564.jpg"
 canonicalUrl: "https://pupwiki.com/blog/russell-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Russell Terriers
-Russell Terriers are small-sized (9–15 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+These jaunty little fellows pack lots of personality into a compact, rectangular body standing 10 to 12 inches at the shoulder. Their dark, almond-shaped eyes and mobile V-shaped ears bring out the keenly intelligent expression—an endearing hallmark of the breed. All three coat types are mostly white with markings that are tan or black, or both. Russells move with a free, effortless gait that announces the breed’s innate confidence. Upbeat, lively, inquisitive, and friendly, the jaunty Russell Terrier was developed by England's "Sporting Parson" for use in foxhunts. The adorable Russell Terrier looks like a plush toy come to life but is an eager, tireless working terrier.
+
+### Russell Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Russell Terriers
 No breed-specific genetic ailments are currently documented for the Russell Terrier (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Russell Terrier health

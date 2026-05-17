@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "parson-russell-terrier"
 breedName: "Parson Russell Terrier"
 wordCountEstimate: 352
+image: "https://images.dog.ceo/breeds/terrier-russell/IMG_7714.jpg"
 canonicalUrl: "https://pupwiki.com/blog/parson-russell-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Parson Russell Terriers
-Parson Russell Terriers are small-sized (13–17 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+PRTs stand 12–15 inches at the shoulder, and weigh 13–17 pounds when in peak condition. Their intelligent expression, mostly white coat, and beautifully balanced body give PRTs the adorable looks of a plush toy come to life. But don’t be fooled by all that cuteness—PRTs are tough little guys built for England’s traditional sport of foxhunting. They’re fast enough to follow the hounds and fearless enough to dig into the ground and flush a fox from his lair. The Parson Russell Terrier is a bold and clever terrier, swift enough to run with horses and fearless enough to dig in and flush a fox from his lair. Independent problem solvers, PRTs can have their own ideas on how to go about things.
+
+### Parson Russell Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Parson Russell Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Parson Russell Terrier puppy

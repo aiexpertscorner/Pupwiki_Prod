@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "maltese", "d
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/maltese", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "maltese"
 breedName: "Maltese"
 wordCountEstimate: 485
+image: "https://images.dog.ceo/breeds/maltese/n02085936_804.jpg"
 canonicalUrl: "https://pupwiki.com/blog/maltese-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Malteses
-Malteses are small-sized (7 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Maltese are affectionate toy dogs weighing less than seven pounds, covered by a long, straight, silky coat. Beneath the all-white mantle is a compact body moving with a smooth and effortless gait. The overall picture depicts free-flowing elegance and balance. The irresistible Maltese face—with its big, dark eyes and black gumdrop nose—can conquer the most jaded sensibility.Despite their aristocratic bearing, Maltese are hardy and adaptable pets. They make alert watchdogs who are fearless in a charming toy-dog way, and they are game little athletes on the agility course. Maltese are low-shedding, long-lived, and happy to make new friends of all ages. Sometimes stubborn and willful, they respond well to rewards-based training. The tiny Maltese, “Ye Ancient Dogge of Malta,” has been sitting in the lap of luxury since the Bible was a work in progress. Famous for their show-stopping, floor-le The Maltese ranks #37 in AKC breed popularity.
+
+### Maltese at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ████░ High |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#59** in canine intelligence (Fair tier), the Maltese responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Malteses
 Malteses have 1 documented genetic health condition: heart problem. Typical life expectancy is 12–15 years.
 - **Heart problem**: Ask your vet about recommended screening and prevention for this condition in Malteses.

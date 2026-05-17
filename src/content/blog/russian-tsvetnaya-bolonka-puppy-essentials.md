@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "russian-tsvetnaya-bolonka"
 breedName: "Russian Tsvetnaya Bolonka"
 wordCountEstimate: 374
+image: "https://images.dog.ceo/breeds/maltese/n02085936_14432.jpg"
 canonicalUrl: "https://pupwiki.com/blog/russian-tsvetnaya-bolonka-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Russian Tsvetnaya Bolonkas
-Russian Tsvetnaya Bolonkas are small-sized (4.5–11 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+The Russian Tsvetnaya Bolonka, or Bolonka for short, is a member of the Bichon family that was almost extinct until after the Cold War. It is a small companion dog that is hypoallergenic, funny, clever beyond words and intensely loyal to its family. Some are excellent mimics; others are content to sit by the door and monitor who is allowed in or out. Spirited, yet easy-going and sociable, the Russian Tsvetnaya Bolonka is great with children. Although they are quick to alert, they will not be a constant barker with early training on appropriate behavior. They are fairly independent for a toy breed and require early socialization with people. However, Bolonki do get along well with dogs and other animals. Very clever and smart, they do well in formal training such as obedience, rally, tracking and agility when trained with a firm, but gentle, hand. Russkaya Tsvetnaya Bolonka translates to
+
+### Russian Tsvetnaya Bolonka at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Russian Tsvetnaya Bolonka puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Russian Tsvetnaya Bolonka puppy

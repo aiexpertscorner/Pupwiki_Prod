@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "gordon-sette
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/gordon-setter", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "gordon-setter"
 breedName: "Gordon Setter"
 wordCountEstimate: 474
+image: "https://images.dog.ceo/breeds/setter-gordon/n02101006_2092.jpg"
 canonicalUrl: "https://pupwiki.com/blog/gordon-setter-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Gordon Setters
-Gordon Setters are large-sized (45–80 lbs), with active energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+Gordons are the largest and most substantial of the setters—a big male might stand 27 inches at the shoulder and weigh 80 pounds. The stunning coat is a glistening black, with tan markings and long hair on the ears, belly, legs, chest, and tail. Tan spots above the bright brown eyes point up a wise and willing expression. Like other Scots breeds, from the compact Scottish Terrier to the majestic Scottish Deerhound, Gordons were built to withstand their homeland’s tough terrain and foul weather. The Gordon Setter, the black avenger of the Highlands, is a substantial bird dog named for a Scottish aristocrat. Athletic and outdoorsy, Gordons are bold, confident, and resolute in the field, and sweetly affectionate by the fireside.
+
+### Gordon Setter at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#34** in canine intelligence (Above average tier), the Gordon Setter benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Gordon Setters
 Gordon Setters have 1 documented genetic health condition: no data. Typical life expectancy is 12–13 years.
 - **No data**: Ask your vet about recommended screening and prevention for this condition in Gordon Setters.

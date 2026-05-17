@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "broholmer"
 breedName: "Broholmer"
 wordCountEstimate: 365
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_155.jpg"
 canonicalUrl: "https://pupwiki.com/blog/broholmer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Broholmers
-Broholmers are large-sized (90–150 lbs), with calm energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+A large, mastiff-type dog, the Broholmer is rectangular and strongly built with a wide, massive head. Around the year 1800, a Danish dog book described him as a very ordinary breed, especially around Copenhagen. His nickname was “the butcher’s dog,” as he was often seen lying at the doorsteps of butcher shops. He was a protector of the home and a herder and guard dog of cattle at the farm and in the city’s markets. Today, his size is the only thing that keeps intruders at bay. The Broholmer has a heart of gold, loves to snuggle, and always wants to be near you, though his preference is to sit on you. He is an excellent dog with children and other dogs, though because he seems to underestimate his size, supervision is recommended. This breed is also remarkably agile for his size and can do agility, fetch balls, and jump and catch frisbees. Anything you do, camping, hiking, picnicking, wal
+
+### Broholmer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
 ## How to approach a Broholmer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Broholmer puppy

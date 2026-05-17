@@ -26,11 +26,12 @@ medicalDisclaimer: false
 breedSlug: "french-spaniel"
 breedName: "French Spaniel"
 wordCountEstimate: 332
+image: "https://images.dog.ceo/breeds/spaniel-cocker/ekko3.jpg"
 canonicalUrl: "https://pupwiki.com/blog/french-spaniel-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About French Spaniels
-French Spaniels are medium-sized (50–60 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+The French Spaniel is the Epagneul Français in his native country of France. A medium-sized dog, he is elegant, muscled and of medium proportions. His balanced construction provides the energy and toughness essential for his utilization. Highly intelligent in nature, his enthusiasm and willingness to work hard are his heritage. He is very easy to train. Club Contact DetailsClub: French Spaniel Club in the USAName: Elaine McKinneyEmail: Esspaniel@yahoo.comAddress: 6329 Venus Ave, Bartlett, TN 38134Phone: 901-380-9265 The French Spaniel is balanced, frank, gentle, calm and docile. He is an enthusiastic hunter, sociable with other dogs and an ideal companion in all circumstances. An excellent pointing dog, he also has a talent for retrieving.
 ## How to approach a French Spaniel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a French Spaniel puppy

@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "rat-terrier"
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/rat-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "rat-terrier"
 breedName: "Rat Terrier"
 wordCountEstimate: 396
+image: "https://images.dog.ceo/breeds/terrier-bedlington/n02093647_518.jpg"
 canonicalUrl: "https://pupwiki.com/blog/rat-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Rat Terriers
-Rat Terriers are small-sized (10–25 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Balanced, compactly built Rat Terriers are tough but elegant-looking. There are two size divisions: Miniatures stand 10 to 13 inches at the shoulder; standards are over 13 inches and as high as 18 inches. The smooth, shiny coat comes in varieties of pied patterns. (Pied, a word borrowed from the horseman’s lexicon, means “comparatively large patches of one or more colors in combination with white.”) These smoothly muscled exterminators are constructed for the efficient movement required for a long day’s work. An American original, with a breed name said to be coined by Teddy Roosevelt, the Rat Terrier is a compact, tough, smooth-coated exterminator dog. RTs come in two size varieties and are happy-go-lucky, playful, and portable companions.
+
+### Rat Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Rat Terriers
 No breed-specific genetic ailments are currently documented for the Rat Terrier (typical life expectancy: 12–18 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Rat Terrier health

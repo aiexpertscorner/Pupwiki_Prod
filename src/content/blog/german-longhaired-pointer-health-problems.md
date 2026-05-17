@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "german-longh
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/german-longhaired-pointer", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,22 @@ medicalDisclaimer: true
 breedSlug: "german-longhaired-pointer"
 breedName: "German Longhaired Pointer"
 wordCountEstimate: 397
+image: "https://images.dog.ceo/breeds/pointer-germanlonghair/hans1.jpg"
 canonicalUrl: "https://pupwiki.com/blog/german-longhaired-pointer-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About German Longhaired Pointers
-German Longhaired Pointers are large-sized (55–80 lbs), with active energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+German Longhaired Pointers are a gun dog and as such, they are expected to search, point, track and retrieve game. They can excel in all types of hunting situations: waterfowl hunting, searching for upland game birds, or retrieving furred game in the woods or prairies, typically rabbit and squirrel in North America. They have a unique ability in being able to switch from a calm household pet to a fiery, passionate hunter. Having been bred for hunting for over a century, they are a superior, tried and tested hunting companion. Club: German Longhaired Pointer Club of North AmericaName: Del Peterson, PresidentPhone: 509-697-3972Email: glpcna@germanlonghairpointers.com A good way to describe the German Longhaired Pointer is that, in appearance, it’s Continental Europe’s version of a Setter: a pointing dog with full tail and a long coat with dense guard hairs and a moderate undercoat. One not
+
+### German Longhaired Pointer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ### Common health concerns for German Longhaired Pointers
 No breed-specific genetic ailments are currently documented for the German Longhaired Pointer (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach German Longhaired Pointer health

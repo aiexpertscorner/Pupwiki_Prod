@@ -30,7 +30,17 @@ canonicalUrl: "https://pupwiki.com/blog/pumi-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pumis
-Pumis are medium-sized (22–29 lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+The Pumi (POO-mee; plural Pumik) was conceived as a compact, quick, and fearless sheepherder capable of moving flocks on the narrow roads connecting the pastures of western Hungary. At a glance, it might be hard to believe that this cuddly charmer was born to do such tough work. With his coat of corkscrew curls, circular tail, expressive ears, and distinctively whimsical look, the Pumi is all kinds of cute. But beneath the curls is a lean, deep-chested herder with a seemingly endless capacity for work and play. A compact, nimble-footed herder of Hungarian origin, the Pumi is easily recognized by a corkscrew-curled coat, two-thirds erect ears, and distinctive whimsical expression. The breed is famed for its intelligence, agility, and boldness.
+
+### Pumi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ## How to approach a Pumi puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pumi puppy

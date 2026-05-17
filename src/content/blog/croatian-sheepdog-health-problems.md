@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "croatian-she
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/croatian-sheepdog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -31,7 +31,17 @@ canonicalUrl: "https://pupwiki.com/blog/croatian-sheepdog-health-problems"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Croatian Sheepdogs
-Croatian Sheepdogs are medium-sized (29–44 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Petar Horvat, the bishop of Djakovo, wrote in 1374 that Croats had brought a shepherd dog along on the move to their new land. He referred to the dog as Canis Pastoralis Croaticus—the Croatian Shepherd Dog.The bishop of Djakovo, Peter Bakic also wrote about the Croatian Sheepdog in his 1719 manuscript “On the Life of the People and Raising of Stock in Djakovo and it’s Surroundings in 1719”. He quoted the words written by Bishop Petar in 1374 and, providing his own description of the dog, stated that the Croatian Sheepdog had not changed since the record (from 1374 to 1719) and had not changed in appearance from that described by Bishop Petar in 1374.A systematic selection breeding program was started by the “father of the breed” – veterinarian Prof Dr Stjepan Romic in 1935 with dogs in the territory of Djakovo. After 34 years of work, the breed was recognized by the FCI in 1969. The Croa
+
+### Croatian Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Croatian Sheepdogs
 No breed-specific genetic ailments are currently documented for the Croatian Sheepdog (typical life expectancy: 13–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Croatian Sheepdog health

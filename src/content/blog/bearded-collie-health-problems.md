@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "bearded-coll
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/bearded-collie", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "bearded-collie"
 breedName: "Bearded Collie"
 wordCountEstimate: 399
+image: "https://images.dog.ceo/breeds/collie/n02106030_2548.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bearded-collie-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Bearded Collies
-Bearded Collies are medium-sized (45–55 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Standing 20 to 22 inches at the shoulder and covered head to tail in a shaggy double coat, Beardies bear a passing resemblance to another British favorite, the Old English Sheepdog. Beneath the coats, Beardies are the more lean and angular of the two. The lavish facial hair shouldn’t obscure the characteristic expression: a dreamy, faraway gaze.These rambunctious comics can be a handful—but mostly, Beardies are approximately 50 pounds of heart, energy, and laughter. Well-socialized Beardies will get on nicely with other animals and kids. They bore easily, and training must be kept interesting. Outdoorsy families looking for a sturdy dog to share an uptempo lifestyle will never find a more affectionate and amusing sidekick. A boisterous and charismatic droving dog from Scotland, the shaggy-coated Bearded Collie (“Beardie” to his friends) enjoys outdoor exercise in all weather. Bred to be
+
+### Bearded Collie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ██░░░ Below Average |
+| Sociability | █████ Very Friendly |
 ### Common health concerns for Bearded Collies
 No breed-specific genetic ailments are currently documented for the Bearded Collie (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Bearded Collie health

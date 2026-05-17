@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "american-leopard-hound"
 breedName: "American Leopard Hound"
 wordCountEstimate: 391
+image: "https://images.dog.ceo/breeds/hound-english/n02089973_3688.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-leopard-hound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Leopard Hounds
-American Leopard Hounds are large-sized (45–70 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+The American Leopard Hound is a medium to large size dog and comes in three patterns: Solid, Leopard and Brindle; nine different official colors; and a variety of markings, however, sixty percent of all American Leopards are solid-colored dogs. The breed is very versatile in hunting a variety of game species including, but not limited to, raccoon, bear, bobcat, cougar, squirrel, and any other tree-minded game. As an especially tough breed, they also fare exceptionally well in extreme weather, both hot and cold. The American Leopard was officially organized and named the American Leopard Cur in 1960, but changed by the breed club members to the American Leopard Hound on May 1, 2008, years before coming to the American Kennel Club. Breed ContactName: Jackie CarpenterEmail: plott_dog@yahoo.com Intelligence is one of the American Leopard Hound's very best attributes. The breed is loving and
+
+### American Leopard Hound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
 ## How to approach a American Leopard Hound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a American Leopard Hound puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "norwegian-lundehund"
 breedName: "Norwegian Lundehund"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/elkhound-norwegian/n02091467_3285.jpg"
 canonicalUrl: "https://pupwiki.com/blog/norwegian-lundehund-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Norwegian Lundehunds
-Norwegian Lundehunds are medium-sized (20–30 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+At a glance, Lundehunds seem a typical northern breed: A spitz type with triangular ears, curving tail, and a dense double coat. But a closer look reveals several unique traits. They have feet with at least six fully functioning toes and extra paw pads, an “elastic neck” that can crane back so the head touches the spine, ears that fold shut, and flexible shoulders that allow forelegs to extend to the side, perpendicular to the body. This last anomaly produces the breed’s distinctive “rotary” gait. From Norway’s rocky island of Vaeroy, the uniquely constructed Norwegian Lundehund is the only dog breed created for the job of puffin hunting. With puffins now a protected species, today’s Lundehund is a friendly, athletic companion.
+
+### Norwegian Lundehund at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Norwegian Lundehund puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Norwegian Lundehund puppy

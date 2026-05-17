@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "corman-shepherd"
 breedName: "Corman Shepherd"
 wordCountEstimate: 436
+image: "https://images.dog.ceo/breeds/german-shepherd/KSYR_German-Shepherd-dog-Alsatian.jpg"
 canonicalUrl: "https://pupwiki.com/blog/corman-shepherd-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Corman Shepherds
-Corman Shepherds are medium-sized (39.68–70.55 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+Corman Shepherd is a designer cross between the Pembroke Welsh Corgi and the German Shepherd Dog. This mix usually weighs about 40-71 pounds, can inherit a dense double coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Degenerative Myelopathy, IVDD.
+
+### Corman Shepherd at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#7** in canine intelligence (Brightest tier), the Corman Shepherd responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Corman Shepherd puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Corman Shepherd puppy

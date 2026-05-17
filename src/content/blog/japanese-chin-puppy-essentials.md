@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "japanese-chin"
 breedName: "Japanese Chin"
 wordCountEstimate: 356
+image: "https://images.dog.ceo/breeds/spaniel-japanese/n02085782_382.jpg"
 canonicalUrl: "https://pupwiki.com/blog/japanese-chin-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Japanese Chins
-Japanese Chins are small-sized (7–11 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+Chin are the unrivaled noblemen of Japanese breeds. They’re tiny “indoorsy” companions, with an unmistakably Eastern look and bearing. The head is large, the muzzle short, and the round, dark eyes convey, as Chin fans like to say, a “look of astonishment.” The profuse mane around the neck and shoulders, the plumed tail arching over the back, and the pants or “culottes” on the hind legs project the elegant, exotic appearance so typical of Asia’s royal line of laptop cuddle bugs. The Japanese Chin is a charming toy companion of silky, profuse coat and an unmistakably aristocratic bearing. Often described as a distinctly “feline” breed, this bright and amusing lapdog is fastidious, graceful, and generally quiet. Originally from Japan, the Japanese Chin belongs to the Companion and Toy Dogs group.
+
+### Japanese Chin at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Japanese Chin puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Japanese Chin puppy

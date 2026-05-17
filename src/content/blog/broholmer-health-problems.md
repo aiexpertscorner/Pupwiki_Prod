@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "broholmer", 
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/broholmer", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,21 @@ medicalDisclaimer: true
 breedSlug: "broholmer"
 breedName: "Broholmer"
 wordCountEstimate: 379
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_155.jpg"
 canonicalUrl: "https://pupwiki.com/blog/broholmer-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Broholmers
-Broholmers are large-sized (90–150 lbs), with calm energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+A large, mastiff-type dog, the Broholmer is rectangular and strongly built with a wide, massive head. Around the year 1800, a Danish dog book described him as a very ordinary breed, especially around Copenhagen. His nickname was “the butcher’s dog,” as he was often seen lying at the doorsteps of butcher shops. He was a protector of the home and a herder and guard dog of cattle at the farm and in the city’s markets. Today, his size is the only thing that keeps intruders at bay. The Broholmer has a heart of gold, loves to snuggle, and always wants to be near you, though his preference is to sit on you. He is an excellent dog with children and other dogs, though because he seems to underestimate his size, supervision is recommended. This breed is also remarkably agile for his size and can do agility, fetch balls, and jump and catch frisbees. Anything you do, camping, hiking, picnicking, wal
+
+### Broholmer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
 ### Common health concerns for Broholmers
 No breed-specific genetic ailments are currently documented for the Broholmer (typical life expectancy: 8–10 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Broholmer health

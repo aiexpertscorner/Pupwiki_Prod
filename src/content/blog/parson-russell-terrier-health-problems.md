@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "parson-russe
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/parson-russell-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "parson-russell-terrier"
 breedName: "Parson Russell Terrier"
 wordCountEstimate: 395
+image: "https://images.dog.ceo/breeds/terrier-russell/little1.jpg"
 canonicalUrl: "https://pupwiki.com/blog/parson-russell-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Parson Russell Terriers
-Parson Russell Terriers are small-sized (13–17 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+PRTs stand 12–15 inches at the shoulder, and weigh 13–17 pounds when in peak condition. Their intelligent expression, mostly white coat, and beautifully balanced body give PRTs the adorable looks of a plush toy come to life. But don’t be fooled by all that cuteness—PRTs are tough little guys built for England’s traditional sport of foxhunting. They’re fast enough to follow the hounds and fearless enough to dig into the ground and flush a fox from his lair. The Parson Russell Terrier is a bold and clever terrier, swift enough to run with horses and fearless enough to dig in and flush a fox from his lair. Independent problem solvers, PRTs can have their own ideas on how to go about things.
+
+### Parson Russell Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Parson Russell Terriers
 No breed-specific genetic ailments are currently documented for the Parson Russell Terrier (typical life expectancy: 13–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Parson Russell Terrier health

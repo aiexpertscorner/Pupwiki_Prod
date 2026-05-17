@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "swissydog"
 breedName: "Swissydog"
 wordCountEstimate: 453
+image: "https://images.dog.ceo/breeds/mountain-swiss/n02107574_2325.jpg"
 canonicalUrl: "https://pupwiki.com/blog/swissydog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Swissydogs
-Swissydogs are large-sized (99.21–132.28 lbs), with active energy, heavy shedding, and a medium coat. The recommendations below are matched to these traits.
+Swissydog is a designer cross between the Greater Swiss Mountain Dog and the Bernese Mountain Dog. This mix usually weighs about 99-132 pounds, often lands somewhere between its parent coat types, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Splenic torsion, Hip/Elbow dysplasia. Originally from Switzerland.
+
+### Swissydog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
+
+Ranked **#22** in canine intelligence (Excellent tier), the Swissydog responds well to consistent, positive reinforcement training — placing it among the top 25 most trainable breeds.
 ## How to approach a Swissydog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Swissydog puppy

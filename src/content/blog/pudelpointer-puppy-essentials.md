@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "pudelpointer"
 breedName: "Pudelpointer"
 wordCountEstimate: 363
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_5735.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pudelpointer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pudelpointers
-Pudelpointers are large-sized (45–70 lbs), with regular energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+The Pudelpointer originated in Germany, created by crossing the Poodle with the Pointer. A versatile, genetically sound and healthy gun dog emerged from this cross and the breed is useful for all kinds of work in the fields, woods and water. His coat can be wire-haired, smooth/short, or rough and his coat color ranges from light brown to black. He may also have small white markings. The Pudelpointer is a calm, self-controlled, versatile gun dog with a distinct hunting instinct and lacks game or gun shyness. In his native country of Germany, he has always ranked high in performance tests and in the field. This breed is enjoyed and valued for its desire and drive.
+
+### Pudelpointer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
 ## How to approach a Pudelpointer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pudelpointer puppy

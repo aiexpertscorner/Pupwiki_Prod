@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "pomchi"
 breedName: "Pomchi"
 wordCountEstimate: 439
+image: "https://images.dog.ceo/breeds/pomeranian/n02112018_1325.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pomchi-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pomchis
-Pomchis are small-sized (4.41–11.02 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Pomchi is a designer cross between the Pomeranian and the Chihuahua. This mix usually weighs about 4-11 pounds, can inherit a dense double coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Hydrocephalus, Collapsing trachea.
+
+### Pomchi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#45** in canine intelligence (Average tier), the Pomchi responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Pomchi puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pomchi puppy

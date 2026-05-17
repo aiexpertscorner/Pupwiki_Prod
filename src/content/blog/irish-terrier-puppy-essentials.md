@@ -26,11 +26,21 @@ medicalDisclaimer: false
 breedSlug: "irish-terrier"
 breedName: "Irish Terrier"
 wordCountEstimate: 332
+image: "https://images.dog.ceo/breeds/terrier-irish/n02093991_4589.jpg"
 canonicalUrl: "https://pupwiki.com/blog/irish-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Irish Terriers
-Irish Terriers are medium-sized (25–27 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+Irish Terriers are the prototype of a long-legged terrier. Standing about 18 inches at the shoulder, they’re sturdy but lithe and graceful. Every line of the body is eye-catching, and the overall picture is beautifully balanced. The tight red coat is as fiery as the breed’s temperament. ITs are a dog lover’s delight: If your heart doesn’t go pitty-pat at the sight of this Technicolor terrier framed against the vivid greens of the Irish countryside, forget dogs and buy a goldfish. The Irish Terrier, “Daredevil” of the Emerald Isle, is a bold, dashing, and courageous terrier of medium size. Known for his fiery red coat and a temperament to match, the Irish Terrier is stouthearted at work and tenderhearted at home.
+
+### Irish Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Irish Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Irish Terrier puppy

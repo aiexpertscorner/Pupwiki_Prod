@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "saint-berdoodle"
 breedName: "Saint Berdoodle"
 wordCountEstimate: 448
+image: "https://images.dog.ceo/breeds/stbernard/n02109525_7336.jpg"
 canonicalUrl: "https://pupwiki.com/blog/saint-berdoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Saint Berdoodles
-Saint Berdoodles are large-sized (110.23–176.37 lbs), with regular energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Saint Berdoodle is a designer cross between the Saint Bernard and the Poodle (Standard). This mix usually weighs about 110-176 pounds, often has a curly, low-shed-leaning coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Bloat (Life-threatening), Bone cancer (Osteosarcoma). Originally from Switzerland.
+
+### Saint Berdoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#65** in canine intelligence (Fair tier), the Saint Berdoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Saint Berdoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Saint Berdoodle puppy

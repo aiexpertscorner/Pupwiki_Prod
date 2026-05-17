@@ -30,7 +30,17 @@ canonicalUrl: "https://pupwiki.com/blog/hovawart-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Hovawarts
-Hovawarts are large-sized (65–90 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Physically, Hovawarts are large, heavy-boned dogs that have been bred to be intelligent guardians of livestock and the home. They come in three colors: blonde, black and tan, and black. They are alert, faithful, trustworthy, extremely intelligent, fun-loving, and stubborn. A Hovawart likes to have a job to do, or he will use his creative nature to find one. They take approximately two years to mature. Currently, Hovawarts in North America are participating in search and rescue organizations, therapy dog activities, obedience trials, agility trials, flyball and service dog training. Owning a Hovawart can be quite a challenge, and they require significant time and attention from their owners, so they are not recommended for first-time dog owners. However, for an owner who is willing to expend the effort to teach their dog appropriate behaviors in different situations, the reward is a faith
+
+### Hovawart at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | ██░░░ Selective |
 ## How to approach a Hovawart puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Hovawart puppy

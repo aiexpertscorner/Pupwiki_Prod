@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "german-short
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/german-shorthaired-pointer", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "german-shorthaired-pointer"
 breedName: "German Shorthaired Pointer"
 wordCountEstimate: 499
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_2974.jpg"
 canonicalUrl: "https://pupwiki.com/blog/german-shorthaired-pointer-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About German Shorthaired Pointers
-German Shorthaired Pointers are large-sized (45–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Male German Shorthaired Pointers stand between 23 and 25 inches at the shoulder and weigh anywhere from 55 to 70 pounds; females run smaller. The coat is solid liver (a reddish brown), or liver and white in distinctive patterns. The dark eyes shine with enthusiasm and friendliness. Built to work long days in the field or at the lake, GSPs are known for power, speed, agility, and endurance. “Noble” and “aristocratic” are words often used to describe the overall look.GSPs make happy, trainable pets who bond firmly to their family. They are always up for physical activities like running, swimming, organized dog sports—in fact, anything that will burn some of their boundless energy while spending outdoors time with a human buddy. The versatile, medium-sized German Shorthaired Pointer is an enthusiastic gundog of all trades who thrives on vigorous exercise, positive training, and a lot of lov
+
+Originally from Germany, the German Shorthaired Pointer belongs to the Pointing Dogs group. The German Shorthaired Pointer ranks #9 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### German Shorthaired Pointer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#17** in canine intelligence (Excellent tier), the German Shorthaired Pointer responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ### Common health concerns for German Shorthaired Pointers
 German Shorthaired Pointers have 1 documented genetic health condition: hip problems. Typical life expectancy is 10–12 years.
 - **Hip problems**: Ask your vet about recommended screening and prevention for this condition in German Shorthaired Pointers.

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "eurasier"
 breedName: "Eurasier"
 wordCountEstimate: 376
+image: "https://images.dog.ceo/breeds/spitz-japanese/tofu.jpg"
 canonicalUrl: "https://pupwiki.com/blog/eurasier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Eurasiers
-Eurasiers are large-sized (40–70 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Eurasier comes in a beautiful array of colors. All coat colors are permitted as per the breed standard except for liver color, pure white and irregular white patches. Eurasiers can have purple tongues, pink tongues or spotted tongues. They can also have dark face masks or light, so-called reverse masks. Eurasiers are calm, even-tempered, gentle, loving, intelligent and confident. Club Contact DetailsClub: United States Eurasier ClubName: Wendy SchuylerEmail: USEurasierClub@gmail.com The Eurasier is a medium-sized dog with a thick, medium-long coat that can come in a variety of colors. Confident, calm, and well-balanced, he is loyal to the entire family, but reserved towards strangers. He must live in close contact with his family, as he is not suited to be kept in kennels or tied up outside.
+
+### Eurasier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Eurasier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Eurasier puppy

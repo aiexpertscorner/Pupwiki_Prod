@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "jack-a-poo"
 breedName: "Jack-A-Poo"
 wordCountEstimate: 425
+image: "https://images.dog.ceo/breeds/poodle-miniature/n02113712_4526.jpg"
 canonicalUrl: "https://pupwiki.com/blog/jack-a-poo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Jack-A-Poos
-Jack-A-Poos are small-sized (13.23–26.46 lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+Jack-A-Poo is a designer cross between the Russell Terrier and the Poodle (Miniature). This mix usually weighs about 13-26 pounds, often has a curly, low-shed-leaning coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Lens luxation, Patellar luxation.
+
+### Jack-A-Poo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#45** in canine intelligence (Average tier), the Jack-A-Poo responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Jack-A-Poo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Jack-A-Poo puppy

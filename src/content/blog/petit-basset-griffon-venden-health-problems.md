@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "petit-basset
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/petit-basset-griffon-venden", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "petit-basset-griffon-venden"
 breedName: "Petit Basset Griffon Vendéen"
 wordCountEstimate: 386
+image: "https://images.dog.ceo/breeds/hound-basset/n02088238_10451.jpg"
 canonicalUrl: "https://pupwiki.com/blog/petit-basset-griffon-venden-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Petit Basset Griffon Vendéens
-Petit Basset Griffon Vendéens are medium-sized (25–40 lbs), with active energy, low shedding, and a rough coat. The recommendations below are matched to these traits.
+A loose translation of the name describes the dog well: Petit (small), Basset (low), Griffon (rough-coated), Vendéen (from the Vendée region of France). Put it all together and you have a diminutive hound, standing 13 to 15 inches at the shoulder, with short but strong legs and a rough tousled coat, bred to hunt rabbits on the rugged west coast of France. Other distinctive features of these little extroverts are a proudly carried head, a saber tail, and a loud, hound bark. The Petit Basset Griffon Vendéen is a vivacious small French hunting hound known for a happy demeanor and durable constitution. Bred to work in a pack, PBGVs enjoy company and do well with other dogs and kids.
+
+### Petit Basset Griffon Vendéen at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Petit Basset Griffon Vendéens
 No breed-specific genetic ailments are currently documented for the Petit Basset Griffon Vendéen (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Petit Basset Griffon Vendéen health

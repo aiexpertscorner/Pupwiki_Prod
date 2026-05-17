@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "german-shepherd-dog"
 breedName: "German Shepherd Dog"
 wordCountEstimate: 457
+image: "https://images.dog.ceo/breeds/german-shepherd/n02106662_590.jpg"
 canonicalUrl: "https://pupwiki.com/blog/german-shepherd-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About German Shepherd Dogs
-German Shepherd Dogs are large-sized (50–90 lbs), with regular energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+German Shepherd Dogs can stand as high as 26 inches at the shoulder and, when viewed in outline, presents a picture of smooth, graceful curves rather than angles. The natural gait is a free-and-easy trot, but they can turn it up a notch or two and reach great speeds.There are many reasons why German Shepherds stand in the front rank of canine royalty, but experts say their defining attribute is character: loyalty, courage, confidence, the ability to learn commands for many tasks, and the willingness to put their life on the line in defense of loved ones. German Shepherds will be gentle family pets and steadfast guardians, but, the breed standard says, there’s a “certain aloofness that does not lend itself to immediate and indiscriminate friendships.” Generally considered dogkind’s finest all-purpose worker, the German Shepherd Dog is a large, agile, muscular dog of noble character and hi The German Shepherd Dog ranks #2 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### German Shepherd Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
+
+Ranked **#3** in canine intelligence (Brightest tier), the German Shepherd Dog responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a German Shepherd Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a German Shepherd Dog puppy

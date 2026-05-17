@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-16T22:31:14.346Z",
+  "generatedAt": "2026-05-16T23:13:54.794Z",
   "totals": {
     "breeds": 277,
     "crossbreeds": 75,
-    "blogPosts": 2226,
+    "blogPosts": 2697,
     "astroPages": 30,
     "clusters": 15,
     "awinJoinedPrograms": 0,
     "partnerProfilesGenerated": 7,
-    "opportunities": 786
+    "opportunities": 315
   },
   "familyStats": [
     {
@@ -37,14 +37,14 @@
     },
     {
       "family": "health",
-      "existing": 233,
-      "missing": 119,
+      "existing": 352,
+      "missing": 0,
       "total": 352
     },
     {
       "family": "supplements",
-      "existing": 0,
-      "missing": 352,
+      "existing": 352,
+      "missing": 0,
       "total": 352
     },
     {
@@ -422,7 +422,7 @@
   ],
   "sitemapInputs": {
     "staticPageCount": 30,
-    "dynamicBlogCount": 2226,
+    "dynamicBlogCount": 2697,
     "dynamicBreedCount": 352,
     "clusterSlugs": [
       "puppy",

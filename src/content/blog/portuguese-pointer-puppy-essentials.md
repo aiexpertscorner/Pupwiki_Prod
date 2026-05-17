@@ -30,7 +30,17 @@ canonicalUrl: "https://pupwiki.com/blog/portuguese-pointer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Portuguese Pointers
-Portuguese Pointers are medium-sized (35–59 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+The Portuguese Pointer is considered a medium-sized dog. As a sporting dog, they have quite a bit of energy, especially when young. Their affectionate nature is so intense that the Portuguese standard describes it as sometimes “inappropriate and inconvenient.” This breed is very hardy and is capable of great endurance and devotion. Calm and very sociable, they can be somewhat haughty towards other dogs. Curious by nature, they work with persistence and vivacity and are always a keen hunter that stays in close contact with his handler. Club Contact DetailsClub: Portuguese Pointer Club of AmericaName: Temple DaSilvaEmail: GreenFallsHollow@comcast.net The Portuguese Pointer is a very old hunting breed bred to work closely with its handler. They are enthusiastic in their work and very dedicated to their owner.
+
+### Portuguese Pointer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a Portuguese Pointer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Portuguese Pointer puppy

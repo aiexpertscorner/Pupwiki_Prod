@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "bohemian-shepherd"
 breedName: "Bohemian Shepherd"
 wordCountEstimate: 332
+image: "https://images.dog.ceo/breeds/german-shepherd/n02106662_9936.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bohemian-shepherd-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bohemian Shepherds
-Bohemian Shepherds are medium-sized (37–60 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+The Bohemian Shepherd is an intelligent, lively, quick, athletic breed which enthusiastically welcomes most any activity introduced, making the breed rather versatile. They succeed in many arenas such as agility, dog dancing, schutzhund, search and rescue, nose work, tracking, pastoral work, obedience, therapy dogs, service dogs, and are now breaking into the fields of coursing, dock diving and endurance tests. The Bohemian Shepherd makes an excellent family dog due to its devotion to family members and adoration of children. This is a breed which loves to be with its family and also does well with other non-human members of the family when raised with them. Bohemian Shepherd Club of North AmericaEmail: bscnainfo@gmail.com The Bohemian Shepherd is an intelligent, lively, quick, athletic breed which enthusiastically welcomes most any activity introduced, making the breed rather versatile.
+
+### Bohemian Shepherd at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ## How to approach a Bohemian Shepherd puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bohemian Shepherd puppy

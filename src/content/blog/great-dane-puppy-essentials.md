@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "great-dane"
 breedName: "Great Dane"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/dane-great/n02109047_5005.jpg"
 canonicalUrl: "https://pupwiki.com/blog/great-dane-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Great Danes
-Great Danes are large-sized (110–175 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+As tall as 32 inches at the shoulder, Danes tower over most other dogs—and when standing on their hind legs, they are taller than most people. These powerful giants are the picture of elegance and balance, with the smooth and easy stride of born noblemen. The coat comes in different colors and patterns, perhaps the best-known being the black-and-white patchwork pattern known as “harlequin.”Despite their sweet nature, Danes are alert home guardians. Just the sight of these gentle giants is usually enough to make intruders think twice. But those foolish enough to mistake the breed’s friendliness for softness will meet a powerful foe of true courage and spirit. Patient with kids, Danes are people pleasers who make friends easily. The easygoing Great Dane, the mighty “Apollo of Dogs,” is a total joy to live with—but owning a dog of such imposing size, weight, and strength is a commitment not
+
+Originally from Germany, the Great Dane belongs to the Pinschers, Schnauzers, Molosser and Swiss Mountain Dogs group. The Great Dane ranks #16 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Great Dane at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#48** in canine intelligence (Average tier), the Great Dane responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Great Dane puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Great Dane puppy

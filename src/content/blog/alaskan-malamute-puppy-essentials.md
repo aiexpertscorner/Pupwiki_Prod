@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "alaskan-malamute"
 breedName: "Alaskan Malamute"
 wordCountEstimate: 450
+image: "https://images.dog.ceo/breeds/malamute/n02110063_97.jpg"
 canonicalUrl: "https://pupwiki.com/blog/alaskan-malamute-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Alaskan Malamutes
-Alaskan Malamutes are large-sized (75–85 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Alaskan Malamute stands 23 to 25 inches at the shoulder and weighs 75 to 85 pounds. Everything about Mals suggests their origin as an arctic sled dog: The heavy bone, deep chest, powerful shoulders, and dense, weatherproof coat all scream, “I work hard for a living!” But their almond-shaped brown eyes have an affectionate sparkle, suggesting Mals enjoy snuggling with their humans when the workday is done. Mals are pack animals. And in your family “pack,” the leader must be you. If a Mal doesn’t respect you, he will wind up owning you instead of the other way around. Firm but loving training should begin in early puppyhood. That said, a well-behaved Mal is a joy to be with—playful, gentle, friendly, and great with kids. An immensely strong, heavy-duty worker of spitz type, the Alaskan Malamute is an affectionate, loyal, and playful but dignified dog recognizable by his well-furred plu
+
+Originally from United States, the Alaskan Malamute belongs to the Spitz and Primitive Types group.
+
+### Alaskan Malamute at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
+
+Ranked **#50** in canine intelligence (Average tier), the Alaskan Malamute benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Alaskan Malamute puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Alaskan Malamute puppy

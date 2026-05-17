@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "keeshond"
 breedName: "Keeshond"
 wordCountEstimate: 350
+image: "https://images.dog.ceo/breeds/keeshond/n02112350_9227.jpg"
 canonicalUrl: "https://pupwiki.com/blog/keeshond-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Keeshonds
-Keeshonds are medium-sized (35–45 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+These square, sturdy companions descend from the same ancient stock as other spitz types, such as Pomeranians and Samoyeds. Typically “spitzy,” Keeshonden have a foxy face, pointed ears, an abundant coat, and a plumed tail carried high over the back. A unique breed characteristic—and one of the most charming hallmarks in all dogdom—is the “spectacles.” These shadings and markings around the eyes give the impression that a Kees is wearing designer eyewear. The specs draw attention to an alert, intelligent expression. The amiable Keeshond is a medium-sized spitz dog of ample coat, famous for the distinctive “spectacles” on his foxy face. Once a fixture on the canal barges of his native Holland, the Kees was, and remains, a symbol of Dutch patriotism. Originally from Netherlands, the Keeshond belongs to the Spitz and Primitive Types group.
+
+### Keeshond at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ## How to approach a Keeshond puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Keeshond puppy

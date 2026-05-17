@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "sussex-spaniel"
 breedName: "Sussex Spaniel"
 wordCountEstimate: 357
+image: "https://images.dog.ceo/breeds/spaniel-sussex/n02102480_4544.jpg"
 canonicalUrl: "https://pupwiki.com/blog/sussex-spaniel-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Sussex Spaniels
-Sussex Spaniels are medium-sized (35–45 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+Sussex are long, low-built bird dogs of great strength and endurance. Topping out at just 15 inches tall at the shoulder, Sussex are nonetheless described as “massive,” with a deep chest and heavy bone. Their trademark is an abundant, feathery coat of rich golden-liver. The classic spaniel head, with its wavy-coated ears and big hazel eyes, projects a somber, frowning expression delightfully at odds with the Sussex’s innate cheerfulness. "Placid, affectionate, even-tempered, true-blue, loyal" — all are words used to describe the Sussex Spaniel, a slow-but-steady hunter and congenial housedog. His frowning expression is delightfully at odds with a typically cheerful nature.
+
+### Sussex Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Sussex Spaniel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Sussex Spaniel puppy

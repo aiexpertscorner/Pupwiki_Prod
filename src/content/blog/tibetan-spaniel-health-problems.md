@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "tibetan-span
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/tibetan-spaniel", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "tibetan-spaniel"
 breedName: "Tibetan Spaniel"
 wordCountEstimate: 456
+image: "https://images.dog.ceo/breeds/terrier-tibetan/n02097474_4589.jpg"
 canonicalUrl: "https://pupwiki.com/blog/tibetan-spaniel-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Tibetan Spaniels
-Tibetan Spaniels are small-sized (9–15 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+With a blunt muzzle and big expressive eyes, a “lion’s mane” around the neck, and a plumed tail elegantly curving over the back, they’re distinctly Tibetan. But are they spaniels? No, not in the Western sense, like Cockers or Cavaliers. Instead, Tibbies recall the ancient traditions that produced Pekes, Pugs, Lhasas, and other unmistakably Asian breeds. Tibbies stand about 10 inches at the shoulder; they move quickly and with purpose. They’re seen in coats of many colors and combinations. The frisky and curious Tibetan Spaniel was bred ages ago for sentinel work on the walls of Tibetan monasteries. Known for a flat, silky coat and “lion’s mane” around the neck, the Tibbie forms a tight, worshipful bond with their humans.
+
+### Tibetan Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#46** in canine intelligence (Average tier), the Tibetan Spaniel responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Tibetan Spaniels
 No breed-specific genetic ailments are currently documented for the Tibetan Spaniel (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Tibetan Spaniel health

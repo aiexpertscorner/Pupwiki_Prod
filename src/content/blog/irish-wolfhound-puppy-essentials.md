@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "irish-wolfhound"
 breedName: "Irish Wolfhound"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/wolfhound-irish/n02090721_4376.jpg"
 canonicalUrl: "https://pupwiki.com/blog/irish-wolfhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Irish Wolfhounds
-Irish Wolfhounds are large-sized (105–120 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+The amiable Irish Wolfhound is an immense, muscular hound gracefully built along classic Greyhound lines, capable of great speed at the gallop. A male might stand nearly 3 feet at the shoulder and weigh up to 180 pounds. Females will run smaller but are still a whole lot of hound. The rough, hard coat comes in many colors, including white, gray, brindle, red, black, and fawn.IWs are too serene to be fierce guard dogs, but just the sight of them is enough to deter intruders. IWs are characteristically patient with kids, though animals their size should be supervised around small children. Owning an Irish Wolfhound is a unique, rewarding experience—but acquiring a giant galloping hound is a commitment as big as the dog itself. The calm, dignified, and kindly Irish Wolfhound is the tallest of all AKC breeds. Once fearless big-game hunters capable of dispatching a wolf in single combat, Wolf
+
+Originally from Ireland, the Irish Wolfhound belongs to the Sighthounds group.
+
+### Irish Wolfhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
+
+Ranked **#41** in canine intelligence (Average tier), the Irish Wolfhound benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Irish Wolfhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Irish Wolfhound puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "cairn-terrier"
 breedName: "Cairn Terrier"
 wordCountEstimate: 409
+image: "https://images.dog.ceo/breeds/terrier-cairn/n02096177_7717.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cairn-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cairn Terriers
-Cairn Terriers are small-sized (13–14 lbs), with regular energy, low shedding, and a rough coat. The recommendations below are matched to these traits.
+The Cairn’s unique qualities, called “Cairnishness,” include a short, wide head and a free-moving, short-legged body that exudes strength but not heaviness, topping out at about 10 inches high and about 15 inches long. The double coat is harsh and wiry on top and downy beneath. A Cairn presents as a small, shaggy, alert dog, with head, tail, and ears up, and eyes shining with intelligence.A British breed club promotes Cairns as the “best little pal in the world.” Cairns are small enough for a lap-top snuggle and sturdy enough for a good romp on the lawn. They do best with lots of close family contact. For owners who cherish the terrier qualities of gameness, independent thinking, and true-blue loyalty, no other breed will do. Cairn Terriers are happy, busy little earthdogs originally bred to fearlessly root out foxes and other small, furred prey in the rocky Scottish countryside. Curious
+
+### Cairn Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#35** in canine intelligence (Above average tier), the Cairn Terrier responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Cairn Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Cairn Terrier puppy

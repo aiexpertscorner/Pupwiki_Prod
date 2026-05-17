@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "borgi"
 breedName: "Borgi"
 wordCountEstimate: 428
+image: "https://images.dog.ceo/breeds/pembroke/n02113023_1307.jpg"
 canonicalUrl: "https://pupwiki.com/blog/borgi-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Borgis
-Borgis are medium-sized (26.46–39.68 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+Borgi is a designer cross between the Border Collie and the Pembroke Welsh Corgi. This mix usually weighs about 26-40 pounds, can inherit a dense double coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include IVDD (Back issues), Hip dysplasia. Originally from United Kingdom.
+
+### Borgi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#6** in canine intelligence (Brightest tier), the Borgi responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Borgi puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Borgi puppy

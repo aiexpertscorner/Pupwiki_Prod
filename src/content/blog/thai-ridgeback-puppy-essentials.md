@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "thai-ridgeback"
 breedName: "Thai Ridgeback"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/ridgeback-rhodesian/n02087394_6506.jpg"
 canonicalUrl: "https://pupwiki.com/blog/thai-ridgeback-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Thai Ridgebacks
-Thai Ridgebacks are large-sized (35–75 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+The Thai Ridgeback is a muscular, medium-sized dog with a streamlined body that makes him very agile and a natural athlete. The ridge on his back is formed by hair growing in the opposite direction from the rest of his coat and the breed has up to 8 different ridge patterns. Puppies can be born without this ridge. Coat colors include solid blue, black, red or fawn with a black mask occasionally on the red-coated dogs. Thai Ridgebacks also have spotted tongues and some even come with solid black/blue tongues. Today, most Ridgebacks are companion dogs, but they still maintain many of the same instincts for the jobs for which they were bred: hunting and guarding. They had to be independent, self-sufficient and hunt for their own food, which gave them strong survival instincts, a high prey drive, and a high level of intelligence.If well bred and properly socialized, the Thai Ridgeback can be
+
+### Thai Ridgeback at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Thai Ridgeback puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Thai Ridgeback puppy

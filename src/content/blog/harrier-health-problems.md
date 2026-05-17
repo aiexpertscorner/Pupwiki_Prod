@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "harrier", "d
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/harrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -31,7 +31,17 @@ canonicalUrl: "https://pupwiki.com/blog/harrier-health-problems"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Harriers
-Harriers are medium-sized (45–60 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Somewhat resembling a Beagle with a gym membership, Harriers are larger, more powerful hounds than their diminutive cousin—but smaller than the English Foxhound, a breed used in their development. Standing between 19 and 21 inches at the shoulder, Harriers have the timeless look of a working pack hound: a short, smart-looking coat; low-set, velvety ears; an irresistibly sweet face; and enough muscle and sinew to endure a long day’s hunt. A well-built Harrier will cover ground with a smooth, efficient gait. The Harrier is a swift, prey-driven pack hound of medium size first bred in medieval England to chase hare. Outgoing and friendly, the Harrier is much larger than the Beagle but smaller than another close relative, the English Foxhound.
+
+### Harrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Harriers
 No breed-specific genetic ailments are currently documented for the Harrier (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Harrier health

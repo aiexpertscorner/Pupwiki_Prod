@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "morkie"
 breedName: "Morkie"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_1219.jpg"
 canonicalUrl: "https://pupwiki.com/blog/morkie-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Morkies
-Morkies are small-sized (4.41–13.23 lbs), with regular energy, minimal shedding, and a silky coat. The recommendations below are matched to these traits.
+Morkie is a designer cross between the Maltese and the Yorkshire Terrier. This mix usually weighs about 4-13 pounds, often has a softer silky coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Portosystemic shunt (Liver), Tracheal collapse. Originally from United Kingdom.
+
+### Morkie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | ██░░░ Below Average |
+| Sociability | █████ Very Friendly |
+
+Ranked **#43** in canine intelligence (Average tier), the Morkie benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Morkie puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Morkie puppy

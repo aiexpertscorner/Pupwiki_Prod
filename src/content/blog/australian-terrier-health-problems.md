@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "australian-t
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/australian-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "australian-terrier"
 breedName: "Australian Terrier"
 wordCountEstimate: 451
+image: "https://images.dog.ceo/breeds/terrier-australian/n02096294_4440.jpg"
 canonicalUrl: "https://pupwiki.com/blog/australian-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Australian Terriers
-Australian Terriers are small-sized (15–20 lbs), with active energy, minimal shedding, and a rough coat. The recommendations below are matched to these traits.
+Australian Terriers are small but sturdy, self-confident terriers known for a longish torso, distinctive coat furnishings around the neck and forequarters, and a topknot of soft, silky hair that contrasts in texture with an otherwise harsh coat. A long neck lends a dash of elegance to this rough-and-ready terrier, and the dark eyes sparkle with a keen intelligence. Coat colors are blue-and-tan, or solid red or sandy. Aussies move with the free and easy gait of a working dog. They are alert watchdogs and said to be quick studies when training. True terriers, Aussies love digging, and the urge to chase small, furry critters has never left them. Not always a great fit in multi-dog households, Aussies want you all to themselves. The diminutive Australian Terrier is plucky, spirited, and smart—how did they fit so much dog into such a bitty package? Upbeat and lively, the self-assured Aussie a
+
+Originally from Australia, the Australian Terrier belongs to the Terriers group.
+
+### Australian Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#34** in canine intelligence (Above average tier), the Australian Terrier responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Australian Terriers
 No breed-specific genetic ailments are currently documented for the Australian Terrier (typical life expectancy: 11–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Australian Terrier health

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "barbet"
 breedName: "Barbet"
 wordCountEstimate: 334
+image: "https://images.dog.ceo/breeds/spaniel-cocker/bella3.jpg"
 canonicalUrl: "https://pupwiki.com/blog/barbet-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Barbets
-Barbets are medium-sized (35–65 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+The defining characteristic of this rustic, medium-sized bird dog is the dense curly coat that covers him from the top of his large, broad head to the tip of his curving tail. The coat comes in shades of black, gray, brown, or fawn, sometimes with white markings. The breed’s delightfully shaggy coat and amiable nature creates the impression of a Muppet come to life, but the Barbet is a strong, solidly-built dog bred for centuries to be a keen hunter and tireless swimmer. Barbets are very intelligent and learn new things quickly. They have a calm nature and are easy to live with as long as their exercise needs are being met. An archetypic water dog of France, the Barbet is a rustic breed of medium size and balanced proportions who appears in artwork as early as the 16th century. In profile, the Barbet is slightly rectangular with a substantial head and long, sweeping tail. He has a long,
+
+### Barbet at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Barbet puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Barbet puppy

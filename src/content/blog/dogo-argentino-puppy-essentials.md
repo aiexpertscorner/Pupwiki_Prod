@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "dogo-argentino"
 breedName: "Dogo Argentino"
 wordCountEstimate: 369
+image: "https://images.dog.ceo/breeds/mastiff-bull/n02108422_5234.jpg"
 canonicalUrl: "https://pupwiki.com/blog/dogo-argentino-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Dogo Argentinos
-Dogo Argentinos are large-sized (88–100 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+The ideal Dogo Argentino is a study in harmony. He is large, powerful, and athletic. His strong head is supported by a thick, but elegant neck that connects to a balanced body, which is sustained by straight, substantial forelegs and very muscular, medium-angulated hindquarters. The Dogo gives the impression of explosive power and energy. Developed to find, chase and catch dangerous game the Dogo must have a good nose, great lung capacity, and a powerful, yet agile, muscular build. His expression is alert and intelligent, with a marked hardness. The Dogo is instantly identifiable by his short, completely white coat. The Dogo Argentino is a pack-hunting dog, bred for the pursuit of big-game such as wild boar and puma, and possesses the strength, intelligence and quick responsiveness of a serious athlete. His short, plain and smooth coat is completely white, but a dark patch near the eye i
+
+### Dogo Argentino at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
 ## How to approach a Dogo Argentino puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Dogo Argentino puppy

@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "central-asia
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/central-asian-shepherd-dog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "central-asian-shepherd-dog"
 breedName: "Central Asian Shepherd Dog"
 wordCountEstimate: 378
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_4790.jpg"
 canonicalUrl: "https://pupwiki.com/blog/central-asian-shepherd-dog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Central Asian Shepherd Dogs
-Central Asian Shepherd Dogs are large-sized (88–110 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Central Asian Shepherd Dogs are a natural protective breed that require a non-stop observance for the life of the dog. They are not for first-time dog owners. They were formed as a breed from natural selection during more than four thousand years in a vast territory, which spreads nowadays from the Caspian Sea to China and from Southern Ural to Afghanistan. The Central Asian Shepherd Dog is self-assured, balanced, quiet, proud and independent. They are very courageous and have a high working capacity, endurance and a natural instinct of territory. This breed is known for its fearlessness towards large predators.
+
+### Central Asian Shepherd Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | █░░░░ Reserved |
 ### Common health concerns for Central Asian Shepherd Dogs
 No breed-specific genetic ailments are currently documented for the Central Asian Shepherd Dog. Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Central Asian Shepherd Dog health

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "lagotto-romagnolo"
 breedName: "Lagotto Romagnolo"
 wordCountEstimate: 351
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_5967.jpg"
 canonicalUrl: "https://pupwiki.com/blog/lagotto-romagnolo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Lagotto Romagnolos
-Lagotto Romagnolos are medium-sized (24–35 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+Italians have a word for it: “carino.” In English, we say “cute.” In any language, this breed is totally endearing. The Lagotto Romagnolo (plural: Lagotti Romagnoli) is known for wooly curls that cover the body head to tail, crowned by a lavish beard, eyebrows, and whiskers. Lagotti stand under 20 inches and weigh no more than 35 pounds. But don’t be fooled by their teddy-bear looks—these are rugged workers of true strength and endurance. The breed’s trademark curls feel and behave more like human hair than fur. The Lagotto Romagnolo, Italy’s adorable “truffle dog,” sports a curly coat and lavish facial furnishings. Despite their plush-toy looks, Lagotti are durable workers of excellent nose who root out truffles, a dainty and pricey delicacy.
+
+### Lagotto Romagnolo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
 ## How to approach a Lagotto Romagnolo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Lagotto Romagnolo puppy

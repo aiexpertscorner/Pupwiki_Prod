@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "braque-franc
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/braque-francais-pyrenean", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,21 @@ medicalDisclaimer: true
 breedSlug: "braque-francais-pyrenean"
 breedName: "Braque Francais Pyrenean"
 wordCountEstimate: 345
+image: "https://images.dog.ceo/breeds/pointer-germanlonghair/hans3.jpg"
 canonicalUrl: "https://pupwiki.com/blog/braque-francais-pyrenean-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Braque Francais Pyreneans
-Braque Francais Pyreneans are medium-sized (40–55 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+The Braque Francais Pyrenean is a well-proportioned, medium-sized dog with a soft, shorthaired coat. He was bred to hunt the very rugged and arid Pyrenees Mountain range on the border of France and Spain. The breed dates back hundreds of years and is considered the common ancestor to all of today’s shorthaired pointing breeds. There are actually two types of Braque Francais: the Gascony Type and the Pyrenean type. The Braque Francais Pyrenean is the smaller and more popular of the two. He has a natural retrieve instinct and loves water. He is gentle, friendly sociable, and submissive. The Braque Francais Pyrenean is a rustic breed and hails from France. In English, he is the French Pointing Dog Pyrenean Type.
+
+### Braque Francais Pyrenean at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
 ### Common health concerns for Braque Francais Pyreneans
 No breed-specific genetic ailments are currently documented for the Braque Francais Pyrenean. Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Braque Francais Pyrenean health

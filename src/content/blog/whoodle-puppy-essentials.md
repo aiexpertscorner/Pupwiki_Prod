@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "whoodle"
 breedName: "Whoodle"
 wordCountEstimate: 415
+image: "https://images.dog.ceo/breeds/poodle-miniature/n02113712_1748.jpg"
 canonicalUrl: "https://pupwiki.com/blog/whoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Whoodles
-Whoodles are medium-sized (33.07–44.09 lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+Whoodle is a designer cross between the Soft Coated Wheaten Terrier and the Poodle (Standard). This mix usually weighs about 33-44 pounds, often has a curly, low-shed-leaning coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Protein-losing nephropathy (Kidney), PRA.
+
+### Whoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#45** in canine intelligence (Average tier), the Whoodle responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Whoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Whoodle puppy

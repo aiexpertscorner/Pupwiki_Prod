@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "frug"
 breedName: "Frug"
 wordCountEstimate: 426
+image: "https://images.dog.ceo/breeds/pug/n02110958_11261.jpg"
 canonicalUrl: "https://pupwiki.com/blog/frug-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Frugs
-Frugs are medium-sized (17.64–30.86 lbs), with calm energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Frug is a designer cross between the French Bulldog and the Pug. This mix usually weighs about 18-31 pounds, often carries an easy-care short coat, and often blends a calmer companion temperament with moderate activity needs from both sides of the pedigree. Common monitoring areas include Severe breathing issues, Spinal disc disease. Originally from France / China.
+
+### Frug at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#58** in canine intelligence (Average tier), the Frug responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Frug puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Frug puppy

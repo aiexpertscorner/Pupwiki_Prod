@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "boxer"
 breedName: "Boxer"
 wordCountEstimate: 424
+image: "https://images.dog.ceo/breeds/boxer/n02108089_922.jpg"
 canonicalUrl: "https://pupwiki.com/blog/boxer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Boxers
-Boxers are large-sized (15–80 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+A well-made Boxer in peak condition is an awesome sight. A male can stand as high as 25 inches at the shoulder; females run smaller. Their muscles ripple beneath a short, tight-fitting coat. The dark brown eyes and wrinkled forehead give the face an alert, curious look. The coat can be fawn or brindle, with white markings. Boxers move like the athletes they are named for: smooth and graceful, with a powerful forward thrust.Boxers are upbeat and playful. Their patience and protective nature have earned them a reputation as a great dog with children. They take the jobs of watchdog and family guardian seriously and will meet threats fearlessly. Boxers do best when exposed to a lot of people and other animals in early puppyhood. Loyalty, affection, intelligence, work ethic, and good looks: Boxers are the whole doggy package. Bright and alert, sometimes silly, but always courageous, the Boxer
+
+Originally from Germany, the Boxer belongs to the Pinschers, Schnauzers, Molosser and Swiss Mountain Dogs group. The Boxer ranks #11 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Boxer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | █████ Very Friendly |
+
+Ranked **#48** in canine intelligence (Average tier), the Boxer responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Boxer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Boxer puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "teddy-roosevelt-terrier"
 breedName: "Teddy Roosevelt Terrier"
 wordCountEstimate: 374
+image: "https://images.dog.ceo/breeds/terrier-fox/n02095314_1789.jpg"
 canonicalUrl: "https://pupwiki.com/blog/teddy-roosevelt-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Teddy Roosevelt Terriers
-Teddy Roosevelt Terriers are small-sized (8–25 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Teddy Roosevelt Terriers are delightful companions in the home. They learn quickly and are ready for any activity their owners engage in. While they will still keep the family farm and home free of rats and mice, the job for which they were bred, they also excel in companion sports such as agility and obedience. They get along with other dogs without belligerence and have retained their prey drive without obsessive compulsion. At the end of the day, they love nothing better than to share the love and companionship of their owners. Teddies can adapt to pretty much any lifestyle, whether you show in conformation rings, work in agility trials, or just want a great companion for your home or farm. Their small to medium size make them suitable to apartment living as well. This loyal, active and playful breed is at its best as a member of its human family. Club Contact DetailsClub: American Te
+
+### Teddy Roosevelt Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a Teddy Roosevelt Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Teddy Roosevelt Terrier puppy

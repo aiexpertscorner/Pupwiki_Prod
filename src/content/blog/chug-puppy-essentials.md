@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "chug"
 breedName: "Chug"
 wordCountEstimate: 426
+image: "https://images.dog.ceo/breeds/chihuahua/n02085620_735.jpg"
 canonicalUrl: "https://pupwiki.com/blog/chug-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Chugs
-Chugs are small-sized (11.02–19.84 lbs), with regular energy, seasonal shedding, and a medium coat. The recommendations below are matched to these traits.
+Chug is a designer cross between the Chihuahua and the Pug. This mix usually weighs about 11-20 pounds, often lands somewhere between its parent coat types, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Respiratory distress, Heat sensitivity. Originally from China.
+
+### Chug at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#62** in canine intelligence (Fair tier), the Chug responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Chug puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Chug puppy

@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "borzoi", "do
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/borzoi", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "borzoi"
 breedName: "Borzoi"
 wordCountEstimate: 434
+image: "https://images.dog.ceo/breeds/borzoi/n02090622_3300.jpg"
 canonicalUrl: "https://pupwiki.com/blog/borzoi-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Borzois
-Borzois are large-sized (60–105 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Borzoi are large, elegant sighthounds. A mature male stands at least 28 inches at the shoulder and weighs 75 to 105 pounds. Females will be smaller. Beneath the luxurious silky coat, Borzoi construction follows the ancient Greyhound template. Once known as the Russian Wolfhound, Borzoi were bred to be swift and tough enough to pursue and pin their ferocious lupine quarry.In their quiet, catlike way they can be stubborn, and training is best accomplished with patience, consistency, and good humor. Affectionate family dogs, Borzoi are nonetheless a bit too dignified to wholeheartedly enjoy a lot of roughhousing. The sight of a cat or squirrel on the run will quickly stir their pursuit instinct, and fenced-in running room is a must. Among the most impressively beautiful of all dogs, the aristocratic Borzoi is cherished for his calm, agreeable temperament. In full stride, he is a princely pa
+
+### Borzoi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
+
+Ranked **#76** in canine intelligence (Lowest tier), the Borzoi benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Borzois
 No breed-specific genetic ailments are currently documented for the Borzoi (typical life expectancy: 9–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Borzoi health

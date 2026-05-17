@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "lakeland-terrier"
 breedName: "Lakeland Terrier"
 wordCountEstimate: 353
+image: "https://images.dog.ceo/breeds/terrier-lakeland/n02095570_4226.jpg"
 canonicalUrl: "https://pupwiki.com/blog/lakeland-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Lakeland Terriers
-Lakeland Terriers are small-sized (17 lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Square and sturdy Lakelands, standing less than 15 inches at the shoulder and weighing about 17 pounds, are small dogs. But don’t tell them that. With their cock-of-the-walk swagger, Lakelands personify the old dog-lover’s cliché “a big dog in a small package.” They come in several colors; some have a sporty saddle mark on the back.With folded V-shaped ears, straight front, rectangular head, and a mischievous twinkle in their eye, Lakelands are the blueprint of a long-legged British terrier. A bold, zesty “big dog in a small package,” the Lakeland Terrier, named for the Lake District of his native England, was once a farmer’s dog bred to work in packs on sheep-stealing foxes. The Lakeland's coat is hard, wiry, and low-shedding.
+
+### Lakeland Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Lakeland Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Lakeland Terrier puppy

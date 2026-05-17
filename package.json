@@ -52,7 +52,7 @@
     "editorial:import": "node scripts/content/generate-editorial-posts.mjs --apply --only-existing",
     "editorial:scaffold": "node scripts/content/generate-editorial-posts.mjs --apply --only-scaffold",
     "content:generate:pseo:check": "node scripts/content/generate-pseo-opportunity-pages.mjs --mode=clusters --limit=20",
-    "content:generate:pseo:ci": "node scripts/content/generate-pseo-opportunity-pages.mjs --mode=all --limit=100 --cluster-limit=20 --breed-limit=400 --apply || echo \"PSEO generation paused/skipped; continuing build with existing reviewed content\"",
+    "content:generate:pseo:ci": "node scripts/content/generate-pseo-opportunity-pages.mjs --mode=all --limit=2000 --cluster-limit=25 --breed-limit=1000 --min-programs=0 --apply || echo \"PSEO generation paused/skipped; continuing build with existing reviewed content\"",
     "content:generate:pseo:clusters": "node scripts/content/generate-pseo-opportunity-pages.mjs --mode=clusters --limit=20 --apply",
     "content:generate:pseo:breed-pages": "node scripts/content/generate-pseo-opportunity-pages.mjs --mode=breed-pages --limit=3000 --apply",
     "content:generate:pseo": "node scripts/content/generate-pseo-opportunity-pages.mjs --mode=all --limit=1000 --apply",

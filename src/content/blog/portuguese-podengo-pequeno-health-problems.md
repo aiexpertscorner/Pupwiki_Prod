@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "portuguese-p
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/portuguese-podengo-pequeno", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "portuguese-podengo-pequeno"
 breedName: "Portuguese Podengo Pequeno"
 wordCountEstimate: 407
+image: "https://images.dog.ceo/breeds/hound-ibizan/n02091244_110.jpg"
 canonicalUrl: "https://pupwiki.com/blog/portuguese-podengo-pequeno-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Portuguese Podengo Pequenos
-Portuguese Podengo Pequenos are small-sized (9–13 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Pequeno is the smallest of Portugal’s three Podengo breeds, standing 8 to 12 inches at the shoulder and weighing no more than 13 pounds. A distinctive feature is the wedge-shaped head, with expressive almond-shaped eyes and erect, pointed ears. The long-backed body is muscular, the tail tapered and sickle-shaped, and the coat either short and dense or long and wiry. The overall look is that of a rustic, no-nonsense rabbit dog unspoiled by passing fashions. Classified as a hound, the alert and playful little Portuguese Podengo Pequeno is a quick, athletic rabbit hunter of ancient lineage. Pequenos love to run, romp, and chase when outdoors but make charming and well-mannered housemates.
+
+### Portuguese Podengo Pequeno at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Portuguese Podengo Pequenos
 No breed-specific genetic ailments are currently documented for the Portuguese Podengo Pequeno (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Portuguese Podengo Pequeno health

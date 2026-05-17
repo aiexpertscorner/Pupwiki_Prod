@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "portuguese-podengo-pequeno"
 breedName: "Portuguese Podengo Pequeno"
 wordCountEstimate: 364
+image: "https://images.dog.ceo/breeds/hound-ibizan/n02091244_110.jpg"
 canonicalUrl: "https://pupwiki.com/blog/portuguese-podengo-pequeno-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Portuguese Podengo Pequenos
-Portuguese Podengo Pequenos are small-sized (9–13 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Pequeno is the smallest of Portugal’s three Podengo breeds, standing 8 to 12 inches at the shoulder and weighing no more than 13 pounds. A distinctive feature is the wedge-shaped head, with expressive almond-shaped eyes and erect, pointed ears. The long-backed body is muscular, the tail tapered and sickle-shaped, and the coat either short and dense or long and wiry. The overall look is that of a rustic, no-nonsense rabbit dog unspoiled by passing fashions. Classified as a hound, the alert and playful little Portuguese Podengo Pequeno is a quick, athletic rabbit hunter of ancient lineage. Pequenos love to run, romp, and chase when outdoors but make charming and well-mannered housemates.
+
+### Portuguese Podengo Pequeno at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Portuguese Podengo Pequeno puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Portuguese Podengo Pequeno puppy

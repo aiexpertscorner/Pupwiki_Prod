@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "collie", "do
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/collie", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "collie"
 breedName: "Collie"
 wordCountEstimate: 390
+image: "https://images.dog.ceo/breeds/collie-border/n02106166_884.jpg"
 canonicalUrl: "https://pupwiki.com/blog/collie-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Collies
-Collies are large-sized (50–75 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Collie is a large but lithe herder standing anywhere from 22 to 26 inches tall. The rough variety boasts one of the canine kingdom’s most impressively showy coats; the smooth coat’s charms are subtler but no less satisfying. Coat colors in both varieties are sable and white, tricolor, blue merle, or white. Collie fanciers take pride in their breed’s elegant wedge-shaped head, whose mobile ears and almond eyes convey a wide variety of expressions.Collies are famously fond of children and make wonderful family pets. These swift, athletic dogs thrive on companionship and regular exercise. With gentle training, they learn happily and rapidly. The Collie’s loyalty, intelligence, and sterling character are the stuff of legend. The majestic Collie, thanks to a hundred years as a pop-culture star, is among the world’s most recognizable and beloved dog breeds. The full-coated “rough” Collie i The Collie ranks #38 in AKC breed popularity.
+
+### Collie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Collies
 No breed-specific genetic ailments are currently documented for the Collie (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Collie health

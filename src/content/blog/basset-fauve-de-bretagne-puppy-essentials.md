@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "basset-fauve-de-bretagne"
 breedName: "Basset Fauve de Bretagne"
 wordCountEstimate: 367
+image: "https://images.dog.ceo/breeds/hound-basset/n02088238_1944.jpg"
 canonicalUrl: "https://pupwiki.com/blog/basset-fauve-de-bretagne-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Basset Fauve de Bretagnes
-Basset Fauve de Bretagnes are medium-sized (27–35 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+The Basset Fauve de Bretagne, also known as the Fawn Colored Brittany Basset, is a small, stocky, rough-coated hardy dog that is energetic and fast for its size. The Fauve gets along well with children and other pets. Training and socialization is a must or Fauves can get into mischief. Not nuisance barkers, you will, however, know if a rabbit runs through the yard, as they then give the hound “voice” and chase. This breed is as happy romping in the field as he is curled up next to the family on the sofa. Smart, courageous and determined, the Basset Fauve de Bretagne is a serious hunter, easily adaptable to different types of game and terrain. It is equally an excellent companion dog, being cheerful, intelligent and eager to please.
+
+### Basset Fauve de Bretagne at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | █████ Very Friendly |
 ## How to approach a Basset Fauve de Bretagne puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Basset Fauve de Bretagne puppy

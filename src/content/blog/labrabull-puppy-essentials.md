@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "labrabull"
 breedName: "Labrabull"
 wordCountEstimate: 453
+image: "https://images.dog.ceo/breeds/labrador/n02099712_357.jpg"
 canonicalUrl: "https://pupwiki.com/blog/labrabull-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Labrabulls
-Labrabulls are large-sized (44.09–88.18 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Labrabull is a designer cross between the Labrador Retriever and the American Staffordshire Terrier. This mix usually weighs about 44-88 pounds, often carries an easy-care short coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Hip dysplasia, Bloat. Originally from United Kingdom / United States.
+
+### Labrabull at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#7** in canine intelligence (Brightest tier), the Labrabull responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Labrabull puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Labrabull puppy

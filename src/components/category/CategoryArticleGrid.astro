@@ -43,6 +43,8 @@ const {
           category={post.data.category ?? meta.title}
           href={`/blog/${post.slug}`}
           pubDate={toIsoString(post.data.pubDate)}
+          image={(post.data as any).image}
+          slug={post.slug}
         />
       ))}
     </div>

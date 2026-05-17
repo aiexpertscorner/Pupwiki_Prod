@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "sealyham-ter
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/sealyham-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "sealyham-terrier"
 breedName: "Sealyham Terrier"
 wordCountEstimate: 409
+image: "https://images.dog.ceo/breeds/terrier-sealyham/n02095889_931.jpg"
 canonicalUrl: "https://pupwiki.com/blog/sealyham-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Sealyham Terriers
-Sealyham Terriers are small-sized (23–24 lbs), with regular energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Standing less than 11 inches at the shoulder and weighing about 24 pounds, Sealys are not big enough to be considered medium-sized dogs, but they stand among the strongest and most substantial of what we think of as small dogs.A typical Sealy is well-muscled, built low to ground, and moves easily with long, determined strides. The weatherproof coat is predominantly white, and a long, broad head is furnished with lavish facial hair. Despite their rep as the bruiser among short-legged terriers, Sealys are cute, funny, affectionate, outgoing, and trainable, if a bit stubborn. Their alertness and a big-dog bark make Sealys excellent watchdogs. Blessed with an adaptable nature, Sealys are amenable to city dwelling or country life. The Sealyham Terrier is brave and spirited, but not as spiky as smaller terriers. These sturdy, outgoing companions are recognized by their “fall,” the mass of hair
+
+### Sealyham Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Sealyham Terriers
 No breed-specific genetic ailments are currently documented for the Sealyham Terrier (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Sealyham Terrier health

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "drentsche-patrijshond"
 breedName: "Drentsche Patrijshond"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/spaniel-cocker/IMG_20181221_161745_654.jpg"
 canonicalUrl: "https://pupwiki.com/blog/drentsche-patrijshond-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Drentsche Patrijshonds
-Drentsche Patrijshonds are large-sized (48–73 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+The Drent is “par excellence” for hunting a variety of game on diverse terrain. He is known for keeping in touch with the hunter; when on point, while awaiting the hunter, the dog will often look back at his hunting partner if it takes a long time to wait. His adaptability makes him suitable for all manner of game in the field as well as in the water. The Drent is also known to be a good retriever. Due to the Drent’s soft nature, forceful training methods are inappropriate. The dog is expected to bark to announce visitors to the home, and is often reserved towards strangers until welcomed. He is loyal, intelligent and a pet of exceptional value on top of being a good hunting buddy. Club Contact DetailsClub: Drentsche Patrijshond Club of North AmericaName: Brian O’ConnorEmail: dpcna.gundogs@gmail.comPhone: 208-590-0027 This breed is pronounced da'rinse-ah puh'trice-hoon. The Drentsche Pat
+
+### Drentsche Patrijshond at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Drentsche Patrijshond puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Drentsche Patrijshond puppy

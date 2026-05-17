@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "papillon"
 breedName: "Papillon"
 wordCountEstimate: 431
+image: "https://images.dog.ceo/breeds/papillon/n02086910_1475.jpg"
 canonicalUrl: "https://pupwiki.com/blog/papillon-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Papillons
-Papillons are small-sized (5–10 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+A tiny dog, measuring 8 to 11 inches at the shoulder, you can still spot a Papillon a block away thanks to the large, wing-shaped ears that give the breed its name (“papillon” is French for “butterfly”). Some Paps have erect ears; in others, known as the Phalene type, the ears are down. Paps are dainty and elegant, with a plumed tail, and a long, silky coat of several color combinations, the base color being white. More robust than they look, Paps are little dogs for all seasons and reasons. They thrive in warm or cool climates, in town or country, and are eager to join family fun. They are excellent agility dogs and are consistent winners at the sport’s highest levels; less ambitious owners can train them to do all kinds of tricks. The quick, curious Papillon is a toy dog of singular beauty and upbeat athleticism. Despite his refined appearance, the Pap is truly a “doggy dog” blessed wi
+
+### Papillon at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
+
+Ranked **#8** in canine intelligence (Brightest tier), the Papillon responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Papillon puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Papillon puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "old-english-sheepdog"
 breedName: "Old English Sheepdog"
 wordCountEstimate: 460
+image: "https://images.dog.ceo/breeds/sheepdog-english/n02105641_8273.jpg"
 canonicalUrl: "https://pupwiki.com/blog/old-english-sheepdog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Old English Sheepdogs
-Old English Sheepdogs are large-sized (60–100 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Beneath the Old English Sheepdog’s profuse double coat is a muscular and compact drover, with plenty of bone and a big rump, standing 21 or 22 inches at the shoulder. Their eyes (when you can see them) are dark brown, or blue, or one of each. The OES breed standard says the skull is “capacious and rather squarely formed, giving plenty of room for brain power.”OES move with a bear-like shuffle but are famous for their nimbleness afoot. Regular exercise is required for these strong, able-bodied workers. Equally famed are their many fine housedog qualities: watchfulness, courage, kindliness, and intelligence. Great with children, OES make patient, protective playmates. They are sensible watchdogs known for a loud, ringing bark. The Old English Sheepdog is the archetypical shaggy dog, famous for his profuse coat and peak-a-boo hairdo, a distinctive bear-like gait, and a mellow, agreeable nat
+
+### Old English Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
+
+Ranked **#63** in canine intelligence (Fair tier), the Old English Sheepdog benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Old English Sheepdog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Old English Sheepdog puppy

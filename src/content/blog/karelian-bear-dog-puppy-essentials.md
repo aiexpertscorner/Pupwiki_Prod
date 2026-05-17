@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "karelian-bear-dog"
 breedName: "Karelian Bear Dog"
 wordCountEstimate: 353
+image: "https://images.dog.ceo/breeds/spitz-japanese/beet-001.jpg"
 canonicalUrl: "https://pupwiki.com/blog/karelian-bear-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Karelian Bear Dogs
-Karelian Bear Dogs are medium-sized (44–49 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Karelian Bear Dog is a medium-sized spitz with a dense coat. Bred to hunt large, aggressive game by himself, his build reflects his duties. He is a silent hunter, and only barks once the game is stopped or treed. Working with an experienced hunter, he communicates the type of animal he has located by the sound of his bark. Though he can demonstrate self-control around people, his fighting spirit surfaces around other dogs and can be difficult to handle. His spirit easily turns into aggression, as Karelian Bear Dogs love a challenge. Club Contact DetailsClub: American Karelian Bear Dog AllianceName: Maureen GriffinEmail: nytwind@comcast.netPhone: 860-434-9198 The Karelian Bear Dog is an eager hunter and very independent, yet works cooperatively to mark game by barking. Their senses, especially smell, are sharp, thus the breed is suitable for big game hunting. They have a very good sen
+
+### Karelian Bear Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
 ## How to approach a Karelian Bear Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Karelian Bear Dog puppy

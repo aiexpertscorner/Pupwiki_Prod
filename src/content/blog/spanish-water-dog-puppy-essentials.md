@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "spanish-water-dog"
 breedName: "Spanish Water Dog"
 wordCountEstimate: 358
+image: "https://images.dog.ceo/breeds/waterdog-spanish/20180723_185544.jpg"
 canonicalUrl: "https://pupwiki.com/blog/spanish-water-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Spanish Water Dogs
-Spanish Water Dogs are medium-sized (31–49 lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+The unique look of these inexhaustible workers begins with the coat. It’s naturally curly and wooly head to toe, and when grown out will often form tight, tapered cords. In full coat, the facial hair covers the expressive brown eyes. Colors can be black, brown, beige, white, or particolor (black, brown, beige, with white). “Rustic” is the word often used to describe the overall look of this sturdy dog of medium size (a male will stand a little under 20 inches at the shoulder). The inexhaustible Spanish Water Dog is a dual-purpose breed whose hallmark is a coat of wooly curls. Used as both a herder and waterfowl retriever in his homeland, this rustic charmer is a lively family companion and vigilant watchdog.
+
+### Spanish Water Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
 ## How to approach a Spanish Water Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Spanish Water Dog puppy

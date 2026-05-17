@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "transylvanian-hound"
 breedName: "Transylvanian Hound"
 wordCountEstimate: 332
+image: "https://images.dog.ceo/breeds/hound-afghan/n02088094_1932.jpg"
 canonicalUrl: "https://pupwiki.com/blog/transylvanian-hound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Transylvanian Hounds
-Transylvanian Hounds are medium-sized (55 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+The Transylvanian Hound is an ancient Hungarian hunter created by special climate, terrain and hunting conditions. His whole appearance reflects nobility and harmony. Due to his medium-size, his body is athletic, lean, muscular, and exaggerated, and his movement is balanced and elegant. Its basic nature is calm, balanced yet firm, temperamental and adaptable. Their playful nature makes them an ideal family favorite. Because of their balance and friendliness, they can be kept both in an apartment or house. His courage and loyalty make him a good guard.This scent hound is a basic dog, but it can also be used for retrieval. Hunting in a group or alone, you will hear a far-ranging, high, ringing tone indicating the direction of the game. Working far from the farm, they developed problem-solving abilities and through the centuries have become highly intelligent. The Transylvanian Hound is goo
+
+### Transylvanian Hound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Grooming needs | ██░░░ Low |
+| Trainability | █░░░░ Challenging |
 ## How to approach a Transylvanian Hound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Transylvanian Hound puppy

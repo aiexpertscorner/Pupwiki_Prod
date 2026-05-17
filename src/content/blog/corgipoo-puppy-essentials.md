@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "corgipoo"
 breedName: "Corgipoo"
 wordCountEstimate: 427
+image: "https://images.dog.ceo/breeds/poodle-miniature/n02113712_1136.jpg"
 canonicalUrl: "https://pupwiki.com/blog/corgipoo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Corgipoos
-Corgipoos are medium-sized (11.02–33.07 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Corgipoo is a designer cross between the Pembroke Welsh Corgi and the Poodle (Miniature). This mix usually weighs about 11-33 pounds, often has a curly, low-shed-leaning coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include IVDD (Spinal), Hip dysplasia.
+
+### Corgipoo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#11** in canine intelligence (Excellent tier), the Corgipoo responds well to consistent, positive reinforcement training — placing it among the top 25 most trainable breeds.
 ## How to approach a Corgipoo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Corgipoo puppy

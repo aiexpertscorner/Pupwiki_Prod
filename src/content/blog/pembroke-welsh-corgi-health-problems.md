@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "pembroke-wel
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/pembroke-welsh-corgi", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "pembroke-welsh-corgi"
 breedName: "Pembroke Welsh Corgi"
 wordCountEstimate: 605
+image: "https://images.dog.ceo/breeds/pembroke/n02113023_6226.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pembroke-welsh-corgi-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Pembroke Welsh Corgis
-Pembroke Welsh Corgis are medium-sized (28–30 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+At 10 to 12 inches at the shoulder and 27 to 30 pounds, a well-built male Pembroke presents a big dog in a small package. Short but powerful legs, muscular thighs, and a deep chest equip him for a hard day’s work. Built long and low, Pembrokes are surprisingly quick and agile. They can be red, sable, fawn, and black and tan, with or without white markings.The Pembroke is a bright, sensitive dog who enjoys play with his human family and responds well to training. As herders bred to move cattle, they are fearless and independent. They are vigilant watchdogs, with acute senses and a “big dog” bark. Families who can meet their bold but kindly Pembroke’s need for activity and togetherness will never have a more loyal, loving pet. Among the most agreeable of all small housedogs, the Pembroke Welsh Corgi is a strong, athletic, and lively little herder who is affectionate and companionable witho The Pembroke Welsh Corgi ranks #13 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Pembroke Welsh Corgi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#11** in canine intelligence (Excellent tier), the Pembroke Welsh Corgi responds well to consistent, positive reinforcement training — placing it among the top 25 most trainable breeds.
 ### Common health concerns for Pembroke Welsh Corgis
 Pembroke Welsh Corgis have 9 documented genetic health conditions: cataracts + other eye problems, connective tissue, nerves, kidneys, spine, blood clotting disorders. Typical life expectancy is 12–13 years.
 - **Cataracts + other eye problems**: Ask your vet about recommended screening and prevention for this condition in Pembroke Welsh Corgis.

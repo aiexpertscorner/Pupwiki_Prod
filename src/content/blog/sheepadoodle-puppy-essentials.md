@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "sheepadoodle"
 breedName: "Sheepadoodle"
 wordCountEstimate: 440
+image: "https://images.dog.ceo/breeds/sheepdog-english/n02105641_4975.jpg"
 canonicalUrl: "https://pupwiki.com/blog/sheepadoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Sheepadoodles
-Sheepadoodles are large-sized (59.52–88.18 lbs), with regular energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.
+Sheepadoodle is a designer cross between the Old English Sheepdog and the Poodle (Standard). This mix usually weighs about 60-88 pounds, often has a wavy or fleece-like coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Gastric Torsion (Bloat), Skin issues.
+
+### Sheepadoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#63** in canine intelligence (Fair tier), the Sheepadoodle responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Sheepadoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Sheepadoodle puppy

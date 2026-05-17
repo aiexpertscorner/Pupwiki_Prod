@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "poochon"
 breedName: "Poochon"
 wordCountEstimate: 423
+image: "https://images.dog.ceo/breeds/poodle-toy/Cookie.jpg"
 canonicalUrl: "https://pupwiki.com/blog/poochon-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Poochons
-Poochons are small-sized (8.82–17.64 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+Poochon is a designer cross between the Poodle (Toy) and the Bichon Frise. This mix usually weighs about 9-18 pounds, often has a curly, low-shed-leaning coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Allergies, Patellar luxation.
+
+### Poochon at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | ████░ High |
+| Sociability | █████ Very Friendly |
+
+Ranked **#45** in canine intelligence (Average tier), the Poochon responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Poochon puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Poochon puppy

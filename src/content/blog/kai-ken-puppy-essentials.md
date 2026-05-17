@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "kai-ken"
 breedName: "Kai Ken"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/shiba/shiba-14.jpg"
 canonicalUrl: "https://pupwiki.com/blog/kai-ken-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Kai Kens
-Kai Kens are medium-sized (20–40 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Kai Ken are athletic and intelligent with a strong desire to hunt. The Kai is an independent thinker and can form a strong bond with their family. They are excellent swimmers and climbers and have been known to climb trees and swim rivers in pursuit of game. Kai have a distinct brindle coat that comes in three colors: Black Brindle (Kuro-Tora), Brindle (Chu-Tora), and Red Brindle (Aka-Tora). Red brindle is the rarest of the coat colors. The distinct coloring and brindle pattern enabled the dog to blend in to the mountainous forests in which it hunted, camouflaging it against prey and predators in ancient times. The amount of brindle will vary from dog to dog as well as the brindle pattern. Most puppies are born completely black and their brindle will emerge as they age and will continue to change for around the first five years of their life. In the home, the Kai Ken requires basic canin
+
+### Kai Ken at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Kai Ken puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Kai Ken puppy

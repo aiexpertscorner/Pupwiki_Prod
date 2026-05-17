@@ -30,7 +30,17 @@ canonicalUrl: "https://pupwiki.com/blog/mudi-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Mudis
-Mudis are medium-sized (18–29 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+The Mudi (pronounced “moodie”) is a medium-sized herding dog from Hungary which has been in existence since the 19th century. It is said the Mudi evolved naturally from crosses of the Puli, Pumi and German Spitz breeds. Today, the Mudi, though very rare, is seen as an active, intelligent, biddable working breed. It is estimated there are no more than a few thousand Mudi worldwide, with the greatest numbers being in Hungary, followed by Finland, and then even scarcer throughout Europe, the U.S, and Canada. The Mudi excels at agility, obedience, and flyball, as well as other dog sports. He is a true working breed and shines when herding both cattle and sheep, and has found fame as a search and rescue dog in both Finland and the U.S. Club Contact DetailsClub: Mudi Club of AmericaName: Susanne AndersonEmail: sande2404@gmail.com The Mudi is an extremely versatile, intelligent, alert, agile, a
+
+### Mudi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
 ## How to approach a Mudi puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Mudi puppy

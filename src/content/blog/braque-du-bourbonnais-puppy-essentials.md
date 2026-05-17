@@ -26,11 +26,21 @@ medicalDisclaimer: false
 breedSlug: "braque-du-bourbonnais"
 breedName: "Braque du Bourbonnais"
 wordCountEstimate: 349
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_3134.jpg"
 canonicalUrl: "https://pupwiki.com/blog/braque-du-bourbonnais-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Braque du Bourbonnaiss
-Braque du Bourbonnaiss are medium-sized (35–53 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+The Bourbonnais is an ancient breed that evolved in France during the 15th century in the historic province of Bourbonnais. By the 1800s, the breed was known amongst French hunters as a tailless pointer with distinctive fawn and liver ticking. The Braque du Bourbonnais has now gained a strong foothold in North America; some years there are more pups registered in the United States than its homeland of France. In English, he is the Bourbonnais Pointing Dog. He is kind and affectionate in the home and a serious, adaptable, intelligent hunter in the field. Club Contact DetailsClub: Braque du Bourbonnais Club of AmericaName: Cindy PetkwitzEmail: villagelock58@comcast.netAddress: 572 Hollywood, Grosse Pointe, MI 48236Phone: (313) 881-8603 Pronounced brock-do-bor-bon-NAY, this pointer has a calm, gentle demeanor that is ideally suited for the foot hunter. The breed's relatively small size and
+
+### Braque du Bourbonnais at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
 ## How to approach a Braque du Bourbonnais puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Braque du Bourbonnais puppy

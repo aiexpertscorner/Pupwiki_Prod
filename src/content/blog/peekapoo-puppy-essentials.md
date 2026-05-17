@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "peekapoo"
 breedName: "Peekapoo"
 wordCountEstimate: 436
+image: "https://images.dog.ceo/breeds/pekinese/n02086079_19863.jpg"
 canonicalUrl: "https://pupwiki.com/blog/peekapoo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Peekapoos
-Peekapoos are small-sized (8.82–19.84 lbs), with calm energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.
+Peekapoo is a designer cross between the Pekingese and the Poodle (Miniature). This mix usually weighs about 9-20 pounds, often has a wavy or fleece-like coat, and often blends a calmer companion temperament with moderate activity needs from both sides of the pedigree. Common monitoring areas include Breathing difficulties, Bulging eyes (Injury risk).
+
+### Peekapoo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █░░░░ Challenging |
+| Sociability | ██░░░ Selective |
+
+Ranked **#74** in canine intelligence (Fair tier), the Peekapoo benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Peekapoo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Peekapoo puppy

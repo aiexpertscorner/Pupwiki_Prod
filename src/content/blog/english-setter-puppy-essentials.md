@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "english-setter"
 breedName: "English Setter"
 wordCountEstimate: 450
+image: "https://images.dog.ceo/breeds/setter-english/n02100735_7863.jpg"
 canonicalUrl: "https://pupwiki.com/blog/english-setter-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About English Setters
-English Setters are large-sized (45–80 lbs), with active energy, heavy shedding, and a silky coat. The recommendations below are matched to these traits.
+English Setters are elegant but solid dogs of beauty and charm. The word “belton,” unique to the breed, describes the speckled coat patterns of colors that sound good enough to eat: liver, lemon, and orange among them. Under the showy coat is a well-balanced hunter standing about 25 inches at the shoulder.A graceful neck carries a long, oval-shaped head proudly, and dark brown eyes convey a soft expression. The merry English Setter is known as the gentleman of the dog world but is game and boisterous at play. English Setters get on well with other dogs and people. A veteran all-breed dog handler says, “As a breed to share one’s life and living space with, no other breed gives me more pleasure than the English Setter.” The English Setter is a medium-sized sporting dog of sweet temper and show-stopping good looks. It is one of the AKC’s four British setters created to work on the distinctl
+
+### English Setter at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#37** in canine intelligence (Above average tier), the English Setter responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a English Setter puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a English Setter puppy

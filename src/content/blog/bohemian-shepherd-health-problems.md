@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "bohemian-she
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/bohemian-shepherd", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "bohemian-shepherd"
 breedName: "Bohemian Shepherd"
 wordCountEstimate: 366
+image: "https://images.dog.ceo/breeds/german-shepherd/n02106662_24774.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bohemian-shepherd-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Bohemian Shepherds
-Bohemian Shepherds are medium-sized (37–60 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+The Bohemian Shepherd is an intelligent, lively, quick, athletic breed which enthusiastically welcomes most any activity introduced, making the breed rather versatile. They succeed in many arenas such as agility, dog dancing, schutzhund, search and rescue, nose work, tracking, pastoral work, obedience, therapy dogs, service dogs, and are now breaking into the fields of coursing, dock diving and endurance tests. The Bohemian Shepherd makes an excellent family dog due to its devotion to family members and adoration of children. This is a breed which loves to be with its family and also does well with other non-human members of the family when raised with them. Bohemian Shepherd Club of North AmericaEmail: bscnainfo@gmail.com The Bohemian Shepherd is an intelligent, lively, quick, athletic breed which enthusiastically welcomes most any activity introduced, making the breed rather versatile.
+
+### Bohemian Shepherd at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Bohemian Shepherds
 No breed-specific genetic ailments are currently documented for the Bohemian Shepherd (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Bohemian Shepherd health

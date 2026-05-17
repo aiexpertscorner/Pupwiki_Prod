@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "cardigan-wel
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/cardigan-welsh-corgi", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "cardigan-welsh-corgi"
 breedName: "Cardigan Welsh Corgi"
 wordCountEstimate: 388
+image: "https://images.dog.ceo/breeds/corgi-cardigan/n02113186_2419.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cardigan-welsh-corgi-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Cardigan Welsh Corgis
-Cardigan Welsh Corgis are medium-sized (25–38 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Long, low-set dogs with sturdy bone, short legs, and a deep chest, Cardigans are powerful workers of deceptive speed and grace. Cardis can weigh anywhere from 25 to 34 pounds, with females at the lower end of the scale. They come in several coat colors, from red to the popular blue-merle pattern. The quickest way to distinguish Cardis from their cousins, Pembroke Welsh Corgis, is to check out the hindquarters: Cardigans have tails; Pembrokes do not.Cardis are trainable, faithful, and vigilant guardians with a “big dog” bark. Well-socialized Cardis are especially fond of kids and agreeable with other pets. These athletic, rugged herders have a love for the outdoors, and they thrive on mental stimulation and physical activity. The Cardigan Welsh Corgi is a masterpiece of the breeder’s art: Every aspect of its makeup is perfectly suited to moving cattle, and yet it is so congenial and sweet
+
+### Cardigan Welsh Corgi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Cardigan Welsh Corgis
 No breed-specific genetic ailments are currently documented for the Cardigan Welsh Corgi (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Cardigan Welsh Corgi health

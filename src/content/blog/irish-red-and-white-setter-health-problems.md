@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "irish-red-an
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/irish-red-and-white-setter", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,22 @@ medicalDisclaimer: true
 breedSlug: "irish-red-and-white-setter"
 breedName: "Irish Red and White Setter"
 wordCountEstimate: 396
+image: "https://images.dog.ceo/breeds/setter-irish/n02100877_8507.jpg"
 canonicalUrl: "https://pupwiki.com/blog/irish-red-and-white-setter-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Irish Red and White Setters
-Irish Red and White Setters are medium-sized (35–60 lbs), with active energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Sportsmen thrill at the sight of a noble Red and White frozen on point, motionless as a statue. These medium-to-large bird dogs are powerful, solid, and sinewy, with enough stamina and bird sense to get the job done any day of the week and twice on Sunday. The stunning coat—vivid red “islands” floating on a sea of pearl white—has a practical function: It enables hunters to spot their dog at a distance. The handsome face projects a keen but kindly expression. The rollicking Irish Red and White Setter is an athletic medium-sized bird dog bred primarily for hunting. Fun-loving, friendly, and high-spirited, Irish Red and Whites are a bit shorter and stockier than their cousin the Irish Setter.
+
+### Irish Red and White Setter at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Irish Red and White Setters
 No breed-specific genetic ailments are currently documented for the Irish Red and White Setter (typical life expectancy: 11–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Irish Red and White Setter health

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "shih-poo"
 breedName: "Shih-poo"
 wordCountEstimate: 435
+image: "https://images.dog.ceo/breeds/shihtzu/n02086240_2710.jpg"
 canonicalUrl: "https://pupwiki.com/blog/shih-poo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Shih-poos
-Shih-poos are small-sized (8.82–17.64 lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
+Shih-poo is a designer cross between the Shih Tzu and the Poodle (Toy). This mix usually weighs about 9-18 pounds, often has a wavy or fleece-like coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Dental crowding, Eye infections. Originally from China.
+
+### Shih-poo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#70** in canine intelligence (Fair tier), the Shih-poo responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Shih-poo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Shih-poo puppy

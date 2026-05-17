@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "puli", "dog-
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/puli", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -31,7 +31,17 @@ canonicalUrl: "https://pupwiki.com/blog/puli-health-problems"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Pulis
-Pulis are medium-sized (25–35 lbs), with regular energy, minimal shedding, and a corded coat. The recommendations below are matched to these traits.
+First, there are those dreadlocks, the instantly recognizable feature of the Puli (pronounced “Poo-lee”—”Pulik” is the plural). The coat’s naturally occurring cords are wooly, dense, and weatherproof. Either corded or brushed out, Puli coats require lots of attention. Under the dreads there’s a compact but powerful dog, standing 16 to 17 inches at the shoulder. Pulik are remarkably agile and light on their feet, earning a reputation as the “acrobat of the dog world.” No other breed can be mistaken for the Puli, a compact but powerful herder covered from head to tail with profuse, naturally occurring cords. Bred to work closely with humans, these agile and faithful little dynamos are quick learners.
+
+### Puli at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Pulis
 No breed-specific genetic ailments are currently documented for the Puli (typical life expectancy: 10–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Puli health

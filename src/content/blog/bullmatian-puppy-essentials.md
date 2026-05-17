@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "bullmatian"
 breedName: "Bullmatian"
 wordCountEstimate: 414
+image: "https://images.dog.ceo/breeds/dalmatian/cooper1.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bullmatian-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bullmatians
-Bullmatians are medium-sized (39.68–55.12 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+Bullmatian is a designer cross between the Bulldog and the Dalmatian. This mix usually weighs about 40-55 pounds, can inherit a dense double coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Kidney stones, Deafness, Skin infections. Originally from Croatia.
+
+### Bullmatian at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █████ Very Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#58** in canine intelligence (Average tier), the Bullmatian responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Bullmatian puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bullmatian puppy

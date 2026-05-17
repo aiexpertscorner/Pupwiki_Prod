@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "mastidoodle"
 breedName: "Mastidoodle"
 wordCountEstimate: 451
+image: "https://images.dog.ceo/breeds/mastiff-bull/n02108422_3576.jpg"
 canonicalUrl: "https://pupwiki.com/blog/mastidoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Mastidoodles
-Mastidoodles are large-sized (99.21–143.3 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+Mastidoodle is a designer cross between the Mastiff and the Poodle (Standard). This mix usually weighs about 99-143 pounds, often has a curly, low-shed-leaning coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Joint issues, Bloat.
+
+### Mastidoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#72** in canine intelligence (Fair tier), the Mastidoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Mastidoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Mastidoodle puppy

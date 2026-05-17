@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "bracco-italiano"
 breedName: "Bracco Italiano"
 wordCountEstimate: 360
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_619.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bracco-italiano-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bracco Italianos
-Bracco Italianos are large-sized (55–90 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Tough and adapted to all types of hunting, the Bracco Italiano is reliable, intelligent, docile and easy to train. He has a powerful appearance, with lean limbs, well-developed muscles and a sculpted head. In English, he is the Italian Pointing Dog. The Bracco Italiano is one of the oldest of the pointing breeds. It was introduced into the United States in the 1990s and has remained true to its heritage as a versatile gun dog. It is gentle in the home and tireless in the field.
+
+### Bracco Italiano at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ## How to approach a Bracco Italiano puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bracco Italiano puppy

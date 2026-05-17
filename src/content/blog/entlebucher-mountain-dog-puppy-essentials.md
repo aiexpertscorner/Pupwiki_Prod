@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "entlebucher-mountain-dog"
 breedName: "Entlebucher Mountain Dog"
 wordCountEstimate: 348
+image: "https://images.dog.ceo/breeds/entlebucher/n02108000_1167.jpg"
 canonicalUrl: "https://pupwiki.com/blog/entlebucher-mountain-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Entlebucher Mountain Dogs
-Entlebucher Mountain Dogs are medium-sized (40–65 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Entlebucher (ENT-leh-boo-cur) Mountain Dogs are muscular, long-backed cattle dogs standing from 16 to 21 inches at the shoulder. They have short, sturdy legs; a striking black, white, and tan coat; and an attentive, friendly face. Entles are famous for their agility, balance, and boundless enthusiasm.Entles are vigilant protectors of their four- or two-legged “herds” and, when properly socialized, make durable and trustworthy playmates for older kids. Energetic Entles require lots of exercise, family time, and direction to reach their full potential. Inexperienced owners might be overwhelmed by this strong, self-confident, go-go herding dog eager for work.Entlebuchers are fine dogs—clever, zesty, happy—but not for everyone. The Entlebucher Mountain Dog, tricolor “Laughing Dog” of the Swiss Alps, is a rugged and determined mover of cattle. These spirited, energetic workers and athletes ar
+
+### Entlebucher Mountain Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Entlebucher Mountain Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Entlebucher Mountain Dog puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "yorkipoo"
 breedName: "Yorkipoo"
 wordCountEstimate: 423
+image: "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_3480.jpg"
 canonicalUrl: "https://pupwiki.com/blog/yorkipoo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Yorkipoos
-Yorkipoos are small-sized (6.61–15.43 lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
+Yorkipoo is a designer cross between the Yorkshire Terrier and the Poodle (Toy). This mix usually weighs about 7-15 pounds, often has a wavy or fleece-like coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Legg-Calve-Perthes disease, Hypoglycemia. Originally from United Kingdom.
+
+### Yorkipoo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#27** in canine intelligence (Above average tier), the Yorkipoo responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Yorkipoo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Yorkipoo puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "cockapoo"
 breedName: "Cockapoo"
 wordCountEstimate: 423
+image: "https://images.dog.ceo/breeds/cockapoo/Guri6.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cockapoo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cockapoos
-Cockapoos are small-sized (13.23–24.25 lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
+Cockapoo is a designer cross between the Cocker Spaniel and the Poodle (Miniature). This mix usually weighs about 13-24 pounds, often has a wavy or fleece-like coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Ear infections, Luxating Patella, Liver disease.
+
+### Cockapoo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
+
+Ranked **#20** in canine intelligence (Excellent tier), the Cockapoo responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ## How to approach a Cockapoo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Cockapoo puppy

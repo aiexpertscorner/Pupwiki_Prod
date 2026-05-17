@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "japanese-spitz"
 breedName: "Japanese Spitz"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/spitz-japanese/beet-005.jpg"
 canonicalUrl: "https://pupwiki.com/blog/japanese-spitz-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Japanese Spitzs
-Japanese Spitzs are small-sized (10–25 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+The Japanese Spitz, as a companion breed, enjoy the company of their families and truly are little comedians. They love to please their family and are thus eager to learn; they always have a smile on their face. Distinctive features include their pure white coat that has a mane-like feature about their neck. Also, like other spitz breeds, their tails curl over their back in a beautiful hair plume. A pointed muzzle likens them to a fox with a black nose, black eye rims, and ears of pointed triangles, which stand erect and move like radar towers, hearing everything going on around them and making this breed very alert. The Japanese Spitz are little comedians who want to make you happy and laugh. They are very loyal and smart and make wonderful companions. Game for adventures, they will tag along on a hike, a car ride, or a trip to the beach or lake. They love their humans and just enjoy be
+
+Originally from Japan, the Japanese Spitz belongs to the Spitz and Primitive Types group.
+
+### Japanese Spitz at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ## How to approach a Japanese Spitz puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Japanese Spitz puppy

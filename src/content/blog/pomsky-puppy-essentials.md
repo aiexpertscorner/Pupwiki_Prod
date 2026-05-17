@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "pomsky"
 breedName: "Pomsky"
 wordCountEstimate: 416
+image: "https://images.dog.ceo/breeds/pomeranian/n02112018_5888.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pomsky-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pomskys
-Pomskys are medium-sized (19.84–30.86 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Pomsky is a designer cross between the Pomeranian and the Siberian Husky. This mix usually weighs about 20-31 pounds, can inherit a dense double coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Eye problems, Skin allergies, Dislocated kneecaps. Originally from Russia.
+
+### Pomsky at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#34** in canine intelligence (Above average tier), the Pomsky responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Pomsky puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pomsky puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "hanoverian-scenthound"
 breedName: "Hanoverian Scenthound"
 wordCountEstimate: 369
+image: "https://images.dog.ceo/breeds/hound-english/n02089973_770.jpg"
 canonicalUrl: "https://pupwiki.com/blog/hanoverian-scenthound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Hanoverian Scenthounds
-Hanoverian Scenthounds are large-sized (79–99 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Hailing from Germany, The Hanoverian Scenthound is the Hannoverscher Schweißhund in its native language. In general appearance, the highly efficient Hanoverian is of medium-large size, well proportioned and powerful. Well set strongly muscled fore and hind limbs qualify him for tireless work. His broad, deep chest provides ample room for the lungs and enables long, strenuous chases. The slightly wrinkled forehead and the clear, dark eyes produce the serious expression typical of the Hanoverian Scenthound. Also typical for the breed is the red primary color of the coat, which can vary from a pale fawn color to a dark brindle, appearing almost black. The Hanoverian Scenthound has a calm and assured temperament, at the same time sensitive with his handler, and choosy and discerning with strangers. He has high capabilities of concentration in any tracking work with strong loyalty to the hunt
+
+### Hanoverian Scenthound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Hanoverian Scenthound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Hanoverian Scenthound puppy

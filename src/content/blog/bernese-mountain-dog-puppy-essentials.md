@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "bernese-mountain-dog"
 breedName: "Bernese Mountain Dog"
 wordCountEstimate: 448
+image: "https://images.dog.ceo/breeds/mountain-bernese/n02107683_275.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bernese-mountain-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bernese Mountain Dogs
-Bernese Mountain Dogs are large-sized (70–115 lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.
+The Bernese Mountain Dog is a large, sturdy worker who can stand over 27 inches at the shoulder. The thick, silky, and moderately long coat is tricolored: jet black, clear white, and rust. The distinctive markings on the coat and face are breed hallmarks and, combined with the intelligent gleam in the dark eyes, add to the Berner’s aura of majestic nobility. A hardy dog who thrives in cold weather, the Berner’s brain and brawn helped him multitask on the farms and pastures of Switzerland.Berners get along with the entire family and are particularly gentle with children, but they will often become more attached to one lucky human. Berners are imposing but not threatening, and they maintain an aloof dignity with strangers. Big, powerful, and built for hard work, the Bernese Mountain Dog is also strikingly beautiful and blessed with a sweet, affectionate nature. Berners are generally placid
+
+Originally from Switzerland, the Bernese Mountain Dog belongs to the Pinschers, Schnauzers, Molosser and Swiss Mountain Dogs group. The Bernese Mountain Dog ranks #22 in AKC breed popularity.
+
+### Bernese Mountain Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █████ Very Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
+
+Ranked **#22** in canine intelligence (Excellent tier), the Bernese Mountain Dog responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ## How to approach a Bernese Mountain Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bernese Mountain Dog puppy

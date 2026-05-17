@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "dorgi"
 breedName: "Dorgi"
 wordCountEstimate: 428
+image: "https://images.dog.ceo/breeds/dachshund/tina.jpg"
 canonicalUrl: "https://pupwiki.com/blog/dorgi-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Dorgis
-Dorgis are medium-sized (15.43–28.66 lbs), with active energy, seasonal shedding, and a medium coat. The recommendations below are matched to these traits.
+Dorgi is a designer cross between the Dachshund and the Pembroke Welsh Corgi. This mix usually weighs about 15-29 pounds, often lands somewhere between its parent coat types, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Severe IVDD risk (Long spine). Originally from Germany.
+
+### Dorgi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#30** in canine intelligence (Above average tier), the Dorgi responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Dorgi puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Dorgi puppy

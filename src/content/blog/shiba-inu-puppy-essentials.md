@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "shiba-inu"
 breedName: "Shiba Inu"
 wordCountEstimate: 356
+image: "https://images.dog.ceo/breeds/shiba/shiba-2.jpg"
 canonicalUrl: "https://pupwiki.com/blog/shiba-inu-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Shiba Inus
-Shiba Inus are small-sized (17–23 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Brought to America from Japan as recently as 60 years ago, Shibas are growing in popularity in the West and are already the most popular breed in their homeland. Their white markings combined with their coloring (red, red sesame, or black and tan) and their alert expression and smooth stride makes them almost foxlike. They’re sturdy, muscular dogs with a bold, confident personality to match. An ancient Japanese breed, the Shiba Inu is a little but well-muscled dog once employed as a hunter. Today, the spirited, good-natured Shiba is the most popular companion dog in Japan. The adaptable Shiba is at home in town or country. Originally from Japan, the Shiba Inu belongs to the Spitz and Primitive Types group. The Shiba Inu ranks #44 in AKC breed popularity.
+
+### Shiba Inu at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Shiba Inu puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Shiba Inu puppy

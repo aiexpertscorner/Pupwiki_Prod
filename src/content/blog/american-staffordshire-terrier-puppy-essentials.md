@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "american-staffordshire-terrier"
 breedName: "American Staffordshire Terrier"
 wordCountEstimate: 369
+image: "https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_1643.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-staffordshire-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Staffordshire Terriers
-American Staffordshire Terriers are large-sized (40–70 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+AmStaffs are stocky, muscular bull-type terriers standing 17 to 19 inches at the shoulder. The head is broad, the jaws well defined, the cheekbones pronounced, and the dark, round eyes are set wide apart. AmStaff movement is agile and graceful, with a springy gait that advertises the breed’s innate confidence. The stiff, glossy coat comes in many colors and patterns. AmStaffers describe their dogs as keenly aware of their surroundings, game for anything, and lovable “personality dogs” around the house. AmStaffs like mental and physical challenges. They are highly trainable, as their many forays into showbiz suggest. When acquiring an AmStaff, there’s only one way to go: Do your homework and find a responsible AKC breeder. The American Staffordshire Terrier, known to their fans as AmStaffs, are smart, confident, good-natured companions. Their courage is proverbial. A responsibly bred, wel
+
+Originally from United States, the American Staffordshire Terrier belongs to the Terriers group.
+
+### American Staffordshire Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a American Staffordshire Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a American Staffordshire Terrier puppy

@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "slovensky-cuvac"
 breedName: "Slovensky Cuvac"
 wordCountEstimate: 374
+image: "https://images.dog.ceo/breeds/samoyed/n02111889_2544.jpg"
 canonicalUrl: "https://pupwiki.com/blog/slovensky-cuvac-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Slovensky Cuvacs
-Slovensky Cuvacs are large-sized (68–97 lbs), with calm energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+The Slovensky Cuvac’s breed characteristics conform in type with those of a mountain dog of firm constitution, impressive appearance and thick white coat. He has a strong bone, a lively temperament and is vigilant, fearless and alert. For centuries, he has been accustomed to the harsh climate of the Slovakian mountains, especially the Tatra Mountains. His vigilance and alertness helped to give him his name, as the Slovak word cuvat means to hear. The Slovensky Cuvac is boundlessly faithful and courageous and always ready to fight off any intruder, even if they are bears and wolves. In order to distinguish him from wild animals in the night, he is, according to ancient tradition, only bred in white.
+
+### Slovensky Cuvac at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
 ## How to approach a Slovensky Cuvac puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Slovensky Cuvac puppy

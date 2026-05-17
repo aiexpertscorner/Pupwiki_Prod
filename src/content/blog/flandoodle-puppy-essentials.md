@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "flandoodle"
 breedName: "Flandoodle"
 wordCountEstimate: 451
+image: "https://images.dog.ceo/breeds/bouvier/n02106382_152.jpg"
 canonicalUrl: "https://pupwiki.com/blog/flandoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Flandoodles
-Flandoodles are large-sized (66.14–99.21 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Flandoodle is a designer cross between the Bouvier des Flandres and the Poodle (Standard). This mix usually weighs about 66-99 pounds, often has a curly, low-shed-leaning coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Glaucoma, Heart issues.
+
+### Flandoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █████ Very High |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#29** in canine intelligence (Above average tier), the Flandoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Flandoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Flandoodle puppy

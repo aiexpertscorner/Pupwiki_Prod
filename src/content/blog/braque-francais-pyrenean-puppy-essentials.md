@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "braque-francais-pyrenean"
 breedName: "Braque Francais Pyrenean"
 wordCountEstimate: 351
+image: "https://images.dog.ceo/breeds/pointer-germanlonghair/hans3.jpg"
 canonicalUrl: "https://pupwiki.com/blog/braque-francais-pyrenean-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Braque Francais Pyreneans
-Braque Francais Pyreneans are medium-sized (40–55 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+The Braque Francais Pyrenean is a well-proportioned, medium-sized dog with a soft, shorthaired coat. He was bred to hunt the very rugged and arid Pyrenees Mountain range on the border of France and Spain. The breed dates back hundreds of years and is considered the common ancestor to all of today’s shorthaired pointing breeds. There are actually two types of Braque Francais: the Gascony Type and the Pyrenean type. The Braque Francais Pyrenean is the smaller and more popular of the two. He has a natural retrieve instinct and loves water. He is gentle, friendly sociable, and submissive. The Braque Francais Pyrenean is a rustic breed and hails from France. In English, he is the French Pointing Dog Pyrenean Type.
+
+### Braque Francais Pyrenean at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
 ## How to approach a Braque Francais Pyrenean puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Braque Francais Pyrenean puppy

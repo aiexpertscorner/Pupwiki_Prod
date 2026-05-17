@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "bordoodle"
 breedName: "Bordoodle"
 wordCountEstimate: 413
+image: "https://images.dog.ceo/breeds/collie-border/brodie.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bordoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bordoodles
-Bordoodles are medium-sized (30.86–55.12 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Bordoodle is a designer cross between the Border Collie and the Poodle (Standard). This mix usually weighs about 31-55 pounds, often has a curly, low-shed-leaning coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Epilepsy, PRA (Eyes). Originally from United Kingdom.
+
+### Bordoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
+
+Ranked **#1** in canine intelligence (Brightest tier), the Bordoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Bordoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bordoodle puppy

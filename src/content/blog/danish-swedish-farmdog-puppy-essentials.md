@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "danish-swedish-farmdog"
 breedName: "Danish-Swedish Farmdog"
 wordCountEstimate: 345
+image: "https://images.dog.ceo/breeds/danish-swedish-farmdog/ebba_003.jpg"
 canonicalUrl: "https://pupwiki.com/blog/danish-swedish-farmdog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Danish-Swedish Farmdogs
-Danish-Swedish Farmdogs are small-sized (15–20 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+This breed entered the American Kennel Club Foundation Stock Services Program (AKC FSS) in 2011. They are eligible to compete in Agility, Barn Hunt, Flyball, Herding, Lure Coursing, Nosework, Obedience and Rally, Tracking and AKC FSS Open Shows. Club Contact DetailsClub: Danish/Swedish Farmdog Club of America, IncName: Dorothy Herman, AKC LiaisonEmail: Info@Farmdogs.org Known as the Little Big Dog, the Danish-Swedish Farmdog is a companion dog that loves to work and enjoys a challenge. They are a small, compact and slightly rectangular dog, known to mature late.
+
+### Danish-Swedish Farmdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
 ## How to approach a Danish-Swedish Farmdog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Danish-Swedish Farmdog puppy

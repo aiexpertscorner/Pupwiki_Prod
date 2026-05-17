@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "dalmatian", 
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/dalmatian", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "dalmatian"
 breedName: "Dalmatian"
 wordCountEstimate: 464
+image: "https://images.dog.ceo/breeds/dalmatian/cooper2.jpg"
 canonicalUrl: "https://pupwiki.com/blog/dalmatian-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Dalmatians
-Dalmatians are large-sized (45–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+The Dalmatian’s delightful, eye-catching spots of black or liver adorn one of the most distinctive coats in the animal kingdom. Beneath the spots is a graceful, elegantly proportioned trotting dog standing between 19 and 23 inches at the shoulder. Dals are muscular, built to go the distance; the powerful hindquarters provide the drive behind the smooth, effortless gait.The Dal was originally bred to guard horses and coaches, and some of the old protective instinct remains. Reserved and dignified, Dals can be aloof with strangers and are dependable watchdogs. With their preferred humans, Dals are bright, loyal, and loving house dogs. They are strong, active athletes with great stamina—a wonderful partner for runners and hikers. The dignified Dalmatian, dogdom's citizen of the world, is famed for his spotted coat and unique job description. During their long history, these "coach dogs" hav
+
+Originally from Croatia, the Dalmatian belongs to the Scent Hounds and Related Breeds group.
+
+### Dalmatian at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █████ Very Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#39** in canine intelligence (Above average tier), the Dalmatian responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Dalmatians
 Dalmatians have 2 documented genetic health conditions: deafness, urinary stones. Typical life expectancy is 11–13 years.
 - **Deafness**: Ask your vet about recommended screening and prevention for this condition in Dalmatians.

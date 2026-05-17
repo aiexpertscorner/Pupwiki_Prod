@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "otterhound"
 breedName: "Otterhound"
 wordCountEstimate: 363
+image: "https://images.dog.ceo/breeds/otterhound/n02091635_979.jpg"
 canonicalUrl: "https://pupwiki.com/blog/otterhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Otterhounds
-Otterhounds are large-sized (80–115 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+These big, bouncy hounds were ideally suited for otter hunting. OHs are built to be expert swimmers, from the top of their rough, waterproof coat to the bottom of their big webbed feet. A broad chest and powerful shoulders allow them to swim all day without tiring. Their large black nose is amazingly sensitive and could follow an otter’s underwater scent trail over great distances. And the OH’s size and strength enabled them to take on a sharp-toothed, razor-clawed otter that might weigh 20 pounds. Big, boisterous, and affectionate, the Otterhound was bred in medieval England for the now-outlawed activity of otter hunting. This scarce breed is known for his dense shaggy coat, webbed feet, acute sense of smell, and affinity for swimming.
+
+### Otterhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | ███░░ Balanced |
 ## How to approach a Otterhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Otterhound puppy

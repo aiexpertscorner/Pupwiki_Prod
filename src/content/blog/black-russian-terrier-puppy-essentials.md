@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "black-russian-terrier"
 breedName: "Black Russian Terrier"
 wordCountEstimate: 393
+image: "https://images.dog.ceo/breeds/terrier-dandie/n02096437_1760.jpg"
 canonicalUrl: "https://pupwiki.com/blog/black-russian-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Black Russian Terriers
-Black Russian Terriers are large-sized (80–130 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+What’s the word we’re looking for? Imposing? Massive? Majestic? How about just plain “big.” This brawny guard dog of the Siberian steppes can tip the scales at 140 pounds and stand as high as 30 inches at the shoulder. They’re much taller when the huge, brick-shaped head is considered. The tousled, all-black coat is warm enough to allow BRTs to patrol some of the coldest habitable places on earth. The old expression “He moves well for a big guy” applies to this nimble-footed giant. The Black Russian Terrier is a large, immensely powerful worker of heavy bone and coarse all-black coat. BRTs are known for their courage, confidence, and intelligence. Bred to guard and protect, they are naturally aloof with strangers.
+
+### Black Russian Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
 ## How to approach a Black Russian Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Black Russian Terrier puppy

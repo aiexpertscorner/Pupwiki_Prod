@@ -247,6 +247,75 @@ function getBreedTraits(breed) {
   return { size, energy, coat, shedding, training, health, name, weightStr, isSmall, isLarge, isActive, isCalm, isEasyTrain, isHardTrain, isHighShed, isDoubleCoat };
 }
 
+function pickBreedImageUrl(breed, familyKey) {
+  const urls = Array.isArray(breed?.image_urls) ? breed.image_urls : [];
+  if (!urls.length) return '';
+  if (urls.length === 1) return urls[0];
+  const idx = djb2Hash(`${breed.slug || ''}-${familyKey}`) % urls.length;
+  return urls[idx];
+}
+
+function buildBreedProfile(breed) {
+  const t = getBreedTraits(breed);
+  const desc = String(breed?.description || '').trim();
+  const origin = breed?.origin_country;
+  const fciGroup = breed?.fci_group_name;
+  const akcPop = Number(breed?.akc_popularity || 0);
+  const metaParts = [];
+  if (origin && fciGroup) {
+    metaParts.push(`Originally from ${origin}, the ${t.name} belongs to the ${fciGroup} group.`);
+  } else if (origin) {
+    metaParts.push(`Originally from ${origin}.`);
+  }
+  if (akcPop > 0 && akcPop <= 20) {
+    metaParts.push(`The ${t.name} ranks #${akcPop} in AKC breed popularity — one of the most widely owned breeds in the United States.`);
+  } else if (akcPop > 0 && akcPop <= 50) {
+    metaParts.push(`The ${t.name} ranks #${akcPop} in AKC breed popularity.`);
+  }
+  const parts = [];
+  if (desc) parts.push(desc);
+  if (metaParts.length) parts.push(metaParts.join(' '));
+  return parts.join('\n\n');
+}
+
+function buildTraitSummary(breed) {
+  const t = getBreedTraits(breed);
+  const traits = breed?.traits || {};
+  function traitBar(value, labels) {
+    const v = Number(value ?? -1);
+    if (v < 0) return null;
+    const blocks = Math.round(v * 5);
+    const bar = '█'.repeat(blocks) + '░'.repeat(5 - blocks);
+    const label = labels[Math.min(Math.floor(v * (labels.length - 0.01)), labels.length - 1)];
+    return `${bar} ${label}`;
+  }
+  const rows = [
+    ['Energy', traitBar(traits.energy_value, ['Low', 'Below Average', 'Moderate', 'High', 'Very High'])],
+    ['Shedding', traitBar(traits.shedding_value, ['Minimal', 'Light', 'Moderate', 'Heavy', 'Very Heavy'])],
+    ['Grooming needs', traitBar(traits.grooming_value, ['Very Low', 'Low', 'Moderate', 'High', 'Very High'])],
+    ['Trainability', traitBar(traits.trainability_value, ['Challenging', 'Below Average', 'Moderate', 'High', 'Exceptional'])],
+    ['Sociability', traitBar(traits.demeanor_value, ['Reserved', 'Selective', 'Balanced', 'Friendly', 'Very Friendly'])],
+  ].filter(([, bar]) => bar !== null);
+  if (!rows.length) return '';
+  return `### ${t.name} at a glance\n\n| Trait | Level |\n|-------|-------|\n${rows.map(([name, bar]) => `| ${name} | ${bar} |`).join('\n')}`;
+}
+
+function buildIntelligenceContext(breed) {
+  const t = getBreedTraits(breed);
+  const rd = breed?.ranking_data || {};
+  const rank = Number(rd.intelligence_rank || 0);
+  const label = String(rd.intelligence_label || '').trim();
+  if (!rank || !label) return '';
+  const trainValue = Number(breed?.traits?.trainability_value ?? -1);
+  const trainNote = trainValue >= 0.8
+    ? 'responds quickly to reward-based methods and picks up new cues with very few repetitions'
+    : trainValue >= 0.5
+    ? 'responds well to consistent, positive reinforcement training'
+    : 'benefits from patient repetition and high-value rewards';
+  const topNote = rank <= 10 ? 'top 10' : rank <= 25 ? 'top 25' : 'top 50';
+  return `Ranked **#${rank}** in canine intelligence (${label} tier), the ${t.name} ${trainNote} — placing it among the ${topNote} most trainable breeds.`;
+}
+
 function buildWhatToLookFor(breed, commerceCluster, pseoFamily) {
   const t = getBreedTraits(breed);
   const family = pseoFamily || (commerceCluster || '').replace('dog-', '').replace('-partners', '').replace('-nutrition', '').split('-')[0];
@@ -825,13 +894,19 @@ function renderBreedPage(item) {
   const healthRisksSection = (isHealthFamily || isSuppFamily) ? buildHealthRisks(breed) : '';
   const costSection = isEnrichedFamily ? buildCostContext(breed) : '';
   const careTipsSection = isEnrichedFamily ? buildCareTips(breed) : '';
+  const breedImageUrl = pickBreedImageUrl(breed, pseoFamilyKey);
+  const breedProfileText = isEnrichedFamily ? buildBreedProfile(breed) : '';
+  const traitSummarySection = isEnrichedFamily ? buildTraitSummary(breed) : '';
+  const intelligenceSection = (isHealthFamily || isPuppyFamily) ? buildIntelligenceContext(breed) : '';
 
   const body = `> **Reader-support note:** PupWiki may earn from qualifying partner links.
 ${sensitive ? '\n> **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.\n' : ''}
 ## About ${breed.name}s
 
-${ctx}
+${breedProfileText || ctx}
 ${aiSummary ? `\n${aiSummary}\n` : ''}
+${traitSummarySection ? `\n${traitSummarySection}\n` : ''}
+${intelligenceSection ? `\n${intelligenceSection}\n` : ''}
 ${isEnrichedFamily ? '' : `This page helps ${breed.name} people compare useful brands, products and services for a real care decision. It is also useful if you are still deciding whether a ${breed.name} fits your home, budget and routine.`}
 
 ${healthRisksSection ? `${healthRisksSection}\n` : ''}
@@ -877,7 +952,8 @@ awinTopicTags: ${yamlList(tags)}
 amazonQueries: ${yamlList(item.amazonQueries)}
 internalLinkTargets: ${yamlList(item.internalLinkTargets)}
 generated: true
-indexInBlog: false
+indexInBlog: ${pseoFamilyKey === 'health' ? 'true' : 'false'}
+${breedImageUrl ? `image: ${quote(breedImageUrl)}` : ''}
 reviewMethod: ${quote(normalizeReviewMethod('product-data-comparison'))}
 claimSensitivity: ${quote(item.monetization?.claimSensitivity || 'medium')}
 monetizationIntent: ${quote(normalizeMonetizationIntent(item.family))}

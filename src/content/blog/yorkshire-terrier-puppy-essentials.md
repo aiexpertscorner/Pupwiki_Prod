@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "yorkshire-terrier"
 breedName: "Yorkshire Terrier"
 wordCountEstimate: 418
+image: "https://images.dog.ceo/breeds/terrier-yorkshire/img_2384.jpg"
 canonicalUrl: "https://pupwiki.com/blog/yorkshire-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Yorkshire Terriers
-Yorkshire Terriers are small-sized (7 lbs), with regular energy, minimal shedding, and a silky coat. The recommendations below are matched to these traits.
+The Yorkshire Terrier is a compact, toy-size terrier of no more than seven pounds whose crowning glory is a floor-length, silky coat of steel blue and a rich golden tan.Don’t let the Yorkie’s daintiness fool you. Tenacious, feisty, brave, and sometimes bossy, the Yorkie exhibits all the traits of a true terrier. Often named the most popular dog breed in various American cities, Yorkies pack lots of big-town attitude into a small but self-important package. They are favorites of urbanites the world over.Yorkies are long-lived and low-allergen (the coat is more like human hair than animal fur), and they make fine little watchdogs. This is a true “personality breed,” providing years of laughs, love, and close companionship. Beneath the dainty, glossy, floor-length coat of a Yorkshire Terrier beats the heart of a feisty, old-time terrier. Yorkies earned their living as ratters in mines and m
+
+Originally from United Kingdom, the Yorkshire Terrier belongs to the Terriers group. The Yorkshire Terrier ranks #10 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Yorkshire Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | █░░░░ Challenging |
+| Sociability | ████░ Friendly |
+
+Ranked **#27** in canine intelligence (Above average tier), the Yorkshire Terrier benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Yorkshire Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Yorkshire Terrier puppy

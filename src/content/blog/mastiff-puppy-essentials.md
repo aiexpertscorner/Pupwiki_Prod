@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "mastiff"
 breedName: "Mastiff"
 wordCountEstimate: 415
+image: "https://images.dog.ceo/breeds/mastiff-english/2.jpg"
 canonicalUrl: "https://pupwiki.com/blog/mastiff-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Mastiffs
-Mastiffs are large-sized (120–230 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+For the uninitiated, a face-to-face encounter with these black-masked giants can be startling. A male stands at least 30 inches at the shoulder and can outweigh many a full-grown man. The rectangular body is deep and thickly muscled, covered by a short double coat of fawn, apricot, or brindle stripes. The head is broad and massive, and a wrinkled forehead accentuates an alert, kindly expression. Mastiffs are patient, lovable companions and guardians who take best to gentle training. Eternally loyal Mastiffs are protective of family, and a natural wariness of strangers makes early training and socialization essential. Mastiffs are magnificent pets, but acquiring a powerful giant-breed dog is commitment not to be taken lightly. The colossal Mastiff belongs to a canine clan as ancient as civilization itself. A massive, heavy-boned dog of courage and prodigious strength, the Mastiff is docil The Mastiff ranks #29 in AKC breed popularity.
+
+### Mastiff at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#72** in canine intelligence (Lowest tier), the Mastiff responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Mastiff puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Mastiff puppy

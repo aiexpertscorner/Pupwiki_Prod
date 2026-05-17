@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "springerdoodle"
 breedName: "Springerdoodle"
 wordCountEstimate: 412
+image: "https://images.dog.ceo/breeds/poodle-standard/n02113799_1444.jpg"
 canonicalUrl: "https://pupwiki.com/blog/springerdoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Springerdoodles
-Springerdoodles are medium-sized (33.07–55.12 lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
+Springerdoodle is a designer cross between the English Springer Spaniel and the Poodle (Standard). This mix usually weighs about 33-55 pounds, often has a wavy or fleece-like coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Ear infections, PFK deficiency.
+
+### Springerdoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#13** in canine intelligence (Excellent tier), the Springerdoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ## How to approach a Springerdoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Springerdoodle puppy

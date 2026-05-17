@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "chesapeake-bay-retriever"
 breedName: "Chesapeake Bay Retriever"
 wordCountEstimate: 460
+image: "https://images.dog.ceo/breeds/retriever-chesapeake/n02099849_687.jpg"
 canonicalUrl: "https://pupwiki.com/blog/chesapeake-bay-retriever-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Chesapeake Bay Retrievers
-Chesapeake Bay Retrievers are large-sized (55–80 lbs), with active energy, heavy shedding, and a wavy coat. The recommendations below are matched to these traits.
+Chessies are strong, powerfully built gundogs standing anywhere from 21 to 26 inches at the shoulder. A male can weigh up to 80 pounds. The distinctive breed trait is a wavy coat that is oily to the touch. Chessies are solid-colored, either chocolatey brown, sedge, or deadgrass, with keen yellow-amber eyes that nicely complement the coat.Chessies are more emotionally complex than the usual gundog. Chessies take to training, but they have a mind of their own and can tenaciously pursue their own path. They are protective of their humans and polite, but not overtly friendly, to strangers. Chessies make excellent watchdogs and are versatile athletes. A well-socialized Chessie is a confident companion and world-class hunting buddy. The Chesapeake Bay Retriever, peerless duck dog of the Mid-Atlantic, is an American original who embodies the classic traits of a good retriever: loyal, upbeat, af
+
+Originally from United States, the Chesapeake Bay Retriever belongs to the Retrievers, Flushing Dogs and Water Dogs group. The Chesapeake Bay Retriever ranks #45 in AKC breed popularity.
+
+### Chesapeake Bay Retriever at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
+
+Ranked **#27** in canine intelligence (Above average tier), the Chesapeake Bay Retriever responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Chesapeake Bay Retriever puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Chesapeake Bay Retriever puppy

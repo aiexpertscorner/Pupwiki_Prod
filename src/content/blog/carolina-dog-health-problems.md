@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "carolina-dog
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/carolina-dog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "carolina-dog"
 breedName: "Carolina Dog"
 wordCountEstimate: 347
+image: "https://images.dog.ceo/breeds/dingo/n02115641_7549.jpg"
 canonicalUrl: "https://pupwiki.com/blog/carolina-dog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Carolina Dogs
-Carolina Dogs are medium-sized (30–55 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Carolina dogs are descended from the canines that accompanied the Paleo-Indians who traveled from Asia to North America over the Bering land bridge. Today, they can still be found living wild near the Georgia-South Carolina border, but have also been seen as far north as Ohio and Pennsylvania and as far west as Arizona; rural areas are the common denominator. The typical Carolina dog has pointed ears, a fox-like snout and a tail that curves like a fishhook when it is raised. They look similar to Australian Dingoes but, taxonomically, they fall under canis familiaris. Hesitant with strangers, they will sound the alarm when unaware of who’s at the door, but once they see their people, they are ecstatic. Carolina Dogs have an extreme pack mentality, as this was a necessity for survival in the wild. Club Contact DetailsClub: Carolina Dog Club of AmericaName: Lane Watkins, PresidentEmail: pre
+
+### Carolina Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Carolina Dogs
 No breed-specific genetic ailments are currently documented for the Carolina Dog. Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Carolina Dog health

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "miniature-bull-terrier"
 breedName: "Miniature Bull Terrier"
 wordCountEstimate: 339
+image: "https://images.dog.ceo/breeds/terrier-cairn/n02096177_91.jpg"
 canonicalUrl: "https://pupwiki.com/blog/miniature-bull-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Miniature Bull Terriers
-Miniature Bull Terriers are medium-sized (18–28 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+In nearly every way the Mini is a Bull Terrier, only smaller. In fact, before 1991 the AKC classified the two Bullys as varieties of the same breed. Minis stand between 10 and 14 inches at the shoulder. They’re square, muscular, and, for their size, quite strong. Their trademark is a large egg-shaped head, with its dark, triangular eyes that twinkle with mischief. It’s impossible to mistake the Bull Terrier breeds for any other. The coat can be pure white, or white with predominate colored markings. In most every way the Miniature Bull Terrier is a Bull Terrier, only smaller. These upbeat, mischievous dogs come equipped with terrier fire and fearlessness. If ever a dog could claim the title “Clown Prince of Dogdom,” it’s the Mini.
+
+### Miniature Bull Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ## How to approach a Miniature Bull Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Miniature Bull Terrier puppy

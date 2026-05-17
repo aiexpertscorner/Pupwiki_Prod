@@ -26,11 +26,21 @@ medicalDisclaimer: false
 breedSlug: "biewer-terrier"
 breedName: "Biewer Terrier"
 wordCountEstimate: 378
+image: "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_2678.jpg"
 canonicalUrl: "https://pupwiki.com/blog/biewer-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Biewer Terriers
-Biewer Terriers are small-sized (4–8 lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+The Biewer Terrier, pronounced Beaver like the little dam building animals, is a dedicated, loyal family member and a friend to all they meet. It is not uncommon to be met with a smile from this happy-go-lucky dog. Although not a constant barker, they will alert you to company. With a larger than life personality, their lighthearted, childlike whimsical attitude will keep you entertained for hours. In spite of their small stature they are hearty and athletic, able to keep up with the best of them on long walks, hikes or competing in the agility ring. The Biewer Terrier is an elegant, longhaired, tri-colored toy terrier whose only purpose in life is to love and be loved. They maintain a charming, whimsical attitude well into adulthood. Carrying around a toy or two is not surprising.
+
+### Biewer Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
 ## How to approach a Biewer Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Biewer Terrier puppy

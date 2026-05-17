@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "old-english-
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/old-english-sheepdog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "old-english-sheepdog"
 breedName: "Old English Sheepdog"
 wordCountEstimate: 502
+image: "https://images.dog.ceo/breeds/sheepdog-english/n02105641_8273.jpg"
 canonicalUrl: "https://pupwiki.com/blog/old-english-sheepdog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Old English Sheepdogs
-Old English Sheepdogs are large-sized (60–100 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Beneath the Old English Sheepdog’s profuse double coat is a muscular and compact drover, with plenty of bone and a big rump, standing 21 or 22 inches at the shoulder. Their eyes (when you can see them) are dark brown, or blue, or one of each. The OES breed standard says the skull is “capacious and rather squarely formed, giving plenty of room for brain power.”OES move with a bear-like shuffle but are famous for their nimbleness afoot. Regular exercise is required for these strong, able-bodied workers. Equally famed are their many fine housedog qualities: watchfulness, courage, kindliness, and intelligence. Great with children, OES make patient, protective playmates. They are sensible watchdogs known for a loud, ringing bark. The Old English Sheepdog is the archetypical shaggy dog, famous for his profuse coat and peak-a-boo hairdo, a distinctive bear-like gait, and a mellow, agreeable nat
+
+### Old English Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
+
+Ranked **#63** in canine intelligence (Fair tier), the Old English Sheepdog benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Old English Sheepdogs
 Old English Sheepdogs have 1 documented genetic health condition: hip problems. Typical life expectancy is 10–12 years.
 - **Hip problems**: Ask your vet about recommended screening and prevention for this condition in Old English Sheepdogs.

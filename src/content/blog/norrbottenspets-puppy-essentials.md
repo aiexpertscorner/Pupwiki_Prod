@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "norrbottenspets"
 breedName: "Norrbottenspets"
 wordCountEstimate: 325
+image: "https://images.dog.ceo/breeds/spitz-japanese/beet-005.jpg"
 canonicalUrl: "https://pupwiki.com/blog/norrbottenspets-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Norrbottenspetss
-Norrbottenspetss are medium-sized (20–30 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Nobs aren’t large dogs (a big male stands a shade below 20 inches) but their tough, sinewy bodies are built to withstand punishing terrain and harsh climates. They are a small-sized hunting dog of Spitz-type, which was thought to be extinct but survived as a farm and hunting dog in the Northern parts of Sweden and Finland. To be able to navigate the rough terrain and climate of the Scandinavian forests and hold large dangerous game, like moose, Norrbottenspets evolved to be extremely agile, rugged, and weatherproof with a fearless attitude, while at the same time kind and affectionate companions at home. They exhibit no extremes in physical characteristics because they must do all things well. The Norrbottenspets is a small, slightly rectangular spitzdog, well poised, with sinewy and well-developed muscles. Alert with head carried high, they have a fearless attitude and are extremely agi
+
+### Norrbottenspets at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
 ## How to approach a Norrbottenspets puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Norrbottenspets puppy

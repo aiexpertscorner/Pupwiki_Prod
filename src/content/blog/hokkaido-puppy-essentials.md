@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "hokkaido"
 breedName: "Hokkaido"
 wordCountEstimate: 363
+image: "https://images.dog.ceo/breeds/shiba/shiba-14.jpg"
 canonicalUrl: "https://pupwiki.com/blog/hokkaido-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Hokkaidos
-Hokkaidos are large-sized (44–66 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Hokkaido is a medium-sized, strongly-built dog. They have longer, thicker coats than the other Japanese breeds, and also have wider chests and smaller ears. Like all the Nihon Ken, they have a double coat made up of protective, coarse outer guard hairs, and a fine, thick undercoat that is shed seasonally. The breed comes in several colors: white, red, black, brindle, sesame, and wolf grey. With early training, the Hokkaido is a very loyal and dedicated companion who wants to please his human family. They are incredibly intelligent thinkers and problem solvers, and they excel at tasks given to them. If not socialized properly, however, Hokkaido can become wary of strangers and protective of their families. The breed is extremely rare outside its native country. In Japan, there is an estimated population of around 10,000-12,000, and yearly registrations of between 900-1000. The Hokkaid
+
+### Hokkaido at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
 ## How to approach a Hokkaido puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Hokkaido puppy

@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "hokkaido", "
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/hokkaido", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,21 @@ medicalDisclaimer: true
 breedSlug: "hokkaido"
 breedName: "Hokkaido"
 wordCountEstimate: 377
+image: "https://images.dog.ceo/breeds/shiba/shiba-14.jpg"
 canonicalUrl: "https://pupwiki.com/blog/hokkaido-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Hokkaidos
-Hokkaidos are large-sized (44–66 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Hokkaido is a medium-sized, strongly-built dog. They have longer, thicker coats than the other Japanese breeds, and also have wider chests and smaller ears. Like all the Nihon Ken, they have a double coat made up of protective, coarse outer guard hairs, and a fine, thick undercoat that is shed seasonally. The breed comes in several colors: white, red, black, brindle, sesame, and wolf grey. With early training, the Hokkaido is a very loyal and dedicated companion who wants to please his human family. They are incredibly intelligent thinkers and problem solvers, and they excel at tasks given to them. If not socialized properly, however, Hokkaido can become wary of strangers and protective of their families. The breed is extremely rare outside its native country. In Japan, there is an estimated population of around 10,000-12,000, and yearly registrations of between 900-1000. The Hokkaid
+
+### Hokkaido at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
 ### Common health concerns for Hokkaidos
 No breed-specific genetic ailments are currently documented for the Hokkaido (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Hokkaido health

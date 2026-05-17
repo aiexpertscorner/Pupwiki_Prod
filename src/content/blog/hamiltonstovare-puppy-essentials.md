@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "hamiltonstovare"
 breedName: "Hamiltonstovare"
 wordCountEstimate: 360
+image: "https://images.dog.ceo/breeds/hound-english/n02089973_1249.jpg"
 canonicalUrl: "https://pupwiki.com/blog/hamiltonstovare-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Hamiltonstovares
-Hamiltonstovares are large-sized (40–75 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Hamiltonstovare are most commonly multi-purpose dogs; they are hunters, show dogs, and pets, all in one regal and versatile little package. As a hound, they follow their nose wherever it goes (and will not return for a good long while), so leashes and fences are a necessity with this breed. Unlike most scent hounds though, the Hamiltonstovare has an extremely high prey drive for both scent and sight. They can make excellent lure coursing dogs. In the home, they are a lazy, low maintenance dog who rarely sheds. Very food motivated, they can be easy to train despite their hound stubbornness, but higher competitive obedience levels are not usually an option. The only major problem with this breed is accessibility; there is only one breeder of Hamiltonstovare in the United States. Unfortunately, Hamiltonstovare have a rescue problem in the US as well, and some can be found in rural shelters
+
+### Hamiltonstovare at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Hamiltonstovare puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Hamiltonstovare puppy

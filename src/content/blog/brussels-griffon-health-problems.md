@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "brussels-gri
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/brussels-griffon", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "brussels-griffon"
 breedName: "Brussels Griffon"
 wordCountEstimate: 467
+image: "https://images.dog.ceo/breeds/brabancon/n02112706_2295.jpg"
 canonicalUrl: "https://pupwiki.com/blog/brussels-griffon-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Brussels Griffons
-Brussels Griffons are small-sized (8–10 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+With this breed, you get a big personality in a 5-to-15-pound package. One look into his big, human-like eyes, and you’ll be smitten. Griffs come in four colors—red, black-and-reddish-brown (called belge), black and tan, and black—and in smooth coats (like a Pug) or rough coats (like a Schnauzer). Their black muzzle and whiskers earned them the nickname “bearded dogs” in old folk songs.The Griff’s big black eyes—described as “almost human”—coupled with a fringed beard and mustache covering his short muzzle, gives him the air of a worldly, French-speaking philosopher. The Griff’s body is thickset and sturdy, and he moves with the purposeful trot of a fellow who knows what he wants.Griffs are alert, sociable, and easily trained. Although playful and energetic, their small size and sensitive nature make them a poor choice as roughhousing playmates for kids. They have a low threshold for lon
+
+### Brussels Griffon at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#59** in canine intelligence (Fair tier), the Brussels Griffon responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Brussels Griffons
 No breed-specific genetic ailments are currently documented for the Brussels Griffon (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Brussels Griffon health

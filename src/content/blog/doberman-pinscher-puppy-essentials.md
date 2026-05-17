@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "doberman-pinscher"
 breedName: "Doberman Pinscher"
 wordCountEstimate: 447
+image: "https://images.dog.ceo/breeds/doberman/n02107142_1886.jpg"
 canonicalUrl: "https://pupwiki.com/blog/doberman-pinscher-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Doberman Pinschers
-Doberman Pinschers are large-sized (60–100 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Dobermans are compactly-built dogs—muscular, fast, and powerful—standing between 24 to 28 inches at the shoulder. The body is sleek but substantial, and is covered with a glistening coat of black, blue, red, or fawn, with rust markings. These elegant qualities, combined with a noble, wedge-shaped head and an easy, athletic way of moving have earned Dobermans a reputation as royalty in the canine kingdom. A well-conditioned Doberman on patrol will deter all but the most foolish intruder. Sleek and powerful, possessing both a magnificent physique and keen intelligence, the Doberman Pinscher is one of dogkind's noblemen. This incomparably fearless and vigilant breed stands proudly among the world's finest protection dogs. The Doberman Pinscher ranks #17 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Doberman Pinscher at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ████░ Heavy |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
+
+Ranked **#5** in canine intelligence (Brightest tier), the Doberman Pinscher responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Doberman Pinscher puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Doberman Pinscher puppy

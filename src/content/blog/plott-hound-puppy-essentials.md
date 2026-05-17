@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "plott-hound"
 breedName: "Plott Hound"
 wordCountEstimate: 332
+image: "https://images.dog.ceo/breeds/hound-plott/hhh-23456.jpg"
 canonicalUrl: "https://pupwiki.com/blog/plott-hound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Plott Hounds
-Plott Hounds are medium-sized (40–60 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+The hound with the curious name (we’ll get to that) and unique history (we’ll get to that, too) is a streamlined, long-tailed, light-footed hunter standing as high as 25 inches at the shoulder. The flashy coat comes in an array of brindle-stripe patterns, from black flecked with gold to flaming orange and russet, in addition to some solid colors. The medium-length ears hang gracefully, and the leather of the nose, lips, and eye rims are black, setting off an inquisitive and confident expression. The Plott Hound, a hound with a curious name and a unique history, is a rugged, relentless hunting dog who is a mellow gentleman at home but fearless, implacable, and bold at work. This eye-catching scenthound is North Carolina's state dog.
+
+### Plott Hound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ## How to approach a Plott Hound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Plott Hound puppy

@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "boston-terri
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/boston-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "boston-terrier"
 breedName: "Boston Terrier"
 wordCountEstimate: 498
+image: "https://images.dog.ceo/breeds/terrier-boston/bostonTerrier_000003.jpg"
 canonicalUrl: "https://pupwiki.com/blog/boston-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Boston Terriers
-Boston Terriers are small-sized (12–25 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Boston Terriers are compact, short-tailed, well-balanced little dogs weighing no more than 25 pounds. The stylish “tuxedo” coat can be white and either black, brindle, or seal (black with a red cast when viewed in sun or bright light). The head is square, the muzzle is short, and the large, round eyes can shine with kindness, curiosity, or mischief. Ever alert to their surroundings, Bostons move with a jaunty, rhythmic step.It’s a safe bet that a breed named for a city—the Havanese or Brussels Griffon, for instance—will make an excellent urban pet. Bostons are no exception: they are sturdy but portable, people-oriented, and always up for a brisk walk to the park or outdoor cafe. A bright dog with a natural gift for comedy, the dapper Bostonian is a steady source of smiles. The Boston Terrier is a lively little companion recognized by his tight tuxedo jacket, sporty but compact body, and
+
+Originally from United States, the Boston Terrier belongs to the Companion and Toy Dogs group. The Boston Terrier ranks #21 in AKC breed popularity.
+
+### Boston Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
+
+Ranked **#54** in canine intelligence (Average tier), the Boston Terrier responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Boston Terriers
 Boston Terriers have 1 documented genetic health condition: breathing problems. Typical life expectancy is 11–13 years.
 - **Breathing problems**: Ask your vet about recommended screening and prevention for this condition in Boston Terriers.

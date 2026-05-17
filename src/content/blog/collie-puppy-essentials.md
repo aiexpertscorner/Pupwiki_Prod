@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "collie"
 breedName: "Collie"
 wordCountEstimate: 376
+image: "https://images.dog.ceo/breeds/collie-border/n02106166_855.jpg"
 canonicalUrl: "https://pupwiki.com/blog/collie-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Collies
-Collies are large-sized (50–75 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Collie is a large but lithe herder standing anywhere from 22 to 26 inches tall. The rough variety boasts one of the canine kingdom’s most impressively showy coats; the smooth coat’s charms are subtler but no less satisfying. Coat colors in both varieties are sable and white, tricolor, blue merle, or white. Collie fanciers take pride in their breed’s elegant wedge-shaped head, whose mobile ears and almond eyes convey a wide variety of expressions.Collies are famously fond of children and make wonderful family pets. These swift, athletic dogs thrive on companionship and regular exercise. With gentle training, they learn happily and rapidly. The Collie’s loyalty, intelligence, and sterling character are the stuff of legend. The majestic Collie, thanks to a hundred years as a pop-culture star, is among the world’s most recognizable and beloved dog breeds. The full-coated “rough” Collie i The Collie ranks #38 in AKC breed popularity.
+
+### Collie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ## How to approach a Collie puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Collie puppy

@@ -95,8 +95,14 @@ jobs:
             --limit="${LIMIT}" \
             --cluster-limit="${CLUSTER_LIMIT}" \
             --breed-limit="${BREED_LIMIT}" \
+            --min-programs=0 \
             --apply \
             || echo "PSEO generation completed (some items may have been skipped)"
+
+      - name: Enrich existing breed content pages
+        run: |
+          node scripts/content/enrich-breed-pages.mjs --apply \
+            || echo "Breed enrichment completed (some items may have been skipped)"
 
       - name: Sync content-status flags
         run: node scripts/content/sync-content-status.mjs --apply || echo "Content-status sync skipped"

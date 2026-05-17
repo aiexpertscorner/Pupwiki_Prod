@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "slovensky-kopov"
 breedName: "Slovensky Kopov"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/hound-blood/n02088466_8515.jpg"
 canonicalUrl: "https://pupwiki.com/blog/slovensky-kopov-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Slovensky Kopovs
-Slovensky Kopovs are medium-sized (33–44 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Also known as the Slovakian Hound, Slovak Hound, or the Slovensky Kopov is a medium-sized scent hound with a relatively light, but solid, build. His coat is of medium coarseness, close-fitting, dense, and always solid black with tan markings. It is an extremely intelligent breed with an excellent sense of smell and direction. Where he is known, he dominates the world of hunting by his endurance, character, and great courage. Club Contact DetailsName: Vladimir SkalaAddress: 3734 N Lockwood Ave, Chicago, IL 60641 This spirited, persistent hunter will follow a scent for hours. The Slovensky Kopov is a hardy, hardworking breed that is also known for its courage and great endurance and was originally developed to hunt wild boar.
+
+### Slovensky Kopov at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
 ## How to approach a Slovensky Kopov puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Slovensky Kopov puppy

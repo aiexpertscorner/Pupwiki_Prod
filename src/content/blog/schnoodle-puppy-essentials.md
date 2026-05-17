@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "schnoodle"
 breedName: "Schnoodle"
 wordCountEstimate: 414
+image: "https://images.dog.ceo/breeds/schnauzer-giant/n02097130_3891.jpg"
 canonicalUrl: "https://pupwiki.com/blog/schnoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Schnoodles
-Schnoodles are medium-sized (6.61–77.16 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+Schnoodle is a designer cross between the Standard Schnauzer and the Poodle (Standard). This mix usually weighs about 7-77 pounds, often has a curly, low-shed-leaning coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Pancreatitis, Diabetes, Urinary stones. Originally from Germany.
+
+### Schnoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#45** in canine intelligence (Average tier), the Schnoodle responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Schnoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Schnoodle puppy

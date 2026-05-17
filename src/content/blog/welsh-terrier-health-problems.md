@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "welsh-terrie
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/welsh-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "welsh-terrier"
 breedName: "Welsh Terrier"
 wordCountEstimate: 406
+image: "https://images.dog.ceo/breeds/terrier-welsh/lucy.jpg"
 canonicalUrl: "https://pupwiki.com/blog/welsh-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Welsh Terriers
-Welsh Terriers are small-sized (20 lbs), with active energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+Sturdy, compact, and rugged, with a tight-fitting black-and-tan coat and a rectangular head featuring folded ears and a jaunty beard, Welsh are constructed along the classic lines of Britain’s long-legged terriers. They stand about 15 inches at the shoulder, a little larger than the Lakeland Terrier but much smaller than the mighty Airedale.All three breeds, however, share a family resemblance: An ancient breed called the Old English Black and Tan Terrier is thought to be the granddaddy of these and some other British terriers. The Welsh Terrier is as alert and spirited as any self-respecting terrier, but a bit calmer than most—“game, not quarrelsome,” as breed fanciers say. The Welshman was bred to do battle with badgers, otters, and other dangerous opponents.
+
+### Welsh Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
 ### Common health concerns for Welsh Terriers
 No breed-specific genetic ailments are currently documented for the Welsh Terrier (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Welsh Terrier health

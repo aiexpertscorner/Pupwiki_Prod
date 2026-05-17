@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "sloughi", "d
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/sloughi", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "sloughi"
 breedName: "Sloughi"
 wordCountEstimate: 365
+image: "https://images.dog.ceo/breeds/saluki/n02091831_627.jpg"
 canonicalUrl: "https://pupwiki.com/blog/sloughi-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Sloughis
-Sloughis are medium-sized (35–50 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+The Sloughi (SLOO-ghee) is a classically constructed sighthound of ancient lineage, originally bred to work on such game as hare, fox, jackal, gazelle, and wild pigs on the punishing terrain of its homeland. This is a lean, no-frills hound standing between 24 to 29 inches at the shoulder. Coat colors include shades of light sand to mahogany red-fawn, with or without brindling, with or without black markings, with no invasive white markings. The Sloughi’s big, dark eyes are often described as “melancholy.” The ancient Sloughi, nicknamed the “Arabian Greyhound,” is a lean, swift coursing hound who hunted a variety of game in North African deserts. A classic sighthound, the Sloughi is regally aloof with strangers and gentle with loved ones.
+
+### Sloughi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Sloughis
 No breed-specific genetic ailments are currently documented for the Sloughi (typical life expectancy: 10–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Sloughi health

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "poogle"
 breedName: "Poogle"
 wordCountEstimate: 413
+image: "https://images.dog.ceo/breeds/beagle/n02088364_16493.jpg"
 canonicalUrl: "https://pupwiki.com/blog/poogle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Poogles
-Poogles are medium-sized (17.64–30.86 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Poogle is a designer cross between the Poodle (Miniature) and the Beagle. This mix usually weighs about 18-31 pounds, often has a curly, low-shed-leaning coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Ear infections, Obesity. Originally from United Kingdom.
+
+### Poogle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#73** in canine intelligence (Fair tier), the Poogle responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Poogle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Poogle puppy

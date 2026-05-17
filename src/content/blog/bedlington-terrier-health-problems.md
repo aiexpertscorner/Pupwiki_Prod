@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "bedlington-t
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/bedlington-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,24 @@ medicalDisclaimer: true
 breedSlug: "bedlington-terrier"
 breedName: "Bedlington Terrier"
 wordCountEstimate: 501
+image: "https://images.dog.ceo/breeds/terrier-bedlington/n02093647_291.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bedlington-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Bedlington Terriers
-Bedlington Terriers are small-sized (17–23 lbs), with active energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Bedlingtons are lithe, energetic Englishmen. The crisp, curly coat; arched back; tasseled ears; scimitar-shaped tail; and fleecy, pear-shaped head are identifying features of this one-of-a-kind breed. As the curvy contours indicate, there’s sighthound—Whippet, most likely—in their family tree. Bedlingtons move with a light, springy step and when roused to pursuit can run like the wind.Rollicking, charming, and full of fun, Bedlingtons want most to be their family’s center of attention and are known to be protective of loved ones. For an active family looking for a no-shedding, lively, and loyal companion, the search might end here. Graceful terriers in sheep’s clothing, Bedlington Terriers, named for the English mining shire where they were first bred, are genial housemates, alert watchdogs, versatile athletes, and irresistibly cuddly TV-time companions.
+
+### Bedlington Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#40** in canine intelligence (Average tier), the Bedlington Terrier responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Bedlington Terriers
 Bedlington Terriers have 2 documented genetic health conditions: liver, eye problems. Typical life expectancy is 11–16 years.
 - **Liver**: Ask your vet about recommended screening and prevention for this condition in Bedlington Terriers.

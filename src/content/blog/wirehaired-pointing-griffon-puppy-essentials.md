@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "wirehaired-pointing-griffon"
 breedName: "Wirehaired Pointing Griffon"
 wordCountEstimate: 381
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_1997.jpg"
 canonicalUrl: "https://pupwiki.com/blog/wirehaired-pointing-griffon-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Wirehaired Pointing Griffons
-Wirehaired Pointing Griffons are large-sized (35–70 lbs), with active energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+Griffs are medium-sized, all-purpose gundogs standing no higher than 24 inches at the shoulder. They’re known for an extremely harsh and bristly coat that gives them a natural, unkempt appearance. The preferred color is steel gray with brown markings. A lavish mustache and eyebrows frame large, rounded eyes that gleam with a keen intelligence. Griffs are the very picture of an honest, hardworking sporting dog, whose handsome looks are the result of a noble and unaffected ruggedness rather than fussy grooming. The hardworking Wirehaired Pointing Griffon, renowned as the “supreme gundog,” is known for the harsh, low-shedding coat the breed is named for. Outgoing, eager, and quick-witted, Griffs are incomparable in the field and loving at home.
+
+### Wirehaired Pointing Griffon at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Wirehaired Pointing Griffon puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Wirehaired Pointing Griffon puppy

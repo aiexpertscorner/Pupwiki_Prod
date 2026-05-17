@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "bernese-mix"
 breedName: "Bernese Mix"
 wordCountEstimate: 463
+image: "https://images.dog.ceo/breeds/mix/Cisco3.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bernese-mix-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bernese Mixs
-Bernese Mixs are large-sized (77.16–110.23 lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.
+Bernese Mix is a designer cross between the Bernese Mountain Dog and the Golden Retriever. This mix usually weighs about 77-110 pounds, often shows a mixed coat type, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Hip dysplasia, Short lifespan (Cancer). Originally from Switzerland / United Kingdom.
+
+### Bernese Mix at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
+
+Ranked **#13** in canine intelligence (Excellent tier), the Bernese Mix responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ## How to approach a Bernese Mix puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bernese Mix puppy

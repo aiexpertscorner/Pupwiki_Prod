@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "norwegian-lu
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/norwegian-lundehund", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "norwegian-lundehund"
 breedName: "Norwegian Lundehund"
 wordCountEstimate: 378
+image: "https://images.dog.ceo/breeds/elkhound-norwegian/n02091467_3285.jpg"
 canonicalUrl: "https://pupwiki.com/blog/norwegian-lundehund-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Norwegian Lundehunds
-Norwegian Lundehunds are medium-sized (20–30 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+At a glance, Lundehunds seem a typical northern breed: A spitz type with triangular ears, curving tail, and a dense double coat. But a closer look reveals several unique traits. They have feet with at least six fully functioning toes and extra paw pads, an “elastic neck” that can crane back so the head touches the spine, ears that fold shut, and flexible shoulders that allow forelegs to extend to the side, perpendicular to the body. This last anomaly produces the breed’s distinctive “rotary” gait. From Norway’s rocky island of Vaeroy, the uniquely constructed Norwegian Lundehund is the only dog breed created for the job of puffin hunting. With puffins now a protected species, today’s Lundehund is a friendly, athletic companion.
+
+### Norwegian Lundehund at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Norwegian Lundehunds
 No breed-specific genetic ailments are currently documented for the Norwegian Lundehund (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Norwegian Lundehund health

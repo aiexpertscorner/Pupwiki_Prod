@@ -30,7 +30,15 @@ canonicalUrl: "https://pupwiki.com/blog/portuguese-sheepdog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Portuguese Sheepdogs
-Portuguese Sheepdogs are medium-sized (37.5–59 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Portuguese Sheepdogs are medium-sized dogs with appreciable rusticity and sobriety and are extremely agile and swift. Their long hair has a goat-like texture, without an undercoat, and can be straight or slightly wavy. The dense and evenly-distributed coat forms a long beard, mustache, and eyebrows that are not so long as to cover his eyes. Coat colors can be yellow, brown, grey, fawn, wolf grey in shades ranging from light to dark, and black, accompanied by tan markings. This lively breed has a simian-like attitude and appearance, which is why it is known in its native region of Portugal as a “monkey dog”. The Portuguese Sheepdog is exceptionally intelligent and lively. Very devoted to the shepherd and his herd, he can be somewhat wary of strangers and vigilant at night. Today, he is also an excellent companion, sporting and guard dog. He is known for his skillful ability to keep livest
+
+### Portuguese Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
 ## How to approach a Portuguese Sheepdog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Portuguese Sheepdog puppy

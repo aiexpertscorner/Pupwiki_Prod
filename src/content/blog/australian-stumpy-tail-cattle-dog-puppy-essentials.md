@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "australian-stumpy-tail-cattle-dog"
 breedName: "Australian Stumpy Tail Cattle Dog"
 wordCountEstimate: 353
+image: "https://images.dog.ceo/breeds/cattledog-australian/IMG_1418.jpg"
 canonicalUrl: "https://pupwiki.com/blog/australian-stumpy-tail-cattle-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Australian Stumpy Tail Cattle Dogs
-Australian Stumpy Tail Cattle Dogs are medium-sized (32–45 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+The Australian Stumpy Tail Cattle Dog is not an Australian Cattle Dog with a docked tail. There are major structural differences in breed type between the two breeds of cattle dogs. Stumpy Tail Cattle Dogs are a natural bob-tail breed. Some Stumpy Tail pups are born with long tails and should not be discarded from a breeding program if they are of structural quality, but rather bred back to quality natural bob tails. Australian Stumpy Tail Cattle Dog Society of the United StatesDenyse Adams: chredacds8@gmail.comLori Graham: lgraham1145@yahoo.comKim McDonald: breezyacresstumpies@gmail.comKevin Nicholson: nicholson.klnicholson@gmail.com The Australian Stumpy Tail Cattle Dog is not an Australian Cattle Dog with a docked tail. He is a naturally bob-tailed breed and stands square with plenty of leg length under the body.
+
+### Australian Stumpy Tail Cattle Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ## How to approach a Australian Stumpy Tail Cattle Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Australian Stumpy Tail Cattle Dog puppy

@@ -26,11 +26,19 @@ medicalDisclaimer: false
 breedSlug: "deutscher-wachtelhund"
 breedName: "Deutscher Wachtelhund"
 wordCountEstimate: 332
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_8518.jpg"
 canonicalUrl: "https://pupwiki.com/blog/deutscher-wachtelhund-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Deutscher Wachtelhunds
-Deutscher Wachtelhunds are medium-sized (40–55 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+The Deutscher Wachtelhund is a medium-sized, longhaired, very muscular gun dog with a noble head and strong bone. Their keen hunting desire and ability make it an ideal dog for hunters and because of their innate love of water, they are often used to hunt waterfowl. The Deutscher Wachtelhund’s name, German quail dog, relates to its ability as an upland bird flusher and is also known as the German Spaniel. Club Contact DetailsName: Bill Wright, Boulder Brook KennelAddress: PO Box 1, Markham, VA 22643Email: jwwiii@hotmail.com The Deutscher Wachtelhund has a scenting and blood tracking ability comparable to a Bloodhound and can track 40-hour-old wounded game. On a fresh game trail, it must vocalize to inform hunters of its location. They are a versatile breed, virtually unknown to the German non-hunting public, and is only owned by hunters, gamekeepers and professional hunters in Germany.
+
+### Deutscher Wachtelhund at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
 ## How to approach a Deutscher Wachtelhund puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Deutscher Wachtelhund puppy

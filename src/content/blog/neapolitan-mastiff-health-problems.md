@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "neapolitan-m
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/neapolitan-mastiff", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "neapolitan-mastiff"
 breedName: "Neapolitan Mastiff"
 wordCountEstimate: 399
+image: "https://images.dog.ceo/breeds/mastiff-bull/n02108422_4250.jpg"
 canonicalUrl: "https://pupwiki.com/blog/neapolitan-mastiff-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Neapolitan Mastiffs
-Neapolitan Mastiffs are large-sized (110–150 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Unless you’ve been to Jurassic Park, you’ve never seen anything like a Mastino. These majestic guardians of startling appearance are massive, powerful dogs. The U.S. Neapolitan Mastiff Club describes their dog’s head as “astounding”—and give them credit for hitting upon just the right adjective. The profuse hanging wrinkles and folds, and pendulous lips, make a Mastino look like a marzipan Mastiff that’s been out in the sun too long. And yet, the breed’s inner dignity and nobility can only be described as beautiful. The Neapolitan Mastiff is a huge, powerful guarder whose astounding appearance has intimidated intruders since the days of ancient Rome. Wary with strangers, the profusely wrinkled Mastino is sweet, placid, and steady among loved ones.
+
+### Neapolitan Mastiff at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | █░░░░ Reserved |
 ### Common health concerns for Neapolitan Mastiffs
 No breed-specific genetic ailments are currently documented for the Neapolitan Mastiff (typical life expectancy: 7–9 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Neapolitan Mastiff health

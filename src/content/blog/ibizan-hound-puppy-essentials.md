@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "ibizan-hound"
 breedName: "Ibizan Hound"
 wordCountEstimate: 332
+image: "https://images.dog.ceo/breeds/hound-ibizan/n02091244_2919.jpg"
 canonicalUrl: "https://pupwiki.com/blog/ibizan-hound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Ibizan Hounds
-Ibizan Hounds are medium-sized (45–50 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Ibizans are lithe and leggy visitors from the dawn of civilization. Art history students will recognize the elongated head, with its large erect ears, as a familiar motif of ancient Egypt. The elegant, racy body stands 22.5 to 27.5 inches at the shoulder, with coat colors of solid red or white, or red and white patterns. The rosy-colored leathers of the nose, eye rims, and lips—along with amber or caramel eyes—perfectly complement the coat. The breed’s quiet grace is often described as deer-like. The Ibizan Hound is a lithe and leggy visitor from the dawn of civilization, bred as a rabbit courser on the rocky shores of Spain’s Balearic Islands. World-class sprinters and leapers, Ibizans need ample space to air out their engines.
+
+### Ibizan Hound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Ibizan Hound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Ibizan Hound puppy
