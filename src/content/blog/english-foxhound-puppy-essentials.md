@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "english-foxhound"
 breedName: "English Foxhound"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/hound-english/n02089973_208.jpg"
 canonicalUrl: "https://pupwiki.com/blog/english-foxhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About English Foxhounds
-English Foxhounds are large-sized (60–75 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+The English Foxhound is the epitome of what serious dog breeders strive for: beauty, balance, and utility. “Next to an old Greek statue,” a poet wrote, “there are few such combinations of grace and strength as in a fine Foxhound.”These pack-oriented, scent-driven hounds are gentle and sociable, but rarely seen as house pets. They can be so driven by a primal instinct for pursuit that not much else, including training, matters to them. Owning these noble creatures is best left to huntsmen who kennel packs of hounds or to those experienced in meeting the special challenges of life with swift, powerful hounds hardwired for the chase. The English Foxhound is a substantial galloping hound of great stamina. His long legs are straight as a gatepost, and just as sturdy. The back is perfectly level. And the chest is very deep, “girthing” as much as 31 inches on a hound measuring 24 inches at the
+
+### English Foxhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a English Foxhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a English Foxhound puppy

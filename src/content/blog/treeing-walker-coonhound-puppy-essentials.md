@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "treeing-walker-coonhound"
 breedName: "Treeing Walker Coonhound"
 wordCountEstimate: 381
+image: "https://images.dog.ceo/breeds/hound-walker/n02089867_218.jpg"
 canonicalUrl: "https://pupwiki.com/blog/treeing-walker-coonhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Treeing Walker Coonhounds
-Treeing Walker Coonhounds are large-sized (50–70 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Few things can quicken a coon hunter’s pulse like the sight of this swift, tricolored hound in full stride—the long, muscular legs, the powerful and propulsive hindquarters, and the streamlined frame all working to cover maximum ground with minimum effort. Later, basking in the warmth of a campfire after an honest night’s work, this sweet-faced hound will look up and stir your soul with his gentle, pleading expression. Mercy, what a pretty picture! No wonder Treeing Walkers are called the People’s Choice. A smart, brave, and sensible hunter, the Treeing Walker Coonhound is a genuine American favorite, nicknamed "The People’s Choice." Don’t let the name fool you—Walkers are runners and are capable of covering a lot of ground in a hurry.
+
+### Treeing Walker Coonhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
 ## How to approach a Treeing Walker Coonhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Treeing Walker Coonhound puppy

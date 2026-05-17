@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "belgian-malinois"
 breedName: "Belgian Malinois"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/malinois/n02105162_7593.jpg"
 canonicalUrl: "https://pupwiki.com/blog/belgian-malinois-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/13076152/pexels-photo-13076152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/13076152/pexels-photo-13076152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,17 @@ imageSearchQuery: "Belgian Malinois dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Belgian Malinoiss
-Belgian Malinoiss are large-sized (40–80 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Belgian Malinois are squarely built, proud, and alert herders standing 22 to 26 inches. Strong and well-muscled, but more elegant than bulky, there’s an honest, no-frills look about them, as befit dogs built to work hard for their feed. A breed hallmark is the proud carriage of the head. Coat colors range from a rich fawn to mahogany. The black ears and mask accentuate bright, questioning eyes the color of dark Belgian chocolate.If you have ever seen a Mal perform an obedience routine, you know firsthand what a smart and eager breed this is. Problems set in, though, when this people-oriented dog is underemployed and neglected. Exercise, and plenty of it, preferably side by side with their adored owner, is key to Mal happiness. The smart, confident, and versatile Belgian Malinois is a world-class worker who forges an unbreakable bond with his human partner. To deny a Mal activity and the The Belgian Malinois ranks #43 in AKC breed popularity.
+
+### Belgian Malinois at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
 ## How to approach a Belgian Malinois puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Belgian Malinois puppy

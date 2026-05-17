@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "nederlandse-
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/nederlandse-kooikerhondje", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "nederlandse-kooikerhondje"
 breedName: "Nederlandse Kooikerhondje"
 wordCountEstimate: 388
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_10930.jpg"
 canonicalUrl: "https://pupwiki.com/blog/nederlandse-kooikerhondje-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Nederlandse Kooikerhondjes
-Nederlandse Kooikerhondjes are medium-sized (20–30 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Kooikerhondje (Koi-ker-hond-yuh)—the “little white and orange dog with a big heart”—is a sporty, eye-catching fellow with a silky all-weather coat of white with red patches. They are instantly recognizable thanks to their large, black-tipped ears and the richly feathered tail they wag proudly. The breed has the sturdy bone structure expected of a serious hunter, but the overall picture is that of a harmoniously built dog of smooth, flowing contours and springy gait. The Nederlandse Kooikerhondje is lively, agile, self-confident, good-natured and alert. The breed is faithful, easy-going and friendly in the home. Outdoors he is a true sporting dog being keen, swift, tough, attentive and energetic. With sufficient perseverance and stamina, he enjoys working and does so with a cheerful character.
+
+### Nederlandse Kooikerhondje at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Nederlandse Kooikerhondjes
 No breed-specific genetic ailments are currently documented for the Nederlandse Kooikerhondje (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Nederlandse Kooikerhondje health

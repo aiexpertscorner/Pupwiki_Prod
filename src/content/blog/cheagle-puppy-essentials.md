@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "cheagle"
 breedName: "Cheagle"
 wordCountEstimate: 439
+image: "https://images.dog.ceo/breeds/chihuahua/n02085620_368.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cheagle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cheagles
-Cheagles are small-sized (8.82–22.05 lbs), with active energy, seasonal shedding, and a medium coat. The recommendations below are matched to these traits.
+Cheagle is a designer cross between the Chihuahua and the Beagle. This mix usually weighs about 9-22 pounds, often lands somewhere between its parent coat types, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Heart disease, Obesity, Thyroid issues. Originally from United Kingdom.
+
+### Cheagle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#70** in canine intelligence (Fair tier), the Cheagle responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Cheagle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Cheagle puppy

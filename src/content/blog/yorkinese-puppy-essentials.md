@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "yorkinese"
 breedName: "Yorkinese"
 wordCountEstimate: 439
+image: "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_1211.jpg"
 canonicalUrl: "https://pupwiki.com/blog/yorkinese-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Yorkineses
-Yorkineses are small-sized (6.61–13.23 lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Yorkinese is a designer cross between the Yorkshire Terrier and the Pekingese. This mix usually weighs about 7-13 pounds, often has a softer silky coat, and often blends a calmer companion temperament with moderate activity needs from both sides of the pedigree. Common monitoring areas include Brachycephalic syndrome, Eye ulcers. Originally from United Kingdom.
+
+### Yorkinese at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | █░░░░ Challenging |
+| Sociability | ███░░ Balanced |
+
+Ranked **#50** in canine intelligence (Average tier), the Yorkinese benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Yorkinese puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Yorkinese puppy

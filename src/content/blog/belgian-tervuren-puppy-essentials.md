@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "belgian-tervuren"
 breedName: "Belgian Tervuren"
 wordCountEstimate: 450
+image: "https://images.dog.ceo/breeds/tervuren/maverick.jpg"
 canonicalUrl: "https://pupwiki.com/blog/belgian-tervuren-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/12685132/pexels-photo-12685132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,19 @@ imageSearchQuery: "Belgian Tervuren dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Belgian Tervurens
-Belgian Tervurens are large-sized (45–75 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+The Belgian Tervuren is characterized by a straight and abundant coat, an elegant but muscular frame, a proudly carried head, an alert and intelligent demeanor, and an insatiable work drive. The Tervuren’s coat furnishings, like the sporty “collarette” around the neck, are more profuse on males, who run larger than females.“Their intelligence and high activity level can be a challenge for the less creative individual who may not understand the breed’s need to work,” warns one longtime owner. But don’t get the idea that Tervurens are grim, mechanical worker drones. In fact, this breed takes real delight in their ability to master any task, and owners say a mischievous sense of humor is at work whenever Tervurens outsmart their beloved human. The elegant, agile Belgian Tervuren is a bright and self-assured herding dog of medium size, known to be affectionate and possessive with loved ones.
+
+### Belgian Tervuren at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
+
+Ranked **#14** in canine intelligence (Excellent tier), the Belgian Tervuren responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ## How to approach a Belgian Tervuren puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Belgian Tervuren puppy

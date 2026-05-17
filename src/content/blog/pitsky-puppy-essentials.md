@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "pitsky"
 breedName: "Pitsky"
 wordCountEstimate: 428
+image: "https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_7075.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pitsky-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pitskys
-Pitskys are medium-sized (33.07–77.16 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Pitsky is a designer cross between the American Staffordshire Terrier and the Siberian Husky. This mix usually weighs about 33-77 pounds, can inherit a dense double coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Hip dysplasia, Allergies, Heart issues. Originally from United States / Russia.
+
+### Pitsky at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#45** in canine intelligence (Average tier), the Pitsky responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Pitsky puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pitsky puppy

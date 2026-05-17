@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "border-colli
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/border-collie", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "border-collie"
 breedName: "Border Collie"
 wordCountEstimate: 505
+image: "https://images.dog.ceo/breeds/collie-border/n02106166_7804.jpg"
 canonicalUrl: "https://pupwiki.com/blog/border-collie-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Border Collies
-Border Collies are medium-sized (30–55 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Borders are athletic, medium-sized herders standing 18 to 22 inches at the shoulder. The overall look is that of a muscular but nimble worker unspoiled by passing fads. Both the rough coat and the smooth coat come in a variety of colors and patterns.The almond eyes are the focus of an intelligent expression—an intense gaze, the Border’s famous “herding eye”, is a breed hallmark. On the move, Borders are among the canine kingdom’s most agile, balanced, and durable citizens.The intelligence, athleticism, and trainability of Borders have a perfect outlet in agility training. Having a job to perform, like agility—or herding or obedience work—is key to Border happiness. Amiable among friends, they may be reserved with strangers. A remarkably bright workaholic, the Border Collie is an amazing dog—maybe a bit too amazing for owners without the time, energy, or means to keep it occupied. These e
+
+Originally from United Kingdom, the Border Collie belongs to the Sheepdogs and Cattledogs group. The Border Collie ranks #35 in AKC breed popularity.
+
+### Border Collie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
+
+Ranked **#1** in canine intelligence (Brightest tier), the Border Collie responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ### Common health concerns for Border Collies
 Border Collies have 2 documented genetic health conditions: eye problems, deafness. Typical life expectancy is 12–15 years.
 - **Eye problems**: Ask your vet about recommended screening and prevention for this condition in Border Collies.

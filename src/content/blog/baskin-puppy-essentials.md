@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "baskin"
 breedName: "Baskin"
 wordCountEstimate: 415
+image: "https://images.dog.ceo/breeds/hound-basset/n02088238_13683.jpg"
 canonicalUrl: "https://pupwiki.com/blog/baskin-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/36237036/pexels-photo-36237036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,19 @@ imageSearchQuery: "Baskin dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Baskins
-Baskins are medium-sized (28.66–39.68 lbs), with calm energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Baskin is a designer cross between the Basset Hound and the Cocker Spaniel. This mix usually weighs about 29-40 pounds, often lands somewhere between its parent coat types, and often blends a calmer companion temperament with moderate activity needs from both sides of the pedigree. Common monitoring areas include Ear mites/infections, Ectropion (Droopy eyes). Originally from France.
+
+### Baskin at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | █████ Very Friendly |
+
+Ranked **#46** in canine intelligence (Average tier), the Baskin responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Baskin puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Baskin puppy

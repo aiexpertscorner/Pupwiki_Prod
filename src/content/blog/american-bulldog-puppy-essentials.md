@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "american-bulldog"
 breedName: "American Bulldog"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/bulldog-french/n02108915_5669.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-bulldog-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/12768126/pexels-photo-12768126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,17 @@ imageSearchQuery: "American Bulldog dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Bulldogs
-American Bulldogs are large-sized (60–100 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+The American Bulldog is a descendant of the English Bulldog. It is believed that the bulldog was in America as early as the 17th century. They came to the United States in the 1800s, with immigrants who brought their working bulldogs with them. Small farmers and ranchers used this all-around working dog for many tasks including farm guardians, stock dogs, and catch dogs. The breed largely survived, particularly in the southern states, due to its ability to bring down and catch feral pigs.The breed we know as the American Bulldog was originally known by many different names before the name American Bulldog became the standard. In different parts of the South he was known as the White English Southern Bulldog, but most commonly just “bulldog.” The breed was not called a bulldog because of a certain look, but because they did real bulldog work. Breed Contact InformationKatrina HuffmasterPho
+
+### American Bulldog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a American Bulldog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a American Bulldog puppy

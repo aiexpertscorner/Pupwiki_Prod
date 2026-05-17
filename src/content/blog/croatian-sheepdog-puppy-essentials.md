@@ -30,7 +30,17 @@ canonicalUrl: "https://pupwiki.com/blog/croatian-sheepdog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Croatian Sheepdogs
-Croatian Sheepdogs are medium-sized (29–44 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Petar Horvat, the bishop of Djakovo, wrote in 1374 that Croats had brought a shepherd dog along on the move to their new land. He referred to the dog as Canis Pastoralis Croaticus—the Croatian Shepherd Dog.The bishop of Djakovo, Peter Bakic also wrote about the Croatian Sheepdog in his 1719 manuscript “On the Life of the People and Raising of Stock in Djakovo and it’s Surroundings in 1719”. He quoted the words written by Bishop Petar in 1374 and, providing his own description of the dog, stated that the Croatian Sheepdog had not changed since the record (from 1374 to 1719) and had not changed in appearance from that described by Bishop Petar in 1374.A systematic selection breeding program was started by the “father of the breed” – veterinarian Prof Dr Stjepan Romic in 1935 with dogs in the territory of Djakovo. After 34 years of work, the breed was recognized by the FCI in 1969. The Croa
+
+### Croatian Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
 ## How to approach a Croatian Sheepdog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Croatian Sheepdog puppy

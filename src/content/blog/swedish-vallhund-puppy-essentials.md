@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "swedish-vallhund"
 breedName: "Swedish Vallhund"
 wordCountEstimate: 354
+image: "https://images.dog.ceo/breeds/elkhound-norwegian/n02091467_5349.jpg"
 canonicalUrl: "https://pupwiki.com/blog/swedish-vallhund-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Swedish Vallhunds
-Swedish Vallhunds are medium-sized (20–35 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+With their thick sable coat, sturdy construction, and overall no-frills look, Vallhunds are a timeless breed, as comfortable in a suburban backyard as they were on the prow of Viking longships 1,200 years ago. These lively herders are built long and low to the ground—in not quite as exaggerated a fashion as their distant cousins the corgis, but the idea is the same: Their build makes it easier to nip at the heels of cattle and avoid kicks to the head. Balance, power, and smooth movement are breed hallmarks. The long and low Swedish Vallhund, Viking Dog of ancient legend, is a smart and sociable herder of dense coat and boundless energy. These rugged cattle dogs are known for their zest for life, unique vocalizations, and cheerful demeanor. Originally from Sweden, the Swedish Vallhund belongs to the Spitz and Primitive Types group.
+
+### Swedish Vallhund at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a Swedish Vallhund puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Swedish Vallhund puppy

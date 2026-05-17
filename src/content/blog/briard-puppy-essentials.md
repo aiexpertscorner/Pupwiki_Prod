@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "briard"
 breedName: "Briard"
 wordCountEstimate: 436
+image: "https://images.dog.ceo/breeds/briard/n02105251_4569.jpg"
 canonicalUrl: "https://pupwiki.com/blog/briard-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Briards
-Briards are large-sized (55–100 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Briards are herders known for a wavy coat of either gray, tawny, or black, and an impressive head topped by a peek-a-boo hairdo parted naturally in the middle. A luxurious beard and eyebrows accentuate an expression described as “frank and questioning.” Standing between 22 and 27 inches at the shoulder, Briards are burly and rugged but move with a nimble-footed gait.They possess traits common to many other herders: trainability, brains, a protective eye toward family (especially kids, whom they regard as their flock), and wariness with outsiders. These are large, tireless dogs—it is said that just two or three Briards can handle 700 head of sheep—and novice owners might be overwhelmed by their work drive and zest for life. The Briard packs so much loyalty, love, and spirit into its ample frame that it's often described as a "heart wrapped in fur." The dashing good looks of these muscular
+
+Originally from France, the Briard belongs to the Sheepdogs and Cattledogs group.
+
+### Briard at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ████░ High |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#30** in canine intelligence (Above average tier), the Briard benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Briard puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Briard puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "italian-greyhound"
 breedName: "Italian Greyhound"
 wordCountEstimate: 432
+image: "https://images.dog.ceo/breeds/greyhound-italian/n02091032_9131.jpg"
 canonicalUrl: "https://pupwiki.com/blog/italian-greyhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Italian Greyhounds
-Italian Greyhounds are small-sized (7–14 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+IGs are Greyhounds in miniature—more slender, but a Greyhound’s equal in grace and elegance. Standing ideally 13 to 15 inches at the shoulder, they present the sleek, curving lines common to all coursing hounds. Distinguishing features are the long, fine-boned legs.IGs combine the attentiveness of lapdogs with the complexity of ancient, aristocratic hounds. Bred for centuries to be doting companions and jesters, these high-stepping charmers refuse to be ignored. “On the whole,” writes an IG expert, “the breed would much rather be in your lap or bed than on the floor.” They are, though, true sighthounds and will bolt after quick-moving prey at the drop of a cat. A short-coat, low-fat breed, IGs require extra care in cold weather A true Greyhound in miniature, the elegant Italian Greyhound is an alert, playful, and highly affectionate toy companion. IGs make decorative couch dogs, but at h
+
+### Italian Greyhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | █░░░░ Reserved |
+
+Ranked **#60** in canine intelligence (Fair tier), the Italian Greyhound benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Italian Greyhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Italian Greyhound puppy

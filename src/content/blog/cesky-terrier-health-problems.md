@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "cesky-terrie
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/cesky-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "cesky-terrier"
 breedName: "Cesky Terrier"
 wordCountEstimate: 384
+image: "https://images.dog.ceo/breeds/terrier-australian/n02096294_8124.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cesky-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Cesky Terriers
-Cesky Terriers are small-sized (14–24 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Ceskys are muscular, short-legged, and handsome hunters standing no taller than 13 inches at the shoulder. The fine, silky coat comes in several shades of gray, including a stunning platinum. Wavy facial hair gives Ceskys a sporty, Continental look, and the medium-long neck lends a dash of elegance to these game, unspoiled working terriers.While Ceskys are as determined and prey-driven as any other earthdog, they’re mellower than a typical terrier. Wary of strangers and protective of loved ones, they’re good watchdogs without being particularly yappy. They train well and want to please. Here’s the catch: They are a scarce breed, with only about 600 living in America. A wonderful family dog, if you’re lucky enough to find one. The Cesky Terrier, national dog of the Czech Republic, is a clever and adventurous playmate for kids and an eager walking buddy for the folks. They are tenacious at
+
+### Cesky Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Cesky Terriers
 No breed-specific genetic ailments are currently documented for the Cesky Terrier (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Cesky Terrier health

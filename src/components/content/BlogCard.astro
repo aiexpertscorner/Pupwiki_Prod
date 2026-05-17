@@ -26,19 +26,26 @@ const {
   slug = '', emoji,
 } = Astro.props;
 
-// ── Category stock image fallback ────────────────────────────
-const CAT_IMG: Record<string, string> = {
-  'dog food': 'Dog-food.png',  food: 'Dog-food.png',
-  treats: 'Dog-Treats.png',   toys: 'Dog-Toys.png',
-  beds: 'Dog-Beds.png',        sleep: 'Dog-Beds.png',
-  grooming: 'Dog-Grooming.png', health: 'Dog-Health.png',
-  supplements: 'Dog-Supplements.png', training: 'Dog-Training.png',
-  gear: 'Dog-Training.png',   'smart tech': 'Dog-Smart_Tech.png',
-  'smart-tech': 'Dog-Smart_Tech.png', travel: 'Dog-Travel.png',
-  trending: 'Dog-Trending.png',
+import categoryFallbackImages from '../../data/category-fallback-images.json';
+
+// ── Hash-based category fallback pool (varied per slug, not one static PNG) ──
+const CAT_POOL_KEY: Record<string, string> = {
+  'dog food': 'food', food: 'food', treats: 'food',
+  toys: 'toys', beds: 'beds', sleep: 'beds',
+  grooming: 'grooming', health: 'health', supplements: 'supplements',
+  training: 'training', gear: 'training',
+  'smart tech': 'smart-tech', 'smart-tech': 'smart-tech', travel: 'travel',
 };
+function slugHashCode(str: string): number {
+  let h = 5381;
+  for (let i = 0; i < str.length; i++) h = ((h << 5) + h) + str.charCodeAt(i);
+  return Math.abs(h);
+}
 const catKey = category.toLowerCase();
-const catImgSrc = `/images/categories/${CAT_IMG[catKey] ?? 'Dog-All.png'}`;
+const poolKey = CAT_POOL_KEY[catKey] ?? 'all';
+const catPool: string[] = (categoryFallbackImages as Record<string, string[]>)[poolKey] ?? (categoryFallbackImages as Record<string, string[]>)['all'] ?? [];
+const hashSeed = slug || title;
+const catImgSrc = catPool.length ? catPool[slugHashCode(hashSeed) % catPool.length] : '';
 
 // ── Auto-detect breed image from slug ────────────────────────
 const BREEDS = [

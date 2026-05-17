@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "pekingese"
 breedName: "Pekingese"
 wordCountEstimate: 427
+image: "https://images.dog.ceo/breeds/pekinese/n02086079_6926.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pekingese-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pekingeses
-Pekingeses are small-sized (14 lbs), with calm energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Pekingese are compact, stocky toy dogs weighing up to 14 pounds. The coat is longest at the neck and shoulders, giving Pekes their famous “lion’s mane.” Coats come in various reds, from a golden-red to darker shades. The large, short-muzzled head is a wider-than-long “envelope shaped” rectangle, and the eyes are large, dark, and sparkly. A unique feature of Pekes is their effortless “rolling” gait.Pekes are charming, confident companions who develop a tight bond with their favorite human. Bred to live in palaces, they can be as serenely independent as the emperors who owned them. (They’re “opinionated,” Peke people say.) Ever alert, they make good watchdogs. Pekes will tolerate kids but won’t stand for a lot of roughhousing. The Pekingese, a compact toy companion of regal bearing and a distinctive rolling gait, is one of several breeds created for the ruling classes of ancient China. The
+
+### Pekingese at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █░░░░ Challenging |
+| Sociability | ██░░░ Selective |
+
+Ranked **#74** in canine intelligence (Lowest tier), the Pekingese benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Pekingese puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pekingese puppy

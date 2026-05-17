@@ -26,11 +26,19 @@ medicalDisclaimer: false
 breedSlug: "shikoku"
 breedName: "Shikoku"
 wordCountEstimate: 325
+image: "https://images.dog.ceo/breeds/shiba/shiba-15.jpg"
 canonicalUrl: "https://pupwiki.com/blog/shikoku-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Shikokus
-Shikokus are medium-sized (35–55 lbs), with regular energy, low shedding, and a double coat. The recommendations below are matched to these traits.
+The original Shikoku, or Kochi-ken, existed in the mountain ranges of Kochi Prefecture on the Island of Shikoku. They were highly valued by the Matagi (Japanese hunters) as a tracker of game, particularly wild boar. He is a medium-sized dog with well-balanced and well-developed, clean-cut muscles. He has pricked ears and a curled or sickle tail. His conformation is strong, well-boned and compact. His outer coat is rather harsh and straight and his undercoat is soft and dense. The hair on his tail is long. His coat can be red, black and tan, or sesame, which is a well-mixed color of black, red, and white hairs. The Shikoku is a dog of marked endurance, keen in sense with a naive feeling, energetic and highly alert. He is an enthusiastic hunter and docile towards his master.
+
+### Shikoku at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
 ## How to approach a Shikoku puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Shikoku puppy

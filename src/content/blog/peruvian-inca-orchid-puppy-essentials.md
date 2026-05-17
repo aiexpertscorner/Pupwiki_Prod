@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "peruvian-inca-orchid"
 breedName: "Peruvian Inca Orchid"
 wordCountEstimate: 351
+image: "https://images.dog.ceo/breeds/mexicanhairless/n02113978_3843.jpg"
 canonicalUrl: "https://pupwiki.com/blog/peruvian-inca-orchid-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Peruvian Inca Orchids
-Peruvian Inca Orchids are medium-sized (8.5–55 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+These affectionate companion dogs are essentially sighthounds (think Greyhounds and Whippets) and have the same elegant contours of their racy cousins. PIOs come in a range of sizes: the smallest might stand just short of 10 inches; the largest top out at nearly 26 inches. Their distinguishing feature is, of course, hairlessness. The delicate skin can be a solid color or spotted with unpigmented areas. Coated PIOs are in the minority, and the coated and hairless varieties can occur in the same littler.Going by his general conformation, it is an elegant and slim dog, whose aspect expresses speed, strength and harmony without ever appearing coarse. Another particular feature is that the dentition in the hairless variety is nearly always incomplete, associated with the congenital alopecia. Noble and affectionate at home with those close to him, he is at the same time lively and alert. He mi
+
+### Peruvian Inca Orchid at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Peruvian Inca Orchid puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Peruvian Inca Orchid puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "miniature-american-shepherd"
 breedName: "Miniature American Shepherd"
 wordCountEstimate: 361
+image: "https://images.dog.ceo/breeds/sheepdog-english/n02105641_523.jpg"
 canonicalUrl: "https://pupwiki.com/blog/miniature-american-shepherd-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Miniature American Shepherds
-Miniature American Shepherds are medium-sized (20–40 lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.
+The Miniature American Shepherd shares many physical traits with its forebear the Australian Shepherd—only on a smaller scale. Females stand between 13 and 17 inches at the shoulder; males range from 14 to 18 inches. Despite their size, Minis are every inch a true herding dog: energetic, versatile, rugged, and extremely bright. The eye-catching coat comes in black, blue merle, red, and red merle. (The merle will exhibit in any amount marbling, flecks, or blotches.) Minis move with the smooth and agile step of a dog built for hard work on punishing terrain. The Miniature American Shepherd resembles a small Australian Shepherd. True herders in spite of their compact size, Minis are bright, self-motivated workers and endearingly loyal and lively companion dogs who have an affinity for horses. The Miniature American Shepherd ranks #34 in AKC breed popularity.
+
+### Miniature American Shepherd at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █████ Very Heavy |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a Miniature American Shepherd puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Miniature American Shepherd puppy

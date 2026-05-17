@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "manchester-terrier-toy"
 breedName: "Manchester Terrier (Toy)"
 wordCountEstimate: 352
+image: "https://images.dog.ceo/breeds/terrier-toy/n02087046_5439.jpg"
 canonicalUrl: "https://pupwiki.com/blog/manchester-terrier-toy-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Manchester Terrier (Toy)s
-Manchester Terrier (Toy)s are small-sized (12 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Manchesters combine the streamlined grace of a small coursing hound and the instincts of a fearless rat terrier. These racy little dogs come in two size varieties: Toy (not exceeding 12 pounds) and Standard (not exceeding 22 pounds). All Manchesters are similar in temperament, body type and athletic ability despite differences in size. They’re easily recognized by a tight coat of rich mahogany tan and jet black. The head is long and wedge-shaped; tan spots above each eye point up a watchful expression. Manchesters can motor, running with good reach in front and propulsive rear drive powered by a muscular caboose. The Manchester Terrier is named after the English city where much of the breed’s early development took place. Sleek, racy dogs who possess a terrier’s ratting instinct and the graceful contours of coursing hounds, Manchesters are spirited, bright, and athletic. They combine the
+
+### Manchester Terrier (Toy) at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ## How to approach a Manchester Terrier (Toy) puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Manchester Terrier (Toy) puppy

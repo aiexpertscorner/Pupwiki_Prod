@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "portuguese-podengo"
 breedName: "Portuguese Podengo"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/hound-ibizan/n02091244_2293.jpg"
 canonicalUrl: "https://pupwiki.com/blog/portuguese-podengo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Portuguese Podengos
-Portuguese Podengos are large-sized (35–66 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+The Podengo is a rugged coursing hound that comes in two sizes: medio (medium, standing 16 to 22 inches at the shoulder) and grande (large, 22 to 28 inches). They also have two coat types: smooth and wirehaired. The breed’s enthusiasts describe it as “primitive,” that is, it’s a rustic, no-frills hound untouched by fads and fashion since arriving on the Iberian Peninsula ages ago. Among their distinctive characteristics are large, erect, triangular ears; a pyramid-shaped head that tapers to the nose; and sweetly expressive, almond-shaped eyes.Podengos, in general, are funny dogs that love to play. They easily entertain themselves with toys, chase each other and stalk each other around the house and yard. They are highly intelligent and learn new things very fast. Since they are a watchful dog though, they are not as easy going and playful with strangers and may view smaller animals like
+
+### Portuguese Podengo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Portuguese Podengo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Portuguese Podengo puppy

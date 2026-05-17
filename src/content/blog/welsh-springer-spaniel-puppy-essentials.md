@@ -26,11 +26,23 @@ medicalDisclaimer: false
 breedSlug: "welsh-springer-spaniel"
 breedName: "Welsh Springer Spaniel"
 wordCountEstimate: 405
+image: "https://images.dog.ceo/breeds/spaniel-welsh/n02102177_3686.jpg"
 canonicalUrl: "https://pupwiki.com/blog/welsh-springer-spaniel-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Welsh Springer Spaniels
-Welsh Springer Spaniels are medium-sized (35–55 lbs), with active energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Standing between 17 and 19 inches at the shoulder, Welshies are described by their fans as being of “handy size”: bigger and stronger than Cocker Spaniels but smaller than English Springers.Welshies have two hallmarks that distinguish them from other spaniels: A uniquely tapered head and an eye-catching coat of bold red and white patterns. The beautiful coat isn’t just ornamental—it’s a waterproof, weatherproof, and thornproof suit that enables Welshies to show off their renowned versatility in all climates and on all terrains. The Welsh Springer Spaniel is a vigorous, medium-sized bird dog of happy disposition, known for versatility in the field, companionability at home, and dashing good looks anywhere. The Welshie is among Britain's oldest sporting breeds.
+
+### Welsh Springer Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#31** in canine intelligence (Above average tier), the Welsh Springer Spaniel responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Welsh Springer Spaniel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Welsh Springer Spaniel puppy

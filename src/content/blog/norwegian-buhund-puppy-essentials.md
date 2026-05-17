@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "norwegian-buhund"
 breedName: "Norwegian Buhund"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/buhund-norwegian/hakon2.jpg"
 canonicalUrl: "https://pupwiki.com/blog/norwegian-buhund-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Norwegian Buhunds
-Norwegian Buhunds are medium-sized (26–40 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Buhund, a prototypical spitz, provides a good opportunity to explain the term. Spitz are cold-weather breeds characterized by a dense coat, a tail curved tightly over the back, a wedge-shaped head, and erect, pointed ears (“spitz” means “pointed” in ancient German). They can be pint-sized like Pomeranians, mighty like Malamutes, or mid-sized like the lithe but sturdy Buhund. Males can stand 18.5 inches high and weight up to 40 pounds. Coat colors are wheaten or black. The densely coated Norwegian Buhund, a Nordic spitz-type closely associated with the Vikings, is a medium-sized cold-weather worker adept at herding and guarding. As family dogs, Buhunds are smart, affectionate, and steadfastly devoted.
+
+### Norwegian Buhund at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ## How to approach a Norwegian Buhund puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Norwegian Buhund puppy

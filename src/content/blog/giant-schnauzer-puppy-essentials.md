@@ -26,11 +26,23 @@ medicalDisclaimer: false
 breedSlug: "giant-schnauzer"
 breedName: "Giant Schnauzer"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/schnauzer-giant/n02097130_1828.jpg"
 canonicalUrl: "https://pupwiki.com/blog/giant-schnauzer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Giant Schnauzers
-Giant Schnauzers are large-sized (55–85 lbs), with active energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+A well-bred Giant Schnauzer closely resembles the Standard Schnauzer—only bigger. As their name suggests, Giants are imposing.A male might stand as high as 27.5 inches at the shoulder and weigh 95 pounds. The muscular, substantial body is, as the breed’s fanciers put it, a “bold and valiant figure of a dog.” The double coat is either solid black or “pepper and salt.” Familiar characteristics of the Mini, Standard, and Giant are a harsh beard and eyebrows, accentuating a keen, sagacious expression. The Giant Schnauzer is a larger and more powerful version of the Standard Schnauzer, and he should, as the breed standard says, be a “bold and valiant figure of a dog.” Great intelligence and loyalty make him a stellar worker and companion. Originally from Germany, the Giant Schnauzer belongs to the Pinschers, Schnauzers, Molosser and Swiss Mountain Dogs group.
+
+### Giant Schnauzer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
+
+Ranked **#28** in canine intelligence (Above average tier), the Giant Schnauzer responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Giant Schnauzer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Giant Schnauzer puppy

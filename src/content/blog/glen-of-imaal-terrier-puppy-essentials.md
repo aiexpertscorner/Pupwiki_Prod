@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "glen-of-imaal-terrier"
 breedName: "Glen of Imaal Terrier"
 wordCountEstimate: 359
+image: "https://images.dog.ceo/breeds/terrier-irish/n02093991_4482.jpg"
 canonicalUrl: "https://pupwiki.com/blog/glen-of-imaal-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Glen of Imaal Terriers
-Glen of Imaal Terriers are medium-sized (32–40 lbs), with regular energy, low shedding, and a rough coat. The recommendations below are matched to these traits.
+Glens are scruffy, sturdy, low-slung terriers standing no more than 14 inches at the shoulder. There’s nothing fancy or fussed-over about Glens.Rather, their wiry no-frills coat, broad head, and bowed front legs suggest a working farm dog from a time and place where substance was more important than style. And yet, they’re also ridiculously cute. It takes a heart of stone to resist reaching down to give a Glen a scratch behind the ear and a pat on the well-muscled rump. Gentler, less excitable than most terriers, but still bold and spirited, the double-coated Glen of Imaal Terrier is named for one of Ireland's most remote locales. The brave but docile Glen is a strong, no-fuss dog built for hard work.
+
+### Glen of Imaal Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ## How to approach a Glen of Imaal Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Glen of Imaal Terrier puppy

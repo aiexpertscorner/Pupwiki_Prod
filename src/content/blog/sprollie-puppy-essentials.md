@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "sprollie"
 breedName: "Sprollie"
 wordCountEstimate: 427
+image: "https://images.dog.ceo/breeds/springer-english/n02102040_3225.jpg"
 canonicalUrl: "https://pupwiki.com/blog/sprollie-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Sprollies
-Sprollies are medium-sized (33.07–48.5 lbs), with active energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+Sprollie is a designer cross between the English Springer Spaniel and the Border Collie. This mix usually weighs about 33-48 pounds, often has a softer silky coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Hip dysplasia, CEA. Originally from United Kingdom.
+
+### Sprollie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
+
+Ranked **#7** in canine intelligence (Brightest tier), the Sprollie responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Sprollie puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Sprollie puppy

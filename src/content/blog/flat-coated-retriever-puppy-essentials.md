@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "flat-coated-retriever"
 breedName: "Flat-Coated Retriever"
 wordCountEstimate: 448
+image: "https://images.dog.ceo/breeds/retriever-flatcoated/n02099267_2259.jpg"
 canonicalUrl: "https://pupwiki.com/blog/flat-coated-retriever-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Flat-Coated Retrievers
-Flat-Coated Retrievers are large-sized (60–70 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+The Flat-Coated Retriever’s eponymous flat-lying coat comes in lustrous black or liver, with feathering at the legs and tail. A distinctive breed hallmark is the long head—unique among retrievers—which projects a smart and kindly expression. A Flat-Coat will stand as tall as a Labrador Retriever, but in silhouette they present a leaner, more elegant look.Dogdom’s champion tail-waggers, Flat-Coats are among the happiest of all breeds. They mature slowly; some owners say that they never grow up at all, retaining a puppyish taste for rambunctious mischief into old age. This can be either delightful or exasperating, depending on your tolerance for such monkeyshines. This highly energetic breed requires lots of outdoorsy exercise. The Peter Pan of the Sporting Group, the forever-young Flat-Coated Retriever is a gundog of relatively recent origin. Happy, self-assured, and willing to please, a
+
+### Flat-Coated Retriever at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#18** in canine intelligence (Excellent tier), the Flat-Coated Retriever responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ## How to approach a Flat-Coated Retriever puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Flat-Coated Retriever puppy

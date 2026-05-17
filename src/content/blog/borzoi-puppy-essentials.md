@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "borzoi"
 breedName: "Borzoi"
 wordCountEstimate: 427
+image: "https://images.dog.ceo/breeds/borzoi/n02090622_5890.jpg"
 canonicalUrl: "https://pupwiki.com/blog/borzoi-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Borzois
-Borzois are large-sized (60–105 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Borzoi are large, elegant sighthounds. A mature male stands at least 28 inches at the shoulder and weighs 75 to 105 pounds. Females will be smaller. Beneath the luxurious silky coat, Borzoi construction follows the ancient Greyhound template. Once known as the Russian Wolfhound, Borzoi were bred to be swift and tough enough to pursue and pin their ferocious lupine quarry.In their quiet, catlike way they can be stubborn, and training is best accomplished with patience, consistency, and good humor. Affectionate family dogs, Borzoi are nonetheless a bit too dignified to wholeheartedly enjoy a lot of roughhousing. The sight of a cat or squirrel on the run will quickly stir their pursuit instinct, and fenced-in running room is a must. Among the most impressively beautiful of all dogs, the aristocratic Borzoi is cherished for his calm, agreeable temperament. In full stride, he is a princely pa
+
+### Borzoi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
+
+Ranked **#76** in canine intelligence (Lowest tier), the Borzoi benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Borzoi puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Borzoi puppy

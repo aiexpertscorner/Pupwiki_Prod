@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "anatolian-shepherd-dog"
 breedName: "Anatolian Shepherd Dog"
 wordCountEstimate: 381
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_103.jpg"
 canonicalUrl: "https://pupwiki.com/blog/anatolian-shepherd-dog-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/10832671/pexels-photo-10832671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/10832671/pexels-photo-10832671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,17 @@ imageSearchQuery: "Anatolian Shepherd Dog dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Anatolian Shepherd Dogs
-Anatolian Shepherd Dogs are large-sized (80–150 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Anatolian Shepherd Dog stands between 27 and 29 inches at the shoulder and can weigh as much as 150 pounds. Profusely muscled but nimble afoot, Anatolians are more than a match for the predators and harsh terrain of their homeland. Anatolians descend from some of the oldest known domestic-canine bloodlines. This lends the breed a sense of timelessness, a no-frills, untouched quality that takes us back 6,000 years to the Bronze Age.Anatolians are smart, devoted, responsive, and adaptable. They will protect their flock—livestock, children, smaller dogs, even the family cat—with intensity. Anatolian owners must be strong leaders, willing and able to handle a dog as dominating and demanding as he is calm and loving. An Anatolian Shepherd Dog is a rugged, imposing flock guardian of ancient lineage. Protective and territorial, but also intelligent, patient, and profoundly loyal, these musc
+
+### Anatolian Shepherd Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Anatolian Shepherd Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Anatolian Shepherd Dog puppy

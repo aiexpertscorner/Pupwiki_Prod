@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "dameranian"
 breedName: "Dameranian"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/dachshund/Standard_Wire-hair_Dachshund.jpg"
 canonicalUrl: "https://pupwiki.com/blog/dameranian-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Dameranians
-Dameranians are small-sized (8.82–19.84 lbs), with regular energy, seasonal shedding, and a medium coat. The recommendations below are matched to these traits.
+Dameranian is a designer cross between the Dachshund and the Pomeranian. This mix usually weighs about 9-20 pounds, often lands somewhere between its parent coat types, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include IVDD, Tracheal collapse. Originally from Germany.
+
+### Dameranian at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#36** in canine intelligence (Above average tier), the Dameranian responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Dameranian puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Dameranian puppy

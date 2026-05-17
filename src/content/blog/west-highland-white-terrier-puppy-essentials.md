@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "west-highland-white-terrier"
 breedName: "West Highland White Terrier"
 wordCountEstimate: 451
+image: "https://images.dog.ceo/breeds/terrier-westhighland/n02098286_516.jpg"
 canonicalUrl: "https://pupwiki.com/blog/west-highland-white-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About West Highland White Terriers
-West Highland White Terriers are small-sized (15–20 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+Standing 10 to 11 inches at the shoulder, with dark piercing eyes, compact body, and a carrot-shaped tail wagging with delight, the Westie’s looks are irresistible. Beneath the plush-toy exterior, though, is a true working terrier of gameness and courage. Bred to hunt rats and other underground rodents, Westies are surprisingly strong and tough. The all-white double coat is hard to the touch, not soft and fluffy.Alert and active, Westies exhibit traits of a plucky and self-reliant ratting terrier: They require no pampering, they will chase after anything that moves, and their independence can make training a challenge. But, thanks to their faithfulness and keen intelligence, Westies will train nicely with time and patience. Smart, confident, and always entertaining at play, the adorable West Highland White Terrier (Westie, for short) has charmed owners for over 300 years. This diminutive The West Highland White Terrier ranks #42 in AKC breed popularity.
+
+### West Highland White Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#47** in canine intelligence (Average tier), the West Highland White Terrier responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a West Highland White Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a West Highland White Terrier puppy

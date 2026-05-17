@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "irish-terrie
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/irish-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,22 @@ medicalDisclaimer: true
 breedSlug: "irish-terrier"
 breedName: "Irish Terrier"
 wordCountEstimate: 366
+image: "https://images.dog.ceo/breeds/terrier-irish/n02093991_3653.jpg"
 canonicalUrl: "https://pupwiki.com/blog/irish-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Irish Terriers
-Irish Terriers are medium-sized (25–27 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+Irish Terriers are the prototype of a long-legged terrier. Standing about 18 inches at the shoulder, they’re sturdy but lithe and graceful. Every line of the body is eye-catching, and the overall picture is beautifully balanced. The tight red coat is as fiery as the breed’s temperament. ITs are a dog lover’s delight: If your heart doesn’t go pitty-pat at the sight of this Technicolor terrier framed against the vivid greens of the Irish countryside, forget dogs and buy a goldfish. The Irish Terrier, “Daredevil” of the Emerald Isle, is a bold, dashing, and courageous terrier of medium size. Known for his fiery red coat and a temperament to match, the Irish Terrier is stouthearted at work and tenderhearted at home.
+
+### Irish Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Irish Terriers
 No breed-specific genetic ailments are currently documented for the Irish Terrier (typical life expectancy: 13–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Irish Terrier health

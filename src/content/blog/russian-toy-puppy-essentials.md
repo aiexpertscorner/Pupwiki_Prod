@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "russian-toy"
 breedName: "Russian Toy"
 wordCountEstimate: 353
+image: "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_2919.jpg"
 canonicalUrl: "https://pupwiki.com/blog/russian-toy-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Russian Toys
-Russian Toys are small-sized (6.5 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+The Russian Toy is a toy breed with a lineage that dates back to the Russian aristocracy. In general, he is a good-natured imp that loves to run and play. They will dash through the house or yard chasing toys as long as you can keep up, while many others are willing to do nothing more than lounge in your lap all day long, content in knowing that they are the prize jewel in your home. They thrive on human companionship and will let you know if they are feeling neglected. Their coat is either semi-long or smooth. The longhaired variety carries a nice ruff on the chest and unique feathering on the extremities, tail and ears. Long-coated Russian Toys will not have an adult coat until it is more than a year old and full fringing not until three years of age. The smooth-coated variety is sleek and smooth to the touch. There is also a slight attitude difference between the two varieties. Smooth
+
+### Russian Toy at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Russian Toy puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Russian Toy puppy

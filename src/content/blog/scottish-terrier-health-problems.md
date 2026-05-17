@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "scottish-ter
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/scottish-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "scottish-terrier"
 breedName: "Scottish Terrier"
 wordCountEstimate: 487
+image: "https://images.dog.ceo/breeds/terrier-scottish/n02097298_3238.jpg"
 canonicalUrl: "https://pupwiki.com/blog/scottish-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Scottish Terriers
-Scottish Terriers are small-sized (18–22 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+The well-known Scottie silhouette is that of a short-legged but substantial terrier with distinctive furnishings at the beard, legs, and lower body. The wiry topcoat and soft, dense undercoat coat can be black, wheaten yellow, or a brindle-stripe pattern. Bright, piercing eyes, and erect ears and tail, convey keen alertness—a hallmark of Britain’s terrier breeds.The Scottie working style has been described as efficient and businesslike, and their aloofness toward strangers makes them excellent watchdogs. Their hunting instinct remains strong, which can complicate life for the neighbor’s cat, and Scotties are known to be cantankerous around other dogs. This bold and clever Scotsman enjoys brisk walks and upbeat play. A solidly compact dog of vivid personality, the Scottish Terrier is an independent, confident companion of high spirits. Scotties have a dignified, almost-human character. Th
+
+### Scottish Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
+
+Ranked **#65** in canine intelligence (Fair tier), the Scottish Terrier benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Scottish Terriers
 Scottish Terriers have 1 documented genetic health condition: blood clotting disorder. Typical life expectancy is 12 years.
 - **Blood clotting disorder**: Ask your vet about recommended screening and prevention for this condition in Scottish Terriers.

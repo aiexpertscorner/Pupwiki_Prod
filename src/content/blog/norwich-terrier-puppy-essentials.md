@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "norwich-terrier"
 breedName: "Norwich Terrier"
 wordCountEstimate: 356
+image: "https://images.dog.ceo/breeds/terrier-norwich/n02094258_1003.jpg"
 canonicalUrl: "https://pupwiki.com/blog/norwich-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Norwich Terriers
-Norwich Terriers are small-sized (12 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Standing no more than 10 inches at the shoulder and weighing about 12 pounds, Norwich are among the smallest working terriers. Beneath the hard, wiry coat is a stocky, substantial dog. Norwiches are toy-sized but are not satin-pillow dogs—they were originally bred as tough and fearless ratters. They are distinguished from their doggy doppelganger, the Norfolk Terrier, by their erect, pointed ears.Happy-go-lucky, fearless, and sometimes even bossy, Norwiches are energetic enough to play fetch all day, but affectionate enough to enjoy hours of lap time with their favorite human. Short, positive training sessions work best with this clever but sometimes stubborn breed. Three words convey the overall dog: cute, cuter, and cutest. Norwich Terriers are plucky little earthdogs named for their hometown in England. The old cliché “a big dog in a small package” was coined for breeds like the Norwi
+
+### Norwich Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Norwich Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Norwich Terrier puppy

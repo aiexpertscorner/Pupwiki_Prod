@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "miniature-pinscher"
 breedName: "Miniature Pinscher"
 wordCountEstimate: 353
+image: "https://images.dog.ceo/breeds/pinscher-miniature/n02107312_5599.jpg"
 canonicalUrl: "https://pupwiki.com/blog/miniature-pinscher-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Miniature Pinschers
-Miniature Pinschers are small-sized (8–10 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Min Pins are sturdy, compact dogs standing no more than 12.5 inches at the shoulder. The smooth, shiny coat comes in two shades of solid red, or chocolate-and-rust or black-and-rust. The dark, slightly oval eyes and high-set ears help bring out a self-possessed, “big dog” personality. A distinguishing characteristic is the Min Pin’s high-stepping “hackney” gait, reminiscent of a hackney horse at the trot. The leggy Miniature Pinscher is known to fans as the “King of Toys.” This proud, fearless, fun-loving toy breed of lustrous coat and a compact, wedge-shaped physique is a true personality dog, known for a high-stepping “hackney” gait.
+
+### Miniature Pinscher at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ## How to approach a Miniature Pinscher puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Miniature Pinscher puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "stabyhoun"
 breedName: "Stabyhoun"
 wordCountEstimate: 337
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_10000.jpg"
 canonicalUrl: "https://pupwiki.com/blog/stabyhoun-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Stabyhouns
-Stabyhouns are medium-sized (40–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Stabyhoun’s independent nature was a deliberately bred characteristic by farmers who wanted a dog that could hunt independently for moles and rabbits. That propensity we still see today, therefore, you cannot be upset if he looks for prey independently and, for example, digs in the garden. With proper guidance, a Staby is a gentle dog and a great friend for life.Stabys are also very inquisitive. Always pay attention to what a Stabyhoun is up to because with their inquisitive nature, they can quickly get into trouble. If you think your Staby will sit quietly if something happens, you will often be disappointed. Although Stabys make a lot of noise when something is wrong or to alert his owner, they generally expect the owner to further investigate before they accept that things are normal. Most Stabys will need to verify that there are no “surprises” in store before calming down again. Originally from Netherlands, the Stabyhoun belongs to the Pointing Dogs group.
+
+### Stabyhoun at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ## How to approach a Stabyhoun puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Stabyhoun puppy

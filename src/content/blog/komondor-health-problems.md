@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "komondor", "
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/komondor", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "komondor"
 breedName: "Komondor"
 wordCountEstimate: 377
+image: "https://images.dog.ceo/breeds/komondor/n02105505_4143.jpg"
 canonicalUrl: "https://pupwiki.com/blog/komondor-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Komondors
-Komondors are large-sized (80–100 lbs), with regular energy, seasonal shedding, and a corded coat. The recommendations below are matched to these traits.
+Our Hungarian-language tip of the day: The plural of Komondor is Komondorok. Now, let’s take a look at the dog. What we see is a large and powerful guardian covered in profuse white cords. A big male can stand more than 27.5 inches and weigh over 100 pounds, with heavy bone, a deep chest, and lots of muscle. Despite their brawn Komondorok are agile and light-footed, and move with long strides. With their unique look, it’s impossible to mistake Koms for anything else. A powerfully large Hungarian flock guardian covered in profuse white cords from head to tail, the Komondor is among the world’s most recognizable breeds. The independent and protective Kom requires a firm, experienced hand at training.
+
+### Komondor at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █████ Very High |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Komondors
 No breed-specific genetic ailments are currently documented for the Komondor (typical life expectancy: 10–12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Komondor health

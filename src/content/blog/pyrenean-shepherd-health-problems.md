@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "pyrenean-she
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/pyrenean-shepherd", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "pyrenean-shepherd"
 breedName: "Pyrenean Shepherd"
 wordCountEstimate: 337
+image: "https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_13586.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pyrenean-shepherd-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Pyrenean Shepherds
-Pyrenean Shepherds are medium-sized (15–30 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+These tough, lean, and lively herders, famous for their vigorous and free-flowing movement, come in two coat varieties: rough-faced and smooth-faced. Roughs have profuse, “windswept” hair above the muzzle and a generally harsh coat; smooths have short facial hair, a finer-textured coat, and a slightly longer, pointier muzzle. Both varieties of this sinewy, rectangular breed come in many colors and patterns. Pyr Sheps see the world through dark almond-shaped eyes conveying an alert and cunning expression. Enthusiastic, mischievous, and whip-smart, the Pyrenean Shepherd is an indefatigable herder descended from ancient sheepdogs of the Pyrenees mountains. Tough and sinewy Pyr Sheps come in “rough-faced” and “smooth-faced” coat varieties.
+
+### Pyrenean Shepherd at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Pyrenean Shepherds
 No breed-specific genetic ailments are currently documented for the Pyrenean Shepherd. Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Pyrenean Shepherd health

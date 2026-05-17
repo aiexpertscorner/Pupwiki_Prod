@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "dutch-shepherd"
 breedName: "Dutch Shepherd"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/malinois/n02105162_5548.jpg"
 canonicalUrl: "https://pupwiki.com/blog/dutch-shepherd-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Dutch Shepherds
-Dutch Shepherds are large-sized (42–75 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Dutch Shepherd was discovered as a naturally occurring shepherd’s dog living in rural areas. It was developed as an all-purpose farm dog, working originally as a farm guard, drover, and livestock dog. A well known dog fancier wrote about the Dutch Shepherd in 1910: “…bearing a great resemblance to the wolf.” Of course this is not entirely true, but it is another aspect that shows that the Dutch Shepherd still has many of the characteristics of its wild forebears. Although it is not a widely known breed, the Dutch Shepherd is a loyal companion and competent working dog used for obedience, dog sports, herding, tracking, search and rescue, and as a police dog. The Dutch Shepherd is a lively, athletic, alert and intelligent breed, and has retained its herding instinct for which it was originally developed. Having an independent nature, it can be slightly obstinate and have a mind of its
+
+Originally from Netherlands, the Dutch Shepherd belongs to the Sheepdogs and Cattledogs group.
+
+### Dutch Shepherd at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Dutch Shepherd puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Dutch Shepherd puppy

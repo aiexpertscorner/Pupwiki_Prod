@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "chinese-crested"
 breedName: "Chinese Crested"
 wordCountEstimate: 353
+image: "https://images.dog.ceo/breeds/chihuahua/n02085620_1502.jpg"
 canonicalUrl: "https://pupwiki.com/blog/chinese-crested-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Chinese Cresteds
-Chinese Cresteds are small-sized (8–12 lbs), with regular energy, minimal shedding, and a hairless coat. The recommendations below are matched to these traits.
+The Chinese Crested, a lively and alert toy breed standing between 11 and 13 inches high, can be hairless or coated. The hairless variety has smooth, soft skin and tufts of hair on the head, tail, and ankles. The coated variety, called the “powderpuff,” is covered by a soft, silky coat. Besides the coat, there’s very little difference between the powderpuff and his undressed brother. Both varieties are characterized by fine-boned elegance and graceful movement.Cresteds are as fun as they look: playful, loving, and devoted to their humans. The hairless has its advantages: there is no doggy odor, and for obvious reasons shedding isn’t much of a problem. Both varieties are attentive housemates, totally in tune with their family. With their spotted pink skin, spiky “crested” hairdo, furry socks and feathery tail, you can’t mistake the sweet and slender Chinese Crested for any other breed. Th
+
+### Chinese Crested at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Chinese Crested puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Chinese Crested puppy

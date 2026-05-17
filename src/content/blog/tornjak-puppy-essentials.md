@@ -26,11 +26,19 @@ medicalDisclaimer: false
 breedSlug: "tornjak"
 breedName: "Tornjak"
 wordCountEstimate: 351
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_902.jpg"
 canonicalUrl: "https://pupwiki.com/blog/tornjak-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Tornjaks
-Tornjaks are large-sized (62–110 lbs), with regular energy, low shedding, and a long coat. The recommendations below are matched to these traits.
+The Tornjak is also known as the Bosnian and Herzegovinian – Croatian Shepherd dog. He is a large and powerful dog, well-proportioned and agile. The shape of his body is almost square. When standing and moving, he is strong, harmonious and well-balanced. His coat is long and thick. According to studies, the Tornjak is most likely a descendant of the Tibetan Mastiff, or from the area where modern-day Iran is. That environment has created a healthy and strong watchdog, with modest needs for food and shelter. Tornjaks are friendly with people, but aggressive towards other animals and dogs that threaten his owner, home, sheep, pen or flock. They like to work and take commands readily from their owners. The Tornjak is of steady disposition, friendly, courageous, obedient, intelligent, and full of dignity and self-confidence. Fierce in guarding property entrusted to him, he cannot be bribed an
+
+### Tornjak at a glance
+
+| Trait | Level |
+|-------|-------|
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ## How to approach a Tornjak puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Tornjak puppy

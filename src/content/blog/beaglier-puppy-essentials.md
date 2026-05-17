@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "beaglier"
 breedName: "Beaglier"
 wordCountEstimate: 424
+image: "https://images.dog.ceo/breeds/beagle/n02088364_2502.jpg"
 canonicalUrl: "https://pupwiki.com/blog/beaglier-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/32130866/pexels-photo-32130866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,19 @@ imageSearchQuery: "Beaglier dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Beagliers
-Beagliers are small-sized (11.02–24.25 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+Beaglier is a designer cross between the Beagle and the Cavalier King Charles Spaniel. This mix usually weighs about 11-24 pounds, often has a softer silky coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Syringomyelia, Ear infections. Originally from United Kingdom.
+
+### Beaglier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#58** in canine intelligence (Average tier), the Beaglier responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Beaglier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Beaglier puppy

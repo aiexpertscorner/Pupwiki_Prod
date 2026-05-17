@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "havashire"
 breedName: "Havashire"
 wordCountEstimate: 435
+image: "https://images.dog.ceo/breeds/havanese/00100trPORTRAIT_00100_BURST20191112123933390_COVER.jpg"
 canonicalUrl: "https://pupwiki.com/blog/havashire-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Havashires
-Havashires are small-sized (6.61–13.23 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Havashire is a designer cross between the Havanese and the Yorkshire Terrier. This mix usually weighs about 7-13 pounds, often has a softer silky coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Liver shunts, Dental decay. Originally from United Kingdom.
+
+### Havashire at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#27** in canine intelligence (Above average tier), the Havashire responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Havashire puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Havashire puppy

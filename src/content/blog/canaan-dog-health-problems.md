@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "canaan-dog",
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/canaan-dog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -31,7 +31,17 @@ canonicalUrl: "https://pupwiki.com/blog/canaan-dog-health-problems"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Canaan Dogs
-Canaan Dogs are medium-sized (35–55 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Canaan Dogs are lean, bushy-tailed dogs standing 19 to 24 inches at the shoulder. The coat is straight and harsh, and comes in various colors and patterns. Erect, expressive ears and dark almond eyes convey an inquisitive expression. Canaans move at a brisk, natural trot. They are rugged, agile, and apparently tireless, making them a nice fit for hikers and runners.Canaans are clever, confident, and territorial. They will end up “owning” passive owners who haven’t establish themselves as top dog in the family pack. Early training and socialization are key. When positive methods are applied, these ancient wonder-dogs train beautifully. Agility, obedience, herding trials, and sentry duty are a few outlets for their work ethic. One of the AKC's oldest breeds, the Canaan Dog is the national dog of Israel. This quick, medium-sized pasture dog is docile with family, aloof with strangers. The e
+
+### Canaan Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █████ Very Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Canaan Dogs
 No breed-specific genetic ailments are currently documented for the Canaan Dog (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Canaan Dog health

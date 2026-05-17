@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "redbone-coonhound"
 breedName: "Redbone Coonhound"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/redbone/n02090379_4643.jpg"
 canonicalUrl: "https://pupwiki.com/blog/redbone-coonhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Redbone Coonhounds
-Redbone Coonhounds are large-sized (45–70 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Redbones are medium-to-large hound dogs whose muscles undulate beneath a sleek and stunning red coat. The overall impression is that a master sculptor carved them from blocks of the finest mahogany. The classically houndy head is flanked by ears long enough to reach the nose. Dreamy brown eyes give the face an expression described by the breed’s devotees as “pleading.”Bred to work on all kinds of punishing terrain, Redbones are fast and surefooted and move with a proud, determined gait. The streamlined Redbone Coonhound, an American original, is even-tempered, mellow, and kindly at home but a tiger on the trail. Vigorous activities like hunting and swimming between long periods of rest is the rhythm of coonhound life.
+
+### Redbone Coonhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ## How to approach a Redbone Coonhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Redbone Coonhound puppy

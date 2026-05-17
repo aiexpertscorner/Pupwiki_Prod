@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "german-spitz"
 breedName: "German Spitz"
 wordCountEstimate: 367
+image: "https://images.dog.ceo/breeds/spitz-japanese/tofu.jpg"
 canonicalUrl: "https://pupwiki.com/blog/german-spitz-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About German Spitzs
-German Spitzs are medium-sized (24–26 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Spitz breeds like the German Spitz are captivating on account of their beautiful coats, made to stand off by a plentiful undercoat. Particularly impressive is his strong, mane-like collar around his neck, called a ruff, and the bushy tail carried boldly over his back. His foxy head, alert eyes, and small, pointed, closely-set ears give the German Spitz his unique cheeky appearance. His coat comes in a variety of colors including white, black, cream, gold, black and tan, sable, and chocolate brown. Though easily trainable, this lively and intelligent breed can also have an independent streak. If properly trained (so as not to be too noisy) and well socialized, the German Spitz will be happy mingling with other people and dogs. The German Spitz is always attentive, lively and exceptionally devoted to his owner. He is very teachable and easy to train. His distrust towards strangers and lack
+
+### German Spitz at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
 ## How to approach a German Spitz puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a German Spitz puppy

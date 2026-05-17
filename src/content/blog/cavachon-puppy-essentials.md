@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "cavachon"
 breedName: "Cavachon"
 wordCountEstimate: 436
+image: "https://images.dog.ceo/breeds/spaniel-blenheim/n02086646_602.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cavachon-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cavachons
-Cavachons are small-sized (13.23–22.05 lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Cavachon is a designer cross between the Cavalier King Charles Spaniel and the Bichon Frise. This mix usually weighs about 13-22 pounds, often has a softer silky coat, and often blends a calmer companion temperament with moderate activity needs from both sides of the pedigree. Common monitoring areas include Heart murmurs, Atopy (Skin allergies). Originally from United Kingdom.
+
+### Cavachon at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | █████ Very Friendly |
+
+Ranked **#44** in canine intelligence (Average tier), the Cavachon responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Cavachon puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Cavachon puppy

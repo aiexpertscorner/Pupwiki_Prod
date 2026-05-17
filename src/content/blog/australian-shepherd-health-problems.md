@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "australian-s
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/australian-shepherd", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,6 +26,7 @@ medicalDisclaimer: true
 breedSlug: "australian-shepherd"
 breedName: "Australian Shepherd"
 wordCountEstimate: 492
+image: "https://images.dog.ceo/breeds/australian-shepherd/leroy.jpg"
 canonicalUrl: "https://pupwiki.com/blog/australian-shepherd-health-problems"
 heroImage: "https://images.pexels.com/photos/32854630/pexels-photo-32854630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/32854630/pexels-photo-32854630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -40,7 +41,21 @@ imageSearchQuery: "Australian Shepherd dog veterinarian wellness"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Australian Shepherds
-Australian Shepherds are medium-sized (40–65 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Australian Shepherd, the cowboy’s herding dog of choice, is a medium-sized worker with a keen, penetrating gaze in the eye. Aussie coats offer different looks, including merle (a mottled pattern with contrasting shades of blue or red). In all ways, they’re the picture of rugged and agile movers of stock. Aussies exhibit an irresistible impulse to herd, anything: birds, dogs, kids. This strong work drive can make Aussies too much dog for a sedentary pet owner. Aussies are remarkably intelligent, quite capable of hoodwinking an unsuspecting novice owner. In short, this isn’t the pet for everyone. But if you’re looking for a brainy, tireless, and trainable partner for work or sport, your search might end here. The Australian Shepherd, a lean, tough ranch dog, is one of those “only in America” stories: a European breed perfected in California by way of Australia. Fixtures on the rodeo ci
+
+Originally from United States, the Australian Shepherd belongs to the Sheepdogs and Cattledogs group. The Australian Shepherd ranks #17 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Australian Shepherd at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
+
+Ranked **#42** in canine intelligence (Average tier), the Australian Shepherd responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Australian Shepherds
 Australian Shepherds have 2 documented genetic health conditions: deafness, hip problems. Typical life expectancy is 12–15 years.
 - **Deafness**: Ask your vet about recommended screening and prevention for this condition in Australian Shepherds.

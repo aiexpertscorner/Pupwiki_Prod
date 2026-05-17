@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "bluetick-coonhound"
 breedName: "Bluetick Coonhound"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/bluetick/n02088632_1236.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bluetick-coonhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bluetick Coonhounds
-Bluetick Coonhounds are large-sized (45–80 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Blueticks are speedy and compact nocturnal hunters named for the mottled (or “ticked”) black-and-blue pattern of the glossy coat. A large male can top out at 27 inches and 80 pounds; females are smaller. Blueticks are well-muscled but sleek and racy, never chunky or clumsy. The baying, bawling, and chopping bark of Blueticks might be cacophonous to some, but to coon hunters it’s the music of the night.The droopy-eared charm of Blueticks is irresistible. They crave affection and are deeply devoted to those who provide it. Blueticks have tremendous prey drive. Neglected, underemployed coonhounds with no outlet for their hardwired impulses can develop problem behaviors, like serenading the neighbors with loud, mournful “music.” The sleekly beautiful Bluetick Coonhound is a sweet and affectionate charmer who might enjoy snoozing in the shade, but in pursuit of quarry he is relentless, bold,
+
+### Bluetick Coonhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Bluetick Coonhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bluetick Coonhound puppy

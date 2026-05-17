@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "portuguese-w
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/portuguese-water-dog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "portuguese-water-dog"
 breedName: "Portuguese Water Dog"
 wordCountEstimate: 400
+image: "https://images.dog.ceo/breeds/waterdog-spanish/20180723_185559.jpg"
 canonicalUrl: "https://pupwiki.com/blog/portuguese-water-dog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Portuguese Water Dogs
-Portuguese Water Dogs are medium-sized (35–60 lbs), with active energy, seasonal shedding, and a curly coat. The recommendations below are matched to these traits.
+The Portuguese Water Dog is super-smart and very biddable—meaning he’s easy to train and eager to please. The breed can be groomed in two styles: The retriever clip (the entire coat is clipped to one inch in length, with the tail tip at full length) or the more check-me-out lion clip, where the coat on the hindquarters and muzzle is clipped down to the skin. The bright and biddable Portuguese Water Dog was bred to be an all-around fisherman’s helper. The robust, medium-sized body is covered by a coat of tight, low-shedding curls. They are eager and athletic companions built for water work. The Portuguese Water Dog ranks #50 in AKC breed popularity.
+
+### Portuguese Water Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Portuguese Water Dogs
 No breed-specific genetic ailments are currently documented for the Portuguese Water Dog (typical life expectancy: 11–13 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Portuguese Water Dog health

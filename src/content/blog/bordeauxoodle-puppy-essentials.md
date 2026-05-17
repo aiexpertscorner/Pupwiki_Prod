@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "bordeauxoodle"
 breedName: "Bordeauxoodle"
 wordCountEstimate: 450
+image: "https://images.dog.ceo/breeds/poodle-miniature/n02113712_9629.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bordeauxoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bordeauxoodles
-Bordeauxoodles are large-sized (88.18–121.25 lbs), with regular energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Bordeauxoodle is a designer cross between the Dogue de Bordeaux and the Poodle (Standard). This mix usually weighs about 88-121 pounds, often has a curly, low-shed-leaning coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Heart disease, Hip dysplasia. Originally from France.
+
+### Bordeauxoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#45** in canine intelligence (Average tier), the Bordeauxoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Bordeauxoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bordeauxoodle puppy

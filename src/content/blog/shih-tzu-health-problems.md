@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "shih-tzu", "
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/shih-tzu", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "shih-tzu"
 breedName: "Shih Tzu"
 wordCountEstimate: 491
+image: "https://images.dog.ceo/breeds/shihtzu/n02086240_8812.jpg"
 canonicalUrl: "https://pupwiki.com/blog/shih-tzu-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Shih Tzus
-Shih Tzus are small-sized (9–16 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Shih Tzu (pronounced in the West “sheed-zoo” or “sheet-su”; the Chinese say “sher-zer”), weighing between 9 to 16 pounds, and standing between 8 and 11 inches, are surprisingly solid for dogs their size. The coat, which comes in many colors, is worth the time you will put into it—few dogs are as beautiful as a well-groomed Shih Tzu.Being cute is a way of life for this lively charmer. The Shih Tzu is known to be especially affectionate with children. As a small dog bred to spend most of their day inside royal palaces, they make a great pet if you live in an apartment or lack a big backyard. Some dogs live to dig holes and chase cats, but a Shih Tzu’s idea of fun is sitting in your lap acting adorable as you try to watch TV. That face! Those big dark eyes looking up at you with that sweet expression! It’s no surprise that Shih Tzu owners have been so delighted with this little “Lion Dog” f
+
+Originally from China, the Shih Tzu belongs to the Companion and Toy Dogs group. The Shih Tzu ranks #20 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Shih Tzu at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ████░ High |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#70** in canine intelligence (Lowest tier), the Shih Tzu responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Shih Tzus
 Shih Tzus have 1 documented genetic health condition: eye problems. Typical life expectancy is 10–18 years.
 - **Eye problems**: Ask your vet about recommended screening and prevention for this condition in Shih Tzus.

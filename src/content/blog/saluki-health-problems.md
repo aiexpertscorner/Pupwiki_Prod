@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "saluki", "do
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/saluki", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "saluki"
 breedName: "Saluki"
 wordCountEstimate: 413
+image: "https://images.dog.ceo/breeds/saluki/n02091831_3300.jpg"
 canonicalUrl: "https://pupwiki.com/blog/saluki-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Salukis
-Salukis are medium-sized (40–65 lbs), with active energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+The beauty of Salukis has been a thing of wonder for thousands of years. They’re slim and leggy, but very strong and perfectly balanced, like a great athlete or dancer. Males can stand between 23 and 28 inches at the shoulder; females can be much shorter. They come in a many colors and patterns. Their large, oval-shaped eyes are warm and intelligent.Salukis are highly adaptable, able to live and work in any climate. They’re magnificent animals, but owning them comes with many special challenges. Among the world’s oldest breeds, the slim but rugged Saluki was the hunting hound of kings for thousands of years. Salukis are swift and agile sprinters who love a good chase. They make gentle, dignified, and independent but loyal pets.
+
+### Saluki at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#43** in canine intelligence (Average tier), the Saluki benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Salukis
 No breed-specific genetic ailments are currently documented for the Saluki (typical life expectancy: 10–17 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Saluki health

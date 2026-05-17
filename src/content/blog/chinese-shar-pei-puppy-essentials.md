@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "chinese-shar-pei"
 breedName: "Chinese Shar-Pei"
 wordCountEstimate: 345
+image: "https://images.dog.ceo/breeds/chow/n02112137_6282.jpg"
 canonicalUrl: "https://pupwiki.com/blog/chinese-shar-pei-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Chinese Shar-Peis
-Chinese Shar-Peis are medium-sized (45–60 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+The compact, medium-sized Chinese Shar-Pei is an amalgam of odd physical traits: a broad “hippopotamus” muzzle; a blue-black tongue; small, sunken eyes with a scowling expression; tiny triangular ears; abundant folds of loose skin about the head, neck, and shoulders; the tapered high-set tail—all blanketed by a harsh, sandpapery coat. (A literal translation of Shar-Pei: “sand skin.”)Shar-Pei are strong, regal, independent guardians famous for intelligence and loyalty. They are suspicious of strangers and other dogs. Shar-Pei are serene dogs, but they will meet a perceived threat with tenacity and vigor. Early training and socialization are essential—a dominant adult Shar-Pei without them is a serious problem waiting to happen. This fascinating but challenging breed of ancient pedigree is steadfastly loyal to family, but standoffish with strangers. The Chinese Shar-Pei has physical charac
+
+### Chinese Shar-Pei at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | ██░░░ Selective |
 ## How to approach a Chinese Shar-Pei puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Chinese Shar-Pei puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "horgi"
 breedName: "Horgi"
 wordCountEstimate: 430
+image: "https://images.dog.ceo/breeds/husky/n02110185_2728.jpg"
 canonicalUrl: "https://pupwiki.com/blog/horgi-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Horgis
-Horgis are medium-sized (22.05–48.5 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+Horgi is a designer cross between the Siberian Husky and the Pembroke Welsh Corgi. This mix usually weighs about 22-48 pounds, can inherit a dense double coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Obesity, Back problems, Eye issues. Originally from Russia.
+
+### Horgi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#28** in canine intelligence (Above average tier), the Horgi responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Horgi puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Horgi puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "maltipoo"
 breedName: "Maltipoo"
 wordCountEstimate: 436
+image: "https://images.dog.ceo/breeds/poodle-toy/n02113624_528.jpg"
 canonicalUrl: "https://pupwiki.com/blog/maltipoo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Maltipoos
-Maltipoos are small-sized (4.41–19.84 lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
+Maltipoo is a designer cross between the Maltese and the Poodle (Toy). This mix usually weighs about 4-20 pounds, often has a wavy or fleece-like coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include White Shaker Syndrome, Dental issues, Tracheal collapse.
+
+### Maltipoo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | ████░ High |
+| Sociability | █████ Very Friendly |
+
+Ranked **#59** in canine intelligence (Average tier), the Maltipoo responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Maltipoo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Maltipoo puppy

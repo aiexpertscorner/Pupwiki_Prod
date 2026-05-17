@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "french-spani
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/french-spaniel", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,13 @@ medicalDisclaimer: true
 breedSlug: "french-spaniel"
 breedName: "French Spaniel"
 wordCountEstimate: 366
+image: "https://images.dog.ceo/breeds/spaniel-cocker/ekko3.jpg"
 canonicalUrl: "https://pupwiki.com/blog/french-spaniel-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About French Spaniels
-French Spaniels are medium-sized (50–60 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+The French Spaniel is the Epagneul Français in his native country of France. A medium-sized dog, he is elegant, muscled and of medium proportions. His balanced construction provides the energy and toughness essential for his utilization. Highly intelligent in nature, his enthusiasm and willingness to work hard are his heritage. He is very easy to train. Club Contact DetailsClub: French Spaniel Club in the USAName: Elaine McKinneyEmail: Esspaniel@yahoo.comAddress: 6329 Venus Ave, Bartlett, TN 38134Phone: 901-380-9265 The French Spaniel is balanced, frank, gentle, calm and docile. He is an enthusiastic hunter, sociable with other dogs and an ideal companion in all circumstances. An excellent pointing dog, he also has a talent for retrieving.
 ### Common health concerns for French Spaniels
 No breed-specific genetic ailments are currently documented for the French Spaniel (typical life expectancy: 10–12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach French Spaniel health

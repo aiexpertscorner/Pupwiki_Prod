@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "norwich-terr
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/norwich-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "norwich-terrier"
 breedName: "Norwich Terrier"
 wordCountEstimate: 396
+image: "https://images.dog.ceo/breeds/terrier-norwich/n02094258_1003.jpg"
 canonicalUrl: "https://pupwiki.com/blog/norwich-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Norwich Terriers
-Norwich Terriers are small-sized (12 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Standing no more than 10 inches at the shoulder and weighing about 12 pounds, Norwich are among the smallest working terriers. Beneath the hard, wiry coat is a stocky, substantial dog. Norwiches are toy-sized but are not satin-pillow dogs—they were originally bred as tough and fearless ratters. They are distinguished from their doggy doppelganger, the Norfolk Terrier, by their erect, pointed ears.Happy-go-lucky, fearless, and sometimes even bossy, Norwiches are energetic enough to play fetch all day, but affectionate enough to enjoy hours of lap time with their favorite human. Short, positive training sessions work best with this clever but sometimes stubborn breed. Three words convey the overall dog: cute, cuter, and cutest. Norwich Terriers are plucky little earthdogs named for their hometown in England. The old cliché “a big dog in a small package” was coined for breeds like the Norwi
+
+### Norwich Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Norwich Terriers
 No breed-specific genetic ailments are currently documented for the Norwich Terrier (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Norwich Terrier health

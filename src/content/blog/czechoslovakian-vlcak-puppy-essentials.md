@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "czechoslovakian-vlcak"
 breedName: "Czechoslovakian Vlcak"
 wordCountEstimate: 343
+image: "https://images.dog.ceo/breeds/german-shepherd/n02106662_18922.jpg"
 canonicalUrl: "https://pupwiki.com/blog/czechoslovakian-vlcak-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Czechoslovakian Vlcaks
-Czechoslovakian Vlcaks are medium-sized (44–57 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+The Czechoslovakian Vlcak (CSV) was originally bred for working border patrol in Czechoslovakia in the 1950s. They are currently used in Europe and the United States for search and rescue, tracking, obedience, agility, drafting, herding, and working dog sports. The CSV is bred for versatility and hardiness in harsh elements and is much more independent in nature than many other working breeds. They are an excellent choice for tracking or trailing sport/work, or as a companion for active owners who enjoy spending time doing outdoor activities such as biking, running, or hiking. They are not, however, recommended for first time owners.Club Contact DetailsClub: Czechoslovakian Vlcak Club of AmericaName: Stacy McCrary, PresidentEmail: vlcaksusa@gmail.com An alert, primitive canine that resembles a wolf in appearance. They are highly intelligent, powerful, active, loyal and devoted to it’s ow
+
+### Czechoslovakian Vlcak at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | █████ Very Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | █░░░░ Reserved |
 ## How to approach a Czechoslovakian Vlcak puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Czechoslovakian Vlcak puppy

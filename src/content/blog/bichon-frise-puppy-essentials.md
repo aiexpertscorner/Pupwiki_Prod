@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "bichon-frise"
 breedName: "Bichon Frise"
 wordCountEstimate: 427
+image: "https://images.dog.ceo/breeds/frise-bichon/1.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bichon-frise-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bichon Frises
-Bichon Frises are small-sized (12–18 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+A good-size Bichon will stand a shade under a foot tall at the shoulder. The breed’s glory is a white hypoallergenic coat, plush and velvety to the touch, featuring rounded head hair that sets off the large, dark eyes and black leathers of the nose and lips.Bichons are adaptable companions who get on well with other dogs and children. Alert and curious, Bichons make nice little watchdogs—but they are lovers, not fighters, and operate under the assumption that there are no strangers, just friends they haven’t met yet. Their confidence and size make them ideal city dogs. Bichons train nicely and enjoy performing for their loved ones. Finally, there’s the happy-go-lucky Bichon personality that draws smiles and hugs wherever they go. The small but sturdy and resilient Bichon Frise stands among the world’s great “personality dogs.” Since antiquity, these irresistible canine comedians have rel The Bichon Frise ranks #46 in AKC breed popularity.
+
+### Bichon Frise at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#45** in canine intelligence (Average tier), the Bichon Frise responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Bichon Frise puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bichon Frise puppy

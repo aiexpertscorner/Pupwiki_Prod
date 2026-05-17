@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "caucasian-sh
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/caucasian-shepherd-dog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "caucasian-shepherd-dog"
 breedName: "Caucasian Shepherd Dog"
 wordCountEstimate: 425
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_7788.jpg"
 canonicalUrl: "https://pupwiki.com/blog/caucasian-shepherd-dog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Caucasian Shepherd Dogs
-Caucasian Shepherd Dogs are large-sized (99–170 lbs), with calm energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+Caucasian Shepherd dogs were used for centuries to protect properties from trespassers, guard livestock from large and small predators such as wolves and coyotes, and for many other duties. In modern days, especially in the West, they’re most commonly companions and watchdogs. There is a great variety of types among the Caucasian dogs depending on their home region. For almost a century, there has been two breed types and standards: The Mountain type, which is long-coated and has a heavier body mass than the Steppe type, a shorter-coated dog with a lighter body mass. Other names for the breed include Caucasian Ovcharka, Caucasian Sheepdog, Kawkasky Owtscharka, and Kaukasische Schaferhund. The Caucasian Shepherd dog is a serious guardian breed and should never be taken lightly. The Caucasian is bold, fearless, self-confident and fierce when a threat is present, but he is soft, devoted, ki
+
+### Caucasian Shepherd Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | █░░░░ Reserved |
 ### Common health concerns for Caucasian Shepherd Dogs
 No breed-specific genetic ailments are currently documented for the Caucasian Shepherd Dog (typical life expectancy: 10–12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Caucasian Shepherd Dog health

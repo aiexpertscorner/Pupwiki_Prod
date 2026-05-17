@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "bergamasco-s
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/bergamasco-sheepdog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,6 +26,7 @@ medicalDisclaimer: true
 breedSlug: "bergamasco-sheepdog"
 breedName: "Bergamasco Sheepdog"
 wordCountEstimate: 387
+image: "https://images.dog.ceo/breeds/komondor/n02105505_3806.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bergamasco-sheepdog-health-problems"
 heroImage: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -40,7 +41,17 @@ imageSearchQuery: "Bergamasco Sheepdog dog veterinarian wellness"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Bergamasco Sheepdogs
-Bergamasco Sheepdogs are large-sized (57–84 lbs), with calm energy, minimal shedding, and a corded coat. The recommendations below are matched to these traits.
+Beneath the one-of-a-kind coat is a large, muscular shepherd dog of ancient pedigree. But, since the coat is the breed’s hallmark, let’s take a close look. The Bergamasco Sheepdog has hair of three different textures that form naturally occurring loose mats, or “flocks” (strands of hair woven together, creating flat layers of felted hair), covering the body and legs. The flocks provide protection from the fierce cold and wild predators of the Italian Alps, the breed’s ancestral homeland.Bergamascos are bright, loyal, loving, and trainable—with a dash of mountain-dog independence. They take to watching over loved ones with a serene vigilance. Wary of strangers until properly introduced, Bergamascos are aggressive only as a last resort. Generally happy with kids and other animals, the low-maintenance and robustly healthy Bergamasco is much more than a show-stopping hairdo. Eager to please,
+
+### Bergamasco Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Bergamasco Sheepdogs
 No breed-specific genetic ailments are currently documented for the Bergamasco Sheepdog (typical life expectancy: 13–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Bergamasco Sheepdog health

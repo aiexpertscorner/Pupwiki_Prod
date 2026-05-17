@@ -30,7 +30,17 @@ canonicalUrl: "https://pupwiki.com/blog/schapendoes-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Schapendoess
-Schapendoess are medium-sized (26–55 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+The Schapendoes were everywhere in the Netherlands during the late 19th and early 20th centuries, but their numbers dwindled drastically when Border Collies were imported. When the breed club for Nederlandse Schapendoes was founded in 1947, the Schapendoes breed was resuscitated.The Schapendoes is a lightly-built, long-coated, medium-sized dog. His movements are effortless and springy and his astounding ability to jump makes him excel at agility and other dog sports. With an attentive and courageous character, he is intelligent, watchful, lively, friendly and high-spirited. Towards people familiar to him, he develops great affection and loyalty. Club Contact DetailsClub: Schapendoes USA ClubEmail: schapendoes@comcast.netAddress: 236 Chandler Ave, Elmhurst, IL 60126 This shaggy sheepdog of Holland is also known as the Dutch Sheep Dog. Schapendoes are cheerful, funny, clever and brave and
+
+### Schapendoes at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ## How to approach a Schapendoes puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Schapendoes puppy

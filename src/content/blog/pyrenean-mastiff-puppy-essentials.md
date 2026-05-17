@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "pyrenean-mastiff"
 breedName: "Pyrenean Mastiff"
 wordCountEstimate: 387
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_968.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pyrenean-mastiff-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pyrenean Mastiffs
-Pyrenean Mastiffs are large-sized (120–240 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Pyrenean Mastiff is friendly towards humans, calm, noble and very intelligent. At the same time, he is courageous and proud towards strangers, from whom he never backs away. In his behavior towards other dogs, he is good-natured and aware of his superior strength. Though he will do his job to alert when strangers or animals come around, he is not known for being an incessant barker. As a guardian breed, the Pyrenean Mastiff has a very low prey drive and, therefore, loves and protects all creatures, human and animal alike. They love children and welcome friends and family, and only feel the need to protect when its a real threat. All that love can get a bit messy though; just like any mastiff, they do drool and quite profusely when exposed to heat, food, or water. Club Contact DetailsPyrenean Mastiff USA ClubEmail: pmusa@pyreneanmastiffclubs.orgPhone: 214-489-7466 A centuries-old, rar
+
+### Pyrenean Mastiff at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
 ## How to approach a Pyrenean Mastiff puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pyrenean Mastiff puppy

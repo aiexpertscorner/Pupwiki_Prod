@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "toy-fox-terr
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/toy-fox-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "toy-fox-terrier"
 breedName: "Toy Fox Terrier"
 wordCountEstimate: 405
+image: "https://images.dog.ceo/breeds/terrier-toy/n02087046_8206.jpg"
 canonicalUrl: "https://pupwiki.com/blog/toy-fox-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Toy Fox Terriers
-Toy Fox Terriers are small-sized (3.5–7 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+A surefire recipe for fun: Take the lovability of a lapdog. Combine with terrier tenacity. Pour the mixture into a beautifully balanced container. Wrap in a tight-fitting satin coat. Top with large, erect ears and dark eyes that sparkle with eager intelligence. This is the Toy Fox Terrier, a lithe but sturdy little comedian standing under a foot tall but packed with enough charisma for a whole kennel of ordinary dogs. The breed’s admirers like to say, “TFTs are truly a toy and a terrier.” A diminutive satin-coated terrier with an amusing toy-dog personality, the Toy Fox Terrier is, as breed fanciers say, “truly a toy and a terrier.” They began as barnyard ratters but are today beguiling companions with a big personality.
+
+### Toy Fox Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Toy Fox Terriers
 No breed-specific genetic ailments are currently documented for the Toy Fox Terrier (typical life expectancy: 13–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Toy Fox Terrier health

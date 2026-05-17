@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "cavalier-kin
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/cavalier-king-charles-spaniel", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "cavalier-king-charles-spaniel"
 breedName: "Cavalier King Charles Spaniel"
 wordCountEstimate: 532
+image: "https://images.dog.ceo/breeds/spaniel-blenheim/n02086646_2903.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cavalier-king-charles-spaniel-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Cavalier King Charles Spaniels
-Cavalier King Charles Spaniels are small-sized (13–18 lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+The Cavalier’s all-around beauty, regal grace, and even temper mark him as one of dogdom’s noblemen. A toy spaniel no more than 13 inches high, the Cavalier draws you in with his face: The sweet, gentle, melting expression emanating from large, round eyes is a breed hallmark. Another is the silky, richly-colored coat that can be one of four distinct varieties.Cavaliers may be aristocrats, but they gladly descend from their royal high horse for a backyard frolic or a squirrel chase. They get along nicely with children and other dogs. Adaptable Cavaliers do equally well with active owners and homebodies—they can be upbeat athletes or shameless couch potatoes, depending on an owner’s lifestyle. The Cavalier King Charles Spaniel wears his connection to British history in his breed’s name. Cavaliers are the best of two worlds, combining the gentle attentiveness of a toy breed with the verve a
+
+Originally from United Kingdom, the Cavalier King Charles Spaniel belongs to the Companion and Toy Dogs group. The Cavalier King Charles Spaniel ranks #18 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Cavalier King Charles Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#44** in canine intelligence (Average tier), the Cavalier King Charles Spaniel responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Cavalier King Charles Spaniels
 Cavalier King Charles Spaniels have 2 documented genetic health conditions: heart, spinal problems. Typical life expectancy is 12–15 years.
 - **Heart**: Ask your vet about recommended screening and prevention for this condition in Cavalier King Charles Spaniels.

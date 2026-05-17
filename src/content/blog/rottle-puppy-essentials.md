@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "rottle"
 breedName: "Rottle"
 wordCountEstimate: 451
+image: "https://images.dog.ceo/breeds/poodle-miniature/flowers.jpg"
 canonicalUrl: "https://pupwiki.com/blog/rottle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Rottles
-Rottles are large-sized (55.12–99.21 lbs), with regular energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Rottle is a designer cross between the Rottweiler and the Poodle (Standard). This mix usually weighs about 55-99 pounds, often has a curly, low-shed-leaning coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Aortic stenosis, Hip dysplasia. Originally from Germany.
+
+### Rottle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
+
+Ranked **#9** in canine intelligence (Brightest tier), the Rottle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Rottle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Rottle puppy

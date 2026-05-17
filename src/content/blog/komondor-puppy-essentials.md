@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "komondor"
 breedName: "Komondor"
 wordCountEstimate: 363
+image: "https://images.dog.ceo/breeds/komondor/n02105505_3744.jpg"
 canonicalUrl: "https://pupwiki.com/blog/komondor-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Komondors
-Komondors are large-sized (80–100 lbs), with regular energy, seasonal shedding, and a corded coat. The recommendations below are matched to these traits.
+Our Hungarian-language tip of the day: The plural of Komondor is Komondorok. Now, let’s take a look at the dog. What we see is a large and powerful guardian covered in profuse white cords. A big male can stand more than 27.5 inches and weigh over 100 pounds, with heavy bone, a deep chest, and lots of muscle. Despite their brawn Komondorok are agile and light-footed, and move with long strides. With their unique look, it’s impossible to mistake Koms for anything else. A powerfully large Hungarian flock guardian covered in profuse white cords from head to tail, the Komondor is among the world’s most recognizable breeds. The independent and protective Kom requires a firm, experienced hand at training.
+
+### Komondor at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █████ Very High |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Komondor puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Komondor puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "wire-fox-terrier"
 breedName: "Wire Fox Terrier"
 wordCountEstimate: 361
+image: "https://images.dog.ceo/breeds/terrier-fox/n02095314_2864.jpg"
 canonicalUrl: "https://pupwiki.com/blog/wire-fox-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Wire Fox Terriers
-Wire Fox Terriers are small-sized (15–18 lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.
+The Wire Fox Terrier, 16 to 18 pounds of coiled energy, is a sturdy, symmetrical, short-backed hunter with fire and intelligence shining in its dark, round eyes. The predominantly white coat is rough and wiry; the V-shaped ears are neatly folded forward, the better to point up the face’s distinctive, and completely irresistible, expression.Wires are delightful pets for families looking for an upbeat, friendly companion with loads of personality. As terriers, they possess the typical independence and prey drive of this feisty canine clan. They are smart and companionable; training can be a challenge but by no means impossible. Excellent athletes, natural comedians, and charming housemates, Wires are long-lived and low-shedding. The Wire Fox Terrier breed standard says they should be “on the tip-toe of expectation at the slightest provocation.” Once a mainstay of traditional British foxhun
+
+### Wire Fox Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Wire Fox Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Wire Fox Terrier puppy

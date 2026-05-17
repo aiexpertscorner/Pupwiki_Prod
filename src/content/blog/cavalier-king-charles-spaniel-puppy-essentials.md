@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "cavalier-king-charles-spaniel"
 breedName: "Cavalier King Charles Spaniel"
 wordCountEstimate: 439
+image: "https://images.dog.ceo/breeds/spaniel-blenheim/n02086646_45.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cavalier-king-charles-spaniel-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cavalier King Charles Spaniels
-Cavalier King Charles Spaniels are small-sized (13–18 lbs), with calm energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+The Cavalier’s all-around beauty, regal grace, and even temper mark him as one of dogdom’s noblemen. A toy spaniel no more than 13 inches high, the Cavalier draws you in with his face: The sweet, gentle, melting expression emanating from large, round eyes is a breed hallmark. Another is the silky, richly-colored coat that can be one of four distinct varieties.Cavaliers may be aristocrats, but they gladly descend from their royal high horse for a backyard frolic or a squirrel chase. They get along nicely with children and other dogs. Adaptable Cavaliers do equally well with active owners and homebodies—they can be upbeat athletes or shameless couch potatoes, depending on an owner’s lifestyle. The Cavalier King Charles Spaniel wears his connection to British history in his breed’s name. Cavaliers are the best of two worlds, combining the gentle attentiveness of a toy breed with the verve a
+
+Originally from United Kingdom, the Cavalier King Charles Spaniel belongs to the Companion and Toy Dogs group. The Cavalier King Charles Spaniel ranks #18 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Cavalier King Charles Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#44** in canine intelligence (Average tier), the Cavalier King Charles Spaniel responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Cavalier King Charles Spaniel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Cavalier King Charles Spaniel puppy

@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "australian-k
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/australian-kelpie", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,6 +26,7 @@ medicalDisclaimer: true
 breedSlug: "australian-kelpie"
 breedName: "Australian Kelpie"
 wordCountEstimate: 386
+image: "https://images.dog.ceo/breeds/australian-kelpie/Resized_20200303_233358_108952253645051.jpg"
 canonicalUrl: "https://pupwiki.com/blog/australian-kelpie-health-problems"
 heroImage: "https://images.pexels.com/photos/5142688/pexels-photo-5142688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5142688/pexels-photo-5142688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -40,7 +41,17 @@ imageSearchQuery: "Australian Kelpie dog veterinarian wellness"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Australian Kelpies
-Australian Kelpies are medium-sized, with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+As a herding dog, the Australian Kelpie is intensely loyal and devoted to duty. He has a natural instinct and aptitude for working in sheep, whether it be in open fields or enclosed yards. This breed originated from Collie type dogs imported from Scotland, but was developed to withstand the harsh heat and dry conditions of the vast open spaces of Australia. The Australian Kelpie is a lithe, active dog, capable of untiring work. He is extremely intelligent, alert, and eager with unlimited energy.
+
+### Australian Kelpie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Australian Kelpies
 No breed-specific genetic ailments are currently documented for the Australian Kelpie (typical life expectancy: 10–13 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Australian Kelpie health

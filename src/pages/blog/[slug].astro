@@ -9,6 +9,7 @@ import BlogLayout from '../../layouts/BlogLayout.astro';
 
 import masterBreeds from '../../data/master-breeds.json';
 import masterCrossbreeds from '../../data/master-crossbreeds.json';
+import categoryFallbackImages from '../../data/category-fallback-images.json';
 import breedLinkMap from '../../data/breed-link-map.json';
 import contentStatus from '../../data/content-status.json';
 
@@ -76,15 +77,20 @@ const showCommercialMidContent = !isHealthSensitive && !hasUnsafeCommerceTag;
 const showProductRoundupCommerce = ['product-roundup', 'comparison'].includes(normalize(fm.postType)) && !hasUnsafeCommerceTag;
 
 const canonicalUrl = fm.canonicalUrl || `${SITE}/blog/${post.slug}`;
-const CAT_FALLBACK_IMG: Record<string, string> = {
-  'dog food': '/images/categories/Dog-food.png', food: '/images/categories/Dog-food.png',
-  toys: '/images/categories/Dog-Toys.png', beds: '/images/categories/Dog-Beds.png',
-  grooming: '/images/categories/Dog-Grooming.png', health: '/images/categories/Dog-Health.png',
-  supplements: '/images/categories/Dog-Supplements.png', training: '/images/categories/Dog-Training.png',
-  'smart tech': '/images/categories/Dog-Smart_Tech.png', 'smart-tech': '/images/categories/Dog-Smart_Tech.png',
-  travel: '/images/categories/Dog-Travel.png',
+// Hash-based fallback pool — varied breed images per slug instead of one static PNG per category
+const CAT_KEY_MAP: Record<string, string> = {
+  'dog food': 'food', food: 'food', toys: 'toys', beds: 'beds',
+  grooming: 'grooming', health: 'health', supplements: 'supplements',
+  training: 'training', 'smart tech': 'smart-tech', 'smart-tech': 'smart-tech', travel: 'travel',
 };
-const catFallbackImg = CAT_FALLBACK_IMG[normalize(category)] ?? '/images/categories/Dog-All.png';
+function slugHash(str: string): number {
+  let h = 5381;
+  for (let i = 0; i < str.length; i++) h = ((h << 5) + h) + str.charCodeAt(i);
+  return Math.abs(h);
+}
+const catPoolKey = CAT_KEY_MAP[normalize(category)] ?? 'all';
+const catPool: string[] = (categoryFallbackImages as Record<string, string[]>)[catPoolKey] ?? (categoryFallbackImages as Record<string, string[]>)['all'] ?? [];
+const catFallbackImg = catPool.length ? catPool[slugHash(post.slug) % catPool.length] : '';
 const heroImage = fm.heroImage || fm.image || breed?.image_url || (Array.isArray(breed?.image_urls) ? breed.image_urls[0] : null) || catFallbackImg;
 const breedAltLabel = breedName?.endsWith(' Dog') ? breedName : `${breedName} dog`;
 const heroImageAlt = fm.heroImageAlt || fm.imageAlt || (breedName ? `${breedAltLabel} guide` : displayTitle);

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "norwegian-elkhound"
 breedName: "Norwegian Elkhound"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/elkhound-norwegian/n02091467_4718.jpg"
 canonicalUrl: "https://pupwiki.com/blog/norwegian-elkhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Norwegian Elkhounds
-Norwegian Elkhounds are medium-sized (48–55 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Norwegian Elkhounds are hardy, short-bodied dogs standing about 20 inches at the shoulder. They have a dense silver-gray coat and a tail curling tightly over the back. The deep chest, sturdy legs, and muscular thighs belong to a dog built for an honest day’s work. The eyes are a dark brown and the ears mobile and erect. Overall, an Elkhound is the picture of an alert and steadfast dog of the north.Elkhounds are famously fine companions and intelligent watchdogs. Agility and herding trials are good outlets for their natural athleticism and eagerness. Reserved until introductions are made, an Elkhound is a trustworthy friend ever after. These strong, confident dogs are truly sensitive souls, with a dash of houndy independence. The Norwegian Elkhound is a robust spitz type known for his lush silver-gray coat and dignified but friendly demeanor. The durable Elkhound is among Europe's oldest
+
+### Norwegian Elkhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Norwegian Elkhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Norwegian Elkhound puppy

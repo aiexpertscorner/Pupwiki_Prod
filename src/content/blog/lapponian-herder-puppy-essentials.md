@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "lapponian-herder"
 breedName: "Lapponian Herder"
 wordCountEstimate: 382
+image: "https://images.dog.ceo/breeds/elkhound-norwegian/n02091467_917.jpg"
 canonicalUrl: "https://pupwiki.com/blog/lapponian-herder-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Lapponian Herders
-Lapponian Herders are large-sized (70 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Lapponian Herder is an independent, fun breed. They are very intelligent and generally eager to please. As a high-energy herding breed, they excel in many other dog sports besides herding, such as companion events. Its love of hard work makes it a wonderful breed in any event that is competitive and fun. Early socialization is important because of their herding mentality and they thrive when they have a job to do. Though eager to please, the Lapponian Herder is very vocal and often barks while working. Breed ContactName: Heidi ChristensonAddress: 519 NW 209th Street, Ridgefield, WA 98642Email: girln2pooches@yahoo.comPhone: 360-609-2942 The Lapponian Herder is a medium-sized dog with a medium coat, making them easy to maintain and perfect for any experienced dog owner. They are a wonderful, rounded, diversified dog breed ready to problem solve any task given to them. They can fit into
+
+### Lapponian Herder at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
 ## How to approach a Lapponian Herder puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Lapponian Herder puppy

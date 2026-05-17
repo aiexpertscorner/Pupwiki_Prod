@@ -1517,3 +1517,52 @@
 .breed-faq-cta:hover {
   text-decoration: underline;
 }
+
+/* ── About the breed section ─────────────────────────────────── */
+.breed-about__body {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-body);
+  max-width: 72ch;
+  margin-block-end: var(--space-5);
+}
+
+.breed-about__intelligence {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: rgba(21, 54, 95, 0.05);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin-block-end: var(--space-4);
+}
+
+.breed-about__intelligence-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  line-height: 1.5;
+}
+
+.breed-about__intelligence p {
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--color-body);
+  margin: 0;
+}
+
+.breed-about__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-5);
+}
+
+.breed-about__meta-item {
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+}
+
+.breed-about__meta-item strong {
+  color: var(--color-heading);
+  font-weight: var(--weight-semibold);
+}

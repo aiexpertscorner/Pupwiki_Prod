@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "poodle-standard"
 breedName: "Poodle (Standard)"
 wordCountEstimate: 379
+image: "https://images.dog.ceo/breeds/poodle-miniature/n02113712_2784.jpg"
 canonicalUrl: "https://pupwiki.com/blog/poodle-standard-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Poodle (Standard)s
-Poodle (Standard)s are large-sized (40–70 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Poodles come in three size varieties: Standards should be more than 15 inches tall at the shoulder; Miniatures are 15 inches or under; Toys stand no more than 10 inches. All three varieties have the same build and proportions. At dog shows, Poodles are usually seen in the elaborate Continental Clip. Most pet owners prefer the simpler Sporting Clip, in which the coat is shorn to follow the outline of the squarely built, smoothly muscled body.Forget those old stereotypes of Poodles as sissy dogs. Poodles are eager, athletic, and wickedly smart “real dogs” of remarkable versatility. The Standard, with his greater size and strength, is the best all-around athlete of the family, but all Poodles can be trained with great success. Whether Standard, Miniature, or Toy, and either black, white, or apricot, the Poodle stands proudly among dogdom’s true aristocrats. Beneath the curly, low-allergen c The Poodle (Standard) ranks #7 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Poodle (Standard) at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a Poodle (Standard) puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Poodle (Standard) puppy

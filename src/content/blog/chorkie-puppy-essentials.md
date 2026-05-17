@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "chorkie"
 breedName: "Chorkie"
 wordCountEstimate: 428
+image: "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_2457.jpg"
 canonicalUrl: "https://pupwiki.com/blog/chorkie-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Chorkies
-Chorkies are small-sized (6.61–11.02 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Chorkie is a designer cross between the Chihuahua and the Yorkshire Terrier. This mix usually weighs about 7-11 pounds, often lands somewhere between its parent coat types, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Low blood sugar, Patellar luxation. Originally from United Kingdom.
+
+### Chorkie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
+
+Ranked **#47** in canine intelligence (Average tier), the Chorkie benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Chorkie puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Chorkie puppy

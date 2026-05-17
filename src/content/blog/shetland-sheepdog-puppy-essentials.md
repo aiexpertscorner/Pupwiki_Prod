@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "shetland-sheepdog"
 breedName: "Shetland Sheepdog"
 wordCountEstimate: 444
+image: "https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_11668.jpg"
 canonicalUrl: "https://pupwiki.com/blog/shetland-sheepdog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Shetland Sheepdogs
-Shetland Sheepdogs are small-sized (15–25 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+The Shetland Sheepdog is a small, active, and agile herding dog standing between 13 and 16 inches at the shoulder. The long coat is harsh and straight, with a dense undercoat, and comes in black, blue merle, and sable, with white markings. The coat, along with a long, wedge-shaped head; small, three-quarter erect ears; and deep-chested, level-backed torso, give Shelties the look of a rough-coated Collie in miniature.Bright and eager Shelties are easy trainers and world-class competitors in obedience, agility, and herding trials. They are sensitive and affectionate family dogs, highly in tune with the mood of the household. They like to bark and tend to be reserved toward strangers—two qualifications of an excellent watchdog. The Shetland Sheepdog, also known as the Sheltie, is an extremely intelligent, quick, and obedient herder from Scotland’s remote and rugged Shetland Islands. Sheltie The Shetland Sheepdog ranks #25 in AKC breed popularity.
+
+### Shetland Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
+
+Ranked **#6** in canine intelligence (Brightest tier), the Shetland Sheepdog responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Shetland Sheepdog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Shetland Sheepdog puppy

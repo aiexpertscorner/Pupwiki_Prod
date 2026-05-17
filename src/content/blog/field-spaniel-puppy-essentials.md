@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "field-spaniel"
 breedName: "Field Spaniel"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_2698.jpg"
 canonicalUrl: "https://pupwiki.com/blog/field-spaniel-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Field Spaniels
-Field Spaniels are medium-sized (35–50 lbs), with regular energy, heavy shedding, and a silky coat. The recommendations below are matched to these traits.
+Field Spaniels bear a family resemblance to Cocker, Springer, and Sussex spaniels. The distinctive glossy coat is either black, some shade of liver, or combinations of the two. They stand 17 or 18 inches at the shoulder and should present the picture of well-balanced, moderately proportioned hunting companions. The long, feathery ears frame a facial expression conveying a grave, gentle intelligence.Field Spaniels are sweet, sensitive souls with just enough independence to make life interesting. They are trustworthy with kids, tolerant of their fellow mammals, and responsive to training. The U.S. breed standard calls these tranquil house dogs “unusually docile,” but they are nonetheless playful and enjoy a good backyard romp. The sweet and sensitive Field Spaniel is famously docile, but vigorous and game for anything when at play or in the field. These close cousins to Cocker Spaniels and
+
+### Field Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Field Spaniel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Field Spaniel puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "saluki"
 breedName: "Saluki"
 wordCountEstimate: 389
+image: "https://images.dog.ceo/breeds/saluki/n02091831_13486.jpg"
 canonicalUrl: "https://pupwiki.com/blog/saluki-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Salukis
-Salukis are medium-sized (40–65 lbs), with active energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+The beauty of Salukis has been a thing of wonder for thousands of years. They’re slim and leggy, but very strong and perfectly balanced, like a great athlete or dancer. Males can stand between 23 and 28 inches at the shoulder; females can be much shorter. They come in a many colors and patterns. Their large, oval-shaped eyes are warm and intelligent.Salukis are highly adaptable, able to live and work in any climate. They’re magnificent animals, but owning them comes with many special challenges. Among the world’s oldest breeds, the slim but rugged Saluki was the hunting hound of kings for thousands of years. Salukis are swift and agile sprinters who love a good chase. They make gentle, dignified, and independent but loyal pets.
+
+### Saluki at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#43** in canine intelligence (Average tier), the Saluki benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Saluki puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Saluki puppy

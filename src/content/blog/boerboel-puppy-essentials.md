@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "boerboel"
 breedName: "Boerboel"
 wordCountEstimate: 353
+image: "https://images.dog.ceo/breeds/mastiff-bull/n02108422_4064.jpg"
 canonicalUrl: "https://pupwiki.com/blog/boerboel-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Boerboels
-Boerboels are large-sized (150–200 lbs), with calm energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+There’s a no-frills, no-nonsense quality to this sleek-coated avenger, who might stand as high as 27 inches at the shoulder and weigh as much as you do. A broad and blocky head, powerful jaws, and thick muscles from neck to rump mark it as a descendant of the ancient “molloser” dog family, the foundation of today’s mastiff-type breeds. In motion, the Boerboel just might be the most agile of all mastiff types.The imposing Boerboel is devoted to protecting the people and places he loves. Training and socialization should begin early, before a pup becomes a dominant adult. This is a trainable, versatile breed, eager to spend time with their adored humans. Still, a Boerboel might be way too much dog for the novice owner to handle. Boerboels are intimidating but discerning guardians of home and family who learned their trade while protecting remote South African homesteads from ferocious pred
+
+### Boerboel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Boerboel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Boerboel puppy

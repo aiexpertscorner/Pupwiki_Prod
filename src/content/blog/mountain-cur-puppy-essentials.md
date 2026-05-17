@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "mountain-cur"
 breedName: "Mountain Cur"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/hound-afghan/n02088094_3159.jpg"
 canonicalUrl: "https://pupwiki.com/blog/mountain-cur-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Mountain Curs
-Mountain Curs are medium-sized (30–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Mountain Cur is a fast, hard hunter that runs track with its head in the air. He can be open, semi-open, or silent on track and has a clear bark that can be heard a long distance. They will circle and drift on a cold track if a hot one is not available until they locate a hot track. They are courageous fighters when required and extremely intelligent, with strong treeing instincts, and can easily be trained to leave unwanted game. They respond best to training with a lot of human contact, and in addition to hunting, make great companions and watch dogs. Breed ContactName: Mandy MiddletonAddress: 417 N. Water Street, Georgetown, OH 45121Phone: 937-378-6900Email: walnutridgemtncurs@yahoo.com The Mountain Cur is a hunting dog with a good treeing instinct. It is a very courageous fighter and extremely intelligent, doing whatever job its master desires. The dogs were a crucial part of the
+
+### Mountain Cur at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | ██░░░ Selective |
 ## How to approach a Mountain Cur puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Mountain Cur puppy

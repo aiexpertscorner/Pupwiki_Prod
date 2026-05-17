@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "corgidor"
 breedName: "Corgidor"
 wordCountEstimate: 428
+image: "https://images.dog.ceo/breeds/pembroke/n02113023_2482.jpg"
 canonicalUrl: "https://pupwiki.com/blog/corgidor-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Corgidors
-Corgidors are medium-sized (33.07–55.12 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+Corgidor is a designer cross between the Pembroke Welsh Corgi and the Labrador Retriever. This mix usually weighs about 33-55 pounds, can inherit a dense double coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Obesity-related joint strain, IVDD. Originally from United Kingdom.
+
+### Corgidor at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | █████ Very Friendly |
+
+Ranked **#9** in canine intelligence (Brightest tier), the Corgidor responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Corgidor puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Corgidor puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "clumber-spaniel"
 breedName: "Clumber Spaniel"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/clumber/n02101556_3556.jpg"
 canonicalUrl: "https://pupwiki.com/blog/clumber-spaniel-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Clumber Spaniels
-Clumber Spaniels are large-sized (55–85 lbs), with regular energy, heavy shedding, and a silky coat. The recommendations below are matched to these traits.
+Clumber Spaniels are powerful bird dogs of heavy bone, built long and low, with a massive head. They stand 17 to 20 inches; a small female might be 55 pounds, and a large male could go 85 pounds. Built to push through thick cover in the field, Clumber movement is nonetheless free and easy. The dense coat is primarily white, with sparse lemon or orange markings.Clumbers are sweet and easygoing at home, but these outdoorsy fellows can be relentless on scent. Smart and eager-to-please Clumbers respond well to training. Though a bit wary around strangers, Clumbers are friendly dogs who bark only when they have something to say, and so make indifferent watchdogs. They love swimming and fetching, and are sturdy childhood playmates. A dignified and mellow hunting companion of kings, the Clumber Spaniel is the largest of the AKC flushing spaniels. For those who can handle some shedding and drool
+
+### Clumber Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
+
+Ranked **#37** in canine intelligence (Above average tier), the Clumber Spaniel responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Clumber Spaniel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Clumber Spaniel puppy

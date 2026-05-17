@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "norfolk-terr
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/norfolk-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "norfolk-terrier"
 breedName: "Norfolk Terrier"
 wordCountEstimate: 454
+image: "https://images.dog.ceo/breeds/terrier-norfolk/n02094114_4127.jpg"
 canonicalUrl: "https://pupwiki.com/blog/norfolk-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Norfolk Terriers
-Norfolk Terriers are small-sized (11–12 lbs), with regular energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Norfolk Terriers are among the smallest working terriers, standing no higher than 10 inches at the shoulder. The coat is hard, wiry, and straight. They share many traits with their close cousins, Norwich Terriers. To tell them apart, look at the ears: The Norwich has erect, pointed ears; Norfolk ears are neatly folded over.Bred to work in packs, Norfolks are more gregarious than a typical terrier, but they have plenty of the old terrier pep. Few Norfolks these days earn their living hunting rodents, but a good one will fearlessly do so when given a chance. Norfolks bond closely, sometimes jealously, with their owners and make nice watchdogs. They have a reputation as a good traveler: portable, adaptable, and up for anything. Norfolk Terriers are little, cute, and loyal, and they will gladly curl up in your lap, but don’t dare call them lapdogs. Norfolks, despite their toyish qualities, a
+
+### Norfolk Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#56** in canine intelligence (Fair tier), the Norfolk Terrier responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Norfolk Terriers
 No breed-specific genetic ailments are currently documented for the Norfolk Terrier (typical life expectancy: 12–16 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Norfolk Terrier health

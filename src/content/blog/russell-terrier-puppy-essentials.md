@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "russell-terrier"
 breedName: "Russell Terrier"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/terrier-russell/IMG_7564.jpg"
 canonicalUrl: "https://pupwiki.com/blog/russell-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Russell Terriers
-Russell Terriers are small-sized (9–15 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+These jaunty little fellows pack lots of personality into a compact, rectangular body standing 10 to 12 inches at the shoulder. Their dark, almond-shaped eyes and mobile V-shaped ears bring out the keenly intelligent expression—an endearing hallmark of the breed. All three coat types are mostly white with markings that are tan or black, or both. Russells move with a free, effortless gait that announces the breed’s innate confidence. Upbeat, lively, inquisitive, and friendly, the jaunty Russell Terrier was developed by England's "Sporting Parson" for use in foxhunts. The adorable Russell Terrier looks like a plush toy come to life but is an eager, tireless working terrier.
+
+### Russell Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Russell Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Russell Terrier puppy

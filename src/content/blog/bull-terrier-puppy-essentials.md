@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "bull-terrier"
 breedName: "Bull Terrier"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_3877.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bull-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bull Terriers
-Bull Terriers are large-sized (50–70 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Bull Terriers are robust, big-boned terriers who move with a jaunty stride suggesting agility and power. The breed’s hallmark is a long, egg-shaped head with erect and pointed ears, and small, triangular eyes that glisten with good humor. Coats come in two types: white; and any other color (including an attractive brindle striping), either solid or with white markings. A well-made BT is the picture of muscular determination and balance. There are four keys to BT happiness: early socialization with dogs and people; firm but loving training; ample exercise; and lots of quality time with his adored humans. If these requirements are met, there is no more loyal, lovable, and entertaining companion. This is the ultimate “personality breed.” Among the most comical and mischievous citizens of dogdom, the Bull Terrier is playful and endearing, sometimes stubborn, but always devoted. These unique
+
+### Bull Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
+
+Ranked **#66** in canine intelligence (Fair tier), the Bull Terrier benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Bull Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bull Terrier puppy

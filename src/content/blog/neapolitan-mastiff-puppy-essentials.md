@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "neapolitan-mastiff"
 breedName: "Neapolitan Mastiff"
 wordCountEstimate: 383
+image: "https://images.dog.ceo/breeds/mastiff-bull/n02108422_4250.jpg"
 canonicalUrl: "https://pupwiki.com/blog/neapolitan-mastiff-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Neapolitan Mastiffs
-Neapolitan Mastiffs are large-sized (110–150 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Unless you’ve been to Jurassic Park, you’ve never seen anything like a Mastino. These majestic guardians of startling appearance are massive, powerful dogs. The U.S. Neapolitan Mastiff Club describes their dog’s head as “astounding”—and give them credit for hitting upon just the right adjective. The profuse hanging wrinkles and folds, and pendulous lips, make a Mastino look like a marzipan Mastiff that’s been out in the sun too long. And yet, the breed’s inner dignity and nobility can only be described as beautiful. The Neapolitan Mastiff is a huge, powerful guarder whose astounding appearance has intimidated intruders since the days of ancient Rome. Wary with strangers, the profusely wrinkled Mastino is sweet, placid, and steady among loved ones.
+
+### Neapolitan Mastiff at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | █░░░░ Reserved |
 ## How to approach a Neapolitan Mastiff puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Neapolitan Mastiff puppy

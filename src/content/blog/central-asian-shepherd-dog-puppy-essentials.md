@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "central-asian-shepherd-dog"
 breedName: "Central Asian Shepherd Dog"
 wordCountEstimate: 403
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_4790.jpg"
 canonicalUrl: "https://pupwiki.com/blog/central-asian-shepherd-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Central Asian Shepherd Dogs
-Central Asian Shepherd Dogs are large-sized (88–110 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Central Asian Shepherd Dogs are a natural protective breed that require a non-stop observance for the life of the dog. They are not for first-time dog owners. They were formed as a breed from natural selection during more than four thousand years in a vast territory, which spreads nowadays from the Caspian Sea to China and from Southern Ural to Afghanistan. The Central Asian Shepherd Dog is self-assured, balanced, quiet, proud and independent. They are very courageous and have a high working capacity, endurance and a natural instinct of territory. This breed is known for its fearlessness towards large predators.
+
+### Central Asian Shepherd Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | █░░░░ Reserved |
 ## How to approach a Central Asian Shepherd Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Central Asian Shepherd Dog puppy

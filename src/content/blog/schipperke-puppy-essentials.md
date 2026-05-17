@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "schipperke"
 breedName: "Schipperke"
 wordCountEstimate: 348
+image: "https://images.dog.ceo/breeds/schipperke/n02104365_9552.jpg"
 canonicalUrl: "https://pupwiki.com/blog/schipperke-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Schipperkes
-Schipperkes are small-sized (10–16 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Standing no higher than 13 inches, Schipperkes are small dogs built for hard work. Schips were created as ratters and watchdogs. Their powerful jaws, necks, and forequarters—coupled with a stealthy, catlike hunting style—make them ideal rat-catching machines. The black coat is profuse around the neck, shoulders, and legs, giving the breed a silhouette that accentuates a thick, substantial body. The foxy face completes the unique look of a unique breed. If you can’t tell a Schipperke from an ordinary dog, you simply haven’t been paying attention. The Schipperke, Belgium's "little captain," is the traditional barge dog of the Low Countries. Curious, lively, and intense but mischievous, this little black dog is a robust, long-lived companion for whom there is never a dull moment. Originally from Belgium, the Schipperke belongs to the Sheepdogs and Cattledogs group.
+
+### Schipperke at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ## How to approach a Schipperke puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Schipperke puppy

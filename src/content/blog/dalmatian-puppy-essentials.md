@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "dalmatian"
 breedName: "Dalmatian"
 wordCountEstimate: 415
+image: "https://images.dog.ceo/breeds/dalmatian/cooper2.jpg"
 canonicalUrl: "https://pupwiki.com/blog/dalmatian-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Dalmatians
-Dalmatians are large-sized (45–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+The Dalmatian’s delightful, eye-catching spots of black or liver adorn one of the most distinctive coats in the animal kingdom. Beneath the spots is a graceful, elegantly proportioned trotting dog standing between 19 and 23 inches at the shoulder. Dals are muscular, built to go the distance; the powerful hindquarters provide the drive behind the smooth, effortless gait.The Dal was originally bred to guard horses and coaches, and some of the old protective instinct remains. Reserved and dignified, Dals can be aloof with strangers and are dependable watchdogs. With their preferred humans, Dals are bright, loyal, and loving house dogs. They are strong, active athletes with great stamina—a wonderful partner for runners and hikers. The dignified Dalmatian, dogdom's citizen of the world, is famed for his spotted coat and unique job description. During their long history, these "coach dogs" hav
+
+Originally from Croatia, the Dalmatian belongs to the Scent Hounds and Related Breeds group.
+
+### Dalmatian at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █████ Very Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#39** in canine intelligence (Above average tier), the Dalmatian responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Dalmatian puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Dalmatian puppy

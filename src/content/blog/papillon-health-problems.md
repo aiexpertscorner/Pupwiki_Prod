@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "papillon", "
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/papillon", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "papillon"
 breedName: "Papillon"
 wordCountEstimate: 565
+image: "https://images.dog.ceo/breeds/papillon/n02086910_4373.jpg"
 canonicalUrl: "https://pupwiki.com/blog/papillon-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Papillons
-Papillons are small-sized (5–10 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+A tiny dog, measuring 8 to 11 inches at the shoulder, you can still spot a Papillon a block away thanks to the large, wing-shaped ears that give the breed its name (“papillon” is French for “butterfly”). Some Paps have erect ears; in others, known as the Phalene type, the ears are down. Paps are dainty and elegant, with a plumed tail, and a long, silky coat of several color combinations, the base color being white. More robust than they look, Paps are little dogs for all seasons and reasons. They thrive in warm or cool climates, in town or country, and are eager to join family fun. They are excellent agility dogs and are consistent winners at the sport’s highest levels; less ambitious owners can train them to do all kinds of tricks. The quick, curious Papillon is a toy dog of singular beauty and upbeat athleticism. Despite his refined appearance, the Pap is truly a “doggy dog” blessed wi
+
+### Papillon at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
+
+Ranked **#8** in canine intelligence (Brightest tier), the Papillon responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ### Common health concerns for Papillons
 Papillons have 5 documented genetic health conditions: cataracts, hair loss, heart, eye, blood clotting disorders. Typical life expectancy is 14–16 years.
 - **Cataracts**: Ask your vet about recommended screening and prevention for this condition in Papillons.

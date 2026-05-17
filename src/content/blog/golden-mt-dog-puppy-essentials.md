@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "golden-mt-dog"
 breedName: "Golden Mt. Dog"
 wordCountEstimate: 473
+image: "https://images.dog.ceo/breeds/retriever-golden/Z6A_3963_200731.jpg"
 canonicalUrl: "https://pupwiki.com/blog/golden-mt-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Golden Mt. Dogs
-Golden Mt. Dogs are large-sized (77.16–121.25 lbs), with active energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.
+Golden Mt. Dog is a designer cross between the Golden Retriever and the Bernese Mountain Dog. This mix usually weighs about 77-121 pounds, often shows a mixed coat type, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Cancer (Histiocytosis), Hip dysplasia. Originally from United Kingdom / Switzerland.
+
+### Golden Mt. Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
+
+Ranked **#13** in canine intelligence (Excellent tier), the Golden Mt. Dog responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ## How to approach a Golden Mt. Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Golden Mt. Dog puppy

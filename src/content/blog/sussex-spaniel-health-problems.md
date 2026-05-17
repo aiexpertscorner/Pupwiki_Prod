@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "sussex-spani
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/sussex-spaniel", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "sussex-spaniel"
 breedName: "Sussex Spaniel"
 wordCountEstimate: 391
+image: "https://images.dog.ceo/breeds/spaniel-sussex/n02102480_2899.jpg"
 canonicalUrl: "https://pupwiki.com/blog/sussex-spaniel-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Sussex Spaniels
-Sussex Spaniels are medium-sized (35–45 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+Sussex are long, low-built bird dogs of great strength and endurance. Topping out at just 15 inches tall at the shoulder, Sussex are nonetheless described as “massive,” with a deep chest and heavy bone. Their trademark is an abundant, feathery coat of rich golden-liver. The classic spaniel head, with its wavy-coated ears and big hazel eyes, projects a somber, frowning expression delightfully at odds with the Sussex’s innate cheerfulness. "Placid, affectionate, even-tempered, true-blue, loyal" — all are words used to describe the Sussex Spaniel, a slow-but-steady hunter and congenial housedog. His frowning expression is delightfully at odds with a typically cheerful nature.
+
+### Sussex Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Sussex Spaniels
 No breed-specific genetic ailments are currently documented for the Sussex Spaniel (typical life expectancy: 13–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Sussex Spaniel health

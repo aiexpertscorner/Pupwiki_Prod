@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "italian-grey
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/italian-greyhound", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "italian-greyhound"
 breedName: "Italian Greyhound"
 wordCountEstimate: 465
+image: "https://images.dog.ceo/breeds/greyhound-italian/n02091032_10314.jpg"
 canonicalUrl: "https://pupwiki.com/blog/italian-greyhound-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Italian Greyhounds
-Italian Greyhounds are small-sized (7–14 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+IGs are Greyhounds in miniature—more slender, but a Greyhound’s equal in grace and elegance. Standing ideally 13 to 15 inches at the shoulder, they present the sleek, curving lines common to all coursing hounds. Distinguishing features are the long, fine-boned legs.IGs combine the attentiveness of lapdogs with the complexity of ancient, aristocratic hounds. Bred for centuries to be doting companions and jesters, these high-stepping charmers refuse to be ignored. “On the whole,” writes an IG expert, “the breed would much rather be in your lap or bed than on the floor.” They are, though, true sighthounds and will bolt after quick-moving prey at the drop of a cat. A short-coat, low-fat breed, IGs require extra care in cold weather A true Greyhound in miniature, the elegant Italian Greyhound is an alert, playful, and highly affectionate toy companion. IGs make decorative couch dogs, but at h
+
+### Italian Greyhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | █░░░░ Reserved |
+
+Ranked **#60** in canine intelligence (Fair tier), the Italian Greyhound benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Italian Greyhounds
 No breed-specific genetic ailments are currently documented for the Italian Greyhound (typical life expectancy: 14–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Italian Greyhound health

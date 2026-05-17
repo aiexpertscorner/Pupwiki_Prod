@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "boerboel", "
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/boerboel", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "boerboel"
 breedName: "Boerboel"
 wordCountEstimate: 367
+image: "https://images.dog.ceo/breeds/mastiff-bull/n02108422_4064.jpg"
 canonicalUrl: "https://pupwiki.com/blog/boerboel-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Boerboels
-Boerboels are large-sized (150–200 lbs), with calm energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+There’s a no-frills, no-nonsense quality to this sleek-coated avenger, who might stand as high as 27 inches at the shoulder and weigh as much as you do. A broad and blocky head, powerful jaws, and thick muscles from neck to rump mark it as a descendant of the ancient “molloser” dog family, the foundation of today’s mastiff-type breeds. In motion, the Boerboel just might be the most agile of all mastiff types.The imposing Boerboel is devoted to protecting the people and places he loves. Training and socialization should begin early, before a pup becomes a dominant adult. This is a trainable, versatile breed, eager to spend time with their adored humans. Still, a Boerboel might be way too much dog for the novice owner to handle. Boerboels are intimidating but discerning guardians of home and family who learned their trade while protecting remote South African homesteads from ferocious pred
+
+### Boerboel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Boerboels
 No breed-specific genetic ailments are currently documented for the Boerboel (typical life expectancy: 9–11 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Boerboel health

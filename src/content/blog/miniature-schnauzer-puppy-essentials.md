@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "miniature-schnauzer"
 breedName: "Miniature Schnauzer"
 wordCountEstimate: 428
+image: "https://images.dog.ceo/breeds/schnauzer-miniature/n02097047_2409.jpg"
 canonicalUrl: "https://pupwiki.com/blog/miniature-schnauzer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Miniature Schnauzers
-Miniature Schnauzers are small-sized (11–20 lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Stocky, robust little dogs standing 12 to 14 inches, Miniature Schnauzers were bred down from their larger cousins, Standard Schnauzers. The bushy beard and eyebrows give Minis a charming, human-like expression. The hard, wiry coat comes in three color patterns: salt and pepper, black and silver, and solid black. Created to be all-around farm dogs and ratters, they are tough, muscular, and fearless without being aggressive.The Miniature Schnauzer is a bright, friendly, trainable companion, small enough to adapt to apartment life but tireless enough to patrol acres of farmland. They get along well with other animals and kids. Minis are sturdy little guys and enjoy vigorous play. Home and family oriented, they make great watchdogs. The Miniature Schnauzer, the smallest of the three Schnauzer breeds, is a generally healthy, long-lived, and low-shedding companion. Add an outgoing personality
+
+Originally from Germany, the Miniature Schnauzer belongs to the Pinschers, Schnauzers, Molosser and Swiss Mountain Dogs group. The Miniature Schnauzer ranks #19 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Miniature Schnauzer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
+
+Ranked **#12** in canine intelligence (Excellent tier), the Miniature Schnauzer responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ## How to approach a Miniature Schnauzer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Miniature Schnauzer puppy

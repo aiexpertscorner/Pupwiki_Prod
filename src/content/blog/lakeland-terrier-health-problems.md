@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "lakeland-ter
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/lakeland-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "lakeland-terrier"
 breedName: "Lakeland Terrier"
 wordCountEstimate: 393
+image: "https://images.dog.ceo/breeds/terrier-lakeland/n02095570_6114.jpg"
 canonicalUrl: "https://pupwiki.com/blog/lakeland-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Lakeland Terriers
-Lakeland Terriers are small-sized (17 lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Square and sturdy Lakelands, standing less than 15 inches at the shoulder and weighing about 17 pounds, are small dogs. But don’t tell them that. With their cock-of-the-walk swagger, Lakelands personify the old dog-lover’s cliché “a big dog in a small package.” They come in several colors; some have a sporty saddle mark on the back.With folded V-shaped ears, straight front, rectangular head, and a mischievous twinkle in their eye, Lakelands are the blueprint of a long-legged British terrier. A bold, zesty “big dog in a small package,” the Lakeland Terrier, named for the Lake District of his native England, was once a farmer’s dog bred to work in packs on sheep-stealing foxes. The Lakeland's coat is hard, wiry, and low-shedding.
+
+### Lakeland Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Lakeland Terriers
 No breed-specific genetic ailments are currently documented for the Lakeland Terrier (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Lakeland Terrier health

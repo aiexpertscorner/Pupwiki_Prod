@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "basset-hound"
 breedName: "Basset Hound"
 wordCountEstimate: 412
+image: "https://images.dog.ceo/breeds/hound-basset/n02088238_9841.jpg"
 canonicalUrl: "https://pupwiki.com/blog/basset-hound-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/33979390/pexels-photo-33979390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/33979390/pexels-photo-33979390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,21 @@ imageSearchQuery: "Basset Hound dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Basset Hounds
-Basset Hounds are medium-sized (40–65 lbs), with calm energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+The Basset Hound stands no higher than 14 inches at the shoulder but, with his remarkably heavy bone, powerful little legs, and massive paws, he possesses big-dog strength and stamina. Bassets are famous for a large, domed head that features extremely long, velvety ears, mournful eyes, and a wrinkled brow, which give the breed the look of a sad clown. Built more for endurance than speed, the Basset moves in a deliberate but effortless manner. The breed’s scenting ability is uncanny; it’s said that among dogs only the Bloodhound’s nose is more accurate. Mild and agreeable at home, the Basset is stubborn on the trail and barks in a loud, ringing voice. Although they may not be wildly demonstrative in their affections, they are steadfastly loyal. Among the most appealing of the AKC breeds, the endearing and instantly recognizable Basset Hound is a perennial favorite of dog lovers all over t
+
+Originally from France, the Basset Hound belongs to the Scent Hounds and Related Breeds group. The Basset Hound ranks #39 in AKC breed popularity.
+
+### Basset Hound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █░░░░ Low |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
+
+Ranked **#71** in canine intelligence (Lowest tier), the Basset Hound benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Basset Hound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Basset Hound puppy

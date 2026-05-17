@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "danish-swedi
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/danish-swedish-farmdog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,21 @@ medicalDisclaimer: true
 breedSlug: "danish-swedish-farmdog"
 breedName: "Danish-Swedish Farmdog"
 wordCountEstimate: 385
+image: "https://images.dog.ceo/breeds/danish-swedish-farmdog/ebba_003.jpg"
 canonicalUrl: "https://pupwiki.com/blog/danish-swedish-farmdog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Danish-Swedish Farmdogs
-Danish-Swedish Farmdogs are small-sized (15–20 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+This breed entered the American Kennel Club Foundation Stock Services Program (AKC FSS) in 2011. They are eligible to compete in Agility, Barn Hunt, Flyball, Herding, Lure Coursing, Nosework, Obedience and Rally, Tracking and AKC FSS Open Shows. Club Contact DetailsClub: Danish/Swedish Farmdog Club of America, IncName: Dorothy Herman, AKC LiaisonEmail: Info@Farmdogs.org Known as the Little Big Dog, the Danish-Swedish Farmdog is a companion dog that loves to work and enjoys a challenge. They are a small, compact and slightly rectangular dog, known to mature late.
+
+### Danish-Swedish Farmdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
 ### Common health concerns for Danish-Swedish Farmdogs
 No breed-specific genetic ailments are currently documented for the Danish-Swedish Farmdog (typical life expectancy: 11–13 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Danish-Swedish Farmdog health

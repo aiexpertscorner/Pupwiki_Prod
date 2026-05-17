@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "black-russia
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/black-russian-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "black-russian-terrier"
 breedName: "Black Russian Terrier"
 wordCountEstimate: 411
+image: "https://images.dog.ceo/breeds/terrier-dandie/n02096437_1760.jpg"
 canonicalUrl: "https://pupwiki.com/blog/black-russian-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Black Russian Terriers
-Black Russian Terriers are large-sized (80–130 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+What’s the word we’re looking for? Imposing? Massive? Majestic? How about just plain “big.” This brawny guard dog of the Siberian steppes can tip the scales at 140 pounds and stand as high as 30 inches at the shoulder. They’re much taller when the huge, brick-shaped head is considered. The tousled, all-black coat is warm enough to allow BRTs to patrol some of the coldest habitable places on earth. The old expression “He moves well for a big guy” applies to this nimble-footed giant. The Black Russian Terrier is a large, immensely powerful worker of heavy bone and coarse all-black coat. BRTs are known for their courage, confidence, and intelligence. Bred to guard and protect, they are naturally aloof with strangers.
+
+### Black Russian Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Black Russian Terriers
 No breed-specific genetic ailments are currently documented for the Black Russian Terrier (typical life expectancy: 10–12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Black Russian Terrier health

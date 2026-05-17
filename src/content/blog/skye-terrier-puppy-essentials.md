@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "skye-terrier"
 breedName: "Skye Terrier"
 wordCountEstimate: 356
+image: "https://images.dog.ceo/breeds/terrier-australian/n02096294_4925.jpg"
 canonicalUrl: "https://pupwiki.com/blog/skye-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Skye Terriers
-Skye Terriers are medium-sized (35–45 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Long, low, and level, this unique earthdog is among the AKC’s most distinctive-looking breeds. Skyes stand 9 or 10 inches high and feature a long, flat-lying coat and peekaboo hairdo. They’re known for big, feathery ears that stand up like bat wings, but Skyes can also have “drop ears,” which lie flat against the large, long head. Beneath the profuse coat are short, muscular legs and a deep chest. When seen in profile, these elegant but substantial terriers are twice as long as they are high. “The heavenly breed with the heart of a lion,” the long, low, and level Skye Terrier is among the AKC’s most distinctive-looking breeds. This elegant but sturdy aristocrat was bred as an exterminator on Scotland’s remote Isle of Skye.
+
+### Skye Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Skye Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Skye Terrier puppy

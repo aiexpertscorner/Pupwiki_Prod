@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "yorkshire-te
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/yorkshire-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "yorkshire-terrier"
 breedName: "Yorkshire Terrier"
 wordCountEstimate: 536
+image: "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_1869.jpg"
 canonicalUrl: "https://pupwiki.com/blog/yorkshire-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Yorkshire Terriers
-Yorkshire Terriers are small-sized (7 lbs), with regular energy, minimal shedding, and a silky coat. The recommendations below are matched to these traits.
+The Yorkshire Terrier is a compact, toy-size terrier of no more than seven pounds whose crowning glory is a floor-length, silky coat of steel blue and a rich golden tan.Don’t let the Yorkie’s daintiness fool you. Tenacious, feisty, brave, and sometimes bossy, the Yorkie exhibits all the traits of a true terrier. Often named the most popular dog breed in various American cities, Yorkies pack lots of big-town attitude into a small but self-important package. They are favorites of urbanites the world over.Yorkies are long-lived and low-allergen (the coat is more like human hair than animal fur), and they make fine little watchdogs. This is a true “personality breed,” providing years of laughs, love, and close companionship. Beneath the dainty, glossy, floor-length coat of a Yorkshire Terrier beats the heart of a feisty, old-time terrier. Yorkies earned their living as ratters in mines and m
+
+Originally from United Kingdom, the Yorkshire Terrier belongs to the Terriers group. The Yorkshire Terrier ranks #10 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Yorkshire Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | █░░░░ Challenging |
+| Sociability | ████░ Friendly |
+
+Ranked **#27** in canine intelligence (Above average tier), the Yorkshire Terrier benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Yorkshire Terriers
 Yorkshire Terriers have 4 documented genetic health conditions: knee, liver, trachea, eye disorders. Typical life expectancy is 11–15 years.
 - **Knee**: Ask your vet about recommended screening and prevention for this condition in Yorkshire Terriers.

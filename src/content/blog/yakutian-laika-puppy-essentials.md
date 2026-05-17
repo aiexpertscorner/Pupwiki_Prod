@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "yakutian-laika"
 breedName: "Yakutian Laika"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/husky/n02110185_2701.jpg"
 canonicalUrl: "https://pupwiki.com/blog/yakutian-laika-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Yakutian Laikas
-Yakutian Laikas are medium-sized (40–55 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+For centuries the Yakutian Laika was an irreplaceable and faithful assistant of a man in the conditions where the slightest demonstration of weakness was punished with death. It always received respectful attitude from its human family, which treated it as its member rather than a simple domestic animal. This means that it developed into a fabulous companion dog, devoted, lively and biddable. The breed is extremely gentle and considerate with children to whom it commonly establishes especially tight bonds. Nevertheless its friendly nature doesn’t exclude the necessity of a certain amount of socialization, preferably at an early age.The Yakutian Laika is slightly reserved with unknown people but in most cases it’s excited to acquire a new playmate. Human aggressiveness was considered by dogs’ breeders as a major fault and was meticulously eliminated from its characteristics. The breed is
+
+### Yakutian Laika at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | ██░░░ Selective |
 ## How to approach a Yakutian Laika puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Yakutian Laika puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "norfolk-terrier"
 breedName: "Norfolk Terrier"
 wordCountEstimate: 421
+image: "https://images.dog.ceo/breeds/terrier-norfolk/n02094114_4127.jpg"
 canonicalUrl: "https://pupwiki.com/blog/norfolk-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Norfolk Terriers
-Norfolk Terriers are small-sized (11–12 lbs), with regular energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Norfolk Terriers are among the smallest working terriers, standing no higher than 10 inches at the shoulder. The coat is hard, wiry, and straight. They share many traits with their close cousins, Norwich Terriers. To tell them apart, look at the ears: The Norwich has erect, pointed ears; Norfolk ears are neatly folded over.Bred to work in packs, Norfolks are more gregarious than a typical terrier, but they have plenty of the old terrier pep. Few Norfolks these days earn their living hunting rodents, but a good one will fearlessly do so when given a chance. Norfolks bond closely, sometimes jealously, with their owners and make nice watchdogs. They have a reputation as a good traveler: portable, adaptable, and up for anything. Norfolk Terriers are little, cute, and loyal, and they will gladly curl up in your lap, but don’t dare call them lapdogs. Norfolks, despite their toyish qualities, a
+
+### Norfolk Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#56** in canine intelligence (Fair tier), the Norfolk Terrier responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Norfolk Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Norfolk Terrier puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "small-munsterlander-pointer"
 breedName: "Small Munsterlander Pointer"
 wordCountEstimate: 351
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_4130.jpg"
 canonicalUrl: "https://pupwiki.com/blog/small-munsterlander-pointer-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Small Munsterlander Pointers
-Small Munsterlander Pointers are medium-sized (40–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Small Munsterlander is intelligent and capable of learning, has a full but even temperament, and is steady in character. He is alert and friendly towards people, which makes him suitable for family life; he has good social behavior and keeps in close contact with his master. His passionate, persevering predatory instinct, versatile hunting aptitudes and strong nerves and keenness for game make him an extremely adept hunting companion. During the off season, Small Munsterlanders can also be used for agility, obedience, retrieving and hunting tests or trials. Small Munsterlanders have a strong pack instinct and thrive in outdoor oriented families. In the house, they often can be found sleeping near (or on) the feet of their master. In his native country of Germany, he is the Kleiner Münsterländer. Club Contact DetailsClub: Small Munsterlander Club of North AmericaName: Mark Schnubel, P
+
+### Small Munsterlander Pointer at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Small Munsterlander Pointer puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Small Munsterlander Pointer puppy

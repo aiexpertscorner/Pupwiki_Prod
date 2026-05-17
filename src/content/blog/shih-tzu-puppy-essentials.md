@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "shih-tzu"
 breedName: "Shih Tzu"
 wordCountEstimate: 430
+image: "https://images.dog.ceo/breeds/shihtzu/n02086240_3582.jpg"
 canonicalUrl: "https://pupwiki.com/blog/shih-tzu-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Shih Tzus
-Shih Tzus are small-sized (9–16 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Shih Tzu (pronounced in the West “sheed-zoo” or “sheet-su”; the Chinese say “sher-zer”), weighing between 9 to 16 pounds, and standing between 8 and 11 inches, are surprisingly solid for dogs their size. The coat, which comes in many colors, is worth the time you will put into it—few dogs are as beautiful as a well-groomed Shih Tzu.Being cute is a way of life for this lively charmer. The Shih Tzu is known to be especially affectionate with children. As a small dog bred to spend most of their day inside royal palaces, they make a great pet if you live in an apartment or lack a big backyard. Some dogs live to dig holes and chase cats, but a Shih Tzu’s idea of fun is sitting in your lap acting adorable as you try to watch TV. That face! Those big dark eyes looking up at you with that sweet expression! It’s no surprise that Shih Tzu owners have been so delighted with this little “Lion Dog” f
+
+Originally from China, the Shih Tzu belongs to the Companion and Toy Dogs group. The Shih Tzu ranks #20 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Shih Tzu at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ████░ High |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#70** in canine intelligence (Lowest tier), the Shih Tzu responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Shih Tzu puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Shih Tzu puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "swedish-lapphund"
 breedName: "Swedish Lapphund"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/elkhound-norwegian/n02091467_6920.jpg"
 canonicalUrl: "https://pupwiki.com/blog/swedish-lapphund-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Swedish Lapphunds
-Swedish Lapphunds are medium-sized (30–45 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Swedish Lapphunds make wonderful family companions and thrive when included in all the activities of their human pack. This lively and intelligent medium-sized spitz is a versatile, playful and energetic pooch. Although generally considered a medium to high energy breed, it is capable of relaxing and chilling when appropriate, aka the Lappie “on/off” switch. Alert and friendly, they can also be independent-minded and stubborn. The breed retains its guarding and herding traits of alertness and attention-getting barking. The Swedish Lappie is eager to please, will work with you, and is suited for rally, agility, herding, scent work and other companion events. Club Contact DetailsName: Patricia ArfstenEmail: parfsten@yahoo.com Lively, alert, kind and affectionate. The Lapphund is very receptive, attentive and willing to work. Its abilities as a good herding dog made it very useful in the re
+
+### Swedish Lapphund at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | ███░░ Balanced |
 ## How to approach a Swedish Lapphund puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Swedish Lapphund puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "papi-poo"
 breedName: "Papi-poo"
 wordCountEstimate: 424
+image: "https://images.dog.ceo/breeds/papillon/n02086910_9041.jpg"
 canonicalUrl: "https://pupwiki.com/blog/papi-poo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Papi-poos
-Papi-poos are small-sized (6.61–13.23 lbs), with regular energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.
+Papi-poo is a designer cross between the Papillon and the Poodle (Toy). This mix usually weighs about 7-13 pounds, often has a wavy or fleece-like coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Von Willebrand's disease, Kneecap issues.
+
+### Papi-poo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
+
+Ranked **#8** in canine intelligence (Brightest tier), the Papi-poo responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 10 most trainable breeds.
 ## How to approach a Papi-poo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Papi-poo puppy

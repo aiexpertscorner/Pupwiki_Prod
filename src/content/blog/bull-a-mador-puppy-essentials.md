@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "bull-a-mador"
 breedName: "Bull-A-Mador"
 wordCountEstimate: 454
+image: "https://images.dog.ceo/breeds/bulldog-english/jager-2.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bull-a-mador-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bull-A-Madors
-Bull-A-Madors are large-sized (55.12–88.18 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+Bull-A-Mador is a designer cross between the Bulldog and the Labrador Retriever. This mix usually weighs about 55-88 pounds, can inherit a dense double coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Hip/Elbow dysplasia, Obesity. Originally from United Kingdom.
+
+### Bull-A-Mador at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | █████ Very Friendly |
+
+Ranked **#42** in canine intelligence (Average tier), the Bull-A-Mador responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Bull-A-Mador puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bull-A-Mador puppy

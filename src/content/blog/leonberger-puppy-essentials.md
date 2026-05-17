@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "leonberger"
 breedName: "Leonberger"
 wordCountEstimate: 385
+image: "https://images.dog.ceo/breeds/leonberg/n02111129_4903.jpg"
 canonicalUrl: "https://pupwiki.com/blog/leonberger-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Leonbergers
-Leonbergers are large-sized (90–170 lbs), with regular energy, heavy shedding, and a long coat. The recommendations below are matched to these traits.
+A huge and powerful dog, yes, but the Leonberger is also known for his aristocratic grace and elegance. A male can stand over 31 inches at the shoulder and weigh as much as a full-grown human. Females run smaller but are still a whole lot of dog. Breed hallmarks include a medium-long waterproof coat, lush triangular ears, a bushy tail, and a black facemask that frames kindly dark-brown eyes. A dramatic feature of the male’s coat is the lion-like mane around the neck and chest. A well-built Leo moves with an easy, elastic gait. A Leo is friendly but nobody’s fool. As watchdogs and all-around workers, they exhibit intelligence and sound judgment. Leos require lots of brushing, ample room for romping, and unlimited love. The Leonberger is a lush-coated giant of German origin. They have a gentle nature and serene patience and they relish the companionship of the whole family.
+
+### Leonberger at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a Leonberger puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Leonberger puppy

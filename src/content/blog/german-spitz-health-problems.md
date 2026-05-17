@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "german-spitz
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/german-spitz", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "german-spitz"
 breedName: "German Spitz"
 wordCountEstimate: 401
+image: "https://images.dog.ceo/breeds/spitz-japanese/tofu.jpg"
 canonicalUrl: "https://pupwiki.com/blog/german-spitz-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About German Spitzs
-German Spitzs are medium-sized (24–26 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Spitz breeds like the German Spitz are captivating on account of their beautiful coats, made to stand off by a plentiful undercoat. Particularly impressive is his strong, mane-like collar around his neck, called a ruff, and the bushy tail carried boldly over his back. His foxy head, alert eyes, and small, pointed, closely-set ears give the German Spitz his unique cheeky appearance. His coat comes in a variety of colors including white, black, cream, gold, black and tan, sable, and chocolate brown. Though easily trainable, this lively and intelligent breed can also have an independent streak. If properly trained (so as not to be too noisy) and well socialized, the German Spitz will be happy mingling with other people and dogs. The German Spitz is always attentive, lively and exceptionally devoted to his owner. He is very teachable and easy to train. His distrust towards strangers and lack
+
+### German Spitz at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for German Spitzs
 No breed-specific genetic ailments are currently documented for the German Spitz (typical life expectancy: 13–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach German Spitz health

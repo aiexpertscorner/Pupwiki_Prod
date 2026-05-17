@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "jindo"
 breedName: "Jindo"
 wordCountEstimate: 337
+image: "https://images.dog.ceo/breeds/shiba/shiba-6.jpg"
 canonicalUrl: "https://pupwiki.com/blog/jindo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Jindos
-Jindos are medium-sized (30–50 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Korea Jindo Dog is a well-proportioned, medium-sized dog used for hunting and guarding. With erect ears and a rolled or sickle-shaped tail, it should be a vivid expression of agility, strength, alertness and dignity.The Jindo has a very strong instinct for hunting and is bold, brave, alert and careful, not tempted easily and impetuous. But most of all he is extremely faithful to his master. On the whole he is not fond of other animals, especially males. He also has a good sense of direction. A one-man dog, he readily accepts a new master, but never forgets his attachment towards the former master who raised him from puppyhood. He keeps himself clean and eats sparingly. Club Contact DetailsClub: Korean Jindo Association of AmericaName: Ann KimEmail: jindojunkie@yahoo.com Loyal, watchful, and intelligent, the Jindo developed as a breed on an island off the coast of South Korea. Medium-
+
+### Jindo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Jindo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Jindo puppy

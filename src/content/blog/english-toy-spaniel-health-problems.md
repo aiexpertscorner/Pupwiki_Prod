@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "english-toy-
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/english-toy-spaniel", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "english-toy-spaniel"
 breedName: "English Toy Spaniel"
 wordCountEstimate: 479
+image: "https://images.dog.ceo/breeds/spaniel-blenheim/n02086646_1930.jpg"
 canonicalUrl: "https://pupwiki.com/blog/english-toy-spaniel-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About English Toy Spaniels
-English Toy Spaniels are small-sized (8–14 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+The ETS is a square, snub-nosed toy weighing no more than 14 pounds. The large domed head—with its long and lush ears, dark melting eyes, and chubby cheeks—is a famous breed trait. The profuse coat comes in four varieties, each with its own proper name: red and white (Blenheim); black and tan (King Charles); white, black, and tan (Prince Charles); and a solid red (Ruby). Blenheims often have a red mark, the “Blenheim Spot,” on top of the head.The ETS, like many toy breeds kept by royals, came to assume the personalities of their aristocratic owners. They can be proud and willful, and extremely discriminating in their choice of friends. With their favored humans, they are affectionate at home and exuberant and curious at play. The merry English Toy Spaniel was bred to be the companion of kings. But ETS are spaniels first and pampered lapdogs second, and beneath the patrician exterior beat
+
+### English Toy Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
+
+Ranked **#45** in canine intelligence (Average tier), the English Toy Spaniel benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for English Toy Spaniels
 No breed-specific genetic ailments are currently documented for the English Toy Spaniel (typical life expectancy: 10–12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach English Toy Spaniel health

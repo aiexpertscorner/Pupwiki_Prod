@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "newfypoo"
 breedName: "Newfypoo"
 wordCountEstimate: 450
+image: "https://images.dog.ceo/breeds/newfoundland/n02111277_5145.jpg"
 canonicalUrl: "https://pupwiki.com/blog/newfypoo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Newfypoos
-Newfypoos are large-sized (77.16–154.32 lbs), with regular energy, low shedding, and a wavy coat. The recommendations below are matched to these traits.
+Newfypoo is a designer cross between the Newfoundland and the Poodle (Standard). This mix usually weighs about 77-154 pounds, often has a wavy or fleece-like coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Subaortic stenosis (Heart), Bloat, Elbow issues.
+
+### Newfypoo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#34** in canine intelligence (Above average tier), the Newfypoo responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Newfypoo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Newfypoo puppy

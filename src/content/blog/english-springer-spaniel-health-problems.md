@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "english-spri
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/english-springer-spaniel", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "english-springer-spaniel"
 breedName: "English Springer Spaniel"
 wordCountEstimate: 540
+image: "https://images.dog.ceo/breeds/springer-english/n02102040_3586.jpg"
 canonicalUrl: "https://pupwiki.com/blog/english-springer-spaniel-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About English Springer Spaniels
-English Springer Spaniels are medium-sized (40–50 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Built for long days in the field, English Springer Spaniels are tough, muscular hunters standing 19 to 20 inches at the shoulder and weighing between 40 and 50 pounds. The double coat comes in several colors and patterns, the ears are long and lush, and the kindly, trusting expression of the eyes is a cherished hallmark of the breed. Springers move with a smooth, ground-covering stride.Bred to work closely with humans, Springers are highly trainable people-pleasers. They crave company and are miserable when neglected.Polite dogs, Springers are good with kids and their fellow mammals. They are eager to join in any family activity. Long walks, games of chase and fetch, and swimming are favorite pastimes of these rugged spaniels. The English Springer Spaniel is a sweet-faced, lovable bird dog of great energy, stamina, and brains. Sport hunters cherish the duality of working Springers: hands The English Springer Spaniel ranks #27 in AKC breed popularity.
+
+### English Springer Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#13** in canine intelligence (Excellent tier), the English Springer Spaniel responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ### Common health concerns for English Springer Spaniels
 English Springer Spaniels have 4 documented genetic health conditions: hip, eye, skin problems; enzyme deficiency. Typical life expectancy is 12–14 years.
 - **Hip**: Ask your vet about recommended screening and prevention for this condition in English Springer Spaniels.

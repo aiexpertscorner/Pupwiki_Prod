@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "havapoo"
 breedName: "Havapoo"
 wordCountEstimate: 423
+image: "https://images.dog.ceo/breeds/havanese/00100trPORTRAIT_00100_BURST20191222103956878_COVER.jpg"
 canonicalUrl: "https://pupwiki.com/blog/havapoo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Havapoos
-Havapoos are small-sized (8.82–15.43 lbs), with regular energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
+Havapoo is a designer cross between the Havanese and the Poodle (Toy). This mix usually weighs about 9-15 pounds, often has a wavy or fleece-like coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Legg-Calve-Perthes, Patellar luxation.
+
+### Havapoo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
+
+Ranked **#45** in canine intelligence (Average tier), the Havapoo responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Havapoo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Havapoo puppy

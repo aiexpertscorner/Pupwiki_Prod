@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "bugg"
 breedName: "Bugg"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/pug/willienelson.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bugg-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Buggs
-Buggs are small-sized (13.23–26.46 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Bugg is a designer cross between the Pug and the Boston Terrier. This mix usually weighs about 13-26 pounds, often carries an easy-care short coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Brachycephalic issues, Eye proptosis. Originally from China / United States.
+
+### Bugg at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | █████ Very Friendly |
+
+Ranked **#56** in canine intelligence (Average tier), the Bugg responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Bugg puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bugg puppy

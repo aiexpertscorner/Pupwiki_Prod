@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "american-eskimo-dog"
 breedName: "American Eskimo Dog"
 wordCountEstimate: 370
+image: "https://images.dog.ceo/breeds/eskimo/n02109961_1413.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-eskimo-dog-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/7237824/pexels-photo-7237824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,17 @@ imageSearchQuery: "American Eskimo Dog dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Eskimo Dogs
-American Eskimo Dogs are medium-sized (6–35 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The American Eskimo Dog comes in three sizes—standard, miniature, and toy—standing as tall as 19 inches at the shoulder or as short as 9 inches. Distinctive traits include a dense, sparkling white coat with a lion-like ruff around the chest and shoulders; a smiling face, with black nose, lips, and eye-rims that convey a keen, intelligent expression; and a plumed tail carried over the back. Some Eskies have markings with the delicious color name “biscuit cream.” They move with a bold and agile gait.Eskies are social animals and can develop problem behaviors when neglected or undertrained—they insist on being part of family life. Among the most trainable of breeds, the clever, kid-friendly Eskie practically invented the phrase “eager to please.” The American Eskimo Dog combines striking good looks with a quick and clever mind in a total brains-and-beauty package. Neither shy nor aggressive
+
+### American Eskimo Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | █████ Very Friendly |
 ## How to approach a American Eskimo Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a American Eskimo Dog puppy

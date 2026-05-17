@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "belgian-laek
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/belgian-laekenois", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,6 +26,7 @@ medicalDisclaimer: true
 breedSlug: "belgian-laekenois"
 breedName: "Belgian Laekenois"
 wordCountEstimate: 378
+image: "https://images.dog.ceo/breeds/malinois/n02105162_5913.jpg"
 canonicalUrl: "https://pupwiki.com/blog/belgian-laekenois-health-problems"
 heroImage: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -40,7 +41,17 @@ imageSearchQuery: "Belgian Laekenois dog veterinarian wellness"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Belgian Laekenoiss
-Belgian Laekenoiss are medium-sized (55–65 lbs), with active energy, heavy shedding, and a rough coat. The recommendations below are matched to these traits.
+Of the four closely-related Belgian herders—the Belgian Sheepdog, Malinois, Tervuren, and Laekenois—the Laekenois is the rarest. This strong and sturdy dog is distinguished from his brethren by a rough, tousled coat that comes in shades of red or fawn or in grayish tones. The blackening around the muzzle points up the expression of keen watchfulness shining from the dark almond-shaped eyes.The Belgian Laekenois is protective of his master and property. Although observant with strangers, the breed is affectionate and friendly with those he knows well. The Laekenois coat requires regular brushing and occasional bathing, and as a working dog, it needs daily exercise. Strong, agile and full of life, the Belgian Laekenois (pronounced "Lak-in-wah") is one of four native dogs of Belgium. Although similar in body and temperament to the Malinois, Shepherd and Tervuren, the Laekenois differs in co
+
+### Belgian Laekenois at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Belgian Laekenoiss
 No breed-specific genetic ailments are currently documented for the Belgian Laekenois (typical life expectancy: 10–12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Belgian Laekenois health

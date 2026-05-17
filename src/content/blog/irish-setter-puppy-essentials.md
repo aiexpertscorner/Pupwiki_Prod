@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "irish-setter"
 breedName: "Irish Setter"
 wordCountEstimate: 459
+image: "https://images.dog.ceo/breeds/setter-irish/n02100877_8800.jpg"
 canonicalUrl: "https://pupwiki.com/blog/irish-setter-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Irish Setters
-Irish Setters are large-sized (60–70 lbs), with active energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+The Irish Setter has been described by its partisans as the most beautiful of dog breeds. Standing more than two feet at the shoulder, with a substantial yet elegant build, the Irish is famed for a brilliant coat of mahogany or chestnut. Long, sinewy legs and powerful rear drive help to place the Irish among the swiftest of all sporting dogs.The Irish Setter’s lovable personality has endeared the breed to sportsmen and pet owners for more than 200 years. Irish are outgoing dogs who enjoy making friends. These rambunctious redheads are big kids at heart, but they are eager to please and will respond to patient, positive training. They are said to be bold and rugged hunting partners, with a devil-may-care approach to their work. The Irish Setter is a high-spirited gundog known for grace, swiftness, and a flashy red coat. They are famously good family dogs: sweet-tempered companions for the
+
+### Irish Setter at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#35** in canine intelligence (Above average tier), the Irish Setter responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Irish Setter puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Irish Setter puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "westiepoo"
 breedName: "Westiepoo"
 wordCountEstimate: 423
+image: "https://images.dog.ceo/breeds/poodle-miniature/n02113712_2379.jpg"
 canonicalUrl: "https://pupwiki.com/blog/westiepoo-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Westiepoos
-Westiepoos are small-sized (13.23–24.25 lbs), with regular energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+Westiepoo is a designer cross between the West Highland White Terrier and the Poodle (Miniature). This mix usually weighs about 13-24 pounds, often has a curly, low-shed-leaning coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Craniomandibular osteopathy, Skin issues.
+
+### Westiepoo at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#47** in canine intelligence (Average tier), the Westiepoo responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Westiepoo puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Westiepoo puppy

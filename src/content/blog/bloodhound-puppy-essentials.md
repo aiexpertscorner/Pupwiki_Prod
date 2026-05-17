@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "bloodhound"
 breedName: "Bloodhound"
 wordCountEstimate: 427
+image: "https://images.dog.ceo/breeds/hound-blood/n02088466_10773.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bloodhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bloodhounds
-Bloodhounds are large-sized (80–110 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Bloodhounds are large, substantial dogs standing 23 to 27 inches at the shoulder and weighing up to 110 pounds. Their most famous features are a long, wrinkled face with loose skin; huge, drooping ears; and warm, deep-set eyes that complete an expression of solemn dignity. Coat colors can be black and tan, liver and tan, or red. Powerful legs allow Bloodhounds to scent over miles of punishing terrain.As pack dogs, Bloodhounds enjoy company, including other dogs and kids. They are easygoing, but their nose can sometimes lead them into trouble. A strong leash and long walks in places where they can enjoy sniffing around are recommended. Bloodhounds are droolers, and obedience training these sensitive sleuths can be a challenge. The world famous “Sleuth Hound” does one thing better than any creature on earth: find people who are lost or hiding. An off-duty Bloodhound is among the canine kin
+
+Originally from France, the Bloodhound belongs to the Scent Hounds and Related Breeds group. The Bloodhound ranks #49 in AKC breed popularity.
+
+### Bloodhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
+
+Ranked **#75** in canine intelligence (Lowest tier), the Bloodhound benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Bloodhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bloodhound puppy

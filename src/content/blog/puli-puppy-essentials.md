@@ -30,7 +30,17 @@ canonicalUrl: "https://pupwiki.com/blog/puli-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pulis
-Pulis are medium-sized (25–35 lbs), with regular energy, minimal shedding, and a corded coat. The recommendations below are matched to these traits.
+First, there are those dreadlocks, the instantly recognizable feature of the Puli (pronounced “Poo-lee”—”Pulik” is the plural). The coat’s naturally occurring cords are wooly, dense, and weatherproof. Either corded or brushed out, Puli coats require lots of attention. Under the dreads there’s a compact but powerful dog, standing 16 to 17 inches at the shoulder. Pulik are remarkably agile and light on their feet, earning a reputation as the “acrobat of the dog world.” No other breed can be mistaken for the Puli, a compact but powerful herder covered from head to tail with profuse, naturally occurring cords. Bred to work closely with humans, these agile and faithful little dynamos are quick learners.
+
+### Puli at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Puli puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Puli puppy

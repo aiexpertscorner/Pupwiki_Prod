@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "glechon"
 breedName: "Glechon"
 wordCountEstimate: 426
+image: "https://images.dog.ceo/breeds/frise-bichon/1.jpg"
 canonicalUrl: "https://pupwiki.com/blog/glechon-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Glechons
-Glechons are medium-sized (15.43–33.07 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Glechon is a designer cross between the Beagle and the Bichon Frise. This mix usually weighs about 15-33 pounds, often carries an easy-care short coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Allergies, Heart issues. Originally from United Kingdom.
+
+### Glechon at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ████░ High |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#59** in canine intelligence (Average tier), the Glechon responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Glechon puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Glechon puppy

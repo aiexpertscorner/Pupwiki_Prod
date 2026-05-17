@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "silky-terrier"
 breedName: "Silky Terrier"
 wordCountEstimate: 357
+image: "https://images.dog.ceo/breeds/terrier-silky/n02097658_4081.jpg"
 canonicalUrl: "https://pupwiki.com/blog/silky-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Silky Terriers
-Silky Terriers are small-sized (10 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Small but not fragile, feisty but not yappy, pretty but not sculpted, Silkys are 10-inch-tall dynamos animated by curiosity and high spirits. The glorious blue-and-tan coat is straight and glossy, and it feels and behaves much like human hair. The wedge-shaped head is topped by profuse hair parted down the middle, and erect V-shaped ears draw attention to the keen, piercing expression of the almond-shaped eyes. Silkys are more refined than typical ratting terriers, but they should still look and behave like a true earthdog. A charming member of the AKC Toy Group, the compact, glossy-coated Silky Terrier is nonetheless a true terrier of energetic high spirits. The Silky, a native of Sydney, Australia, is larger than his close cousin, the Yorkshire Terrier.
+
+### Silky Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Silky Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Silky Terrier puppy

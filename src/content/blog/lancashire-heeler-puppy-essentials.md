@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "lancashire-heeler"
 breedName: "Lancashire Heeler"
 wordCountEstimate: 356
+image: "https://images.dog.ceo/breeds/terrier-welsh/lucy.jpg"
 canonicalUrl: "https://pupwiki.com/blog/lancashire-heeler-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Lancashire Heelers
-Lancashire Heelers are small-sized (9–17 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Small, powerful, sturdily built, alert and an energetic worker, the Lancashire Heeler works cattle but has terrier instincts when rabbiting and ratting. They have a unique characteristic called the Heeler Smile; when content, Heelers have been known to draw back their lips in an effort that emulates a human smile. In 2003, the breed was placed on the Endangered Breeds list of The Kennel Club, U.K, due to the small number of dogs composing the gene pool and the risk of several inherited diseases. The United States Lancashire Heeler ClubName: Sheryl BradburyEmail: sherylbradbury@windstream.netPhone: 816-308-2424 The Lancashire Heeler is a medium to high energy dog. Intelligent, alert and friendly, they are quick to learn new tasks. A sturdy little dog with a short, weather-resistant coat of black and tan or liver and tan, they are affectionate with their owners, always happy, talkative, an
+
+### Lancashire Heeler at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ## How to approach a Lancashire Heeler puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Lancashire Heeler puppy

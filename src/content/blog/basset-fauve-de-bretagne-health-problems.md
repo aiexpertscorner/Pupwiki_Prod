@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "basset-fauve
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/basset-fauve-de-bretagne", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,6 +26,7 @@ medicalDisclaimer: true
 breedSlug: "basset-fauve-de-bretagne"
 breedName: "Basset Fauve de Bretagne"
 wordCountEstimate: 407
+image: "https://images.dog.ceo/breeds/hound-basset/n02088238_1944.jpg"
 canonicalUrl: "https://pupwiki.com/blog/basset-fauve-de-bretagne-health-problems"
 heroImage: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -40,7 +41,17 @@ imageSearchQuery: "Basset Fauve de Bretagne dog veterinarian wellness"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Basset Fauve de Bretagnes
-Basset Fauve de Bretagnes are medium-sized (27–35 lbs), with regular energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+The Basset Fauve de Bretagne, also known as the Fawn Colored Brittany Basset, is a small, stocky, rough-coated hardy dog that is energetic and fast for its size. The Fauve gets along well with children and other pets. Training and socialization is a must or Fauves can get into mischief. Not nuisance barkers, you will, however, know if a rabbit runs through the yard, as they then give the hound “voice” and chase. This breed is as happy romping in the field as he is curled up next to the family on the sofa. Smart, courageous and determined, the Basset Fauve de Bretagne is a serious hunter, easily adaptable to different types of game and terrain. It is equally an excellent companion dog, being cheerful, intelligent and eager to please.
+
+### Basset Fauve de Bretagne at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | █████ Very Friendly |
 ### Common health concerns for Basset Fauve de Bretagnes
 No breed-specific genetic ailments are currently documented for the Basset Fauve de Bretagne (typical life expectancy: 12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Basset Fauve de Bretagne health

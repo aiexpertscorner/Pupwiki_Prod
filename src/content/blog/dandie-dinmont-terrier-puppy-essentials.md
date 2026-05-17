@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "dandie-dinmont-terrier"
 breedName: "Dandie Dinmont Terrier"
 wordCountEstimate: 439
+image: "https://images.dog.ceo/breeds/terrier-dandie/n02096437_1793.jpg"
 canonicalUrl: "https://pupwiki.com/blog/dandie-dinmont-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Dandie Dinmont Terriers
-Dandie Dinmont Terriers are small-sized (18–24 lbs), with regular energy, minimal shedding, and a rough coat. The recommendations below are matched to these traits.
+Physical hallmarks of the Dandie Dinmont Terrier include a large head covered with profuse, silky white hair; long, hanging ears tipped with feathering and coming almost to a point; big, round eyes full of brightness and expression; and a long, low torso and short legs. The crisp body coat comes in two spicy colors: pepper (bluish black to silvery gray) and mustard (reddish brown to pale fawn).Weighing no more than 24 pounds, Dandies are alert and intelligent watchdogs with a big baritone bark. Dandies enjoy romping and cuddling with kids, but aren’t as hyper as some small dogs. They are terriers, though, with typical willfulness, independence, and courage. Dandie owners get best results with positive, motivational training. The unique-looking Dandie Dinmont Terrier is a tough but dignified little exterminator. Sturdily built for the rigors of farm life, they will agreeably adapt to city
+
+### Dandie Dinmont Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ████░ High |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#62** in canine intelligence (Fair tier), the Dandie Dinmont Terrier benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Dandie Dinmont Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Dandie Dinmont Terrier puppy

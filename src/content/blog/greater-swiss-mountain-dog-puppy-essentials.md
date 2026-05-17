@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "greater-swiss-mountain-dog"
 breedName: "Greater Swiss Mountain Dog"
 wordCountEstimate: 390
+image: "https://images.dog.ceo/breeds/mountain-swiss/n02107574_2335.jpg"
 canonicalUrl: "https://pupwiki.com/blog/greater-swiss-mountain-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Greater Swiss Mountain Dogs
-Greater Swiss Mountain Dogs are large-sized (85–140 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+“Greater” than what? Well, standing as high as 28.5 inches and weighing as much as a midsize human, a Greater Swiss might easily be greater than you.Swissies are immensely strong, yet agile enough to move a flock across the sloping foot of a mountain. The coat is a striking tricolor—black, red, and white. The head and muzzle typically have a white marking (the “blaze”), setting off a sweet expression. Several big mountain-dog breeds are described as “majestic,” but Swissies practically invented the word. The Greater Swiss Mountain Dog is a large, immensely strong worker famous for a dense coat of striking black, red, and white markings. Dependable and faithful Swissies earned their feed as herders, drafters, and all-around pasture dogs. Originally from Switzerland, the Greater Swiss Mountain Dog belongs to the Pinschers, Schnauzers, Molosser and Swiss Mountain Dogs group.
+
+### Greater Swiss Mountain Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Greater Swiss Mountain Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Greater Swiss Mountain Dog puppy

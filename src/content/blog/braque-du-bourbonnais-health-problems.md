@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "braque-du-bo
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/braque-du-bourbonnais", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,22 @@ medicalDisclaimer: true
 breedSlug: "braque-du-bourbonnais"
 breedName: "Braque du Bourbonnais"
 wordCountEstimate: 386
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_3134.jpg"
 canonicalUrl: "https://pupwiki.com/blog/braque-du-bourbonnais-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Braque du Bourbonnaiss
-Braque du Bourbonnaiss are medium-sized (35–53 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+The Bourbonnais is an ancient breed that evolved in France during the 15th century in the historic province of Bourbonnais. By the 1800s, the breed was known amongst French hunters as a tailless pointer with distinctive fawn and liver ticking. The Braque du Bourbonnais has now gained a strong foothold in North America; some years there are more pups registered in the United States than its homeland of France. In English, he is the Bourbonnais Pointing Dog. He is kind and affectionate in the home and a serious, adaptable, intelligent hunter in the field. Club Contact DetailsClub: Braque du Bourbonnais Club of AmericaName: Cindy PetkwitzEmail: villagelock58@comcast.netAddress: 572 Hollywood, Grosse Pointe, MI 48236Phone: (313) 881-8603 Pronounced brock-do-bor-bon-NAY, this pointer has a calm, gentle demeanor that is ideally suited for the foot hunter. The breed's relatively small size and
+
+### Braque du Bourbonnais at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Braque du Bourbonnaiss
 No breed-specific genetic ailments are currently documented for the Braque du Bourbonnais (typical life expectancy: 10–12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Braque du Bourbonnais health

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "english-springer-spaniel"
 breedName: "English Springer Spaniel"
 wordCountEstimate: 415
+image: "https://images.dog.ceo/breeds/springer-english/n02102040_1055.jpg"
 canonicalUrl: "https://pupwiki.com/blog/english-springer-spaniel-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About English Springer Spaniels
-English Springer Spaniels are medium-sized (40–50 lbs), with regular energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Built for long days in the field, English Springer Spaniels are tough, muscular hunters standing 19 to 20 inches at the shoulder and weighing between 40 and 50 pounds. The double coat comes in several colors and patterns, the ears are long and lush, and the kindly, trusting expression of the eyes is a cherished hallmark of the breed. Springers move with a smooth, ground-covering stride.Bred to work closely with humans, Springers are highly trainable people-pleasers. They crave company and are miserable when neglected.Polite dogs, Springers are good with kids and their fellow mammals. They are eager to join in any family activity. Long walks, games of chase and fetch, and swimming are favorite pastimes of these rugged spaniels. The English Springer Spaniel is a sweet-faced, lovable bird dog of great energy, stamina, and brains. Sport hunters cherish the duality of working Springers: hands The English Springer Spaniel ranks #27 in AKC breed popularity.
+
+### English Springer Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#13** in canine intelligence (Excellent tier), the English Springer Spaniel responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 25 most trainable breeds.
 ## How to approach a English Springer Spaniel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a English Springer Spaniel puppy

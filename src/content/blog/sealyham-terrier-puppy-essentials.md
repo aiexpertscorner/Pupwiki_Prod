@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "sealyham-terrier"
 breedName: "Sealyham Terrier"
 wordCountEstimate: 369
+image: "https://images.dog.ceo/breeds/terrier-sealyham/n02095889_1847.jpg"
 canonicalUrl: "https://pupwiki.com/blog/sealyham-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Sealyham Terriers
-Sealyham Terriers are small-sized (23–24 lbs), with regular energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+Standing less than 11 inches at the shoulder and weighing about 24 pounds, Sealys are not big enough to be considered medium-sized dogs, but they stand among the strongest and most substantial of what we think of as small dogs.A typical Sealy is well-muscled, built low to ground, and moves easily with long, determined strides. The weatherproof coat is predominantly white, and a long, broad head is furnished with lavish facial hair. Despite their rep as the bruiser among short-legged terriers, Sealys are cute, funny, affectionate, outgoing, and trainable, if a bit stubborn. Their alertness and a big-dog bark make Sealys excellent watchdogs. Blessed with an adaptable nature, Sealys are amenable to city dwelling or country life. The Sealyham Terrier is brave and spirited, but not as spiky as smaller terriers. These sturdy, outgoing companions are recognized by their “fall,” the mass of hair
+
+### Sealyham Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ## How to approach a Sealyham Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Sealyham Terrier puppy

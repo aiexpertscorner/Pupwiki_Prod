@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "basenji", "d
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/basenji", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,6 +26,7 @@ medicalDisclaimer: true
 breedSlug: "basenji"
 breedName: "Basenji"
 wordCountEstimate: 492
+image: "https://images.dog.ceo/breeds/basenji/n02110806_4435.jpg"
 canonicalUrl: "https://pupwiki.com/blog/basenji-health-problems"
 heroImage: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -40,7 +41,21 @@ imageSearchQuery: "Basenji dog veterinarian wellness"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Basenjis
-Basenjis are small-sized (22–24 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Basenjis are small, graceful hounds standing 16 or 17 inches at the shoulder. They are recognizable by their glistening short coat, tightly curled tail, and wrinkled forehead and expressive almond-shaped eyes that convey a variety of subtle, humanlike emotions.Basenjis are a lovely sight at a standstill but more impressive yet at a fast trot, when they exhibit the long, smooth strides of a mini-racehorse. And yes, it’s true, they don’t bark, but they make their feelings known with an odd sound described as something between a chortle and a yodel. Basenjis are fastidious and will groom themselves like cats. This has been called a “cult breed”—small in numbers, but those lucky enough to own one do so with singular devotion. The Basenji, Africa’s “Barkless Dog,” is a compact, sweet-faced hunter of intelligence and poise. They are unique and beguiling pets, best for owners who can meet their
+
+Originally from Congo, the Basenji belongs to the Spitz and Primitive Types group.
+
+### Basenji at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#79** in canine intelligence (Lowest tier), the Basenji benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Basenjis
 Basenjis have 3 documented genetic health conditions: kidney, eye problems, anaemia. Typical life expectancy is 13–14 years.
 - **Kidney**: Ask your vet about recommended screening and prevention for this condition in Basenjis.

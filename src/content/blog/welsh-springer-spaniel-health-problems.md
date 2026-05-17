@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "welsh-spring
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/welsh-springer-spaniel", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,24 @@ medicalDisclaimer: true
 breedSlug: "welsh-springer-spaniel"
 breedName: "Welsh Springer Spaniel"
 wordCountEstimate: 466
+image: "https://images.dog.ceo/breeds/spaniel-welsh/n02102177_1028.jpg"
 canonicalUrl: "https://pupwiki.com/blog/welsh-springer-spaniel-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Welsh Springer Spaniels
-Welsh Springer Spaniels are medium-sized (35–55 lbs), with active energy, low shedding, and a silky coat. The recommendations below are matched to these traits.
+Standing between 17 and 19 inches at the shoulder, Welshies are described by their fans as being of “handy size”: bigger and stronger than Cocker Spaniels but smaller than English Springers.Welshies have two hallmarks that distinguish them from other spaniels: A uniquely tapered head and an eye-catching coat of bold red and white patterns. The beautiful coat isn’t just ornamental—it’s a waterproof, weatherproof, and thornproof suit that enables Welshies to show off their renowned versatility in all climates and on all terrains. The Welsh Springer Spaniel is a vigorous, medium-sized bird dog of happy disposition, known for versatility in the field, companionability at home, and dashing good looks anywhere. The Welshie is among Britain's oldest sporting breeds.
+
+### Welsh Springer Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#31** in canine intelligence (Above average tier), the Welsh Springer Spaniel responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Welsh Springer Spaniels
 Welsh Springer Spaniels have 1 documented genetic health condition: hip problems. Typical life expectancy is 12–15 years.
 - **Hip problems**: Ask your vet about recommended screening and prevention for this condition in Welsh Springer Spaniels.

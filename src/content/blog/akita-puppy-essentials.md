@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "akita"
 breedName: "Akita"
 wordCountEstimate: 449
+image: "https://images.dog.ceo/breeds/akita/Japaneseakita.jpg"
 canonicalUrl: "https://pupwiki.com/blog/akita-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/13454740/pexels-photo-13454740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/13454740/pexels-photo-13454740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,19 @@ imageSearchQuery: "Akita dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Akitas
-Akitas are large-sized (70–130 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Akitas are burly, heavy-boned spitz-type dogs of imposing stature. Standing 24 to 28 inches at the shoulder, Akitas have a dense coat that comes in several colors, including white. The head is broad and massive, and is balanced in the rear by a full, curled-over tail. The erect ears and dark, shining eyes contribute to an expression of alertness, a hallmark of the breed.Akitas are quiet, fastidious dogs. Wary of strangers and often intolerant of other animals, Akitas will gladly share their silly, affectionate side with family and friends. They thrive on human companionship. The large, independent-thinking Akita is hardwired for protecting those they love. They must be well socialized from birth with people and other dogs. Akitas are muscular, double-coated dogs of ancient Japanese lineage famous for their dignity, courage, and loyalty. In their native land, they are venerated as family The Akita ranks #47 in AKC breed popularity.
+
+### Akita at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
+
+Ranked **#54** in canine intelligence (Average tier), the Akita responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Akita puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Akita puppy

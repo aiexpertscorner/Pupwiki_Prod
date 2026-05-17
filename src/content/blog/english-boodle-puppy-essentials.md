@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "english-boodle"
 breedName: "English Boodle"
 wordCountEstimate: 433
+image: "https://images.dog.ceo/breeds/bulldog-english/jager-2.jpg"
 canonicalUrl: "https://pupwiki.com/blog/english-boodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About English Boodles
-English Boodles are medium-sized (39.68–61.73 lbs), with regular energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+English Boodle is a designer cross between the Bulldog and the Poodle (Standard). This mix usually weighs about 40-62 pounds, often has a curly, low-shed-leaning coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Skin fold dermatitis, Hip dysplasia.
+
+### English Boodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#78** in canine intelligence (Lowest tier), the English Boodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a English Boodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a English Boodle puppy

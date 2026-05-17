@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "american-wat
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/american-water-spaniel", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,6 +26,7 @@ medicalDisclaimer: true
 breedSlug: "american-water-spaniel"
 breedName: "American Water Spaniel"
 wordCountEstimate: 408
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_10894.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-water-spaniel-health-problems"
 heroImage: "https://images.pexels.com/photos/36739473/pexels-photo-36739473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/36739473/pexels-photo-36739473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -40,7 +41,17 @@ imageSearchQuery: "American Water Spaniel dog veterinarian wellness"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About American Water Spaniels
-American Water Spaniels are medium-sized (25–45 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+American Water Spaniels are muscular midsize gundogs, not flashy in looks or performance, and recognizable by a luscious brown coat that is either tightly curled or wavy. Bred to work the icy waters and marshy banks of the Great Lakes region, these spaniels are ideally outfitted for the job: The coat is dense and waterproof, the feet are thickly padded, the toes are webbed, and the body is small enough for the dog to hop in and out of a skiff without rocking the boat. The breed’s admirers describe a merry, intelligent, and versatile spaniel suited to a variety of dog sports. As hunters, they combine the working traits of spaniels and retrievers. The key to the American Water Spaniel’s happiness is activity, especially alongside their adored human. An underemployed dog can be barky and destructive. The American Water Spaniel, native to the lake country of the upper Midwest, is an upbeat,
+
+### American Water Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ### Common health concerns for American Water Spaniels
 No breed-specific genetic ailments are currently documented for the American Water Spaniel (typical life expectancy: 10–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach American Water Spaniel health

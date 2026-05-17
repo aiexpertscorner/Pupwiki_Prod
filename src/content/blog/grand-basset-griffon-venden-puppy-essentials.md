@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "grand-basset-griffon-venden"
 breedName: "Grand Basset Griffon Vendéen"
 wordCountEstimate: 358
+image: "https://images.dog.ceo/breeds/hound-basset/n02088238_13373.jpg"
 canonicalUrl: "https://pupwiki.com/blog/grand-basset-griffon-venden-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Grand Basset Griffon Vendéens
-Grand Basset Griffon Vendéens are medium-sized (40–45 lbs), with active energy, seasonal shedding, and a rough coat. The recommendations below are matched to these traits.
+First, let’s deal with the name. Roughly translated, it means “Large, low, shaggy dog of the Vendée” and is pronounced “Grand-Bah-SAY Gree-FOHN VON-day-uhn.” Now, let’s have a look at the dog: He’s a sweet-faced, long-eared fellow in a shaggy coat whose mustache, beard, and profuse eyebrows suggest the look of a worldly but amiable Frenchman. Beneath the Grand’s Old World charm is a rugged, sturdily-built bruiser who is deceptively quick and light-footed. The stamina and courage of these longer-than-tall hunters is the stuff of Gallic legend. The Grand Basset Griffon Vendéen is a French scenthound. Somewhat active and never high-strung, yet GBGVs are busy dogs who don’t tire easily.
+
+### Grand Basset Griffon Vendéen at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
 ## How to approach a Grand Basset Griffon Vendéen puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Grand Basset Griffon Vendéen puppy

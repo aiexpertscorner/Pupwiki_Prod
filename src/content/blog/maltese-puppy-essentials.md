@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "maltese"
 breedName: "Maltese"
 wordCountEstimate: 430
+image: "https://images.dog.ceo/breeds/maltese/n02085936_804.jpg"
 canonicalUrl: "https://pupwiki.com/blog/maltese-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Malteses
-Malteses are small-sized (7 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Maltese are affectionate toy dogs weighing less than seven pounds, covered by a long, straight, silky coat. Beneath the all-white mantle is a compact body moving with a smooth and effortless gait. The overall picture depicts free-flowing elegance and balance. The irresistible Maltese face—with its big, dark eyes and black gumdrop nose—can conquer the most jaded sensibility.Despite their aristocratic bearing, Maltese are hardy and adaptable pets. They make alert watchdogs who are fearless in a charming toy-dog way, and they are game little athletes on the agility course. Maltese are low-shedding, long-lived, and happy to make new friends of all ages. Sometimes stubborn and willful, they respond well to rewards-based training. The tiny Maltese, “Ye Ancient Dogge of Malta,” has been sitting in the lap of luxury since the Bible was a work in progress. Famous for their show-stopping, floor-le The Maltese ranks #37 in AKC breed popularity.
+
+### Maltese at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ████░ High |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#59** in canine intelligence (Fair tier), the Maltese responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Maltese puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Maltese puppy

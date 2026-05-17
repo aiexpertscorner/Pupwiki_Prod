@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "portuguese-water-dog"
 breedName: "Portuguese Water Dog"
 wordCountEstimate: 363
+image: "https://images.dog.ceo/breeds/waterdog-spanish/20180723_185559.jpg"
 canonicalUrl: "https://pupwiki.com/blog/portuguese-water-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Portuguese Water Dogs
-Portuguese Water Dogs are medium-sized (35–60 lbs), with active energy, seasonal shedding, and a curly coat. The recommendations below are matched to these traits.
+The Portuguese Water Dog is super-smart and very biddable—meaning he’s easy to train and eager to please. The breed can be groomed in two styles: The retriever clip (the entire coat is clipped to one inch in length, with the tail tip at full length) or the more check-me-out lion clip, where the coat on the hindquarters and muzzle is clipped down to the skin. The bright and biddable Portuguese Water Dog was bred to be an all-around fisherman’s helper. The robust, medium-sized body is covered by a coat of tight, low-shedding curls. They are eager and athletic companions built for water work. The Portuguese Water Dog ranks #50 in AKC breed popularity.
+
+### Portuguese Water Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ## How to approach a Portuguese Water Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Portuguese Water Dog puppy

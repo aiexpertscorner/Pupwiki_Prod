@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "polish-lowland-sheepdog"
 breedName: "Polish Lowland Sheepdog"
 wordCountEstimate: 374
+image: "https://images.dog.ceo/breeds/sheepdog-english/n02105641_7945.jpg"
 canonicalUrl: "https://pupwiki.com/blog/polish-lowland-sheepdog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Polish Lowland Sheepdogs
-Polish Lowland Sheepdogs are medium-sized (30–50 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+First, about that nickname: PON is the acronym for the Polish breed name, Polski Owczarek Nizinny. PONs aren’t particularly large dogs, standing no more than 20 inches at the shoulder, but they are muscular and stocky. The rectangular body is covered head to toe with a double coat—long and shaggy on top, soft and dense below, and it comes in several colors. The head’s profuse coat covers the eyes, which convey the keen, penetrating gaze so common in watchdogs and herders. A shaggy-coated herding dog who thrives on exercise and hard work, the Polish Lowland Sheepdog is clever, confident, and a bit stubborn. Compact, alert, and adaptable, they are beloved companions and watchdogs of Polish city dwellers.
+
+### Polish Lowland Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | █░░░░ Challenging |
+| Sociability | █░░░░ Reserved |
 ## How to approach a Polish Lowland Sheepdog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Polish Lowland Sheepdog puppy

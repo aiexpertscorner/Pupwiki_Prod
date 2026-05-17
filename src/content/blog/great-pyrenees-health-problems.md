@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "great-pyrene
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/great-pyrenees", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "great-pyrenees"
 breedName: "Great Pyrenees"
 wordCountEstimate: 388
+image: "https://images.dog.ceo/breeds/pyrenees/n02111500_5057.jpg"
 canonicalUrl: "https://pupwiki.com/blog/great-pyrenees-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Great Pyreneess
-Great Pyreneess are large-sized (85–100 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Frequently described as “majestic,” Pyrs are big, immensely strong mountain dogs standing as high as 32 inches at the shoulder and often tipping the scales at more than 100 pounds. These steadfast guardians usually exhibit a Zen-like calm, but they can quickly spring into action and move with grace and speed to meet a threat. The lush weatherproof coat is all white, or white with markings of beautiful shades of gray, tan, reddish-brown, or badger. The Great Pyrenees is a large, thickly coated, and immensely powerful working dog bred to deter sheep-stealing wolves and other predators on snowy mountaintops. Pyrs today are mellow companions and vigilant guardians of home and family.
+
+### Great Pyrenees at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Great Pyreneess
 No breed-specific genetic ailments are currently documented for the Great Pyrenees (typical life expectancy: 10–12 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Great Pyrenees health

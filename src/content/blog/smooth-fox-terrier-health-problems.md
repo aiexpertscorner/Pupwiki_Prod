@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "smooth-fox-t
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/smooth-fox-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "smooth-fox-terrier"
 breedName: "Smooth Fox Terrier"
 wordCountEstimate: 395
+image: "https://images.dog.ceo/breeds/terrier-fox/n02095314_2205.jpg"
 canonicalUrl: "https://pupwiki.com/blog/smooth-fox-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Smooth Fox Terriers
-Smooth Fox Terriers are small-sized (15–18 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Smooths are quite similar to their close relatives, Wire Fox Terriers. Like their crispy-coated cousins, Smooths stand no more than 15.5 inches at the shoulder. The distinguishing physical trait, besides coat type, is the head: A Smooth’s head is more V-shaped than a Wire’s. The dense, flat coat is predominantly white, with black, tan, or black-and-tan markings. These cleverly made hunters are strong and sturdy, but never coarse and clunky. Short-backed and symmetrical, they move with the unwavering grace of a pendulum clock. The Smooth Fox Terrier, called the “gentleman of the terrier world,” is a lively, gregarious terrier with a devil-may-care attitude, originally developed for Britain’s traditional foxhunts. They are close relatives to Wire Fox Terriers.
+
+### Smooth Fox Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Smooth Fox Terriers
 No breed-specific genetic ailments are currently documented for the Smooth Fox Terrier (typical life expectancy: 12–15 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Smooth Fox Terrier health

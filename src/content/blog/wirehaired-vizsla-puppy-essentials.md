@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "wirehaired-vizsla"
 breedName: "Wirehaired Vizsla"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/vizsla/n02100583_4228.jpg"
 canonicalUrl: "https://pupwiki.com/blog/wirehaired-vizsla-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Wirehaired Vizslas
-Wirehaired Vizslas are medium-sized (45–65 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.
+WVs are close relatives of Vizslas but a distinctly separate breed. The key distinguishing feature is coat type. Unlike the sleek Vizsla, WVs have a dense wiry coat, with a shaggy beard and eyebrows setting off a bright, lively expression.Both Vizsla breeds are classified as medium-sized, but an ideal WV will stand a shade taller and be a bit heavier than his smooth-coat cousin. The two breeds share the same striking red coloring (golden-rust), with a nose and eyes that smartly complement the coat. The Wirehaired Vizsla is an exuberant hunter on land or lake, whose dense, wiry coat distinguishes him from his close cousin, the Vizsla. Calm and gentle around the house, these upbeat Hungarians like running, swimming, and upbeat play.
+
+### Wirehaired Vizsla at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Wirehaired Vizsla puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Wirehaired Vizsla puppy

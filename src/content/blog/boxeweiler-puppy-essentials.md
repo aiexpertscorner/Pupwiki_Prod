@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "boxeweiler"
 breedName: "Boxeweiler"
 wordCountEstimate: 453
+image: "https://images.dog.ceo/breeds/boxer/n02108089_14719.jpg"
 canonicalUrl: "https://pupwiki.com/blog/boxeweiler-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Boxeweilers
-Boxeweilers are large-sized (77.16–110.23 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Boxeweiler is a designer cross between the Boxer and the Rottweiler. This mix usually weighs about 77-110 pounds, often carries an easy-care short coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Cardiomyopathy, Hip dysplasia, Bone cancer. Originally from Germany.
+
+### Boxeweiler at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#28** in canine intelligence (Above average tier), the Boxeweiler responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Boxeweiler puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Boxeweiler puppy

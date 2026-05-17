@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "boykin-spaniel"
 breedName: "Boykin Spaniel"
 wordCountEstimate: 367
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_11445.jpg"
 canonicalUrl: "https://pupwiki.com/blog/boykin-spaniel-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Boykin Spaniels
-Boykin Spaniels are medium-sized (25–40 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+Boykins are medium-sized spaniels, larger and rangier than Cockers but more compact than Springers. The breed’s hallmark is a beautiful solid-brown coat. Colors range from a rich liver to a luscious chocolate. The large, feathery ears hang close to the cheeks, setting off an expression of soulful intelligence. Bred to work in the lakes and swamps of their native South Carolina, web-toed Boykins can swim like seals.For years, Boykins were known only to hunters of Carolina waterfowl and wild turkey. But lately, the wider world has discovered that the Boykin is as delightful at home as he is eager at the lake. “They are very, very sweet dogs to have around the family,” a longtime owner says, “but an absolute tiger in the field.” A medium-sized flushing and retrieving dog known for its rich brown coat, the Boykin Spaniel is avid, eager, merry, and trainable. This mellow housedog and tenaciou
+
+### Boykin Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ███░░ Balanced |
 ## How to approach a Boykin Spaniel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Boykin Spaniel puppy

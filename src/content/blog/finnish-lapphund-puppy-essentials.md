@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "finnish-lapphund"
 breedName: "Finnish Lapphund"
 wordCountEstimate: 354
+image: "https://images.dog.ceo/breeds/elkhound-norwegian/n02091467_917.jpg"
 canonicalUrl: "https://pupwiki.com/blog/finnish-lapphund-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Finnish Lapphunds
-Finnish Lapphunds are medium-sized (33–53 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Finnish Lapphunds, with their luscious coat, sweet spitz-like face, and profusely coated tail that curves over the back, are instantly recognizable as Nordic dogs. Lappies stand about 20 inches at the shoulder and are surprisingly muscular and substantial for their inches. Quick and agile, they move effortlessly and can go from a trot to a full gallop in a second flat.Lappies are friendly and submissive companions, though a bit wary of strangers. They crave companionship and will be miserable when neglected. A distinctive breed trait is a strong “startle reflex,” the result of centuries spent ducking the antlers of ornery reindeer. Despite their propensity for shedding and barking, Lappies are popular pets in their homeland. The weatherproof Finnish Lapphund is a tough and substantial reindeer herder from north of the Arctic Circle. This remarkably empathetic breed is among the friendlie
+
+Originally from Finland, the Finnish Lapphund belongs to the Spitz and Primitive Types group.
+
+### Finnish Lapphund at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ██░░░ Selective |
 ## How to approach a Finnish Lapphund puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Finnish Lapphund puppy

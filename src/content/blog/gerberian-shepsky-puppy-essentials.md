@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "gerberian-shepsky"
 breedName: "Gerberian Shepsky"
 wordCountEstimate: 465
+image: "https://images.dog.ceo/breeds/german-shepherd/n02106662_466.jpg"
 canonicalUrl: "https://pupwiki.com/blog/gerberian-shepsky-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Gerberian Shepskys
-Gerberian Shepskys are large-sized (44.09–88.18 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+Gerberian Shepsky is a designer cross between the German Shepherd Dog and the Siberian Husky. This mix usually weighs about 44-88 pounds, can inherit a dense double coat, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Hip dysplasia, Bloat, Corneal dystrophy. Originally from Russia.
+
+### Gerberian Shepsky at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#24** in canine intelligence (Excellent tier), the Gerberian Shepsky responds well to consistent, positive reinforcement training — placing it among the top 25 most trainable breeds.
 ## How to approach a Gerberian Shepsky puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Gerberian Shepsky puppy

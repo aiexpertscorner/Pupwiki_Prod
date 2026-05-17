@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "french-bulldog"
 breedName: "French Bulldog"
 wordCountEstimate: 411
+image: "https://images.dog.ceo/breeds/bulldog-french/n02108915_481.jpg"
 canonicalUrl: "https://pupwiki.com/blog/french-bulldog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About French Bulldogs
-French Bulldogs are medium-sized (28 lbs), with calm energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+The French Bulldog resembles a Bulldog in miniature, except for the large, erect “bat ears” that are the breed’s trademark feature. The head is large and square, with heavy wrinkles rolled above the extremely short nose. The body beneath the smooth, brilliant coat is compact and muscular.The bright, affectionate Frenchie is a charmer. Dogs of few words, Frenchies don’t bark much—but their alertness makes them excellent watchdogs. They happily adapt to life with singles, couples, or families, and do not require a lot of outdoor exercise. They get on well with other animals and enjoy making new friends of the human variety. It is no wonder that city folk from Paris to Peoria swear by this vastly amusing and companionable breed. The one-of-a-kind French Bulldog, with his large bat ears and even disposition, is one of the world’s most popular small-dog breeds, especially among city dwellers. Originally from France, the French Bulldog belongs to the Companion and Toy Dogs group. The French Bulldog ranks #4 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### French Bulldog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ████░ Heavy |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#58** in canine intelligence (Fair tier), the French Bulldog responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a French Bulldog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a French Bulldog puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "pomeranian"
 breedName: "Pomeranian"
 wordCountEstimate: 425
+image: "https://images.dog.ceo/breeds/pomeranian/n02112018_5349.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pomeranian-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pomeranians
-Pomeranians are small-sized (3–7 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Pomeranian combines a tiny body (no more than seven pounds) and a commanding big-dog demeanor. The abundant double coat, with its frill extending over the chest and shoulders, comes in almost two dozen colors, and various patterns and markings, but is most commonly seen in orange or red.Alert and intelligent, Pomeranians are easily trained and make fine watchdogs and perky pets for families with children old enough to know the difference between a toy dog and a toy. Poms are active but can be exercised with indoor play and short walks, so they are content in both the city and suburbs. They will master tricks and games with ease, though their favorite activity is providing laughs and companionship to their special human. The tiny Pomeranian, long a favorite of royals and commoners alike, has been called the ideal companion. The glorious coat, smiling, foxy face, and vivacious personal The Pomeranian ranks #23 in AKC breed popularity.
+
+### Pomeranian at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
+
+Ranked **#23** in canine intelligence (Excellent tier), the Pomeranian responds well to consistent, positive reinforcement training — placing it among the top 25 most trainable breeds.
 ## How to approach a Pomeranian puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pomeranian puppy

@@ -39,7 +39,19 @@ imageSearchQuery: "Beauceron dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Beaucerons
-Beaucerons are large-sized (70–110 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+Beaucerons are muscular, rugged, and large, standing as high as 27.5 inches at the shoulder, and yet graceful and in all ways balanced. Their dark black coats feature handsome squirrel-red accents, including the red feet that give the breed its French nickname Bas-Rouge (“red stockings”). They’re also seen in a black-gray-tan coat. The long head is well chiseled, and the dark brown eyes project an expression breed fanciers describe as frank and confident. They’re not for novice owners, who might end up being owned by their dominant dog instead of the other way around. That said, well-trained and socialized Beaucerons are levelheaded watchdogs and guardians, especially good with the young, the small, and the defenseless. The Beauceron is imposing and powerful, but also remarkably smart, spirited, and a versatile herder—imagine a Border Collie’s brain in a 100-pound body. They are especial
+
+Originally from France, the Beauceron belongs to the Sheepdogs and Cattledogs group.
+
+### Beauceron at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | █████ Very Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ████░ High |
+| Sociability | ██░░░ Selective |
 ## How to approach a Beauceron puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Beauceron puppy

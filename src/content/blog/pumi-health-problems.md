@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "pumi", "dog-
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/pumi", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -31,7 +31,17 @@ canonicalUrl: "https://pupwiki.com/blog/pumi-health-problems"
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Pumis
-Pumis are medium-sized (22–29 lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+The Pumi (POO-mee; plural Pumik) was conceived as a compact, quick, and fearless sheepherder capable of moving flocks on the narrow roads connecting the pastures of western Hungary. At a glance, it might be hard to believe that this cuddly charmer was born to do such tough work. With his coat of corkscrew curls, circular tail, expressive ears, and distinctively whimsical look, the Pumi is all kinds of cute. But beneath the curls is a lean, deep-chested herder with a seemingly endless capacity for work and play. A compact, nimble-footed herder of Hungarian origin, the Pumi is easily recognized by a corkscrew-curled coat, two-thirds erect ears, and distinctive whimsical expression. The breed is famed for its intelligence, agility, and boldness.
+
+### Pumi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ████░ High |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Pumis
 No breed-specific genetic ailments are currently documented for the Pumi (typical life expectancy: 12–13 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Pumi health

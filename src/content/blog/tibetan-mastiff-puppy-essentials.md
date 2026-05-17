@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "tibetan-mastiff"
 breedName: "Tibetan Mastiff"
 wordCountEstimate: 385
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_3737.jpg"
 canonicalUrl: "https://pupwiki.com/blog/tibetan-mastiff-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Tibetan Mastiffs
-Tibetan Mastiffs are large-sized (70–150 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Coming face to face with this ancient behemoth, an intruder up to no good will likely move on to easier pickings. TMs can stand 26 inches at the shoulder and weigh well over 100 pounds. It’s impossible to discuss this breed without leaning on words like “powerful,” “muscular,” “massive,” and “substantial.” And yet, TMs are quite light-footed and will meet a perceived threat with surprising agility. The broad head, with its high-set, V-shaped ears and expressive brown eyes, projects a noble, sagacious expression. Watchful, aloof, imposing, and intimidating: The ancient Tibetan Mastiff is the guardian dog supreme. These densely-coated giants are mellow and calm around the house, sweetly devoted to family, and aloof and territorial with strangers.
+
+### Tibetan Mastiff at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ## How to approach a Tibetan Mastiff puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Tibetan Mastiff puppy

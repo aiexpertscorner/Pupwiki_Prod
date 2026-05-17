@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "weimaraner"
 breedName: "Weimaraner"
 wordCountEstimate: 373
+image: "https://images.dog.ceo/breeds/weimaraner/n02092339_353.jpg"
 canonicalUrl: "https://pupwiki.com/blog/weimaraner-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Weimaraners
-Weimaraners are large-sized (55–90 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Instantly recognized by a distinctive silvery-gray coat, male Weimaraners stand 25 to 27 inches at the shoulder, and females 23 to 25 inches. A properly bred Weimaraner will be solid colored, with maybe a small white spot on the chest. The face, with its amber or blue-gray eyes framed by long velvety ears, is amiable and intelligent. Overall, the breed presents a picture of streamlined grace and balance. A well-conditioned Weimaraner on point is a breathtaking sight.Weimaraners are excellent with kids and yearn to be full-fledged family members. Easy grooming, trainability, a loving nature, and a can-do-attitude make them excellent pets, as long as owners are committed to keeping them physically active and mentally engaged. The Weimaraner, Germany’s sleek and swift “Gray Ghost,” is beloved by hunters and pet owners alike for their friendliness, obedience, and beauty. They enjoy exercise, Originally from Germany, the Weimaraner belongs to the Pointing Dogs group. The Weimaraner ranks #36 in AKC breed popularity.
+
+### Weimaraner at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a Weimaraner puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Weimaraner puppy

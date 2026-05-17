@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "cavadoodle"
 breedName: "Cavadoodle"
 wordCountEstimate: 424
+image: "https://images.dog.ceo/breeds/poodle-miniature/242981_4709618542275_742310792_o.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cavadoodle-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cavadoodles
-Cavadoodles are medium-sized (26.46–39.68 lbs), with calm energy, minimal shedding, and a wavy coat. The recommendations below are matched to these traits.
+Cavadoodle is a designer cross between the Cavalier King Charles Spaniel and the Poodle (Miniature). This mix usually weighs about 26-40 pounds, often has a wavy or fleece-like coat, and often blends a calmer companion temperament with moderate activity needs from both sides of the pedigree. Common monitoring areas include Heart disease, PRA. Originally from United Kingdom.
+
+### Cavadoodle at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
+
+Ranked **#44** in canine intelligence (Average tier), the Cavadoodle responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Cavadoodle puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Cavadoodle puppy

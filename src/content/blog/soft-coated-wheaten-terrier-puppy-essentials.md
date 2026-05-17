@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "soft-coated-wheaten-terrier"
 breedName: "Soft Coated Wheaten Terrier"
 wordCountEstimate: 368
+image: "https://images.dog.ceo/breeds/terrier-wheaten/n02098105_3245.jpg"
 canonicalUrl: "https://pupwiki.com/blog/soft-coated-wheaten-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Soft Coated Wheaten Terriers
-Soft Coated Wheaten Terriers are medium-sized (30–40 lbs), with active energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+The hallmark of these merry extroverts, and what sets them apart from other terriers, is the silky, gently waving coat. It runs from a pale beige to a shimmering gold, recalling the color of ripening wheat. Topping out at 19 inches tall and 40 pounds, Wheatens are square, sturdy terriers with a peek-a-boo hairdo and dashing goatee. The overall picture is that of a hard-muscled but soft-coated working terrier or, as the breed has been described, an iron fist in a velvet glove. The Soft Coated Wheaten Terrier, an exuberant Irish farm dog, is happy, friendly, deeply devoted, and just stubborn enough to remind you he’s a terrier. The unique wheaten coat is low-shedding but needs diligent care to avoid matting.
+
+### Soft Coated Wheaten Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ## How to approach a Soft Coated Wheaten Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Soft Coated Wheaten Terrier puppy

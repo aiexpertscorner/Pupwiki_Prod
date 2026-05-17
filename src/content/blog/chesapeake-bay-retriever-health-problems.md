@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "chesapeake-b
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/chesapeake-bay-retriever", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,27 @@ medicalDisclaimer: true
 breedSlug: "chesapeake-bay-retriever"
 breedName: "Chesapeake Bay Retriever"
 wordCountEstimate: 502
+image: "https://images.dog.ceo/breeds/retriever-chesapeake/n02099849_1776.jpg"
 canonicalUrl: "https://pupwiki.com/blog/chesapeake-bay-retriever-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Chesapeake Bay Retrievers
-Chesapeake Bay Retrievers are large-sized (55–80 lbs), with active energy, heavy shedding, and a wavy coat. The recommendations below are matched to these traits.
+Chessies are strong, powerfully built gundogs standing anywhere from 21 to 26 inches at the shoulder. A male can weigh up to 80 pounds. The distinctive breed trait is a wavy coat that is oily to the touch. Chessies are solid-colored, either chocolatey brown, sedge, or deadgrass, with keen yellow-amber eyes that nicely complement the coat.Chessies are more emotionally complex than the usual gundog. Chessies take to training, but they have a mind of their own and can tenaciously pursue their own path. They are protective of their humans and polite, but not overtly friendly, to strangers. Chessies make excellent watchdogs and are versatile athletes. A well-socialized Chessie is a confident companion and world-class hunting buddy. The Chesapeake Bay Retriever, peerless duck dog of the Mid-Atlantic, is an American original who embodies the classic traits of a good retriever: loyal, upbeat, af
+
+Originally from United States, the Chesapeake Bay Retriever belongs to the Retrievers, Flushing Dogs and Water Dogs group. The Chesapeake Bay Retriever ranks #45 in AKC breed popularity.
+
+### Chesapeake Bay Retriever at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
+
+Ranked **#27** in canine intelligence (Above average tier), the Chesapeake Bay Retriever responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Chesapeake Bay Retrievers
 Chesapeake Bay Retrievers have 1 documented genetic health condition: hip problems. Typical life expectancy is 10–13 years.
 - **Hip problems**: Ask your vet about recommended screening and prevention for this condition in Chesapeake Bay Retrievers.

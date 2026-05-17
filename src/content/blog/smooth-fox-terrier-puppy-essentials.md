@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "smooth-fox-terrier"
 breedName: "Smooth Fox Terrier"
 wordCountEstimate: 352
+image: "https://images.dog.ceo/breeds/terrier-fox/n02095314_1717.jpg"
 canonicalUrl: "https://pupwiki.com/blog/smooth-fox-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Smooth Fox Terriers
-Smooth Fox Terriers are small-sized (15–18 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Smooths are quite similar to their close relatives, Wire Fox Terriers. Like their crispy-coated cousins, Smooths stand no more than 15.5 inches at the shoulder. The distinguishing physical trait, besides coat type, is the head: A Smooth’s head is more V-shaped than a Wire’s. The dense, flat coat is predominantly white, with black, tan, or black-and-tan markings. These cleverly made hunters are strong and sturdy, but never coarse and clunky. Short-backed and symmetrical, they move with the unwavering grace of a pendulum clock. The Smooth Fox Terrier, called the “gentleman of the terrier world,” is a lively, gregarious terrier with a devil-may-care attitude, originally developed for Britain’s traditional foxhunts. They are close relatives to Wire Fox Terriers.
+
+### Smooth Fox Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Smooth Fox Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Smooth Fox Terrier puppy

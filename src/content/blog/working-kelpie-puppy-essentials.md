@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "working-kelpie"
 breedName: "Working Kelpie"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/kelpie/n02105412_1973.jpg"
 canonicalUrl: "https://pupwiki.com/blog/working-kelpie-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Working Kelpies
-Working Kelpies are medium-sized (28–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The overall appearance of the Working Kelpie is that of a medium-sized, lithe, active, strongly-muscled dog conveying the capability of untiring work. He has been successfully used to manage a variety of stock, including reindeer, goats, cattle and of course sheep. Kelpies in Sweden have gained police dog titles and have pulled sleds. They are also being widely used as search and rescue dogs.Kelpies need companionship. Though he can be content to stay for hours on the chain, he also needs to be with you for some time each day and needs exercise, walks or games with a ball or a stick. One cannot expect this dog, which has been bred to work, to stay outside the house without any mental or physical stimulation. Inevitably, he will set about looking for an occupation, which could include chasing cars, trying to ‘work’ them as he would control sheep. A Working Kelpie makes a fine family dog,
+
+### Working Kelpie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
 ## How to approach a Working Kelpie puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Working Kelpie puppy

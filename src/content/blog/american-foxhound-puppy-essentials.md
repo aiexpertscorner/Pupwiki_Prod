@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "american-foxhound"
 breedName: "American Foxhound"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/hound-english/n02089973_2404.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-foxhound-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,19 @@ imageSearchQuery: "American Foxhound dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Foxhounds
-American Foxhounds are large-sized (60–70 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+American Foxhounds are sleek, rangy hunters known for their speed, endurance, and work ethic. You can tell the American Foxhound apart from their British cousin the English Foxhound by length of leg—the American’s legs are longer and more finely boned—and by the American’s slightly arched loin (back end). American Foxhounds have large, soft eyes with an expression described as gentle and pleading.So far, so good. But Foxhounds come with special considerations. They need lots of exercise or they can get depressed and destructive. A Foxhound’s single-minded prey drive must be managed. Their loud bawling is melodious to hound lovers but can be a nuisance to neighbors, and training and housebreaking these independent souls can be a steep challenge for novice owners. American Foxhounds are good-natured, low-maintenance hounds who get on well with kids, dogs, even cats, but come with special c
+
+Originally from United States, the American Foxhound belongs to the Scent Hounds and Related Breeds group.
+
+### American Foxhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
 ## How to approach a American Foxhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a American Foxhound puppy

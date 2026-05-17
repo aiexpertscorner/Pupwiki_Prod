@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "irish-setter
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/irish-setter", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "irish-setter"
 breedName: "Irish Setter"
 wordCountEstimate: 514
+image: "https://images.dog.ceo/breeds/setter-irish/n02100877_6462.jpg"
 canonicalUrl: "https://pupwiki.com/blog/irish-setter-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Irish Setters
-Irish Setters are large-sized (60–70 lbs), with active energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.
+The Irish Setter has been described by its partisans as the most beautiful of dog breeds. Standing more than two feet at the shoulder, with a substantial yet elegant build, the Irish is famed for a brilliant coat of mahogany or chestnut. Long, sinewy legs and powerful rear drive help to place the Irish among the swiftest of all sporting dogs.The Irish Setter’s lovable personality has endeared the breed to sportsmen and pet owners for more than 200 years. Irish are outgoing dogs who enjoy making friends. These rambunctious redheads are big kids at heart, but they are eager to please and will respond to patient, positive training. They are said to be bold and rugged hunting partners, with a devil-may-care approach to their work. The Irish Setter is a high-spirited gundog known for grace, swiftness, and a flashy red coat. They are famously good family dogs: sweet-tempered companions for the
+
+### Irish Setter at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#35** in canine intelligence (Above average tier), the Irish Setter responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Irish Setters
 Irish Setters have 2 documented genetic health conditions: hip, eye problems. Typical life expectancy is 12–15 years.
 - **Hip**: Ask your vet about recommended screening and prevention for this condition in Irish Setters.

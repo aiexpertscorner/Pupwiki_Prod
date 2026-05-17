@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "lhasa-apso"
 breedName: "Lhasa Apso"
 wordCountEstimate: 431
+image: "https://images.dog.ceo/breeds/lhasa/n02098413_17759.jpg"
 canonicalUrl: "https://pupwiki.com/blog/lhasa-apso-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Lhasa Apsos
-Lhasa Apsos are small-sized (12–18 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Standing less than a foot high at the shoulder, Lhasas are small but hardy dogs of aristocratic bearing. They’re famous for a floor-length, flat-hanging coat, parted in the middle and draping each side of the body. A feathery tail curls over the back in the distinct manner of Tibetan breeds. The breed’s fans say the dark, oval-shaped eyes—peeping through lavish facial hair—are the windows of a Lhasa’s merry soul. The complete picture is unmistakably Asian: exotic, elegant, and serenely well balanced. The lavishly coated Lhasa Apso is a thousand-year-old breed who served as sentinels at palaces and monasteries isolated high in the Himalayas. Smart, confident, and complex, Lhasas are family comedians but regally aloof with strangers.
+
+### Lhasa Apso at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#68** in canine intelligence (Fair tier), the Lhasa Apso benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Lhasa Apso puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Lhasa Apso puppy

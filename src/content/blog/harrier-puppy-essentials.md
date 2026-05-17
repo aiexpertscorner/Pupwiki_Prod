@@ -30,7 +30,17 @@ canonicalUrl: "https://pupwiki.com/blog/harrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Harriers
-Harriers are medium-sized (45–60 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Somewhat resembling a Beagle with a gym membership, Harriers are larger, more powerful hounds than their diminutive cousin—but smaller than the English Foxhound, a breed used in their development. Standing between 19 and 21 inches at the shoulder, Harriers have the timeless look of a working pack hound: a short, smart-looking coat; low-set, velvety ears; an irresistibly sweet face; and enough muscle and sinew to endure a long day’s hunt. A well-built Harrier will cover ground with a smooth, efficient gait. The Harrier is a swift, prey-driven pack hound of medium size first bred in medieval England to chase hare. Outgoing and friendly, the Harrier is much larger than the Beagle but smaller than another close relative, the English Foxhound.
+
+### Harrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ## How to approach a Harrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Harrier puppy

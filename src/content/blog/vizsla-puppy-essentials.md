@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "vizsla"
 breedName: "Vizsla"
 wordCountEstimate: 347
+image: "https://images.dog.ceo/breeds/vizsla/n02100583_2086.jpg"
 canonicalUrl: "https://pupwiki.com/blog/vizsla-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Vizslas
-Vizslas are medium-sized (44–60 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+The Vizsla is easily recognized by his sleek golden-rust coat. They can stand between 21 to 24 inches at the shoulder and are the picture of a lean, light-footed hunter’s companion. The long, silky ears frame a facial expression that is sensitive and loving around the house and intense when at work. As a hunter expected to work closely with humans, Vizslas form a tight bond with their owners and hate to be left alone.Athletes of many talents, Vizslas excel at various sports and activities. They are eager and graceful trotters of great stamina, making them ideal jogging or biking companions. An expert on the breed tells us, “If you don’t have the time to encourage this breed’s full use of its brain, you’re wasting a good dog.” The Vizsla is a versatile, red-coated gundog built for long days in the field. For centuries, these rugged but elegant athletes have been the pride of Hungarian spo The Vizsla ranks #31 in AKC breed popularity.
+
+### Vizsla at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a Vizsla puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Vizsla puppy

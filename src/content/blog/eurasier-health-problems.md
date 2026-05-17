@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "eurasier", "
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/eurasier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "eurasier"
 breedName: "Eurasier"
 wordCountEstimate: 390
+image: "https://images.dog.ceo/breeds/spitz-japanese/tofu.jpg"
 canonicalUrl: "https://pupwiki.com/blog/eurasier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Eurasiers
-Eurasiers are large-sized (40–70 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Eurasier comes in a beautiful array of colors. All coat colors are permitted as per the breed standard except for liver color, pure white and irregular white patches. Eurasiers can have purple tongues, pink tongues or spotted tongues. They can also have dark face masks or light, so-called reverse masks. Eurasiers are calm, even-tempered, gentle, loving, intelligent and confident. Club Contact DetailsClub: United States Eurasier ClubName: Wendy SchuylerEmail: USEurasierClub@gmail.com The Eurasier is a medium-sized dog with a thick, medium-long coat that can come in a variety of colors. Confident, calm, and well-balanced, he is loyal to the entire family, but reserved towards strangers. He must live in close contact with his family, as he is not suited to be kept in kennels or tied up outside.
+
+### Eurasier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ### Common health concerns for Eurasiers
 No breed-specific genetic ailments are currently documented for the Eurasier (typical life expectancy: 12–16 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Eurasier health

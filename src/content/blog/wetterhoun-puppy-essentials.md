@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "wetterhoun"
 breedName: "Wetterhoun"
 wordCountEstimate: 351
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_13800.jpg"
 canonicalUrl: "https://pupwiki.com/blog/wetterhoun-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Wetterhouns
-Wetterhouns are large-sized (50–75 lbs), with regular energy, low shedding, and a curly coat. The recommendations below are matched to these traits.
+The Wetterhoun, although originally bred for hunting otters, now make excellent companions, watchdogs, and can excel in a variety of sports due to their perseverant nature. The Wetterhoun is almost never seen apart from its owner; they enjoy their company as much as the owner enjoys theirs.
+
+### Wetterhoun at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | ██░░░ Selective |
 ## How to approach a Wetterhoun puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Wetterhoun puppy

@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "black-and-tan-coonhound"
 breedName: "Black and Tan Coonhound"
 wordCountEstimate: 390
+image: "https://images.dog.ceo/breeds/coonhound/n02089078_682.jpg"
 canonicalUrl: "https://pupwiki.com/blog/black-and-tan-coonhound-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Black and Tan Coonhounds
-Black and Tan Coonhounds are large-sized (65–110 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Black and Tans have an amazingly sensitive nose, long, velvety ears, and a sweet disposition. The coal-black coat features rich tan accents, including the distinctive “pumpkin seeds” above keenly expressive eyes. These are big, strong hounds: A good-size male can stand 27 inches at the shoulder and cover ground with effortless, eager strides.B&Ts are sociable hounds. A lonely B&T will serenade the neighborhood with loud, mournful “music.” B&Ts can keep pace with the most active family, but they also can hog the sofa for hours on end. Hounds will be hounds: A passing squirrel can arouse B&T prey drive in no time flat, so a strong leash and sturdy fence are must-haves. B&Ts might be too much hound for the lifestyle of every owner. Large, athletic hunters who work nights, Black and Tan Coonhounds are friendly, easygoing hounds who love company. They are snoozy by the fireside but tenacious
+
+Originally from United States, the Black and Tan Coonhound belongs to the Scent Hounds and Related Breeds group.
+
+### Black and Tan Coonhound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
 ## How to approach a Black and Tan Coonhound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Black and Tan Coonhound puppy

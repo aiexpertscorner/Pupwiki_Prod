@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "cirneco-delletna"
 breedName: "Cirneco dell’Etna"
 wordCountEstimate: 341
+image: "https://images.dog.ceo/breeds/hound-ibizan/n02091244_756.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cirneco-delletna-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cirneco dell’Etnas
-Cirneco dell’Etnas are medium-sized (17–26 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Standing under 20 inches, the Cirneco (“cheer-NEK-o”; Cirnechi is the plural) is often described as resembling a smaller version of the Pharaoh Hound, its cousin from the island of Malta. This slender but rugged hunter’s coat ranges from light to dark tan or chestnut. The large, upright ears point up the alert expression of the eyes, whose amber or ochre color smartly complements the coat.In many ways, these lithe and leggy Sicilians are typical sighthounds: sweet-natured, independent and, of course, breathtakingly swift. It is said, though, that Cirnechi are a bit more trainable than the usual sighthound. These living artifacts of antiquity have sprinted into the 21st century relatively unchanged by passing fads and fancies. The sleek and sinewy Cirneco dell’Etna, the ancient coursing hound of Sicily, is an athletic hunter given to quick bursts of speed. As housedogs, Cirnechi are mild,
+
+### Cirneco dell’Etna at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Cirneco dell’Etna puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Cirneco dell’Etna puppy

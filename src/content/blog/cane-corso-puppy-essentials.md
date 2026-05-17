@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "cane-corso"
 breedName: "Cane Corso"
 wordCountEstimate: 330
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_4790.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cane-corso-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Cane Corsos
-Cane Corsos are medium-sized, with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+At nearly 28 inches at the shoulder and often weighing more than 100 pounds, with a large head, alert expression, and muscles rippling beneath their short, stiff coat, Corsi are at a glance intimidating creatures. Their imposing appearance is their first line of defense against intruders. As one writer put it, “An understated air of cool competence, the kind of demeanor you’d expect from a professional bodyguard, is the breed’s trademark.”Corsi are intelligent, loyal, eager to please, versatile, and intensely loyal to their humans, but are also assertive and willful, and can end up owning an unwitting owner. As with any other big guardian dog, responsible breeding and early socialization with people and other dogs is vital. Smart, trainable, and of noble bearing, the assertive and confident Cane Corso is a peerless protector. The Corso’s lineage goes back to ancient Roman times, and the
+
+The Cane Corso ranks #32 in AKC breed popularity.
+
+### Cane Corso at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Cane Corso puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Cane Corso puppy

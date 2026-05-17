@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "estrela-mountain-dog"
 breedName: "Estrela Mountain Dog"
 wordCountEstimate: 383
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_2836.jpg"
 canonicalUrl: "https://pupwiki.com/blog/estrela-mountain-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Estrela Mountain Dogs
-Estrela Mountain Dogs are large-sized (77–132 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Estrela Mountain Dog is named for the Estrela Mountains in Portugal and is believed to be the oldest breed in the region. The breed has several distinctive physical characteristics including rosed ears, a black mask and a hook at the end of its tail. He is an inseparable companion of the shepherd and a faithful flock guardian, bravely protecting it against predators and thieves. A wonderful farm and house guard, he is distrustful towards strangers but typically docile to his master.As a companion in the home, an Estrela will bond for life. He will love and protect his whole family, but a piece of his soul will belong to that one special family member of his choosing. As an Estrela owner tells us: “There is nothing compared to the love of an Estrela.” Breed Contact DetailsWebsite: www.mistymountainestrelas.comPhone: 704-385-9928Person: Robin Eatman The Estrela Mountain Dog is not only
+
+### Estrela Mountain Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
 ## How to approach a Estrela Mountain Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Estrela Mountain Dog puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "xoloitzcuintli"
 breedName: "Xoloitzcuintli"
 wordCountEstimate: 334
+image: "https://images.dog.ceo/breeds/mexicanhairless/n02113978_3714.jpg"
 canonicalUrl: "https://pupwiki.com/blog/xoloitzcuintli-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Xoloitzcuintlis
-Xoloitzcuintlis are medium-sized (10–55 lbs), with active energy, minimal shedding, and a hairless coat. The recommendations below are matched to these traits.
+The Xoloitzcuintli (show-low-eats-queen-tlee) comes in three sizes: toy, miniature, and standard, and two varieties: hairless and coated. The hairless has tough, smooth, close-fitting skin. The coated variety is covered by a short, flat coat.Both varieties come in dark colors, ranging from black, gray-black, and slate, to red, liver, or bronze. The face is thoughtful and intelligent, and a Xolo’s forehead will wrinkle when he’s deep in thought. The Xolo’s graceful, elegant body is surprisingly strong and rugged. The 3,000-year-old Xoloitzcuintli (pronounced "show-low-eats-QUEENT-lee"), the ancient Aztec dog of the gods, is today a loving companion and vigilant watchdog. The alert and loyal Xolo comes in three sizes, and in either hairless or coated varieties.
+
+### Xoloitzcuintli at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Xoloitzcuintli puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Xoloitzcuintli puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "great-pyrenees"
 breedName: "Great Pyrenees"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/pyrenees/n02111500_5057.jpg"
 canonicalUrl: "https://pupwiki.com/blog/great-pyrenees-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Great Pyreneess
-Great Pyreneess are large-sized (85–100 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Frequently described as “majestic,” Pyrs are big, immensely strong mountain dogs standing as high as 32 inches at the shoulder and often tipping the scales at more than 100 pounds. These steadfast guardians usually exhibit a Zen-like calm, but they can quickly spring into action and move with grace and speed to meet a threat. The lush weatherproof coat is all white, or white with markings of beautiful shades of gray, tan, reddish-brown, or badger. The Great Pyrenees is a large, thickly coated, and immensely powerful working dog bred to deter sheep-stealing wolves and other predators on snowy mountaintops. Pyrs today are mellow companions and vigilant guardians of home and family.
+
+### Great Pyrenees at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Great Pyrenees puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Great Pyrenees puppy

@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "icelandic-sh
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/icelandic-sheepdog", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "icelandic-sheepdog"
 breedName: "Icelandic Sheepdog"
 wordCountEstimate: 388
+image: "https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_17706.jpg"
 canonicalUrl: "https://pupwiki.com/blog/icelandic-sheepdog-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Icelandic Sheepdogs
-Icelandic Sheepdogs are medium-sized (25–30 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Icelandics are one of the 50 or so northern breeds from around the world classified as spitzes. The breed’s “spitziness” is expressed by a dense coat, foxy face, pointed ears, and a bushy, curling tail. Icelandics, standing no higher than 18 inches at the shoulder, are just under what we’d consider medium sized. They come in several predominant colors, always accompanied by white markings. An endearing trait is the facial expression: friendly, happy, always looking as though there’s no place they’d rather be than with you. The Icelandic Sheepdog, Iceland’s only native dog breed, is a charmingly friendly and faithful all-around herder of small-to-medium size. A densely coated Nordic spitz-type breed, Icelandics are enthusiastically devoted to their humans.
+
+### Icelandic Sheepdog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Icelandic Sheepdogs
 No breed-specific genetic ailments are currently documented for the Icelandic Sheepdog (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Icelandic Sheepdog health

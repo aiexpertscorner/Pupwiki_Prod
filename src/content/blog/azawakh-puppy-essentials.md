@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "azawakh"
 breedName: "Azawakh"
 wordCountEstimate: 325
+image: "https://images.dog.ceo/breeds/saluki/n02091831_12881.jpg"
 canonicalUrl: "https://pupwiki.com/blog/azawakh-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/37293674/pexels-photo-37293674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/37293674/pexels-photo-37293674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,17 @@ imageSearchQuery: "Azawakh dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Azawakhs
-Azawakhs are medium-sized (33–55 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+This ancient hunting hound is so lean and rangy that his bone structure and musculature can plainly be seen beneath his skin. The smooth S-shaped contours, deep chest, and aerodynamic head mark the Azwakh as a member of the sighthound family, canine sprinters that rely on keen vision and blazing speed to fix and course their prey. The ultrafine coat comes in several colors and patterns. The overall look of this leggy hound is one of elegance and fineness, but don’t be fooled: This is a tough, durable hunter who’s been chasing gazelle across the scorching sands of the Sahara for more than a thousand years. Tall and elegant, the Azawakh is a West African sighthound who originates from the countries of Burkina Faso, Mali, and Niger. The Azawakh has a short, fine coat which may come in any color or color combinations: red, clear sand to fawn, brindled, parti-color (which may be predominantly
+
+### Azawakh at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
 ## How to approach a Azawakh puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Azawakh puppy

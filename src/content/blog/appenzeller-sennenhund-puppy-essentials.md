@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "appenzeller-sennenhund"
 breedName: "Appenzeller Sennenhund"
 wordCountEstimate: 372
+image: "https://images.dog.ceo/breeds/appenzeller/n02107908_2468.jpg"
 canonicalUrl: "https://pupwiki.com/blog/appenzeller-sennenhund-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/11181903/pexels-photo-11181903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/11181903/pexels-photo-11181903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,17 @@ imageSearchQuery: "Appenzeller Sennenhund dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Appenzeller Sennenhunds
-Appenzeller Sennenhunds are large-sized (48–70 lbs), with active energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+The Appenzeller Sennenhund is also known as the Appenzeller Mountain Dog or Appenzell Cattle Dog. He is lively, high-spirited, self-assured, reliable, and fearless. Slightly suspicious of strangers, he is a good watchdog who cannot be bribed. The breed’s intelligence make them highly capable learners. Due to his personality and exercise needs, he is ill-suited to apartment living. The Appenzeller Sennenhund is tri-color, medium-sized, and almost squarely built and balanced. He is muscular and agile and makes a good driving, watch, guard, house or farm dog. Due to their versatility and willingness, they excel in agility, obedience, herding and search and rescue. Originally from Switzerland, the Appenzeller Sennenhund belongs to the Pinschers, Schnauzers, Molosser and Swiss Mountain Dogs group.
+
+### Appenzeller Sennenhund at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | █░░░░ Challenging |
+| Sociability | ██░░░ Selective |
 ## How to approach a Appenzeller Sennenhund puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Appenzeller Sennenhund puppy

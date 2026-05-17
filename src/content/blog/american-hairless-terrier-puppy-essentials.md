@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "american-hairless-terrier"
 breedName: "American Hairless Terrier"
 wordCountEstimate: 352
+image: "https://images.dog.ceo/breeds/terrier-american/n02093428_3159.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-hairless-terrier-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/36936594/pexels-photo-36936594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/36936594/pexels-photo-36936594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,7 @@ imageSearchQuery: "American Hairless Terrier dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Hairless Terriers
-American Hairless Terriers are small-sized (12–16 lbs), with regular energy, low shedding, and a hairless coat. The recommendations below are matched to these traits.
+The American Hairless Terrier stands between 12 to 16 inches at the shoulder, and comes in both coated and hairless varieties. The hairless variety might have eyebrows and whiskers, while the coated has a short, shiny coat. The skin of the hairless is smooth and warm to the touch. The broad, wedge-shaped head is a hallmark of both varieties. Erect, V-shaped ears frame the round, expressive eyes that gleam with curiosity.The American Hairless moves with jaunty pep in his step that announces real terrier attitude. The hairless variety is as hypoallergenic as a dog can get. Hairlessness, though, presents its own challenges. Sunburn is a concern, and cold weather requires special precautions. This breed is protective of their humans and make alert watchdogs. The American Hairless Terrier, a Louisiana native, is a smart, inquisitive, and playful dog that comes in hairless and coated varieties
 ## How to approach a American Hairless Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a American Hairless Terrier puppy

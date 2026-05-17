@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "goberian"
 breedName: "Goberian"
 wordCountEstimate: 455
+image: "https://images.dog.ceo/breeds/retriever-golden/joey_20210311_213829.jpg"
 canonicalUrl: "https://pupwiki.com/blog/goberian-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Goberians
-Goberians are large-sized (44.09–77.16 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Goberian is a designer cross between the Golden Retriever and the Siberian Husky. This mix usually weighs about 44-77 pounds, often shows a mixed coat type, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Juvenile cataracts, Hip dysplasia. Originally from United Kingdom / Russia.
+
+### Goberian at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#24** in canine intelligence (Excellent tier), the Goberian responds well to consistent, positive reinforcement training — placing it among the top 25 most trainable breeds.
 ## How to approach a Goberian puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Goberian puppy

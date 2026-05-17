@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "cirneco-dell
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/cirneco-delletna", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "cirneco-delletna"
 breedName: "Cirneco dell’Etna"
 wordCountEstimate: 375
+image: "https://images.dog.ceo/breeds/hound-ibizan/n02091244_756.jpg"
 canonicalUrl: "https://pupwiki.com/blog/cirneco-delletna-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Cirneco dell’Etnas
-Cirneco dell’Etnas are medium-sized (17–26 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.
+Standing under 20 inches, the Cirneco (“cheer-NEK-o”; Cirnechi is the plural) is often described as resembling a smaller version of the Pharaoh Hound, its cousin from the island of Malta. This slender but rugged hunter’s coat ranges from light to dark tan or chestnut. The large, upright ears point up the alert expression of the eyes, whose amber or ochre color smartly complements the coat.In many ways, these lithe and leggy Sicilians are typical sighthounds: sweet-natured, independent and, of course, breathtakingly swift. It is said, though, that Cirnechi are a bit more trainable than the usual sighthound. These living artifacts of antiquity have sprinted into the 21st century relatively unchanged by passing fads and fancies. The sleek and sinewy Cirneco dell’Etna, the ancient coursing hound of Sicily, is an athletic hunter given to quick bursts of speed. As housedogs, Cirnechi are mild,
+
+### Cirneco dell’Etna at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ### Common health concerns for Cirneco dell’Etnas
 No breed-specific genetic ailments are currently documented for the Cirneco dell’Etna (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Cirneco dell’Etna health

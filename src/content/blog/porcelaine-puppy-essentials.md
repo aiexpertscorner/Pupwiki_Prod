@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "porcelaine"
 breedName: "Porcelaine"
 wordCountEstimate: 325
+image: "https://images.dog.ceo/breeds/hound-english/n02089973_3433.jpg"
 canonicalUrl: "https://pupwiki.com/blog/porcelaine-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Porcelaines
-Porcelaines are medium-sized (55–62 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.
+Elegant, proud, graceful, cat-like and stunningly gorgeous, the Porcelaine is never shy or timid and always eager for a pat on the head or a hug. His nature makes him an excellent candidate for medical therapy, medical alert, medical service, police public relations, and search and rescue. The Porcelaine is primarily a hunting dog breed, originating from a mixture of highly intelligent French and English scent hounds. That said, you must remember that any breed with a high prey drive will require careful consideration in housing and handling. Another charming aspect of the breed is that they tend to be quiet indoors or in their kennel, but do have a beautiful melodious baying call. They are not nuisance barkers. The Porcelaine is elegant, energetic, and a fierce hunter; he is used for small game, driving it to waiting guns. He is very fond of his owners, family, friends and children and
+
+### Porcelaine at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Grooming needs | █░░░░ Very Low |
+| Sociability | ███░░ Balanced |
 ## How to approach a Porcelaine puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Porcelaine puppy

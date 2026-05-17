@@ -9,7 +9,8 @@
     "supplement_post": "/blog/best-supplements-for-labrador-retriever",
     "names_page": "/dog-names/labrador-retriever",
     "health_post": "/blog/labrador-retriever-health-problems",
-    "cost_calculator": "/cost-calculator/labrador-retriever"
+    "cost_calculator": "/cost-calculator/labrador-retriever",
+    "puppy_post": "/blog/labrador-retriever-puppy-essentials"
   },
   "german-shepherd-dog": {
     "hub": "/breeds/german-shepherd-dog",
@@ -21,7 +22,8 @@
     "supplement_post": "/blog/best-supplements-for-german-shepherd-dog",
     "names_page": "/dog-names/german-shepherd-dog",
     "health_post": "/blog/german-shepherd-dog-health-problems",
-    "cost_calculator": "/cost-calculator/german-shepherd-dog"
+    "cost_calculator": "/cost-calculator/german-shepherd-dog",
+    "puppy_post": "/blog/german-shepherd-dog-puppy-essentials"
   },
   "golden-retriever": {
     "hub": "/breeds/golden-retriever",
@@ -33,7 +35,8 @@
     "supplement_post": "/blog/best-supplements-for-golden-retriever",
     "names_page": "/dog-names/golden-retriever",
     "health_post": "/blog/golden-retriever-health-problems",
-    "cost_calculator": "/cost-calculator/golden-retriever"
+    "cost_calculator": "/cost-calculator/golden-retriever",
+    "puppy_post": "/blog/golden-retriever-puppy-essentials"
   },
   "french-bulldog": {
     "hub": "/breeds/french-bulldog",
@@ -45,7 +48,8 @@
     "supplement_post": "/blog/best-supplements-for-french-bulldog",
     "names_page": "/dog-names/french-bulldog",
     "health_post": "/blog/french-bulldog-health-problems",
-    "cost_calculator": "/cost-calculator/french-bulldog"
+    "cost_calculator": "/cost-calculator/french-bulldog",
+    "puppy_post": "/blog/french-bulldog-puppy-essentials"
   },
   "bulldog": {
     "hub": "/breeds/bulldog",
@@ -57,7 +61,8 @@
     "supplement_post": "/blog/best-supplements-for-bulldog",
     "names_page": "/dog-names/bulldog",
     "health_post": "/blog/bulldog-health-problems",
-    "cost_calculator": "/cost-calculator/bulldog"
+    "cost_calculator": "/cost-calculator/bulldog",
+    "puppy_post": "/blog/bulldog-puppy-essentials"
   },
   "beagle": {
     "hub": "/breeds/beagle",
@@ -69,7 +74,8 @@
     "supplement_post": "/blog/best-supplements-for-beagle",
     "names_page": "/dog-names/beagle",
     "health_post": "/blog/beagle-health-problems",
-    "cost_calculator": "/cost-calculator/beagle"
+    "cost_calculator": "/cost-calculator/beagle",
+    "puppy_post": "/blog/beagle-puppy-essentials"
   },
   "poodle-miniature": {
     "hub": "/breeds/poodle-miniature",
@@ -81,7 +87,8 @@
     "supplement_post": "/blog/best-supplements-for-poodle-miniature",
     "names_page": "/dog-names/poodle-miniature",
     "health_post": "/blog/poodle-miniature-health-problems",
-    "cost_calculator": "/cost-calculator/poodle-miniature"
+    "cost_calculator": "/cost-calculator/poodle-miniature",
+    "puppy_post": "/blog/poodle-miniature-puppy-essentials"
   },
   "poodle-standard": {
     "hub": "/breeds/poodle-standard",
@@ -93,7 +100,8 @@
     "supplement_post": "/blog/best-supplements-for-poodle-standard",
     "names_page": "/dog-names/poodle-standard",
     "health_post": "/blog/poodle-standard-health-problems",
-    "cost_calculator": "/cost-calculator/poodle-standard"
+    "cost_calculator": "/cost-calculator/poodle-standard",
+    "puppy_post": "/blog/poodle-standard-puppy-essentials"
   },
   "poodle-toy": {
     "hub": "/breeds/poodle-toy",
@@ -105,7 +113,8 @@
     "supplement_post": "/blog/best-supplements-for-poodle-toy",
     "names_page": "/dog-names/poodle-toy",
     "health_post": "/blog/poodle-toy-health-problems",
-    "cost_calculator": "/cost-calculator/poodle-toy"
+    "cost_calculator": "/cost-calculator/poodle-toy",
+    "puppy_post": "/blog/poodle-toy-puppy-essentials"
   },
   "rottweiler": {
     "hub": "/breeds/rottweiler",
@@ -117,7 +126,8 @@
     "supplement_post": "/blog/best-supplements-for-rottweiler",
     "names_page": "/dog-names/rottweiler",
     "health_post": "/blog/rottweiler-health-problems",
-    "cost_calculator": "/cost-calculator/rottweiler"
+    "cost_calculator": "/cost-calculator/rottweiler",
+    "puppy_post": "/blog/rottweiler-puppy-essentials"
   },
   "german-shorthaired-pointer": {
     "hub": "/breeds/german-shorthaired-pointer",
@@ -129,7 +139,8 @@
     "supplement_post": "/blog/best-supplements-for-german-shorthaired-pointer",
     "names_page": "/dog-names/german-shorthaired-pointer",
     "health_post": "/blog/german-shorthaired-pointer-health-problems",
-    "cost_calculator": "/cost-calculator/german-shorthaired-pointer"
+    "cost_calculator": "/cost-calculator/german-shorthaired-pointer",
+    "puppy_post": "/blog/german-shorthaired-pointer-puppy-essentials"
   },
   "yorkshire-terrier": {
     "hub": "/breeds/yorkshire-terrier",
@@ -141,7 +152,8 @@
     "supplement_post": "/blog/best-supplements-for-yorkshire-terrier",
     "names_page": "/dog-names/yorkshire-terrier",
     "health_post": "/blog/yorkshire-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/yorkshire-terrier"
+    "cost_calculator": "/cost-calculator/yorkshire-terrier",
+    "puppy_post": "/blog/yorkshire-terrier-puppy-essentials"
   },
   "boxer": {
     "hub": "/breeds/boxer",
@@ -153,7 +165,8 @@
     "supplement_post": "/blog/best-supplements-for-boxer",
     "names_page": "/dog-names/boxer",
     "health_post": "/blog/boxer-health-problems",
-    "cost_calculator": "/cost-calculator/boxer"
+    "cost_calculator": "/cost-calculator/boxer",
+    "puppy_post": "/blog/boxer-puppy-essentials"
   },
   "dachshund": {
     "hub": "/breeds/dachshund",
@@ -165,7 +178,8 @@
     "supplement_post": "/blog/best-supplements-for-dachshund",
     "names_page": "/dog-names/dachshund",
     "health_post": "/blog/dachshund-health-problems",
-    "cost_calculator": "/cost-calculator/dachshund"
+    "cost_calculator": "/cost-calculator/dachshund",
+    "puppy_post": "/blog/dachshund-puppy-essentials"
   },
   "pembroke-welsh-corgi": {
     "hub": "/breeds/pembroke-welsh-corgi",
@@ -177,7 +191,8 @@
     "supplement_post": "/blog/best-supplements-for-pembroke-welsh-corgi",
     "names_page": "/dog-names/pembroke-welsh-corgi",
     "health_post": "/blog/pembroke-welsh-corgi-health-problems",
-    "cost_calculator": "/cost-calculator/pembroke-welsh-corgi"
+    "cost_calculator": "/cost-calculator/pembroke-welsh-corgi",
+    "puppy_post": "/blog/pembroke-welsh-corgi-puppy-essentials"
   },
   "siberian-husky": {
     "hub": "/breeds/siberian-husky",
@@ -189,7 +204,8 @@
     "supplement_post": "/blog/best-supplements-for-siberian-husky",
     "names_page": "/dog-names/siberian-husky",
     "health_post": "/blog/siberian-husky-health-problems",
-    "cost_calculator": "/cost-calculator/siberian-husky"
+    "cost_calculator": "/cost-calculator/siberian-husky",
+    "puppy_post": "/blog/siberian-husky-puppy-essentials"
   },
   "great-dane": {
     "hub": "/breeds/great-dane",
@@ -201,7 +217,8 @@
     "supplement_post": "/blog/best-supplements-for-great-dane",
     "names_page": "/dog-names/great-dane",
     "health_post": "/blog/great-dane-health-problems",
-    "cost_calculator": "/cost-calculator/great-dane"
+    "cost_calculator": "/cost-calculator/great-dane",
+    "puppy_post": "/blog/great-dane-puppy-essentials"
   },
   "australian-shepherd": {
     "hub": "/breeds/australian-shepherd",
@@ -213,7 +230,8 @@
     "supplement_post": "/blog/best-supplements-for-australian-shepherd",
     "names_page": "/dog-names/australian-shepherd",
     "health_post": "/blog/australian-shepherd-health-problems",
-    "cost_calculator": "/cost-calculator/australian-shepherd"
+    "cost_calculator": "/cost-calculator/australian-shepherd",
+    "puppy_post": "/blog/australian-shepherd-puppy-essentials"
   },
   "doberman-pinscher": {
     "hub": "/breeds/doberman-pinscher",
@@ -225,7 +243,8 @@
     "supplement_post": "/blog/best-supplements-for-doberman-pinscher",
     "names_page": "/dog-names/doberman-pinscher",
     "health_post": "/blog/doberman-pinscher-health-problems",
-    "cost_calculator": "/cost-calculator/doberman-pinscher"
+    "cost_calculator": "/cost-calculator/doberman-pinscher",
+    "puppy_post": "/blog/doberman-pinscher-puppy-essentials"
   },
   "cavalier-king-charles-spaniel": {
     "hub": "/breeds/cavalier-king-charles-spaniel",
@@ -237,7 +256,8 @@
     "supplement_post": "/blog/best-supplements-for-cavalier-king-charles-spaniel",
     "names_page": "/dog-names/cavalier-king-charles-spaniel",
     "health_post": "/blog/cavalier-king-charles-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/cavalier-king-charles-spaniel"
+    "cost_calculator": "/cost-calculator/cavalier-king-charles-spaniel",
+    "puppy_post": "/blog/cavalier-king-charles-spaniel-puppy-essentials"
   },
   "miniature-schnauzer": {
     "hub": "/breeds/miniature-schnauzer",
@@ -249,7 +269,8 @@
     "supplement_post": "/blog/best-supplements-for-miniature-schnauzer",
     "names_page": "/dog-names/miniature-schnauzer",
     "health_post": "/blog/miniature-schnauzer-health-problems",
-    "cost_calculator": "/cost-calculator/miniature-schnauzer"
+    "cost_calculator": "/cost-calculator/miniature-schnauzer",
+    "puppy_post": "/blog/miniature-schnauzer-puppy-essentials"
   },
   "shih-tzu": {
     "hub": "/breeds/shih-tzu",
@@ -261,7 +282,8 @@
     "supplement_post": "/blog/best-supplements-for-shih-tzu",
     "names_page": "/dog-names/shih-tzu",
     "health_post": "/blog/shih-tzu-health-problems",
-    "cost_calculator": "/cost-calculator/shih-tzu"
+    "cost_calculator": "/cost-calculator/shih-tzu",
+    "puppy_post": "/blog/shih-tzu-puppy-essentials"
   },
   "boston-terrier": {
     "hub": "/breeds/boston-terrier",
@@ -273,7 +295,8 @@
     "supplement_post": "/blog/best-supplements-for-boston-terrier",
     "names_page": "/dog-names/boston-terrier",
     "health_post": "/blog/boston-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/boston-terrier"
+    "cost_calculator": "/cost-calculator/boston-terrier",
+    "puppy_post": "/blog/boston-terrier-puppy-essentials"
   },
   "bernese-mountain-dog": {
     "hub": "/breeds/bernese-mountain-dog",
@@ -285,7 +308,8 @@
     "supplement_post": "/blog/best-supplements-for-bernese-mountain-dog",
     "names_page": "/dog-names/bernese-mountain-dog",
     "health_post": "/blog/bernese-mountain-dog-health-problems",
-    "cost_calculator": "/cost-calculator/bernese-mountain-dog"
+    "cost_calculator": "/cost-calculator/bernese-mountain-dog",
+    "puppy_post": "/blog/bernese-mountain-dog-puppy-essentials"
   },
   "pomeranian": {
     "hub": "/breeds/pomeranian",
@@ -297,7 +321,8 @@
     "supplement_post": "/blog/best-supplements-for-pomeranian",
     "names_page": "/dog-names/pomeranian",
     "health_post": "/blog/pomeranian-health-problems",
-    "cost_calculator": "/cost-calculator/pomeranian"
+    "cost_calculator": "/cost-calculator/pomeranian",
+    "puppy_post": "/blog/pomeranian-puppy-essentials"
   },
   "havanese": {
     "hub": "/breeds/havanese",
@@ -309,7 +334,8 @@
     "supplement_post": "/blog/best-supplements-for-havanese",
     "names_page": "/dog-names/havanese",
     "health_post": "/blog/havanese-health-problems",
-    "cost_calculator": "/cost-calculator/havanese"
+    "cost_calculator": "/cost-calculator/havanese",
+    "puppy_post": "/blog/havanese-puppy-essentials"
   },
   "shetland-sheepdog": {
     "hub": "/breeds/shetland-sheepdog",
@@ -321,7 +347,8 @@
     "supplement_post": "/blog/best-supplements-for-shetland-sheepdog",
     "names_page": "/dog-names/shetland-sheepdog",
     "health_post": "/blog/shetland-sheepdog-health-problems",
-    "cost_calculator": "/cost-calculator/shetland-sheepdog"
+    "cost_calculator": "/cost-calculator/shetland-sheepdog",
+    "puppy_post": "/blog/shetland-sheepdog-puppy-essentials"
   },
   "brittany": {
     "hub": "/breeds/brittany",
@@ -333,7 +360,8 @@
     "supplement_post": "/blog/best-supplements-for-brittany",
     "names_page": "/dog-names/brittany",
     "health_post": "/blog/brittany-health-problems",
-    "cost_calculator": "/cost-calculator/brittany"
+    "cost_calculator": "/cost-calculator/brittany",
+    "puppy_post": "/blog/brittany-puppy-essentials"
   },
   "english-springer-spaniel": {
     "hub": "/breeds/english-springer-spaniel",
@@ -345,7 +373,8 @@
     "supplement_post": "/blog/best-supplements-for-english-springer-spaniel",
     "names_page": "/dog-names/english-springer-spaniel",
     "health_post": "/blog/english-springer-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/english-springer-spaniel"
+    "cost_calculator": "/cost-calculator/english-springer-spaniel",
+    "puppy_post": "/blog/english-springer-spaniel-puppy-essentials"
   },
   "pug": {
     "hub": "/breeds/pug",
@@ -357,7 +386,8 @@
     "supplement_post": "/blog/best-supplements-for-pug",
     "names_page": "/dog-names/pug",
     "health_post": "/blog/pug-health-problems",
-    "cost_calculator": "/cost-calculator/pug"
+    "cost_calculator": "/cost-calculator/pug",
+    "puppy_post": "/blog/pug-puppy-essentials"
   },
   "mastiff": {
     "hub": "/breeds/mastiff",
@@ -369,7 +399,8 @@
     "supplement_post": "/blog/best-supplements-for-mastiff",
     "names_page": "/dog-names/mastiff",
     "health_post": "/blog/mastiff-health-problems",
-    "cost_calculator": "/cost-calculator/mastiff"
+    "cost_calculator": "/cost-calculator/mastiff",
+    "puppy_post": "/blog/mastiff-puppy-essentials"
   },
   "cocker-spaniel": {
     "hub": "/breeds/cocker-spaniel",
@@ -381,7 +412,8 @@
     "supplement_post": "/blog/best-supplements-for-cocker-spaniel",
     "names_page": "/dog-names/cocker-spaniel",
     "health_post": "/blog/cocker-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/cocker-spaniel"
+    "cost_calculator": "/cost-calculator/cocker-spaniel",
+    "puppy_post": "/blog/cocker-spaniel-puppy-essentials"
   },
   "vizsla": {
     "hub": "/breeds/vizsla",
@@ -393,7 +425,8 @@
     "supplement_post": "/blog/best-supplements-for-vizsla",
     "names_page": "/dog-names/vizsla",
     "health_post": "/blog/vizsla-health-problems",
-    "cost_calculator": "/cost-calculator/vizsla"
+    "cost_calculator": "/cost-calculator/vizsla",
+    "puppy_post": "/blog/vizsla-puppy-essentials"
   },
   "cane-corso": {
     "hub": "/breeds/cane-corso",
@@ -405,7 +438,8 @@
     "supplement_post": "/blog/best-supplements-for-cane-corso",
     "names_page": "/dog-names/cane-corso",
     "health_post": "/blog/cane-corso-health-problems",
-    "cost_calculator": "/cost-calculator/cane-corso"
+    "cost_calculator": "/cost-calculator/cane-corso",
+    "puppy_post": "/blog/cane-corso-puppy-essentials"
   },
   "chihuahua": {
     "hub": "/breeds/chihuahua",
@@ -417,7 +451,8 @@
     "supplement_post": "/blog/best-supplements-for-chihuahua",
     "names_page": "/dog-names/chihuahua",
     "health_post": "/blog/chihuahua-health-problems",
-    "cost_calculator": "/cost-calculator/chihuahua"
+    "cost_calculator": "/cost-calculator/chihuahua",
+    "puppy_post": "/blog/chihuahua-puppy-essentials"
   },
   "miniature-american-shepherd": {
     "hub": "/breeds/miniature-american-shepherd",
@@ -429,7 +464,8 @@
     "supplement_post": "/blog/best-supplements-for-miniature-american-shepherd",
     "names_page": "/dog-names/miniature-american-shepherd",
     "health_post": "/blog/miniature-american-shepherd-health-problems",
-    "cost_calculator": "/cost-calculator/miniature-american-shepherd"
+    "cost_calculator": "/cost-calculator/miniature-american-shepherd",
+    "puppy_post": "/blog/miniature-american-shepherd-puppy-essentials"
   },
   "border-collie": {
     "hub": "/breeds/border-collie",
@@ -441,7 +477,8 @@
     "supplement_post": "/blog/best-supplements-for-border-collie",
     "names_page": "/dog-names/border-collie",
     "health_post": "/blog/border-collie-health-problems",
-    "cost_calculator": "/cost-calculator/border-collie"
+    "cost_calculator": "/cost-calculator/border-collie",
+    "puppy_post": "/blog/border-collie-puppy-essentials"
   },
   "weimaraner": {
     "hub": "/breeds/weimaraner",
@@ -453,7 +490,8 @@
     "supplement_post": "/blog/best-supplements-for-weimaraner",
     "names_page": "/dog-names/weimaraner",
     "health_post": "/blog/weimaraner-health-problems",
-    "cost_calculator": "/cost-calculator/weimaraner"
+    "cost_calculator": "/cost-calculator/weimaraner",
+    "puppy_post": "/blog/weimaraner-puppy-essentials"
   },
   "maltese": {
     "hub": "/breeds/maltese",
@@ -465,7 +503,8 @@
     "supplement_post": "/blog/best-supplements-for-maltese",
     "names_page": "/dog-names/maltese",
     "health_post": "/blog/maltese-health-problems",
-    "cost_calculator": "/cost-calculator/maltese"
+    "cost_calculator": "/cost-calculator/maltese",
+    "puppy_post": "/blog/maltese-puppy-essentials"
   },
   "collie": {
     "hub": "/breeds/collie",
@@ -477,7 +516,8 @@
     "supplement_post": "/blog/best-supplements-for-collie",
     "names_page": "/dog-names/collie",
     "health_post": "/blog/collie-health-problems",
-    "cost_calculator": "/cost-calculator/collie"
+    "cost_calculator": "/cost-calculator/collie",
+    "puppy_post": "/blog/collie-puppy-essentials"
   },
   "basset-hound": {
     "hub": "/breeds/basset-hound",
@@ -489,7 +529,8 @@
     "supplement_post": "/blog/best-supplements-for-basset-hound",
     "names_page": "/dog-names/basset-hound",
     "health_post": "/blog/basset-hound-health-problems",
-    "cost_calculator": "/cost-calculator/basset-hound"
+    "cost_calculator": "/cost-calculator/basset-hound",
+    "puppy_post": "/blog/basset-hound-puppy-essentials"
   },
   "newfoundland": {
     "hub": "/breeds/newfoundland",
@@ -501,7 +542,8 @@
     "supplement_post": "/blog/best-supplements-for-newfoundland",
     "names_page": "/dog-names/newfoundland",
     "health_post": "/blog/newfoundland-health-problems",
-    "cost_calculator": "/cost-calculator/newfoundland"
+    "cost_calculator": "/cost-calculator/newfoundland",
+    "puppy_post": "/blog/newfoundland-puppy-essentials"
   },
   "rhodesian-ridgeback": {
     "hub": "/breeds/rhodesian-ridgeback",
@@ -513,7 +555,8 @@
     "supplement_post": "/blog/best-supplements-for-rhodesian-ridgeback",
     "names_page": "/dog-names/rhodesian-ridgeback",
     "health_post": "/blog/rhodesian-ridgeback-health-problems",
-    "cost_calculator": "/cost-calculator/rhodesian-ridgeback"
+    "cost_calculator": "/cost-calculator/rhodesian-ridgeback",
+    "puppy_post": "/blog/rhodesian-ridgeback-puppy-essentials"
   },
   "west-highland-white-terrier": {
     "hub": "/breeds/west-highland-white-terrier",
@@ -525,7 +568,8 @@
     "supplement_post": "/blog/best-supplements-for-west-highland-white-terrier",
     "names_page": "/dog-names/west-highland-white-terrier",
     "health_post": "/blog/west-highland-white-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/west-highland-white-terrier"
+    "cost_calculator": "/cost-calculator/west-highland-white-terrier",
+    "puppy_post": "/blog/west-highland-white-terrier-puppy-essentials"
   },
   "belgian-malinois": {
     "hub": "/breeds/belgian-malinois",
@@ -537,7 +581,8 @@
     "supplement_post": "/blog/best-supplements-for-belgian-malinois",
     "names_page": "/dog-names/belgian-malinois",
     "health_post": "/blog/belgian-malinois-health-problems",
-    "cost_calculator": "/cost-calculator/belgian-malinois"
+    "cost_calculator": "/cost-calculator/belgian-malinois",
+    "puppy_post": "/blog/belgian-malinois-puppy-essentials"
   },
   "shiba-inu": {
     "hub": "/breeds/shiba-inu",
@@ -549,7 +594,8 @@
     "supplement_post": "/blog/best-supplements-for-shiba-inu",
     "names_page": "/dog-names/shiba-inu",
     "health_post": "/blog/shiba-inu-health-problems",
-    "cost_calculator": "/cost-calculator/shiba-inu"
+    "cost_calculator": "/cost-calculator/shiba-inu",
+    "puppy_post": "/blog/shiba-inu-puppy-essentials"
   },
   "chesapeake-bay-retriever": {
     "hub": "/breeds/chesapeake-bay-retriever",
@@ -561,7 +607,8 @@
     "supplement_post": "/blog/best-supplements-for-chesapeake-bay-retriever",
     "names_page": "/dog-names/chesapeake-bay-retriever",
     "health_post": "/blog/chesapeake-bay-retriever-health-problems",
-    "cost_calculator": "/cost-calculator/chesapeake-bay-retriever"
+    "cost_calculator": "/cost-calculator/chesapeake-bay-retriever",
+    "puppy_post": "/blog/chesapeake-bay-retriever-puppy-essentials"
   },
   "bichon-frise": {
     "hub": "/breeds/bichon-frise",
@@ -573,7 +620,8 @@
     "supplement_post": "/blog/best-supplements-for-bichon-frise",
     "names_page": "/dog-names/bichon-frise",
     "health_post": "/blog/bichon-frise-health-problems",
-    "cost_calculator": "/cost-calculator/bichon-frise"
+    "cost_calculator": "/cost-calculator/bichon-frise",
+    "puppy_post": "/blog/bichon-frise-puppy-essentials"
   },
   "akita": {
     "hub": "/breeds/akita",
@@ -585,7 +633,8 @@
     "supplement_post": "/blog/best-supplements-for-akita",
     "names_page": "/dog-names/akita",
     "health_post": "/blog/akita-health-problems",
-    "cost_calculator": "/cost-calculator/akita"
+    "cost_calculator": "/cost-calculator/akita",
+    "puppy_post": "/blog/akita-puppy-essentials"
   },
   "saint-bernard": {
     "hub": "/breeds/saint-bernard",
@@ -597,7 +646,8 @@
     "supplement_post": "/blog/best-supplements-for-saint-bernard",
     "names_page": "/dog-names/saint-bernard",
     "health_post": "/blog/saint-bernard-health-problems",
-    "cost_calculator": "/cost-calculator/saint-bernard"
+    "cost_calculator": "/cost-calculator/saint-bernard",
+    "puppy_post": "/blog/saint-bernard-puppy-essentials"
   },
   "bloodhound": {
     "hub": "/breeds/bloodhound",
@@ -609,7 +659,8 @@
     "supplement_post": "/blog/best-supplements-for-bloodhound",
     "names_page": "/dog-names/bloodhound",
     "health_post": "/blog/bloodhound-health-problems",
-    "cost_calculator": "/cost-calculator/bloodhound"
+    "cost_calculator": "/cost-calculator/bloodhound",
+    "puppy_post": "/blog/bloodhound-puppy-essentials"
   },
   "portuguese-water-dog": {
     "hub": "/breeds/portuguese-water-dog",
@@ -621,7 +672,8 @@
     "supplement_post": "/blog/best-supplements-for-portuguese-water-dog",
     "names_page": "/dog-names/portuguese-water-dog",
     "health_post": "/blog/portuguese-water-dog-health-problems",
-    "cost_calculator": "/cost-calculator/portuguese-water-dog"
+    "cost_calculator": "/cost-calculator/portuguese-water-dog",
+    "puppy_post": "/blog/portuguese-water-dog-puppy-essentials"
   },
   "bullmastiff": {
     "hub": "/breeds/bullmastiff",
@@ -633,7 +685,8 @@
     "supplement_post": "/blog/best-supplements-for-bullmastiff",
     "names_page": "/dog-names/bullmastiff",
     "health_post": "/blog/bullmastiff-health-problems",
-    "cost_calculator": "/cost-calculator/bullmastiff"
+    "cost_calculator": "/cost-calculator/bullmastiff",
+    "puppy_post": "/blog/bullmastiff-puppy-essentials"
   },
   "english-cocker-spaniel": {
     "hub": "/breeds/english-cocker-spaniel",
@@ -645,7 +698,8 @@
     "supplement_post": "/blog/best-supplements-for-english-cocker-spaniel",
     "names_page": "/dog-names/english-cocker-spaniel",
     "health_post": "/blog/english-cocker-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/english-cocker-spaniel"
+    "cost_calculator": "/cost-calculator/english-cocker-spaniel",
+    "puppy_post": "/blog/english-cocker-spaniel-puppy-essentials"
   },
   "soft-coated-wheaten-terrier": {
     "hub": "/breeds/soft-coated-wheaten-terrier",
@@ -657,7 +711,8 @@
     "supplement_post": "/blog/best-supplements-for-soft-coated-wheaten-terrier",
     "names_page": "/dog-names/soft-coated-wheaten-terrier",
     "health_post": "/blog/soft-coated-wheaten-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/soft-coated-wheaten-terrier"
+    "cost_calculator": "/cost-calculator/soft-coated-wheaten-terrier",
+    "puppy_post": "/blog/soft-coated-wheaten-terrier-puppy-essentials"
   },
   "papillon": {
     "hub": "/breeds/papillon",
@@ -669,7 +724,8 @@
     "supplement_post": "/blog/best-supplements-for-papillon",
     "names_page": "/dog-names/papillon",
     "health_post": "/blog/papillon-health-problems",
-    "cost_calculator": "/cost-calculator/papillon"
+    "cost_calculator": "/cost-calculator/papillon",
+    "puppy_post": "/blog/papillon-puppy-essentials"
   },
   "australian-cattle-dog": {
     "hub": "/breeds/australian-cattle-dog",
@@ -681,7 +737,8 @@
     "supplement_post": "/blog/best-supplements-for-australian-cattle-dog",
     "names_page": "/dog-names/australian-cattle-dog",
     "health_post": "/blog/australian-cattle-dog-health-problems",
-    "cost_calculator": "/cost-calculator/australian-cattle-dog"
+    "cost_calculator": "/cost-calculator/australian-cattle-dog",
+    "puppy_post": "/blog/australian-cattle-dog-puppy-essentials"
   },
   "dalmatian": {
     "hub": "/breeds/dalmatian",
@@ -693,7 +750,8 @@
     "supplement_post": "/blog/best-supplements-for-dalmatian",
     "names_page": "/dog-names/dalmatian",
     "health_post": "/blog/dalmatian-health-problems",
-    "cost_calculator": "/cost-calculator/dalmatian"
+    "cost_calculator": "/cost-calculator/dalmatian",
+    "puppy_post": "/blog/dalmatian-puppy-essentials"
   },
   "scottish-terrier": {
     "hub": "/breeds/scottish-terrier",
@@ -705,7 +763,8 @@
     "supplement_post": "/blog/best-supplements-for-scottish-terrier",
     "names_page": "/dog-names/scottish-terrier",
     "health_post": "/blog/scottish-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/scottish-terrier"
+    "cost_calculator": "/cost-calculator/scottish-terrier",
+    "puppy_post": "/blog/scottish-terrier-puppy-essentials"
   },
   "alaskan-malamute": {
     "hub": "/breeds/alaskan-malamute",
@@ -717,7 +776,8 @@
     "supplement_post": "/blog/best-supplements-for-alaskan-malamute",
     "names_page": "/dog-names/alaskan-malamute",
     "health_post": "/blog/alaskan-malamute-health-problems",
-    "cost_calculator": "/cost-calculator/alaskan-malamute"
+    "cost_calculator": "/cost-calculator/alaskan-malamute",
+    "puppy_post": "/blog/alaskan-malamute-puppy-essentials"
   },
   "samoyed": {
     "hub": "/breeds/samoyed",
@@ -729,7 +789,8 @@
     "supplement_post": "/blog/best-supplements-for-samoyed",
     "names_page": "/dog-names/samoyed",
     "health_post": "/blog/samoyed-health-problems",
-    "cost_calculator": "/cost-calculator/samoyed"
+    "cost_calculator": "/cost-calculator/samoyed",
+    "puppy_post": "/blog/samoyed-puppy-essentials"
   },
   "airedale-terrier": {
     "hub": "/breeds/airedale-terrier",
@@ -741,7 +802,8 @@
     "supplement_post": "/blog/best-supplements-for-airedale-terrier",
     "names_page": "/dog-names/airedale-terrier",
     "health_post": "/blog/airedale-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/airedale-terrier"
+    "cost_calculator": "/cost-calculator/airedale-terrier",
+    "puppy_post": "/blog/airedale-terrier-puppy-essentials"
   },
   "whippet": {
     "hub": "/breeds/whippet",
@@ -753,7 +815,8 @@
     "supplement_post": "/blog/best-supplements-for-whippet",
     "names_page": "/dog-names/whippet",
     "health_post": "/blog/whippet-health-problems",
-    "cost_calculator": "/cost-calculator/whippet"
+    "cost_calculator": "/cost-calculator/whippet",
+    "puppy_post": "/blog/whippet-puppy-essentials"
   },
   "bull-terrier": {
     "hub": "/breeds/bull-terrier",
@@ -765,7 +828,8 @@
     "supplement_post": "/blog/best-supplements-for-bull-terrier",
     "names_page": "/dog-names/bull-terrier",
     "health_post": "/blog/bull-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/bull-terrier"
+    "cost_calculator": "/cost-calculator/bull-terrier",
+    "puppy_post": "/blog/bull-terrier-puppy-essentials"
   },
   "german-wirehaired-pointer": {
     "hub": "/breeds/german-wirehaired-pointer",
@@ -777,7 +841,8 @@
     "supplement_post": "/blog/best-supplements-for-german-wirehaired-pointer",
     "names_page": "/dog-names/german-wirehaired-pointer",
     "health_post": "/blog/german-wirehaired-pointer-health-problems",
-    "cost_calculator": "/cost-calculator/german-wirehaired-pointer"
+    "cost_calculator": "/cost-calculator/german-wirehaired-pointer",
+    "puppy_post": "/blog/german-wirehaired-pointer-puppy-essentials"
   },
   "chinese-shar-pei": {
     "hub": "/breeds/chinese-shar-pei",
@@ -789,7 +854,8 @@
     "supplement_post": "/blog/best-supplements-for-chinese-shar-pei",
     "names_page": "/dog-names/chinese-shar-pei",
     "health_post": "/blog/chinese-shar-pei-health-problems",
-    "cost_calculator": "/cost-calculator/chinese-shar-pei"
+    "cost_calculator": "/cost-calculator/chinese-shar-pei",
+    "puppy_post": "/blog/chinese-shar-pei-puppy-essentials"
   },
   "wirehaired-pointing-griffon": {
     "hub": "/breeds/wirehaired-pointing-griffon",
@@ -801,7 +867,8 @@
     "supplement_post": "/blog/best-supplements-for-wirehaired-pointing-griffon",
     "names_page": "/dog-names/wirehaired-pointing-griffon",
     "health_post": "/blog/wirehaired-pointing-griffon-health-problems",
-    "cost_calculator": "/cost-calculator/wirehaired-pointing-griffon"
+    "cost_calculator": "/cost-calculator/wirehaired-pointing-griffon",
+    "puppy_post": "/blog/wirehaired-pointing-griffon-puppy-essentials"
   },
   "great-pyrenees": {
     "hub": "/breeds/great-pyrenees",
@@ -813,7 +880,8 @@
     "supplement_post": "/blog/best-supplements-for-great-pyrenees",
     "names_page": "/dog-names/great-pyrenees",
     "health_post": "/blog/great-pyrenees-health-problems",
-    "cost_calculator": "/cost-calculator/great-pyrenees"
+    "cost_calculator": "/cost-calculator/great-pyrenees",
+    "puppy_post": "/blog/great-pyrenees-puppy-essentials"
   },
   "dogue-de-bordeaux": {
     "hub": "/breeds/dogue-de-bordeaux",
@@ -825,7 +893,8 @@
     "supplement_post": "/blog/best-supplements-for-dogue-de-bordeaux",
     "names_page": "/dog-names/dogue-de-bordeaux",
     "health_post": "/blog/dogue-de-bordeaux-health-problems",
-    "cost_calculator": "/cost-calculator/dogue-de-bordeaux"
+    "cost_calculator": "/cost-calculator/dogue-de-bordeaux",
+    "puppy_post": "/blog/dogue-de-bordeaux-puppy-essentials"
   },
   "cardigan-welsh-corgi": {
     "hub": "/breeds/cardigan-welsh-corgi",
@@ -837,7 +906,8 @@
     "supplement_post": "/blog/best-supplements-for-cardigan-welsh-corgi",
     "names_page": "/dog-names/cardigan-welsh-corgi",
     "health_post": "/blog/cardigan-welsh-corgi-health-problems",
-    "cost_calculator": "/cost-calculator/cardigan-welsh-corgi"
+    "cost_calculator": "/cost-calculator/cardigan-welsh-corgi",
+    "puppy_post": "/blog/cardigan-welsh-corgi-puppy-essentials"
   },
   "cairn-terrier": {
     "hub": "/breeds/cairn-terrier",
@@ -849,7 +919,8 @@
     "supplement_post": "/blog/best-supplements-for-cairn-terrier",
     "names_page": "/dog-names/cairn-terrier",
     "health_post": "/blog/cairn-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/cairn-terrier"
+    "cost_calculator": "/cost-calculator/cairn-terrier",
+    "puppy_post": "/blog/cairn-terrier-puppy-essentials"
   },
   "miniature-pinscher": {
     "hub": "/breeds/miniature-pinscher",
@@ -861,7 +932,8 @@
     "supplement_post": "/blog/best-supplements-for-miniature-pinscher",
     "names_page": "/dog-names/miniature-pinscher",
     "health_post": "/blog/miniature-pinscher-health-problems",
-    "cost_calculator": "/cost-calculator/miniature-pinscher"
+    "cost_calculator": "/cost-calculator/miniature-pinscher",
+    "puppy_post": "/blog/miniature-pinscher-puppy-essentials"
   },
   "lhasa-apso": {
     "hub": "/breeds/lhasa-apso",
@@ -873,7 +945,8 @@
     "supplement_post": "/blog/best-supplements-for-lhasa-apso",
     "names_page": "/dog-names/lhasa-apso",
     "health_post": "/blog/lhasa-apso-health-problems",
-    "cost_calculator": "/cost-calculator/lhasa-apso"
+    "cost_calculator": "/cost-calculator/lhasa-apso",
+    "puppy_post": "/blog/lhasa-apso-puppy-essentials"
   },
   "old-english-sheepdog": {
     "hub": "/breeds/old-english-sheepdog",
@@ -885,7 +958,8 @@
     "supplement_post": "/blog/best-supplements-for-old-english-sheepdog",
     "names_page": "/dog-names/old-english-sheepdog",
     "health_post": "/blog/old-english-sheepdog-health-problems",
-    "cost_calculator": "/cost-calculator/old-english-sheepdog"
+    "cost_calculator": "/cost-calculator/old-english-sheepdog",
+    "puppy_post": "/blog/old-english-sheepdog-puppy-essentials"
   },
   "italian-greyhound": {
     "hub": "/breeds/italian-greyhound",
@@ -897,7 +971,8 @@
     "supplement_post": "/blog/best-supplements-for-italian-greyhound",
     "names_page": "/dog-names/italian-greyhound",
     "health_post": "/blog/italian-greyhound-health-problems",
-    "cost_calculator": "/cost-calculator/italian-greyhound"
+    "cost_calculator": "/cost-calculator/italian-greyhound",
+    "puppy_post": "/blog/italian-greyhound-puppy-essentials"
   },
   "greater-swiss-mountain-dog": {
     "hub": "/breeds/greater-swiss-mountain-dog",
@@ -909,7 +984,8 @@
     "supplement_post": "/blog/best-supplements-for-greater-swiss-mountain-dog",
     "names_page": "/dog-names/greater-swiss-mountain-dog",
     "health_post": "/blog/greater-swiss-mountain-dog-health-problems",
-    "cost_calculator": "/cost-calculator/greater-swiss-mountain-dog"
+    "cost_calculator": "/cost-calculator/greater-swiss-mountain-dog",
+    "puppy_post": "/blog/greater-swiss-mountain-dog-puppy-essentials"
   },
   "chow-chow": {
     "hub": "/breeds/chow-chow",
@@ -921,7 +997,8 @@
     "supplement_post": "/blog/best-supplements-for-chow-chow",
     "names_page": "/dog-names/chow-chow",
     "health_post": "/blog/chow-chow-health-problems",
-    "cost_calculator": "/cost-calculator/chow-chow"
+    "cost_calculator": "/cost-calculator/chow-chow",
+    "puppy_post": "/blog/chow-chow-puppy-essentials"
   },
   "irish-wolfhound": {
     "hub": "/breeds/irish-wolfhound",
@@ -933,7 +1010,8 @@
     "supplement_post": "/blog/best-supplements-for-irish-wolfhound",
     "names_page": "/dog-names/irish-wolfhound",
     "health_post": "/blog/irish-wolfhound-health-problems",
-    "cost_calculator": "/cost-calculator/irish-wolfhound"
+    "cost_calculator": "/cost-calculator/irish-wolfhound",
+    "puppy_post": "/blog/irish-wolfhound-puppy-essentials"
   },
   "irish-setter": {
     "hub": "/breeds/irish-setter",
@@ -945,7 +1023,8 @@
     "supplement_post": "/blog/best-supplements-for-irish-setter",
     "names_page": "/dog-names/irish-setter",
     "health_post": "/blog/irish-setter-health-problems",
-    "cost_calculator": "/cost-calculator/irish-setter"
+    "cost_calculator": "/cost-calculator/irish-setter",
+    "puppy_post": "/blog/irish-setter-puppy-essentials"
   },
   "giant-schnauzer": {
     "hub": "/breeds/giant-schnauzer",
@@ -957,7 +1036,8 @@
     "supplement_post": "/blog/best-supplements-for-giant-schnauzer",
     "names_page": "/dog-names/giant-schnauzer",
     "health_post": "/blog/giant-schnauzer-health-problems",
-    "cost_calculator": "/cost-calculator/giant-schnauzer"
+    "cost_calculator": "/cost-calculator/giant-schnauzer",
+    "puppy_post": "/blog/giant-schnauzer-puppy-essentials"
   },
   "chinese-crested": {
     "hub": "/breeds/chinese-crested",
@@ -969,7 +1049,8 @@
     "supplement_post": "/blog/best-supplements-for-chinese-crested",
     "names_page": "/dog-names/chinese-crested",
     "health_post": "/blog/chinese-crested-health-problems",
-    "cost_calculator": "/cost-calculator/chinese-crested"
+    "cost_calculator": "/cost-calculator/chinese-crested",
+    "puppy_post": "/blog/chinese-crested-puppy-essentials"
   },
   "staffordshire-bull-terrier": {
     "hub": "/breeds/staffordshire-bull-terrier",
@@ -981,7 +1062,8 @@
     "supplement_post": "/blog/best-supplements-for-staffordshire-bull-terrier",
     "names_page": "/dog-names/staffordshire-bull-terrier",
     "health_post": "/blog/staffordshire-bull-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/staffordshire-bull-terrier"
+    "cost_calculator": "/cost-calculator/staffordshire-bull-terrier",
+    "puppy_post": "/blog/staffordshire-bull-terrier-puppy-essentials"
   },
   "coton-de-tulear": {
     "hub": "/breeds/coton-de-tulear",
@@ -993,7 +1075,8 @@
     "supplement_post": "/blog/best-supplements-for-coton-de-tulear",
     "names_page": "/dog-names/coton-de-tulear",
     "health_post": "/blog/coton-de-tulear-health-problems",
-    "cost_calculator": "/cost-calculator/coton-de-tulear"
+    "cost_calculator": "/cost-calculator/coton-de-tulear",
+    "puppy_post": "/blog/coton-de-tulear-puppy-essentials"
   },
   "russell-terrier": {
     "hub": "/breeds/russell-terrier",
@@ -1005,7 +1088,8 @@
     "supplement_post": "/blog/best-supplements-for-russell-terrier",
     "names_page": "/dog-names/russell-terrier",
     "health_post": "/blog/russell-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/russell-terrier"
+    "cost_calculator": "/cost-calculator/russell-terrier",
+    "puppy_post": "/blog/russell-terrier-puppy-essentials"
   },
   "nova-scotia-duck-tolling-retriever": {
     "hub": "/breeds/nova-scotia-duck-tolling-retriever",
@@ -1017,7 +1101,8 @@
     "supplement_post": "/blog/best-supplements-for-nova-scotia-duck-tolling-retriever",
     "names_page": "/dog-names/nova-scotia-duck-tolling-retriever",
     "health_post": "/blog/nova-scotia-duck-tolling-retriever-health-problems",
-    "cost_calculator": "/cost-calculator/nova-scotia-duck-tolling-retriever"
+    "cost_calculator": "/cost-calculator/nova-scotia-duck-tolling-retriever",
+    "puppy_post": "/blog/nova-scotia-duck-tolling-retriever-puppy-essentials"
   },
   "bouvier-des-flandres": {
     "hub": "/breeds/bouvier-des-flandres",
@@ -1029,7 +1114,8 @@
     "supplement_post": "/blog/best-supplements-for-bouvier-des-flandres",
     "names_page": "/dog-names/bouvier-des-flandres",
     "health_post": "/blog/bouvier-des-flandres-health-problems",
-    "cost_calculator": "/cost-calculator/bouvier-des-flandres"
+    "cost_calculator": "/cost-calculator/bouvier-des-flandres",
+    "puppy_post": "/blog/bouvier-des-flandres-puppy-essentials"
   },
   "american-staffordshire-terrier": {
     "hub": "/breeds/american-staffordshire-terrier",
@@ -1041,7 +1127,8 @@
     "supplement_post": "/blog/best-supplements-for-american-staffordshire-terrier",
     "names_page": "/dog-names/american-staffordshire-terrier",
     "health_post": "/blog/american-staffordshire-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/american-staffordshire-terrier"
+    "cost_calculator": "/cost-calculator/american-staffordshire-terrier",
+    "puppy_post": "/blog/american-staffordshire-terrier-puppy-essentials"
   },
   "rat-terrier": {
     "hub": "/breeds/rat-terrier",
@@ -1053,7 +1140,8 @@
     "supplement_post": "/blog/best-supplements-for-rat-terrier",
     "names_page": "/dog-names/rat-terrier",
     "health_post": "/blog/rat-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/rat-terrier"
+    "cost_calculator": "/cost-calculator/rat-terrier",
+    "puppy_post": "/blog/rat-terrier-puppy-essentials"
   },
   "basenji": {
     "hub": "/breeds/basenji",
@@ -1065,7 +1153,8 @@
     "supplement_post": "/blog/best-supplements-for-basenji",
     "names_page": "/dog-names/basenji",
     "health_post": "/blog/basenji-health-problems",
-    "cost_calculator": "/cost-calculator/basenji"
+    "cost_calculator": "/cost-calculator/basenji",
+    "puppy_post": "/blog/basenji-puppy-essentials"
   },
   "border-terrier": {
     "hub": "/breeds/border-terrier",
@@ -1077,7 +1166,8 @@
     "supplement_post": "/blog/best-supplements-for-border-terrier",
     "names_page": "/dog-names/border-terrier",
     "health_post": "/blog/border-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/border-terrier"
+    "cost_calculator": "/cost-calculator/border-terrier",
+    "puppy_post": "/blog/border-terrier-puppy-essentials"
   },
   "standard-schnauzer": {
     "hub": "/breeds/standard-schnauzer",
@@ -1089,7 +1179,8 @@
     "supplement_post": "/blog/best-supplements-for-standard-schnauzer",
     "names_page": "/dog-names/standard-schnauzer",
     "health_post": "/blog/standard-schnauzer-health-problems",
-    "cost_calculator": "/cost-calculator/standard-schnauzer"
+    "cost_calculator": "/cost-calculator/standard-schnauzer",
+    "puppy_post": "/blog/standard-schnauzer-puppy-essentials"
   },
   "anatolian-shepherd-dog": {
     "hub": "/breeds/anatolian-shepherd-dog",
@@ -1101,7 +1192,8 @@
     "supplement_post": "/blog/best-supplements-for-anatolian-shepherd-dog",
     "names_page": "/dog-names/anatolian-shepherd-dog",
     "health_post": "/blog/anatolian-shepherd-dog-health-problems",
-    "cost_calculator": "/cost-calculator/anatolian-shepherd-dog"
+    "cost_calculator": "/cost-calculator/anatolian-shepherd-dog",
+    "puppy_post": "/blog/anatolian-shepherd-dog-puppy-essentials"
   },
   "flat-coated-retriever": {
     "hub": "/breeds/flat-coated-retriever",
@@ -1113,7 +1205,8 @@
     "supplement_post": "/blog/best-supplements-for-flat-coated-retriever",
     "names_page": "/dog-names/flat-coated-retriever",
     "health_post": "/blog/flat-coated-retriever-health-problems",
-    "cost_calculator": "/cost-calculator/flat-coated-retriever"
+    "cost_calculator": "/cost-calculator/flat-coated-retriever",
+    "puppy_post": "/blog/flat-coated-retriever-puppy-essentials"
   },
   "pekingese": {
     "hub": "/breeds/pekingese",
@@ -1125,7 +1218,8 @@
     "supplement_post": "/blog/best-supplements-for-pekingese",
     "names_page": "/dog-names/pekingese",
     "health_post": "/blog/pekingese-health-problems",
-    "cost_calculator": "/cost-calculator/pekingese"
+    "cost_calculator": "/cost-calculator/pekingese",
+    "puppy_post": "/blog/pekingese-puppy-essentials"
   },
   "leonberger": {
     "hub": "/breeds/leonberger",
@@ -1137,7 +1231,8 @@
     "supplement_post": "/blog/best-supplements-for-leonberger",
     "names_page": "/dog-names/leonberger",
     "health_post": "/blog/leonberger-health-problems",
-    "cost_calculator": "/cost-calculator/leonberger"
+    "cost_calculator": "/cost-calculator/leonberger",
+    "puppy_post": "/blog/leonberger-puppy-essentials"
   },
   "english-setter": {
     "hub": "/breeds/english-setter",
@@ -1149,7 +1244,8 @@
     "supplement_post": "/blog/best-supplements-for-english-setter",
     "names_page": "/dog-names/english-setter",
     "health_post": "/blog/english-setter-health-problems",
-    "cost_calculator": "/cost-calculator/english-setter"
+    "cost_calculator": "/cost-calculator/english-setter",
+    "puppy_post": "/blog/english-setter-puppy-essentials"
   },
   "keeshond": {
     "hub": "/breeds/keeshond",
@@ -1161,7 +1257,8 @@
     "supplement_post": "/blog/best-supplements-for-keeshond",
     "names_page": "/dog-names/keeshond",
     "health_post": "/blog/keeshond-health-problems",
-    "cost_calculator": "/cost-calculator/keeshond"
+    "cost_calculator": "/cost-calculator/keeshond",
+    "puppy_post": "/blog/keeshond-puppy-essentials"
   },
   "tibetan-terrier": {
     "hub": "/breeds/tibetan-terrier",
@@ -1173,7 +1270,8 @@
     "supplement_post": "/blog/best-supplements-for-tibetan-terrier",
     "names_page": "/dog-names/tibetan-terrier",
     "health_post": "/blog/tibetan-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/tibetan-terrier"
+    "cost_calculator": "/cost-calculator/tibetan-terrier",
+    "puppy_post": "/blog/tibetan-terrier-puppy-essentials"
   },
   "norwegian-elkhound": {
     "hub": "/breeds/norwegian-elkhound",
@@ -1185,7 +1283,8 @@
     "supplement_post": "/blog/best-supplements-for-norwegian-elkhound",
     "names_page": "/dog-names/norwegian-elkhound",
     "health_post": "/blog/norwegian-elkhound-health-problems",
-    "cost_calculator": "/cost-calculator/norwegian-elkhound"
+    "cost_calculator": "/cost-calculator/norwegian-elkhound",
+    "puppy_post": "/blog/norwegian-elkhound-puppy-essentials"
   },
   "brussels-griffon": {
     "hub": "/breeds/brussels-griffon",
@@ -1197,7 +1296,8 @@
     "supplement_post": "/blog/best-supplements-for-brussels-griffon",
     "names_page": "/dog-names/brussels-griffon",
     "health_post": "/blog/brussels-griffon-health-problems",
-    "cost_calculator": "/cost-calculator/brussels-griffon"
+    "cost_calculator": "/cost-calculator/brussels-griffon",
+    "puppy_post": "/blog/brussels-griffon-puppy-essentials"
   },
   "lagotto-romagnolo": {
     "hub": "/breeds/lagotto-romagnolo",
@@ -1209,7 +1309,8 @@
     "supplement_post": "/blog/best-supplements-for-lagotto-romagnolo",
     "names_page": "/dog-names/lagotto-romagnolo",
     "health_post": "/blog/lagotto-romagnolo-health-problems",
-    "cost_calculator": "/cost-calculator/lagotto-romagnolo"
+    "cost_calculator": "/cost-calculator/lagotto-romagnolo",
+    "puppy_post": "/blog/lagotto-romagnolo-puppy-essentials"
   },
   "boykin-spaniel": {
     "hub": "/breeds/boykin-spaniel",
@@ -1221,7 +1322,8 @@
     "supplement_post": "/blog/best-supplements-for-boykin-spaniel",
     "names_page": "/dog-names/boykin-spaniel",
     "health_post": "/blog/boykin-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/boykin-spaniel"
+    "cost_calculator": "/cost-calculator/boykin-spaniel",
+    "puppy_post": "/blog/boykin-spaniel-puppy-essentials"
   },
   "wire-fox-terrier": {
     "hub": "/breeds/wire-fox-terrier",
@@ -1233,7 +1335,8 @@
     "supplement_post": "/blog/best-supplements-for-wire-fox-terrier",
     "names_page": "/dog-names/wire-fox-terrier",
     "health_post": "/blog/wire-fox-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/wire-fox-terrier"
+    "cost_calculator": "/cost-calculator/wire-fox-terrier",
+    "puppy_post": "/blog/wire-fox-terrier-puppy-essentials"
   },
   "neapolitan-mastiff": {
     "hub": "/breeds/neapolitan-mastiff",
@@ -1245,7 +1348,8 @@
     "supplement_post": "/blog/best-supplements-for-neapolitan-mastiff",
     "names_page": "/dog-names/neapolitan-mastiff",
     "health_post": "/blog/neapolitan-mastiff-health-problems",
-    "cost_calculator": "/cost-calculator/neapolitan-mastiff"
+    "cost_calculator": "/cost-calculator/neapolitan-mastiff",
+    "puppy_post": "/blog/neapolitan-mastiff-puppy-essentials"
   },
   "borzoi": {
     "hub": "/breeds/borzoi",
@@ -1257,7 +1361,8 @@
     "supplement_post": "/blog/best-supplements-for-borzoi",
     "names_page": "/dog-names/borzoi",
     "health_post": "/blog/borzoi-health-problems",
-    "cost_calculator": "/cost-calculator/borzoi"
+    "cost_calculator": "/cost-calculator/borzoi",
+    "puppy_post": "/blog/borzoi-puppy-essentials"
   },
   "japanese-chin": {
     "hub": "/breeds/japanese-chin",
@@ -1269,7 +1374,8 @@
     "supplement_post": "/blog/best-supplements-for-japanese-chin",
     "names_page": "/dog-names/japanese-chin",
     "health_post": "/blog/japanese-chin-health-problems",
-    "cost_calculator": "/cost-calculator/japanese-chin"
+    "cost_calculator": "/cost-calculator/japanese-chin",
+    "puppy_post": "/blog/japanese-chin-puppy-essentials"
   },
   "schipperke": {
     "hub": "/breeds/schipperke",
@@ -1281,7 +1387,8 @@
     "supplement_post": "/blog/best-supplements-for-schipperke",
     "names_page": "/dog-names/schipperke",
     "health_post": "/blog/schipperke-health-problems",
-    "cost_calculator": "/cost-calculator/schipperke"
+    "cost_calculator": "/cost-calculator/schipperke",
+    "puppy_post": "/blog/schipperke-puppy-essentials"
   },
   "belgian-tervuren": {
     "hub": "/breeds/belgian-tervuren",
@@ -1293,7 +1400,8 @@
     "supplement_post": "/blog/best-supplements-for-belgian-tervuren",
     "names_page": "/dog-names/belgian-tervuren",
     "health_post": "/blog/belgian-tervuren-health-problems",
-    "cost_calculator": "/cost-calculator/belgian-tervuren"
+    "cost_calculator": "/cost-calculator/belgian-tervuren",
+    "puppy_post": "/blog/belgian-tervuren-puppy-essentials"
   },
   "welsh-terrier": {
     "hub": "/breeds/welsh-terrier",
@@ -1305,7 +1413,8 @@
     "supplement_post": "/blog/best-supplements-for-welsh-terrier",
     "names_page": "/dog-names/welsh-terrier",
     "health_post": "/blog/welsh-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/welsh-terrier"
+    "cost_calculator": "/cost-calculator/welsh-terrier",
+    "puppy_post": "/blog/welsh-terrier-puppy-essentials"
   },
   "norwich-terrier": {
     "hub": "/breeds/norwich-terrier",
@@ -1317,7 +1426,8 @@
     "supplement_post": "/blog/best-supplements-for-norwich-terrier",
     "names_page": "/dog-names/norwich-terrier",
     "health_post": "/blog/norwich-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/norwich-terrier"
+    "cost_calculator": "/cost-calculator/norwich-terrier",
+    "puppy_post": "/blog/norwich-terrier-puppy-essentials"
   },
   "spinone-italiano": {
     "hub": "/breeds/spinone-italiano",
@@ -1329,7 +1439,8 @@
     "supplement_post": "/blog/best-supplements-for-spinone-italiano",
     "names_page": "/dog-names/spinone-italiano",
     "health_post": "/blog/spinone-italiano-health-problems",
-    "cost_calculator": "/cost-calculator/spinone-italiano"
+    "cost_calculator": "/cost-calculator/spinone-italiano",
+    "puppy_post": "/blog/spinone-italiano-puppy-essentials"
   },
   "miniature-bull-terrier": {
     "hub": "/breeds/miniature-bull-terrier",
@@ -1341,7 +1452,8 @@
     "supplement_post": "/blog/best-supplements-for-miniature-bull-terrier",
     "names_page": "/dog-names/miniature-bull-terrier",
     "health_post": "/blog/miniature-bull-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/miniature-bull-terrier"
+    "cost_calculator": "/cost-calculator/miniature-bull-terrier",
+    "puppy_post": "/blog/miniature-bull-terrier-puppy-essentials"
   },
   "toy-fox-terrier": {
     "hub": "/breeds/toy-fox-terrier",
@@ -1353,7 +1465,8 @@
     "supplement_post": "/blog/best-supplements-for-toy-fox-terrier",
     "names_page": "/dog-names/toy-fox-terrier",
     "health_post": "/blog/toy-fox-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/toy-fox-terrier"
+    "cost_calculator": "/cost-calculator/toy-fox-terrier",
+    "puppy_post": "/blog/toy-fox-terrier-puppy-essentials"
   },
   "silky-terrier": {
     "hub": "/breeds/silky-terrier",
@@ -1365,7 +1478,8 @@
     "supplement_post": "/blog/best-supplements-for-silky-terrier",
     "names_page": "/dog-names/silky-terrier",
     "health_post": "/blog/silky-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/silky-terrier"
+    "cost_calculator": "/cost-calculator/silky-terrier",
+    "puppy_post": "/blog/silky-terrier-puppy-essentials"
   },
   "afghan-hound": {
     "hub": "/breeds/afghan-hound",
@@ -1377,7 +1491,8 @@
     "supplement_post": "/blog/best-supplements-for-afghan-hound",
     "names_page": "/dog-names/afghan-hound",
     "health_post": "/blog/afghan-hound-health-problems",
-    "cost_calculator": "/cost-calculator/afghan-hound"
+    "cost_calculator": "/cost-calculator/afghan-hound",
+    "puppy_post": "/blog/afghan-hound-puppy-essentials"
   },
   "pointer": {
     "hub": "/breeds/pointer",
@@ -1389,7 +1504,8 @@
     "supplement_post": "/blog/best-supplements-for-pointer",
     "names_page": "/dog-names/pointer",
     "health_post": "/blog/pointer-health-problems",
-    "cost_calculator": "/cost-calculator/pointer"
+    "cost_calculator": "/cost-calculator/pointer",
+    "puppy_post": "/blog/pointer-puppy-essentials"
   },
   "gordon-setter": {
     "hub": "/breeds/gordon-setter",
@@ -1401,7 +1517,8 @@
     "supplement_post": "/blog/best-supplements-for-gordon-setter",
     "names_page": "/dog-names/gordon-setter",
     "health_post": "/blog/gordon-setter-health-problems",
-    "cost_calculator": "/cost-calculator/gordon-setter"
+    "cost_calculator": "/cost-calculator/gordon-setter",
+    "puppy_post": "/blog/gordon-setter-puppy-essentials"
   },
   "irish-terrier": {
     "hub": "/breeds/irish-terrier",
@@ -1413,7 +1530,8 @@
     "supplement_post": "/blog/best-supplements-for-irish-terrier",
     "names_page": "/dog-names/irish-terrier",
     "health_post": "/blog/irish-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/irish-terrier"
+    "cost_calculator": "/cost-calculator/irish-terrier",
+    "puppy_post": "/blog/irish-terrier-puppy-essentials"
   },
   "parson-russell-terrier": {
     "hub": "/breeds/parson-russell-terrier",
@@ -1425,7 +1543,8 @@
     "supplement_post": "/blog/best-supplements-for-parson-russell-terrier",
     "names_page": "/dog-names/parson-russell-terrier",
     "health_post": "/blog/parson-russell-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/parson-russell-terrier"
+    "cost_calculator": "/cost-calculator/parson-russell-terrier",
+    "puppy_post": "/blog/parson-russell-terrier-puppy-essentials"
   },
   "black-russian-terrier": {
     "hub": "/breeds/black-russian-terrier",
@@ -1437,7 +1556,8 @@
     "supplement_post": "/blog/best-supplements-for-black-russian-terrier",
     "names_page": "/dog-names/black-russian-terrier",
     "health_post": "/blog/black-russian-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/black-russian-terrier"
+    "cost_calculator": "/cost-calculator/black-russian-terrier",
+    "puppy_post": "/blog/black-russian-terrier-puppy-essentials"
   },
   "tibetan-spaniel": {
     "hub": "/breeds/tibetan-spaniel",
@@ -1449,7 +1569,8 @@
     "supplement_post": "/blog/best-supplements-for-tibetan-spaniel",
     "names_page": "/dog-names/tibetan-spaniel",
     "health_post": "/blog/tibetan-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/tibetan-spaniel"
+    "cost_calculator": "/cost-calculator/tibetan-spaniel",
+    "puppy_post": "/blog/tibetan-spaniel-puppy-essentials"
   },
   "saluki": {
     "hub": "/breeds/saluki",
@@ -1461,7 +1582,8 @@
     "supplement_post": "/blog/best-supplements-for-saluki",
     "names_page": "/dog-names/saluki",
     "health_post": "/blog/saluki-health-problems",
-    "cost_calculator": "/cost-calculator/saluki"
+    "cost_calculator": "/cost-calculator/saluki",
+    "puppy_post": "/blog/saluki-puppy-essentials"
   },
   "boerboel": {
     "hub": "/breeds/boerboel",
@@ -1473,7 +1595,8 @@
     "supplement_post": "/blog/best-supplements-for-boerboel",
     "names_page": "/dog-names/boerboel",
     "health_post": "/blog/boerboel-health-problems",
-    "cost_calculator": "/cost-calculator/boerboel"
+    "cost_calculator": "/cost-calculator/boerboel",
+    "puppy_post": "/blog/boerboel-puppy-essentials"
   },
   "american-eskimo-dog": {
     "hub": "/breeds/american-eskimo-dog",
@@ -1485,7 +1608,8 @@
     "supplement_post": "/blog/best-supplements-for-american-eskimo-dog",
     "names_page": "/dog-names/american-eskimo-dog",
     "health_post": "/blog/american-eskimo-dog-health-problems",
-    "cost_calculator": "/cost-calculator/american-eskimo-dog"
+    "cost_calculator": "/cost-calculator/american-eskimo-dog",
+    "puppy_post": "/blog/american-eskimo-dog-puppy-essentials"
   },
   "smooth-fox-terrier": {
     "hub": "/breeds/smooth-fox-terrier",
@@ -1497,7 +1621,8 @@
     "supplement_post": "/blog/best-supplements-for-smooth-fox-terrier",
     "names_page": "/dog-names/smooth-fox-terrier",
     "health_post": "/blog/smooth-fox-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/smooth-fox-terrier"
+    "cost_calculator": "/cost-calculator/smooth-fox-terrier",
+    "puppy_post": "/blog/smooth-fox-terrier-puppy-essentials"
   },
   "beauceron": {
     "hub": "/breeds/beauceron",
@@ -1509,7 +1634,8 @@
     "supplement_post": "/blog/best-supplements-for-beauceron",
     "names_page": "/dog-names/beauceron",
     "health_post": "/blog/beauceron-health-problems",
-    "cost_calculator": "/cost-calculator/beauceron"
+    "cost_calculator": "/cost-calculator/beauceron",
+    "puppy_post": "/blog/beauceron-puppy-essentials"
   },
   "belgian-sheepdog": {
     "hub": "/breeds/belgian-sheepdog",
@@ -1521,7 +1647,8 @@
     "supplement_post": "/blog/best-supplements-for-belgian-sheepdog",
     "names_page": "/dog-names/belgian-sheepdog",
     "health_post": "/blog/belgian-sheepdog-health-problems",
-    "cost_calculator": "/cost-calculator/belgian-sheepdog"
+    "cost_calculator": "/cost-calculator/belgian-sheepdog",
+    "puppy_post": "/blog/belgian-sheepdog-puppy-essentials"
   },
   "norfolk-terrier": {
     "hub": "/breeds/norfolk-terrier",
@@ -1533,7 +1660,8 @@
     "supplement_post": "/blog/best-supplements-for-norfolk-terrier",
     "names_page": "/dog-names/norfolk-terrier",
     "health_post": "/blog/norfolk-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/norfolk-terrier"
+    "cost_calculator": "/cost-calculator/norfolk-terrier",
+    "puppy_post": "/blog/norfolk-terrier-puppy-essentials"
   },
   "bearded-collie": {
     "hub": "/breeds/bearded-collie",
@@ -1545,7 +1673,8 @@
     "supplement_post": "/blog/best-supplements-for-bearded-collie",
     "names_page": "/dog-names/bearded-collie",
     "health_post": "/blog/bearded-collie-health-problems",
-    "cost_calculator": "/cost-calculator/bearded-collie"
+    "cost_calculator": "/cost-calculator/bearded-collie",
+    "puppy_post": "/blog/bearded-collie-puppy-essentials"
   },
   "welsh-springer-spaniel": {
     "hub": "/breeds/welsh-springer-spaniel",
@@ -1557,7 +1686,8 @@
     "supplement_post": "/blog/best-supplements-for-welsh-springer-spaniel",
     "names_page": "/dog-names/welsh-springer-spaniel",
     "health_post": "/blog/welsh-springer-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/welsh-springer-spaniel"
+    "cost_calculator": "/cost-calculator/welsh-springer-spaniel",
+    "puppy_post": "/blog/welsh-springer-spaniel-puppy-essentials"
   },
   "kerry-blue-terrier": {
     "hub": "/breeds/kerry-blue-terrier",
@@ -1569,7 +1699,8 @@
     "supplement_post": "/blog/best-supplements-for-kerry-blue-terrier",
     "names_page": "/dog-names/kerry-blue-terrier",
     "health_post": "/blog/kerry-blue-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/kerry-blue-terrier"
+    "cost_calculator": "/cost-calculator/kerry-blue-terrier",
+    "puppy_post": "/blog/kerry-blue-terrier-puppy-essentials"
   },
   "bluetick-coonhound": {
     "hub": "/breeds/bluetick-coonhound",
@@ -1581,7 +1712,8 @@
     "supplement_post": "/blog/best-supplements-for-bluetick-coonhound",
     "names_page": "/dog-names/bluetick-coonhound",
     "health_post": "/blog/bluetick-coonhound-health-problems",
-    "cost_calculator": "/cost-calculator/bluetick-coonhound"
+    "cost_calculator": "/cost-calculator/bluetick-coonhound",
+    "puppy_post": "/blog/bluetick-coonhound-puppy-essentials"
   },
   "tibetan-mastiff": {
     "hub": "/breeds/tibetan-mastiff",
@@ -1593,7 +1725,8 @@
     "supplement_post": "/blog/best-supplements-for-tibetan-mastiff",
     "names_page": "/dog-names/tibetan-mastiff",
     "health_post": "/blog/tibetan-mastiff-health-problems",
-    "cost_calculator": "/cost-calculator/tibetan-mastiff"
+    "cost_calculator": "/cost-calculator/tibetan-mastiff",
+    "puppy_post": "/blog/tibetan-mastiff-puppy-essentials"
   },
   "briard": {
     "hub": "/breeds/briard",
@@ -1605,7 +1738,8 @@
     "supplement_post": "/blog/best-supplements-for-briard",
     "names_page": "/dog-names/briard",
     "health_post": "/blog/briard-health-problems",
-    "cost_calculator": "/cost-calculator/briard"
+    "cost_calculator": "/cost-calculator/briard",
+    "puppy_post": "/blog/briard-puppy-essentials"
   },
   "manchester-terrier-standard": {
     "hub": "/breeds/manchester-terrier-standard",
@@ -1617,7 +1751,8 @@
     "supplement_post": "/blog/best-supplements-for-manchester-terrier-standard",
     "names_page": "/dog-names/manchester-terrier-standard",
     "health_post": "/blog/manchester-terrier-standard-health-problems",
-    "cost_calculator": "/cost-calculator/manchester-terrier-standard"
+    "cost_calculator": "/cost-calculator/manchester-terrier-standard",
+    "puppy_post": "/blog/manchester-terrier-standard-puppy-essentials"
   },
   "manchester-terrier-toy": {
     "hub": "/breeds/manchester-terrier-toy",
@@ -1629,7 +1764,8 @@
     "supplement_post": "/blog/best-supplements-for-manchester-terrier-toy",
     "names_page": "/dog-names/manchester-terrier-toy",
     "health_post": "/blog/manchester-terrier-toy-health-problems",
-    "cost_calculator": "/cost-calculator/manchester-terrier-toy"
+    "cost_calculator": "/cost-calculator/manchester-terrier-toy",
+    "puppy_post": "/blog/manchester-terrier-toy-puppy-essentials"
   },
   "german-pinscher": {
     "hub": "/breeds/german-pinscher",
@@ -1641,7 +1777,8 @@
     "supplement_post": "/blog/best-supplements-for-german-pinscher",
     "names_page": "/dog-names/german-pinscher",
     "health_post": "/blog/german-pinscher-health-problems",
-    "cost_calculator": "/cost-calculator/german-pinscher"
+    "cost_calculator": "/cost-calculator/german-pinscher",
+    "puppy_post": "/blog/german-pinscher-puppy-essentials"
   },
   "english-toy-spaniel": {
     "hub": "/breeds/english-toy-spaniel",
@@ -1653,7 +1790,8 @@
     "supplement_post": "/blog/best-supplements-for-english-toy-spaniel",
     "names_page": "/dog-names/english-toy-spaniel",
     "health_post": "/blog/english-toy-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/english-toy-spaniel"
+    "cost_calculator": "/cost-calculator/english-toy-spaniel",
+    "puppy_post": "/blog/english-toy-spaniel-puppy-essentials"
   },
   "american-hairless-terrier": {
     "hub": "/breeds/american-hairless-terrier",
@@ -1665,7 +1803,8 @@
     "supplement_post": "/blog/best-supplements-for-american-hairless-terrier",
     "names_page": "/dog-names/american-hairless-terrier",
     "health_post": "/blog/american-hairless-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/american-hairless-terrier"
+    "cost_calculator": "/cost-calculator/american-hairless-terrier",
+    "puppy_post": "/blog/american-hairless-terrier-puppy-essentials"
   },
   "treeing-walker-coonhound": {
     "hub": "/breeds/treeing-walker-coonhound",
@@ -1677,7 +1816,8 @@
     "supplement_post": "/blog/best-supplements-for-treeing-walker-coonhound",
     "names_page": "/dog-names/treeing-walker-coonhound",
     "health_post": "/blog/treeing-walker-coonhound-health-problems",
-    "cost_calculator": "/cost-calculator/treeing-walker-coonhound"
+    "cost_calculator": "/cost-calculator/treeing-walker-coonhound",
+    "puppy_post": "/blog/treeing-walker-coonhound-puppy-essentials"
   },
   "black-and-tan-coonhound": {
     "hub": "/breeds/black-and-tan-coonhound",
@@ -1689,7 +1829,8 @@
     "supplement_post": "/blog/best-supplements-for-black-and-tan-coonhound",
     "names_page": "/dog-names/black-and-tan-coonhound",
     "health_post": "/blog/black-and-tan-coonhound-health-problems",
-    "cost_calculator": "/cost-calculator/black-and-tan-coonhound"
+    "cost_calculator": "/cost-calculator/black-and-tan-coonhound",
+    "puppy_post": "/blog/black-and-tan-coonhound-puppy-essentials"
   },
   "australian-terrier": {
     "hub": "/breeds/australian-terrier",
@@ -1701,7 +1842,8 @@
     "supplement_post": "/blog/best-supplements-for-australian-terrier",
     "names_page": "/dog-names/australian-terrier",
     "health_post": "/blog/australian-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/australian-terrier"
+    "cost_calculator": "/cost-calculator/australian-terrier",
+    "puppy_post": "/blog/australian-terrier-puppy-essentials"
   },
   "xoloitzcuintli": {
     "hub": "/breeds/xoloitzcuintli",
@@ -1713,7 +1855,8 @@
     "supplement_post": "/blog/best-supplements-for-xoloitzcuintli",
     "names_page": "/dog-names/xoloitzcuintli",
     "health_post": "/blog/xoloitzcuintli-health-problems",
-    "cost_calculator": "/cost-calculator/xoloitzcuintli"
+    "cost_calculator": "/cost-calculator/xoloitzcuintli",
+    "puppy_post": "/blog/xoloitzcuintli-puppy-essentials"
   },
   "bedlington-terrier": {
     "hub": "/breeds/bedlington-terrier",
@@ -1725,7 +1868,8 @@
     "supplement_post": "/blog/best-supplements-for-bedlington-terrier",
     "names_page": "/dog-names/bedlington-terrier",
     "health_post": "/blog/bedlington-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/bedlington-terrier"
+    "cost_calculator": "/cost-calculator/bedlington-terrier",
+    "puppy_post": "/blog/bedlington-terrier-puppy-essentials"
   },
   "redbone-coonhound": {
     "hub": "/breeds/redbone-coonhound",
@@ -1737,7 +1881,8 @@
     "supplement_post": "/blog/best-supplements-for-redbone-coonhound",
     "names_page": "/dog-names/redbone-coonhound",
     "health_post": "/blog/redbone-coonhound-health-problems",
-    "cost_calculator": "/cost-calculator/redbone-coonhound"
+    "cost_calculator": "/cost-calculator/redbone-coonhound",
+    "puppy_post": "/blog/redbone-coonhound-puppy-essentials"
   },
   "clumber-spaniel": {
     "hub": "/breeds/clumber-spaniel",
@@ -1749,7 +1894,8 @@
     "supplement_post": "/blog/best-supplements-for-clumber-spaniel",
     "names_page": "/dog-names/clumber-spaniel",
     "health_post": "/blog/clumber-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/clumber-spaniel"
+    "cost_calculator": "/cost-calculator/clumber-spaniel",
+    "puppy_post": "/blog/clumber-spaniel-puppy-essentials"
   },
   "berger-picard": {
     "hub": "/breeds/berger-picard",
@@ -1761,7 +1907,8 @@
     "supplement_post": "/blog/best-supplements-for-berger-picard",
     "names_page": "/dog-names/berger-picard",
     "health_post": "/blog/berger-picard-health-problems",
-    "cost_calculator": "/cost-calculator/berger-picard"
+    "cost_calculator": "/cost-calculator/berger-picard",
+    "puppy_post": "/blog/berger-picard-puppy-essentials"
   },
   "greyhound": {
     "hub": "/breeds/greyhound",
@@ -1773,7 +1920,8 @@
     "supplement_post": "/blog/best-supplements-for-greyhound",
     "names_page": "/dog-names/greyhound",
     "health_post": "/blog/greyhound-health-problems",
-    "cost_calculator": "/cost-calculator/greyhound"
+    "cost_calculator": "/cost-calculator/greyhound",
+    "puppy_post": "/blog/greyhound-puppy-essentials"
   },
   "irish-red-and-white-setter": {
     "hub": "/breeds/irish-red-and-white-setter",
@@ -1785,7 +1933,8 @@
     "supplement_post": "/blog/best-supplements-for-irish-red-and-white-setter",
     "names_page": "/dog-names/irish-red-and-white-setter",
     "health_post": "/blog/irish-red-and-white-setter-health-problems",
-    "cost_calculator": "/cost-calculator/irish-red-and-white-setter"
+    "cost_calculator": "/cost-calculator/irish-red-and-white-setter",
+    "puppy_post": "/blog/irish-red-and-white-setter-puppy-essentials"
   },
   "lakeland-terrier": {
     "hub": "/breeds/lakeland-terrier",
@@ -1797,7 +1946,8 @@
     "supplement_post": "/blog/best-supplements-for-lakeland-terrier",
     "names_page": "/dog-names/lakeland-terrier",
     "health_post": "/blog/lakeland-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/lakeland-terrier"
+    "cost_calculator": "/cost-calculator/lakeland-terrier",
+    "puppy_post": "/blog/lakeland-terrier-puppy-essentials"
   },
   "affenpinscher": {
     "hub": "/breeds/affenpinscher",
@@ -1809,7 +1959,8 @@
     "supplement_post": "/blog/best-supplements-for-affenpinscher",
     "names_page": "/dog-names/affenpinscher",
     "health_post": "/blog/affenpinscher-health-problems",
-    "cost_calculator": "/cost-calculator/affenpinscher"
+    "cost_calculator": "/cost-calculator/affenpinscher",
+    "puppy_post": "/blog/affenpinscher-puppy-essentials"
   },
   "field-spaniel": {
     "hub": "/breeds/field-spaniel",
@@ -1821,7 +1972,8 @@
     "supplement_post": "/blog/best-supplements-for-field-spaniel",
     "names_page": "/dog-names/field-spaniel",
     "health_post": "/blog/field-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/field-spaniel"
+    "cost_calculator": "/cost-calculator/field-spaniel",
+    "puppy_post": "/blog/field-spaniel-puppy-essentials"
   },
   "nederlandse-kooikerhondje": {
     "hub": "/breeds/nederlandse-kooikerhondje",
@@ -1833,7 +1985,8 @@
     "supplement_post": "/blog/best-supplements-for-nederlandse-kooikerhondje",
     "names_page": "/dog-names/nederlandse-kooikerhondje",
     "health_post": "/blog/nederlandse-kooikerhondje-health-problems",
-    "cost_calculator": "/cost-calculator/nederlandse-kooikerhondje"
+    "cost_calculator": "/cost-calculator/nederlandse-kooikerhondje",
+    "puppy_post": "/blog/nederlandse-kooikerhondje-puppy-essentials"
   },
   "pumi": {
     "hub": "/breeds/pumi",
@@ -1845,7 +1998,8 @@
     "supplement_post": "/blog/best-supplements-for-pumi",
     "names_page": "/dog-names/pumi",
     "health_post": "/blog/pumi-health-problems",
-    "cost_calculator": "/cost-calculator/pumi"
+    "cost_calculator": "/cost-calculator/pumi",
+    "puppy_post": "/blog/pumi-puppy-essentials"
   },
   "ibizan-hound": {
     "hub": "/breeds/ibizan-hound",
@@ -1857,7 +2011,8 @@
     "supplement_post": "/blog/best-supplements-for-ibizan-hound",
     "names_page": "/dog-names/ibizan-hound",
     "health_post": "/blog/ibizan-hound-health-problems",
-    "cost_calculator": "/cost-calculator/ibizan-hound"
+    "cost_calculator": "/cost-calculator/ibizan-hound",
+    "puppy_post": "/blog/ibizan-hound-puppy-essentials"
   },
   "spanish-water-dog": {
     "hub": "/breeds/spanish-water-dog",
@@ -1869,7 +2024,8 @@
     "supplement_post": "/blog/best-supplements-for-spanish-water-dog",
     "names_page": "/dog-names/spanish-water-dog",
     "health_post": "/blog/spanish-water-dog-health-problems",
-    "cost_calculator": "/cost-calculator/spanish-water-dog"
+    "cost_calculator": "/cost-calculator/spanish-water-dog",
+    "puppy_post": "/blog/spanish-water-dog-puppy-essentials"
   },
   "portuguese-podengo-pequeno": {
     "hub": "/breeds/portuguese-podengo-pequeno",
@@ -1881,7 +2037,8 @@
     "supplement_post": "/blog/best-supplements-for-portuguese-podengo-pequeno",
     "names_page": "/dog-names/portuguese-podengo-pequeno",
     "health_post": "/blog/portuguese-podengo-pequeno-health-problems",
-    "cost_calculator": "/cost-calculator/portuguese-podengo-pequeno"
+    "cost_calculator": "/cost-calculator/portuguese-podengo-pequeno",
+    "puppy_post": "/blog/portuguese-podengo-pequeno-puppy-essentials"
   },
   "icelandic-sheepdog": {
     "hub": "/breeds/icelandic-sheepdog",
@@ -1893,7 +2050,8 @@
     "supplement_post": "/blog/best-supplements-for-icelandic-sheepdog",
     "names_page": "/dog-names/icelandic-sheepdog",
     "health_post": "/blog/icelandic-sheepdog-health-problems",
-    "cost_calculator": "/cost-calculator/icelandic-sheepdog"
+    "cost_calculator": "/cost-calculator/icelandic-sheepdog",
+    "puppy_post": "/blog/icelandic-sheepdog-puppy-essentials"
   },
   "petit-basset-griffon-venden": {
     "hub": "/breeds/petit-basset-griffon-venden",
@@ -1905,7 +2063,8 @@
     "supplement_post": "/blog/best-supplements-for-petit-basset-griffon-venden",
     "names_page": "/dog-names/petit-basset-griffon-venden",
     "health_post": "/blog/petit-basset-griffon-venden-health-problems",
-    "cost_calculator": "/cost-calculator/petit-basset-griffon-venden"
+    "cost_calculator": "/cost-calculator/petit-basset-griffon-venden",
+    "puppy_post": "/blog/petit-basset-griffon-venden-puppy-essentials"
   },
   "entlebucher-mountain-dog": {
     "hub": "/breeds/entlebucher-mountain-dog",
@@ -1917,7 +2076,8 @@
     "supplement_post": "/blog/best-supplements-for-entlebucher-mountain-dog",
     "names_page": "/dog-names/entlebucher-mountain-dog",
     "health_post": "/blog/entlebucher-mountain-dog-health-problems",
-    "cost_calculator": "/cost-calculator/entlebucher-mountain-dog"
+    "cost_calculator": "/cost-calculator/entlebucher-mountain-dog",
+    "puppy_post": "/blog/entlebucher-mountain-dog-puppy-essentials"
   },
   "scottish-deerhound": {
     "hub": "/breeds/scottish-deerhound",
@@ -1929,7 +2089,8 @@
     "supplement_post": "/blog/best-supplements-for-scottish-deerhound",
     "names_page": "/dog-names/scottish-deerhound",
     "health_post": "/blog/scottish-deerhound-health-problems",
-    "cost_calculator": "/cost-calculator/scottish-deerhound"
+    "cost_calculator": "/cost-calculator/scottish-deerhound",
+    "puppy_post": "/blog/scottish-deerhound-puppy-essentials"
   },
   "irish-water-spaniel": {
     "hub": "/breeds/irish-water-spaniel",
@@ -1941,7 +2102,8 @@
     "supplement_post": "/blog/best-supplements-for-irish-water-spaniel",
     "names_page": "/dog-names/irish-water-spaniel",
     "health_post": "/blog/irish-water-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/irish-water-spaniel"
+    "cost_calculator": "/cost-calculator/irish-water-spaniel",
+    "puppy_post": "/blog/irish-water-spaniel-puppy-essentials"
   },
   "puli": {
     "hub": "/breeds/puli",
@@ -1953,7 +2115,8 @@
     "supplement_post": "/blog/best-supplements-for-puli",
     "names_page": "/dog-names/puli",
     "health_post": "/blog/puli-health-problems",
-    "cost_calculator": "/cost-calculator/puli"
+    "cost_calculator": "/cost-calculator/puli",
+    "puppy_post": "/blog/puli-puppy-essentials"
   },
   "finnish-lapphund": {
     "hub": "/breeds/finnish-lapphund",
@@ -1965,7 +2128,8 @@
     "supplement_post": "/blog/best-supplements-for-finnish-lapphund",
     "names_page": "/dog-names/finnish-lapphund",
     "health_post": "/blog/finnish-lapphund-health-problems",
-    "cost_calculator": "/cost-calculator/finnish-lapphund"
+    "cost_calculator": "/cost-calculator/finnish-lapphund",
+    "puppy_post": "/blog/finnish-lapphund-puppy-essentials"
   },
   "curly-coated-retriever": {
     "hub": "/breeds/curly-coated-retriever",
@@ -1977,7 +2141,8 @@
     "supplement_post": "/blog/best-supplements-for-curly-coated-retriever",
     "names_page": "/dog-names/curly-coated-retriever",
     "health_post": "/blog/curly-coated-retriever-health-problems",
-    "cost_calculator": "/cost-calculator/curly-coated-retriever"
+    "cost_calculator": "/cost-calculator/curly-coated-retriever",
+    "puppy_post": "/blog/curly-coated-retriever-puppy-essentials"
   },
   "kuvasz": {
     "hub": "/breeds/kuvasz",
@@ -1989,7 +2154,8 @@
     "supplement_post": "/blog/best-supplements-for-kuvasz",
     "names_page": "/dog-names/kuvasz",
     "health_post": "/blog/kuvasz-health-problems",
-    "cost_calculator": "/cost-calculator/kuvasz"
+    "cost_calculator": "/cost-calculator/kuvasz",
+    "puppy_post": "/blog/kuvasz-puppy-essentials"
   },
   "sealyham-terrier": {
     "hub": "/breeds/sealyham-terrier",
@@ -2001,7 +2167,8 @@
     "supplement_post": "/blog/best-supplements-for-sealyham-terrier",
     "names_page": "/dog-names/sealyham-terrier",
     "health_post": "/blog/sealyham-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/sealyham-terrier"
+    "cost_calculator": "/cost-calculator/sealyham-terrier",
+    "puppy_post": "/blog/sealyham-terrier-puppy-essentials"
   },
   "norwegian-buhund": {
     "hub": "/breeds/norwegian-buhund",
@@ -2013,7 +2180,8 @@
     "supplement_post": "/blog/best-supplements-for-norwegian-buhund",
     "names_page": "/dog-names/norwegian-buhund",
     "health_post": "/blog/norwegian-buhund-health-problems",
-    "cost_calculator": "/cost-calculator/norwegian-buhund"
+    "cost_calculator": "/cost-calculator/norwegian-buhund",
+    "puppy_post": "/blog/norwegian-buhund-puppy-essentials"
   },
   "american-water-spaniel": {
     "hub": "/breeds/american-water-spaniel",
@@ -2025,7 +2193,8 @@
     "supplement_post": "/blog/best-supplements-for-american-water-spaniel",
     "names_page": "/dog-names/american-water-spaniel",
     "health_post": "/blog/american-water-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/american-water-spaniel"
+    "cost_calculator": "/cost-calculator/american-water-spaniel",
+    "puppy_post": "/blog/american-water-spaniel-puppy-essentials"
   },
   "wirehaired-vizsla": {
     "hub": "/breeds/wirehaired-vizsla",
@@ -2037,7 +2206,8 @@
     "supplement_post": "/blog/best-supplements-for-wirehaired-vizsla",
     "names_page": "/dog-names/wirehaired-vizsla",
     "health_post": "/blog/wirehaired-vizsla-health-problems",
-    "cost_calculator": "/cost-calculator/wirehaired-vizsla"
+    "cost_calculator": "/cost-calculator/wirehaired-vizsla",
+    "puppy_post": "/blog/wirehaired-vizsla-puppy-essentials"
   },
   "lwchen": {
     "hub": "/breeds/lwchen",
@@ -2049,7 +2219,8 @@
     "supplement_post": "/blog/best-supplements-for-lwchen",
     "names_page": "/dog-names/lwchen",
     "health_post": "/blog/lwchen-health-problems",
-    "cost_calculator": "/cost-calculator/lwchen"
+    "cost_calculator": "/cost-calculator/lwchen",
+    "puppy_post": "/blog/lwchen-puppy-essentials"
   },
   "swedish-vallhund": {
     "hub": "/breeds/swedish-vallhund",
@@ -2061,7 +2232,8 @@
     "supplement_post": "/blog/best-supplements-for-swedish-vallhund",
     "names_page": "/dog-names/swedish-vallhund",
     "health_post": "/blog/swedish-vallhund-health-problems",
-    "cost_calculator": "/cost-calculator/swedish-vallhund"
+    "cost_calculator": "/cost-calculator/swedish-vallhund",
+    "puppy_post": "/blog/swedish-vallhund-puppy-essentials"
   },
   "polish-lowland-sheepdog": {
     "hub": "/breeds/polish-lowland-sheepdog",
@@ -2073,7 +2245,8 @@
     "supplement_post": "/blog/best-supplements-for-polish-lowland-sheepdog",
     "names_page": "/dog-names/polish-lowland-sheepdog",
     "health_post": "/blog/polish-lowland-sheepdog-health-problems",
-    "cost_calculator": "/cost-calculator/polish-lowland-sheepdog"
+    "cost_calculator": "/cost-calculator/polish-lowland-sheepdog",
+    "puppy_post": "/blog/polish-lowland-sheepdog-puppy-essentials"
   },
   "plott-hound": {
     "hub": "/breeds/plott-hound",
@@ -2085,7 +2258,8 @@
     "supplement_post": "/blog/best-supplements-for-plott-hound",
     "names_page": "/dog-names/plott-hound",
     "health_post": "/blog/plott-hound-health-problems",
-    "cost_calculator": "/cost-calculator/plott-hound"
+    "cost_calculator": "/cost-calculator/plott-hound",
+    "puppy_post": "/blog/plott-hound-puppy-essentials"
   },
   "pharaoh-hound": {
     "hub": "/breeds/pharaoh-hound",
@@ -2097,7 +2271,8 @@
     "supplement_post": "/blog/best-supplements-for-pharaoh-hound",
     "names_page": "/dog-names/pharaoh-hound",
     "health_post": "/blog/pharaoh-hound-health-problems",
-    "cost_calculator": "/cost-calculator/pharaoh-hound"
+    "cost_calculator": "/cost-calculator/pharaoh-hound",
+    "puppy_post": "/blog/pharaoh-hound-puppy-essentials"
   },
   "komondor": {
     "hub": "/breeds/komondor",
@@ -2109,7 +2284,8 @@
     "supplement_post": "/blog/best-supplements-for-komondor",
     "names_page": "/dog-names/komondor",
     "health_post": "/blog/komondor-health-problems",
-    "cost_calculator": "/cost-calculator/komondor"
+    "cost_calculator": "/cost-calculator/komondor",
+    "puppy_post": "/blog/komondor-puppy-essentials"
   },
   "glen-of-imaal-terrier": {
     "hub": "/breeds/glen-of-imaal-terrier",
@@ -2121,7 +2297,8 @@
     "supplement_post": "/blog/best-supplements-for-glen-of-imaal-terrier",
     "names_page": "/dog-names/glen-of-imaal-terrier",
     "health_post": "/blog/glen-of-imaal-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/glen-of-imaal-terrier"
+    "cost_calculator": "/cost-calculator/glen-of-imaal-terrier",
+    "puppy_post": "/blog/glen-of-imaal-terrier-puppy-essentials"
   },
   "american-english-coonhound": {
     "hub": "/breeds/american-english-coonhound",
@@ -2133,7 +2310,8 @@
     "supplement_post": "/blog/best-supplements-for-american-english-coonhound",
     "names_page": "/dog-names/american-english-coonhound",
     "health_post": "/blog/american-english-coonhound-health-problems",
-    "cost_calculator": "/cost-calculator/american-english-coonhound"
+    "cost_calculator": "/cost-calculator/american-english-coonhound",
+    "puppy_post": "/blog/american-english-coonhound-puppy-essentials"
   },
   "dandie-dinmont-terrier": {
     "hub": "/breeds/dandie-dinmont-terrier",
@@ -2145,7 +2323,8 @@
     "supplement_post": "/blog/best-supplements-for-dandie-dinmont-terrier",
     "names_page": "/dog-names/dandie-dinmont-terrier",
     "health_post": "/blog/dandie-dinmont-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/dandie-dinmont-terrier"
+    "cost_calculator": "/cost-calculator/dandie-dinmont-terrier",
+    "puppy_post": "/blog/dandie-dinmont-terrier-puppy-essentials"
   },
   "grand-basset-griffon-venden": {
     "hub": "/breeds/grand-basset-griffon-venden",
@@ -2157,7 +2336,8 @@
     "supplement_post": "/blog/best-supplements-for-grand-basset-griffon-venden",
     "names_page": "/dog-names/grand-basset-griffon-venden",
     "health_post": "/blog/grand-basset-griffon-venden-health-problems",
-    "cost_calculator": "/cost-calculator/grand-basset-griffon-venden"
+    "cost_calculator": "/cost-calculator/grand-basset-griffon-venden",
+    "puppy_post": "/blog/grand-basset-griffon-venden-puppy-essentials"
   },
   "skye-terrier": {
     "hub": "/breeds/skye-terrier",
@@ -2169,7 +2349,8 @@
     "supplement_post": "/blog/best-supplements-for-skye-terrier",
     "names_page": "/dog-names/skye-terrier",
     "health_post": "/blog/skye-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/skye-terrier"
+    "cost_calculator": "/cost-calculator/skye-terrier",
+    "puppy_post": "/blog/skye-terrier-puppy-essentials"
   },
   "canaan-dog": {
     "hub": "/breeds/canaan-dog",
@@ -2181,7 +2362,8 @@
     "supplement_post": "/blog/best-supplements-for-canaan-dog",
     "names_page": "/dog-names/canaan-dog",
     "health_post": "/blog/canaan-dog-health-problems",
-    "cost_calculator": "/cost-calculator/canaan-dog"
+    "cost_calculator": "/cost-calculator/canaan-dog",
+    "puppy_post": "/blog/canaan-dog-puppy-essentials"
   },
   "sussex-spaniel": {
     "hub": "/breeds/sussex-spaniel",
@@ -2193,7 +2375,8 @@
     "supplement_post": "/blog/best-supplements-for-sussex-spaniel",
     "names_page": "/dog-names/sussex-spaniel",
     "health_post": "/blog/sussex-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/sussex-spaniel"
+    "cost_calculator": "/cost-calculator/sussex-spaniel",
+    "puppy_post": "/blog/sussex-spaniel-puppy-essentials"
   },
   "pyrenean-shepherd": {
     "hub": "/breeds/pyrenean-shepherd",
@@ -2205,7 +2388,8 @@
     "supplement_post": "/blog/best-supplements-for-pyrenean-shepherd",
     "names_page": "/dog-names/pyrenean-shepherd",
     "health_post": "/blog/pyrenean-shepherd-health-problems",
-    "cost_calculator": "/cost-calculator/pyrenean-shepherd"
+    "cost_calculator": "/cost-calculator/pyrenean-shepherd",
+    "puppy_post": "/blog/pyrenean-shepherd-puppy-essentials"
   },
   "otterhound": {
     "hub": "/breeds/otterhound",
@@ -2217,7 +2401,8 @@
     "supplement_post": "/blog/best-supplements-for-otterhound",
     "names_page": "/dog-names/otterhound",
     "health_post": "/blog/otterhound-health-problems",
-    "cost_calculator": "/cost-calculator/otterhound"
+    "cost_calculator": "/cost-calculator/otterhound",
+    "puppy_post": "/blog/otterhound-puppy-essentials"
   },
   "cirneco-delletna": {
     "hub": "/breeds/cirneco-delletna",
@@ -2229,7 +2414,8 @@
     "supplement_post": "/blog/best-supplements-for-cirneco-delletna",
     "names_page": "/dog-names/cirneco-delletna",
     "health_post": "/blog/cirneco-delletna-health-problems",
-    "cost_calculator": "/cost-calculator/cirneco-delletna"
+    "cost_calculator": "/cost-calculator/cirneco-delletna",
+    "puppy_post": "/blog/cirneco-delletna-puppy-essentials"
   },
   "finnish-spitz": {
     "hub": "/breeds/finnish-spitz",
@@ -2241,7 +2427,8 @@
     "supplement_post": "/blog/best-supplements-for-finnish-spitz",
     "names_page": "/dog-names/finnish-spitz",
     "health_post": "/blog/finnish-spitz-health-problems",
-    "cost_calculator": "/cost-calculator/finnish-spitz"
+    "cost_calculator": "/cost-calculator/finnish-spitz",
+    "puppy_post": "/blog/finnish-spitz-puppy-essentials"
   },
   "cesky-terrier": {
     "hub": "/breeds/cesky-terrier",
@@ -2253,7 +2440,8 @@
     "supplement_post": "/blog/best-supplements-for-cesky-terrier",
     "names_page": "/dog-names/cesky-terrier",
     "health_post": "/blog/cesky-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/cesky-terrier"
+    "cost_calculator": "/cost-calculator/cesky-terrier",
+    "puppy_post": "/blog/cesky-terrier-puppy-essentials"
   },
   "american-foxhound": {
     "hub": "/breeds/american-foxhound",
@@ -2265,7 +2453,8 @@
     "supplement_post": "/blog/best-supplements-for-american-foxhound",
     "names_page": "/dog-names/american-foxhound",
     "health_post": "/blog/american-foxhound-health-problems",
-    "cost_calculator": "/cost-calculator/american-foxhound"
+    "cost_calculator": "/cost-calculator/american-foxhound",
+    "puppy_post": "/blog/american-foxhound-puppy-essentials"
   },
   "bergamasco-sheepdog": {
     "hub": "/breeds/bergamasco-sheepdog",
@@ -2277,7 +2466,8 @@
     "supplement_post": "/blog/best-supplements-for-bergamasco-sheepdog",
     "names_page": "/dog-names/bergamasco-sheepdog",
     "health_post": "/blog/bergamasco-sheepdog-health-problems",
-    "cost_calculator": "/cost-calculator/bergamasco-sheepdog"
+    "cost_calculator": "/cost-calculator/bergamasco-sheepdog",
+    "puppy_post": "/blog/bergamasco-sheepdog-puppy-essentials"
   },
   "english-foxhound": {
     "hub": "/breeds/english-foxhound",
@@ -2289,7 +2479,8 @@
     "supplement_post": "/blog/best-supplements-for-english-foxhound",
     "names_page": "/dog-names/english-foxhound",
     "health_post": "/blog/english-foxhound-health-problems",
-    "cost_calculator": "/cost-calculator/english-foxhound"
+    "cost_calculator": "/cost-calculator/english-foxhound",
+    "puppy_post": "/blog/english-foxhound-puppy-essentials"
   },
   "harrier": {
     "hub": "/breeds/harrier",
@@ -2301,7 +2492,8 @@
     "supplement_post": "/blog/best-supplements-for-harrier",
     "names_page": "/dog-names/harrier",
     "health_post": "/blog/harrier-health-problems",
-    "cost_calculator": "/cost-calculator/harrier"
+    "cost_calculator": "/cost-calculator/harrier",
+    "puppy_post": "/blog/harrier-puppy-essentials"
   },
   "chinook": {
     "hub": "/breeds/chinook",
@@ -2313,7 +2505,8 @@
     "supplement_post": "/blog/best-supplements-for-chinook",
     "names_page": "/dog-names/chinook",
     "health_post": "/blog/chinook-health-problems",
-    "cost_calculator": "/cost-calculator/chinook"
+    "cost_calculator": "/cost-calculator/chinook",
+    "puppy_post": "/blog/chinook-puppy-essentials"
   },
   "norwegian-lundehund": {
     "hub": "/breeds/norwegian-lundehund",
@@ -2325,7 +2518,8 @@
     "supplement_post": "/blog/best-supplements-for-norwegian-lundehund",
     "names_page": "/dog-names/norwegian-lundehund",
     "health_post": "/blog/norwegian-lundehund-health-problems",
-    "cost_calculator": "/cost-calculator/norwegian-lundehund"
+    "cost_calculator": "/cost-calculator/norwegian-lundehund",
+    "puppy_post": "/blog/norwegian-lundehund-puppy-essentials"
   },
   "sloughi": {
     "hub": "/breeds/sloughi",
@@ -2337,7 +2531,8 @@
     "supplement_post": "/blog/best-supplements-for-sloughi",
     "names_page": "/dog-names/sloughi",
     "health_post": "/blog/sloughi-health-problems",
-    "cost_calculator": "/cost-calculator/sloughi"
+    "cost_calculator": "/cost-calculator/sloughi",
+    "puppy_post": "/blog/sloughi-puppy-essentials"
   },
   "azawakh": {
     "hub": "/breeds/azawakh",
@@ -2349,7 +2544,8 @@
     "supplement_post": "/blog/best-supplements-for-azawakh",
     "names_page": "/dog-names/azawakh",
     "health_post": "/blog/azawakh-health-problems",
-    "cost_calculator": "/cost-calculator/azawakh"
+    "cost_calculator": "/cost-calculator/azawakh",
+    "puppy_post": "/blog/azawakh-puppy-essentials"
   },
   "barbet": {
     "hub": "/breeds/barbet",
@@ -2361,7 +2557,8 @@
     "supplement_post": "/blog/best-supplements-for-barbet",
     "names_page": "/dog-names/barbet",
     "health_post": "/blog/barbet-health-problems",
-    "cost_calculator": "/cost-calculator/barbet"
+    "cost_calculator": "/cost-calculator/barbet",
+    "puppy_post": "/blog/barbet-puppy-essentials"
   },
   "dogo-argentino": {
     "hub": "/breeds/dogo-argentino",
@@ -2373,7 +2570,8 @@
     "supplement_post": "/blog/best-supplements-for-dogo-argentino",
     "names_page": "/dog-names/dogo-argentino",
     "health_post": "/blog/dogo-argentino-health-problems",
-    "cost_calculator": "/cost-calculator/dogo-argentino"
+    "cost_calculator": "/cost-calculator/dogo-argentino",
+    "puppy_post": "/blog/dogo-argentino-puppy-essentials"
   },
   "american-bulldog": {
     "hub": "/breeds/american-bulldog",
@@ -2385,7 +2583,8 @@
     "supplement_post": "/blog/best-supplements-for-american-bulldog",
     "names_page": "/dog-names/american-bulldog",
     "health_post": "/blog/american-bulldog-health-problems",
-    "cost_calculator": "/cost-calculator/american-bulldog"
+    "cost_calculator": "/cost-calculator/american-bulldog",
+    "puppy_post": "/blog/american-bulldog-puppy-essentials"
   },
   "american-leopard-hound": {
     "hub": "/breeds/american-leopard-hound",
@@ -2397,7 +2596,8 @@
     "supplement_post": "/blog/best-supplements-for-american-leopard-hound",
     "names_page": "/dog-names/american-leopard-hound",
     "health_post": "/blog/american-leopard-hound-health-problems",
-    "cost_calculator": "/cost-calculator/american-leopard-hound"
+    "cost_calculator": "/cost-calculator/american-leopard-hound",
+    "puppy_post": "/blog/american-leopard-hound-puppy-essentials"
   },
   "appenzeller-sennenhund": {
     "hub": "/breeds/appenzeller-sennenhund",
@@ -2409,7 +2609,8 @@
     "supplement_post": "/blog/best-supplements-for-appenzeller-sennenhund",
     "names_page": "/dog-names/appenzeller-sennenhund",
     "health_post": "/blog/appenzeller-sennenhund-health-problems",
-    "cost_calculator": "/cost-calculator/appenzeller-sennenhund"
+    "cost_calculator": "/cost-calculator/appenzeller-sennenhund",
+    "puppy_post": "/blog/appenzeller-sennenhund-puppy-essentials"
   },
   "australian-kelpie": {
     "hub": "/breeds/australian-kelpie",
@@ -2421,7 +2622,8 @@
     "supplement_post": "/blog/best-supplements-for-australian-kelpie",
     "names_page": "/dog-names/australian-kelpie",
     "health_post": "/blog/australian-kelpie-health-problems",
-    "cost_calculator": "/cost-calculator/australian-kelpie"
+    "cost_calculator": "/cost-calculator/australian-kelpie",
+    "puppy_post": "/blog/australian-kelpie-puppy-essentials"
   },
   "australian-stumpy-tail-cattle-dog": {
     "hub": "/breeds/australian-stumpy-tail-cattle-dog",
@@ -2433,7 +2635,8 @@
     "supplement_post": "/blog/best-supplements-for-australian-stumpy-tail-cattle-dog",
     "names_page": "/dog-names/australian-stumpy-tail-cattle-dog",
     "health_post": "/blog/australian-stumpy-tail-cattle-dog-health-problems",
-    "cost_calculator": "/cost-calculator/australian-stumpy-tail-cattle-dog"
+    "cost_calculator": "/cost-calculator/australian-stumpy-tail-cattle-dog",
+    "puppy_post": "/blog/australian-stumpy-tail-cattle-dog-puppy-essentials"
   },
   "basset-fauve-de-bretagne": {
     "hub": "/breeds/basset-fauve-de-bretagne",
@@ -2445,7 +2648,8 @@
     "supplement_post": "/blog/best-supplements-for-basset-fauve-de-bretagne",
     "names_page": "/dog-names/basset-fauve-de-bretagne",
     "health_post": "/blog/basset-fauve-de-bretagne-health-problems",
-    "cost_calculator": "/cost-calculator/basset-fauve-de-bretagne"
+    "cost_calculator": "/cost-calculator/basset-fauve-de-bretagne",
+    "puppy_post": "/blog/basset-fauve-de-bretagne-puppy-essentials"
   },
   "bavarian-mountain-scent-hound": {
     "hub": "/breeds/bavarian-mountain-scent-hound",
@@ -2457,7 +2661,8 @@
     "supplement_post": "/blog/best-supplements-for-bavarian-mountain-scent-hound",
     "names_page": "/dog-names/bavarian-mountain-scent-hound",
     "health_post": "/blog/bavarian-mountain-scent-hound-health-problems",
-    "cost_calculator": "/cost-calculator/bavarian-mountain-scent-hound"
+    "cost_calculator": "/cost-calculator/bavarian-mountain-scent-hound",
+    "puppy_post": "/blog/bavarian-mountain-scent-hound-puppy-essentials"
   },
   "belgian-laekenois": {
     "hub": "/breeds/belgian-laekenois",
@@ -2469,7 +2674,8 @@
     "supplement_post": "/blog/best-supplements-for-belgian-laekenois",
     "names_page": "/dog-names/belgian-laekenois",
     "health_post": "/blog/belgian-laekenois-health-problems",
-    "cost_calculator": "/cost-calculator/belgian-laekenois"
+    "cost_calculator": "/cost-calculator/belgian-laekenois",
+    "puppy_post": "/blog/belgian-laekenois-puppy-essentials"
   },
   "biewer-terrier": {
     "hub": "/breeds/biewer-terrier",
@@ -2481,7 +2687,8 @@
     "supplement_post": "/blog/best-supplements-for-biewer-terrier",
     "names_page": "/dog-names/biewer-terrier",
     "health_post": "/blog/biewer-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/biewer-terrier"
+    "cost_calculator": "/cost-calculator/biewer-terrier",
+    "puppy_post": "/blog/biewer-terrier-puppy-essentials"
   },
   "bohemian-shepherd": {
     "hub": "/breeds/bohemian-shepherd",
@@ -2493,7 +2700,8 @@
     "supplement_post": "/blog/best-supplements-for-bohemian-shepherd",
     "names_page": "/dog-names/bohemian-shepherd",
     "health_post": "/blog/bohemian-shepherd-health-problems",
-    "cost_calculator": "/cost-calculator/bohemian-shepherd"
+    "cost_calculator": "/cost-calculator/bohemian-shepherd",
+    "puppy_post": "/blog/bohemian-shepherd-puppy-essentials"
   },
   "bolognese": {
     "hub": "/breeds/bolognese",
@@ -2505,7 +2713,8 @@
     "supplement_post": "/blog/best-supplements-for-bolognese",
     "names_page": "/dog-names/bolognese",
     "health_post": "/blog/bolognese-health-problems",
-    "cost_calculator": "/cost-calculator/bolognese"
+    "cost_calculator": "/cost-calculator/bolognese",
+    "puppy_post": "/blog/bolognese-puppy-essentials"
   },
   "bracco-italiano": {
     "hub": "/breeds/bracco-italiano",
@@ -2517,7 +2726,8 @@
     "supplement_post": "/blog/best-supplements-for-bracco-italiano",
     "names_page": "/dog-names/bracco-italiano",
     "health_post": "/blog/bracco-italiano-health-problems",
-    "cost_calculator": "/cost-calculator/bracco-italiano"
+    "cost_calculator": "/cost-calculator/bracco-italiano",
+    "puppy_post": "/blog/bracco-italiano-puppy-essentials"
   },
   "braque-du-bourbonnais": {
     "hub": "/breeds/braque-du-bourbonnais",
@@ -2529,7 +2739,8 @@
     "supplement_post": "/blog/best-supplements-for-braque-du-bourbonnais",
     "names_page": "/dog-names/braque-du-bourbonnais",
     "health_post": "/blog/braque-du-bourbonnais-health-problems",
-    "cost_calculator": "/cost-calculator/braque-du-bourbonnais"
+    "cost_calculator": "/cost-calculator/braque-du-bourbonnais",
+    "puppy_post": "/blog/braque-du-bourbonnais-puppy-essentials"
   },
   "braque-francais-pyrenean": {
     "hub": "/breeds/braque-francais-pyrenean",
@@ -2541,7 +2752,8 @@
     "supplement_post": "/blog/best-supplements-for-braque-francais-pyrenean",
     "names_page": "/dog-names/braque-francais-pyrenean",
     "health_post": "/blog/braque-francais-pyrenean-health-problems",
-    "cost_calculator": "/cost-calculator/braque-francais-pyrenean"
+    "cost_calculator": "/cost-calculator/braque-francais-pyrenean",
+    "puppy_post": "/blog/braque-francais-pyrenean-puppy-essentials"
   },
   "broholmer": {
     "hub": "/breeds/broholmer",
@@ -2553,7 +2765,8 @@
     "supplement_post": "/blog/best-supplements-for-broholmer",
     "names_page": "/dog-names/broholmer",
     "health_post": "/blog/broholmer-health-problems",
-    "cost_calculator": "/cost-calculator/broholmer"
+    "cost_calculator": "/cost-calculator/broholmer",
+    "puppy_post": "/blog/broholmer-puppy-essentials"
   },
   "carolina-dog": {
     "hub": "/breeds/carolina-dog",
@@ -2565,7 +2778,8 @@
     "supplement_post": "/blog/best-supplements-for-carolina-dog",
     "names_page": "/dog-names/carolina-dog",
     "health_post": "/blog/carolina-dog-health-problems",
-    "cost_calculator": "/cost-calculator/carolina-dog"
+    "cost_calculator": "/cost-calculator/carolina-dog",
+    "puppy_post": "/blog/carolina-dog-puppy-essentials"
   },
   "catahoula-leopard-dog": {
     "hub": "/breeds/catahoula-leopard-dog",
@@ -2577,7 +2791,8 @@
     "supplement_post": "/blog/best-supplements-for-catahoula-leopard-dog",
     "names_page": "/dog-names/catahoula-leopard-dog",
     "health_post": "/blog/catahoula-leopard-dog-health-problems",
-    "cost_calculator": "/cost-calculator/catahoula-leopard-dog"
+    "cost_calculator": "/cost-calculator/catahoula-leopard-dog",
+    "puppy_post": "/blog/catahoula-leopard-dog-puppy-essentials"
   },
   "caucasian-shepherd-dog": {
     "hub": "/breeds/caucasian-shepherd-dog",
@@ -2589,7 +2804,8 @@
     "supplement_post": "/blog/best-supplements-for-caucasian-shepherd-dog",
     "names_page": "/dog-names/caucasian-shepherd-dog",
     "health_post": "/blog/caucasian-shepherd-dog-health-problems",
-    "cost_calculator": "/cost-calculator/caucasian-shepherd-dog"
+    "cost_calculator": "/cost-calculator/caucasian-shepherd-dog",
+    "puppy_post": "/blog/caucasian-shepherd-dog-puppy-essentials"
   },
   "central-asian-shepherd-dog": {
     "hub": "/breeds/central-asian-shepherd-dog",
@@ -2601,7 +2817,8 @@
     "supplement_post": "/blog/best-supplements-for-central-asian-shepherd-dog",
     "names_page": "/dog-names/central-asian-shepherd-dog",
     "health_post": "/blog/central-asian-shepherd-dog-health-problems",
-    "cost_calculator": "/cost-calculator/central-asian-shepherd-dog"
+    "cost_calculator": "/cost-calculator/central-asian-shepherd-dog",
+    "puppy_post": "/blog/central-asian-shepherd-dog-puppy-essentials"
   },
   "croatian-sheepdog": {
     "hub": "/breeds/croatian-sheepdog",
@@ -2613,7 +2830,8 @@
     "supplement_post": "/blog/best-supplements-for-croatian-sheepdog",
     "names_page": "/dog-names/croatian-sheepdog",
     "health_post": "/blog/croatian-sheepdog-health-problems",
-    "cost_calculator": "/cost-calculator/croatian-sheepdog"
+    "cost_calculator": "/cost-calculator/croatian-sheepdog",
+    "puppy_post": "/blog/croatian-sheepdog-puppy-essentials"
   },
   "czechoslovakian-vlcak": {
     "hub": "/breeds/czechoslovakian-vlcak",
@@ -2625,7 +2843,8 @@
     "supplement_post": "/blog/best-supplements-for-czechoslovakian-vlcak",
     "names_page": "/dog-names/czechoslovakian-vlcak",
     "health_post": "/blog/czechoslovakian-vlcak-health-problems",
-    "cost_calculator": "/cost-calculator/czechoslovakian-vlcak"
+    "cost_calculator": "/cost-calculator/czechoslovakian-vlcak",
+    "puppy_post": "/blog/czechoslovakian-vlcak-puppy-essentials"
   },
   "danish-swedish-farmdog": {
     "hub": "/breeds/danish-swedish-farmdog",
@@ -2637,7 +2856,8 @@
     "supplement_post": "/blog/best-supplements-for-danish-swedish-farmdog",
     "names_page": "/dog-names/danish-swedish-farmdog",
     "health_post": "/blog/danish-swedish-farmdog-health-problems",
-    "cost_calculator": "/cost-calculator/danish-swedish-farmdog"
+    "cost_calculator": "/cost-calculator/danish-swedish-farmdog",
+    "puppy_post": "/blog/danish-swedish-farmdog-puppy-essentials"
   },
   "deutscher-wachtelhund": {
     "hub": "/breeds/deutscher-wachtelhund",
@@ -2649,7 +2869,8 @@
     "supplement_post": "/blog/best-supplements-for-deutscher-wachtelhund",
     "names_page": "/dog-names/deutscher-wachtelhund",
     "health_post": "/blog/deutscher-wachtelhund-health-problems",
-    "cost_calculator": "/cost-calculator/deutscher-wachtelhund"
+    "cost_calculator": "/cost-calculator/deutscher-wachtelhund",
+    "puppy_post": "/blog/deutscher-wachtelhund-puppy-essentials"
   },
   "drentsche-patrijshond": {
     "hub": "/breeds/drentsche-patrijshond",
@@ -2661,7 +2882,8 @@
     "supplement_post": "/blog/best-supplements-for-drentsche-patrijshond",
     "names_page": "/dog-names/drentsche-patrijshond",
     "health_post": "/blog/drentsche-patrijshond-health-problems",
-    "cost_calculator": "/cost-calculator/drentsche-patrijshond"
+    "cost_calculator": "/cost-calculator/drentsche-patrijshond",
+    "puppy_post": "/blog/drentsche-patrijshond-puppy-essentials"
   },
   "drever": {
     "hub": "/breeds/drever",
@@ -2673,7 +2895,8 @@
     "supplement_post": "/blog/best-supplements-for-drever",
     "names_page": "/dog-names/drever",
     "health_post": "/blog/drever-health-problems",
-    "cost_calculator": "/cost-calculator/drever"
+    "cost_calculator": "/cost-calculator/drever",
+    "puppy_post": "/blog/drever-puppy-essentials"
   },
   "dutch-shepherd": {
     "hub": "/breeds/dutch-shepherd",
@@ -2685,7 +2908,8 @@
     "supplement_post": "/blog/best-supplements-for-dutch-shepherd",
     "names_page": "/dog-names/dutch-shepherd",
     "health_post": "/blog/dutch-shepherd-health-problems",
-    "cost_calculator": "/cost-calculator/dutch-shepherd"
+    "cost_calculator": "/cost-calculator/dutch-shepherd",
+    "puppy_post": "/blog/dutch-shepherd-puppy-essentials"
   },
   "estrela-mountain-dog": {
     "hub": "/breeds/estrela-mountain-dog",
@@ -2697,7 +2921,8 @@
     "supplement_post": "/blog/best-supplements-for-estrela-mountain-dog",
     "names_page": "/dog-names/estrela-mountain-dog",
     "health_post": "/blog/estrela-mountain-dog-health-problems",
-    "cost_calculator": "/cost-calculator/estrela-mountain-dog"
+    "cost_calculator": "/cost-calculator/estrela-mountain-dog",
+    "puppy_post": "/blog/estrela-mountain-dog-puppy-essentials"
   },
   "eurasier": {
     "hub": "/breeds/eurasier",
@@ -2709,7 +2934,8 @@
     "supplement_post": "/blog/best-supplements-for-eurasier",
     "names_page": "/dog-names/eurasier",
     "health_post": "/blog/eurasier-health-problems",
-    "cost_calculator": "/cost-calculator/eurasier"
+    "cost_calculator": "/cost-calculator/eurasier",
+    "puppy_post": "/blog/eurasier-puppy-essentials"
   },
   "french-spaniel": {
     "hub": "/breeds/french-spaniel",
@@ -2721,7 +2947,8 @@
     "supplement_post": "/blog/best-supplements-for-french-spaniel",
     "names_page": "/dog-names/french-spaniel",
     "health_post": "/blog/french-spaniel-health-problems",
-    "cost_calculator": "/cost-calculator/french-spaniel"
+    "cost_calculator": "/cost-calculator/french-spaniel",
+    "puppy_post": "/blog/french-spaniel-puppy-essentials"
   },
   "german-longhaired-pointer": {
     "hub": "/breeds/german-longhaired-pointer",
@@ -2733,7 +2960,8 @@
     "supplement_post": "/blog/best-supplements-for-german-longhaired-pointer",
     "names_page": "/dog-names/german-longhaired-pointer",
     "health_post": "/blog/german-longhaired-pointer-health-problems",
-    "cost_calculator": "/cost-calculator/german-longhaired-pointer"
+    "cost_calculator": "/cost-calculator/german-longhaired-pointer",
+    "puppy_post": "/blog/german-longhaired-pointer-puppy-essentials"
   },
   "german-spitz": {
     "hub": "/breeds/german-spitz",
@@ -2745,7 +2973,8 @@
     "supplement_post": "/blog/best-supplements-for-german-spitz",
     "names_page": "/dog-names/german-spitz",
     "health_post": "/blog/german-spitz-health-problems",
-    "cost_calculator": "/cost-calculator/german-spitz"
+    "cost_calculator": "/cost-calculator/german-spitz",
+    "puppy_post": "/blog/german-spitz-puppy-essentials"
   },
   "hamiltonstovare": {
     "hub": "/breeds/hamiltonstovare",
@@ -2757,7 +2986,8 @@
     "supplement_post": "/blog/best-supplements-for-hamiltonstovare",
     "names_page": "/dog-names/hamiltonstovare",
     "health_post": "/blog/hamiltonstovare-health-problems",
-    "cost_calculator": "/cost-calculator/hamiltonstovare"
+    "cost_calculator": "/cost-calculator/hamiltonstovare",
+    "puppy_post": "/blog/hamiltonstovare-puppy-essentials"
   },
   "hanoverian-scenthound": {
     "hub": "/breeds/hanoverian-scenthound",
@@ -2769,7 +2999,8 @@
     "supplement_post": "/blog/best-supplements-for-hanoverian-scenthound",
     "names_page": "/dog-names/hanoverian-scenthound",
     "health_post": "/blog/hanoverian-scenthound-health-problems",
-    "cost_calculator": "/cost-calculator/hanoverian-scenthound"
+    "cost_calculator": "/cost-calculator/hanoverian-scenthound",
+    "puppy_post": "/blog/hanoverian-scenthound-puppy-essentials"
   },
   "hokkaido": {
     "hub": "/breeds/hokkaido",
@@ -2781,7 +3012,8 @@
     "supplement_post": "/blog/best-supplements-for-hokkaido",
     "names_page": "/dog-names/hokkaido",
     "health_post": "/blog/hokkaido-health-problems",
-    "cost_calculator": "/cost-calculator/hokkaido"
+    "cost_calculator": "/cost-calculator/hokkaido",
+    "puppy_post": "/blog/hokkaido-puppy-essentials"
   },
   "hovawart": {
     "hub": "/breeds/hovawart",
@@ -2793,7 +3025,8 @@
     "supplement_post": "/blog/best-supplements-for-hovawart",
     "names_page": "/dog-names/hovawart",
     "health_post": "/blog/hovawart-health-problems",
-    "cost_calculator": "/cost-calculator/hovawart"
+    "cost_calculator": "/cost-calculator/hovawart",
+    "puppy_post": "/blog/hovawart-puppy-essentials"
   },
   "jagdterrier": {
     "hub": "/breeds/jagdterrier",
@@ -2805,7 +3038,8 @@
     "supplement_post": "/blog/best-supplements-for-jagdterrier",
     "names_page": "/dog-names/jagdterrier",
     "health_post": "/blog/jagdterrier-health-problems",
-    "cost_calculator": "/cost-calculator/jagdterrier"
+    "cost_calculator": "/cost-calculator/jagdterrier",
+    "puppy_post": "/blog/jagdterrier-puppy-essentials"
   },
   "japanese-spitz": {
     "hub": "/breeds/japanese-spitz",
@@ -2817,7 +3051,8 @@
     "supplement_post": "/blog/best-supplements-for-japanese-spitz",
     "names_page": "/dog-names/japanese-spitz",
     "health_post": "/blog/japanese-spitz-health-problems",
-    "cost_calculator": "/cost-calculator/japanese-spitz"
+    "cost_calculator": "/cost-calculator/japanese-spitz",
+    "puppy_post": "/blog/japanese-spitz-puppy-essentials"
   },
   "jindo": {
     "hub": "/breeds/jindo",
@@ -2829,7 +3064,8 @@
     "supplement_post": "/blog/best-supplements-for-jindo",
     "names_page": "/dog-names/jindo",
     "health_post": "/blog/jindo-health-problems",
-    "cost_calculator": "/cost-calculator/jindo"
+    "cost_calculator": "/cost-calculator/jindo",
+    "puppy_post": "/blog/jindo-puppy-essentials"
   },
   "kai-ken": {
     "hub": "/breeds/kai-ken",
@@ -2841,7 +3077,8 @@
     "supplement_post": "/blog/best-supplements-for-kai-ken",
     "names_page": "/dog-names/kai-ken",
     "health_post": "/blog/kai-ken-health-problems",
-    "cost_calculator": "/cost-calculator/kai-ken"
+    "cost_calculator": "/cost-calculator/kai-ken",
+    "puppy_post": "/blog/kai-ken-puppy-essentials"
   },
   "karelian-bear-dog": {
     "hub": "/breeds/karelian-bear-dog",
@@ -2853,7 +3090,8 @@
     "supplement_post": "/blog/best-supplements-for-karelian-bear-dog",
     "names_page": "/dog-names/karelian-bear-dog",
     "health_post": "/blog/karelian-bear-dog-health-problems",
-    "cost_calculator": "/cost-calculator/karelian-bear-dog"
+    "cost_calculator": "/cost-calculator/karelian-bear-dog",
+    "puppy_post": "/blog/karelian-bear-dog-puppy-essentials"
   },
   "kishu-ken": {
     "hub": "/breeds/kishu-ken",
@@ -2865,7 +3103,8 @@
     "supplement_post": "/blog/best-supplements-for-kishu-ken",
     "names_page": "/dog-names/kishu-ken",
     "health_post": "/blog/kishu-ken-health-problems",
-    "cost_calculator": "/cost-calculator/kishu-ken"
+    "cost_calculator": "/cost-calculator/kishu-ken",
+    "puppy_post": "/blog/kishu-ken-puppy-essentials"
   },
   "kromfohrlander": {
     "hub": "/breeds/kromfohrlander",
@@ -2877,7 +3116,8 @@
     "supplement_post": "/blog/best-supplements-for-kromfohrlander",
     "names_page": "/dog-names/kromfohrlander",
     "health_post": "/blog/kromfohrlander-health-problems",
-    "cost_calculator": "/cost-calculator/kromfohrlander"
+    "cost_calculator": "/cost-calculator/kromfohrlander",
+    "puppy_post": "/blog/kromfohrlander-puppy-essentials"
   },
   "lancashire-heeler": {
     "hub": "/breeds/lancashire-heeler",
@@ -2889,7 +3129,8 @@
     "supplement_post": "/blog/best-supplements-for-lancashire-heeler",
     "names_page": "/dog-names/lancashire-heeler",
     "health_post": "/blog/lancashire-heeler-health-problems",
-    "cost_calculator": "/cost-calculator/lancashire-heeler"
+    "cost_calculator": "/cost-calculator/lancashire-heeler",
+    "puppy_post": "/blog/lancashire-heeler-puppy-essentials"
   },
   "lapponian-herder": {
     "hub": "/breeds/lapponian-herder",
@@ -2901,7 +3142,8 @@
     "supplement_post": "/blog/best-supplements-for-lapponian-herder",
     "names_page": "/dog-names/lapponian-herder",
     "health_post": "/blog/lapponian-herder-health-problems",
-    "cost_calculator": "/cost-calculator/lapponian-herder"
+    "cost_calculator": "/cost-calculator/lapponian-herder",
+    "puppy_post": "/blog/lapponian-herder-puppy-essentials"
   },
   "mountain-cur": {
     "hub": "/breeds/mountain-cur",
@@ -2913,7 +3155,8 @@
     "supplement_post": "/blog/best-supplements-for-mountain-cur",
     "names_page": "/dog-names/mountain-cur",
     "health_post": "/blog/mountain-cur-health-problems",
-    "cost_calculator": "/cost-calculator/mountain-cur"
+    "cost_calculator": "/cost-calculator/mountain-cur",
+    "puppy_post": "/blog/mountain-cur-puppy-essentials"
   },
   "mudi": {
     "hub": "/breeds/mudi",
@@ -2925,7 +3168,8 @@
     "supplement_post": "/blog/best-supplements-for-mudi",
     "names_page": "/dog-names/mudi",
     "health_post": "/blog/mudi-health-problems",
-    "cost_calculator": "/cost-calculator/mudi"
+    "cost_calculator": "/cost-calculator/mudi",
+    "puppy_post": "/blog/mudi-puppy-essentials"
   },
   "norrbottenspets": {
     "hub": "/breeds/norrbottenspets",
@@ -2937,7 +3181,8 @@
     "supplement_post": "/blog/best-supplements-for-norrbottenspets",
     "names_page": "/dog-names/norrbottenspets",
     "health_post": "/blog/norrbottenspets-health-problems",
-    "cost_calculator": "/cost-calculator/norrbottenspets"
+    "cost_calculator": "/cost-calculator/norrbottenspets",
+    "puppy_post": "/blog/norrbottenspets-puppy-essentials"
   },
   "perro-de-presa-canario": {
     "hub": "/breeds/perro-de-presa-canario",
@@ -2949,7 +3194,8 @@
     "supplement_post": "/blog/best-supplements-for-perro-de-presa-canario",
     "names_page": "/dog-names/perro-de-presa-canario",
     "health_post": "/blog/perro-de-presa-canario-health-problems",
-    "cost_calculator": "/cost-calculator/perro-de-presa-canario"
+    "cost_calculator": "/cost-calculator/perro-de-presa-canario",
+    "puppy_post": "/blog/perro-de-presa-canario-puppy-essentials"
   },
   "peruvian-inca-orchid": {
     "hub": "/breeds/peruvian-inca-orchid",
@@ -2961,7 +3207,8 @@
     "supplement_post": "/blog/best-supplements-for-peruvian-inca-orchid",
     "names_page": "/dog-names/peruvian-inca-orchid",
     "health_post": "/blog/peruvian-inca-orchid-health-problems",
-    "cost_calculator": "/cost-calculator/peruvian-inca-orchid"
+    "cost_calculator": "/cost-calculator/peruvian-inca-orchid",
+    "puppy_post": "/blog/peruvian-inca-orchid-puppy-essentials"
   },
   "porcelaine": {
     "hub": "/breeds/porcelaine",
@@ -2973,7 +3220,8 @@
     "supplement_post": "/blog/best-supplements-for-porcelaine",
     "names_page": "/dog-names/porcelaine",
     "health_post": "/blog/porcelaine-health-problems",
-    "cost_calculator": "/cost-calculator/porcelaine"
+    "cost_calculator": "/cost-calculator/porcelaine",
+    "puppy_post": "/blog/porcelaine-puppy-essentials"
   },
   "portuguese-podengo": {
     "hub": "/breeds/portuguese-podengo",
@@ -2985,7 +3233,8 @@
     "supplement_post": "/blog/best-supplements-for-portuguese-podengo",
     "names_page": "/dog-names/portuguese-podengo",
     "health_post": "/blog/portuguese-podengo-health-problems",
-    "cost_calculator": "/cost-calculator/portuguese-podengo"
+    "cost_calculator": "/cost-calculator/portuguese-podengo",
+    "puppy_post": "/blog/portuguese-podengo-puppy-essentials"
   },
   "portuguese-pointer": {
     "hub": "/breeds/portuguese-pointer",
@@ -2997,7 +3246,8 @@
     "supplement_post": "/blog/best-supplements-for-portuguese-pointer",
     "names_page": "/dog-names/portuguese-pointer",
     "health_post": "/blog/portuguese-pointer-health-problems",
-    "cost_calculator": "/cost-calculator/portuguese-pointer"
+    "cost_calculator": "/cost-calculator/portuguese-pointer",
+    "puppy_post": "/blog/portuguese-pointer-puppy-essentials"
   },
   "portuguese-sheepdog": {
     "hub": "/breeds/portuguese-sheepdog",
@@ -3009,7 +3259,8 @@
     "supplement_post": "/blog/best-supplements-for-portuguese-sheepdog",
     "names_page": "/dog-names/portuguese-sheepdog",
     "health_post": "/blog/portuguese-sheepdog-health-problems",
-    "cost_calculator": "/cost-calculator/portuguese-sheepdog"
+    "cost_calculator": "/cost-calculator/portuguese-sheepdog",
+    "puppy_post": "/blog/portuguese-sheepdog-puppy-essentials"
   },
   "pudelpointer": {
     "hub": "/breeds/pudelpointer",
@@ -3021,7 +3272,8 @@
     "supplement_post": "/blog/best-supplements-for-pudelpointer",
     "names_page": "/dog-names/pudelpointer",
     "health_post": "/blog/pudelpointer-health-problems",
-    "cost_calculator": "/cost-calculator/pudelpointer"
+    "cost_calculator": "/cost-calculator/pudelpointer",
+    "puppy_post": "/blog/pudelpointer-puppy-essentials"
   },
   "pyrenean-mastiff": {
     "hub": "/breeds/pyrenean-mastiff",
@@ -3033,7 +3285,8 @@
     "supplement_post": "/blog/best-supplements-for-pyrenean-mastiff",
     "names_page": "/dog-names/pyrenean-mastiff",
     "health_post": "/blog/pyrenean-mastiff-health-problems",
-    "cost_calculator": "/cost-calculator/pyrenean-mastiff"
+    "cost_calculator": "/cost-calculator/pyrenean-mastiff",
+    "puppy_post": "/blog/pyrenean-mastiff-puppy-essentials"
   },
   "rafeiro-do-alentejo": {
     "hub": "/breeds/rafeiro-do-alentejo",
@@ -3045,7 +3298,8 @@
     "supplement_post": "/blog/best-supplements-for-rafeiro-do-alentejo",
     "names_page": "/dog-names/rafeiro-do-alentejo",
     "health_post": "/blog/rafeiro-do-alentejo-health-problems",
-    "cost_calculator": "/cost-calculator/rafeiro-do-alentejo"
+    "cost_calculator": "/cost-calculator/rafeiro-do-alentejo",
+    "puppy_post": "/blog/rafeiro-do-alentejo-puppy-essentials"
   },
   "romanian-mioritic-shepherd-dog": {
     "hub": "/breeds/romanian-mioritic-shepherd-dog",
@@ -3057,7 +3311,8 @@
     "supplement_post": "/blog/best-supplements-for-romanian-mioritic-shepherd-dog",
     "names_page": "/dog-names/romanian-mioritic-shepherd-dog",
     "health_post": "/blog/romanian-mioritic-shepherd-dog-health-problems",
-    "cost_calculator": "/cost-calculator/romanian-mioritic-shepherd-dog"
+    "cost_calculator": "/cost-calculator/romanian-mioritic-shepherd-dog",
+    "puppy_post": "/blog/romanian-mioritic-shepherd-dog-puppy-essentials"
   },
   "russian-toy": {
     "hub": "/breeds/russian-toy",
@@ -3069,7 +3324,8 @@
     "supplement_post": "/blog/best-supplements-for-russian-toy",
     "names_page": "/dog-names/russian-toy",
     "health_post": "/blog/russian-toy-health-problems",
-    "cost_calculator": "/cost-calculator/russian-toy"
+    "cost_calculator": "/cost-calculator/russian-toy",
+    "puppy_post": "/blog/russian-toy-puppy-essentials"
   },
   "russian-tsvetnaya-bolonka": {
     "hub": "/breeds/russian-tsvetnaya-bolonka",
@@ -3081,7 +3337,8 @@
     "supplement_post": "/blog/best-supplements-for-russian-tsvetnaya-bolonka",
     "names_page": "/dog-names/russian-tsvetnaya-bolonka",
     "health_post": "/blog/russian-tsvetnaya-bolonka-health-problems",
-    "cost_calculator": "/cost-calculator/russian-tsvetnaya-bolonka"
+    "cost_calculator": "/cost-calculator/russian-tsvetnaya-bolonka",
+    "puppy_post": "/blog/russian-tsvetnaya-bolonka-puppy-essentials"
   },
   "schapendoes": {
     "hub": "/breeds/schapendoes",
@@ -3093,7 +3350,8 @@
     "supplement_post": "/blog/best-supplements-for-schapendoes",
     "names_page": "/dog-names/schapendoes",
     "health_post": "/blog/schapendoes-health-problems",
-    "cost_calculator": "/cost-calculator/schapendoes"
+    "cost_calculator": "/cost-calculator/schapendoes",
+    "puppy_post": "/blog/schapendoes-puppy-essentials"
   },
   "segugio-italiano": {
     "hub": "/breeds/segugio-italiano",
@@ -3105,7 +3363,8 @@
     "supplement_post": "/blog/best-supplements-for-segugio-italiano",
     "names_page": "/dog-names/segugio-italiano",
     "health_post": "/blog/segugio-italiano-health-problems",
-    "cost_calculator": "/cost-calculator/segugio-italiano"
+    "cost_calculator": "/cost-calculator/segugio-italiano",
+    "puppy_post": "/blog/segugio-italiano-puppy-essentials"
   },
   "shikoku": {
     "hub": "/breeds/shikoku",
@@ -3117,7 +3376,8 @@
     "supplement_post": "/blog/best-supplements-for-shikoku",
     "names_page": "/dog-names/shikoku",
     "health_post": "/blog/shikoku-health-problems",
-    "cost_calculator": "/cost-calculator/shikoku"
+    "cost_calculator": "/cost-calculator/shikoku",
+    "puppy_post": "/blog/shikoku-puppy-essentials"
   },
   "slovakian-wirehaired-pointer": {
     "hub": "/breeds/slovakian-wirehaired-pointer",
@@ -3129,7 +3389,8 @@
     "supplement_post": "/blog/best-supplements-for-slovakian-wirehaired-pointer",
     "names_page": "/dog-names/slovakian-wirehaired-pointer",
     "health_post": "/blog/slovakian-wirehaired-pointer-health-problems",
-    "cost_calculator": "/cost-calculator/slovakian-wirehaired-pointer"
+    "cost_calculator": "/cost-calculator/slovakian-wirehaired-pointer",
+    "puppy_post": "/blog/slovakian-wirehaired-pointer-puppy-essentials"
   },
   "slovensky-cuvac": {
     "hub": "/breeds/slovensky-cuvac",
@@ -3141,7 +3402,8 @@
     "supplement_post": "/blog/best-supplements-for-slovensky-cuvac",
     "names_page": "/dog-names/slovensky-cuvac",
     "health_post": "/blog/slovensky-cuvac-health-problems",
-    "cost_calculator": "/cost-calculator/slovensky-cuvac"
+    "cost_calculator": "/cost-calculator/slovensky-cuvac",
+    "puppy_post": "/blog/slovensky-cuvac-puppy-essentials"
   },
   "slovensky-kopov": {
     "hub": "/breeds/slovensky-kopov",
@@ -3153,7 +3415,8 @@
     "supplement_post": "/blog/best-supplements-for-slovensky-kopov",
     "names_page": "/dog-names/slovensky-kopov",
     "health_post": "/blog/slovensky-kopov-health-problems",
-    "cost_calculator": "/cost-calculator/slovensky-kopov"
+    "cost_calculator": "/cost-calculator/slovensky-kopov",
+    "puppy_post": "/blog/slovensky-kopov-puppy-essentials"
   },
   "small-munsterlander-pointer": {
     "hub": "/breeds/small-munsterlander-pointer",
@@ -3165,7 +3428,8 @@
     "supplement_post": "/blog/best-supplements-for-small-munsterlander-pointer",
     "names_page": "/dog-names/small-munsterlander-pointer",
     "health_post": "/blog/small-munsterlander-pointer-health-problems",
-    "cost_calculator": "/cost-calculator/small-munsterlander-pointer"
+    "cost_calculator": "/cost-calculator/small-munsterlander-pointer",
+    "puppy_post": "/blog/small-munsterlander-pointer-puppy-essentials"
   },
   "spanish-mastiff": {
     "hub": "/breeds/spanish-mastiff",
@@ -3177,7 +3441,8 @@
     "supplement_post": "/blog/best-supplements-for-spanish-mastiff",
     "names_page": "/dog-names/spanish-mastiff",
     "health_post": "/blog/spanish-mastiff-health-problems",
-    "cost_calculator": "/cost-calculator/spanish-mastiff"
+    "cost_calculator": "/cost-calculator/spanish-mastiff",
+    "puppy_post": "/blog/spanish-mastiff-puppy-essentials"
   },
   "stabyhoun": {
     "hub": "/breeds/stabyhoun",
@@ -3189,7 +3454,8 @@
     "supplement_post": "/blog/best-supplements-for-stabyhoun",
     "names_page": "/dog-names/stabyhoun",
     "health_post": "/blog/stabyhoun-health-problems",
-    "cost_calculator": "/cost-calculator/stabyhoun"
+    "cost_calculator": "/cost-calculator/stabyhoun",
+    "puppy_post": "/blog/stabyhoun-puppy-essentials"
   },
   "swedish-lapphund": {
     "hub": "/breeds/swedish-lapphund",
@@ -3201,7 +3467,8 @@
     "supplement_post": "/blog/best-supplements-for-swedish-lapphund",
     "names_page": "/dog-names/swedish-lapphund",
     "health_post": "/blog/swedish-lapphund-health-problems",
-    "cost_calculator": "/cost-calculator/swedish-lapphund"
+    "cost_calculator": "/cost-calculator/swedish-lapphund",
+    "puppy_post": "/blog/swedish-lapphund-puppy-essentials"
   },
   "taiwan-dog": {
     "hub": "/breeds/taiwan-dog",
@@ -3213,7 +3480,8 @@
     "supplement_post": "/blog/best-supplements-for-taiwan-dog",
     "names_page": "/dog-names/taiwan-dog",
     "health_post": "/blog/taiwan-dog-health-problems",
-    "cost_calculator": "/cost-calculator/taiwan-dog"
+    "cost_calculator": "/cost-calculator/taiwan-dog",
+    "puppy_post": "/blog/taiwan-dog-puppy-essentials"
   },
   "teddy-roosevelt-terrier": {
     "hub": "/breeds/teddy-roosevelt-terrier",
@@ -3225,7 +3493,8 @@
     "supplement_post": "/blog/best-supplements-for-teddy-roosevelt-terrier",
     "names_page": "/dog-names/teddy-roosevelt-terrier",
     "health_post": "/blog/teddy-roosevelt-terrier-health-problems",
-    "cost_calculator": "/cost-calculator/teddy-roosevelt-terrier"
+    "cost_calculator": "/cost-calculator/teddy-roosevelt-terrier",
+    "puppy_post": "/blog/teddy-roosevelt-terrier-puppy-essentials"
   },
   "thai-ridgeback": {
     "hub": "/breeds/thai-ridgeback",
@@ -3237,7 +3506,8 @@
     "supplement_post": "/blog/best-supplements-for-thai-ridgeback",
     "names_page": "/dog-names/thai-ridgeback",
     "health_post": "/blog/thai-ridgeback-health-problems",
-    "cost_calculator": "/cost-calculator/thai-ridgeback"
+    "cost_calculator": "/cost-calculator/thai-ridgeback",
+    "puppy_post": "/blog/thai-ridgeback-puppy-essentials"
   },
   "tornjak": {
     "hub": "/breeds/tornjak",
@@ -3249,7 +3519,8 @@
     "supplement_post": "/blog/best-supplements-for-tornjak",
     "names_page": "/dog-names/tornjak",
     "health_post": "/blog/tornjak-health-problems",
-    "cost_calculator": "/cost-calculator/tornjak"
+    "cost_calculator": "/cost-calculator/tornjak",
+    "puppy_post": "/blog/tornjak-puppy-essentials"
   },
   "tosa": {
     "hub": "/breeds/tosa",
@@ -3261,7 +3532,8 @@
     "supplement_post": "/blog/best-supplements-for-tosa",
     "names_page": "/dog-names/tosa",
     "health_post": "/blog/tosa-health-problems",
-    "cost_calculator": "/cost-calculator/tosa"
+    "cost_calculator": "/cost-calculator/tosa",
+    "puppy_post": "/blog/tosa-puppy-essentials"
   },
   "transylvanian-hound": {
     "hub": "/breeds/transylvanian-hound",
@@ -3273,7 +3545,8 @@
     "supplement_post": "/blog/best-supplements-for-transylvanian-hound",
     "names_page": "/dog-names/transylvanian-hound",
     "health_post": "/blog/transylvanian-hound-health-problems",
-    "cost_calculator": "/cost-calculator/transylvanian-hound"
+    "cost_calculator": "/cost-calculator/transylvanian-hound",
+    "puppy_post": "/blog/transylvanian-hound-puppy-essentials"
   },
   "treeing-tennessee-brindle": {
     "hub": "/breeds/treeing-tennessee-brindle",
@@ -3285,7 +3558,8 @@
     "supplement_post": "/blog/best-supplements-for-treeing-tennessee-brindle",
     "names_page": "/dog-names/treeing-tennessee-brindle",
     "health_post": "/blog/treeing-tennessee-brindle-health-problems",
-    "cost_calculator": "/cost-calculator/treeing-tennessee-brindle"
+    "cost_calculator": "/cost-calculator/treeing-tennessee-brindle",
+    "puppy_post": "/blog/treeing-tennessee-brindle-puppy-essentials"
   },
   "wetterhoun": {
     "hub": "/breeds/wetterhoun",
@@ -3297,7 +3571,8 @@
     "supplement_post": "/blog/best-supplements-for-wetterhoun",
     "names_page": "/dog-names/wetterhoun",
     "health_post": "/blog/wetterhoun-health-problems",
-    "cost_calculator": "/cost-calculator/wetterhoun"
+    "cost_calculator": "/cost-calculator/wetterhoun",
+    "puppy_post": "/blog/wetterhoun-puppy-essentials"
   },
   "working-kelpie": {
     "hub": "/breeds/working-kelpie",
@@ -3309,7 +3584,8 @@
     "supplement_post": "/blog/best-supplements-for-working-kelpie",
     "names_page": "/dog-names/working-kelpie",
     "health_post": "/blog/working-kelpie-health-problems",
-    "cost_calculator": "/cost-calculator/working-kelpie"
+    "cost_calculator": "/cost-calculator/working-kelpie",
+    "puppy_post": "/blog/working-kelpie-puppy-essentials"
   },
   "yakutian-laika": {
     "hub": "/breeds/yakutian-laika",
@@ -3321,7 +3597,8 @@
     "supplement_post": "/blog/best-supplements-for-yakutian-laika",
     "names_page": "/dog-names/yakutian-laika",
     "health_post": "/blog/yakutian-laika-health-problems",
-    "cost_calculator": "/cost-calculator/yakutian-laika"
+    "cost_calculator": "/cost-calculator/yakutian-laika",
+    "puppy_post": "/blog/yakutian-laika-puppy-essentials"
   },
   "goldendoodle": {
     "hub": "/breeds/goldendoodle",
@@ -3333,7 +3610,8 @@
     "grooming_post": "/blog/best-grooming-for-goldendoodle",
     "training_post": "/blog/training-a-goldendoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/goldendoodle-puppy-essentials"
   },
   "labradoodle": {
     "hub": "/breeds/labradoodle",
@@ -3345,7 +3623,8 @@
     "grooming_post": "/blog/best-grooming-for-labradoodle",
     "training_post": "/blog/training-a-labradoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/labradoodle-puppy-essentials"
   },
   "cockapoo": {
     "hub": "/breeds/cockapoo",
@@ -3357,7 +3636,8 @@
     "grooming_post": "/blog/best-grooming-for-cockapoo",
     "training_post": "/blog/training-a-cockapoo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/cockapoo-puppy-essentials"
   },
   "pomsky": {
     "hub": "/breeds/pomsky",
@@ -3369,7 +3649,8 @@
     "grooming_post": "/blog/best-grooming-for-pomsky",
     "training_post": "/blog/training-a-pomsky",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/pomsky-puppy-essentials"
   },
   "maltipoo": {
     "hub": "/breeds/maltipoo",
@@ -3381,7 +3662,8 @@
     "grooming_post": "/blog/best-grooming-for-maltipoo",
     "training_post": "/blog/training-a-maltipoo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/maltipoo-puppy-essentials"
   },
   "cavapoo": {
     "hub": "/breeds/cavapoo",
@@ -3393,7 +3675,8 @@
     "grooming_post": "/blog/best-grooming-for-cavapoo",
     "training_post": "/blog/training-a-cavapoo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/cavapoo-puppy-essentials"
   },
   "bernedoodle": {
     "hub": "/breeds/bernedoodle",
@@ -3405,7 +3688,8 @@
     "grooming_post": "/blog/best-grooming-for-bernedoodle",
     "training_post": "/blog/training-a-bernedoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/bernedoodle-puppy-essentials"
   },
   "aussiedoodle": {
     "hub": "/breeds/aussiedoodle",
@@ -3417,7 +3701,8 @@
     "grooming_post": "/blog/best-grooming-for-aussiedoodle",
     "training_post": "/blog/training-a-aussiedoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/aussiedoodle-puppy-essentials"
   },
   "yorkipoo": {
     "hub": "/breeds/yorkipoo",
@@ -3429,7 +3714,8 @@
     "grooming_post": "/blog/best-grooming-for-yorkipoo",
     "training_post": "/blog/training-a-yorkipoo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/yorkipoo-puppy-essentials"
   },
   "puggle": {
     "hub": "/breeds/puggle",
@@ -3441,7 +3727,8 @@
     "grooming_post": "/blog/best-grooming-for-puggle",
     "training_post": "/blog/training-a-puggle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/puggle-puppy-essentials"
   },
   "sheepadoodle": {
     "hub": "/breeds/sheepadoodle",
@@ -3453,7 +3740,8 @@
     "grooming_post": "/blog/best-grooming-for-sheepadoodle",
     "training_post": "/blog/training-a-sheepadoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/sheepadoodle-puppy-essentials"
   },
   "schnoodle": {
     "hub": "/breeds/schnoodle",
@@ -3465,7 +3753,8 @@
     "grooming_post": "/blog/best-grooming-for-schnoodle",
     "training_post": "/blog/training-a-schnoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/schnoodle-puppy-essentials"
   },
   "chiweenie": {
     "hub": "/breeds/chiweenie",
@@ -3477,7 +3766,8 @@
     "grooming_post": "/blog/best-grooming-for-chiweenie",
     "training_post": "/blog/training-a-chiweenie",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/chiweenie-puppy-essentials"
   },
   "morkie": {
     "hub": "/breeds/morkie",
@@ -3489,7 +3779,8 @@
     "grooming_post": "/blog/best-grooming-for-morkie",
     "training_post": "/blog/training-a-morkie",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/morkie-puppy-essentials"
   },
   "cavachon": {
     "hub": "/breeds/cavachon",
@@ -3501,7 +3792,8 @@
     "grooming_post": "/blog/best-grooming-for-cavachon",
     "training_post": "/blog/training-a-cavachon",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/cavachon-puppy-essentials"
   },
   "whoodle": {
     "hub": "/breeds/whoodle",
@@ -3513,7 +3805,8 @@
     "grooming_post": "/blog/best-grooming-for-whoodle",
     "training_post": "/blog/training-a-whoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/whoodle-puppy-essentials"
   },
   "peekapoo": {
     "hub": "/breeds/peekapoo",
@@ -3525,7 +3818,8 @@
     "grooming_post": "/blog/best-grooming-for-peekapoo",
     "training_post": "/blog/training-a-peekapoo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/peekapoo-puppy-essentials"
   },
   "pomchi": {
     "hub": "/breeds/pomchi",
@@ -3537,7 +3831,8 @@
     "grooming_post": "/blog/best-grooming-for-pomchi",
     "training_post": "/blog/training-a-pomchi",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/pomchi-puppy-essentials"
   },
   "shorkie": {
     "hub": "/breeds/shorkie",
@@ -3549,7 +3844,8 @@
     "grooming_post": "/blog/best-grooming-for-shorkie",
     "training_post": "/blog/training-a-shorkie",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/shorkie-puppy-essentials"
   },
   "gerberian-shepsky": {
     "hub": "/breeds/gerberian-shepsky",
@@ -3561,7 +3857,8 @@
     "grooming_post": "/blog/best-grooming-for-gerberian-shepsky",
     "training_post": "/blog/training-a-gerberian-shepsky",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/gerberian-shepsky-puppy-essentials"
   },
   "bullmatian": {
     "hub": "/breeds/bullmatian",
@@ -3573,7 +3870,8 @@
     "grooming_post": "/blog/best-grooming-for-bullmatian",
     "training_post": "/blog/training-a-bullmatian",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/bullmatian-puppy-essentials"
   },
   "chug": {
     "hub": "/breeds/chug",
@@ -3585,7 +3883,8 @@
     "grooming_post": "/blog/best-grooming-for-chug",
     "training_post": "/blog/training-a-chug",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/chug-puppy-essentials"
   },
   "boxador": {
     "hub": "/breeds/boxador",
@@ -3597,7 +3896,8 @@
     "grooming_post": "/blog/best-grooming-for-boxador",
     "training_post": "/blog/training-a-boxador",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/boxador-puppy-essentials"
   },
   "borgi": {
     "hub": "/breeds/borgi",
@@ -3609,7 +3909,8 @@
     "grooming_post": "/blog/best-grooming-for-borgi",
     "training_post": "/blog/training-a-borgi",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/borgi-puppy-essentials"
   },
   "horgi": {
     "hub": "/breeds/horgi",
@@ -3621,7 +3922,8 @@
     "grooming_post": "/blog/best-grooming-for-horgi",
     "training_post": "/blog/training-a-horgi",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/horgi-puppy-essentials"
   },
   "chorkie": {
     "hub": "/breeds/chorkie",
@@ -3633,7 +3935,8 @@
     "grooming_post": "/blog/best-grooming-for-chorkie",
     "training_post": "/blog/training-a-chorkie",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/chorkie-puppy-essentials"
   },
   "frenchton": {
     "hub": "/breeds/frenchton",
@@ -3645,7 +3948,8 @@
     "grooming_post": "/blog/best-grooming-for-frenchton",
     "training_post": "/blog/training-a-frenchton",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/frenchton-puppy-essentials"
   },
   "borador": {
     "hub": "/breeds/borador",
@@ -3657,7 +3961,8 @@
     "grooming_post": "/blog/best-grooming-for-borador",
     "training_post": "/blog/training-a-borador",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/borador-puppy-essentials"
   },
   "zuchon": {
     "hub": "/breeds/zuchon",
@@ -3669,7 +3974,8 @@
     "grooming_post": "/blog/best-grooming-for-zuchon",
     "training_post": "/blog/training-a-zuchon",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/zuchon-puppy-essentials"
   },
   "saint-berdoodle": {
     "hub": "/breeds/saint-berdoodle",
@@ -3681,7 +3987,8 @@
     "grooming_post": "/blog/best-grooming-for-saint-berdoodle",
     "training_post": "/blog/training-a-saint-berdoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/saint-berdoodle-puppy-essentials"
   },
   "goberian": {
     "hub": "/breeds/goberian",
@@ -3693,7 +4000,8 @@
     "grooming_post": "/blog/best-grooming-for-goberian",
     "training_post": "/blog/training-a-goberian",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/goberian-puppy-essentials"
   },
   "corgipoo": {
     "hub": "/breeds/corgipoo",
@@ -3705,7 +4013,8 @@
     "grooming_post": "/blog/best-grooming-for-corgipoo",
     "training_post": "/blog/training-a-corgipoo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/corgipoo-puppy-essentials"
   },
   "pitsky": {
     "hub": "/breeds/pitsky",
@@ -3717,7 +4026,8 @@
     "grooming_post": "/blog/best-grooming-for-pitsky",
     "training_post": "/blog/training-a-pitsky",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/pitsky-puppy-essentials"
   },
   "newfypoo": {
     "hub": "/breeds/newfypoo",
@@ -3729,7 +4039,8 @@
     "grooming_post": "/blog/best-grooming-for-newfypoo",
     "training_post": "/blog/training-a-newfypoo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/newfypoo-puppy-essentials"
   },
   "dorgi": {
     "hub": "/breeds/dorgi",
@@ -3741,7 +4052,8 @@
     "grooming_post": "/blog/best-grooming-for-dorgi",
     "training_post": "/blog/training-a-dorgi",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/dorgi-puppy-essentials"
   },
   "pyredoodle": {
     "hub": "/breeds/pyredoodle",
@@ -3753,7 +4065,8 @@
     "grooming_post": "/blog/best-grooming-for-pyredoodle",
     "training_post": "/blog/training-a-pyredoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/pyredoodle-puppy-essentials"
   },
   "baskin": {
     "hub": "/breeds/baskin",
@@ -3765,7 +4078,8 @@
     "grooming_post": "/blog/best-grooming-for-baskin",
     "training_post": "/blog/training-a-baskin",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/baskin-puppy-essentials"
   },
   "beaglier": {
     "hub": "/breeds/beaglier",
@@ -3777,7 +4091,8 @@
     "grooming_post": "/blog/best-grooming-for-beaglier",
     "training_post": "/blog/training-a-beaglier",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/beaglier-puppy-essentials"
   },
   "cheagle": {
     "hub": "/breeds/cheagle",
@@ -3789,7 +4104,8 @@
     "grooming_post": "/blog/best-grooming-for-cheagle",
     "training_post": "/blog/training-a-cheagle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/cheagle-puppy-essentials"
   },
   "dalmadoodle": {
     "hub": "/breeds/dalmadoodle",
@@ -3801,7 +4117,8 @@
     "grooming_post": "/blog/best-grooming-for-dalmadoodle",
     "training_post": "/blog/training-a-dalmadoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/dalmadoodle-puppy-essentials"
   },
   "flandoodle": {
     "hub": "/breeds/flandoodle",
@@ -3813,7 +4130,8 @@
     "grooming_post": "/blog/best-grooming-for-flandoodle",
     "training_post": "/blog/training-a-flandoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/flandoodle-puppy-essentials"
   },
   "havapoo": {
     "hub": "/breeds/havapoo",
@@ -3825,7 +4143,8 @@
     "grooming_post": "/blog/best-grooming-for-havapoo",
     "training_post": "/blog/training-a-havapoo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/havapoo-puppy-essentials"
   },
   "jack-a-poo": {
     "hub": "/breeds/jack-a-poo",
@@ -3837,7 +4156,8 @@
     "grooming_post": "/blog/best-grooming-for-jack-a-poo",
     "training_post": "/blog/training-a-jack-a-poo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/jack-a-poo-puppy-essentials"
   },
   "lhasapoo": {
     "hub": "/breeds/lhasapoo",
@@ -3849,7 +4169,8 @@
     "grooming_post": "/blog/best-grooming-for-lhasapoo",
     "training_post": "/blog/training-a-lhasapoo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/lhasapoo-puppy-essentials"
   },
   "springerdoodle": {
     "hub": "/breeds/springerdoodle",
@@ -3861,7 +4182,8 @@
     "grooming_post": "/blog/best-grooming-for-springerdoodle",
     "training_post": "/blog/training-a-springerdoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/springerdoodle-puppy-essentials"
   },
   "boxeweiler": {
     "hub": "/breeds/boxeweiler",
@@ -3873,7 +4195,8 @@
     "grooming_post": "/blog/best-grooming-for-boxeweiler",
     "training_post": "/blog/training-a-boxeweiler",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/boxeweiler-puppy-essentials"
   },
   "bordoodle": {
     "hub": "/breeds/bordoodle",
@@ -3885,7 +4208,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-bordoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/bordoodle-puppy-essentials"
   },
   "bugg": {
     "hub": "/breeds/bugg",
@@ -3897,7 +4221,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-bugg",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/bugg-puppy-essentials"
   },
   "bull-a-mador": {
     "hub": "/breeds/bull-a-mador",
@@ -3909,7 +4234,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-bull-a-mador",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/bull-a-mador-puppy-essentials"
   },
   "corman-shepherd": {
     "hub": "/breeds/corman-shepherd",
@@ -3921,7 +4247,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-corman-shepherd",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/corman-shepherd-puppy-essentials"
   },
   "dameranian": {
     "hub": "/breeds/dameranian",
@@ -3933,7 +4260,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-dameranian",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/dameranian-puppy-essentials"
   },
   "english-boodle": {
     "hub": "/breeds/english-boodle",
@@ -3945,7 +4273,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-english-boodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/english-boodle-puppy-essentials"
   },
   "frug": {
     "hub": "/breeds/frug",
@@ -3957,7 +4286,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-frug",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/frug-puppy-essentials"
   },
   "glechon": {
     "hub": "/breeds/glechon",
@@ -3969,7 +4299,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-glechon",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/glechon-puppy-essentials"
   },
   "golden-mt-dog": {
     "hub": "/breeds/golden-mt-dog",
@@ -3981,7 +4312,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-golden-mt-dog",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/golden-mt-dog-puppy-essentials"
   },
   "havashire": {
     "hub": "/breeds/havashire",
@@ -3993,7 +4325,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-havashire",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/havashire-puppy-essentials"
   },
   "husky-jack": {
     "hub": "/breeds/husky-jack",
@@ -4005,7 +4338,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-husky-jack",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/husky-jack-puppy-essentials"
   },
   "labrabull": {
     "hub": "/breeds/labrabull",
@@ -4017,7 +4351,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-labrabull",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/labrabull-puppy-essentials"
   },
   "mastidoodle": {
     "hub": "/breeds/mastidoodle",
@@ -4029,7 +4364,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-mastidoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/mastidoodle-puppy-essentials"
   },
   "papi-poo": {
     "hub": "/breeds/papi-poo",
@@ -4041,7 +4377,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-papi-poo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/papi-poo-puppy-essentials"
   },
   "poogle": {
     "hub": "/breeds/poogle",
@@ -4053,7 +4390,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-poogle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/poogle-puppy-essentials"
   },
   "rottle": {
     "hub": "/breeds/rottle",
@@ -4065,7 +4403,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-rottle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/rottle-puppy-essentials"
   },
   "sprollie": {
     "hub": "/breeds/sprollie",
@@ -4077,7 +4416,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-sprollie",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/sprollie-puppy-essentials"
   },
   "taco-terrier": {
     "hub": "/breeds/taco-terrier",
@@ -4089,7 +4429,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-taco-terrier",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/taco-terrier-puppy-essentials"
   },
   "westiepoo": {
     "hub": "/breeds/westiepoo",
@@ -4101,7 +4442,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-westiepoo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/westiepoo-puppy-essentials"
   },
   "yorkinese": {
     "hub": "/breeds/yorkinese",
@@ -4113,7 +4455,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-yorkinese",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/yorkinese-puppy-essentials"
   },
   "bernese-mix": {
     "hub": "/breeds/bernese-mix",
@@ -4125,7 +4468,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-bernese-mix",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/bernese-mix-puppy-essentials"
   },
   "bull-boxer": {
     "hub": "/breeds/bull-boxer",
@@ -4137,7 +4481,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-bull-boxer",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/bull-boxer-puppy-essentials"
   },
   "doxie-poo": {
     "hub": "/breeds/doxie-poo",
@@ -4149,7 +4494,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-doxie-poo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/doxie-poo-puppy-essentials"
   },
   "cavadoodle": {
     "hub": "/breeds/cavadoodle",
@@ -4161,7 +4507,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-cavadoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/cavadoodle-puppy-essentials"
   },
   "poochon": {
     "hub": "/breeds/poochon",
@@ -4173,7 +4520,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-poochon",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/poochon-puppy-essentials"
   },
   "swissydog": {
     "hub": "/breeds/swissydog",
@@ -4185,7 +4533,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-swissydog",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/swissydog-puppy-essentials"
   },
   "bordeauxoodle": {
     "hub": "/breeds/bordeauxoodle",
@@ -4197,7 +4546,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-bordeauxoodle",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/bordeauxoodle-puppy-essentials"
   },
   "shih-poo": {
     "hub": "/breeds/shih-poo",
@@ -4209,7 +4559,8 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-shih-poo",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/shih-poo-puppy-essentials"
   },
   "corgidor": {
     "hub": "/breeds/corgidor",
@@ -4221,6 +4572,7 @@
     "grooming_post": null,
     "training_post": "/blog/training-a-corgidor",
     "supplement_post": null,
-    "health_post": null
+    "health_post": null,
+    "puppy_post": "/blog/corgidor-puppy-essentials"
   }
 }

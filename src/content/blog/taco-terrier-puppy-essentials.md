@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "taco-terrier"
 breedName: "Taco Terrier"
 wordCountEstimate: 436
+image: "https://images.dog.ceo/breeds/terrier-toy/n02087046_2185.jpg"
 canonicalUrl: "https://pupwiki.com/blog/taco-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Taco Terriers
-Taco Terriers are small-sized (4.41–8.82 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+Taco Terrier is a designer cross between the Chihuahua and the Toy Fox Terrier. This mix usually weighs about 4-9 pounds, often lands somewhere between its parent coat types, and often blends an active, people-oriented temperament from both sides of the pedigree. Common monitoring areas include Hypoglycemia, Legg-Perthes.
+
+### Taco Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#67** in canine intelligence (Fair tier), the Taco Terrier responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Taco Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Taco Terrier puppy

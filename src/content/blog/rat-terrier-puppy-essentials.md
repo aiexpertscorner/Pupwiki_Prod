@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "rat-terrier"
 breedName: "Rat Terrier"
 wordCountEstimate: 356
+image: "https://images.dog.ceo/breeds/terrier-bedlington/n02093647_518.jpg"
 canonicalUrl: "https://pupwiki.com/blog/rat-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Rat Terriers
-Rat Terriers are small-sized (10–25 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Balanced, compactly built Rat Terriers are tough but elegant-looking. There are two size divisions: Miniatures stand 10 to 13 inches at the shoulder; standards are over 13 inches and as high as 18 inches. The smooth, shiny coat comes in varieties of pied patterns. (Pied, a word borrowed from the horseman’s lexicon, means “comparatively large patches of one or more colors in combination with white.”) These smoothly muscled exterminators are constructed for the efficient movement required for a long day’s work. An American original, with a breed name said to be coined by Teddy Roosevelt, the Rat Terrier is a compact, tough, smooth-coated exterminator dog. RTs come in two size varieties and are happy-go-lucky, playful, and portable companions.
+
+### Rat Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ## How to approach a Rat Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Rat Terrier puppy

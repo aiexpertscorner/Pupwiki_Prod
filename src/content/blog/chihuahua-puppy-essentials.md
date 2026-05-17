@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "chihuahua"
 breedName: "Chihuahua"
 wordCountEstimate: 400
+image: "https://images.dog.ceo/breeds/chihuahua/n02085620_3942.jpg"
 canonicalUrl: "https://pupwiki.com/blog/chihuahua-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Chihuahuas
-Chihuahuas are small-sized (6 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+The Chihuahua is a balanced, graceful dog of terrier-like demeanor, weighing no more than 6 pounds. The rounded “apple” head is a breed hallmark. The erect ears and full, luminous eyes are acutely expressive. Coats come in many colors and patterns, and can be long or short. The varieties are identical except for coat.Chihuahuas possess loyalty, charm, and big-dog attitude. Even tiny dogs require training, and without it this clever scamp will rule your household like a little Napoleon. Compact and confident, Chihuahuas are ideal city pets. They are too small for roughhousing with kids, and special care must be taken in cold weather, but Chihuahuas are adaptable—as long as they get lots of quality time in their preferred lap. The Chihuahua is a tiny dog with a huge personality. A national symbol of Mexico, these alert and amusing "purse dogs" stand among the oldest breeds of the Americas, The Chihuahua ranks #33 in AKC breed popularity.
+
+### Chihuahua at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ███░░ Balanced |
+
+Ranked **#67** in canine intelligence (Fair tier), the Chihuahua benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Chihuahua puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Chihuahua puppy

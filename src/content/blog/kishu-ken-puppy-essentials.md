@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "kishu-ken"
 breedName: "Kishu Ken"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/shiba/shiba-2.jpg"
 canonicalUrl: "https://pupwiki.com/blog/kishu-ken-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Kishu Kens
-Kishu Kens are medium-sized (30–60 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+The Kishu Ken is a great dog for an active person and has the ability to be an easy-going house dog when they are not out and about. They are medium-sized, well balanced, and their muscles are well developed. They have pricked ears and a curled or sickle tail. Kishus are very loving and affectionate with their families and need to be included in activities. They are great with kids if raised with them, but they are often aloof with strangers. Kishu Ken have high prey drives and might like to give chase to small animals. If he is raised with a small animal such as a cat, he could do well with them, but most Kishus can’t help but give in to their instincts. Club Contact DetailsClub: American Kishu Ken ClubName: Carleen NewmanEmail: kishuken1@gmail.com Club: National Kishu ClubName: C.J. Hammond – PresidentEmail: info@kishuclub.com The Kishu Ken is a dog of noteworthy endurance, showing nob
+
+### Kishu Ken at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Kishu Ken puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Kishu Ken puppy

@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "samoyed"
 breedName: "Samoyed"
 wordCountEstimate: 414
+image: "https://images.dog.ceo/breeds/samoyed/n02111889_2544.jpg"
 canonicalUrl: "https://pupwiki.com/blog/samoyed-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Samoyeds
-Samoyeds are medium-sized (35–65 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+Samoyeds, the smiling sledge dogs, were bred for hard work in the world’s coldest locales. In the Siberian town of Oymyakon, for instance, temperatures of minus-60 degrees are common. The Sammy’s famous white coat is thick enough to protect against such brutal conditions.Powerful, agile, tireless, impervious to cold—Sammies are drop-dead gorgeous but highly functional. Even their most delightful feature, a perpetual smile, has a practical function: The mouth’s upturned corners keep Sammies from drooling, preventing icicles from forming on the face.A Sammy sentenced to solitary confinement in the yard is a miserable—and destructive—creature. These are smart, social, mischievous dogs who demand love and attention. Sammies need a very firm but loving hand in training. As pack animals, they must learn early who the alpha dog is—and the alpha dog must be you. The Samoyed is a substantial but
+
+Originally from Russia, the Samoyed belongs to the Spitz and Primitive Types group.
+
+### Samoyed at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
+
+Ranked **#33** in canine intelligence (Above average tier), the Samoyed benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Samoyed puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Samoyed puppy

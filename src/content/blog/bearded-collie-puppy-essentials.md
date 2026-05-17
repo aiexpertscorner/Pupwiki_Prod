@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "bearded-collie"
 breedName: "Bearded Collie"
 wordCountEstimate: 365
+image: "https://images.dog.ceo/breeds/collie/n02106030_2548.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bearded-collie-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/26588116/pexels-photo-26588116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,17 @@ imageSearchQuery: "Bearded Collie dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Bearded Collies
-Bearded Collies are medium-sized (45–55 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Standing 20 to 22 inches at the shoulder and covered head to tail in a shaggy double coat, Beardies bear a passing resemblance to another British favorite, the Old English Sheepdog. Beneath the coats, Beardies are the more lean and angular of the two. The lavish facial hair shouldn’t obscure the characteristic expression: a dreamy, faraway gaze.These rambunctious comics can be a handful—but mostly, Beardies are approximately 50 pounds of heart, energy, and laughter. Well-socialized Beardies will get on nicely with other animals and kids. They bore easily, and training must be kept interesting. Outdoorsy families looking for a sturdy dog to share an uptempo lifestyle will never find a more affectionate and amusing sidekick. A boisterous and charismatic droving dog from Scotland, the shaggy-coated Bearded Collie (“Beardie” to his friends) enjoys outdoor exercise in all weather. Bred to be
+
+### Bearded Collie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ████░ High |
+| Trainability | ██░░░ Below Average |
+| Sociability | █████ Very Friendly |
 ## How to approach a Bearded Collie puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Bearded Collie puppy

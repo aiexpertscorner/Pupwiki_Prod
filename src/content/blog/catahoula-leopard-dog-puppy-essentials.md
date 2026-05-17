@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "catahoula-leopard-dog"
 breedName: "Catahoula Leopard Dog"
 wordCountEstimate: 369
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_1443.jpg"
 canonicalUrl: "https://pupwiki.com/blog/catahoula-leopard-dog-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Catahoula Leopard Dogs
-Catahoula Leopard Dogs are large-sized (50–95 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.
+The Catahoula Leopard Dog is a medium-large, short-coated dog, known for its many varied coat and eye colors and patterns. The word catahoula is of Choctaw origin and is translated to mean “sacred lake.” Catahoulas are the only breed of dog to have historically originated in the state of Louisiana. The breed requires firm guidance and early socialization, as they can be independent, territorial, and protective. For the same reasons, they do not allow mistreatment and will assert themselves in self-defense. Once they know their place in the family unit, they are affectionate, loyal, and gentle. Also called the Catahoula Hog Dog, they are used as stock dogs, bay dogs, tree dogs, watchdogs, guard dogs, and of course as loyal companions. The Catahoula Leopard Dog is a multi-purpose working dog that is well-muscled and powerful, but with a sense of agility and endurance. They are serious whil
+
+### Catahoula Leopard Dog at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
 ## How to approach a Catahoula Leopard Dog puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Catahoula Leopard Dog puppy

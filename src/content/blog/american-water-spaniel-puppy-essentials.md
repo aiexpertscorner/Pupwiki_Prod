@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "american-water-spaniel"
 breedName: "American Water Spaniel"
 wordCountEstimate: 371
+image: "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_10894.jpg"
 canonicalUrl: "https://pupwiki.com/blog/american-water-spaniel-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/34913554/pexels-photo-34913554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,17 @@ imageSearchQuery: "American Water Spaniel dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About American Water Spaniels
-American Water Spaniels are medium-sized (25–45 lbs), with regular energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.
+American Water Spaniels are muscular midsize gundogs, not flashy in looks or performance, and recognizable by a luscious brown coat that is either tightly curled or wavy. Bred to work the icy waters and marshy banks of the Great Lakes region, these spaniels are ideally outfitted for the job: The coat is dense and waterproof, the feet are thickly padded, the toes are webbed, and the body is small enough for the dog to hop in and out of a skiff without rocking the boat. The breed’s admirers describe a merry, intelligent, and versatile spaniel suited to a variety of dog sports. As hunters, they combine the working traits of spaniels and retrievers. The key to the American Water Spaniel’s happiness is activity, especially alongside their adored human. An underemployed dog can be barky and destructive. The American Water Spaniel, native to the lake country of the upper Midwest, is an upbeat,
+
+### American Water Spaniel at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a American Water Spaniel puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a American Water Spaniel puppy

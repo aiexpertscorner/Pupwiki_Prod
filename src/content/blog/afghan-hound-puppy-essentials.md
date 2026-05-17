@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "afghan-hound"
 breedName: "Afghan Hound"
 wordCountEstimate: 429
+image: "https://images.dog.ceo/breeds/hound-afghan/n02088094_3937.jpg"
 canonicalUrl: "https://pupwiki.com/blog/afghan-hound-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/20080179/pexels-photo-20080179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,19 @@ imageSearchQuery: "Afghan Hound dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Afghan Hounds
-Afghan Hounds are medium-sized (50–60 lbs), with active energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+The Afghan Hound is an ancient breed, his whole appearance one of dignity and aloofness – his eyes gazing into the distance as if in memory of ages past. An intelligent and independent mind, his whole appearance one of dignity and style. To his own he is devoted and loyal with a charming and lively personality. The Afghan Hound is an athlete capable of immense speed and requires a large fenced in yard and exercise daily.Since ancient times, Afghan Hounds have been famous for their elegant beauty. But the thick, silky, flowing coat that is the breed’s crowning glory isn’t just for show — it served as protection from the harsh climate in mountainous regions where Afghans originally earned their keep. Beneath the Afghan’s glamorous exterior is a powerful, agile hound — standing as high as 27 inches at the shoulder — built for a long day’s hunt. Their huge paw-pads acted as shock absorbers o
+
+### Afghan Hound at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ████░ High |
+| Trainability | █░░░░ Challenging |
+| Sociability | █░░░░ Reserved |
+
+Ranked **#80** in canine intelligence (Lowest tier), the Afghan Hound benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Afghan Hound puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Afghan Hound puppy

@@ -26,11 +26,20 @@ medicalDisclaimer: false
 breedSlug: "perro-de-presa-canario"
 breedName: "Perro de Presa Canario"
 wordCountEstimate: 392
+image: "https://images.dog.ceo/breeds/mastiff-tibetan/n02108551_9622.jpg"
 canonicalUrl: "https://pupwiki.com/blog/perro-de-presa-canario-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Perro de Presa Canarios
-Perro de Presa Canarios are large-sized (84–110 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+A moderately large-sized molossoid, with a rectilinear profile and black mask, the Perro de Presa Canario is robust and well-proportioned. With a low, deep bark, he has a balanced temperament and is very self-confident. Obedient and docile with family members, he is very devoted to his master, but can be suspicious of strangers. When alert, his stance is firm and vigilant. The Perro de Presa Canario has a calm appearance and attentive expression. He is especially suited to guarding and traditionally used for herding cattle.
+
+### Perro de Presa Canario at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | █░░░░ Very Low |
 ## How to approach a Perro de Presa Canario puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Perro de Presa Canario puppy

@@ -26,6 +26,7 @@ medicalDisclaimer: false
 breedSlug: "airedale-terrier"
 breedName: "Airedale Terrier"
 wordCountEstimate: 383
+image: "https://images.dog.ceo/breeds/airedale/n02096051_2002.jpg"
 canonicalUrl: "https://pupwiki.com/blog/airedale-terrier-puppy-essentials"
 heroImage: "https://images.pexels.com/photos/36587690/pexels-photo-36587690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/36587690/pexels-photo-36587690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -39,7 +40,17 @@ imageSearchQuery: "Airedale Terrier dog portrait"
 
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Airedale Terriers
-Airedale Terriers are large-sized (50–70 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+The Airedale Terrier is the largest of all terrier breeds. Males stand about 23 inches at the shoulder, females a little less. The dense, wiry coat is tan with black markings. Long, muscular legs give Airedales a regal lift in their bearing, and the long head—with its sporty beard and mustache, dark eyes, and neatly folded ears—conveys a keen intelligence. Airedales are the very picture of an alert and willing terrier—only bigger. And, like his smaller cousins in the terrier family, he can be bold, determined, and stubborn. Airedales are docile and patient with kids but won’t back down when protecting hearth and home. Thanks to their famous do-it-all attitude, Airedales excel in all kinds of sports and family activities. His size, strength, and unflagging spirit have earned the Airedale Terrier the nickname “The King of Terriers.” The Airedale stands among the world’s most versatile dog
+
+### Airedale Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █████ Exceptional |
+| Sociability | ████░ Friendly |
 ## How to approach a Airedale Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Airedale Terrier puppy

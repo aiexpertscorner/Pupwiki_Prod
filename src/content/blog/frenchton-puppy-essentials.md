@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "frenchton"
 breedName: "Frenchton"
 wordCountEstimate: 424
+image: "https://images.dog.ceo/breeds/bulldog-french/n02108915_4860.jpg"
 canonicalUrl: "https://pupwiki.com/blog/frenchton-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Frenchtons
-Frenchtons are small-sized (15.43–24.25 lbs), with calm energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.
+Frenchton is a designer cross between the French Bulldog and the Boston Terrier. This mix usually weighs about 15-24 pounds, often carries an easy-care short coat, and often blends a calmer companion temperament with moderate activity needs from both sides of the pedigree. Common monitoring areas include Hemivertebrae, Eye ulcers, Overheating. Originally from France / United States.
+
+### Frenchton at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
+
+Ranked **#56** in canine intelligence (Average tier), the Frenchton responds quickly to reward-based methods and picks up new cues with very few repetitions — placing it among the top 50 most trainable breeds.
 ## How to approach a Frenchton puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Frenchton puppy

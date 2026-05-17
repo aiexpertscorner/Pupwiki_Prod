@@ -26,11 +26,19 @@ medicalDisclaimer: false
 breedSlug: "spanish-mastiff"
 breedName: "Spanish Mastiff"
 wordCountEstimate: 374
+image: "https://images.dog.ceo/breeds/mastiff-bull/n02108422_568.jpg"
 canonicalUrl: "https://pupwiki.com/blog/spanish-mastiff-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Spanish Mastiffs
-Spanish Mastiffs are large-sized (140–200 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The Spanish Mastiff is a dog of great size, well-balanced, very powerful and muscular. He has a massive head and a body covered with a medium-length coat. His bark is raucous, low pitched and deep, very sonorous and audible from a considerable distance. The Spanish Mastiff comes in a range of coat colors, including black, fawn, red, gray, and yellow, and can be seen with brindle or white markings.Used for guarding and defense, the breed is closely related to the seasonal moving of livestock, especially the Merino livestock, which he accompanied at the time of the “Mesta.” In the Middle Ages, this was an association of sheep ranchers who journeyed seasonally to distant locations to find grazing pastures. The Spanish Mastiff was in charge of defending them against wolves and other predators throughout their travels. Either sedentary or wandering, he performs in the same way for farms, peop
+
+### Spanish Mastiff at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
 ## How to approach a Spanish Mastiff puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Spanish Mastiff puppy

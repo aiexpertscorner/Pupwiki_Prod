@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "tibetan-terr
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/tibetan-terrier", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "tibetan-terrier"
 breedName: "Tibetan Terrier"
 wordCountEstimate: 449
+image: "https://images.dog.ceo/breeds/terrier-tibetan/n02097474_3147.jpg"
 canonicalUrl: "https://pupwiki.com/blog/tibetan-terrier-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Tibetan Terriers
-Tibetan Terriers are medium-sized (18–30 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Bearing a passing resemblance to their smaller cousin, the Lhasa Apso, Tibetan Terriers reside at the lower end of medium-sized breeds, standing about 15 inches at the shoulder and weighing between 20 and 24 pounds. A breed hallmark is the beautiful and profuse double coat—wooly underneath, with a long, fine topcoat. TTs are unique among dogs for their large, flat “snowshoe” feet, adapted over centuries to help them negotiate the snowy, mountainous terrain of their homeland. The Tibetan Terrier, “Holy Dog of Tibet,” is an ancient watchdog and companion long associated with Buddhist monasteries. A profusely coated, small-to-medium-sized dog with “snowshoe” feet, the TT is affectionate, sensitive, and clever.
+
+### Tibetan Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ██░░░ Below Average |
+| Sociability | ██░░░ Selective |
+
+Ranked **#62** in canine intelligence (Fair tier), the Tibetan Terrier benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Tibetan Terriers
 No breed-specific genetic ailments are currently documented for the Tibetan Terrier (typical life expectancy: 15–16 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Tibetan Terrier health

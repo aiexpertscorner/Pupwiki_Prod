@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "bolognese", 
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/bolognese", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "bolognese"
 breedName: "Bolognese"
 wordCountEstimate: 397
+image: "https://images.dog.ceo/breeds/maltese/n02085936_8447.jpg"
 canonicalUrl: "https://pupwiki.com/blog/bolognese-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Bologneses
-Bologneses are small-sized (5.5–9 lbs), with calm energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+The Bolognese is small, stocky, and squarely built. He is rather serene and inactive, and devoted to his master and his people. They can be shy towards strangers, but warm up quickly if they are properly socialized. Prone to separation anxiety, the Bolognese does not do well alone for long periods of time. They would be ill-suited for people with a 9-5 workday. Bolos are an old breed, known by royals and noblemen in Roman times, and were given as precious gifts between the wealthy and powerful. A small companion breed originating in Italy, the Bolognese is a calm, faithful dog with a long, fluffy pure-white coat. They are very playful, easy-going and love people.
+
+### Bolognese at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Bologneses
 No breed-specific genetic ailments are currently documented for the Bolognese (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Bolognese health

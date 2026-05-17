@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "pekingese", 
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/pekingese", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,25 @@ medicalDisclaimer: true
 breedSlug: "pekingese"
 breedName: "Pekingese"
 wordCountEstimate: 482
+image: "https://images.dog.ceo/breeds/pekinese/n02086079_2935.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pekingese-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Pekingeses
-Pekingeses are small-sized (14 lbs), with calm energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.
+Pekingese are compact, stocky toy dogs weighing up to 14 pounds. The coat is longest at the neck and shoulders, giving Pekes their famous “lion’s mane.” Coats come in various reds, from a golden-red to darker shades. The large, short-muzzled head is a wider-than-long “envelope shaped” rectangle, and the eyes are large, dark, and sparkly. A unique feature of Pekes is their effortless “rolling” gait.Pekes are charming, confident companions who develop a tight bond with their favorite human. Bred to live in palaces, they can be as serenely independent as the emperors who owned them. (They’re “opinionated,” Peke people say.) Ever alert, they make good watchdogs. Pekes will tolerate kids but won’t stand for a lot of roughhousing. The Pekingese, a compact toy companion of regal bearing and a distinctive rolling gait, is one of several breeds created for the ruling classes of ancient China. The
+
+### Pekingese at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ██░░░ Below Average |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ███░░ Moderate |
+| Trainability | █░░░░ Challenging |
+| Sociability | ██░░░ Selective |
+
+Ranked **#74** in canine intelligence (Lowest tier), the Pekingese benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ### Common health concerns for Pekingeses
 Pekingeses have 1 documented genetic health condition: knee problems. Typical life expectancy is 12–14 years.
 - **Knee problems**: Ask your vet about recommended screening and prevention for this condition in Pekingeses.

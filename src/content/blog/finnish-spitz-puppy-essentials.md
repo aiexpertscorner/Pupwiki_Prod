@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "finnish-spitz"
 breedName: "Finnish Spitz"
 wordCountEstimate: 344
+image: "https://images.dog.ceo/breeds/spitz-japanese/beet-005.jpg"
 canonicalUrl: "https://pupwiki.com/blog/finnish-spitz-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Finnish Spitzs
-Finnish Spitzs are medium-sized (20–33 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The balanced, squarely symmetrical Finnish Spitz will stand not more than 20 inches at the shoulder and are easily recognized by their foxy face and prick ears projecting a lively expression, and a curving plumed tail. Their dense coat of glorious golden-red which is never monochromatic gives them the Finnish Spitz “Glow.” Finkies or Finns, as they are nicknamed, move with a bold and brisk gait.Finkies make excellent alertdogs, wary but not shy with strangers. This is a vocal breed – in Finland, owners hold contests to crown a “King Barker” – and true Finn lovers are more delighted than annoyed by their breed’s yodeling and range of vocalization. Finkies are eager canine athletes and eye-catching show dogs known to be smart, sensitive, and captivating companions. The lively Finnish Spitz, the flame-colored, foxy-faced breed from the “Land of 60,000 Lakes,” is a small but fearless hunting
+
+### Finnish Spitz at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
 ## How to approach a Finnish Spitz puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Finnish Spitz puppy

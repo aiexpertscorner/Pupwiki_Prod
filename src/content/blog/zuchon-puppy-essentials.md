@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "zuchon"
 breedName: "Zuchon"
 wordCountEstimate: 424
+image: "https://images.dog.ceo/breeds/frise-bichon/4.jpg"
 canonicalUrl: "https://pupwiki.com/blog/zuchon-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Zuchons
-Zuchons are small-sized (11.02–17.64 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.
+Zuchon is a designer cross between the Shih Tzu and the Bichon Frise. This mix usually weighs about 11-18 pounds, often shows a mixed coat type, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Bladder stones, Clogged tear ducts. Originally from China.
+
+### Zuchon at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#58** in canine intelligence (Average tier), the Zuchon responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Zuchon puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Zuchon puppy

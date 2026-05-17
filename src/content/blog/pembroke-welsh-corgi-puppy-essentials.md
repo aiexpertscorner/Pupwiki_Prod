@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "pembroke-welsh-corgi"
 breedName: "Pembroke Welsh Corgi"
 wordCountEstimate: 426
+image: "https://images.dog.ceo/breeds/pembroke/n02113023_15462.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pembroke-welsh-corgi-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pembroke Welsh Corgis
-Pembroke Welsh Corgis are medium-sized (28–30 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.
+At 10 to 12 inches at the shoulder and 27 to 30 pounds, a well-built male Pembroke presents a big dog in a small package. Short but powerful legs, muscular thighs, and a deep chest equip him for a hard day’s work. Built long and low, Pembrokes are surprisingly quick and agile. They can be red, sable, fawn, and black and tan, with or without white markings.The Pembroke is a bright, sensitive dog who enjoys play with his human family and responds well to training. As herders bred to move cattle, they are fearless and independent. They are vigilant watchdogs, with acute senses and a “big dog” bark. Families who can meet their bold but kindly Pembroke’s need for activity and togetherness will never have a more loyal, loving pet. Among the most agreeable of all small housedogs, the Pembroke Welsh Corgi is a strong, athletic, and lively little herder who is affectionate and companionable witho The Pembroke Welsh Corgi ranks #13 in AKC breed popularity — one of the most widely owned breeds in the United States.
+
+### Pembroke Welsh Corgi at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
+
+Ranked **#11** in canine intelligence (Excellent tier), the Pembroke Welsh Corgi responds well to consistent, positive reinforcement training — placing it among the top 25 most trainable breeds.
 ## How to approach a Pembroke Welsh Corgi puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pembroke Welsh Corgi puppy

@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "kromfohrlander"
 breedName: "Kromfohrlander"
 wordCountEstimate: 350
+image: "https://images.dog.ceo/breeds/terrier-welsh/lucy.jpg"
 canonicalUrl: "https://pupwiki.com/blog/kromfohrlander-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Kromfohrlanders
-Kromfohrlanders are medium-sized (20–35 lbs), with regular energy, heavy shedding, and a rough coat. The recommendations below are matched to these traits.
+The Kromfohrlander is a very intelligent, funny, agile dog which loves to climb and jump and easily excels at agility and dog-trick training but can be fussy with food. They come in two coat types: wirehaired (with beard) and smooth haired (smooth face with no beard and beautiful, long, soft hair). The breed’s nickname in North America is “Kromi” (krome-ee). The Kromfohrlander was bred to be a companion only, retains very little hunting instinct (despite its terrier heritage), and is often long-lived (17-18 years old). He is good with children and family and tends to be a one-person dog. He is very attached to his owner, will not run away, and is first to alert to strangers. Club Contact DetailsClub: Kromfohrlander Club of AmericaName: Mary DixonEmail: kromiclub@gmail.comPhone: 734-277-2270 The Kromfohrlander is a medium-sized companion breed that is sensitive, loving and loyal to its ow
+
+### Kromfohrlander at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | ██░░░ Selective |
 ## How to approach a Kromfohrlander puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Kromfohrlander puppy

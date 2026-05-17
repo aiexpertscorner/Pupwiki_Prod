@@ -17,7 +17,7 @@ awinTopicTags: ["health", "dog-health-wellness-adjacent-partners", "nova-scotia-
 amazonQueries: ["dog first aid kit", "dog dental care kit", "senior dog comfort supplies"]
 internalLinkTargets: ["/breeds/nova-scotia-duck-tolling-retriever", "/categories/health", "/guides", "/blog/dog-health-wellness-adjacent-partners", "/categories/dog-services", "/categories/senior-dogs", "/categories/insurance", "/disclosure", "/categories/pupwiki-partners"]
 generated: true
-indexInBlog: false
+indexInBlog: true
 reviewMethod: "product-data-comparison"
 claimSensitivity: "high"
 monetizationIntent: "vet-care"
@@ -26,12 +26,23 @@ medicalDisclaimer: true
 breedSlug: "nova-scotia-duck-tolling-retriever"
 breedName: "Nova Scotia Duck Tolling Retriever"
 wordCountEstimate: 408
+image: "https://images.dog.ceo/breeds/retriever-golden/n02099601_1442.jpg"
 canonicalUrl: "https://pupwiki.com/blog/nova-scotia-duck-tolling-retriever-health-problems"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Nova Scotia Duck Tolling Retrievers
-Nova Scotia Duck Tolling Retrievers are medium-sized (35–50 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
+The little gundog with the big name is the smallest AKC retriever, standing ideally 18 or 19 inches at the shoulder. The Toller’s trademark is a coat of stunning crimson, ranging from golden red to a dark coppery color, with white markings. Strong and agile, Tollers are medium dogs: medium in size, bone, and coat length. The almond-shaped eyes project an alert expression.Tollers are upbeat athletes who require outlets for their boundless vigor: hunting, hiking, camping, and, of course, swimming (for which they are ideally suited, down to their webbed feet). Tollers are smart, handsome, affectionate companions, but these red tornadoes can be recommended only to those with enough time and energy to keep them usefully occupied. The smallest of the AKC’s retrievers, the Nova Scotia Duck Tolling Retriever is intelligent, affectionate, and eager to please. Play fetch with a tireless Toller unt
+
+### Nova Scotia Duck Tolling Retriever at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | █████ Very High |
+| Shedding | ███░░ Moderate |
+| Grooming needs | ██░░░ Low |
+| Trainability | ████░ High |
+| Sociability | ████░ Friendly |
 ### Common health concerns for Nova Scotia Duck Tolling Retrievers
 No breed-specific genetic ailments are currently documented for the Nova Scotia Duck Tolling Retriever (typical life expectancy: 12–14 years). Standard preventive care — annual vet checks, dental hygiene, parasite prevention, and weight management — applies to all breeds. Discuss appropriate screening schedules with your vet.
 ## How to approach Nova Scotia Duck Tolling Retriever health

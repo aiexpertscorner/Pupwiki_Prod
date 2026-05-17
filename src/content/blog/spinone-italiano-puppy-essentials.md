@@ -26,11 +26,21 @@ medicalDisclaimer: false
 breedSlug: "spinone-italiano"
 breedName: "Spinone Italiano"
 wordCountEstimate: 330
+image: "https://images.dog.ceo/breeds/pointer-german/n02100236_308.jpg"
 canonicalUrl: "https://pupwiki.com/blog/spinone-italiano-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Spinone Italianos
-Spinone Italianos are medium-sized, with active energy, low shedding, and a rough coat. The recommendations below are matched to these traits.
+The Spinone Italiano (plural: Spinoni Italiani) is a squarely and solidly built all-around hunter. Spinoni are muscular and powerful, built more for endurance than speed. The dense coat has a natural, unclippered look and comes in various colors and patterns. The face conveys the breed’s abundant Old World charm. Those soft, sweetly expressive eyes set off by shaggy eyebrows and a tufted beard have won many a heart in Italy—and they’re making new conquests here in America every day. The Spinone Italiano, a densely-coated hunting dog, is sociable, docile, and patient, sometimes stubborn but always endearing. Of ancient Italian lineage, the Spinone is among the field dogs of Continental Europe famed for versatility.
+
+### Spinone Italiano at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ███░░ Balanced |
 ## How to approach a Spinone Italiano puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Spinone Italiano puppy

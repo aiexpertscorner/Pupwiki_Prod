@@ -26,11 +26,24 @@ medicalDisclaimer: false
 breedSlug: "shorkie"
 breedName: "Shorkie"
 wordCountEstimate: 437
+image: "https://images.dog.ceo/breeds/shihtzu/n02086240_1259.jpg"
 canonicalUrl: "https://pupwiki.com/blog/shorkie-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Shorkies
-Shorkies are small-sized (6.61–15.43 lbs), with regular energy, minimal shedding, and a silky coat. The recommendations below are matched to these traits.
+Shorkie is a designer cross between the Shih Tzu and the Yorkshire Terrier. This mix usually weighs about 7-15 pounds, often has a softer silky coat, and often blends a balanced mix of playfulness and settle-down time from both sides of the pedigree. Common monitoring areas include Brachycephalic issues, Dental disease. Originally from China / United Kingdom.
+
+### Shorkie at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | █░░░░ Minimal |
+| Grooming needs | █████ Very High |
+| Trainability | ██░░░ Below Average |
+| Sociability | ████░ Friendly |
+
+Ranked **#48** in canine intelligence (Average tier), the Shorkie benefits from patient repetition and high-value rewards — placing it among the top 50 most trainable breeds.
 ## How to approach a Shorkie puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Shorkie puppy

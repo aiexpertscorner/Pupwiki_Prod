@@ -26,11 +26,22 @@ medicalDisclaimer: false
 breedSlug: "welsh-terrier"
 breedName: "Welsh Terrier"
 wordCountEstimate: 366
+image: "https://images.dog.ceo/breeds/terrier-welsh/lucy.jpg"
 canonicalUrl: "https://pupwiki.com/blog/welsh-terrier-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Welsh Terriers
-Welsh Terriers are small-sized (20 lbs), with active energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.
+Sturdy, compact, and rugged, with a tight-fitting black-and-tan coat and a rectangular head featuring folded ears and a jaunty beard, Welsh are constructed along the classic lines of Britain’s long-legged terriers. They stand about 15 inches at the shoulder, a little larger than the Lakeland Terrier but much smaller than the mighty Airedale.All three breeds, however, share a family resemblance: An ancient breed called the Old English Black and Tan Terrier is thought to be the granddaddy of these and some other British terriers. The Welsh Terrier is as alert and spirited as any self-respecting terrier, but a bit calmer than most—“game, not quarrelsome,” as breed fanciers say. The Welshman was bred to do battle with badgers, otters, and other dangerous opponents.
+
+### Welsh Terrier at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ████░ High |
+| Shedding | ██░░░ Light |
+| Grooming needs | ███░░ Moderate |
+| Trainability | ███░░ Moderate |
+| Sociability | █████ Very Friendly |
 ## How to approach a Welsh Terrier puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Welsh Terrier puppy

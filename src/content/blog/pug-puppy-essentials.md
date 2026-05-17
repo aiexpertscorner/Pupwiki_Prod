@@ -26,11 +26,26 @@ medicalDisclaimer: false
 breedSlug: "pug"
 breedName: "Pug"
 wordCountEstimate: 412
+image: "https://images.dog.ceo/breeds/pug/n02110958_6627.jpg"
 canonicalUrl: "https://pupwiki.com/blog/pug-puppy-essentials"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pugs
-Pugs are small-sized (14–18 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.
+The Pug’s motto is the Latin phrase “multum in parvo” (a lot in a little)—an apt description of this small but muscular breed. They come in three colors: silver or apricot-fawn with a black face mask, or all black. The large round head, the big, sparkling eyes, and the wrinkled brow give Pugs a range of human-like expressions—surprise, happiness, curiosity—that have delighted owners for centuries.Pug owners say their breed is the ideal house dog. Pugs are happy in the city or country, with kids or old folks, as an only pet or in a pack. They enjoy their food, and care must be taken to keep them trim. They do best in moderate climates—not too hot, not too cold—but, with proper care, Pugs can be their adorable selves anywhere. Once the mischievous companion of Chinese emperors, and later the mascot of Holland’s royal House of Orange, the small but solid Pug is today adored by his millions
+
+Originally from China, the Pug belongs to the Companion and Toy Dogs group. The Pug ranks #28 in AKC breed popularity.
+
+### Pug at a glance
+
+| Trait | Level |
+|-------|-------|
+| Energy | ███░░ Moderate |
+| Shedding | ████░ Heavy |
+| Grooming needs | ██░░░ Low |
+| Trainability | ███░░ Moderate |
+| Sociability | ████░ Friendly |
+
+Ranked **#57** in canine intelligence (Fair tier), the Pug responds well to consistent, positive reinforcement training — placing it among the top 50 most trainable breeds.
 ## How to approach a Pug puppy's first year
 Choose puppy-specific formulas, sizes and training tools. Avoid adult-strength supplements and training methods designed for mature dogs.
 ### What to prioritise in the first weeks with a Pug puppy
