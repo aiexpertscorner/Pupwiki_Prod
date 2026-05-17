@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-16T22:35:59.853Z",
+  "syncedAt": "2026-05-17T02:57:57.088Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -17048,13 +17048,1253 @@
       "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
       "pexelsUrl": "https://www.pexels.com/photo/tattooed-person-combing-the-dog-9632122/",
       "id": 9632122
+    },
+    "best-grooming-for-swedish-vallhund:Swedish Vallhund dog grooming": {
+      "url": "https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog groomer and her assistant tend to a Yorkshire Terrier on a grooming table.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-grooming-a-yorkshire-terrier-6131578/",
+      "id": 6131578
+    },
+    "best-grooming-for-swissydog:Swissydog dog grooming": {
+      "url": "https://images.pexels.com/photos/19145895/pexels-photo-19145895.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog groomer is bathing a small dog in a professional grooming salon, showcasing pet care.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/groomer-washing-dog-19145895/",
+      "id": 19145895
+    },
+    "best-grooming-for-taco-terrier:Taco Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A female pet groomer trims a terrier dog's fur in an indoor grooming salon.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/",
+      "id": 6131568
+    },
+    "best-grooming-for-teddy-roosevelt-terrier:Teddy Roosevelt Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A female pet groomer trims a terrier dog's fur in an indoor grooming salon.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/",
+      "id": 6131568
+    },
+    "best-grooming-for-thai-ridgeback:Thai Ridgeback dog grooming": {
+      "url": "https://images.pexels.com/photos/5389345/pexels-photo-5389345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of two Rhodesian Ridgeback dogs outdoors, showcasing their attentive expression.",
+      "photographer": "Ilo Frey",
+      "photographerUrl": "https://www.pexels.com/@couleur",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-dogs-on-green-grass-field-5389345/",
+      "id": 5389345
+    },
+    "best-grooming-for-tibetan-mastiff:Tibetan Mastiff dog grooming": {
+      "url": "https://images.pexels.com/photos/29689224/pexels-photo-29689224.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Kangal shepherd dog relaxing in a rural setting beside a wooden house. Calm, tranquil scene.",
+      "photographer": "arda öncül",
+      "photographerUrl": "https://www.pexels.com/@arda-oncul-1641310664",
+      "pexelsUrl": "https://www.pexels.com/photo/kangal-shepherd-dog-relaxing-near-rustic-dog-house-29689224/",
+      "id": 29689224
+    },
+    "best-grooming-for-tibetan-spaniel:Tibetan Spaniel dog grooming": {
+      "url": "https://images.pexels.com/photos/20628584/pexels-photo-20628584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming Tibetan Spaniel dog with fluffy fur, sticking out its tongue in a playful pose outdoors.",
+      "photographer": "Gundula Vogel",
+      "photographerUrl": "https://www.pexels.com/@guvo59",
+      "pexelsUrl": "https://www.pexels.com/photo/fluffy-tibetan-spaniel-20628584/",
+      "id": 20628584
+    },
+    "best-grooming-for-tibetan-terrier:Tibetan Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/35171564/pexels-photo-35171564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Tibetan Terrier dog relaxing outdoors with tongue out, surrounded by greenery.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-tibetan-terrier-dog-outdoors-35171564/",
+      "id": 35171564
+    },
+    "best-grooming-for-tornjak:Tornjak dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-tosa:Tosa dog grooming": {
+      "url": "https://images.pexels.com/photos/19145893/pexels-photo-19145893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional groomer styles a Shih Tzu while another dog awaits, showcasing expert pet grooming skills.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-groomer-at-work-19145893/",
+      "id": 19145893
+    },
+    "best-grooming-for-treeing-tennessee-brindle:Treeing Tennessee Brindle dog grooming": {
+      "url": "https://images.pexels.com/photos/28614820/pexels-photo-28614820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A brindle dog wearing a harness explores a snowy landscape filled with trees.",
+      "photographer": "Stephen Leonardi",
+      "photographerUrl": "https://www.pexels.com/@stephen-leonardi-587681991",
+      "pexelsUrl": "https://www.pexels.com/photo/brindle-dog-on-snowy-outdoor-adventure-28614820/",
+      "id": 28614820
+    },
+    "best-grooming-for-treeing-walker-coonhound:Treeing Walker Coonhound dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-welsh-terrier:Welsh Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A female pet groomer trims a terrier dog's fur in an indoor grooming salon.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/",
+      "id": 6131568
+    },
+    "best-grooming-for-westiepoo:Westiepoo dog grooming": {
+      "url": "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A pet groomer trims a dog's fur on a grooming table in a professional salon setting.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/",
+      "id": 6131541
+    },
+    "best-grooming-for-wetterhoun:Wetterhoun dog grooming": {
+      "url": "https://images.pexels.com/photos/8498547/pexels-photo-8498547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy white dog being gently brushed on a wooden floor during grooming.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-brushing-a-dog-8498547/",
+      "id": 8498547
+    },
+    "best-grooming-for-wire-fox-terrier:Wire Fox Terrier dog grooming": {
+      "url": "https://images.pexels.com/photos/33715586/pexels-photo-33715586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man holds a dog in a tree amidst lush greenery in a park.",
+      "photographer": "German Suarez",
+      "photographerUrl": "https://www.pexels.com/@german-suarez-2985952",
+      "pexelsUrl": "https://www.pexels.com/photo/man-gently-holding-dog-in-tree-outdoors-33715586/",
+      "id": 33715586
+    },
+    "best-grooming-for-wirehaired-vizsla:Wirehaired Vizsla dog grooming": {
+      "url": "https://images.pexels.com/photos/19718742/pexels-photo-19718742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Wirehaired Vizsla dog sitting on a field in a misty rural landscape.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/a-wirehaired-vizsla-dog-sitting-on-the-ground-outside-19718742/",
+      "id": 19718742
+    },
+    "best-grooming-for-working-kelpie:Working Kelpie dog grooming": {
+      "url": "https://images.pexels.com/photos/13565285/pexels-photo-13565285.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of an Australian Kelpie dog in front of wooden logs, showcasing its attentive expression.",
+      "photographer": "James Knight",
+      "photographerUrl": "https://www.pexels.com/@james-knight-307187766",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-brown-and-black-dog-13565285/",
+      "id": 13565285
+    },
+    "best-grooming-for-xoloitzcuintli:Xoloitzcuintli dog grooming": {
+      "url": "https://images.pexels.com/photos/14411361/pexels-photo-14411361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up profile of a Xoloitzcuintli dog with a harness outdoors on a sunny day.",
+      "photographer": "Yo Soy Flashh",
+      "photographerUrl": "https://www.pexels.com/@yo-soy-flashh-348552509",
+      "pexelsUrl": "https://www.pexels.com/photo/a-mexican-hairless-dog-on-a-leash-14411361/",
+      "id": 14411361
+    },
+    "best-grooming-for-yorkinese:Yorkinese dog grooming": {
+      "url": "https://images.pexels.com/photos/19145885/pexels-photo-19145885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A woman expertly trims a small dog's fur in a professional pet grooming salon.",
+      "photographer": "Goochie Poochie Grooming",
+      "photographerUrl": "https://www.pexels.com/@goochie-poochie",
+      "pexelsUrl": "https://www.pexels.com/photo/groomer-working-with-dog-19145885/",
+      "id": 19145885
+    },
+    "best-supplements-for-beauceron:Beauceron healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/29281245/pexels-photo-29281245.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cheerful Beauceron dog lying on the grass in a sunny park, tongue out.",
+      "photographer": "jordan besson",
+      "photographerUrl": "https://www.pexels.com/@jordan-besson-2051439001",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-happy-beauceron-in-sunny-park-29281245/",
+      "id": 29281245
+    },
+    "best-supplements-for-canaan-dog:Canaan Dog healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/4148952/pexels-photo-4148952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Three adults jogging with a dog on a forest path on a bright spring day, promoting healthy living.",
+      "photographer": "Gustavo Fring",
+      "photographerUrl": "https://www.pexels.com/@gustavo-fring",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-two-women-and-man-jogging-with-dog-on-pavement-4148952/",
+      "id": 4148952
+    },
+    "best-supplements-for-croatian-sheepdog:Croatian Sheepdog healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/15804375/pexels-photo-15804375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black Croatian sheepdog stands in a serene winter forest setting with snow.",
+      "photographer": "Adnana Kelic",
+      "photographerUrl": "https://www.pexels.com/@adnana-kelic-276310003",
+      "pexelsUrl": "https://www.pexels.com/photo/black-dog-in-forest-15804375/",
+      "id": 15804375
+    },
+    "best-supplements-for-harrier:Harrier healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/8057584/pexels-photo-8057584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Woman practicing yoga at home with a dog and laptop, embracing a healthy lifestyle.",
+      "photographer": "Kampus Production",
+      "photographerUrl": "https://www.pexels.com/@kampus",
+      "pexelsUrl": "https://www.pexels.com/photo/a-woman-in-pink-tank-top-8057584/",
+      "id": 8057584
+    },
+    "best-supplements-for-hovawart:Hovawart healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor.",
+      "photographer": "Theo Willems",
+      "photographerUrl": "https://www.pexels.com/@theo-willems-537669255",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-a-hovawart-dog-16528289/",
+      "id": 16528289
+    },
+    "best-supplements-for-mudi:Mudi healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/4148952/pexels-photo-4148952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Three adults jogging with a dog on a forest path on a bright spring day, promoting healthy living.",
+      "photographer": "Gustavo Fring",
+      "photographerUrl": "https://www.pexels.com/@gustavo-fring",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-two-women-and-man-jogging-with-dog-on-pavement-4148952/",
+      "id": 4148952
+    },
+    "best-supplements-for-portuguese-pointer:Portuguese Pointer healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features.",
+      "photographer": "Алексей Вечерин",
+      "photographerUrl": "https://www.pexels.com/@107014568",
+      "pexelsUrl": "https://www.pexels.com/photo/a-black-and-white-short-coated-dog-9562585/",
+      "id": 9562585
+    },
+    "best-supplements-for-portuguese-sheepdog:Portuguese Sheepdog healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/5459939/pexels-photo-5459939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Pyrenean Sheepdog enjoying a sunny day in a vibrant flower field.",
+      "photographer": "alberto teruzzi",
+      "photographerUrl": "https://www.pexels.com/@alberto-teruzzi-3648867",
+      "pexelsUrl": "https://www.pexels.com/photo/a-sheepdog-running-on-a-flower-field-5459939/",
+      "id": 5459939
+    },
+    "best-supplements-for-puli:Puli healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/4148952/pexels-photo-4148952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Three adults jogging with a dog on a forest path on a bright spring day, promoting healthy living.",
+      "photographer": "Gustavo Fring",
+      "photographerUrl": "https://www.pexels.com/@gustavo-fring",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-two-women-and-man-jogging-with-dog-on-pavement-4148952/",
+      "id": 4148952
+    },
+    "best-supplements-for-pumi:Pumi healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/4148952/pexels-photo-4148952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Three adults jogging with a dog on a forest path on a bright spring day, promoting healthy living.",
+      "photographer": "Gustavo Fring",
+      "photographerUrl": "https://www.pexels.com/@gustavo-fring",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-two-women-and-man-jogging-with-dog-on-pavement-4148952/",
+      "id": 4148952
+    },
+    "best-supplements-for-schapendoes:Schapendoes healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/10991599/pexels-photo-10991599.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of a Stabyhoun dog holding a soccer ball in the snow during winter.",
+      "photographer": "Nele We",
+      "photographerUrl": "https://www.pexels.com/@nele-we-162270781",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-in-close-up-photography-10991599/",
+      "id": 10991599
+    },
+    "best-supplements-for-tosa:Tosa healthy dog wellness": {
+      "url": "https://images.pexels.com/photos/18235144/pexels-photo-18235144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Maltese dog enjoying a leashed walk in a vibrant garden with greenery and flowers.",
+      "photographer": "SOO CHUL PARK",
+      "photographerUrl": "https://www.pexels.com/@voltfather",
+      "pexelsUrl": "https://www.pexels.com/photo/man-walking-a-white-maltese-dog-18235144/",
+      "id": 18235144
+    },
+    "canaan-dog-health-problems:Canaan Dog dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "canaan-dog-puppy-essentials:Canaan Dog dog portrait": {
+      "url": "https://images.pexels.com/photos/15336364/pexels-photo-15336364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A captivating close-up portrait of a white dog outdoors, displaying natural beauty.",
+      "photographer": "Shilpa Deekshith",
+      "photographerUrl": "https://www.pexels.com/@shilpa-deekshith-5076490",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-15336364/",
+      "id": 15336364
+    },
+    "croatian-sheepdog-health-problems:Croatian Sheepdog dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional veterinarian in mask examines a dog indoors during a checkup.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/man-checking-on-a-dog-7468978/",
+      "id": 7468978
+    },
+    "croatian-sheepdog-puppy-essentials:Croatian Sheepdog dog portrait": {
+      "url": "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-shetland-sheepdog-outdoors-29955884/",
+      "id": 29955884
+    },
+    "harrier-health-problems:Harrier dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional veterinarian in mask examines a dog indoors during a checkup.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/man-checking-on-a-dog-7468978/",
+      "id": 7468978
+    },
+    "harrier-puppy-essentials:Harrier dog portrait": {
+      "url": "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors.",
+      "photographer": "Pexels User",
+      "photographerUrl": "https://www.pexels.com/@pexels-user-571463640",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-beagle-dog-sitting-outside-16902552/",
+      "id": 16902552
+    },
+    "hovawart-health-problems:Hovawart dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional veterinarian in mask examines a dog indoors during a checkup.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/man-checking-on-a-dog-7468978/",
+      "id": 7468978
+    },
+    "hovawart-puppy-essentials:Hovawart dog portrait": {
+      "url": "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor.",
+      "photographer": "Theo Willems",
+      "photographerUrl": "https://www.pexels.com/@theo-willems-537669255",
+      "pexelsUrl": "https://www.pexels.com/photo/photo-of-a-hovawart-dog-16528289/",
+      "id": 16528289
+    },
+    "mudi-health-problems:Mudi dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/6235124/pexels-photo-6235124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Veterinarian consulting with dog owner in a clinic while holding a Pomeranian.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/man-holding-dog-while-talking-to-a-woman-6235124/",
+      "id": 6235124
+    },
+    "mudi-puppy-essentials:Mudi dog portrait": {
+      "url": "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/",
+      "id": 34242930
+    },
+    "portuguese-pointer-health-problems:Portuguese Pointer dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional veterinarian in mask examines a dog indoors during a checkup.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/man-checking-on-a-dog-7468978/",
+      "id": 7468978
+    },
+    "portuguese-pointer-puppy-essentials:Portuguese Pointer dog portrait": {
+      "url": "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features.",
+      "photographer": "Алексей Вечерин",
+      "photographerUrl": "https://www.pexels.com/@107014568",
+      "pexelsUrl": "https://www.pexels.com/photo/a-black-and-white-short-coated-dog-9562585/",
+      "id": 9562585
+    },
+    "portuguese-sheepdog-health-problems:Portuguese Sheepdog dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional veterinarian in mask examines a dog indoors during a checkup.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/man-checking-on-a-dog-7468978/",
+      "id": 7468978
+    },
+    "portuguese-sheepdog-puppy-essentials:Portuguese Sheepdog dog portrait": {
+      "url": "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City.",
+      "photographer": "Miguel González",
+      "photographerUrl": "https://www.pexels.com/@mikegles",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-yellow-background-16622613/",
+      "id": 16622613
+    },
+    "puli-health-problems:Puli dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/6235124/pexels-photo-6235124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Veterinarian consulting with dog owner in a clinic while holding a Pomeranian.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/man-holding-dog-while-talking-to-a-woman-6235124/",
+      "id": 6235124
+    },
+    "puli-puppy-essentials:Puli dog portrait": {
+      "url": "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up black and white portrait of a curly-haired white dog.",
+      "photographer": "Anna",
+      "photographerUrl": "https://www.pexels.com/@anna-2037514238",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-fluffy-dog-31845857/",
+      "id": 31845857
+    },
+    "pumi-health-problems:Pumi dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional veterinarian in mask examines a dog indoors during a checkup.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/man-checking-on-a-dog-7468978/",
+      "id": 7468978
+    },
+    "pumi-puppy-essentials:Pumi dog portrait": {
+      "url": "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up black and white portrait of a curly-haired white dog.",
+      "photographer": "Anna",
+      "photographerUrl": "https://www.pexels.com/@anna-2037514238",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-portrait-of-fluffy-dog-31845857/",
+      "id": 31845857
+    },
+    "schapendoes-health-problems:Schapendoes dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/6235113/pexels-photo-6235113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of a veterinarian examining a dog's teeth during a dental checkup.",
+      "photographer": "Tima Miroshnichenko",
+      "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+      "pexelsUrl": "https://www.pexels.com/photo/a-person-looking-at-a-dog-s-teeth-6235113/",
+      "id": 6235113
+    },
+    "schapendoes-puppy-essentials:Schapendoes dog portrait": {
+      "url": "https://images.pexels.com/photos/35359632/pexels-photo-35359632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up portrait of a brown and white dog in a serene outdoor setting.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-relaxed-brown-and-white-dog-in-nature-35359632/",
+      "id": 35359632
+    },
+    "tosa-health-problems:Tosa dog veterinarian wellness": {
+      "url": "https://images.pexels.com/photos/7468978/pexels-photo-7468978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A professional veterinarian in mask examines a dog indoors during a checkup.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/man-checking-on-a-dog-7468978/",
+      "id": 7468978
+    },
+    "tosa-puppy-essentials:Tosa dog portrait": {
+      "url": "https://images.pexels.com/photos/30169560/pexels-photo-30169560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Black and white portrait of a large black dog with a thoughtful expression outdoors.",
+      "photographer": "Matej Bizjak",
+      "photographerUrl": "https://www.pexels.com/@matej-bizjak-2148520448",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-dog-in-black-and-white-30169560/",
+      "id": 30169560
+    },
+    "training-a-papillon:Papillon dog training outdoors": {
+      "url": "https://images.pexels.com/photos/32132379/pexels-photo-32132379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Captivating black and white portrait of a Papillon dog sitting outdoors, radiating elegance and charm.",
+      "photographer": "Alexas Fotos",
+      "photographerUrl": "https://www.pexels.com/@alexasfotos",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-papillon-dog-in-black-and-white-portrait-32132379/",
+      "id": 32132379
+    },
+    "training-a-parson-russell-terrier:Parson Russell Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/16478797/pexels-photo-16478797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable small dog standing on a snowy road in Jönköping, Sweden during winter.",
+      "photographer": "Efrem  Efre",
+      "photographerUrl": "https://www.pexels.com/@efrem-efre-2786187",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-road-in-snow-16478797/",
+      "id": 16478797
+    },
+    "training-a-pekingese:Pekingese dog training outdoors": {
+      "url": "https://images.pexels.com/photos/283014/pexels-photo-283014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming portrait of a Pekingese dog sitting outdoors in a serene setting.",
+      "photographer": "Elisabeth Fossum",
+      "photographerUrl": "https://www.pexels.com/@elisabethfossum",
+      "pexelsUrl": "https://www.pexels.com/photo/tan-pekingese-283014/",
+      "id": 283014
+    },
+    "training-a-pembroke-welsh-corgi:Pembroke Welsh Corgi dog training outdoors": {
+      "url": "https://images.pexels.com/photos/8963716/pexels-photo-8963716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute corgi dog lying on a vibrant grass field with flowers in the background.",
+      "photographer": "Valeria Boltneva",
+      "photographerUrl": "https://www.pexels.com/@valeriya",
+      "pexelsUrl": "https://www.pexels.com/photo/a-corgi-dog-lying-on-a-grass-field-8963716/",
+      "id": 8963716
+    },
+    "training-a-perro-de-presa-canario:Perro de Presa Canario dog training outdoors": {
+      "url": "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors.",
+      "photographer": "Anton Kudryashov",
+      "photographerUrl": "https://www.pexels.com/@anton-kudryashov-118639843",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/",
+      "id": 9956387
+    },
+    "training-a-peruvian-inca-orchid:Peruvian Inca Orchid dog training outdoors": {
+      "url": "https://images.pexels.com/photos/35507984/pexels-photo-35507984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A distinctive hairless dog standing on a moss-covered pathway outdoors.",
+      "photographer": "Erwin Bosman",
+      "photographerUrl": "https://www.pexels.com/@erwin-bosman-118283",
+      "pexelsUrl": "https://www.pexels.com/photo/unique-hairless-dog-on-outdoor-pathway-35507984/",
+      "id": 35507984
+    },
+    "training-a-petit-basset-griffon-venden:Petit Basset Griffon Vendéen dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Wirehaired Pointing Griffon dog standing outdoors during fall.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/wirehaired-pointing-griffon-standing-outdoors-28811074/",
+      "id": 28811074
+    },
+    "training-a-pharaoh-hound:Pharaoh Hound dog training outdoors": {
+      "url": "https://images.pexels.com/photos/37107256/pexels-photo-37107256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A police dog in harness participating in training outdoors with handler on a grassy field.",
+      "photographer": "Willians Huerta",
+      "photographerUrl": "https://www.pexels.com/@willians-huerta-2157111846",
+      "pexelsUrl": "https://www.pexels.com/photo/police-dog-training-outdoors-in-summer-37107256/",
+      "id": 37107256
+    },
+    "training-a-plott-hound:Plott Hound dog training outdoors": {
+      "url": "https://images.pexels.com/photos/27132297/pexels-photo-27132297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A lively dog on a leash enjoying the outdoors in a grassy field.",
+      "photographer": "Karl  Byron",
+      "photographerUrl": "https://www.pexels.com/@karl-byron-568836130",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-on-leash-on-grass-27132297/",
+      "id": 27132297
+    },
+    "training-a-pointer:Pointer dog training outdoors": {
+      "url": "https://images.pexels.com/photos/32820404/pexels-photo-32820404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Pointer dog and handler outdoors, showcasing companionship and control.",
+      "photographer": "Jiří Dočkal",
+      "photographerUrl": "https://www.pexels.com/@jiri-dockal-193602865",
+      "pexelsUrl": "https://www.pexels.com/photo/pointer-dog-with-handler-in-outdoor-setting-32820404/",
+      "id": 32820404
+    },
+    "training-a-polish-lowland-sheepdog:Polish Lowland Sheepdog dog training outdoors": {
+      "url": "https://images.pexels.com/photos/21939282/pexels-photo-21939282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A smiling child in a red plaid shirt pets an Old English Sheepdog outdoors.",
+      "photographer": "Vika Glitter",
+      "photographerUrl": "https://www.pexels.com/@vika-glitter-392079",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-boy-with-dog-21939282/",
+      "id": 21939282
+    },
+    "training-a-pomeranian:Pomeranian dog training outdoors": {
+      "url": "https://images.pexels.com/photos/8030984/pexels-photo-8030984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Pomeranian dog on a leash enjoying a sunny day outdoors on a stone pathway.",
+      "photographer": "Tiểu Bảo Trương",
+      "photographerUrl": "https://www.pexels.com/@ti-u-b-o-tr-ng-41366219",
+      "pexelsUrl": "https://www.pexels.com/photo/a-pomeranian-dog-on-a-leash-8030984/",
+      "id": 8030984
+    },
+    "training-a-poodle-miniature:Poodle (Miniature) dog training outdoors": {
+      "url": "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/black-poodle-shaking-hands-with-owner-outdoors-35276201/",
+      "id": 35276201
+    },
+    "training-a-poodle-standard:Poodle (Standard) dog training outdoors": {
+      "url": "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/black-poodle-shaking-hands-with-owner-outdoors-35276201/",
+      "id": 35276201
+    },
+    "training-a-poodle-toy:Poodle (Toy) dog training outdoors": {
+      "url": "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/black-poodle-shaking-hands-with-owner-outdoors-35276201/",
+      "id": 35276201
+    },
+    "training-a-porcelaine:Porcelaine dog training outdoors": {
+      "url": "https://images.pexels.com/photos/32820404/pexels-photo-32820404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Pointer dog and handler outdoors, showcasing companionship and control.",
+      "photographer": "Jiří Dočkal",
+      "photographerUrl": "https://www.pexels.com/@jiri-dockal-193602865",
+      "pexelsUrl": "https://www.pexels.com/photo/pointer-dog-with-handler-in-outdoor-setting-32820404/",
+      "id": 32820404
+    },
+    "training-a-portuguese-podengo-pequeno:Portuguese Podengo Pequeno dog training outdoors": {
+      "url": "https://images.pexels.com/photos/29590681/pexels-photo-29590681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Woman training her dog on a forest path during fall. Engaged interaction in nature.",
+      "photographer": "Michał Robak",
+      "photographerUrl": "https://www.pexels.com/@michalrobak",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-training-dog-in-forest-setting-29590681/",
+      "id": 29590681
+    },
+    "training-a-portuguese-podengo:Portuguese Podengo dog training outdoors": {
+      "url": "https://images.pexels.com/photos/29590681/pexels-photo-29590681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Woman training her dog on a forest path during fall. Engaged interaction in nature.",
+      "photographer": "Michał Robak",
+      "photographerUrl": "https://www.pexels.com/@michalrobak",
+      "pexelsUrl": "https://www.pexels.com/photo/woman-training-dog-in-forest-setting-29590681/",
+      "id": 29590681
+    },
+    "training-a-portuguese-pointer:Portuguese Pointer dog training outdoors": {
+      "url": "https://images.pexels.com/photos/32820404/pexels-photo-32820404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Pointer dog and handler outdoors, showcasing companionship and control.",
+      "photographer": "Jiří Dočkal",
+      "photographerUrl": "https://www.pexels.com/@jiri-dockal-193602865",
+      "pexelsUrl": "https://www.pexels.com/photo/pointer-dog-with-handler-in-outdoor-setting-32820404/",
+      "id": 32820404
+    },
+    "training-a-portuguese-sheepdog:Portuguese Sheepdog dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-portuguese-water-dog:Portuguese Water Dog dog training outdoors": {
+      "url": "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/black-poodle-shaking-hands-with-owner-outdoors-35276201/",
+      "id": 35276201
+    },
+    "training-a-pudelpointer:Pudelpointer dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-pug:Pug dog training outdoors": {
+      "url": "https://images.pexels.com/photos/9700107/pexels-photo-9700107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute pug dog lying on lush green grass, enjoying the sunny outdoors.",
+      "photographer": "Steshka Croes",
+      "photographerUrl": "https://www.pexels.com/@steshkacroes",
+      "pexelsUrl": "https://www.pexels.com/photo/a-dog-sitting-on-the-grass-9700107/",
+      "id": 9700107
+    },
+    "training-a-puli:Puli dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-pumi:Pumi dog training outdoors": {
+      "url": "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/black-poodle-shaking-hands-with-owner-outdoors-35276201/",
+      "id": 35276201
+    },
+    "training-a-pyrenean-mastiff:Pyrenean Mastiff dog training outdoors": {
+      "url": "https://images.pexels.com/photos/16530891/pexels-photo-16530891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy dog with a leash being pet by a person outdoors, showing happiness and companionship.",
+      "photographer": "Lisá  Yakurím",
+      "photographerUrl": "https://www.pexels.com/@lisa-yakurim-40702902",
+      "pexelsUrl": "https://www.pexels.com/photo/person-petting-happy-fluffy-dog-16530891/",
+      "id": 16530891
+    },
+    "training-a-pyrenean-shepherd:Pyrenean Shepherd dog training outdoors": {
+      "url": "https://images.pexels.com/photos/8499238/pexels-photo-8499238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A joyful white dog interacts with a person wearing a yellow raincoat outdoors.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-cute-dog-wearing-raincoat-8499238/",
+      "id": 8499238
+    },
+    "training-a-rafeiro-do-alentejo:Rafeiro do Alentejo dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-rat-terrier:Rat Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/14140089/pexels-photo-14140089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of a woman giving a treat to a dog outdoors on a sunny day.",
+      "photographer": "Liudmyla Shalimova",
+      "photographerUrl": "https://www.pexels.com/@ludakavun",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-person-feeding-a-dog-14140089/",
+      "id": 14140089
+    },
+    "training-a-redbone-coonhound:Redbone Coonhound dog training outdoors": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "training-a-rhodesian-ridgeback:Rhodesian Ridgeback dog training outdoors": {
+      "url": "https://images.pexels.com/photos/5389345/pexels-photo-5389345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of two Rhodesian Ridgeback dogs outdoors, showcasing their attentive expression.",
+      "photographer": "Ilo Frey",
+      "photographerUrl": "https://www.pexels.com/@couleur",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-dogs-on-green-grass-field-5389345/",
+      "id": 5389345
+    },
+    "training-a-romanian-mioritic-shepherd-dog:Romanian Mioritic Shepherd Dog dog training outdoors": {
+      "url": "https://images.pexels.com/photos/8499238/pexels-photo-8499238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A joyful white dog interacts with a person wearing a yellow raincoat outdoors.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/a-cute-dog-wearing-raincoat-8499238/",
+      "id": 8499238
+    },
+    "training-a-rottweiler:Rottweiler dog training outdoors": {
+      "url": "https://images.pexels.com/photos/8327623/pexels-photo-8327623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Blind individual using cane with guide dog on a walk outdoors.",
+      "photographer": "MART  PRODUCTION",
+      "photographerUrl": "https://www.pexels.com/@mart-production",
+      "pexelsUrl": "https://www.pexels.com/photo/person-standing-beside-the-black-short-coated-dog-8327623/",
+      "id": 8327623
+    },
+    "training-a-russell-terrier:Russell Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28608524/pexels-photo-28608524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A cute Jack Russell Terrier puppy sitting on green grass outdoors.",
+      "photographer": "Oleh Bachynskyi",
+      "photographerUrl": "https://www.pexels.com/@oleh",
+      "pexelsUrl": "https://www.pexels.com/photo/adorable-jack-russell-terrier-puppy-on-a-lawn-28608524/",
+      "id": 28608524
+    },
+    "training-a-russian-toy:Russian Toy dog training outdoors": {
+      "url": "https://images.pexels.com/photos/10509897/pexels-photo-10509897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Energetic dog playing tug of war with a person, outdoors in a sunny setting.",
+      "photographer": "Jose Rodriguez Ortega",
+      "photographerUrl": "https://www.pexels.com/@jose-rodriguez-ortega-2189823",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-pulling-a-toy-held-by-his-owner-10509897/",
+      "id": 10509897
+    },
+    "training-a-russian-tsvetnaya-bolonka:Russian Tsvetnaya Bolonka dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-saint-bernard:Saint Bernard dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-saluki:Saluki dog training outdoors": {
+      "url": "https://images.pexels.com/photos/12443593/pexels-photo-12443593.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Captivating close-up of a Saluki dog outdoors, showcasing its elegant features.",
+      "photographer": "Alexandra Sullivan",
+      "photographerUrl": "https://www.pexels.com/@alexandra-sullivan-239181222",
+      "pexelsUrl": "https://www.pexels.com/photo/saluki-dog-in-close-up-photography-12443593/",
+      "id": 12443593
+    },
+    "training-a-samoyed:Samoyed dog training outdoors": {
+      "url": "https://images.pexels.com/photos/16610860/pexels-photo-16610860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Samoyed dog sitting outdoors with a leash, showcasing its fluffy white fur.",
+      "photographer": "Efrem  Efre",
+      "photographerUrl": "https://www.pexels.com/@efrem-efre-2786187",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-picture-of-a-fluffy-samoyed-dog-16610860/",
+      "id": 16610860
+    },
+    "training-a-schapendoes:Schapendoes dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-schipperke:Schipperke dog training outdoors": {
+      "url": "https://images.pexels.com/photos/5863557/pexels-photo-5863557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A person in boots training a black dog outdoors in a dry field.",
+      "photographer": "Rachel Claire",
+      "photographerUrl": "https://www.pexels.com/@rachel-claire",
+      "pexelsUrl": "https://www.pexels.com/photo/man-teaching-his-dog-to-sit-5863557/",
+      "id": 5863557
+    },
+    "training-a-scottish-deerhound:Scottish Deerhound dog training outdoors": {
+      "url": "https://images.pexels.com/photos/37107256/pexels-photo-37107256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A police dog in harness participating in training outdoors with handler on a grassy field.",
+      "photographer": "Willians Huerta",
+      "photographerUrl": "https://www.pexels.com/@willians-huerta-2157111846",
+      "pexelsUrl": "https://www.pexels.com/photo/police-dog-training-outdoors-in-summer-37107256/",
+      "id": 37107256
+    },
+    "training-a-scottish-terrier:Scottish Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/8205673/pexels-photo-8205673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Westie dog walking on a cobblestone path with a leash outdoors.",
+      "photographer": "Maria Naichenko",
+      "photographerUrl": "https://www.pexels.com/@naichenkoo",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-8205673/",
+      "id": 8205673
+    },
+    "training-a-sealyham-terrier:Sealyham Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-segugio-italiano:Segugio Italiano dog training outdoors": {
+      "url": "https://images.pexels.com/photos/19202649/pexels-photo-19202649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Spinone Italiano dog energetically plays in a scenic mountain setting. Captured outdoors.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/spinone-italiano-dog-on-mountain-19202649/",
+      "id": 19202649
+    },
+    "training-a-shetland-sheepdog:Shetland Sheepdog dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28895818/pexels-photo-28895818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Shetland Sheepdog attentively receiving training treats in a vibrant autumn setting.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/shetland-sheepdog-training-outdoors-in-autumn-28895818/",
+      "id": 28895818
+    },
+    "training-a-shiba-inu:Shiba Inu dog training outdoors": {
+      "url": "https://images.pexels.com/photos/31512418/pexels-photo-31512418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Shiba Inu dog standing beside a stroller outdoors, creating a cozy park scene.",
+      "photographer": "meinen ryu",
+      "photographerUrl": "https://www.pexels.com/@meinen-ryu-2148494554",
+      "pexelsUrl": "https://www.pexels.com/photo/charming-shiba-inu-outdoors-in-park-setting-31512418/",
+      "id": 31512418
+    },
+    "training-a-shih-tzu:Shih Tzu dog training outdoors": {
+      "url": "https://images.pexels.com/photos/31430833/pexels-photo-31430833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Charming close-up photo of a Shih Tzu dog sitting outdoors with a serene expression.",
+      "photographer": "the  cinematic",
+      "photographerUrl": "https://www.pexels.com/@the-cinematic-878171",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-an-adorable-shih-tzu-dog-outdoors-31430833/",
+      "id": 31430833
+    },
+    "training-a-shikoku:Shikoku dog training outdoors": {
+      "url": "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors.",
+      "photographer": "Anton Kudryashov",
+      "photographerUrl": "https://www.pexels.com/@anton-kudryashov-118639843",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/",
+      "id": 9956387
+    },
+    "training-a-siberian-husky:Siberian Husky dog training outdoors": {
+      "url": "https://images.pexels.com/photos/9632590/pexels-photo-9632590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Woman enjoying a playful moment with her husky dog outdoors in a sunny park setting.",
+      "photographer": "Yaroslav Shuraev",
+      "photographerUrl": "https://www.pexels.com/@yaroslav-shuraev",
+      "pexelsUrl": "https://www.pexels.com/photo/smiling-blonde-woman-with-tattoos-playing-with-dog-in-garden-9632590/",
+      "id": 9632590
+    },
+    "training-a-silky-terrier:Silky Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/7526290/pexels-photo-7526290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Yorkshire Terrier dog looking alert outdoors. Perfect for pet lovers.",
+      "photographer": "belen capello",
+      "photographerUrl": "https://www.pexels.com/@belencapello",
+      "pexelsUrl": "https://www.pexels.com/photo/a-close-up-shot-of-a-yorkshire-terrier-7526290/",
+      "id": 7526290
+    },
+    "training-a-skye-terrier:Skye Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-sloughi:Sloughi dog training outdoors": {
+      "url": "https://images.pexels.com/photos/37107256/pexels-photo-37107256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A police dog in harness participating in training outdoors with handler on a grassy field.",
+      "photographer": "Willians Huerta",
+      "photographerUrl": "https://www.pexels.com/@willians-huerta-2157111846",
+      "pexelsUrl": "https://www.pexels.com/photo/police-dog-training-outdoors-in-summer-37107256/",
+      "id": 37107256
+    },
+    "training-a-slovakian-wirehaired-pointer:Slovakian Wirehaired Pointer dog training outdoors": {
+      "url": "https://images.pexels.com/photos/16193373/pexels-photo-16193373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A soldier in camouflage gently pats a happy German Wirehaired Pointer dog outdoors.",
+      "photographer": "Denitsa Kireva",
+      "photographerUrl": "https://www.pexels.com/@denitsa-kireva-2915302",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-soldier-patting-dog-16193373/",
+      "id": 16193373
+    },
+    "training-a-slovensky-cuvac:Slovensky Cuvac dog training outdoors": {
+      "url": "https://images.pexels.com/photos/37107256/pexels-photo-37107256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A police dog in harness participating in training outdoors with handler on a grassy field.",
+      "photographer": "Willians Huerta",
+      "photographerUrl": "https://www.pexels.com/@willians-huerta-2157111846",
+      "pexelsUrl": "https://www.pexels.com/photo/police-dog-training-outdoors-in-summer-37107256/",
+      "id": 37107256
+    },
+    "training-a-slovensky-kopov:Slovensky Kopov dog training outdoors": {
+      "url": "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors.",
+      "photographer": "Anton Kudryashov",
+      "photographerUrl": "https://www.pexels.com/@anton-kudryashov-118639843",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/",
+      "id": 9956387
+    },
+    "training-a-small-munsterlander-pointer:Small Munsterlander Pointer dog training outdoors": {
+      "url": "https://images.pexels.com/photos/11567682/pexels-photo-11567682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A German Shorthaired Pointer dog sitting on a wet, autumn leaf-covered ground.",
+      "photographer": "Brixiv",
+      "photographerUrl": "https://www.pexels.com/@zante",
+      "pexelsUrl": "https://www.pexels.com/photo/high-angle-shot-of-german-shorthaired-pointer-sitting-on-the-ground-11567682/",
+      "id": 11567682
+    },
+    "training-a-smooth-fox-terrier:Smooth Fox Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/33715586/pexels-photo-33715586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man holds a dog in a tree amidst lush greenery in a park.",
+      "photographer": "German Suarez",
+      "photographerUrl": "https://www.pexels.com/@german-suarez-2985952",
+      "pexelsUrl": "https://www.pexels.com/photo/man-gently-holding-dog-in-tree-outdoors-33715586/",
+      "id": 33715586
+    },
+    "training-a-soft-coated-wheaten-terrier:Soft Coated Wheaten Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-spanish-mastiff:Spanish Mastiff dog training outdoors": {
+      "url": "https://images.pexels.com/photos/16530891/pexels-photo-16530891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A fluffy dog with a leash being pet by a person outdoors, showing happiness and companionship.",
+      "photographer": "Lisá  Yakurím",
+      "photographerUrl": "https://www.pexels.com/@lisa-yakurim-40702902",
+      "pexelsUrl": "https://www.pexels.com/photo/person-petting-happy-fluffy-dog-16530891/",
+      "id": 16530891
+    },
+    "training-a-spanish-water-dog:Spanish Water Dog dog training outdoors": {
+      "url": "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/black-poodle-shaking-hands-with-owner-outdoors-35276201/",
+      "id": 35276201
+    },
+    "training-a-spinone-italiano:Spinone Italiano dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28898844/pexels-photo-28898844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Spinone Italiano dog standing outdoors, surrounded by nature during the day.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/spinone-italiano-dog-outdoors-in-nature-28898844/",
+      "id": 28898844
+    },
+    "training-a-stabyhoun:Stabyhoun dog training outdoors": {
+      "url": "https://images.pexels.com/photos/7339555/pexels-photo-7339555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Happy Border Collie dog outdoors in a training session, showcasing its enthusiasm and intelligence.",
+      "photographer": "Alessandro Ceracchi",
+      "photographerUrl": "https://www.pexels.com/@alessandro-ceracchi-41033393",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-white-border-collie-7339555/",
+      "id": 7339555
+    },
+    "training-a-staffordshire-bull-terrier:Staffordshire Bull Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/2813361/pexels-photo-2813361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A lively brown dog playing tug-of-war outdoors on a wooden deck.",
+      "photographer": "Darcy Lawrey",
+      "photographerUrl": "https://www.pexels.com/@d123x",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-dog-biting-a-rope-2813361/",
+      "id": 2813361
+    },
+    "training-a-standard-schnauzer:Standard Schnauzer dog training outdoors": {
+      "url": "https://images.pexels.com/photos/3631659/pexels-photo-3631659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Two adorable Schnauzer dogs resting on grass in London, showcasing their distinctive features.",
+      "photographer": "Sebastian Coman Travel",
+      "photographerUrl": "https://www.pexels.com/@sebcomantravel",
+      "pexelsUrl": "https://www.pexels.com/photo/black-and-brown-miniature-schnauzer-lying-on-green-grass-field-3631659/",
+      "id": 3631659
+    },
+    "training-a-sussex-spaniel:Sussex Spaniel dog training outdoors": {
+      "url": "https://images.pexels.com/photos/5837291/pexels-photo-5837291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up of a brown dog panting happily in a sunny field, captured outdoors.",
+      "photographer": "seppe machielsen",
+      "photographerUrl": "https://www.pexels.com/@semac",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-5837291/",
+      "id": 5837291
+    },
+    "training-a-swedish-lapphund:Swedish Lapphund dog training outdoors": {
+      "url": "https://images.pexels.com/photos/29352510/pexels-photo-29352510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Black and white image of a woman hugging her fluffy dog outdoors on a grassy area.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/monochrome-portrait-of-woman-with-fluffy-dog-outdoors-29352510/",
+      "id": 29352510
+    },
+    "training-a-swedish-vallhund:Swedish Vallhund dog training outdoors": {
+      "url": "https://images.pexels.com/photos/10249033/pexels-photo-10249033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Swedish Vallhund dog enjoys a gentle pet outdoors, showcasing a bond with people.",
+      "photographer": "Aleksey Nosov",
+      "photographerUrl": "https://www.pexels.com/@aleksey-nosov-81016902",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-photo-of-hand-on-a-dog-10249033/",
+      "id": 10249033
+    },
+    "training-a-taiwan-dog:Taiwan Dog dog training outdoors": {
+      "url": "https://images.pexels.com/photos/37107256/pexels-photo-37107256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A police dog in harness participating in training outdoors with handler on a grassy field.",
+      "photographer": "Willians Huerta",
+      "photographerUrl": "https://www.pexels.com/@willians-huerta-2157111846",
+      "pexelsUrl": "https://www.pexels.com/photo/police-dog-training-outdoors-in-summer-37107256/",
+      "id": 37107256
+    },
+    "training-a-teddy-roosevelt-terrier:Teddy Roosevelt Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/106912/pexels-photo-106912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Side profile of a Jack Russell Terrier dog wearing a harness outdoors.",
+      "photographer": "Leon Woods",
+      "photographerUrl": "https://www.pexels.com/@leon-woods-24405",
+      "pexelsUrl": "https://www.pexels.com/photo/white-and-brown-dog-on-sand-during-daytime-106912/",
+      "id": 106912
+    },
+    "training-a-thai-ridgeback:Thai Ridgeback dog training outdoors": {
+      "url": "https://images.pexels.com/photos/5389345/pexels-photo-5389345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of two Rhodesian Ridgeback dogs outdoors, showcasing their attentive expression.",
+      "photographer": "Ilo Frey",
+      "photographerUrl": "https://www.pexels.com/@couleur",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-dogs-on-green-grass-field-5389345/",
+      "id": 5389345
+    },
+    "training-a-tibetan-mastiff:Tibetan Mastiff dog training outdoors": {
+      "url": "https://images.pexels.com/photos/20622657/pexels-photo-20622657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Tibetan Spaniel dog with black fur standing confidently outdoors in a field.",
+      "photographer": "Patrick Schulze",
+      "photographerUrl": "https://www.pexels.com/@patrick-schulze-46793185",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-tibetan-spaniel-20622657/",
+      "id": 20622657
+    },
+    "training-a-tibetan-spaniel:Tibetan Spaniel dog training outdoors": {
+      "url": "https://images.pexels.com/photos/20622657/pexels-photo-20622657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Tibetan Spaniel dog with black fur standing confidently outdoors in a field.",
+      "photographer": "Patrick Schulze",
+      "photographerUrl": "https://www.pexels.com/@patrick-schulze-46793185",
+      "pexelsUrl": "https://www.pexels.com/photo/portrait-of-a-black-tibetan-spaniel-20622657/",
+      "id": 20622657
+    },
+    "training-a-tibetan-terrier:Tibetan Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-tornjak:Tornjak dog training outdoors": {
+      "url": "https://images.pexels.com/photos/20709094/pexels-photo-20709094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dog demonstrates discipline by balancing a treat on its nose outdoors.",
+      "photographer": "Karlee Heck",
+      "photographerUrl": "https://www.pexels.com/@karlee-heck-767022502",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-balancing-biscuits-on-the-nose-20709094/",
+      "id": 20709094
+    },
+    "training-a-tosa:Tosa dog training outdoors": {
+      "url": "https://images.pexels.com/photos/37107256/pexels-photo-37107256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A police dog in harness participating in training outdoors with handler on a grassy field.",
+      "photographer": "Willians Huerta",
+      "photographerUrl": "https://www.pexels.com/@willians-huerta-2157111846",
+      "pexelsUrl": "https://www.pexels.com/photo/police-dog-training-outdoors-in-summer-37107256/",
+      "id": 37107256
+    },
+    "training-a-toy-fox-terrier:Toy Fox Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/33715586/pexels-photo-33715586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man holds a dog in a tree amidst lush greenery in a park.",
+      "photographer": "German Suarez",
+      "photographerUrl": "https://www.pexels.com/@german-suarez-2985952",
+      "pexelsUrl": "https://www.pexels.com/photo/man-gently-holding-dog-in-tree-outdoors-33715586/",
+      "id": 33715586
+    },
+    "training-a-transylvanian-hound:Transylvanian Hound dog training outdoors": {
+      "url": "https://images.pexels.com/photos/26607797/pexels-photo-26607797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A dachshund dog holds a stick in its mouth outdoors, filled with playful energy.",
+      "photographer": "Gustavo Denuncio",
+      "photographerUrl": "https://www.pexels.com/@gustavodenuncio",
+      "pexelsUrl": "https://www.pexels.com/photo/black-dachshund-with-stick-26607797/",
+      "id": 26607797
+    },
+    "training-a-treeing-tennessee-brindle:Treeing Tennessee Brindle dog training outdoors": {
+      "url": "https://images.pexels.com/photos/13154825/pexels-photo-13154825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up of a brindle dog with tongue out playfully outdoors in El Vendrell.",
+      "photographer": "Manuel Torres Garcia",
+      "photographerUrl": "https://www.pexels.com/@matoga",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-black-dog-13154825/",
+      "id": 13154825
+    },
+    "training-a-treeing-walker-coonhound:Treeing Walker Coonhound dog training outdoors": {
+      "url": "https://images.pexels.com/photos/29691707/pexels-photo-29691707.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A close-up portrait of a relaxed Black and Tan Coonhound dog outdoors.",
+      "photographer": "Thais Vitoria",
+      "photographerUrl": "https://www.pexels.com/@thaisph",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-portrait-of-a-black-and-tan-coonhound-dog-29691707/",
+      "id": 29691707
+    },
+    "training-a-vizsla:Vizsla dog training outdoors": {
+      "url": "https://images.pexels.com/photos/3632105/pexels-photo-3632105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Elegant Vizsla dog sitting in a misty field, showcasing grace and calm in the outdoors.",
+      "photographer": "Jozef Fehér",
+      "photographerUrl": "https://www.pexels.com/@jozef-feher-356581",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-dog-sitting-on-grass-3632105/",
+      "id": 3632105
+    },
+    "training-a-weimaraner:Weimaraner dog training outdoors": {
+      "url": "https://images.pexels.com/photos/7032355/pexels-photo-7032355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A joyful Weimaraner dog with a red collar enjoying the outdoors.",
+      "photographer": "Mariana Tribu",
+      "photographerUrl": "https://www.pexels.com/@mariana-tribu-31930679",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-a-dog-with-red-collar-7032355/",
+      "id": 7032355
+    },
+    "training-a-welsh-springer-spaniel:Welsh Springer Spaniel dog training outdoors": {
+      "url": "https://images.pexels.com/photos/24453850/pexels-photo-24453850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Cute Springer Spaniel dog lying on lush green grass enjoying a sunny day outdoors.",
+      "photographer": "Lorenzo Manera",
+      "photographerUrl": "https://www.pexels.com/@lorenzo-manera-686693293",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-lying-down-on-grass-24453850/",
+      "id": 24453850
+    },
+    "training-a-welsh-terrier:Welsh Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Tibetan Terrier dog sitting attentively for training in a backyard setting.",
+      "photographer": "Lorna Pauli",
+      "photographerUrl": "https://www.pexels.com/@lorna-pauli-1320744316",
+      "pexelsUrl": "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/",
+      "id": 28536059
+    },
+    "training-a-west-highland-white-terrier:West Highland White Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/8205673/pexels-photo-8205673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Westie dog walking on a cobblestone path with a leash outdoors.",
+      "photographer": "Maria Naichenko",
+      "photographerUrl": "https://www.pexels.com/@naichenkoo",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-dog-8205673/",
+      "id": 8205673
+    },
+    "training-a-wetterhoun:Wetterhoun dog training outdoors": {
+      "url": "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment.",
+      "photographer": "JacLou- DL",
+      "photographerUrl": "https://www.pexels.com/@jaclou-dl",
+      "pexelsUrl": "https://www.pexels.com/photo/black-poodle-shaking-hands-with-owner-outdoors-35276201/",
+      "id": 35276201
+    },
+    "training-a-whippet:Whippet dog training outdoors": {
+      "url": "https://images.pexels.com/photos/6634812/pexels-photo-6634812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Portrait of a whippet dog outdoors with a blurred natural background.",
+      "photographer": "Deann DaSilva",
+      "photographerUrl": "https://www.pexels.com/@deann-dasilva-1997359",
+      "pexelsUrl": "https://www.pexels.com/photo/white-and-brown-short-coated-dog-6634812/",
+      "id": 6634812
+    },
+    "training-a-wire-fox-terrier:Wire Fox Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/33715586/pexels-photo-33715586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man holds a dog in a tree amidst lush greenery in a park.",
+      "photographer": "German Suarez",
+      "photographerUrl": "https://www.pexels.com/@german-suarez-2985952",
+      "pexelsUrl": "https://www.pexels.com/photo/man-gently-holding-dog-in-tree-outdoors-33715586/",
+      "id": 33715586
+    },
+    "training-a-wirehaired-pointing-griffon:Wirehaired Pointing Griffon dog training outdoors": {
+      "url": "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Wirehaired Pointing Griffon dog standing outdoors during fall.",
+      "photographer": "Andreas Schnabl",
+      "photographerUrl": "https://www.pexels.com/@andreas-schnabl-1775843",
+      "pexelsUrl": "https://www.pexels.com/photo/wirehaired-pointing-griffon-standing-outdoors-28811074/",
+      "id": 28811074
+    },
+    "training-a-wirehaired-vizsla:Wirehaired Vizsla dog training outdoors": {
+      "url": "https://images.pexels.com/photos/3632105/pexels-photo-3632105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Elegant Vizsla dog sitting in a misty field, showcasing grace and calm in the outdoors.",
+      "photographer": "Jozef Fehér",
+      "photographerUrl": "https://www.pexels.com/@jozef-feher-356581",
+      "pexelsUrl": "https://www.pexels.com/photo/brown-dog-sitting-on-grass-3632105/",
+      "id": 3632105
+    },
+    "training-a-working-kelpie:Working Kelpie dog training outdoors": {
+      "url": "https://images.pexels.com/photos/9810828/pexels-photo-9810828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Lively Australian Kelpie dog enjoying the sunlight outdoors. Perfect for pet-themed projects.",
+      "photographer": "Plato Terentev",
+      "photographerUrl": "https://www.pexels.com/@plato-terentev-3804555",
+      "pexelsUrl": "https://www.pexels.com/photo/australian-kelpie-dog-in-close-up-shot-9810828/",
+      "id": 9810828
+    },
+    "training-a-xoloitzcuintli:Xoloitzcuintli dog training outdoors": {
+      "url": "https://images.pexels.com/photos/14411361/pexels-photo-14411361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Close-up profile of a Xoloitzcuintli dog with a harness outdoors on a sunny day.",
+      "photographer": "Yo Soy Flashh",
+      "photographerUrl": "https://www.pexels.com/@yo-soy-flashh-348552509",
+      "pexelsUrl": "https://www.pexels.com/photo/a-mexican-hairless-dog-on-a-leash-14411361/",
+      "id": 14411361
+    },
+    "training-a-yakutian-laika:Yakutian Laika dog training outdoors": {
+      "url": "https://images.pexels.com/photos/13622949/pexels-photo-13622949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "West Siberian Laika dog sitting outdoors near bench and pathway.",
+      "photographer": "Viktorija Stankevičiūtė",
+      "photographerUrl": "https://www.pexels.com/@stankevic",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-sitting-on-the-ground-13622949/",
+      "id": 13622949
+    },
+    "training-a-yorkshire-terrier:Yorkshire Terrier dog training outdoors": {
+      "url": "https://images.pexels.com/photos/34912310/pexels-photo-34912310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Adorable Yorkshire Terrier dog with fluffy coat relaxing outdoors on a sunny day.",
+      "photographer": "Erwin Bosman",
+      "photographerUrl": "https://www.pexels.com/@erwin-bosman-118283",
+      "pexelsUrl": "https://www.pexels.com/photo/playful-yorkshire-terrier-relaxing-outdoors-34912310/",
+      "id": 34912310
+    },
+    "training-an-adult-dog:dog training": {
+      "url": "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors.",
+      "photographer": "Anton Kudryashov",
+      "photographerUrl": "https://www.pexels.com/@anton-kudryashov-118639843",
+      "pexelsUrl": "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/",
+      "id": 9956387
+    },
+    "why-do-dogs-eat-poop:dog food": {
+      "url": "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A detailed close-up of brown dry dog food kibble in various shapes and sizes.",
+      "photographer": "Rafael Rodrigues",
+      "photographerUrl": "https://www.pexels.com/@rrodriguesim",
+      "pexelsUrl": "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/",
+      "id": 34952073
+    },
+    "why-do-dogs-hump:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "why-do-dogs-roll-in-smelly-things:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "why-does-my-dog-follow-me-everywhere:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "why-does-my-dog-stare-at-me:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
+    },
+    "why-is-my-dog-suddenly-aggressive:dog care": {
+      "url": "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A veterinarian and volunteer examine a happy dog with a stethoscope.",
+      "photographer": "Mikhail Nilov",
+      "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+      "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
+      "id": 7469220
     }
   },
   "stats": {
-    "scanned": 200,
-    "changed": 174,
-    "skipped": 901,
-    "failed": 26,
+    "scanned": 155,
+    "changed": 155,
+    "skipped": 2551,
+    "failed": 0,
     "force": false,
     "dry": false
   }

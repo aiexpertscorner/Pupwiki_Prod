@@ -27,7 +27,16 @@ breedSlug: "whippet"
 breedName: "Whippet"
 wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-whippet"
+heroImage: "https://images.pexels.com/photos/6634812/pexels-photo-6634812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6634812/pexels-photo-6634812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Portrait of a whippet dog outdoors with a blurred natural background."
+imageAlt: "Portrait of a whippet dog outdoors with a blurred natural background."
+imageSource: "pexels"
+imageCredit: "Photo by Deann DaSilva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-and-brown-short-coated-dog-6634812/"
+imageSearchQuery: "Whippet dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Whippets
 Whippets are medium-sized (25–40 lbs), with regular energy, low shedding, and a short coat. The recommendations below are matched to these traits.

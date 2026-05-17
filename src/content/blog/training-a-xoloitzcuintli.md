@@ -27,7 +27,16 @@ breedSlug: "xoloitzcuintli"
 breedName: "Xoloitzcuintli"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-xoloitzcuintli"
+heroImage: "https://images.pexels.com/photos/14411361/pexels-photo-14411361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14411361/pexels-photo-14411361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up profile of a Xoloitzcuintli dog with a harness outdoors on a sunny day."
+imageAlt: "Close-up profile of a Xoloitzcuintli dog with a harness outdoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Yo Soy Flashh on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-mexican-hairless-dog-on-a-leash-14411361/"
+imageSearchQuery: "Xoloitzcuintli dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Xoloitzcuintlis
 Xoloitzcuintlis are medium-sized (10–55 lbs), with active energy, minimal shedding, and a hairless coat. The recommendations below are matched to these traits.

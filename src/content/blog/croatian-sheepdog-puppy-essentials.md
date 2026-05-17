@@ -27,7 +27,16 @@ breedSlug: "croatian-sheepdog"
 breedName: "Croatian Sheepdog"
 wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/croatian-sheepdog-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29955884/pexels-photo-29955884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting."
+imageAlt: "Captivating close-up portrait of a Shetland Sheepdog with luscious fur in a natural setting."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-shetland-sheepdog-outdoors-29955884/"
+imageSearchQuery: "Croatian Sheepdog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Croatian Sheepdogs
 Petar Horvat, the bishop of Djakovo, wrote in 1374 that Croats had brought a shepherd dog along on the move to their new land. He referred to the dog as Canis Pastoralis Croaticus—the Croatian Shepherd Dog.The bishop of Djakovo, Peter Bakic also wrote about the Croatian Sheepdog in his 1719 manuscript “On the Life of the People and Raising of Stock in Djakovo and it’s Surroundings in 1719”. He quoted the words written by Bishop Petar in 1374 and, providing his own description of the dog, stated that the Croatian Sheepdog had not changed since the record (from 1374 to 1719) and had not changed in appearance from that described by Bishop Petar in 1374.A systematic selection breeding program was started by the “father of the breed” – veterinarian Prof Dr Stjepan Romic in 1935 with dogs in the territory of Djakovo. After 34 years of work, the breed was recognized by the FCI in 1969. The Croa

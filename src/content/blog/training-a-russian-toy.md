@@ -27,7 +27,16 @@ breedSlug: "russian-toy"
 breedName: "Russian Toy"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-russian-toy"
+heroImage: "https://images.pexels.com/photos/10509897/pexels-photo-10509897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10509897/pexels-photo-10509897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Energetic dog playing tug of war with a person, outdoors in a sunny setting."
+imageAlt: "Energetic dog playing tug of war with a person, outdoors in a sunny setting."
+imageSource: "pexels"
+imageCredit: "Photo by Jose Rodriguez Ortega on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-pulling-a-toy-held-by-his-owner-10509897/"
+imageSearchQuery: "Russian Toy dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Russian Toys
 Russian Toys are small-sized (6.5 lbs), with regular energy, minimal shedding, and a short coat. The recommendations below are matched to these traits.

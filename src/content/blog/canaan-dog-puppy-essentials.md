@@ -27,7 +27,16 @@ breedSlug: "canaan-dog"
 breedName: "Canaan Dog"
 wordCountEstimate: 332
 canonicalUrl: "https://pupwiki.com/blog/canaan-dog-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/15336364/pexels-photo-15336364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15336364/pexels-photo-15336364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A captivating close-up portrait of a white dog outdoors, displaying natural beauty."
+imageAlt: "A captivating close-up portrait of a white dog outdoors, displaying natural beauty."
+imageSource: "pexels"
+imageCredit: "Photo by Shilpa Deekshith on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-15336364/"
+imageSearchQuery: "Canaan Dog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Canaan Dogs
 Canaan Dogs are lean, bushy-tailed dogs standing 19 to 24 inches at the shoulder. The coat is straight and harsh, and comes in various colors and patterns. Erect, expressive ears and dark almond eyes convey an inquisitive expression. Canaans move at a brisk, natural trot. They are rugged, agile, and apparently tireless, making them a nice fit for hikers and runners.Canaans are clever, confident, and territorial. They will end up “owning” passive owners who haven’t establish themselves as top dog in the family pack. Early training and socialization are key. When positive methods are applied, these ancient wonder-dogs train beautifully. Agility, obedience, herding trials, and sentry duty are a few outlets for their work ethic. One of the AKC's oldest breeds, the Canaan Dog is the national dog of Israel. This quick, medium-sized pasture dog is docile with family, aloof with strangers. The e

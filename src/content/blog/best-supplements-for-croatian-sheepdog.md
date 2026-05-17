@@ -27,7 +27,16 @@ breedSlug: "croatian-sheepdog"
 breedName: "Croatian Sheepdog"
 wordCountEstimate: 543
 canonicalUrl: "https://pupwiki.com/blog/best-supplements-for-croatian-sheepdog"
+heroImage: "https://images.pexels.com/photos/15804375/pexels-photo-15804375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/15804375/pexels-photo-15804375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black Croatian sheepdog stands in a serene winter forest setting with snow."
+imageAlt: "A black Croatian sheepdog stands in a serene winter forest setting with snow."
+imageSource: "pexels"
+imageCredit: "Photo by Adnana Kelic on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-dog-in-forest-15804375/"
+imageSearchQuery: "Croatian Sheepdog healthy dog wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Croatian Sheepdogs

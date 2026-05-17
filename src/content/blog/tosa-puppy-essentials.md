@@ -27,7 +27,16 @@ breedSlug: "tosa"
 breedName: "Tosa"
 wordCountEstimate: 353
 canonicalUrl: "https://pupwiki.com/blog/tosa-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/30169560/pexels-photo-30169560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/30169560/pexels-photo-30169560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white portrait of a large black dog with a thoughtful expression outdoors."
+imageAlt: "Black and white portrait of a large black dog with a thoughtful expression outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Matej Bizjak on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-portrait-of-a-black-dog-in-black-and-white-30169560/"
+imageSearchQuery: "Tosa dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Tosas
 The Tosa is quietly affectionate with his own family, but may be somewhat aloof with strangers. This breed is also, by nature, watchful of other dogs and may react aggressively to dogs it considers intruders. Overtly aggressive behavior towards humans is uncharacteristic of the breed. Their short, dense coat can be fawn, red, apricot, black or brindle and they can also have white markings on their chest and feet. In addition, Tosas mature slowly and individual dogs may not reach their prime until as late as four years of age. This breed is the largest of all Japanese dog breeds. They are also known as the Tosa Ken, Tosa Dog, Tosa Token, Tosa Inu, Japanese Fighting Dog, and Japanese Mastiff. The Tosa's temperament is marked by patience, composure, boldness and courage. He is normally a tranquil, quiet, and obedient dog, with a calm but vigilant demeanor. With a stately manner and robust b

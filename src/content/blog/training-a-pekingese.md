@@ -27,7 +27,16 @@ breedSlug: "pekingese"
 breedName: "Pekingese"
 wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-pekingese"
+heroImage: "https://images.pexels.com/photos/283014/pexels-photo-283014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/283014/pexels-photo-283014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming portrait of a Pekingese dog sitting outdoors in a serene setting."
+imageAlt: "Charming portrait of a Pekingese dog sitting outdoors in a serene setting."
+imageSource: "pexels"
+imageCredit: "Photo by Elisabeth Fossum on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/tan-pekingese-283014/"
+imageSearchQuery: "Pekingese dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pekingeses
 Pekingeses are small-sized (14 lbs), with calm energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

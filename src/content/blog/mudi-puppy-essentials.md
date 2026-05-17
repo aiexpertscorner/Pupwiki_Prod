@@ -27,7 +27,16 @@ breedSlug: "mudi"
 breedName: "Mudi"
 wordCountEstimate: 335
 canonicalUrl: "https://pupwiki.com/blog/mudi-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression."
+imageAlt: "Close-up portrait of a playful white dog outdoors, showcasing its joyful expression."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/"
+imageSearchQuery: "Mudi dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Mudis
 The Mudi (pronounced “moodie”) is a medium-sized herding dog from Hungary which has been in existence since the 19th century. It is said the Mudi evolved naturally from crosses of the Puli, Pumi and German Spitz breeds. Today, the Mudi, though very rare, is seen as an active, intelligent, biddable working breed. It is estimated there are no more than a few thousand Mudi worldwide, with the greatest numbers being in Hungary, followed by Finland, and then even scarcer throughout Europe, the U.S, and Canada. The Mudi excels at agility, obedience, and flyball, as well as other dog sports. He is a true working breed and shines when herding both cattle and sheep, and has found fame as a search and rescue dog in both Finland and the U.S. Club Contact DetailsClub: Mudi Club of AmericaName: Susanne AndersonEmail: sande2404@gmail.com The Mudi is an extremely versatile, intelligent, alert, agile, a

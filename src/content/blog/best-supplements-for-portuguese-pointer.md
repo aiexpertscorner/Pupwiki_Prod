@@ -27,7 +27,16 @@ breedSlug: "portuguese-pointer"
 breedName: "Portuguese Pointer"
 wordCountEstimate: 507
 canonicalUrl: "https://pupwiki.com/blog/best-supplements-for-portuguese-pointer"
+heroImage: "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features."
+imageAlt: "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features."
+imageSource: "pexels"
+imageCredit: "Photo by Алексей Вечерин on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-black-and-white-short-coated-dog-9562585/"
+imageSearchQuery: "Portuguese Pointer healthy dog wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Portuguese Pointers

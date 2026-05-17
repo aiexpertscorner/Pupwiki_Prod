@@ -27,7 +27,16 @@ breedSlug: "perro-de-presa-canario"
 breedName: "Perro de Presa Canario"
 wordCountEstimate: 436
 canonicalUrl: "https://pupwiki.com/blog/training-a-perro-de-presa-canario"
+heroImage: "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9956387/pexels-photo-9956387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors."
+imageAlt: "A Belgian Malinois dog practices biting training with a trainer using a bite sleeve outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Anton Kudryashov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/"
+imageSearchQuery: "Perro de Presa Canario dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Perro de Presa Canarios
 Perro de Presa Canarios are large-sized (84–110 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

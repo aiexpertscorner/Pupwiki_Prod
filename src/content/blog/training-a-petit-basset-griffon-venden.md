@@ -27,7 +27,16 @@ breedSlug: "petit-basset-griffon-venden"
 breedName: "Petit Basset Griffon Vendéen"
 wordCountEstimate: 437
 canonicalUrl: "https://pupwiki.com/blog/training-a-petit-basset-griffon-venden"
+heroImage: "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28811074/pexels-photo-28811074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Wirehaired Pointing Griffon dog standing outdoors during fall."
+imageAlt: "A Wirehaired Pointing Griffon dog standing outdoors during fall."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/wirehaired-pointing-griffon-standing-outdoors-28811074/"
+imageSearchQuery: "Petit Basset Griffon Vendéen dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Petit Basset Griffon Vendéens
 Petit Basset Griffon Vendéens are medium-sized (25–40 lbs), with active energy, low shedding, and a rough coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "hovawart"
 breedName: "Hovawart"
 wordCountEstimate: 534
 canonicalUrl: "https://pupwiki.com/blog/best-supplements-for-hovawart"
+heroImage: "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor."
+imageAlt: "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor."
+imageSource: "pexels"
+imageCredit: "Photo by Theo Willems on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-hovawart-dog-16528289/"
+imageSearchQuery: "Hovawart healthy dog wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Hovawarts

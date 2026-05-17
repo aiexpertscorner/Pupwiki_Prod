@@ -20,7 +20,16 @@ monetizationIntent: none
 medicalDisclaimer: false
 affiliateDisclosure: true
 uniqueBlocks: []
+heroImage: "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7469220/pexels-photo-7469220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A veterinarian and volunteer examine a happy dog with a stethoscope."
+imageAlt: "A veterinarian and volunteer examine a happy dog with a stethoscope."
+imageSource: "pexels"
+imageCredit: "Photo by Mikhail Nilov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/"
+imageSearchQuery: "dog care"
 ---
+
 
 Many dog owners feel their dog’s eyes following them around the room. Staring is one way our canine companions communicate, but the message depends on context. From watching for cues to showing affection, this article breaks down what your dog’s gaze might mean and when to be cautious.
 

@@ -27,7 +27,16 @@ breedSlug: "pyrenean-shepherd"
 breedName: "Pyrenean Shepherd"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-pyrenean-shepherd"
+heroImage: "https://images.pexels.com/photos/8499238/pexels-photo-8499238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8499238/pexels-photo-8499238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A joyful white dog interacts with a person wearing a yellow raincoat outdoors."
+imageAlt: "A joyful white dog interacts with a person wearing a yellow raincoat outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Yaroslav Shuraev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-cute-dog-wearing-raincoat-8499238/"
+imageSearchQuery: "Pyrenean Shepherd dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pyrenean Shepherds
 Pyrenean Shepherds are medium-sized (15–30 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

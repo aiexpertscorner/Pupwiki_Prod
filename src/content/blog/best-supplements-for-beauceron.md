@@ -27,7 +27,16 @@ breedSlug: "beauceron"
 breedName: "Beauceron"
 wordCountEstimate: 548
 canonicalUrl: "https://pupwiki.com/blog/best-supplements-for-beauceron"
+heroImage: "https://images.pexels.com/photos/29281245/pexels-photo-29281245.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29281245/pexels-photo-29281245.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cheerful Beauceron dog lying on the grass in a sunny park, tongue out."
+imageAlt: "A cheerful Beauceron dog lying on the grass in a sunny park, tongue out."
+imageSource: "pexels"
+imageCredit: "Photo by jordan besson on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-happy-beauceron-in-sunny-park-29281245/"
+imageSearchQuery: "Beauceron healthy dog wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Beaucerons

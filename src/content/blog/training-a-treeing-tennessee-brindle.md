@@ -27,7 +27,16 @@ breedSlug: "treeing-tennessee-brindle"
 breedName: "Treeing Tennessee Brindle"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-treeing-tennessee-brindle"
+heroImage: "https://images.pexels.com/photos/13154825/pexels-photo-13154825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/13154825/pexels-photo-13154825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a brindle dog with tongue out playfully outdoors in El Vendrell."
+imageAlt: "Close-up of a brindle dog with tongue out playfully outdoors in El Vendrell."
+imageSource: "pexels"
+imageCredit: "Photo by Manuel Torres Garcia on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-black-dog-13154825/"
+imageSearchQuery: "Treeing Tennessee Brindle dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Treeing Tennessee Brindles
 Treeing Tennessee Brindles are medium-sized (30–50 lbs), with regular energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

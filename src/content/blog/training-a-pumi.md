@@ -27,7 +27,16 @@ breedSlug: "pumi"
 breedName: "Pumi"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-pumi"
+heroImage: "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35276201/pexels-photo-35276201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment."
+imageAlt: "A black poodle dog shakes hands with its owner on a grassy field, showcasing a training moment."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-poodle-shaking-hands-with-owner-outdoors-35276201/"
+imageSearchQuery: "Pumi dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pumis
 Pumis are medium-sized (22–29 lbs), with active energy, minimal shedding, and a curly coat. The recommendations below are matched to these traits.

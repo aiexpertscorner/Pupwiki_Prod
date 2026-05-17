@@ -27,7 +27,16 @@ breedSlug: "peruvian-inca-orchid"
 breedName: "Peruvian Inca Orchid"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-peruvian-inca-orchid"
+heroImage: "https://images.pexels.com/photos/35507984/pexels-photo-35507984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35507984/pexels-photo-35507984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A distinctive hairless dog standing on a moss-covered pathway outdoors."
+imageAlt: "A distinctive hairless dog standing on a moss-covered pathway outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Erwin Bosman on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/unique-hairless-dog-on-outdoor-pathway-35507984/"
+imageSearchQuery: "Peruvian Inca Orchid dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Peruvian Inca Orchids
 Peruvian Inca Orchids are medium-sized (8.5–55 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

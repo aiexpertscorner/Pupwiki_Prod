@@ -27,7 +27,16 @@ breedSlug: "schapendoes"
 breedName: "Schapendoes"
 wordCountEstimate: 493
 canonicalUrl: "https://pupwiki.com/blog/schapendoes-health-problems"
+heroImage: "https://images.pexels.com/photos/6235113/pexels-photo-6235113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6235113/pexels-photo-6235113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a veterinarian examining a dog's teeth during a dental checkup."
+imageAlt: "Close-up of a veterinarian examining a dog's teeth during a dental checkup."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-person-looking-at-a-dog-s-teeth-6235113/"
+imageSearchQuery: "Schapendoes dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Schapendoess

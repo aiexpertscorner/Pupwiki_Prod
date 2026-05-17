@@ -27,7 +27,16 @@ breedSlug: "portuguese-podengo"
 breedName: "Portuguese Podengo"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-portuguese-podengo"
+heroImage: "https://images.pexels.com/photos/29590681/pexels-photo-29590681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29590681/pexels-photo-29590681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Woman training her dog on a forest path during fall. Engaged interaction in nature."
+imageAlt: "Woman training her dog on a forest path during fall. Engaged interaction in nature."
+imageSource: "pexels"
+imageCredit: "Photo by Michał Robak on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-training-dog-in-forest-setting-29590681/"
+imageSearchQuery: "Portuguese Podengo dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Portuguese Podengos
 Portuguese Podengos are large-sized (35–66 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

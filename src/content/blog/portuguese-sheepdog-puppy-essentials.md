@@ -27,7 +27,16 @@ breedSlug: "portuguese-sheepdog"
 breedName: "Portuguese Sheepdog"
 wordCountEstimate: 332
 canonicalUrl: "https://pupwiki.com/blog/portuguese-sheepdog-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16622613/pexels-photo-16622613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageAlt: "Close-up portrait of a sheepdog against a vibrant yellow background in Mexico City."
+imageSource: "pexels"
+imageCredit: "Photo by Miguel González on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-on-yellow-background-16622613/"
+imageSearchQuery: "Portuguese Sheepdog dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Portuguese Sheepdogs
 Portuguese Sheepdogs are medium-sized dogs with appreciable rusticity and sobriety and are extremely agile and swift. Their long hair has a goat-like texture, without an undercoat, and can be straight or slightly wavy. The dense and evenly-distributed coat forms a long beard, mustache, and eyebrows that are not so long as to cover his eyes. Coat colors can be yellow, brown, grey, fawn, wolf grey in shades ranging from light to dark, and black, accompanied by tan markings. This lively breed has a simian-like attitude and appearance, which is why it is known in its native region of Portugal as a “monkey dog”. The Portuguese Sheepdog is exceptionally intelligent and lively. Very devoted to the shepherd and his herd, he can be somewhat wary of strangers and vigilant at night. Today, he is also an excellent companion, sporting and guard dog. He is known for his skillful ability to keep livest

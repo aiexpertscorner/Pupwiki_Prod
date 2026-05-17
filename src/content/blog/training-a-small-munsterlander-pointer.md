@@ -27,7 +27,16 @@ breedSlug: "small-munsterlander-pointer"
 breedName: "Small Munsterlander Pointer"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-small-munsterlander-pointer"
+heroImage: "https://images.pexels.com/photos/11567682/pexels-photo-11567682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/11567682/pexels-photo-11567682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A German Shorthaired Pointer dog sitting on a wet, autumn leaf-covered ground."
+imageAlt: "A German Shorthaired Pointer dog sitting on a wet, autumn leaf-covered ground."
+imageSource: "pexels"
+imageCredit: "Photo by Brixiv on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/high-angle-shot-of-german-shorthaired-pointer-sitting-on-the-ground-11567682/"
+imageSearchQuery: "Small Munsterlander Pointer dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Small Munsterlander Pointers
 Small Munsterlander Pointers are medium-sized (40–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

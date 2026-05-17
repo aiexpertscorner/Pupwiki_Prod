@@ -27,7 +27,16 @@ breedSlug: "tosa"
 breedName: "Tosa"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-tosa"
+heroImage: "https://images.pexels.com/photos/37107256/pexels-photo-37107256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/37107256/pexels-photo-37107256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A police dog in harness participating in training outdoors with handler on a grassy field."
+imageAlt: "A police dog in harness participating in training outdoors with handler on a grassy field."
+imageSource: "pexels"
+imageCredit: "Photo by Willians Huerta on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/police-dog-training-outdoors-in-summer-37107256/"
+imageSearchQuery: "Tosa dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Tosas
 Tosas are large-sized (100–200 lbs), with calm energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

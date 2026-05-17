@@ -27,7 +27,16 @@ breedSlug: "harrier"
 breedName: "Harrier"
 wordCountEstimate: 480
 canonicalUrl: "https://pupwiki.com/blog/best-supplements-for-harrier"
+heroImage: "https://images.pexels.com/photos/8057584/pexels-photo-8057584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8057584/pexels-photo-8057584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Woman practicing yoga at home with a dog and laptop, embracing a healthy lifestyle."
+imageAlt: "Woman practicing yoga at home with a dog and laptop, embracing a healthy lifestyle."
+imageSource: "pexels"
+imageCredit: "Photo by Kampus Production on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-woman-in-pink-tank-top-8057584/"
+imageSearchQuery: "Harrier healthy dog wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Harriers

@@ -27,7 +27,16 @@ breedSlug: "vizsla"
 breedName: "Vizsla"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-vizsla"
+heroImage: "https://images.pexels.com/photos/3632105/pexels-photo-3632105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3632105/pexels-photo-3632105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Elegant Vizsla dog sitting in a misty field, showcasing grace and calm in the outdoors."
+imageAlt: "Elegant Vizsla dog sitting in a misty field, showcasing grace and calm in the outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Jozef Fehér on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dog-sitting-on-grass-3632105/"
+imageSearchQuery: "Vizsla dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Vizslas
 Vizslas are medium-sized (44–60 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

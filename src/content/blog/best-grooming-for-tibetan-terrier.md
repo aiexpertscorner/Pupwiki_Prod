@@ -27,7 +27,16 @@ breedSlug: "tibetan-terrier"
 breedName: "Tibetan Terrier"
 wordCountEstimate: 440
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-tibetan-terrier"
+heroImage: "https://images.pexels.com/photos/35171564/pexels-photo-35171564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/35171564/pexels-photo-35171564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Tibetan Terrier dog relaxing outdoors with tongue out, surrounded by greenery."
+imageAlt: "Cute Tibetan Terrier dog relaxing outdoors with tongue out, surrounded by greenery."
+imageSource: "pexels"
+imageCredit: "Photo by Lorna Pauli on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-tibetan-terrier-dog-outdoors-35171564/"
+imageSearchQuery: "Tibetan Terrier dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Tibetan Terriers
 Tibetan Terriers are medium-sized (18–30 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

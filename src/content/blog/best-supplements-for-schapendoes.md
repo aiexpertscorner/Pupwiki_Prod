@@ -27,7 +27,16 @@ breedSlug: "schapendoes"
 breedName: "Schapendoes"
 wordCountEstimate: 507
 canonicalUrl: "https://pupwiki.com/blog/best-supplements-for-schapendoes"
+heroImage: "https://images.pexels.com/photos/10991599/pexels-photo-10991599.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10991599/pexels-photo-10991599.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a Stabyhoun dog holding a soccer ball in the snow during winter."
+imageAlt: "Close-up of a Stabyhoun dog holding a soccer ball in the snow during winter."
+imageSource: "pexels"
+imageCredit: "Photo by Nele We on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/dog-in-close-up-photography-10991599/"
+imageSearchQuery: "Schapendoes healthy dog wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Schapendoess

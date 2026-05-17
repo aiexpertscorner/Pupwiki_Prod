@@ -27,7 +27,16 @@ breedSlug: "swedish-vallhund"
 breedName: "Swedish Vallhund"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-swedish-vallhund"
+heroImage: "https://images.pexels.com/photos/10249033/pexels-photo-10249033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/10249033/pexels-photo-10249033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Swedish Vallhund dog enjoys a gentle pet outdoors, showcasing a bond with people."
+imageAlt: "A Swedish Vallhund dog enjoys a gentle pet outdoors, showcasing a bond with people."
+imageSource: "pexels"
+imageCredit: "Photo by Aleksey Nosov on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-hand-on-a-dog-10249033/"
+imageSearchQuery: "Swedish Vallhund dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Swedish Vallhunds
 Swedish Vallhunds are medium-sized (20–35 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

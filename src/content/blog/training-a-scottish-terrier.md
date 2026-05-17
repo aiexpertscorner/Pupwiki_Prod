@@ -27,7 +27,16 @@ breedSlug: "scottish-terrier"
 breedName: "Scottish Terrier"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-scottish-terrier"
+heroImage: "https://images.pexels.com/photos/8205673/pexels-photo-8205673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8205673/pexels-photo-8205673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Westie dog walking on a cobblestone path with a leash outdoors."
+imageAlt: "Adorable Westie dog walking on a cobblestone path with a leash outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Maria Naichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-shot-of-a-dog-8205673/"
+imageSearchQuery: "Scottish Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Scottish Terriers
 Scottish Terriers are small-sized (18–22 lbs), with regular energy, low shedding, and a wiry coat. The recommendations below are matched to these traits.

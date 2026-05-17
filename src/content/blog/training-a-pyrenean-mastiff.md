@@ -27,7 +27,16 @@ breedSlug: "pyrenean-mastiff"
 breedName: "Pyrenean Mastiff"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-pyrenean-mastiff"
+heroImage: "https://images.pexels.com/photos/16530891/pexels-photo-16530891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16530891/pexels-photo-16530891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A fluffy dog with a leash being pet by a person outdoors, showing happiness and companionship."
+imageAlt: "A fluffy dog with a leash being pet by a person outdoors, showing happiness and companionship."
+imageSource: "pexels"
+imageCredit: "Photo by Lisá  Yakurím on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/person-petting-happy-fluffy-dog-16530891/"
+imageSearchQuery: "Pyrenean Mastiff dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pyrenean Mastiffs
 Pyrenean Mastiffs are large-sized (120–240 lbs), with calm energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

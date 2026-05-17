@@ -27,7 +27,16 @@ breedSlug: "harrier"
 breedName: "Harrier"
 wordCountEstimate: 325
 canonicalUrl: "https://pupwiki.com/blog/harrier-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16902552/pexels-photo-16902552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors."
+imageAlt: "A charming portrait of a beagle dog in an outdoor setting, capturing its attentive gaze and warm colors."
+imageSource: "pexels"
+imageCredit: "Photo by Pexels User on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-beagle-dog-sitting-outside-16902552/"
+imageSearchQuery: "Harrier dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Harriers
 Somewhat resembling a Beagle with a gym membership, Harriers are larger, more powerful hounds than their diminutive cousin—but smaller than the English Foxhound, a breed used in their development. Standing between 19 and 21 inches at the shoulder, Harriers have the timeless look of a working pack hound: a short, smart-looking coat; low-set, velvety ears; an irresistibly sweet face; and enough muscle and sinew to endure a long day’s hunt. A well-built Harrier will cover ground with a smooth, efficient gait. The Harrier is a swift, prey-driven pack hound of medium size first bred in medieval England to chase hare. Outgoing and friendly, the Harrier is much larger than the Beagle but smaller than another close relative, the English Foxhound.

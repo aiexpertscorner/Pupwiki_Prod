@@ -27,7 +27,16 @@ breedSlug: "pomeranian"
 breedName: "Pomeranian"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-pomeranian"
+heroImage: "https://images.pexels.com/photos/8030984/pexels-photo-8030984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8030984/pexels-photo-8030984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Pomeranian dog on a leash enjoying a sunny day outdoors on a stone pathway."
+imageAlt: "Cute Pomeranian dog on a leash enjoying a sunny day outdoors on a stone pathway."
+imageSource: "pexels"
+imageCredit: "Photo by Tiểu Bảo Trương on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-pomeranian-dog-on-a-leash-8030984/"
+imageSearchQuery: "Pomeranian dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pomeranians
 Pomeranians are small-sized (3–7 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

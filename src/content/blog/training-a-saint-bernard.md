@@ -27,7 +27,16 @@ breedSlug: "saint-bernard"
 breedName: "Saint Bernard"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-saint-bernard"
+heroImage: "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28536059/pexels-photo-28536059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Tibetan Terrier dog sitting attentively for training in a backyard setting."
+imageAlt: "A Tibetan Terrier dog sitting attentively for training in a backyard setting."
+imageSource: "pexels"
+imageCredit: "Photo by Lorna Pauli on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/tibetan-terrier-obedience-training-outdoors-28536059/"
+imageSearchQuery: "Saint Bernard dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Saint Bernards
 Saint Bernards are large-sized (120–180 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

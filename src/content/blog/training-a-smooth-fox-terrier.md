@@ -27,7 +27,16 @@ breedSlug: "smooth-fox-terrier"
 breedName: "Smooth Fox Terrier"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-smooth-fox-terrier"
+heroImage: "https://images.pexels.com/photos/33715586/pexels-photo-33715586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/33715586/pexels-photo-33715586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A man holds a dog in a tree amidst lush greenery in a park."
+imageAlt: "A man holds a dog in a tree amidst lush greenery in a park."
+imageSource: "pexels"
+imageCredit: "Photo by German Suarez on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/man-gently-holding-dog-in-tree-outdoors-33715586/"
+imageSearchQuery: "Smooth Fox Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Smooth Fox Terriers
 Smooth Fox Terriers are small-sized (15–18 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

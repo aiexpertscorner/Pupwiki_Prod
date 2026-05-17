@@ -27,7 +27,16 @@ breedSlug: "westiepoo"
 breedName: "Westiepoo"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-westiepoo"
+heroImage: "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6131541/pexels-photo-6131541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A pet groomer trims a dog's fur on a grooming table in a professional salon setting."
+imageAlt: "A pet groomer trims a dog's fur on a grooming table in a professional salon setting."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/woman-wearing-facial-mask-and-black-apron-grooming-a-dog-on-a-table-6131541/"
+imageSearchQuery: "Westiepoo dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Westiepoos
 Westiepoos are small-sized (13.23–24.25 lbs), with regular energy, low shedding, and a curly coat. The recommendations below are matched to these traits.

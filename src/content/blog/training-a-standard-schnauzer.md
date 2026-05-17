@@ -27,7 +27,16 @@ breedSlug: "standard-schnauzer"
 breedName: "Standard Schnauzer"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-standard-schnauzer"
+heroImage: "https://images.pexels.com/photos/3631659/pexels-photo-3631659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/3631659/pexels-photo-3631659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Two adorable Schnauzer dogs resting on grass in London, showcasing their distinctive features."
+imageAlt: "Two adorable Schnauzer dogs resting on grass in London, showcasing their distinctive features."
+imageSource: "pexels"
+imageCredit: "Photo by Sebastian Coman Travel on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-brown-miniature-schnauzer-lying-on-green-grass-field-3631659/"
+imageSearchQuery: "Standard Schnauzer dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Standard Schnauzers
 Standard Schnauzers are medium-sized (30–50 lbs), with regular energy, minimal shedding, and a wiry coat. The recommendations below are matched to these traits.

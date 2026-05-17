@@ -3,8 +3,8 @@ title: "Brutus Broth Guide for Dog People - Products, Services and Fit Notes"
 seoTitle: "Brutus Broth Dog Guide - Products, Services and Fit Notes"
 displayTitle: "Brutus Broth guide for dog people"
 description: "A PupWiki guide to Brutus Broth: what the brand offers, when current or future dog owners may consider it, product or service fit, and practical buying notes."
-pubDate: 2026-05-16
-updatedDate: 2026-05-16
+pubDate: 2026-05-17
+updatedDate: 2026-05-17
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["brand-guide", "dog-food", "food", "nutrition", "supplements", "hydration", "joint-health", "digestion", "senior", "recovery"]

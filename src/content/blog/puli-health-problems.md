@@ -27,7 +27,16 @@ breedSlug: "puli"
 breedName: "Puli"
 wordCountEstimate: 365
 canonicalUrl: "https://pupwiki.com/blog/puli-health-problems"
+heroImage: "https://images.pexels.com/photos/6235124/pexels-photo-6235124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/6235124/pexels-photo-6235124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Veterinarian consulting with dog owner in a clinic while holding a Pomeranian."
+imageAlt: "Veterinarian consulting with dog owner in a clinic while holding a Pomeranian."
+imageSource: "pexels"
+imageCredit: "Photo by Tima Miroshnichenko on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/man-holding-dog-while-talking-to-a-woman-6235124/"
+imageSearchQuery: "Puli dog veterinarian wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Pulis

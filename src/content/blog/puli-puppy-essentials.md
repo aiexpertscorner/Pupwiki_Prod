@@ -27,7 +27,16 @@ breedSlug: "puli"
 breedName: "Puli"
 wordCountEstimate: 334
 canonicalUrl: "https://pupwiki.com/blog/puli-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up black and white portrait of a curly-haired white dog."
+imageAlt: "Close-up black and white portrait of a curly-haired white dog."
+imageSource: "pexels"
+imageCredit: "Photo by Anna on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-fluffy-dog-31845857/"
+imageSearchQuery: "Puli dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pulis
 First, there are those dreadlocks, the instantly recognizable feature of the Puli (pronounced “Poo-lee”—”Pulik” is the plural). The coat’s naturally occurring cords are wooly, dense, and weatherproof. Either corded or brushed out, Puli coats require lots of attention. Under the dreads there’s a compact but powerful dog, standing 16 to 17 inches at the shoulder. Pulik are remarkably agile and light on their feet, earning a reputation as the “acrobat of the dog world.” No other breed can be mistaken for the Puli, a compact but powerful herder covered from head to tail with profuse, naturally occurring cords. Bred to work closely with humans, these agile and faithful little dynamos are quick learners.

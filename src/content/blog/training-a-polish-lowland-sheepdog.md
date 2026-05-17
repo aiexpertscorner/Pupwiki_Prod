@@ -27,7 +27,16 @@ breedSlug: "polish-lowland-sheepdog"
 breedName: "Polish Lowland Sheepdog"
 wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/training-a-polish-lowland-sheepdog"
+heroImage: "https://images.pexels.com/photos/21939282/pexels-photo-21939282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/21939282/pexels-photo-21939282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A smiling child in a red plaid shirt pets an Old English Sheepdog outdoors."
+imageAlt: "A smiling child in a red plaid shirt pets an Old English Sheepdog outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Vika Glitter on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-boy-with-dog-21939282/"
+imageSearchQuery: "Polish Lowland Sheepdog dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Polish Lowland Sheepdogs
 Polish Lowland Sheepdogs are medium-sized (30–50 lbs), with active energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

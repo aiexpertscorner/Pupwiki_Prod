@@ -27,7 +27,16 @@ breedSlug: "puli"
 breedName: "Puli"
 wordCountEstimate: 489
 canonicalUrl: "https://pupwiki.com/blog/best-supplements-for-puli"
+heroImage: "https://images.pexels.com/photos/4148952/pexels-photo-4148952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/4148952/pexels-photo-4148952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Three adults jogging with a dog on a forest path on a bright spring day, promoting healthy living."
+imageAlt: "Three adults jogging with a dog on a forest path on a bright spring day, promoting healthy living."
+imageSource: "pexels"
+imageCredit: "Photo by Gustavo Fring on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-two-women-and-man-jogging-with-dog-on-pavement-4148952/"
+imageSearchQuery: "Puli healthy dog wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Pulis

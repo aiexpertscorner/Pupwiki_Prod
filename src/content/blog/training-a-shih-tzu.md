@@ -27,7 +27,16 @@ breedSlug: "shih-tzu"
 breedName: "Shih Tzu"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-shih-tzu"
+heroImage: "https://images.pexels.com/photos/31430833/pexels-photo-31430833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31430833/pexels-photo-31430833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Charming close-up photo of a Shih Tzu dog sitting outdoors with a serene expression."
+imageAlt: "Charming close-up photo of a Shih Tzu dog sitting outdoors with a serene expression."
+imageSource: "pexels"
+imageCredit: "Photo by the  cinematic on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-an-adorable-shih-tzu-dog-outdoors-31430833/"
+imageSearchQuery: "Shih Tzu dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Shih Tzus
 Shih Tzus are small-sized (9–16 lbs), with regular energy, minimal shedding, and a long coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "working-kelpie"
 breedName: "Working Kelpie"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-working-kelpie"
+heroImage: "https://images.pexels.com/photos/9810828/pexels-photo-9810828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9810828/pexels-photo-9810828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Lively Australian Kelpie dog enjoying the sunlight outdoors. Perfect for pet-themed projects."
+imageAlt: "Lively Australian Kelpie dog enjoying the sunlight outdoors. Perfect for pet-themed projects."
+imageSource: "pexels"
+imageCredit: "Photo by Plato Terentev on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/australian-kelpie-dog-in-close-up-shot-9810828/"
+imageSearchQuery: "Working Kelpie dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Working Kelpies
 Working Kelpies are medium-sized (28–60 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

@@ -27,7 +27,16 @@ breedSlug: "staffordshire-bull-terrier"
 breedName: "Staffordshire Bull Terrier"
 wordCountEstimate: 424
 canonicalUrl: "https://pupwiki.com/blog/training-a-staffordshire-bull-terrier"
+heroImage: "https://images.pexels.com/photos/2813361/pexels-photo-2813361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/2813361/pexels-photo-2813361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A lively brown dog playing tug-of-war outdoors on a wooden deck."
+imageAlt: "A lively brown dog playing tug-of-war outdoors on a wooden deck."
+imageSource: "pexels"
+imageCredit: "Photo by Darcy Lawrey on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dog-biting-a-rope-2813361/"
+imageSearchQuery: "Staffordshire Bull Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Staffordshire Bull Terriers
 Staffordshire Bull Terriers are medium-sized (24–38 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

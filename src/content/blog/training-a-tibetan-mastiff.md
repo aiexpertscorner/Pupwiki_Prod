@@ -27,7 +27,16 @@ breedSlug: "tibetan-mastiff"
 breedName: "Tibetan Mastiff"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-tibetan-mastiff"
+heroImage: "https://images.pexels.com/photos/20622657/pexels-photo-20622657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/20622657/pexels-photo-20622657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute Tibetan Spaniel dog with black fur standing confidently outdoors in a field."
+imageAlt: "Cute Tibetan Spaniel dog with black fur standing confidently outdoors in a field."
+imageSource: "pexels"
+imageCredit: "Photo by Patrick Schulze on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/portrait-of-a-black-tibetan-spaniel-20622657/"
+imageSearchQuery: "Tibetan Mastiff dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Tibetan Mastiffs
 Tibetan Mastiffs are large-sized (70–150 lbs), with regular energy, seasonal shedding, and a long coat. The recommendations below are matched to these traits.

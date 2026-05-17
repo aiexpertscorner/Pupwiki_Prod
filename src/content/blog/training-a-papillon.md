@@ -27,7 +27,16 @@ breedSlug: "papillon"
 breedName: "Papillon"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-papillon"
+heroImage: "https://images.pexels.com/photos/32132379/pexels-photo-32132379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32132379/pexels-photo-32132379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Captivating black and white portrait of a Papillon dog sitting outdoors, radiating elegance and charm."
+imageAlt: "Captivating black and white portrait of a Papillon dog sitting outdoors, radiating elegance and charm."
+imageSource: "pexels"
+imageCredit: "Photo by Alexas Fotos on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/charming-papillon-dog-in-black-and-white-portrait-32132379/"
+imageSearchQuery: "Papillon dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Papillons
 Papillons are small-sized (5–10 lbs), with regular energy, seasonal shedding, and a silky coat. The recommendations below are matched to these traits.

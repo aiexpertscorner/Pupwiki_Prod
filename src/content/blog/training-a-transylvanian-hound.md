@@ -27,7 +27,16 @@ breedSlug: "transylvanian-hound"
 breedName: "Transylvanian Hound"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-transylvanian-hound"
+heroImage: "https://images.pexels.com/photos/26607797/pexels-photo-26607797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/26607797/pexels-photo-26607797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A dachshund dog holds a stick in its mouth outdoors, filled with playful energy."
+imageAlt: "A dachshund dog holds a stick in its mouth outdoors, filled with playful energy."
+imageSource: "pexels"
+imageCredit: "Photo by Gustavo Denuncio on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-dachshund-with-stick-26607797/"
+imageSearchQuery: "Transylvanian Hound dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Transylvanian Hounds
 Transylvanian Hounds are medium-sized (55 lbs), with active energy, low shedding, and a short coat. The recommendations below are matched to these traits.

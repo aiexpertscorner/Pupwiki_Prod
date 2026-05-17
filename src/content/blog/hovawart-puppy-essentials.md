@@ -27,7 +27,16 @@ breedSlug: "hovawart"
 breedName: "Hovawart"
 wordCountEstimate: 363
 canonicalUrl: "https://pupwiki.com/blog/hovawart-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16528289/pexels-photo-16528289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor."
+imageAlt: "Close-up portrait of a black and tan Hovawart dog outdoors, showcasing its loyalty and gentle demeanor."
+imageSource: "pexels"
+imageCredit: "Photo by Theo Willems on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/photo-of-a-hovawart-dog-16528289/"
+imageSearchQuery: "Hovawart dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Hovawarts
 Physically, Hovawarts are large, heavy-boned dogs that have been bred to be intelligent guardians of livestock and the home. They come in three colors: blonde, black and tan, and black. They are alert, faithful, trustworthy, extremely intelligent, fun-loving, and stubborn. A Hovawart likes to have a job to do, or he will use his creative nature to find one. They take approximately two years to mature. Currently, Hovawarts in North America are participating in search and rescue organizations, therapy dog activities, obedience trials, agility trials, flyball and service dog training. Owning a Hovawart can be quite a challenge, and they require significant time and attention from their owners, so they are not recommended for first-time dog owners. However, for an owner who is willing to expend the effort to teach their dog appropriate behaviors in different situations, the reward is a faith

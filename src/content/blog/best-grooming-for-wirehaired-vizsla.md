@@ -27,7 +27,16 @@ breedSlug: "wirehaired-vizsla"
 breedName: "Wirehaired Vizsla"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-wirehaired-vizsla"
+heroImage: "https://images.pexels.com/photos/19718742/pexels-photo-19718742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19718742/pexels-photo-19718742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Wirehaired Vizsla dog sitting on a field in a misty rural landscape."
+imageAlt: "Wirehaired Vizsla dog sitting on a field in a misty rural landscape."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-wirehaired-vizsla-dog-sitting-on-the-ground-outside-19718742/"
+imageSearchQuery: "Wirehaired Vizsla dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Wirehaired Vizslas
 Wirehaired Vizslas are medium-sized (45–65 lbs), with active energy, seasonal shedding, and a wiry coat. The recommendations below are matched to these traits.

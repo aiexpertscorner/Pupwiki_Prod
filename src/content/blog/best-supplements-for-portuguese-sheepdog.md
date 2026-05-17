@@ -27,7 +27,16 @@ breedSlug: "portuguese-sheepdog"
 breedName: "Portuguese Sheepdog"
 wordCountEstimate: 516
 canonicalUrl: "https://pupwiki.com/blog/best-supplements-for-portuguese-sheepdog"
+heroImage: "https://images.pexels.com/photos/5459939/pexels-photo-5459939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5459939/pexels-photo-5459939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Pyrenean Sheepdog enjoying a sunny day in a vibrant flower field."
+imageAlt: "Adorable Pyrenean Sheepdog enjoying a sunny day in a vibrant flower field."
+imageSource: "pexels"
+imageCredit: "Photo by alberto teruzzi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-sheepdog-running-on-a-flower-field-5459939/"
+imageSearchQuery: "Portuguese Sheepdog healthy dog wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Portuguese Sheepdogs

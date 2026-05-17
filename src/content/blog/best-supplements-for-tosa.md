@@ -27,7 +27,16 @@ breedSlug: "tosa"
 breedName: "Tosa"
 wordCountEstimate: 537
 canonicalUrl: "https://pupwiki.com/blog/best-supplements-for-tosa"
+heroImage: "https://images.pexels.com/photos/18235144/pexels-photo-18235144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/18235144/pexels-photo-18235144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Maltese dog enjoying a leashed walk in a vibrant garden with greenery and flowers."
+imageAlt: "A Maltese dog enjoying a leashed walk in a vibrant garden with greenery and flowers."
+imageSource: "pexels"
+imageCredit: "Photo by SOO CHUL PARK on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/man-walking-a-white-maltese-dog-18235144/"
+imageSearchQuery: "Tosa healthy dog wellness"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## About Tosas

@@ -27,7 +27,16 @@ breedSlug: "thai-ridgeback"
 breedName: "Thai Ridgeback"
 wordCountEstimate: 428
 canonicalUrl: "https://pupwiki.com/blog/best-grooming-for-thai-ridgeback"
+heroImage: "https://images.pexels.com/photos/5389345/pexels-photo-5389345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/5389345/pexels-photo-5389345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of two Rhodesian Ridgeback dogs outdoors, showcasing their attentive expression."
+imageAlt: "Close-up of two Rhodesian Ridgeback dogs outdoors, showcasing their attentive expression."
+imageSource: "pexels"
+imageCredit: "Photo by Ilo Frey on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/brown-dogs-on-green-grass-field-5389345/"
+imageSearchQuery: "Thai Ridgeback dog grooming"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Thai Ridgebacks
 Thai Ridgebacks are large-sized (35–75 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

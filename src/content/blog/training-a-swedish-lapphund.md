@@ -27,7 +27,16 @@ breedSlug: "swedish-lapphund"
 breedName: "Swedish Lapphund"
 wordCountEstimate: 411
 canonicalUrl: "https://pupwiki.com/blog/training-a-swedish-lapphund"
+heroImage: "https://images.pexels.com/photos/29352510/pexels-photo-29352510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/29352510/pexels-photo-29352510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Black and white image of a woman hugging her fluffy dog outdoors on a grassy area."
+imageAlt: "Black and white image of a woman hugging her fluffy dog outdoors on a grassy area."
+imageSource: "pexels"
+imageCredit: "Photo by JacLou- DL on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/monochrome-portrait-of-woman-with-fluffy-dog-outdoors-29352510/"
+imageSearchQuery: "Swedish Lapphund dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Swedish Lapphunds
 Swedish Lapphunds are medium-sized (30–45 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

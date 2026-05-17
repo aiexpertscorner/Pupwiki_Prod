@@ -27,7 +27,16 @@ breedSlug: "rottweiler"
 breedName: "Rottweiler"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-rottweiler"
+heroImage: "https://images.pexels.com/photos/8327623/pexels-photo-8327623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8327623/pexels-photo-8327623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Blind individual using cane with guide dog on a walk outdoors."
+imageAlt: "Blind individual using cane with guide dog on a walk outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by MART  PRODUCTION on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/person-standing-beside-the-black-short-coated-dog-8327623/"
+imageSearchQuery: "Rottweiler dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Rottweilers
 Rottweilers are large-sized (80–135 lbs), with regular energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

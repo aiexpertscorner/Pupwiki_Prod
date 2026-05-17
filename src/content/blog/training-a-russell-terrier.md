@@ -27,7 +27,16 @@ breedSlug: "russell-terrier"
 breedName: "Russell Terrier"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-russell-terrier"
+heroImage: "https://images.pexels.com/photos/28608524/pexels-photo-28608524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28608524/pexels-photo-28608524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute Jack Russell Terrier puppy sitting on green grass outdoors."
+imageAlt: "A cute Jack Russell Terrier puppy sitting on green grass outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Oleh Bachynskyi on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/adorable-jack-russell-terrier-puppy-on-a-lawn-28608524/"
+imageSearchQuery: "Russell Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Russell Terriers
 Russell Terriers are small-sized (9–15 lbs), with active energy, low shedding, and a medium coat. The recommendations below are matched to these traits.

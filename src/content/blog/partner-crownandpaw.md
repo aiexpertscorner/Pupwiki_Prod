@@ -3,8 +3,8 @@ title: "Crown and Paw Guide for Dog People - Products, Services and Fit Notes"
 seoTitle: "Crown and Paw Dog Guide - Products, Services and Fit Notes"
 displayTitle: "Crown and Paw guide for dog people"
 description: "A PupWiki guide to Crown and Paw: what the brand offers, when current or future dog owners may consider it, product or service fit, and practical buying notes."
-pubDate: 2026-05-16
-updatedDate: 2026-05-16
+pubDate: 2026-05-17
+updatedDate: 2026-05-17
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["brand-guide", "lifestyle", "gift", "portrait", "memorial", "dog-names", "apparel", "accessories"]

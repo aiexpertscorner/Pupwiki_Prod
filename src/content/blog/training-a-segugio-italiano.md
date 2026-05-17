@@ -27,7 +27,16 @@ breedSlug: "segugio-italiano"
 breedName: "Segugio Italiano"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-segugio-italiano"
+heroImage: "https://images.pexels.com/photos/19202649/pexels-photo-19202649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/19202649/pexels-photo-19202649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Spinone Italiano dog energetically plays in a scenic mountain setting. Captured outdoors."
+imageAlt: "A Spinone Italiano dog energetically plays in a scenic mountain setting. Captured outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/spinone-italiano-dog-on-mountain-19202649/"
+imageSearchQuery: "Segugio Italiano dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Segugio Italianos
 Segugio Italianos are medium-sized (40–60 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

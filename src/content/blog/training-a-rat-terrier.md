@@ -27,7 +27,16 @@ breedSlug: "rat-terrier"
 breedName: "Rat Terrier"
 wordCountEstimate: 410
 canonicalUrl: "https://pupwiki.com/blog/training-a-rat-terrier"
+heroImage: "https://images.pexels.com/photos/14140089/pexels-photo-14140089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/14140089/pexels-photo-14140089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up of a woman giving a treat to a dog outdoors on a sunny day."
+imageAlt: "Close-up of a woman giving a treat to a dog outdoors on a sunny day."
+imageSource: "pexels"
+imageCredit: "Photo by Liudmyla Shalimova on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-person-feeding-a-dog-14140089/"
+imageSearchQuery: "Rat Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Rat Terriers
 Rat Terriers are small-sized (10–25 lbs), with regular energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

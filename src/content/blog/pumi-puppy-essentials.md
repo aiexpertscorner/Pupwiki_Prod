@@ -27,7 +27,16 @@ breedSlug: "pumi"
 breedName: "Pumi"
 wordCountEstimate: 334
 canonicalUrl: "https://pupwiki.com/blog/pumi-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/31845857/pexels-photo-31845857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Close-up black and white portrait of a curly-haired white dog."
+imageAlt: "Close-up black and white portrait of a curly-haired white dog."
+imageSource: "pexels"
+imageCredit: "Photo by Anna on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-portrait-of-fluffy-dog-31845857/"
+imageSearchQuery: "Pumi dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Pumis
 The Pumi (POO-mee; plural Pumik) was conceived as a compact, quick, and fearless sheepherder capable of moving flocks on the narrow roads connecting the pastures of western Hungary. At a glance, it might be hard to believe that this cuddly charmer was born to do such tough work. With his coat of corkscrew curls, circular tail, expressive ears, and distinctively whimsical look, the Pumi is all kinds of cute. But beneath the curls is a lean, deep-chested herder with a seemingly endless capacity for work and play. A compact, nimble-footed herder of Hungarian origin, the Pumi is easily recognized by a corkscrew-curled coat, two-thirds erect ears, and distinctive whimsical expression. The breed is famed for its intelligence, agility, and boldness.

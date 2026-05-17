@@ -27,7 +27,16 @@ breedSlug: "pug"
 breedName: "Pug"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-pug"
+heroImage: "https://images.pexels.com/photos/9700107/pexels-photo-9700107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9700107/pexels-photo-9700107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Cute pug dog lying on lush green grass, enjoying the sunny outdoors."
+imageAlt: "Cute pug dog lying on lush green grass, enjoying the sunny outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Steshka Croes on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-dog-sitting-on-the-grass-9700107/"
+imageSearchQuery: "Pug dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pugs
 Pugs are small-sized (14–18 lbs), with regular energy, heavy shedding, and a short coat. The recommendations below are matched to these traits.

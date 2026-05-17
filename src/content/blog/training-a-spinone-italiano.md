@@ -27,7 +27,16 @@ breedSlug: "spinone-italiano"
 breedName: "Spinone Italiano"
 wordCountEstimate: 408
 canonicalUrl: "https://pupwiki.com/blog/training-a-spinone-italiano"
+heroImage: "https://images.pexels.com/photos/28898844/pexels-photo-28898844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/28898844/pexels-photo-28898844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A Spinone Italiano dog standing outdoors, surrounded by nature during the day."
+imageAlt: "A Spinone Italiano dog standing outdoors, surrounded by nature during the day."
+imageSource: "pexels"
+imageCredit: "Photo by Andreas Schnabl on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/spinone-italiano-dog-outdoors-in-nature-28898844/"
+imageSearchQuery: "Spinone Italiano dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Spinone Italianos
 Spinone Italianos are medium-sized, with active energy, low shedding, and a rough coat. The recommendations below are matched to these traits.

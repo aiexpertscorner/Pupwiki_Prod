@@ -3,8 +3,8 @@ title: "Raw Wild LLC Guide for Dog People - Products, Services and Fit Notes"
 seoTitle: "Raw Wild LLC Dog Guide - Products, Services and Fit Notes"
 displayTitle: "Raw Wild LLC guide for dog people"
 description: "A PupWiki guide to Raw Wild LLC: what the brand offers, when current or future dog owners may consider it, product or service fit, and practical buying notes."
-pubDate: 2026-05-16
-updatedDate: 2026-05-16
+pubDate: 2026-05-17
+updatedDate: 2026-05-17
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["brand-guide", "dog-food", "food", "nutrition", "raw-food", "freeze-dried", "sensitive-stomach", "allergies", "feeding", "single-protein"]

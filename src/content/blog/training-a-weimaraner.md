@@ -27,7 +27,16 @@ breedSlug: "weimaraner"
 breedName: "Weimaraner"
 wordCountEstimate: 397
 canonicalUrl: "https://pupwiki.com/blog/training-a-weimaraner"
+heroImage: "https://images.pexels.com/photos/7032355/pexels-photo-7032355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/7032355/pexels-photo-7032355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A joyful Weimaraner dog with a red collar enjoying the outdoors."
+imageAlt: "A joyful Weimaraner dog with a red collar enjoying the outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Mariana Tribu on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/close-up-of-a-dog-with-red-collar-7032355/"
+imageSearchQuery: "Weimaraner dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Weimaraners
 Weimaraners are large-sized (55–90 lbs), with active energy, seasonal shedding, and a short coat. The recommendations below are matched to these traits.

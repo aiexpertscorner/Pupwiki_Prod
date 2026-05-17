@@ -27,7 +27,16 @@ breedSlug: "portuguese-pointer"
 breedName: "Portuguese Pointer"
 wordCountEstimate: 342
 canonicalUrl: "https://pupwiki.com/blog/portuguese-pointer-puppy-essentials"
+heroImage: "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/9562585/pexels-photo-9562585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features."
+imageAlt: "A close-up portrait of an English Pointer dog by the water, showcasing its distinctive features."
+imageSource: "pexels"
+imageCredit: "Photo by Алексей Вечерин on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-black-and-white-short-coated-dog-9562585/"
+imageSearchQuery: "Portuguese Pointer dog portrait"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## About Portuguese Pointers
 The Portuguese Pointer is considered a medium-sized dog. As a sporting dog, they have quite a bit of energy, especially when young. Their affectionate nature is so intense that the Portuguese standard describes it as sometimes “inappropriate and inconvenient.” This breed is very hardy and is capable of great endurance and devotion. Calm and very sociable, they can be somewhat haughty towards other dogs. Curious by nature, they work with persistence and vivacity and are always a keen hunter that stays in close contact with his handler. Club Contact DetailsClub: Portuguese Pointer Club of AmericaName: Temple DaSilvaEmail: GreenFallsHollow@comcast.net The Portuguese Pointer is a very old hunting breed bred to work closely with its handler. They are enthusiastic in their work and very dedicated to their owner.

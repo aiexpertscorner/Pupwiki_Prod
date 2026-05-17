@@ -27,7 +27,16 @@ breedSlug: "teddy-roosevelt-terrier"
 breedName: "Teddy Roosevelt Terrier"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-teddy-roosevelt-terrier"
+heroImage: "https://images.pexels.com/photos/106912/pexels-photo-106912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/106912/pexels-photo-106912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Side profile of a Jack Russell Terrier dog wearing a harness outdoors."
+imageAlt: "Side profile of a Jack Russell Terrier dog wearing a harness outdoors."
+imageSource: "pexels"
+imageCredit: "Photo by Leon Woods on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/white-and-brown-dog-on-sand-during-daytime-106912/"
+imageSearchQuery: "Teddy Roosevelt Terrier dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Teddy Roosevelt Terriers
 Teddy Roosevelt Terriers are small-sized (8–25 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.

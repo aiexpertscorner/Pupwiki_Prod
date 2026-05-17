@@ -27,7 +27,16 @@ breedSlug: "pembroke-welsh-corgi"
 breedName: "Pembroke Welsh Corgi"
 wordCountEstimate: 423
 canonicalUrl: "https://pupwiki.com/blog/training-a-pembroke-welsh-corgi"
+heroImage: "https://images.pexels.com/photos/8963716/pexels-photo-8963716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/8963716/pexels-photo-8963716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A cute corgi dog lying on a vibrant grass field with flowers in the background."
+imageAlt: "A cute corgi dog lying on a vibrant grass field with flowers in the background."
+imageSource: "pexels"
+imageCredit: "Photo by Valeria Boltneva on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/a-corgi-dog-lying-on-a-grass-field-8963716/"
+imageSearchQuery: "Pembroke Welsh Corgi dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Pembroke Welsh Corgis
 Pembroke Welsh Corgis are medium-sized (28–30 lbs), with active energy, heavy shedding, and a double coat. The recommendations below are matched to these traits.

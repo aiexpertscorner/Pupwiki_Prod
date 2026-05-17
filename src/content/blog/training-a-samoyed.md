@@ -27,7 +27,16 @@ breedSlug: "samoyed"
 breedName: "Samoyed"
 wordCountEstimate: 398
 canonicalUrl: "https://pupwiki.com/blog/training-a-samoyed"
+heroImage: "https://images.pexels.com/photos/16610860/pexels-photo-16610860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/16610860/pexels-photo-16610860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "Adorable Samoyed dog sitting outdoors with a leash, showcasing its fluffy white fur."
+imageAlt: "Adorable Samoyed dog sitting outdoors with a leash, showcasing its fluffy white fur."
+imageSource: "pexels"
+imageCredit: "Photo by Efrem  Efre on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/black-and-white-picture-of-a-fluffy-samoyed-dog-16610860/"
+imageSearchQuery: "Samoyed dog training outdoors"
 ---
+
 > **Reader-support note:** PupWiki may earn from reader-supported links.
 ## Why this guide exists for Samoyeds
 Samoyeds are medium-sized (35–65 lbs), with active energy, seasonal shedding, and a double coat. The recommendations below are matched to these traits.
