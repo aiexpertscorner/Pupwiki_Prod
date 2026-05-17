@@ -3,8 +3,8 @@ title: "Dog Beds, Comfort and Home Setup - PupWiki Dog Guide"
 seoTitle: "Dog Beds, Comfort and Home Setup - Brands, Services and Dog-Fit Checks"
 displayTitle: "Dog Beds, Comfort and Home Setup"
 description: "Compare dog-focused brands, products and services for dog beds, comfort and home setup, with practical checks for current and future dog owners."
-pubDate: 2026-05-16
-updatedDate: 2026-05-16
+pubDate: 2026-05-17
+updatedDate: 2026-05-17
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-beds-comfort-home-partners", "beds", "bed", "comfort", "home", "sleep", "orthopedic", "senior-dog", "training", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear", "partner", "food", "nutrition", "supplements", "hydration", "joint-health", "digestion", "senior", "recovery", "crates", "carriers", "toys", "bowls", "accessories"]
@@ -25,16 +25,7 @@ medicalDisclaimer: false
 partnerProgramKeys: ["jugbow", "dog-cloud-us", "brutus-broth", "petmate"]
 partnerAdvertiserIds: ["79708", "87483", "55927", "89913"]
 canonicalUrl: "https://pupwiki.com/blog/dog-beds-comfort-home-partners"
-heroImage: "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner."
-imageAlt: "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner."
-imageSource: "pexels"
-imageCredit: "Photo by Bethany Ferr on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/"
-imageSearchQuery: "dog owner comparing dog care"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links. Brand availability, offers, products and terms can change.
 ## What this guide helps you decide
 Use this guide to compare beds, crate comfort, washable covers, senior comfort, cooling, travel rest and household setup by the dog's size and sleep style.
