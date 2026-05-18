@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-17T03:02:53.961Z",
+  "generatedAt": "2026-05-18T22:08:47.064Z",
   "totals": {
     "breeds": 277,
     "crossbreeds": 75,
-    "blogPosts": 2697,
-    "astroPages": 30,
+    "blogPosts": 483,
+    "astroPages": 33,
     "clusters": 15,
-    "awinJoinedPrograms": 0,
+    "awinJoinedPrograms": 10,
     "partnerProfilesGenerated": 7,
-    "opportunities": 315
+    "opportunities": 625
   },
   "familyStats": [
     {
       "family": "food",
-      "existing": 352,
-      "missing": 0,
+      "existing": 52,
+      "missing": 300,
       "total": 352
     },
     {
@@ -122,18 +122,18 @@
     {
       "id": "cluster:dog-food",
       "type": "cluster-hub",
-      "priorityScore": 90,
+      "priorityScore": 48,
       "cluster": "dog-food",
       "suggestedPath": "/categories/dog-food",
-      "exists": false,
-      "reason": "Missing cluster hub for dog-food.",
+      "exists": true,
+      "reason": "Cluster hub exists; improve internal links, modules and sitemap priority.",
       "internalLinkTargets": [
         "/categories",
         "/blog"
       ],
       "sitemap": {
         "include": true,
-        "priority": 0.7,
+        "priority": 0.85,
         "changefreq": "weekly"
       },
       "monetization": {
@@ -145,22 +145,25 @@
     {
       "id": "cluster:training",
       "type": "cluster-hub",
-      "priorityScore": 95,
+      "priorityScore": 63,
       "cluster": "training",
       "suggestedPath": "/categories/training",
-      "exists": false,
-      "reason": "Missing cluster hub for training.",
+      "exists": true,
+      "reason": "Cluster hub exists; improve internal links, modules and sitemap priority.",
       "internalLinkTargets": [
         "/categories",
         "/blog"
       ],
       "sitemap": {
         "include": true,
-        "priority": 0.7,
+        "priority": 0.85,
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "JUGBOW",
+          "RadioFence.com"
+        ],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true
       }
@@ -168,7 +171,7 @@
     {
       "id": "cluster:beds",
       "type": "cluster-hub",
-      "priorityScore": 95,
+      "priorityScore": 105,
       "cluster": "beds",
       "suggestedPath": "/categories/beds",
       "exists": false,
@@ -183,7 +186,9 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "Petmate"
+        ],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true
       }
@@ -191,22 +196,24 @@
     {
       "id": "cluster:toys",
       "type": "cluster-hub",
-      "priorityScore": 95,
+      "priorityScore": 63,
       "cluster": "toys",
       "suggestedPath": "/categories/toys",
-      "exists": false,
-      "reason": "Missing cluster hub for toys.",
+      "exists": true,
+      "reason": "Cluster hub exists; improve internal links, modules and sitemap priority.",
       "internalLinkTargets": [
         "/categories",
         "/blog"
       ],
       "sitemap": {
         "include": true,
-        "priority": 0.7,
+        "priority": 0.85,
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "Petmate"
+        ],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": true
       }
@@ -238,7 +245,7 @@
     {
       "id": "cluster:health",
       "type": "cluster-hub",
-      "priorityScore": 87,
+      "priorityScore": 97,
       "cluster": "health",
       "suggestedPath": "/categories/health",
       "exists": false,
@@ -253,7 +260,10 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "Brutus Broth",
+          "Nextrition Pet (US)"
+        ],
         "amazonValidatedSeedLikely": true,
         "amazonSearchFallback": false
       }
@@ -284,7 +294,7 @@
     {
       "id": "cluster:supplements",
       "type": "cluster-hub",
-      "priorityScore": 82,
+      "priorityScore": 92,
       "cluster": "supplements",
       "suggestedPath": "/categories/supplements",
       "exists": false,
@@ -299,7 +309,9 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "Brutus Broth"
+        ],
         "amazonValidatedSeedLikely": false,
         "amazonSearchFallback": false
       }
@@ -330,7 +342,7 @@
     {
       "id": "cluster:lifestyle",
       "type": "cluster-hub",
-      "priorityScore": 82,
+      "priorityScore": 92,
       "cluster": "lifestyle",
       "suggestedPath": "/categories/lifestyle",
       "exists": false,
@@ -345,7 +357,10 @@
         "changefreq": "weekly"
       },
       "monetization": {
-        "awinPrograms": [],
+        "awinPrograms": [
+          "Crown and Paw",
+          "MyPetDMV - The original Pet Drivers License"
+        ],
         "amazonValidatedSeedLikely": false,
         "amazonSearchFallback": false
       }
@@ -421,8 +436,8 @@
     }
   ],
   "sitemapInputs": {
-    "staticPageCount": 30,
-    "dynamicBlogCount": 2697,
+    "staticPageCount": 33,
+    "dynamicBlogCount": 483,
     "dynamicBreedCount": 352,
     "clusterSlugs": [
       "puppy",
