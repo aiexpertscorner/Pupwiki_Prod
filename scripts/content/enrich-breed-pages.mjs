@@ -184,6 +184,14 @@ function enrichFile(filePath, familyKey) {
     }
   }
 
+  // Guard: never write a file with duplicate frontmatter keys
+  const fmKeys = [...newFm.matchAll(/^([A-Za-z][A-Za-z0-9_]*):/gm)].map((m) => m[1]);
+  if (new Set(fmKeys).size !== fmKeys.length) {
+    const dupes = fmKeys.filter((k, i) => fmKeys.indexOf(k) !== i);
+    console.warn(`[enrich] SKIP ${breedSlug} — duplicate FM keys detected: ${[...new Set(dupes)].join(', ')}`);
+    return { slug: breedSlug, skipped: true, reason: `duplicate keys: ${dupes.join(', ')}` };
+  }
+
   const newContent = `---\n${newFm}\n---\n${newBody}`;
   if (APPLY) fs.writeFileSync(filePath, newContent, 'utf8');
   return { slug: breedSlug, updated: true, needsImageUpdate, needsIndexUpdate, needsBodyUpdate };

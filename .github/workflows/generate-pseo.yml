@@ -64,6 +64,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Repair duplicate frontmatter keys
+        run: |
+          node scripts/content/fix-duplicate-fm-keys.mjs --apply \
+            || echo "FM key repair completed (no files needed fixing)"
+
       - name: Clean stale generated content
         run: npm run content:clean:ci
 

@@ -953,8 +953,7 @@ amazonQueries: ${yamlList(item.amazonQueries)}
 internalLinkTargets: ${yamlList(item.internalLinkTargets)}
 generated: true
 indexInBlog: ${pseoFamilyKey === 'health' ? 'true' : 'false'}
-${breedImageUrl ? `image: ${quote(breedImageUrl)}` : ''}
-reviewMethod: ${quote(normalizeReviewMethod('product-data-comparison'))}
+${breedImageUrl ? `image: ${quote(breedImageUrl)}\n` : ''}reviewMethod: ${quote(normalizeReviewMethod('product-data-comparison'))}
 claimSensitivity: ${quote(item.monetization?.claimSensitivity || 'medium')}
 monetizationIntent: ${quote(normalizeMonetizationIntent(item.family))}
 affiliateDisclosure: true
