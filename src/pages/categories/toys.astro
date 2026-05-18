@@ -1,0 +1,173 @@
+---
+/**
+ * src/pages/categories/toys.astro
+ *
+ * Static override for /categories/toys — adds a custom enrichment &
+ * energy framing section above the breed guide grid.
+ * Overrides the dynamic [category].astro route for this slug.
+ */
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+import CategoryHero from '../../components/category/CategoryHero.astro';
+import CategoryQuickNav from '../../components/category/CategoryQuickNav.astro';
+import CategoryPartnerBlock from '../../components/category/CategoryPartnerBlock.astro';
+import CategoryAmazonBlock from '../../components/category/CategoryAmazonBlock.astro';
+import CategoryBreedGuides from '../../components/category/CategoryBreedGuides.astro';
+import CategoryOwnerResources from '../../components/category/CategoryOwnerResources.astro';
+import CategoryArticleGrid from '../../components/category/CategoryArticleGrid.astro';
+import CategoryRelatedTopics from '../../components/category/CategoryRelatedTopics.astro';
+import CategoryEmptyState from '../../components/category/CategoryEmptyState.astro';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
+
+import masterBreeds from '../../data/master-breeds.json';
+import masterCrossbreeds from '../../data/master-crossbreeds.json';
+import breedLinkMap from '../../data/breed-link-map.json';
+import contentStatus from '../../data/content-status.json';
+
+import {
+  buildBreadcrumbLd,
+  buildCollectionPageLd,
+  buildItemListLd,
+  getAwinTags,
+  getCategoryBreedGuides,
+  getCategoryLinks,
+  getCategoryMeta,
+  getCategoryPosts,
+  getRelatedCategoryCards,
+} from '../../lib/categories/categoryHelpers';
+
+import '../../styles/pages/category-hub.css';
+
+const SITE = 'https://pupwiki.com';
+const categorySlug = 'toys';
+
+const meta = getCategoryMeta(categorySlug)!;
+const allPosts = await getCollection('blog');
+const catPosts = getCategoryPosts(allPosts as any, categorySlug, meta);
+const featuredPosts = catPosts.slice(0, 9);
+const supportingPosts = catPosts.slice(9, 21);
+
+const allBreedRecords = [...(masterBreeds as any[]), ...(masterCrossbreeds as any[])];
+const breedGuides = getCategoryBreedGuides({
+  categorySlug,
+  allBreeds: allBreedRecords,
+  breedLinkMap: breedLinkMap as any,
+  contentStatus: contentStatus as any,
+});
+
+const featuredBreedGuides = breedGuides;
+const breedChips = breedGuides.slice(0, 10);
+const categoryLinks = getCategoryLinks(categorySlug);
+const relatedCards = getRelatedCategoryCards(categorySlug);
+const awinTags = getAwinTags(categorySlug, meta);
+
+const breadcrumbLd = buildBreadcrumbLd(meta, categorySlug);
+const collectionPageLd = buildCollectionPageLd(meta, categorySlug);
+const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, posts: featuredPosts as any });
+---
+
+<BaseLayout
+  title={meta.seoTitle}
+  description={meta.seoDescription}
+  canonicalUrl={`${SITE}/categories/${categorySlug}`}
+  pageType="collection"
+>
+  <script type="application/ld+json" set:html={breadcrumbLd} />
+  <script type="application/ld+json" set:html={collectionPageLd} />
+  {itemListLd && <script type="application/ld+json" set:html={itemListLd} />}
+
+  <main class:list={['category-hub', `category-hub--${meta.theme}`]}>
+    <div class="category-hub__container">
+      <Breadcrumb
+        items={[
+          { label: 'Home', href: '/' },
+          { label: meta.title, current: true },
+        ]}
+      />
+    </div>
+
+    <CategoryHero meta={meta} />
+
+    <CategoryQuickNav
+      hasPosts={featuredPosts.length > 0}
+      hasBreedGuides={featuredBreedGuides.length > 0}
+    />
+
+    <!-- Custom: Enrichment context callout -->
+    <section class="category-hub__section category-hub__section--soft">
+      <div class="category-hub__container">
+        <div class="category-hub__section-header">
+          <p class="category-hub__eyebrow">Enrichment context</p>
+          <h2>Match the toy to the dog, not the other way around</h2>
+          <p>
+            The wrong toy for a breed's energy level, jaw strength and play style causes
+            frustration — or gets destroyed in 90 seconds. Energy level, size and temperament
+            are the three filters that matter most when choosing enrichment.
+          </p>
+        </div>
+        <div class="category-hub__link-grid">
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">⚡</span>
+            <strong>High-energy breeds</strong>
+            <p>Working dogs, herding breeds and retrievers need mental stimulation as much as physical exercise. Puzzle feeders and tug toys help.</p>
+          </div>
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">🦷</span>
+            <strong>Power chewers</strong>
+            <p>Mastiffs, Rottweilers and terriers destroy standard toys quickly. Durability ratings matter — softer toys are a choking risk for strong chewers.</p>
+          </div>
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">🧠</span>
+            <strong>Mental vs. physical enrichment</strong>
+            <p>A tired dog isn't always a calm dog. Mental stimulation via sniff games, puzzle toys and training games can be more effective than extra walks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {breedChips.length >= 3 && (
+      <section class="category-hub__strip" aria-label={`${meta.title} breed shortcuts`}>
+        <div class="category-hub__container">
+          <div class="category-hub__strip-header">
+            <p>{meta.title} by breed</p>
+            <a href="/breeds">All breeds →</a>
+          </div>
+          <div class="category-hub__chip-row">
+            {breedChips.map((breed) => (
+              <a href={breed.href}>{breed.name}</a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <CategoryBreedGuides meta={meta} guides={featuredBreedGuides} />
+
+    <CategoryOwnerResources
+      meta={meta}
+      categorySlug={categorySlug}
+      links={categoryLinks}
+      tags={awinTags.secondary}
+    />
+
+    {featuredPosts.length > 0 && (
+      <CategoryArticleGrid
+        meta={meta}
+        posts={featuredPosts}
+        supportingPosts={supportingPosts}
+        totalCount={catPosts.length}
+      />
+    )}
+
+    <CategoryPartnerBlock meta={meta} categorySlug={categorySlug} tags={awinTags.primary} />
+    <CategoryAmazonBlock meta={meta} categorySlug={categorySlug} />
+
+    <CategoryRelatedTopics meta={meta} cards={relatedCards} />
+
+    {featuredPosts.length === 0 && featuredBreedGuides.length === 0 && (
+      <CategoryEmptyState meta={meta} />
+    )}
+  </main>
+</BaseLayout>

@@ -1335,6 +1335,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 54,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.25,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -1513,6 +1528,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 15,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 1070,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.75,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -1691,6 +1721,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 22,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 980,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.75,
+      "breed_type": "toy",
+      "_derived": true
     }
   },
   {
@@ -4929,6 +4974,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 34,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 21700,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 14,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 1,
+      "overall_score": 1.56,
+      "breed_type": "toy",
+      "_derived": true
     }
   },
   {
@@ -6261,6 +6321,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 16,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.8,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -6382,6 +6457,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 19100,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.22,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -6696,6 +6786,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 15,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 1100,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.8,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -7070,6 +7175,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 17,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.85,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -7441,6 +7561,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 30,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.91,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -8386,6 +8521,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 33,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 29680,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 14,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.41,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -8565,6 +8715,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 59,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21700,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 14,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -9651,6 +9816,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 36,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 1100,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.06,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -10214,6 +10394,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 61,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.38,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -11452,6 +11647,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 16,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.75,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -12012,6 +12222,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 20,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 29680,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 14,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.3,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -12133,6 +12358,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 69,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 17190,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 9,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.84,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -12254,6 +12494,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 44,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.27,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -12432,6 +12687,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 54,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.78,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -12555,6 +12825,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 46,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 12720,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 6,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -12733,6 +13018,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 46,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.22,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -13101,6 +13401,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 53,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.33,
+      "breed_type": "toy",
+      "_derived": true
     }
   },
   {
@@ -13857,6 +14172,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 47,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 19080,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 9,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.22,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -14751,6 +15081,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 46,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 23250,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 15,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.07,
+      "breed_type": "toy",
+      "_derived": true
     }
   },
   {
@@ -15119,6 +15464,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 32,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 24800,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 980,
+      "longevity_years": 16,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 1,
+      "overall_score": 1.56,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -15296,6 +15656,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 45,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 18600,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -15473,6 +15848,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 28,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.01,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -15843,6 +16233,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 51,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -15964,6 +16369,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 32,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 21700,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 14,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.91,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -16525,6 +16945,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 57,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 26740,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 14,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.23,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -16646,6 +17081,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 56,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -17153,6 +17603,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 17,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 16960,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 1070,
+      "longevity_years": 8,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.75,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -17525,6 +17990,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 36,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.91,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -17894,6 +18374,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 47,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.07,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -18209,6 +18704,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 22,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 28650,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 15,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.85,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -18332,6 +18842,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 18,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.85,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -18510,6 +19035,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 49,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -18632,6 +19172,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 63,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 14840,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 7,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.94,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -19001,6 +19556,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 60,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 15500,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "toy",
+      "_derived": true
     }
   },
   {
@@ -19180,6 +19750,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 54,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 18600,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.38,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -19495,6 +20080,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 46,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 1,
+      "overall_score": 1.77,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -19672,6 +20272,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 52,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.12,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -19792,6 +20407,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 51,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 19100,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.22,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -19912,6 +20542,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 59,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.38,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -20089,6 +20734,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 22,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.8,
+      "breed_type": "toy",
+      "_derived": true
     }
   },
   {
@@ -20267,6 +20927,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 48,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "toy",
+      "_derived": true
     }
   },
   {
@@ -21017,6 +21692,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 45,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -21193,6 +21883,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 46,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -21316,6 +22021,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 34,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 1070,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.41,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -21761,6 +22481,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 52,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 19080,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 9,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.47,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -21940,6 +22675,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 16,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 1,
+      "overall_score": 1.45,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -22116,6 +22866,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 44,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.12,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -22204,7 +22969,22 @@
       "has_country_data": true,
       "image_verified": false
     },
-    "origin_country": "France"
+    "origin_country": "France",
+    "ranking_data": {
+      "intelligence_rank": 36,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.46,
+      "breed_type": "herding",
+      "_derived": true
+    }
   },
   {
     "slug": "belgian-sheepdog",
@@ -22383,6 +23163,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 29,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.41,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -22698,6 +23493,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 57,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 1100,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 1,
+      "overall_score": 1.88,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -23258,6 +24068,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 45,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.12,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -23436,6 +24261,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 53,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.33,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -23749,6 +24589,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 28,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 23250,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 15,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.01,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -23925,6 +24780,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 31,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 23250,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 15,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.01,
+      "breed_type": "toy",
+      "_derived": true
     }
   },
   {
@@ -24046,6 +24916,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 52,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.27,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -24414,6 +25299,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 57,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21700,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 14,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.25,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -24591,6 +25491,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 61,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.23,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -24769,6 +25684,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 59,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.23,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -25139,6 +26069,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 44,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 28650,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 15,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.22,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -25507,6 +26452,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 30,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.91,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -25820,6 +26780,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 32,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.11,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -26186,6 +27161,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 28,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.01,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -26363,6 +27353,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 51,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -26677,6 +27682,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 46,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.52,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -26799,6 +27819,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 14,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.2,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -26886,6 +27921,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 33,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.06,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -27063,6 +28113,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 61,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.78,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -27186,6 +28251,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 16,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 1100,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.25,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -27307,6 +28387,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.12,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -27430,6 +28525,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 20,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.8,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -27551,6 +28661,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 59,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.28,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -27729,6 +28854,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 58,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.78,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -27906,6 +29046,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 54,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 19080,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 9,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.33,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -28084,6 +29239,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 34,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.46,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -28170,6 +29340,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 54,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 1100,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -28322,6 +29507,21 @@
       "image_gallery_count": 3,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 14,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.2,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -28498,6 +29698,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 55,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.73,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -28675,6 +29890,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 53,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -28854,6 +30084,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 53,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 18600,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.33,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -29018,6 +30263,21 @@
       "image_gallery_count": 4,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 31,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.96,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -29141,6 +30401,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 22,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.75,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -29318,6 +30593,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.22,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -29440,6 +30730,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 49,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 21700,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 14,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 1,
+      "overall_score": 1.72,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -29564,6 +30869,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 15,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.85,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -29688,6 +31008,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 63,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 1100,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.99,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -29837,6 +31172,21 @@
       "image_gallery_count": 3,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 60,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.38,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -30150,6 +31500,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 61,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 1070,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -30271,6 +31636,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 55,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.33,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -30447,6 +31827,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 46,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.22,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -30760,6 +32155,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 57,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.33,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -30883,6 +32293,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 53,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 1100,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -30969,6 +32394,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 56,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -31147,6 +32587,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 60,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -31269,6 +32724,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": -1910,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": -1,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.57,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -31446,6 +32916,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 61,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.49,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -31568,6 +33053,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 52,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -31690,6 +33190,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 51,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -31810,6 +33325,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 44,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.52,
+      "breed_type": "terrier",
+      "_derived": true
     }
   },
   {
@@ -31988,6 +33518,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 55,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.28,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -32109,6 +33654,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.47,
+      "breed_type": "herding",
+      "_derived": true
     }
   },
   {
@@ -32286,6 +33846,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 52,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.12,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -32371,6 +33946,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 35,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.01,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -32494,6 +34084,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 14,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.8,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -32616,6 +34221,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 51,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.57,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -32737,6 +34357,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 53,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -32857,6 +34492,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 60,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.23,
+      "breed_type": "hound",
+      "_derived": true
     }
   },
   {
@@ -32978,6 +34628,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 48,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.07,
+      "breed_type": "sporting",
+      "_derived": true
     }
   },
   {
@@ -33100,6 +34765,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 56,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.35,
+      "breed_type": "working",
+      "_derived": true
     }
   },
   {
@@ -33221,6 +34901,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 45,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.22,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -33343,6 +35038,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 14,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.9,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -33521,6 +35231,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 65,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.94,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -33700,6 +35425,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 20,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.9,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -33821,6 +35561,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 36,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.06,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -33943,6 +35698,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 66,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 1,
+      "overall_score": 2.04,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -34064,6 +35834,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 52,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.52,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -34186,6 +35971,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 28,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 19100,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.41,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -34309,6 +36109,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 15,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 23250,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 15,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 1,
+      "overall_score": 1.35,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -34485,6 +36300,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 32,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.01,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -34607,6 +36437,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 51,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 18600,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.02,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -34727,6 +36572,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 33,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.06,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -34848,6 +36708,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 19,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 19100,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.85,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -34969,6 +36844,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 54,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.35,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -35090,6 +36980,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 55,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 16960,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 8,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.2,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -35212,6 +37117,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 14,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.85,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -35332,6 +37252,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 56,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.78,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -35455,6 +37390,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 58,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.73,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -35577,6 +37527,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 58,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.73,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -35664,6 +37629,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 16,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.3,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -35841,6 +37821,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 66,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 3.04,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -36017,6 +38012,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 17050,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.3,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -36137,6 +38147,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 53,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.25,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -36258,6 +38283,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 51,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.57,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -36378,6 +38418,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 65,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 26740,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 14,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.49,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -36500,6 +38555,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.27,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -36621,6 +38691,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 54,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.2,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -36744,6 +38829,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 44,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.52,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -36864,6 +38964,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 51,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 19100,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.25,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -37041,6 +39156,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 19,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.8,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -37164,6 +39294,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 19,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.2,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -37285,6 +39430,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 52,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 31800,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 15,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.12,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -37406,6 +39566,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 60,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.68,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -37528,6 +39703,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.3,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -37614,6 +39804,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 61,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.84,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -37734,6 +39939,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 15500,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.25,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -37912,6 +40132,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 35,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 18600,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.91,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -38034,6 +40269,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 54,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.73,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -38156,6 +40406,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 61,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.73,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -38278,6 +40543,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.2,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -38400,6 +40680,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 58,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.73,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -38522,6 +40817,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.52,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -38643,6 +40953,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 30,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.96,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -38765,6 +41090,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 14,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.2,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -38886,6 +41226,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 69,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.94,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -38972,6 +41327,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 16,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.3,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -39093,6 +41463,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 53,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 28650,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 15,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.3,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -39214,6 +41599,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 52,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 19080,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 9,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.2,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -39335,6 +41735,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 46,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.57,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -39455,6 +41870,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 57,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.3,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -39577,6 +42007,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 48,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.57,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -39663,6 +42108,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 15,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.8,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -39748,6 +42208,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.3,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -39869,6 +42344,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 55,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 27560,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.25,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -39991,6 +42481,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 57,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.2,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -40112,6 +42617,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 56,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.2,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -40233,6 +42753,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 55,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.78,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -40354,6 +42889,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 50,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 18600,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.07,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -40476,6 +43026,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 44,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 20150,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.07,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -40562,6 +43127,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 28,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.01,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -40712,6 +43292,21 @@
       "image_gallery_count": 3,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 21,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.85,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -40833,6 +43428,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 53,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 19100,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.25,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -40954,6 +43564,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 54,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 1,
+      "overall_score": 1.93,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -41075,6 +43700,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 57,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 23320,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.2,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -41196,6 +43836,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 52,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.25,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -41317,6 +43972,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 45,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.17,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -41438,6 +44108,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 55,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.2,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -41560,6 +44245,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 28,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.06,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -41682,6 +44382,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 61,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 22920,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.49,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -41803,6 +44518,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 35,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 19100,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.46,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -41925,6 +44655,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 20,
+      "intelligence_pct": "89",
+      "intelligence_label": "Excellent",
+      "lifetime_cost_usd": 21700,
+      "annual_food_cost": 350,
+      "purchase_price_usd": 780,
+      "longevity_years": 14,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 1.8,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -42047,6 +44792,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 53,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.73,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -42167,6 +44927,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 33,
+      "intelligence_pct": "75",
+      "intelligence_label": "Above average",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.01,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -42252,6 +45027,21 @@
       "has_ranking_data": false,
       "has_country_data": false,
       "image_verified": false
+    },
+    "ranking_data": {
+      "intelligence_rank": 45,
+      "intelligence_pct": "60",
+      "intelligence_label": "Average",
+      "lifetime_cost_usd": 21200,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.47,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -42373,6 +45163,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 65,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 21010,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 11,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.59,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -42493,6 +45298,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 56,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 19100,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.25,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -42613,6 +45433,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 64,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 25440,
+      "annual_food_cost": 520,
+      "purchase_price_usd": 870,
+      "longevity_years": 12,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.84,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -42791,6 +45626,21 @@
       "image_gallery_count": 5,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api-gallery"
+    },
+    "ranking_data": {
+      "intelligence_rank": 55,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 24830,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 13,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 2,
+      "overall_score": 2.38,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   },
   {
@@ -42912,6 +45762,21 @@
       "image_gallery_count": 1,
       "image_strategy": "existing_image_fallback",
       "image_source": "dog-ceo-api"
+    },
+    "ranking_data": {
+      "intelligence_rank": 61,
+      "intelligence_pct": "45",
+      "intelligence_label": "Fair",
+      "lifetime_cost_usd": 19100,
+      "annual_food_cost": 440,
+      "purchase_price_usd": 900,
+      "longevity_years": 10,
+      "genetic_ailments": null,
+      "genetic_ailment_names": null,
+      "children_score": 3,
+      "overall_score": 2.89,
+      "breed_type": "non-sporting",
+      "_derived": true
     }
   }
 ]
