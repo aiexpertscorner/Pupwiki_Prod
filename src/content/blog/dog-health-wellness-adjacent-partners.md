@@ -3,8 +3,8 @@ title: "Dog Health, Wellness and Vet-Care Planning - PupWiki Dog Guide"
 seoTitle: "Dog Health, Wellness and Vet-Care Planning - Brands, Services and Dog-Fit Checks"
 displayTitle: "Dog Health, Wellness and Vet-Care Planning"
 description: "Compare dog-focused brands, products and services for dog health, wellness and vet-care planning, with practical checks for current and future dog owners."
-pubDate: 2026-05-16
-updatedDate: 2026-05-16
+pubDate: 2026-05-18
+updatedDate: 2026-05-18
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-health-wellness-adjacent-partners", "health", "wellness", "care", "nutrition", "supplements", "vet", "insurance", "food", "feeding", "fresh-food", "raw-food", "sensitive-stomach", "allergies", "appliances", "freeze-dried", "single-protein", "training", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear", "partner", "gift", "lifestyle", "novelty", "accessories", "dog-names", "fun", "containment", "fence", "gps", "link", "outdoor", "safety", "hydration", "joint-health", "digestion", "senior", "recovery", "beds", "crates", "carriers", "toys", "bowls", "home"]
@@ -22,8 +22,8 @@ claimSensitivity: "high"
 monetizationIntent: "vet-care"
 affiliateDisclosure: true
 medicalDisclaimer: true
-partnerProgramKeys: ["chefpaw", "rawwild", "jugbow", "dog-cloud-us", "mypetdmv-the-original-pet-drivers-license", "radiofence-com", "brutus-broth", "petmate"]
-partnerAdvertiserIds: ["63546", "89689", "79708", "87483", "118951", "87999", "55927", "89913"]
+partnerProgramKeys: ["chefpaw", "rawwild", "jugbow", "dog-cloud-us", "mypetdmv-the-original-pet-drivers-license", "radiofence-com", "brutus-broth", "petmate", "nextrition-pet-us"]
+partnerAdvertiserIds: ["63546", "89689", "79708", "87483", "118951", "87999", "55927", "89913", "113600"]
 canonicalUrl: "https://pupwiki.com/blog/dog-health-wellness-adjacent-partners"
 ---
 > **Reader-support note:** PupWiki may earn from reader-supported links. Brand availability, offers, products and terms can change.
@@ -40,6 +40,7 @@ It is written for people who already have a dog and for people still deciding wh
 - **RadioFence.com** - Pets & Pet Care; product or service details available. Useful to compare for fit, trust, availability, terms and dog-care purpose. [Review RadioFence.com](https://www.awin1.com/awclick.php?mid=87999&id=2861861)
 - **Brutus Broth** - Home & Garden; product or service details available. Useful to compare for fit, trust, availability, terms and dog-care purpose. [Review Brutus Broth](https://www.awin1.com/awclick.php?mid=55927&id=2861861)
 - **Petmate** - Pets & Pet Care; product or service details available. Useful to compare for fit, trust, availability, terms and dog-care purpose. [Review Petmate](https://www.awin1.com/awclick.php?mid=89913&id=2861861)
+- **Nextrition Pet (US)** - Pets & Pet Care; product or service details available. Useful to compare for fit, trust, availability, terms and dog-care purpose. [Review Nextrition Pet (US)](https://www.awin1.com/awclick.php?mid=113600&id=2861861)
 ## Products and service details worth reviewing
 ### Brutus Broth partner offer
   - Visit Brutus Broth for current home & garden offers and availability..
@@ -62,9 +63,9 @@ It is written for people who already have a dog and for people still deciding wh
 ### Petmate partner offer
   - Visit Petmate for current pets & pet care offers and availability..
 [View at Petmate](https://www.awin1.com/awclick.php?mid=89913&id=2861861){rel="nofollow sponsored"}
-### MyPetDMV - The original Pet Drivers License partner offer
-  - Visit MyPetDMV - The original Pet Drivers License for current pets & pet care offers and availability..
-[View at MyPetDMV - The original Pet Drivers License](https://www.awin1.com/awclick.php?mid=118951&id=2861861){rel="nofollow sponsored"}
+### Nextrition Pet (US) partner offer
+  - Visit Nextrition Pet (US) for current pets & pet care offers and availability..
+[View at Nextrition Pet (US)](https://www.awin1.com/awclick.php?mid=113600&id=2861861){rel="nofollow sponsored"}
 ## How to compare these options
 ⚠️ Always consult your vet before adding supplements or making changes to your dog's health routine. This page is for comparison and planning only.
 - Confirm shipping, availability, formula, sizing, subscription terms, return policy or service terms on the partner site.

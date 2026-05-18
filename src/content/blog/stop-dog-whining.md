@@ -20,7 +20,16 @@ monetizationIntent: none
 medicalDisclaimer: false
 affiliateDisclosure: true
 uniqueBlocks: []
+heroImage: "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A French Bulldog on a leash walking with its owner in a park setting."
+imageAlt: "A French Bulldog on a leash walking with its owner in a park setting."
+imageSource: "pexels"
+imageCredit: "Photo by Abhishek  Navlakha on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/"
+imageSearchQuery: "dog owner dog care"
 ---
+
 
 A whining dog can tug at your heartstrings or fray your nerves. While it may seem like attention‑seeking, whining can have various causes—including pain, stress and excitement. Misinterpreting or punishing whining often worsens the behaviour. This guide helps you identify why your dog whines and outlines humane strategies to reduce it.
 

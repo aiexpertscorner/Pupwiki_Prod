@@ -20,7 +20,16 @@ monetizationIntent: training
 medicalDisclaimer: false
 affiliateDisclosure: true
 uniqueBlocks: []
+heroImage: "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "https://images.pexels.com/photos/32442916/pexels-photo-32442916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+heroImageAlt: "A French Bulldog on a leash walking with its owner in a park setting."
+imageAlt: "A French Bulldog on a leash walking with its owner in a park setting."
+imageSource: "pexels"
+imageCredit: "Photo by Abhishek  Navlakha on Pexels"
+imageCreditUrl: "https://www.pexels.com/photo/french-bulldog-walking-outdoors-with-owner-32442916/"
+imageSearchQuery: "dog owner dog care"
 ---
+
 
 Fear aggression occurs when a frightened dog lashes out to create distance from a perceived threat. The dog’s goal is self‑protection—not dominance—and traditional punishment often escalates the behaviour. Understanding the causes, recognising the signs and implementing positive‑reinforcement training can turn fear into confidence.
 
