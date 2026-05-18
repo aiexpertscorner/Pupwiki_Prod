@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-18T21:23:30.051Z",
+  "syncedAt": "2026-05-18T21:56:10.359Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -75,11 +75,11 @@
       "advertiserId": "57823",
       "name": "Crown and Paw",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://www.crownandpaw.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=57823&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/57823.png",
       "primarySector": "Gifts & Flowers",
       "primaryRegion": {
@@ -92,21 +92,8 @@
           "domain": "www.crownandpaw.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 10,
-          "max": 10,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "44",
-        "approvalPercentage": 91.72,
-        "epc": 0.82,
-        "conversionRate": 10.98,
-        "validationDays": 19,
-        "awinIndex": 78.69
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": "crownandpaw",
       "feedId": "103192",
@@ -141,11 +128,11 @@
       "advertiserId": "63546",
       "name": "Chef Paw (US)",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://www.chefpaw.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=63546&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/63546.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -161,22 +148,9 @@
           "domain": "*.chefpaw.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 8,
-          "max": 10,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "25",
-        "approvalPercentage": 75.27,
-        "epc": 1.91,
-        "conversionRate": 7.7,
-        "validationDays": 1,
-        "awinIndex": 81.1
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
       "staticProgramId": "chefpaw",
       "feedId": "93508",
       "configuredDeeplink": "https://tidd.ly/41TPa44",
@@ -214,11 +188,11 @@
       "advertiserId": "79708",
       "name": "JUGBOW",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://JUGBOW.COM",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=79708&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/79708.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -231,21 +205,8 @@
           "domain": "JUGBOW.COM"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 8,
-          "max": 8,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "48",
-        "approvalPercentage": 97.73,
-        "epc": 0.24,
-        "conversionRate": 5.57,
-        "validationDays": 21,
-        "awinIndex": 75.57
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": "jugbow",
       "feedId": "108549",
@@ -437,13 +398,13 @@
       "commissionRange": [
         {
           "min": 0,
-          "max": 8,
-          "type": "percentage"
+          "max": 0,
+          "type": "amount"
         },
         {
           "min": 0,
-          "max": 0,
-          "type": "amount"
+          "max": 8,
+          "type": "percentage"
         }
       ],
       "kpi": {
@@ -1300,11 +1261,11 @@
       "advertiserId": "111784",
       "name": "peaksNpaws",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.peaksnpaws.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111784&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111784.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -1317,15 +1278,8 @@
           "domain": "www.peaksnpaws.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "73",
-        "approvalPercentage": 100,
-        "epc": 0.83,
-        "conversionRate": 5.35,
-        "validationDays": 50,
-        "awinIndex": 57.1
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1355,11 +1309,11 @@
       "advertiserId": "119433",
       "name": "Fetch Happy Store (US)",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://fetchhappystore.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=119433&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/119433.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1375,16 +1329,9 @@
           "domain": "*.fetchhappystore.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "26",
-        "approvalPercentage": 100,
-        "epc": 0.89,
-        "conversionRate": 31.25,
-        "validationDays": 4,
-        "awinIndex": 92.42
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1412,11 +1359,11 @@
       "advertiserId": "120007",
       "name": "Pupford US",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://pupford.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120007&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120007.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1432,16 +1379,9 @@
           "domain": "*.pupford.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "27",
-        "approvalPercentage": 100,
-        "epc": 0.07,
-        "conversionRate": 13.36,
-        "validationDays": 7,
-        "awinIndex": 90.34
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1619,7 +1559,7 @@
       "advertiserId": "57823",
       "name": "Crown and Paw",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": true,
       "feedIds": [
@@ -1629,7 +1569,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/57823.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=57823&id=2861861",
       "topicTags": [
@@ -1647,7 +1587,7 @@
       "advertiserId": "63546",
       "name": "Chef Paw (US)",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": true,
       "feedIds": [
@@ -1658,7 +1598,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/63546.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=63546&id=2861861",
       "topicTags": [
@@ -1678,7 +1618,7 @@
       "advertiserId": "79708",
       "name": "JUGBOW",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": true,
       "feedIds": [
@@ -1688,7 +1628,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/79708.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=79708&id=2861861",
       "topicTags": [
@@ -2108,7 +2048,7 @@
       "advertiserId": "111784",
       "name": "peaksNpaws",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2116,7 +2056,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111784.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111784&id=2861861",
       "topicTags": [
@@ -2131,7 +2071,7 @@
       "advertiserId": "119433",
       "name": "Fetch Happy Store (US)",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2139,7 +2079,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/119433.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=119433&id=2861861",
       "topicTags": [
@@ -2153,7 +2093,7 @@
       "advertiserId": "120007",
       "name": "Pupford US",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2161,7 +2101,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120007.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120007&id=2861861",
       "topicTags": [
@@ -2233,8 +2173,37 @@
     "feedProductFetchFailures": 3,
     "experimentalCreativesEnabled": false,
     "warnings": [
+      "programmedetails/57823 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/57823 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/57823 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/57823 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/63546 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/79708 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/79708 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/79708 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/79708 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/87483 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/87483 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/120960 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/120960 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/120960 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "feed/101913 returned no parseable products. Response preview: \u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000�ė�k�0\u0010���W\u0018?�\u0016dǲ%�\u001e��n�i��v�A���Ŀ��e��'�I�\u0004\u0012rS�B ��;I\u001f�r�͹�ӹ\u0010���Q%�l�ky4�y%\u0010�Lۮ�י~�f�\u0010��,��0)*�\u0010�uW\u000e\u0013�\\W3=ɸ\u0014��{\u001dL�c�n��Z�8\u000e����\u0007\u001b�� ���\u0005WϔE���b�ڊO8�)�\u0010�\u0011 \u0002�>���+d���/!����w.\"\u0018'! ��$h)e��L6���7E����&mV\u0016��o����`� �\u000f\u0013��������a���=N/�?B;�\u001b��_\u0014s���\u0013\u0004��\u0004�\u0014GQ\u0010#�A���$��\u0015��f��h��y�U[ ��2��歐㥶{Mfʇ�i",
-      "feed/101913 -> HTTP 415 — {\"timestamp\":\"2026-05-18T21:23:29.569158657Z\",\"path\":\"/datafeed/download/apikey/e466e47be4dadeca127cf45dc6969055/language/en/fid/101913/columns/aw_product_id%2Cmerchant_product_id%2Cproduct_name%2Cdes",
+      "feed/101913 -> HTTP 400 — \n<h1>Error</h1>\n\n\t<h2>Invalid parameters, see instructions</h2>\n\n\n",
       "feed/101913 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/101913\\/download\\\"\"}",
       "feed/101913 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/101913\\/download\\\"\"}",
       "No product rows could be imported from feed 101913 (Nextrition Pet (US))"
