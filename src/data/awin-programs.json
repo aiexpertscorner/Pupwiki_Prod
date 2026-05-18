@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-18T06:51:03.073Z",
+  "syncedAt": "2026-05-18T21:23:30.051Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -437,13 +437,13 @@
       "commissionRange": [
         {
           "min": 0,
-          "max": 0,
-          "type": "amount"
+          "max": 8,
+          "type": "percentage"
         },
         {
           "min": 0,
-          "max": 8,
-          "type": "percentage"
+          "max": 0,
+          "type": "amount"
         }
       ],
       "kpi": {
@@ -1132,11 +1132,11 @@
       "advertiserId": "98349",
       "name": "Impact Dog Crates",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.impactdogcrates.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=98349&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/98349.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1149,8 +1149,15 @@
           "domain": "www.impactdogcrates.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "68",
+        "approvalPercentage": 100,
+        "epc": 0.57,
+        "conversionRate": 0.8,
+        "validationDays": 45,
+        "awinIndex": 55.86
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1179,11 +1186,11 @@
       "advertiserId": "106409",
       "name": "Wuffes.com",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://wuffes.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=106409&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/106409.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1199,9 +1206,16 @@
           "domain": "*.wuffes.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "72",
+        "approvalPercentage": 100,
+        "epc": 3.89,
+        "conversionRate": 24.09,
+        "validationDays": 31,
+        "awinIndex": 74.72
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1228,11 +1242,11 @@
       "advertiserId": "111234",
       "name": "PetLink (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://store.petlink.net/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111234&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111234.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1251,9 +1265,16 @@
           "domain": "store.petlink.net"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "76",
+        "approvalPercentage": 100,
+        "epc": 0.06,
+        "conversionRate": 1.52,
+        "validationDays": 30,
+        "awinIndex": 66.52
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -2024,7 +2045,7 @@
       "advertiserId": "98349",
       "name": "Impact Dog Crates",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2032,7 +2053,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/98349.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=98349&id=2861861",
       "topicTags": [
@@ -2046,7 +2067,7 @@
       "advertiserId": "106409",
       "name": "Wuffes.com",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2054,7 +2075,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/106409.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=106409&id=2861861",
       "topicTags": [
@@ -2067,7 +2088,7 @@
       "advertiserId": "111234",
       "name": "PetLink (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2075,7 +2096,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111234.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111234&id=2861861",
       "topicTags": [
@@ -2199,7 +2220,7 @@
   "stats": {
     "joined": 10,
     "pending": 16,
-    "feeds": 599,
+    "feeds": 598,
     "apiProducts": 0,
     "programOfferProducts": 10,
     "totalProducts": 10,
@@ -2212,22 +2233,8 @@
     "feedProductFetchFailures": 3,
     "experimentalCreativesEnabled": false,
     "warnings": [
-      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "feed/101913 returned no parseable products. Response preview: \u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000�ė�k�0\u0010���W\u0018?�\u0016dǲ%�\u001e��n�i��v�A���Ŀ��e��'�I�\u0004\u0012rS�B ��;I\u001f�r�͹�ӹ\u0010���Q%�l�ky4�y%\u0010�Lۮ�י~�f�\u0010��,��0)*�\u0010�uW\u000e\u0013�\\W3=ɸ\u0014��{\u001dL�c�n��Z�8\u000e����\u0007\u001b�� ���\u0005WϔE���b�ڊO8�)�\u0010�\u0011 \u0002�>���+d���/!����w.\"\u0018'! ��$h)e��L6���7E����&mV\u0016��o����`� �\u000f\u0013��������a���=N/�?B;�\u001b��_\u0014s���\u0013\u0004��\u0004�\u0014GQ\u0010#�A���$��\u0015��f��h��y�U[ ��2��歐㥶{Mfʇ�i",
-      "feed/101913 -> HTTP 415 — {\"timestamp\":\"2026-05-18T06:51:02.451320558Z\",\"path\":\"/datafeed/download/apikey/e466e47be4dadeca127cf45dc6969055/language/en/fid/101913/columns/aw_product_id%2Cmerchant_product_id%2Cproduct_name%2Cdes",
+      "feed/101913 -> HTTP 415 — {\"timestamp\":\"2026-05-18T21:23:29.569158657Z\",\"path\":\"/datafeed/download/apikey/e466e47be4dadeca127cf45dc6969055/language/en/fid/101913/columns/aw_product_id%2Cmerchant_product_id%2Cproduct_name%2Cdes",
       "feed/101913 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/101913\\/download\\\"\"}",
       "feed/101913 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/101913\\/download\\\"\"}",
       "No product rows could be imported from feed 101913 (Nextrition Pet (US))"

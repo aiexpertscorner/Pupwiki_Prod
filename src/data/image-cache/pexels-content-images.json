@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-17T02:57:57.088Z",
+  "syncedAt": "2026-05-18T21:23:10.541Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -18288,12 +18288,28 @@
       "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
       "pexelsUrl": "https://www.pexels.com/photo/person-holding-a-brown-short-coated-dog-7469220/",
       "id": 7469220
+    },
+    "dog-insurance-and-vet-planning:dog owner comparing dog care": {
+      "url": "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/",
+      "id": 5483258
+    },
+    "puppy-essentials-partners:dog owner comparing dog care": {
+      "url": "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner.",
+      "photographer": "Bethany Ferr",
+      "photographerUrl": "https://www.pexels.com/@bethany-ferr",
+      "pexelsUrl": "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/",
+      "id": 5483258
     }
   },
   "stats": {
-    "scanned": 155,
-    "changed": 155,
-    "skipped": 2551,
+    "scanned": 9,
+    "changed": 9,
+    "skipped": 474,
     "failed": 0,
     "force": false,
     "dry": false
