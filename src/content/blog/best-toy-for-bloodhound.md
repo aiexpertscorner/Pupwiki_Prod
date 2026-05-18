@@ -9,6 +9,7 @@ breedSlug: "bloodhound"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "A black dog playing with various colorful toys on a wooden floor indoors."

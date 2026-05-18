@@ -9,6 +9,7 @@ breedSlug: "english-springer-spaniel"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/29506737/pexels-photo-29506737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/29506737/pexels-photo-29506737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Springer Spaniel dog playing in a snow-covered park on a winter day."

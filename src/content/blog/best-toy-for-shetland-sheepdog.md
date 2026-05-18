@@ -9,6 +9,7 @@ breedSlug: "shetland-sheepdog"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/28895800/pexels-photo-28895800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/28895800/pexels-photo-28895800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Shetland Sheepdog enjoying the outdoors, playing with falling leaves in a green field."

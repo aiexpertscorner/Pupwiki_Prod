@@ -9,6 +9,7 @@ breedSlug: "great-dane"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/103540/pexels-photo-103540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/103540/pexels-photo-103540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Great Dane dog lying on grass in a sunny park with backpacks in the background."

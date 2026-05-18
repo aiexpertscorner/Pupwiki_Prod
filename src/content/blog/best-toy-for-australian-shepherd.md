@@ -9,6 +9,7 @@ breedSlug: "australian-shepherd"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/14796677/pexels-photo-14796677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/14796677/pexels-photo-14796677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "A close-up of an Australian Shepherd dog with a blue ball in the snowy outdoors, showcasing its playful nature."

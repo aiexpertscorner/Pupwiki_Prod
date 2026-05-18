@@ -9,6 +9,7 @@ breedSlug: "cocker-spaniel"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/32812824/pexels-photo-32812824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/32812824/pexels-photo-32812824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Playful Cocker Spaniel dog sitting on grass with a toy, enjoying a sunny day outdoors"

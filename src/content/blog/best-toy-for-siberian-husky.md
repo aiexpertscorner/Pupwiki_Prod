@@ -9,6 +9,7 @@ breedSlug: "siberian-husky"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/35055371/pexels-photo-35055371.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/35055371/pexels-photo-35055371.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Energetic husky dog playing with red toy on a grassy field outdoors."

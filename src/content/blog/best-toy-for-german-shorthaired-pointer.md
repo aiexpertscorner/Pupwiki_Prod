@@ -9,6 +9,7 @@ breedSlug: "german-shorthaired-pointer"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/9649470/pexels-photo-9649470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/9649470/pexels-photo-9649470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Energetic German Shorthaired Pointer dog playing fetch with a stick in a grassy backyard."

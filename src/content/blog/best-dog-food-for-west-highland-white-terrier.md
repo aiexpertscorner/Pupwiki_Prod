@@ -18,6 +18,7 @@ imageSearchQuery: "West Highland White Terrier dog eating healthy food"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 ---
 
 West Highland White Terriers have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 15–20 lbs, regular exercise energy, seasonal shedding, and loyal, happy, entertaining temperament.

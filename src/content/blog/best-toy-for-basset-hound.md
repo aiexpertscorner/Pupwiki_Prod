@@ -9,6 +9,7 @@ breedSlug: "basset-hound"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/13928695/pexels-photo-13928695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/13928695/pexels-photo-13928695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Cute bobblehead of a dog figurine placed on a car dashboard, perfect for pet lovers."

@@ -9,6 +9,7 @@ breedSlug: "maltese"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/20233073/pexels-photo-20233073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/20233073/pexels-photo-20233073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Cute Shih Tzu dog lying on a tiled floor, playing with a plush teddy bear toy indoors."

@@ -9,6 +9,7 @@ author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-insurance-and-vet-planning", "insurance", "vet", "health-plan", "wellness-plan", "pet-insurance", "telehealth", "emergency-vet"]
 postType: "comparison"
+schemaType: Article
 contentTier: "money"
 cluster: "dog-insurance-and-vet-planning"
 productFamilies: ["insurance", "vet", "health-plan", "wellness-plan", "pet-insurance", "telehealth", "emergency-vet"]

@@ -1,5 +1,4 @@
 ---
-import AwinProductSlot from '../affiliate/AwinProductSlot.astro';
 import type { CategoryLink, CategoryMeta } from '../../lib/categories/categoryConfig';
 
 export interface Props {
@@ -9,17 +8,17 @@ export interface Props {
   tags: string[];
 }
 
-const { meta, categorySlug, links, tags } = Astro.props;
+const { meta, links } = Astro.props;
 ---
 
 <section id="owner-resources" class="category-hub__section category-hub__section--soft">
   <div class="category-hub__container">
     <div class="category-hub__section-header">
-      <p class="category-hub__eyebrow">Owner resources</p>
-      <h2>Plan smarter around {meta.title.toLowerCase()}</h2>
+      <p class="category-hub__eyebrow">Planning resources</p>
+      <h2>Research tools for {meta.title.toLowerCase()} decisions</h2>
       <p>
-        Use these internal resources to move from broad research to breed-specific decisions,
-        care planning and high-intent next steps.
+        Use these tools and guides to move from broad {meta.title.toLowerCase()} research
+        to breed-specific decisions and confident ownership planning.
       </p>
     </div>
 
@@ -34,24 +33,5 @@ const { meta, categorySlug, links, tags } = Astro.props;
         ))}
       </div>
     )}
-
-    <div class="category-hub__secondary-partner">
-      <div>
-        <p class="category-hub__eyebrow">Matched partner pick</p>
-        <h3>More resources for {meta.title.toLowerCase()}</h3>
-        <p>
-          A second contextual slot helps surface a different partner resource when available,
-          without relying on static Amazon product grids.
-        </p>
-      </div>
-
-      <AwinProductSlot
-        topicTags={tags}
-        pageType="category"
-        category={categorySlug}
-        variant="compact"
-        headline={`${meta.shortTitle} partner resource`}
-      />
-    </div>
   </div>
 </section>

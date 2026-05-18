@@ -57,8 +57,8 @@ if (!isCategorySlug(categorySlug)) return Astro.redirect('/categories');
 const meta = getCategoryMeta(categorySlug)!;
 const allPosts = await getCollection('blog');
 const catPosts = getCategoryPosts(allPosts as any, categorySlug, meta);
-const featuredPosts = catPosts.slice(0, 6);
-const supportingPosts = catPosts.slice(6, 12);
+const featuredPosts = catPosts.slice(0, 9);
+const supportingPosts = catPosts.slice(9, 21);
 
 const allBreedRecords = [...(masterBreeds as any[]), ...(masterCrossbreeds as any[])];
 
@@ -111,17 +111,6 @@ const itemListLd = buildItemListLd({
       hasBreedGuides={featuredBreedGuides.length > 0}
     />
 
-    <CategoryPartnerBlock
-      meta={meta}
-      categorySlug={categorySlug}
-      tags={awinTags.primary}
-    />
-
-    <CategoryAmazonBlock
-      meta={meta}
-      categorySlug={categorySlug}
-    />
-
     {breedChips.length >= 3 && (
       <section class="category-hub__strip" aria-label={`${meta.title} breed shortcuts`}>
         <div class="category-hub__container">
@@ -129,7 +118,6 @@ const itemListLd = buildItemListLd({
             <p>{meta.title} by breed</p>
             <a href="/breeds">All breeds →</a>
           </div>
-
           <div class="category-hub__chip-row">
             {breedChips.map((breed) => (
               <a href={breed.href}>{breed.name}</a>
@@ -159,6 +147,17 @@ const itemListLd = buildItemListLd({
         totalCount={catPosts.length}
       />
     )}
+
+    <CategoryPartnerBlock
+      meta={meta}
+      categorySlug={categorySlug}
+      tags={awinTags.primary}
+    />
+
+    <CategoryAmazonBlock
+      meta={meta}
+      categorySlug={categorySlug}
+    />
 
     <CategoryRelatedTopics
       meta={meta}

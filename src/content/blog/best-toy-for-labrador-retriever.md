@@ -9,6 +9,7 @@ breedSlug: "labrador-retriever"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/20436462/pexels-photo-20436462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/20436462/pexels-photo-20436462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "A cute golden retriever dog sitting by a brick wall holding a plush toy in its mouth."

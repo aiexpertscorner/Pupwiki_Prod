@@ -9,6 +9,7 @@ author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-training-gear-safety-partners", "training", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear", "safety", "fence", "containment", "gps", "link", "outdoor", "beds", "crates", "carriers", "toys", "bowls", "accessories", "home"]
 postType: "comparison"
+schemaType: Article
 contentTier: "money"
 cluster: "dog-training-gear-safety-partners"
 productFamilies: ["training", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear", "safety", "fence"]

@@ -9,6 +9,7 @@ breedSlug: "akita"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/5745213/pexels-photo-5745213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5745213/pexels-photo-5745213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "From above of crop anonymous young bearded black guy sitting on wooden floor and playing with adorable Akita dog"
