@@ -9,6 +9,7 @@ author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-health-wellness-adjacent-partners", "health", "wellness", "care", "nutrition", "supplements", "vet", "insurance", "food", "feeding", "fresh-food", "raw-food", "sensitive-stomach", "allergies", "appliances", "freeze-dried", "single-protein", "training", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear", "partner", "gift", "lifestyle", "novelty", "accessories", "dog-names", "fun", "containment", "fence", "gps", "link", "outdoor", "safety", "hydration", "joint-health", "digestion", "senior", "recovery", "beds", "crates", "carriers", "toys", "bowls", "home"]
 postType: "comparison"
+schemaType: Article
 contentTier: "money"
 cluster: "dog-health-wellness-adjacent-partners"
 productFamilies: ["health", "wellness", "care", "nutrition", "supplements", "vet", "insurance"]

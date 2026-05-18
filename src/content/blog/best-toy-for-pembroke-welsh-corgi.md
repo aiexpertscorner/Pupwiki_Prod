@@ -9,6 +9,7 @@ breedSlug: "pembroke-welsh-corgi"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/30683805/pexels-photo-30683805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/30683805/pexels-photo-30683805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Adorable Corgi dog wearing a fantasy costume with a toy weapon, enjoying outdoor playtime."

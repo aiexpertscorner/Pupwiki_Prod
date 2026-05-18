@@ -9,6 +9,7 @@ breedSlug: "dachshund"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/29081525/pexels-photo-29081525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/29081525/pexels-photo-29081525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "A dachshund playing with a larger black and white dog on a grassy field."

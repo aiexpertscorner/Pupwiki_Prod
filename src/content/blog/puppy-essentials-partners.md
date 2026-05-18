@@ -9,6 +9,7 @@ author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["puppy-essentials-partners", "puppy", "puppy-food", "puppy-training", "puppy-supplies", "new-dog", "crate-training", "socialization"]
 postType: "comparison"
+schemaType: Article
 contentTier: "money"
 cluster: "puppy-essentials-partners"
 productFamilies: ["puppy", "puppy-food", "puppy-training", "puppy-supplies", "new-dog", "crate-training", "socialization"]

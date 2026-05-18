@@ -12,7 +12,7 @@ tags:
 postType: product-roundup
 schemaType: Article
 contentTier: editorial
-indexInBlog: true
+indexInBlog: false
 generated: false
 reviewMethod: editorial-research
 claimSensitivity: high

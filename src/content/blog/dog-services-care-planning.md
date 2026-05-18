@@ -9,6 +9,7 @@ author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-services-care-planning", "service", "services", "vet", "telehealth", "grooming", "training", "boarding", "walking", "daycare", "insurance", "subscription", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear", "containment", "fence", "gps", "link", "outdoor", "safety"]
 postType: "comparison"
+schemaType: Article
 contentTier: "money"
 cluster: "dog-services-care-planning"
 productFamilies: ["service", "services", "vet", "telehealth", "grooming", "training", "boarding", "walking", "daycare", "insurance", "subscription"]

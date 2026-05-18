@@ -18,6 +18,7 @@ imageSearchQuery: "Cavalier King Charles Spaniel dog eating healthy food"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 ---
 
 Cavalier King Charles Spaniels have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 13–18 lbs, calm energy, occasional shedding, and affectionate, gentle, graceful temperament.

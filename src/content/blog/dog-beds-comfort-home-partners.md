@@ -9,6 +9,7 @@ author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-beds-comfort-home-partners", "beds", "bed", "comfort", "home", "sleep", "orthopedic", "senior-dog", "training", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear", "partner", "food", "nutrition", "supplements", "hydration", "joint-health", "digestion", "senior", "recovery", "crates", "carriers", "toys", "bowls", "accessories"]
 postType: "comparison"
+schemaType: Article
 contentTier: "money"
 cluster: "dog-beds-comfort-home-partners"
 productFamilies: ["beds", "bed", "comfort", "home", "sleep", "orthopedic", "senior-dog"]

@@ -18,6 +18,7 @@ imageSearchQuery: "Weimaraner dog eating healthy food"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 ---
 
 Weimaraners have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 55–90 lbs, needs lots of activity energy, seasonal shedding, and friendly, fearless, obedient temperament.

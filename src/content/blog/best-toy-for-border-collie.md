@@ -9,6 +9,7 @@ breedSlug: "border-collie"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/6735801/pexels-photo-6735801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/6735801/pexels-photo-6735801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Adorable border collie dog running with a blue toy outdoors in a sunny park."

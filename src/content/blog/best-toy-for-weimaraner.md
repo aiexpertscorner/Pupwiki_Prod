@@ -9,6 +9,7 @@ breedSlug: "weimaraner"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/5705545/pexels-photo-5705545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5705545/pexels-photo-5705545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Weimaraner and Terrier dogs playing on a grassy field surrounded by autumn foliage."

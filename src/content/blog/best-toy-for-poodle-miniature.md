@@ -9,6 +9,7 @@ breedSlug: "poodle-miniature"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/20780562/pexels-photo-20780562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/20780562/pexels-photo-20780562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Young girl in a yellow outfit playing with her poodle dog in a sunny park setting."

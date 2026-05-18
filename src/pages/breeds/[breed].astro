@@ -351,6 +351,14 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
           <span>{b.name}</span>
         </nav>
 
+        {imageUrls.length > 2 && (
+          <div class="breed-gallery-strip" aria-label={`${b.name} photos`}>
+            {imageUrls.slice(1, 5).map((url: string, i: number) => (
+              <img src={url} alt={`${b.name} photo ${i + 2}`} loading="lazy" width="180" height="180" />
+            ))}
+          </div>
+        )}
+
         <div class="breed-hero__grid">
           <BreedImage breed={b} width={640} height={640} priority={true} showGallery={true} variant="hero" class="breed-hero__image" />
 
@@ -523,7 +531,14 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
 
           {enrichmentData?.careProfile && <section class="breed-section" aria-label={`${b.name} care profile`}><BreedCareProfile breedName={b.name} careProfile={enrichmentData.careProfile} /></section>}
 
-          <section id="breed-guides" class="breed-section" aria-labelledby="all-guides-title"><div class="breed-section__header"><p class="breed-eyebrow">Related guides</p><h2 id="all-guides-title">All {b.name} Guides</h2></div><a href={COST_CALC_HREF} class="breed-feature-link"><span aria-hidden="true">💰</span><div><strong>{b.name} Cost Calculator</strong><p>Puppy price, annual costs, food estimate, and lifetime ownership planning.</p></div><em aria-hidden="true">→</em></a><div class="breed-guide-grid">{CLUSTER_LINKS.map((item) => status[item.key] && item.href ? <a href={item.href} class="breed-guide-link"><span>{item.emoji}</span><strong>{item.label}</strong><em aria-hidden="true">→</em></a> : <div class="breed-guide-link is-disabled"><span>{item.emoji}</span><strong>{item.label}</strong></div>)}</div></section>
+          <section id="breed-guides" class="breed-section" aria-labelledby="all-guides-title"><div class="breed-section__header"><p class="breed-eyebrow">Related guides</p><h2 id="all-guides-title">All {b.name} Guides</h2></div><a href={COST_CALC_HREF} class="breed-feature-link"><span aria-hidden="true">💰</span><div><strong>{b.name} Cost Calculator</strong><p>Puppy price, annual costs, food estimate, and lifetime ownership planning.</p></div><em aria-hidden="true">→</em></a><div class="breed-guide-grid">{CLUSTER_LINKS.map((item) => status[item.key] && item.href ? <a href={item.href} class="breed-guide-link"><span>{item.emoji}</span><strong>{item.label}</strong><em aria-hidden="true">→</em></a> : <div class="breed-guide-link is-disabled"><span>{item.emoji}</span><strong>{item.label}</strong></div>)}</div>
+            {b.name_inspirations?.length > 0 && links.names_page && (
+              <div class="breed-naming-hint">
+                <strong>Naming styles:</strong> {(b.name_inspirations as string[]).slice(0, 3).join(' · ')}
+                <a href={links.names_page}>Find {b.name} names →</a>
+              </div>
+            )}
+          </section>
 
           <div id="breed-products">
             <BreedCommerceSuite breedName={b.name} breedSlug={slug} breedSize={b.size_category} breedEnergy={b.energy_level} breedTraining={b.training_level} breedCoat={b.coat_type} topicTags={awinBaseTags} partnerClusters={partnerClusterLinks} />

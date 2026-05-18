@@ -9,6 +9,7 @@ breedSlug: "chihuahua"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/5942487/pexels-photo-5942487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5942487/pexels-photo-5942487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Small dog playing with a plush toy in a modern living room with a leather sofa."

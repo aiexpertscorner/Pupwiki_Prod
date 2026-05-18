@@ -9,6 +9,7 @@ breedSlug: "portuguese-water-dog"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/5482871/pexels-photo-5482871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5482871/pexels-photo-5482871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "A man holding a red spiky toy while playing fetch with a dog near a pool."

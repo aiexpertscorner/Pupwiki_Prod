@@ -9,6 +9,7 @@ breedSlug: "cane-corso"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/13154823/pexels-photo-13154823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/13154823/pexels-photo-13154823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "A brindle dog playing with a colorful ball on grass under palm leaves."

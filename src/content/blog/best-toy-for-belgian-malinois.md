@@ -9,6 +9,7 @@ breedSlug: "belgian-malinois"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/7210318/pexels-photo-7210318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/7210318/pexels-photo-7210318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Dog with brown and black wet fur playing with buoy over pool with pure water while looking forward"

@@ -9,6 +9,7 @@ author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["personalized-dog-gifts-lifestyle-partners", "gift", "lifestyle", "portrait", "memorial", "dog-names", "apparel", "accessories", "id", "license", "novelty", "fun", "beds", "gear", "crates", "carriers", "toys", "bowls", "home"]
 postType: "comparison"
+schemaType: Article
 contentTier: "money"
 cluster: "personalized-dog-gifts-lifestyle-partners"
 productFamilies: ["gift", "lifestyle", "portrait", "memorial", "dog-names", "apparel", "accessories", "id", "license"]

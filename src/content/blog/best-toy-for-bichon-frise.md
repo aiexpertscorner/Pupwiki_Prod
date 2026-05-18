@@ -9,6 +9,7 @@ breedSlug: "bichon-frise"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/37130279/pexels-photo-37130279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/37130279/pexels-photo-37130279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "A cheerful white dog energetically runs across a sunlit green lawn in Canonsburg, Pennsylvania."

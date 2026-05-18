@@ -18,6 +18,7 @@ imageSearchQuery: "Brittany dog eating healthy food"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 ---
 
 Brittanys have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 30–40 lbs, needs lots of activity energy, seasonal shedding, and bright, fun-loving, upbeat temperament.

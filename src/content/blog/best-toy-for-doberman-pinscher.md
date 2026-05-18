@@ -9,6 +9,7 @@ breedSlug: "doberman-pinscher"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/32617320/pexels-photo-32617320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/32617320/pexels-photo-32617320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "A Doberman dog energetically runs through a shallow stream in a natural setting."

@@ -9,6 +9,7 @@ breedSlug: "havanese"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/19449515/pexels-photo-19449515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/19449515/pexels-photo-19449515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Cute dog with a fluffy coat playing with a plush toy indoors, showcasing fun and playful behavior."

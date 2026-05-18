@@ -9,6 +9,7 @@ breedSlug: "newfoundland"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/12703103/pexels-photo-12703103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/12703103/pexels-photo-12703103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Two friendly dogs playing together on outdoor pavement in France."

@@ -18,6 +18,7 @@ imageSearchQuery: "Border Collie dog eating healthy food"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 ---
 
 Border Collies have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 30–55 lbs, needs lots of activity energy, seasonal shedding, and affectionate, smart, energetic temperament.

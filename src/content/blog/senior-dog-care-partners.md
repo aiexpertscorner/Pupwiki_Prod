@@ -9,6 +9,7 @@ author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["senior-dog-care-partners", "senior", "senior-dog", "senior-dogs", "joint-health", "senior-food", "aging", "geriatric", "mobility", "food", "nutrition", "supplements", "hydration", "digestion", "recovery"]
 postType: "comparison"
+schemaType: Article
 contentTier: "money"
 cluster: "senior-dog-care-partners"
 productFamilies: ["senior", "senior-dog", "senior-dogs", "joint-health", "senior-food", "aging", "geriatric", "mobility"]

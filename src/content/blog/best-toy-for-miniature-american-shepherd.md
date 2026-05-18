@@ -9,6 +9,7 @@ breedSlug: "miniature-american-shepherd"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 heroImage: "https://images.pexels.com/photos/5942479/pexels-photo-5942479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5942479/pexels-photo-5942479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Cute small dog playing with a plush toy on a warm leather sofa in a cozy indoor setting."

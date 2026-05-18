@@ -9,6 +9,7 @@ author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-food-nutrition-partners", "food", "nutrition", "feeding", "fresh-food", "raw-food", "sensitive-stomach", "broth", "allergies", "appliances", "care", "freeze-dried", "single-protein", "supplements", "hydration", "joint-health", "digestion", "senior", "recovery", "partner", "health"]
 postType: "comparison"
+schemaType: Article
 contentTier: "money"
 cluster: "dog-food-nutrition-partners"
 productFamilies: ["food", "nutrition", "feeding", "fresh-food", "raw-food", "sensitive-stomach", "broth", "allergies", "appliances"]

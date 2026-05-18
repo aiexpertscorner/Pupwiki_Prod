@@ -17,6 +17,7 @@ imageSearchQuery: "dog grooming"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 ---
 
 Dogs with sensitive skin are a grooming challenge. The wrong shampoo strips natural oils, triggers flare-ups, and leaves your dog scratching for days after a bath. The right shampoo cleans effectively, maintains the skin barrier, and doesn't contain the fragrances or surfactants that irritate sensitive skin.

@@ -17,6 +17,7 @@ imageSearchQuery: "dog toys"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
 postType: "general"
+schemaType: Article
 ---
 
 Fetch is the single most efficient exercise activity for high-energy dogs. Ten minutes of fetch burns more energy than 30 minutes of walking — the sprinting, turning, and biting engage fast-twitch muscle groups that walking doesn't. For owners with Labradors, Border Collies, Vizslas, Weimaraners, or other high-drive breeds, a great fetch toy is essential equipment.
