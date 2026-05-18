@@ -21,8 +21,6 @@ import BreedImage from '../../components/breed/BreedImage.astro';
 import BreedDecisionSnapshot from '../../components/breed/BreedDecisionSnapshot.astro';
 import BreedResourceHub from '../../components/breed/BreedResourceHub.astro';
 import BreedCommerceSuite from '../../components/breed/BreedCommerceSuite.astro';
-import PageBannerSlot from '../../components/affiliate/PageBannerSlot.astro';
-import AwinProductSlot from '../../components/affiliate/AwinProductSlot.astro';
 import BreedCareProfile from '../../components/enrichment/BreedCareProfile.astro';
 
 import {
@@ -406,9 +404,9 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
         <div class="breed-page-nav__links">
           <a href="#breed-overview" class="breed-page-nav__link">Overview</a>
           {b.description && <a href="#breed-about" class="breed-page-nav__link">About</a>}
+          {b.care_tips?.length > 0 && <a href="#breed-care" class="breed-page-nav__link">Care</a>}
           <a href="#breed-traits" class="breed-page-nav__link">Traits</a>
           <a href="#breed-health" class="breed-page-nav__link">Health</a>
-          <a href="#breed-products" class="breed-page-nav__link">Products</a>
           <a href="#breed-guides" class="breed-page-nav__link">Guides</a>
         </div>
       </div>
@@ -420,10 +418,6 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
       <div id="breed-resources">
         <BreedResourceHub breedName={b.name} items={resourceItems} />
       </div>
-    </div>
-
-    <div id="breed-products">
-      <BreedCommerceSuite breedName={b.name} breedSlug={slug} breedSize={b.size_category} breedEnergy={b.energy_level} breedTraining={b.training_level} breedCoat={b.coat_type} topicTags={awinBaseTags} partnerClusters={partnerClusterLinks} />
     </div>
 
     <div class="breed-container" aria-hidden="true">
@@ -521,7 +515,7 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
 
           {healthProfile && <a href={COST_CALC_HREF} class="breed-cost-link"><div><strong>{healthProfile.common_issues?.[0]?.name ?? 'Health considerations'}</strong><p>Breed health context can affect lifetime costs. Estimate food, care, and planning costs for a {b.name}.</p></div><span aria-hidden="true">💰</span></a>}
 
-          {b.care_tips?.length > 0 && <section class="breed-section" aria-labelledby="care-title"><div class="breed-section__header"><p class="breed-eyebrow">Care basics</p><h2 id="care-title">{b.name} Care Tips</h2></div><div class="breed-tip-list">{b.care_tips.map((tip: string) => <article><span aria-hidden="true">✓</span><p>{tip}</p></article>)}</div></section>}
+          {b.care_tips?.length > 0 && <section id="breed-care" class="breed-section" aria-labelledby="care-title"><div class="breed-section__header"><p class="breed-eyebrow">Care basics</p><h2 id="care-title">{b.name} Care Tips</h2></div><div class="breed-tip-list">{b.care_tips.map((tip: string) => <article><span aria-hidden="true">✓</span><p>{tip}</p></article>)}</div></section>}
 
           <section class="breed-section breed-section--success" aria-labelledby="fit-title"><div class="breed-section__header"><p class="breed-eyebrow">Owner fit</p><h2 id="fit-title">Who the {b.name} Suits</h2></div><ul class="breed-fit-list">{suitabilityBullets.map((bullet) => <li><span aria-hidden="true">✓</span><p>{bullet}</p></li>)}</ul>{profile.coat_care_label && <p class="breed-section__footer-note"><strong>Grooming commitment:</strong> {profile.coat_care_label as string}</p>}</section>
 
@@ -530,6 +524,10 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
           {enrichmentData?.careProfile && <section class="breed-section" aria-label={`${b.name} care profile`}><BreedCareProfile breedName={b.name} careProfile={enrichmentData.careProfile} /></section>}
 
           <section id="breed-guides" class="breed-section" aria-labelledby="all-guides-title"><div class="breed-section__header"><p class="breed-eyebrow">Related guides</p><h2 id="all-guides-title">All {b.name} Guides</h2></div><a href={COST_CALC_HREF} class="breed-feature-link"><span aria-hidden="true">💰</span><div><strong>{b.name} Cost Calculator</strong><p>Puppy price, annual costs, food estimate, and lifetime ownership planning.</p></div><em aria-hidden="true">→</em></a><div class="breed-guide-grid">{CLUSTER_LINKS.map((item) => status[item.key] && item.href ? <a href={item.href} class="breed-guide-link"><span>{item.emoji}</span><strong>{item.label}</strong><em aria-hidden="true">→</em></a> : <div class="breed-guide-link is-disabled"><span>{item.emoji}</span><strong>{item.label}</strong></div>)}</div></section>
+
+          <div id="breed-products">
+            <BreedCommerceSuite breedName={b.name} breedSlug={slug} breedSize={b.size_category} breedEnergy={b.energy_level} breedTraining={b.training_level} breedCoat={b.coat_type} topicTags={awinBaseTags} partnerClusters={partnerClusterLinks} />
+          </div>
 
           {b.fci_group && <section class="breed-section" aria-labelledby="fci-title"><div class="breed-section__header"><p class="breed-eyebrow">Classification</p><h2 id="fci-title">FCI Classification</h2></div><div class="breed-classification-grid"><article><span>FCI Group</span><strong>Group {b.fci_group} — {b.fci_group_name}</strong></article>{b.fci_section && <article><span>Section</span><strong>{b.fci_section}</strong></article>}{b.fci_status && <article><span>Status</span><strong>{titleCase(b.fci_status)}</strong></article>}</div></section>}
 
@@ -585,11 +583,6 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
               ['Size', titleCase(b.size_category)], ['Energy', titleCase(b.energy_level)], ['Shedding', titleCase(b.shedding_level)], ['Training', titleCase(b.training_level)], ['Coat', COAT_LABEL[b.coat_type] || titleCase(b.coat_type)], ['Grooming', b.grooming_freq], wt.min_lbs ? ['Weight', `${wt.min_lbs}–${wt.max_lbs} lbs`] : null, life.min ? ['Lifespan', `${life.min}–${life.max} years`] : null, b.akc_group ? ['AKC Group', b.akc_group.replace(' Group', '')] : null, b.origin_country ? ['Origin', b.origin_country] : null, profile.intelligence_tier ? ['Intelligence', titleCase(profile.intelligence_tier as string)] : null, ['Owner difficulty', `${profile.owner_difficulty}/10`],
             ].filter(Boolean).map((row: any) => <div><dt>{row[0]}</dt><dd>{row[1]}</dd></div>)}</dl></section>
 
-            <div class="breed-sidebar__affiliate">
-              <AwinProductSlot topicTags={[...awinBaseTags, 'dog-owner', 'care', 'lifestyle']} pageType="breed" breedSize={b.size_category} breedEnergy={b.energy_level} breedTraining={b.training_level} headline={`For ${b.name} owners`} variant="compact" />
-              <PageBannerSlot pageType="breed" placement="after-summary" topic="care" topicTags={[...awinBaseTags, 'care']} compact={true} />
-            </div>
-
             <section class="breed-sidebar-card"><h2>{b.name} Guides</h2><nav class="breed-sidebar-nav"><a href={COST_CALC_HREF} class="is-featured"><span>💰</span><strong>Cost calculator</strong></a>{CLUSTER_LINKS.filter((item) => status[item.key] && item.href).map((item) => <a href={item.href}><span>{item.emoji}</span><strong>{item.label}</strong></a>)}{partnerClusterLinks.slice(0, 3).map((item) => <a href={item.href}><span>{item.icon}</span><strong>{item.label}</strong></a>)}</nav></section>
           </div>
         </aside>
@@ -641,7 +634,7 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
   (() => {
     const navLinks = document.querySelectorAll<HTMLAnchorElement>('.breed-page-nav__link');
     if (!navLinks.length) return;
-    const sectionIds = ['breed-overview', 'breed-about', 'breed-traits', 'breed-health', 'breed-products', 'breed-guides'];
+    const sectionIds = ['breed-overview', 'breed-about', 'breed-care', 'breed-traits', 'breed-health', 'breed-guides', 'breed-products'];
     const sections = sectionIds.map(id => document.getElementById(id)).filter((el): el is HTMLElement => el !== null);
     if (!sections.length) return;
     const setActive = (id: string) => {

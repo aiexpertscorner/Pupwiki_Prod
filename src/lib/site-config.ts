@@ -89,6 +89,9 @@ export const AFFILIATE_TAG =
 export const ENABLE_AMAZON_BUTTONS =
   import.meta.env.PUBLIC_ENABLE_AMAZON_BUTTONS !== 'false';
 
+export const ENABLE_COMMERCE_SECTIONS =
+  import.meta.env.PUBLIC_ENABLE_COMMERCE_SECTIONS !== 'false';
+
 export const AFFILIATE_DISCLOSURE_SHORT =
   'PupWiki may earn commissions from qualifying purchases, affiliate links, or selected partner referrals. These relationships do not determine our editorial coverage. As an Amazon Associate, PupWiki may earn from qualifying purchases.';
 
