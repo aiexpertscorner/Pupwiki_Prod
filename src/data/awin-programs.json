@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-18T21:56:10.359Z",
+  "syncedAt": "2026-05-18T22:31:27.430Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -398,13 +398,13 @@
       "commissionRange": [
         {
           "min": 0,
-          "max": 0,
-          "type": "amount"
+          "max": 8,
+          "type": "percentage"
         },
         {
           "min": 0,
-          "max": 8,
-          "type": "percentage"
+          "max": 0,
+          "type": "amount"
         }
       ],
       "kpi": {
@@ -983,11 +983,11 @@
       "advertiserId": "92479",
       "name": "Neewa USA",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.neewadogs.com/collections/dog-harnesses/products/sled-pro-harness",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=92479&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/92479.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -1000,15 +1000,8 @@
           "domain": "www.neewadogs.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "78",
-        "approvalPercentage": 100,
-        "epc": 2.79,
-        "conversionRate": 37.5,
-        "validationDays": 50,
-        "awinIndex": 61.95
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1038,11 +1031,11 @@
       "advertiserId": "96823",
       "name": "Joyride Harness",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.joyrideharness.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=96823&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/96823.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -1055,15 +1048,8 @@
           "domain": "www.joyrideharness.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "73",
-        "approvalPercentage": 100,
-        "epc": 0.42,
-        "conversionRate": 6.58,
-        "validationDays": 51,
-        "awinIndex": 57.62
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1093,11 +1079,11 @@
       "advertiserId": "98349",
       "name": "Impact Dog Crates",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.impactdogcrates.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=98349&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/98349.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1110,15 +1096,8 @@
           "domain": "www.impactdogcrates.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "68",
-        "approvalPercentage": 100,
-        "epc": 0.57,
-        "conversionRate": 0.8,
-        "validationDays": 45,
-        "awinIndex": 55.86
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1261,11 +1240,11 @@
       "advertiserId": "111784",
       "name": "peaksNpaws",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.peaksnpaws.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111784&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111784.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -1278,8 +1257,15 @@
           "domain": "www.peaksnpaws.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "73",
+        "approvalPercentage": 100,
+        "epc": 0.83,
+        "conversionRate": 5.35,
+        "validationDays": 50,
+        "awinIndex": 57.1
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1309,11 +1295,11 @@
       "advertiserId": "119433",
       "name": "Fetch Happy Store (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://fetchhappystore.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=119433&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/119433.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1329,9 +1315,16 @@
           "domain": "*.fetchhappystore.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "26",
+        "approvalPercentage": 100,
+        "epc": 0.89,
+        "conversionRate": 31.25,
+        "validationDays": 4,
+        "awinIndex": 92.42
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1359,11 +1352,11 @@
       "advertiserId": "120007",
       "name": "Pupford US",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://pupford.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120007&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120007.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1379,9 +1372,16 @@
           "domain": "*.pupford.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "27",
+        "approvalPercentage": 100,
+        "epc": 0.07,
+        "conversionRate": 13.36,
+        "validationDays": 7,
+        "awinIndex": 90.34
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1939,7 +1939,7 @@
       "advertiserId": "92479",
       "name": "Neewa USA",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1947,7 +1947,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/92479.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=92479&id=2861861",
       "topicTags": [
@@ -1962,7 +1962,7 @@
       "advertiserId": "96823",
       "name": "Joyride Harness",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1970,7 +1970,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/96823.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=96823&id=2861861",
       "topicTags": [
@@ -1985,7 +1985,7 @@
       "advertiserId": "98349",
       "name": "Impact Dog Crates",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1993,7 +1993,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/98349.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=98349&id=2861861",
       "topicTags": [
@@ -2048,7 +2048,7 @@
       "advertiserId": "111784",
       "name": "peaksNpaws",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2056,7 +2056,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111784.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111784&id=2861861",
       "topicTags": [
@@ -2071,7 +2071,7 @@
       "advertiserId": "119433",
       "name": "Fetch Happy Store (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2079,7 +2079,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/119433.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=119433&id=2861861",
       "topicTags": [
@@ -2093,7 +2093,7 @@
       "advertiserId": "120007",
       "name": "Pupford US",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2101,7 +2101,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120007.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120007&id=2861861",
       "topicTags": [
@@ -2187,23 +2187,24 @@
       "programmedetails/79708 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/87483 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/87483 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/119433 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/120007 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/120960 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/120960 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/120960 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/87483 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/92479 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/92479 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/92479 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/92479 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/96823 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/96823 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/96823 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/96823 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "feed/101913 returned no parseable products. Response preview: \u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000�ė�k�0\u0010���W\u0018?�\u0016dǲ%�\u001e��n�i��v�A���Ŀ��e��'�I�\u0004\u0012rS�B ��;I\u001f�r�͹�ӹ\u0010���Q%�l�ky4�y%\u0010�Lۮ�י~�f�\u0010��,��0)*�\u0010�uW\u000e\u0013�\\W3=ɸ\u0014��{\u001dL�c�n��Z�8\u000e����\u0007\u001b�� ���\u0005WϔE���b�ڊO8�)�\u0010�\u0011 \u0002�>���+d���/!����w.\"\u0018'! ��$h)e��L6���7E����&mV\u0016��o����`� �\u000f\u0013��������a���=N/�?B;�\u001b��_\u0014s���\u0013\u0004��\u0004�\u0014GQ\u0010#�A���$��\u0015��f��h��y�U[ ��2��歐㥶{Mfʇ�i",
-      "feed/101913 -> HTTP 400 — \n<h1>Error</h1>\n\n\t<h2>Invalid parameters, see instructions</h2>\n\n\n",
+      "feed/101913 -> HTTP 415 — {\"timestamp\":\"2026-05-18T22:31:27.034614405Z\",\"path\":\"/datafeed/download/apikey/e466e47be4dadeca127cf45dc6969055/language/en/fid/101913/columns/aw_product_id%2Cmerchant_product_id%2Cproduct_name%2Cdes",
       "feed/101913 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/101913\\/download\\\"\"}",
       "feed/101913 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/101913\\/download\\\"\"}",
       "No product rows could be imported from feed 101913 (Nextrition Pet (US))"
