@@ -3,8 +3,8 @@ title: "Dog Insurance and Vet-Care Planning - PupWiki Dog Guide"
 seoTitle: "Dog Insurance and Vet-Care Planning - Brands, Services and Dog-Fit Checks"
 displayTitle: "Dog Insurance and Vet-Care Planning"
 description: "Compare dog-focused brands, products and services for dog insurance and vet-care planning, with practical checks for current and future dog owners."
-pubDate: 2026-05-17
-updatedDate: 2026-05-17
+pubDate: 2026-05-18
+updatedDate: 2026-05-18
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-insurance-and-vet-planning", "insurance", "vet", "health-plan", "wellness-plan", "pet-insurance", "telehealth", "emergency-vet"]
