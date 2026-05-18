@@ -73,7 +73,7 @@ const cluster = getContentCluster(clusterSlug) || getContentCluster(normalize(ca
 const isGeneratedSupport = Boolean(fm.generated) || Boolean(fm.breedSlug) || Boolean(fm.breedName) || ['product-roundup', 'breed-support', 'generated-support'].includes(normalize(fm.postType));
 const isHealthSensitive = ['health', 'supplements', 'food', 'dog food'].includes(normalize(category)) || tags.some((tag: string) => ['health', 'supplements', 'nutrition', 'medical-warning', 'vet-critical', 'emergency-vet'].includes(normalize(tag)));
 const hasUnsafeCommerceTag = tags.some((tag: string) => ['medical-warning', 'vet-critical', 'emergency-vet', 'diagnosis', 'treatment'].includes(normalize(tag)));
-const showCommercialMidContent = !isHealthSensitive && !hasUnsafeCommerceTag;
+const showCommercialMidContent = false;
 const showProductRoundupCommerce = ['product-roundup', 'comparison'].includes(normalize(fm.postType)) && !hasUnsafeCommerceTag;
 
 const canonicalUrl = fm.canonicalUrl || `${SITE}/blog/${post.slug}`;
