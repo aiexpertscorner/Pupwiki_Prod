@@ -44,8 +44,7 @@
 
 .breed-directory-hero {
   border-bottom: 1px solid var(--color-border);
-  background:
-    linear-gradient(180deg, rgba(255, 250, 243, 0.98) 0%, rgba(255, 255, 255, 0.96) 84%);
+  background: var(--gradient-hero-page);
 }
 
 .breed-directory-hero .breed-directory-container {
@@ -155,7 +154,7 @@
 .breed-directory-button--secondary,
 .breed-directory-button--ghost {
   border: 1px solid var(--button-outline-border);
-  background: rgba(255, 255, 255, 0.86);
+  background: var(--color-surface);
   color: var(--button-outline-text);
   box-shadow: var(--shadow-xs);
 }
@@ -176,7 +175,7 @@
     radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.72), transparent 12rem),
     linear-gradient(135deg, var(--color-surface-navy), var(--color-primary));
   padding: var(--space-6);
-  color: #ffffff;
+  color: var(--color-text-inverse);
   box-shadow: var(--shadow-xl);
 }
 
@@ -204,7 +203,7 @@
 .breed-directory-hero-card strong {
   display: block;
   margin-top: var(--space-2);
-  color: #ffffff;
+  color: var(--color-text-inverse);
   font-family: var(--font-serif);
   font-size: clamp(var(--text-3xl), 8vw, var(--text-5xl));
   line-height: var(--leading-none);
@@ -236,13 +235,13 @@
 }
 
 .breed-directory-hero-card dd {
-  color: #ffffff;
+  color: var(--color-text-inverse);
   font-weight: var(--weight-black);
 }
 
 .breed-directory-stats {
   border-bottom: 1px solid var(--color-border);
-  background: rgba(255, 255, 255, 0.72);
+  background: var(--color-surface);
 }
 
 .breed-directory-stats__grid {
@@ -255,7 +254,7 @@
 .breed-directory-stats article {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-2xl);
-  background: rgba(255, 255, 255, 0.88);
+  background: var(--color-surface);
   padding: var(--space-4);
   box-shadow: var(--shadow-xs);
 }

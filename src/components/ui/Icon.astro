@@ -1,0 +1,72 @@
+---
+/**
+ * Icon — renders inline SVG icons by name.
+ * Use this instead of emoji for categories, sections, and navigation.
+ * All icons are 20×20 viewBox, stroke-based unless noted.
+ */
+export interface Props {
+  name: IconName;
+  size?: number;
+  class?: string;
+  'aria-hidden'?: boolean | 'true' | 'false';
+}
+
+export type IconName =
+  | 'food' | 'toys' | 'beds' | 'grooming' | 'training' | 'health'
+  | 'supplements' | 'puppy' | 'names' | 'insurance' | 'calculator'
+  | 'exercise' | 'feeding' | 'intelligence' | 'lifespan' | 'cost'
+  | 'kids' | 'check' | 'warn' | 'info' | 'arrow-right' | 'external'
+  | 'star' | 'bookmark' | 'heart' | 'pawprint' | 'breed' | 'senior';
+
+const PATHS: Record<IconName, string> = {
+  food: `<path stroke-linecap="round" stroke-linejoin="round" d="M3 6h14M3 10h14M7 14h6M5 2v4M10 2v4M15 2v4"/><ellipse cx="10" cy="16" rx="5" ry="2" fill="none"/>`,
+  toys: `<circle cx="10" cy="10" r="7"/><path stroke-linecap="round" d="M7 7c1-2 5-2 6 0s2 6 0 7-5 1-6 0-1-5 0-7z"/><circle cx="10" cy="10" r="1.5" fill="currentColor"/>`,
+  beds: `<path stroke-linecap="round" stroke-linejoin="round" d="M2 16V9a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v7M2 16h16M6 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><rect x="5" y="10" width="4" height="3" rx="1"/><rect x="11" y="10" width="4" height="3" rx="1"/>`,
+  grooming: `<path stroke-linecap="round" stroke-linejoin="round" d="M6 3l8 14M14 3L6 17M3 10h14"/><circle cx="6" cy="3" r="1.5" fill="currentColor"/><circle cx="14" cy="3" r="1.5" fill="currentColor"/><circle cx="6" cy="17" r="1.5" fill="currentColor"/><circle cx="14" cy="17" r="1.5" fill="currentColor"/>`,
+  training: `<path stroke-linecap="round" stroke-linejoin="round" d="M10 2L2 7l8 5 8-5-8-5zM2 12l8 5 8-5M2 17l8 5 8-5"/>`,
+  health: `<path stroke-linecap="round" stroke-linejoin="round" d="M10 17s-7-4.5-7-9a4 4 0 0 1 7-2.65A4 4 0 0 1 17 8c0 4.5-7 9-7 9z"/>`,
+  supplements: `<rect x="4" y="8" width="12" height="10" rx="2"/><path stroke-linecap="round" d="M4 13h12"/><path stroke-linecap="round" d="M8 4h4M10 2v4"/>`,
+  puppy: `<circle cx="10" cy="9" r="4"/><path stroke-linecap="round" stroke-linejoin="round" d="M4 9a3 3 0 0 0-2 2.8c0 1.5 1 2.2 2 2.2M16 9a3 3 0 0 1 2 2.8c0 1.5-1 2.2-2 2.2M6 18c0-2.2 1.8-4 4-4s4 1.8 4 4"/><circle cx="8.5" cy="8" r="0.75" fill="currentColor"/><circle cx="11.5" cy="8" r="0.75" fill="currentColor"/>`,
+  names: `<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h12M4 10h8M4 14h5"/><rect x="2" y="3" width="16" height="14" rx="2"/>`,
+  insurance: `<path stroke-linecap="round" stroke-linejoin="round" d="M10 2l7 3v5c0 4-3 7-7 8C6 17 3 14 3 10V5l7-3z"/><path stroke-linecap="round" d="M7 10l2 2 4-4"/>`,
+  calculator: `<rect x="3" y="3" width="14" height="14" rx="2"/><path stroke-linecap="round" d="M7 7h6M7 10h2M11 10h2M7 13h2M11 13h2"/>`,
+  exercise: `<circle cx="13" cy="4" r="1.5"/><path stroke-linecap="round" stroke-linejoin="round" d="M5 14l3-5 2 2 2-3 3 6M3 18h14"/>`,
+  feeding: `<path stroke-linecap="round" stroke-linejoin="round" d="M5 3v5c0 2.2 2 4 5 4s5-1.8 5-4V3M5 8h10M10 12v5M7 17h6"/>`,
+  intelligence: `<path stroke-linecap="round" stroke-linejoin="round" d="M10 2a5 5 0 0 1 5 5c0 1.8-.9 3.3-2.3 4.2L12 14H8l-.7-2.8A5 5 0 0 1 5 7a5 5 0 0 1 5-5z"/><path stroke-linecap="round" d="M8 14v2a2 2 0 0 0 4 0v-2"/>`,
+  lifespan: `<rect x="3" y="4" width="14" height="13" rx="2"/><path stroke-linecap="round" d="M7 2v4M13 2v4M3 9h14"/><path stroke-linecap="round" d="M7 13h2l1-2 1 4 1-2h2"/>`,
+  cost: `<circle cx="10" cy="10" r="8"/><path stroke-linecap="round" d="M10 6v1.5M10 12.5V14M7.5 8.5a2.5 2.5 0 0 1 5 0c0 1.5-1 2-2.5 2.5S8 12 8 13.5h4"/>`,
+  kids: `<circle cx="7" cy="5" r="2"/><circle cx="13" cy="5" r="2"/><path stroke-linecap="round" stroke-linejoin="round" d="M4 18v-3a3 3 0 0 1 6 0v3M10 18v-3a3 3 0 0 1 6 0v3"/>`,
+  check: `<path stroke-linecap="round" stroke-linejoin="round" d="M4 10l4 4 8-8"/>`,
+  warn: `<path stroke-linecap="round" stroke-linejoin="round" d="M10 3L2 17h16L10 3z"/><path stroke-linecap="round" d="M10 9v4M10 15v.5"/>`,
+  info: `<circle cx="10" cy="10" r="8"/><path stroke-linecap="round" d="M10 9v5M10 7v.5"/>`,
+  'arrow-right': `<path stroke-linecap="round" stroke-linejoin="round" d="M5 10h10M11 6l4 4-4 4"/>`,
+  external: `<path stroke-linecap="round" stroke-linejoin="round" d="M12 3h5v5M8 12l9-9M10 5H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-5"/>`,
+  star: `<path stroke-linecap="round" stroke-linejoin="round" d="M10 2l2.4 5 5.6.8-4 3.9.9 5.5L10 14.5l-4.9 2.7.9-5.5L2 7.8l5.6-.8L10 2z"/>`,
+  bookmark: `<path stroke-linecap="round" stroke-linejoin="round" d="M5 3h10a1 1 0 0 1 1 1v13l-6-4-6 4V4a1 1 0 0 1 1-1z"/>`,
+  heart: `<path stroke-linecap="round" stroke-linejoin="round" d="M10 17s-7-4.5-7-9a4 4 0 0 1 7-2.65A4 4 0 0 1 17 8c0 4.5-7 9-7 9z"/>`,
+  pawprint: `<circle cx="6" cy="7" r="1.5"/><circle cx="10" cy="5.5" r="1.5"/><circle cx="14" cy="7" r="1.5"/><circle cx="4.5" cy="11" r="1.5"/><path stroke-linecap="round" stroke-linejoin="round" d="M10 9c-2 0-5 2-5 4.5 0 2 1 3.5 5 3.5s5-1.5 5-3.5c0-2.5-3-4.5-5-4.5z"/>`,
+  breed: `<circle cx="10" cy="7" r="4"/><path stroke-linecap="round" stroke-linejoin="round" d="M3 19c0-3.9 3.1-7 7-7s7 3.1 7 7"/>`,
+  senior: `<path stroke-linecap="round" stroke-linejoin="round" d="M10 3a7 7 0 1 0 0 14A7 7 0 0 0 10 3zM10 7v4l3 2"/>`,
+};
+
+const {
+  name,
+  size = 20,
+  class: className,
+  'aria-hidden': ariaHidden = true,
+} = Astro.props;
+
+const svg = PATHS[name] ?? PATHS['pawprint'];
+---
+
+<svg
+  width={size}
+  height={size}
+  viewBox="0 0 20 20"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  class:list={['pw-icon', className]}
+  aria-hidden={String(ariaHidden)}
+  set:html={svg}
+/>

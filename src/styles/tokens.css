@@ -92,6 +92,75 @@
   --color-info: #2563eb;
   --color-info-light: #dbeafe;
 
+  /* ── Breed health severity tokens ──────────────────────────────
+     Used in .breed-health-card.is-low/medium/medium-high/high/critical
+     ─────────────────────────────────────────────────────────────── */
+  --color-health-low-bg:              #f0fdf4;
+  --color-health-low-border:          #22c55e;
+  --color-health-low-badge-bg:        #dcfce7;
+  --color-health-low-badge-text:      #15803d;
+
+  --color-health-medium-bg:           #fffbeb;
+  --color-health-medium-border:       #f59e0b;
+  --color-health-medium-badge-bg:     #fef3c7;
+  --color-health-medium-badge-text:   #b45309;
+
+  --color-health-medium-high-bg:           #fff7ed;
+  --color-health-medium-high-border:       #f97316;
+  --color-health-medium-high-badge-bg:     #ffedd5;
+  --color-health-medium-high-badge-text:   #c2410c;
+
+  --color-health-high-bg:             #fff1f2;
+  --color-health-high-border:         #ef4444;
+  --color-health-high-badge-bg:       #fee2e2;
+  --color-health-high-badge-text:     var(--color-danger);
+
+  --color-health-critical-bg:         #fff1f2;
+  --color-health-critical-border:     #9f1239;
+  --color-health-critical-badge-bg:   #ffe4e6;
+  --color-health-critical-badge-text: #9f1239;
+
+  /* ── Breed pill color variants ──────────────────────────────────
+     Used in .breed-pill--purple / --success / --gold in breed-page.css
+     ─────────────────────────────────────────────────────────────── */
+  --color-pill-purple-bg:     #faf5ff;
+  --color-pill-purple-text:   #5b21b6;
+  --color-pill-purple-border: rgba(109, 40, 217, 0.20);
+
+  --color-pill-gold-bg:     #fffbeb;
+  --color-pill-gold-text:   #92400e;
+  --color-pill-gold-border: rgba(180, 130, 0, 0.24);
+
+  --color-pill-success-bg:     #ecfdf5;
+  --color-pill-success-text:   #065f46;
+  --color-pill-success-border: rgba(4, 120, 87, 0.22);
+
+  /* ── Trait meter fill colors ────────────────────────────────────
+     Used in .breed-meter .is-shedding / .is-grooming / .is-friendly
+     ─────────────────────────────────────────────────────────────── */
+  --color-meter-shedding: #3b82f6;
+  --color-meter-grooming: #8b5cf6;
+  --color-meter-friendly: #10b981;
+
+  /* ── Decision card semantic tokens ─────────────────────────────
+     Used in .breed-decision-card.is-good / .is-warn
+     ─────────────────────────────────────────────────────────────── */
+  --color-decision-good-bg:     #f0fdf7;
+  --color-decision-good-border: rgba(19, 117, 80, 0.22);
+  --color-decision-warn-bg:     #fff8ed;
+  --color-decision-warn-border: rgba(180, 83, 9, 0.24);
+
+  /* ── Danger note / eyebrow tokens ──────────────────────────────
+     Used in .breed-health-note and .breed-eyebrow--danger
+     ─────────────────────────────────────────────────────────────── */
+  --color-danger-note-bg:     #fff5f5;
+  --color-danger-note-border: rgba(220, 38, 38, 0.18);
+
+  /* ── Undefined token aliases (fix silent fallbacks in breed-page.css) ── */
+  --color-text:        var(--color-body);
+  --color-text-muted:  var(--color-muted);
+  --color-surface-alt: #f8f8f5;
+
   /* Category accents */
   --cat-food-bg: #fff7ed;
   --cat-food-border: #fed7aa;
