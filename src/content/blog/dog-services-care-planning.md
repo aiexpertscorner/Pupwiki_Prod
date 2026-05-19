@@ -3,13 +3,12 @@ title: "Dog Services, Local Care and Booking Questions - PupWiki Dog Guide"
 seoTitle: "Dog Services, Local Care and Booking Questions - Brands, Services and Dog-Fit Checks"
 displayTitle: "Dog Services, Local Care and Booking Questions"
 description: "Compare dog-focused brands, products and services for dog services, local care and booking questions, with practical checks for current and future dog owners."
-pubDate: 2026-05-18
-updatedDate: 2026-05-18
+pubDate: 2026-05-19
+updatedDate: 2026-05-19
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-services-care-planning", "service", "services", "vet", "telehealth", "grooming", "training", "boarding", "walking", "daycare", "insurance", "subscription", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear", "containment", "fence", "gps", "link", "outdoor", "safety"]
 postType: "comparison"
-schemaType: Article
 contentTier: "money"
 cluster: "dog-services-care-planning"
 productFamilies: ["service", "services", "vet", "telehealth", "grooming", "training", "boarding", "walking", "daycare", "insurance", "subscription"]
@@ -26,16 +25,7 @@ medicalDisclaimer: true
 partnerProgramKeys: ["jugbow", "radiofence-com"]
 partnerAdvertiserIds: ["79708", "87999"]
 canonicalUrl: "https://pupwiki.com/blog/dog-services-care-planning"
-heroImage: "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner."
-imageAlt: "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner."
-imageSource: "pexels"
-imageCredit: "Photo by Bethany Ferr on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/"
-imageSearchQuery: "dog owner comparing dog care"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links. Brand availability, offers, products and terms can change.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## What this guide helps you decide
