@@ -6,6 +6,7 @@
 
 import AwinProductSlot from '../affiliate/AwinProductSlot.astro';
 import AmazonProductSlot from '../amazon/AmazonProductSlot.astro';
+import Icon, { type IconName } from '../ui/Icon.astro';
 
 export interface PartnerClusterLink {
   href: string;
@@ -65,12 +66,14 @@ const commerceTags = [
     <div class="breed-partner-clusters" aria-label="Related PupWiki partner clusters">
       {partnerClusters.slice(0, 5).map((cluster) => (
         <a href={cluster.href} class="breed-partner-cluster-card">
-          <span class="breed-partner-cluster-card__icon" aria-hidden="true">{cluster.icon || '🤝'}</span>
+          <span class="breed-partner-cluster-card__icon" aria-hidden="true">
+              <Icon name={(cluster.icon || 'heart') as IconName} size={18} />
+            </span>
           <span>
             <strong>{cluster.label}</strong>
             {cluster.description && <em>{cluster.description}</em>}
           </span>
-          <b aria-hidden="true">→</b>
+          <span aria-hidden="true"><Icon name="arrow-right" size={14} /></span>
         </a>
       ))}
     </div>

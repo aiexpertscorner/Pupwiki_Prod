@@ -161,6 +161,14 @@
   --color-text-muted:  var(--color-muted);
   --color-surface-alt: #f8f8f5;
 
+  /* ── Layout aliases ─────────────────────────────────────────────── */
+  --content-max-w:   var(--max-width);
+  --duration-fast:   100ms;
+  --space-1-5:       0.375rem;
+
+  /* ── Breed hero gradient ──────────────────────────────────────── */
+  --breed-hero-bg: linear-gradient(180deg, var(--color-bg-soft) 0%, var(--color-bg) 82%);
+
   /* Category accents */
   --cat-food-bg: #fff7ed;
   --cat-food-border: #fed7aa;
@@ -368,9 +376,9 @@
 
   --button-secondary-bg: var(--color-primary);
   --button-secondary-bg-hover: var(--color-primary-hover);
-  --button-secondary-text: #ffffff;
+  --button-secondary-text: var(--color-text-inverse);
 
-  --button-outline-bg: #ffffff;
+  --button-outline-bg: var(--color-surface);
   --button-outline-border: var(--color-border-strong);
   --button-outline-text: var(--color-primary);
   --button-outline-bg-hover: var(--color-primary-subtle);
