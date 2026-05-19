@@ -22,6 +22,7 @@ import BreedDecisionSnapshot from '../../components/breed/BreedDecisionSnapshot.
 import BreedResourceHub from '../../components/breed/BreedResourceHub.astro';
 import BreedCommerceSuite from '../../components/breed/BreedCommerceSuite.astro';
 import BreedCareProfile from '../../components/enrichment/BreedCareProfile.astro';
+import Icon, { type IconName } from '../../components/ui/Icon.astro';
 
 import {
   buildBreedDecisionItems,
@@ -121,7 +122,8 @@ function moneyK(value?: number) {
 }
 
 const COST_CALC_HREF = `/cost-calculator/${slug}`;
-const puppyHref = status.puppy_post ? `/blog/${slug}-puppy-essentials` : null;
+const BASE_TOPIC    = `/breeds/${slug}`;
+const puppyHref     = `${BASE_TOPIC}/puppy`;
 
 const intelligenceRank = rank.intelligence_rank ? Number(rank.intelligence_rank) : null;
 const intelligenceLabel = rank.intelligence_label ? String(rank.intelligence_label).trim() : null;
@@ -171,16 +173,16 @@ const resourceItems = buildBreedResourceItems(b, links, status);
 const partnerClusterLinks = buildBreedPartnerClusterLinks(b);
 const decisionItems = buildBreedDecisionItems(b, profile, rank);
 
-const CLUSTER_LINKS = [
-  { key: 'food_post', href: links.food_post, emoji: '🍖', label: `${b.name} food & nutrition guide` },
-  { key: 'toy_post', href: links.toy_post, emoji: '🎾', label: `${b.name} toy & enrichment ideas` },
-  { key: 'names_page', href: links.names_page, emoji: '✍️', label: `${b.name} names` },
-  { key: 'bed_post', href: links.bed_post, emoji: '🛏️', label: `${b.name} bed & sleep guide` },
-  { key: 'grooming_post', href: links.grooming_post, emoji: '✂️', label: `${b.name} grooming guide` },
-  { key: 'health_post', href: links.health_post, emoji: '🩺', label: `${b.name} health concerns` },
-  { key: 'puppy_post', href: puppyHref, emoji: '🐶', label: `${b.name} puppy guide` },
-  { key: 'supplement_post', href: links.supplement_post, emoji: '💊', label: `${b.name} supplement considerations` },
-  { key: 'training_post', href: links.training_post, emoji: '🦮', label: `${b.name} training guide` },
+const CLUSTER_LINKS: Array<{ key: string; href: string; icon: IconName; label: string }> = [
+  { key: 'food_post',       href: links.food_post       ?? `${BASE_TOPIC}/food`,        icon: 'food',        label: `${b.name} food & nutrition guide` },
+  { key: 'toy_post',        href: links.toy_post        ?? `${BASE_TOPIC}/toys`,        icon: 'toys',        label: `${b.name} toy & enrichment ideas` },
+  { key: 'names_page',      href: links.names_page      ?? `/dog-names/${slug}`,        icon: 'names',       label: `${b.name} names` },
+  { key: 'bed_post',        href: links.bed_post        ?? `${BASE_TOPIC}/beds`,        icon: 'beds',        label: `${b.name} bed & sleep guide` },
+  { key: 'grooming_post',   href: links.grooming_post   ?? `${BASE_TOPIC}/grooming`,    icon: 'grooming',    label: `${b.name} grooming guide` },
+  { key: 'health_post',     href: links.health_post     ?? `${BASE_TOPIC}/health`,      icon: 'health',      label: `${b.name} health concerns` },
+  { key: 'puppy_post',      href: puppyHref,                                            icon: 'puppy',       label: `${b.name} puppy guide` },
+  { key: 'supplement_post', href: links.supplement_post ?? `${BASE_TOPIC}/supplements`, icon: 'supplements', label: `${b.name} supplement considerations` },
+  { key: 'training_post',   href: links.training_post   ?? `${BASE_TOPIC}/training`,    icon: 'training',    label: `${b.name} training guide` },
 ];
 
 const suitabilityBullets: string[] = [];
@@ -214,24 +216,24 @@ const suitabilityBullets: string[] = [];
   }
 }
 
-const relatedGuides = [
+const relatedGuides: Array<{ href: string; icon: IconName; label: string; desc: string; tag: string }> = [
   {
     href: '/blog/dog-food-nutrition-partners',
-    emoji: '🍖',
+    icon: 'food',
     label: 'Dog food, broth and nutrition partners',
     desc: 'Compare current PupWiki partner coverage for food, broth, fresh prep and nutrition resources.',
     tag: 'Partners',
   },
   {
     href: '/blog/dog-training-gear-safety-partners',
-    emoji: '🦮',
+    icon: 'training',
     label: 'Training, walking and safety partners',
     desc: 'Harnesses, recall, containment and activity gear mapped to owner intent.',
     tag: 'Training',
   },
   {
     href: '/blog/personalized-dog-gifts-lifestyle-partners',
-    emoji: '🎁',
+    icon: 'heart',
     label: 'Personalized dog gifts and lifestyle resources',
     desc: 'Custom portraits, memorials, ID-style resources and breed-inspired gifts.',
     tag: 'Lifestyle',
@@ -489,12 +491,12 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
             <section class="breed-section breed-section--warm" aria-labelledby="breed-data-title">
               <div class="breed-section__header"><p class="breed-eyebrow">Breed data</p><h2 id="breed-data-title">Data Snapshot</h2></div>
               <div class="breed-data-grid">
-                {rank.intelligence_rank && <article><span>🧠</span><strong>#{rank.intelligence_rank}</strong><p>Intelligence</p></article>}
-                {rank.longevity_years && <article><span>🎂</span><strong>{rank.longevity_years}yr</strong><p>Average lifespan</p></article>}
-                {rank.lifetime_cost_usd && <article><span>💰</span><strong>{moneyK(rank.lifetime_cost_usd)}</strong><p>Lifetime cost</p></article>}
-                {rank.annual_food_cost && <article><span>🍖</span><strong>${rank.annual_food_cost}/yr</strong><p>Annual food estimate</p></article>}
-                {rank.children_score !== undefined && <article><span>👨‍👩‍👧</span><strong>{rank.children_score >= 0.8 ? 'Great' : rank.children_score >= 0.5 ? 'Good' : 'Careful'}</strong><p>With kids</p></article>}
-                {rank.genetic_ailments !== undefined && <article><span>🩺</span><strong>{rank.genetic_ailments}</strong><p>Known conditions</p></article>}
+                {rank.intelligence_rank && <article><span><Icon name="intelligence" size={18} /></span><strong>#{rank.intelligence_rank}</strong><p>Intelligence</p></article>}
+                {rank.longevity_years && <article><span><Icon name="lifespan" size={18} /></span><strong>{rank.longevity_years}yr</strong><p>Average lifespan</p></article>}
+                {rank.lifetime_cost_usd && <article><span><Icon name="cost" size={18} /></span><strong>{moneyK(rank.lifetime_cost_usd)}</strong><p>Lifetime cost</p></article>}
+                {rank.annual_food_cost && <article><span><Icon name="food" size={18} /></span><strong>${rank.annual_food_cost}/yr</strong><p>Annual food estimate</p></article>}
+                {rank.children_score !== undefined && <article><span><Icon name="kids" size={18} /></span><strong>{rank.children_score >= 0.8 ? 'Great' : rank.children_score >= 0.5 ? 'Good' : 'Careful'}</strong><p>With kids</p></article>}
+                {rank.genetic_ailments !== undefined && <article><span><Icon name="health" size={18} /></span><strong>{rank.genetic_ailments}</strong><p>Known conditions</p></article>}
               </div>
               {rank.genetic_ailment_names && rank.genetic_ailment_names !== 'none' && <p class="breed-muted">Known genetic concerns: <strong>{rank.genetic_ailment_names}</strong></p>}
             </section>
@@ -510,28 +512,28 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
                   return <article class:list={['breed-health-card', severity.className]}><div><span>{severity.label}</span></div><div><h3>{issue.name}</h3>{issue.prevalence && <em>{issue.prevalence} prevalence</em>}{issue.early_warning && <p><strong>Early signs:</strong> {issue.early_warning}</p>}</div></article>;
                 })}
               </div>
-              {healthProfile.care_tips && <div class="breed-callout breed-callout--info"><span aria-hidden="true">💡</span><p>{healthProfile.care_tips}</p></div>}
+              {healthProfile.care_tips && <div class="breed-callout breed-callout--info"><span aria-hidden="true"><Icon name="info" size={16} /></span><p>{healthProfile.care_tips}</p></div>}
             </section>
           ) : (
             <section id="breed-health" class="breed-section" aria-labelledby="health-title">
               <div class="breed-section__header"><p class="breed-eyebrow breed-eyebrow--danger">Health watch</p><h2 id="health-title">{b.name} Health Context</h2></div>
               <div class="breed-health-note"><strong>Veterinary note</strong><p>Regular veterinary check-ups, preventive care, and breed-aware monitoring are recommended for all dogs. Consult your vet for guidance specific to your {b.name}.</p></div>
               <p class="breed-muted">Breed-specific health data for the {b.name} is being compiled. Use the cost calculator to estimate veterinary and care costs.</p>
-              <a href={COST_CALC_HREF} class="breed-cost-link"><div><strong>Estimate care costs</strong><p>Plan food, vet care, and lifetime ownership costs for a {b.name}.</p></div><span aria-hidden="true">💰</span></a>
+              <a href={COST_CALC_HREF} class="breed-cost-link"><div><strong>Estimate care costs</strong><p>Plan food, vet care, and lifetime ownership costs for a {b.name}.</p></div><span aria-hidden="true"><Icon name="calculator" size={16} /></span></a>
             </section>
           )}
 
-          {healthProfile && <a href={COST_CALC_HREF} class="breed-cost-link"><div><strong>{healthProfile.common_issues?.[0]?.name ?? 'Health considerations'}</strong><p>Breed health context can affect lifetime costs. Estimate food, care, and planning costs for a {b.name}.</p></div><span aria-hidden="true">💰</span></a>}
+          {healthProfile && <a href={COST_CALC_HREF} class="breed-cost-link"><div><strong>{healthProfile.common_issues?.[0]?.name ?? 'Health considerations'}</strong><p>Breed health context can affect lifetime costs. Estimate food, care, and planning costs for a {b.name}.</p></div><span aria-hidden="true"><Icon name="calculator" size={16} /></span></a>}
 
-          {b.care_tips?.length > 0 && <section id="breed-care" class="breed-section" aria-labelledby="care-title"><div class="breed-section__header"><p class="breed-eyebrow">Care basics</p><h2 id="care-title">{b.name} Care Tips</h2></div><div class="breed-tip-list">{b.care_tips.map((tip: string) => <article><span aria-hidden="true">✓</span><p>{tip}</p></article>)}</div></section>}
+          {b.care_tips?.length > 0 && <section id="breed-care" class="breed-section" aria-labelledby="care-title"><div class="breed-section__header"><p class="breed-eyebrow">Care basics</p><h2 id="care-title">{b.name} Care Tips</h2></div><div class="breed-tip-list">{b.care_tips.map((tip: string) => <article><span aria-hidden="true"><Icon name="check" size={16} /></span><p>{tip}</p></article>)}</div></section>}
 
-          <section class="breed-section breed-section--success" aria-labelledby="fit-title"><div class="breed-section__header"><p class="breed-eyebrow">Owner fit</p><h2 id="fit-title">Who the {b.name} Suits</h2></div><ul class="breed-fit-list">{suitabilityBullets.map((bullet) => <li><span aria-hidden="true">✓</span><p>{bullet}</p></li>)}</ul>{profile.coat_care_label && <p class="breed-section__footer-note"><strong>Grooming commitment:</strong> {profile.coat_care_label as string}</p>}</section>
+          <section class="breed-section breed-section--success" aria-labelledby="fit-title"><div class="breed-section__header"><p class="breed-eyebrow">Owner fit</p><h2 id="fit-title">Who the {b.name} Suits</h2></div><ul class="breed-fit-list">{suitabilityBullets.map((bullet) => <li><span aria-hidden="true"><Icon name="check" size={16} /></span><p>{bullet}</p></li>)}</ul>{profile.coat_care_label && <p class="breed-section__footer-note"><strong>Grooming commitment:</strong> {profile.coat_care_label as string}</p>}</section>
 
-          <section class="breed-section breed-section--decision" aria-labelledby="decision-title"><div class="breed-section__header"><p class="breed-eyebrow">Before you choose</p><h2 id="decision-title">Make an Informed {b.name} Decision</h2></div><div class="breed-decision-grid"><a href="/breed-quiz"><span>🐾</span><strong>Is this breed right for me?</strong><p>Compare your lifestyle, home, experience level, and activity needs.</p></a><a href={COST_CALC_HREF}><span>💰</span><strong>What does a {b.name} cost?</strong><p>Estimate puppy, annual, food, care, and lifetime ownership costs.</p></a><a href="/guides/first-dog"><span>📋</span><strong>New to dog ownership?</strong><p>Prepare your home, budget, routine, and expectations before adoption.</p></a></div></section>
+          <section class="breed-section breed-section--decision" aria-labelledby="decision-title"><div class="breed-section__header"><p class="breed-eyebrow">Before you choose</p><h2 id="decision-title">Make an Informed {b.name} Decision</h2></div><div class="breed-decision-grid"><a href="/breed-quiz"><span><Icon name="pawprint" size={20} /></span><strong>Is this breed right for me?</strong><p>Compare your lifestyle, home, experience level, and activity needs.</p></a><a href={COST_CALC_HREF}><span><Icon name="calculator" size={20} /></span><strong>What does a {b.name} cost?</strong><p>Estimate puppy, annual, food, care, and lifetime ownership costs.</p></a><a href="/guides/first-dog"><span><Icon name="info" size={20} /></span><strong>New to dog ownership?</strong><p>Prepare your home, budget, routine, and expectations before adoption.</p></a></div></section>
 
           {enrichmentData?.careProfile && <section class="breed-section" aria-label={`${b.name} care profile`}><BreedCareProfile breedName={b.name} careProfile={enrichmentData.careProfile} /></section>}
 
-          <section id="breed-guides" class="breed-section" aria-labelledby="all-guides-title"><div class="breed-section__header"><p class="breed-eyebrow">Related guides</p><h2 id="all-guides-title">All {b.name} Guides</h2></div><a href={COST_CALC_HREF} class="breed-feature-link"><span aria-hidden="true">💰</span><div><strong>{b.name} Cost Calculator</strong><p>Puppy price, annual costs, food estimate, and lifetime ownership planning.</p></div><em aria-hidden="true">→</em></a><div class="breed-guide-grid">{CLUSTER_LINKS.map((item) => status[item.key] && item.href ? <a href={item.href} class="breed-guide-link"><span>{item.emoji}</span><strong>{item.label}</strong><em aria-hidden="true">→</em></a> : <div class="breed-guide-link is-disabled"><span>{item.emoji}</span><strong>{item.label}</strong></div>)}</div>
+          <section id="breed-guides" class="breed-section" aria-labelledby="all-guides-title"><div class="breed-section__header"><p class="breed-eyebrow">Related guides</p><h2 id="all-guides-title">All {b.name} Guides</h2></div><a href={COST_CALC_HREF} class="breed-feature-link"><span aria-hidden="true"><Icon name="calculator" size={20} /></span><div><strong>{b.name} Cost Calculator</strong><p>Puppy price, annual costs, food estimate, and lifetime ownership planning.</p></div><span aria-hidden="true"><Icon name="arrow-right" size={16} /></span></a><div class="breed-guide-grid">{CLUSTER_LINKS.map((item) => <a href={item.href} class="breed-guide-link"><span><Icon name={item.icon} size={18} /></span><strong>{item.label}</strong><span aria-hidden="true"><Icon name="arrow-right" size={14} /></span></a>)}</div>
             {b.name_inspirations?.length > 0 && links.names_page && (
               <div class="breed-naming-hint">
                 <strong>Naming styles:</strong> {(b.name_inspirations as string[]).slice(0, 3).join(' · ')}
@@ -566,7 +568,7 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
             </section>
           )}
 
-          <section class="breed-section" aria-labelledby="related-editorial-title"><div class="breed-section__header"><p class="breed-eyebrow">Helpful reads</p><h2 id="related-editorial-title">More for {b.name} Owners</h2></div><div class="breed-editorial-grid">{relatedGuides.map((guide) => <a href={guide.href}><span aria-hidden="true">{guide.emoji}</span><div><em>{guide.tag}</em><strong>{guide.label}</strong><p>{guide.desc}</p></div></a>)}</div></section>
+          <section class="breed-section" aria-labelledby="related-editorial-title"><div class="breed-section__header"><p class="breed-eyebrow">Helpful reads</p><h2 id="related-editorial-title">More for {b.name} Owners</h2></div><div class="breed-editorial-grid">{relatedGuides.map((guide) => <a href={guide.href}><span aria-hidden="true"><Icon name={guide.icon} size={20} /></span><div><em>{guide.tag}</em><strong>{guide.label}</strong><p>{guide.desc}</p></div></a>)}</div></section>
 
           {similarBreeds.length > 0 && (
             <section class="breed-section" aria-labelledby="similar-breeds-title">
@@ -598,7 +600,7 @@ const faqLd = faqItems.length > 0 ? JSON.stringify({
               ['Size', titleCase(b.size_category)], ['Energy', titleCase(b.energy_level)], ['Shedding', titleCase(b.shedding_level)], ['Training', titleCase(b.training_level)], ['Coat', COAT_LABEL[b.coat_type] || titleCase(b.coat_type)], ['Grooming', b.grooming_freq], wt.min_lbs ? ['Weight', `${wt.min_lbs}–${wt.max_lbs} lbs`] : null, life.min ? ['Lifespan', `${life.min}–${life.max} years`] : null, b.akc_group ? ['AKC Group', b.akc_group.replace(' Group', '')] : null, b.origin_country ? ['Origin', b.origin_country] : null, profile.intelligence_tier ? ['Intelligence', titleCase(profile.intelligence_tier as string)] : null, ['Owner difficulty', `${profile.owner_difficulty}/10`],
             ].filter(Boolean).map((row: any) => <div><dt>{row[0]}</dt><dd>{row[1]}</dd></div>)}</dl></section>
 
-            <section class="breed-sidebar-card"><h2>{b.name} Guides</h2><nav class="breed-sidebar-nav"><a href={COST_CALC_HREF} class="is-featured"><span>💰</span><strong>Cost calculator</strong></a>{CLUSTER_LINKS.filter((item) => status[item.key] && item.href).map((item) => <a href={item.href}><span>{item.emoji}</span><strong>{item.label}</strong></a>)}{partnerClusterLinks.slice(0, 3).map((item) => <a href={item.href}><span>{item.icon}</span><strong>{item.label}</strong></a>)}</nav></section>
+            <section class="breed-sidebar-card"><h2>{b.name} Guides</h2><nav class="breed-sidebar-nav"><a href={COST_CALC_HREF} class="is-featured"><span><Icon name="calculator" size={16} /></span><strong>Cost calculator</strong></a>{CLUSTER_LINKS.map((item) => <a href={item.href}><span><Icon name={item.icon} size={16} /></span><strong>{item.label}</strong></a>)}{partnerClusterLinks.slice(0, 3).map((item) => <a href={item.href}><span><Icon name={(item.icon || 'breed') as IconName} size={16} /></span><strong>{item.label}</strong></a>)}</nav></section>
           </div>
         </aside>
       </div>

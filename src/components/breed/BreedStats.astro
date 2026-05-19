@@ -1,4 +1,6 @@
 ---
+import Icon from '../ui/Icon.astro';
+
 export interface Props {
   traits: {
     energy_value:       number;
@@ -16,76 +18,141 @@ export interface Props {
 
 const { traits, energy_level, shedding_level, training_level, coat_type, grooming_freq } = Astro.props;
 
-const stats = [
-  {
-    label:  'Energy',
-    value:  traits.energy_value,
-    text:   energy_level.charAt(0).toUpperCase() + energy_level.slice(1),
-    type:   'energy',
-    pct:    Math.round(traits.energy_value * 100),
-  },
-  {
-    label:  'Shedding',
-    value:  traits.shedding_value,
-    text:   shedding_level.charAt(0).toUpperCase() + shedding_level.slice(1),
-    type:   'shedding',
-    pct:    Math.round(traits.shedding_value * 100),
-  },
-  {
-    label:  'Trainability',
-    value:  traits.trainability_value,
-    text:   training_level.charAt(0).toUpperCase() + training_level.slice(1),
-    type:   'training',
-    pct:    Math.round(traits.trainability_value * 100),
-  },
-  {
-    label:  'Grooming',
-    value:  traits.grooming_value,
-    text:   grooming_freq.replace(' Brushing','').replace(' Bath/Brush',''),
-    type:   'grooming',
-    pct:    Math.round(traits.grooming_value * 100),
-  },
-  {
-    label:  'Friendliness',
-    value:  traits.demeanor_value,
-    text:   traits.demeanor_value >= 0.8 ? 'Very social' : traits.demeanor_value >= 0.5 ? 'Friendly' : 'Reserved',
-    type:   'demeanor',
-    pct:    Math.round(traits.demeanor_value * 100),
-  },
-];
+const DEMEANOR_SOCIAL    = 0.8;
+const DEMEANOR_FRIENDLY  = 0.5;
+
+const GROOMING_SHORT: Record<string, string> = {
+  'Daily Brushing':           'Daily',
+  '2-3 Times/Week Brushing':  '2–3×/week',
+  'Weekly Brushing':          'Weekly',
+  'Monthly Bath/Brush':       'Monthly',
+  'Professional Grooming':    'Professional',
+  'Occasional Bath/Brush':    'Occasional',
+};
 
 const COAT_LABELS: Record<string, string> = {
-  double:  '🐾 Double coat',
-  long:    '🐾 Long coat',
-  short:   '🐾 Short coat',
-  wiry:    '🐾 Wire coat',
-  curly:   '🐾 Curly coat',
-  silky:   '🐾 Silky coat',
-  corded:  '🐾 Corded coat',
-  hairless:'🐾 Hairless',
-  wavy:    '🐾 Wavy coat',
+  double:   'Double coat',
+  long:     'Long coat',
+  short:    'Short coat',
+  wiry:     'Wire coat',
+  curly:    'Curly coat',
+  silky:    'Silky coat',
+  corded:   'Corded coat',
+  hairless: 'Hairless',
+  wavy:     'Wavy coat',
+  medium:   'Medium coat',
 };
+
+const cap = (s?: string) => s ? s.charAt(0).toUpperCase() + s.slice(1) : 'Unknown';
+
+const groomLabel = GROOMING_SHORT[grooming_freq] ?? grooming_freq ?? 'As needed';
+const demeanorLabel = traits.demeanor_value >= DEMEANOR_SOCIAL
+  ? 'Very social'
+  : traits.demeanor_value >= DEMEANOR_FRIENDLY
+  ? 'Friendly'
+  : 'Reserved';
+
+const stats = [
+  { label: 'Energy',      value: traits.energy_value,       text: cap(energy_level),  type: 'energy'   },
+  { label: 'Shedding',    value: traits.shedding_value,     text: cap(shedding_level),type: 'shedding' },
+  { label: 'Trainability',value: traits.trainability_value, text: cap(training_level),type: 'training' },
+  { label: 'Grooming',    value: traits.grooming_value,     text: groomLabel,          type: 'grooming' },
+  { label: 'Friendliness',value: traits.demeanor_value,     text: demeanorLabel,       type: 'demeanor' },
+];
 ---
 
 <div class="breed-stats">
-  {stats.map(s => (
-    <div class="breed-stat">
-      <span class="breed-stat__label">{s.label}</span>
-      <div class="breed-stat__bar-track">
-        <div
-          class={`breed-stat__bar-fill breed-stat__bar-fill--${s.type}`}
-          style={`width: ${s.pct}%`}
-          role="progressbar"
-          aria-valuenow={s.pct}
-          aria-valuemin={0}
-          aria-valuemax={100}
-        />
+  {stats.map(s => {
+    const pct = Math.round(s.value * 100);
+    return (
+      <div class="breed-stat">
+        <span class="breed-stat__label">{s.label}</span>
+        <div class="breed-stat__bar-track">
+          <div
+            class={`breed-stat__bar-fill breed-stat__bar-fill--${s.type}`}
+            style={`width: ${pct}%`}
+            role="progressbar"
+            aria-label={`${s.label}: ${s.text}`}
+            aria-valuenow={pct}
+            aria-valuemin={0}
+            aria-valuemax={100}
+          />
+        </div>
+        <span class="breed-stat__value">{s.text}</span>
       </div>
-      <span class="breed-stat__value">{s.text}</span>
-    </div>
-  ))}
-  <div class="breed-stat">
+    );
+  })}
+  <div class="breed-stat breed-stat--coat">
     <span class="breed-stat__label">Coat type</span>
-    <span class="breed-stat__value">{COAT_LABELS[coat_type] || `🐾 ${coat_type}`}</span>
+    <span class="breed-stat__coat-icon" aria-hidden="true">
+      <Icon name="grooming" size={14} />
+    </span>
+    <span class="breed-stat__value">{COAT_LABELS[coat_type] ?? coat_type ?? 'Unknown'}</span>
   </div>
 </div>
+
+<style>
+  .breed-stats {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .breed-stat {
+    display: grid;
+    grid-template-columns: 6rem 1fr 5.5rem;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .breed-stat--coat {
+    grid-template-columns: 6rem auto 1fr;
+  }
+
+  .breed-stat__label {
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semi);
+    color: var(--color-muted);
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .breed-stat__bar-track {
+    height: 6px;
+    border-radius: var(--radius-full);
+    background: var(--color-border);
+    overflow: hidden;
+  }
+
+  .breed-stat__bar-fill {
+    height: 100%;
+    border-radius: inherit;
+    transition: width 0.4s ease;
+  }
+
+  .breed-stat__bar-fill--energy   { background: var(--color-accent); }
+  .breed-stat__bar-fill--shedding { background: var(--color-meter-shedding); }
+  .breed-stat__bar-fill--training { background: var(--color-success); }
+  .breed-stat__bar-fill--grooming { background: var(--color-meter-grooming); }
+  .breed-stat__bar-fill--demeanor { background: var(--color-meter-friendly); }
+
+  .breed-stat__value {
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semi);
+    color: var(--color-body);
+    white-space: nowrap;
+  }
+
+  .breed-stat__coat-icon {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-accent);
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 480px) {
+    .breed-stat {
+      grid-template-columns: 5rem 1fr 4.5rem;
+    }
+  }
+</style>

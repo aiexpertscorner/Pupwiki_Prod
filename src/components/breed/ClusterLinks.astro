@@ -1,27 +1,26 @@
 ---
+import Icon, { type IconName } from '../ui/Icon.astro';
+
 export interface Props {
-  slug:         string;
-  breed_name:   string;
-  content:      Record<string, boolean>;
-  link_map:     Record<string, string>;
+  slug:       string;
+  breed_name: string;
+  content:    Record<string, boolean>;
+  link_map:   Record<string, string>;
 }
 
 const { slug, breed_name, content, link_map } = Astro.props;
-
 const n = breed_name;
 
-const CLUSTERS = [
-  { key: 'food_post',       href: link_map.food_post,       emoji: '🍖', label: `Best food for ${n}s`,        priority: 'P1', hideWhenMissing: false },
-  { key: 'toy_post',        href: link_map.toy_post,         emoji: '🎾', label: `Best toys for ${n}s`,        priority: 'P1', hideWhenMissing: false },
-  { key: 'names_page',      href: link_map.names_page,       emoji: '✍️', label: `${n} names`,                 priority: 'P1', hideWhenMissing: false },
-  { key: 'bed_post',        href: link_map.bed_post,         emoji: '🛏️', label: `Best beds for ${n}s`,        priority: 'P2', hideWhenMissing: false },
-  { key: 'grooming_post',   href: link_map.grooming_post,    emoji: '✂️', label: `${n} grooming guide`,        priority: 'P2', hideWhenMissing: false },
-  // health_post < 5% coverage — only show link when content actually exists
-  { key: 'health_post',     href: link_map.health_post,      emoji: '🩺', label: `${n} health problems`,       priority: 'P2', hideWhenMissing: true },
-  // supplement_post ~0% coverage — suppress placeholder until content exists
-  { key: 'supplement_post', href: link_map.supplement_post,  emoji: '💊', label: `Best supplements for ${n}s`, priority: 'P3', hideWhenMissing: true },
-  { key: 'training_post',   href: link_map.training_post,    emoji: '🦮', label: `How to train a ${n}`,        priority: 'P3', hideWhenMissing: false },
-  { key: 'cost_calculator', href: link_map.cost_calculator,  emoji: '💰', label: `${n} cost guide`,            priority: 'P3', hideWhenMissing: false },
+const CLUSTERS: Array<{ key: string; href: string; icon: IconName; label: string; hideWhenMissing: boolean }> = [
+  { key: 'food_post',       href: link_map.food_post       ?? `/breeds/${slug}/food`,        icon: 'food',        label: `Best food for ${n}s`,        hideWhenMissing: false },
+  { key: 'toy_post',        href: link_map.toy_post         ?? `/breeds/${slug}/toys`,        icon: 'toys',        label: `Best toys for ${n}s`,        hideWhenMissing: false },
+  { key: 'names_page',      href: link_map.names_page       ?? `/dog-names/${slug}`,          icon: 'names',       label: `${n} names`,                 hideWhenMissing: false },
+  { key: 'bed_post',        href: link_map.bed_post         ?? `/breeds/${slug}/beds`,        icon: 'beds',        label: `Best beds for ${n}s`,        hideWhenMissing: false },
+  { key: 'grooming_post',   href: link_map.grooming_post    ?? `/breeds/${slug}/grooming`,    icon: 'grooming',    label: `${n} grooming guide`,        hideWhenMissing: false },
+  { key: 'health_post',     href: link_map.health_post      ?? `/breeds/${slug}/health`,      icon: 'health',      label: `${n} health problems`,       hideWhenMissing: true  },
+  { key: 'supplement_post', href: link_map.supplement_post  ?? `/breeds/${slug}/supplements`, icon: 'supplements', label: `Best supplements for ${n}s`, hideWhenMissing: true  },
+  { key: 'training_post',   href: link_map.training_post    ?? `/breeds/${slug}/training`,    icon: 'training',    label: `How to train a ${n}`,        hideWhenMissing: false },
+  { key: 'cost_calculator', href: link_map.cost_calculator  ?? `/cost-calculator/${slug}`,    icon: 'calculator',  label: `${n} cost guide`,            hideWhenMissing: false },
 ];
 ---
 
@@ -32,12 +31,16 @@ const CLUSTERS = [
       if (!done && c.hideWhenMissing) return null;
       return done ? (
         <a href={c.href} class="cluster-nav__item cluster-nav__item--done">
-          <span class="cluster-nav__emoji" aria-hidden="true">{c.emoji}</span>
+          <span class="cluster-nav__icon" aria-hidden="true">
+            <Icon name={c.icon} size={16} />
+          </span>
           <span class="cluster-nav__label">{c.label}</span>
         </a>
       ) : (
         <span class="cluster-nav__item cluster-nav__item--pending" aria-disabled="true">
-          <span class="cluster-nav__emoji" aria-hidden="true">{c.emoji}</span>
+          <span class="cluster-nav__icon" aria-hidden="true">
+            <Icon name={c.icon} size={16} />
+          </span>
           <span class="cluster-nav__label">{c.label}</span>
         </span>
       );
@@ -46,9 +49,48 @@ const CLUSTERS = [
 </nav>
 
 <style>
+  .cluster-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .cluster-nav__item {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1-5);
+    padding: var(--space-2) var(--space-3);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    background: var(--color-surface);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semi);
+    color: var(--color-body);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+  }
+
+  .cluster-nav__item--done:hover {
+    background: var(--color-accent-subtle);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
   .cluster-nav__item--pending {
     opacity: 0.45;
     cursor: default;
     pointer-events: none;
+  }
+
+  .cluster-nav__icon {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-accent);
+    flex-shrink: 0;
+  }
+
+  .cluster-nav__item--pending .cluster-nav__icon {
+    color: var(--color-muted);
   }
 </style>

@@ -1157,7 +1157,7 @@
 }
 
 .shortlist-chip__remove:hover {
-  color: var(--color-danger, #dc2626);
+  color: var(--color-danger);
 }
 
 .shortlist-strip__clear {

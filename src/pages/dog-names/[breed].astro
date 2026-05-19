@@ -1,5 +1,8 @@
 ---
 import NameLayout from '../../layouts/NameLayout.astro';
+import AwinProductSlot from '../../components/affiliate/AwinProductSlot.astro';
+import AffiliateDisclosure from '../../components/AffiliateDisclosure.astro';
+import Icon, { type IconName } from '../../components/ui/Icon.astro';
 import masterBreeds from '../../data/master-breeds.json';
 import masterCrossbreeds from '../../data/master-crossbreeds.json';
 import allNamesData from '../../data/dog-names.json';
@@ -144,13 +147,17 @@ const profileRows = [
   b.origin_country ? ['Origin', b.origin_country] : null,
 ].filter(Boolean) as string[][];
 
-const guideLinks = [
-  links.hub && { href: links.hub, emoji: '🐾', label: `${n} complete guide` },
-  links.food_post && { href: links.food_post, emoji: '🍖', label: `Best food for ${n}s` },
-  links.toy_post && { href: links.toy_post, emoji: '🎾', label: `Best toys for ${n}s` },
-  links.health_post && { href: links.health_post, emoji: '🩺', label: `${n} health guide` },
-  links.training_post && { href: links.training_post, emoji: '🦮', label: `Training a ${n}` },
-].filter(Boolean) as any[];
+const COST_CALC_HREF = `/cost-calculator/${slug}`;
+const BASE_TOPIC = `/breeds/${slug}`;
+
+const guideLinks: Array<{ href: string; icon: IconName; label: string }> = [
+  { href: links.hub ?? BASE_TOPIC,                              icon: 'breed',       label: `${n} complete guide` },
+  { href: COST_CALC_HREF,                                       icon: 'calculator',  label: `${n} cost calculator` },
+  { href: links.food_post ?? `${BASE_TOPIC}/food`,              icon: 'food',        label: `Best food for ${n}s` },
+  { href: links.toy_post  ?? `${BASE_TOPIC}/toys`,              icon: 'toys',        label: `Best toys for ${n}s` },
+  { href: links.health_post ?? `${BASE_TOPIC}/health`,          icon: 'health',      label: `${n} health guide` },
+  { href: links.training_post ?? `${BASE_TOPIC}/training`,      icon: 'training',    label: `Training a ${n}` },
+];
 
 const categories = Array.from(new Set(allNames.map((item) => item.category).filter(Boolean))).sort();
 const inspirations = Array.from(new Set(allNames.map((item) => item.inspiration).filter(Boolean))).sort();
@@ -244,7 +251,21 @@ const faqLd = {
   ],
 };
 
-const jsonLd = [breadcrumbLd, faqLd];
+const topNamesList = allNames.slice(0, 20);
+const namesListLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `${n} Dog Names`,
+  description: `Popular ${n} dog names for male and female dogs`,
+  numberOfItems: topNamesList.length,
+  itemListElement: topNamesList.map((entry, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: entry.name,
+  })),
+};
+
+const jsonLd = [breadcrumbLd, faqLd, namesListLd];
 ---
 
 <NameLayout
@@ -703,15 +724,26 @@ const jsonLd = [breadcrumbLd, faqLd];
                 <p class="dog-name-detail-eyebrow">{n} Guides</p>
 
                 <nav class="dog-name-sidebar-nav" aria-label={`${n} related guides`}>
-                  {guideLinks.map((item: any) => (
+                  {guideLinks.map((item) => (
                     <a href={item.href}>
-                      <span>{item.emoji}</span>
-                      <span>{item.label} →</span>
+                      <span><Icon name={item.icon} size={16} /></span>
+                      <span>{item.label} <Icon name="arrow-right" size={12} /></span>
                     </a>
                   ))}
                 </nav>
               </div>
             )}
+
+            <div class="dog-name-sidebar-card">
+              <AwinProductSlot
+                topicTags={['toys', 'enrichment', 'accessories', slug, b.size_category, b.energy_level].filter(Boolean) as string[]}
+                pageType="names"
+                breedSize={b.size_category}
+                breedEnergy={b.energy_level}
+                headline={`Accessories for ${n} owners`}
+              />
+              <AffiliateDisclosure />
+            </div>
 
             <a href="/dog-names" class="dog-name-sidebar-cta">
               Browse all breed names →
