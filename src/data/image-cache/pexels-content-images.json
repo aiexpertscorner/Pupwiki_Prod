@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-19T19:59:17.115Z",
+  "syncedAt": "2026-05-19T20:24:49.644Z",
   "images": {
     "affenpinscher-health-problems:Affenpinscher dog veterinarian wellness": {
       "url": "https://images.pexels.com/photos/6234980/pexels-photo-6234980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
@@ -18307,9 +18307,9 @@
     }
   },
   "stats": {
-    "scanned": 21,
-    "changed": 21,
-    "skipped": 762,
+    "scanned": 0,
+    "changed": 0,
+    "skipped": 793,
     "failed": 0,
     "force": false,
     "dry": false
