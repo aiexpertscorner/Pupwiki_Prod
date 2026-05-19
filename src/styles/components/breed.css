@@ -7,10 +7,7 @@
   gap: var(--space-10);
 }
 
-.breed-hero {
-  background: linear-gradient(180deg, #fffaf3 0%, #ffffff 100%);
-  border-bottom: 1px solid var(--color-border-warm);
-}
+/* .breed-hero base styles consolidated in breed-page.css */
 
 .breed-hero__inner {
   display: grid;
@@ -52,7 +49,7 @@
   gap: 0.35rem;
   padding: 0.4rem 0.8rem;
   border-radius: var(--radius-full);
-  background: white;
+  background: var(--card-bg);
   border: 1px solid var(--color-border);
   color: var(--color-body);
   font-size: var(--text-xs);
@@ -69,7 +66,7 @@
   padding: var(--space-4);
   border-radius: var(--radius-2xl);
   border: 1px solid var(--color-border);
-  background: white;
+  background: var(--card-bg);
   box-shadow: var(--shadow-card);
 }
 
@@ -120,7 +117,7 @@
   place-items: center;
   border-radius: var(--radius-full);
   background: var(--color-success);
-  color: white;
+  color: var(--color-text-inverse);
   font-size: 0.75rem;
   font-weight: var(--weight-bold);
 }
@@ -139,7 +136,7 @@
   padding: var(--space-4);
   border-radius: var(--radius-2xl);
   border: 1px solid var(--color-border);
-  background: white;
+  background: var(--card-bg);
   box-shadow: var(--shadow-card);
   color: var(--color-heading);
   transition: border-color var(--transition-base), box-shadow var(--transition-base), transform var(--transition-base);

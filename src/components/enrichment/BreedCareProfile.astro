@@ -1,4 +1,6 @@
 ---
+import Icon, { type IconName } from '../ui/Icon.astro';
+
 interface CareProfile {
   summary: string;
   ownerFit: string;
@@ -15,31 +17,118 @@ interface Props {
 
 const { breedName, careProfile } = Astro.props;
 
-const rows = [
-  { icon: '🏃', label: 'Exercise', value: careProfile.exerciseNeeds },
-  { icon: '🎓', label: 'Training', value: careProfile.trainingNotes },
-  { icon: '✂️', label: 'Grooming', value: careProfile.groomingNotes },
-  { icon: '🍽️', label: 'Feeding', value: careProfile.feedingContext },
+const rows: Array<{ icon: IconName; label: string; value: string }> = [
+  { icon: 'exercise',  label: 'Exercise', value: careProfile.exerciseNeeds },
+  { icon: 'training',  label: 'Training', value: careProfile.trainingNotes },
+  { icon: 'grooming',  label: 'Grooming', value: careProfile.groomingNotes },
+  { icon: 'feeding',   label: 'Feeding',  value: careProfile.feedingContext },
 ];
 ---
 
-<div class="breed-care-profile rounded-2xl overflow-hidden" style="border:1px solid var(--color-border-warm);background:var(--color-bg-soft)">
-  <div class="px-5 py-4" style="background:var(--color-surface-warm);border-bottom:1px solid var(--color-border-warm)">
-    <p class="font-sans text-xs font-bold uppercase tracking-widest mb-0.5" style="color:var(--color-accent)">Care Profile</p>
-    <h3 class="font-sans text-base font-bold m-0" style="color:var(--color-heading)">{breedName} at a Glance</h3>
+<div class="care-profile">
+  <div class="care-profile__header">
+    <p class="care-profile__eyebrow">Care Profile</p>
+    <h3 class="care-profile__title">{breedName} at a Glance</h3>
   </div>
-  <div class="px-5 py-4">
-    <p class="font-sans text-sm mb-4" style="color:var(--color-muted)">{careProfile.ownerFit}</p>
-    <div class="flex flex-col gap-3">
+  <div class="care-profile__body">
+    <p class="care-profile__owner-fit">{careProfile.ownerFit}</p>
+    <div class="care-profile__rows">
       {rows.map(row => (
-        <div class="flex gap-3 items-start">
-          <span class="text-base leading-none mt-0.5 shrink-0">{row.icon}</span>
+        <div class="care-profile__row">
+          <span class="care-profile__icon-wrap" aria-hidden="true">
+            <Icon name={row.icon} size={18} />
+          </span>
           <div>
-            <span class="font-sans text-xs font-bold uppercase tracking-wider" style="color:var(--color-accent)">{row.label}</span>
-            <p class="font-sans text-sm mt-0.5 mb-0" style="color:var(--color-heading)">{row.value}</p>
+            <span class="care-profile__label">{row.label}</span>
+            <p class="care-profile__value">{row.value}</p>
           </div>
         </div>
       ))}
     </div>
   </div>
 </div>
+
+<style>
+  .care-profile {
+    border: 1px solid var(--color-border-warm);
+    border-radius: var(--radius-2xl);
+    background: var(--color-bg-soft);
+    overflow: hidden;
+  }
+
+  .care-profile__header {
+    background: var(--color-surface-warm);
+    border-bottom: 1px solid var(--color-border-warm);
+    padding: var(--space-4) var(--space-5);
+  }
+
+  .care-profile__eyebrow {
+    margin: 0 0 var(--space-1);
+    color: var(--color-accent);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-black);
+    letter-spacing: var(--tracking-label);
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .care-profile__title {
+    margin: 0;
+    color: var(--color-heading);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+  }
+
+  .care-profile__body {
+    padding: var(--space-4) var(--space-5);
+  }
+
+  .care-profile__owner-fit {
+    margin: 0 0 var(--space-4);
+    color: var(--color-muted);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .care-profile__rows {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .care-profile__row {
+    display: flex;
+    gap: var(--space-3);
+    align-items: flex-start;
+  }
+
+  .care-profile__icon-wrap {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: var(--radius-lg);
+    background: var(--color-accent-subtle);
+    color: var(--color-accent);
+    flex-shrink: 0;
+  }
+
+  .care-profile__label {
+    display: block;
+    color: var(--color-accent);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-black);
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+    line-height: 1;
+  }
+
+  .care-profile__value {
+    margin: var(--space-1) 0 0;
+    color: var(--color-heading);
+    font-size: var(--text-sm);
+    line-height: var(--leading-snug);
+  }
+</style>

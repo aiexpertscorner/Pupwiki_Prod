@@ -36,7 +36,7 @@ const CLUSTERS = [
           <span class="cluster-nav__label">{c.label}</span>
         </a>
       ) : (
-        <span class="cluster-nav__item" style="opacity: 0.45; cursor: default;">
+        <span class="cluster-nav__item cluster-nav__item--pending" aria-disabled="true">
           <span class="cluster-nav__emoji" aria-hidden="true">{c.emoji}</span>
           <span class="cluster-nav__label">{c.label}</span>
         </span>
@@ -44,3 +44,11 @@ const CLUSTERS = [
     })}
   </div>
 </nav>
+
+<style>
+  .cluster-nav__item--pending {
+    opacity: 0.45;
+    cursor: default;
+    pointer-events: none;
+  }
+</style>
