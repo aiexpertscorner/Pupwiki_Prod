@@ -3,6 +3,7 @@
  * BreedResourceHub.astro
  * High-intent internal linking module for breed detail pages.
  */
+import Icon, { type IconName } from '../ui/Icon.astro';
 
 export interface ResourceItem {
   href?: string;
@@ -30,9 +31,9 @@ const {
   description = 'Move from breed research to real decisions: costs, food, training, health context, names, lifecycle hubs and partner resources.',
 } = Astro.props;
 
-const enabledItems = items.filter((item) => item.href);
+const enabledItems  = items.filter((item) => item.href);
 const disabledItems = items.filter((item) => !item.href && item.available !== false).slice(0, 3);
-const visibleItems = [...enabledItems, ...disabledItems];
+const visibleItems  = [...enabledItems, ...disabledItems];
 ---
 
 {visibleItems.length > 0 && (
@@ -46,19 +47,24 @@ const visibleItems = [...enabledItems, ...disabledItems];
     <div class="breed-resource-hub__grid">
       {visibleItems.map((item) => {
         const Tag = item.href ? 'a' : 'div';
+        const iconName = (item.icon || 'pawprint') as IconName;
         return (
           <Tag
             href={item.href}
             class:list={['breed-resource-card', item.featured && 'is-featured', !item.href && 'is-disabled']}
             title={!item.href ? 'Content in progress' : undefined}
           >
-            <span class="breed-resource-card__icon" aria-hidden="true">{item.icon || '🐾'}</span>
+            <span class="breed-resource-card__icon" aria-hidden="true">
+              <Icon name={iconName} size={20} />
+            </span>
             <span class="breed-resource-card__body">
               <strong>{item.label}</strong>
               {item.description && <em>{item.description}</em>}
             </span>
             {(item.badge || !item.href) && <span class="breed-resource-card__badge">{item.badge || 'Coming soon'}</span>}
-            {item.href && <span class="breed-resource-card__arrow" aria-hidden="true">→</span>}
+            {item.href && <span class="breed-resource-card__arrow" aria-hidden="true">
+              <Icon name="arrow-right" size={16} />
+            </span>}
           </Tag>
         );
       })}

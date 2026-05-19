@@ -1,0 +1,908 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/primitives/Breadcrumb.astro';
+import AwinProductSlot from '../../../components/affiliate/AwinProductSlot.astro';
+import AffiliateDisclosure from '../../../components/AffiliateDisclosure.astro';
+import Icon, { type IconName } from '../../../components/ui/Icon.astro';
+
+import masterBreeds from '../../../data/master-breeds.json';
+import masterCrossbreeds from '../../../data/master-crossbreeds.json';
+import breedLinkMap from '../../../data/breed-link-map.json';
+
+const TOPICS = ['food', 'toys', 'beds', 'grooming', 'training', 'health', 'supplements', 'puppy'] as const;
+type Topic = typeof TOPICS[number];
+
+interface BreedData {
+  slug: string;
+  name: string;
+  size_category?: string;
+  energy_level?: string;
+  coat_type?: string;
+  grooming_freq?: string;
+  shedding_level?: string;
+  training_level?: string;
+  akc_group?: string;
+  weight?: { min_lbs?: number; max_lbs?: number };
+  life_expectancy?: { min?: number; max?: number };
+  ranking_data?: {
+    intelligence_rank?: number;
+    genetic_ailments?: number;
+    genetic_ailment_names?: string;
+    purchase_price_usd?: number;
+    annual_food_cost?: number;
+    lifetime_cost_usd?: number;
+  };
+  care_tips?: string[];
+}
+
+export function getStaticPaths() {
+  const topics = ['food', 'toys', 'beds', 'grooming', 'training', 'health', 'supplements', 'puppy'] as const;
+  const all = [...(masterBreeds as BreedData[]), ...(masterCrossbreeds as BreedData[])];
+  return all
+    .filter(b => b?.slug)
+    .flatMap(breed =>
+      topics.map(topic => ({
+        params: { breed: breed.slug, topic },
+        props: { breed },
+      }))
+    );
+}
+
+const { breed } = Astro.props as { breed: BreedData };
+const { topic } = Astro.params as { breed: string; topic: Topic };
+const links = (breedLinkMap as Record<string, Record<string, string>>)[breed.slug] || {};
+
+// ── Breed trait helpers ──────────────────────────────────────────────────────
+const n        = breed.name;
+const size     = breed.size_category || 'medium';
+const energy   = breed.energy_level  || 'moderate';
+const coatType = breed.coat_type     || 'short';
+const groomFreq    = breed.grooming_freq  || 'Weekly Brushing';
+const sheddingLvl  = breed.shedding_level || 'moderate';
+const trainingLvl  = breed.training_level || 'moderate';
+const maxLbs       = breed.weight?.max_lbs ?? 50;
+const lifeMin      = breed.life_expectancy?.min ?? 10;
+const lifeMax      = breed.life_expectancy?.max ?? 14;
+const ailments     = breed.ranking_data?.genetic_ailments ?? 0;
+const ailmentNames = breed.ranking_data?.genetic_ailment_names ?? '';
+const purchasePrice = breed.ranking_data?.purchase_price_usd;
+const annualFood    = breed.ranking_data?.annual_food_cost;
+const intRank       = breed.ranking_data?.intelligence_rank;
+
+const hasJointRisk = ailmentNames.toLowerCase().includes('hip') || ailmentNames.toLowerCase().includes('elbow');
+const isLarge      = size === 'large' || size === 'extra-large';
+const isHeavyShed  = sheddingLvl === 'heavy';
+const isActive     = energy === 'active' || energy === 'high';
+const isEasyTrain  = trainingLvl === 'easy';
+
+const fmt = (v: number) =>
+  v.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+
+// ── Topic configuration ──────────────────────────────────────────────────────
+interface Section { heading: string; body: string }
+interface FAQ     { q: string; a: string }
+interface TopicCfg {
+  title: string;
+  eyebrow: string;
+  icon: IconName;
+  intro: string;
+  awinTags: string[];
+  sections: Section[];
+  faqs: FAQ[];
+}
+
+const CFG: Record<Topic, TopicCfg> = {
+
+  // ── FOOD ──
+  food: {
+    title:   `Best Dog Food for ${n}s`,
+    eyebrow: 'Nutrition guide',
+    icon:    'food',
+    intro:   `${n}s are ${size}-sized dogs with ${energy} energy needs. Choosing the right food affects weight management, coat health, and longevity.`,
+    awinTags: ['food', 'nutrition', 'fresh-food', 'feeding'],
+    sections: [
+      {
+        heading: `Portion sizing for a ${n}`,
+        body: isLarge
+          ? `${n}s typically reach ${maxLbs} lbs at maturity. Most adults need 3–5 cups of quality dry kibble per day split across two meals. Adjust based on activity — ${isActive ? 'your active ' + n + ' may need more calories than sedentary breeds' : 'monitor weight and reduce portions if activity decreases'}.`
+          : `${n}s typically reach up to ${maxLbs} lbs. Smaller dogs have faster metabolisms, but calorie-dense food can quickly cause obesity. Stick to the manufacturer's weight-based serving guide and weigh food rather than estimating cups.`,
+      },
+      {
+        heading: 'Protein and fat priorities',
+        body: isActive
+          ? `Active ${n}s thrive on high-protein formulas (25%+ protein by dry matter). Look for a named animal protein (chicken, salmon, turkey) as the first ingredient. Higher fat content (14–18%) supports their energy level and coat quality.`
+          : `${n}s with moderate energy do well on standard adult formulas with 18–25% protein. Avoid overfeeding calorie-dense performance foods unless your dog is consistently very active.`,
+      },
+      {
+        heading: 'Feeding schedule',
+        body: `Feed adult ${n}s twice daily — morning and evening — rather than once a day or free-feeding. Consistent timing supports digestion${isLarge ? ', reduces bloat risk,' : ''} and keeps energy levels stable throughout the day.`,
+      },
+      {
+        heading: hasJointRisk ? 'Joint-supporting nutrition' : 'Weight monitoring',
+        body: hasJointRisk
+          ? `${n}s are prone to joint issues (${ailmentNames}). Foods enriched with glucosamine and chondroitin support cartilage health. Omega-3s from fish oil reduce joint inflammation — look for fresh-food and wet food formulas that include these.`
+          : `Keeping your ${n} at a healthy weight is the single biggest factor in longevity. Weigh monthly — ribs should be easily felt but not visible. Reduce portions by 10% if your dog is gaining.`,
+      },
+    ],
+    faqs: [
+      { q: `How much should I feed my ${n}?`, a: `Most adult ${n}s need ${isLarge ? '3–5' : '1–3'} cups of dry kibble per day split into two meals. The exact amount depends on the food's calorie density, your dog's activity level, and whether they're spayed/neutered. Use the manufacturer's weight chart as a starting point and adjust based on body condition.` },
+      { q: `What is the best food type for a ${n}?`, a: `${n}s generally do well on premium dry kibble, raw, or fresh-food diets. The most important factor is a named protein as the first ingredient with no excessive fillers. ${isActive ? 'For active ' + n + 's, high-protein formulas support muscle maintenance.' : 'Standard adult formulas are appropriate for most ' + n + 's.'}` },
+      { q: `How often should I feed my ${n}?`, a: `Twice daily (morning and evening) is the standard for adult ${n}s. Puppies under 6 months need three meals a day. Avoid free-feeding — it makes it harder to monitor intake and can lead to weight gain.` },
+      { q: `Do ${n}s have food allergies?`, a: `${n}s can develop sensitivities to common proteins (chicken, beef) or grains (wheat). If your dog shows itching, digestive upset, or recurring ear infections, a limited-ingredient or novel-protein diet is worth discussing with your vet.` },
+      { q: `How do I know if my ${n} is overweight?`, a: `You should feel your ${n}'s ribs easily without pressing hard, but not see them. From above, they should have a visible waist. If you can't feel ribs or the waist has disappeared, reduce portions and increase exercise.` },
+      ...(annualFood ? [{ q: `What's a realistic food budget for a ${n}?`, a: `Average annual food costs for a ${n} run around ${fmt(annualFood)}, depending on whether you choose kibble, fresh, or raw. Premium diets cost more but may reduce vet costs over time.` }] : []),
+    ],
+  },
+
+  // ── TOYS ──
+  toys: {
+    title:   `Best Toys for ${n}s`,
+    eyebrow: 'Play & enrichment',
+    icon:    'toys',
+    intro:   `${n}s are ${energy} dogs that need regular mental and physical stimulation. The right toys prevent boredom, reduce destructive behavior, and keep your dog fit.`,
+    awinTags: ['toys', 'enrichment', 'puzzle', 'fetch'],
+    sections: [
+      {
+        heading: 'Matching toy type to energy level',
+        body: isActive
+          ? `High-energy ${n}s benefit most from fetch toys, tug ropes, and durable chews. Interactive sessions of 20–30 minutes twice daily help burn energy. Puzzle feeders add mental stimulation on top of physical play.`
+          : `${n}s with moderate energy still need daily play but may prefer shorter sessions. A mix of fetch toys and puzzle toys engages their mind without over-stimulating.`,
+      },
+      {
+        heading: 'Size and durability',
+        body: `For a ${size} breed like the ${n}${maxLbs ? ` (up to ${maxLbs} lbs)` : ''}, toys must be appropriately sized — small toys are a choking hazard and will be destroyed quickly. Look for rubber or nylon toys rated for ${isLarge ? 'large' : 'medium'} breeds. Avoid soft stuffed toys if your dog is a heavy chewer.`,
+      },
+      {
+        heading: 'Mental stimulation',
+        body: intRank && intRank <= 30
+          ? `${n}s rank among the more intelligent breeds (#${intRank} in obedience intelligence). Puzzle feeders, snuffle mats, and stuffable toys channel that intelligence productively — without this outlet, smart breeds often resort to destructive behavior.`
+          : `Puzzle toys benefit any dog. Start with Level 1 puzzle feeders and increase complexity as your dog solves them. Ten minutes of puzzle play tires most dogs as much as a 30-minute walk.`,
+      },
+      {
+        heading: 'Toy rotation',
+        body: `Rotate toys every 3–5 days to maintain novelty. Keep 8–10 toys total and bring out 2–3 at a time. This makes old toys feel new again without constantly buying replacements.`,
+      },
+    ],
+    faqs: [
+      { q: `What toys are best for ${n}s?`, a: `${n}s do well with ${isActive ? 'fetch balls, tug ropes, and durable chews' : 'interactive puzzles, tug toys, and moderate chews'}. Match toy durability and engagement level to your dog's energy. ${isLarge ? "Always size up — a toy that fits fully in your dog's mouth is a choking hazard." : ''}` },
+      { q: `How long should I play with my ${n} each day?`, a: isActive ? `Active ${n}s need at least 60–90 minutes of physical activity daily, including play, walks, and fetch. Split this across multiple sessions rather than one long one.` : `${n}s typically need 30–60 minutes of active play daily. Puzzle toys and training sessions supplement physical play well.` },
+      { q: `Are puzzle toys worth it for ${n}s?`, a: `Yes. Mental fatigue from a 15-minute puzzle session can tire a dog as much as physical exercise. ${intRank && intRank <= 50 ? `${n}s place in the upper half of canine intelligence rankings — they particularly benefit from puzzle-based enrichment.` : 'Even average-intelligence breeds benefit from slow feeders and foraging toys.'}` },
+      { q: `What toys are safest for ${n}s?`, a: `Choose toys rated for your dog's chew strength and size. Rubber toys and rope toys are generally safe. Avoid toys with small removable parts, synthetic stuffing in dogs that disembowel plush toys, and rawhide (digestive risk).` },
+      { q: `How often should I replace my ${n}'s toys?`, a: `Inspect toys weekly. Replace when pieces are missing, edges are sharp, or the toy has been chewed to the point where chunks could be swallowed. Most quality rubber toys last 6–18 months with a heavy chewer.` },
+    ],
+  },
+
+  // ── BEDS ──
+  beds: {
+    title:   `Best Dog Beds for ${n}s`,
+    eyebrow: 'Sleep & comfort guide',
+    icon:    'beds',
+    intro:   `${n}s sleep up to 14 hours a day. A properly sized, supportive bed protects joints, regulates temperature, and gives your dog a secure space of their own.`,
+    awinTags: ['beds', 'sleep', 'crate', 'comfort'],
+    sections: [
+      {
+        heading: `Sizing your ${n}'s bed`,
+        body: `Your ${n} needs enough room to stretch fully. For a ${size} breed reaching ${maxLbs} lbs, choose a bed at least ${isLarge ? '42"' : '30"'} long. Measure your dog nose-to-tail while sleeping stretched out, then add 6–8 inches.`,
+      },
+      {
+        heading: hasJointRisk ? 'Orthopedic support' : 'Comfort and support',
+        body: hasJointRisk
+          ? `${n}s are prone to joint issues (${ailmentNames}). Memory foam or orthopedic beds distribute body weight evenly and reduce pressure on joints. Look for beds with 3–4 inches of high-density foam rated for your dog's weight — especially important for ${n}s over 5 years old.`
+          : `${n}s generally do well with bolstered beds that provide a headrest and side support. Self-warming fleece options suit ${sheddingLvl === 'minimal' || coatType === 'short' ? 'short-coated breeds like the ' + n : n + 's in cooler climates'}.`,
+      },
+      {
+        heading: 'Placement and routine',
+        body: `Place your ${n}'s bed in a low-traffic area away from drafts. Dogs sleep better when their bed smells familiar — avoid washing too frequently (every 2–4 weeks is ideal). If crate training, a crate-specific mat creates a den-like environment.`,
+      },
+      {
+        heading: 'Durability and washability',
+        body: `Look for beds with removable, machine-washable covers. ${n}s${isHeavyShed ? ', being heavy shedders,' : ''} accumulate fur quickly — a washable cover significantly extends usable life. Check that zippers are recessed so your dog can't access the fill material.`,
+      },
+    ],
+    faqs: [
+      { q: `What size bed does a ${n} need?`, a: `A ${size} ${n} reaching ${maxLbs} lbs needs at least a ${isLarge ? 'large (42") or extra-large (50")' : 'medium (30") or large (36")'} bed. Measure your dog stretched out fully and add 6–8 inches on each end.` },
+      { q: `Do ${n}s need orthopedic beds?`, a: hasJointRisk ? `Yes — ${n}s are prone to ${ailmentNames}, making orthopedic memory foam beds a sound investment. High-density foam reduces joint pressure and can help slow arthritis progression.` : `Orthopedic beds benefit any large breed after age 5, even without diagnosed joint problems. They distribute weight better than poly-fill beds and hold shape longer.` },
+      { q: `Should I get a crate mat or a full dog bed?`, a: `For puppies or dogs still being crate-trained, a washable crate mat is more practical — it fits snugly and is easy to clean. Once fully house-trained, a full-size bed gives more comfort.` },
+      { q: `How often should I wash my ${n}'s bed?`, a: `Wash the cover every 2–4 weeks under normal use, or more often if your ${n} has skin issues or spends time outdoors. The foam insert rarely needs washing — spot-clean as needed and air it out regularly.` },
+      { q: `How long do dog beds last?`, a: `A quality orthopedic bed should last 2–4 years. Replace when you see visible sagging, the foam no longer springs back, seams are split, or persistent odor remains even after washing.` },
+    ],
+  },
+
+  // ── GROOMING ──
+  grooming: {
+    title:   `${n} Grooming Guide`,
+    eyebrow: 'Coat care & grooming',
+    icon:    'grooming',
+    intro:   `${n}s have a ${coatType} coat that requires ${groomFreq.toLowerCase()}. Regular grooming keeps their coat healthy, reduces shedding, and helps you spot skin issues early.`,
+    awinTags: ['grooming', 'brushing', 'coat', 'shampoo'],
+    sections: [
+      {
+        heading: 'Brushing routine',
+        body: groomFreq === 'Daily Brushing'
+          ? `${n}s need daily brushing to prevent matting and manage their coat. Use a slicker brush followed by a wide-tooth comb to work through the entire coat. Daily sessions of 10–15 minutes are enough when done consistently.`
+          : `Brush your ${n} ${groomFreq.toLowerCase()} minimum. ${isHeavyShed ? 'As heavy shedders, increase to 2–3× per week during seasonal coat blows in spring and fall.' : 'Consistent weekly brushing removes dead hair before it ends up on furniture.'}`,
+      },
+      {
+        heading: 'Bathing',
+        body: `Bathe your ${n} every 4–8 weeks or when visibly dirty. Use a dog-specific shampoo matched to their coat type. ${coatType === 'double' ? 'Double-coated breeds need thorough rinsing — soap residue trapped in the undercoat causes skin irritation.' : 'Always rinse thoroughly and dry completely to prevent skin issues.'}`,
+      },
+      {
+        heading: 'Tools you\'ll need',
+        body: coatType === 'double' || coatType === 'thick'
+          ? `Essential tools for a ${n}: an undercoat rake and slicker brush for deshedding, plus a metal comb to check for mats. Nail clippers or a grinder, ear-cleaning solution, and dog-safe dental products complete the kit.`
+          : coatType === 'curly' || coatType === 'wavy'
+          ? `For a ${n}'s ${coatType} coat: a pin brush prevents matting without breaking the curl pattern; follow with a slicker brush. Grooming shears for trimming around the face and feet round out the essentials.`
+          : `A rubber curry brush or firm bristle brush works well for ${n}s' short coat. Add nail clippers, ear-cleaning solution, and dog-safe toothpaste for a complete at-home routine.`,
+      },
+      {
+        heading: 'Professional grooming',
+        body: groomFreq === 'Professional Grooming'
+          ? `${n}s require professional grooming every 6–10 weeks for trimming and shaping that's difficult to do safely at home. A professional groom typically includes bath, blow-dry, haircut, nail trim, and ear cleaning. Budget $60–$120+ per session.`
+          : `Even with regular at-home brushing, schedule a professional groom 2–4 times per year for nail grinding, ear cleaning, and a proper deshedding treatment — especially valuable during the spring coat blow.`,
+      },
+    ],
+    faqs: [
+      { q: `How often do ${n}s need grooming?`, a: `${n}s require ${groomFreq.toLowerCase()}. ${isHeavyShed ? 'As heavy shedders, you may need to brush more frequently — up to daily — during seasonal shed periods in spring and fall.' : ''}` },
+      { q: `Do ${n}s shed a lot?`, a: `${n}s are ${sheddingLvl} shedders. ${isHeavyShed ? 'Expect significant year-round shedding with major blowouts twice a year. Regular brushing and a deshedding treatment during coat blow dramatically reduces loose fur in your home.' : 'Regular brushing will keep shedding manageable.'}` },
+      { q: `How often should I bathe my ${n}?`, a: `Most ${n}s need a bath every 4–8 weeks. Bathing too frequently strips natural oils from the coat and skin. A rinse-only bath between regular shampoo sessions is fine when needed.` },
+      { q: `What brush is best for a ${n}?`, a: `For ${n}s with a ${coatType} coat: ${coatType === 'double' ? 'an undercoat rake is most effective for removing dead undercoat, followed by a slicker brush for the topcoat' : coatType === 'curly' || coatType === 'wavy' ? 'a pin brush prevents matting without breaking the curl; follow with a slicker brush' : 'a rubber curry brush or firm bristle brush is ideal for their short coat'}.` },
+      { q: `Do I need to take my ${n} to a professional groomer?`, a: groomFreq === 'Professional Grooming' ? `Yes — ${n}s need professional grooming every 6–10 weeks for coat trimming and shaping that's difficult to do safely at home.` : `Professional grooming is optional for ${n}s but recommended 2–4 times a year for a proper deshedding, nail grind, and ear cleaning.` },
+      { q: `How do I clean my ${n}'s ears?`, a: `Check ears weekly. Gently wipe the visible outer ear with a dog ear-cleaning solution on a cotton ball. Never insert anything into the ear canal. Redness, odor, or excessive head shaking warrants a vet visit.` },
+    ],
+  },
+
+  // ── TRAINING ──
+  training: {
+    title:   `How to Train a ${n}`,
+    eyebrow: 'Training guide',
+    icon:    'training',
+    intro:   `${n}s are ${isEasyTrain ? 'highly trainable and eager to please' : trainingLvl === 'difficult' ? 'independent-minded, which requires patient, consistent training' : 'trainable with consistent positive reinforcement'}. Here's what owners need to know.`,
+    awinTags: ['training', 'treats', 'clicker', 'leash'],
+    sections: [
+      {
+        heading: 'Training approach',
+        body: isEasyTrain
+          ? `${n}s respond exceptionally well to positive reinforcement. Use high-value treats and short (5–10 minute) sessions 2–3 times daily. This breed typically learns new commands after 5–15 repetitions and retains them reliably.`
+          : trainingLvl === 'difficult'
+          ? `${n}s are independent and may challenge authority. Keep sessions short (5–7 minutes), end on a positive note, and avoid repetitive drilling — they become bored and stubborn quickly. Consistency across all family members is essential.`
+          : `${n}s do well with structured, reward-based training. Keep sessions to 10–15 minutes and use food rewards during the learning phase, transitioning to praise as commands become reliable.`,
+      },
+      {
+        heading: 'Priority commands',
+        body: `Start with the five foundation commands: sit, stay, down, come, and leave it. For ${n}s${isActive ? ' with high energy' : ''}, recall ("come") and loose-leash walking are especially important to establish early. Master these before adding trick training or advanced obedience.`,
+      },
+      {
+        heading: 'Socialization window',
+        body: `The critical socialization window for ${n}s is 3–14 weeks. During this period, expose your puppy to different people, animals, environments, and sounds. Well-socialized ${n}s are calmer, more confident, and easier to manage in public. Puppy classes combine socialization with early training effectively.`,
+      },
+      {
+        heading: 'Leash manners',
+        body: isActive
+          ? `High-energy ${n}s can develop strong pulling habits if leash manners aren't established early. Start with a no-pull harness or head halter and reward consistently for a loose leash. Practice in low-distraction areas first, then gradually increase difficulty.`
+          : `${n}s are generally manageable on leash once basic commands are in place. Reward your dog for walking at your pace with a loose leash and redirect any pulling with a direction change.`,
+      },
+    ],
+    faqs: [
+      { q: `Are ${n}s easy to train?`, a: `${n}s are ${isEasyTrain ? 'considered easy to train — they rank among the most responsive breeds and pick up new commands quickly with consistent positive reinforcement' : trainingLvl === 'difficult' ? 'known as an independent-minded breed. Training works best with short, engaging sessions and a patient, consistent handler' : 'moderately trainable — consistent daily sessions with positive reinforcement produce reliable results'}.` },
+      { q: `When should I start training my ${n}?`, a: `Start the day you bring your ${n} home — even 8-week-old puppies can learn sit, stay, and basic recall. Early training establishes good habits before unwanted behaviors form.` },
+      { q: `What is the best training method for ${n}s?`, a: `Positive reinforcement (treating desired behaviors, ignoring unwanted ones) is the most effective and humane approach for ${n}s. Aversive methods can damage trust and increase anxiety.` },
+      { q: `How long should training sessions be for a ${n}?`, a: `Keep sessions to 5–10 minutes for puppies and 10–15 minutes for adults. Multiple short sessions throughout the day are more effective than one long session. Always end on a success.` },
+      { q: `Do ${n}s need professional training?`, a: `Puppy classes are strongly recommended for all ${n}s — they combine socialization with foundation training. Private instruction is valuable for specific behavioral issues (reactivity, resource guarding) or sport training.` },
+      ...(intRank ? [{ q: `How intelligent are ${n}s?`, a: `${n}s rank #${intRank} in Stanley Coren's canine intelligence rankings, placing them ${intRank <= 10 ? 'in the top tier of canine intelligence' : intRank <= 30 ? 'above average in working intelligence' : 'in the average range'}. They typically learn new commands after ${intRank <= 20 ? '5–10' : '15–25'} repetitions.` }] : []),
+    ],
+  },
+
+  // ── HEALTH ──
+  health: {
+    title:   `${n} Health Guide`,
+    eyebrow: 'Health context',
+    icon:    'health',
+    intro:   `${n}s live ${lifeMin}–${lifeMax} years on average. Understanding their most common health concerns helps owners plan care proactively and recognize warning signs early.`,
+    awinTags: ['health', 'insurance', 'veterinary', 'supplements'],
+    sections: [
+      {
+        heading: 'Common health concerns',
+        body: ailmentNames && ailmentNames !== 'none'
+          ? `${n}s are genetically predisposed to conditions affecting the ${ailmentNames}. Reputable breeders health-test breeding pairs for these conditions — ask your breeder for OFA or CAER certificates. Knowing your dog's risk allows for earlier monitoring and intervention.`
+          : `${n}s are a generally healthy breed with few breed-specific genetic conditions documented. Focus on maintaining a healthy weight, regular dental care, and appropriate exercise for their age and energy level.`,
+      },
+      {
+        heading: 'Preventive care schedule',
+        body: `Healthy adult ${n}s should visit the vet once a year for a wellness exam, core vaccines (rabies, DHPP), and parasite screenings. Dogs over 7 benefit from biannual visits with bloodwork to catch age-related changes early. Year-round flea, tick, and heartworm prevention is recommended for most climates.`,
+      },
+      {
+        heading: 'Weight management',
+        body: `Obesity is among the most preventable health problems in ${n}s. Even 10–15% excess body weight significantly increases arthritis risk, reduces cardiovascular capacity, and shortens lifespan. Measure food portions, limit treats to 10% of daily calories, and maintain regular exercise.`,
+      },
+      {
+        heading: 'Dental health',
+        body: `Periodontal disease affects the majority of dogs over age 3 and is linked to heart and kidney disease. Brush your ${n}'s teeth 3–5× per week with dog-safe toothpaste. Annual professional dental cleanings prevent buildup that home brushing can't remove.`,
+      },
+    ],
+    faqs: [
+      { q: `What health problems are common in ${n}s?`, a: ailmentNames && ailmentNames !== 'none' ? `The most commonly reported genetic conditions in ${n}s involve the ${ailmentNames}. ${ailments > 3 ? 'This breed has a higher-than-average number of known genetic conditions, making health testing by breeders especially important.' : ''} Always request health certificates from breeders and consider genetic testing.` : `${n}s are a generally healthy breed. Focus on healthy weight, dental hygiene, and regular vet visits to catch any issues early.` },
+      { q: `How long do ${n}s live?`, a: `${n}s have an average lifespan of ${lifeMin}–${lifeMax} years. The biggest factors in longevity are healthy weight, quality nutrition, regular exercise, and consistent veterinary care.` },
+      { q: `How often should a ${n} see a vet?`, a: `Annual wellness exams are the baseline for adult ${n}s. Senior dogs (7+) benefit from biannual visits. Puppies need a series of vaccines and checkups in the first year. Many conditions are far cheaper to treat when caught early.` },
+      { q: `Should I get pet insurance for my ${n}?`, a: ailments > 3 ? `Yes — ${n}s have ${ailments} known genetic conditions that can lead to significant veterinary costs. Pet insurance purchased before any conditions are diagnosed protects against these breed-specific risks.` : `Pet insurance is worth considering for any dog. Even a single emergency visit can cost $1,500–$5,000. Insuring your ${n} before conditions develop ensures the most comprehensive coverage.` },
+      { q: `What vaccinations does a ${n} need?`, a: `Core vaccines for all dogs: rabies (required by law) and DHPP (distemper, hepatitis, parvovirus, parainfluenza). Non-core vaccines based on lifestyle: Bordetella (boarding/daycare), Leptospirosis (outdoor/water exposure), Lyme (tick-endemic areas). Your vet will recommend the right schedule.` },
+    ],
+  },
+
+  // ── SUPPLEMENTS ──
+  supplements: {
+    title:   `Best Supplements for ${n}s`,
+    eyebrow: 'Supplement guide',
+    icon:    'supplements',
+    intro:   `Not all dogs need supplements — but ${n}s have specific traits that make some particularly valuable. Here's how to think about supplementation for this breed.`,
+    awinTags: ['supplements', 'joint', 'omega', 'probiotics'],
+    sections: [
+      {
+        heading: hasJointRisk || isLarge ? 'Joint support' : 'Core supplement considerations',
+        body: hasJointRisk || isLarge
+          ? `${n}s are predisposed to joint conditions${ailmentNames ? ` (${ailmentNames})` : ''}. Glucosamine (400–600 mg/day for a ${maxLbs} lb dog) and chondroitin (300–500 mg/day) support cartilage health. Fish oil provides additional anti-inflammatory omega-3s. Start before symptoms appear — prevention is far more effective than treatment.`
+          : `Healthy ${n}s on a complete and balanced commercial diet rarely need additional supplementation. Focus on areas where breed-specific needs or food gaps exist, and always consult your vet before starting a supplement program.`,
+      },
+      {
+        heading: 'Omega-3 fatty acids',
+        body: isHeavyShed
+          ? `Fish oil is particularly valuable for ${n}s — omega-3s reduce inflammation, support skin barrier function, and improve coat condition in heavy-shedding breeds. A dose of 20–55 mg EPA+DHA per kg of body weight daily is the commonly cited target.`
+          : `Omega-3s from fish oil benefit virtually all dogs: better skin health, reduced inflammation, improved coat quality, and cardiovascular support. Look for products with third-party testing for heavy metals.`,
+      },
+      {
+        heading: 'Digestive support',
+        body: `Probiotics are worth considering for ${n}s with sensitive stomachs, after antibiotic courses, or for dogs eating raw or fresh-food diets. Canine-specific strains (Lactobacillus acidophilus, Bifidobacterium lactis) have better evidence for dogs than repurposed human probiotic products.`,
+      },
+      {
+        heading: 'What to avoid',
+        body: `Over-supplementing calcium, vitamin D, or vitamin A can cause toxicity. Always use dog-specific products and consult your vet before starting any supplement, especially if your ${n} takes medication or has diagnosed health conditions.`,
+      },
+    ],
+    faqs: [
+      { q: `Does my ${n} need supplements?`, a: hasJointRisk ? `${n}s are predisposed to joint issues (${ailmentNames}), making joint supplements like glucosamine, chondroitin, and fish oil a sound proactive investment.` : isLarge ? `Large breeds like the ${n} benefit from joint support supplements, especially from middle age onward.` : `Most ${n}s on a complete and balanced commercial diet don't need routine supplementation. Targeted supplements make sense for specific health concerns.` },
+      { q: `When should I start my ${n} on joint supplements?`, a: hasJointRisk || isLarge ? `For ${size} breeds like the ${n}, many vets recommend starting glucosamine and fish oil around 1–2 years of age, well before symptoms appear. Prevention is significantly more effective than treatment once cartilage damage begins.` : `Joint supplements are typically recommended from middle age (5–7 years) for breeds without specific joint risk factors, or earlier if your dog shows any stiffness.` },
+      { q: `What fish oil dose is right for a ${n}?`, a: `The commonly cited target is 20–55 mg of combined EPA+DHA per kilogram of body weight daily. For a ${maxLbs} lb (${Math.round(maxLbs / 2.2)} kg) ${n}, that's roughly ${Math.round(maxLbs / 2.2 * 20)}–${Math.round(maxLbs / 2.2 * 55)} mg EPA+DHA per day. Check the supplement label for actual EPA+DHA content, not total fish oil.` },
+      { q: `Are dog supplements safe?`, a: `Quality varies significantly in the supplement industry. Look for products with NASC (National Animal Supplement Council) quality seals and third-party testing certificates. Avoid human supplements unless specifically approved for dogs by your vet.` },
+      { q: `Can I give my ${n} human supplements?`, a: `Some human supplements (plain fish oil, plain glucosamine) are sometimes used for dogs under vet guidance, but many human formulations contain xylitol, grapeseed extract, or other ingredients toxic to dogs. Always verify with your vet first.` },
+    ],
+  },
+
+  // ── PUPPY ──
+  puppy: {
+    title:   `${n} Puppy Guide`,
+    eyebrow: 'Puppy essentials',
+    icon:    'puppy',
+    intro:   `Bringing home a ${n} puppy is exciting — but the first year sets the foundation for a dog's entire life. Here's what to prepare, expect, and prioritize.`,
+    awinTags: ['puppy', 'crate', 'starter', 'training'],
+    sections: [
+      {
+        heading: 'Before you bring your puppy home',
+        body: `Puppy-proof the space your ${n} will live in: secure loose cables, remove toxic plants, and block access to stairs. Purchase a crate (${isLarge ? 'extra-large — 48"' : 'large — 36"'}, sized for the adult dog with a divider for the puppy phase), food bowls, collar, ID tag, leash, and a starter supply of the food the breeder or rescue was already feeding.`,
+      },
+      {
+        heading: 'First vet visit',
+        body: `Schedule your first vet visit within 48–72 hours of bringing your ${n} puppy home. The vet will perform a full exam, confirm the vaccination schedule, recommend parasite prevention, and discuss spay/neuter timing. Bring all paperwork from the breeder or rescue.`,
+      },
+      {
+        heading: 'Crate training and sleep',
+        body: `Crate training is the foundation of house training. ${n} puppies should sleep in a crate from day one — this teaches bladder control and prevents destructive behavior when unsupervised. Keep the crate in your bedroom initially so the puppy can hear you. Expect disrupted sleep for the first 2–3 weeks.`,
+      },
+      {
+        heading: 'Socialization window',
+        body: `The critical socialization period runs from 3–14 weeks. Safely expose your ${n} puppy to: different people, other vaccinated dogs, car rides, common household sounds (vacuum, doorbell), and varied surfaces. Experiences during this window shape behavior for life. Puppy classes structured around positive exposure are ideal.`,
+      },
+    ],
+    faqs: [
+      { q: `How much does a ${n} puppy cost?`, a: purchasePrice ? `${n} puppies from health-tested breeders typically cost around ${fmt(purchasePrice)}. Rescue adoption fees run $100–$400. The purchase price is just the start — budget for initial vet visits, vaccinations, supplies, training classes, and first-year food costs.` : `${n} puppy prices vary by region and breeder reputation. Always factor in first-year vet costs, supplies, training, and food on top of the purchase price.` },
+      { q: `What do I need before bringing a ${n} puppy home?`, a: `Essentials: crate with divider, food and water bowls, collar and ID tag, 4–6 foot leash, puppy-appropriate food, enzymatic cleaner (for accidents), and a few toys. Useful extras: puppy playpen, baby gates, and a washable crate mat.` },
+      { q: `How do I house train a ${n} puppy?`, a: `Take your ${n} puppy outside immediately after waking, after eating, and after play. Reward the moment they eliminate outside. Puppies under 3 months have limited bladder control — expect to go out every 1–2 hours. Never punish accidents; clean thoroughly with enzymatic cleaner.` },
+      { q: `When do ${n} puppies calm down?`, a: isActive ? `High-energy ${n}s typically don't fully mature until 2–3 years old. Expect peak puppy chaos between 6–18 months. Consistent training, adequate exercise, and mental stimulation are your best tools for managing this phase.` : `${n}s typically settle into adult temperament between 18 months and 3 years. Consistent early training makes the transition significantly easier.` },
+      { q: `When can a ${n} puppy start training?`, a: `Start immediately — 8-week-old puppies can learn sit, stay, come, and their name. Keep sessions to 2–5 minutes. Enroll in a puppy class at 10–16 weeks (once vaccination series is underway) for structured socialization alongside foundation training.` },
+      { q: `What vaccinations does a ${n} puppy need?`, a: `Core puppy vaccine schedule: 6–8 weeks (initial distemper/parvo), 10–12 weeks (DHPP booster), 14–16 weeks (DHPP and rabies), 12–16 months (adult boosters). Avoid dog parks and high-traffic areas until the full series is complete.` },
+    ],
+  },
+};
+
+const cfg = CFG[topic as Topic];
+if (!cfg) return Astro.redirect(`/breeds/${breed.slug}`);
+
+// ── Cross-links ──────────────────────────────────────────────────────────────
+const allTopicMeta: Record<Topic, { label: string; icon: IconName }> = {
+  food:        { label: 'Food guide',    icon: 'food'        },
+  toys:        { label: 'Toys',          icon: 'toys'        },
+  beds:        { label: 'Beds',          icon: 'beds'        },
+  grooming:    { label: 'Grooming',      icon: 'grooming'    },
+  training:    { label: 'Training',      icon: 'training'    },
+  health:      { label: 'Health',        icon: 'health'      },
+  supplements: { label: 'Supplements',   icon: 'supplements' },
+  puppy:       { label: 'Puppy guide',   icon: 'puppy'       },
+};
+
+const siblingLinks = TOPICS
+  .filter(t => t !== topic)
+  .slice(0, 4)
+  .map(t => ({ ...allTopicMeta[t], href: `/breeds/${breed.slug}/${t}` }));
+
+// ── Breadcrumb ───────────────────────────────────────────────────────────────
+const crumbs = [
+  { label: 'Home',   href: '/' },
+  { label: 'Breeds', href: '/breeds' },
+  { label: n,        href: `/breeds/${breed.slug}` },
+  { label: cfg.title },
+];
+
+// ── Schema ───────────────────────────────────────────────────────────────────
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: cfg.faqs.map(faq => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: { '@type': 'Answer', text: faq.a },
+  })),
+};
+
+const SITE = 'https://pupwiki.com';
+const pageUrl = `${SITE}/breeds/${breed.slug}/${topic}`;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: crumbs.map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.label,
+    ...(c.href ? { item: `${SITE}${c.href}` } : {}),
+  })),
+};
+
+const description = `${cfg.intro} Owner guide with expert tips, FAQs, and product recommendations tailored to ${n}s.`;
+---
+
+<BaseLayout
+  title={`${cfg.title} | PupWiki`}
+  description={description}
+  canonicalUrl={pageUrl}
+  pageType="article"
+  structuredData={[faqSchema, breadcrumbSchema]}
+>
+  <div class="topic-page">
+
+    <!-- Breadcrumb -->
+    <div class="topic-breadcrumb-wrap">
+      <Breadcrumb crumbs={crumbs} />
+    </div>
+
+    <!-- Hero -->
+    <header class="topic-hero">
+      <div class="topic-hero__inner">
+        <p class="topic-hero__eyebrow">
+          <span class="topic-hero__icon" aria-hidden="true">
+            <Icon name={cfg.icon} size={16} />
+          </span>
+          {cfg.eyebrow}
+        </p>
+        <h1 class="topic-hero__title">{cfg.title}</h1>
+        <p class="topic-hero__intro">{cfg.intro}</p>
+
+        <!-- Breed trait chips -->
+        <div class="topic-traits" aria-label="Breed traits">
+          <span class="topic-trait">
+            <Icon name="breed" size={14} />
+            {size.charAt(0).toUpperCase() + size.slice(1)} breed
+          </span>
+          <span class="topic-trait">
+            <Icon name="exercise" size={14} />
+            {energy.charAt(0).toUpperCase() + energy.slice(1)} energy
+          </span>
+          <span class="topic-trait">
+            <Icon name="grooming" size={14} />
+            {groomFreq}
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="topic-layout">
+      <main class="topic-main">
+
+        <!-- Content sections -->
+        <div class="topic-sections">
+          {cfg.sections.map(section => (
+            <section class="topic-section">
+              <h2 class="topic-section__heading">{section.heading}</h2>
+              <p class="topic-section__body">{section.body}</p>
+            </section>
+          ))}
+        </div>
+
+        <!-- FAQ -->
+        <section class="topic-faq" aria-labelledby="faq-heading">
+          <h2 class="topic-faq__heading" id="faq-heading">
+            Frequently Asked Questions
+          </h2>
+          <div class="topic-faq__list">
+            {cfg.faqs.map((faq, i) => (
+              <details class="topic-faq__item" name="breed-faq">
+                <summary class="topic-faq__q">
+                  <span class="topic-faq__q-icon" aria-hidden="true">
+                    <Icon name="info" size={16} />
+                  </span>
+                  {faq.q}
+                </summary>
+                <p class="topic-faq__a">{faq.a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+
+        <!-- Affiliate product slot -->
+        <section class="topic-product-slot" aria-labelledby="product-heading">
+          <h2 class="topic-product-slot__heading" id="product-heading">
+            Top-Rated Products for {n}s
+          </h2>
+          <AwinProductSlot
+            topicTags={cfg.awinTags}
+            pageType="breed-topic"
+            breedSize={size}
+            breedEnergy={energy}
+            monetizationIntent="high"
+          />
+          <AffiliateDisclosure />
+        </section>
+
+      </main>
+
+      <!-- Sidebar -->
+      <aside class="topic-sidebar" aria-label="More guides for this breed">
+
+        <!-- Sibling topic links -->
+        <div class="topic-sidebar__card">
+          <p class="topic-sidebar__card-title">More {n} Guides</p>
+          <nav class="topic-sidebar__links" aria-label={`More ${n} guides`}>
+            {siblingLinks.map(link => (
+              <a href={link.href} class="topic-sidebar__link">
+                <span class="topic-sidebar__link-icon" aria-hidden="true">
+                  <Icon name={link.icon} size={16} />
+                </span>
+                {link.label}
+                <span class="topic-sidebar__link-arrow" aria-hidden="true">
+                  <Icon name="arrow-right" size={14} />
+                </span>
+              </a>
+            ))}
+          </nav>
+        </div>
+
+        <!-- Hub + tools -->
+        <div class="topic-sidebar__card">
+          <p class="topic-sidebar__card-title">Tools & Hub</p>
+          <nav class="topic-sidebar__links" aria-label={`${n} tools`}>
+            <a href={`/breeds/${breed.slug}`} class="topic-sidebar__link">
+              <span class="topic-sidebar__link-icon" aria-hidden="true">
+                <Icon name="pawprint" size={16} />
+              </span>
+              {n} breed hub
+              <span class="topic-sidebar__link-arrow" aria-hidden="true">
+                <Icon name="arrow-right" size={14} />
+              </span>
+            </a>
+            <a href={`/cost-calculator/${breed.slug}`} class="topic-sidebar__link">
+              <span class="topic-sidebar__link-icon" aria-hidden="true">
+                <Icon name="calculator" size={16} />
+              </span>
+              {n} cost calculator
+              <span class="topic-sidebar__link-arrow" aria-hidden="true">
+                <Icon name="arrow-right" size={14} />
+              </span>
+            </a>
+            <a href={`/dog-names/${breed.slug}`} class="topic-sidebar__link">
+              <span class="topic-sidebar__link-icon" aria-hidden="true">
+                <Icon name="names" size={16} />
+              </span>
+              {n} name ideas
+              <span class="topic-sidebar__link-arrow" aria-hidden="true">
+                <Icon name="arrow-right" size={14} />
+              </span>
+            </a>
+          </nav>
+        </div>
+
+      </aside>
+    </div>
+
+  </div>
+</BaseLayout>
+
+<style>
+  .topic-page {
+    max-width: var(--content-max-w, 1200px);
+    margin: 0 auto;
+    padding: 0 var(--space-4);
+  }
+
+  .topic-breadcrumb-wrap {
+    padding-top: var(--space-5);
+  }
+
+  /* ── Hero ─────────────────────────────────────────────── */
+  .topic-hero {
+    background: var(--breed-hero-bg);
+    border-radius: var(--radius-2xl);
+    margin: var(--space-5) 0;
+    padding: var(--space-8) var(--space-6);
+  }
+
+  .topic-hero__inner {
+    max-width: 720px;
+  }
+
+  .topic-hero__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin: 0 0 var(--space-3);
+    color: var(--color-accent);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-black);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .topic-hero__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: var(--radius-lg);
+    background: var(--color-accent-subtle);
+    color: var(--color-accent);
+    flex-shrink: 0;
+  }
+
+  .topic-hero__title {
+    margin: 0 0 var(--space-3);
+    font-family: var(--font-sans);
+    font-size: var(--text-3xl);
+    font-weight: var(--weight-black);
+    color: var(--color-heading);
+    line-height: var(--leading-tight);
+  }
+
+  .topic-hero__intro {
+    margin: 0 0 var(--space-5);
+    font-size: var(--text-base);
+    color: var(--color-muted);
+    line-height: var(--leading-relaxed);
+    max-width: 65ch;
+  }
+
+  /* ── Trait chips ──────────────────────────────────────── */
+  .topic-traits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .topic-trait {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1-5);
+    padding: var(--space-1-5) var(--space-3);
+    border-radius: var(--radius-full);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semi);
+    color: var(--color-body);
+    white-space: nowrap;
+  }
+
+  /* ── Two-column layout ────────────────────────────────── */
+  .topic-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    padding-bottom: var(--space-12);
+  }
+
+  @media (min-width: 1024px) {
+    .topic-layout {
+      grid-template-columns: 1fr 300px;
+      align-items: start;
+    }
+  }
+
+  /* ── Content sections ─────────────────────────────────── */
+  .topic-sections {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+    margin-bottom: var(--space-8);
+  }
+
+  .topic-section {
+    padding: var(--space-5) var(--space-6);
+    background: var(--card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+  }
+
+  .topic-section__heading {
+    margin: 0 0 var(--space-3);
+    font-family: var(--font-sans);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
+    line-height: var(--leading-snug);
+  }
+
+  .topic-section__body {
+    margin: 0;
+    font-size: var(--text-sm);
+    color: var(--color-body);
+    line-height: var(--leading-relaxed);
+  }
+
+  /* ── FAQ ──────────────────────────────────────────────── */
+  .topic-faq {
+    margin-bottom: var(--space-8);
+  }
+
+  .topic-faq__heading {
+    margin: 0 0 var(--space-5);
+    font-family: var(--font-sans);
+    font-size: var(--text-xl);
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
+  }
+
+  .topic-faq__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .topic-faq__item {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background: var(--card-bg);
+    overflow: hidden;
+  }
+
+  .topic-faq__item[open] {
+    border-color: var(--color-accent);
+  }
+
+  .topic-faq__q {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-4) var(--space-5);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semi);
+    color: var(--color-heading);
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+
+  .topic-faq__q::-webkit-details-marker { display: none; }
+
+  .topic-faq__q-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: var(--radius-md);
+    background: var(--color-accent-subtle);
+    color: var(--color-accent);
+    flex-shrink: 0;
+  }
+
+  .topic-faq__a {
+    margin: 0;
+    padding: 0 var(--space-5) var(--space-4) calc(var(--space-5) + 1.5rem + var(--space-3));
+    font-size: var(--text-sm);
+    color: var(--color-body);
+    line-height: var(--leading-relaxed);
+  }
+
+  /* ── Product slot ─────────────────────────────────────── */
+  .topic-product-slot {
+    padding: var(--space-6);
+    background: var(--color-surface-warm, var(--color-bg-soft));
+    border: 1px solid var(--color-border-warm, var(--color-border));
+    border-radius: var(--radius-2xl);
+  }
+
+  .topic-product-slot__heading {
+    margin: 0 0 var(--space-4);
+    font-family: var(--font-sans);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
+  }
+
+  /* ── Sidebar ──────────────────────────────────────────── */
+  .topic-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .topic-sidebar__card {
+    padding: var(--space-4) var(--space-5);
+    background: var(--card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+  }
+
+  .topic-sidebar__card-title {
+    margin: 0 0 var(--space-3);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-black);
+    color: var(--color-accent);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .topic-sidebar__links {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  .topic-sidebar__link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-md);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semi);
+    color: var(--color-body);
+    text-decoration: none;
+    transition: background var(--duration-fast) ease, color var(--duration-fast) ease;
+  }
+
+  .topic-sidebar__link:hover {
+    background: var(--color-accent-subtle);
+    color: var(--color-accent);
+  }
+
+  .topic-sidebar__link-icon {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-accent);
+    flex-shrink: 0;
+  }
+
+  .topic-sidebar__link-arrow {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+    color: var(--color-muted);
+  }
+
+  /* ── Mobile ───────────────────────────────────────────── */
+  @media (max-width: 767px) {
+    .topic-hero {
+      padding: var(--space-6) var(--space-4);
+      border-radius: var(--radius-xl);
+    }
+
+    .topic-hero__title {
+      font-size: var(--text-2xl);
+    }
+
+    .topic-section {
+      padding: var(--space-4);
+    }
+
+    .topic-faq__a {
+      padding-left: var(--space-4);
+    }
+  }
+</style>

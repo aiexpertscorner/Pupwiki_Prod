@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-18T22:08:47.064Z",
+  "generatedAt": "2026-05-19T20:13:36.452Z",
   "totals": {
     "breeds": 277,
     "crossbreeds": 75,
-    "blogPosts": 483,
-    "astroPages": 33,
+    "blogPosts": 783,
+    "astroPages": 34,
     "clusters": 15,
     "awinJoinedPrograms": 10,
     "partnerProfilesGenerated": 7,
-    "opportunities": 625
+    "opportunities": 325
   },
   "familyStats": [
     {
       "family": "food",
-      "existing": 52,
-      "missing": 300,
+      "existing": 352,
+      "missing": 0,
       "total": 352
     },
     {
@@ -436,8 +436,8 @@
     }
   ],
   "sitemapInputs": {
-    "staticPageCount": 33,
-    "dynamicBlogCount": 483,
+    "staticPageCount": 34,
+    "dynamicBlogCount": 783,
     "dynamicBreedCount": 352,
     "clusterSlugs": [
       "puppy",

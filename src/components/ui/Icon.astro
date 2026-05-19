@@ -11,12 +11,8 @@ export interface Props {
   'aria-hidden'?: boolean | 'true' | 'false';
 }
 
-export type IconName =
-  | 'food' | 'toys' | 'beds' | 'grooming' | 'training' | 'health'
-  | 'supplements' | 'puppy' | 'names' | 'insurance' | 'calculator'
-  | 'exercise' | 'feeding' | 'intelligence' | 'lifespan' | 'cost'
-  | 'kids' | 'check' | 'warn' | 'info' | 'arrow-right' | 'external'
-  | 'star' | 'bookmark' | 'heart' | 'pawprint' | 'breed' | 'senior';
+// prettier-ignore
+export type IconName = 'food' | 'toys' | 'beds' | 'grooming' | 'training' | 'health' | 'supplements' | 'puppy' | 'names' | 'insurance' | 'calculator' | 'exercise' | 'feeding' | 'intelligence' | 'lifespan' | 'cost' | 'kids' | 'check' | 'warn' | 'info' | 'arrow-right' | 'external' | 'star' | 'bookmark' | 'heart' | 'pawprint' | 'breed' | 'senior';
 
 const PATHS: Record<IconName, string> = {
   food: `<path stroke-linecap="round" stroke-linejoin="round" d="M3 6h14M3 10h14M7 14h6M5 2v4M10 2v4M15 2v4"/><ellipse cx="10" cy="16" rx="5" ry="2" fill="none"/>`,
