@@ -1,12 +1,17 @@
-name: Deploy PupWiki to Cloudflare Pages
+name: Deploy PupWiki to Cloudflare Pages (DISABLED)
+
+# SUPERSEDED by deploy-production.yml — do not re-enable without removing that file first.
+# This workflow ran AWIN sync, Pexels enrichment, pSEO generation, and committed back to
+# main on every push, making deploys non-deterministic. deploy-production.yml is the
+# canonical deploy workflow and does none of those things.
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual trigger (this workflow is disabled)'
+        required: false
+        default: 'manual'
 
 jobs:
   build-and-deploy:

@@ -27,6 +27,7 @@
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { gunzipSync } from 'zlib';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -73,6 +74,9 @@ const runtime = {
   fetches: [],
   feedListEndpointUsed: '',
   feedProductFetchFailures: 0,
+  feedRowsFetched: 0,
+  feedRowsNormalized: 0,
+  feedsWithRowsButZeroProducts: [],
 };
 
 function env(name, fallback = '') {
@@ -363,6 +367,20 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+async function responseToText(res) {
+  const buffer = Buffer.from(await res.arrayBuffer());
+  const isGzip =
+    res.headers.get('content-encoding') === 'gzip' ||
+    (buffer.length > 1 && buffer[0] === 0x1f && buffer[1] === 0x8b);
+  try {
+    const decoded = isGzip ? gunzipSync(buffer) : buffer;
+    return decoded.toString('utf8');
+  } catch (e) {
+    warn(`responseToText: gzip decompression failed (${e.message}), attempting raw decode`);
+    return buffer.toString('utf8');
+  }
+}
+
 async function rawFetch(url, description = url, headers = {}, maxRetries = 3) {
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     const controller = new AbortController();
@@ -386,7 +404,7 @@ async function rawFetch(url, description = url, headers = {}, maxRetries = 3) {
         warn(`${description} -> HTTP ${res.status}${body ? ` — ${body.slice(0, 200)}` : ''}`);
         return null;
       }
-      return await res.text();
+      return await responseToText(res);
     } catch (err) {
       clearTimeout(timer);
       runtime.fetches.push({ description, ok: false, status: 'error' });
@@ -521,6 +539,83 @@ function normalizeRawKeys(raw) {
   return out;
 }
 
+// Normalise any AWIN feed shape into an array of plain objects that normalizeProduct() can read.
+// Handles: array-of-objects, array-of-arrays (zipped with PRODUCT_COLUMNS),
+// { columns/headers/fields + rows/data/products }, and { values: [...] } per-row format.
+function normalizeProductRows(input, feedId) {
+  if (!input) return [];
+
+  if (Array.isArray(input)) {
+    if (input.length === 0) return [];
+    const first = input[0];
+    if (first == null) return [];
+    if (Array.isArray(first)) {
+      // Array of arrays — zip with PRODUCT_COLUMNS
+      return input.map((row) => Object.fromEntries(PRODUCT_COLUMNS.map((col, i) => [col, row[i] ?? ''])));
+    }
+    if (typeof first === 'object') {
+      // { values: [...] } per-row wrapper
+      if (Array.isArray(first.values)) {
+        return input.map((row) => Object.fromEntries(PRODUCT_COLUMNS.map((col, i) => [col, row.values[i] ?? ''])));
+      }
+      // Plain array of objects — return as-is
+      return input;
+    }
+    return [];
+  }
+
+  if (input && typeof input === 'object') {
+    const columns = input.columns || input.headers || input.fields || null;
+    const rows = input.rows || input.data || input.products || input.items || input.productList || null;
+
+    if (columns && Array.isArray(columns) && rows && Array.isArray(rows)) {
+      return rows.map((row) => {
+        if (Array.isArray(row)) {
+          return Object.fromEntries(columns.map((col, i) => [col, row[i] ?? '']));
+        }
+        if (row && typeof row === 'object' && Array.isArray(row.values)) {
+          return Object.fromEntries(columns.map((col, i) => [col, row.values[i] ?? '']));
+        }
+        return row;
+      });
+    }
+
+    // Wrapped array under a different key
+    for (const key of ['products', 'items', 'productList', 'data', 'rows', 'feeds']) {
+      if (Array.isArray(input[key]) && input[key].length > 0) {
+        return normalizeProductRows(input[key], feedId);
+      }
+    }
+
+    // Single product object
+    if (input.aw_product_id || input.product_name || input.name || input.awProductId) {
+      return [input];
+    }
+
+    warn(`feed/${feedId}: unrecognised product feed shape; keys: ${Object.keys(input).slice(0, 8).join(', ')}`);
+  }
+
+  return [];
+}
+
+function parseProductFeedText(text, feedId) {
+  const clean = stripBom(text).trim();
+  if (!clean) return [];
+  if (clean.startsWith('<')) {
+    warn(`feed/${feedId} returned XML/HTML where JSON/CSV was expected; skipping`);
+    return [];
+  }
+  try {
+    if (clean.startsWith('{') || clean.startsWith('[')) {
+      return normalizeProductRows(JSON.parse(clean), feedId);
+    }
+    return normalizeProductRows(parseDelimited(clean), feedId);
+  } catch (e) {
+    warn(`feed/${feedId} parse error: ${e.message}`);
+    return [];
+  }
+}
+
 function feedAdvertiserId(feed) {
   return String(valueFrom(feed, [
     'advertiser_id', 'advertiserid', 'advertiser', 'advertiserId',
@@ -606,10 +701,13 @@ async function fetchFeedProducts(feed, label) {
       runtime.feedProductFetchFailures++;
       continue;
     }
-    const products = parseMaybeJsonOrDelimited(text);
-    if (products.length) {
-      ok(`${products.length} product row(s) from feed ${feedId}`);
-      return products;
+    const rows = parseProductFeedText(text, feedId);
+    if (rows.length) {
+      ok(`${rows.length} product row(s) from feed ${feedId}`);
+      if (DEBUG_FEEDS && rows[0]) {
+        log(`feed/${feedId} first row keys: ${Object.keys(rows[0]).join(', ')}`);
+      }
+      return rows;
     }
     const preview = text.slice(0, 300).replace(/\s+/g, ' ');
     warn(`feed/${feedId} returned no parseable products. Response preview: ${preview}`);
@@ -660,13 +758,14 @@ function normalizeCreative(creative, program) {
   };
 }
 
-function normalizeProduct(raw, program) {
+function normalizeProduct(raw, program, drops = null) {
   const raw_ = normalizeRawKeys(raw);
   const rawId = valueFrom(raw_, [
     'aw_product_id', 'awproductid', 'id', 'product_id', 'productid', 'merchant_product_id', 'merchantproductid', 'sku', 'ean', 'gtin',
   ]);
+  if (!rawId) { if (drops) drops.missingRawId++; return null; }
   const name = valueFrom(raw_, ['product_name', 'productname', 'name', 'title', 'product_title', 'producttitle']);
-  if (!rawId || !name) return null;
+  if (!name) { if (drops) drops.missingName++; return null; }
 
   const price = Number.parseFloat(String(valueFrom(raw_, ['search_price', 'searchprice', 'price', 'current_price', 'currentprice', 'display_price'])).replace(/[^0-9.,-]/g, '').replace(',', '.')) || 0;
   const merchant = valueFrom(raw_, ['merchant_name', 'merchantname', 'merchant', 'advertiser_name', 'advertisername']) || program.name || '';
@@ -905,7 +1004,7 @@ async function main() {
         const urls = feedProductUrls(feedId, feed);
         log(`  feed ${feedId}: ${urls[0] || 'no URL'}`);
         const text = await rawFetch(urls[0], `debug/feed/${feedId}`);
-        const rows = text ? parseMaybeJsonOrDelimited(text) : [];
+        const rows = text ? parseProductFeedText(text, feedId) : [];
         log(`  -> ${rows.length} product rows`);
       }
     }
@@ -934,11 +1033,25 @@ async function main() {
     if (program.relationship === 'joined') {
       for (const feed of feedsForProgram.slice(0, 3)) {
         const rows = await fetchFeedProducts(feed, program.name);
+        runtime.feedRowsFetched += rows.length;
+        const drops = { missingRawId: 0, missingName: 0 };
+        const beforeCount = apiProducts.length;
         for (const row of rows) {
-          const normalized = normalizeProduct(row, program);
+          const normalized = normalizeProduct(row, program, drops);
           if (normalized) {
             apiProducts.push(normalized);
             perProgramStats[program.key].products++;
+          }
+        }
+        const imported = apiProducts.length - beforeCount;
+        runtime.feedRowsNormalized += imported;
+        if (rows.length > 0) {
+          const feedId = feedIdValue(feed);
+          const droppedTotal = drops.missingRawId + drops.missingName;
+          log(`feed/${feedId} raw rows: ${rows.length} | normalized: ${imported} | dropped: missingRawId=${drops.missingRawId} missingName=${drops.missingName}`);
+          if (rows.length > 0 && imported === 0) {
+            runtime.feedsWithRowsButZeroProducts.push(feedId);
+            warn(`feed/${feedId} had ${rows.length} rows but 0 products normalized (dropped: ${droppedTotal})`);
           }
         }
       }
@@ -1012,6 +1125,9 @@ async function main() {
       productFeedKeyPresent: Boolean(PRODUCT_FEED_KEY),
       feedListEndpointUsed: runtime.feedListEndpointUsed || null,
       feedProductFetchFailures: runtime.feedProductFetchFailures,
+      feedRowsFetched: runtime.feedRowsFetched,
+      feedRowsNormalized: runtime.feedRowsNormalized,
+      feedsWithRowsButZeroProducts: runtime.feedsWithRowsButZeroProducts,
       experimentalCreativesEnabled: FETCH_CREATIVES,
       warnings: runtime.warnings,
       errors: runtime.errors,

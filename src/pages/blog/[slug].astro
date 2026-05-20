@@ -17,8 +17,11 @@ import BreedImage from '../../components/breed/BreedImage.astro';
 import PageBannerSlot from '../../components/affiliate/PageBannerSlot.astro';
 import AwinProductSlot from '../../components/affiliate/AwinProductSlot.astro';
 import ArticleCommerceSuite from '../../components/blog/ArticleCommerceSuite.astro';
+import AmazonTextLinks from '../../components/amazon/AmazonTextLinks.astro';
 import { getContentCluster } from '../../lib/content/contentClusterConfig';
 import { isRoutableBlogEntry } from '../../lib/categories/categoryHelpers';
+import { resolveAmazonTextLinks } from '../../lib/commerce/amazon/amazonTextLinks';
+import { getAmazonPageIntent, isCommerceAllowed } from '../../lib/commerce/amazon/amazonPageIntent';
 import RelatedPosts from '../../components/blog/RelatedPosts.astro';
 
 const SITE = 'https://pupwiki.com';
@@ -75,6 +78,23 @@ const isHealthSensitive = ['health', 'supplements', 'food', 'dog food'].includes
 const hasUnsafeCommerceTag = tags.some((tag: string) => ['medical-warning', 'vet-critical', 'emergency-vet', 'diagnosis', 'treatment'].includes(normalize(tag)));
 const showCommercialMidContent = false;
 const showProductRoundupCommerce = ['product-roundup', 'comparison'].includes(normalize(fm.postType)) && !hasUnsafeCommerceTag;
+
+// Amazon contextual text links — subtle, search-only, no PA API data
+const isIndexable = !(fm.noIndex === true || (fm.generated === true && fm.indexInBlog === false));
+const postTypeKey = normalize(fm.postType || 'general').replace(/[^a-z-]/g, '');
+const isHeavyCommercePage = ['product-roundup', 'comparison', 'review', 'ranking'].includes(postTypeKey);
+const pageIntent = getAmazonPageIntent({
+  cluster: clusterSlug,
+  pageType: 'blog',
+  topicTags: tags,
+  claimSensitivity: fm.claimSensitivity as string | undefined,
+});
+const TEXT_LINK_CLUSTERS = new Set(['training', 'grooming', 'toys', 'beds', 'travel', 'puppy', 'home-cleanup', 'lifestyle', 'gear', 'dog-food', 'senior-dogs']);
+const maxAmazonTextLinks = TEXT_LINK_CLUSTERS.has(clusterSlug) ? 2 : 1;
+const showAmazonTextLinks = isIndexable && !isHeavyCommercePage && !hasUnsafeCommerceTag && normalize(fm.claimSensitivity || '') !== 'high' && isCommerceAllowed({ cluster: clusterSlug, pageType: 'blog', topicTags: tags });
+const amazonTextLinks = showAmazonTextLinks
+  ? resolveAmazonTextLinks({ cluster: cluster ?? undefined, topicTags: tags, intent: pageIntent, maxLinks: maxAmazonTextLinks })
+  : [];
 
 const canonicalUrl = fm.canonicalUrl || `${SITE}/blog/${post.slug}`;
 // Hash-based fallback pool — varied breed images per slug instead of one static PNG per category
@@ -273,6 +293,10 @@ const relatedToolLinks = [
   )}
 
   <Content />
+
+  {amazonTextLinks.length > 0 && (
+    <AmazonTextLinks links={amazonTextLinks} />
+  )}
 
   {showProductRoundupCommerce && (
     <ArticleCommerceSuite

@@ -20,16 +20,8 @@ const { product, variant = 'card', placement = 'amazon-card' } = Astro.props;
 const href = buildAmazonProductLink(product);
 const isCompact = variant === 'compact';
 
-const stars = product.rating ? Math.round(product.rating * 2) / 2 : null;
-const fullStars = stars ? Math.floor(stars) : 0;
-const halfStar = stars ? stars % 1 >= 0.5 : false;
-const emptyStars = stars ? 5 - fullStars - (halfStar ? 1 : 0) : 5;
-
-function formatReviews(n?: number) {
-  if (!n) return '';
-  if (n >= 1000) return `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k`;
-  return String(n);
-}
+// Star ratings and review counts are not rendered: PA API provenance is required
+// before displaying Amazon customer-derived data. See PA API compliance docs.
 
 function scoreVariant(score?: number) {
   if (!score) return 'neutral';
@@ -57,18 +49,6 @@ const categoryLabel = product.categoryLabel || (product.categoryGroup ?? '').rep
     )}
     <h3 class="amz-card__title">{product.name}</h3>
   </div>
-
-  {stars && (
-    <div class="amz-card__rating" aria-label={`${stars} out of 5 stars`}>
-      <span class="amz-card__stars" aria-hidden="true">
-        {'★'.repeat(fullStars)}{halfStar ? '½' : ''}{'☆'.repeat(emptyStars)}
-      </span>
-      <span class="amz-card__rating-value">{stars}</span>
-      {product.reviewCount && (
-        <span class="amz-card__reviews">({formatReviews(product.reviewCount)})</span>
-      )}
-    </div>
-  )}
 
   {!isCompact && product.verdict && (
     <p class="amz-card__verdict">"{product.verdict}"</p>
@@ -155,29 +135,6 @@ const categoryLabel = product.categoryLabel || (product.categoryGroup ?? '').rep
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-  }
-
-  /* ── Rating row ── */
-  .amz-card__rating {
-    display: flex;
-    align-items: center;
-    gap: var(--space-1);
-    font-size: var(--text-xs);
-  }
-
-  .amz-card__stars {
-    color: var(--color-star);
-    letter-spacing: 0.5px;
-    font-size: 0.82rem;
-  }
-
-  .amz-card__rating-value {
-    font-weight: var(--weight-semi);
-    color: var(--color-heading);
-  }
-
-  .amz-card__reviews {
-    color: var(--color-muted);
   }
 
   /* ── Verdict ── */
