@@ -89,6 +89,10 @@
   --color-danger: #dc2626;
   --color-danger-light: #fee2e2;
   --color-danger-dark: #7f1d1d;
+  --color-success-bg: #f0fdf4;
+  --color-success-text: #15803d;
+  --color-danger-bg: #fef2f2;
+  --color-danger-text: #b91c1c;
   --color-info: #2563eb;
   --color-info-light: #dbeafe;
 

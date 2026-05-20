@@ -110,7 +110,7 @@ const productSchema = JSON.stringify({
 
   {badge && (
     <div class="font-sans text-xs font-bold uppercase tracking-wider text-center py-1.5 text-white"
-      style="background:#f59e0b">{badge}</div>
+      style="background:var(--color-star)">{badge}</div>
   )}
 
   <div class="p-5">
@@ -119,7 +119,7 @@ const productSchema = JSON.stringify({
       <!-- ── Image slot ────────────────────────────────────── -->
       <div id={`${cardId}-img`}
         class="flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden flex items-center justify-center"
-        style="background:linear-gradient(135deg,var(--color-surface-warm),#fef3c7)">
+        style="background:linear-gradient(135deg,var(--color-surface-warm),var(--color-warning-light))">
 
         {productImgSrc ? (
           <!-- Slot 1: local product image -->
@@ -167,7 +167,7 @@ const productSchema = JSON.stringify({
       <!-- ── Product meta ──────────────────────────────────── -->
       <div class="flex-1 min-w-0">
         <h3 class="font-display font-semibold leading-snug mb-1"
-          style="font-family:'Playfair Display',Georgia,serif;color:#1e293b;font-size:0.95rem">
+          style="font-family:'Playfair Display',Georgia,serif;color:var(--color-heading);font-size:0.95rem">
           {name}
         </h3>
         {brand_slug && brand_name && (
@@ -178,10 +178,10 @@ const productSchema = JSON.stringify({
           </a>
         )}
         <div class="flex flex-wrap items-center gap-1.5 font-sans text-sm">
-          <span style="color:#f59e0b">
+          <span style="color:var(--color-star)">
             {'★'.repeat(stars)}{'☆'.repeat(5 - stars)}
           </span>
-          <span style="color:#6b7280">
+          <span style="color:var(--color-muted)">
             {rating.toFixed(1)}{reviewCount ? ` (${reviewCount.toLocaleString()})` : ''}
           </span>
         </div>
@@ -193,9 +193,9 @@ const productSchema = JSON.stringify({
           <div class="font-sans font-black text-2xl leading-none"
             style={`color:${scoreColor}`}>
             {ourScore}
-            <span class="text-xs font-normal" style="color:#9ca3af">/10</span>
+            <span class="text-xs font-normal" style="color:var(--color-subtle)">/10</span>
           </div>
-          <div class="font-sans text-xs mt-0.5" style="color:#9ca3af">Score</div>
+          <div class="font-sans text-xs mt-0.5" style="color:var(--color-subtle)">Score</div>
         </div>
       )}
     </div>
@@ -203,7 +203,7 @@ const productSchema = JSON.stringify({
     <!-- Verdict -->
     {verdict && (
       <p class="font-sans text-sm italic mb-3 pl-3"
-        style="color:#374151;border-left:3px solid #fbbf24">
+        style="color:var(--color-body-soft);border-left:3px solid var(--color-star)">
         {verdict}
       </p>
     )}
@@ -212,8 +212,8 @@ const productSchema = JSON.stringify({
     {features.length > 0 && (
       <ul class="mb-3 space-y-1">
         {features.slice(0, 3).map(f => (
-          <li class="font-sans text-sm flex items-start gap-2" style="color:#374151">
-            <span style="color:#f59e0b;flex-shrink:0">✓</span>{f}
+          <li class="font-sans text-sm flex items-start gap-2" style="color:var(--color-body-soft)">
+            <span style="color:var(--color-star);flex-shrink:0">✓</span>{f}
           </li>
         ))}
       </ul>
@@ -223,18 +223,18 @@ const productSchema = JSON.stringify({
     {(pros.length > 0 || cons.length > 0) && (
       <div class="grid grid-cols-2 gap-2 mb-3 font-sans text-xs">
         {pros.length > 0 && (
-          <div class="rounded-xl p-3" style="background:#f0fdf4">
-            <p class="font-bold mb-1" style="color:#15803d">✅ Pros</p>
+          <div class="rounded-xl p-3" style="background:var(--color-success-bg)">
+            <p class="font-bold mb-1" style="color:var(--color-success-text)">✅ Pros</p>
             {pros.slice(0, 3).map(p => (
-              <p style="color:#166534" class="mb-0.5">{p}</p>
+              <p style="color:var(--color-success-text)" class="mb-0.5">{p}</p>
             ))}
           </div>
         )}
         {cons.length > 0 && (
-          <div class="rounded-xl p-3" style="background:#fef2f2">
-            <p class="font-bold mb-1" style="color:#b91c1c">❌ Cons</p>
+          <div class="rounded-xl p-3" style="background:var(--color-danger-bg)">
+            <p class="font-bold mb-1" style="color:var(--color-danger-text)">❌ Cons</p>
             {cons.slice(0, 3).map(c => (
-              <p style="color:#991b1b" class="mb-0.5">{c}</p>
+              <p style="color:var(--color-danger-dark)" class="mb-0.5">{c}</p>
             ))}
           </div>
         )}
