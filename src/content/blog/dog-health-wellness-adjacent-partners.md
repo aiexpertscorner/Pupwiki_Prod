@@ -3,8 +3,8 @@ title: "Dog Health, Wellness and Vet-Care Planning - PupWiki Dog Guide"
 seoTitle: "Dog Health, Wellness and Vet-Care Planning - Brands, Services and Dog-Fit Checks"
 displayTitle: "Dog Health, Wellness and Vet-Care Planning"
 description: "Compare dog-focused brands, products and services for dog health, wellness and vet-care planning, with practical checks for current and future dog owners."
-pubDate: 2026-05-19
-updatedDate: 2026-05-19
+pubDate: 2026-05-20
+updatedDate: 2026-05-20
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-health-wellness-adjacent-partners", "health", "wellness", "care", "nutrition", "supplements", "vet", "insurance", "food", "feeding", "fresh-food", "raw-food", "sensitive-stomach", "allergies", "appliances", "freeze-dried", "single-protein", "training", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear", "partner", "gift", "lifestyle", "novelty", "accessories", "dog-names", "fun", "containment", "fence", "gps", "link", "outdoor", "safety", "hydration", "joint-health", "digestion", "senior", "recovery", "beds", "crates", "carriers", "toys", "bowls", "home"]
@@ -25,16 +25,7 @@ medicalDisclaimer: true
 partnerProgramKeys: ["chefpaw", "rawwild", "jugbow", "dog-cloud-us", "mypetdmv-the-original-pet-drivers-license", "radiofence-com", "brutus-broth", "petmate", "nextrition-pet-us"]
 partnerAdvertiserIds: ["63546", "89689", "79708", "87483", "118951", "87999", "55927", "89913", "113600"]
 canonicalUrl: "https://pupwiki.com/blog/dog-health-wellness-adjacent-partners"
-heroImage: "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner."
-imageAlt: "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner."
-imageSource: "pexels"
-imageCredit: "Photo by Bethany Ferr on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/"
-imageSearchQuery: "dog owner comparing dog care"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links. Brand availability, offers, products and terms can change.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## What this guide helps you decide

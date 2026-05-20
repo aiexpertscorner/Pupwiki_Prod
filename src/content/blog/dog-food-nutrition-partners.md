@@ -3,8 +3,8 @@ title: "Dog Food, Toppers and Feeding Help - PupWiki Dog Guide"
 seoTitle: "Dog Food, Toppers and Feeding Help - Brands, Services and Dog-Fit Checks"
 displayTitle: "Dog Food, Toppers and Feeding Help"
 description: "Compare dog-focused brands, products and services for dog food, toppers and feeding help, with practical checks for current and future dog owners."
-pubDate: 2026-05-19
-updatedDate: 2026-05-19
+pubDate: 2026-05-20
+updatedDate: 2026-05-20
 author: "The PupWiki Team"
 category: "PupWiki Partners"
 tags: ["dog-food-nutrition-partners", "food", "nutrition", "feeding", "fresh-food", "raw-food", "sensitive-stomach", "broth", "allergies", "appliances", "care", "freeze-dried", "single-protein", "supplements", "hydration", "joint-health", "digestion", "senior", "recovery", "partner", "health"]
@@ -25,16 +25,7 @@ medicalDisclaimer: true
 partnerProgramKeys: ["chefpaw", "rawwild", "brutus-broth", "nextrition-pet-us"]
 partnerAdvertiserIds: ["63546", "89689", "55927", "113600"]
 canonicalUrl: "https://pupwiki.com/blog/dog-food-nutrition-partners"
-heroImage: "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-image: "https://images.pexels.com/photos/5483258/pexels-photo-5483258.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-heroImageAlt: "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner."
-imageAlt: "A man lovingly embraces a Dalmatian dog outdoors, highlighting the bond between pet and owner."
-imageSource: "pexels"
-imageCredit: "Photo by Bethany Ferr on Pexels"
-imageCreditUrl: "https://www.pexels.com/photo/a-man-hugging-a-black-and-white-dalmatian-dog-5483258/"
-imageSearchQuery: "dog owner comparing dog care"
 ---
-
 > **Reader-support note:** PupWiki may earn from reader-supported links. Brand availability, offers, products and terms can change.
 > **Health-sensitive note:** This page is for comparison and planning only. It does not provide veterinary, medical, insurance, or financial advice.
 ## What this guide helps you decide
