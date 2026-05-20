@@ -1,11 +1,10 @@
-name: Generate PSEO Content (daily)
+name: Generate PSEO Content (weekly)
 
 on:
-  # Run daily at 06:00 UTC (clusters + top breeds) — after AWIN sync (03:00)
+  # Run weekly on Sunday at 04:00 UTC — reduced from 2x daily to limit automated commits
+  # and repo churn. Use workflow_dispatch with branch + mode inputs for manual catch-up runs.
   schedule:
-    - cron: '0 6 * * *'
-  # Second daily run at 18:00 UTC — breed pages backlog catch-up
-    - cron: '0 18 * * *'
+    - cron: '0 4 * * 0'
 
   # Allow manual trigger with overrides
   workflow_dispatch:

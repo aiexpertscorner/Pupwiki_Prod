@@ -40,11 +40,21 @@ const warnings = [
   programs.stats?.warnings?.length ? `${programs.stats.warnings.length} warning(s) were recorded during sync.` : null,
 ].filter(Boolean);
 
+const stats = programs.stats || {};
+const feedRowsFetched = stats.feedRowsFetched ?? 0;
+const apiProductCount = stats.apiProducts ?? 0;
+
 const failures = [
   strict && !programs.stats?.oauthTokenPresent ? 'Strict audit failed: last AWIN sync did not have AWIN_OAUTH2_TOKEN.' : null,
   strict && !programs.stats?.productFeedKeyPresent ? 'Strict audit failed: last AWIN sync did not have AWIN_PRODUCT_FEED_API_KEY.' : null,
   strict && joined.length === 0 ? 'Strict audit failed: no joined AWIN programmes were synced.' : null,
   strict && products.length === 0 ? 'Strict audit failed: no AWIN products were generated.' : null,
+  strict && joinedFeedPrograms.length > 0 && feedProducts.length === 0
+    ? `Strict audit failed: ${joinedFeedPrograms.length} joined programme(s) have product feeds but 0 live feed products were imported.`
+    : null,
+  strict && feedRowsFetched > 0 && apiProductCount === 0
+    ? `Strict audit failed: ${feedRowsFetched} feed row(s) were fetched but 0 products were normalised (check parser or field mapping).`
+    : null,
 ].filter(Boolean);
 
 const report = {
@@ -82,6 +92,9 @@ const report = {
     productFeedKeyPresent: Boolean(programs.stats?.productFeedKeyPresent),
     feedListEndpointUsed: programs.stats?.feedListEndpointUsed || null,
     feedProductFetchFailures: programs.stats?.feedProductFetchFailures || 0,
+    feedRowsFetched: feedRowsFetched,
+    feedRowsNormalized: stats.feedRowsNormalized ?? 0,
+    feedsWithRowsButZeroProducts: stats.feedsWithRowsButZeroProducts || [],
     experimentalCreativesEnabled: Boolean(programs.stats?.experimentalCreativesEnabled),
   },
   warnings,

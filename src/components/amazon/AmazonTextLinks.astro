@@ -1,0 +1,111 @@
+---
+/**
+ * AmazonTextLinks.astro
+ *
+ * Subtle contextual Amazon search text links for authority content.
+ * Used on blog pages where heavy product cards are not appropriate.
+ *
+ * Rules:
+ * - No product images, no Amazon badge, no price, no star rating, no review count.
+ * - All links: target="_blank" rel="nofollow sponsored"
+ * - Includes Amazon Associate disclosure.
+ * - Styled as a quiet contextual aside, not a commerce module.
+ */
+
+import type { AmazonTextLink } from '../../lib/commerce/amazon/amazonTextLinks';
+
+export interface Props {
+  links: AmazonTextLink[];
+  disclosure?: boolean;
+}
+
+const { links, disclosure = true } = Astro.props;
+if (!links || links.length === 0) return;
+---
+
+<aside class="amz-text-links not-prose" aria-label="Contextual Amazon links">
+  <ul class="amz-text-links__list">
+    {links.map((link) => (
+      <li class="amz-text-links__item">
+        <a
+          href={link.href}
+          target="_blank"
+          rel="nofollow sponsored"
+          class="amz-text-links__link"
+          data-amazon-text-link={link.id}
+          data-intent={link.intent}
+        >
+          <span class="amz-text-links__icon" aria-hidden="true">→</span>
+          {link.label}
+        </a>
+      </li>
+    ))}
+  </ul>
+  {disclosure && (
+    <p class="amz-text-links__disclosure">
+      As an Amazon Associate, PupWiki may earn from qualifying purchases.
+    </p>
+  )}
+</aside>
+
+<style>
+  .amz-text-links {
+    margin: var(--space-6) 0;
+    padding: var(--space-3) var(--space-4);
+    border-left: 3px solid var(--color-accent);
+    background: var(--color-bg-soft, #f9f9f9);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  }
+
+  .amz-text-links__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .amz-text-links__item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .amz-text-links__link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-medium, 500);
+    color: var(--color-accent);
+    text-decoration: none;
+    line-height: 1.4;
+    transition: color var(--transition-base);
+  }
+
+  .amz-text-links__link:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+
+  .amz-text-links__icon {
+    font-style: normal;
+    font-size: 0.75rem;
+    opacity: 0.7;
+    flex-shrink: 0;
+  }
+
+  .amz-text-links__disclosure {
+    margin: var(--space-3) 0 0;
+    font-size: var(--text-xs);
+    color: var(--color-muted);
+    font-style: italic;
+    line-height: 1.4;
+  }
+
+  @media (max-width: 767px) {
+    .amz-text-links {
+      padding: var(--space-3);
+    }
+  }
+</style>

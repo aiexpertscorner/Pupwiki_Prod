@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "blocking": true,
-  "ciMode": false,
-  "scanned": 915,
+  "blocking": false,
+  "ciMode": true,
+  "scanned": 926,
   "count": 0,
   "byFile": {},
   "hits": [],
-  "generatedAt": "2026-05-19T20:46:30.217Z"
+  "generatedAt": "2026-05-20T20:47:47.901Z"
 }
