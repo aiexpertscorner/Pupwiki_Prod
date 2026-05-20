@@ -8,15 +8,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Recent completed work — context for the next session:
 
-- **PR #110** — Amazon pipeline overhaul: rewrote `matchAmazonProducts.ts`, added `amazonDeeplink.ts`, internal routing audit + broken link fixes
-- **PR #109** — AWIN showcase: dynamic carousel in `HomeAwinShowcase.astro`, full `awin-program-config.json`, fixed 0-product sync bug in `sync-awin.mjs`
-- **PR #108** — Full homepage visual rework: `HomeHeroClean.astro`, `HomeBreedDiscovery.astro`, `HomeAwinShowcase.astro`, `HomeTrustStrip.astro`
-- **PRs #105–107** — Cloudflare CI/CD stabilization: soft-fail AWIN sync, fix `set -e` aborting on wait codes, closed deployment gap
-- **pSEO pipeline** — `generate-pseo.yml` workflow generating content in CI (mode=all, limit=1000)
+- **PR #110** — Amazon pipeline overhaul
+- **PR #109** — AWIN showcase, dynamic carousel, 0-product sync bug fixed
+- **PR #108** — Full homepage visual rework
+- **PRs #105–107** — Cloudflare CI/CD stabilization
+- **Platform pipeline rework (current branch):**
+  - `deploy-production.yml` — single deterministic deploy, concurrency, no mutations
+  - `deploy.yml` + `deploy-scheduled.yml` — disabled (superseded)
+  - `generate-pseo.yml` — reduced to weekly Sunday schedule
+  - `sync-awin.mjs` — gzip decode, normalizeProductRows, parseProductFeedText, drop counters
+  - `audit-awin.mjs` — strict failure when feed rows > 0 but feed products = 0
+  - `amazonTextLinks.ts` + `AmazonTextLinks.astro` — contextual text links for authority content
+  - `AmazonProductCard.astro` — star/review rendering removed (PA API required)
+  - `ProductCard.astro` — inline hex palette → token vars
 
 **Currently known tech debt to address next:**
-- Hardcoded `#a0621c` in `src/components/content/ProductGrid.astro:166` → use `var(--color-accent)`
-- Inline hex palette (`#CCFF00`, `#222`, `#0A0A0A`, `#F0F0F0`) in `src/components/ProductReviewCard.astro` → use token vars
+- No critical design token violations remaining in components
+- `src/styles/names.css` has 23 hardcoded colors (low risk, CSS file)
+- `src/pages/cost-calculator/[breed].astro` has 27 hardcoded colors (medium priority)
 
 ---
 
@@ -31,12 +40,13 @@ npm run sitemap:generate # Regenerate public/sitemap.xml after adding pages/bree
 
 There are no lint or test scripts. The build (`astro build`) is the primary validation step.
 
-**Prebuild chain** — runs automatically before every `npm run build`:
+**CI validate + build** — production deploy runs these two commands in sequence:
+```bash
+npm run validate:ci   # content:normalize:check + content:refresh:check + partners:check + content:audit:public:ci + amazon:links:audit
+npm run build:ci      # sitemap:generate + astro build (no external API calls, no mutations)
 ```
-hero:audit → images:hero:ci → awin:sync:ci → partners:check →
-content:normalize:check → content:refresh:check → content:inventory →
-content:audit:public → images:content:ci → images:enrich:ci → sitemap:generate
-```
+
+The old `prebuild` hook that ran AWIN/Pexels/images/pSEO on every `npm run build` has been removed. Enrichment now runs only in dedicated scheduled workflows.
 
 **Main npm script groups** (60+ total scripts in `package.json`):
 - `npm run awin:sync` / `awin:audit` — sync & validate AWIN products + programs
