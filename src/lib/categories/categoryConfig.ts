@@ -87,9 +87,9 @@ export const CATEGORY_META = {
     theme: 'training',
     updatedLabel: 'Updated 2026',
     heroLabel: 'Training & behavior hub',
-    seoTitle: 'Dog Training Guides 2026 — Breed-Specific Training, Walking Gear & Behavior | PupWiki',
+    seoTitle: 'Dog Training Guides — Breed Trainability, Positive Reinforcement & Walking Gear | PupWiki',
     seoDescription:
-      'Explore PupWiki dog training guides by breed and behavior need. Find training resources, walking gear ideas, breed-specific advice and owner planning tools.',
+      'Find dog training guides by breed temperament and difficulty. Covers positive reinforcement, puppy vs adult training, no-pull gear, and breed-specific behavior resources.',
     primaryCta: { label: 'Browse training guides', href: '#breed-guides' },
     secondaryCta: { label: 'Take breed quiz', href: '/breed-quiz' },
   },

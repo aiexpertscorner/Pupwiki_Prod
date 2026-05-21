@@ -99,7 +99,7 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
     <section class="category-hub__section category-hub__section--soft">
       <div class="category-hub__container">
         <div class="category-hub__section-header">
-          <p class="category-hub__eyebrow">Training philosophy</p>
+          <p class="category-hub__eyebrow">What the research says</p>
           <h2>Breed temperament shapes training approach</h2>
           <p>
             Positive reinforcement — rewarding wanted behaviour rather than punishing unwanted
@@ -108,7 +108,7 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
             on the individual dog's breed background, age and prior experience.
           </p>
         </div>
-        <div class="category-hub__link-grid">
+        <div class="training-method-grid">
           <div class="category-hub__link-card">
             <span aria-hidden="true">🏆</span>
             <strong>Easiest to train</strong>
@@ -124,6 +124,40 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
             <strong>Walking gear matters</strong>
             <p>The right harness and leash reduce pulling and allow consistent reinforcement. No-pull harnesses clip to the front ring — they redirect, not restrict.</p>
           </div>
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">🐶</span>
+            <strong>Puppy vs adult training</strong>
+            <p>Puppies form habits during critical windows. Adult dogs can still learn — but require more patience and consistency. Age shapes the approach, not the outcome.</p>
+          </div>
+        </div>
+        <div class="training-method-cta">
+          <a href="/breeds">Compare trainability across breeds →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resource strip: quick links -->
+    <section class="training-resource-strip">
+      <div class="category-hub__container">
+        <div class="training-resource-grid">
+          <a href="/breed-quiz" class="training-resource-card">
+            <p class="training-resource-card__eyebrow">Find your match</p>
+            <strong>Breed Quiz</strong>
+            <p>Answer a few questions and get matched to breeds that fit your lifestyle and training expectations.</p>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href="/guides/first-dog" class="training-resource-card">
+            <p class="training-resource-card__eyebrow">New owners</p>
+            <strong>First Dog Guide</strong>
+            <p>Everything first-time owners need — from choosing a breed to training fundamentals and daily care.</p>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href="/categories/lifestyle" class="training-resource-card">
+            <p class="training-resource-card__eyebrow">Mental stimulation</p>
+            <strong>Toys &amp; Enrichment</strong>
+            <p>Mental stimulation reduces problem behaviours. Browse toys, puzzle feeders, and gear by breed size.</p>
+            <span aria-hidden="true">→</span>
+          </a>
         </div>
       </div>
     </section>
@@ -144,7 +178,11 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
       </section>
     )}
 
-    <CategoryBreedGuides meta={meta} guides={featuredBreedGuides} />
+    <CategoryBreedGuides
+      meta={meta}
+      guides={featuredBreedGuides}
+      contextDesc="Browse breeds by trainability — from highly responsive to more independent. Each card links to the full breed profile with traits, energy, and owner-difficulty ratings."
+    />
 
     <CategoryOwnerResources
       meta={meta}
@@ -165,6 +203,38 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
     <CategoryPartnerBlock meta={meta} categorySlug={categorySlug} tags={awinTags.primary} />
     <CategoryAmazonBlock meta={meta} categorySlug={categorySlug} />
 
+    <!-- Also worth reading: real training guides -->
+    <section class="training-reads">
+      <div class="category-hub__container">
+        <div class="training-reads__header">
+          <p class="category-hub__eyebrow">Also worth reading</p>
+          <h2>Training guides worth bookmarking</h2>
+        </div>
+        <div class="training-reads__grid">
+          <a href="/guides/puppy-crate-training-guide" class="training-reads__card">
+            <p class="training-reads__card-eyebrow">Puppy training</p>
+            <strong>The Ultimate Guide to Puppy Crate Training</strong>
+            <span aria-hidden="true">Read more →</span>
+          </a>
+          <a href="/guides/best-training-tools-stubborn-dogs-2026" class="training-reads__card">
+            <p class="training-reads__card-eyebrow">Gear roundup</p>
+            <strong>Training Gear for Dogs That Don't Listen</strong>
+            <span aria-hidden="true">Read more →</span>
+          </a>
+          <a href="/guides/best-dog-training-collars" class="training-reads__card">
+            <p class="training-reads__card-eyebrow">Product comparison</p>
+            <strong>Best Dog Training Collars 2026</strong>
+            <span aria-hidden="true">Read more →</span>
+          </a>
+          <a href="/guides/training-an-adult-dog" class="training-reads__card">
+            <p class="training-reads__card-eyebrow">Adult dogs</p>
+            <strong>How to Train an Adult Dog: Is It Ever Too Late?</strong>
+            <span aria-hidden="true">Read more →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <CategoryRelatedTopics meta={meta} cards={relatedCards} />
 
     {featuredPosts.length === 0 && featuredBreedGuides.length === 0 && (
@@ -172,3 +242,229 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
     )}
   </main>
 </BaseLayout>
+
+<style>
+  /* ── Methodology grid: 2-col mobile → 4-col desktop ─────── */
+  .training-method-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 640px) {
+    .training-method-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .training-method-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .training-method-cta {
+    margin-top: var(--space-6);
+    text-align: center;
+  }
+
+  .training-method-cta a {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    text-decoration: none;
+  }
+
+  .training-method-cta a:hover {
+    text-decoration: underline;
+  }
+
+  /* ── Resource strip ──────────────────────────────────────── */
+  .training-resource-strip {
+    background: var(--color-bg);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .training-resource-strip {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .training-resource-strip {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .training-resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .training-resource-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .training-resource-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .training-resource-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-border-strong);
+  }
+
+  .training-resource-card__eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .training-resource-card strong {
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+  }
+
+  .training-resource-card p {
+    margin: 0;
+    flex: 1;
+    color: var(--color-body-soft);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .training-resource-card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    margin-top: var(--space-2);
+  }
+
+  /* ── Also worth reading ──────────────────────────────────── */
+  .training-reads {
+    background: var(--color-bg-cool);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .training-reads {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .training-reads {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .training-reads__header {
+    margin-bottom: var(--space-8);
+  }
+
+  .training-reads__header h2 {
+    margin: var(--space-2) 0 0;
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: clamp(var(--text-xl), 3vw, var(--text-3xl));
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-tight);
+    letter-spacing: var(--tracking-snug);
+  }
+
+  .training-reads__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .training-reads__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .training-reads__grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .training-reads__card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .training-reads__card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-primary);
+  }
+
+  .training-reads__card-eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .training-reads__card strong {
+    flex: 1;
+    color: var(--color-heading);
+    font-size: var(--text-base);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+    letter-spacing: var(--tracking-snug);
+  }
+
+  .training-reads__card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .training-resource-card,
+    .training-reads__card {
+      transition: none;
+    }
+
+    .training-resource-card:hover,
+    .training-reads__card:hover {
+      transform: none;
+    }
+  }
+</style>

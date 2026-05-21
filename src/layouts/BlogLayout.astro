@@ -83,6 +83,20 @@ const categoryConfig: Record<string, { label: string; icon: string; className: s
 
 const categoryKey = String(category || 'Guide').toLowerCase();
 const categoryMeta = categoryConfig[categoryKey] || { label: category || 'Guide', icon: '🐾', className: 'is-default' };
+
+const articlePrimaryCta = ({
+  training:    { label: 'Browse training guides',  href: '/categories/training'  },
+  gear:        { label: 'Browse training guides',  href: '/categories/training'  },
+  health:      { label: 'Browse health guides',    href: '/categories/health'    },
+  supplements: { label: 'Browse health guides',    href: '/categories/health'    },
+  'dog food':  { label: 'Browse food guides',      href: '/categories/dog-food'  },
+  food:        { label: 'Browse food guides',      href: '/categories/dog-food'  },
+  grooming:    { label: 'Browse grooming guides',  href: '/categories/grooming'  },
+  toys:        { label: 'Browse lifestyle guides', href: '/categories/lifestyle' },
+  beds:        { label: 'Browse lifestyle guides', href: '/categories/lifestyle' },
+  lifestyle:   { label: 'Browse lifestyle guides', href: '/categories/lifestyle' },
+} as Record<string, { label: string; href: string }>)[categoryKey]
+  ?? { label: 'Explore dog breeds', href: '/breeds' };
 const categoryPath = `/categories/${slugify(category)}`;
 const displayDate = new Date(updatedDate ?? pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 const publishedIso = new Date(pubDate).toISOString();
@@ -211,12 +225,6 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
       <div class="article-container">
         <div class="article-layout">
           <article class="article-content prose" id="article-content">
-            {showHealthDisclaimer && (
-              <aside class="health-disclaimer not-prose">
-                <strong>Health note:</strong> This guide is for general informational and product-comparison purposes only. It is not veterinary advice. Diet, health conditions, and supplement use should always be discussed with your veterinarian.
-              </aside>
-            )}
-
             <nav class="article-toc article-toc--mobile not-prose" id="article-toc-mobile" aria-label="On this page" hidden>
               <details>
                 <summary>On this page</summary>
@@ -247,13 +255,13 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
                   : <strong>Use PupWiki tools next</strong>}
                 {breedSlug
                   ? <p>Compare traits, estimate costs, and explore more {breedName || breedSlug} guides.</p>
-                  : <p>Compare breeds, estimate ownership costs, or find breed-specific dog name ideas.</p>}
+                  : <p>More practical dog guidance — breeds, costs, names, and care tools.</p>}
               </div>
               <div class="article-tool-cta__actions">
                 {breedSlug && <a href={`/breeds/${breedSlug}`} class="article-button article-button--primary">← {breedName || breedSlug} guide</a>}
                 {breedSlug && <a href={`/cost-calculator/${breedSlug}`} class="article-button article-button--secondary">Cost calculator</a>}
-                {!breedSlug && <a href="/cost-calculator" class="article-button article-button--primary">Cost calculator</a>}
-                {!breedSlug && <a href="/breeds" class="article-button article-button--secondary">Explore breeds</a>}
+                {!breedSlug && <a href={articlePrimaryCta.href} class="article-button article-button--primary">{articlePrimaryCta.label}</a>}
+                {!breedSlug && articlePrimaryCta.href !== '/breeds' && <a href="/breeds" class="article-button article-button--secondary">Explore breeds</a>}
               </div>
             </div>
 
