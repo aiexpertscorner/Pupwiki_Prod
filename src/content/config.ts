@@ -29,6 +29,7 @@ const blog = defineCollection({
     displayTitle:  z.string().optional(),
     titlePattern:  z.string().optional(),
     heroImage:     z.string().optional(),
+    image:         z.string().optional(),
     heroImageAlt:  z.string().optional(),
     readTime:      z.number().optional(),
     noIndex:       z.boolean().default(false),

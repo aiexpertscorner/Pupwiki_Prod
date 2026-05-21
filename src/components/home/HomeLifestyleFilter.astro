@@ -116,7 +116,13 @@ const defaultColorVar = '--color-primary';
   .pw-lifestyle__grid {
     display: grid;
     gap: var(--space-3);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 480px) {
+    .pw-lifestyle__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   .pw-lifestyle__card {

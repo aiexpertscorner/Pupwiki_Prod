@@ -11,6 +11,7 @@ import HomeCareDecisionLayer from '../components/home/HomeCareDecisionLayer.astr
 import HomeEditorialHighlights from '../components/home/HomeEditorialHighlights.astro';
 import HomeMethodologyTeaser from '../components/home/HomeMethodologyTeaser.astro';
 import HomeLeadCapture from '../components/home/HomeLeadCapture.astro';
+import HomeLifestyleFilter from '../components/home/HomeLifestyleFilter.astro';
 
 import getHomepageData from '../lib/homepage/getHomepageData';
 
@@ -25,6 +26,7 @@ const {
   breedDiscovery,
   quickCostTeaser,
   mixedBreedDiscovery,
+  lifestyleFilters,
   careDecisionLayer,
   editorialHighlights,
   methodologyTeaser,
@@ -126,6 +128,9 @@ const structuredData = [
 
     {/* 3 — Primary journeys */}
     {featureFlags.showPrimaryJourneys && <HomePrimaryJourneys {...primaryJourneys} />}
+
+    {/* 3.5 — Lifestyle filter */}
+    {featureFlags.showLifestyleFilter && <HomeLifestyleFilter {...lifestyleFilters} />}
 
     {/* 4 — Popular breed discovery */}
     {featureFlags.showBreedDiscovery && <HomeBreedDiscovery {...breedDiscovery} />}
