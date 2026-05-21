@@ -5,15 +5,12 @@ import HomeHero from '../components/home/HomeHeroClean.astro';
 import HomeTrustStrip from '../components/home/HomeTrustStrip.astro';
 import HomePrimaryJourneys from '../components/home/HomePrimaryJourneys.astro';
 import HomeBreedDiscovery from '../components/home/HomeBreedDiscovery.astro';
-import HomeLifestyleFilter from '../components/home/HomeLifestyleFilter.astro';
 import HomeMixedBreedDiscovery from '../components/home/HomeMixedBreedDiscovery.astro';
 import HomeQuickCostTeaser from '../components/home/HomeQuickCostTeaser.astro';
 import HomeCareDecisionLayer from '../components/home/HomeCareDecisionLayer.astro';
 import HomeEditorialHighlights from '../components/home/HomeEditorialHighlights.astro';
-import HomeAwinSpotlight from '../components/home/HomeAwinSpotlight.astro';
 import HomeMethodologyTeaser from '../components/home/HomeMethodologyTeaser.astro';
 import HomeLeadCapture from '../components/home/HomeLeadCapture.astro';
-import HomeBreedExplorer from '../components/home/HomeBreedExplorer.astro';
 
 import getHomepageData from '../lib/homepage/getHomepageData';
 
@@ -26,7 +23,6 @@ const {
   primaryJourneys,
   trustStrip,
   breedDiscovery,
-  lifestyleFilters,
   quickCostTeaser,
   mixedBreedDiscovery,
   careDecisionLayer,
@@ -134,25 +130,20 @@ const structuredData = [
     {/* 4 — Popular breed discovery */}
     {featureFlags.showBreedDiscovery && <HomeBreedDiscovery {...breedDiscovery} />}
 
-    {/* 5 — Lifestyle filter */}
-    {(featureFlags as any).showLifestyleFilter && (
-      <HomeLifestyleFilter {...lifestyleFilters} />
-    )}
-
-    {/* 6 — Mixed breed discovery */}
+    {/* 5 — Mixed breed discovery */}
     {featureFlags.showMixedBreedDiscovery && (
       <HomeMixedBreedDiscovery {...mixedBreedDiscovery} />
     )}
 
-    {/* 7 — Quick cost teaser */}
-    {(featureFlags as any).showQuickCostTeaser && (
+    {/* 6 — Quick cost teaser */}
+    {featureFlags.showQuickCostTeaser && (
       <HomeQuickCostTeaser {...quickCostTeaser} />
     )}
 
-    {/* 8 — Care decision layer */}
+    {/* 7 — Care decision layer */}
     {featureFlags.showCareDecisionLayer && <HomeCareDecisionLayer {...careDecisionLayer} />}
 
-    {/* 9 — Editorial highlights */}
+    {/* 8 — Editorial highlights */}
     {featureFlags.showEditorialHighlights && (
       <HomeEditorialHighlights
         id="home-editorial-highlights"
@@ -165,25 +156,11 @@ const structuredData = [
       />
     )}
 
-    {/* 10 — AWIN partner spotlight */}
-    {(featureFlags as any).showAwinSpotlight && <HomeAwinSpotlight />}
-
-    {/* 11 — Methodology teaser */}
+    {/* 9 — Methodology teaser */}
     {featureFlags.showMethodologyTeaser && <HomeMethodologyTeaser {...methodologyTeaser} />}
 
-    {/* 12 — Lead capture / CTA close */}
+    {/* 10 — Lead capture / CTA close */}
     {featureFlags.showLeadCapture && <HomeLeadCapture {...leadCapture} />}
-
-    {/* 13 — Full breed explorer (power tool, below fold) */}
-    {(featureFlags as any).showBreedExplorer && (
-      <div id="full-breed-finder">
-        <div class="mx-auto max-w-7xl px-4 pb-2 pt-10 sm:px-5 lg:px-6">
-          <p class="text-xs font-bold uppercase tracking-[0.16em] text-[var(--color-primary)]">Full breed finder</p>
-          <h2 class="mt-2 text-2xl font-bold tracking-tight text-[var(--color-heading)] sm:text-3xl">Search and filter all 352 breeds &amp; mixes</h2>
-        </div>
-        <HomeBreedExplorer id="home-breed-explorer" />
-      </div>
-    )}
 
   </div>
 </BaseLayout>
