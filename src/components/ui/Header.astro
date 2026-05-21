@@ -1,33 +1,24 @@
 ---
-import { SITE_LOGO, SITE_NAME, SITE_TAGLINE } from '../../lib/site-config';
+import { SITE_LOGO, SITE_NAME, SITE_NAV_TAGLINE } from '../../lib/site-config';
+import { MOBILE_NAV_GROUPS, PRIMARY_CTA } from '../../lib/navigation/siteMap';
 
 const currentPath = Astro.url.pathname;
 
-const navLinks = [
-  { label: 'All Breeds', href: '/breeds',     isActive: currentPath === '/breeds' || currentPath.startsWith('/breeds/') },
-  { label: 'Dog Names',  href: '/dog-names',  isActive: currentPath === '/dog-names' || currentPath.startsWith('/dog-names/') },
-  { label: 'Guides',     href: '/guides',     isActive: currentPath === '/guides' || currentPath.startsWith('/guides/') || currentPath.startsWith('/categories/') },
-  { label: 'Reviews',    href: '/reviews',    isActive: currentPath === '/reviews' || currentPath.startsWith('/reviews/') },
-  { label: 'FAQ',        href: '/faq',        isActive: currentPath === '/faq' || currentPath.startsWith('/faq/') },
-  { label: 'Breed Quiz', href: '/breed-quiz', isActive: currentPath === '/breed-quiz' },
+const primaryNav = [
+  { label: 'All Breeds', href: '/breeds' },
+  { label: 'Dog Names',  href: '/dog-names' },
+  { label: 'Guides',     href: '/guides' },
+  { label: 'Reviews',    href: '/reviews' },
+  { label: 'FAQ',        href: '/faq' },
 ];
 
-const utilityLinks = [
-  { label: 'Methodology', href: '/methodology', isActive: currentPath === '/methodology' },
-  { label: 'About',       href: '/about',       isActive: currentPath === '/about' },
-  { label: 'Contact',     href: '/contact',     isActive: currentPath === '/contact' },
-];
-
-const primaryCta = {
-  label: 'Cost & Insurance',
-  href:  '/cost-calculator',
-  isActive: currentPath === '/cost-calculator' || currentPath.startsWith('/cost-calculator/'),
-};
-
-const allMobileLinks = [...navLinks, ...utilityLinks];
+function isActive(href: string): boolean {
+  if (href === '/') return currentPath === '/';
+  return currentPath === href || currentPath.startsWith(href + '/');
+}
 ---
 
-<header class="site-header">
+<header class="site-header" data-header-version="2026-refactor-a2">
   <div class="container">
     <div class="site-header__inner">
 
@@ -42,18 +33,14 @@ const allMobileLinks = [...navLinks, ...utilityLinks];
           width="288"
           height="88"
         />
-        <div class="site-brand__meta">
-          <span class="site-brand__name">{SITE_NAME}</span>
-          <span class="site-brand__tagline">{SITE_TAGLINE}</span>
-        </div>
       </a>
 
       <!-- Desktop navigation -->
       <nav class="site-nav" aria-label="Main navigation">
-        {navLinks.map(link => (
+        {primaryNav.map(link => (
           <a
             href={link.href}
-            aria-current={link.isActive ? 'page' : undefined}
+            aria-current={isActive(link.href) ? 'page' : undefined}
             class="site-nav__link"
           >
             {link.label}
@@ -61,41 +48,56 @@ const allMobileLinks = [...navLinks, ...utilityLinks];
         ))}
       </nav>
 
-      <!-- Desktop right: utility links + CTA -->
+      <!-- Desktop CTA -->
       <div class="site-header__actions">
-        {utilityLinks.map(link => (
-          <a
-            href={link.href}
-            aria-current={link.isActive ? 'page' : undefined}
-            class="site-nav__link site-nav__link--utility"
-          >
-            {link.label}
-          </a>
-        ))}
         <a
-          href={primaryCta.href}
-          aria-current={primaryCta.isActive ? 'page' : undefined}
+          href={PRIMARY_CTA.href}
+          aria-current={isActive(PRIMARY_CTA.href) ? 'page' : undefined}
           class="btn btn--primary btn--sm"
         >
-          {primaryCta.label}
+          {PRIMARY_CTA.label}
         </a>
       </div>
 
       <!-- Mobile toggle -->
       <button
         type="button"
-  class="site-header__toggle"
-  aria-label="Toggle menu"
-  aria-expanded="false"
-  aria-controls="mobile-nav"
-  data-nav-toggle
->
-  <span class="site-header__toggle-label">Menu</span>
-  <svg data-icon-open class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-  </svg>
-  <svg data-icon-close class="hidden h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M6 18L18 6M6 6l12 12"/>
-  </svg>
+        class="site-header__toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+        data-nav-toggle
+      >
+        <svg
+          class="nav-icon nav-icon--open"
+          data-icon-open
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <line x1="3" y1="6"  x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+        <svg
+          class="nav-icon nav-icon--close hidden"
+          data-icon-close
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <line x1="6" y1="6"  x2="18" y2="18" />
+          <line x1="18" y1="6" x2="6"  y2="18" />
+        </svg>
+        <span class="site-header__toggle-label">Menu</span>
       </button>
 
     </div>
@@ -108,24 +110,31 @@ const allMobileLinks = [...navLinks, ...utilityLinks];
 
         <div class="mobile-panel__brand-note">
           <p class="mobile-panel__brand-label">{SITE_NAME}</p>
-          <p class="mobile-panel__brand-sub">Research breeds, compare costs, and care smarter.</p>
+          <p class="mobile-panel__brand-sub">{SITE_NAV_TAGLINE}</p>
         </div>
 
         <nav class="mobile-panel__nav" aria-label="Mobile navigation">
-          {allMobileLinks.map(link => (
-            <a
-              href={link.href}
-              aria-current={link.isActive ? 'page' : undefined}
-              class="mobile-panel__link"
-            >
-              {link.label}
-            </a>
+          {MOBILE_NAV_GROUPS.map(group => (
+            <div class="mobile-panel__group">
+              <p class="mobile-panel__group-label">{group.label}</p>
+              <div class="mobile-panel__group-links">
+                {group.links.map(link => (
+                  <a
+                    href={link.href}
+                    aria-current={isActive(link.href) ? 'page' : undefined}
+                    class="mobile-panel__link"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </div>
           ))}
         </nav>
 
         <div class="mobile-panel__cta">
-          <a href={primaryCta.href} class="btn btn--primary mobile-panel__cta-btn">
-            {primaryCta.label}
+          <a href={PRIMARY_CTA.href} class="btn btn--primary mobile-panel__cta-btn">
+            {PRIMARY_CTA.label}
           </a>
           <a href="/contact" class="btn btn--outline mobile-panel__cta-btn">
             Contact
@@ -144,10 +153,10 @@ const allMobileLinks = [...navLinks, ...utilityLinks];
 </header>
 
 <script>
-  const toggle   = document.querySelector('[data-nav-toggle]');
-  const nav      = document.querySelector('[data-mobile-nav]');
-  const iconOpen  = document.querySelector('[data-icon-open]');
-  const iconClose = document.querySelector('[data-icon-close]');
+  const toggle    = document.querySelector<HTMLButtonElement>('[data-nav-toggle]');
+  const nav       = document.querySelector<HTMLElement>('[data-mobile-nav]');
+  const iconOpen  = document.querySelector<SVGElement>('[data-icon-open]');
+  const iconClose = document.querySelector<SVGElement>('[data-icon-close]');
 
   if (toggle && nav && iconOpen && iconClose) {
     const closeMenu = () => {
@@ -155,20 +164,25 @@ const allMobileLinks = [...navLinks, ...utilityLinks];
       iconOpen.classList.remove('hidden');
       iconClose.classList.add('hidden');
       toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Open navigation menu');
       document.body.classList.remove('overflow-hidden');
     };
+
     const openMenu = () => {
       nav.classList.remove('hidden');
       iconOpen.classList.add('hidden');
       iconClose.classList.remove('hidden');
       toggle.setAttribute('aria-expanded', 'true');
+      toggle.setAttribute('aria-label', 'Close navigation menu');
       document.body.classList.add('overflow-hidden');
     };
 
     toggle.addEventListener('click', () => {
       nav.classList.contains('hidden') ? openMenu() : closeMenu();
     });
+
     nav.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape' && !nav.classList.contains('hidden')) closeMenu();
     });
