@@ -41,7 +41,7 @@ const {
           title={post.data.title}
           excerpt={post.data.description ?? ''}
           category={post.data.category ?? meta.title}
-          href={`/blog/${post.slug}`}
+          href={`/guides/${post.slug}`}
           pubDate={toIsoString(post.data.pubDate)}
           image={(post.data as any).image}
           slug={post.slug}
@@ -52,7 +52,7 @@ const {
     {supportingPosts.length > 0 && (
       <div class="category-hub__supporting-list" aria-label={`More ${meta.title} guides`}>
         {supportingPosts.map((post) => (
-          <a href={`/blog/${post.slug}`}>
+          <a href={`/guides/${post.slug}`}>
             <span>{post.data.category ?? meta.title}</span>
             <strong>{post.data.title}</strong>
             <em aria-hidden="true">→</em>

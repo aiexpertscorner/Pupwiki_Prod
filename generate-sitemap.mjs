@@ -112,13 +112,13 @@ for (const breed of crossbreeds) {
 // Existing generated breed cluster posts from content-status.
 for (const breed of allBreeds) {
   const s = status[breed.slug] || {};
-  if (s.food_post) add(`/blog/best-food-for-${breed.slug}`, 0.78, 'monthly');
-  if (s.toy_post) add(`/blog/best-toys-for-${breed.slug}`, 0.72, 'monthly');
-  if (s.bed_post) add(`/blog/best-bed-for-${breed.slug}`, 0.72, 'monthly');
-  if (s.grooming_post) add(`/blog/best-grooming-for-${breed.slug}`, 0.68, 'monthly');
-  if (s.health_post) add(`/blog/${breed.slug}-health-problems`, 0.66, 'monthly');
-  if (s.supplement_post) add(`/blog/best-supplements-for-${breed.slug}`, 0.58, 'monthly');
-  if (s.training_post) add(`/blog/training-a-${breed.slug}`, 0.68, 'monthly');
+  if (s.food_post) add(`/guides/best-food-for-${breed.slug}`, 0.78, 'monthly');
+  if (s.toy_post) add(`/guides/best-toys-for-${breed.slug}`, 0.72, 'monthly');
+  if (s.bed_post) add(`/guides/best-bed-for-${breed.slug}`, 0.72, 'monthly');
+  if (s.grooming_post) add(`/guides/best-grooming-for-${breed.slug}`, 0.68, 'monthly');
+  if (s.health_post) add(`/guides/${breed.slug}-health-problems`, 0.66, 'monthly');
+  if (s.supplement_post) add(`/guides/best-supplements-for-${breed.slug}`, 0.58, 'monthly');
+  if (s.training_post) add(`/guides/training-a-${breed.slug}`, 0.68, 'monthly');
 }
 
 // Real blog markdown collection.
@@ -152,17 +152,17 @@ for (const file of walk(blogDir, ['.md'])) {
   // Tag with a sitemap segment so we can bucket correctly below.
   const priority = isPartner ? 0.58 : 0.72;
   const changefreq = isPartner ? 'monthly' : 'weekly';
-  const entry = { loc: `${SITE}/blog/${slug}`, priority, changefreq, lastmod: updated };
+  const entry = { loc: `${SITE}/guides/${slug}`, priority, changefreq, lastmod: updated };
 
   // Determine which sitemap segment this post belongs in.
   if (isPartner) {
-    urls.set(`/blog/${slug}`, entry);  // stays in blog/categories
+    urls.set(`/guides/${slug}`, entry);  // stays in blog/categories
   } else if (REVIEW_POST_TYPES.has(postType)) {
-    urls.set(`/blog/${slug}`, { ...entry, _segment: 'reviews' });
+    urls.set(`/guides/${slug}`, { ...entry, _segment: 'reviews' });
   } else if (GUIDE_POST_TYPES.has(postType)) {
-    urls.set(`/blog/${slug}`, { ...entry, _segment: 'guides' });
+    urls.set(`/guides/${slug}`, { ...entry, _segment: 'guides' });
   } else {
-    urls.set(`/blog/${slug}`, entry);
+    urls.set(`/guides/${slug}`, entry);
   }
 }
 
@@ -209,7 +209,7 @@ const breedUrls    = all.filter((u) => /\/(breeds|cost-calculator|dog-names)\//.
 const faqUrls      = all.filter((u) => u.loc.includes('/faq/'));
 const reviewUrls   = all.filter((u) => u._segment === 'reviews' || u.loc === `${SITE}/reviews`);
 const guideUrls    = all.filter((u) => u._segment === 'guides'  || u.loc === `${SITE}/guides` || u.loc.startsWith(`${SITE}/guides/`));
-const blogUrls     = all.filter((u) => u.loc.includes('/blog/') && u._segment !== 'reviews' && u._segment !== 'guides');
+const blogUrls     = all.filter((u) => (u.loc.includes('/guides/') || u.loc.includes('/blog/')) && u._segment !== 'reviews' && u._segment !== 'guides');
 const categoryUrls = all.filter((u) => !breedUrls.includes(u) && !faqUrls.includes(u) && !reviewUrls.includes(u) && !guideUrls.includes(u) && !blogUrls.includes(u));
 
 fs.mkdirSync(path.dirname(OUT), { recursive: true });

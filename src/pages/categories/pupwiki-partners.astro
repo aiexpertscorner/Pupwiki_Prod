@@ -40,7 +40,7 @@ function creativeCount(program: any) {
 }
 function profileHref(program: any) {
   const match = summaryPartners.find((item) => item.key === program.key);
-  return match?.href || `/blog/partner-${program.key}`;
+  return match?.href || `/guides/partner-${program.key}`;
 }
 
 const structuredData = [

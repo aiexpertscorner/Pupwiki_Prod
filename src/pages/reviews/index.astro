@@ -124,7 +124,7 @@ const collectionLd = {
       {featuredPost && (
         <section aria-labelledby="reviews-featured-title" class="reviews-hub__section">
           <h2 id="reviews-featured-title" class="reviews-hub__section-heading">Featured Review</h2>
-          <a href={`/blog/${featuredPost.slug}`} class="reviews-hub__featured">
+          <a href={`/guides/${featuredPost.slug}`} class="reviews-hub__featured">
             <div class="reviews-hub__featured-body">
               <div class="reviews-hub__featured-meta">
                 <span class="content-type-badge content-type-badge--review">
@@ -150,7 +150,7 @@ const collectionLd = {
           <h2 id="reviews-latest-title" class="reviews-hub__section-heading">Latest Reviews</h2>
           <div class="reviews-hub__grid">
             {latestReviews.map((post) => (
-              <a href={`/blog/${post.slug}`} class="reviews-hub__card">
+              <a href={`/guides/${post.slug}`} class="reviews-hub__card">
                 <div class="reviews-hub__card-meta">
                   <span class="content-type-badge content-type-badge--review">
                     {getCategoryLabel(post.data.category)}
@@ -175,7 +175,7 @@ const collectionLd = {
           <h2 id="reviews-guides-title" class="reviews-hub__section-heading">Buying Guides</h2>
           <div class="reviews-hub__guides">
             {guidePosts.map((post) => (
-              <a href={`/blog/${post.slug}`} class="reviews-hub__guide-card">
+              <a href={`/guides/${post.slug}`} class="reviews-hub__guide-card">
                 <span class="content-type-badge content-type-badge--guide">Guide</span>
                 <h3 class="reviews-hub__guide-title">{post.data.title}</h3>
                 {post.data.description && (

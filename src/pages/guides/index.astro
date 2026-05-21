@@ -112,7 +112,7 @@ const faqLd = {
           <h2 id="guides-featured-title" class="guides-index__section-heading">Featured Guides</h2>
           <div class="guides-index__article-grid">
             {editorialPosts.map((post) => (
-              <a href={`/blog/${post.slug}`} class="guides-index__article-card">
+              <a href={`/guides/${post.slug}`} class="guides-index__article-card">
                 <div class="guides-index__article-body">
                   {post.data.category && (
                     <span class="guides-index__article-tag">{post.data.category}</span>

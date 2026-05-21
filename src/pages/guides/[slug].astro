@@ -1,7 +1,7 @@
 ---
 /**
- * src/pages/blog/[slug].astro — PupWiki blog article route
- * Global article styles, reader-facing copy, and safe commerce placement.
+ * src/pages/guides/[slug].astro — PupWiki guide article route
+ * Migrated from /blog/[slug] — canonical URLs now use /guides/[slug].
  */
 
 import { getCollection } from 'astro:content';
@@ -96,7 +96,7 @@ const amazonTextLinks = showAmazonTextLinks
   ? resolveAmazonTextLinks({ cluster: cluster ?? undefined, topicTags: tags, intent: pageIntent, maxLinks: maxAmazonTextLinks })
   : [];
 
-const canonicalUrl = fm.canonicalUrl || `${SITE}/blog/${post.slug}`;
+const canonicalUrl = fm.canonicalUrl || `${SITE}/guides/${post.slug}`;
 // Hash-based fallback pool — varied breed images per slug instead of one static PNG per category
 const CAT_KEY_MAP: Record<string, string> = {
   'dog food': 'food', food: 'food', toys: 'toys', beds: 'beds',
@@ -269,7 +269,7 @@ const relatedToolLinks = [
     <aside class="article-support-note not-prose" aria-label="Support content note">
       <div>
         <strong>Breed-support guide</strong>
-        <p>This guide is designed as supporting context for PupWiki’s breed pages. For the full ownership profile, costs, traits, health context, and related tools, start from the breed hub.</p>
+        <p>This guide is designed as supporting context for PupWiki's breed pages. For the full ownership profile, costs, traits, health context, and related tools, start from the breed hub.</p>
       </div>
       {breedSlug && <a href={links.hub || `/breeds/${breedSlug}`}>View {breedName || 'breed'} hub →</a>}
     </aside>
@@ -301,7 +301,7 @@ const relatedToolLinks = [
   {showProductRoundupCommerce && (
     <ArticleCommerceSuite
       topicTags={awinTopicTags}
-      pageSlug={`/blog/${post.slug}`}
+      pageSlug={`/guides/${post.slug}`}
       category={cluster?.slug || normalize(category)}
       cluster={cluster?.slug}
       claimSensitivity={fm.claimSensitivity}

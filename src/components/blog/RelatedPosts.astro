@@ -56,7 +56,7 @@ function formatDate(d: Date | string) {
       {related.map((post) => {
         const thumbImg = getPostImage(post);
         return (
-          <a href={`/blog/${post.slug}`} class="related-posts__card">
+          <a href={`/guides/${post.slug}`} class="related-posts__card">
             {thumbImg && (
               <div class="related-posts__thumb-wrap">
                 <img
