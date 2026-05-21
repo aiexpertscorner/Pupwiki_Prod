@@ -43,7 +43,7 @@ const {
           category={post.data.category ?? meta.title}
           href={`/guides/${post.slug}`}
           pubDate={toIsoString(post.data.pubDate)}
-          image={(post.data as any).image}
+          image={(post.data as any).image ?? (post.data as any).heroImage}
           slug={post.slug}
         />
       ))}

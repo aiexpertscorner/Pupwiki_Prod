@@ -5,9 +5,10 @@ import type { CategoryBreedGuide } from '../../lib/categories/categoryHelpers';
 export interface Props {
   meta: CategoryMeta;
   guides: CategoryBreedGuide[];
+  contextDesc?: string;
 }
 
-const { meta, guides } = Astro.props;
+const { meta, guides, contextDesc } = Astro.props;
 const DEFAULT_VISIBLE = 12;
 const showMore = guides.length > DEFAULT_VISIBLE;
 ---
@@ -19,8 +20,7 @@ const showMore = guides.length > DEFAULT_VISIBLE;
         <p class="category-hub__eyebrow">Breed-specific</p>
         <h2>{meta.title} guides by breed</h2>
         <p>
-          Start with the breed closest to your dog. Breed pages help connect size, energy, coat,
-          health context and ownership costs with practical next steps.
+          {contextDesc || 'Start with the breed closest to your dog. Breed pages help connect size, energy, coat, health context and ownership costs with practical next steps.'}
         </p>
       </div>
       <a href="/breeds" class="category-hub__text-link">Browse all breeds →</a>

@@ -218,6 +218,7 @@ export function getCategoryBreedGuides({
   return eligible.slice(0, limit).map((breed) => {
     const slug = String(breed.slug);
     const href = linkKey ? breedLinkMap[slug]?.[linkKey] ?? `/breeds/${slug}` : `/breeds/${slug}`;
+    const hasGuideHref = href.startsWith('/guides/');
 
     return {
       name: String(breed.name),
@@ -226,7 +227,7 @@ export function getCategoryBreedGuides({
       size: normalizedSize(breed),
       energy: normalizedEnergy(breed),
       type: (Array.isArray((breed as any).parent_breeds) && (breed as any).parent_breeds.length > 0) ? 'mixed' : 'purebred',
-      label: linkKey ? `${meta.shortTitle} guide and owner resources` : 'Breed profile, care needs and owner fit',
+      label: hasGuideHref ? `${meta.shortTitle} guide and owner resources` : `${String(breed.name)} — breed profile, care needs and owner fit`,
     };
   });
 }
