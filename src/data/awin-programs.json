@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-20T06:44:19.523Z",
+  "syncedAt": "2026-05-21T06:47:56.584Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -67,7 +67,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 41,
       "bannerCount": 0
     },
     {
@@ -133,7 +133,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 20,
       "bannerCount": 0
     },
     {
@@ -206,7 +206,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 2,
       "bannerCount": 0
     },
     {
@@ -274,7 +274,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 33,
       "bannerCount": 0
     },
     {
@@ -403,7 +403,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 835,
       "bannerCount": 0
     },
     {
@@ -547,7 +547,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 1450,
       "bannerCount": 0
     },
     {
@@ -613,7 +613,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 19,
       "bannerCount": 0
     },
     {
@@ -1577,7 +1577,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 41,
       "bannerCount": 0,
       "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/55927.png",
@@ -1606,7 +1606,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 20,
       "bannerCount": 0,
       "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/57823.png",
@@ -1635,7 +1635,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 2,
       "bannerCount": 0,
       "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/63546.png",
@@ -1665,7 +1665,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 33,
       "bannerCount": 0,
       "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/79708.png",
@@ -1715,7 +1715,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 835,
       "bannerCount": 0,
       "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87999.png",
@@ -1772,7 +1772,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 1450,
       "bannerCount": 0,
       "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89913.png",
@@ -1801,7 +1801,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 0,
+      "productCount": 19,
       "bannerCount": 0,
       "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/113600.png",
@@ -2199,19 +2199,41 @@
   "stats": {
     "joined": 10,
     "pending": 16,
-    "feeds": 600,
-    "apiProducts": 0,
-    "programOfferProducts": 10,
-    "totalProducts": 10,
+    "feeds": 602,
+    "apiProducts": 2400,
+    "programOfferProducts": 3,
+    "totalProducts": 2403,
     "apiBanners": 0,
     "logoBanners": 10,
     "totalBanners": 16,
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
-    "feedProductFetchFailures": 3,
+    "feedProductFetchFailures": 0,
+    "feedRowsFetched": 2400,
+    "feedRowsNormalized": 2400,
+    "feedsWithRowsButZeroProducts": [],
     "experimentalCreativesEnabled": false,
     "warnings": [
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "programmedetails/98349 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/98349 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/98349 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
@@ -2226,11 +2248,11 @@
       "programmedetails/111234 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/111784 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/111784 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "feed/101913 returned no parseable products. Response preview: \u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000�ė�k�0\u0010���W\u0018?�\u0016dǲ%�\u001e��n�i��v�A���Ŀ��e��'�I�\u0004\u0012rS�B ��;I\u001f�r�͹�ӹ\u0010���Q%�l�ky4�y%\u0010�Lۮ�י~�f�\u0010��,��0)*�\u0010�uW\u000e\u0013�\\W3=ɸ\u0014��{\u001dL�c�n��Z�8\u000e����\u0007\u001b�� ���\u0005WϔE���b�ڊO8�)�\u0010�\u0011 \u0002�>���+d���/!����w.\"\u0018'! ��$h)e��L6���7E����&mV\u0016��o����`� �\u000f\u0013��������a���=N/�?B;�\u001b��_\u0014s���\u0013\u0004��\u0004�\u0014GQ\u0010#�A���$��\u0015��f��h��y�U[ ��2��歐㥶{Mfʇ�i",
-      "feed/101913 -> HTTP 415 — {\"timestamp\":\"2026-05-20T06:44:19.167782807Z\",\"path\":\"/datafeed/download/apikey/e466e47be4dadeca127cf45dc6969055/language/en/fid/101913/columns/aw_product_id%2Cmerchant_product_id%2Cproduct_name%2Cdes",
-      "feed/101913 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/101913\\/download\\\"\"}",
-      "feed/101913 -> HTTP 404 — {\"message\":\"No route found for \\\"GET https:\\/\\/ui.awin.com\\/publisher\\/2861861\\/e466e47be4dadeca127cf45dc6969055\\/101913\\/download\\\"\"}",
-      "No product rows could be imported from feed 101913 (Nextrition Pet (US))"
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode"
     ],
     "errors": []
   }
