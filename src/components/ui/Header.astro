@@ -5,11 +5,11 @@ import { MOBILE_NAV_GROUPS, PRIMARY_CTA } from '../../lib/navigation/siteMap';
 const currentPath = Astro.url.pathname;
 
 const primaryNav = [
-  { label: 'All Breeds', href: '/breeds' },
+  { label: 'Breeds',     href: '/breeds' },
+  { label: 'Breed Quiz', href: '/breed-quiz' },
   { label: 'Dog Names',  href: '/dog-names' },
   { label: 'Guides',     href: '/guides' },
   { label: 'Reviews',    href: '/reviews' },
-  { label: 'FAQ',        href: '/faq' },
 ];
 
 function isActive(href: string): boolean {

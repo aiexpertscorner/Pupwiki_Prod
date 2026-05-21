@@ -10,11 +10,11 @@
     ]
   },
   "seo": {
-    "title": "PupWiki | Breed Research, Cost Tools, Care Guides & Dog Names",
-    "description": "Research breeds and mixed breeds, compare dog ownership costs, understand health and care needs, explore training guidance, and make smarter decisions with PupWiki.",
+    "title": "PupWiki — Dog Breed Guides, Care Tools & Name Finder",
+    "description": "Explore 350+ dog and mixed-breed profiles, compare care needs, find the perfect name, and get practical guidance — whether you're researching your first dog or caring for one.",
     "canonicalUrl": "https://pupwiki.com",
     "ogImage": "/assets/brand/social/og-default-1200x630.png",
-    "ogImageAlt": "PupWiki — dog breed research, cost tools, care guides and dog names",
+    "ogImageAlt": "PupWiki — dog breed guides, care tools and name finder",
     "pageType": "website"
   },
   "routes": {
@@ -39,9 +39,9 @@
     "showTrustStrip": true,
     "showPrimaryJourneys": true,
     "showBreedDiscovery": true,
-    "showLifestyleFilter": false,
+    "showLifestyleFilter": true,
     "showMixedBreedDiscovery": true,
-    "showQuickCostTeaser": true,
+    "showQuickCostTeaser": false,
     "showCareDecisionLayer": true,
     "showEditorialHighlights": true,
     "showAwinSpotlight": false,
@@ -61,21 +61,21 @@
     "preferPoodleMixVariety": true
   },
   "hero": {
-    "eyebrow": "All your dog information in one place",
-    "title": "Helpful dog information, guides and tools.",
-    "accent": "All in one place.",
-    "subtitle": "Explore breeds and mixes, estimate costs, find names, compare care needs, and get practical help with health, training, food, grooming, products and services.",
+    "eyebrow": "Your complete dog resource",
+    "title": "Find the right dog. Know what to expect.",
+    "accent": "All the information you need.",
+    "subtitle": "Explore 350+ breed and mix profiles, compare traits and care needs, discover names, and get practical health, training, and lifestyle guidance — whether you're picking your first dog or caring for one.",
     "primaryCta": {
       "label": "Explore Breeds",
       "href": "/breeds"
     },
     "secondaryCta": {
-      "label": "Cost & Insurance",
-      "href": "/cost-calculator"
+      "label": "Explore Care Guides",
+      "href": "/guides"
     },
     "imageAlt": "Happy dog owner with a golden retriever",
-    "heroCardEyebrow": "Data-backed dog guidance",
-    "heroCardText": "Breed profiles, mixed breeds, cost tools, care guidance, and practical next steps.",
+    "heroCardEyebrow": "Research before you decide",
+    "heroCardText": "Breed profiles, mixed breeds, care guides, name finder, and practical planning tools.",
     "trustItems": [
       "352 breed & mix guides",
       "75 mixed breeds",
@@ -98,36 +98,36 @@
     ]
   },
   "primaryJourneys": {
-    "eyebrow": "Planning to get a dog?",
-    "title": "Everything you need before you decide",
-    "subtitle": "Start with the right questions — breed fit, real costs, and what first-time ownership actually looks like.",
+    "eyebrow": "Start with what matters to you",
+    "title": "How people use PupWiki",
+    "subtitle": "Whether you're picking a breed, planning ahead, or already have a dog — start where it makes sense for you.",
     "items": [
       {
         "title": "Find the right breed",
-        "description": "Explore 277 breed profiles, compare temperament, size, and care needs, and narrow down the best fit for your lifestyle.",
+        "description": "Explore 350+ breed profiles, compare temperament, size, and care needs, and find the best match for your lifestyle.",
         "href": "/breeds",
-        "eyebrow": "Step 1",
+        "eyebrow": "Breed research",
         "icon": "🐕"
       },
       {
-        "title": "Plan the real cost",
-        "description": "Estimate first-year and lifetime ownership costs, vet budgets, insurance, and practical planning needs before you commit.",
+        "title": "Understand real costs",
+        "description": "Estimate first-year and lifetime ownership costs, vet budgets, and what to budget for before committing.",
         "href": "/cost-calculator",
-        "eyebrow": "Step 2",
+        "eyebrow": "Cost planning",
         "icon": "💰"
       },
       {
         "title": "First dog guide",
-        "description": "Everything first-time dog owners need to know — from puppy prep to training fundamentals and what to budget for.",
+        "description": "Everything first-time owners need — from choosing a breed and puppy prep to training fundamentals and daily care.",
         "href": "/guides/first-dog",
-        "eyebrow": "Step 3",
+        "eyebrow": "First-time owner",
         "icon": "📋"
       },
       {
         "title": "Take the breed quiz",
-        "description": "Answer 4 questions about your lifestyle and living situation and get matched to your top 3 breed fits.",
+        "description": "Answer a few questions about your lifestyle and living situation and get matched to your top breed fits.",
         "href": "/breed-quiz",
-        "eyebrow": "Quick tool",
+        "eyebrow": "Quick match tool",
         "icon": "✅"
       }
     ]
@@ -282,37 +282,37 @@
     "items": [
       {
         "label": "Apartment Friendly",
-        "description": "Small, calm, low-maintenance breeds that thrive indoors.",
+        "description": "Compact, calm breeds that thrive in smaller spaces — great for city living.",
         "href": "/breeds?size=small&energy=calm",
         "colorVar": "--color-info"
       },
       {
         "label": "Active & Outdoorsy",
-        "description": "High-energy dogs that love long runs, hikes, and outdoor time.",
+        "description": "High-energy dogs built for runs, hikes, and life outdoors.",
         "href": "/breeds?energy=active",
         "colorVar": "--color-success"
       },
       {
         "label": "Family with Kids",
-        "description": "Gentle, patient, and sociable breeds suited for family life.",
+        "description": "Gentle, sociable, and patient — breeds that fit naturally into family households.",
         "href": "/breeds?energy=regular",
         "colorVar": "--color-accent"
       },
       {
         "label": "Low-Shedding",
-        "description": "Minimal grooming overhead — ideal for allergy-sensitive households.",
+        "description": "Minimal shedding and lower grooming overhead — ideal for allergy-conscious homes.",
         "href": "/breeds?shedding=minimal",
         "colorVar": "--color-primary"
       },
       {
         "label": "Easy to Train",
-        "description": "Smart, responsive breeds that pick up commands quickly.",
+        "description": "Quick learners and responsive breeds — great for first-time owners.",
         "href": "/breeds?training=easy",
         "colorVar": "--color-cta"
       },
       {
         "label": "Calm Companion",
-        "description": "Relaxed, low-key temperament — great for quieter households.",
+        "description": "Relaxed, low-key dogs suited for quieter homes and less active lifestyles.",
         "href": "/breeds?energy=calm",
         "colorVar": "--color-warning"
       }
@@ -362,8 +362,8 @@
   },
   "editorialHighlights": {
     "eyebrow": "Featured guides",
-    "title": "Practical reads for dog owners",
-    "subtitle": "Comparisons, cost guides, and practical care reads from the PupWiki editorial team.",
+    "title": "Practical reads worth bookmarking",
+    "subtitle": "Comparisons, how-to guides, and care reads — curated from the PupWiki editorial team.",
     "viewAllHref": "/guides",
     "viewAllLabel": "Browse all guides",
     "items": [],
@@ -372,26 +372,32 @@
         "category": "Comparison",
         "title": "Fi vs Tractive: Which dog GPS tracker is better?",
         "description": "A practical comparison of tracking reliability, battery life, subscriptions, and day-to-day usability.",
-        "href": "/blog/fi-series-4-gps-vs-tractive-gps-dog-4"
+        "href": "/blog/fi-series-4-gps-vs-tractive-gps-dog-4",
+        "imageUrl": "/assets/brand/social/og-default-1200x630.png",
+        "imageAlt": "Dog GPS tracker comparison guide"
       },
       {
         "category": "Food review",
         "title": "The Farmer's Dog vs Ollie",
         "description": "A useful look at ingredients, convenience, delivery, and whether premium fresh food is actually worth it.",
-        "href": "/blog/the-farmers-dog-vs-ollie-fresh-food"
+        "href": "/blog/the-farmers-dog-vs-ollie-fresh-food",
+        "imageUrl": "/assets/brand/social/og-default-1200x630.png",
+        "imageAlt": "Fresh dog food comparison: The Farmer's Dog vs Ollie"
       },
       {
         "category": "Cost guide",
         "title": "The true lifetime cost of a French Bulldog",
         "description": "Understand ongoing ownership costs, common care expenses, and why planning ahead matters.",
-        "href": "/cost-calculator/french-bulldog"
+        "href": "/cost-calculator/french-bulldog",
+        "imageUrl": "/assets/brand/social/og-default-1200x630.png",
+        "imageAlt": "French Bulldog lifetime cost guide"
       }
     ]
   },
   "methodologyTeaser": {
     "eyebrow": "Why trust PupWiki",
     "title": "Clear, practical, and transparent guidance",
-    "description": "PupWiki is built to help dog parents make better decisions with structured breed data, practical care guidance, and transparent editorial standards.",
+    "description": "PupWiki is built to help people make better decisions about dogs — with structured breed data, practical care guidance, and transparent editorial standards.",
     "bullets": [
       "Breed and mixed-breed research grounded in structured data",
       "Reader-first recommendations, not paid rankings",
@@ -414,8 +420,8 @@
       "href": "/breeds"
     },
     "fallbackSecondary": {
-      "label": "Cost Calculator",
-      "href": "/cost-calculator"
+      "label": "Explore Guides",
+      "href": "/guides"
     },
     "disclaimer": "Free to use. No account required."
   }

@@ -277,13 +277,15 @@ const {
     }
   }
 
+  @media (min-width: 1024px) {
+    .pw-journeys__grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
   @media (min-width: 1280px) {
     .pw-journeys {
       padding-inline: var(--content-padding-wide);
-    }
-
-    .pw-journeys__grid {
-      grid-template-columns: repeat(4, 1fr);
     }
   }
 

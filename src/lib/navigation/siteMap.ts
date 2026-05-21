@@ -10,27 +10,28 @@ export const MOBILE_NAV_GROUPS = [
   {
     label: 'Start',
     links: [
-      { label: 'Find a Breed',    href: '/breeds' },
-      { label: 'Estimate Costs',  href: '/cost-calculator' },
-      { label: 'Take Breed Quiz', href: '/breed-quiz' },
+      { label: 'Find a Breed',     href: '/breeds' },
+      { label: 'Breed Quiz',       href: '/breed-quiz' },
+      { label: 'First Dog Guide',  href: '/guides/first-dog' },
     ],
   },
   {
     label: 'Learn',
     links: [
-      { label: 'Guides',          href: '/guides' },
+      { label: 'Guides',           href: '/guides' },
       { label: 'Food & Nutrition', href: '/categories/dog-food' },
-      { label: 'Training',        href: '/categories/training' },
-      { label: 'Health',          href: '/categories/health' },
-      { label: 'Grooming',        href: '/categories/grooming' },
+      { label: 'Training',         href: '/categories/training' },
+      { label: 'Health',           href: '/categories/health' },
+      { label: 'Grooming',         href: '/categories/grooming' },
     ],
   },
   {
     label: 'Tools',
     links: [
-      { label: 'Dog Names', href: '/dog-names' },
-      { label: 'Reviews',   href: '/reviews' },
-      { label: 'FAQ',       href: '/faq' },
+      { label: 'Dog Names',        href: '/dog-names' },
+      { label: 'Cost Calculator',  href: '/cost-calculator' },
+      { label: 'Reviews',          href: '/reviews' },
+      { label: 'FAQ',              href: '/faq' },
     ],
   },
   {
@@ -44,6 +45,6 @@ export const MOBILE_NAV_GROUPS = [
 ] as const;
 
 export const PRIMARY_CTA = {
-  label: 'Cost & Insurance',
-  href: '/cost-calculator',
+  label: 'Find Your Breed',
+  href: '/breeds',
 } as const;
