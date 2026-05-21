@@ -10,11 +10,11 @@
     ]
   },
   "seo": {
-    "title": "PupWiki | Trusted Guidance for Dog Parents",
-    "description": "Research breeds and mixed breeds, compare dog ownership costs, understand health and care needs, explore training guidance, and make smarter dog-parent decisions with PupWiki.",
+    "title": "PupWiki | Breed Research, Cost Tools, Care Guides & Dog Names",
+    "description": "Research breeds and mixed breeds, compare dog ownership costs, understand health and care needs, explore training guidance, and make smarter decisions with PupWiki.",
     "canonicalUrl": "https://pupwiki.com",
-    "ogImage": "/og-default.jpg",
-    "ogImageAlt": "PupWiki homepage preview",
+    "ogImage": "/assets/brand/social/og-default-1200x630.png",
+    "ogImageAlt": "PupWiki — dog breed research, cost tools, care guides and dog names",
     "pageType": "website"
   },
   "routes": {
@@ -39,12 +39,12 @@
     "showTrustStrip": true,
     "showPrimaryJourneys": true,
     "showBreedDiscovery": true,
-    "showLifestyleFilter": true,
+    "showLifestyleFilter": false,
     "showMixedBreedDiscovery": true,
     "showQuickCostTeaser": true,
     "showCareDecisionLayer": true,
     "showEditorialHighlights": true,
-    "showAwinSpotlight": true,
+    "showAwinSpotlight": false,
     "showMethodologyTeaser": true,
     "showLeadCapture": true,
     "showBreedExplorer": false
@@ -151,7 +151,7 @@
         "label": "care guidance"
       }
     ],
-    "note": "Built to help dog parents compare breeds, plan costs, and care with more confidence."
+    "note": "Built to help people compare breeds, plan real ownership costs, and make confident dog decisions."
   },
   "breedDiscovery": {
     "eyebrow": "Breed discovery",
@@ -361,11 +361,11 @@
     ]
   },
   "editorialHighlights": {
-    "eyebrow": "Editorial highlights",
-    "title": "Guides, comparisons, and practical reads",
-    "subtitle": "Use curated editorial picks now, then switch to fully dynamic homepage content later.",
-    "viewAllHref": "/blog",
-    "viewAllLabel": "Read the blog",
+    "eyebrow": "Featured guides",
+    "title": "Practical reads for dog owners",
+    "subtitle": "Comparisons, cost guides, and practical care reads from the PupWiki editorial team.",
+    "viewAllHref": "/guides",
+    "viewAllLabel": "Browse all guides",
     "items": [],
     "fallbackItems": [
       {
