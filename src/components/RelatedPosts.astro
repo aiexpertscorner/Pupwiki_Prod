@@ -4,9 +4,9 @@ export interface Props { currentTags?: string[]; currentSlug?: string; }
 const { currentTags = [], currentSlug = '' } = Astro.props;
 const all = await getCollection('blog');
 const related = all
-  .filter(p => `/blog/${p.slug}` !== currentSlug && (currentTags.some(t => (p.data.tags||[]).includes(t))))
+  .filter(p => p.slug !== currentSlug && (currentTags.some(t => (p.data.tags||[]).includes(t))))
   .slice(0, 6);
-const posts = related.length >= 2 ? related : all.filter(p => `/blog/${p.slug}` !== currentSlug).slice(0, 6);
+const posts = related.length >= 2 ? related : all.filter(p => p.slug !== currentSlug).slice(0, 6);
 ---
 {posts.length > 0 && (
   <div class="related-posts">
@@ -15,7 +15,7 @@ const posts = related.length >= 2 ? related : all.filter(p => `/blog/${p.slug}` 
     </h3>
     <div class="related-posts__grid">
       {posts.map(post => (
-        <a href={`/blog/${post.slug}`} class="related-post-card">
+        <a href={`/guides/${post.slug}`} class="related-post-card">
           <div class="related-post-card__thumb">🐾</div>
           <div class="related-post-card__body">
             <span class="related-post-card__category">{post.data.category}</span>

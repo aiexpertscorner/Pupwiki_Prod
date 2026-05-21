@@ -134,35 +134,35 @@ export function buildBreedPartnerClusterLinks(breed: BreedLike): BreedPartnerClu
 
   return [
     {
-      href: '/blog/dog-food-nutrition-partners',
+      href: '/guides/dog-food-nutrition-partners',
       icon: 'food',
       label: 'Food & nutrition partners',
       description: 'Fresh food, broth, raw/freeze-dried signals and feeding tools from current partner data.',
       tags: [...baseTags, 'food', 'nutrition', 'feeding'],
     },
     {
-      href: '/blog/dog-training-gear-safety-partners',
+      href: '/guides/dog-training-gear-safety-partners',
       icon: 'training',
       label: 'Training & safety partners',
       description: 'Harnesses, recall, obedience, containment and active-dog gear clusters.',
       tags: [...baseTags, 'training', 'gear', 'safety'],
     },
     {
-      href: '/blog/personalized-dog-gifts-lifestyle-partners',
+      href: '/guides/personalized-dog-gifts-lifestyle-partners',
       icon: 'heart',
       label: 'Gifts & lifestyle partners',
       description: 'Portraits, memorials, ID-style resources and breed-inspired owner gifts.',
       tags: [...baseTags, 'gift', 'lifestyle', 'dog-owner'],
     },
     {
-      href: '/blog/dog-beds-comfort-home-partners',
+      href: '/guides/dog-beds-comfort-home-partners',
       icon: 'beds',
       label: 'Beds & comfort partners',
       description: 'Beds, crate fit, orthopedic comfort and home setup planning.',
       tags: [...baseTags, 'beds', 'comfort', 'home'],
     },
     {
-      href: '/blog/dog-health-wellness-adjacent-partners',
+      href: '/guides/dog-health-wellness-adjacent-partners',
       icon: 'health',
       label: 'Health-adjacent resources',
       description: 'Conservative planning resources for wellness, care and vet-adjacent decisions.',

@@ -277,7 +277,7 @@ export function buildItemListLd({
       '@type': 'ListItem',
       position: breedGuides.length + index + 1,
       name: post.data.title,
-      url: `${SITE}/blog/${post.slug}`,
+      url: `${SITE}/guides/${post.slug}`,
     })),
   ];
 

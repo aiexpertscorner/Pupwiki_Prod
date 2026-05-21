@@ -404,7 +404,7 @@ async function pickEditorialHighlights(): Promise<HomepageEditorialCard[]> {
           category: buildEditorialCategory(post),
           title: toStringValue(data.title, titleFromSlug(post.slug)),
           description: buildEditorialDescription(post),
-          href: `/blog/${post.slug}`,
+          href: `/guides/${post.slug}`,
           publishedAt: toStringValue(data.pubDate || data.publishedAt),
           ...imageMeta,
         } satisfies HomepageEditorialCard;

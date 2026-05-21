@@ -174,15 +174,15 @@ const partnerClusterLinks = buildBreedPartnerClusterLinks(b);
 const decisionItems = buildBreedDecisionItems(b, profile, rank);
 
 const CLUSTER_LINKS: Array<{ key: string; href: string; icon: IconName; label: string }> = [
-  { key: 'food_post',       href: links.food_post       ?? `${BASE_TOPIC}/food`,        icon: 'food',        label: `${b.name} food & nutrition guide` },
-  { key: 'toy_post',        href: links.toy_post        ?? `${BASE_TOPIC}/toys`,        icon: 'toys',        label: `${b.name} toy & enrichment ideas` },
-  { key: 'names_page',      href: links.names_page      ?? `/dog-names/${slug}`,        icon: 'names',       label: `${b.name} names` },
-  { key: 'bed_post',        href: links.bed_post        ?? `${BASE_TOPIC}/beds`,        icon: 'beds',        label: `${b.name} bed & sleep guide` },
-  { key: 'grooming_post',   href: links.grooming_post   ?? `${BASE_TOPIC}/grooming`,    icon: 'grooming',    label: `${b.name} grooming guide` },
-  { key: 'health_post',     href: links.health_post     ?? `${BASE_TOPIC}/health`,      icon: 'health',      label: `${b.name} health concerns` },
-  { key: 'puppy_post',      href: puppyHref,                                            icon: 'puppy',       label: `${b.name} puppy guide` },
-  { key: 'supplement_post', href: links.supplement_post ?? `${BASE_TOPIC}/supplements`, icon: 'supplements', label: `${b.name} supplement considerations` },
-  { key: 'training_post',   href: links.training_post   ?? `${BASE_TOPIC}/training`,    icon: 'training',    label: `${b.name} training guide` },
+  { key: 'food_post',       href: links.food_post       ?? `/categories/dog-food`,    icon: 'food',        label: `${b.name} food & nutrition guide` },
+  { key: 'toy_post',        href: links.toy_post        ?? `/categories/lifestyle`,    icon: 'toys',        label: `${b.name} toy & enrichment ideas` },
+  { key: 'names_page',      href: links.names_page      ?? `/dog-names/${slug}`,       icon: 'names',       label: `${b.name} names` },
+  { key: 'bed_post',        href: links.bed_post        ?? `/categories/lifestyle`,    icon: 'beds',        label: `${b.name} bed & sleep guide` },
+  { key: 'grooming_post',   href: links.grooming_post   ?? `/categories/grooming`,     icon: 'grooming',    label: `${b.name} grooming guide` },
+  { key: 'health_post',     href: links.health_post     ?? `/categories/health`,       icon: 'health',      label: `${b.name} health concerns` },
+  { key: 'puppy_post',      href: puppyHref,                                           icon: 'puppy',       label: `${b.name} puppy guide` },
+  { key: 'supplement_post', href: links.supplement_post ?? `/categories/health`,       icon: 'supplements', label: `${b.name} supplement considerations` },
+  { key: 'training_post',   href: links.training_post   ?? `/categories/training`,     icon: 'training',    label: `${b.name} training guide` },
 ];
 
 const suitabilityBullets: string[] = [];
@@ -218,21 +218,21 @@ const suitabilityBullets: string[] = [];
 
 const relatedGuides: Array<{ href: string; icon: IconName; label: string; desc: string; tag: string }> = [
   {
-    href: '/blog/dog-food-nutrition-partners',
+    href: '/guides/dog-food-nutrition-partners',
     icon: 'food',
     label: 'Dog food, broth and nutrition partners',
     desc: 'Compare current PupWiki partner coverage for food, broth, fresh prep and nutrition resources.',
     tag: 'Partners',
   },
   {
-    href: '/blog/dog-training-gear-safety-partners',
+    href: '/guides/dog-training-gear-safety-partners',
     icon: 'training',
     label: 'Training, walking and safety partners',
     desc: 'Harnesses, recall, containment and activity gear mapped to owner intent.',
     tag: 'Training',
   },
   {
-    href: '/blog/personalized-dog-gifts-lifestyle-partners',
+    href: '/guides/personalized-dog-gifts-lifestyle-partners',
     icon: 'heart',
     label: 'Personalized dog gifts and lifestyle resources',
     desc: 'Custom portraits, memorials, ID-style resources and breed-inspired gifts.',
