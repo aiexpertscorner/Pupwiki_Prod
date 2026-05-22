@@ -12,7 +12,7 @@ tags:
 postType: general
 schemaType: Article
 contentTier: editorial
-indexInBlog: false
+indexInBlog: true
 generated: false
 reviewMethod: editorial-research
 claimSensitivity: medium
