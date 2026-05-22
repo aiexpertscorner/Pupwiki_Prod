@@ -7,7 +7,7 @@ const allPosts = await getCollection('blog');
 const editorialPosts = allPosts
   .filter((p) => !p.data.generated && p.data.indexInBlog !== false)
   .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime())
-  .slice(0, 6);
+  .slice(0, 9);
 
 const topicCards = [
   { slug: 'dog-food',   title: 'Food & Nutrition',   icon: '🍖', desc: 'Feeding guides, ingredient comparisons and food decisions by breed size and life stage.',    href: '/categories/dog-food' },
@@ -16,6 +16,8 @@ const topicCards = [
   { slug: 'beds',       title: 'Beds & Comfort',      icon: '🛏️', desc: 'Bed sizing, orthopedic foam, washable covers and sleep setup for every breed size.',         href: '/categories/beds' },
   { slug: 'health',     title: 'Health & Vet Care',   icon: '🩺', desc: 'Preventive care, breed health concerns, wellness planning and vet cost guidance.',           href: '/categories/health' },
   { slug: 'insurance',  title: 'Pet Insurance',       icon: '🛡️', desc: 'Insurance timing, breed exclusions, waiting periods and plan comparison by cover type.',    href: '/pet-insurance' },
+  { slug: 'toys',      title: 'Toys & Enrichment',   icon: '🎾', desc: 'Interactive toys, puzzle feeders, chew options and enrichment ideas matched to breed drive and size.', href: '/categories/toys' },
+  { slug: 'lifestyle', title: 'Lifestyle & Gear',     icon: '🎒', desc: 'Harnesses, leashes, travel gear, outdoor equipment and everyday accessories by breed and size.',  href: '/categories/lifestyle' },
 ];
 
 const breadcrumbLd = {

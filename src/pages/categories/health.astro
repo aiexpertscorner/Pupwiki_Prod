@@ -1,9 +1,9 @@
 ---
 /**
- * src/pages/categories/dog-food.astro
+ * src/pages/categories/health.astro
  *
- * Static override for /categories/dog-food — adds a custom nutrition
- * context section above the breed guide grid.
+ * Static override for /categories/health — adds a custom breed health
+ * methodology section and resource strip above the breed guide grid.
  * Overrides the dynamic [category].astro route for this slug.
  */
 
@@ -41,7 +41,7 @@ import {
 import '../../styles/pages/category-hub.css';
 
 const SITE = 'https://pupwiki.com';
-const categorySlug = 'dog-food';
+const categorySlug = 'health';
 
 const meta = getCategoryMeta(categorySlug)!;
 const allPosts = await getCollection('blog');
@@ -95,58 +95,63 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
       hasBreedGuides={featuredBreedGuides.length > 0}
     />
 
-    <!-- Custom: Nutrition context callout -->
+    <!-- Custom: Breed health methodology callout -->
     <section class="category-hub__section category-hub__section--soft">
       <div class="category-hub__container">
         <div class="category-hub__section-header">
-          <p class="category-hub__eyebrow">Nutrition context</p>
-          <h2>Feeding decisions are breed decisions</h2>
+          <p class="category-hub__eyebrow">Breed health at a glance</p>
+          <h2>Prevention is the most practical approach</h2>
           <p>
-            A 6 kg Chihuahua and a 45 kg Labrador have little in common nutritionally — caloric
-            density, protein ratios, kibble size and life-stage timing all vary by breed and size.
-            Use the breed-specific guides below as a starting point, not a universal formula.
+            Breed background shapes health risk — but it doesn't dictate outcome. Knowing what
+            to watch for, keeping preventive care on schedule, and recognising early signals
+            are the three things most likely to improve a dog's long-term health picture.
           </p>
         </div>
-        <div class="category-hub__link-grid">
+        <div class="health-method-grid">
           <div class="category-hub__link-card">
-            <span aria-hidden="true">🐾</span>
-            <strong>Life-stage feeding</strong>
-            <p>Puppy, adult and senior nutritional needs differ significantly — timing the transition matters as much as the food itself.</p>
+            <span aria-hidden="true">🩺</span>
+            <strong>Preventive care pays off</strong>
+            <p>Scheduled vet visits, parasite prevention and dental care reduce the likelihood of costly reactive treatment. Most problems are easier to manage when caught early.</p>
           </div>
           <div class="category-hub__link-card">
-            <span aria-hidden="true">⚖️</span>
-            <strong>Breed size &amp; caloric need</strong>
-            <p>Giant breeds need controlled calcium during growth. Small breeds need calorie-dense food due to higher metabolic rates.</p>
+            <span aria-hidden="true">🧬</span>
+            <strong>Breed-linked conditions are real</strong>
+            <p>Larger breeds carry higher joint and bloat risk. Brachycephalic breeds face respiratory constraints. Breed background predicts risk — it doesn't guarantee outcome.</p>
           </div>
           <div class="category-hub__link-card">
-            <span aria-hidden="true">🥩</span>
-            <strong>Kibble, raw &amp; fresh formats</strong>
-            <p>Each format has trade-offs in convenience, cost, safety and nutritional completeness. Breed health context informs the choice.</p>
+            <span aria-hidden="true">👀</span>
+            <strong>Know what normal looks like</strong>
+            <p>Lethargy, appetite changes, unusual discharge or posture shifts are the most reliable early signals. The baseline is set by knowing your dog's typical behaviour.</p>
+          </div>
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">📋</span>
+            <strong>Vet visits have a rhythm</strong>
+            <p>Annual checks for healthy adult dogs, biannual for seniors (7+), and immediate attention for acute symptoms. Keep vaccine records and parasite prevention current.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Resource strip: quick links -->
-    <section class="dog-food-resource-strip">
+    <section class="health-resource-strip">
       <div class="category-hub__container">
-        <div class="dog-food-resource-grid">
-          <a href="/cost-calculator" class="dog-food-resource-card">
-            <p class="dog-food-resource-card__eyebrow">Food budgeting</p>
+        <div class="health-resource-grid">
+          <a href="/cost-calculator" class="health-resource-card">
+            <p class="health-resource-card__eyebrow">Plan ahead</p>
             <strong>Cost Calculator</strong>
-            <p>Estimate monthly food costs by breed size and food type.</p>
+            <p>Estimate vet costs, insurance, and annual health expenses by breed.</p>
             <span aria-hidden="true">→</span>
           </a>
-          <a href="/breeds" class="dog-food-resource-card">
-            <p class="dog-food-resource-card__eyebrow">By breed</p>
-            <strong>Breed Profiles</strong>
-            <p>Each breed guide includes typical food needs, portion guidance, and health-linked diet watch-outs.</p>
+          <a href="/pet-insurance" class="health-resource-card">
+            <p class="health-resource-card__eyebrow">Financial safety net</p>
+            <strong>Pet Insurance Guide</strong>
+            <p>Understand breed-specific premium drivers and when insurance is worth it.</p>
             <span aria-hidden="true">→</span>
           </a>
-          <a href="/guides/first-dog" class="dog-food-resource-card">
-            <p class="dog-food-resource-card__eyebrow">New owners</p>
-            <strong>First Dog Guide</strong>
-            <p>Covers food selection, feeding schedules, and nutrition basics for first-time owners.</p>
+          <a href="/breeds" class="health-resource-card">
+            <p class="health-resource-card__eyebrow">By breed</p>
+            <strong>Breed Health Profiles</strong>
+            <p>Every breed page includes known health risks, life expectancy, and vet cost estimates.</p>
             <span aria-hidden="true">→</span>
           </a>
         </div>
@@ -169,7 +174,11 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
       </section>
     )}
 
-    <CategoryBreedGuides meta={meta} guides={featuredBreedGuides} />
+    <CategoryBreedGuides
+      meta={meta}
+      guides={featuredBreedGuides}
+      contextDesc="Browse breed health profiles — each card links to breed-specific health patterns, known conditions, life expectancy, and estimated vet costs."
+    />
 
     <CategoryOwnerResources
       meta={meta}
@@ -199,37 +208,57 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
 </BaseLayout>
 
 <style>
+  /* ── Methodology grid: 1-col mobile → 2-col tablet → 4-col desktop ── */
+  .health-method-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 640px) {
+    .health-method-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .health-method-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
   /* ── Resource strip ──────────────────────────────────────── */
-  .dog-food-resource-strip {
+  .health-resource-strip {
     background: var(--color-bg);
     padding: var(--section-padding) var(--content-padding-mobile);
   }
 
   @media (min-width: 640px) {
-    .dog-food-resource-strip {
+    .health-resource-strip {
       padding-inline: var(--content-padding);
     }
   }
 
   @media (min-width: 1280px) {
-    .dog-food-resource-strip {
+    .health-resource-strip {
       padding-inline: var(--content-padding-wide);
     }
   }
 
-  .dog-food-resource-grid {
+  .health-resource-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--space-4);
   }
 
   @media (min-width: 640px) {
-    .dog-food-resource-grid {
+    .health-resource-grid {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
-  .dog-food-resource-card {
+  .health-resource-card {
     display: flex;
     flex-direction: column;
     gap: var(--space-2);
@@ -243,13 +272,13 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
     transition: var(--transition-smooth);
   }
 
-  .dog-food-resource-card:hover {
+  .health-resource-card:hover {
     transform: translateY(-3px);
     box-shadow: var(--shadow-card-hover);
     border-color: var(--color-border-strong);
   }
 
-  .dog-food-resource-card__eyebrow {
+  .health-resource-card__eyebrow {
     margin: 0;
     color: var(--color-primary);
     font-size: var(--text-xs);
@@ -258,7 +287,7 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
     text-transform: uppercase;
   }
 
-  .dog-food-resource-card strong {
+  .health-resource-card strong {
     color: var(--color-heading);
     font-family: var(--font-serif);
     font-size: var(--text-lg);
@@ -266,7 +295,7 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
     line-height: var(--leading-snug);
   }
 
-  .dog-food-resource-card p {
+  .health-resource-card p {
     margin: 0;
     flex: 1;
     color: var(--color-body-soft);
@@ -274,7 +303,7 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
     line-height: var(--leading-relaxed);
   }
 
-  .dog-food-resource-card span {
+  .health-resource-card span {
     color: var(--color-primary);
     font-size: var(--text-sm);
     font-weight: var(--weight-bold);
@@ -282,11 +311,11 @@ const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, pos
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .dog-food-resource-card {
+    .health-resource-card {
       transition: none;
     }
 
-    .dog-food-resource-card:hover {
+    .health-resource-card:hover {
       transform: none;
     }
   }

@@ -73,9 +73,9 @@ export const CATEGORY_META = {
     theme: 'health',
     updatedLabel: 'Updated 2026',
     heroLabel: 'Breed health resource hub',
-    seoTitle: 'Dog Health Guides 2026 — Breed Risks, Care Planning & Owner Resources | PupWiki',
+    seoTitle: 'Dog Health Guides — Breed Health Risks, Vet Care Planning & Preventive Health | PupWiki',
     seoDescription:
-      'Explore dog health guides by breed, care topic and owner intent. Includes breed health context, wellness resources, insurance planning and general educational information.',
+      'Understand dog health by breed. Covers breed-linked conditions, preventive care, vet visit frequency, and practical health planning — from puppy to senior.',
     primaryCta: { label: 'Browse health guides', href: '#breed-guides' },
     secondaryCta: { label: 'Estimate ownership costs', href: '/cost-calculator' },
   },

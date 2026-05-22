@@ -19,7 +19,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Gustavo Martínez on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/black-labrador-mix-on-outdoor-walk-33834941/"
 imageSearchQuery: "dog owner lifestyle"
-indexInBlog: false
+indexInBlog: true
 ---
 
 
