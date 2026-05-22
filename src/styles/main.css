@@ -113,6 +113,23 @@
   margin: var(--space-8) 0;
 }
 
+/* Mobile: tighten prose to improve readability on narrow viewports */
+@media (max-width: 639px) {
+  .prose p,
+  .prose li {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .prose h3 {
+    font-size: clamp(1.15rem, 4vw, 1.5rem);
+  }
+
+  .prose h4 {
+    font-size: clamp(1.05rem, 3vw, 1.25rem);
+  }
+}
+
 /* -------------------------------------------------------------
    Generic utility helpers used across Astro templates
    ------------------------------------------------------------- */

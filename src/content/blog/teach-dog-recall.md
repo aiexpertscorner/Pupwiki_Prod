@@ -12,7 +12,7 @@ tags:
 postType: how-to
 schemaType: HowTo
 contentTier: editorial
-indexInBlog: true
+indexInBlog: false
 generated: false
 reviewMethod: editorial-research
 claimSensitivity: medium
