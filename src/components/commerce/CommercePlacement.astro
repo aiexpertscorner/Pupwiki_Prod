@@ -1,0 +1,87 @@
+---
+import ProductRail from './ProductRail.astro';
+import ProductBundle from './ProductBundle.astro';
+import ProductInlineRecommendation from './ProductInlineRecommendation.astro';
+import { getCommerceProducts } from '../../lib/commerce/getCommerceProducts';
+import { getPlacementRule } from '../../lib/commerce/placementRules';
+import type { CommerceContext, PageType } from '../../lib/commerce/types';
+
+export interface Props {
+  pageType: PageType;
+  placement: string;
+  context?: Record<string, unknown>;
+  title?: string;
+  eyebrow?: string;
+  description?: string;
+  limit?: number;
+  variant?: 'rail' | 'grid' | 'inline' | 'bundle';
+  showDisclosure?: boolean;
+}
+
+const {
+  pageType,
+  placement,
+  context = {},
+  title,
+  eyebrow,
+  description,
+  limit,
+  variant,
+  showDisclosure = true,
+} = Astro.props;
+
+const rule = getPlacementRule(placement);
+const products = getCommerceProducts({
+  context: {
+    ...(context as CommerceContext),
+    pageType,
+    placement,
+  },
+  limit: limit ?? rule?.defaultLimit,
+});
+
+const resolvedVariant = variant || rule?.variant || 'rail';
+const resolvedTitle = title || rule?.title || 'Helpful products';
+const resolvedEyebrow = eyebrow || rule?.eyebrow;
+const resolvedDescription = description || rule?.description;
+---
+
+{products.length > 0 && resolvedVariant === 'inline' && (
+  <ProductInlineRecommendation
+    products={products}
+    title={resolvedTitle}
+    pageType={pageType}
+    placement={placement}
+    showDisclosure={showDisclosure}
+  />
+)}
+
+{products.length > 0 && resolvedVariant === 'bundle' && (
+  <ProductBundle
+    products={products}
+    title={resolvedTitle}
+    eyebrow={resolvedEyebrow}
+    description={resolvedDescription}
+    pageType={pageType}
+    placement={placement}
+    showDisclosure={showDisclosure}
+  />
+)}
+
+{products.length > 0 && (resolvedVariant === 'rail' || resolvedVariant === 'grid') && (
+  <ProductRail
+    products={products}
+    title={resolvedTitle}
+    eyebrow={resolvedEyebrow}
+    description={resolvedDescription}
+    pageType={pageType}
+    placement={placement}
+    showDisclosure={showDisclosure}
+    variant={resolvedVariant}
+  />
+)}
+
+<script>
+  import { initCommerceClickTracking } from '../../lib/analytics/commerce-events';
+  initCommerceClickTracking();
+</script>

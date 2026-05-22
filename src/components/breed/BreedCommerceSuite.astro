@@ -1,10 +1,5 @@
 ---
-/**
- * BreedCommerceSuite.astro
- * Breed-aware commerce and partner routing module.
- */
-
-import AwinProductSlot from '../affiliate/AwinProductSlot.astro';
+import CommercePlacement from '../commerce/CommercePlacement.astro';
 import AmazonProductSlot from '../amazon/AmazonProductSlot.astro';
 import Icon, { type IconName } from '../ui/Icon.astro';
 
@@ -40,17 +35,15 @@ const {
   showAmazon = true,
 } = Astro.props;
 
-const commerceTags = [
-  'breed',
-  'dog-owners',
-  breedSlug,
+const breedContext = {
   breedName,
   breedSize,
-  breedEnergy,
-  breedTraining,
-  breedCoat,
-  ...topicTags,
-].filter(Boolean).map(String);
+  coatType: breedCoat,
+  groomingNeeds: breedCoat,
+  energyLevel: breedEnergy,
+  lifeStage: 'adult',
+  tags: topicTags,
+};
 ---
 
 <section class="breed-commerce" aria-labelledby="breed-commerce-title">
@@ -58,7 +51,8 @@ const commerceTags = [
     <p class="breed-eyebrow">Owner resources & partner picks</p>
     <h2 id="breed-commerce-title">Useful resources for {breedName} owners</h2>
     <p>
-      Breed-aware shopping resources matched to PupWiki brand data, Amazon.com product details, and practical owner needs.
+      Breed-aware shopping resources matched to PupWiki brand data, Amazon.com product details,
+      and practical owner needs.
     </p>
   </div>
 
@@ -67,8 +61,8 @@ const commerceTags = [
       {partnerClusters.slice(0, 5).map((cluster) => (
         <a href={cluster.href} class="breed-partner-cluster-card">
           <span class="breed-partner-cluster-card__icon" aria-hidden="true">
-              <Icon name={(cluster.icon || 'heart') as IconName} size={18} />
-            </span>
+            <Icon name={(cluster.icon || 'heart') as IconName} size={18} />
+          </span>
           <span>
             <strong>{cluster.label}</strong>
             {cluster.description && <em>{cluster.description}</em>}
@@ -79,32 +73,19 @@ const commerceTags = [
     </div>
   )}
 
-  <div class="breed-commerce__grid">
-    <AwinProductSlot
-      topicTags={[...commerceTags, 'food', 'nutrition', 'feeding', 'fresh-food', 'broth']}
-      pageType="breed"
-      category="dog-food"
-      breedSize={breedSize}
-      breedEnergy={breedEnergy}
-      breedTraining={breedTraining}
-      headline={`${breedName} food, nutrition and feeding partners`}
-    />
-
-    <AwinProductSlot
-      topicTags={[...commerceTags, 'training', 'behavior', 'leash', 'harness', 'gear', 'safety']}
-      pageType="breed"
-      category="training"
-      breedSize={breedSize}
-      breedEnergy={breedEnergy}
-      breedTraining={breedTraining}
-      headline={`${breedName} training, walking and safety resources`}
-    />
-  </div>
+  <CommercePlacement
+    pageType="breed"
+    placement="breed-care"
+    context={breedContext}
+    title={`Care picks for ${breedName} owners`}
+    eyebrow="Practical options"
+    limit={3}
+  />
 
   {showAmazon && (
     <div class="breed-commerce__amazon">
       <AmazonProductSlot
-        topicTags={commerceTags}
+        topicTags={[breedSlug, breedName, ...(breedSize ? [breedSize] : []), ...topicTags]}
         pageType="breed"
         pageSlug={`/breeds/${breedSlug}`}
         category="dog-supplies"
@@ -119,6 +100,7 @@ const commerceTags = [
   )}
 
   <p class="breed-commerce__note">
-    Reader-support note: PupWiki may earn from some product links. Product availability, prices, terms and policy details can change.
+    Reader-support note: PupWiki may earn from some product links. Product availability, prices,
+    terms and policy details can change.
   </p>
 </section>

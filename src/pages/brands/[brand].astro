@@ -4,7 +4,7 @@ import Breadcrumb        from '../../components/primitives/Breadcrumb.astro';
 import brandsData        from '../../data/brands.json';
 import productIndex      from '../../data/product-index.json';
 import masterBreeds      from '../../data/master-breeds.json';
-import AwinProductSlot   from '../../components/affiliate/AwinProductSlot.astro';
+import CommercePlacement from '../../components/commerce/CommercePlacement.astro';
 
 const SITE = 'https://pupwiki.com';
 
@@ -259,8 +259,16 @@ const categoryLinks = [
           </div>
         </div>
 
-        <!-- AWIN slot -->
-        <AwinProductSlot topicTags={[brand.category_key ?? 'food', 'nutrition']} pageType="brand" />
+        <!-- AWIN product grid -->
+        <CommercePlacement
+          pageType="brand"
+          placement="brand-grid"
+          context={{ merchant: brand.name }}
+          title={`Products from ${brand.name}`}
+          eyebrow="Partner catalog"
+          limit={24}
+          variant="grid"
+        />
 
         <!-- Category nav -->
         <div class="card" style="padding:var(--space-4)">

@@ -1,0 +1,17 @@
+---
+import ProductRail from './ProductRail.astro';
+import type { ScoredCommerceProduct } from '../../lib/commerce/types';
+
+export interface Props {
+  products: ScoredCommerceProduct[];
+  title?: string;
+  eyebrow?: string;
+  description?: string;
+  pageType?: string;
+  placement?: string;
+  showDisclosure?: boolean;
+}
+
+const props = Astro.props;
+---
+<ProductRail {...props} title={props.title || 'Useful starter picks'} />

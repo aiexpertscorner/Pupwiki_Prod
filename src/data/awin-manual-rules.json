@@ -1,0 +1,17 @@
+{
+  "version": "2026-05-22",
+  "notes": "Manual overrides for AWIN product ranking and filtering.",
+  "merchants": {
+    "Brutus Broth": {
+      "boost": 10,
+      "allowedTopics": ["nutrition", "hydration", "senior", "recovery"],
+      "excludeProductNameContains": ["cap", "hat", "trucker", "shirt", "hoodie", "mug", "sticker"],
+      "maxPerRail": 1
+    }
+  },
+  "productOverrides": {},
+  "globalExcludeProductNameContains": [
+    "gift card",
+    "wholesale"
+  ]
+}

@@ -29,6 +29,7 @@
 /* Affiliate / partner banners */
 @import './components/affiliate.css';
 @import './components/monetization.css';
+@import './components/commerce.css';
 
 /* Reviews, ratings, content-type badges */
 @import './components/reviews.css';

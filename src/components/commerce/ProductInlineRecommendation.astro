@@ -1,0 +1,63 @@
+---
+import ProductDisclosure from './ProductDisclosure.astro';
+import type { ScoredCommerceProduct } from '../../lib/commerce/types';
+
+export interface Props {
+  products: ScoredCommerceProduct[];
+  title?: string;
+  pageType?: string;
+  placement?: string;
+  showDisclosure?: boolean;
+}
+
+const {
+  products = [],
+  title = 'Useful option',
+  pageType = '',
+  placement = '',
+  showDisclosure = true,
+} = Astro.props;
+
+const visible = products.slice(0, 2);
+---
+
+{visible.length > 0 && (
+  <aside class="commerce-section" data-commerce-section={placement} aria-label="Partner pick">
+    <div class="commerce-section__header">
+      <span class="commerce-section__eyebrow">Partner pick</span>
+      <h3 class="commerce-section__title">{title}</h3>
+    </div>
+
+    <div class:list={['commerce-grid', 'commerce-grid--inline']}>
+      {visible.map((product, index) => (
+        <a
+          class="commerce-inline-card"
+          href={product.url}
+          target="_blank"
+          rel="sponsored noopener noreferrer"
+          data-affiliate="awin"
+          data-commerce-placement={placement}
+          data-page-type={pageType}
+          data-product-id={product.id}
+          data-product-name={product.name}
+          data-merchant={product.merchant}
+          data-program-id={product.programId}
+          data-position={index + 1}
+        >
+          {product.image && (
+            <span class="commerce-inline-card__thumb">
+              <img src={product.image} alt={product.name} loading="lazy" decoding="async" />
+            </span>
+          )}
+          <span class="commerce-inline-card__body">
+            <span class="commerce-inline-card__merchant">{product.merchant}</span>
+            <span class="commerce-inline-card__name">{product.name}</span>
+            <span class="commerce-inline-card__action">View at partner →</span>
+          </span>
+        </a>
+      ))}
+    </div>
+
+    {showDisclosure && <ProductDisclosure compact />}
+  </aside>
+)}

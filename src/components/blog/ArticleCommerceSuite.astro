@@ -1,5 +1,5 @@
 ---
-import AwinProductSlot from '../affiliate/AwinProductSlot.astro';
+import CommercePlacement from '../commerce/CommercePlacement.astro';
 import AmazonProductSlot from '../amazon/AmazonProductSlot.astro';
 
 export interface Props {
@@ -32,9 +32,16 @@ const {
   pageSlug = '',
   showAmazon = true,
   showAwin = true,
-  heading = 'Top-rated picks for your dog',
-  description = 'Curated for this topic and your dog\'s profile. Always check current sizing, formula, and seller details before buying.',
+  heading = 'Helpful picks for this topic',
+  description = "Curated for this topic. Always confirm details before buying.",
 } = Astro.props;
+
+const awinContext = {
+  category: cluster || category,
+  tags: topicTags,
+  breedSize,
+  energyLevel: breedEnergy,
+};
 ---
 
 <section class="article-commerce-suite not-prose" aria-label="Relevant shopping resources">
@@ -44,21 +51,18 @@ const {
     <span>{description}</span>
   </div>
 
-  <div class="article-commerce-suite__grid pw-money-grid pw-money-grid--wide">
-    {showAwin && (
-      <AwinProductSlot
-        topicTags={topicTags}
-        pageType="blog"
-        category={cluster || category}
-        breedSize={breedSize}
-        breedEnergy={breedEnergy}
-        breedTraining={breedTraining}
-        headline="Recommended for this topic"
-        monetizationIntent="high"
-      />
-    )}
+  {showAwin && (
+    <CommercePlacement
+      pageType="guide"
+      placement="article-inline"
+      context={awinContext}
+      limit={2}
+      showDisclosure={false}
+    />
+  )}
 
-    {showAmazon && (
+  {showAmazon && (
+    <div class="article-commerce-suite__amazon">
       <AmazonProductSlot
         topicTags={topicTags}
         pageType="blog"
@@ -73,10 +77,23 @@ const {
         headline="Amazon picks"
         placement={`article-suite|${cluster || category}`}
       />
-    )}
-  </div>
+    </div>
+  )}
+
+  {showAwin && (
+    <CommercePlacement
+      pageType="guide"
+      placement="article-end"
+      context={awinContext}
+      limit={4}
+      eyebrow="More partner picks"
+      title="More helpful products"
+      showDisclosure={true}
+    />
+  )}
 
   <p class="pw-disclosure-note">
-    Reader-support note: PupWiki may earn from some product links. Use these as research starting points and confirm current details before buying.
+    Reader-support note: PupWiki may earn from some product links. Use these as research starting
+    points and confirm current details before buying.
   </p>
 </section>

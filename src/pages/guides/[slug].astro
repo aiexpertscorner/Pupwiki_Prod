@@ -15,7 +15,7 @@ import contentStatus from '../../data/content-status.json';
 
 import BreedImage from '../../components/breed/BreedImage.astro';
 import PageBannerSlot from '../../components/affiliate/PageBannerSlot.astro';
-import AwinProductSlot from '../../components/affiliate/AwinProductSlot.astro';
+import CommercePlacement from '../../components/commerce/CommercePlacement.astro';
 import ArticleCommerceSuite from '../../components/blog/ArticleCommerceSuite.astro';
 import AmazonTextLinks from '../../components/amazon/AmazonTextLinks.astro';
 import { getContentCluster } from '../../lib/content/contentClusterConfig';
@@ -317,14 +317,11 @@ const relatedToolLinks = [
 
   {showCommercialMidContent && (
     <div class="article-partner-strip not-prose">
-      <AwinProductSlot
-        topicTags={awinTopicTags}
-        pageType="blog"
-        category={cluster?.slug || normalize(category)}
-        breedSize={breed?.size_category}
-        breedEnergy={breed?.energy_level}
-        breedTraining={breed?.training_level}
-        headline="Relevant dog-care resource"
+      <CommercePlacement
+        pageType="guide"
+        placement="article-inline"
+        context={{ category: cluster?.slug || normalize(category), tags: awinTopicTags, breedSize: breed?.size_category, energyLevel: breed?.energy_level }}
+        limit={2}
       />
     </div>
   )}
