@@ -1,0 +1,322 @@
+---
+/**
+ * src/pages/categories/lifestyle.astro
+ *
+ * Static override for /categories/lifestyle — adds a custom gear and lifestyle
+ * methodology section and resource strip above the breed guide grid.
+ * Overrides the dynamic [category].astro route for this slug.
+ */
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+import CategoryHero from '../../components/category/CategoryHero.astro';
+import CategoryQuickNav from '../../components/category/CategoryQuickNav.astro';
+import CategoryPartnerBlock from '../../components/category/CategoryPartnerBlock.astro';
+import CategoryAmazonBlock from '../../components/category/CategoryAmazonBlock.astro';
+import CategoryBreedGuides from '../../components/category/CategoryBreedGuides.astro';
+import CategoryOwnerResources from '../../components/category/CategoryOwnerResources.astro';
+import CategoryArticleGrid from '../../components/category/CategoryArticleGrid.astro';
+import CategoryRelatedTopics from '../../components/category/CategoryRelatedTopics.astro';
+import CategoryEmptyState from '../../components/category/CategoryEmptyState.astro';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
+
+import masterBreeds from '../../data/master-breeds.json';
+import masterCrossbreeds from '../../data/master-crossbreeds.json';
+import breedLinkMap from '../../data/breed-link-map.json';
+import contentStatus from '../../data/content-status.json';
+
+import {
+  buildBreadcrumbLd,
+  buildCollectionPageLd,
+  buildItemListLd,
+  getAwinTags,
+  getCategoryBreedGuides,
+  getCategoryLinks,
+  getCategoryMeta,
+  getCategoryPosts,
+  getRelatedCategoryCards,
+} from '../../lib/categories/categoryHelpers';
+
+import '../../styles/pages/category-hub.css';
+
+const SITE = 'https://pupwiki.com';
+const categorySlug = 'lifestyle';
+
+const meta = getCategoryMeta(categorySlug)!;
+const allPosts = await getCollection('blog');
+const catPosts = getCategoryPosts(allPosts as any, categorySlug, meta);
+const featuredPosts = catPosts.slice(0, 9);
+const supportingPosts = catPosts.slice(9, 21);
+
+const allBreedRecords = [...(masterBreeds as any[]), ...(masterCrossbreeds as any[])];
+const breedGuides = getCategoryBreedGuides({
+  categorySlug,
+  allBreeds: allBreedRecords,
+  breedLinkMap: breedLinkMap as any,
+  contentStatus: contentStatus as any,
+});
+
+const featuredBreedGuides = breedGuides;
+const breedChips = breedGuides.slice(0, 10);
+const categoryLinks = getCategoryLinks(categorySlug);
+const relatedCards = getRelatedCategoryCards(categorySlug);
+const awinTags = getAwinTags(categorySlug, meta);
+
+const breadcrumbLd = buildBreadcrumbLd(meta, categorySlug);
+const collectionPageLd = buildCollectionPageLd(meta, categorySlug);
+const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, posts: featuredPosts as any });
+---
+
+<BaseLayout
+  title={meta.seoTitle}
+  description={meta.seoDescription}
+  canonicalUrl={`${SITE}/categories/${categorySlug}`}
+  pageType="collection"
+>
+  <script type="application/ld+json" set:html={breadcrumbLd} />
+  <script type="application/ld+json" set:html={collectionPageLd} />
+  {itemListLd && <script type="application/ld+json" set:html={itemListLd} />}
+
+  <main class:list={['category-hub', `category-hub--${meta.theme}`]}>
+    <div class="category-hub__container">
+      <Breadcrumb
+        items={[
+          { label: 'Home', href: '/' },
+          { label: meta.title, current: true },
+        ]}
+      />
+    </div>
+
+    <CategoryHero meta={meta} />
+
+    <CategoryQuickNav
+      hasPosts={featuredPosts.length > 0}
+      hasBreedGuides={featuredBreedGuides.length > 0}
+    />
+
+    <!-- Custom: Gear and lifestyle methodology callout -->
+    <section class="category-hub__section category-hub__section--soft">
+      <div class="category-hub__container">
+        <div class="category-hub__section-header">
+          <p class="category-hub__eyebrow">Lifestyle and gear</p>
+          <h2>Gear should match your dog's life, not the other way around</h2>
+          <p>
+            The best gear is the gear you actually use consistently. Match walking tools,
+            enrichment, and routine to your specific dog's energy, size, and temperament —
+            not to breed stereotypes or what looks good in photos.
+          </p>
+        </div>
+        <div class="lifestyle-method-grid">
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">🎒</span>
+            <strong>Activity level drives gear choice</strong>
+            <p>High-energy breeds need gear built for distance and effort. Low-energy breeds need comfort and minimal restriction. Match gear to actual use — not breed stereotypes.</p>
+          </div>
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">🦺</span>
+            <strong>Harnesses vs collars for daily walking</strong>
+            <p>Front-clip no-pull harnesses reduce pulling without restriction. Back-clip harnesses give freedom for leash-trained dogs. Flat collars are fine for well-trained dogs; avoid for consistent pullers.</p>
+          </div>
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">🧳</span>
+            <strong>Travel with dogs requires planning</strong>
+            <p>Car restraints, travel crates, airline policy compliance, and hotel pet policies all vary. Plan the setup for your breed's size and temperament before booking.</p>
+          </div>
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">🏡</span>
+            <strong>Enrichment is part of daily routine</strong>
+            <p>A structured daily routine — walks, training sessions, puzzle feeders, and play — reduces destructive behaviour and anxiety. Mental stimulation matters as much as physical exercise.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resource strip: quick links -->
+    <section class="lifestyle-resource-strip">
+      <div class="category-hub__container">
+        <div class="lifestyle-resource-grid">
+          <a href="/breed-quiz" class="lifestyle-resource-card">
+            <p class="lifestyle-resource-card__eyebrow">Find your match</p>
+            <strong>Breed Quiz</strong>
+            <p>Answer 8 questions to get matched with breeds that fit your lifestyle, activity level, and living situation.</p>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href="/categories/training" class="lifestyle-resource-card">
+            <p class="lifestyle-resource-card__eyebrow">Walking and recall</p>
+            <strong>Training guides</strong>
+            <p>Leash manners, recall, and calm public behaviour start with training — gear supports but doesn't replace it.</p>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href="/breeds" class="lifestyle-resource-card">
+            <p class="lifestyle-resource-card__eyebrow">By breed</p>
+            <strong>Breed Profiles</strong>
+            <p>Every breed includes exercise requirements, off-leash suitability, and daily routine guidance for your specific dog.</p>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    {breedChips.length >= 3 && (
+      <section class="category-hub__strip" aria-label={`${meta.title} breed shortcuts`}>
+        <div class="category-hub__container">
+          <div class="category-hub__strip-header">
+            <p>{meta.title} by breed</p>
+            <a href="/breeds">All breeds →</a>
+          </div>
+          <div class="category-hub__chip-row">
+            {breedChips.map((breed) => (
+              <a href={breed.href}>{breed.name}</a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <CategoryBreedGuides
+      meta={meta}
+      guides={featuredBreedGuides}
+      contextDesc="Browse lifestyle and gear guides by breed — each card links to exercise requirements, off-leash suitability, and gear recommendations for your breed."
+    />
+
+    <CategoryOwnerResources
+      meta={meta}
+      categorySlug={categorySlug}
+      links={categoryLinks}
+      tags={awinTags.secondary}
+    />
+
+    {featuredPosts.length > 0 && (
+      <CategoryArticleGrid
+        meta={meta}
+        posts={featuredPosts}
+        supportingPosts={supportingPosts}
+        totalCount={catPosts.length}
+      />
+    )}
+
+    <CategoryPartnerBlock meta={meta} categorySlug={categorySlug} tags={awinTags.primary} />
+    <CategoryAmazonBlock meta={meta} categorySlug={categorySlug} />
+
+    <CategoryRelatedTopics meta={meta} cards={relatedCards} />
+
+    {featuredPosts.length === 0 && featuredBreedGuides.length === 0 && (
+      <CategoryEmptyState meta={meta} />
+    )}
+  </main>
+</BaseLayout>
+
+<style>
+  /* ── Methodology grid: 1-col mobile → 2-col tablet → 4-col desktop ── */
+  .lifestyle-method-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 640px) {
+    .lifestyle-method-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .lifestyle-method-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* ── Resource strip ──────────────────────────────────────── */
+  .lifestyle-resource-strip {
+    background: var(--color-bg);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .lifestyle-resource-strip {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .lifestyle-resource-strip {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .lifestyle-resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .lifestyle-resource-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .lifestyle-resource-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .lifestyle-resource-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-border-strong);
+  }
+
+  .lifestyle-resource-card__eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .lifestyle-resource-card strong {
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+  }
+
+  .lifestyle-resource-card p {
+    margin: 0;
+    flex: 1;
+    color: var(--color-body-soft);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .lifestyle-resource-card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    margin-top: var(--space-2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lifestyle-resource-card {
+      transition: none;
+    }
+
+    .lifestyle-resource-card:hover {
+      transform: none;
+    }
+  }
+</style>

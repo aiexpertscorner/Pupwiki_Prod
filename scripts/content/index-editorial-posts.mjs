@@ -4,7 +4,11 @@
  * Flips `indexInBlog: false` → `indexInBlog: true` for editorial posts that
  * meet the visibility criteria. Run with --dry-run to preview without changes.
  *
- * Criteria — ALL must be true to flip:
+ * Flags:
+ *   --dry-run   Preview changes without writing files
+ *   --revert    Flip the 27 known stub slugs back to indexInBlog: false
+ *
+ * Criteria for forward flip — ALL must be true:
  *   - `indexInBlog` is explicitly `false`
  *   - `generated` is not `true`
  *   - `claimSensitivity` is not `'high'`
@@ -19,6 +23,39 @@ import { fileURLToPath } from 'url';
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const BLOG_DIR = join(__dirname, '../../src/content/blog');
 const DRY_RUN = process.argv.includes('--dry-run');
+const REVERT = process.argv.includes('--revert');
+
+// Slugs confirmed as stubs (template placeholder body, not real prose).
+// best-gifts-for-dog-lovers-2026 is intentionally excluded — it is real content.
+const STUB_SLUGS = new Set([
+  '333-rule-rescue-dog',
+  'dog-chasing-cars',
+  'dog-digging-carpet',
+  'dog-fence-fighting',
+  'dog-park-aggression',
+  'hiking-with-your-dog',
+  'introduce-dog-to-cat',
+  'introduce-puppy-to-older-dog',
+  'keep-dog-entertained-home-alone',
+  'potty-train-stubborn-puppy',
+  'socialize-reactive-dog',
+  'stop-destructive-chewing-dogs',
+  'stop-dog-begging-at-table',
+  'stop-dog-digging-yard',
+  'stop-dog-jumping-on-people',
+  'stop-dog-leash-pulling',
+  'stop-dog-nipping-kids',
+  'stop-dog-window-barking',
+  'stop-puppy-biting',
+  'switch-dog-food-brand',
+  'teach-dog-leave-it',
+  'teach-dog-recall',
+  'teach-dog-to-ignore-dogs',
+  'top-dry-dog-food-2026',
+  'why-do-dogs-hump',
+  'why-do-dogs-roll-in-smelly-things',
+  'why-does-my-dog-follow-me-everywhere',
+]);
 
 const BLOCKED_SLUG_PREFIXES = [
   'names-for-',
@@ -59,6 +96,42 @@ const files = readdirSync(BLOG_DIR).filter((f) => f.endsWith('.md'));
 const flipped = [];
 const skipped = [];
 
+if (REVERT) {
+  // --revert mode: flip indexInBlog: true → false for the 27 stub slugs
+  console.log(`\n${DRY_RUN ? '[DRY RUN] ' : ''}Reverting ${STUB_SLUGS.size} stub posts (indexInBlog: true → false):\n`);
+
+  for (const file of files) {
+    const slug = basename(file, '.md');
+    if (!STUB_SLUGS.has(slug)) continue;
+
+    const filePath = join(BLOG_DIR, file);
+    const content = readFileSync(filePath, 'utf8');
+    const fm = parseFrontmatter(content);
+    if (!fm) { skipped.push({ slug, reason: 'no frontmatter' }); continue; }
+
+    const indexInBlog = getScalarValue(fm, 'indexInBlog');
+    if (indexInBlog !== 'true') {
+      skipped.push({ slug, reason: `already indexInBlog:${indexInBlog}` });
+      continue;
+    }
+
+    flipped.push(slug);
+    if (!DRY_RUN) {
+      const updated = content.replace(/^indexInBlog: true$/m, 'indexInBlog: false');
+      writeFileSync(filePath, updated, 'utf8');
+    }
+  }
+
+  flipped.forEach((s) => console.log(`  ✅  ${s}`));
+  if (skipped.length > 0) {
+    console.log(`\nSkipped (${skipped.length}):`);
+    skipped.forEach(({ slug, reason }) => console.log(`  ⏭  ${slug}  (${reason})`));
+  }
+  console.log(`\n${DRY_RUN ? 'Dry run complete — no files changed.' : `Done. ${flipped.length} file(s) reverted.`}`);
+  process.exit(0);
+}
+
+// Forward mode: flip indexInBlog: false → true for eligible posts
 for (const file of files) {
   const slug = basename(file, '.md');
   const filePath = join(BLOG_DIR, file);

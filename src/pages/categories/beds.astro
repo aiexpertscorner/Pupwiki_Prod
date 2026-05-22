@@ -1,0 +1,322 @@
+---
+/**
+ * src/pages/categories/beds.astro
+ *
+ * Static override for /categories/beds — adds a custom sleep methodology
+ * section and resource strip above the breed guide grid.
+ * Overrides the dynamic [category].astro route for this slug.
+ */
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+import CategoryHero from '../../components/category/CategoryHero.astro';
+import CategoryQuickNav from '../../components/category/CategoryQuickNav.astro';
+import CategoryPartnerBlock from '../../components/category/CategoryPartnerBlock.astro';
+import CategoryAmazonBlock from '../../components/category/CategoryAmazonBlock.astro';
+import CategoryBreedGuides from '../../components/category/CategoryBreedGuides.astro';
+import CategoryOwnerResources from '../../components/category/CategoryOwnerResources.astro';
+import CategoryArticleGrid from '../../components/category/CategoryArticleGrid.astro';
+import CategoryRelatedTopics from '../../components/category/CategoryRelatedTopics.astro';
+import CategoryEmptyState from '../../components/category/CategoryEmptyState.astro';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
+
+import masterBreeds from '../../data/master-breeds.json';
+import masterCrossbreeds from '../../data/master-crossbreeds.json';
+import breedLinkMap from '../../data/breed-link-map.json';
+import contentStatus from '../../data/content-status.json';
+
+import {
+  buildBreadcrumbLd,
+  buildCollectionPageLd,
+  buildItemListLd,
+  getAwinTags,
+  getCategoryBreedGuides,
+  getCategoryLinks,
+  getCategoryMeta,
+  getCategoryPosts,
+  getRelatedCategoryCards,
+} from '../../lib/categories/categoryHelpers';
+
+import '../../styles/pages/category-hub.css';
+
+const SITE = 'https://pupwiki.com';
+const categorySlug = 'beds';
+
+const meta = getCategoryMeta(categorySlug)!;
+const allPosts = await getCollection('blog');
+const catPosts = getCategoryPosts(allPosts as any, categorySlug, meta);
+const featuredPosts = catPosts.slice(0, 9);
+const supportingPosts = catPosts.slice(9, 21);
+
+const allBreedRecords = [...(masterBreeds as any[]), ...(masterCrossbreeds as any[])];
+const breedGuides = getCategoryBreedGuides({
+  categorySlug,
+  allBreeds: allBreedRecords,
+  breedLinkMap: breedLinkMap as any,
+  contentStatus: contentStatus as any,
+});
+
+const featuredBreedGuides = breedGuides;
+const breedChips = breedGuides.slice(0, 10);
+const categoryLinks = getCategoryLinks(categorySlug);
+const relatedCards = getRelatedCategoryCards(categorySlug);
+const awinTags = getAwinTags(categorySlug, meta);
+
+const breadcrumbLd = buildBreadcrumbLd(meta, categorySlug);
+const collectionPageLd = buildCollectionPageLd(meta, categorySlug);
+const itemListLd = buildItemListLd({ meta, breedGuides: featuredBreedGuides, posts: featuredPosts as any });
+---
+
+<BaseLayout
+  title={meta.seoTitle}
+  description={meta.seoDescription}
+  canonicalUrl={`${SITE}/categories/${categorySlug}`}
+  pageType="collection"
+>
+  <script type="application/ld+json" set:html={breadcrumbLd} />
+  <script type="application/ld+json" set:html={collectionPageLd} />
+  {itemListLd && <script type="application/ld+json" set:html={itemListLd} />}
+
+  <main class:list={['category-hub', `category-hub--${meta.theme}`]}>
+    <div class="category-hub__container">
+      <Breadcrumb
+        items={[
+          { label: 'Home', href: '/' },
+          { label: meta.title, current: true },
+        ]}
+      />
+    </div>
+
+    <CategoryHero meta={meta} />
+
+    <CategoryQuickNav
+      hasPosts={featuredPosts.length > 0}
+      hasBreedGuides={featuredBreedGuides.length > 0}
+    />
+
+    <!-- Custom: Bed selection methodology callout -->
+    <section class="category-hub__section category-hub__section--soft">
+      <div class="category-hub__container">
+        <div class="category-hub__section-header">
+          <p class="category-hub__eyebrow">Sleep support</p>
+          <h2>The right bed depends on breed size and age</h2>
+          <p>
+            Dogs sleep 12–14 hours a day — the quality of that rest affects joints, behaviour,
+            and long-term health. Getting bed size, support type, and washability right from the
+            start saves money and keeps your dog comfortable as they age.
+          </p>
+        </div>
+        <div class="beds-method-grid">
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">🛏️</span>
+            <strong>Size matching affects sleep quality</strong>
+            <p>A bed too small causes cramped sleep; too large and some dogs feel exposed. Measure nose to tail base when stretched out and add 15cm for the right fit.</p>
+          </div>
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">🦴</span>
+            <strong>Orthopedic foam matters for some breeds</strong>
+            <p>Giant breeds, seniors, and breeds prone to hip dysplasia benefit significantly from memory foam support. For active adult dogs, standard fill is adequate.</p>
+          </div>
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">🧺</span>
+            <strong>Washable covers are non-negotiable</strong>
+            <p>Dogs get their beds dirty quickly. A cover that unzips and machine-washes at 60°C saves money long-term and keeps allergens and odour under control.</p>
+          </div>
+          <div class="category-hub__link-card">
+            <span aria-hidden="true">📦</span>
+            <strong>Crate pad vs open bed</strong>
+            <p>Puppies and anxious dogs often prefer the enclosed security of a crate pad. Adult dogs that sleep freely typically prefer a bolster or platform bed with clear sightlines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resource strip: quick links -->
+    <section class="beds-resource-strip">
+      <div class="category-hub__container">
+        <div class="beds-resource-grid">
+          <a href="/breeds" class="beds-resource-card">
+            <p class="beds-resource-card__eyebrow">By breed</p>
+            <strong>Breed Profiles</strong>
+            <p>Each breed page includes size range, energy level, and typical sleep tendencies to help match bed type.</p>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href="/cost-calculator" class="beds-resource-card">
+            <p class="beds-resource-card__eyebrow">Lifetime cost</p>
+            <strong>Cost Calculator</strong>
+            <p>Estimate bed replacement frequency alongside vet, food, and insurance costs for full ownership budgeting.</p>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href="/categories/health" class="beds-resource-card">
+            <p class="beds-resource-card__eyebrow">Joint health</p>
+            <strong>Health guides</strong>
+            <p>Orthopedic bed selection connects directly to breed-linked joint conditions and long-term comfort planning.</p>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    {breedChips.length >= 3 && (
+      <section class="category-hub__strip" aria-label={`${meta.title} breed shortcuts`}>
+        <div class="category-hub__container">
+          <div class="category-hub__strip-header">
+            <p>{meta.title} by breed</p>
+            <a href="/breeds">All breeds →</a>
+          </div>
+          <div class="category-hub__chip-row">
+            {breedChips.map((breed) => (
+              <a href={breed.href}>{breed.name}</a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <CategoryBreedGuides
+      meta={meta}
+      guides={featuredBreedGuides}
+      contextDesc="Browse bed guides by breed — each card links to size guidance, typical sleep tendencies, and recommended bed type for your dog's size and energy level."
+    />
+
+    <CategoryOwnerResources
+      meta={meta}
+      categorySlug={categorySlug}
+      links={categoryLinks}
+      tags={awinTags.secondary}
+    />
+
+    {featuredPosts.length > 0 && (
+      <CategoryArticleGrid
+        meta={meta}
+        posts={featuredPosts}
+        supportingPosts={supportingPosts}
+        totalCount={catPosts.length}
+      />
+    )}
+
+    <CategoryPartnerBlock meta={meta} categorySlug={categorySlug} tags={awinTags.primary} />
+    <CategoryAmazonBlock meta={meta} categorySlug={categorySlug} />
+
+    <CategoryRelatedTopics meta={meta} cards={relatedCards} />
+
+    {featuredPosts.length === 0 && featuredBreedGuides.length === 0 && (
+      <CategoryEmptyState meta={meta} />
+    )}
+  </main>
+</BaseLayout>
+
+<style>
+  /* ── Methodology grid: 1-col mobile → 2-col tablet → 4-col desktop ── */
+  .beds-method-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 640px) {
+    .beds-method-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .beds-method-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* ── Resource strip ──────────────────────────────────────── */
+  .beds-resource-strip {
+    background: var(--color-bg);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .beds-resource-strip {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .beds-resource-strip {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .beds-resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .beds-resource-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .beds-resource-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .beds-resource-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-border-strong);
+  }
+
+  .beds-resource-card__eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .beds-resource-card strong {
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+  }
+
+  .beds-resource-card p {
+    margin: 0;
+    flex: 1;
+    color: var(--color-body-soft);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .beds-resource-card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    margin-top: var(--space-2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .beds-resource-card {
+      transition: none;
+    }
+
+    .beds-resource-card:hover {
+      transform: none;
+    }
+  }
+</style>
