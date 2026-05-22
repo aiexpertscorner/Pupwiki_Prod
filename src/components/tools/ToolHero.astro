@@ -1,0 +1,35 @@
+---
+// src/components/tools/ToolHero.astro
+// Hero for the /tools hub page. Wraps PageHero with tools-specific defaults.
+// Uses inclusive framing — not just "dog owners" but also people researching breeds.
+
+import PageHero from '../primitives/PageHero.astro';
+
+interface Props {
+  eyebrow?: string;
+  title?: string;
+  subtitle?: string;
+}
+
+const {
+  eyebrow = 'Free Planning Tools',
+  title = 'Dog Breed Tools & Calculators',
+  subtitle = 'Whether you\'re researching breeds, preparing for a new puppy, or planning for a dog you already love — these tools help you make more informed decisions.',
+} = Astro.props;
+---
+
+<PageHero
+  eyebrow={eyebrow}
+  title={title}
+  subtitle={subtitle}
+  variant="compact"
+  trustItems={[
+    'Based on real breed data',
+    'No account needed',
+    'Planning estimates — not professional advice',
+  ]}
+  ctas={[
+    { label: 'Find your breed match', href: '/tools/breed-match', variant: 'primary' },
+    { label: 'Compare breeds', href: '/tools/compare', variant: 'outline' },
+  ]}
+/>

@@ -1,0 +1,27 @@
+---
+// src/components/tools/ToolDisclosure.astro
+// Reusable disclaimer strip for all tool pages.
+// Imports copy from toolCopy.ts — no hardcoded disclaimer text here.
+
+import { getCostDisclaimer, getInsuranceDisclaimer, getHealthDisclaimer } from '../../lib/tools/toolCopy';
+
+interface Props {
+  showCostNote?: boolean;
+  showInsuranceNote?: boolean;
+  showHealthNote?: boolean;
+}
+
+const {
+  showCostNote = false,
+  showInsuranceNote = false,
+  showHealthNote = false,
+} = Astro.props;
+---
+
+<aside class="tools-disclosure" aria-label="Limitations and disclaimers">
+  <span class="tools-disclosure__label">Planning tools — not professional advice</span>
+  <p>Results are for planning purposes only. Individual animals vary significantly from breed averages.</p>
+  {showCostNote && <p>{getCostDisclaimer()}</p>}
+  {showInsuranceNote && <p>{getInsuranceDisclaimer()}</p>}
+  {showHealthNote && <p>{getHealthDisclaimer()}</p>}
+</aside>

@@ -1,0 +1,155 @@
+---
+// src/components/tools/ToolCardGrid.astro
+// Renders the tool card grid for the /tools hub.
+// Static tool definitions — not from engine data.
+// Live tools link to their pages; "coming soon" cards show a badge only.
+
+interface ToolCard {
+  id: string;
+  title: string;
+  description: string;
+  href: string;
+  icon: string;
+  status: 'live' | 'soon';
+  ctaLabel: string;
+  tags?: string[];
+}
+
+const tools: ToolCard[] = [
+  {
+    id: 'breed-match',
+    icon: '🐾',
+    title: 'Breed Match Quiz',
+    description: 'Answer a few questions about your home, lifestyle, and experience — get breed recommendations with scores, reasons, and trade-offs.',
+    href: '/tools/breed-match',
+    status: 'live',
+    ctaLabel: 'Find your match',
+    tags: ['Choosing a dog', 'Lifestyle fit'],
+  },
+  {
+    id: 'compare',
+    icon: '⚖️',
+    title: 'Breed Comparison',
+    description: 'Select 2–4 breeds and compare them side by side across size, energy, grooming, training difficulty, cost, and lifespan.',
+    href: '/tools/compare',
+    status: 'live',
+    ctaLabel: 'Compare breeds',
+    tags: ['Research', 'Side-by-side'],
+  },
+  {
+    id: 'cost-calculator',
+    icon: '💰',
+    title: 'Cost Calculator',
+    description: 'Estimate annual and lifetime ownership costs for any of 277 breeds — including food, vet, grooming, and optional insurance.',
+    href: '/cost-calculator',
+    status: 'live',
+    ctaLabel: 'Estimate costs',
+    tags: ['Budget planning', 'All breeds'],
+  },
+  {
+    id: 'puppy-cost',
+    icon: '📋',
+    title: 'Puppy First-Year Planner',
+    description: 'Get an itemised breakdown of first-year puppy costs — setup, recurring, and optional — with saving tips and next steps.',
+    href: '/tools/puppy-cost',
+    status: 'live',
+    ctaLabel: 'Plan your budget',
+    tags: ['New puppy', 'Budget planning'],
+  },
+  {
+    id: 'puppy-supplies',
+    icon: '🛍️',
+    title: 'Puppy Supplies Checklist',
+    description: 'Build a personalised supplies list based on your puppy\'s breed size, coat type, and your home setup — with priority and timing guidance.',
+    href: '/tools/puppy-supplies',
+    status: 'live',
+    ctaLabel: 'Build checklist',
+    tags: ['New puppy', 'Shopping'],
+  },
+  {
+    id: 'food-fit',
+    icon: '🥣',
+    title: 'Food Fit Checker',
+    description: 'Match your dog\'s age, size, and health needs to food categories and feeding guides — coming soon.',
+    href: '#',
+    status: 'soon',
+    ctaLabel: 'Coming soon',
+    tags: ['Nutrition', 'Health'],
+  },
+  {
+    id: 'grooming-schedule',
+    icon: '✂️',
+    title: 'Grooming Schedule',
+    description: 'Get a grooming frequency guide based on your dog\'s coat type, breed, and your tolerance for at-home grooming — coming soon.',
+    href: '#',
+    status: 'soon',
+    ctaLabel: 'Coming soon',
+    tags: ['Grooming', 'Coat care'],
+  },
+  {
+    id: 'training-plan',
+    icon: '🏅',
+    title: 'Training Plan Generator',
+    description: 'Get a structured training roadmap based on your dog\'s age, breed, and your experience level — coming soon.',
+    href: '#',
+    status: 'soon',
+    ctaLabel: 'Coming soon',
+    tags: ['Training', 'Behaviour'],
+  },
+];
+---
+
+<section aria-labelledby="tools-grid-heading">
+  <div class="tools-hub__section-header">
+    <h2 class="tools-hub__section-title" id="tools-grid-heading">All tools</h2>
+    <p class="tools-hub__section-subtitle">Free, data-backed tools for every stage — from first research to everyday care.</p>
+  </div>
+
+  <div class="tools-hub__grid">
+    {tools.map((tool) => (
+      <article
+        class={`tool-card tool-card--${tool.status}`}
+        aria-label={tool.title}
+      >
+        <div>
+          <span class="tool-card__icon" aria-hidden="true">{tool.icon}</span>
+        </div>
+
+        <div class="tool-card__header">
+          {tool.status === 'live' ? (
+            <h3 class="tool-card__title">
+              <a href={tool.href} style="color: inherit; text-decoration: none;">{tool.title}</a>
+            </h3>
+          ) : (
+            <h3 class="tool-card__title">{tool.title}</h3>
+          )}
+          <span class={`tool-card__badge tool-card__badge--${tool.status}`}>
+            {tool.status === 'live' ? 'Available' : 'Coming soon'}
+          </span>
+        </div>
+
+        <p class="tool-card__desc">{tool.description}</p>
+
+        {tool.tags && tool.tags.length > 0 && (
+          <div class="tool-card__meta" aria-label="Tool categories">
+            {tool.tags.map((tag) => (
+              <span class="tool-card__tag">
+                <span aria-hidden="true">·</span> {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
+        {tool.status === 'live' && (
+          <a
+            href={tool.href}
+            class="btn btn--primary tool-card__cta"
+            aria-label={`${tool.ctaLabel} — ${tool.title}`}
+          >
+            {tool.ctaLabel} →
+          </a>
+        )}
+      </article>
+    ))}
+  </div>
+</section>
