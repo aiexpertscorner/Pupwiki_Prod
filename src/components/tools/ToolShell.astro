@@ -1,0 +1,106 @@
+---
+// src/components/tools/ToolShell.astro
+// Shared layout shell for individual tool pages (breed-match, compare, puppy-cost, etc.)
+// Wraps BaseLayout with pageType="tool", adds breadcrumb, disclosure, and cross-tool links.
+// Each tool page imports its own page-specific styles.
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolDisclosure from './ToolDisclosure.astro';
+import { getToolNextActions } from '../../lib/tools/toolRecommendations';
+
+interface Props {
+  title: string;
+  description: string;
+  toolKey: string;
+  toolLabel: string;
+  canonicalUrl?: string;
+  structuredData?: unknown;
+  showCostNote?: boolean;
+  showInsuranceNote?: boolean;
+  showHealthNote?: boolean;
+}
+
+const {
+  title,
+  description,
+  toolKey,
+  toolLabel,
+  canonicalUrl,
+  structuredData,
+  showCostNote = false,
+  showInsuranceNote = false,
+  showHealthNote = false,
+} = Astro.props;
+
+const crossLinks = getToolNextActions(toolKey);
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: '/' },
+    { '@type': 'ListItem', position: 2, name: 'Tools', item: '/tools' },
+    { '@type': 'ListItem', position: 3, name: toolLabel },
+  ],
+};
+
+const allStructuredData = [
+  breadcrumbSchema,
+  ...(Array.isArray(structuredData) ? structuredData : structuredData ? [structuredData] : []),
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  pageType="tool"
+  bodyClass={`tool-page tool-page--${toolKey} pw-page`}
+  canonicalUrl={canonicalUrl}
+  structuredData={allStructuredData as any}
+>
+  <div class="tool-page">
+    <div class="tool-page__container">
+
+      <!-- Breadcrumb -->
+      <nav class="tool-page__breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="tool-page__breadcrumb-sep" aria-hidden="true">›</span>
+        <a href="/tools">Tools</a>
+        <span class="tool-page__breadcrumb-sep" aria-hidden="true">›</span>
+        <span aria-current="page">{toolLabel}</span>
+      </nav>
+
+      <!-- Tool hero slot -->
+      <slot name="hero" />
+
+      <!-- Main content slot -->
+      <main class="tool-page__content" id="main-content">
+        <slot />
+      </main>
+
+      <!-- Disclosure -->
+      <ToolDisclosure
+        showCostNote={showCostNote}
+        showInsuranceNote={showInsuranceNote}
+        showHealthNote={showHealthNote}
+      />
+
+      <!-- Cross-tool navigation -->
+      {crossLinks.length > 0 && (
+        <nav class="tool-page__cross-links" aria-label="Other tools">
+          <p class="tool-page__cross-links-title">Explore more tools</p>
+          <ul class="tool-page__cross-links-list">
+            {crossLinks.map((link) => (
+              <li>
+                <a href={link.href} class="tool-page__cross-link">
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+
+    </div>
+  </div>
+</BaseLayout>

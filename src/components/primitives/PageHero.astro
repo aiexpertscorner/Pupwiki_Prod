@@ -43,7 +43,7 @@ const {
 const heroClass = variant === 'split' ? 'hero hero--split' : 'hero hero--compact';
 ---
 
-<section class={heroClass}>
+<section class={heroClass} aria-label={eyebrow ?? title}>
   <div class="container">
     <div class={`hero__inner${variant === 'split' && imageSrc ? ' hero__inner--split' : ''}`}>
 
@@ -65,7 +65,7 @@ const heroClass = variant === 'split' ? 'hero hero--split' : 'hero hero--compact
               <a
                 href={cta.href}
                 class={`btn btn--${cta.variant ?? 'primary'}`}
-                aria-label={cta.ariaLabel}
+                {...(cta.ariaLabel ? { 'aria-label': cta.ariaLabel } : {})}
               >
                 {cta.label}
               </a>
@@ -74,10 +74,10 @@ const heroClass = variant === 'split' ? 'hero hero--split' : 'hero hero--compact
         )}
 
         {trustItems.length > 0 && (
-          <div class="hero__meta">
+          <div class="hero__meta" aria-label="Why trust this">
             {trustItems.map(item => (
               <span class="badge badge--primary">
-                <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
                 </svg>
                 {item}
@@ -91,7 +91,7 @@ const heroClass = variant === 'split' ? 'hero hero--split' : 'hero hero--compact
         <div class="hero__media">
           {imageSrc && (
             <div class="hero__image-wrap">
-              <img src={imageSrc} alt={imageAlt} class="hero__image" loading="eager" decoding="async" />
+              <img src={imageSrc} alt={imageAlt} class="hero__image" loading="eager" decoding="async" width="600" height="400" />
             </div>
           )}
           {cardText && (

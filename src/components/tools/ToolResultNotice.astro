@@ -1,0 +1,31 @@
+---
+// src/components/tools/ToolResultNotice.astro
+// Inline notice/callout for tool result sections.
+// Used to surface confidence notes, data limitations, and contextual disclaimers.
+
+interface Props {
+  type?: 'info' | 'warning' | 'low-confidence';
+  message: string;
+  detail?: string;
+}
+
+const { type = 'info', message, detail } = Astro.props;
+
+const icons: Record<string, string> = {
+  info: 'ℹ️',
+  warning: '⚠️',
+  'low-confidence': '📊',
+};
+---
+
+<div
+  class={`tools-result-notice tools-result-notice--${type}`}
+  role="note"
+  aria-label={type === 'warning' ? 'Important notice' : 'Information'}
+>
+  <span class="tools-result-notice__icon" aria-hidden="true">{icons[type]}</span>
+  <div class="tools-result-notice__body">
+    <p class="tools-result-notice__message">{message}</p>
+    {detail && <p class="tools-result-notice__detail">{detail}</p>}
+  </div>
+</div>

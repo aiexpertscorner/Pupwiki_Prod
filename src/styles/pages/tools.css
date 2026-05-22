@@ -1,0 +1,410 @@
+/* src/styles/pages/tools.css
+   Token-driven styles for the /tools hub and individual tool pages.
+   All colors via var(--color-*), spacing via var(--space-*), typography via var(--text-*).
+   No hardcoded hex values. Mobile-first.
+*/
+
+/* ─────────────────────────────────────────────
+   Hub page wrapper
+───────────────────────────────────────────── */
+
+.tools-hub {
+  overflow-x: clip;
+  background: var(--color-bg);
+}
+
+.tools-hub__container {
+  width: min(100%, var(--max-width));
+  margin-inline: auto;
+  padding-inline: var(--content-padding-mobile);
+  padding-block-end: var(--section-padding);
+}
+
+@media (min-width: 768px) {
+  .tools-hub__container {
+    padding-inline: var(--content-padding);
+  }
+}
+
+/* ─────────────────────────────────────────────
+   Intro section
+───────────────────────────────────────────── */
+
+.tools-hub__intro {
+  padding-block: var(--space-8);
+  max-width: 68ch;
+}
+
+.tools-hub__intro p {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-body-soft);
+}
+
+/* ─────────────────────────────────────────────
+   Section header
+───────────────────────────────────────────── */
+
+.tools-hub__section-header {
+  margin-block-end: var(--space-6);
+}
+
+.tools-hub__section-title {
+  font-size: var(--text-h3);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+  line-height: var(--leading-tight);
+  margin-block-end: var(--space-2);
+}
+
+.tools-hub__section-subtitle {
+  font-size: var(--text-base);
+  color: var(--color-body-soft);
+}
+
+/* ─────────────────────────────────────────────
+   Tool card grid
+───────────────────────────────────────────── */
+
+.tools-hub__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-5);
+  margin-block: var(--space-6);
+}
+
+@media (min-width: 600px) {
+  .tools-hub__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+  }
+}
+
+@media (min-width: 1024px) {
+  .tools-hub__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ─────────────────────────────────────────────
+   Tool card
+───────────────────────────────────────────── */
+
+.tool-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-6);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  transition: box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.tool-card:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+.tool-card--live {
+  border-top: 3px solid var(--color-accent);
+}
+
+.tool-card--soon {
+  opacity: 0.72;
+}
+
+.tool-card--soon .tool-card__cta {
+  pointer-events: none;
+  cursor: default;
+}
+
+.tool-card__icon {
+  font-size: 2rem;
+  line-height: 1;
+  display: block;
+}
+
+.tool-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.tool-card__title {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+  line-height: var(--leading-snug);
+  margin: 0;
+}
+
+.tool-card__badge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semi);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.tool-card__badge--live {
+  background: var(--color-accent-light);
+  color: var(--color-accent-hover);
+}
+
+.tool-card__badge--soon {
+  background: var(--color-bg-muted);
+  color: var(--color-muted);
+}
+
+.tool-card__desc {
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--color-body-soft);
+  flex: 1;
+  margin: 0;
+}
+
+.tool-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.tool-card__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.tool-card__cta {
+  margin-block-start: var(--space-2);
+  align-self: flex-start;
+}
+
+/* ─────────────────────────────────────────────
+   Related links strip
+───────────────────────────────────────────── */
+
+.tools-related-links {
+  padding-block: var(--space-10);
+  border-top: 1px solid var(--color-border);
+  margin-block-start: var(--space-12);
+}
+
+.tools-related-links__title {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  color: var(--color-muted);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  margin-block-end: var(--space-4);
+}
+
+.tools-related-links__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tools-related-links__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  text-decoration: none;
+  transition: border-color 0.14s, color 0.14s, background 0.14s;
+}
+
+.tools-related-links__link:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: var(--color-bg-cool);
+}
+
+/* ─────────────────────────────────────────────
+   Disclosure strip
+───────────────────────────────────────────── */
+
+.tools-disclosure {
+  margin-block-start: var(--space-8);
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-bg-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  line-height: var(--leading-relaxed);
+}
+
+.tools-disclosure p + p {
+  margin-block-start: var(--space-2);
+}
+
+.tools-disclosure__label {
+  font-weight: var(--weight-semi);
+  color: var(--color-body-soft);
+  display: block;
+  margin-block-end: var(--space-1);
+}
+
+/* ─────────────────────────────────────────────
+   Result notice (inline callout)
+───────────────────────────────────────────── */
+
+.tools-result-notice {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--color-border);
+  background: var(--color-bg-soft);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--color-body-soft);
+}
+
+.tools-result-notice--info {
+  border-left-color: var(--color-primary-light);
+  background: var(--color-bg-cool);
+}
+
+.tools-result-notice--warning {
+  border-left-color: var(--color-score-caution);
+  background: var(--color-bg-warm);
+}
+
+.tools-result-notice--low-confidence {
+  border-left-color: var(--color-muted);
+  background: var(--color-bg-muted);
+}
+
+.tools-result-notice__icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  padding-block-start: 0.1em;
+}
+
+.tools-result-notice__body {
+  flex: 1;
+}
+
+.tools-result-notice__message {
+  font-weight: var(--weight-medium);
+  color: var(--color-body);
+  margin: 0;
+}
+
+.tools-result-notice__detail {
+  margin-block-start: var(--space-1);
+  margin-block-end: 0;
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+/* ─────────────────────────────────────────────
+   Tool shell (individual tool pages)
+───────────────────────────────────────────── */
+
+.tool-page {
+  overflow-x: clip;
+  background: var(--color-bg);
+}
+
+.tool-page__container {
+  width: min(100%, var(--max-width));
+  margin-inline: auto;
+  padding-inline: var(--content-padding-mobile);
+  padding-block-end: var(--section-padding);
+}
+
+@media (min-width: 768px) {
+  .tool-page__container {
+    padding-inline: var(--content-padding);
+  }
+}
+
+.tool-page__breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding-block: var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+.tool-page__breadcrumb a {
+  color: var(--color-body-soft);
+  text-decoration: none;
+}
+
+.tool-page__breadcrumb a:hover {
+  color: var(--color-primary);
+}
+
+.tool-page__breadcrumb-sep {
+  color: var(--color-border);
+}
+
+.tool-page__content {
+  padding-block: var(--space-8);
+}
+
+.tool-page__cross-links {
+  padding-block: var(--space-8);
+  border-top: 1px solid var(--color-border);
+  margin-block-start: var(--space-10);
+}
+
+.tool-page__cross-links-title {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  color: var(--color-muted);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  margin-block-end: var(--space-4);
+}
+
+.tool-page__cross-links-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tool-page__cross-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  text-decoration: none;
+  transition: border-color 0.14s, color 0.14s, background 0.14s;
+}
+
+.tool-page__cross-link:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent-hover);
+  background: var(--color-accent-subtle);
+}

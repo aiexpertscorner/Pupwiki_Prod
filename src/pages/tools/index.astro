@@ -1,0 +1,94 @@
+---
+// src/pages/tools/index.astro
+// /tools hub — entry point for all PupWiki planning tools.
+// Inclusive framing: for anyone thinking about getting a dog, researching breeds,
+// or already caring for one. Improves SEO for research-phase queries.
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolHero from '../../components/tools/ToolHero.astro';
+import ToolCardGrid from '../../components/tools/ToolCardGrid.astro';
+import ToolDisclosure from '../../components/tools/ToolDisclosure.astro';
+import '../../styles/pages/tools.css';
+
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.pupwiki.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Tools', item: 'https://www.pupwiki.com/tools' },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'PupWiki Dog Planning Tools',
+    description: 'Free breed quiz, cost calculator, puppy planner, and supplies checklist — for anyone researching breeds or caring for a dog.',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Breed Match Quiz', url: 'https://www.pupwiki.com/tools/breed-match', description: 'Find breeds that match your lifestyle and home.' },
+      { '@type': 'ListItem', position: 2, name: 'Breed Comparison', url: 'https://www.pupwiki.com/tools/compare', description: 'Compare 2–4 breeds side by side.' },
+      { '@type': 'ListItem', position: 3, name: 'Cost Calculator', url: 'https://www.pupwiki.com/cost-calculator', description: 'Estimate annual and lifetime dog ownership costs.' },
+      { '@type': 'ListItem', position: 4, name: 'Puppy First-Year Planner', url: 'https://www.pupwiki.com/tools/puppy-cost', description: 'Plan your puppy\'s first-year budget.' },
+      { '@type': 'ListItem', position: 5, name: 'Puppy Supplies Checklist', url: 'https://www.pupwiki.com/tools/puppy-supplies', description: 'Build a personalised puppy supplies list.' },
+    ],
+  },
+];
+
+const relatedLinks = [
+  { label: 'Browse all breeds', href: '/breeds', icon: '🐕' },
+  { label: 'Cost calculator', href: '/cost-calculator', icon: '💰' },
+  { label: 'Dog names by breed', href: '/dog-names', icon: '📛' },
+  { label: 'Breed care guides', href: '/guides', icon: '📖' },
+  { label: 'Pet insurance guide', href: '/pet-insurance', icon: '🛡️' },
+  { label: 'Blog & articles', href: '/blog', icon: '✍️' },
+];
+---
+
+<BaseLayout
+  title="Dog Breed Tools & Calculators | PupWiki"
+  description="Free breed quiz, cost calculator, puppy planner, and supplies checklist — for anyone thinking about getting a dog or already caring for one. Real breed data, transparent estimates."
+  pageType="tool"
+  bodyClass="tools-hub pw-page"
+  structuredData={structuredData as any}
+>
+  <div class="tools-hub">
+    <div class="tools-hub__container">
+
+      <!-- Hero -->
+      <ToolHero />
+
+      <!-- Intro copy — inclusive framing for SEO -->
+      <section class="tools-hub__intro" aria-label="About these tools">
+        <p>
+          PupWiki's tools are built for anyone at any stage of the dog-ownership journey —
+          whether you're still deciding which breed fits your lifestyle, preparing for a new puppy,
+          or planning care for a dog you already love. Every tool uses real breed data and
+          transparent assumptions, and all results include limitations so you know exactly what
+          you're working with.
+        </p>
+      </section>
+
+      <!-- Tool cards -->
+      <ToolCardGrid />
+
+      <!-- Related links -->
+      <nav class="tools-related-links" aria-label="Related PupWiki resources">
+        <p class="tools-related-links__title">Explore more on PupWiki</p>
+        <ul class="tools-related-links__list">
+          {relatedLinks.map((link) => (
+            <li>
+              <a href={link.href} class="tools-related-links__link">
+                <span aria-hidden="true">{link.icon}</span>
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <!-- Disclosure -->
+      <ToolDisclosure />
+
+    </div>
+  </div>
+</BaseLayout>
