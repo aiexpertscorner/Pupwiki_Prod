@@ -1,0 +1,96 @@
+---
+import ProductDisclosure from './ProductDisclosure.astro';
+import type { ScoredCommerceProduct } from '../../lib/commerce/types';
+
+export interface Props {
+  products: ScoredCommerceProduct[];
+  title?: string;
+  eyebrow?: string;
+  description?: string;
+  pageType?: string;
+  placement?: string;
+  showDisclosure?: boolean;
+  variant?: 'rail' | 'grid';
+}
+
+const {
+  products = [],
+  title = 'Helpful products',
+  eyebrow,
+  description,
+  pageType = '',
+  placement = '',
+  showDisclosure = true,
+  variant = 'rail',
+} = Astro.props;
+
+const gridClass = variant === 'grid' ? 'commerce-grid--brand' : 'commerce-grid--rail';
+---
+
+{products.length > 0 && (
+  <section class="commerce-section" data-commerce-section={placement}>
+    <div class="commerce-section__header">
+      {eyebrow && <span class="commerce-section__eyebrow">{eyebrow}</span>}
+      <h2 class="commerce-section__title">{title}</h2>
+      {description && <p class="commerce-section__desc">{description}</p>}
+    </div>
+
+    <div class:list={['commerce-grid', gridClass]}>
+      {products.map((product, index) => (
+        <article class="commerce-card">
+          {product.image && (
+            <a
+              href={product.url}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              class="commerce-card__image-wrap"
+              aria-label={`View ${product.name} at ${product.merchant}`}
+              data-affiliate="awin"
+              data-commerce-placement={placement}
+              data-page-type={pageType}
+              data-product-id={product.id}
+              data-product-name={product.name}
+              data-merchant={product.merchant}
+              data-program-id={product.programId}
+              data-position={index + 1}
+            >
+              <img
+                src={product.image}
+                alt={product.name}
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          )}
+          <div class="commerce-card__body">
+            <p class="commerce-card__merchant">{product.merchant}</p>
+            <h3 class="commerce-card__name">{product.name}</h3>
+            {product.price != null && product.currency && (
+              <p class="commerce-card__price">
+                {product.currency === 'USD' ? '$' : product.currency}{product.price.toFixed(2)}
+              </p>
+            )}
+            <a
+              href={product.url}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              class="commerce-card__cta"
+              data-affiliate="awin"
+              data-commerce-placement={placement}
+              data-page-type={pageType}
+              data-product-id={product.id}
+              data-product-name={product.name}
+              data-merchant={product.merchant}
+              data-program-id={product.programId}
+              data-position={index + 1}
+            >
+              View at partner →
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    {showDisclosure && <ProductDisclosure compact />}
+  </section>
+)}

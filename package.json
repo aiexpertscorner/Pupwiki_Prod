@@ -14,6 +14,8 @@
     "astro": "astro",
     "validate:ci": "npm run content:normalize:check && npm run content:refresh:check && npm run partners:check && npm run content:audit:public:ci && npm run amazon:links:audit",
     "hero:audit": "node scripts/audit-hero-system.mjs",
+    "audit:awin": "node scripts/audit-awin-products.mjs",
+    "build:awin-index": "node scripts/build-awin-product-index.mjs",
     "awin:sync": "node scripts/sync-awin.mjs",
     "awin:sync:local": "node scripts/sync-awin.mjs",
     "awin:sync:strict": "node scripts/sync-awin.mjs --strict",

@@ -9,7 +9,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import masterBreeds from '../../data/master-breeds.json';
 import masterCrossbreeds from '../../data/master-crossbreeds.json';
 import breedLinkMap from '../../data/breed-link-map.json';
-import AwinProductSlot from '../../components/affiliate/AwinProductSlot.astro';
+import CommercePlacement from '../../components/commerce/CommercePlacement.astro';
 import PageBannerSlot from '../../components/affiliate/PageBannerSlot.astro';
 import OfferSlot from '../../components/monetization/OfferSlot.astro';
 import actuarialRates from '../../data/actuarial-breed-rates.json';
@@ -843,9 +843,11 @@ const jsonLd = JSON.stringify({
 
             <PageBannerSlot placement="cost-calculator-sidebar" topicTags={['food','nutrition','training']} />
 
-            <AwinProductSlot
-              topicTags={['food', 'nutrition', 'fresh-food', sizeCategory, energyLevel, coatType]}
-              pageType="cost-calculator"
+            <CommercePlacement
+              pageType="tool"
+              placement="tool-context"
+              context={{ breedName: b.name, breedSize: sizeCategory, energyLevel, tags: ['food', 'nutrition', 'training'] }}
+              limit={3}
             />
 
             <OfferSlot placement="pre-footer" pageType="cost-calculator" topicTags={['insurance','cost']} />

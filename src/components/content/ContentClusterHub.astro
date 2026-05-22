@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import AwinProductSlot from '../affiliate/AwinProductSlot.astro';
+import CommercePlacement from '../commerce/CommercePlacement.astro';
 import AmazonProductSlot from '../amazon/AmazonProductSlot.astro';
 import { type ContentCluster } from '../../lib/content/contentClusterConfig';
 
@@ -117,11 +117,12 @@ const isSensitive = cluster.claimSensitivity === 'high';
           </div>
 
           <div class="pw-money-grid pw-money-grid--wide">
-            <AwinProductSlot
-              topicTags={cluster.awinTopicTags}
+            <CommercePlacement
               pageType="category"
-              category={cluster.slug}
-              headline={`Dog resources for ${cluster.shortTitle.toLowerCase()}`}
+              placement="category-secondary"
+              context={{ category: cluster.slug, tags: cluster.awinTopicTags }}
+              limit={4}
+              showDisclosure={false}
             />
 
             <AmazonProductSlot

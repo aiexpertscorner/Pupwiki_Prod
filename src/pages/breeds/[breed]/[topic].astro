@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../../components/primitives/Breadcrumb.astro';
-import AwinProductSlot from '../../../components/affiliate/AwinProductSlot.astro';
+import CommercePlacement from '../../../components/commerce/CommercePlacement.astro';
 import AffiliateDisclosure from '../../../components/AffiliateDisclosure.astro';
 import Icon, { type IconName } from '../../../components/ui/Icon.astro';
 
@@ -540,14 +540,12 @@ const description = `${cfg.intro} Owner guide with expert tips, FAQs, and produc
           <h2 class="topic-product-slot__heading" id="product-heading">
             Top-Rated Products for {n}s
           </h2>
-          <AwinProductSlot
-            topicTags={cfg.awinTags}
-            pageType="breed-topic"
-            breedSize={size}
-            breedEnergy={energy}
-            monetizationIntent="high"
+          <CommercePlacement
+            pageType="breed"
+            placement="breed-care"
+            context={{ breedName: n, breedSize: size, energyLevel: energy, tags: cfg.awinTags }}
+            limit={3}
           />
-          <AffiliateDisclosure />
         </section>
 
       </main>

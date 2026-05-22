@@ -1,6 +1,6 @@
 ---
 import NameLayout from '../../layouts/NameLayout.astro';
-import AwinProductSlot from '../../components/affiliate/AwinProductSlot.astro';
+import CommercePlacement from '../../components/commerce/CommercePlacement.astro';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure.astro';
 import Icon, { type IconName } from '../../components/ui/Icon.astro';
 import masterBreeds from '../../data/master-breeds.json';
@@ -735,14 +735,12 @@ const jsonLd = [breadcrumbLd, faqLd, namesListLd];
             )}
 
             <div class="dog-name-sidebar-card">
-              <AwinProductSlot
-                topicTags={['toys', 'enrichment', 'accessories', slug, b.size_category, b.energy_level].filter(Boolean) as string[]}
-                pageType="names"
-                breedSize={b.size_category}
-                breedEnergy={b.energy_level}
-                headline={`Accessories for ${n} owners`}
+              <CommercePlacement
+                pageType="breed"
+                placement="breed-care"
+                context={{ breedName: n, breedSize: b.size_category, energyLevel: b.energy_level, tags: ['toys', 'enrichment', 'accessories'] }}
+                limit={3}
               />
-              <AffiliateDisclosure />
             </div>
 
             <a href="/dog-names" class="dog-name-sidebar-cta">

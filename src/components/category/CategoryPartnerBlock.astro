@@ -1,5 +1,5 @@
 ---
-import AwinProductSlot from '../affiliate/AwinProductSlot.astro';
+import CommercePlacement from '../commerce/CommercePlacement.astro';
 import type { CategoryMeta } from '../../lib/categories/categoryConfig';
 
 export interface Props {
@@ -13,26 +13,13 @@ const { meta, categorySlug, tags } = Astro.props;
 
 <section id="partner-resource" class="category-hub__section category-hub__section--partner">
   <div class="category-hub__container">
-    <div class="category-hub__partner-grid">
-      <div class="category-hub__section-header">
-        <p class="category-hub__eyebrow">Partner resource</p>
-        <h2>Recommended {meta.title.toLowerCase()} resource</h2>
-        <p>
-          Pupwiki Recommended Partners.
-        </p>
-      </div>
-
-      <AwinProductSlot
-        topicTags={tags}
-        pageType="category"
-        category={categorySlug}
-        headline={`Featured ${meta.shortTitle.toLowerCase()} resource`}
-      />
-    </div>
-
-    <p class="category-hub__affiliate-note">
-      Reader-support note: PupWiki may earn a commission from some brand links, at no extra cost to you.
-      Editorial pages remain informational and should be used as a starting point for your own research.
-    </p>
+    <CommercePlacement
+      pageType="category"
+      placement="category-primary"
+      context={{ category: categorySlug, title: meta.title, tags }}
+      title={`Helpful ${meta.title.toLowerCase()} products`}
+      eyebrow="Partner picks"
+      limit={4}
+    />
   </div>
 </section>

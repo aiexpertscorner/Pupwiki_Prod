@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-05-22T22:06:18.885Z",
+  "totalRawProducts": 2403,
+  "totalNormalizedProducts": 2401,
+  "removedDuplicates": 2,
+  "byType": {
+    "food": 251,
+    "brand-merch": 18,
+    "unknown": 18,
+    "training": 625,
+    "bed": 47,
+    "crate": 216,
+    "supplement": 31,
+    "toy": 471,
+    "treats": 182,
+    "grooming": 38,
+    "health-care": 337,
+    "cleaning": 64,
+    "walking": 89,
+    "travel": 14
+  },
+  "byMerchant": {
+    "Brutus Broth": 39,
+    "Crown and Paw": 20,
+    "Chef Paw (US)": 2,
+    "JUGBOW": 33,
+    "RadioFence.com": 835,
+    "Petmate": 1450,
+    "Nextrition Pet (US)": 19,
+    "Dog Cloud (US)": 1,
+    "Raw Wild LLC": 1,
+    "MyPetDMV - The original Pet Drivers License": 1
+  },
+  "byPriority": {
+    "priority-80": 40,
+    "priority-75": 20,
+    "priority-85": 2,
+    "priority-90": 33,
+    "priority-60": 835,
+    "priority-55": 1450,
+    "priority-50": 21
+  },
+  "warnings": {
+    "unknown-availability": 1757,
+    "brand-merch": 18,
+    "missing-price": 412
+  }
+}
