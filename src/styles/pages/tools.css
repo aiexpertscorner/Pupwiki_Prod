@@ -1210,3 +1210,339 @@
   color: var(--color-body);
   line-height: 1.7;
 }
+
+/* ============================================================
+   PUPPY COST PLANNER — form, summary strip, item tables
+   ============================================================ */
+
+.puppy-cost {
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+/* Form */
+.puppy-cost__form {
+  padding-block: var(--space-6);
+}
+
+.puppy-cost__field {
+  margin-block-end: var(--space-6);
+}
+
+.puppy-cost__field > label {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  color: var(--color-heading);
+  display: block;
+  margin-block-end: var(--space-2);
+}
+
+.puppy-cost__field-help {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  margin-block-start: var(--space-2);
+}
+
+.puppy-cost__select {
+  width: 100%;
+  max-width: 320px;
+  padding: var(--space-3) var(--space-4);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  font-size: var(--text-base);
+  color: var(--color-body);
+  background: var(--color-bg);
+  outline: none;
+  transition: border-color 0.14s;
+}
+
+.puppy-cost__select:focus {
+  border-color: var(--color-primary);
+}
+
+/* Toggles */
+.puppy-cost__toggles {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.puppy-cost__toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  cursor: pointer;
+}
+
+.puppy-cost__toggle input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Results */
+.puppy-cost__results {
+  padding-block-start: var(--space-4);
+}
+
+.puppy-cost__results-title {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+  margin-block-end: var(--space-6);
+}
+
+/* Summary strip */
+.puppy-cost__summary-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+  margin-block-end: var(--space-8);
+}
+
+@media (max-width: 600px) {
+  .puppy-cost__summary-strip {
+    grid-template-columns: 1fr;
+  }
+}
+
+.puppy-cost__summary-stat {
+  padding: var(--space-4);
+  background: var(--color-bg-muted);
+  border-radius: var(--radius-xl);
+  text-align: center;
+}
+
+.puppy-cost__summary-label {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-label);
+  display: block;
+  margin-block-end: var(--space-2);
+}
+
+.puppy-cost__summary-value {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+}
+
+/* Sections */
+.puppy-cost__section {
+  margin-block-end: var(--space-8);
+}
+
+.puppy-cost__section h3 {
+  font-size: var(--text-base);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+  margin-block-end: var(--space-3);
+  padding-block-end: var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* Items table */
+.puppy-cost__items-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.puppy-cost__items-table td {
+  padding: var(--space-3);
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.puppy-cost__items-table tr:last-child td {
+  border-bottom: none;
+}
+
+.puppy-cost__items-table td:last-child {
+  text-align: right;
+  white-space: nowrap;
+  font-weight: var(--weight-semi);
+  color: var(--color-heading);
+  min-width: 120px;
+}
+
+.puppy-cost__item-note {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  display: block;
+  margin-block-start: var(--space-1);
+}
+
+.puppy-cost__items-total td {
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+  background: var(--color-bg-muted);
+  border-top: 2px solid var(--color-border);
+}
+
+/* Optional list */
+.puppy-cost__optional-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.puppy-cost__optional-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.puppy-cost__optional-body {
+  flex: 1;
+}
+
+.puppy-cost__optional-label {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-body);
+}
+
+.puppy-cost__optional-note {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  display: block;
+  margin-block-start: var(--space-1);
+}
+
+.puppy-cost__optional-range {
+  white-space: nowrap;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  color: var(--color-muted);
+}
+
+/* Savings tips */
+.puppy-cost__savings ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.puppy-cost__savings li {
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  padding-inline-start: var(--space-7);
+  position: relative;
+  line-height: 1.6;
+}
+
+.puppy-cost__savings li::before {
+  content: '💡';
+  position: absolute;
+  left: 0;
+  top: 1px;
+}
+
+/* Assumptions */
+.puppy-cost__assumptions {
+  margin-block-end: var(--space-6);
+  font-size: var(--text-sm);
+}
+
+.puppy-cost__assumptions summary {
+  cursor: pointer;
+  color: var(--color-muted);
+  padding: var(--space-2) 0;
+  user-select: none;
+}
+
+.puppy-cost__assumptions summary:hover {
+  color: var(--color-body);
+}
+
+.puppy-cost__assumptions ul {
+  padding: var(--space-3) var(--space-5);
+  margin: 0;
+  color: var(--color-muted);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+/* Next actions */
+.puppy-cost__next-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-block-end: var(--space-6);
+}
+
+/* Disclaimer */
+.puppy-cost__disclaimer {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+  padding-block-start: var(--space-4);
+  margin-block-start: var(--space-4);
+  line-height: 1.6;
+}
+
+/* Explainer + FAQ below tool */
+.puppy-cost__explainer,
+.puppy-cost__faq {
+  max-width: 680px;
+  margin-inline: auto;
+  padding-block: var(--space-10);
+  border-top: 1px solid var(--color-border);
+}
+
+.puppy-cost__explainer h2,
+.puppy-cost__faq h2 {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+  margin-block-end: var(--space-4);
+}
+
+.puppy-cost__explainer h3 {
+  font-size: var(--text-base);
+  font-weight: var(--weight-semi);
+  color: var(--color-heading);
+  margin-block: var(--space-5) var(--space-2);
+}
+
+.puppy-cost__explainer p,
+.puppy-cost__faq p {
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  line-height: 1.7;
+  margin-block-end: var(--space-3);
+}
+
+.puppy-cost__faq-item {
+  margin-block-end: var(--space-6);
+}
+
+.puppy-cost__faq-q {
+  font-size: var(--text-base);
+  font-weight: var(--weight-semi);
+  color: var(--color-heading);
+  margin-block-end: var(--space-2);
+}
+
+.puppy-cost__faq-a {
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  line-height: 1.7;
+}
