@@ -23,6 +23,12 @@ const VALID_BUDGET: BudgetMode[] = ['budget', 'balanced', 'premium'];
 const VALID_KIDS: HouseholdKids[] = ['none', 'young', 'older', 'mixed'];
 const VALID_PETS: OtherPets[] = ['none', 'dogs', 'cats', 'dogs-and-cats'];
 const VALID_SIZES = ['any', 'small', 'medium', 'large', 'giant'] as const;
+const VALID_STATE_CODES = new Set([
+  'AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA',
+  'KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ',
+  'NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT',
+  'VA','WA','WV','WI','WY','DC',
+]);
 
 function clamp(value: number, min: number, max: number): number {
   return Math.max(min, Math.min(max, Math.round(value)));
@@ -80,7 +86,7 @@ export function normalizeDecisionProfile(
     trainingCommitment: oneOf(input.trainingCommitment, VALID_TOLERANCE, defaults.trainingCommitment),
     budgetMode: oneOf(input.budgetMode, VALID_BUDGET, defaults.budgetMode),
     preferredSize: oneOf(input.preferredSize, VALID_SIZES, defaults.preferredSize),
-    stateCode: typeof input.stateCode === 'string' && input.stateCode.length === 2
+    stateCode: typeof input.stateCode === 'string' && VALID_STATE_CODES.has(input.stateCode.toUpperCase())
       ? input.stateCode.toUpperCase()
       : defaults.stateCode,
     dogAgeStage: input.dogAgeStage ?? defaults.dogAgeStage,

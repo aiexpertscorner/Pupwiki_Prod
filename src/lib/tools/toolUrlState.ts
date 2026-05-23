@@ -45,7 +45,10 @@ export function parseProfileFromSearch(search: string): Partial<DogDecisionProfi
     if (val) (result as Record<string, unknown>)[key] = val;
   }
   const ex = params.get('ex');
-  if (ex) result.dailyExerciseMinutes = parseInt(ex, 10) || undefined;
+  if (ex) {
+    const parsed = parseInt(ex, 10);
+    if (!isNaN(parsed)) result.dailyExerciseMinutes = parsed;
+  }
   return result;
 }
 
