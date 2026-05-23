@@ -1,0 +1,229 @@
+---
+export interface CostItem {
+  title: string;
+  description: string;
+  href: string;
+  badge?: string;
+}
+
+export interface Props {
+  eyebrow?: string;
+  title?: string;
+  subtitle?: string;
+  disclaimer?: string;
+  items?: CostItem[];
+}
+
+const {
+  eyebrow = 'Planning for a puppy?',
+  title = 'Understand the real costs before you commit',
+  subtitle = 'Estimate first-year costs, compare breed-level expenses, and build a starter checklist.',
+  disclaimer = 'Cost estimates are planning guides only. Actual costs vary by location, breed, health, and care choices.',
+  items = [],
+} = Astro.props;
+---
+
+{items.length > 0 && (
+  <section class="pw-cost-planning" aria-label="Cost planning tools">
+    <div class="pw-cost-planning__shell">
+
+      <div class="pw-cost-planning__header">
+        {eyebrow && <p class="pw-cost-planning__eyebrow">{eyebrow}</p>}
+        <h2 class="pw-cost-planning__title">{title}</h2>
+        {subtitle && <p class="pw-cost-planning__subtitle">{subtitle}</p>}
+      </div>
+
+      <ul class="pw-cost-planning__grid" role="list">
+        {items.map((item) => (
+          <li>
+            <article class="pw-cost-planning__card">
+              <div class="pw-cost-planning__card-body">
+                {item.badge && (
+                  <span class="pw-cost-planning__badge">{item.badge}</span>
+                )}
+                <h3 class="pw-cost-planning__card-title">{item.title}</h3>
+                <p class="pw-cost-planning__card-desc">{item.description}</p>
+              </div>
+              <a href={item.href} class="pw-cost-planning__card-cta">
+                Start →
+              </a>
+            </article>
+          </li>
+        ))}
+      </ul>
+
+      {disclaimer && (
+        <p class="pw-cost-planning__disclaimer">
+          <span aria-hidden="true">ℹ</span> {disclaimer}
+        </p>
+      )}
+
+    </div>
+  </section>
+)}
+
+<style>
+  .pw-cost-planning {
+    background: var(--color-surface-navy);
+    padding-block: var(--section-padding);
+    padding-inline: var(--content-padding-mobile);
+  }
+
+  .pw-cost-planning__shell {
+    max-width: var(--max-width);
+    margin-inline: auto;
+  }
+
+  .pw-cost-planning__header {
+    text-align: center;
+    margin-bottom: var(--space-10);
+  }
+
+  .pw-cost-planning__eyebrow {
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semi);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: var(--space-3);
+  }
+
+  .pw-cost-planning__title {
+    font-family: var(--font-serif);
+    font-size: var(--text-h2);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+    letter-spacing: var(--tracking-snug);
+    color: var(--color-text-inverse);
+    margin: 0 0 var(--space-4);
+  }
+
+  .pw-cost-planning__subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255, 255, 255, 0.75);
+    line-height: var(--leading-normal);
+    max-width: 56ch;
+    margin: 0 auto;
+  }
+
+  /* Grid */
+  .pw-cost-planning__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Cards */
+  .pw-cost-planning__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--space-5);
+    padding: var(--space-6);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-2xl);
+    box-shadow: var(--shadow-card);
+    height: 100%;
+    transition: var(--transition-hover);
+  }
+
+  .pw-cost-planning__card:hover {
+    box-shadow: var(--shadow-xl);
+    transform: translateY(-3px);
+  }
+
+  .pw-cost-planning__card-body {
+    flex: 1;
+  }
+
+  .pw-cost-planning__badge {
+    display: inline-block;
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semi);
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+    color: var(--color-accent);
+    background: var(--color-accent-subtle);
+    border: 1px solid var(--color-border-accent);
+    border-radius: var(--radius-full);
+    padding: 2px var(--space-2);
+    margin-bottom: var(--space-3);
+  }
+
+  .pw-cost-planning__card-title {
+    font-size: var(--text-lg);
+    font-weight: var(--weight-semi);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-3);
+    line-height: var(--leading-snug);
+  }
+
+  .pw-cost-planning__card-desc {
+    font-size: var(--text-sm);
+    color: var(--color-body-soft);
+    line-height: var(--leading-normal);
+    margin: 0;
+  }
+
+  .pw-cost-planning__card-cta {
+    display: inline-block;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semi);
+    color: var(--color-cta);
+    text-decoration: none;
+    border-top: 1px solid var(--color-border-soft);
+    padding-top: var(--space-4);
+    width: 100%;
+    transition: var(--transition-base);
+  }
+
+  .pw-cost-planning__card-cta:hover {
+    color: var(--color-cta-hover);
+    padding-left: var(--space-2);
+  }
+
+  /* Disclaimer */
+  .pw-cost-planning__disclaimer {
+    margin-top: var(--space-8);
+    font-size: var(--text-xs);
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    line-height: var(--leading-normal);
+  }
+
+  /* Responsive */
+  @media (min-width: 640px) {
+    .pw-cost-planning {
+      padding-inline: var(--content-padding);
+    }
+
+    .pw-cost-planning__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .pw-cost-planning {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pw-cost-planning__card,
+    .pw-cost-planning__card-cta {
+      transition: none;
+    }
+
+    .pw-cost-planning__card:hover {
+      transform: none;
+    }
+
+    .pw-cost-planning__card-cta:hover {
+      padding-left: 0;
+    }
+  }
+</style>
