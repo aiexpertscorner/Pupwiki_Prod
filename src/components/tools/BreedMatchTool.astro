@@ -1,0 +1,924 @@
+---
+// src/components/tools/BreedMatchTool.astro
+// Interactive breed match quiz with server-side pre-computed signals.
+// Scoring runs in vanilla JS using the compact breedIsland data island.
+
+interface CompactBreedGuideLink {
+  key: string;
+  label: string;
+  href: string;
+}
+
+interface CompactBreedSignals {
+  activityLoad: 'low' | 'moderate' | 'high';
+  groomingLoad: 'low' | 'moderate' | 'high';
+  sheddingLoad: 'low' | 'moderate' | 'high';
+  trainingComplexity: 'easy' | 'moderate' | 'hard';
+  estimatedCostLoad: 'low' | 'medium' | 'high' | 'very-high';
+  apartmentFit: 'strong' | 'possible' | 'challenging';
+  firstTimeOwnerFit: 'strong' | 'possible' | 'challenging';
+  familyPlanningFit: 'strong' | 'possible' | 'needs-care';
+  dataConfidence: 'high' | 'medium' | 'low';
+}
+
+interface CompactBreed {
+  slug: string;
+  name: string;
+  type: string;
+  primaryImage: string;
+  imageAlt: string;
+  sizeKey: string;
+  sizeLabel: string;
+  energyLabel: string;
+  sheddingLabel: string;
+  trainingLabel: string;
+  coatLabel: string;
+  weightLabel: string | null;
+  lifespanLabel: string | null;
+  lifespanMid: number | null;
+  popularityRank: number | null;
+  temperament: string;
+  guideLinks: CompactBreedGuideLink[];
+  flags: {
+    isSmall: boolean;
+    isLarge: boolean;
+    isGiant: boolean;
+    isCalm: boolean;
+    isActive: boolean;
+    isApartmentFriendly: boolean;
+    hasCostCalculator: boolean;
+  };
+  signals: CompactBreedSignals;
+}
+
+interface Props {
+  breedIsland: CompactBreed[];
+}
+
+const { breedIsland } = Astro.props;
+---
+
+<div id="breed-match-tool" class="breed-match" data-component="breed-match">
+
+  <!-- Step 0: Resume prompt -->
+  <div class="breed-match__step" data-step="0" hidden>
+    <div class="breed-match__resume">
+      <p class="breed-match__resume-title">Continue where you left off?</p>
+      <p style="font-size: var(--text-sm); color: var(--color-muted);">You have saved quiz answers from the last 24 hours.</p>
+      <div class="breed-match__resume-actions">
+        <button class="btn btn--primary" data-action="resume">Continue quiz</button>
+        <button class="btn btn--outline" data-action="restart">Start over</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress bar -->
+  <div class="breed-match__progress" hidden>
+    <div class="breed-match__progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="6" aria-valuenow="1">
+      <div class="breed-match__progress-fill" style="width: 0%" id="progress-fill"></div>
+    </div>
+    <span class="breed-match__progress-label">Step <span id="current-step-label">1</span> of 6</span>
+  </div>
+
+  <!-- Step 1: Home type -->
+  <div class="breed-match__step" data-step="1" hidden>
+    <p class="breed-match__step-eyebrow">Step 1 of 6</p>
+    <h2 class="breed-match__step-title">Where do you live?</h2>
+    <p class="breed-match__step-hint">This affects which breeds can comfortably fit your space.</p>
+    <div class="breed-match__options" role="group" aria-label="Living situation">
+      <button class="breed-match__option" data-field="homeType" data-value="apartment">
+        <span class="breed-match__option-icon">🏢</span>
+        <span>
+          <span class="breed-match__option-label">Apartment or flat</span>
+          <span class="breed-match__option-note"> — limited outdoor space</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="homeType" data-value="house">
+        <span class="breed-match__option-icon">🏡</span>
+        <span>
+          <span class="breed-match__option-label">House with garden</span>
+          <span class="breed-match__option-note"> — moderate outdoor space</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="homeType" data-value="rural">
+        <span class="breed-match__option-icon">🌳</span>
+        <span>
+          <span class="breed-match__option-label">Rural or acreage</span>
+          <span class="breed-match__option-note"> — plenty of outdoor space</span>
+        </span>
+      </button>
+    </div>
+    <button class="breed-match__back" data-action="back" hidden>← Back</button>
+  </div>
+
+  <!-- Step 2: Activity preference -->
+  <div class="breed-match__step" data-step="2" hidden>
+    <p class="breed-match__step-eyebrow">Step 2 of 6</p>
+    <h2 class="breed-match__step-title">How active are you?</h2>
+    <p class="breed-match__step-hint">Think about how much daily exercise you can realistically provide.</p>
+    <div class="breed-match__options" role="group" aria-label="Activity level">
+      <button class="breed-match__option" data-field="activityPreference" data-value="calm">
+        <span class="breed-match__option-icon">🛋️</span>
+        <span>
+          <span class="breed-match__option-label">Low-key</span>
+          <span class="breed-match__option-note"> — short walks, mostly relaxed</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="activityPreference" data-value="moderate">
+        <span class="breed-match__option-icon">🚶</span>
+        <span>
+          <span class="breed-match__option-label">Moderately active</span>
+          <span class="breed-match__option-note"> — daily walks, occasional runs</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="activityPreference" data-value="active">
+        <span class="breed-match__option-icon">🏃</span>
+        <span>
+          <span class="breed-match__option-label">Active</span>
+          <span class="breed-match__option-note"> — regular exercise, hiking, running</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="activityPreference" data-value="very-active">
+        <span class="breed-match__option-icon">🏋️</span>
+        <span>
+          <span class="breed-match__option-label">Very active</span>
+          <span class="breed-match__option-note"> — sports, agility, long hikes</span>
+        </span>
+      </button>
+    </div>
+    <button class="breed-match__back" data-action="back">← Back</button>
+  </div>
+
+  <!-- Step 3: Experience level -->
+  <div class="breed-match__step" data-step="3" hidden>
+    <p class="breed-match__step-eyebrow">Step 3 of 6</p>
+    <h2 class="breed-match__step-title">How much experience do you have with dogs?</h2>
+    <p class="breed-match__step-hint">Honest answers here lead to better recommendations.</p>
+    <div class="breed-match__options" role="group" aria-label="Experience level">
+      <button class="breed-match__option" data-field="experienceLevel" data-value="first-time">
+        <span class="breed-match__option-icon">🐣</span>
+        <span>
+          <span class="breed-match__option-label">First-time owner</span>
+          <span class="breed-match__option-note"> — little or no prior experience</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="experienceLevel" data-value="some">
+        <span class="breed-match__option-icon">🐕</span>
+        <span>
+          <span class="breed-match__option-label">Some experience</span>
+          <span class="breed-match__option-note"> — owned dogs before</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="experienceLevel" data-value="experienced">
+        <span class="breed-match__option-icon">🎓</span>
+        <span>
+          <span class="breed-match__option-label">Experienced</span>
+          <span class="breed-match__option-note"> — comfortable training and handling</span>
+        </span>
+      </button>
+    </div>
+    <button class="breed-match__back" data-action="back">← Back</button>
+  </div>
+
+  <!-- Step 4: Grooming + shedding -->
+  <div class="breed-match__step" data-step="4" hidden>
+    <p class="breed-match__step-eyebrow">Step 4 of 6</p>
+    <h2 class="breed-match__step-title">How much grooming are you comfortable with?</h2>
+    <p class="breed-match__step-hint">Regular brushing, professional grooming, or minimal maintenance?</p>
+    <div class="breed-match__options" role="group" aria-label="Grooming tolerance" id="grooming-options">
+      <button class="breed-match__option" data-field="groomingTolerance" data-value="low">
+        <span class="breed-match__option-icon">✂️</span>
+        <span>
+          <span class="breed-match__option-label">Minimal</span>
+          <span class="breed-match__option-note"> — occasional brush, low maintenance</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="groomingTolerance" data-value="medium">
+        <span class="breed-match__option-icon">🪮</span>
+        <span>
+          <span class="breed-match__option-label">Moderate</span>
+          <span class="breed-match__option-note"> — weekly brushing, occasional groomer</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="groomingTolerance" data-value="high">
+        <span class="breed-match__option-icon">💅</span>
+        <span>
+          <span class="breed-match__option-label">High</span>
+          <span class="breed-match__option-note"> — happy to commit to regular grooming</span>
+        </span>
+      </button>
+    </div>
+
+    <!-- Sub-question: shedding (revealed after grooming answer) -->
+    <div class="breed-match__sub-q" id="shedding-subq" hidden>
+      <p class="breed-match__sub-q-title">How much shedding can you handle?</p>
+      <p class="breed-match__sub-q-hint">Some breeds shed heavily year-round.</p>
+      <div class="breed-match__options" role="group" aria-label="Shedding tolerance" id="shedding-options">
+        <button class="breed-match__option" data-field="sheddingTolerance" data-value="low">
+          <span class="breed-match__option-icon">🧹</span>
+          <span>
+            <span class="breed-match__option-label">Minimal shedding preferred</span>
+            <span class="breed-match__option-note"> — low-shedding or hypoallergenic breeds</span>
+          </span>
+        </button>
+        <button class="breed-match__option" data-field="sheddingTolerance" data-value="medium">
+          <span class="breed-match__option-icon">🐾</span>
+          <span>
+            <span class="breed-match__option-label">Moderate shedding is fine</span>
+            <span class="breed-match__option-note"> — some vacuuming, manageable</span>
+          </span>
+        </button>
+        <button class="breed-match__option" data-field="sheddingTolerance" data-value="high">
+          <span class="breed-match__option-icon">🌀</span>
+          <span>
+            <span class="breed-match__option-label">Heavy shedding is OK</span>
+            <span class="breed-match__option-note"> — I don't mind fur everywhere</span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <button class="breed-match__back" data-action="back">← Back</button>
+  </div>
+
+  <!-- Step 5: Budget + size -->
+  <div class="breed-match__step" data-step="5" hidden>
+    <p class="breed-match__step-eyebrow">Step 5 of 6</p>
+    <h2 class="breed-match__step-title">What's your annual budget for dog ownership?</h2>
+    <p class="breed-match__step-hint">Covers food, vet care, grooming, and everyday supplies.</p>
+    <div class="breed-match__options" role="group" aria-label="Budget range" id="budget-options">
+      <button class="breed-match__option" data-field="budgetMode" data-value="budget">
+        <span class="breed-match__option-icon">💵</span>
+        <span>
+          <span class="breed-match__option-label">Budget-conscious</span>
+          <span class="breed-match__option-note"> — keeping costs as low as possible</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="budgetMode" data-value="balanced">
+        <span class="breed-match__option-icon">⚖️</span>
+        <span>
+          <span class="breed-match__option-label">Balanced</span>
+          <span class="breed-match__option-note"> — comfortable with average dog costs</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="budgetMode" data-value="premium">
+        <span class="breed-match__option-icon">💎</span>
+        <span>
+          <span class="breed-match__option-label">Premium</span>
+          <span class="breed-match__option-note"> — willing to invest in top care</span>
+        </span>
+      </button>
+    </div>
+
+    <!-- Sub-question: size preference -->
+    <div class="breed-match__sub-q" id="size-subq" hidden>
+      <p class="breed-match__sub-q-title">Do you have a preferred size?</p>
+      <p class="breed-match__sub-q-hint">Or leave open to see all options.</p>
+      <div class="breed-match__options breed-match__options--row" role="group" aria-label="Size preference" id="size-options">
+        <button class="breed-match__option" data-field="preferredSize" data-value="small">
+          <span class="breed-match__option-icon">🐩</span>
+          <span><span class="breed-match__option-label">Small</span></span>
+        </button>
+        <button class="breed-match__option" data-field="preferredSize" data-value="medium">
+          <span class="breed-match__option-icon">🐕</span>
+          <span><span class="breed-match__option-label">Medium</span></span>
+        </button>
+        <button class="breed-match__option" data-field="preferredSize" data-value="large">
+          <span class="breed-match__option-icon">🦮</span>
+          <span><span class="breed-match__option-label">Large</span></span>
+        </button>
+        <button class="breed-match__option" data-field="preferredSize" data-value="any">
+          <span class="breed-match__option-icon">🐾</span>
+          <span><span class="breed-match__option-label">No preference</span></span>
+        </button>
+      </div>
+    </div>
+
+    <button class="breed-match__back" data-action="back">← Back</button>
+  </div>
+
+  <!-- Step 6: Household -->
+  <div class="breed-match__step" data-step="6" hidden>
+    <p class="breed-match__step-eyebrow">Step 6 of 6</p>
+    <h2 class="breed-match__step-title">Who's in your household?</h2>
+    <p class="breed-match__step-hint">Helps us flag breeds that need extra care around young children or other animals.</p>
+    <div class="breed-match__options" role="group" aria-label="Children in household" id="kids-options">
+      <button class="breed-match__option" data-field="householdKids" data-value="none">
+        <span class="breed-match__option-icon">🧑</span>
+        <span>
+          <span class="breed-match__option-label">No children</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="householdKids" data-value="young">
+        <span class="breed-match__option-icon">👶</span>
+        <span>
+          <span class="breed-match__option-label">Young children</span>
+          <span class="breed-match__option-note"> — under 8 years old</span>
+        </span>
+      </button>
+      <button class="breed-match__option" data-field="householdKids" data-value="older">
+        <span class="breed-match__option-icon">🧒</span>
+        <span>
+          <span class="breed-match__option-label">Older children or teens</span>
+        </span>
+      </button>
+    </div>
+
+    <!-- Sub-question: other pets -->
+    <div class="breed-match__sub-q" id="pets-subq" hidden>
+      <p class="breed-match__sub-q-title">Do you have other pets?</p>
+      <div class="breed-match__options breed-match__options--row" role="group" aria-label="Other pets" id="pets-options">
+        <button class="breed-match__option" data-field="otherPets" data-value="none">
+          <span class="breed-match__option-icon">—</span>
+          <span><span class="breed-match__option-label">No other pets</span></span>
+        </button>
+        <button class="breed-match__option" data-field="otherPets" data-value="cats">
+          <span class="breed-match__option-icon">🐱</span>
+          <span><span class="breed-match__option-label">Cats</span></span>
+        </button>
+        <button class="breed-match__option" data-field="otherPets" data-value="dogs">
+          <span class="breed-match__option-icon">🐕</span>
+          <span><span class="breed-match__option-label">Other dogs</span></span>
+        </button>
+        <button class="breed-match__option" data-field="otherPets" data-value="other">
+          <span class="breed-match__option-icon">🐇</span>
+          <span><span class="breed-match__option-label">Other animals</span></span>
+        </button>
+      </div>
+    </div>
+
+    <button class="breed-match__back" data-action="back">← Back</button>
+  </div>
+
+  <!-- Loading -->
+  <div class="breed-match__loading" id="breed-match-loading" hidden>
+    <p>Finding your best matches…</p>
+  </div>
+
+  <!-- Results -->
+  <section class="breed-match__results" hidden aria-label="Your breed matches" id="breed-match-results">
+    <div class="breed-match__results-header">
+      <h2 class="breed-match__results-title">Your top breed matches</h2>
+      <p class="breed-match__results-summary" id="results-summary"></p>
+      <button class="btn btn--outline" data-action="restart" style="margin-block-start: var(--space-3);">Retake quiz</button>
+    </div>
+    <div class="breed-match__cards" id="results-cards" role="list"></div>
+  </section>
+
+</div>
+
+<!-- Static SEO content — always visible -->
+<section class="breed-match__explainer">
+  <h2>How the breed match quiz works</h2>
+  <p>
+    The quiz scores every breed against your answers across six lifestyle dimensions: your living space,
+    activity level, experience with dogs, grooming and shedding tolerance, budget, and household composition.
+    Each dimension is weighted by how much impact it typically has on long-term owner satisfaction.
+  </p>
+  <p>
+    Scores run from 0–100. An 85+ score means many people with a similar profile find this breed a
+    comfortable match. Scores below 55 indicate genuine trade-offs worth understanding before committing.
+  </p>
+
+  <h3>What data we use</h3>
+  <p>
+    Breed traits (energy level, coat type, trainability, shedding) come from PupWiki's database of
+    277+ purebreds and 75 crossbreeds, normalized from AKC, FCI, and breed club standards. Signals like
+    "apartment fit" and "first-time owner fit" are derived from combinations of these traits — not
+    from subjective editorial opinion.
+  </p>
+
+  <h3>Limitations</h3>
+  <p>
+    Breed profiles describe typical traits — individual dogs vary significantly. A "challenging" breed
+    score doesn't mean the breed is bad, just that it may need more planning for your specific situation.
+    Data confidence varies: well-documented breeds have richer profiles than rare or newly recognized breeds.
+    These results are a starting point for research, not a guarantee of compatibility.
+  </p>
+</section>
+
+<section class="breed-match__faq">
+  <h2>Frequently asked questions</h2>
+
+  <div class="breed-match__faq-item">
+    <p class="breed-match__faq-q">How accurate is the breed match score?</p>
+    <p class="breed-match__faq-a">
+      Scores reflect typical breed traits, not individual dogs. An 85% match means many people with
+      your profile find this breed a good fit — not a guarantee. Use the score as a research shortcut,
+      not a definitive answer.
+    </p>
+  </div>
+
+  <div class="breed-match__faq-item">
+    <p class="breed-match__faq-q">Can I retake the quiz?</p>
+    <p class="breed-match__faq-a">
+      Yes — click "Retake quiz" at any time. Your last answers are saved for 24 hours so you can
+      resume where you left off if you close the page.
+    </p>
+  </div>
+
+  <div class="breed-match__faq-item">
+    <p class="breed-match__faq-q">Does PupWiki earn money from these recommendations?</p>
+    <p class="breed-match__faq-a">
+      PupWiki may earn a commission if you click affiliate links on breed guide pages. The quiz scoring
+      engine has no knowledge of commercial relationships — breeds are ranked purely on profile fit.
+    </p>
+  </div>
+
+  <div class="breed-match__faq-item">
+    <p class="breed-match__faq-q">What breeds are included?</p>
+    <p class="breed-match__faq-a">
+      The quiz covers 277 purebred and 75 crossbreed profiles. All breeds with a PupWiki breed guide
+      page link directly to their full profile, cost calculator, and care guides where available.
+    </p>
+  </div>
+</section>
+
+<script define:vars={{ breedIsland }}>
+  (function () {
+    const STORAGE_KEY = 'pupwiki:breed-match:v1';
+    const MAX_RESULTS = 8;
+    const TOTAL_STEPS = 6;
+
+    const defaultProfile = {
+      homeType: 'house',
+      activityPreference: 'moderate',
+      experienceLevel: 'first-time',
+      groomingTolerance: 'medium',
+      sheddingTolerance: 'medium',
+      budgetMode: 'balanced',
+      preferredSize: 'any',
+      householdKids: 'none',
+      otherPets: 'none',
+    };
+
+    let profile = Object.assign({}, defaultProfile);
+    let currentStep = 1;
+
+    // Step-4 sub-state: which sub-question has been answered
+    let groomingAnswered = false;
+    // Step-5 sub-state
+    let budgetAnswered = false;
+    // Step-6 sub-state
+    let kidsAnswered = false;
+
+    const root = document.getElementById('breed-match-tool');
+    if (!root) return;
+
+    // ---- Storage helpers ----
+    function saveProfile() {
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(Object.assign({}, profile, { ts: Date.now() }))); } catch (_) {}
+    }
+    function loadProfile() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return null;
+        const saved = JSON.parse(raw);
+        if (saved && typeof saved.ts === 'number' && Date.now() - saved.ts < 86400000) return saved;
+      } catch (_) {}
+      return null;
+    }
+    function clearProfile() {
+      try { localStorage.removeItem(STORAGE_KEY); } catch (_) {}
+    }
+
+    // ---- DOM helpers ----
+    function q(sel) { return root.querySelector(sel); }
+    function qAll(sel) { return root.querySelectorAll(sel); }
+
+    function showStep(n) {
+      // Hide all steps
+      qAll('[data-step]').forEach(function (el) { el.hidden = true; });
+
+      if (n === 0) {
+        q('[data-step="0"]').hidden = false;
+        q('.breed-match__progress').hidden = true;
+        return;
+      }
+
+      if (n > TOTAL_STEPS) {
+        // Compute and show results
+        showLoading();
+        setTimeout(runScoring, 60);
+        return;
+      }
+
+      currentStep = n;
+      q('[data-step="' + n + '"]').hidden = false;
+      q('.breed-match__progress').hidden = false;
+
+      // Reset sub-question state when revisiting step 4/5/6
+      if (n === 4) {
+        groomingAnswered = false;
+        q('#shedding-subq').hidden = true;
+        q('[data-field="sheddingTolerance"].is-selected') && q('[data-field="sheddingTolerance"].is-selected').classList.remove('is-selected');
+      }
+      if (n === 5) {
+        budgetAnswered = false;
+        q('#size-subq').hidden = true;
+      }
+      if (n === 6) {
+        kidsAnswered = false;
+        q('#pets-subq').hidden = true;
+      }
+
+      // Restore selected states
+      Object.keys(profile).forEach(function (field) {
+        const val = profile[field];
+        qAll('[data-field="' + field + '"]').forEach(function (btn) {
+          btn.classList.toggle('is-selected', btn.dataset.value === val);
+        });
+      });
+
+      // Update progress
+      const pct = Math.round(((n - 1) / TOTAL_STEPS) * 100);
+      const fill = q('#progress-fill');
+      if (fill) {
+        fill.style.width = pct + '%';
+        fill.setAttribute('aria-valuenow', String(n));
+      }
+      const stepLabel = q('#current-step-label');
+      if (stepLabel) stepLabel.textContent = String(n);
+
+      // Back button visibility
+      qAll('[data-action="back"]').forEach(function (btn) {
+        btn.hidden = (n <= 1);
+      });
+    }
+
+    function showLoading() {
+      qAll('[data-step]').forEach(function (el) { el.hidden = true; });
+      q('.breed-match__progress').hidden = true;
+      const loading = q('#breed-match-loading');
+      if (loading) loading.hidden = false;
+    }
+
+    function showResults() {
+      const loading = q('#breed-match-loading');
+      if (loading) loading.hidden = true;
+      const results = q('#breed-match-results');
+      if (results) results.hidden = false;
+    }
+
+    // ---- Scoring (mirrors breedScoringEngine.ts factor model) ----
+    function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, Math.round(v))); }
+
+    function scoreHomeFit(signals, prof) {
+      const fit = signals.apartmentFit;
+      if (prof.homeType === 'apartment') {
+        if (fit === 'strong') return { score: 15, reason: 'Often adapts well to apartment living.' };
+        if (fit === 'possible') return { score: 8, reason: 'Can live in an apartment with enough daily exercise.' };
+        return { score: 3, reason: 'May find apartment living challenging — plan for significant daily outdoor time.' };
+      }
+      if (prof.homeType === 'rural') {
+        if (fit === 'challenging') return { score: 15, reason: 'Tends to thrive with space and outdoor access.' };
+        return { score: 13, reason: 'Will enjoy rural living.' };
+      }
+      // house
+      if (fit === 'challenging') return { score: 12, reason: 'A house with a yard suits this active breed.' };
+      return { score: 13, reason: 'A house setting works well for this breed.' };
+    }
+
+    function scoreActivity(signals, prof) {
+      const breedMap = { low: 1, moderate: 2, high: 3 };
+      const userMap = { calm: 1, moderate: 2, active: 3, 'very-active': 4 };
+      const breedLevel = breedMap[signals.activityLoad] || 2;
+      const userLevel = userMap[prof.activityPreference] || 2;
+      const diff = Math.abs(userLevel - breedLevel);
+      if (diff === 0) return { score: 20, reason: 'Activity levels are a strong match.' };
+      if (diff === 1) return { score: 14, reason: 'Activity levels are close — minor adjustment expected.' };
+      return { score: 5, reason: 'Activity mismatch — this breed may need more (or less) exercise than you plan to give.' };
+    }
+
+    function scoreTraining(signals, prof) {
+      const complexity = signals.trainingComplexity;
+      const exp = prof.experienceLevel;
+      if (complexity === 'easy') {
+        return { score: 15, reason: 'This breed is generally considered easy to train.' };
+      }
+      if (complexity === 'hard') {
+        if (exp === 'experienced') return { score: 12, reason: 'Challenging to train, but your experience should help.' };
+        if (exp === 'some') return { score: 7, reason: 'Training may be demanding — consider professional classes.' };
+        return { score: 3, reason: 'This breed can be difficult to train for first-time owners.' };
+      }
+      // moderate
+      if (exp === 'first-time') return { score: 11, reason: 'Moderate training needs — consistent, patient training will work well.' };
+      return { score: 14, reason: 'Moderate training needs — a good match for your experience.' };
+    }
+
+    function scoreGrooming(signals, prof) {
+      const groomMap = { low: 1, moderate: 2, high: 3 };
+      const sheddMap = { low: 1, moderate: 2, high: 3 };
+      const breedGroom = groomMap[signals.groomingLoad] || 2;
+      const breedShedd = sheddMap[signals.sheddingLoad] || 2;
+      const userGroom = groomMap[prof.groomingTolerance] || 2;
+      const userShedd = sheddMap[prof.sheddingTolerance] || 2;
+      const groomDiff = breedGroom - userGroom; // positive = breed needs more than user tolerates
+      const sheddDiff = breedShedd - userShedd;
+      let score = 15;
+      if (groomDiff > 0) score -= groomDiff * 4;
+      if (sheddDiff > 0) score -= sheddDiff * 3;
+      score = clamp(score, 0, 15);
+      let reason = '';
+      if (groomDiff > 1) reason = 'This breed needs significantly more grooming than you indicated.';
+      else if (groomDiff > 0) reason = 'Slightly more grooming commitment than you prefer.';
+      else if (sheddDiff > 1) reason = 'Heavy shedder — may need frequent vacuuming.';
+      else reason = 'Grooming and shedding match your tolerance well.';
+      return { score, reason };
+    }
+
+    function scoreBudget(signals, prof) {
+      const costMap = { low: 1, medium: 2, high: 3, 'very-high': 4 };
+      const budgetMap = { budget: 1, balanced: 2, premium: 3 };
+      const breedCost = costMap[signals.estimatedCostLoad] || 2;
+      const userBudget = budgetMap[prof.budgetMode] || 2;
+      const diff = breedCost - userBudget;
+      if (diff <= 0) return { score: 15, reason: 'Estimated costs are within your budget range.' };
+      if (diff === 1) return { score: 9, reason: 'Costs may be slightly higher than your budget — worth planning for.' };
+      return { score: 3, reason: 'Estimated costs could significantly exceed a budget-focused approach.' };
+    }
+
+    function scoreSize(breed, prof) {
+      if (prof.preferredSize === 'any') return { score: 8, reason: 'No size preference — all sizes considered.' };
+      const sizeKey = breed.sizeKey;
+      const preferred = prof.preferredSize;
+      if (sizeKey === preferred) return { score: 8, reason: 'Size matches your preference.' };
+      // Adjacent sizes
+      const sizes = ['small', 'medium', 'large', 'giant'];
+      const breedIdx = sizes.indexOf(sizeKey);
+      const prefIdx = sizes.indexOf(preferred);
+      if (Math.abs(breedIdx - prefIdx) === 1) return { score: 5, reason: 'Size is close but not exact.' };
+      return { score: 2, reason: 'Size differs significantly from your preference.' };
+    }
+
+    function scoreFamily(signals, prof) {
+      const fit = signals.familyPlanningFit;
+      let score = 7;
+      let reason = '';
+      if (prof.householdKids === 'young') {
+        if (fit === 'strong') { score = 7; reason = 'Generally reported to be good with young children.'; }
+        else if (fit === 'needs-care') { score = 3; reason = 'May need extra supervision around young children.'; }
+        else { score = 5; reason = 'Can be good with children with proper introductions.'; }
+      } else if (prof.householdKids === 'older') {
+        if (fit !== 'needs-care') { score = 7; reason = 'Typically good with older children and teens.'; }
+        else { score = 5; reason = 'May need supervision even with older children.'; }
+      } else {
+        score = 7;
+        reason = 'No children in household — no specific concern.';
+      }
+      // Other pets modifier
+      if (prof.otherPets !== 'none' && signals.trainingComplexity === 'hard') {
+        score = Math.max(score - 2, 0);
+        reason += ' May need careful introductions to other pets.';
+      }
+      return { score, reason };
+    }
+
+    function scoreConfidence(signals) {
+      if (signals.dataConfidence === 'high') return { score: 5, reason: '' };
+      if (signals.dataConfidence === 'medium') return { score: 2, reason: '' };
+      return { score: 0, reason: '' };
+    }
+
+    function scoreBreed(breed, prof) {
+      const s = breed.signals;
+      const home = scoreHomeFit(s, prof);
+      const activity = scoreActivity(s, prof);
+      const training = scoreTraining(s, prof);
+      const grooming = scoreGrooming(s, prof);
+      const budget = scoreBudget(s, prof);
+      const size = scoreSize(breed, prof);
+      const family = scoreFamily(s, prof);
+      const confidence = scoreConfidence(s);
+
+      const total = clamp(
+        home.score + activity.score + training.score + grooming.score +
+        budget.score + size.score + family.score + confidence.score,
+        0, 100
+      );
+
+      const reasons = [home.reason, activity.reason, training.reason]
+        .filter(function (r) { return r && (home.score >= 10 || activity.score >= 14 || training.score >= 11); })
+        .filter(function (r) { return r; })
+        .slice(0, 3);
+
+      const tradeoffs = [grooming.reason, budget.reason, family.reason]
+        .filter(function (r, i) {
+          const scores = [grooming.score, budget.score, family.score];
+          return r && scores[i] < (i === 0 ? 12 : i === 1 ? 12 : 6);
+        })
+        .filter(function (r) { return r; })
+        .slice(0, 2);
+
+      // Build better reason/tradeoff lists from actual scores
+      const allReasons = [];
+      const allTradeoffs = [];
+      if (home.score >= 12) allReasons.push(home.reason);
+      else if (home.score <= 5) allTradeoffs.push(home.reason);
+      if (activity.score >= 17) allReasons.push(activity.reason);
+      else if (activity.score <= 6) allTradeoffs.push(activity.reason);
+      if (training.score >= 12) allReasons.push(training.reason);
+      else if (training.score <= 5) allTradeoffs.push(training.reason);
+      if (grooming.score >= 13) allReasons.push(grooming.reason);
+      else if (grooming.score <= 7) allTradeoffs.push(grooming.reason);
+      if (budget.score >= 12) allReasons.push(budget.reason);
+      else if (budget.score <= 5) allTradeoffs.push(budget.reason);
+
+      return {
+        slug: breed.slug,
+        name: breed.name,
+        primaryImage: breed.primaryImage,
+        imageAlt: breed.imageAlt,
+        sizeLabel: breed.sizeLabel,
+        temperament: breed.temperament,
+        lifespanLabel: breed.lifespanLabel,
+        flags: breed.flags,
+        score: total,
+        reasons: allReasons.slice(0, 3),
+        tradeoffs: allTradeoffs.slice(0, 2),
+      };
+    }
+
+    function getScoreLabel(score) {
+      if (score >= 85) return { label: 'Strong fit', cls: 'strong' };
+      if (score >= 70) return { label: 'Good fit', cls: 'good' };
+      if (score >= 55) return { label: 'Possible fit', cls: 'possible' };
+      return { label: 'Consider carefully', cls: 'careful' };
+    }
+
+    // ---- XSS-safe text ----
+    function esc(str) {
+      return String(str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    // ---- Results rendering ----
+    function renderResults(results) {
+      const container = q('#results-cards');
+      if (!container) return;
+
+      const summary = q('#results-summary');
+      if (summary) {
+        const top = results[0];
+        if (top) {
+          summary.textContent = 'Based on your answers, here are the breeds that could be a strong fit. ' +
+            'Scores reflect typical breed traits — individual dogs vary.';
+        }
+      }
+
+      container.innerHTML = results.map(function (r) {
+        const lbl = getScoreLabel(r.score);
+        const imgHtml = r.primaryImage
+          ? '<img src="' + esc(r.primaryImage) + '" alt="' + esc(r.imageAlt || r.name) + '" loading="lazy" width="400" height="225" class="breed-match__card-img" />'
+          : '<div class="breed-match__card-img-placeholder">🐕</div>';
+
+        const reasonsHtml = r.reasons.length
+          ? '<ul class="breed-match__reasons">' + r.reasons.map(function (rx) { return '<li>' + esc(rx) + '</li>'; }).join('') + '</ul>'
+          : '';
+
+        const tradeoffsHtml = r.tradeoffs.length
+          ? '<details class="breed-match__tradeoffs"><summary>Trade-offs to consider</summary><ul>' +
+            r.tradeoffs.map(function (tx) { return '<li>' + esc(tx) + '</li>'; }).join('') +
+            '</ul></details>'
+          : '';
+
+        const breedLink = '<a href="/breeds/' + esc(r.slug) + '" class="btn btn--sm btn--primary">View breed guide</a>';
+        const costLink = r.flags.hasCostCalculator
+          ? '<a href="/cost-calculator/' + esc(r.slug) + '" class="btn btn--sm btn--outline">Cost estimate</a>'
+          : '';
+
+        return '<article class="breed-match__card" role="listitem">' +
+          '<div class="breed-match__card-img-wrap">' + imgHtml + '</div>' +
+          '<div class="breed-match__card-body">' +
+            '<div class="breed-match__card-header">' +
+              '<h3 class="breed-match__card-name">' + esc(r.name) + '</h3>' +
+            '</div>' +
+            '<div class="breed-match__score-wrap">' +
+              '<div class="breed-match__score-bar"><div class="breed-match__score-fill" style="width:' + r.score + '%"></div></div>' +
+              '<span class="breed-match__score-label breed-match__score-label--' + lbl.cls + '">' + esc(lbl.label) + ' — ' + r.score + '/100</span>' +
+            '</div>' +
+            reasonsHtml +
+            tradeoffsHtml +
+            '<div class="breed-match__card-actions">' + breedLink + costLink + '</div>' +
+          '</div>' +
+        '</article>';
+      }).join('');
+
+      showResults();
+    }
+
+    function runScoring() {
+      const results = breedIsland
+        .map(function (b) { return scoreBreed(b, profile); })
+        .sort(function (a, b) { return b.score - a.score; })
+        .slice(0, MAX_RESULTS);
+      renderResults(results);
+      track('breed_match_result', { breed_slug: results[0] ? results[0].slug : '', score: results[0] ? results[0].score : 0 });
+    }
+
+    // ---- Analytics ----
+    function track(eventName, params) {
+      try {
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', eventName, Object.assign({ event_category: 'tools' }, params || {}));
+        }
+      } catch (_) {}
+    }
+
+    // ---- Event delegation ----
+    root.addEventListener('click', function (e) {
+      // Option button clicked
+      const optBtn = e.target.closest('[data-field]');
+      if (optBtn) {
+        const field = optBtn.dataset.field;
+        const value = optBtn.dataset.value;
+        profile[field] = value;
+
+        // Mark selected within same group
+        const groupEl = optBtn.closest('[role="group"]');
+        if (groupEl) {
+          groupEl.querySelectorAll('[data-field]').forEach(function (b) { b.classList.remove('is-selected'); });
+        }
+        optBtn.classList.add('is-selected');
+        saveProfile();
+
+        // Handle sub-question reveal / step advance
+        if (currentStep === 4 && field === 'groomingTolerance') {
+          groomingAnswered = true;
+          const subq = q('#shedding-subq');
+          if (subq) subq.hidden = false;
+          return;
+        }
+        if (currentStep === 4 && field === 'sheddingTolerance') {
+          setTimeout(function () { showStep(5); }, 280);
+          return;
+        }
+        if (currentStep === 5 && field === 'budgetMode') {
+          budgetAnswered = true;
+          const subq = q('#size-subq');
+          if (subq) subq.hidden = false;
+          return;
+        }
+        if (currentStep === 5 && field === 'preferredSize') {
+          setTimeout(function () { showStep(6); }, 280);
+          return;
+        }
+        if (currentStep === 6 && field === 'householdKids') {
+          kidsAnswered = true;
+          const subq = q('#pets-subq');
+          if (subq) subq.hidden = false;
+          return;
+        }
+        if (currentStep === 6 && field === 'otherPets') {
+          setTimeout(function () { showStep(TOTAL_STEPS + 1); }, 280);
+          return;
+        }
+
+        // Default: advance to next step
+        setTimeout(function () { showStep(currentStep + 1); }, 280);
+        return;
+      }
+
+      // Action buttons
+      const actionBtn = e.target.closest('[data-action]');
+      if (!actionBtn) return;
+      const action = actionBtn.dataset.action;
+
+      if (action === 'resume') {
+        showStep(currentStep);
+      } else if (action === 'restart') {
+        profile = Object.assign({}, defaultProfile);
+        clearProfile();
+        groomingAnswered = false;
+        budgetAnswered = false;
+        kidsAnswered = false;
+        const results = q('#breed-match-results');
+        if (results) results.hidden = true;
+        showStep(1);
+        track('breed_match_restart');
+      } else if (action === 'back') {
+        showStep(currentStep - 1);
+      }
+    });
+
+    // ---- Mount ----
+    const saved = loadProfile();
+    const STEP_FIELDS = ['homeType', 'activityPreference', 'experienceLevel', 'groomingTolerance', 'budgetMode', 'householdKids'];
+    const hasAnswers = saved && STEP_FIELDS.some(function (k) { return saved[k] && saved[k] !== defaultProfile[k]; });
+
+    if (hasAnswers) {
+      // Restore profile
+      Object.keys(defaultProfile).forEach(function (k) {
+        if (saved[k] !== undefined) profile[k] = saved[k];
+      });
+      showStep(0); // resume prompt
+    } else {
+      showStep(1);
+    }
+
+    track('breed_match_start');
+  })();
+</script>

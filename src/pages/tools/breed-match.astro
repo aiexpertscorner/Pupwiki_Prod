@@ -1,0 +1,114 @@
+---
+// src/pages/tools/breed-match.astro
+// Breed Match Quiz — /tools/breed-match
+// Server: load breeds, pre-compute signals, serialize compact island.
+// Client: vanilla JS scoring using island data (no runtime imports).
+
+import ToolShell from '../../components/tools/ToolShell.astro';
+import BreedMatchTool from '../../components/tools/BreedMatchTool.astro';
+import PageHero from '../../components/primitives/PageHero.astro';
+import { getToolBreeds } from '../../lib/tools/toolDataAdapter';
+import { getBreedDecisionSignals } from '../../lib/tools/breedSignals';
+import '../../styles/pages/tools.css';
+
+const breeds = getToolBreeds();
+
+// Compact island: only fields needed for client-side scoring + display
+// ~400 bytes/breed × 352 breeds ≈ 140KB serialized
+const breedIsland = breeds.map((b) => ({
+  slug: b.slug,
+  name: b.name,
+  type: b.type,
+  primaryImage: b.primaryImage,
+  imageAlt: b.imageAlt,
+  sizeKey: b.sizeKey,
+  sizeLabel: b.sizeLabel,
+  energyLabel: b.energyLabel,
+  sheddingLabel: b.sheddingLabel,
+  trainingLabel: b.trainingLabel,
+  coatLabel: b.coatLabel,
+  weightLabel: b.weightLabel,
+  lifespanLabel: b.lifespanLabel,
+  lifespanMid: b.lifespanMid,
+  popularityRank: b.popularityRank,
+  temperament: b.temperament,
+  guideLinks: b.guideLinks.filter((g) => g.available).map((g) => ({ key: g.key, label: g.label, href: g.href })),
+  flags: {
+    isSmall: b.flags.isSmall,
+    isLarge: b.flags.isLarge,
+    isGiant: b.flags.isGiant,
+    isCalm: b.flags.isCalm,
+    isActive: b.flags.isActive,
+    isApartmentFriendly: b.flags.isApartmentFriendly,
+    hasCostCalculator: b.flags.hasCostCalculator,
+  },
+  signals: getBreedDecisionSignals(b),
+}));
+
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How accurate is the breed match score?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Scores reflect typical breed traits, not individual dogs. An 85% match means many people with your profile find this breed a good fit — not a guarantee. Use the score as a research shortcut, not a definitive answer.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I retake the breed match quiz?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes — click "Retake quiz" at any time. Your last answers are saved for 24 hours so you can resume where you left off.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What breeds are included in the quiz?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'The quiz covers 277 purebred and 75 crossbreed profiles from PupWiki\'s breed database.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Does PupWiki earn money from breed recommendations?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'PupWiki may earn a commission if you click affiliate links on breed guide pages. The quiz scoring engine has no knowledge of commercial relationships — breeds are ranked purely on profile fit.',
+        },
+      },
+    ],
+  },
+];
+---
+
+<ToolShell
+  title="Breed Match Quiz — Find Your Ideal Dog Breed | PupWiki"
+  description="Answer 6 questions about your home, activity level, and lifestyle to get personalised breed recommendations from 350+ breeds — with scores, reasons, and honest trade-offs."
+  toolKey="breed-match"
+  toolLabel="Breed Match Quiz"
+  structuredData={structuredData}
+  showHealthNote={false}
+  showCostNote={false}
+>
+  <Fragment slot="hero">
+    <PageHero
+      eyebrow="Free Breed Matching"
+      title="Find Your Ideal Dog Breed"
+      subtitle="Answer 6 questions about your home, lifestyle, and experience — get personalised breed recommendations with scores and honest trade-offs."
+      variant="compact"
+      trustItems={[
+        '350+ breed profiles',
+        'No account needed',
+        'Results in under 2 minutes',
+      ]}
+    />
+  </Fragment>
+
+  <BreedMatchTool breedIsland={breedIsland} />
+</ToolShell>
