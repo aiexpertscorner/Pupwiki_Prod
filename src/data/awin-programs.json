@@ -1,18 +1,18 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-22T06:51:38.906Z",
+  "syncedAt": "2026-05-23T06:16:55.018Z",
   "programs": [
     {
       "key": "brutus-broth",
       "advertiserId": "55927",
       "name": "Brutus Broth",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "displayUrl": "https://www.brutusbroth.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=55927&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/55927.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -25,8 +25,21 @@
           "domain": "www.brutusbroth.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [
+        {
+          "min": 0,
+          "max": 10,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "71",
+        "approvalPercentage": 100,
+        "epc": 0.19,
+        "conversionRate": 2.28,
+        "validationDays": 51,
+        "awinIndex": 53.3
+      },
       "linkStatus": "",
       "staticProgramId": "brutus-broth",
       "feedId": "105633",
@@ -269,11 +282,11 @@
       "advertiserId": "87483",
       "name": "Dog Cloud (US)",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://dogcloudbeds.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87483.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -289,21 +302,8 @@
           "domain": "*.dogcloudbeds.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 10,
-          "max": 10,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "54",
-        "approvalPercentage": 100,
-        "epc": 4.83,
-        "conversionRate": 5.61,
-        "validationDays": 30,
-        "awinIndex": 71.1
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -330,11 +330,11 @@
       "advertiserId": "87999",
       "name": "RadioFence.com",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "displayUrl": "https://www.radiofence.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87999&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87999.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -347,8 +347,21 @@
           "domain": "www.radiofence.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [
+        {
+          "min": 4,
+          "max": 4,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "38",
+        "approvalPercentage": 65.38,
+        "epc": 0.48,
+        "conversionRate": 10.35,
+        "validationDays": 10,
+        "awinIndex": 72.8
+      },
       "linkStatus": "",
       "staticProgramId": "radiofence-com",
       "feedId": "105980",
@@ -385,11 +398,11 @@
       "advertiserId": "89689",
       "name": "Raw Wild LLC",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://raw-wild-2.myshopify.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89689&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89689.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -408,26 +421,8 @@
           "domain": "*.raw-wild-2.myshopify.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 0,
-          "max": 8,
-          "type": "percentage"
-        },
-        {
-          "min": 0,
-          "max": 0,
-          "type": "amount"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "26",
-        "approvalPercentage": 97.62,
-        "epc": 1.78,
-        "conversionRate": 10.89,
-        "validationDays": 3,
-        "awinIndex": 92.11
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "",
       "staticProgramId": "rawwild",
       "feedId": null,
@@ -595,11 +590,11 @@
       "advertiserId": "118951",
       "name": "MyPetDMV - The original Pet Drivers License",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "displayUrl": "https://www.mypetdmv.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=118951&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/118951.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -615,8 +610,21 @@
           "domain": "*.mypetdmv.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [
+        {
+          "min": 20,
+          "max": 20,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "57",
+        "approvalPercentage": 100,
+        "epc": 1.35,
+        "conversionRate": 20.83,
+        "validationDays": 37,
+        "awinIndex": 70.47
+      },
       "linkStatus": "",
       "staticProgramId": "mypetdmv-the-original-pet-drivers-license",
       "feedId": null,
@@ -757,11 +765,11 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.dutch.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "primarySector": "Health & Beauty",
       "primaryRegion": {
@@ -780,15 +788,8 @@
           "domain": "*.dutch.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "71",
-        "approvalPercentage": 100,
-        "epc": 0.66,
-        "conversionRate": 2.73,
-        "validationDays": 51,
-        "awinIndex": 53.79
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -976,11 +977,11 @@
       "advertiserId": "92479",
       "name": "Neewa USA",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.neewadogs.com/collections/dog-harnesses/products/sled-pro-harness",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=92479&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/92479.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -993,8 +994,15 @@
           "domain": "www.neewadogs.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "78",
+        "approvalPercentage": 100,
+        "epc": 2.79,
+        "conversionRate": 37.5,
+        "validationDays": 50,
+        "awinIndex": 61.95
+      },
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -1024,11 +1032,11 @@
       "advertiserId": "96823",
       "name": "Joyride Harness",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.joyrideharness.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=96823&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/96823.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -1041,15 +1049,8 @@
           "domain": "www.joyrideharness.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "73",
-        "approvalPercentage": 100,
-        "epc": 0.42,
-        "conversionRate": 6.58,
-        "validationDays": 51,
-        "awinIndex": 57.62
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -1530,7 +1531,7 @@
       "advertiserId": "55927",
       "name": "Brutus Broth",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "hasProductFeed": true,
       "feedIds": [
@@ -1540,7 +1541,7 @@
       "hasLogo": true,
       "productCount": 41,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/55927.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=55927&id=2861861",
       "topicTags": [
@@ -1648,7 +1649,7 @@
       "advertiserId": "87483",
       "name": "Dog Cloud (US)",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1656,7 +1657,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87483.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
       "topicTags": [
@@ -1668,7 +1669,7 @@
       "advertiserId": "87999",
       "name": "RadioFence.com",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "hasProductFeed": true,
       "feedIds": [
@@ -1678,7 +1679,7 @@
       "hasLogo": true,
       "productCount": 835,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87999.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87999&id=2861861",
       "topicTags": [
@@ -1698,7 +1699,7 @@
       "advertiserId": "89689",
       "name": "Raw Wild LLC",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1706,7 +1707,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89689.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89689&id=2861861",
       "topicTags": [
@@ -1779,7 +1780,7 @@
       "advertiserId": "118951",
       "name": "MyPetDMV - The original Pet Drivers License",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1787,7 +1788,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/118951.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=118951&id=2861861",
       "topicTags": [
@@ -1847,7 +1848,7 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1855,7 +1856,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
       "topicTags": [
@@ -1939,7 +1940,7 @@
       "advertiserId": "92479",
       "name": "Neewa USA",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1947,7 +1948,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/92479.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=92479&id=2861861",
       "topicTags": [
@@ -1962,7 +1963,7 @@
       "advertiserId": "96823",
       "name": "Joyride Harness",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1970,7 +1971,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/96823.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=96823&id=2861861",
       "topicTags": [
@@ -2160,7 +2161,7 @@
   "stats": {
     "joined": 10,
     "pending": 16,
-    "feeds": 617,
+    "feeds": 615,
     "apiProducts": 2400,
     "programOfferProducts": 3,
     "totalProducts": 2403,
@@ -2178,23 +2179,20 @@
     "warnings": [
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/55927 -> This operation was aborted",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/87483 -> This operation was aborted",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/89689 -> This operation was aborted",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/87999 -> This operation was aborted",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/118951 -> This operation was aborted",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/78166 -> This operation was aborted",
       "programmedetails/78688 -> This operation was aborted",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/92479 -> This operation was aborted",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/96823 -> This operation was aborted",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "programmedetails/119433 -> This operation was aborted",
