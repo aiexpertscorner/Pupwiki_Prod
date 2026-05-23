@@ -697,20 +697,6 @@ const { breedIsland } = Astro.props;
         0, 100
       );
 
-      const reasons = [home.reason, activity.reason, training.reason]
-        .filter(function (r) { return r && (home.score >= 10 || activity.score >= 14 || training.score >= 11); })
-        .filter(function (r) { return r; })
-        .slice(0, 3);
-
-      const tradeoffs = [grooming.reason, budget.reason, family.reason]
-        .filter(function (r, i) {
-          const scores = [grooming.score, budget.score, family.score];
-          return r && scores[i] < (i === 0 ? 12 : i === 1 ? 12 : 6);
-        })
-        .filter(function (r) { return r; })
-        .slice(0, 2);
-
-      // Build better reason/tradeoff lists from actual scores
       const allReasons = [];
       const allTradeoffs = [];
       if (home.score >= 12) allReasons.push(home.reason);

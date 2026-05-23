@@ -49,7 +49,7 @@ export function buildPuppySuppliesChecklist(
   const isSmall = sizeKey === 'small';
   const isLargeOrGiant = sizeKey === 'large' || sizeKey === 'giant';
   const coatKey = breed?.coatKey ?? 'unknown';
-  const needsGrooming = ['curly', 'long', 'corded', 'double', 'wiry', 'wavy', 'silky'].includes(coatKey);
+  const needsGrooming = ['curly', 'long', 'corded', 'double', 'wiry', 'rough', 'wavy', 'silky'].includes(coatKey);
   const isApartment = homeType === 'apartment';
   const isPremium = budgetMode === 'premium';
   const isBudget = budgetMode === 'budget';
