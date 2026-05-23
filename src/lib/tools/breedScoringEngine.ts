@@ -15,16 +15,12 @@ import {
   getFamilyPlanningFit,
   getDataConfidence,
 } from './breedSignals';
+import { getScoreLabel } from './toolCopy';
+
+export { getScoreLabel };
 
 function clamp(value: number, min = 0, max = 100): number {
   return Math.max(min, Math.min(max, Math.round(value)));
-}
-
-export function getScoreLabel(score: number): string {
-  if (score >= 85) return 'Strong fit';
-  if (score >= 70) return 'Good fit';
-  if (score >= 55) return 'Possible fit';
-  return 'Consider carefully';
 }
 
 // Factor: Lifestyle / home fit (max 15)

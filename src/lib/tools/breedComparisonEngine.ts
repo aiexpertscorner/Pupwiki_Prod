@@ -15,7 +15,6 @@ import {
   getCareComplexity,
 } from './breedSignals';
 import { getBreedDisplayWeight } from './breedToolModel';
-import { getScoreLabel } from './breedScoringEngine';
 
 export interface BreedComparisonRow {
   key: string;
