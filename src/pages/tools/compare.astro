@@ -1,0 +1,91 @@
+---
+// src/pages/tools/compare.astro
+// Breed Comparison — /tools/compare
+// Server: compact breed island with pre-computed signals.
+// Client: search/select 2-4 breeds → side-by-side comparison table.
+
+import ToolShell from '../../components/tools/ToolShell.astro';
+import BreedCompareTool from '../../components/tools/BreedCompareTool.astro';
+import PageHero from '../../components/primitives/PageHero.astro';
+import { getToolBreeds } from '../../lib/tools/toolDataAdapter';
+import { getBreedDecisionSignals } from '../../lib/tools/breedSignals';
+import '../../styles/pages/tools.css';
+
+const breeds = getToolBreeds();
+
+const breedIsland = breeds.map((b) => ({
+  slug: b.slug,
+  name: b.name,
+  sizeKey: b.sizeKey,
+  sizeLabel: b.sizeLabel,
+  energyLabel: b.energyLabel,
+  trainingLabel: b.trainingLabel,
+  coatLabel: b.coatLabel,
+  sheddingLabel: b.sheddingLabel,
+  lifespanLabel: b.lifespanLabel,
+  lifespanMid: b.lifespanMid,
+  primaryImage: b.primaryImage,
+  imageAlt: b.imageAlt,
+  flags: { hasCostCalculator: b.flags.hasCostCalculator },
+  signals: getBreedDecisionSignals(b),
+}));
+
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How many breeds can I compare at once?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'You can compare 2 to 4 breeds at once using the search and selection tool above.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I share a breed comparison?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes — the page URL updates automatically as you select breeds. Copy the URL to share or bookmark your comparison.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Are breed comparison scores objective?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Scores are derived from normalized breed trait data including energy, coat type, training difficulty, size, and lifespan. They reflect breed-level averages — individual dogs may differ meaningfully.',
+        },
+      },
+    ],
+  },
+];
+---
+
+<ToolShell
+  title="Breed Comparison Tool — Compare Dog Breeds Side by Side | PupWiki"
+  description="Compare 2–4 dog breeds side by side across energy, training, grooming, cost, lifespan, and more. Free, data-backed comparison for 350+ breeds."
+  toolKey="compare"
+  toolLabel="Breed Comparison"
+  structuredData={structuredData}
+  showCostNote={true}
+  showHealthNote={false}
+>
+  <Fragment slot="hero">
+    <PageHero
+      eyebrow="Breed Comparison"
+      title="Compare Dog Breeds Side by Side"
+      subtitle="Select 2–4 breeds and compare them across energy, training, grooming, cost, lifespan, and more — using real breed data."
+      variant="compact"
+      trustItems={[
+        '350+ breed profiles',
+        'Shareable URL',
+        'No account needed',
+      ]}
+    />
+  </Fragment>
+
+  <BreedCompareTool breedIsland={breedIsland} />
+</ToolShell>

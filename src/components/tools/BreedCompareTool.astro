@@ -1,0 +1,562 @@
+---
+// src/components/tools/BreedCompareTool.astro
+// Interactive breed comparison tool.
+// Server: compact breed island with pre-computed signals.
+// Client: search/select 2-4 breeds, render comparison table, URL state.
+
+interface CompactBreedSignals {
+  activityLoad: string;
+  groomingLoad: string;
+  sheddingLoad: string;
+  trainingComplexity: string;
+  estimatedCostLoad: string;
+  apartmentFit: string;
+  firstTimeOwnerFit: string;
+  familyPlanningFit: string;
+  careComplexity: string;
+  dataConfidence: string;
+}
+
+interface CompactBreed {
+  slug: string;
+  name: string;
+  sizeKey: string;
+  sizeLabel: string;
+  energyLabel: string;
+  trainingLabel: string;
+  coatLabel: string;
+  sheddingLabel: string;
+  lifespanLabel: string | null;
+  lifespanMid: number | null;
+  primaryImage: string;
+  imageAlt: string;
+  flags: { hasCostCalculator: boolean };
+  signals: CompactBreedSignals;
+}
+
+interface Props {
+  breedIsland: CompactBreed[];
+}
+
+const { breedIsland } = Astro.props;
+---
+
+<div id="breed-compare-tool" class="breed-compare" data-component="breed-compare">
+
+  <!-- Selector -->
+  <div class="breed-compare__selector" id="compare-selector">
+    <p class="breed-compare__selector-label">Search and select 2–4 breeds to compare side by side.</p>
+
+    <div class="breed-compare__search-wrap">
+      <input
+        type="search"
+        class="breed-compare__search-input"
+        id="breed-search-input"
+        placeholder="Search breeds (e.g. Golden Retriever)…"
+        autocomplete="off"
+        aria-label="Search breeds"
+        aria-autocomplete="list"
+        aria-controls="breed-search-list"
+        aria-expanded="false"
+      />
+      <ul
+        class="breed-compare__search-dropdown"
+        id="breed-search-list"
+        role="listbox"
+        aria-label="Breed suggestions"
+        hidden
+      ></ul>
+    </div>
+
+    <div class="breed-compare__chips" id="breed-chips" aria-label="Selected breeds" role="list"></div>
+
+    <div class="breed-compare__action-row">
+      <span class="breed-compare__count" id="breed-count">Select 2–4 breeds to compare</span>
+      <button class="btn btn--primary" id="compare-btn" disabled>Compare breeds</button>
+    </div>
+  </div>
+
+  <!-- Placeholder (shown when <2 selected) -->
+  <div class="breed-compare__placeholder" id="compare-placeholder">
+    <p>Select at least 2 breeds above to see a side-by-side comparison.</p>
+    <p style="font-size: var(--text-sm); color: var(--color-muted);">You can compare up to 4 breeds at once. The URL updates as you select, so you can bookmark or share your comparison.</p>
+  </div>
+
+  <!-- Results -->
+  <div class="breed-compare__results" id="compare-results" hidden>
+
+    <div class="breed-compare__summary" id="compare-summary"></div>
+
+    <div class="breed-compare__verdicts" id="compare-verdicts" aria-label="Category winners"></div>
+
+    <div class="breed-compare__table-wrap">
+      <table class="breed-compare__table" id="compare-table">
+        <thead><tr id="table-header-row"></tr></thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+
+    <div class="breed-compare__tradeoffs" id="compare-tradeoffs"></div>
+
+    <div class="breed-compare__next-actions" id="compare-next-actions"></div>
+
+    <button class="btn btn--outline" id="modify-btn" style="margin-block-end: var(--space-6);">Change selection</button>
+  </div>
+
+</div>
+
+<!-- Static SEO content -->
+<section class="breed-compare__explainer">
+  <h2>How breed comparison works</h2>
+  <p>
+    Each breed is scored across 10 lifestyle attributes — energy level, training difficulty,
+    grooming load, shedding level, estimated cost tier, apartment suitability, first-time owner fit,
+    overall care complexity, lifespan, and size. These signals are derived from PupWiki's normalized
+    breed database of 277+ purebreds and 75 crossbreeds.
+  </p>
+  <p>
+    When two breeds score identically on an attribute, no winner is declared — the verdicts strip
+    only shows clear winners. Attribute scores reflect typical breed tendencies; individual dogs
+    vary significantly.
+  </p>
+  <p>
+    The URL updates as you select breeds, so you can bookmark or share any comparison directly.
+  </p>
+</section>
+
+<section class="breed-compare__faq">
+  <h2>Frequently asked questions</h2>
+
+  <div class="breed-compare__faq-item">
+    <p class="breed-compare__faq-q">How many breeds can I compare at once?</p>
+    <p class="breed-compare__faq-a">
+      You can compare 2 to 4 breeds at once. Select them using the search box above,
+      then click "Compare breeds" to see the side-by-side table.
+    </p>
+  </div>
+
+  <div class="breed-compare__faq-item">
+    <p class="breed-compare__faq-q">Can I share my comparison?</p>
+    <p class="breed-compare__faq-a">
+      Yes — the page URL updates automatically as you select breeds. Copy the URL from your
+      browser and share it; anyone who opens it will see the same comparison pre-loaded.
+    </p>
+  </div>
+
+  <div class="breed-compare__faq-item">
+    <p class="breed-compare__faq-q">Are comparison scores objective?</p>
+    <p class="breed-compare__faq-a">
+      Scores are derived from normalized breed trait data (energy, coat, training difficulty,
+      size, lifespan), not editorial opinion. However, they reflect breed-level averages —
+      an individual dog may differ meaningfully from the breed average. Use comparisons
+      as a starting point for research, not a definitive ranking.
+    </p>
+  </div>
+</section>
+
+<script define:vars={{ breedIsland }}>
+  (function () {
+    const MAX_BREEDS = 4;
+
+    let selectedSlugs = [];
+    let showingResults = false;
+
+    const root = document.getElementById('breed-compare-tool');
+    if (!root) return;
+
+    function q(sel) { return root.querySelector(sel); }
+
+    // ---- URL state ----
+    function parseSlugsFromUrl() {
+      try {
+        const params = new URLSearchParams(location.search);
+        return (params.get('breeds') || '').split(',').map(function (s) { return s.trim().toLowerCase(); }).filter(Boolean).slice(0, MAX_BREEDS);
+      } catch (_) { return []; }
+    }
+
+    function updateUrl(slugs) {
+      try {
+        const url = new URL(location.href);
+        if (slugs.length > 0) {
+          url.searchParams.set('breeds', slugs.join(','));
+        } else {
+          url.searchParams.delete('breeds');
+        }
+        history.replaceState(null, '', url.toString());
+      } catch (_) {}
+    }
+
+    // ---- Breed lookup ----
+    const breedMap = {};
+    breedIsland.forEach(function (b) { breedMap[b.slug] = b; });
+
+    // ---- Search ----
+    function filterBreeds(query) {
+      var q = query.toLowerCase().trim();
+      if (!q) return [];
+      return breedIsland
+        .filter(function (b) { return b.name.toLowerCase().includes(q); })
+        .sort(function (a, b) {
+          var aStart = a.name.toLowerCase().startsWith(q) ? 0 : 1;
+          var bStart = b.name.toLowerCase().startsWith(q) ? 0 : 1;
+          return aStart - bStart || a.name.localeCompare(b.name);
+        })
+        .slice(0, 8);
+    }
+
+    function renderDropdown(results) {
+      var list = q('#breed-search-list');
+      var input = q('#breed-search-input');
+      if (!list) return;
+      if (results.length === 0) {
+        list.hidden = true;
+        input && input.setAttribute('aria-expanded', 'false');
+        return;
+      }
+      list.innerHTML = results.map(function (b) {
+        var already = selectedSlugs.includes(b.slug);
+        return '<li class="breed-compare__search-item' + (already ? ' breed-compare__search-item--disabled' : '') + '" role="option" data-slug="' + esc(b.slug) + '" aria-selected="' + already + '">' +
+          esc(b.name) + (already ? ' <span style="color:var(--color-muted)">(selected)</span>' : '') +
+          '</li>';
+      }).join('');
+      list.hidden = false;
+      input && input.setAttribute('aria-expanded', 'true');
+    }
+
+    // ---- Chips ----
+    function renderChips() {
+      var container = q('#breed-chips');
+      var countEl = q('#breed-count');
+      var btn = q('#compare-btn');
+      var input = q('#breed-search-input');
+      if (!container) return;
+
+      container.innerHTML = selectedSlugs.map(function (slug) {
+        var b = breedMap[slug];
+        if (!b) return '';
+        return '<div class="breed-compare__chip" role="listitem">' +
+          esc(b.name) +
+          '<button class="breed-compare__chip-remove" data-remove="' + esc(slug) + '" aria-label="Remove ' + esc(b.name) + '">×</button>' +
+          '</div>';
+      }).join('');
+
+      var n = selectedSlugs.length;
+      if (countEl) {
+        countEl.textContent = n === 0 ? 'Select 2–4 breeds to compare' :
+          n === 1 ? '1 breed selected — add at least 1 more' :
+          n + ' breeds selected' + (n < MAX_BREEDS ? ' (add up to ' + (MAX_BREEDS - n) + ' more)' : ' — maximum reached');
+      }
+      if (btn) btn.disabled = n < 2;
+      if (input) input.disabled = n >= MAX_BREEDS;
+    }
+
+    function addBreed(slug) {
+      if (selectedSlugs.includes(slug) || selectedSlugs.length >= MAX_BREEDS) return;
+      selectedSlugs.push(slug);
+      updateUrl(selectedSlugs);
+      renderChips();
+    }
+
+    function removeBreed(slug) {
+      selectedSlugs = selectedSlugs.filter(function (s) { return s !== slug; });
+      updateUrl(selectedSlugs);
+      renderChips();
+    }
+
+    // ---- Comparison logic ----
+    function esc(str) {
+      return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    var LOAD = { low: 'Low', moderate: 'Moderate', high: 'High', 'very-high': 'Very high', easy: 'Easy', hard: 'Hard' };
+    var FIT  = { strong: 'Strong', possible: 'Possible', challenging: 'Challenging', 'needs-care': 'Needs care' };
+    var ACT_RANK   = { low: 1, moderate: 2, high: 3 };
+    var GROOM_RANK = { low: 1, moderate: 2, high: 3 };
+    var COST_RANK  = { low: 1, medium: 2, high: 3, 'very-high': 4 };
+    var APT_RANK   = { strong: 3, possible: 2, challenging: 1 };
+    var TRAIN_RANK = { easy: 1, moderate: 2, hard: 3 };
+
+    function buildRows(breeds) {
+      return [
+        {
+          key: 'size', label: 'Size',
+          values: breeds.map(function (b) { return { display: b.sizeLabel }; }),
+        },
+        {
+          key: 'energy', label: 'Energy level',
+          values: breeds.map(function (b) { return { display: LOAD[b.signals.activityLoad] || b.energyLabel, rank: ACT_RANK[b.signals.activityLoad] || 2 }; }),
+          higherBetter: true,
+        },
+        {
+          key: 'training', label: 'Training difficulty',
+          values: breeds.map(function (b) { return { display: LOAD[b.signals.trainingComplexity] || b.trainingLabel, rank: TRAIN_RANK[b.signals.trainingComplexity] || 2 }; }),
+          lowerBetter: true,
+        },
+        {
+          key: 'grooming', label: 'Grooming load',
+          values: breeds.map(function (b) { return { display: (LOAD[b.signals.groomingLoad] || 'Moderate') + ' (' + b.coatLabel + ')', rank: GROOM_RANK[b.signals.groomingLoad] || 2 }; }),
+          lowerBetter: true,
+        },
+        {
+          key: 'shedding', label: 'Shedding level',
+          values: breeds.map(function (b) { return { display: LOAD[b.signals.sheddingLoad] || b.sheddingLabel, rank: GROOM_RANK[b.signals.sheddingLoad] || 2 }; }),
+          lowerBetter: true,
+        },
+        {
+          key: 'lifespan', label: 'Estimated lifespan',
+          values: breeds.map(function (b) { return { display: b.lifespanLabel || (b.lifespanMid ? '~' + b.lifespanMid + ' yrs' : 'Unknown'), rank: b.lifespanMid || 0 }; }),
+          higherBetter: true,
+        },
+        {
+          key: 'cost', label: 'Cost tier (estimate)',
+          values: breeds.map(function (b) { return { display: LOAD[b.signals.estimatedCostLoad] || 'Medium', rank: COST_RANK[b.signals.estimatedCostLoad] || 2 }; }),
+          lowerBetter: true,
+          note: 'Size-based estimate — actual costs vary.',
+        },
+        {
+          key: 'apartment', label: 'Apartment suitability',
+          values: breeds.map(function (b) { return { display: FIT[b.signals.apartmentFit] || 'Possible', rank: APT_RANK[b.signals.apartmentFit] || 2 }; }),
+          higherBetter: true,
+        },
+        {
+          key: 'firstTime', label: 'First-time owner fit',
+          values: breeds.map(function (b) { return { display: FIT[b.signals.firstTimeOwnerFit] || 'Possible', rank: APT_RANK[b.signals.firstTimeOwnerFit] || 2 }; }),
+          higherBetter: true,
+        },
+        {
+          key: 'complexity', label: 'Care complexity',
+          values: breeds.map(function (b) { return { display: LOAD[b.signals.careComplexity] || 'Moderate', rank: GROOM_RANK[b.signals.careComplexity] || 2 }; }),
+          lowerBetter: true,
+        },
+      ];
+    }
+
+    function getWinnerIndices(row) {
+      if (!row.lowerBetter && !row.higherBetter) return [];
+      var ranks = row.values.map(function (v) { return v.rank !== undefined ? v.rank : null; });
+      if (ranks.some(function (r) { return r === null; })) return [];
+      var best = row.lowerBetter ? Math.min.apply(null, ranks) : Math.max.apply(null, ranks);
+      var winners = [];
+      ranks.forEach(function (r, i) { if (r === best) winners.push(i); });
+      return winners.length === 1 ? winners : []; // only clear winners
+    }
+
+    function isCautionValue(row, idx) {
+      if (!row.lowerBetter) return false;
+      var ranks = row.values.map(function (v) { return v.rank !== undefined ? v.rank : 0; });
+      var worst = Math.max.apply(null, ranks);
+      return ranks[idx] === worst && ranks[idx] >= 3;
+    }
+
+    // ---- Rendering ----
+    function renderTable(breeds) {
+      var headerRow = q('#table-header-row');
+      var tbody = q('#table-body');
+      if (!headerRow || !tbody) return;
+
+      // Header: attribute label col + one col per breed
+      headerRow.innerHTML = '<th scope="col" style="width:160px">Attribute</th>' +
+        breeds.map(function (b) {
+          var imgHtml = b.primaryImage
+            ? '<img src="' + esc(b.primaryImage) + '" alt="' + esc(b.imageAlt || b.name) + '" class="breed-compare__th-img" loading="lazy" width="48" height="48" />'
+            : '<div class="breed-compare__th-img-placeholder">🐕</div>';
+          return '<th scope="col">' +
+            '<div class="breed-compare__th-inner">' +
+              imgHtml +
+              '<span class="breed-compare__th-name">' + esc(b.name) + '</span>' +
+              '<a href="/breeds/' + esc(b.slug) + '" class="breed-compare__th-link">Breed guide →</a>' +
+            '</div></th>';
+        }).join('');
+
+      var rows = buildRows(breeds);
+      tbody.innerHTML = rows.map(function (row) {
+        var winners = getWinnerIndices(row);
+        var cells = row.values.map(function (v, i) {
+          var cls = '';
+          if (winners.includes(i)) cls = ' breed-compare__cell--winner';
+          else if (isCautionValue(row, i)) cls = ' breed-compare__cell--caution';
+          var noteHtml = row.note ? '<br><span style="font-size:var(--text-xs);color:var(--color-muted)">' + esc(row.note) + '</span>' : '';
+          return '<td class="' + cls.trim() + '">' + esc(v.display) + noteHtml + '</td>';
+        }).join('');
+        return '<tr><td>' + esc(row.label) + '</td>' + cells + '</tr>';
+      }).join('');
+    }
+
+    function renderVerdicts(breeds) {
+      var container = q('#compare-verdicts');
+      if (!container) return;
+      var rows = buildRows(breeds);
+      var verdictLabels = {
+        energy: 'Most active', training: 'Easiest training', grooming: 'Lowest grooming',
+        shedding: 'Lowest shedding', cost: 'Lowest cost', apartment: 'Best for apartments',
+        firstTime: 'First-time friendly', complexity: 'Simplest care', lifespan: 'Longest lifespan',
+      };
+      var verdicts = [];
+      rows.forEach(function (row) {
+        var label = verdictLabels[row.key];
+        if (!label) return;
+        var winners = getWinnerIndices(row);
+        if (winners.length === 1) {
+          verdicts.push({ label: label, winner: breeds[winners[0]].name });
+        }
+      });
+      if (verdicts.length === 0) {
+        container.hidden = true;
+        return;
+      }
+      container.hidden = false;
+      container.innerHTML = verdicts.map(function (v) {
+        return '<div class="breed-compare__verdict">' +
+          '<span class="breed-compare__verdict-label">' + esc(v.label) + ':</span> ' +
+          '<span class="breed-compare__verdict-value">' + esc(v.winner) + '</span>' +
+          '</div>';
+      }).join('');
+    }
+
+    function renderSummary(breeds) {
+      var container = q('#compare-summary');
+      if (!container) return;
+      var names = breeds.map(function (b) { return b.name; });
+      var text = 'Comparing ' + names.join(', ') + '. ';
+      text += 'Scores reflect typical breed traits — individual dogs vary.';
+      container.innerHTML = '<p>' + esc(text) + '</p>';
+    }
+
+    function renderTradeoffs() {
+      var container = q('#compare-tradeoffs');
+      if (!container) return;
+      var notes = [
+        'Breed characteristics reflect typical tendencies — individual dogs vary significantly.',
+        'Cost estimates are size-based and do not account for breed-specific health conditions.',
+        'Training scores reflect breed tendencies, not individual intelligence or capability.',
+      ];
+      container.innerHTML = notes.map(function (n) { return '<p>' + esc(n) + '</p>'; }).join('');
+    }
+
+    function renderNextActions(breeds) {
+      var container = q('#compare-next-actions');
+      if (!container) return;
+      var actions = [
+        { label: 'Find your breed match', href: '/tools/breed-match', cls: 'btn--primary' },
+        { label: 'Puppy cost planner', href: '/tools/puppy-cost', cls: 'btn--outline' },
+      ];
+      breeds.forEach(function (b) {
+        if (b.flags.hasCostCalculator) {
+          actions.push({ label: b.name + ' cost estimate', href: '/cost-calculator/' + b.slug, cls: 'btn--outline' });
+        }
+      });
+      container.innerHTML = actions.slice(0, 5).map(function (a) {
+        return '<a href="' + esc(a.href) + '" class="btn ' + a.cls + '">' + esc(a.label) + '</a>';
+      }).join('');
+    }
+
+    function runComparison() {
+      var breeds = selectedSlugs.map(function (s) { return breedMap[s]; }).filter(Boolean);
+      if (breeds.length < 2) return;
+
+      renderSummary(breeds);
+      renderVerdicts(breeds);
+      renderTable(breeds);
+      renderTradeoffs();
+      renderNextActions(breeds);
+
+      q('#compare-placeholder').hidden = true;
+      q('#compare-selector').hidden = true;
+      q('#compare-results').hidden = false;
+      showingResults = true;
+
+      track('breed_compare', { breed_slugs: selectedSlugs.join(','), count: breeds.length });
+    }
+
+    // ---- Analytics ----
+    function track(eventName, params) {
+      try {
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', eventName, Object.assign({ event_category: 'tools' }, params || {}));
+        }
+      } catch (_) {}
+    }
+
+    // ---- Event delegation ----
+    var searchTimeout;
+
+    var searchInput = q('#breed-search-input');
+    if (searchInput) {
+      searchInput.addEventListener('input', function (e) {
+        clearTimeout(searchTimeout);
+        var val = e.target.value;
+        searchTimeout = setTimeout(function () {
+          renderDropdown(filterBreeds(val));
+        }, 120);
+      });
+
+      searchInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+          var list = q('#breed-search-list');
+          if (list) { list.hidden = true; searchInput.setAttribute('aria-expanded', 'false'); }
+        }
+      });
+
+      // Close dropdown on outside click
+      document.addEventListener('click', function (e) {
+        if (!root.contains(e.target)) {
+          var list = q('#breed-search-list');
+          if (list) list.hidden = true;
+          searchInput.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
+    root.addEventListener('click', function (e) {
+      // Dropdown item
+      var item = e.target.closest('.breed-compare__search-item');
+      if (item && !item.classList.contains('breed-compare__search-item--disabled')) {
+        var slug = item.dataset.slug;
+        if (slug) {
+          addBreed(slug);
+          var list = q('#breed-search-list');
+          if (list) list.hidden = true;
+          if (searchInput) { searchInput.value = ''; searchInput.setAttribute('aria-expanded', 'false'); searchInput.focus(); }
+        }
+        return;
+      }
+
+      // Chip remove
+      var removeBtn = e.target.closest('[data-remove]');
+      if (removeBtn) {
+        removeBreed(removeBtn.dataset.remove);
+        return;
+      }
+
+      // Compare button
+      if (e.target.closest('#compare-btn')) {
+        runComparison();
+        return;
+      }
+
+      // Modify selection button
+      if (e.target.closest('#modify-btn')) {
+        q('#compare-results').hidden = true;
+        q('#compare-placeholder').hidden = false;
+        q('#compare-selector').hidden = false;
+        showingResults = false;
+        return;
+      }
+    });
+
+    // ---- Mount ----
+    var initialSlugs = parseSlugsFromUrl().filter(function (s) { return !!breedMap[s]; });
+    if (initialSlugs.length >= 2) {
+      initialSlugs.forEach(function (s) { selectedSlugs.push(s); });
+      renderChips();
+      runComparison();
+    } else {
+      if (initialSlugs.length > 0) {
+        initialSlugs.forEach(function (s) { selectedSlugs.push(s); });
+      }
+      renderChips();
+    }
+
+    track('breed_compare_start');
+  })();
+</script>
