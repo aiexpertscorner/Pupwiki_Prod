@@ -10,9 +10,21 @@ export const MOBILE_NAV_GROUPS = [
   {
     label: 'Start',
     links: [
-      { label: 'Find a Breed',     href: '/breeds' },
-      { label: 'Breed Quiz',       href: '/breed-quiz' },
-      { label: 'First Dog Guide',  href: '/guides/first-dog' },
+      { label: 'Find a Breed',    href: '/breeds' },
+      { label: 'Breed Match',     href: '/tools/breed-match' },
+      { label: 'First Dog Guide', href: '/guides/first-dog' },
+    ],
+  },
+  {
+    label: 'Tools',
+    links: [
+      { label: 'All Tools',             href: '/tools' },
+      { label: 'Breed Match Quiz',      href: '/tools/breed-match' },
+      { label: 'Compare Breeds',        href: '/tools/compare' },
+      { label: 'Puppy Cost Planner',    href: '/tools/puppy-cost' },
+      { label: 'Puppy Supplies',        href: '/tools/puppy-supplies' },
+      { label: 'Cost Calculator',       href: '/cost-calculator' },
+      { label: 'Dog Names',             href: '/dog-names' },
     ],
   },
   {
@@ -23,13 +35,6 @@ export const MOBILE_NAV_GROUPS = [
       { label: 'Training',         href: '/categories/training' },
       { label: 'Health',           href: '/categories/health' },
       { label: 'Grooming',         href: '/categories/grooming' },
-    ],
-  },
-  {
-    label: 'Tools',
-    links: [
-      { label: 'Dog Names',        href: '/dog-names' },
-      { label: 'Cost Calculator',  href: '/cost-calculator' },
       { label: 'Reviews',          href: '/reviews' },
       { label: 'FAQ',              href: '/faq' },
     ],
@@ -45,6 +50,6 @@ export const MOBILE_NAV_GROUPS = [
 ] as const;
 
 export const PRIMARY_CTA = {
-  label: 'Find Your Breed',
-  href: '/breeds',
+  label: 'Find My Breed Match',
+  href: '/tools/breed-match',
 } as const;
