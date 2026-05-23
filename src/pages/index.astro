@@ -1,17 +1,16 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/pages/home.css';
 
-import HomeHero from '../components/home/HomeHeroClean.astro';
-import HomeTrustStrip from '../components/home/HomeTrustStrip.astro';
-import HomePrimaryJourneys from '../components/home/HomePrimaryJourneys.astro';
-import HomeBreedDiscovery from '../components/home/HomeBreedDiscovery.astro';
-import HomeMixedBreedDiscovery from '../components/home/HomeMixedBreedDiscovery.astro';
-import HomeQuickCostTeaser from '../components/home/HomeQuickCostTeaser.astro';
-import HomeCareDecisionLayer from '../components/home/HomeCareDecisionLayer.astro';
-import HomeEditorialHighlights from '../components/home/HomeEditorialHighlights.astro';
-import HomeMethodologyTeaser from '../components/home/HomeMethodologyTeaser.astro';
-import HomeLeadCapture from '../components/home/HomeLeadCapture.astro';
-import HomeLifestyleFilter from '../components/home/HomeLifestyleFilter.astro';
+import HomeHeroDecision from '../components/home/HomeHeroDecision.astro';
+import HomeDecisionPaths from '../components/home/HomeDecisionPaths.astro';
+import HomeToolsPreview from '../components/home/HomeToolsPreview.astro';
+import HomeBreedStarter from '../components/home/HomeBreedStarter.astro';
+import HomeCostPlanning from '../components/home/HomeCostPlanning.astro';
+import HomeCareHubs from '../components/home/HomeCareHubs.astro';
+import HomeFeaturedGuides from '../components/home/HomeFeaturedGuides.astro';
+import HomeMethodologyCompact from '../components/home/HomeMethodologyCompact.astro';
+import HomeFinalCta from '../components/home/HomeFinalCta.astro';
 
 import getHomepageData from '../lib/homepage/getHomepageData';
 
@@ -21,16 +20,14 @@ const {
   seo,
   featureFlags,
   hero,
-  primaryJourneys,
-  trustStrip,
-  breedDiscovery,
-  quickCostTeaser,
-  mixedBreedDiscovery,
-  lifestyleFilters,
-  careDecisionLayer,
-  editorialHighlights,
-  methodologyTeaser,
-  leadCapture,
+  decisionPaths,
+  toolsPreview,
+  breedStarter,
+  costPlanning,
+  careHubs,
+  featuredGuides,
+  methodology,
+  finalCta,
 } = homepage;
 
 const structuredData = [
@@ -42,21 +39,22 @@ const structuredData = [
     url: seo.canonicalUrl,
     about: [
       { '@type': 'Thing', name: 'Dog Breeds' },
-      { '@type': 'Thing', name: 'Mixed Breeds' },
+      { '@type': 'Thing', name: 'Dog Breed Comparison' },
+      { '@type': 'Thing', name: 'Dog Ownership Costs' },
+      { '@type': 'Thing', name: 'Puppy Planning' },
       { '@type': 'Thing', name: 'Dog Care' },
-      { '@type': 'Thing', name: 'Dog Costs' },
-      { '@type': 'Thing', name: 'Dog Training' },
+      { '@type': 'Thing', name: 'Dog Decision Tools' },
     ],
   },
   {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'PupWiki homepage journeys',
-    itemListElement: primaryJourneys.items.map((item: any, index: number) => ({
+    name: 'PupWiki dog planning tools',
+    itemListElement: toolsPreview.live.map((tool: any, index: number) => ({
       '@type': 'ListItem',
       position: index + 1,
-      name: item.title,
-      url: new URL(item.href, seo.canonicalUrl).toString(),
+      name: tool.name,
+      url: new URL(tool.href, seo.canonicalUrl).toString(),
     })),
   },
   {
@@ -65,42 +63,26 @@ const structuredData = [
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'How do I choose the right dog breed for my lifestyle?',
+        name: 'How can PupWiki help me choose a dog breed?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Match breed energy level, size, grooming needs and temperament to your living situation, activity level and experience. PupWiki\'s breed quiz compares your lifestyle with 277+ breed profiles to suggest the best fit.',
+          text: 'PupWiki helps you compare breed traits, care needs, size, activity level, grooming, and cost-planning factors so you can narrow down options that may fit your lifestyle. The breed match tool and breed comparison tool are good starting points.',
         },
       },
       {
         '@type': 'Question',
-        name: 'How much does it cost to own a dog per year?',
+        name: 'Are PupWiki cost estimates accurate quotes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Annual dog ownership costs typically range from $1,200 to $3,500+ depending on breed size, location and care choices. PupWiki\'s cost calculator provides breed-specific, state-adjusted estimates covering food, vet care, grooming and supplies.',
+          text: 'No. PupWiki cost tools provide planning estimates only. Actual costs vary by location, provider, breed, health, lifestyle, and care choices. Use them as a budgeting starting point, not a precise forecast.',
         },
       },
       {
         '@type': 'Question',
-        name: 'What is the difference between purebred and mixed breed dogs?',
+        name: 'Does PupWiki replace veterinary advice?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Purebred dogs have predictable size, temperament and coat traits documented over generations. Mixed breeds (crossbreeds) often blend traits from two or more breeds. PupWiki covers 277 purebred profiles and 75 popular crossbreeds including Goldendoodles, Labradoodles and Cockapoos.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What are the best names for a new puppy?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Short names with 1–2 syllables ending in a vowel (Bella, Milo, Luna) work best for training. PupWiki\'s dog name generator filters 7,000+ names by breed temperament, style and inspiration — breed-matched for better fit.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Is pet insurance worth it for dogs?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Pet insurance is most valuable for breeds with known health risks, puppies (lower premiums, no pre-existing conditions), and owners without a dedicated emergency fund. Use PupWiki\'s cost calculator for breed-specific insurance cost estimates.',
+          text: 'No. PupWiki provides educational dog-care information and planning tools, not veterinary diagnosis, treatment, or professional advice. Always consult a qualified veterinarian for your dog\'s health decisions.',
         },
       },
     ],
@@ -120,52 +102,105 @@ const structuredData = [
 >
   <div class="overflow-x-clip">
 
-    {/* 1 — Hero */}
-    {featureFlags.showHero && <HomeHero {...hero} />}
-
-    {/* 2 — Trust strip */}
-    {featureFlags.showTrustStrip && <HomeTrustStrip {...trustStrip} />}
-
-    {/* 3 — Primary journeys */}
-    {featureFlags.showPrimaryJourneys && <HomePrimaryJourneys {...primaryJourneys} />}
-
-    {/* 3.5 — Lifestyle filter */}
-    {featureFlags.showLifestyleFilter && <HomeLifestyleFilter {...lifestyleFilters} />}
-
-    {/* 4 — Popular breed discovery */}
-    {featureFlags.showBreedDiscovery && <HomeBreedDiscovery {...breedDiscovery} />}
-
-    {/* 5 — Mixed breed discovery */}
-    {featureFlags.showMixedBreedDiscovery && (
-      <HomeMixedBreedDiscovery {...mixedBreedDiscovery} />
-    )}
-
-    {/* 6 — Quick cost teaser */}
-    {featureFlags.showQuickCostTeaser && (
-      <HomeQuickCostTeaser {...quickCostTeaser} />
-    )}
-
-    {/* 7 — Care decision layer */}
-    {featureFlags.showCareDecisionLayer && <HomeCareDecisionLayer {...careDecisionLayer} />}
-
-    {/* 8 — Editorial highlights */}
-    {featureFlags.showEditorialHighlights && (
-      <HomeEditorialHighlights
-        id="home-editorial-highlights"
-        eyebrow={editorialHighlights.eyebrow}
-        title={editorialHighlights.title}
-        subtitle={editorialHighlights.subtitle}
-        viewAllHref={editorialHighlights.viewAllHref}
-        viewAllLabel={editorialHighlights.viewAllLabel}
-        items={editorialHighlights.items}
+    {/* 1 — Decision-first hero */}
+    {featureFlags.showHeroDecision && (
+      <HomeHeroDecision
+        eyebrow={hero.eyebrow}
+        title={hero.title}
+        subtitle={hero.subtitle}
+        primaryCta={hero.primaryCta}
+        secondaryCta={hero.secondaryCta}
+        goalCard={hero.goalCard}
+        trustItems={hero.trustItems}
       />
     )}
 
-    {/* 9 — Methodology teaser */}
-    {featureFlags.showMethodologyTeaser && <HomeMethodologyTeaser {...methodologyTeaser} />}
+    {/* 2 — Self-selection decision paths */}
+    {featureFlags.showDecisionPaths && (
+      <HomeDecisionPaths
+        eyebrow={decisionPaths.eyebrow}
+        title={decisionPaths.title}
+        items={decisionPaths.items}
+      />
+    )}
 
-    {/* 10 — Lead capture / CTA close */}
-    {featureFlags.showLeadCapture && <HomeLeadCapture {...leadCapture} />}
+    {/* 3 — Tools preview */}
+    {featureFlags.showToolsPreview && (
+      <HomeToolsPreview
+        eyebrow={toolsPreview.eyebrow}
+        title={toolsPreview.title}
+        subtitle={toolsPreview.subtitle}
+        live={toolsPreview.live}
+        comingSoon={toolsPreview.comingSoon}
+        ctaHref={toolsPreview.ctaHref}
+        ctaLabel={toolsPreview.ctaLabel}
+      />
+    )}
+
+    {/* 4 — Compact breed starter */}
+    {featureFlags.showBreedStarter && (
+      <HomeBreedStarter
+        eyebrow={breedStarter.eyebrow}
+        title={breedStarter.title}
+        subtitle={breedStarter.subtitle}
+        breeds={breedStarter.breeds}
+        primaryCta={breedStarter.primaryCta}
+        secondaryCta={breedStarter.secondaryCta}
+        mixedBreedsLink={breedStarter.mixedBreedsLink}
+      />
+    )}
+
+    {/* 5 — Cost and puppy planning */}
+    {featureFlags.showCostPlanning && (
+      <HomeCostPlanning
+        eyebrow={costPlanning.eyebrow}
+        title={costPlanning.title}
+        subtitle={costPlanning.subtitle}
+        disclaimer={costPlanning.disclaimer}
+        items={costPlanning.items}
+      />
+    )}
+
+    {/* 6 — Care hubs */}
+    {featureFlags.showCareHubs && (
+      <HomeCareHubs
+        eyebrow={careHubs.eyebrow}
+        title={careHubs.title}
+        items={careHubs.items}
+      />
+    )}
+
+    {/* 7 — Curated featured guides */}
+    {featureFlags.showFeaturedGuides && (
+      <HomeFeaturedGuides
+        eyebrow={featuredGuides.eyebrow}
+        title={featuredGuides.title}
+        items={featuredGuides.items}
+        viewAllHref={featuredGuides.viewAllHref}
+        viewAllLabel={featuredGuides.viewAllLabel}
+      />
+    )}
+
+    {/* 8 — Methodology compact */}
+    {featureFlags.showMethodologyCompact && (
+      <HomeMethodologyCompact
+        eyebrow={methodology.eyebrow}
+        title={methodology.title}
+        bullets={methodology.bullets}
+        links={methodology.links}
+      />
+    )}
+
+    {/* 9 — Final CTA */}
+    {featureFlags.showFinalCta && (
+      <HomeFinalCta
+        title={finalCta.title}
+        subtitle={finalCta.subtitle}
+        primaryCta={finalCta.primaryCta}
+        secondaryCta={finalCta.secondaryCta}
+        disclaimer={finalCta.disclaimer}
+      />
+    )}
 
   </div>
 </BaseLayout>

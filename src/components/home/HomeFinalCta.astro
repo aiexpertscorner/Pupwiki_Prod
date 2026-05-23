@@ -1,0 +1,134 @@
+---
+export interface Props {
+  title?: string;
+  subtitle?: string;
+  primaryCta?: { label: string; href: string };
+  secondaryCta?: { label: string; href: string };
+  disclaimer?: string;
+}
+
+const {
+  title = 'Ready to find the right dog?',
+  subtitle = 'Use PupWiki\'s free tools to compare breeds, estimate costs, and prepare for dog ownership.',
+  primaryCta = { label: 'Find my breed match', href: '/tools/breed-match' },
+  secondaryCta = { label: 'Estimate dog costs', href: '/cost-calculator' },
+  disclaimer = 'PupWiki provides educational planning tools. Cost estimates are not quotes. Care guidance is not veterinary advice.',
+} = Astro.props;
+---
+
+<section class="pw-final-cta" aria-label="Get started with PupWiki">
+  <div class="pw-final-cta__shell">
+
+    <div class="pw-final-cta__content">
+      <h2 class="pw-final-cta__title">{title}</h2>
+      {subtitle && <p class="pw-final-cta__subtitle">{subtitle}</p>}
+
+      <div class="pw-final-cta__actions">
+        <a href={primaryCta.href} class="btn btn--primary pw-final-cta__btn-primary">
+          {primaryCta.label}
+        </a>
+        <a href={secondaryCta.href} class="btn pw-final-cta__btn-secondary">
+          {secondaryCta.label}
+        </a>
+      </div>
+
+      {disclaimer && (
+        <p class="pw-final-cta__disclaimer">{disclaimer}</p>
+      )}
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .pw-final-cta {
+    background: var(--color-surface-navy);
+    padding-block: var(--section-padding-lg, var(--section-padding));
+    padding-inline: var(--content-padding-mobile);
+    text-align: center;
+  }
+
+  .pw-final-cta__shell {
+    max-width: var(--max-width);
+    margin-inline: auto;
+  }
+
+  .pw-final-cta__content {
+    max-width: 52ch;
+    margin-inline: auto;
+  }
+
+  .pw-final-cta__title {
+    font-family: var(--font-serif);
+    font-size: var(--text-h2);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+    letter-spacing: var(--tracking-snug);
+    color: var(--color-text-inverse);
+    margin: 0 0 var(--space-4);
+  }
+
+  .pw-final-cta__subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255, 255, 255, 0.75);
+    line-height: var(--leading-normal);
+    margin: 0 0 var(--space-8);
+  }
+
+  .pw-final-cta__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-8);
+  }
+
+  .pw-final-cta__btn-primary {
+    flex-shrink: 0;
+  }
+
+  .pw-final-cta__btn-secondary {
+    flex-shrink: 0;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    color: var(--color-text-inverse);
+    border-radius: var(--radius-lg);
+    padding: 0.625rem 1.25rem;
+    font-size: var(--text-base);
+    font-weight: var(--weight-semi);
+    text-decoration: none;
+    transition: var(--transition-base);
+  }
+
+  .pw-final-cta__btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .pw-final-cta__disclaimer {
+    font-size: var(--text-xs);
+    color: rgba(255, 255, 255, 0.45);
+    line-height: var(--leading-normal);
+    max-width: 50ch;
+    margin: 0 auto;
+  }
+
+  /* Responsive */
+  @media (min-width: 640px) {
+    .pw-final-cta {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .pw-final-cta {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pw-final-cta__btn-secondary {
+      transition: none;
+    }
+  }
+</style>

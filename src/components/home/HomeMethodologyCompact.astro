@@ -1,0 +1,181 @@
+---
+export interface MethodologyLink {
+  label: string;
+  href: string;
+}
+
+export interface Props {
+  eyebrow?: string;
+  title?: string;
+  bullets?: string[];
+  links?: MethodologyLink[];
+}
+
+const {
+  eyebrow = 'How PupWiki works',
+  title = 'Built for clarity and transparency',
+  bullets = [],
+  links = [],
+} = Astro.props;
+---
+
+<section class="pw-methodology" aria-label="About PupWiki">
+  <div class="pw-methodology__shell">
+    <div class="pw-methodology__grid">
+
+      <!-- Left: heading + links -->
+      <div class="pw-methodology__content">
+        {eyebrow && <p class="pw-methodology__eyebrow">{eyebrow}</p>}
+        <h2 class="pw-methodology__title">{title}</h2>
+        {links.length > 0 && (
+          <nav class="pw-methodology__links" aria-label="PupWiki information">
+            {links.map((link) => (
+              <a href={link.href} class="pw-methodology__link">
+                {link.label} →
+              </a>
+            ))}
+          </nav>
+        )}
+      </div>
+
+      <!-- Right: bullets -->
+      {bullets.length > 0 && (
+        <div class="pw-methodology__bullets-panel">
+          <ul class="pw-methodology__bullets" role="list">
+            {bullets.map((bullet) => (
+              <li class="pw-methodology__bullet">
+                <span class="pw-methodology__bullet-mark" aria-hidden="true">✓</span>
+                {bullet}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .pw-methodology {
+    background: var(--color-bg-muted);
+    padding-block: var(--section-padding);
+    padding-inline: var(--content-padding-mobile);
+    border-top: 1px solid var(--color-border-soft);
+    border-bottom: 1px solid var(--color-border-soft);
+  }
+
+  .pw-methodology__shell {
+    max-width: var(--max-width);
+    margin-inline: auto;
+  }
+
+  .pw-methodology__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+    align-items: start;
+  }
+
+  .pw-methodology__eyebrow {
+    font-size: var(--text-xs);
+    font-weight: var(--weight-semi);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: var(--space-3);
+  }
+
+  .pw-methodology__title {
+    font-family: var(--font-serif);
+    font-size: var(--text-h2);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+    letter-spacing: var(--tracking-snug);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-6);
+  }
+
+  .pw-methodology__links {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .pw-methodology__link {
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semi);
+    color: var(--color-primary);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+  }
+
+  .pw-methodology__link:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+  }
+
+  /* Bullets panel */
+  .pw-methodology__bullets-panel {
+    background: var(--color-accent-subtle);
+    border: 1px solid var(--color-border-accent);
+    border-radius: var(--radius-2xl);
+    padding: var(--space-6);
+  }
+
+  .pw-methodology__bullets {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .pw-methodology__bullet {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    font-size: var(--text-sm);
+    color: var(--color-body);
+    line-height: var(--leading-normal);
+  }
+
+  .pw-methodology__bullet-mark {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-accent);
+    color: var(--color-text-inverse);
+    border-radius: var(--radius-full);
+    font-size: 0.6rem;
+    font-weight: var(--weight-bold);
+    margin-top: 2px;
+  }
+
+  /* Responsive */
+  @media (min-width: 640px) {
+    .pw-methodology {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .pw-methodology__grid {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-16);
+      align-items: center;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .pw-methodology {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+</style>
