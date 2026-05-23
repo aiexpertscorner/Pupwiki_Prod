@@ -98,6 +98,15 @@ export type HomepageData = {
     mixedBreedCount: number;
     dogNameCount: number;
   };
+  // Decision-platform refactor fields (v3)
+  decisionPaths: HomepageConfig['decisionPaths'];
+  toolsPreview: HomepageConfig['toolsPreview'];
+  breedStarter: HomepageConfig['breedStarter'] & { breeds: HomepageBreedCard[] };
+  costPlanning: HomepageConfig['costPlanning'];
+  careHubs: HomepageConfig['careHubs'];
+  featuredGuides: HomepageConfig['featuredGuides'];
+  methodology: HomepageConfig['methodology'];
+  finalCta: HomepageConfig['finalCta'];
 };
 
 const config = homepageConfig as HomepageConfig;
@@ -425,6 +434,35 @@ async function pickEditorialHighlights(): Promise<HomepageEditorialCard[]> {
   }));
 }
 
+function buildFeaturedGuides(): HomepageEditorialCard[] {
+  return toArray(config.featuredGuides?.items).map((item) => ({
+    category: toStringValue(item.category, 'Guide'),
+    title: toStringValue(item.title),
+    description: toStringValue(item.description),
+    href: toStringValue(item.href),
+    imageUrl: toStringValue(item.imageUrl) || undefined,
+    imageAlt: toStringValue(item.imageAlt) || undefined,
+  }));
+}
+
+function pickBreedStarterCards(): HomepageBreedCard[] {
+  const preferred = [...breeds].sort(compareBreedsForHomepage);
+  const limit = 6;
+  const cards = preferred.slice(0, limit).map(normaliseBreedCard);
+
+  if (cards.length > 0) return cards;
+
+  return toArray(config.breedStarter?.fallbackBreeds).map((item: any) => ({
+    slug: item.slug,
+    href: breedDetailHref(item.slug),
+    name: item.name,
+    subtitle: item.subtitle || 'Breed guide',
+    imageUrl: '',
+    imageAlt: `${item.name} dog`,
+    tags: toArray(item.tags),
+  }));
+}
+
 function buildStats() {
   return {
     breedCount: breeds.length,
@@ -459,6 +497,8 @@ export async function getHomepageData(): Promise<HomepageData> {
   const mixedBreedCards = pickMixedBreedCards();
   const costTeaserBreeds = pickCostTeaserBreeds();
   const editorialItems = await pickEditorialHighlights();
+  const featuredGuideItems = buildFeaturedGuides();
+  const breedStarterCards = pickBreedStarterCards();
 
   return {
     seo: config.seo,
@@ -496,6 +536,21 @@ export async function getHomepageData(): Promise<HomepageData> {
     methodologyTeaser: config.methodologyTeaser,
     leadCapture: config.leadCapture,
     stats,
+    // Decision-platform refactor fields (v3)
+    decisionPaths: config.decisionPaths,
+    toolsPreview: config.toolsPreview,
+    breedStarter: {
+      ...config.breedStarter,
+      breeds: breedStarterCards,
+    },
+    costPlanning: config.costPlanning,
+    careHubs: config.careHubs,
+    featuredGuides: {
+      ...config.featuredGuides,
+      items: featuredGuideItems,
+    },
+    methodology: config.methodology,
+    finalCta: config.finalCta,
   };
 }
 
