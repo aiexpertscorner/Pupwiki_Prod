@@ -290,7 +290,9 @@
   --leading-none: 1;
   --leading-tight: 1.12;
   --leading-snug: 1.28;
+  --leading-base: 1.5;
   --leading-normal: 1.6;
+  --leading-loose: 1.7;
   --leading-relaxed: 1.8;
 
   --weight-normal: 400;
