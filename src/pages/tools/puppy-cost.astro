@@ -1,0 +1,96 @@
+---
+// src/pages/tools/puppy-cost.astro
+// Puppy First-Year Cost Planner — /tools/puppy-cost
+// Server: compact breed island + actuarial cost data for insurance estimates.
+// State list server-rendered into <select> — no client JS needed for options.
+
+import ToolShell from '../../components/tools/ToolShell.astro';
+import PuppyCostTool from '../../components/tools/PuppyCostTool.astro';
+import PageHero from '../../components/primitives/PageHero.astro';
+import { getToolBreeds, getToolCostData } from '../../lib/tools/toolDataAdapter';
+import '../../styles/pages/tools.css';
+
+const breeds = getToolBreeds();
+const costData = getToolCostData();
+
+// Compact island: only what client JS needs
+const breedIsland = breeds.map((b) => ({
+  slug: b.slug,
+  name: b.name,
+  sizeKey: b.sizeKey,
+  coatKey: b.coatKey,
+  flags: { hasCostCalculator: b.flags.hasCostCalculator },
+}));
+
+// Cost data island: actuarial lookups for insurance calculation
+const costIsland = {
+  actuarialRates: costData.actuarialRates,
+  ageFactors: costData.ageFactors,
+  statesIndex: costData.statesIndex,
+};
+
+// State list for server-rendered <select> — sorted alphabetically
+const rawStates = (costData.statesIndex as any).states ?? [];
+const stateList = (rawStates as { code: string; name: string; cost_multiplier: number }[])
+  .map((s) => ({ code: s.code, name: s.name, multiplier: s.cost_multiplier }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: "How much should I budget for a puppy's first year?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'First-year costs vary by size: small breeds typically run $1,500–$3,500, medium breeds $2,000–$4,500, large breeds $2,800–$6,000, and giant breeds $4,000–$8,000+. These include one-time setup, routine care, and planned spay/neuter — but not emergency vet costs.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Is pet insurance worth it for a puppy?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "Starting insurance when your dog is a puppy typically means lower premiums and fewer pre-existing condition exclusions. Whether it's worth it depends on your breed's health profile and your financial resilience for unexpected vet bills. The estimate shown here is illustrative — get quotes from multiple insurers before deciding.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What's the difference between budget and balanced modes?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Budget mode applies a 0.75–0.95× multiplier to base costs, reflecting economical choices. Balanced uses 0.90–1.20×, representing mid-range choices most owners land on. Premium uses 1.20–1.80×, covering high-quality food and comprehensive care.',
+        },
+      },
+    ],
+  },
+];
+---
+
+<ToolShell
+  title="Puppy First-Year Cost Planner | PupWiki"
+  description="Get an itemised breakdown of your puppy's first-year costs — setup, recurring, and optional — with savings tips. Adjustable for breed, size, state, and budget. Free, no account needed."
+  toolKey="puppy-cost"
+  toolLabel="Puppy First-Year Planner"
+  structuredData={structuredData}
+  showCostNote={true}
+  showInsuranceNote={true}
+>
+  <Fragment slot="hero">
+    <PageHero
+      eyebrow="Puppy Cost Planner"
+      title="Plan Your Puppy's First Year"
+      subtitle="Get an itemised breakdown of first-year puppy costs — setup, recurring, and optional — with savings tips and honest assumptions."
+      variant="compact"
+      trustItems={[
+        '350+ breed profiles',
+        'Adjustable for budget',
+        'No account needed',
+      ]}
+    />
+  </Fragment>
+
+  <PuppyCostTool breedIsland={breedIsland} costIsland={costIsland} stateList={stateList} />
+</ToolShell>

@@ -1,0 +1,664 @@
+---
+// src/components/tools/PuppyCostTool.astro
+// Puppy First-Year Cost Planner — interactive form + results.
+// Server: compact breed island + actuarial cost data island.
+// Client: vanilla JS reimplements estimatePuppyFirstYear() using island data.
+
+interface CompactBreed {
+  slug: string;
+  name: string;
+  sizeKey: string;
+  coatKey: string;
+  flags: { hasCostCalculator: boolean };
+}
+
+interface StateEntry {
+  code: string;
+  name: string;
+  multiplier: number;
+}
+
+interface Props {
+  breedIsland: CompactBreed[];
+  costIsland: unknown;
+  stateList: StateEntry[];
+}
+
+const { breedIsland, costIsland, stateList } = Astro.props;
+---
+
+<div id="puppy-cost-tool" class="puppy-cost" data-component="puppy-cost">
+
+  <!-- Input form -->
+  <div class="puppy-cost__form" id="puppy-cost-form">
+
+    <!-- Breed selector (optional) -->
+    <div class="puppy-cost__field">
+      <label for="pc-breed-input">Breed <span style="font-weight: var(--weight-normal); color: var(--color-muted)">(optional)</span></label>
+      <div class="breed-compare__search-wrap">
+        <input
+          type="search"
+          id="pc-breed-input"
+          class="breed-compare__search-input"
+          placeholder="Search breeds, or leave blank for size-based estimate…"
+          autocomplete="off"
+          aria-label="Search breeds"
+          aria-autocomplete="list"
+          aria-controls="pc-breed-list"
+          aria-expanded="false"
+        />
+        <ul id="pc-breed-list" class="breed-compare__search-dropdown" role="listbox" hidden></ul>
+      </div>
+      <div id="pc-breed-chip" class="breed-compare__chips" style="min-height: 0; margin-block-end: 0;"></div>
+      <p class="puppy-cost__field-help">Without a specific breed, estimates use size-based averages.</p>
+    </div>
+
+    <!-- Size fallback (shown when no breed selected) -->
+    <div class="puppy-cost__field" id="pc-size-field">
+      <label>Approximate size</label>
+      <div class="breed-match__options breed-match__options--row" role="group" aria-label="Dog size">
+        <button class="breed-match__option" data-field="sizeKey" data-value="small">
+          <span class="breed-match__option-icon">🐩</span>
+          <span><span class="breed-match__option-label">Small</span><span class="breed-match__option-note"> &lt;25 lbs</span></span>
+        </button>
+        <button class="breed-match__option is-selected" data-field="sizeKey" data-value="medium">
+          <span class="breed-match__option-icon">🐕</span>
+          <span><span class="breed-match__option-label">Medium</span><span class="breed-match__option-note"> 25–60 lbs</span></span>
+        </button>
+        <button class="breed-match__option" data-field="sizeKey" data-value="large">
+          <span class="breed-match__option-icon">🦮</span>
+          <span><span class="breed-match__option-label">Large</span><span class="breed-match__option-note"> 60–100 lbs</span></span>
+        </button>
+        <button class="breed-match__option" data-field="sizeKey" data-value="giant">
+          <span class="breed-match__option-icon">🐕‍🦺</span>
+          <span><span class="breed-match__option-label">Giant</span><span class="breed-match__option-note"> 100+ lbs</span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- State selector -->
+    <div class="puppy-cost__field">
+      <label for="pc-state-select">State <span style="font-weight: var(--weight-normal); color: var(--color-muted)">(for insurance estimates)</span></label>
+      <select id="pc-state-select" class="puppy-cost__select">
+        <option value="">— Select state (optional) —</option>
+        {stateList.map((s) => (
+          <option value={s.code}>{s.name}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Budget mode -->
+    <div class="puppy-cost__field">
+      <label>Budget approach</label>
+      <div class="breed-match__options breed-match__options--row" role="group" aria-label="Budget mode">
+        <button class="breed-match__option" data-field="budgetMode" data-value="budget">
+          <span class="breed-match__option-icon">💵</span>
+          <span><span class="breed-match__option-label">Budget-conscious</span></span>
+        </button>
+        <button class="breed-match__option is-selected" data-field="budgetMode" data-value="balanced">
+          <span class="breed-match__option-icon">⚖️</span>
+          <span><span class="breed-match__option-label">Balanced</span></span>
+        </button>
+        <button class="breed-match__option" data-field="budgetMode" data-value="premium">
+          <span class="breed-match__option-icon">💎</span>
+          <span><span class="breed-match__option-label">Premium</span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Toggles -->
+    <div class="puppy-cost__field">
+      <label>What applies to you?</label>
+      <div class="puppy-cost__toggles">
+        <label class="puppy-cost__toggle">
+          <input type="checkbox" id="toggle-insurance" checked />
+          Include pet insurance estimate
+        </label>
+        <label class="puppy-cost__toggle">
+          <input type="checkbox" id="toggle-basics" />
+          I already have basics (bed, bowls, collar, leash)
+        </label>
+        <label class="puppy-cost__toggle">
+          <input type="checkbox" id="toggle-crate" checked />
+          I need a crate
+        </label>
+        <label class="puppy-cost__toggle">
+          <input type="checkbox" id="toggle-grooming" />
+          I need grooming tools
+        </label>
+        <label class="puppy-cost__toggle">
+          <input type="checkbox" id="toggle-travel" />
+          I need travel or car gear
+        </label>
+      </div>
+    </div>
+
+    <button class="btn btn--primary" id="pc-calculate-btn" style="font-size: var(--text-base); padding: var(--space-4) var(--space-8);">
+      Calculate first-year costs →
+    </button>
+  </div>
+
+  <!-- Results (hidden until Calculate clicked) -->
+  <div class="puppy-cost__results" id="puppy-cost-results" hidden>
+
+    <h2 class="puppy-cost__results-title" id="pc-results-title">First-Year Cost Estimate</h2>
+
+    <div class="puppy-cost__summary-strip">
+      <div class="puppy-cost__summary-stat">
+        <span class="puppy-cost__summary-label">First month (setup + recurring)</span>
+        <span class="puppy-cost__summary-value" id="pc-first-month"></span>
+      </div>
+      <div class="puppy-cost__summary-stat">
+        <span class="puppy-cost__summary-label">Full first year</span>
+        <span class="puppy-cost__summary-value" id="pc-first-year"></span>
+      </div>
+      <div class="puppy-cost__summary-stat">
+        <span class="puppy-cost__summary-label">Ongoing per month</span>
+        <span class="puppy-cost__summary-value" id="pc-monthly"></span>
+      </div>
+    </div>
+
+    <div class="puppy-cost__section">
+      <h3>One-time setup costs</h3>
+      <table class="puppy-cost__items-table" id="pc-setup-table"></table>
+    </div>
+
+    <div class="puppy-cost__section">
+      <h3>Monthly recurring costs</h3>
+      <table class="puppy-cost__items-table" id="pc-recurring-table"></table>
+    </div>
+
+    <div class="puppy-cost__section">
+      <h3>Optional extras to consider</h3>
+      <ul class="puppy-cost__optional-list" id="pc-optional-list"></ul>
+    </div>
+
+    <div class="puppy-cost__section puppy-cost__savings">
+      <h3>Ways to reduce costs</h3>
+      <ul id="pc-savings-list"></ul>
+    </div>
+
+    <details class="puppy-cost__assumptions">
+      <summary>Assumptions and limitations</summary>
+      <ul id="pc-assumptions-list"></ul>
+    </details>
+
+    <div class="puppy-cost__next-actions" id="pc-next-actions"></div>
+
+    <button class="btn btn--outline" id="pc-recalculate-btn">← Change inputs</button>
+
+    <p class="puppy-cost__disclaimer">
+      Planning estimates only — not quotes or financial advice. Actual costs vary by provider,
+      location, health, lifestyle, and individual care choices. Insurance figures are illustrative
+      estimates, not insurance quotes.
+    </p>
+
+  </div>
+
+</div>
+
+<!-- Static SEO content -->
+<section class="puppy-cost__explainer">
+  <h2>What's included in the estimate</h2>
+  <p>
+    The planner breaks first-year costs into three categories: one-time setup items you'll need
+    before or shortly after your puppy arrives, monthly recurring costs that continue throughout
+    your dog's life, and optional extras worth budgeting for depending on your situation.
+  </p>
+  <h3>Setup costs</h3>
+  <p>
+    Crate, bed, bowls, collar, leash, ID tag, starter toys, waste cleanup supplies, optional
+    grooming tools, optional travel gear, and spay/neuter (planned for the first year).
+  </p>
+  <h3>Monthly recurring costs</h3>
+  <p>
+    Dog food, training treats, routine veterinary care (vaccines, wellness visits, parasite
+    prevention), and optional pet insurance.
+  </p>
+  <h3>What's not included</h3>
+  <p>
+    Emergency veterinary costs, breed-specific health conditions, grooming salon visits (unless
+    "grooming tools" is toggled on as a proxy), dog daycare, boarding, dog walkers, and any
+    breed-specific equipment not covered by size-based defaults. Use the
+    <a href="/cost-calculator" style="color: var(--color-primary);">full cost calculator</a> for
+    an annual ongoing estimate once your puppy is past the first year.
+  </p>
+</section>
+
+<section class="puppy-cost__faq">
+  <h2>Frequently asked questions</h2>
+
+  <div class="puppy-cost__faq-item">
+    <p class="puppy-cost__faq-q">How much should I budget for a puppy's first year?</p>
+    <p class="puppy-cost__faq-a">
+      First-year costs depend heavily on size and budget approach. As a rough guide:
+      small breeds run $1,500–$3,500, medium breeds $2,000–$4,500, large breeds $2,800–$6,000,
+      and giant breeds $4,000–$8,000+. These include one-time setup, recurring care, and planned
+      spay/neuter — but not emergency vet costs or breed-specific health issues.
+    </p>
+  </div>
+
+  <div class="puppy-cost__faq-item">
+    <p class="puppy-cost__faq-q">Is pet insurance worth it for a puppy?</p>
+    <p class="puppy-cost__faq-a">
+      Starting insurance when your dog is a puppy typically means lower premiums and fewer
+      pre-existing condition exclusions. Whether it's worth it depends on your breed's health
+      profile, your financial resilience for unexpected vet bills, and the specific policy terms.
+      The insurance estimate shown here is illustrative — get quotes from multiple insurers
+      before deciding.
+    </p>
+  </div>
+
+  <div class="puppy-cost__faq-item">
+    <p class="puppy-cost__faq-q">What's the difference between "budget" and "balanced" modes?</p>
+    <p class="puppy-cost__faq-a">
+      Budget mode applies a 0.75–0.95× multiplier to base costs, reflecting more economical
+      choices (store-brand food, basic supplies, fewer optional items). Balanced uses 0.90–1.20×,
+      representing mid-range choices most owners land on. Premium uses 1.20–1.80×, covering
+      high-quality food, frequent professional grooming, and comprehensive vet care.
+    </p>
+  </div>
+</section>
+
+<script define:vars={{ breedIsland, costIsland }}>
+  (function () {
+    // ---- Constants (mirrors puppyCostEngine.ts + costEngine.ts) ----
+    var SETUP_RANGES = {
+      small:  { crate:[40,80],   bed:[25,80],   bowls:[15,40],  collar:[12,35],  leash:[12,35],  id:[8,20],  toys:[30,80],   cleanup:[20,50], groomingKit:[25,80],   travelGear:[40,150] },
+      medium: { crate:[60,150],  bed:[35,120],  bowls:[20,50],  collar:[15,45],  leash:[15,45],  id:[8,20],  toys:[40,100],  cleanup:[20,50], groomingKit:[30,100],  travelGear:[60,200] },
+      large:  { crate:[80,200],  bed:[50,180],  bowls:[20,60],  collar:[20,55],  leash:[20,55],  id:[8,20],  toys:[50,150],  cleanup:[25,60], groomingKit:[40,150],  travelGear:[80,250] },
+      giant:  { crate:[120,300], bed:[80,250],  bowls:[25,70],  collar:[25,70],  leash:[25,70],  id:[8,20],  toys:[60,200],  cleanup:[30,70], groomingKit:[50,180],  travelGear:[100,350] },
+    };
+    var SIZE_COSTS = {
+      small:  { foodAnnual:600,  vetAnnual:600,  groomingAnnual:400 },
+      medium: { foodAnnual:900,  vetAnnual:800,  groomingAnnual:500 },
+      large:  { foodAnnual:1400, vetAnnual:1000, groomingAnnual:700 },
+      giant:  { foodAnnual:2000, vetAnnual:1400, groomingAnnual:900 },
+    };
+    var SPAY_COSTS = { small:[200,400], medium:[300,500], large:[400,650], giant:[500,900] };
+    var BUDGET_MULT = {
+      budget:   { low:0.75, high:0.95 },
+      balanced: { low:0.90, high:1.20 },
+      premium:  { low:1.20, high:1.80 },
+    };
+    var INS_SIZE_FALLBACK = { small:28, medium:35, large:55, giant:90 };
+    var SAVINGS_TIPS = [
+      'Buy food in bulk from reputable brands — often 15–20% cheaper than single bags.',
+      'Preventive care (vaccines, dental, parasite prevention) costs far less than treating illness.',
+      'Starting insurance when your dog is a puppy usually means lower premiums and fewer exclusions.',
+      'Rotate toys and introduce puzzle feeders to reduce boredom without constantly buying new ones.',
+      'Look for low-cost spay/neuter clinics in your area — many nonprofits offer significant discounts.',
+      'Group training classes deliver similar results to private sessions at a fraction of the cost.',
+    ];
+
+    // ---- State ----
+    var selectedBreed = null;
+    var formState = {
+      sizeKey: 'medium',
+      budgetMode: 'balanced',
+      stateCode: '',
+      includeInsurance: true,
+      alreadyHasBasics: false,
+      needsCrate: true,
+      needsGroomingTools: false,
+      needsTravelGear: false,
+    };
+
+    var root = document.getElementById('puppy-cost-tool');
+    if (!root) return;
+    function q(sel) { return root.querySelector(sel); }
+
+    // ---- Breed search (same pattern as BreedCompareTool) ----
+    var breedMap = {};
+    breedIsland.forEach(function (b) { breedMap[b.slug] = b; });
+
+    function filterBreeds(query) {
+      var lq = query.toLowerCase().trim();
+      if (!lq) return [];
+      return breedIsland
+        .filter(function (b) { return b.name.toLowerCase().includes(lq); })
+        .sort(function (a, b) {
+          var as = a.name.toLowerCase().startsWith(lq) ? 0 : 1;
+          var bs = b.name.toLowerCase().startsWith(lq) ? 0 : 1;
+          return as - bs || a.name.localeCompare(b.name);
+        })
+        .slice(0, 8);
+    }
+
+    function renderBreedDropdown(results) {
+      var list = q('#pc-breed-list');
+      var input = q('#pc-breed-input');
+      if (!list) return;
+      if (!results.length) { list.hidden = true; input && input.setAttribute('aria-expanded','false'); return; }
+      list.innerHTML = results.map(function (b) {
+        return '<li class="breed-compare__search-item" role="option" data-slug="' + esc(b.slug) + '">' + esc(b.name) + '</li>';
+      }).join('');
+      list.hidden = false;
+      input && input.setAttribute('aria-expanded','true');
+    }
+
+    function setBreed(breed) {
+      selectedBreed = breed;
+      var chip = q('#pc-breed-chip');
+      var sizeField = q('#pc-size-field');
+      var input = q('#pc-breed-input');
+      if (chip) {
+        chip.innerHTML = breed
+          ? '<div class="breed-compare__chip">' + esc(breed.name) +
+            '<button class="breed-compare__chip-remove" data-action="clear-breed" aria-label="Remove ' + esc(breed.name) + '">×</button></div>'
+          : '';
+      }
+      if (sizeField) sizeField.hidden = !!breed;
+      if (input) { input.value = ''; input.setAttribute('aria-expanded','false'); }
+      var list = q('#pc-breed-list');
+      if (list) list.hidden = true;
+    }
+
+    // ---- Insurance helpers ----
+    function getBreedRate(breed, sizeKey) {
+      try {
+        var rates = costIsland.actuarialRates;
+        if (breed && rates && rates.breed_rates) {
+          var match = rates.breed_rates.find(function (r) { return r.breed_slug === breed.slug; });
+          if (match) return match.base_premium;
+        }
+      } catch (_) {}
+      return INS_SIZE_FALLBACK[sizeKey] || 35;
+    }
+
+    function getAgeFactor() {
+      // Puppy ~2 months = 0.167 years
+      try {
+        var factors = costIsland.ageFactors;
+        if (factors && factors.age_factors) {
+          var age = 0.167;
+          var bucket = factors.age_factors.find(function (f) { return age >= f.min_age_years && age <= f.max_age_years; });
+          if (bucket) return bucket.premium_factor;
+        }
+      } catch (_) {}
+      return 0.77; // typical puppy factor
+    }
+
+    function getStateMult(stateCode) {
+      if (!stateCode) return 1.0;
+      try {
+        var states = costIsland.statesIndex;
+        if (states && states.states) {
+          var match = states.states.find(function (s) { return s.code === stateCode; });
+          if (match) return match.cost_multiplier;
+        }
+      } catch (_) {}
+      return 1.0;
+    }
+
+    // ---- Engine (mirrors estimatePuppyFirstYear) ----
+    function runEngine() {
+      var sizeKey = selectedBreed ? normalizeSizeKey(selectedBreed.sizeKey) : formState.sizeKey;
+      var mult = BUDGET_MULT[formState.budgetMode] || BUDGET_MULT.balanced;
+      var ranges = SETUP_RANGES[sizeKey];
+      var baseCosts = SIZE_COSTS[sizeKey];
+      var coatKey = selectedBreed ? selectedBreed.coatKey : '';
+      var highGroomCoat = ['curly','long','double','corded','wiry'].includes(coatKey);
+
+      var setupItems = [];
+      var recurringItems = [];
+      var optionalItems = [];
+
+      // Setup items
+      if (!formState.alreadyHasBasics) {
+        if (formState.needsCrate) {
+          setupItems.push({ label: 'Crate or safe sleeping area', low: Math.round(ranges.crate[0] * mult.low), high: Math.round(ranges.crate[1] * mult.high),
+            note: (sizeKey === 'large' || sizeKey === 'giant') ? 'Consider an adjustable crate with divider for a growing pup.' : 'A proper-sized crate helps with house training.' });
+        }
+        setupItems.push(
+          { label: 'Dog bed or crate mat',       low: Math.round(ranges.bed[0]*mult.low),     high: Math.round(ranges.bed[1]*mult.high),     note: 'Washable covers are worth the extra cost.' },
+          { label: 'Food and water bowls',        low: Math.round(ranges.bowls[0]*mult.low),   high: Math.round(ranges.bowls[1]*mult.high),   note: 'Stainless steel is easier to keep clean.' },
+          { label: 'Collar or harness',           low: Math.round(ranges.collar[0]*mult.low),  high: Math.round(ranges.collar[1]*mult.high),  note: sizeKey === 'small' ? 'A lightweight harness is often gentler for small breeds.' : 'A well-fitted harness can reduce neck strain.' },
+          { label: 'Leash',                       low: Math.round(ranges.leash[0]*mult.low),   high: Math.round(ranges.leash[1]*mult.high),   note: 'Start with a standard 6-foot leash.' },
+          { label: 'ID tag and microchip',        low: Math.round(ranges.id[0]*mult.low),      high: Math.round(ranges.id[1]*mult.high),      note: 'Microchipping is usually done at the first vet visit.' },
+          { label: 'Starter toys and chews',      low: Math.round(ranges.toys[0]*mult.low),    high: Math.round(ranges.toys[1]*mult.high),    note: 'Mix of chew, tug, and puzzle toys. Rotate regularly.' },
+          { label: 'Poop bags and enzyme cleaner',low: Math.round(ranges.cleanup[0]*mult.low), high: Math.round(ranges.cleanup[1]*mult.high), note: 'Enzyme cleaner is essential for accidents on carpet.' }
+        );
+      }
+      if (formState.needsGroomingTools) {
+        setupItems.push({ label: 'Grooming starter kit', low: Math.round(ranges.groomingKit[0]*mult.low), high: Math.round(ranges.groomingKit[1]*mult.high),
+          note: highGroomCoat ? 'This coat type needs regular brushing — invest in quality tools.' : 'Basic brush, nail trimmer, and shampoo.' });
+      }
+      if (formState.needsTravelGear) {
+        setupItems.push({ label: 'Travel crate or car restraint', low: Math.round(ranges.travelGear[0]*mult.low), high: Math.round(ranges.travelGear[1]*mult.high),
+          note: 'A crash-tested car harness or travel crate adds safety.' });
+      }
+      setupItems.push({ label: 'Spay or neuter (planned)', low: SPAY_COSTS[sizeKey][0], high: SPAY_COSTS[sizeKey][1],
+        note: 'Timing varies — discuss with your vet. Low-cost clinics can reduce this significantly.' });
+
+      // Recurring items
+      var foodMonthLow  = Math.round((baseCosts.foodAnnual * mult.low)  / 12);
+      var foodMonthHigh = Math.round((baseCosts.foodAnnual * mult.high) / 12);
+      var vetMonthLow   = Math.round((baseCosts.vetAnnual  * mult.low)  / 12);
+      var vetMonthHigh  = Math.round((baseCosts.vetAnnual  * mult.high) / 12);
+      recurringItems.push(
+        { label: 'Dog food',           low: foodMonthLow, high: foodMonthHigh, note: 'Puppies need life-stage appropriate food.' },
+        { label: 'Training treats',    low: 15,           high: 40,            note: 'High-value treats help with puppy training.' },
+        { label: 'Routine vet visits', low: vetMonthLow,  high: vetMonthHigh,  note: 'Puppy vaccines, deworming, and wellness checks. Excludes emergencies.' }
+      );
+      if (formState.includeInsurance) {
+        var basePremium = getBreedRate(selectedBreed, sizeKey);
+        var ageFactor = getAgeFactor();
+        var stateMult = getStateMult(formState.stateCode);
+        var insLow  = Math.round(basePremium * ageFactor * stateMult * mult.low);
+        var insHigh = Math.round(basePremium * ageFactor * stateMult * mult.high);
+        recurringItems.push({ label: 'Pet insurance (estimate)', low: insLow, high: insHigh,
+          note: 'Illustrative estimate — get quotes from insurers. Starting young often means lower premiums.' });
+      }
+
+      // Optional items
+      optionalItems.push(
+        { label: 'Puppy training class',         low: 100, high: 300, note: 'Group classes are affordable. Usually a one-time cost.' },
+        { label: 'Premium orthopedic bed',        low: 60,  high: 200, note: 'Worth it for large/giant breeds or long-term comfort.' },
+        { label: 'Puzzle feeders and enrichment', low: 20,  high: 80,  note: 'Great for active or intelligent breeds.' },
+        { label: 'Pet camera',                    low: 40,  high: 150, note: 'Useful for monitoring a new puppy when away.' }
+      );
+
+      // Totals
+      var setupLow  = setupItems.reduce(function (a,i) { return a+i.low; },  0);
+      var setupHigh = setupItems.reduce(function (a,i) { return a+i.high; }, 0);
+      var recLow    = recurringItems.reduce(function (a,i) { return a+i.low; },  0);
+      var recHigh   = recurringItems.reduce(function (a,i) { return a+i.high; }, 0);
+
+      var firstMonthLow  = setupLow  + recLow;
+      var firstMonthHigh = setupHigh + recHigh;
+      var firstYearLow   = setupLow  + recLow  * 12;
+      var firstYearHigh  = setupHigh + recHigh * 12;
+
+      var assumptions = [
+        'Size category: ' + sizeKey + (selectedBreed ? ' (' + selectedBreed.name + ')' : ''),
+        'Budget mode: ' + formState.budgetMode,
+        formState.alreadyHasBasics ? 'Already has basics — setup items reduced.' : 'Starting from scratch — all setup items included.',
+        formState.includeInsurance ? 'Insurance estimate included as monthly recurring.' : 'Insurance not included.',
+        formState.stateCode ? 'State: ' + formState.stateCode + ' (insurance multiplier applied).' : 'No state selected — national average used.',
+        'Emergency vet costs and breed-specific health conditions are not included.',
+      ];
+
+      renderResults({
+        setupItems, recurringItems, optionalItems,
+        firstMonthLow, firstMonthHigh,
+        firstYearLow, firstYearHigh,
+        recurringMonthlyLow: recLow, recurringMonthlyHigh: recHigh,
+        assumptions,
+        breedName: selectedBreed ? selectedBreed.name : null,
+        sizeKey,
+      });
+    }
+
+    function normalizeSizeKey(raw) {
+      if (!raw) return 'medium';
+      var key = String(raw).toLowerCase();
+      if (key === 'small') return 'small';
+      if (key === 'large') return 'large';
+      if (key === 'giant') return 'giant';
+      return 'medium';
+    }
+
+    // ---- Rendering ----
+    function esc(str) {
+      return String(str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+    function fmt(low, high, period) {
+      var p = period ? '/' + period : '';
+      return '$' + low.toLocaleString() + '–$' + high.toLocaleString() + p;
+    }
+
+    function renderItemsTable(tableEl, items) {
+      if (!tableEl) return;
+      var totalLow  = items.reduce(function (a,i) { return a+i.low; },  0);
+      var totalHigh = items.reduce(function (a,i) { return a+i.high; }, 0);
+      tableEl.innerHTML =
+        '<tbody>' +
+        items.map(function (item) {
+          return '<tr><td><span>' + esc(item.label) + '</span>' +
+            (item.note ? '<span class="puppy-cost__item-note">' + esc(item.note) + '</span>' : '') +
+            '</td><td>' + fmt(item.low, item.high) + '</td></tr>';
+        }).join('') +
+        '<tr class="puppy-cost__items-total"><td>Total</td><td>' + fmt(totalLow, totalHigh) + '</td></tr>' +
+        '</tbody>';
+    }
+
+    function renderResults(est) {
+      var titleEl = q('#pc-results-title');
+      if (titleEl) titleEl.textContent = est.breedName ? est.breedName + ' First-Year Cost Estimate' : 'Puppy First-Year Cost Estimate';
+
+      var fm = q('#pc-first-month');  if (fm) fm.textContent = fmt(est.firstMonthLow, est.firstMonthHigh);
+      var fy = q('#pc-first-year');   if (fy) fy.textContent = fmt(est.firstYearLow, est.firstYearHigh);
+      var mo = q('#pc-monthly');      if (mo) mo.textContent = fmt(est.recurringMonthlyLow, est.recurringMonthlyHigh, 'mo');
+
+      renderItemsTable(q('#pc-setup-table'), est.setupItems);
+      renderItemsTable(q('#pc-recurring-table'), est.recurringItems);
+
+      var optList = q('#pc-optional-list');
+      if (optList) {
+        optList.innerHTML = est.optionalItems.map(function (i) {
+          return '<li class="puppy-cost__optional-item">' +
+            '<div class="puppy-cost__optional-body"><span class="puppy-cost__optional-label">' + esc(i.label) + '</span>' +
+            (i.note ? '<span class="puppy-cost__optional-note">' + esc(i.note) + '</span>' : '') +
+            '</div><span class="puppy-cost__optional-range">' + fmt(i.low, i.high) + '</span></li>';
+        }).join('');
+      }
+
+      var savingsList = q('#pc-savings-list');
+      if (savingsList) {
+        savingsList.innerHTML = SAVINGS_TIPS.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('');
+      }
+
+      var assumptionsList = q('#pc-assumptions-list');
+      if (assumptionsList) {
+        assumptionsList.innerHTML = est.assumptions.map(function (a) { return '<li>' + esc(a) + '</li>'; }).join('');
+      }
+
+      // Next actions
+      var nextActions = q('#pc-next-actions');
+      if (nextActions) {
+        var links = [
+          { label: 'Build supplies checklist', href: '/tools/puppy-supplies', cls: 'btn--primary' },
+          { label: 'Full cost calculator', href: '/cost-calculator', cls: 'btn--outline' },
+        ];
+        if (selectedBreed) {
+          links.unshift({ label: 'View ' + selectedBreed.name + ' breed guide', href: '/breeds/' + selectedBreed.slug, cls: 'btn--outline' });
+          if (selectedBreed.flags.hasCostCalculator) {
+            links.push({ label: selectedBreed.name + ' annual costs', href: '/cost-calculator/' + selectedBreed.slug, cls: 'btn--outline' });
+          }
+        }
+        nextActions.innerHTML = links.slice(0, 4).map(function (a) {
+          return '<a href="' + esc(a.href) + '" class="btn ' + a.cls + '">' + esc(a.label) + '</a>';
+        }).join('');
+      }
+
+      q('#puppy-cost-form').hidden = true;
+      q('#puppy-cost-results').hidden = false;
+
+      track('puppy_cost_calculate', { size: est.sizeKey, budget: formState.budgetMode, breed_slug: selectedBreed ? selectedBreed.slug : '' });
+    }
+
+    // ---- Analytics ----
+    function track(name, params) {
+      try { if (typeof window.gtag === 'function') window.gtag('event', name, Object.assign({ event_category: 'tools' }, params || {})); } catch (_) {}
+    }
+
+    // ---- Event delegation ----
+    var searchTimeout;
+    var breedInput = q('#pc-breed-input');
+    if (breedInput) {
+      breedInput.addEventListener('input', function (e) {
+        clearTimeout(searchTimeout);
+        var val = e.target.value;
+        searchTimeout = setTimeout(function () { renderBreedDropdown(filterBreeds(val)); }, 120);
+      });
+      breedInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') { var l = q('#pc-breed-list'); if (l) l.hidden = true; breedInput.setAttribute('aria-expanded','false'); }
+      });
+    }
+
+    document.addEventListener('click', function (e) {
+      if (!root.contains(e.target)) { var l = q('#pc-breed-list'); if (l) l.hidden = true; }
+    });
+
+    root.addEventListener('click', function (e) {
+      // Breed dropdown item
+      var item = e.target.closest('.breed-compare__search-item');
+      if (item) {
+        var breed = breedMap[item.dataset.slug];
+        if (breed) { setBreed(breed); formState.sizeKey = normalizeSizeKey(breed.sizeKey); }
+        return;
+      }
+
+      // Clear breed chip
+      if (e.target.closest('[data-action="clear-breed"]')) {
+        setBreed(null);
+        return;
+      }
+
+      // Size / budget option buttons
+      var optBtn = e.target.closest('[data-field]');
+      if (optBtn) {
+        var field = optBtn.dataset.field;
+        var val = optBtn.dataset.value;
+        formState[field] = val;
+        var grp = optBtn.closest('[role="group"]');
+        if (grp) grp.querySelectorAll('[data-field]').forEach(function (b) { b.classList.remove('is-selected'); });
+        optBtn.classList.add('is-selected');
+        return;
+      }
+
+      // Calculate button
+      if (e.target.closest('#pc-calculate-btn')) {
+        runEngine();
+        return;
+      }
+
+      // Recalculate button
+      if (e.target.closest('#pc-recalculate-btn')) {
+        q('#puppy-cost-results').hidden = true;
+        q('#puppy-cost-form').hidden = false;
+        return;
+      }
+    });
+
+    // Toggle checkboxes
+    function bindToggle(id, field) {
+      var el = q('#' + id);
+      if (el) el.addEventListener('change', function () { formState[field] = el.checked; });
+    }
+    bindToggle('toggle-insurance',  'includeInsurance');
+    bindToggle('toggle-basics',     'alreadyHasBasics');
+    bindToggle('toggle-crate',      'needsCrate');
+    bindToggle('toggle-grooming',   'needsGroomingTools');
+    bindToggle('toggle-travel',     'needsTravelGear');
+
+    // State dropdown
+    var stateSelect = q('#pc-state-select');
+    if (stateSelect) {
+      stateSelect.addEventListener('change', function () { formState.stateCode = stateSelect.value; });
+    }
+
+    track('puppy_cost_start');
+  })();
+</script>
