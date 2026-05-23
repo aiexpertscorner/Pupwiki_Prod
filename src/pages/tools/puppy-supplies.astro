@@ -1,0 +1,89 @@
+---
+// src/pages/tools/puppy-supplies.astro
+// Puppy Supplies Checklist — /tools/puppy-supplies
+// Server: compact breed island for personalization logic.
+// Client: checkbox state persisted in localStorage (no expiry).
+
+import ToolShell from '../../components/tools/ToolShell.astro';
+import PuppySuppliesChecklist from '../../components/tools/PuppySuppliesChecklist.astro';
+import PageHero from '../../components/primitives/PageHero.astro';
+import { getToolBreeds } from '../../lib/tools/toolDataAdapter';
+import '../../styles/pages/tools.css';
+
+const breeds = getToolBreeds();
+
+// Compact island: slug, name, sizeKey, coatKey, flags + training guide link
+const breedIsland = breeds.map((b) => ({
+  slug: b.slug,
+  name: b.name,
+  sizeKey: b.sizeKey,
+  coatKey: b.coatKey,
+  flags: {
+    isActive: b.flags.isActive,
+    hasTrainingGuide: b.flags.hasTrainingGuide,
+    hasCostCalculator: b.flags.hasCostCalculator,
+  },
+  guideLinks: b.guideLinks
+    .filter((g) => g.available && g.key === 'training')
+    .map((g) => ({ key: g.key, href: g.href })),
+}));
+
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Can I save my checklist progress?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "Yes — your checked items are saved automatically in your browser's local storage. They'll still be there if you close and reopen the page. Clearing your browser data will reset progress. The checklist doesn't require an account.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Do I really need all the "must have" items?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'The must-have items represent what the vast majority of puppy owners find essential in the first days — crate, bowls, collar, leash, food, ID, and cleanup supplies. If you already own some of these, simply check them off. The checklist progress tracks what you still need to acquire.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Does PupWiki earn money from this checklist?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'PupWiki may earn a small commission if you purchase items through affiliate links on our breed guide and product pages. The checklist items are selected for usefulness, not commercial reasons — items marked "skip unless needed" are never promoted.',
+        },
+      },
+    ],
+  },
+];
+---
+
+<ToolShell
+  title="Puppy Supplies Checklist | PupWiki"
+  description="A personalized, priority-sorted puppy supplies checklist based on your puppy's breed, size, and home setup — with safety notes, budget guidance, and progress tracking. Free, no account needed."
+  toolKey="puppy-supplies"
+  toolLabel="Puppy Supplies Checklist"
+  structuredData={structuredData}
+  showCostNote={false}
+  showHealthNote={false}
+>
+  <Fragment slot="hero">
+    <PageHero
+      eyebrow="Supplies Checklist"
+      title="What Your Puppy Actually Needs"
+      subtitle="A personalized, prioritized checklist based on your puppy's breed, size, and setup — with safety notes and budget guidance. Check items off as you acquire them."
+      variant="compact"
+      trustItems={[
+        '350+ breed profiles',
+        'Priority-sorted items',
+        'Saves your progress',
+      ]}
+    />
+  </Fragment>
+
+  <PuppySuppliesChecklist breedIsland={breedIsland} />
+</ToolShell>

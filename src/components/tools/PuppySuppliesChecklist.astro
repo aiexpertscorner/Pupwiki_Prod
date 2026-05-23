@@ -1,0 +1,750 @@
+---
+// src/components/tools/PuppySuppliesChecklist.astro
+// Puppy Supplies Checklist — interactive, checkable, persisted.
+// Server: compact breed island.
+// Client: JS mirrors buildPuppySuppliesChecklist(), checkbox state in localStorage.
+
+interface CompactBreedGuideLink {
+  key: string;
+  href: string;
+}
+
+interface CompactBreed {
+  slug: string;
+  name: string;
+  sizeKey: string;
+  coatKey: string;
+  flags: {
+    isActive: boolean;
+    hasTrainingGuide: boolean;
+    hasCostCalculator: boolean;
+  };
+  guideLinks: CompactBreedGuideLink[];
+}
+
+interface Props {
+  breedIsland: CompactBreed[];
+}
+
+const { breedIsland } = Astro.props;
+---
+
+<div id="supplies-tool" class="supplies" data-component="supplies">
+
+  <!-- Form -->
+  <div class="supplies__form" id="supplies-form">
+
+    <!-- Breed (optional) -->
+    <div class="puppy-cost__field">
+      <label for="sup-breed-input">
+        Breed <span style="font-weight: var(--weight-normal); color: var(--color-muted)">(optional)</span>
+      </label>
+      <div class="breed-compare__search-wrap">
+        <input
+          type="search"
+          id="sup-breed-input"
+          class="breed-compare__search-input"
+          placeholder="Search breeds, or leave blank for general checklist…"
+          autocomplete="off"
+          aria-label="Search breeds"
+          aria-autocomplete="list"
+          aria-controls="sup-breed-list"
+          aria-expanded="false"
+        />
+        <ul id="sup-breed-list" class="breed-compare__search-dropdown" role="listbox" hidden></ul>
+      </div>
+      <div id="sup-breed-chip" class="breed-compare__chips" style="min-height: 0; margin-block-end: 0;"></div>
+      <p class="puppy-cost__field-help">A breed enables coat-specific grooming items and size-based recommendations.</p>
+    </div>
+
+    <!-- Size fallback -->
+    <div class="puppy-cost__field" id="sup-size-field">
+      <label>Approximate size</label>
+      <div class="breed-match__options breed-match__options--row" role="group" aria-label="Dog size">
+        <button class="breed-match__option" data-field="sizeKey" data-value="small">
+          <span class="breed-match__option-icon">🐩</span>
+          <span><span class="breed-match__option-label">Small</span><span class="breed-match__option-note"> &lt;25 lbs</span></span>
+        </button>
+        <button class="breed-match__option is-selected" data-field="sizeKey" data-value="medium">
+          <span class="breed-match__option-icon">🐕</span>
+          <span><span class="breed-match__option-label">Medium</span><span class="breed-match__option-note"> 25–60 lbs</span></span>
+        </button>
+        <button class="breed-match__option" data-field="sizeKey" data-value="large">
+          <span class="breed-match__option-icon">🦮</span>
+          <span><span class="breed-match__option-label">Large</span><span class="breed-match__option-note"> 60–100 lbs</span></span>
+        </button>
+        <button class="breed-match__option" data-field="sizeKey" data-value="giant">
+          <span class="breed-match__option-icon">🐕‍🦺</span>
+          <span><span class="breed-match__option-label">Giant</span><span class="breed-match__option-note"> 100+ lbs</span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Home type -->
+    <div class="puppy-cost__field">
+      <label>Where will you live with your dog?</label>
+      <div class="breed-match__options breed-match__options--row" role="group" aria-label="Home type">
+        <button class="breed-match__option" data-field="homeType" data-value="apartment">
+          <span class="breed-match__option-icon">🏢</span>
+          <span><span class="breed-match__option-label">Apartment</span></span>
+        </button>
+        <button class="breed-match__option is-selected" data-field="homeType" data-value="house">
+          <span class="breed-match__option-icon">🏡</span>
+          <span><span class="breed-match__option-label">House</span></span>
+        </button>
+        <button class="breed-match__option" data-field="homeType" data-value="rural">
+          <span class="breed-match__option-icon">🌳</span>
+          <span><span class="breed-match__option-label">Rural</span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Budget -->
+    <div class="puppy-cost__field">
+      <label>Budget approach</label>
+      <div class="breed-match__options breed-match__options--row" role="group" aria-label="Budget mode">
+        <button class="breed-match__option" data-field="budgetMode" data-value="budget">
+          <span class="breed-match__option-icon">💵</span>
+          <span><span class="breed-match__option-label">Budget-conscious</span></span>
+        </button>
+        <button class="breed-match__option is-selected" data-field="budgetMode" data-value="balanced">
+          <span class="breed-match__option-icon">⚖️</span>
+          <span><span class="breed-match__option-label">Balanced</span></span>
+        </button>
+        <button class="breed-match__option" data-field="budgetMode" data-value="premium">
+          <span class="breed-match__option-icon">💎</span>
+          <span><span class="breed-match__option-label">Premium</span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Toggles -->
+    <div class="puppy-cost__field">
+      <label>Options</label>
+      <div class="puppy-cost__toggles">
+        <label class="puppy-cost__toggle">
+          <input type="checkbox" id="sup-travel" />
+          I need travel or car gear
+        </label>
+      </div>
+    </div>
+
+    <button class="btn btn--primary" id="sup-build-btn" style="font-size: var(--text-base); padding: var(--space-4) var(--space-8);">
+      Build my checklist →
+    </button>
+  </div>
+
+  <!-- Checklist (hidden until built) -->
+  <div class="supplies__checklist" id="supplies-checklist" hidden>
+
+    <div class="supplies__summary" id="sup-summary"></div>
+
+    <!-- Progress -->
+    <div class="supplies__progress">
+      <div class="supplies__progress-header">
+        <span class="supplies__progress-label" id="sup-progress-label">0 of 0 essential items acquired</span>
+        <button class="btn btn--ghost" id="sup-reset-btn" style="font-size: var(--text-xs); padding: var(--space-1) var(--space-3);">
+          Reset progress
+        </button>
+      </div>
+      <div class="supplies__progress-bar">
+        <div class="supplies__progress-fill" id="sup-progress-fill" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="supplies__controls">
+      <label class="supplies__filter-toggle">
+        <input type="checkbox" id="sup-hide-checked" />
+        Hide acquired items
+      </label>
+      <button class="btn btn--ghost" id="sup-modify-btn" style="font-size: var(--text-sm);">
+        ← Change options
+      </button>
+    </div>
+
+    <!-- Category sections -->
+    <div id="sup-categories"></div>
+
+    <!-- Size + safety notes -->
+    <div class="supplies__notes" id="sup-notes"></div>
+
+    <!-- Next actions -->
+    <div class="puppy-cost__next-actions" id="sup-next-actions"></div>
+
+  </div>
+
+</div>
+
+<!-- Static SEO content -->
+<section class="supplies__explainer">
+  <h2>How this checklist is personalised</h2>
+  <p>
+    The checklist adapts to your breed selection, size, home type, and budget mode. A curly or
+    long-coated breed unlocks grooming tools in the first-week section. An apartment home bumps
+    puppy pads to "Recommended" instead of optional. Large and giant breeds get crate and harness
+    guidance specific to their size.
+  </p>
+  <h3>Priority levels explained</h3>
+  <p>
+    <strong>Must have</strong> — items you genuinely need before your puppy arrives or in the
+    first days. <strong>Recommended</strong> — useful in the first month, worth budgeting for.
+    <strong>Optional</strong> — nice to have once the basics are covered.
+    <strong>Skip unless needed</strong> — items that are conditional, unnecessary for most puppies,
+    or explicitly not recommended (such as aversive training tools).
+  </p>
+  <h3>Safety notes</h3>
+  <p>
+    Items with safety notes (highlighted in amber) flag things that can cause harm if used
+    incorrectly — including toxic ingredients, unsuitable gear for puppies, and items requiring
+    professional guidance. Always read product labels and consult your vet when in doubt.
+  </p>
+</section>
+
+<section class="supplies__faq">
+  <h2>Frequently asked questions</h2>
+
+  <div class="supplies__faq-item">
+    <p class="supplies__faq-q">Can I save my checklist progress?</p>
+    <p class="supplies__faq-a">
+      Yes — your checked items are saved automatically in your browser's local storage. They'll
+      still be there if you close and reopen the page. Clearing your browser data will reset
+      progress. The checklist doesn't require an account.
+    </p>
+  </div>
+
+  <div class="supplies__faq-item">
+    <p class="supplies__faq-q">Do I really need all the "must have" items?</p>
+    <p class="supplies__faq-a">
+      The must-have items represent what the vast majority of puppy owners find essential in the
+      first days — crate, bowls, collar, leash, food, ID, and cleanup supplies. If you already
+      own some of these, simply check them off. The checklist progress tracks what you still
+      need to acquire.
+    </p>
+  </div>
+
+  <div class="supplies__faq-item">
+    <p class="supplies__faq-q">Does PupWiki earn money from this checklist?</p>
+    <p class="supplies__faq-a">
+      PupWiki may earn a small commission if you purchase items through affiliate links on our
+      breed guide and product pages. The checklist items are selected for usefulness, not
+      commercial reasons — items marked "skip unless needed" are never promoted.
+    </p>
+  </div>
+</section>
+
+<script define:vars={{ breedIsland }}>
+  (function () {
+    var STORAGE_KEY = 'pupwiki:supplies:v1';
+    var HIGH_GROOM_COATS = ['curly','long','corded','double','wiry','wavy','silky'];
+
+    var CATEGORY_META = {
+      'before-arrival':     { label:'Before arrival',                  desc:'Have these ready on day one.' },
+      'first-week':         { label:'First week',                      desc:'Pick these up in the first few days.' },
+      'first-month':        { label:'First month',                     desc:'Build on the basics as your puppy settles in.' },
+      'later':              { label:'Later on',                        desc:'Nice additions once the basics are covered.' },
+      'skip-unless-needed': { label:'Skip unless specifically needed', desc:'Conditional or not recommended without guidance.' },
+    };
+
+    var PRIORITY_LABELS = {
+      'must-have':   'Must have',
+      'recommended': 'Recommended',
+      'optional':    'Optional',
+      'conditional': 'Skip unless needed',
+    };
+
+    // ---- State ----
+    var selectedBreed = null;
+    var formState = { sizeKey:'medium', budgetMode:'balanced', homeType:'house', needsTravelGear:false };
+    var checkedIds = new Set();
+    var hideChecked = false;
+    var currentItems = [];
+
+    var root = document.getElementById('supplies-tool');
+    if (!root) return;
+    function q(sel) { return root.querySelector(sel); }
+
+    // ---- Breed map ----
+    var breedMap = {};
+    breedIsland.forEach(function (b) { breedMap[b.slug] = b; });
+
+    // ---- Storage ----
+    function save() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({
+          checkedIds: Array.from(checkedIds),
+          formState: formState,
+          breedSlug: selectedBreed ? selectedBreed.slug : null,
+        }));
+      } catch (_) {}
+    }
+    function loadSaved() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null'); } catch (_) { return null; }
+    }
+
+    // ---- Build items (mirrors buildPuppySuppliesChecklist) ----
+    function buildItems(params) {
+      var sizeKey       = params.sizeKey       || 'medium';
+      var coatKey       = params.coatKey       || '';
+      var budgetMode    = params.budgetMode    || 'balanced';
+      var homeType      = params.homeType      || 'house';
+      var needsTravel   = params.needsTravelGear || false;
+      var isActive      = params.isActive      || false;
+
+      var isSmall        = sizeKey === 'small';
+      var isLargeOrGiant = sizeKey === 'large' || sizeKey === 'giant';
+      var needsGrooming  = HIGH_GROOM_COATS.indexOf(coatKey) !== -1;
+      var isApartment    = homeType === 'apartment';
+      var isPremium      = budgetMode === 'premium';
+      var isBudget       = budgetMode === 'budget';
+
+      var items = [];
+
+      // Before arrival
+      items.push({ id:'crate',     category:'before-arrival', priority:'must-have',
+        label: isLargeOrGiant ? 'Adjustable crate with divider' : 'Crate or safe sleeping space',
+        why:   'A crate helps with house training and gives your puppy a safe den.',
+        sizeHint: isLargeOrGiant ? 'Get an adjustable crate so it grows with them.' : undefined });
+      items.push({ id:'bed',       category:'before-arrival', priority:'must-have',
+        label: 'Dog bed or crate mat',
+        why:   'Puppies sleep a lot — a washable bed keeps them comfortable.',
+        budgetHint: isBudget ? 'A simple washable mat works great.' : undefined });
+      items.push({ id:'bowls',     category:'before-arrival', priority:'must-have',
+        label: isSmall ? 'Small food and water bowls' : 'Food and water bowls',
+        why:   'Separate bowls for food and water are a daily essential.',
+        sizeHint: isSmall ? 'Choose shallow bowls sized for a small breed.' : undefined });
+      items.push({ id:'collar',    category:'before-arrival', priority:'must-have',
+        label: isSmall ? 'Lightweight harness' : 'Collar or harness',
+        why:   'Needed for ID tag and initial walks.',
+        sizeHint: isSmall ? 'A lightweight Y-harness is gentler on small breed necks.' : undefined });
+      items.push({ id:'leash',     category:'before-arrival', priority:'must-have',
+        label: 'Standard 6-foot leash',
+        why:   'Start with a non-retractable leash for better control during training.' });
+      items.push({ id:'id',        category:'before-arrival', priority:'must-have',
+        label: 'ID tag + microchip plan',
+        why:   'ID tags and microchips dramatically improve reunion rates if a dog gets lost.',
+        safetyNote: 'Microchipping is typically done at the first vet visit.' });
+      items.push({ id:'puppyFood', category:'before-arrival', priority:'must-have',
+        label: 'Puppy-formulated food',
+        why:   'Puppies need life-stage appropriate nutrition — not adult formula.',
+        safetyNote: 'Ask your vet or breeder which food to start with.' });
+      items.push({ id:'poop',      category:'before-arrival', priority:'must-have',
+        label: 'Poop bags (bulk)',
+        why:   'You will go through these quickly.',
+        budgetHint: 'Buying in bulk is the best value here.' });
+      items.push({ id:'enzymeClean', category:'before-arrival', priority:'must-have',
+        label: 'Enzyme cleaner for accidents',
+        why:   'Essential for removing odors and discouraging repeat accidents.',
+        safetyNote: 'Standard household cleaners often leave odor traces dogs can still smell.' });
+      items.push({ id:'toys',      category:'before-arrival', priority:'must-have',
+        label: 'Starter toy set (chew + tug + puzzle)',
+        why:   'Variety keeps puppies mentally and physically stimulated.' });
+
+      // First week
+      items.push({ id:'treats',      category:'first-week', priority:'must-have',
+        label: 'High-value training treats',
+        why:   'Small, soft treats are critical for positive reinforcement in the first weeks.' });
+      items.push({ id:'pupPads',     category:'first-week', priority: isApartment ? 'recommended' : 'optional',
+        label: 'Puppy pads',
+        why:   isApartment ? 'Useful for apartment training before outdoor access is established.' : 'Optional if you have yard access.' });
+      items.push({ id:'foodStorage', category:'first-week', priority:'recommended',
+        label: 'Airtight food container',
+        why:   'Keeps kibble fresh and pest-free.' });
+      items.push({ id:'backupLeash', category:'first-week', priority:'recommended',
+        label: 'Long training line (15–30 ft)',
+        why:   'Useful for recall training with more freedom than a standard leash.' });
+      if (needsGrooming) {
+        items.push({ id:'brush',     category:'first-week', priority:'must-have',
+          label: 'Slicker brush and comb',
+          why:   (coatKey === 'curly' ? 'Curly coats need daily detangling' : 'This coat type needs regular brushing') +
+                 ' — start early so your puppy gets used to it.' });
+      }
+
+      // First month
+      items.push({ id:'trainingPouch', category:'first-month', priority:'recommended',
+        label: 'Training treat pouch',
+        why:   'Keeps treats accessible during training sessions.' });
+      items.push({ id:'nailTrimmer',   category:'first-month', priority:'recommended',
+        label: 'Nail trimmer or grinder',
+        why:   'Regular nail care prevents discomfort and joint issues.',
+        safetyNote: 'Ask your vet to show you the safe trimming zone first.' });
+      items.push({ id:'shampoo',       category:'first-month', priority:'recommended',
+        label: 'Puppy-safe shampoo',
+        why:   'Adult shampoos can irritate puppy skin.',
+        safetyNote: 'Use puppy-specific formula — adult dog or human shampoo is not appropriate.' });
+      items.push({ id:'dental',        category:'first-month', priority:'recommended',
+        label: 'Dental starter kit (toothbrush + paste)',
+        why:   'Starting dental care early builds good habits. Dental disease is one of the most preventable dog health issues.',
+        safetyNote: 'Use dog-safe toothpaste only — human toothpaste contains xylitol which is toxic to dogs.' });
+      items.push({ id:'enrichment',    category:'first-month', priority: (isLargeOrGiant || isActive) ? 'recommended' : 'optional',
+        label: 'Enrichment / puzzle feeders',
+        why:   'Mental stimulation helps prevent boredom and destructive behavior.' });
+
+      // Later
+      if (needsTravel) {
+        items.push({ id:'travelCrate',   category:'later', priority:'recommended',
+          label: 'Travel crate or car harness',
+          why:   'A crash-tested car harness or airline-approved crate keeps your dog safe during travel.',
+          safetyNote: 'Look for crash-tested car restraints specifically — not all harnesses are equally safe.' });
+        items.push({ id:'portableBowl',  category:'later', priority:'recommended',
+          label: 'Portable collapsible water bowl',
+          why:   'Essential for trips, hikes, and outings.' });
+      }
+      if (isSmall) {
+        items.push({ id:'stairs',        category:'later', priority:'optional',
+          label: 'Pet stairs or ramp',
+          why:   'Helps small breeds access furniture safely without jumping.',
+          sizeHint: 'Jumping on and off furniture can stress small breed joints over time.' });
+      }
+      if (isPremium) {
+        items.push({ id:'camera',        category:'later', priority:'optional',
+          label: 'Pet camera',
+          why:   'Monitor your puppy when you are away.' });
+        items.push({ id:'orthoBed',      category:'later', priority:'optional',
+          label: 'Orthopedic or memory foam bed',
+          why:   'Worth the investment for large breeds or longer-term comfort.' });
+      }
+
+      // Skip unless needed
+      items.push({ id:'supplements',    category:'skip-unless-needed', priority:'conditional',
+        label: 'Supplements',
+        why:   'Generally not needed unless recommended by your vet for a specific condition.',
+        safetyNote: 'Do not give supplements without vet guidance — some can interfere with puppy development.' });
+      items.push({ id:'smartDevices',   category:'skip-unless-needed', priority:'conditional',
+        label: 'Expensive smart devices or GPS trackers',
+        why:   'Nice to have but not needed immediately — a microchip and ID tag are the essentials.' });
+      items.push({ id:'restrictiveGear',category:'skip-unless-needed', priority:'conditional',
+        label: 'Prong collars, choke chains, or shock collars',
+        why:   'Not appropriate for puppies. Positive reinforcement training is recommended for all dogs.',
+        safetyNote: 'If you are struggling with training, consult a certified professional trainer.' });
+
+      return items;
+    }
+
+    // ---- XSS-safe escaping ----
+    function esc(str) {
+      return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    // ---- Render a single item ----
+    function renderItem(item) {
+      var checked = checkedIds.has(item.id);
+      var priorityCls = 'supplies__item-priority--' + item.priority;
+      var safetyHtml = item.safetyNote
+        ? '<span class="supplies__item-safety">⚠ ' + esc(item.safetyNote) + '</span>'
+        : '';
+      var hintsHtml = '';
+      if (item.sizeHint || item.budgetHint) {
+        hintsHtml = '<div class="supplies__item-hints">';
+        if (item.sizeHint)   hintsHtml += '<span class="supplies__item-hint">📐 ' + esc(item.sizeHint)   + '</span>';
+        if (item.budgetHint) hintsHtml += '<span class="supplies__item-hint">💡 ' + esc(item.budgetHint) + '</span>';
+        hintsHtml += '</div>';
+      }
+      return '<li class="supplies__item' + (checked ? ' supplies__item--checked' : '') + '">' +
+        '<input type="checkbox" class="supplies__item-checkbox" data-item-id="' + esc(item.id) + '" ' +
+          (checked ? 'checked ' : '') + 'aria-label="' + esc(item.label) + '" />' +
+        '<div class="supplies__item-body">' +
+          '<div class="supplies__item-top">' +
+            '<span class="supplies__item-label">' + esc(item.label) + '</span>' +
+            '<span class="supplies__item-priority ' + priorityCls + '">' + esc(PRIORITY_LABELS[item.priority] || item.priority) + '</span>' +
+          '</div>' +
+          '<p class="supplies__item-why">' + esc(item.why) + '</p>' +
+          hintsHtml + safetyHtml +
+        '</div>' +
+      '</li>';
+    }
+
+    // ---- Update progress bar ----
+    function updateProgress(items) {
+      var essential = (items || currentItems).filter(function (i) {
+        return i.priority === 'must-have' || i.priority === 'recommended';
+      });
+      var done = essential.filter(function (i) { return checkedIds.has(i.id); }).length;
+      var pct = essential.length ? Math.round((done / essential.length) * 100) : 0;
+      var fill = q('#sup-progress-fill');
+      if (fill) fill.style.width = pct + '%';
+      var label = q('#sup-progress-label');
+      if (label) label.textContent = done + ' of ' + essential.length + ' essential items acquired';
+    }
+
+    // ---- Render full checklist ----
+    function renderChecklist(items) {
+      var container = q('#sup-categories');
+      if (!container) return;
+
+      var categoryOrder = ['before-arrival','first-week','first-month','later','skip-unless-needed'];
+      container.innerHTML = categoryOrder.map(function (cat) {
+        var catItems = items.filter(function (i) { return i.category === cat; });
+        if (!catItems.length) return '';
+        var visible = hideChecked ? catItems.filter(function (i) { return !checkedIds.has(i.id); }) : catItems;
+        if (!visible.length && hideChecked) {
+          return '<section class="supplies__category' + (cat === 'skip-unless-needed' ? ' supplies__category--skip' : '') + '">' +
+            '<div class="supplies__category-header">' +
+              '<span class="supplies__category-label">' + esc(CATEGORY_META[cat].label) + '</span>' +
+              '<span class="supplies__category-count">All acquired ✓</span>' +
+            '</div></section>';
+        }
+        var meta = CATEGORY_META[cat];
+        return '<section class="supplies__category' + (cat === 'skip-unless-needed' ? ' supplies__category--skip' : '') + '">' +
+          '<div class="supplies__category-header">' +
+            '<span class="supplies__category-label">' + esc(meta.label) + '</span>' +
+            '<span class="supplies__category-desc">' + esc(meta.desc) + '</span>' +
+            '<span class="supplies__category-count">' + visible.length + ' item' + (visible.length !== 1 ? 's' : '') + '</span>' +
+          '</div>' +
+          '<ul class="supplies__items">' + visible.map(renderItem).join('') + '</ul>' +
+        '</section>';
+      }).join('');
+
+      updateProgress(items);
+    }
+
+    // ---- Render notes ----
+    function renderNotes(params) {
+      var container = q('#sup-notes');
+      if (!container) return;
+      var notes = [];
+      if (params.isLargeOrGiant) {
+        notes.push({ text:'Large and giant breeds grow quickly — buy an adjustable crate that can expand.', safety:false });
+        notes.push({ text:'Durable, heavy-duty chew toys are important for strong chewers.', safety:false });
+      }
+      if (params.isSmall) {
+        notes.push({ text:'Small breeds can be more fragile — choose toys and chews sized appropriately.', safety:false });
+      }
+      if (params.needsGrooming) {
+        notes.push({ text:'This coat type benefits from regular brushing — starting early makes grooming easier for both of you.', safety:false });
+      }
+      // Always show top safety notes
+      notes.push({ text:'Never leave a puppy unsupervised with chew toys, especially if pieces could be swallowed.', safety:true });
+      notes.push({ text:'Do not use human toothpaste — it contains xylitol, which is toxic to dogs.', safety:true });
+      notes.push({ text:'A microchip and ID tag together give your dog the best chance of being returned if lost.', safety:false });
+
+      container.innerHTML = notes.map(function (n) {
+        return '<div class="supplies__note' + (n.safety ? ' supplies__note--safety' : '') + '">' + esc(n.text) + '</div>';
+      }).join('');
+    }
+
+    // ---- Render next actions ----
+    function renderNextActions() {
+      var container = q('#sup-next-actions');
+      if (!container) return;
+      var actions = [
+        { label:'Plan first-year costs', href:'/tools/puppy-cost', cls:'btn--primary' },
+        { label:'Find your breed match', href:'/tools/breed-match', cls:'btn--outline' },
+      ];
+      if (selectedBreed) {
+        actions.unshift({ label:'View ' + selectedBreed.name + ' breed guide', href:'/breeds/' + selectedBreed.slug, cls:'btn--outline' });
+        var trainingLink = selectedBreed.guideLinks && selectedBreed.guideLinks.find(function (g) { return g.key === 'training'; });
+        if (trainingLink) {
+          actions.push({ label:selectedBreed.name + ' training guide', href:trainingLink.href, cls:'btn--outline' });
+        }
+      }
+      container.innerHTML = actions.slice(0, 4).map(function (a) {
+        return '<a href="' + esc(a.href) + '" class="btn ' + a.cls + '">' + esc(a.label) + '</a>';
+      }).join('');
+    }
+
+    // ---- Render summary ----
+    function renderSummary(params) {
+      var container = q('#sup-summary');
+      if (!container) return;
+      var lines = [];
+      if (selectedBreed) lines.push('Personalised checklist for a ' + selectedBreed.name + ' puppy.');
+      else lines.push('General puppy supplies checklist — ' + params.sizeKey + ' size.');
+      lines.push('Items are organised by when you need them. Check them off as you acquire them.');
+      container.innerHTML = lines.map(function (l) { return '<p>' + esc(l) + '</p>'; }).join('');
+    }
+
+    // ---- Run build ----
+    function normalizeSizeKey(raw) {
+      var k = String(raw||'').toLowerCase();
+      if (k==='small') return 'small';
+      if (k==='large') return 'large';
+      if (k==='giant') return 'giant';
+      return 'medium';
+    }
+
+    function runBuild() {
+      var sizeKey = selectedBreed ? normalizeSizeKey(selectedBreed.sizeKey) : formState.sizeKey;
+      var params = {
+        sizeKey: sizeKey,
+        coatKey: selectedBreed ? (selectedBreed.coatKey || '') : '',
+        budgetMode: formState.budgetMode,
+        homeType: formState.homeType,
+        needsTravelGear: formState.needsTravelGear,
+        isActive: selectedBreed ? (selectedBreed.flags && selectedBreed.flags.isActive) : false,
+        isSmall: sizeKey === 'small',
+        isLargeOrGiant: sizeKey === 'large' || sizeKey === 'giant',
+        needsGrooming: HIGH_GROOM_COATS.indexOf(selectedBreed ? (selectedBreed.coatKey||'') : '') !== -1,
+      };
+      currentItems = buildItems(params);
+      renderSummary(params);
+      renderChecklist(currentItems);
+      renderNotes(params);
+      renderNextActions();
+      q('#supplies-form').hidden = true;
+      q('#supplies-checklist').hidden = false;
+      save();
+      track('supplies_build', { size: params.sizeKey, breed_slug: selectedBreed ? selectedBreed.slug : '' });
+    }
+
+    // ---- Breed search ----
+    function filterBreeds(query) {
+      var lq = query.toLowerCase().trim();
+      if (!lq) return [];
+      return breedIsland
+        .filter(function (b) { return b.name.toLowerCase().indexOf(lq) !== -1; })
+        .sort(function (a, b) {
+          var as = a.name.toLowerCase().indexOf(lq) === 0 ? 0 : 1;
+          var bs = b.name.toLowerCase().indexOf(lq) === 0 ? 0 : 1;
+          return as - bs || a.name.localeCompare(b.name);
+        })
+        .slice(0, 8);
+    }
+
+    function renderBreedDropdown(results) {
+      var list = q('#sup-breed-list');
+      var input = q('#sup-breed-input');
+      if (!list) return;
+      if (!results.length) { list.hidden = true; input && input.setAttribute('aria-expanded','false'); return; }
+      list.innerHTML = results.map(function (b) {
+        return '<li class="breed-compare__search-item" role="option" data-slug="' + esc(b.slug) + '">' + esc(b.name) + '</li>';
+      }).join('');
+      list.hidden = false;
+      input && input.setAttribute('aria-expanded','true');
+    }
+
+    function setBreed(breed) {
+      selectedBreed = breed;
+      var chip = q('#sup-breed-chip');
+      var sizeField = q('#sup-size-field');
+      var input = q('#sup-breed-input');
+      if (chip) {
+        chip.innerHTML = breed
+          ? '<div class="breed-compare__chip">' + esc(breed.name) +
+            '<button class="breed-compare__chip-remove" data-action="clear-breed" aria-label="Remove ' + esc(breed.name) + '">×</button></div>'
+          : '';
+      }
+      if (sizeField) sizeField.hidden = !!breed;
+      if (input) { input.value = ''; input.setAttribute('aria-expanded','false'); }
+      var list = q('#sup-breed-list');
+      if (list) list.hidden = true;
+    }
+
+    // ---- Restore form UI ----
+    function restoreFormUI() {
+      // Restore option button selections
+      ['sizeKey','budgetMode','homeType'].forEach(function (field) {
+        var val = formState[field];
+        root.querySelectorAll('[data-field="' + field + '"]').forEach(function (btn) {
+          btn.classList.toggle('is-selected', btn.dataset.value === val);
+        });
+      });
+      // Restore travel toggle
+      var travelEl = q('#sup-travel');
+      if (travelEl) travelEl.checked = formState.needsTravelGear;
+    }
+
+    // ---- Analytics ----
+    function track(name, params) {
+      try { if (typeof window.gtag === 'function') window.gtag('event', name, Object.assign({ event_category:'tools' }, params||{})); } catch(_) {}
+    }
+
+    // ---- Event delegation ----
+    var searchTimeout;
+    var breedInput = q('#sup-breed-input');
+    if (breedInput) {
+      breedInput.addEventListener('input', function (e) {
+        clearTimeout(searchTimeout);
+        var val = e.target.value;
+        searchTimeout = setTimeout(function () { renderBreedDropdown(filterBreeds(val)); }, 120);
+      });
+      breedInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') { var l = q('#sup-breed-list'); if (l) l.hidden = true; breedInput.setAttribute('aria-expanded','false'); }
+      });
+    }
+    document.addEventListener('click', function (e) {
+      if (!root.contains(e.target)) { var l = q('#sup-breed-list'); if (l) l.hidden = true; }
+    });
+
+    root.addEventListener('click', function (e) {
+      // Breed dropdown item
+      var item = e.target.closest('.breed-compare__search-item');
+      if (item && item.dataset.slug) { setBreed(breedMap[item.dataset.slug] || null); return; }
+
+      // Clear breed chip
+      if (e.target.closest('[data-action="clear-breed"]')) { setBreed(null); return; }
+
+      // Option buttons (sizeKey, budgetMode, homeType)
+      var optBtn = e.target.closest('[data-field]');
+      if (optBtn) {
+        var field = optBtn.dataset.field;
+        var val = optBtn.dataset.value;
+        formState[field] = val;
+        var grp = optBtn.closest('[role="group"]');
+        if (grp) grp.querySelectorAll('[data-field]').forEach(function (b) { b.classList.remove('is-selected'); });
+        optBtn.classList.add('is-selected');
+        return;
+      }
+
+      // Build button
+      if (e.target.closest('#sup-build-btn')) { runBuild(); return; }
+
+      // Modify button
+      if (e.target.closest('#sup-modify-btn')) {
+        q('#supplies-checklist').hidden = true;
+        q('#supplies-form').hidden = false;
+        restoreFormUI();
+        return;
+      }
+
+      // Reset progress
+      if (e.target.closest('#sup-reset-btn')) {
+        checkedIds.clear();
+        save();
+        renderChecklist(currentItems);
+        return;
+      }
+    });
+
+    // Checkbox changes (item checked/unchecked)
+    root.addEventListener('change', function (e) {
+      var cb = e.target.closest('[data-item-id]');
+      if (cb) {
+        var id = cb.dataset.itemId;
+        if (cb.checked) checkedIds.add(id);
+        else checkedIds.delete(id);
+        // Toggle checked class on parent li
+        var li = cb.closest('.supplies__item');
+        if (li) li.classList.toggle('supplies__item--checked', cb.checked);
+        save();
+        updateProgress();
+        return;
+      }
+
+      // Hide-checked toggle
+      if (e.target.id === 'sup-hide-checked') {
+        hideChecked = e.target.checked;
+        renderChecklist(currentItems);
+        return;
+      }
+
+      // Travel gear toggle
+      if (e.target.id === 'sup-travel') {
+        formState.needsTravelGear = e.target.checked;
+        return;
+      }
+    });
+
+    // ---- Mount ----
+    var saved = loadSaved();
+    if (saved) {
+      if (Array.isArray(saved.checkedIds)) checkedIds = new Set(saved.checkedIds);
+      if (saved.formState) Object.assign(formState, saved.formState);
+      if (saved.breedSlug && breedMap[saved.breedSlug]) setBreed(breedMap[saved.breedSlug]);
+      restoreFormUI();
+      runBuild();
+    }
+
+    track('supplies_start');
+  })();
+</script>
