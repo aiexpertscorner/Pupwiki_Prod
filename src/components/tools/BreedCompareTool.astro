@@ -491,9 +491,28 @@ const { breedIsland } = Astro.props;
       });
 
       searchInput.addEventListener('keydown', function (e) {
+        var list = q('#breed-search-list');
         if (e.key === 'Escape') {
-          var list = q('#breed-search-list');
           if (list) { list.hidden = true; searchInput.setAttribute('aria-expanded', 'false'); }
+          return;
+        }
+        if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+          e.preventDefault();
+          if (!list || list.hidden) return;
+          var items = Array.from(list.querySelectorAll('.breed-compare__search-item:not(.breed-compare__search-item--disabled)'));
+          if (!items.length) return;
+          var current = list.querySelector('.breed-compare__search-item.is-highlighted');
+          var idx = current ? items.indexOf(current) : -1;
+          if (current) current.classList.remove('is-highlighted');
+          var next = e.key === 'ArrowDown' ? (items[idx + 1] || items[0]) : (items[idx - 1] || items[items.length - 1]);
+          next.classList.add('is-highlighted');
+          next.scrollIntoView({ block: 'nearest' });
+          return;
+        }
+        if (e.key === 'Enter') {
+          if (!list || list.hidden) return;
+          var highlighted = list.querySelector('.breed-compare__search-item.is-highlighted');
+          if (highlighted) { e.preventDefault(); highlighted.click(); }
         }
       });
 

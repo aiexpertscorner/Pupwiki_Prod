@@ -659,7 +659,29 @@ const { breedIsland } = Astro.props;
         searchTimeout = setTimeout(function () { renderBreedDropdown(filterBreeds(val)); }, 120);
       });
       breedInput.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape') { var l = q('#sup-breed-list'); if (l) l.hidden = true; breedInput.setAttribute('aria-expanded','false'); }
+        var list = q('#sup-breed-list');
+        if (e.key === 'Escape') {
+          if (list) { list.hidden = true; breedInput.setAttribute('aria-expanded','false'); }
+          return;
+        }
+        if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+          e.preventDefault();
+          if (!list || list.hidden) return;
+          var items = Array.from(list.querySelectorAll('.breed-compare__search-item'));
+          if (!items.length) return;
+          var current = list.querySelector('.breed-compare__search-item.is-highlighted');
+          var idx = current ? items.indexOf(current) : -1;
+          if (current) current.classList.remove('is-highlighted');
+          var next = e.key === 'ArrowDown' ? (items[idx + 1] || items[0]) : (items[idx - 1] || items[items.length - 1]);
+          next.classList.add('is-highlighted');
+          next.scrollIntoView({ block: 'nearest' });
+          return;
+        }
+        if (e.key === 'Enter') {
+          if (!list || list.hidden) return;
+          var highlighted = list.querySelector('.breed-compare__search-item.is-highlighted');
+          if (highlighted) { e.preventDefault(); highlighted.click(); }
+        }
       });
     }
     document.addEventListener('click', function (e) {
