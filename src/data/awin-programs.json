@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-23T06:16:55.018Z",
+  "syncedAt": "2026-05-24T06:37:08.578Z",
   "programs": [
     {
       "key": "brutus-broth",
@@ -282,11 +282,11 @@
       "advertiserId": "87483",
       "name": "Dog Cloud (US)",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "displayUrl": "https://dogcloudbeds.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87483.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -302,8 +302,21 @@
           "domain": "*.dogcloudbeds.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [
+        {
+          "min": 10,
+          "max": 10,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "54",
+        "approvalPercentage": 100,
+        "epc": 4.83,
+        "conversionRate": 5.61,
+        "validationDays": 30,
+        "awinIndex": 71.1
+      },
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -362,7 +375,7 @@
         "validationDays": 10,
         "awinIndex": 72.8
       },
-      "linkStatus": "",
+      "linkStatus": "online",
       "staticProgramId": "radiofence-com",
       "feedId": "105980",
       "configuredDeeplink": "",
@@ -398,11 +411,11 @@
       "advertiserId": "89689",
       "name": "Raw Wild LLC",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "displayUrl": "https://raw-wild-2.myshopify.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89689&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89689.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -421,8 +434,26 @@
           "domain": "*.raw-wild-2.myshopify.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [
+        {
+          "min": 0,
+          "max": 8,
+          "type": "percentage"
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "type": "amount"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "26",
+        "approvalPercentage": 97.62,
+        "epc": 1.78,
+        "conversionRate": 10.89,
+        "validationDays": 3,
+        "awinIndex": 92.11
+      },
       "linkStatus": "",
       "staticProgramId": "rawwild",
       "feedId": null,
@@ -684,7 +715,7 @@
         "validationDays": 21,
         "awinIndex": 73.7
       },
-      "linkStatus": "",
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -712,11 +743,11 @@
       "advertiserId": "68990",
       "name": "Odie Pet Insurance Marketing, Inc.",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://getodie.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=68990&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/68990.png",
       "primarySector": "Insurance",
       "primaryRegion": {
@@ -729,15 +760,8 @@
           "domain": "getodie.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "57",
-        "approvalPercentage": 99.73,
-        "epc": 0.19,
-        "conversionRate": 5.15,
-        "validationDays": 51,
-        "awinIndex": 56.05
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -765,11 +789,11 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.dutch.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "primarySector": "Health & Beauty",
       "primaryRegion": {
@@ -788,8 +812,15 @@
           "domain": "*.dutch.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "71",
+        "approvalPercentage": 100,
+        "epc": 0.66,
+        "conversionRate": 2.73,
+        "validationDays": 51,
+        "awinIndex": 53.79
+      },
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -819,11 +850,11 @@
       "advertiserId": "78688",
       "name": "The Foggy Dog, LLC",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.thefoggydog.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78688&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78688.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -836,9 +867,16 @@
           "domain": "www.thefoggydog.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "68",
+        "approvalPercentage": 100,
+        "epc": 0.32,
+        "conversionRate": 3.27,
+        "validationDays": 46,
+        "awinIndex": 57.64
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -922,11 +960,11 @@
       "advertiserId": "91975",
       "name": "West & Willow",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://westandwillow.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=91975&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/91975.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -939,15 +977,8 @@
           "domain": "westandwillow.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "73",
-        "approvalPercentage": 100,
-        "epc": 0.18,
-        "conversionRate": 0.9,
-        "validationDays": 51,
-        "awinIndex": 51.92
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -1003,7 +1034,7 @@
         "validationDays": 50,
         "awinIndex": 61.95
       },
-      "linkStatus": "",
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1032,11 +1063,11 @@
       "advertiserId": "96823",
       "name": "Joyride Harness",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.joyrideharness.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=96823&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/96823.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -1049,8 +1080,15 @@
           "domain": "www.joyrideharness.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "73",
+        "approvalPercentage": 100,
+        "epc": 0.42,
+        "conversionRate": 6.58,
+        "validationDays": 51,
+        "awinIndex": 57.62
+      },
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -1080,11 +1118,11 @@
       "advertiserId": "98349",
       "name": "Impact Dog Crates",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.impactdogcrates.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=98349&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/98349.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1097,15 +1135,8 @@
           "domain": "www.impactdogcrates.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "68",
-        "approvalPercentage": 100,
-        "epc": 0.57,
-        "conversionRate": 0.8,
-        "validationDays": 45,
-        "awinIndex": 55.86
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -1222,7 +1253,7 @@
         "validationDays": 30,
         "awinIndex": 66.52
       },
-      "linkStatus": "",
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1274,7 +1305,7 @@
         "validationDays": 50,
         "awinIndex": 57.1
       },
-      "linkStatus": "",
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1303,11 +1334,11 @@
       "advertiserId": "119433",
       "name": "Fetch Happy Store (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://fetchhappystore.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=119433&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/119433.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1323,8 +1354,15 @@
           "domain": "*.fetchhappystore.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "26",
+        "approvalPercentage": 100,
+        "epc": 0.89,
+        "conversionRate": 31.25,
+        "validationDays": 4,
+        "awinIndex": 92.42
+      },
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -1353,11 +1391,11 @@
       "advertiserId": "120007",
       "name": "Pupford US",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://pupford.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120007&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120007.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1373,15 +1411,8 @@
           "domain": "*.pupford.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "27",
-        "approvalPercentage": 100,
-        "epc": 0.07,
-        "conversionRate": 13.36,
-        "validationDays": 7,
-        "awinIndex": 90.34
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
@@ -1441,7 +1472,7 @@
         "validationDays": 30,
         "awinIndex": 69.6
       },
-      "linkStatus": "",
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1501,7 +1532,7 @@
         "validationDays": 15,
         "awinIndex": 80.58
       },
-      "linkStatus": "",
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1649,7 +1680,7 @@
       "advertiserId": "87483",
       "name": "Dog Cloud (US)",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1657,7 +1688,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/87483.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=87483&id=2861861",
       "topicTags": [
@@ -1699,7 +1730,7 @@
       "advertiserId": "89689",
       "name": "Raw Wild LLC",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1707,7 +1738,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/89689.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=89689&id=2861861",
       "topicTags": [
@@ -1827,7 +1858,7 @@
       "advertiserId": "68990",
       "name": "Odie Pet Insurance Marketing, Inc.",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1835,7 +1866,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/68990.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=68990&id=2861861",
       "topicTags": [
@@ -1848,7 +1879,7 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1856,7 +1887,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
       "topicTags": [
@@ -1871,7 +1902,7 @@
       "advertiserId": "78688",
       "name": "The Foggy Dog, LLC",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1879,7 +1910,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78688.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78688&id=2861861",
       "topicTags": [
@@ -1917,7 +1948,7 @@
       "advertiserId": "91975",
       "name": "West & Willow",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1925,7 +1956,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/91975.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=91975&id=2861861",
       "topicTags": [
@@ -1963,7 +1994,7 @@
       "advertiserId": "96823",
       "name": "Joyride Harness",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1971,7 +2002,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/96823.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=96823&id=2861861",
       "topicTags": [
@@ -1986,7 +2017,7 @@
       "advertiserId": "98349",
       "name": "Impact Dog Crates",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1994,7 +2025,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/98349.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=98349&id=2861861",
       "topicTags": [
@@ -2072,7 +2103,7 @@
       "advertiserId": "119433",
       "name": "Fetch Happy Store (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2080,7 +2111,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/119433.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=119433&id=2861861",
       "topicTags": [
@@ -2094,7 +2125,7 @@
       "advertiserId": "120007",
       "name": "Pupford US",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2102,7 +2133,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120007.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120007&id=2861861",
       "topicTags": [
@@ -2181,21 +2212,24 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/87483 -> This operation was aborted",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/89689 -> This operation was aborted",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/78166 -> This operation was aborted",
-      "programmedetails/78688 -> This operation was aborted",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/96823 -> This operation was aborted",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/119433 -> This operation was aborted",
+      "programmedetails/68990 -> This operation was aborted",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/91975 -> This operation was aborted",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/98349 -> This operation was aborted",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/120007 -> This operation was aborted",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode"
     ],
