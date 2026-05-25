@@ -1,0 +1,36 @@
+---
+interface CollectionLink {
+  href: string;
+  icon: string;
+  label: string;
+  desc: string;
+}
+
+interface Props {
+  links: CollectionLink[];
+}
+
+const { links } = Astro.props;
+---
+
+<section class="breed-collections" aria-labelledby="breed-collections-title">
+  <div class="breed-directory-container">
+    <div class="breed-section-header">
+      <p class="breed-directory-eyebrow">Explore collections</p>
+      <h2 id="breed-collections-title">Popular ways to browse breeds</h2>
+      <p>
+        These crawlable collection links open the directory with useful filters already applied.
+      </p>
+    </div>
+
+    <div class="breed-collection-grid">
+      {links.map((item) => (
+        <a href={item.href} class="breed-collection-card">
+          <span aria-hidden="true">{item.icon}</span>
+          <strong>{item.label}</strong>
+          <p>{item.desc}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

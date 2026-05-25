@@ -18,6 +18,7 @@ export interface BreedDetailSchema {
 export interface BreedHubSchema {
   collectionLd: string;
   breadcrumbLd: string;
+  itemListLd: string;
 }
 
 export function buildBreedDetailSchema(
@@ -95,5 +96,19 @@ export function buildBreedHubSchema(
     ],
   });
 
-  return { collectionLd, breadcrumbLd };
+  const itemListLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Dog Breed Directory — ${breeds.length} Breeds`,
+    description: 'PupWiki dog breed finder with filters for size, energy, shedding, coat, trainability, lifespan and owner resources.',
+    numberOfItems: breeds.length,
+    itemListElement: featured.map((b, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: b.name,
+      url: `${siteUrl}/breeds/${b.slug}`,
+    })),
+  });
+
+  return { collectionLd, breadcrumbLd, itemListLd };
 }

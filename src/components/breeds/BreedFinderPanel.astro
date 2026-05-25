@@ -1,0 +1,296 @@
+---
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+import type { BreedFilterOptions, QuickBreedFilter } from '../../lib/breeds/filterBreeds';
+import BreedResultCard from './BreedResultCard.astro';
+
+interface Props {
+  breeds: NormalizedBreed[];
+  filterOptions: BreedFilterOptions;
+  quickFilters: QuickBreedFilter[];
+  popularBreeds: NormalizedBreed[];
+  defaultVisibleCount: number;
+  breedsLength: number;
+}
+
+const { breeds, filterOptions, quickFilters, popularBreeds, defaultVisibleCount, breedsLength } = Astro.props;
+
+const topOrigins = filterOptions.origins.slice(0, 10);
+const topGroups = filterOptions.groups.slice(0, 9);
+---
+
+<section id="breed-finder" class="breed-finder" aria-labelledby="breed-finder-title">
+  <div class="breed-directory-container">
+    <div class="breed-finder__header">
+      <div>
+        <p class="breed-directory-eyebrow">Search & filter</p>
+        <h2 id="breed-finder-title">Find breeds by lifestyle, care needs and owner intent</h2>
+        <p>
+          Start with search or tap a quick filter. Advanced filters stay available without overwhelming mobile users.
+        </p>
+      </div>
+    </div>
+
+    <div class="breed-search-panel">
+      <form class="breed-search-panel__top" action="/breeds" method="get" data-breed-form>
+        <div class="breed-search-field" role="search">
+          <label for="breed-search">Search breeds</label>
+          <div class="breed-search-field__control">
+            <span aria-hidden="true">🔍</span>
+            <input
+              id="breed-search"
+              type="search"
+              name="q"
+              placeholder="Search e.g. bulldog, low shedding, Germany, retriever…"
+              autocomplete="off"
+              spellcheck="false"
+              data-breed-search
+            />
+            <button type="button" class="breed-search-clear" data-clear-search hidden aria-label="Clear search">
+              ×
+            </button>
+          </div>
+        </div>
+
+        <div class="breed-sort-field">
+          <label for="breed-sort">Sort</label>
+          <select id="breed-sort" name="sort" data-breed-sort>
+            <option value="recommended">Recommended</option>
+            <option value="popular">Most popular</option>
+            <option value="az">A → Z</option>
+            <option value="za">Z → A</option>
+            <option value="smallest">Smallest first</option>
+            <option value="largest">Largest first</option>
+            <option value="lifespan-desc">Longest lived</option>
+            <option value="lifespan-asc">Shortest lived</option>
+            <option value="low-shedding">Lowest shedding</option>
+            <option value="easy-training">Easiest to train</option>
+          </select>
+        </div>
+        <button type="submit" class="breed-search-submit sr-only">Search</button>
+      </form>
+
+      <noscript>
+        <p class="breed-noscript-note">Search above works without JavaScript. Tap-to-filter and advanced filters require JavaScript to be enabled.</p>
+      </noscript>
+
+      <div class="breed-quick-filters" aria-label="Quick breed filters">
+        {quickFilters.map((item) => (
+          <button
+            type="button"
+            class="breed-quick-filter"
+            data-quick-filter={JSON.stringify(item.state)}
+          >
+            <span aria-hidden="true">{item.emoji}</span>
+            <strong>{item.label}</strong>
+            <em>{item.description}</em>
+          </button>
+        ))}
+      </div>
+
+      <div class="breed-active-row">
+        <p id="breed-result-count" class="breed-result-count" aria-live="polite" aria-atomic="true">
+          Showing {breedsLength} breeds
+        </p>
+        <div id="breed-active-chips" class="breed-active-chips" aria-label="Active filters"></div>
+        <button type="button" id="breed-clear-filters" class="breed-clear-filters" hidden>
+          Clear all
+        </button>
+      </div>
+
+      <button
+        type="button"
+        class="breed-filter-toggle"
+        data-filter-toggle
+        aria-expanded="false"
+        aria-controls="breed-filter-panel"
+      >
+        <span>Advanced filters</span>
+        <span class="breed-filter-count" id="breed-filter-count" hidden>0</span>
+        <em aria-hidden="true">▾</em>
+      </button>
+
+      <div id="breed-filter-panel" class="breed-filter-panel" data-filter-panel>
+        <div class="breed-filter-panel__grid">
+          <fieldset class="breed-filter-group">
+            <legend>Breed type</legend>
+            <div class="breed-filter-buttons">
+              <button type="button" data-filter="type" data-value="all" class="breed-filter-button is-active">All</button>
+              {filterOptions.types.map((option) => (
+                <button type="button" data-filter="type" data-value={option.value} class="breed-filter-button">
+                  {option.emoji && <span aria-hidden="true">{option.emoji}</span>}
+                  {option.label}
+                  <span class="breed-count-badge" data-count-filter="type" data-count-value={option.value}>{option.count}</span>
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          <fieldset class="breed-filter-group">
+            <legend>Size</legend>
+            <div class="breed-filter-buttons">
+              <button type="button" data-filter="size" data-value="all" class="breed-filter-button is-active">All</button>
+              {filterOptions.sizes.map((option) => (
+                <button type="button" data-filter="size" data-value={option.value} class="breed-filter-button">
+                  {option.emoji && <span aria-hidden="true">{option.emoji}</span>}
+                  {option.label}
+                  <span class="breed-count-badge" data-count-filter="size" data-count-value={option.value}>{option.count}</span>
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          <fieldset class="breed-filter-group">
+            <legend>Energy</legend>
+            <div class="breed-filter-buttons">
+              <button type="button" data-filter="energy" data-value="all" class="breed-filter-button is-active">All</button>
+              {filterOptions.energy.map((option) => (
+                <button type="button" data-filter="energy" data-value={option.value} class="breed-filter-button">
+                  {option.emoji && <span aria-hidden="true">{option.emoji}</span>}
+                  {option.label}
+                  <span class="breed-count-badge" data-count-filter="energy" data-count-value={option.value}>{option.count}</span>
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          <fieldset class="breed-filter-group">
+            <legend>Shedding</legend>
+            <div class="breed-filter-buttons">
+              <button type="button" data-filter="shedding" data-value="all" class="breed-filter-button is-active">All</button>
+              {filterOptions.shedding.map((option) => (
+                <button type="button" data-filter="shedding" data-value={option.value} class="breed-filter-button">
+                  {option.emoji && <span aria-hidden="true">{option.emoji}</span>}
+                  {option.label}
+                  <span class="breed-count-badge" data-count-filter="shedding" data-count-value={option.value}>{option.count}</span>
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          <fieldset class="breed-filter-group">
+            <legend>Trainability</legend>
+            <div class="breed-filter-buttons">
+              <button type="button" data-filter="training" data-value="all" class="breed-filter-button is-active">All</button>
+              {filterOptions.training.map((option) => (
+                <button type="button" data-filter="training" data-value={option.value} class="breed-filter-button">
+                  {option.emoji && <span aria-hidden="true">{option.emoji}</span>}
+                  {option.label}
+                  <span class="breed-count-badge" data-count-filter="training" data-count-value={option.value}>{option.count}</span>
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          <fieldset class="breed-filter-group">
+            <legend>Coat type</legend>
+            <div class="breed-filter-buttons">
+              <button type="button" data-filter="coat" data-value="all" class="breed-filter-button is-active">All</button>
+              {filterOptions.coats.map((option) => (
+                <button type="button" data-filter="coat" data-value={option.value} class="breed-filter-button">
+                  {option.label}
+                  <span class="breed-count-badge" data-count-filter="coat" data-count-value={option.value}>{option.count}</span>
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          <fieldset class="breed-filter-group">
+            <legend>Group</legend>
+            <div class="breed-filter-buttons">
+              <button type="button" data-filter="group" data-value="all" class="breed-filter-button is-active">All</button>
+              {topGroups.map((option) => (
+                <button type="button" data-filter="group" data-value={option.value} class="breed-filter-button">
+                  {option.emoji && <span aria-hidden="true">{option.emoji}</span>}
+                  {option.label}
+                  <span class="breed-count-badge" data-count-filter="group" data-count-value={option.value}>{option.count}</span>
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          <fieldset class="breed-filter-group">
+            <legend>Origin</legend>
+            <div class="breed-filter-buttons">
+              <button type="button" data-filter="origin" data-value="all" class="breed-filter-button is-active">All</button>
+              {topOrigins.map((option) => (
+                <button type="button" data-filter="origin" data-value={option.value} class="breed-filter-button">
+                  {option.emoji && <span aria-hidden="true">{option.emoji}</span>}
+                  {option.label}
+                  <span class="breed-count-badge" data-count-filter="origin" data-count-value={option.value}>{option.count}</span>
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          <fieldset class="breed-filter-group">
+            <legend>Lifespan</legend>
+            <div class="breed-filter-buttons">
+              <button type="button" data-filter="lifespan" data-value="all" class="breed-filter-button is-active">All</button>
+              {filterOptions.lifespan.map((option) => (
+                <button type="button" data-filter="lifespan" data-value={option.value} class="breed-filter-button">
+                  {option.label}
+                  <span class="breed-count-badge" data-count-filter="lifespan" data-count-value={option.value}>{option.count}</span>
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          <fieldset class="breed-filter-group">
+            <legend>Available guides</legend>
+            <div class="breed-filter-buttons">
+              <button type="button" data-filter="guide" data-value="all" class="breed-filter-button is-active">All</button>
+              {filterOptions.guides.map((option) => (
+                <button type="button" data-filter="guide" data-value={option.value} class="breed-filter-button">
+                  {option.label}
+                  <span class="breed-count-badge" data-count-filter="guide" data-count-value={option.value}>{option.count}</span>
+                </button>
+              ))}
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+
+    {popularBreeds.length > 0 && (
+      <section class="breed-popular-strip" aria-label="Popular breed shortcuts">
+        <div class="breed-popular-strip__header">
+          <p>Popular breeds</p>
+          <a href="/breeds/?sort=popular">View popular →</a>
+        </div>
+        <div class="breed-chip-row">
+          {popularBreeds.map((breed) => (
+            <a href={`/breeds/${breed.slug}`}>{breed.name}</a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="breed-grid-section" aria-labelledby="breed-grid-title">
+      <div class="breed-grid-section__header">
+        <div>
+          <p class="breed-directory-eyebrow">Directory</p>
+          <h2 id="breed-grid-title">Browse breed profiles</h2>
+        </div>
+        <button type="button" class="breed-load-more" data-show-all>
+          Show all breeds
+        </button>
+      </div>
+
+      <div id="breed-grid" class="breed-grid" role="list" aria-label="Dog breed cards">
+        {breeds.map((breed, index) => (
+          <BreedResultCard breed={breed} index={index} defaultVisibleCount={defaultVisibleCount} />
+        ))}
+      </div>
+
+      <div id="breed-no-results" class="breed-no-results" hidden>
+        <span aria-hidden="true">🔍</span>
+        <h2>No breeds match those filters</h2>
+        <p>Try removing one filter, clearing the search term, or starting with a broader quick filter.</p>
+        <div>
+          <button type="button" data-clear-all-empty>Clear all filters</button>
+          <a href="/tools/breed-match">Take breed quiz</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>

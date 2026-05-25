@@ -1,0 +1,82 @@
+---
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+
+interface Props {
+  breed: NormalizedBreed;
+  index: number;
+  defaultVisibleCount: number;
+}
+
+const { breed, index, defaultVisibleCount } = Astro.props;
+
+const visibleByDefault = index < defaultVisibleCount;
+
+const guideChips = (['cost', 'food', 'health', 'training'] as const)
+  .map((key) => breed.guideLinks.find((link) => link.key === key && link.available))
+  .filter((link): link is NonNullable<typeof link> => Boolean(link))
+  .slice(0, 3);
+---
+
+<article
+  class:list={['breed-directory-card', !visibleByDefault && 'is-extra']}
+  data-breed-card
+  data-slug={breed.slug}
+  data-default-visible={visibleByDefault ? 'true' : 'false'}
+  role="listitem"
+>
+  <a href={`/breeds/${breed.slug}`} class="breed-directory-card__image" aria-label={`View ${breed.name} breed profile`}>
+    {breed.primaryImage ? (
+      <img
+        src={breed.primaryImage}
+        alt={breed.imageAlt}
+        width="360"
+        height="240"
+        loading={index < 12 ? 'eager' : 'lazy'}
+        fetchpriority={index === 0 ? 'high' : 'auto'}
+        decoding="async"
+        data-card-image
+      />
+    ) : null}
+    <span class:list={['breed-directory-card__fallback', breed.primaryImage && 'is-hidden']} data-card-fallback aria-hidden="true">
+      {breed.fallbackEmoji}
+    </span>
+    <span class="breed-directory-card__type">{breed.type === 'mixed' ? 'Mixed' : 'Purebred'}</span>
+  </a>
+
+  <div class="breed-directory-card__body">
+    <div class="breed-directory-card__title-row">
+      <div>
+        <h3><a href={`/breeds/${breed.slug}`}>{breed.name}</a></h3>
+        <p>{breed.group.label}{breed.origin.key !== 'unknown' ? ` · ${breed.origin.label}` : ''}</p>
+      </div>
+      {breed.popularityRank < 9999 && (
+        <span class="breed-directory-card__rank">#{breed.popularityRank}</span>
+      )}
+    </div>
+
+    <div class="breed-directory-card__facts" aria-label={`${breed.name} quick facts`}>
+      <span>{breed.size.label}</span>
+      <span>{breed.energy.label} energy</span>
+      {breed.lifespan.label && <span>{breed.lifespan.label}</span>}
+      {breed.weight.label && <span>{breed.weight.label}</span>}
+    </div>
+
+    <div class="breed-directory-card__traits">
+      <span class:list={['is-shedding', breed.flags.isLowShedding && 'is-positive']}>
+        {breed.shedding.label} shedding
+      </span>
+      <span class:list={['is-training', breed.flags.isEasyToTrain && 'is-positive', breed.flags.isHardToTrain && 'is-warning']}>
+        {breed.training.label} training
+      </span>
+      {breed.coat.key !== 'unknown' && <span>{breed.coat.label} coat</span>}
+    </div>
+
+    {guideChips.length > 0 && (
+      <div class="breed-directory-card__guides" aria-label={`${breed.name} available guides`}>
+        {guideChips.map((guide) => (
+          <a href={guide.href}>{guide.label}</a>
+        ))}
+      </div>
+    )}
+  </div>
+</article>
