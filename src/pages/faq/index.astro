@@ -136,6 +136,32 @@ const faqPageLd = {
         </div>
       </section>
 
+      <section aria-labelledby="faq-tools-title" class="faq-hub__section">
+        <h2 id="faq-tools-title" class="faq-hub__section-heading">Plan with PupWiki Tools</h2>
+        <div class="faq-hub__tools-grid">
+          <a href="/breeds" class="faq-hub__tool-card">
+            <span class="faq-hub__tool-icon" aria-hidden="true">🐕</span>
+            <strong>Browse breed guides</strong>
+            <span>Search and compare 350+ breeds with decision signals.</span>
+          </a>
+          <a href="/tools/breed-match" class="faq-hub__tool-card">
+            <span class="faq-hub__tool-icon" aria-hidden="true">✅</span>
+            <strong>Breed match quiz</strong>
+            <span>Answer a few questions and get matched to breeds that fit your lifestyle.</span>
+          </a>
+          <a href="/tools/compare" class="faq-hub__tool-card">
+            <span class="faq-hub__tool-icon" aria-hidden="true">⚖️</span>
+            <strong>Compare breeds</strong>
+            <span>Compare two or more breeds side by side across traits, cost and care.</span>
+          </a>
+          <a href="/cost-calculator" class="faq-hub__tool-card">
+            <span class="faq-hub__tool-icon" aria-hidden="true">💰</span>
+            <strong>Estimate costs</strong>
+            <span>Get a breed-specific planning estimate for food, vet, grooming and more.</span>
+          </a>
+        </div>
+      </section>
+
       <section aria-labelledby="faq-breeds-title" class="faq-hub__section">
         <h2 id="faq-breeds-title" class="faq-hub__section-heading">Popular Breeds</h2>
         <div class="faq-hub__breed-grid">
@@ -372,9 +398,54 @@ const faqPageLd = {
 .breadcrumb__current { font-size: var(--text-sm); color: var(--color-body-soft); font-weight: var(--weight-medium); }
 .breadcrumb__sep { color: var(--color-placeholder); font-size: var(--text-sm); }
 
+/* Tools grid */
+.faq-hub__tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-4);
+}
+
+.faq-hub__tool-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  text-decoration: none;
+  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.faq-hub__tool-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-sm);
+}
+
+.faq-hub__tool-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: var(--space-1);
+}
+
+.faq-hub__tool-card strong {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--color-heading);
+}
+
+.faq-hub__tool-card span:last-child {
+  font-size: var(--text-xs);
+  color: var(--color-body-soft);
+  line-height: 1.5;
+}
+
 @media (max-width: 768px) {
   .faq-hub__topics-grid,
   .faq-hub__breed-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .faq-hub__tools-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -383,6 +454,9 @@ const faqPageLd = {
   .faq-hub__topics-grid,
   .faq-hub__breed-grid {
     grid-template-columns: 1fr;
+  }
+  .faq-hub__tools-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 </style>

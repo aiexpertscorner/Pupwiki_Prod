@@ -1,0 +1,82 @@
+---
+interface Props {
+  items: { q: string; a: string }[];
+  idPrefix?: string;
+}
+
+const { items, idPrefix = 'faq' } = Astro.props;
+---
+
+{items.length > 0 && (
+  <div class="faq-accordion">
+    {items.map((item, i) => (
+      <details class="faq-accordion__item" id={`${idPrefix}-${i}`}>
+        <summary class="faq-accordion__question">{item.q}</summary>
+        <p class="faq-accordion__answer">{item.a}</p>
+      </details>
+    ))}
+  </div>
+)}
+
+<style>
+.faq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.faq-accordion__item {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.faq-accordion__question {
+  min-height: 44px;
+  padding: var(--space-3) var(--space-5);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  color: var(--color-heading);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  background: var(--color-surface);
+  user-select: none;
+  line-height: 1.4;
+}
+
+.faq-accordion__question::after {
+  content: '+';
+  font-size: var(--text-lg);
+  color: var(--color-muted);
+  flex-shrink: 0;
+  font-weight: var(--weight-normal);
+}
+
+details[open] .faq-accordion__question::after {
+  content: '−';
+}
+
+.faq-accordion__question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-accordion__answer {
+  padding: var(--space-3) var(--space-5) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: 1.65;
+  background: var(--color-bg);
+  margin: 0;
+  border-top: 1px solid var(--color-border);
+}
+
+@media (hover: hover) {
+  .faq-accordion__question:hover {
+    background: var(--color-surface-alt, var(--color-surface));
+  }
+}
+</style>

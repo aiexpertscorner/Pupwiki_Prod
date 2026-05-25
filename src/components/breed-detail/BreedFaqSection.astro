@@ -1,4 +1,7 @@
 ---
+import FaqAccordion from '../faq/FaqAccordion.astro';
+import FaqTopicCards from '../faq/FaqTopicCards.astro';
+import FaqDisclaimer from '../faq/FaqDisclaimer.astro';
 import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
 
 interface Props {
@@ -9,24 +12,34 @@ interface Props {
 
 const { faqItems, breed, slug } = Astro.props;
 const b = breed.raw;
+
+const FAQ_TOPICS = [
+  { label: 'Cost',        href: `/faq/${slug}-cost`,        icon: '💰' },
+  { label: 'Grooming',    href: `/faq/${slug}-grooming`,    icon: '✂️' },
+  { label: 'Training',    href: `/faq/${slug}-training`,    icon: '🦮' },
+  { label: 'Health',      href: `/faq/${slug}-health`,      icon: '🩺' },
+  { label: 'Behaviour',   href: `/faq/${slug}-behavior`,    icon: '🐾' },
+  { label: 'Exercise',    href: `/faq/${slug}-exercise`,    icon: '🏃' },
+  { label: 'Feeding',     href: `/faq/${slug}-feeding`,     icon: '🍖' },
+  { label: 'Suitability', href: `/faq/${slug}-suitability`, icon: '🏠' },
+];
 ---
 
-{faqItems.length > 0 && <section class="breed-section" aria-labelledby="breed-faq-title">
-  <div class="breed-section__header">
-    <p class="breed-eyebrow">Common questions</p>
-    <h2 id="breed-faq-title">{b.name} Frequently Asked Questions</h2>
-  </div>
+{faqItems.length > 0 && (
+  <section class="breed-section" aria-labelledby="breed-faq-title">
+    <div class="breed-section__header">
+      <p class="breed-eyebrow">Common questions</p>
+      <h2 id="breed-faq-title">{b.name} Frequently Asked Questions</h2>
+    </div>
 
-  <div class="breed-faq-list">
-    {faqItems.slice(0, 6).map((faq) => (
-      <details class="breed-faq-item">
-        <summary class="breed-faq-q">{faq.q}</summary>
-        <p class="breed-faq-a">{faq.a}</p>
-      </details>
-    ))}
-  </div>
+    <FaqAccordion items={faqItems.slice(0, 6)} idPrefix={`breed-faq-${slug}`} />
 
-  <a href={`/faq/${slug}-suitability`} class="breed-faq-cta">
-    See all {b.name} FAQ topics →
-  </a>
-</section>}
+    <div class="breed-faq-section__footer">
+      <a href={`/faq/${slug}-suitability`} class="breed-faq-cta">
+        See all {b.name} FAQ topics →
+      </a>
+      <FaqTopicCards topics={FAQ_TOPICS} heading="Browse by topic" />
+      <FaqDisclaimer type="general" />
+    </div>
+  </section>
+)}
