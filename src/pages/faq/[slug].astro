@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import FaqDisclaimer from '../../components/faq/FaqDisclaimer.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -157,10 +158,7 @@ const TOPIC_ICONS: Record<string, string> = {
           </div>
 
           <footer class="faq-page__footer">
-            <p class="faq-page__disclaimer">
-              This page provides general breed-specific guidance and does not replace professional veterinary,
-              behavioural, or financial advice. Individual dogs vary significantly within any breed.
-            </p>
+            <FaqDisclaimer type="general" />
           </footer>
         </main>
 
@@ -187,6 +185,8 @@ const TOPIC_ICONS: Record<string, string> = {
               <li><a href={`/breeds/${breedSlug}`} class="faq-page__resource-link">🐶 {breedName} Breed Guide</a></li>
               <li><a href={`/cost-calculator/${breedSlug}`} class="faq-page__resource-link">💰 {breedName} Cost Calculator</a></li>
               <li><a href={`/dog-names/${breedSlug}`} class="faq-page__resource-link">✍️ {breedName} Dog Names</a></li>
+              <li><a href="/tools/breed-match" class="faq-page__resource-link">✅ Breed Match Quiz</a></li>
+              <li><a href="/tools/compare" class="faq-page__resource-link">⚖️ Compare Breeds</a></li>
               <li><a href="/faq" class="faq-page__resource-link">📚 FAQ Hub</a></li>
             </ul>
           </div>
@@ -316,14 +316,6 @@ const TOPIC_ICONS: Record<string, string> = {
   margin-block-start: var(--space-10);
   padding-block-start: var(--space-4);
   border-block-start: 1px solid var(--color-border);
-}
-
-.faq-page__disclaimer {
-  font-size: var(--text-sm);
-  color: var(--color-body-soft);
-  line-height: 1.6;
-  font-style: italic;
-  margin: 0;
 }
 
 .faq-page__sidebar {
