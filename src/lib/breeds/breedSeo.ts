@@ -30,13 +30,10 @@ export function buildBreedHubSeo(): BreedHubSeo {
 }
 
 export function buildBreedDetailSeo(breed: NormalizedBreed): BreedDetailSeo {
-  const title =
-    breed.raw?.seo?.title ||
-    `${breed.name} Guide: Traits, Care, Costs and Owner Fit | PupWiki`;
+  // Never use breed.raw.seo.title — data field contains banned terms ("best products" etc.)
+  const title = `${breed.name} Dog Breed Guide — Traits, Care, Costs and Owner Fit | PupWiki`;
 
-  const description =
-    breed.raw?.seo?.description ||
-    `Learn whether the ${breed.name} may fit your lifestyle. Compare size, energy, grooming, training, health context, ownership costs, FAQs and next steps.`;
+  const description = `Learn about the ${breed.name}: size, energy, grooming, trainability, health context, ownership costs and owner fit. Compare breeds and estimate costs with PupWiki.`;
 
   return {
     title,
