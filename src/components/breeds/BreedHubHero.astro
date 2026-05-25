@@ -1,0 +1,73 @@
+---
+interface Props {
+  totalCount: number;
+  purebredCount: number;
+  mixedCount: number;
+  costCalculatorCount: number;
+}
+
+const { totalCount, purebredCount, mixedCount, costCalculatorCount } = Astro.props;
+---
+
+<section class="breed-directory-hero" aria-labelledby="breed-directory-title">
+  <div class="breed-directory-container">
+    <nav class="breed-directory-breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span aria-hidden="true">›</span>
+      <span aria-current="page">All Breeds</span>
+    </nav>
+
+    <div class="breed-directory-hero__grid">
+      <div class="breed-directory-hero__content">
+        <p class="breed-directory-eyebrow">
+          <span aria-hidden="true">🐾</span>
+          Breed finder
+        </p>
+
+        <h1 id="breed-directory-title">
+          Find the right dog breed faster.
+          <em>Search, compare and plan.</em>
+        </h1>
+
+        <p class="breed-directory-hero__desc">
+          Search and filter {totalCount} breed and mixed-breed guides by size, energy, coat, shedding,
+          trainability and owner fit. Compare key traits, estimate costs and use PupWiki tools
+          to plan care, training and puppy prep.
+        </p>
+
+        <div class="breed-directory-hero__actions">
+          <a href="#breed-finder" class="breed-directory-button breed-directory-button--primary">
+            Browse breeds
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href="/tools/breed-match" class="breed-directory-button breed-directory-button--secondary">
+            Take breed quiz
+          </a>
+          <a href="/tools/compare" class="breed-directory-button breed-directory-button--ghost">
+            Compare breeds
+          </a>
+        </div>
+      </div>
+
+      <aside class="breed-directory-hero-card" aria-label="Breed directory summary">
+        <div class="breed-directory-hero-card__icon" aria-hidden="true">🐕</div>
+        <p>Directory coverage</p>
+        <strong>{totalCount} breeds</strong>
+        <dl>
+          <div>
+            <dt>Purebreds</dt>
+            <dd>{purebredCount}</dd>
+          </div>
+          <div>
+            <dt>Mixed breeds</dt>
+            <dd>{mixedCount}</dd>
+          </div>
+          <div>
+            <dt>Cost tools</dt>
+            <dd>{costCalculatorCount}</dd>
+          </div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
