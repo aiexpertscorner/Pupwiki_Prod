@@ -65,6 +65,8 @@
     "analytics:audit:ga4": "node scripts/analytics/audit-traffic.mjs --ga4",
     "sitemap:generate": "node generate-sitemap.mjs",
     "affiliate:sync": "npm run awin:sync && npm run partners:generate",
+    "images:guides": "node scripts/enrich-homepage-guides.mjs",
+    "images:guides:dry": "node scripts/enrich-homepage-guides.mjs --dry-run",
     "images:hero": "node scripts/enrich-home-hero-images.mjs",
     "images:hero:ci": "node scripts/enrich-home-hero-images.mjs || echo \"Homepage hero image enrichment failed or skipped; continuing build with existing hero images\"",
     "images:content": "node scripts/enrich-content-images.mjs --apply --limit 120",
