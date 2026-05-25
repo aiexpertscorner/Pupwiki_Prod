@@ -1,0 +1,44 @@
+---
+import Icon from '../ui/Icon.astro';
+import BreedCareProfile from '../enrichment/BreedCareProfile.astro';
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+import type { BreedDecisionSignals } from '../../lib/breeds/breedSignals';
+
+interface Props {
+  breed: NormalizedBreed;
+  signals: BreedDecisionSignals;
+  enrichmentData: any | null;
+}
+
+const { breed, signals, enrichmentData } = Astro.props;
+const b = breed.raw;
+const hasCareProfile = !!enrichmentData?.careProfile;
+const hasCareTips = Array.isArray(b.care_tips) && b.care_tips.length > 0;
+---
+
+{(hasCareTips || hasCareProfile) && (
+  <>
+    {hasCareTips && (
+      <section id="breed-care" class="breed-section" aria-labelledby="care-title">
+        <div class="breed-section__header">
+          <p class="breed-eyebrow">Care basics</p>
+          <h2 id="care-title">{b.name} Care Tips</h2>
+        </div>
+        <div class="breed-tip-list">
+          {(b.care_tips as string[]).map((tip) => (
+            <article>
+              <span aria-hidden="true"><Icon name="check" size={16} /></span>
+              <p>{tip}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {hasCareProfile && (
+      <section class="breed-section" aria-label={`${b.name} care profile`}>
+        <BreedCareProfile breedName={b.name} careProfile={enrichmentData.careProfile} />
+      </section>
+    )}
+  </>
+)}

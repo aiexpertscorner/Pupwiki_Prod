@@ -1,0 +1,102 @@
+---
+import Icon from '../ui/Icon.astro';
+import type { IconName } from '../ui/Icon.astro';
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+import type { BreedResourceItem, BreedPartnerClusterLink } from '../../lib/breeds/buildBreedResourceItems';
+
+interface ClusterLinkWithIcon {
+  key: string;
+  href: string;
+  icon: IconName;
+  label: string;
+}
+
+interface Props {
+  breed: NormalizedBreed;
+  resourceItems: BreedResourceItem[];
+  partnerClusterLinks: BreedPartnerClusterLink[];
+  safeLifespanYears: number | null;
+  clusterLinks: ClusterLinkWithIcon[];
+  slug: string;
+}
+
+const { breed, partnerClusterLinks, safeLifespanYears, clusterLinks, slug } = Astro.props;
+const b = breed.raw;
+const COST_CALC_HREF = `/cost-calculator/${slug}`;
+
+const COAT_LABEL: Record<string, string> = {
+  double: 'Double coat', long: 'Long coat', short: 'Short coat',
+  wiry: 'Wire coat', curly: 'Curly coat', silky: 'Silky coat',
+  corded: 'Corded', hairless: 'Hairless', wavy: 'Wavy coat',
+};
+
+function titleCase(value?: string | null) {
+  if (!value) return '';
+  return String(value).replace(/[-_]+/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function getIntelligenceTier(r?: number): string | null {
+  if (!r) return null;
+  if (r <= 10) return 'elite';
+  if (r <= 30) return 'above-average';
+  if (r <= 60) return 'average';
+  return 'below-average';
+}
+
+const rank = b.ranking_data || {};
+const life = b.life_expectancy || {};
+const wt = b.weight || {};
+
+const quickFacts = [
+  ['Size', titleCase(b.size_category)],
+  ['Energy', titleCase(b.energy_level)],
+  ['Shedding', titleCase(b.shedding_level)],
+  ['Training', titleCase(b.training_level)],
+  ['Coat', COAT_LABEL[b.coat_type] || titleCase(b.coat_type)],
+  ['Grooming', b.grooming_freq],
+  wt.min_lbs ? ['Weight', `${wt.min_lbs}–${wt.max_lbs} lbs`] : null,
+  life.min ? ['Lifespan', `${life.min}–${life.max} years`] : null,
+  b.akc_group ? ['AKC Group', b.akc_group.replace(' Group', '')] : null,
+  b.origin_country ? ['Origin', b.origin_country] : null,
+  getIntelligenceTier(rank.intelligence_rank) ? ['Intelligence', titleCase(getIntelligenceTier(rank.intelligence_rank))] : null,
+  ['Owner difficulty', `${breed.ownerDifficulty ?? 5}/10`],
+].filter(Boolean) as [string, string][];
+---
+
+<aside class="breed-sidebar" aria-label={`${b.name} sidebar`}>
+  <div class="breed-sidebar__inner">
+    <section class="breed-sidebar-card">
+      <h2>Quick Facts</h2>
+      <dl>
+        {quickFacts.map(([label, value]) => (
+          <div>
+            <dt>{label}</dt>
+            <dd>{value}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+
+    <section class="breed-sidebar-card">
+      <h2>{b.name} Guides</h2>
+      <nav class="breed-sidebar-nav">
+        <a href={COST_CALC_HREF} class="is-featured">
+          <span><Icon name="calculator" size={16} /></span>
+          <strong>Cost calculator</strong>
+        </a>
+        {clusterLinks.map((item) => (
+          <a href={item.href}>
+            <span><Icon name={item.icon} size={16} /></span>
+            <strong>{item.label}</strong>
+          </a>
+        ))}
+        {partnerClusterLinks.slice(0, 3).map((item) => (
+          <a href={item.href}>
+            <span><Icon name={(item.icon || 'breed') as IconName} size={16} /></span>
+            <strong>{item.label}</strong>
+          </a>
+        ))}
+      </nav>
+    </section>
+  </div>
+</aside>

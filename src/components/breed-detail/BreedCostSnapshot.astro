@@ -1,0 +1,74 @@
+---
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+import type { BreedDecisionSignals } from '../../lib/breeds/breedSignals';
+
+interface Props {
+  breed: NormalizedBreed;
+  signals: BreedDecisionSignals;
+  slug: string;
+}
+
+const { breed, signals, slug } = Astro.props;
+const b = breed.raw;
+const rank = b.ranking_data || {};
+const COST_CALC_HREF = `/cost-calculator/${slug}`;
+
+const COST_TIER_LABEL: Record<string, string> = {
+  'very-high': 'Higher cost breed',
+  high: 'Significant budget',
+  medium: 'Moderate budget',
+  low: 'Lower running cost',
+};
+
+const COST_TIER_NOTE: Record<string, string> = {
+  'very-high': 'Lifetime costs can be substantial for this breed. Plan food, vet, grooming, and care carefully.',
+  high: 'Budget for higher ongoing costs — food, vet care, and grooming can add up significantly.',
+  medium: 'Moderate ongoing costs typical of most breeds — food, routine vet care, and grooming apply.',
+  low: 'Generally lower running costs compared to larger or higher-maintenance breeds.',
+};
+
+function moneyK(value?: number) {
+  const num = Number(value || 0);
+  return Number.isFinite(num) && num > 0 ? `$${Math.round(num / 1000)}K` : '';
+}
+
+const lifetimeCost = moneyK(rank.lifetime_cost_usd);
+const annualFood = rank.annual_food_cost ? `$${rank.annual_food_cost}/yr` : null;
+const tierLabel = COST_TIER_LABEL[signals.costLoad] ?? 'Estimate costs';
+const tierNote = COST_TIER_NOTE[signals.costLoad] ?? '';
+---
+
+<section class="breed-section breed-cost-snapshot" aria-labelledby="cost-snapshot-title">
+  <div class="breed-section__header">
+    <p class="breed-eyebrow">Cost planning</p>
+    <h2 id="cost-snapshot-title">{b.name} Ownership Costs</h2>
+  </div>
+  <div class="breed-cost-snapshot__inner">
+    <div class:list={['breed-cost-snapshot__tier', `is-cost-${signals.costLoad}`]}>
+      <strong>{tierLabel}</strong>
+      <p>{tierNote}</p>
+    </div>
+    {(lifetimeCost || annualFood) && (
+      <div class="breed-cost-snapshot__figures">
+        {lifetimeCost && (
+          <div class="breed-cost-snapshot__figure">
+            <span class="breed-cost-snapshot__figure-label">Estimated lifetime cost</span>
+            <strong class="breed-cost-snapshot__figure-value">{lifetimeCost}</strong>
+          </div>
+        )}
+        {annualFood && (
+          <div class="breed-cost-snapshot__figure">
+            <span class="breed-cost-snapshot__figure-label">Annual food estimate</span>
+            <strong class="breed-cost-snapshot__figure-value">{annualFood}</strong>
+          </div>
+        )}
+      </div>
+    )}
+    <a href={COST_CALC_HREF} class="breed-button breed-button--primary">
+      Get a full cost estimate for the {b.name} <span aria-hidden="true">→</span>
+    </a>
+    <p class="breed-cost-snapshot__disclaimer">
+      Planning estimates only. Actual costs vary by location, provider, health, lifestyle, and care choices.
+    </p>
+  </div>
+</section>

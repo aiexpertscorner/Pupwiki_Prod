@@ -1,0 +1,37 @@
+---
+import Icon from '../ui/Icon.astro';
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+
+interface Props {
+  breed: NormalizedBreed;
+  slug: string;
+}
+
+const { breed, slug } = Astro.props;
+const b = breed.raw;
+const COST_CALC_HREF = `/cost-calculator/${slug}`;
+---
+
+<section class="breed-section breed-section--decision" aria-labelledby="decision-title">
+  <div class="breed-section__header">
+    <p class="breed-eyebrow">Before you choose</p>
+    <h2 id="decision-title">Make an Informed {b.name} Decision</h2>
+  </div>
+  <div class="breed-decision-grid">
+    <a href="/tools/breed-match">
+      <span><Icon name="pawprint" size={20} /></span>
+      <strong>Is this breed right for me?</strong>
+      <p>Compare your lifestyle, home, experience level, and activity needs.</p>
+    </a>
+    <a href={COST_CALC_HREF}>
+      <span><Icon name="calculator" size={20} /></span>
+      <strong>What does a {b.name} cost?</strong>
+      <p>Estimate puppy, annual, food, care, and lifetime ownership costs.</p>
+    </a>
+    <a href="/guides/first-dog">
+      <span><Icon name="info" size={20} /></span>
+      <strong>New to dog ownership?</strong>
+      <p>Prepare your home, budget, routine, and expectations before adoption.</p>
+    </a>
+  </div>
+</section>

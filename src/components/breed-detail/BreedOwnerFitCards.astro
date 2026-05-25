@@ -1,0 +1,28 @@
+---
+import type { BreedOwnerFitCard } from '../../lib/breeds/breedDecisionEngine';
+
+interface Props {
+  cards: BreedOwnerFitCard[];
+}
+
+const { cards } = Astro.props;
+---
+
+<section class="breed-section breed-owner-fit" aria-labelledby="owner-fit-title">
+  <div class="breed-section__header">
+    <p class="breed-eyebrow">Owner fit</p>
+    <h2 id="owner-fit-title">Is This Breed Right for You?</h2>
+    <p>Six planning signals to compare against your lifestyle before committing.</p>
+  </div>
+  <div class="breed-owner-fit__grid">
+    {cards.map((card) => (
+      <div class:list={['breed-owner-fit__card', `is-${card.tone}`]}>
+        <div class="breed-owner-fit__card-header">
+          <span class="breed-owner-fit__label">{card.label}</span>
+          <strong class="breed-owner-fit__value">{card.value}</strong>
+        </div>
+        <p class="breed-owner-fit__explanation">{card.explanation}</p>
+      </div>
+    ))}
+  </div>
+</section>

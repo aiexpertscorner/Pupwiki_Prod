@@ -1,0 +1,68 @@
+---
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+import type { BreedDecisionSignals } from '../../lib/breeds/breedSignals';
+
+interface Props {
+  breed: NormalizedBreed;
+  signals: BreedDecisionSignals;
+}
+
+const { breed, signals } = Astro.props;
+const b = breed.raw;
+const rank = b.ranking_data || {};
+const isWorkingHeritage = breed.flags.isWorkingHeritage;
+
+const intelligenceRank = rank.intelligence_rank ? Number(rank.intelligence_rank) : null;
+const intelligenceLabel = rank.intelligence_label ? String(rank.intelligence_label).trim() : null;
+
+const COMPLEXITY_SUMMARY: Record<string, string> = {
+  easy: `The ${b.name} tends to respond well to consistent, positive reinforcement training. Clear routines and early socialisation will give good results.`,
+  moderate: `The ${b.name} can learn reliably with consistent training — plan for regular sessions and reward-based methods. Some patience goes a long way.`,
+  hard: `Training the ${b.name} can be challenging and may benefit from professional guidance or prior dog experience. Independent-minded breeds benefit from structured, experienced handling.`,
+};
+
+const trainingSummary = COMPLEXITY_SUMMARY[signals.trainingComplexity] ?? COMPLEXITY_SUMMARY.moderate;
+
+const dominantTraits = Array.isArray(breed.dominantTraits) ? breed.dominantTraits : [];
+---
+
+<section class="breed-section breed-training-behavior" aria-labelledby="training-title">
+  <div class="breed-section__header">
+    <p class="breed-eyebrow">Training & behavior</p>
+    <h2 id="training-title">{b.name} Training Profile</h2>
+  </div>
+
+  <p class="breed-training-behavior__summary">{trainingSummary}</p>
+
+  <div class="breed-training-behavior__signals">
+    <div class:list={['breed-training-behavior__signal', `is-${signals.trainingComplexity}`]}>
+      <strong>Training complexity</strong>
+      <span>{signals.trainingComplexity === 'easy' ? 'Generally easy' : signals.trainingComplexity === 'hard' ? 'Challenging' : 'Moderate'}</span>
+    </div>
+    <div class:list={['breed-training-behavior__signal', `is-${signals.activityLoad}`]}>
+      <strong>Activity needs</strong>
+      <span>{signals.activityLoad === 'high' ? 'High — 60–90 min/day' : signals.activityLoad === 'low' ? 'Lower — 30–45 min/day' : 'Moderate — 45–60 min/day'}</span>
+    </div>
+    {intelligenceRank && intelligenceLabel && (
+      <div class="breed-training-behavior__signal is-neutral">
+        <strong>Intelligence ranking</strong>
+        <span>#{intelligenceRank} — {intelligenceLabel} tier</span>
+      </div>
+    )}
+  </div>
+
+  {isWorkingHeritage && (
+    <div class="breed-callout breed-callout--warm">
+      <p><strong>Working heritage:</strong> This breed has working or herding roots — structured daily activity and mental stimulation matter. Under-stimulation can lead to problem behaviours.</p>
+    </div>
+  )}
+
+  {dominantTraits.length > 0 && (
+    <div class="breed-training-behavior__traits">
+      <strong>Dominant temperament traits:</strong>
+      <ul>
+        {dominantTraits.slice(0, 4).map((trait: string) => <li>{trait}</li>)}
+      </ul>
+    </div>
+  )}
+</section>

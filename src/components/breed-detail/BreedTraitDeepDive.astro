@@ -1,0 +1,61 @@
+---
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+
+interface Props {
+  breed: NormalizedBreed;
+}
+
+const { breed } = Astro.props;
+const b = breed.raw;
+
+const COAT_LABEL: Record<string, string> = {
+  double: 'Double coat', long: 'Long coat', short: 'Short coat',
+  wiry: 'Wire coat', curly: 'Curly coat', silky: 'Silky coat',
+  corded: 'Corded', hairless: 'Hairless', wavy: 'Wavy coat',
+};
+
+function titleCase(value?: string | null) {
+  if (!value) return '';
+  return String(value).replace(/[-_]+/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function pctBar(value: number) { return Math.round((value || 0) * 100); }
+
+function pctBucket(value: number) {
+  const pct = Math.max(0, Math.min(100, Math.round((value || 0) * 100)));
+  return Math.round(pct / 10) * 10;
+}
+
+const TRAITS = [
+  { label: 'Energy',       val: b.traits?.energy_value       || 0, className: 'is-energy' },
+  { label: 'Shedding',     val: b.traits?.shedding_value     || 0, className: 'is-shedding' },
+  { label: 'Trainability', val: b.traits?.trainability_value || 0, className: 'is-training' },
+  { label: 'Grooming',     val: b.traits?.grooming_value     || 0, className: 'is-grooming' },
+  { label: 'Friendliness', val: b.traits?.demeanor_value     || 0, className: 'is-friendly' },
+];
+---
+
+<section id="breed-traits" class="breed-section" aria-labelledby="characteristics-title">
+  <div class="breed-section__header">
+    <p class="breed-eyebrow">Traits</p>
+    <h2 id="characteristics-title">{b.name} Characteristics</h2>
+  </div>
+  <div class="breed-traits-grid">
+    {TRAITS.map((trait) => (
+      <article class="breed-trait-card">
+        <p>{trait.label}</p>
+        <div class="breed-meter" aria-hidden="true">
+          <span class={`${trait.className} w-${pctBucket(trait.val)}`}></span>
+        </div>
+        <strong>{pctBar(trait.val)}%</strong>
+      </article>
+    ))}
+    {b.coat_type && (
+      <article class="breed-trait-card">
+        <p>Coat Type</p>
+        <strong>{COAT_LABEL[b.coat_type] || titleCase(b.coat_type)}</strong>
+        {b.grooming_freq && <span class="breed-trait-card__muted">{b.grooming_freq}</span>}
+      </article>
+    )}
+  </div>
+</section>
