@@ -13,6 +13,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "validate:ci": "npm run content:normalize:check && npm run content:refresh:check && npm run partners:check && npm run content:audit:public:ci && npm run amazon:links:audit",
+    "breed:data:audit": "node scripts/audit-breed-data-quality.mjs",
+    "breed:data:audit:strict": "node scripts/audit-breed-data-quality.mjs --strict",
     "hero:audit": "node scripts/audit-hero-system.mjs",
     "audit:awin": "node scripts/audit-awin-products.mjs",
     "build:awin-index": "node scripts/build-awin-product-index.mjs",
