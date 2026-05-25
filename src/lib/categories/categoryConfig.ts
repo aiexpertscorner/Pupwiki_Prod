@@ -91,7 +91,7 @@ export const CATEGORY_META = {
     seoDescription:
       'Find dog training guides by breed temperament and difficulty. Covers positive reinforcement, puppy vs adult training, no-pull gear, and breed-specific behavior resources.',
     primaryCta: { label: 'Browse training guides', href: '#breed-guides' },
-    secondaryCta: { label: 'Take breed quiz', href: '/breed-quiz' },
+    secondaryCta: { label: 'Find a breed match', href: '/tools/breed-match' },
   },
   grooming: {
     title: 'Grooming',
@@ -268,7 +268,7 @@ export const CATEGORY_LINK_BLOCKS: Record<CategorySlug, CategoryLink[]> = {
   ],
   training: [
     { title: 'Breed training guides', desc: 'Find training resources matched to temperament, energy and owner difficulty.', href: '#breed-guides', icon: '🦮' },
-    { title: 'Breed quiz', desc: 'Compare your lifestyle with breed traits before choosing a dog.', href: '/breed-quiz', icon: '🐾' },
+    { title: 'Breed match tool', desc: 'Compare your lifestyle with breed traits to find options that may fit.', href: '/tools/breed-match', icon: '🐾' },
     { title: 'Toys & enrichment', desc: 'Support training routines with enrichment and structured play.', href: '/categories/toys', icon: '🎾' },
   ],
   grooming: [

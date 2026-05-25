@@ -89,6 +89,13 @@ add('/privacy', 0.3, 'monthly');
 add('/contact', 0.35, 'monthly');
 add('/how-we-test', 0.55, 'monthly');
 
+// Planning tools hub and individual tools.
+add('/tools', 0.92, 'weekly');
+add('/tools/breed-match', 0.9, 'weekly');
+add('/tools/compare', 0.9, 'weekly');
+add('/tools/puppy-cost', 0.88, 'weekly');
+add('/tools/puppy-supplies', 0.88, 'weekly');
+
 // Category and cluster pages.
 // Note: 'insurance' omitted — /categories/insurance 301 redirects to /pet-insurance.
 const legacyCategories = ['dog-food','toys','beds','health','training','grooming','supplements','smart-tech','travel','lifestyle'];
