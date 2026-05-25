@@ -1,0 +1,45 @@
+---
+import type { BreedVerdict } from '../../lib/breeds/breedDecisionEngine';
+
+interface Props {
+  verdict: BreedVerdict;
+}
+
+const { verdict } = Astro.props;
+const toneClass = `breed-quick-verdict--${verdict.tone}`;
+---
+
+<section id="breed-overview" class:list={['breed-quick-verdict', toneClass]} aria-labelledby="verdict-title">
+  <div class="breed-container">
+    <div class="breed-quick-verdict__inner">
+      <div class="breed-quick-verdict__header">
+        <p class="breed-eyebrow">Owner fit snapshot</p>
+        <h2 id="verdict-title">{verdict.title}</h2>
+        <p class="breed-quick-verdict__summary">{verdict.summary}</p>
+      </div>
+
+      {(verdict.reasons.length > 0 || verdict.watchouts.length > 0) && (
+        <div class="breed-quick-verdict__columns">
+          {verdict.reasons.length > 0 && (
+            <div class="breed-quick-verdict__col">
+              <h3>Why it may work</h3>
+              <ul>
+                {verdict.reasons.map((r) => <li>{r}</li>)}
+              </ul>
+            </div>
+          )}
+          {verdict.watchouts.length > 0 && (
+            <div class="breed-quick-verdict__col breed-quick-verdict__col--watchouts">
+              <h3>Things to plan for</h3>
+              <ul>
+                {verdict.watchouts.map((w) => <li>{w}</li>)}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
+
+      <p class="breed-quick-verdict__assumption">{verdict.assumptions[0]}</p>
+    </div>
+  </div>
+</section>

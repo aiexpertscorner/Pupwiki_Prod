@@ -1,0 +1,124 @@
+---
+import BreedImage from '../breed/BreedImage.astro';
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+import type { BreedDecisionSignals } from '../../lib/breeds/breedSignals';
+
+interface Props {
+  breed: NormalizedBreed;
+  signals: BreedDecisionSignals;
+  links: Record<string, string | undefined | null>;
+  safeLifespanYears: number | null;
+  slug: string;
+}
+
+const { breed, links, safeLifespanYears, slug } = Astro.props;
+const b = breed.raw;
+const isCrossbreed = breed.isCrossbreed;
+const rank = b.ranking_data || {};
+const life = b.life_expectancy || {};
+const wt = b.weight || {};
+const ht = b.height || {};
+const COST_CALC_HREF = `/cost-calculator/${slug}`;
+
+const imageUrls = [
+  ...(Array.isArray(b.image_urls) ? b.image_urls : []),
+  ...(Array.isArray(b.image_gallery) ? b.image_gallery.map((item: any) => item.url || item.image_url) : []),
+  b.image_url,
+].filter(Boolean);
+
+const COAT_LABEL: Record<string, string> = {
+  double: 'Double coat', long: 'Long coat', short: 'Short coat',
+  wiry: 'Wire coat', curly: 'Curly coat', silky: 'Silky coat',
+  corded: 'Corded', hairless: 'Hairless', wavy: 'Wavy coat',
+};
+
+function titleCase(value?: string | null) {
+  if (!value) return '';
+  return String(value).replace(/[-_]+/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function truncate(value?: string, max = 420) {
+  if (!value) return '';
+  return value.length > max ? `${value.slice(0, max).trim()}…` : value;
+}
+---
+
+<section class="breed-hero" aria-labelledby="breed-title">
+  <div class="breed-container">
+    <nav class="breed-breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span aria-hidden="true">›</span>
+      <a href="/breeds">Breeds</a>
+      <span aria-hidden="true">›</span>
+      <span>{b.name}</span>
+    </nav>
+
+    {imageUrls.length > 2 && (
+      <div class="breed-gallery-strip" aria-label={`${b.name} photos`}>
+        {imageUrls.slice(1, 5).map((url: string, i: number) => (
+          <img src={url} alt={`${b.name} photo ${i + 2}`} loading="lazy" width="180" height="180" />
+        ))}
+      </div>
+    )}
+
+    <div class="breed-hero__grid">
+      <BreedImage breed={b} width={640} height={640} priority={true} showGallery={true} variant="hero" class="breed-hero__image" />
+
+      <div class="breed-hero__content">
+        <div class="breed-pills" aria-label={`${b.name} quick labels`}>
+          {isCrossbreed
+            ? <span class="breed-pill breed-pill--purple">Designer / Mixed Breed</span>
+            : <span class="breed-pill breed-pill--accent">{titleCase(b.size_category)} breed</span>}
+          {b.energy_level && <span class="breed-pill breed-pill--warm">{titleCase(b.energy_level)} energy</span>}
+          {b.coat_type && <span class="breed-pill">{COAT_LABEL[b.coat_type] || titleCase(b.coat_type)}</span>}
+          {b.akc_group && <span class="breed-pill breed-pill--purple">{b.akc_group}</span>}
+          {!isCrossbreed && b.origin_country && (
+            <a href={`/breeds?origin=${encodeURIComponent(b.origin_country)}`} class="breed-pill breed-pill--success">
+              🌍 {b.origin_country}
+            </a>
+          )}
+          {b.akc_popularity && b.akc_popularity <= 20 && (
+            <span class="breed-pill breed-pill--gold">🏆 #{b.akc_popularity} most popular</span>
+          )}
+          {isCrossbreed && b.is_poodle_mix && <span class="breed-pill breed-pill--success">🐩 Poodle mix</span>}
+        </div>
+
+        <h1 id="breed-title">{b.name}</h1>
+        {b.temperament && <p class="breed-hero__temperament">{b.temperament}</p>}
+        {b.description && <p class="breed-hero__description">{truncate(b.description)}</p>}
+
+        <div class="breed-quick-facts" aria-label={`${b.name} key facts`}>
+          {wt.min_lbs && wt.max_lbs && <span>⚖️ {wt.min_lbs}–{wt.max_lbs} lbs</span>}
+          {ht.min_in && ht.max_in && <span>📏 {ht.min_in}–{ht.max_in}"</span>}
+          {life.min && life.max && <span>🎂 {life.min}–{life.max} years</span>}
+          {rank.intelligence_rank && <span>🧠 Intelligence #{rank.intelligence_rank}</span>}
+        </div>
+
+        {isCrossbreed && b.parent_breeds?.length > 0 && (
+          <div class="breed-parent-row" aria-label={`${b.name} parent breeds`}>
+            <span>Mix of:</span>
+            {(b.parent_breeds as any[]).map((parent) => (
+              <a href={`/breeds/${parent.slug}`}>🐕 {parent.name}</a>
+            ))}
+          </div>
+        )}
+
+        <div class="breed-hero__actions">
+          <a href={COST_CALC_HREF} class="breed-button breed-button--primary">
+            Estimate {b.name} costs <span aria-hidden="true">→</span>
+          </a>
+          {links.names_page && (
+            <a href={links.names_page} class="breed-button breed-button--secondary">Find {b.name} names</a>
+          )}
+          <a href="#breed-guides" class="breed-button breed-button--secondary">Owner resources</a>
+          <button
+            class="breed-button breed-button--ghost js-shortlist-btn"
+            data-slug={slug}
+            data-name={b.name}
+            aria-label={`Save ${b.name} to shortlist`}
+          >♡ Save breed</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

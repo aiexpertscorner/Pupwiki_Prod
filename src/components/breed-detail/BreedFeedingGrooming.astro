@@ -1,0 +1,73 @@
+---
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+import type { BreedDecisionSignals } from '../../lib/breeds/breedSignals';
+
+interface Props {
+  breed: NormalizedBreed;
+  signals: BreedDecisionSignals;
+}
+
+const { breed, signals } = Astro.props;
+const b = breed.raw;
+
+const COAT_CARE_LABEL: Record<string, string> = {
+  short:    'minimal — rubber brush weekly, bath monthly',
+  hairless: 'skin-only — sunscreen and moisturiser required',
+  medium:   'moderate — slicker brush weekly, seasonal deshedding',
+  double:   'moderate-high — undercoat rake required; blows coat twice yearly',
+  wavy:     'moderate-high — weekly combing through to skin to prevent matting',
+  silky:    'high — daily detangling, pin brush only, professional trim every 8–10 weeks',
+  long:     'high — daily brushing minimum, professional trim every 8–10 weeks',
+  wiry:     'high — hand-stripping required; clipping softens wire texture permanently',
+  curly:    'very high — comb to skin daily, professional grooming every 6–8 weeks',
+  corded:   'specialist — cords must be separated by hand; mould risk if not dried thoroughly',
+};
+
+const GROOMING_LOAD_NOTE: Record<string, string> = {
+  high:     'Significant grooming commitment — budget time and professional grooming costs into your planning.',
+  moderate: 'Regular grooming applies — brushing and occasional professional sessions are typical.',
+  low:      'Lower grooming maintenance compared to many breeds — regular brushing is still recommended.',
+};
+
+const coatCareLabel = b.coat_type ? COAT_CARE_LABEL[b.coat_type] ?? null : null;
+const groomingNote = GROOMING_LOAD_NOTE[signals.groomingLoad] ?? GROOMING_LOAD_NOTE.moderate;
+const rank = b.ranking_data || {};
+const annualFood = rank.annual_food_cost ? `$${rank.annual_food_cost}/yr` : null;
+---
+
+<section class="breed-section breed-feeding-grooming" aria-labelledby="feeding-grooming-title">
+  <div class="breed-section__header">
+    <p class="breed-eyebrow">Feeding & grooming</p>
+    <h2 id="feeding-grooming-title">{b.name} Care Commitments</h2>
+  </div>
+
+  <div class="breed-feeding-grooming__grid">
+    <div class="breed-feeding-grooming__col">
+      <h3>Grooming</h3>
+      <p>{groomingNote}</p>
+      {coatCareLabel && (
+        <p class="breed-feeding-grooming__detail">
+          <strong>Coat care:</strong> {coatCareLabel}
+        </p>
+      )}
+      {b.grooming_freq && (
+        <p class="breed-feeding-grooming__detail">
+          <strong>Grooming frequency:</strong> {b.grooming_freq}
+        </p>
+      )}
+    </div>
+
+    <div class="breed-feeding-grooming__col">
+      <h3>Feeding</h3>
+      {annualFood
+        ? <p>Annual food costs for the {b.name} are estimated around <strong>{annualFood}</strong>. This varies by food type, quality, and individual dog size.</p>
+        : <p>Food costs vary by size, activity level, and food quality. Use the cost calculator for a personalised estimate.</p>
+      }
+      {b.size_category && (
+        <p class="breed-feeding-grooming__detail">
+          <strong>Size tier:</strong> {String(b.size_category).replace(/[-_]+/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())} — affects portion size and food type recommendations.
+        </p>
+      )}
+    </div>
+  </div>
+</section>

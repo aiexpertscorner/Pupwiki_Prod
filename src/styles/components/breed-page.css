@@ -1621,3 +1621,322 @@
   width: 100%;
   min-height: 90px;
 }
+
+/* ── Sprint 4: Decision system sections ─────────────────────── */
+
+/* Quick verdict */
+.breed-quick-verdict {
+  padding-block: clamp(2rem, 4vw, 3.5rem);
+  background: var(--color-bg-soft);
+  border-bottom: 1px solid var(--color-border);
+}
+.breed-quick-verdict--strong-fit { border-left: 4px solid var(--color-success, #22c55e); }
+.breed-quick-verdict--needs-planning { border-left: 4px solid var(--color-warning, #f59e0b); }
+.breed-quick-verdict--balanced { border-left: 4px solid var(--color-primary); }
+
+.breed-quick-verdict__inner {
+  max-width: 56rem;
+  margin-inline: auto;
+  padding-inline: var(--pw-page-gutter, 1.25rem);
+}
+.breed-quick-verdict__header { margin-bottom: var(--space-6); }
+.breed-quick-verdict__header h2 {
+  font-size: clamp(var(--text-xl), 3vw, var(--text-2xl));
+  line-height: 1.3;
+  margin-block: var(--space-2) var(--space-3);
+}
+.breed-quick-verdict__summary {
+  color: var(--color-body-soft);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  max-width: 48rem;
+}
+
+.breed-quick-verdict__columns {
+  display: grid;
+  gap: var(--space-6);
+  margin-bottom: var(--space-6);
+}
+@media (min-width: 640px) {
+  .breed-quick-verdict__columns { grid-template-columns: 1fr 1fr; }
+}
+
+.breed-quick-verdict__col h3 {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  margin-bottom: var(--space-3);
+}
+.breed-quick-verdict__col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.breed-quick-verdict__col li {
+  padding-left: var(--space-5);
+  position: relative;
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  line-height: 1.5;
+}
+.breed-quick-verdict__col li::before { content: '✓'; position: absolute; left: 0; color: var(--color-success, #22c55e); font-weight: var(--weight-bold); }
+.breed-quick-verdict__col--watchouts li::before { content: '⚠'; color: var(--color-warning, #f59e0b); }
+
+.breed-quick-verdict__assumption {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-4);
+  margin-top: var(--space-2);
+}
+
+/* Best for */
+.breed-best-for .breed-best-for__grid {
+  display: grid;
+  gap: var(--space-6);
+  margin-bottom: var(--space-5);
+}
+@media (min-width: 640px) {
+  .breed-best-for .breed-best-for__grid { grid-template-columns: 1fr 1fr; }
+}
+.breed-best-for__col h3 {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  margin-bottom: var(--space-3);
+}
+.breed-best-for__col--not-ideal h3 { color: var(--color-warning, #f59e0b); }
+.breed-best-for__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.breed-best-for__list li {
+  padding-left: var(--space-5);
+  position: relative;
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+.breed-best-for__col:not(.breed-best-for__col--not-ideal) .breed-best-for__list li::before {
+  content: '✓'; position: absolute; left: 0; color: var(--color-success, #22c55e);
+}
+.breed-best-for__col--not-ideal .breed-best-for__list li::before {
+  content: '✗'; position: absolute; left: 0; color: var(--color-warning, #f59e0b);
+}
+.breed-best-for__disclaimer {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-4);
+}
+
+/* Owner fit cards */
+.breed-owner-fit__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+}
+@media (min-width: 768px) {
+  .breed-owner-fit__grid { grid-template-columns: repeat(3, 1fr); }
+}
+.breed-owner-fit__card {
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+.breed-owner-fit__card.is-good {
+  border-color: color-mix(in srgb, var(--color-success, #22c55e) 30%, transparent);
+  background: color-mix(in srgb, var(--color-success, #22c55e) 5%, var(--color-surface));
+}
+.breed-owner-fit__card.is-warning {
+  border-color: color-mix(in srgb, var(--color-warning, #f59e0b) 30%, transparent);
+  background: color-mix(in srgb, var(--color-warning, #f59e0b) 5%, var(--color-surface));
+}
+.breed-owner-fit__card-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  margin-bottom: var(--space-2);
+}
+.breed-owner-fit__label {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.breed-owner-fit__value {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+}
+.breed-owner-fit__explanation {
+  font-size: var(--text-xs);
+  color: var(--color-body-soft);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Cost snapshot */
+.breed-cost-snapshot__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  max-width: 42rem;
+}
+.breed-cost-snapshot__tier {
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+.breed-cost-snapshot__tier strong { display: block; font-size: var(--text-base); margin-bottom: var(--space-1); }
+.breed-cost-snapshot__tier p { font-size: var(--text-sm); color: var(--color-body-soft); margin: 0; }
+.breed-cost-snapshot__tier.is-cost-very-high { border-color: color-mix(in srgb, var(--color-warning, #f59e0b) 40%, transparent); }
+.breed-cost-snapshot__tier.is-cost-high { border-color: color-mix(in srgb, var(--color-accent) 40%, transparent); }
+.breed-cost-snapshot__tier.is-cost-low { border-color: color-mix(in srgb, var(--color-success, #22c55e) 30%, transparent); }
+
+.breed-cost-snapshot__figures {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+.breed-cost-snapshot__figure {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.breed-cost-snapshot__figure-label { font-size: var(--text-xs); color: var(--color-muted); }
+.breed-cost-snapshot__figure-value { font-size: var(--text-xl); font-weight: var(--weight-bold); color: var(--color-heading); }
+.breed-cost-snapshot__disclaimer {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  margin: 0;
+}
+
+/* Training behavior */
+.breed-training-behavior__summary {
+  font-size: var(--text-base);
+  color: var(--color-body);
+  line-height: 1.6;
+  margin-bottom: var(--space-5);
+}
+.breed-training-behavior__signals {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+@media (min-width: 640px) {
+  .breed-training-behavior__signals { flex-direction: row; flex-wrap: wrap; }
+}
+.breed-training-behavior__signal {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  flex: 1;
+  min-width: 10rem;
+}
+.breed-training-behavior__signal strong { font-size: var(--text-xs); color: var(--color-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.breed-training-behavior__signal span { font-size: var(--text-sm); font-weight: var(--weight-semi); color: var(--color-heading); }
+.breed-training-behavior__signal.is-hard { border-color: color-mix(in srgb, var(--color-warning, #f59e0b) 40%, transparent); }
+.breed-training-behavior__signal.is-easy { border-color: color-mix(in srgb, var(--color-success, #22c55e) 30%, transparent); }
+.breed-training-behavior__signal.is-high { border-color: color-mix(in srgb, var(--color-accent) 30%, transparent); }
+
+.breed-training-behavior__traits { margin-top: var(--space-4); }
+.breed-training-behavior__traits strong { font-size: var(--text-sm); color: var(--color-body-soft); }
+.breed-training-behavior__traits ul {
+  display: flex; flex-wrap: wrap; gap: var(--space-2); list-style: none;
+  padding: 0; margin-top: var(--space-2);
+}
+.breed-training-behavior__traits li {
+  padding: 0.3rem 0.65rem;
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  color: var(--color-body-soft);
+  border: 1px solid var(--color-border);
+}
+
+/* Feeding & grooming */
+.breed-feeding-grooming__grid {
+  display: grid;
+  gap: var(--space-6);
+}
+@media (min-width: 640px) {
+  .breed-feeding-grooming__grid { grid-template-columns: 1fr 1fr; }
+}
+.breed-feeding-grooming__col h3 {
+  font-size: var(--text-base);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+  margin-bottom: var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+}
+.breed-feeding-grooming__col p {
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: 1.6;
+  margin-bottom: var(--space-3);
+}
+.breed-feeding-grooming__detail {
+  font-size: var(--text-xs) !important;
+  color: var(--color-muted) !important;
+}
+
+/* Similar card reason text */
+.breed-similar-card__reason {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  margin-top: var(--space-1);
+  line-height: 1.4;
+}
+
+/* FAQ as details/summary */
+.breed-faq-item {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: var(--space-2);
+}
+.breed-faq-q {
+  padding: var(--space-4) var(--space-5);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  color: var(--color-heading);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  background: var(--color-surface);
+  user-select: none;
+}
+.breed-faq-q::after { content: '+'; font-size: var(--text-lg); color: var(--color-muted); flex-shrink: 0; }
+details[open] .breed-faq-q::after { content: '−'; }
+.breed-faq-q::-webkit-details-marker { display: none; }
+.breed-faq-a {
+  padding: var(--space-3) var(--space-5) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: 1.65;
+  background: var(--color-bg);
+  margin: 0;
+  border-top: 1px solid var(--color-border);
+}

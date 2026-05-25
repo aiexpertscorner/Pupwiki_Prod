@@ -1,0 +1,35 @@
+---
+import type { BreedBestFor } from '../../lib/breeds/breedDecisionEngine';
+
+interface Props {
+  bestFor: BreedBestFor;
+  breedName: string;
+}
+
+const { bestFor, breedName } = Astro.props;
+---
+
+<section class="breed-section breed-best-for" aria-labelledby="best-for-title">
+  <div class="breed-section__header">
+    <p class="breed-eyebrow">Owner match</p>
+    <h2 id="best-for-title">Who the {breedName} May Suit</h2>
+  </div>
+  <div class="breed-best-for__grid">
+    <div class="breed-best-for__col">
+      <h3>May work well for</h3>
+      <ul class="breed-best-for__list">
+        {bestFor.bestFor.map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+    <div class="breed-best-for__col breed-best-for__col--not-ideal">
+      <h3>May not suit</h3>
+      <ul class="breed-best-for__list">
+        {bestFor.notIdealFor.map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+  </div>
+  <p class="breed-best-for__disclaimer">
+    Breed fit depends on individual dog temperament, training, and household circumstances.
+    Use the tools below to compare carefully before deciding.
+  </p>
+</section>

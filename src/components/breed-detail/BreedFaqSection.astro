@@ -1,0 +1,32 @@
+---
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+
+interface Props {
+  faqItems: { q: string; a: string }[];
+  breed: NormalizedBreed;
+  slug: string;
+}
+
+const { faqItems, breed, slug } = Astro.props;
+const b = breed.raw;
+---
+
+{faqItems.length > 0 && <section class="breed-section" aria-labelledby="breed-faq-title">
+  <div class="breed-section__header">
+    <p class="breed-eyebrow">Common questions</p>
+    <h2 id="breed-faq-title">{b.name} Frequently Asked Questions</h2>
+  </div>
+
+  <div class="breed-faq-list">
+    {faqItems.slice(0, 6).map((faq) => (
+      <details class="breed-faq-item">
+        <summary class="breed-faq-q">{faq.q}</summary>
+        <p class="breed-faq-a">{faq.a}</p>
+      </details>
+    ))}
+  </div>
+
+  <a href={`/faq/${slug}-suitability`} class="breed-faq-cta">
+    See all {b.name} FAQ topics →
+  </a>
+</section>}
