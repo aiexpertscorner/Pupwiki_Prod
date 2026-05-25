@@ -317,24 +317,24 @@
         "title": "Your first dog: what to expect in year one",
         "description": "A practical overview for first-time dog owners — from bringing your puppy home to the realities of year-one ownership.",
         "href": "/guides/first-dog",
-        "imageUrl": "/assets/brand/social/og-default-1200x630.png",
-        "imageAlt": "First-time dog owner guide"
+        "imageUrl": "/hero/dog-owner-hero.jpg",
+        "imageAlt": "Person enjoying time with their dog outdoors"
       },
       {
         "category": "Cost guide",
         "title": "The true lifetime cost of a French Bulldog",
         "description": "Understand ongoing ownership costs, common care expenses, and why planning ahead matters for this popular breed.",
         "href": "/cost-calculator/french-bulldog",
-        "imageUrl": "/assets/brand/social/og-default-1200x630.png",
-        "imageAlt": "French Bulldog lifetime cost guide"
+        "imageUrl": "/images/breeds/french-bulldog.jpg",
+        "imageAlt": "French Bulldog dog breed"
       },
       {
         "category": "Comparison",
         "title": "Fi vs Tractive: Which GPS tracker works better?",
         "description": "A practical comparison of tracking reliability, battery life, subscription costs, and day-to-day usability.",
         "href": "/guides/fi-series-4-gps-vs-tractive-gps-dog-4",
-        "imageUrl": "/assets/brand/social/og-default-1200x630.png",
-        "imageAlt": "Dog GPS tracker comparison guide"
+        "imageUrl": "/images/breeds/australian-shepherd.jpg",
+        "imageAlt": "Australian Shepherd dog outdoors — active dogs often use GPS trackers"
       }
     ]
   },
@@ -606,24 +606,24 @@
         "title": "Fi vs Tractive: Which dog GPS tracker is better?",
         "description": "A practical comparison of tracking reliability, battery life, subscriptions, and day-to-day usability.",
         "href": "/guides/fi-series-4-gps-vs-tractive-gps-dog-4",
-        "imageUrl": "/assets/brand/social/og-default-1200x630.png",
-        "imageAlt": "Dog GPS tracker comparison guide"
+        "imageUrl": "/images/breeds/australian-shepherd.jpg",
+        "imageAlt": "Australian Shepherd dog outdoors — active dogs often use GPS trackers"
       },
       {
         "category": "Food review",
         "title": "The Farmer's Dog vs Ollie",
         "description": "A useful look at ingredients, convenience, delivery, and whether premium fresh food is actually worth it.",
         "href": "/guides/the-farmers-dog-vs-ollie-fresh-food",
-        "imageUrl": "/assets/brand/social/og-default-1200x630.png",
-        "imageAlt": "Fresh dog food comparison: The Farmer's Dog vs Ollie"
+        "imageUrl": "/images/breeds/labrador-retriever.jpg",
+        "imageAlt": "Labrador Retriever — Labradors are one of the most popular breeds for fresh dog food"
       },
       {
         "category": "Cost guide",
         "title": "The true lifetime cost of a French Bulldog",
         "description": "Understand ongoing ownership costs, common care expenses, and why planning ahead matters.",
         "href": "/cost-calculator/french-bulldog",
-        "imageUrl": "/assets/brand/social/og-default-1200x630.png",
-        "imageAlt": "French Bulldog lifetime cost guide"
+        "imageUrl": "/images/breeds/french-bulldog.jpg",
+        "imageAlt": "French Bulldog dog breed"
       }
     ]
   },
