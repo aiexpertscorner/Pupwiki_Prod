@@ -11,7 +11,7 @@ interface Props {
   slug: string;
 }
 
-const { breed, links, safeLifespanYears, slug } = Astro.props;
+const { breed, safeLifespanYears, slug } = Astro.props;
 const b = breed.raw;
 const isCrossbreed = breed.isCrossbreed;
 const rank = b.ranking_data || {};
@@ -20,26 +20,9 @@ const wt = b.weight || {};
 const ht = b.height || {};
 const COST_CALC_HREF = `/cost-calculator/${slug}`;
 
-const imageUrls = [
-  ...(Array.isArray(b.image_urls) ? b.image_urls : []),
-  ...(Array.isArray(b.image_gallery) ? b.image_gallery.map((item: any) => item.url || item.image_url) : []),
-  b.image_url,
-].filter(Boolean);
-
-const COAT_LABEL: Record<string, string> = {
-  double: 'Double coat', long: 'Long coat', short: 'Short coat',
-  wiry: 'Wire coat', curly: 'Curly coat', silky: 'Silky coat',
-  corded: 'Corded', hairless: 'Hairless', wavy: 'Wavy coat',
-};
-
 function titleCase(value?: string | null) {
   if (!value) return '';
   return String(value).replace(/[-_]+/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
-}
-
-function truncate(value?: string, max = 420) {
-  if (!value) return '';
-  return value.length > max ? `${value.slice(0, max).trim()}…` : value;
 }
 ---
 
@@ -53,39 +36,20 @@ function truncate(value?: string, max = 420) {
       <span>{b.name}</span>
     </nav>
 
-    {imageUrls.length > 2 && (
-      <div class="breed-gallery-strip" aria-label={`${b.name} photos`}>
-        {imageUrls.slice(1, 5).map((url: string, i: number) => (
-          <img src={url} alt={`${b.name} photo ${i + 2}`} loading="lazy" width="180" height="180" />
-        ))}
-      </div>
-    )}
-
     <div class="breed-hero__grid">
-      <BreedImage breed={b} width={640} height={640} priority={true} showGallery={true} variant="hero" class="breed-hero__image" />
+      <BreedImage breed={b} width={640} height={640} priority={true} showGallery={false} variant="hero" class="breed-hero__image" />
 
       <div class="breed-hero__content">
         <div class="breed-pills" aria-label={`${b.name} quick labels`}>
           {isCrossbreed
-            ? <span class="breed-pill breed-pill--purple">Designer / Mixed Breed</span>
+            ? <span class="breed-pill breed-pill--purple">Mixed Breed</span>
             : <span class="breed-pill breed-pill--accent">{titleCase(b.size_category)} breed</span>}
           {b.energy_level && <span class="breed-pill breed-pill--warm">{titleCase(b.energy_level)} energy</span>}
-          {b.coat_type && <span class="breed-pill">{COAT_LABEL[b.coat_type] || titleCase(b.coat_type)}</span>}
           {b.akc_group && <span class="breed-pill breed-pill--purple">{b.akc_group}</span>}
-          {!isCrossbreed && b.origin_country && (
-            <a href={`/breeds?origin=${encodeURIComponent(b.origin_country)}`} class="breed-pill breed-pill--success">
-              🌍 {b.origin_country}
-            </a>
-          )}
-          {b.akc_popularity && b.akc_popularity <= 20 && (
-            <span class="breed-pill breed-pill--gold">🏆 #{b.akc_popularity} most popular</span>
-          )}
-          {isCrossbreed && b.is_poodle_mix && <span class="breed-pill breed-pill--success">🐩 Poodle mix</span>}
         </div>
 
         <h1 id="breed-title">{b.name}</h1>
         {b.temperament && <p class="breed-hero__temperament">{b.temperament}</p>}
-        {b.description && <p class="breed-hero__description">{truncate(b.description)}</p>}
 
         <div class="breed-quick-facts" aria-label={`${b.name} key facts`}>
           {wt.min_lbs && wt.max_lbs && <span>⚖️ {wt.min_lbs}–{wt.max_lbs} lbs</span>}
@@ -105,12 +69,8 @@ function truncate(value?: string, max = 420) {
 
         <div class="breed-hero__actions">
           <a href={COST_CALC_HREF} class="breed-button breed-button--primary">
-            Estimate {b.name} costs <span aria-hidden="true">→</span>
+            Estimate costs <span aria-hidden="true">→</span>
           </a>
-          {links.names_page && (
-            <a href={links.names_page} class="breed-button breed-button--secondary">Find {b.name} names</a>
-          )}
-          <a href="#breed-guides" class="breed-button breed-button--secondary">Owner resources</a>
           <button
             class="breed-button breed-button--ghost js-shortlist-btn"
             data-slug={slug}

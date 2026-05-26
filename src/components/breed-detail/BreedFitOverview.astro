@@ -1,0 +1,57 @@
+---
+import type { BreedVerdict, BreedBestFor, BreedOwnerFitCard } from '../../lib/breeds/breedDecisionEngine';
+
+interface Props {
+  verdict: BreedVerdict;
+  bestFor: BreedBestFor;
+  cards: BreedOwnerFitCard[];
+  breedName: string;
+}
+
+const { verdict, bestFor, cards, breedName } = Astro.props;
+const toneClass = `is-${verdict.tone}`;
+const topCards = cards.slice(0, 4);
+---
+
+<section id="breed-overview" class="breed-section" aria-labelledby="fit-title">
+  <div class="breed-section__header">
+    <p class="breed-eyebrow">Is it a fit?</p>
+    <h2 id="fit-title">{breedName} — Owner Fit</h2>
+  </div>
+
+  <div class:list={['breed-verdict-card', toneClass]}>
+    <p class="breed-verdict-card__title">{verdict.title}</p>
+    <p class="breed-verdict-card__summary">{verdict.summary}</p>
+  </div>
+
+  <div class="breed-fit-split">
+    <div class="breed-fit-split__col breed-fit-split__col--good">
+      <p class="breed-fit-split__heading">May suit</p>
+      <ul>
+        {bestFor.bestFor.slice(0, 3).map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+    <div class="breed-fit-split__col breed-fit-split__col--caution">
+      <p class="breed-fit-split__heading">Less ideal if</p>
+      <ul>
+        {bestFor.notIdealFor.slice(0, 3).map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+  </div>
+
+  {topCards.length > 0 && (
+    <div class="breed-fit-chips" aria-label="Key fit signals">
+      {topCards.map((card) => (
+        <div class:list={['breed-fit-chip', `is-${card.tone}`]}>
+          <span class="breed-fit-chip__label">{card.label}</span>
+          <strong class="breed-fit-chip__value">{card.value}</strong>
+        </div>
+      ))}
+    </div>
+  )}
+
+  <p class="breed-fit-disclaimer">
+    Breed fit depends on individual dog temperament, training, and household circumstances.
+    Compare carefully before deciding.
+  </p>
+</section>
