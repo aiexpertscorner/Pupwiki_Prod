@@ -44,7 +44,7 @@ const SITE = 'https://pupwiki.com';
 const categorySlug = 'beds';
 
 const meta = getCategoryMeta(categorySlug)!;
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('guides');
 const catPosts = getCategoryPosts(allPosts as any, categorySlug, meta);
 const featuredPosts = catPosts.slice(0, 9);
 const supportingPosts = catPosts.slice(9, 21);

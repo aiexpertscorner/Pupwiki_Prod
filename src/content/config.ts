@@ -1,6 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 
-const blog = defineCollection({
+const guides = defineCollection({
   type: 'content',
   schema: z.object({
     // Core
@@ -43,7 +43,7 @@ const blog = defineCollection({
       image:   z.string().optional(),
     }).optional(),
 
-    // Schema hint for BlogLayout
+    // Schema hint for GuidesLayout
     schemaType:    z.enum(['Article','FAQPage','HowTo','Review']).default('Article'),
 
     // Content rework: editorial classification (all optional — existing posts unaffected)
@@ -61,4 +61,4 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+export const collections = { guides };

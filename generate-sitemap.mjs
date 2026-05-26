@@ -3,7 +3,7 @@
  * Generates segmented sitemaps for PupWiki:
  *   public/sitemap-index.xml      — master index
  *   public/sitemap-breeds.xml     — breed hubs, cost calculators, dog names (~weekly)
- *   public/sitemap-blog.xml       — editorial blog posts (indexInBlog !== false only)
+ *   public/sitemap-articles.xml       — editorial guide articles (indexInBlog !== false only)
  *   public/sitemap-reviews.xml    — /reviews hub and review-type posts
  *   public/sitemap-guides.xml     — /guides hub and guide/how-to posts
  *   public/sitemap-categories.xml — category hubs + static pages (~daily/weekly)
@@ -134,11 +134,11 @@ for (const breed of allBreeds) {
 //   - noRoute must not be 'true'
 //   - indexInBlog must not be 'false' (generated support pages are excluded)
 //   - generated=true with no explicit indexInBlog=true is also excluded
-const blogDir = path.join(ROOT, 'src/content/blog');
+const guidesDir = path.join(ROOT, 'src/content/blog');
 const REVIEW_POST_TYPES = new Set(['product-roundup', 'comparison', 'review', 'ranking']);
 const GUIDE_POST_TYPES = new Set(['how-to', 'general', 'health']);
 
-for (const file of walk(blogDir, ['.md'])) {
+for (const file of walk(guidesDir, ['.md'])) {
   const slug = path.basename(file, '.md');
   const data = parseFrontmatter(fs.readFileSync(file, 'utf8'));
 
@@ -216,14 +216,14 @@ const breedUrls    = all.filter((u) => /\/(breeds|cost-calculator|dog-names)\//.
 const faqUrls      = all.filter((u) => u.loc.includes('/faq/'));
 const reviewUrls   = all.filter((u) => u._segment === 'reviews' || u.loc === `${SITE}/reviews`);
 const guideUrls    = all.filter((u) => u._segment === 'guides'  || u.loc === `${SITE}/guides` || u.loc.startsWith(`${SITE}/guides/`));
-const blogUrls     = all.filter((u) => (u.loc.includes('/guides/') || u.loc.includes('/blog/')) && u._segment !== 'reviews' && u._segment !== 'guides');
-const categoryUrls = all.filter((u) => !breedUrls.includes(u) && !faqUrls.includes(u) && !reviewUrls.includes(u) && !guideUrls.includes(u) && !blogUrls.includes(u));
+const articlesUrls     = all.filter((u) => (u.loc.includes('/guides/') || u.loc.includes('/blog/')) && u._segment !== 'reviews' && u._segment !== 'guides');
+const categoryUrls = all.filter((u) => !breedUrls.includes(u) && !faqUrls.includes(u) && !reviewUrls.includes(u) && !guideUrls.includes(u) && !articlesUrls.includes(u));
 
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 
 // Write segmented files
 const BREEDS_OUT   = path.join(ROOT, 'public', 'sitemap-breeds.xml');
-const BLOG_OUT     = path.join(ROOT, 'public', 'sitemap-blog.xml');
+const ARTICLES_OUT     = path.join(ROOT, 'public', 'sitemap-articles.xml');
 const REVIEWS_OUT  = path.join(ROOT, 'public', 'sitemap-reviews.xml');
 const GUIDES_OUT   = path.join(ROOT, 'public', 'sitemap-guides.xml');
 const CAT_OUT      = path.join(ROOT, 'public', 'sitemap-categories.xml');
@@ -231,7 +231,7 @@ const FAQ_OUT      = path.join(ROOT, 'public', 'sitemap-faq.xml');
 const INDEX_OUT    = path.join(ROOT, 'public', 'sitemap-index.xml');
 
 fs.writeFileSync(BREEDS_OUT,  buildUrlset(breedUrls),    'utf8');
-fs.writeFileSync(BLOG_OUT,    buildUrlset(blogUrls),     'utf8');
+fs.writeFileSync(ARTICLES_OUT,    buildUrlset(articlesUrls),     'utf8');
 fs.writeFileSync(REVIEWS_OUT, buildUrlset(reviewUrls),   'utf8');
 fs.writeFileSync(GUIDES_OUT,  buildUrlset(guideUrls),    'utf8');
 fs.writeFileSync(CAT_OUT,     buildUrlset(categoryUrls), 'utf8');
@@ -240,7 +240,7 @@ fs.writeFileSync(FAQ_OUT,     buildUrlset(faqUrls),      'utf8');
 const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap><loc>${SITE}/sitemap-breeds.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
-  <sitemap><loc>${SITE}/sitemap-blog.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${SITE}/sitemap-articles.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
   <sitemap><loc>${SITE}/sitemap-reviews.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
   <sitemap><loc>${SITE}/sitemap-guides.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
   <sitemap><loc>${SITE}/sitemap-categories.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
@@ -254,7 +254,7 @@ const legacyXml = `<?xml version="1.0" encoding="UTF-8"?>
 <!-- Redirects to segmented sitemap index -->
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap><loc>${SITE}/sitemap-breeds.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
-  <sitemap><loc>${SITE}/sitemap-blog.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
+  <sitemap><loc>${SITE}/sitemap-articles.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
   <sitemap><loc>${SITE}/sitemap-reviews.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
   <sitemap><loc>${SITE}/sitemap-guides.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
   <sitemap><loc>${SITE}/sitemap-categories.xml</loc><lastmod>${TODAY}</lastmod></sitemap>
@@ -264,7 +264,7 @@ fs.writeFileSync(OUT, legacyXml, 'utf8');
 
 console.log(`\n✓ Segmented sitemaps written to public/`);
 console.log(`  sitemap-breeds.xml:     ${breedUrls.length} URLs`);
-console.log(`  sitemap-blog.xml:       ${blogUrls.length} URLs  (indexInBlog=false excluded)`);
+console.log(`  sitemap-articles.xml:       ${articlesUrls.length} URLs  (indexInBlog=false excluded)`);
 console.log(`  sitemap-reviews.xml:    ${reviewUrls.length} URLs`);
 console.log(`  sitemap-guides.xml:     ${guideUrls.length} URLs`);
 console.log(`  sitemap-categories.xml: ${categoryUrls.length} URLs`);

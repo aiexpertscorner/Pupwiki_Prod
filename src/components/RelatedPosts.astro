@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 export interface Props { currentTags?: string[]; currentSlug?: string; }
 const { currentTags = [], currentSlug = '' } = Astro.props;
-const all = await getCollection('blog');
+const all = await getCollection('guides');
 const related = all
   .filter(p => p.slug !== currentSlug && (currentTags.some(t => (p.data.tags||[]).includes(t))))
   .slice(0, 6);

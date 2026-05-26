@@ -44,7 +44,7 @@ export function getAmazonPageIntent(context: AmazonIntentContext): AmazonIntent 
   if (MEDIUM_INTENT_CLUSTERS.has(cluster)) return 'medium';
 
   if (context.pageType === 'category') return 'medium';
-  if (context.pageType === 'blog') return 'medium';
+  if (context.pageType === 'guide') return 'medium';
 
   return 'low';
 }

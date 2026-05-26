@@ -1,0 +1,17 @@
+---
+export interface Props {
+  title: string;
+  text: string;
+  href: string;
+  icon?: string;
+  className?: string;
+}
+
+const { title, text, href, icon = '🐾', className = '' } = Astro.props;
+---
+
+<a href={href} class:list={['blog-topic-card', className]}>
+  <span aria-hidden="true">{icon}</span>
+  <strong>{title}</strong>
+  <p>{text}</p>
+</a>

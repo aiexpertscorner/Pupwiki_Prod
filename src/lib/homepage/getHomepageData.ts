@@ -354,7 +354,7 @@ function pickMixedBreedCards(): HomepageMixedBreedCard[] {
   }));
 }
 
-function buildEditorialDescription(post: CollectionEntry<'blog'>): string {
+function buildEditorialDescription(post: CollectionEntry<'guides'>): string {
   const data = post.data as AnyRecord;
 
   const description =
@@ -366,7 +366,7 @@ function buildEditorialDescription(post: CollectionEntry<'blog'>): string {
   return truncate(description || 'Practical dog-parent guidance from PupWiki.', 140);
 }
 
-function buildEditorialCategory(post: CollectionEntry<'blog'>): string {
+function buildEditorialCategory(post: CollectionEntry<'guides'>): string {
   const data = post.data as AnyRecord;
 
   if (toStringValue(data.category)) return toStringValue(data.category);
@@ -375,7 +375,7 @@ function buildEditorialCategory(post: CollectionEntry<'blog'>): string {
   return 'Guide';
 }
 
-function buildEditorialImage(post: CollectionEntry<'blog'>): { imageUrl?: string; imageAlt?: string } {
+function buildEditorialImage(post: CollectionEntry<'guides'>): { imageUrl?: string; imageAlt?: string } {
   const data = post.data as AnyRecord;
   const rawImage =
     toStringValue(data.image) ||
@@ -391,7 +391,7 @@ function buildEditorialImage(post: CollectionEntry<'blog'>): { imageUrl?: string
   };
 }
 
-function sortPostsNewestFirst(a: CollectionEntry<'blog'>, b: CollectionEntry<'blog'>): number {
+function sortPostsNewestFirst(a: CollectionEntry<'guides'>, b: CollectionEntry<'guides'>): number {
   const aDate = new Date((a.data as AnyRecord).pubDate || (a.data as AnyRecord).publishedAt || 0).getTime();
   const bDate = new Date((b.data as AnyRecord).pubDate || (b.data as AnyRecord).publishedAt || 0).getTime();
 
@@ -400,7 +400,7 @@ function sortPostsNewestFirst(a: CollectionEntry<'blog'>, b: CollectionEntry<'bl
 
 async function pickEditorialHighlights(): Promise<HomepageEditorialCard[]> {
   try {
-    const posts = await getCollection('blog');
+    const posts = await getCollection('guides');
 
     const dynamicItems = [...posts]
       .sort(sortPostsNewestFirst)
