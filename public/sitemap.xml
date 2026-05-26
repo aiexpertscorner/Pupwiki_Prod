@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Redirects to segmented sitemap index -->
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap><loc>https://pupwiki.com/sitemap-breeds.xml</loc><lastmod>2026-05-24</lastmod></sitemap>
-  <sitemap><loc>https://pupwiki.com/sitemap-articles.xml</loc><lastmod>2026-05-24</lastmod></sitemap>
-  <sitemap><loc>https://pupwiki.com/sitemap-reviews.xml</loc><lastmod>2026-05-24</lastmod></sitemap>
-  <sitemap><loc>https://pupwiki.com/sitemap-guides.xml</loc><lastmod>2026-05-24</lastmod></sitemap>
-  <sitemap><loc>https://pupwiki.com/sitemap-categories.xml</loc><lastmod>2026-05-24</lastmod></sitemap>
-  <sitemap><loc>https://pupwiki.com/sitemap-faq.xml</loc><lastmod>2026-05-24</lastmod></sitemap>
+  <sitemap><loc>https://pupwiki.com/sitemap-breeds.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
+  <sitemap><loc>https://pupwiki.com/sitemap-articles.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
+  <sitemap><loc>https://pupwiki.com/sitemap-reviews.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
+  <sitemap><loc>https://pupwiki.com/sitemap-guides.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
+  <sitemap><loc>https://pupwiki.com/sitemap-categories.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
+  <sitemap><loc>https://pupwiki.com/sitemap-faq.xml</loc><lastmod>2026-05-26</lastmod></sitemap>
 </sitemapindex>
