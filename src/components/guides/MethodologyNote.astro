@@ -1,0 +1,27 @@
+---
+export interface Props {
+  category?: string;
+  postType?: string;
+}
+
+const { category = '', postType = '' } = Astro.props;
+
+const isReview = ['product-roundup', 'comparison', 'review'].includes(postType)
+  || ['review', 'reviews', 'comparison'].some(k => category.toLowerCase().includes(k));
+
+if (!isReview) {
+  // Only render for review/comparison content
+}
+---
+
+{isReview && (
+  <aside class="methodology-note" aria-label="How we choose recommendations">
+    <p class="methodology-note__text">
+      <strong>How we choose:</strong> Products are assessed for breed relevance, practical fit, safety, and up-to-date availability.
+      Commission rates do not influence ranking. We include genuine pros and cons.{' '}
+      <a href="/how-we-test" class="methodology-note__link">Full methodology →</a>
+      {' · '}
+      <a href="/disclosure" class="methodology-note__link">Affiliate disclosure →</a>
+    </p>
+  </aside>
+)}

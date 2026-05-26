@@ -9,6 +9,7 @@ import Breadcrumb from '../components/ui/Breadcrumb.astro';
 import PageBannerSlot from '../components/affiliate/PageBannerSlot.astro';
 import CommercePlacement from '../components/commerce/CommercePlacement.astro';
 import MonetizationRail from '../components/affiliate/MonetizationRail.astro';
+import MethodologyNote from '../components/guides/MethodologyNote.astro';
 import '../styles/pages/article.css';
 
 export interface Props {
@@ -232,6 +233,8 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
                 <ol class="article-toc__list"></ol>
               </details>
             </nav>
+
+            <MethodologyNote category={category} postType={postType} />
 
             <slot />
 

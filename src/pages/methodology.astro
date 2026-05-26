@@ -1,0 +1,303 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const SITE    = 'https://pupwiki.com';
+const UPDATED = 'May 2026';
+
+const breadcrumbLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home',        item: `${SITE}/` },
+    { '@type': 'ListItem', position: 2, name: 'Methodology', item: `${SITE}/methodology` },
+  ],
+});
+
+const pillars = [
+  {
+    icon: '📊',
+    title: 'Structured breed data',
+    body: 'Breed profiles are built from structured data covering size, energy, coat, trainability, AKC/FCI classification, health risks, and temperament — not editorial guesses. Each data point is sourced from breed standards, kennel club documentation, and veterinary reference material.',
+  },
+  {
+    icon: '💰',
+    title: 'Transparent cost assumptions',
+    body: 'Cost estimates use actuarial-style models: breed-specific base rates, age factors, state multipliers, and category breakdowns for food, vet care, grooming, and gear. All inputs and formulas are documented. Estimates are planning tools, not quotes.',
+  },
+  {
+    icon: '🛒',
+    title: 'Reader-first recommendations',
+    body: 'Product recommendations are matched to breed context — size, coat, energy, life stage — not ranked by affiliate commission rate. We include genuine cons in every review. We do not accept payment from brands to improve their ranking.',
+  },
+  {
+    icon: '🩺',
+    title: 'Medical and health claims',
+    body: 'Health-sensitive content includes a disclaimer that it is general information, not veterinary advice. We do not make diagnostic or treatment claims. For conditions, symptoms, and supplements, we recommend consulting a licensed veterinarian.',
+  },
+  {
+    icon: '🔗',
+    title: 'Affiliate transparency',
+    body: 'Pages with affiliate links include a visible disclosure. Partner links use rel="nofollow sponsored". Commission relationships do not influence scoring or rankings. Full details are on the disclosure page.',
+  },
+  {
+    icon: '🔄',
+    title: 'Content maintenance',
+    body: 'Product availability, prices, formulas, and service details change. We include a correction prompt on every guide page. Flagged inaccuracies are reviewed and corrected or updated. Outdated generated content is refreshed or removed.',
+  },
+];
+
+const dataSourceList = [
+  { label: 'Breed profiles', detail: '277+ pure breeds + 75+ mixed breeds from structured JSON datasets. Sources: AKC breed standards, FCI standards, veterinary references.' },
+  { label: 'Cost estimates', detail: 'Actuarial breed rates, age-factor tables, and 50-state insurance multipliers. Covers food, vet care, grooming, gear, and insurance.' },
+  { label: 'AWIN partner products', detail: '2,400+ products from 8 active affiliate partner programs, matched to breed context using topicTags, size, and category scoring.' },
+  { label: 'Dog names database', detail: '5,000+ dog names with origin, meaning, and breed-suitability metadata.' },
+  { label: 'Content guides', detail: '1,400+ editorial guides covering food, training, health, grooming, beds, supplements, and lifestyle topics.' },
+];
+---
+
+<BaseLayout
+  title="Methodology — How PupWiki Works"
+  description="How PupWiki builds breed guides, cost estimates, and product recommendations. Structured data, transparent assumptions, and reader-first editorial standards."
+  canonicalUrl={`${SITE}/methodology`}
+>
+  <script type="application/ld+json" set:html={breadcrumbLd} />
+
+  <div class="method-hero">
+    <div class="method-container">
+      <nav class="method-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">Methodology</span>
+      </nav>
+      <h1 class="method-h1">How PupWiki works</h1>
+      <p class="method-lead">
+        Structured breed data, transparent planning tools, and reader-first recommendations — with disclosed affiliate relationships and no paid rankings.
+      </p>
+      <p class="method-updated">Last updated: {UPDATED}</p>
+    </div>
+  </div>
+
+  <div class="method-container method-body">
+
+    <section class="method-section" aria-labelledby="pillars-title">
+      <h2 id="pillars-title" class="method-section-title">Editorial pillars</h2>
+      <div class="method-pillar-grid">
+        {pillars.map(p => (
+          <div class="method-pillar">
+            <span class="method-pillar__icon" aria-hidden="true">{p.icon}</span>
+            <h3 class="method-pillar__title">{p.title}</h3>
+            <p class="method-pillar__body">{p.body}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="method-section" aria-labelledby="sources-title">
+      <h2 id="sources-title" class="method-section-title">Data sources</h2>
+      <dl class="method-source-list">
+        {dataSourceList.map(s => (
+          <div class="method-source-item">
+            <dt class="method-source__label">{s.label}</dt>
+            <dd class="method-source__detail">{s.detail}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+
+    <section class="method-section method-section--narrow" aria-labelledby="limits-title">
+      <h2 id="limits-title" class="method-section-title">What PupWiki is not</h2>
+      <ul class="method-limits-list">
+        <li><strong>Not veterinary advice.</strong> Breed health information and supplement guides are general educational content. Always consult a licensed veterinarian for your dog's health decisions.</li>
+        <li><strong>Not a definitive price source.</strong> Cost estimates are planning guides based on typical ranges. Actual costs vary by location, provider, breed, health, and care choices.</li>
+        <li><strong>Not a paid ranking service.</strong> Brands cannot pay to improve their position in recommendations. Affiliate commission rates do not influence product scoring.</li>
+        <li><strong>Not a substitute for breeder or rescue due diligence.</strong> Breed profiles describe typical traits — individual dogs vary. Research breeders and rescues independently.</li>
+      </ul>
+    </section>
+
+    <section class="method-section method-section--cta" aria-labelledby="more-title">
+      <h2 id="more-title" class="method-section-title">More on how we work</h2>
+      <div class="method-cta-grid">
+        <a href="/how-we-test" class="method-cta-card">
+          <strong>How we test and review products →</strong>
+          <p>Detailed explanation of our product scoring framework, breed-context matching, and editorial independence standards.</p>
+        </a>
+        <a href="/disclosure" class="method-cta-card">
+          <strong>Full affiliate disclosure →</strong>
+          <p>How affiliate relationships work, which programs we participate in, and how commissions affect (and don't affect) our recommendations.</p>
+        </a>
+        <a href="/about" class="method-cta-card">
+          <strong>About PupWiki →</strong>
+          <p>Why we built this platform, who it's for, and what we're working toward.</p>
+        </a>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>
+
+<style>
+.method-hero {
+  background: linear-gradient(to bottom, var(--color-surface-warm), var(--color-bg-soft));
+  border-bottom: 1px solid var(--color-border-warm);
+  padding: var(--space-12) 0 var(--space-10);
+}
+.method-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+.method-body {
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-16);
+}
+.method-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1-5);
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-5);
+  color: var(--color-body-soft);
+}
+.method-breadcrumb a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.method-breadcrumb a:hover { text-decoration: underline; }
+.method-h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: var(--color-heading);
+  margin-bottom: var(--space-4);
+}
+.method-lead {
+  font-size: var(--text-lg);
+  color: var(--color-muted);
+  max-width: 680px;
+  line-height: 1.65;
+  margin-bottom: var(--space-3);
+}
+.method-updated {
+  font-size: var(--text-xs);
+  color: var(--color-subtle);
+  margin: 0;
+}
+.method-section {
+  margin-bottom: var(--space-14);
+}
+.method-section--narrow { max-width: 680px; }
+.method-section-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--color-heading);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-3);
+  border-bottom: 2px solid var(--color-border);
+}
+.method-pillar-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-5);
+}
+@media (min-width: 640px) {
+  .method-pillar-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+  .method-pillar-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.method-pillar {
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+.method-pillar__icon {
+  display: block;
+  font-size: 1.75rem;
+  margin-bottom: var(--space-3);
+}
+.method-pillar__title {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-heading);
+  margin-bottom: var(--space-2);
+}
+.method-pillar__body {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+.method-source-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.method-source-item {
+  padding: var(--space-4);
+  background: var(--color-bg-soft);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+.method-source__label {
+  font-weight: 700;
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-1);
+}
+.method-source__detail {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  margin: 0;
+}
+.method-limits-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: 0;
+  list-style: none;
+}
+.method-limits-list li {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  line-height: 1.65;
+  padding-left: var(--space-4);
+  border-left: 2px solid var(--color-border-warm);
+}
+.method-limits-list li strong { color: var(--color-heading); }
+.method-section--cta {}
+.method-cta-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+@media (min-width: 640px) {
+  .method-cta-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.method-cta-card {
+  display: block;
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.method-cta-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-card-hover);
+}
+.method-cta-card strong {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+  margin-bottom: var(--space-2);
+}
+.method-cta-card p {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  line-height: 1.55;
+  margin: 0;
+}
+</style>
