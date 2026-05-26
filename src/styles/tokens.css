@@ -1,66 +1,70 @@
 /* =============================================================
-   DESIGN TOKENS — PupWiki
-   Warm editorial light theme.
+   DESIGN TOKENS — PupWiki Refined
+   Warm editorial light theme with accessible CTA contrast.
+   Sprint 1: Merged refined token pack + domain-specific tokens.
    ============================================================= */
 
 :root {
-  /* Brand */
+  /* ── Brand core ──────────────────────────────────────────────── */
   --color-logo-orange: #ff7a00;
-  --color-logo-orange-deep: #d95f00;
+  --color-logo-orange-deep: #c2410c;
   --color-logo-navy: #15365f;
   --color-logo-navy-deep: #0b1f36;
   --color-logo-navy-soft: #234a78;
 
-  /* Primary */
+  /* ── Primary: authority navy ─────────────────────────────────── */
   --color-primary: #15365f;
   --color-primary-hover: #0f2b4d;
   --color-primary-active: #081a2e;
   --color-primary-light: #dbeafe;
   --color-primary-subtle: #eff6ff;
   --color-primary-soft: #f5f9ff;
+  --color-primary-ink: #0b1f36;
 
-  /* Accent */
+  /* ── Accent: display orange (decorative, not CTA background) ─── */
   --color-accent: #ff7a00;
   --color-accent-hover: #d95f00;
   --color-accent-active: #b84f00;
+  --color-accent-ink: #9a3412;
   --color-accent-light: #ffedd5;
   --color-accent-subtle: #fff7ed;
   --color-accent-soft: #fff3e4;
 
-  /* CTA */
-  --color-cta: #ea6a00;
-  --color-cta-hover: #c95500;
-  --color-cta-active: #a84300;
+  /* ── CTA: deeper orange for WCAG AA white text ───────────────── */
+  --color-cta: #c2410c;
+  --color-cta-hover: #9a3412;
+  --color-cta-active: #7c2d12;
   --color-cta-text: #ffffff;
 
-  /* Secondary */
+  /* ── Secondary ───────────────────────────────────────────────── */
   --color-secondary: #234a78;
   --color-secondary-hover: #15365f;
   --color-secondary-light: #e8f1fb;
   --color-secondary-subtle: #f4f8fc;
 
-  /* Text */
+  /* ── Text ────────────────────────────────────────────────────── */
   --color-heading: #0b1f36;
   --color-heading-soft: #15365f;
   --color-body: #334155;
   --color-body-soft: #475569;
   --color-muted: #64748b;
   --color-subtle: #94a3b8;
-  --color-placeholder: #cbd5e1;
+  --color-placeholder: #94a3b8;
   --color-text-inverse: #ffffff;
 
-  /* Links */
+  /* ── Links ───────────────────────────────────────────────────── */
   --color-link: #15365f;
-  --color-link-hover: #ff7a00;
+  --color-link-hover: #c2410c;
   --color-link-visited: #234a78;
 
-  /* Surfaces */
+  /* ── Surfaces ────────────────────────────────────────────────── */
   --color-bg: #ffffff;
   --color-bg-soft: #fffaf3;
   --color-bg-muted: #f8fafc;
   --color-bg-warm: #fff7ed;
   --color-bg-cool: #f5f9ff;
   --color-bg-paper: #fffdf8;
+  --color-bg-elevated: #ffffff;
 
   --color-surface: #ffffff;
   --color-surface-soft: #fffaf3;
@@ -68,37 +72,38 @@
   --color-surface-raised: #ffffff;
   --color-surface-navy: #0b1f36;
   --color-surface-navy-soft: #15365f;
-  --color-surface-warm: #f5e8d0;   /* warm cream — legacy hardcoded value alias */
+  --color-surface-warm: #f8ecd8;
+  --color-surface-dark: #1e293b;
+  --color-surface-dark-raised: #334155;
 
-  /* Borders */
+  /* ── Borders ─────────────────────────────────────────────────── */
   --color-border: #e2e8f0;
   --color-border-soft: #edf2f7;
   --color-border-strong: #cbd5e1;
   --color-border-warm: #fed7aa;
   --color-border-primary: rgba(21, 54, 95, 0.18);
-  --color-border-accent: rgba(255, 122, 0, 0.22);
+  --color-border-accent: rgba(194, 65, 12, 0.22);
+  --color-border-glass: rgba(255, 255, 255, 0.28);
 
-  /* Semantic */
+  /* ── Semantic ────────────────────────────────────────────────── */
   --color-success: #047857;
   --color-success-light: #d1fae5;
   --color-success-dark: #065f46;
-  --color-warning: #d97706;
+  --color-success-bg: #f0fdf4;
+  --color-success-text: #15803d;
+  --color-warning: #b45309;
   --color-warning-light: #fef3c7;
   --color-warning-dark: #713f12;
   --color-star: #f59e0b;
   --color-danger: #dc2626;
   --color-danger-light: #fee2e2;
   --color-danger-dark: #7f1d1d;
-  --color-success-bg: #f0fdf4;
-  --color-success-text: #15803d;
   --color-danger-bg: #fef2f2;
   --color-danger-text: #b91c1c;
   --color-info: #2563eb;
   --color-info-light: #dbeafe;
 
-  /* ── Breed health severity tokens ──────────────────────────────
-     Used in .breed-health-card.is-low/medium/medium-high/high/critical
-     ─────────────────────────────────────────────────────────────── */
+  /* ── Breed health severity tokens ────────────────────────────── */
   --color-health-low-bg:              #f0fdf4;
   --color-health-low-border:          #22c55e;
   --color-health-low-badge-bg:        #dcfce7;
@@ -124,9 +129,7 @@
   --color-health-critical-badge-bg:   #ffe4e6;
   --color-health-critical-badge-text: #9f1239;
 
-  /* ── Breed pill color variants ──────────────────────────────────
-     Used in .breed-pill--purple / --success / --gold in breed-page.css
-     ─────────────────────────────────────────────────────────────── */
+  /* ── Breed pill color variants ───────────────────────────────── */
   --color-pill-purple-bg:     #faf5ff;
   --color-pill-purple-text:   #5b21b6;
   --color-pill-purple-border: rgba(109, 40, 217, 0.20);
@@ -139,41 +142,33 @@
   --color-pill-success-text:   #065f46;
   --color-pill-success-border: rgba(4, 120, 87, 0.22);
 
-  /* ── Trait meter fill colors ────────────────────────────────────
-     Used in .breed-meter .is-shedding / .is-grooming / .is-friendly
-     ─────────────────────────────────────────────────────────────── */
+  /* ── Trait meter fill colors ─────────────────────────────────── */
   --color-meter-shedding: #3b82f6;
   --color-meter-grooming: #8b5cf6;
   --color-meter-friendly: #10b981;
 
-  /* ── Decision card semantic tokens ─────────────────────────────
-     Used in .breed-decision-card.is-good / .is-warn
-     ─────────────────────────────────────────────────────────────── */
+  /* ── Decision card semantic tokens ──────────────────────────── */
   --color-decision-good-bg:     #f0fdf7;
   --color-decision-good-border: rgba(19, 117, 80, 0.22);
   --color-decision-warn-bg:     #fff8ed;
   --color-decision-warn-border: rgba(180, 83, 9, 0.24);
 
-  /* ── Danger note / eyebrow tokens ──────────────────────────────
-     Used in .breed-health-note and .breed-eyebrow--danger
-     ─────────────────────────────────────────────────────────────── */
+  /* ── Danger note / eyebrow tokens ───────────────────────────── */
   --color-danger-note-bg:     #fff5f5;
   --color-danger-note-border: rgba(220, 38, 38, 0.18);
 
-  /* ── Undefined token aliases (fix silent fallbacks in breed-page.css) ── */
+  /* ── Legacy aliases (used by existing CSS and components) ─────── */
   --color-text:        var(--color-body);
   --color-text-muted:  var(--color-muted);
   --color-surface-alt: #f8f8f5;
+  --content-max-w:     var(--max-width);
+  --duration-fast:     100ms;
+  --space-1-5:         0.375rem;
 
-  /* ── Layout aliases ─────────────────────────────────────────────── */
-  --content-max-w:   var(--max-width);
-  --duration-fast:   100ms;
-  --space-1-5:       0.375rem;
-
-  /* ── Breed hero gradient ──────────────────────────────────────── */
+  /* ── Breed hero gradient ─────────────────────────────────────── */
   --breed-hero-bg: linear-gradient(180deg, var(--color-bg-soft) 0%, var(--color-bg) 82%);
 
-  /* Category accents */
+  /* ── Category accents ────────────────────────────────────────── */
   --cat-food-bg: #fff7ed;
   --cat-food-border: #fed7aa;
   --cat-food-text: #9a3412;
@@ -199,7 +194,24 @@
   --cat-breeds-text: #1e3a8a;
   --cat-breeds-accent: #15365f;
 
-  /* Category pill colors (used in article/blog category badges) */
+  /* Category alias bridge (--color-category-* → --cat-*) */
+  --color-category-food-bg: var(--cat-food-bg);
+  --color-category-food-border: var(--cat-food-border);
+  --color-category-food-text: var(--cat-food-text);
+  --color-category-training-bg: var(--cat-training-bg);
+  --color-category-training-border: var(--cat-training-border);
+  --color-category-training-text: var(--cat-training-text);
+  --color-category-health-bg: var(--cat-health-bg);
+  --color-category-health-border: var(--cat-health-border);
+  --color-category-health-text: var(--cat-health-text);
+  --color-category-products-bg: var(--cat-products-bg);
+  --color-category-products-border: var(--cat-products-border);
+  --color-category-products-text: var(--cat-products-text);
+  --color-category-breeds-bg: var(--cat-breeds-bg);
+  --color-category-breeds-border: var(--cat-breeds-border);
+  --color-category-breeds-text: var(--cat-breeds-text);
+
+  /* Category pill colors (blog/article category badges) */
   --color-pill-food-bg: #fef3c7;
   --color-pill-food-text: #92400e;
   --color-pill-food-border: rgba(146, 64, 14, 0.18);
@@ -222,52 +234,37 @@
   --color-pill-beds-text: #4c1d95;
   --color-pill-beds-border: rgba(76, 29, 149, 0.18);
 
-  /* Category aliases (--color-category-* → --cat-* bridge for new code) */
-  --color-category-food-bg: var(--cat-food-bg);
-  --color-category-food-border: var(--cat-food-border);
-  --color-category-food-text: var(--cat-food-text);
-  --color-category-training-bg: var(--cat-training-bg);
-  --color-category-training-border: var(--cat-training-border);
-  --color-category-training-text: var(--cat-training-text);
-  --color-category-health-bg: var(--cat-health-bg);
-  --color-category-health-border: var(--cat-health-border);
-  --color-category-health-text: var(--cat-health-text);
-  --color-category-products-bg: var(--cat-products-bg);
-  --color-category-products-border: var(--cat-products-border);
-  --color-category-products-text: var(--cat-products-text);
-  --color-category-breeds-bg: var(--cat-breeds-bg);
-  --color-category-breeds-border: var(--cat-breeds-border);
-  --color-category-breeds-text: var(--cat-breeds-text);
-
-  /* Score / rating color tokens */
-  --color-score-good: #16a34a;
+  /* ── Score / rating tokens ───────────────────────────────────── */
+  --color-score-good: #15803d;
   --color-score-good-light: #f0fdf4;
-  --color-score-good-border: #d1fae5;
-  --color-score-caution: #d97706;
+  --color-score-good-border: #bbf7d0;
+  --color-score-caution: #b45309;
   --color-score-caution-light: #fef3c7;
   --color-score-danger: #dc2626;
   --color-score-danger-light: #fee2e2;
-  --color-score-muted: #6b7280;
+  --color-score-muted: #64748b;
 
-  /* Affiliate store brand colors */
-  --color-affiliate-amazon: #FF9900;
-  --color-affiliate-amazon-dark: #e88700;
+  /* ── Affiliate store brand colors ────────────────────────────── */
+  --color-affiliate-amazon: #ff9900;
+  --color-affiliate-amazon-dark: #b45309;
   --color-affiliate-chewy: #0052cc;
   --color-affiliate-chewy-dark: #003d99;
   --color-affiliate-petco: #0073c9;
-  --color-affiliate-walmart: #00a3e0;
+  --color-affiliate-walmart: #0071ce;
 
-  /* Hero gradient token */
-  --gradient-hero-page: linear-gradient(180deg, rgba(255, 250, 243, 0.98) 0%, var(--color-bg) 78%);
+  /* ── Gradients ───────────────────────────────────────────────── */
+  --gradient-hero-page:
+    radial-gradient(circle at 88% 14%, rgba(255, 122, 0, 0.16), transparent 28rem),
+    radial-gradient(circle at 6% 42%, rgba(21, 54, 95, 0.08), transparent 24rem),
+    linear-gradient(180deg, rgba(255, 250, 243, 0.98) 0%, #ffffff 78%);
+  --gradient-navy: linear-gradient(135deg, #0b1f36 0%, #15365f 58%, #234a78 100%);
+  --gradient-warm-card: linear-gradient(135deg, #fffdf8 0%, #fff7ed 100%);
+  --gradient-cool-card: linear-gradient(135deg, #ffffff 0%, #f5f9ff 100%);
 
-  /* Dark surface tokens (footer, dark cards) */
-  --color-surface-dark: #1e293b;
-  --color-surface-dark-raised: #334155;
-
-  /* Typography */
+  /* ── Typography ──────────────────────────────────────────────── */
   --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-serif: 'Lora', Georgia, 'Times New Roman', serif;
-  --font-display: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-display: 'Inter Tight', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
   --text-xs: 0.75rem;
@@ -282,18 +279,18 @@
   --text-5xl: 3rem;
   --text-6xl: 3.75rem;
 
-  --text-hero: clamp(2.6rem, 7vw, 5.5rem);
-  --text-h1: clamp(2.25rem, 6vw, 4.25rem);
-  --text-h2: clamp(1.9rem, 4vw, 3rem);
-  --text-h3: clamp(1.5rem, 3vw, 2.15rem);
+  --text-hero: clamp(2.75rem, 9vw, 5.9rem);
+  --text-h1: clamp(2.3rem, 6.4vw, 4.6rem);
+  --text-h2: clamp(1.85rem, 4.3vw, 3.2rem);
+  --text-h3: clamp(1.45rem, 3vw, 2.2rem);
 
   --leading-none: 1;
-  --leading-tight: 1.12;
-  --leading-snug: 1.28;
+  --leading-tight: 1.08;
+  --leading-snug: 1.22;
   --leading-base: 1.5;
-  --leading-normal: 1.6;
+  --leading-normal: 1.58;
   --leading-loose: 1.7;
-  --leading-relaxed: 1.8;
+  --leading-relaxed: 1.75;
 
   --weight-normal: 400;
   --weight-medium: 500;
@@ -301,13 +298,13 @@
   --weight-bold: 700;
   --weight-black: 800;
 
-  --tracking-tight: -0.04em;
-  --tracking-snug: -0.02em;
+  --tracking-tight: -0.055em;
+  --tracking-snug: -0.032em;
   --tracking-normal: 0;
-  --tracking-wide: 0.04em;
-  --tracking-label: 0.14em;
+  --tracking-wide: 0.035em;
+  --tracking-label: 0.13em;
 
-  /* Spacing */
+  /* ── Spacing ─────────────────────────────────────────────────── */
   --space-0: 0;
   --space-1: 0.25rem;
   --space-2: 0.5rem;
@@ -326,47 +323,49 @@
   --space-28: 7rem;
   --space-32: 8rem;
 
-  --section-padding-sm: 3rem;
-  --section-padding: 5rem;
-  --section-padding-lg: 7rem;
+  --section-padding-sm: clamp(2.75rem, 7vw, 4.5rem);
+  --section-padding: clamp(4rem, 9vw, 6.75rem);
+  --section-padding-lg: clamp(5rem, 12vw, 8.5rem);
 
-  /* Radius */
+  /* ── Radius ──────────────────────────────────────────────────── */
   --radius-xs: 0.25rem;
   --radius-sm: 0.375rem;
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
   --radius-xl: 1rem;
-  --radius-2xl: 1.5rem;
+  --radius-2xl: 1.4rem;
   --radius-3xl: 2rem;
+  --radius-4xl: 2.6rem;
   --radius-full: 9999px;
 
-  /* Shadows */
+  /* ── Shadows ─────────────────────────────────────────────────── */
   --shadow-xs: 0 1px 2px rgba(7, 23, 39, 0.04);
-  --shadow-sm: 0 2px 4px rgba(7, 23, 39, 0.06);
-  --shadow-md: 0 8px 18px rgba(7, 23, 39, 0.08);
-  --shadow-lg: 0 18px 38px rgba(7, 23, 39, 0.12);
-  --shadow-xl: 0 24px 54px rgba(7, 23, 39, 0.18);
+  --shadow-sm: 0 2px 5px rgba(7, 23, 39, 0.06);
+  --shadow-md: 0 10px 22px rgba(7, 23, 39, 0.08);
+  --shadow-lg: 0 20px 44px rgba(7, 23, 39, 0.12);
+  --shadow-xl: 0 30px 70px rgba(7, 23, 39, 0.18);
 
-  --shadow-card: 0 2px 10px rgba(7, 23, 39, 0.06);
-  --shadow-card-hover: 0 18px 40px rgba(7, 23, 39, 0.14);
-  --shadow-primary: 0 10px 24px rgba(21, 54, 95, 0.18);
-  --shadow-accent: 0 10px 24px rgba(255, 122, 0, 0.24);
-  --shadow-cta: 0 12px 28px rgba(234, 106, 0, 0.28);
+  --shadow-card: 0 2px 10px rgba(7, 23, 39, 0.055);
+  --shadow-card-hover: 0 20px 46px rgba(7, 23, 39, 0.13);
+  --shadow-primary: 0 12px 28px rgba(21, 54, 95, 0.18);
+  --shadow-accent: 0 12px 28px rgba(255, 122, 0, 0.22);
+  --shadow-cta: 0 14px 30px rgba(194, 65, 12, 0.26);
 
-  /* Focus */
+  /* ── Focus rings ─────────────────────────────────────────────── */
   --ring-primary: 0 0 0 4px rgba(21, 54, 95, 0.16);
-  --ring-accent: 0 0 0 4px rgba(255, 122, 0, 0.18);
+  --ring-accent: 0 0 0 4px rgba(194, 65, 12, 0.18);
   --ring-danger: 0 0 0 4px rgba(220, 38, 38, 0.16);
 
-  /* Layout */
-  --max-width: 1280px;
+  /* ── Layout ──────────────────────────────────────────────────── */
+  --max-width: 1240px;
   --max-width-wide: 1440px;
   --max-width-prose: 72ch;
-  --content-padding-mobile: 1.25rem;
+  --content-padding-mobile: 1.125rem;
   --content-padding: 1.5rem;
   --content-padding-wide: 2rem;
+  --header-height: 76px;
 
-  /* Component aliases */
+  /* ── Component aliases ───────────────────────────────────────── */
   --card-bg: var(--color-surface);
   --card-bg-soft: var(--color-surface-soft);
   --card-border: var(--color-border);
@@ -382,76 +381,28 @@
 
   --button-secondary-bg: var(--color-primary);
   --button-secondary-bg-hover: var(--color-primary-hover);
-  --button-secondary-text: var(--color-text-inverse);
+  --button-secondary-text: #ffffff;
 
-  --button-outline-bg: var(--color-surface);
+  --button-outline-bg: #ffffff;
   --button-outline-border: var(--color-border-strong);
   --button-outline-text: var(--color-primary);
   --button-outline-bg-hover: var(--color-primary-subtle);
 
-  --hero-bg: linear-gradient(180deg, #fffaf3 0%, #ffffff 72%);
+  --hero-bg: var(--gradient-hero-page);
   --hero-heading: var(--color-heading);
   --hero-heading-accent: var(--color-accent);
   --hero-body: var(--color-body-soft);
 
+  /* ── Z-index ─────────────────────────────────────────────────── */
   --z-base: 1;
   --z-nav: 50;
   --z-overlay: 100;
   --z-modal: 200;
 
+  /* ── Transitions ─────────────────────────────────────────────── */
   --transition-fast: 100ms ease;
   --transition-base: 160ms ease;
   --transition-slow: 240ms ease;
   --transition-hover: all 220ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-smooth: all 280ms cubic-bezier(0.22, 1, 0.36, 1);
-
-  /* ─── Streetwear / Dark UI ─────────────────────────────────────
-     Tokens for dark-theme card components (BreedCard, RelatedPosts).
-     Matches the lime/midnight palette defined in tailwind.config.mjs.
-     ─────────────────────────────────────────────────────────────── */
-  --sw-bg:           #222222;
-  --sw-bg-deep:      #1a1a1a;
-  --sw-bg-raised:    #2a2a2a;
-  --sw-midnight:     #0A0A0A;
-  --sw-accent:       #CCFF00;
-  --sw-text:         #F0F0F0;
-  --sw-text-muted:   #888888;
-  --sw-text-dim:     #555555;
-  --sw-text-faint:   #444444;
-  --sw-border:       rgba(255, 255, 255, 0.10);
-  --sw-chip-bg:      rgba(255, 255, 255, 0.06);
-  --sw-overlay:      rgba(10, 10, 10, 0.65);
-  --sw-shadow-hard:  4px 4px 0 var(--sw-accent);
-
-  --sw-font-display: 'Anton', 'Impact', sans-serif;
-  --sw-font-heading: 'Archivo Black', 'Arial Black', sans-serif;
-  --sw-font-mono:    'Space Mono', monospace;
-  --sw-font-body:    'Barlow Condensed', 'Barlow', sans-serif;
-
-  --sw-text-label:   0.52rem;
-  --sw-text-nano:    0.45rem;
-
-  /* Derived accent/danger overlays for prose and card UI */
-  --sw-accent-subtle:  rgba(204, 255, 0, 0.06);
-  --sw-accent-border:  rgba(204, 255, 0, 0.20);
-  --sw-danger-subtle:  rgba(255, 59, 59, 0.06);
-  --sw-danger-border:  rgba(255, 59, 59, 0.20);
-  --sw-score-mid:      #ffd600;
-}
-
-html {
-  color-scheme: light;
-  background: var(--color-bg-soft);
-}
-
-body {
-  background: var(--color-bg-soft);
-  color: var(--color-body);
-  font-family: var(--font-sans);
-  line-height: var(--leading-normal);
-}
-
-::selection {
-  background: var(--color-accent-light);
-  color: var(--color-heading);
+  --transition-smooth: all 320ms cubic-bezier(0.22, 1, 0.36, 1);
 }
