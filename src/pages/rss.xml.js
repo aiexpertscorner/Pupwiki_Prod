@@ -2,7 +2,7 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 
 export async function GET(context) {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('guides');
   return rss({
     title: 'PupWiki — Dog Breeds, Names, Costs & Expert Reviews',
     description: 'Expert dog breed guides, 5,000+ dog names, lifetime cost calculators, and honest product reviews.',
@@ -15,7 +15,7 @@ export async function GET(context) {
         title:       post.data.title,
         pubDate:     post.data.pubDate,
         description: post.data.description,
-        link:        `/blog/${post.slug}/`,
+        link:        `/guides/${post.slug}/`,
         categories:  post.data.tags || [],
       })),
     customData: `<language>en-us</language>`,

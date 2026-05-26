@@ -8,6 +8,7 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumb from '../components/ui/Breadcrumb.astro';
 import PageBannerSlot from '../components/affiliate/PageBannerSlot.astro';
 import CommercePlacement from '../components/commerce/CommercePlacement.astro';
+import MonetizationRail from '../components/affiliate/MonetizationRail.astro';
 import '../styles/pages/article.css';
 
 export interface Props {
@@ -294,12 +295,14 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
               </section>
 
               <div class="article-sidebar__affiliate">
-                <CommercePlacement
+                <MonetizationRail
                   pageType="guide"
-                  placement="article-inline"
-                  context={{ category: categoryKey, tags: partnerTopicTags, breedSize }}
-                  limit={1}
-                  showDisclosure={false}
+                  zone="mid-content"
+                  topicTags={partnerTopicTags}
+                  category={categoryKey}
+                  breedSlug={breedSlug}
+                  breedSize={breedSize}
+                  monetizationIntent="medium"
                 />
               </div>
 

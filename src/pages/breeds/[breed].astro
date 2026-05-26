@@ -17,6 +17,7 @@ import BreedRelatedGuides from '../../components/breed-detail/BreedRelatedGuides
 import BreedSidebar from '../../components/breed-detail/BreedSidebar.astro';
 import BreedCommerceSuite from '../../components/breed/BreedCommerceSuite.astro';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure.astro';
+import MonetizationRail from '../../components/affiliate/MonetizationRail.astro';
 
 export function getStaticPaths() {
   return getBreedStaticPaths();
@@ -105,6 +106,14 @@ const awinBaseTags = [
           <BreedTraitDeepDive breed={breed} />
           <BreedDailyLife breed={breed} signals={signals} enrichmentData={enrichmentData} />
           <BreedHealthWatch healthProfile={healthProfile} breed={breed} slug={slug} />
+          <MonetizationRail
+            pageType="breed"
+            zone="before-faq"
+            topicTags={[slug, b.size_category, ...awinBaseTags].filter(Boolean) as string[]}
+            breedSlug={slug}
+            breedSize={b.size_category}
+            monetizationIntent="medium"
+          />
           <BreedFaqSection faqItems={faqItems} breed={breed} slug={slug} />
           <BreedSimilarCompare similarBreeds={similarBreeds} breedName={breed.name} />
           <BreedRelatedGuides breed={breed} clusterLinks={CLUSTER_LINKS} links={links} />
