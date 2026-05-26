@@ -1,0 +1,157 @@
+---
+/**
+ * MerchantSpotlight.astro
+ * Rich featured program block with logo, description, trust signals, and 1–2 product tiles.
+ * Ideal for category pages and tool pages. Renders nothing if program not found.
+ */
+
+import { getProgramByKey, getProgramByMerchantName } from '../../lib/awin/getProgramData';
+import { matchProducts, type MatchContext } from '../../lib/awin/matchProducts';
+import AwinProductCard from './AwinProductCard.astro';
+
+export interface Props {
+  programKey?: string;
+  topicTags?: string[];
+  headline?: string;
+  hideDisclosure?: boolean;
+  productCount?: number;
+}
+
+const {
+  programKey,
+  topicTags = [],
+  headline,
+  hideDisclosure = false,
+  productCount = 2,
+} = Astro.props;
+
+const prog = programKey
+  ? getProgramByKey(programKey) ?? getProgramByMerchantName(programKey)
+  : null;
+
+if (!prog || !prog.deeplink || prog.deeplink === '#') {
+  // Render nothing if no valid program
+}
+
+let featuredProducts: any[] = [];
+if (prog) {
+  let allProducts: any[] = [];
+  try {
+    const enriched = await import('../../data/awin-products.json');
+    allProducts = Array.isArray(enriched.default) ? enriched.default : [];
+  } catch {}
+
+  const context: MatchContext = {
+    topicTags: [...topicTags, ...(prog.topicTags || [])],
+    pageType: 'guide',
+    limit: Math.max(1, Math.min(productCount, 3)),
+    monetizationIntent: 'high',
+  };
+  featuredProducts = matchProducts(
+    allProducts.filter((p: any) => p.programId === prog.key || p.merchant?.toLowerCase().includes(prog.name.split(' ')[0].toLowerCase())),
+    context
+  );
+  if (featuredProducts.length === 0) {
+    featuredProducts = matchProducts(allProducts, { ...context, topicTags: prog.topicTags || [] });
+  }
+}
+
+const showEpc = prog && prog.epc > 0;
+const showConv = prog && prog.conversionRate > 0;
+const showCookie = prog && prog.cookieDays > 0;
+const showMetrics = showEpc || showConv || showCookie;
+---
+
+{prog && prog.deeplink && prog.deeplink !== '#' && (
+  <section class="merchant-spotlight" aria-label={`Featured partner: ${prog.name}`}>
+    {headline && <h3 class="merchant-spotlight__headline">{headline}</h3>}
+
+    <div class="merchant-spotlight__card">
+      {prog.isFeatured && (
+        <span class="merchant-spotlight__featured-badge">★ Featured Partner</span>
+      )}
+
+      <div class="merchant-spotlight__head">
+        <div class="merchant-spotlight__logo-wrap">
+          {prog.logoUrl ? (
+            <img
+              src={prog.logoUrl}
+              alt={prog.name}
+              width="64"
+              height="64"
+              loading="lazy"
+              decoding="async"
+              class="merchant-spotlight__logo"
+            />
+          ) : (
+            <span class="merchant-spotlight__logo-placeholder" aria-hidden="true">🐾</span>
+          )}
+        </div>
+
+        <div class="merchant-spotlight__meta">
+          <h4 class="merchant-spotlight__name">{prog.name}</h4>
+          <span class="merchant-spotlight__sector">{prog.sector}</span>
+        </div>
+      </div>
+
+      <p class="merchant-spotlight__desc">{prog.description}</p>
+
+      {showMetrics && (
+        <div class="merchant-spotlight__metrics" aria-label="Partner metrics">
+          {showConv && (
+            <span class="merchant-spotlight__metric">
+              {prog.conversionRate.toFixed(1)}% conversion
+            </span>
+          )}
+          {showEpc && (
+            <span class="merchant-spotlight__metric">
+              ${prog.epc.toFixed(2)} avg. earn
+            </span>
+          )}
+          {showCookie && (
+            <span class="merchant-spotlight__metric">
+              {prog.cookieDays}-day cookie
+            </span>
+          )}
+          {prog.commission && (
+            <span class="merchant-spotlight__metric">{prog.commission} commission</span>
+          )}
+        </div>
+      )}
+
+      {featuredProducts.length > 0 && (
+        <div class="merchant-spotlight__products">
+          {featuredProducts.map((product: any, i: number) => (
+            <AwinProductCard
+              product={product}
+              variant="compact"
+              placement={`merchant-spotlight-${i + 1}`}
+              hideDisclosure={true}
+            />
+          ))}
+        </div>
+      )}
+
+      <a
+        href={prog.deeplink}
+        rel="sponsored nofollow noopener noreferrer"
+        target="_blank"
+        class="merchant-spotlight__cta"
+        data-affiliate-merchant={prog.key}
+        data-affiliate-placement="merchant-spotlight-primary"
+      >
+        {prog.cta}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true">
+          <path d="M5 12h14M13 6l6 6-6 6"/>
+        </svg>
+      </a>
+    </div>
+
+    {!hideDisclosure && (
+      <p class="merchant-spotlight__disclosure">
+        PupWiki may earn a commission if you buy through links in this section.
+        <a href="/disclosure" class="merchant-spotlight__disclosure-link">See disclosure</a>
+      </p>
+    )}
+  </section>
+)}

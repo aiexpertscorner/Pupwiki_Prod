@@ -1,0 +1,196 @@
+---
+/**
+ * AwinProductCard.astro
+ * Rich dedicated product card for AWIN partner products.
+ * Three variants: 'card' (full vertical), 'horizontal' (image-left), 'compact' (rail tile).
+ */
+
+import { getProgramByKey, getProgramByMerchantName } from '../../lib/awin/getProgramData';
+
+export interface Props {
+  product: {
+    id: string;
+    name: string;
+    description?: string;
+    price?: number;
+    currency?: string;
+    url: string;
+    image?: string;
+    merchant?: string;
+    category?: string;
+    programId?: string;
+    topicTags?: string[];
+  };
+  variant?: 'card' | 'horizontal' | 'compact';
+  placement?: string;
+  headline?: string;
+  hideDisclosure?: boolean;
+}
+
+const { product, variant = 'card', placement = 'awin-card', headline, hideDisclosure = false } = Astro.props;
+
+const prog =
+  (product.programId ? getProgramByKey(product.programId) : null) ??
+  getProgramByMerchantName(product.merchant ?? '');
+
+const merchant = prog?.name || product.merchant || 'Brand';
+const deeplink = product.url || prog?.deeplink || '#';
+
+const numericPrice = Number(product.price);
+const hasPrice = Number.isFinite(numericPrice) && numericPrice > 0;
+const formattedPrice = hasPrice ? `$${numericPrice.toFixed(2)}` : null;
+
+const hasImage = product.image && String(product.image).startsWith('http');
+const hasFallbackLogo = prog?.logoUrl;
+
+const name = String(product.name || '');
+const truncatedName = name.length > 60 ? name.slice(0, 57) + '…' : name;
+const desc = String(product.description || '');
+const truncatedDesc = desc.length > 90 ? desc.slice(0, 87) + '…' : desc;
+
+const cta = prog?.cta || `Shop at ${merchant.split(' ')[0]}`;
+const isFeatured = prog?.isFeatured ?? false;
+
+const PROGRAM_ACCENTS: Record<string, string> = {
+  jugbow: 'var(--color-primary)',
+  chefpaw: '#16a34a',
+  rawwild: '#15803d',
+  'crownandpaw': 'var(--color-cta)',
+  'brutus-broth': '#92400e',
+  'radiofence-com': '#1d4ed8',
+  petmate: '#7c3aed',
+  mypetdmv: '#dc2626',
+};
+const accentColor = (product.programId && PROGRAM_ACCENTS[product.programId])
+  || (prog?.key && PROGRAM_ACCENTS[prog.key])
+  || 'var(--color-cta)';
+---
+
+{variant === 'compact' ? (
+  <a
+    href={deeplink}
+    rel="sponsored nofollow noopener noreferrer"
+    target="_blank"
+    class="awin-card awin-card--compact"
+    data-affiliate-merchant={merchant}
+    data-affiliate-product={product.id}
+    data-affiliate-placement={placement}
+    style={`--card-accent: ${accentColor}`}
+  >
+    <div class="awin-card__thumb">
+      {hasImage ? (
+        <img src={product.image} alt={name} width="64" height="64" loading="lazy" decoding="async" class="awin-card__thumb-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      ) : null}
+      <div class="awin-card__thumb-fallback" style={hasImage ? 'display:none' : ''}>
+        {hasFallbackLogo ? (
+          <img src={prog.logoUrl} alt={merchant} width="40" height="40" loading="lazy" decoding="async" class="awin-card__thumb-logo" />
+        ) : (
+          <span class="awin-card__thumb-emoji" aria-hidden="true">🐾</span>
+        )}
+      </div>
+    </div>
+
+    <div class="awin-card__compact-body">
+      <span class="awin-card__merchant">{merchant}</span>
+      <span class="awin-card__compact-name">{truncatedName}</span>
+      {formattedPrice && <span class="awin-card__price">{formattedPrice}</span>}
+    </div>
+
+    <span class="awin-card__arrow" aria-hidden="true">→</span>
+  </a>
+) : variant === 'horizontal' ? (
+  <article class="awin-card awin-card--horizontal" style={`--card-accent: ${accentColor}`}>
+    <a
+      href={deeplink}
+      rel="sponsored nofollow noopener noreferrer"
+      target="_blank"
+      class="awin-card__h-link"
+      data-affiliate-merchant={merchant}
+      data-affiliate-product={product.id}
+      data-affiliate-placement={placement}
+    >
+      <div class="awin-card__h-media">
+        {hasImage ? (
+          <img src={product.image} alt={name} width="120" height="120" loading="lazy" decoding="async" class="awin-card__h-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        ) : null}
+        <div class="awin-card__h-fallback" style={hasImage ? 'display:none' : ''}>
+          {hasFallbackLogo ? (
+            <img src={prog.logoUrl} alt={merchant} width="60" height="60" loading="lazy" decoding="async" class="awin-card__h-logo" />
+          ) : (
+            <span aria-hidden="true" class="awin-card__h-emoji">🐾</span>
+          )}
+        </div>
+      </div>
+
+      <div class="awin-card__h-body">
+        <span class="awin-card__merchant">{merchant}</span>
+        <h4 class="awin-card__h-name">{truncatedName}</h4>
+        {truncatedDesc && <p class="awin-card__h-desc">{truncatedDesc}</p>}
+        <div class="awin-card__h-footer">
+          {formattedPrice && <span class="awin-card__price">{formattedPrice}</span>}
+          <span class="awin-card__cta">{cta} →</span>
+        </div>
+      </div>
+    </a>
+
+    {!hideDisclosure && (
+      <p class="awin-card__disclosure">PupWiki may earn a commission if you buy through links in this section.</p>
+    )}
+  </article>
+) : (
+  /* Default: full vertical card */
+  <article class="awin-card awin-card--full" style={`--card-accent: ${accentColor}`}>
+    {headline && <p class="awin-card__headline">{headline}</p>}
+
+    <a
+      href={deeplink}
+      rel="sponsored nofollow noopener noreferrer"
+      target="_blank"
+      class="awin-card__full-link"
+      data-affiliate-merchant={merchant}
+      data-affiliate-product={product.id}
+      data-affiliate-placement={placement}
+    >
+      <div class="awin-card__media">
+        {hasImage ? (
+          <img src={product.image} alt={name} loading="lazy" decoding="async" class="awin-card__img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        ) : null}
+        <div class="awin-card__media-fallback" style={hasImage ? 'display:none' : ''}>
+          {hasFallbackLogo ? (
+            <img src={prog.logoUrl} alt={merchant} width="100" height="50" loading="lazy" decoding="async" class="awin-card__fallback-logo" />
+          ) : (
+            <span class="awin-card__fallback-emoji" aria-hidden="true">🐾</span>
+          )}
+        </div>
+
+        <span class="awin-card__badge" aria-label={`Sold by ${merchant}`}>
+          {merchant.split(' ')[0]}
+        </span>
+
+        {isFeatured && (
+          <span class="awin-card__featured-badge" aria-label="Featured partner">★ Featured</span>
+        )}
+      </div>
+
+      <div class="awin-card__body">
+        <span class="awin-card__merchant">{merchant}</span>
+        <h3 class="awin-card__name">{truncatedName}</h3>
+        {truncatedDesc && <p class="awin-card__desc">{truncatedDesc}</p>}
+
+        <div class="awin-card__footer">
+          <span class="awin-card__price-wrap">
+            {formattedPrice
+              ? <strong class="awin-card__price">{formattedPrice}</strong>
+              : <span class="awin-card__price-none">Partner offer</span>
+            }
+          </span>
+          <span class="awin-card__cta-btn">{cta}</span>
+        </div>
+      </div>
+    </a>
+
+    {!hideDisclosure && (
+      <p class="awin-card__disclosure">PupWiki may earn a commission if you buy through links in this section.</p>
+    )}
+  </article>
+)}

@@ -11,7 +11,7 @@
  */
 
 import { matchTopProduct, type MatchContext } from '../../lib/awin/matchProducts';
-import AffiliateProductCard from '../ui/AffiliateProductCard.astro';
+import AwinProductCard from './AwinProductCard.astro';
 
 // Try enriched API data first, then fall back to manual list
 let allProducts: any[] = [];
@@ -37,7 +37,7 @@ export interface Props {
   breedTraining?: string;
   excludeProductIds?: string[];
   productId?: string;
-  variant?: 'card' | 'compact';
+  variant?: 'card' | 'horizontal' | 'compact';
   headline?: string;
   monetizationIntent?: 'high' | 'medium' | 'low' | string;
 }
@@ -77,9 +77,10 @@ if (productId) {
 ---
 
 {product && (
-  <AffiliateProductCard
+  <AwinProductCard
     product={product}
     headline={headline}
     variant={variant}
+    placement="awin-slot"
   />
 )}
