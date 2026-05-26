@@ -21,6 +21,7 @@ import BreedSimilarCompare from '../../components/breed-detail/BreedSimilarCompa
 import BreedRelatedGuides from '../../components/breed-detail/BreedRelatedGuides.astro';
 import BreedSidebar from '../../components/breed-detail/BreedSidebar.astro';
 import BreedCommerceSuite from '../../components/breed/BreedCommerceSuite.astro';
+import AffiliateDisclosure from '../../components/AffiliateDisclosure.astro';
 
 export function getStaticPaths() {
   return getBreedStaticPaths();
@@ -121,6 +122,7 @@ const awinBaseTags = [
           <BreedFaqSection faqItems={faqItems} breed={breed} slug={slug} />
           <BreedSimilarCompare similarBreeds={similarBreeds} breedName={breed.name} />
           <BreedRelatedGuides breed={breed} clusterLinks={CLUSTER_LINKS} links={links} />
+          <AffiliateDisclosure />
           <div id="breed-products">
             <BreedCommerceSuite
               breedName={b.name}
@@ -172,6 +174,9 @@ const awinBaseTags = [
       if (idx === -1) { list.push({ slug, name }); } else { list.splice(idx, 1); }
       writeList(list);
       syncBtn();
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'breed_save_shortlist', { breed_slug: slug });
+      }
     });
   })();
 
@@ -190,5 +195,29 @@ const awinBaseTags = [
       { rootMargin: '-15% 0px -75% 0px', threshold: 0 },
     );
     sections.forEach(s => observer.observe(s));
+  })();
+
+  (() => {
+    const breedSlug = document.querySelector<HTMLButtonElement>('.js-shortlist-btn')?.dataset.slug ?? '';
+    const gtag = typeof window.gtag === 'function' ? window.gtag.bind(window) : null;
+
+    document.querySelectorAll<HTMLDetailsElement>('.faq-accordion__item').forEach(d => {
+      d.addEventListener('toggle', () => {
+        if (d.open && gtag) gtag('event', 'breed_faq_open', { breed_slug: breedSlug });
+      });
+    });
+
+    document.querySelectorAll<HTMLAnchorElement>('a[href*="/cost-calculator/"]').forEach(a => {
+      a.addEventListener('click', () => {
+        if (gtag) gtag('event', 'breed_cost_click', { breed_slug: breedSlug });
+      });
+    });
+
+    document.querySelectorAll<HTMLAnchorElement>('.breed-tools-cta a, .breed-decision-grid a').forEach(a => {
+      a.addEventListener('click', () => {
+        const toolId = new URL(a.href, location.origin).pathname.replace('/', '');
+        if (gtag) gtag('event', 'breed_tool_click', { breed_slug: breedSlug, tool_id: toolId });
+      });
+    });
   })();
 </script>

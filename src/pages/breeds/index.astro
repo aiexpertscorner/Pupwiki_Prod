@@ -319,10 +319,17 @@ const defaultVisibleCount = 48;
       applyFilters();
     }
 
+    let searchDebounce: ReturnType<typeof setTimeout>;
     searchInput?.addEventListener('input', () => {
       state.q = searchInput.value;
       showAll = true;
       applyFilters();
+      clearTimeout(searchDebounce);
+      searchDebounce = setTimeout(() => {
+        if (state.q && typeof window.gtag === 'function') {
+          window.gtag('event', 'breed_search', { query: state.q });
+        }
+      }, 500);
     });
 
     clearSearch?.addEventListener('click', () => {
@@ -343,6 +350,9 @@ const defaultVisibleCount = 48;
         state[key] = value;
         showAll = true;
         applyFilters();
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'breed_filter_apply', { filter_key: key, filter_value: value });
+        }
       });
     });
 
@@ -405,6 +415,36 @@ const defaultVisibleCount = 48;
     state = readStateFromUrl();
     showAll = !isDefaultState();
     applyFilters({ updateUrl: false, announce: false });
+
+    document.querySelectorAll<HTMLAnchorElement>('.breed-directory-card__title-row a').forEach(a => {
+      a.addEventListener('click', () => {
+        if (typeof window.gtag === 'function') {
+          const card = a.closest<HTMLElement>('.breed-directory-card');
+          window.gtag('event', 'breed_card_click', {
+            breed_slug: card?.dataset.breedSlug ?? '',
+            breed_name: a.textContent?.trim() ?? '',
+          });
+        }
+      });
+    });
+
+    document.querySelectorAll<HTMLAnchorElement>('a[href*="/cost-calculator/"]').forEach(a => {
+      a.addEventListener('click', () => {
+        if (typeof window.gtag === 'function') {
+          const card = a.closest<HTMLElement>('.breed-directory-card');
+          window.gtag('event', 'breed_cost_click', { breed_slug: card?.dataset.breedSlug ?? '' });
+        }
+      });
+    });
+
+    document.querySelectorAll<HTMLAnchorElement>('a[href*="/tools/compare"]').forEach(a => {
+      a.addEventListener('click', () => {
+        if (typeof window.gtag === 'function') {
+          const card = a.closest<HTMLElement>('.breed-directory-card');
+          window.gtag('event', 'breed_compare_click', { breed_slug: card?.dataset.breedSlug ?? '' });
+        }
+      });
+    });
   </script>
 
   <script>
