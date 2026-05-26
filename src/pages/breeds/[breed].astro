@@ -18,6 +18,7 @@ import BreedSidebar from '../../components/breed-detail/BreedSidebar.astro';
 import BreedCommerceSuite from '../../components/breed/BreedCommerceSuite.astro';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure.astro';
 import MonetizationRail from '../../components/affiliate/MonetizationRail.astro';
+import AwinOfferPlacement from '../../components/affiliate/AwinOfferPlacement.astro';
 
 export function getStaticPaths() {
   return getBreedStaticPaths();
@@ -119,6 +120,13 @@ const awinBaseTags = [
           <BreedRelatedGuides breed={breed} clusterLinks={CLUSTER_LINKS} links={links} />
           <AffiliateDisclosure />
           <div id="breed-products">
+            <AwinOfferPlacement
+              pageType="breed"
+              placement="breed-bottom"
+              topicTags={awinBaseTags}
+              maxItems={1}
+              variant="strip"
+            />
             <BreedCommerceSuite
               breedName={b.name}
               breedSlug={slug}

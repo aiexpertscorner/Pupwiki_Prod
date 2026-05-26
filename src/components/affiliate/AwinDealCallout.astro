@@ -1,0 +1,45 @@
+---
+import type { NormalizedAwinOffer } from '../../lib/monetization/getBestOffers';
+import AffiliateDisclosureMini from './AffiliateDisclosureMini.astro';
+import AwinExpiringSoonNotice from './AwinExpiringSoonNotice.astro';
+
+export interface Props {
+  offer: NormalizedAwinOffer;
+  hideDisclosure?: boolean;
+}
+
+const { offer, hideDisclosure = false } = Astro.props;
+
+// Editorial-tone context phrase
+const topicLabel = offer.topicTags[0] ?? 'this topic';
+---
+
+<aside
+  class="awin-deal-callout"
+  data-affiliate-network="awin"
+  data-affiliate-type="offer"
+  data-awin-advertiser-id={offer.advertiserId}
+  data-awin-promotion-id={offer.rawPromotionId}
+>
+  <p class="awin-deal-callout__text">
+    If you're already comparing {topicLabel} options,
+    <strong>{offer.advertiserName}</strong> has a current offer that may be worth checking.
+  </p>
+
+  <div class="awin-deal-callout__row">
+    <span class="awin-deal-callout__title">{offer.shortTitle}</span>
+    <AwinExpiringSoonNotice offer={offer} />
+    <a
+      href={offer.bestUrl!}
+      rel="nofollow sponsored noopener noreferrer"
+      target="_blank"
+      class="awin-deal-callout__link"
+      data-affiliate-merchant={offer.advertiserName}
+      data-awin-promotion-id={offer.rawPromotionId}
+    >
+      See current offer →
+    </a>
+  </div>
+
+  {!hideDisclosure && <AffiliateDisclosureMini compact />}
+</aside>

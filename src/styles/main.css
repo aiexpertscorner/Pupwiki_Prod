@@ -32,6 +32,7 @@
 @import './components/affiliate.css';
 @import './components/monetization.css';
 @import './components/commerce.css';
+@import './components/awin-offers.css';
 
 /* Reviews, ratings, content-type badges */
 @import './components/reviews.css';

@@ -1,0 +1,9 @@
+---
+export interface Props {
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+---
+<p class:list={['awin-disclosure-mini', { 'awin-disclosure-mini--compact': compact }]}>
+  PupWiki may earn a commission if you buy through affiliate links, at no extra cost to you.
+</p>

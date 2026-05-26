@@ -101,6 +101,27 @@ const report = {
   failures,
 };
 
+// ─── Offers summary (non-blocking) ────────────────────────────────────────
+const offerStats = (() => {
+  try {
+    const raw = JSON.parse(readFileSync(join(root, 'src/data/awin-offers.stats.json'), 'utf8'));
+    return raw;
+  } catch { return null; }
+})();
+
+if (offerStats) {
+  report.offers = {
+    total: offerStats.total ?? 0,
+    enabled: offerStats.enabled ?? 0,
+    active: offerStats.active ?? 0,
+    expiringSoon: offerStats.expiringSoon ?? 0,
+    vouchers: offerStats.vouchers ?? 0,
+    withVoucherCode: offerStats.withVoucherCode ?? 0,
+    avgQualityScore: offerStats.avgQualityScore ?? 0,
+    syncedAt: offerStats.syncedAt ?? null,
+  };
+}
+
 console.log(JSON.stringify(report, null, 2));
 
 if (failures.length) {

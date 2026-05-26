@@ -1,0 +1,63 @@
+---
+import type { NormalizedAwinOffer } from '../../lib/monetization/getBestOffers';
+import AffiliateDisclosureMini from './AffiliateDisclosureMini.astro';
+import AwinExpiringSoonNotice from './AwinExpiringSoonNotice.astro';
+
+export interface Props {
+  offers: NormalizedAwinOffer[];
+  hideDisclosure?: boolean;
+}
+
+const { offers, hideDisclosure = false } = Astro.props;
+if (offers.length === 0) return;
+
+const offer = offers[0];
+const isVoucher = offer.type === 'voucher';
+const badgeLabel = isVoucher ? 'Voucher' : 'Offer';
+---
+
+<div
+  class="awin-offer-strip"
+  data-affiliate-network="awin"
+  data-affiliate-type="offer"
+  data-awin-advertiser-id={offer.advertiserId}
+  data-awin-promotion-id={offer.rawPromotionId}
+>
+  <div class="awin-offer-strip__inner">
+    <div class="awin-offer-strip__header">
+      <span class:list={['awin-offer-badge', isVoucher ? 'awin-offer-badge--voucher' : 'awin-offer-badge--promo']}>
+        {badgeLabel}
+      </span>
+      <span class="awin-offer-strip__merchant">{offer.advertiserName}</span>
+      <AwinExpiringSoonNotice offer={offer} />
+    </div>
+
+    <p class="awin-offer-strip__title">{offer.shortTitle}</p>
+
+    {offer.cleanDescription && (
+      <p class="awin-offer-strip__desc">{offer.cleanDescription}</p>
+    )}
+
+    {isVoucher && offer.voucher?.code && (
+      <div class="awin-offer-strip__code-wrap">
+        <span class="awin-offer-strip__code-label">Code:</span>
+        <code class="awin-voucher-code">{offer.voucher.code}</code>
+      </div>
+    )}
+  </div>
+
+  <div class="awin-offer-strip__cta-col">
+    <a
+      href={offer.bestUrl!}
+      rel="nofollow sponsored noopener noreferrer"
+      target="_blank"
+      class="awin-cta-btn"
+      data-affiliate-merchant={offer.advertiserName}
+      data-awin-promotion-id={offer.rawPromotionId}
+    >
+      {isVoucher ? 'View voucher' : 'View current offer'}
+    </a>
+  </div>
+
+  {!hideDisclosure && <AffiliateDisclosureMini compact />}
+</div>

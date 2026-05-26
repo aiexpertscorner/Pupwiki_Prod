@@ -1,0 +1,63 @@
+---
+/**
+ * AwinOfferPlacement.astro
+ * Central orchestrator for AWIN offer/promotion display.
+ * Calls getBestOffers() at build time — no runtime API calls.
+ * Renders nothing if no matching offers or medical context detected.
+ */
+
+import { getBestOffers } from '../../lib/monetization/getBestOffers';
+import { isMedicalContext } from '../../lib/monetization/offerSafety';
+import AwinOfferStrip from './AwinOfferStrip.astro';
+import AwinDealCallout from './AwinDealCallout.astro';
+import AwinOfferGrid from './AwinOfferGrid.astro';
+
+export interface Props {
+  pageType: string;
+  placement: string;
+  topicTags?: string[];
+  merchant?: string;
+  maxItems?: number;
+  variant?: 'strip' | 'callout' | 'grid' | 'compact';
+  suppressIfMedical?: boolean;
+  isMedical?: boolean;
+}
+
+const {
+  pageType,
+  placement,
+  topicTags = [],
+  merchant,
+  maxItems = 1,
+  variant = 'strip',
+  suppressIfMedical = true,
+  isMedical = false,
+} = Astro.props;
+
+if (isMedical || (suppressIfMedical && isMedicalContext(topicTags))) {
+  return;
+}
+
+const offers = getBestOffers({ pageType, placement, topicTags, merchant, maxItems, isMedical });
+if (offers.length === 0) return;
+---
+
+<div
+  class="awin-offer-placement"
+  data-affiliate-network="awin"
+  data-affiliate-type="offer"
+  data-placement={placement}
+  data-page-type={pageType}
+>
+  {(variant === 'strip' || variant === 'compact') && (
+    <AwinOfferStrip offers={offers} />
+  )}
+
+  {variant === 'callout' && (
+    <AwinDealCallout offer={offers[0]} />
+  )}
+
+  {variant === 'grid' && (
+    <AwinOfferGrid offers={offers} columns={maxItems >= 3 ? 3 : 2} />
+  )}
+</div>

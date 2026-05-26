@@ -1,0 +1,22 @@
+---
+import type { NormalizedAwinOffer } from '../../lib/monetization/getBestOffers';
+import AwinVoucherCard from './AwinVoucherCard.astro';
+import AffiliateDisclosureMini from './AffiliateDisclosureMini.astro';
+
+export interface Props {
+  offers: NormalizedAwinOffer[];
+  columns?: 2 | 3;
+  hideDisclosure?: boolean;
+}
+
+const { offers, columns = 3, hideDisclosure = false } = Astro.props;
+if (offers.length === 0) return;
+---
+
+<div class:list={['awin-offer-grid', `awin-offer-grid--cols-${columns}`]}>
+  {offers.map((offer) => (
+    <AwinVoucherCard offer={offer} hideDisclosure={true} />
+  ))}
+</div>
+
+{!hideDisclosure && <AffiliateDisclosureMini compact />}
