@@ -37,7 +37,7 @@
 /* Domain modules */
 @import './domains/breeds/index.css';
 @import './components/products.css';
-@import './components/blog.css';
+@import './components/guides.css';
 @import './names.css';
 
 /* -------------------------------------------------------------

@@ -11,6 +11,7 @@ import HomeCareHubs from '../components/home/HomeCareHubs.astro';
 import HomeFeaturedGuides from '../components/home/HomeFeaturedGuides.astro';
 import HomeMethodologyCompact from '../components/home/HomeMethodologyCompact.astro';
 import HomeFinalCta from '../components/home/HomeFinalCta.astro';
+import HomeAwinShowcase from '../components/home/HomeAwinShowcase.astro';
 
 import getHomepageData from '../lib/homepage/getHomepageData';
 
@@ -168,6 +169,11 @@ const structuredData = [
         title={careHubs.title}
         items={careHubs.items}
       />
+    )}
+
+    {/* 6b — AWIN partner showcase */}
+    {featureFlags.showAwinSpotlight && (
+      <HomeAwinShowcase />
     )}
 
     {/* 7 — Curated featured guides */}

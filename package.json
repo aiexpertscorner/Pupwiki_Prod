@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "npm run sitemap:generate",
     "build": "node --max-old-space-size=4096 ./node_modules/astro/astro.js build",
     "build:fast": "node --max-old-space-size=4096 ./node_modules/astro/astro.js build",
     "build:ci": "node --max-old-space-size=4096 ./node_modules/astro/astro.js build",
@@ -66,6 +67,7 @@
     "analytics:audit:cf": "node scripts/analytics/audit-traffic.mjs --cloudflare",
     "analytics:audit:ga4": "node scripts/analytics/audit-traffic.mjs --ga4",
     "sitemap:generate": "node generate-sitemap.mjs",
+    "sitemap:validate": "node scripts/seo/validate-sitemaps.mjs",
     "affiliate:sync": "npm run awin:sync && npm run partners:generate",
     "images:guides": "node scripts/enrich-homepage-guides.mjs",
     "images:guides:dry": "node scripts/enrich-homepage-guides.mjs --dry-run",

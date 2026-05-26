@@ -1,12 +1,12 @@
 ---
-import BlogCard from '../content/BlogCard.astro';
+import GuideCard from '../content/GuideCard.astro';
 import type { CategoryMeta } from '../../lib/categories/categoryConfig';
-import { toIsoString, type BlogLikeEntry } from '../../lib/categories/categoryHelpers';
+import { toIsoString, type GuideLikeEntry } from '../../lib/categories/categoryHelpers';
 
 export interface Props {
   meta: CategoryMeta;
-  posts: BlogLikeEntry[];
-  supportingPosts?: BlogLikeEntry[];
+  posts: GuideLikeEntry[];
+  supportingPosts?: GuideLikeEntry[];
   totalCount?: number;
 }
 
@@ -37,7 +37,7 @@ const {
 
     <div class="category-hub__post-grid">
       {posts.map((post) => (
-        <BlogCard
+        <GuideCard
           title={post.data.title}
           excerpt={post.data.description ?? ''}
           category={post.data.category ?? meta.title}

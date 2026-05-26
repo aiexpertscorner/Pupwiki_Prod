@@ -1,0 +1,424 @@
+---
+/**
+ * GuidesLayout.astro — global-styled article layout for PupWiki.
+ * Styling lives in src/styles/pages/article.css (imported below).
+ */
+
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumb from '../components/ui/Breadcrumb.astro';
+import PageBannerSlot from '../components/affiliate/PageBannerSlot.astro';
+import CommercePlacement from '../components/commerce/CommercePlacement.astro';
+import MonetizationRail from '../components/affiliate/MonetizationRail.astro';
+import MethodologyNote from '../components/guides/MethodologyNote.astro';
+import '../styles/pages/article.css';
+
+export interface Props {
+  title: string;
+  displayTitle?: string;
+  description: string;
+  canonicalUrl?: string;
+  pubDate: string;
+  updatedDate?: string;
+  category: string;
+  readTime?: number;
+  heroImage?: string;
+  heroImageAlt?: string;
+  schema?: object;
+  tags?: string[];
+  postType?: string;
+  breedSlug?: string;
+  breedName?: string;
+  breedSize?: string;
+  breedEnergy?: string;
+  breedCoat?: string;
+  noIndex?: boolean;
+  claimSensitivity?: string;
+  medicalDisclaimer?: boolean;
+}
+
+const {
+  title,
+  displayTitle = title,
+  description,
+  canonicalUrl,
+  pubDate,
+  updatedDate,
+  category,
+  readTime = 5,
+  heroImage,
+  heroImageAlt = title,
+  schema,
+  tags = [],
+  postType = 'general',
+  breedSlug,
+  breedName,
+  breedSize,
+  breedEnergy,
+  breedCoat,
+  noIndex = false,
+  claimSensitivity,
+  medicalDisclaimer = false,
+} = Astro.props;
+
+const showHealthDisclaimer = medicalDisclaimer || claimSensitivity === 'high' || ['Health', 'Supplements', 'Supplement'].includes(category);
+const ENABLE_ADSENSE = true;
+const ADSENSE_CLIENT = 'ca-pub-4011000703937954';
+
+function slugify(value: string) {
+  return String(value || '').toLowerCase().trim().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+const categoryConfig: Record<string, { label: string; icon: string; className: string }> = {
+  food: { label: 'Food & Nutrition', icon: '🍖', className: 'is-food' },
+  'dog food': { label: 'Food & Nutrition', icon: '🍖', className: 'is-food' },
+  toys: { label: 'Toys & Enrichment', icon: '🎾', className: 'is-toys' },
+  health: { label: 'Health & Vet Care', icon: '🩺', className: 'is-health' },
+  beds: { label: 'Sleep & Comfort', icon: '🛏️', className: 'is-beds' },
+  grooming: { label: 'Grooming', icon: '✂️', className: 'is-grooming' },
+  supplements: { label: 'Supplements', icon: '💊', className: 'is-supplements' },
+  training: { label: 'Training', icon: '🦮', className: 'is-training' },
+  gear: { label: 'Training & Gear', icon: '🦮', className: 'is-training' },
+  'smart tech': { label: 'Smart Tech', icon: '📡', className: 'is-tech' },
+  lifestyle: { label: 'Lifestyle', icon: '🎁', className: 'is-lifestyle' },
+  'pupwiki partners': { label: 'Dog Brand Guides', icon: '🐾', className: 'is-lifestyle' },
+};
+
+const categoryKey = String(category || 'Guide').toLowerCase();
+const categoryMeta = categoryConfig[categoryKey] || { label: category || 'Guide', icon: '🐾', className: 'is-default' };
+
+const articlePrimaryCta = ({
+  training:    { label: 'Browse training guides',  href: '/categories/training'  },
+  gear:        { label: 'Browse training guides',  href: '/categories/training'  },
+  health:      { label: 'Browse health guides',    href: '/categories/health'    },
+  supplements: { label: 'Browse health guides',    href: '/categories/health'    },
+  'dog food':  { label: 'Browse food guides',      href: '/categories/dog-food'  },
+  food:        { label: 'Browse food guides',      href: '/categories/dog-food'  },
+  grooming:    { label: 'Browse grooming guides',  href: '/categories/grooming'  },
+  toys:        { label: 'Browse toy guides',        href: '/categories/toys'      },
+  beds:        { label: 'Browse bed guides',        href: '/categories/beds'      },
+  lifestyle:   { label: 'Browse lifestyle guides', href: '/categories/lifestyle' },
+} as Record<string, { label: string; href: string }>)[categoryKey]
+  ?? { label: 'Explore dog breeds', href: '/breeds' };
+const categoryPath = `/categories/${slugify(category)}`;
+const displayDate = new Date(updatedDate ?? pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+const publishedIso = new Date(pubDate).toISOString();
+const updatedIso = updatedDate ? new Date(updatedDate).toISOString() : undefined;
+const isHealthSensitive = ['health', 'supplements', 'food', 'dog food'].includes(categoryKey) || ['health', 'supplements', 'product-roundup'].includes(String(postType || '').toLowerCase());
+const showAds = ENABLE_ADSENSE && !noIndex && claimSensitivity !== 'high' && !['insurance', 'vet-care'].some(k => (category || '').toLowerCase().includes(k));
+
+const partnerTopicTags = [categoryKey, postType, breedSlug, breedName, breedSize, breedEnergy, breedCoat, ...tags]
+  .filter(Boolean)
+  .map((item) => String(item).toLowerCase());
+
+const defaultArticleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: displayTitle,
+  description,
+  ...(heroImage ? { image: heroImage } : {}),
+  datePublished: publishedIso,
+  dateModified: updatedIso || publishedIso,
+  author: { '@type': 'Organization', name: 'PupWiki' },
+  publisher: { '@type': 'Organization', name: 'PupWiki' },
+  ...(canonicalUrl ? { mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl } } : {}),
+};
+
+const resolvedSchema = schema || defaultArticleSchema;
+const SITE = 'https://pupwiki.com';
+const slugifiedCat = slugify(category);
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+    { '@type': 'ListItem', position: 2, name: 'Guides', item: `${SITE}/guides` },
+    { '@type': 'ListItem', position: 3, name: categoryMeta.label, item: `${SITE}/categories/${slugifiedCat}` },
+    ...(canonicalUrl ? [{ '@type': 'ListItem', position: 4, name: displayTitle, item: canonicalUrl }] : []),
+  ],
+};
+
+const contentTypeBadgeMap: Record<string, { label: string; cls: string }> = {
+  'product-roundup': { label: 'Product Review', cls: 'content-type-badge--review' },
+  comparison:        { label: 'Comparison',      cls: 'content-type-badge--review' },
+  review:            { label: 'Review',          cls: 'content-type-badge--review' },
+  'how-to':          { label: 'How-To Guide',    cls: 'content-type-badge--howto' },
+  'breed-support':   { label: 'Breed Guide',     cls: 'content-type-badge--guide' },
+  faq:               { label: 'FAQ',             cls: 'content-type-badge--faq' },
+};
+const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalUrl={canonicalUrl}
+  pageType="article"
+  publishedTime={publishedIso}
+  modifiedTime={updatedIso}
+  noIndex={noIndex}
+  ogImage={heroImage}
+  ogImageAlt={heroImageAlt}
+  bodyClass="article-page pw-page"
+>
+  <Fragment slot="head">
+    {resolvedSchema && <script type="application/ld+json" set:html={JSON.stringify(resolvedSchema)} />}
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)} />
+  </Fragment>
+
+  <main class="article-page">
+    <header class="article-hero">
+      <div class="article-container">
+        <Breadcrumb
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Guides', href: '/guides' },
+            { label: categoryMeta.label, href: categoryPath },
+            { label: displayTitle, current: true },
+          ]}
+        />
+
+        <div class="article-meta-row">
+          <span class:list={['article-category-pill', categoryMeta.className]}>{categoryMeta.icon} {categoryMeta.label}</span>
+          {contentTypeBadge && (
+            <span class:list={['content-type-badge', contentTypeBadge.cls]}>{contentTypeBadge.label}</span>
+          )}
+          <time datetime={updatedIso || publishedIso}>{displayDate}</time>
+          <span aria-hidden="true">·</span>
+          <span>{readTime} min read</span>
+        </div>
+
+        <h1>{displayTitle}</h1>
+        <p class="article-hero__subtitle">{description}</p>
+
+        <div class="article-trust-row" aria-label="Article trust notes">
+          <span>Updated dog guide</span>
+          <span>Reader-first recommendations</span>
+          {isHealthSensitive && <span>General information, not veterinary advice</span>}
+        </div>
+
+        {heroImage && (
+          <figure class="article-hero__image-wrap">
+            <img src={heroImage} alt={heroImageAlt} width="1280" height="560" loading="eager" decoding="async" class="article-hero__image" />
+          </figure>
+        )}
+      </div>
+    </header>
+
+    <section class="article-prelude">
+      <div class="article-container">
+        <div class="article-disclosure-card">
+          <div>
+            <strong>How PupWiki chooses resources</strong>
+            <p>We prioritize dog relevance, practical fit, clear safety notes, and up-to-date product or service details. Always confirm current terms on the brand or retailer site before buying.</p>
+          </div>
+          <a href="/how-we-test">Research method →</a>
+        </div>
+
+        {isHealthSensitive && (
+          <div class="article-health-note">
+            <strong>Health note</strong>
+            <p>This guide is for general informational and product-comparison purposes only. It is not veterinary advice. Diet, supplements, allergies, medical conditions, and weight-management decisions should be discussed with your veterinarian.</p>
+          </div>
+        )}
+      </div>
+    </section>
+
+    <section class="article-main">
+      <div class="article-container">
+        <div class="article-layout">
+          <article class="article-content prose" id="article-content">
+            <nav class="article-toc article-toc--mobile not-prose" id="article-toc-mobile" aria-label="On this page" hidden>
+              <details>
+                <summary>On this page</summary>
+                <ol class="article-toc__list"></ol>
+              </details>
+            </nav>
+
+            <MethodologyNote category={category} postType={postType} />
+
+            <slot />
+
+            {showAds && (
+              <div class="ad-slot not-prose" aria-hidden="true">
+                <ins class="adsbygoogle"
+                  style="display:block; min-height:90px; width:100%"
+                  data-ad-client={ADSENSE_CLIENT}
+                  data-ad-slot="auto"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"
+                ></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+              </div>
+            )}
+
+            <div class="article-tool-cta not-prose">
+              <div class="article-tool-cta__icon" aria-hidden="true">🐾</div>
+              <div class="article-tool-cta__content">
+                {breedSlug
+                  ? <strong>More for {breedName || breedSlug} owners</strong>
+                  : <strong>Use PupWiki tools next</strong>}
+                {breedSlug
+                  ? <p>Compare traits, estimate costs, and explore more {breedName || breedSlug} guides.</p>
+                  : <p>More practical dog guidance — breeds, costs, names, and care tools.</p>}
+              </div>
+              <div class="article-tool-cta__actions">
+                {breedSlug && <a href={`/breeds/${breedSlug}`} class="article-button article-button--primary">← {breedName || breedSlug} guide</a>}
+                {breedSlug && <a href={`/cost-calculator/${breedSlug}`} class="article-button article-button--secondary">Cost calculator</a>}
+                {!breedSlug && <a href={articlePrimaryCta.href} class="article-button article-button--primary">{articlePrimaryCta.label}</a>}
+                {!breedSlug && articlePrimaryCta.href !== '/breeds' && <a href="/breeds" class="article-button article-button--secondary">Explore breeds</a>}
+              </div>
+            </div>
+
+            <div class="article-correction-card not-prose">
+              <div>
+                <strong>Spotted outdated information?</strong>
+                <p>Product availability, prices, formulas, and service details can change. Send us the page URL and the specific detail we should review.</p>
+              </div>
+              <a href="/contact">Suggest a correction →</a>
+            </div>
+
+            <slot name="related" />
+          </article>
+
+          <aside class="article-sidebar" aria-label="Article sidebar">
+            <div class="article-sidebar__inner">
+              <nav class="article-toc article-toc--desktop article-sidebar-card" id="article-toc-desktop" aria-label="On this page" hidden>
+                <h2>On this page</h2>
+                <ol class="article-toc__list"></ol>
+              </nav>
+
+              <section class="article-sidebar-card">
+                <h2>Article guide</h2>
+                <dl>
+                  <div><dt>Category</dt><dd>{categoryMeta.label}</dd></div>
+                  <div><dt>Updated</dt><dd>{displayDate}</dd></div>
+                  <div><dt>Read time</dt><dd>{readTime} min</dd></div>
+                  {breedName && <div><dt>Breed</dt><dd>{breedName}</dd></div>}
+                </dl>
+              </section>
+
+              <div class="article-sidebar__affiliate">
+                <MonetizationRail
+                  pageType="guide"
+                  zone="mid-content"
+                  topicTags={partnerTopicTags}
+                  category={categoryKey}
+                  breedSlug={breedSlug}
+                  breedSize={breedSize}
+                  monetizationIntent="medium"
+                />
+              </div>
+
+              <section class="article-sidebar-card">
+                <h2>Explore next</h2>
+                <nav class="article-sidebar-nav">
+                  {breedSlug && <a href={`/breeds/${breedSlug}`}><span>🐾</span><strong>{breedName || breedSlug} breed guide</strong></a>}
+                  <a href="/breeds"><span>🐕</span><strong>Breed explorer</strong></a>
+                  <a href="/cost-calculator"><span>💰</span><strong>Dog cost calculator</strong></a>
+                  <a href="/dog-names"><span>✍️</span><strong>Dog name generator</strong></a>
+                  <a href="/how-we-test"><span>🔍</span><strong>How we research guides</strong></a>
+                </nav>
+              </section>
+
+              <section class="article-sidebar-card article-sidebar-card--warm">
+                <h2>Transparency</h2>
+                <p>PupWiki may earn from some product and brand links. Health-sensitive content is general information and should not replace veterinary advice.</p>
+                <div class="article-sidebar-links">
+                  <a href="/disclosure">Full disclosure →</a>
+                  <a href="/privacy">Privacy policy →</a>
+                  <a href="/contact">Contact →</a>
+                </div>
+              </section>
+
+              <slot name="sidebar" />
+
+              {showAds && (
+                <div class="ad-slot" aria-hidden="true" style="margin-top:var(--space-4)">
+                  <ins class="adsbygoogle"
+                    style="display:block; min-height:90px; width:100%"
+                    data-ad-client={ADSENSE_CLIENT}
+                    data-ad-slot="auto"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"
+                  ></ins>
+                  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                </div>
+              )}
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<script>
+  (() => {
+    const article = document.getElementById('article-content');
+    if (!article) return;
+
+    // ── Table of contents ─────────────────────────────────────────
+    const headings = Array.from(article.querySelectorAll<HTMLElement>('h2, h3'))
+      .filter(h => h.id && h.textContent?.trim());
+
+    if (headings.length >= 3) {
+      const buildList = (container: Element | null) => {
+        if (!container) return;
+        const ol = container.querySelector<HTMLOListElement>('.article-toc__list');
+        if (!ol) return;
+        ol.innerHTML = headings.map(h => {
+          const indent = h.tagName === 'H3' ? ' class="article-toc__sub"' : '';
+          return `<li${indent}><a href="#${h.id}">${h.textContent!.trim()}</a></li>`;
+        }).join('');
+      };
+
+      const mobileToc = document.getElementById('article-toc-mobile');
+      const desktopToc = document.getElementById('article-toc-desktop');
+
+      buildList(mobileToc);
+      buildList(desktopToc);
+
+      if (mobileToc) mobileToc.hidden = false;
+      if (desktopToc) desktopToc.hidden = false;
+
+      // Active heading highlight
+      const tocLinks = document.querySelectorAll<HTMLAnchorElement>('.article-toc__list a');
+      const observer = new IntersectionObserver(
+        entries => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) {
+              const id = entry.target.id;
+              tocLinks.forEach(a => a.classList.toggle('is-active', a.getAttribute('href') === `#${id}`));
+            }
+          }
+        },
+        { rootMargin: '-15% 0px -75% 0px', threshold: 0 }
+      );
+      headings.forEach(h => observer.observe(h));
+    }
+
+    // ── Reading progress bar ──────────────────────────────────────
+    const bar = document.createElement('div');
+    bar.className = 'article-progress-bar';
+    bar.setAttribute('aria-hidden', 'true');
+    document.body.insertBefore(bar, document.body.firstChild);
+
+    // ── Back to top button ────────────────────────────────────────
+    const topBtn = document.createElement('button');
+    topBtn.className = 'article-back-to-top';
+    topBtn.setAttribute('aria-label', 'Back to top');
+    topBtn.innerHTML = '↑';
+    document.body.appendChild(topBtn);
+    topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // ── Shared scroll handler ─────────────────────────────────────
+    const docEl = document.documentElement;
+    window.addEventListener('scroll', () => {
+      const scrolled = window.scrollY;
+      const maxScroll = docEl.scrollHeight - docEl.clientHeight;
+      const pct = maxScroll > 0 ? (scrolled / maxScroll) * 100 : 0;
+      bar.style.width = `${pct}%`;
+      topBtn.classList.toggle('is-visible', pct > 40);
+    }, { passive: true });
+  })();
+</script>

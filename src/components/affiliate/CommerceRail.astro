@@ -1,0 +1,80 @@
+---
+/**
+ * CommerceRail.astro
+ * Responsive 2–4 AWIN product card grid. Context-aware, deduplicates by merchant.
+ * Renders nothing if fewer than 1 product matches the context.
+ */
+
+import { matchProducts, type MatchContext } from '../../lib/awin/matchProducts';
+import AwinProductCard from './AwinProductCard.astro';
+
+export interface Props {
+  topicTags?: string[];
+  pageType?: string;
+  category?: string;
+  breedSize?: string;
+  breedSlug?: string;
+  monetizationIntent?: 'high' | 'medium' | 'low' | string;
+  excludeProductIds?: string[];
+  headline?: string;
+  limit?: number;
+  hideDisclosure?: boolean;
+  placement?: string;
+}
+
+const {
+  topicTags = [],
+  pageType = 'guide',
+  category,
+  breedSize,
+  breedSlug,
+  monetizationIntent = 'medium',
+  excludeProductIds = [],
+  headline,
+  limit = 3,
+  hideDisclosure = false,
+  placement = 'commerce-rail',
+} = Astro.props;
+
+let allProducts: any[] = [];
+try {
+  const enriched = await import('../../data/awin-products.json');
+  allProducts = Array.isArray(enriched.default) ? enriched.default : [];
+} catch {}
+
+const context: MatchContext = {
+  topicTags: [...topicTags, ...(breedSlug ? [breedSlug] : [])],
+  pageType,
+  category,
+  breedSize,
+  excludeProductIds,
+  limit: Math.min(Math.max(limit, 1), 4),
+  monetizationIntent,
+};
+
+const products = matchProducts(allProducts, context);
+---
+
+{products.length > 0 && (
+  <section class="commerce-rail" aria-label="Partner product picks">
+    {headline && <h3 class="commerce-rail__headline">{headline}</h3>}
+
+    <div class={`commerce-rail__grid commerce-rail__grid--${products.length}`}>
+      {products.map((product: any, i: number) => (
+        <AwinProductCard
+          product={product}
+          variant="card"
+          placement={`${placement}-${i + 1}`}
+          hideDisclosure={true}
+        />
+      ))}
+    </div>
+
+    {!hideDisclosure && (
+      <p class="commerce-rail__disclosure">
+        Reader-supported — PupWiki may earn a commission when you buy through these links.{' '}
+        <a href="/disclosure" class="commerce-rail__disclosure-link">See disclosure →</a>
+      </p>
+    )}
+  </section>
+)}

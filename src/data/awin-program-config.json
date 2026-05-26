@@ -26,7 +26,7 @@
       "conversionRate": 6.96,
       "cookieDays": 30,
       "topicTags": ["food", "nutrition", "feeding", "fresh-food", "raw-food", "sensitive-stomach", "allergies", "care", "appliances"],
-      "pageTypes": ["blog", "breed", "category", "homepage"],
+      "pageTypes": ["guide", "breed", "category", "homepage"],
       "excludeTopicTags": ["training", "toys", "gear", "beds", "emergency-vet"]
     },
     {
@@ -44,7 +44,7 @@
       "conversionRate": 6.18,
       "cookieDays": 120,
       "topicTags": ["food", "nutrition", "raw-food", "freeze-dried", "sensitive-stomach", "allergies", "feeding", "single-protein"],
-      "pageTypes": ["blog", "breed", "category"],
+      "pageTypes": ["guide", "breed", "category"],
       "excludeTopicTags": ["training", "toys", "gear", "beds", "emergency-vet"]
     },
     {
@@ -62,7 +62,7 @@
       "conversionRate": 4.74,
       "cookieDays": 30,
       "topicTags": ["training", "behavior", "obedience", "recall", "leash", "harness", "working", "active", "gear"],
-      "pageTypes": ["blog", "breed", "category"],
+      "pageTypes": ["guide", "breed", "category"],
       "excludeTopicTags": ["food", "health", "emergency-vet", "medical-warning"]
     },
     {
@@ -80,7 +80,7 @@
       "conversionRate": 8.35,
       "cookieDays": 60,
       "topicTags": ["gift", "lifestyle", "portrait", "memorial", "dog-names", "apparel", "accessories"],
-      "pageTypes": ["blog", "breed", "homepage"],
+      "pageTypes": ["guide", "breed", "homepage"],
       "excludeTopicTags": ["food", "training", "health", "emergency-vet"]
     },
     {
@@ -98,7 +98,7 @@
       "conversionRate": 0,
       "cookieDays": 30,
       "topicTags": ["food", "nutrition", "supplements", "hydration", "joint-health", "digestion", "senior", "recovery"],
-      "pageTypes": ["blog", "breed", "category"],
+      "pageTypes": ["guide", "breed", "category"],
       "excludeTopicTags": ["training", "toys", "gear", "emergency-vet"]
     },
     {
@@ -116,7 +116,7 @@
       "conversionRate": 10.35,
       "cookieDays": 30,
       "topicTags": ["training", "gear", "containment", "fence", "gps", "tracking", "outdoor", "active", "safety"],
-      "pageTypes": ["blog", "breed", "category"],
+      "pageTypes": ["guide", "breed", "category"],
       "excludeTopicTags": ["food", "health", "emergency-vet"]
     },
     {
@@ -134,7 +134,7 @@
       "conversionRate": 0,
       "cookieDays": 30,
       "topicTags": ["beds", "gear", "crates", "carriers", "toys", "bowls", "accessories", "home"],
-      "pageTypes": ["blog", "breed", "category", "homepage"],
+      "pageTypes": ["guide", "breed", "category", "homepage"],
       "excludeTopicTags": ["food", "health", "emergency-vet"]
     },
     {
@@ -152,7 +152,7 @@
       "conversionRate": 20.83,
       "cookieDays": 30,
       "topicTags": ["gift", "lifestyle", "novelty", "accessories", "dog-names", "fun"],
-      "pageTypes": ["blog", "breed", "homepage"],
+      "pageTypes": ["guide", "breed", "homepage"],
       "excludeTopicTags": ["food", "health", "training", "emergency-vet"]
     }
   ]

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import OfferSlot from '../../components/monetization/OfferSlot.astro';
+import MonetizationRail from '../../components/affiliate/MonetizationRail.astro';
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 
@@ -252,6 +253,12 @@ const whatToLookFor = [
           </div>
         </section>
 
+        <MonetizationRail
+          pageType="tool"
+          zone="bottom"
+          topicTags={['insurance', 'health', 'vet-care']}
+          monetizationIntent="high"
+        />
       </main>
 
       <aside class="pi-sidebar">

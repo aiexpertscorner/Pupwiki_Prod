@@ -1,0 +1,67 @@
+---
+/**
+ * BlogCard.astro
+ * Article/blog card. Supports normal and featured (horizontal) variant.
+ */
+
+export interface Props {
+  title:      string;
+  excerpt:    string;
+  category:   string;
+  href:       string;
+  pubDate?:   string;
+  readTime?:  number;
+  image?:     string;
+  imageAlt?:  string;
+  featured?:  boolean;
+  emoji?:     string;   // placeholder when no image
+}
+
+const {
+  title,
+  excerpt,
+  category,
+  href,
+  pubDate,
+  readTime,
+  image,
+  imageAlt = title,
+  featured = false,
+  emoji = '🐾',
+} = Astro.props;
+
+const displayDate = pubDate
+  ? new Date(pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+  : null;
+
+const categoryColors: Record<string, string> = {
+  food: 'food', toys: 'toys', health: 'health',
+  training: 'training', grooming: 'grooming', gear: 'training',
+};
+const badgeTheme = categoryColors[category.toLowerCase()] ?? 'primary';
+---
+
+<a
+  href={href}
+  class={`blog-card ${featured ? 'blog-card--featured' : ''}`}
+  aria-label={title}
+>
+  <div class="blog-card__image-wrap">
+    {image
+      ? <img src={image} alt={imageAlt} class="blog-card__image" loading="lazy" decoding="async" width="600" height="340" />
+      : <div class="blog-card__image-placeholder" aria-hidden="true">{emoji}</div>
+    }
+  </div>
+
+  <div class="blog-card__body">
+    <span class={`badge badge--${badgeTheme} blog-card__category`}>{category}</span>
+    <h3 class="blog-card__title">{title}</h3>
+    <p class="blog-card__excerpt">{excerpt}</p>
+
+    <div class="blog-card__meta">
+      {displayDate && <time datetime={pubDate}>{displayDate}</time>}
+      {displayDate && readTime && <span class="blog-card__meta-dot" aria-hidden="true"></span>}
+      {readTime && <span>{readTime} min read</span>}
+    </div>
+  </div>
+</a>

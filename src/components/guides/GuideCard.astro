@@ -1,0 +1,76 @@
+---
+export interface CategoryMeta {
+  label: string;
+  icon: string;
+  className: string;
+}
+
+export interface Props {
+  href: string;
+  title: string;
+  description?: string;
+  image?: string | null;
+  imageAlt?: string;
+  category: CategoryMeta;
+  dateLabel?: string;
+  datetime?: string;
+  featured?: boolean;
+}
+
+const {
+  href,
+  title,
+  description = '',
+  image = null,
+  imageAlt = title,
+  category,
+  dateLabel = '',
+  datetime = '',
+  featured = false,
+} = Astro.props;
+
+const mediaClass = featured ? 'blog-featured-card__media' : 'blog-card__media';
+const bodyClass = featured ? 'blog-featured-card__body' : 'blog-card__body';
+---
+
+<a href={href} class={featured ? 'blog-featured-card' : 'blog-card'} data-blog-cat={category.className}>
+  <div class={mediaClass}>
+    {image ? (
+      <img
+        src={image}
+        alt={imageAlt}
+        width={featured ? '760' : '420'}
+        height={featured ? '520' : '260'}
+        loading={featured ? 'eager' : 'lazy'}
+        decoding="async"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"
+      />
+    ) : null}
+
+    <div class:list={['blog-image-fallback', image && 'is-hidden']}>
+      <span>{category.icon}</span>
+    </div>
+
+    {!featured && (
+      <span class:list={['blog-category-pill', category.className]}>
+        {category.icon} {category.label}
+      </span>
+    )}
+  </div>
+
+  <div class={bodyClass}>
+    {featured && (
+      <span class:list={['blog-category-pill', category.className]}>
+        {category.icon} {category.label}
+      </span>
+    )}
+
+    <h3>{title}</h3>
+    {description && <p>{description}</p>}
+
+    <div class="blog-card-meta">
+      {datetime && dateLabel ? <time datetime={datetime}>{dateLabel}</time> : <span></span>}
+      <span>{featured ? 'Read guide →' : 'Read →'}</span>
+    </div>
+  </div>
+</a>

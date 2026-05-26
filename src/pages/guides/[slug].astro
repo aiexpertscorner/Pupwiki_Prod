@@ -5,7 +5,7 @@
  */
 
 import { getCollection } from 'astro:content';
-import BlogLayout from '../../layouts/BlogLayout.astro';
+import GuidesLayout from '../../layouts/GuidesLayout.astro';
 
 import masterBreeds from '../../data/master-breeds.json';
 import masterCrossbreeds from '../../data/master-crossbreeds.json';
@@ -16,21 +16,21 @@ import contentStatus from '../../data/content-status.json';
 import BreedImage from '../../components/breed/BreedImage.astro';
 import PageBannerSlot from '../../components/affiliate/PageBannerSlot.astro';
 import CommercePlacement from '../../components/commerce/CommercePlacement.astro';
-import ArticleCommerceSuite from '../../components/blog/ArticleCommerceSuite.astro';
+import ArticleCommerceSuite from '../../components/guides/ArticleCommerceSuite.astro';
 import AmazonTextLinks from '../../components/amazon/AmazonTextLinks.astro';
 import { getContentCluster } from '../../lib/content/contentClusterConfig';
-import { isRoutableBlogEntry } from '../../lib/categories/categoryHelpers';
+import { isRoutableGuideEntry } from '../../lib/categories/categoryHelpers';
 import { resolveAmazonTextLinks } from '../../lib/commerce/amazon/amazonTextLinks';
 import { getAmazonPageIntent, isCommerceAllowed } from '../../lib/commerce/amazon/amazonPageIntent';
-import RelatedPosts from '../../components/blog/RelatedPosts.astro';
+import RelatedPosts from '../../components/guides/RelatedPosts.astro';
 
 const SITE = 'https://pupwiki.com';
 const ALL_BREEDS = [...(masterBreeds as any[]), ...(masterCrossbreeds as any[])];
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('guides');
   return (posts as any[])
-    .filter(isRoutableBlogEntry)
+    .filter(isRoutableGuideEntry)
     .map((post) => ({ params: { slug: post.slug }, props: { post } }));
 }
 
@@ -85,13 +85,13 @@ const postTypeKey = normalize(fm.postType || 'general').replace(/[^a-z-]/g, '');
 const isHeavyCommercePage = ['product-roundup', 'comparison', 'review', 'ranking'].includes(postTypeKey);
 const pageIntent = getAmazonPageIntent({
   cluster: clusterSlug,
-  pageType: 'blog',
+  pageType: 'guide',
   topicTags: tags,
   claimSensitivity: fm.claimSensitivity as string | undefined,
 });
 const TEXT_LINK_CLUSTERS = new Set(['training', 'grooming', 'toys', 'beds', 'travel', 'puppy', 'home-cleanup', 'lifestyle', 'gear', 'dog-food', 'senior-dogs']);
 const maxAmazonTextLinks = TEXT_LINK_CLUSTERS.has(clusterSlug) ? 2 : 1;
-const showAmazonTextLinks = isIndexable && !isHeavyCommercePage && !hasUnsafeCommerceTag && normalize(fm.claimSensitivity || '') !== 'high' && isCommerceAllowed({ cluster: clusterSlug, pageType: 'blog', topicTags: tags });
+const showAmazonTextLinks = isIndexable && !isHeavyCommercePage && !hasUnsafeCommerceTag && normalize(fm.claimSensitivity || '') !== 'high' && isCommerceAllowed({ cluster: clusterSlug, pageType: 'guide', topicTags: tags });
 const amazonTextLinks = showAmazonTextLinks
   ? resolveAmazonTextLinks({ cluster: cluster ?? undefined, topicTags: tags, intent: pageIntent, maxLinks: maxAmazonTextLinks })
   : [];
@@ -244,7 +244,7 @@ const relatedToolLinks = [
 ];
 ---
 
-<BlogLayout
+<GuidesLayout
   title={pageTitle}
   displayTitle={displayTitle}
   description={fm.description}
@@ -327,7 +327,7 @@ const relatedToolLinks = [
   )}
 
   {showCommercialMidContent && (
-    <PageBannerSlot pageType="blog" placement="mid-content" topic={cluster?.slug || normalize(category)} topicTags={awinTopicTags} compact={false} />
+    <PageBannerSlot pageType="guide" placement="mid-content" topic={cluster?.slug || normalize(category)} topicTags={awinTopicTags} compact={false} />
   )}
 
   {clusterLinks.length > 0 && (
@@ -386,4 +386,4 @@ const relatedToolLinks = [
       </section>
     )}
   </Fragment>
-</BlogLayout>
+</GuidesLayout>

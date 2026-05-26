@@ -1,0 +1,134 @@
+---
+/**
+ * BlogCard.astro
+ * Uses the .blog-card CSS system from cards.css.
+ * Image priority: explicit prop → breed auto-detect → category stock fallback.
+ */
+
+export interface Props {
+  title:        string;
+  excerpt:      string;
+  category:     string;
+  href:         string;
+  pubDate?:     string;
+  readTime?:    number;
+  image?:       string;
+  imageAlt?:    string;
+  featured?:    boolean;
+  slug?:        string;
+  emoji?:       string;
+}
+
+const {
+  title, excerpt, category, href,
+  pubDate, readTime, image,
+  imageAlt = title, featured = false,
+  slug = '', emoji,
+} = Astro.props;
+
+import categoryFallbackImages from '../../data/category-fallback-images.json';
+
+// ── Hash-based category fallback pool (varied per slug, not one static PNG) ──
+const CAT_POOL_KEY: Record<string, string> = {
+  'dog food': 'food', food: 'food', treats: 'food',
+  toys: 'toys', beds: 'beds', sleep: 'beds',
+  grooming: 'grooming', health: 'health', supplements: 'supplements',
+  training: 'training', gear: 'training',
+  'smart tech': 'smart-tech', 'smart-tech': 'smart-tech', travel: 'travel',
+};
+function slugHashCode(str: string): number {
+  let h = 5381;
+  for (let i = 0; i < str.length; i++) h = ((h << 5) + h) + str.charCodeAt(i);
+  return Math.abs(h);
+}
+const catKey = category.toLowerCase();
+const poolKey = CAT_POOL_KEY[catKey] ?? 'all';
+const catPool: string[] = (categoryFallbackImages as Record<string, string[]>)[poolKey] ?? (categoryFallbackImages as Record<string, string[]>)['all'] ?? [];
+const hashSeed = slug || title;
+const catImgSrc = catPool.length ? catPool[slugHashCode(hashSeed) % catPool.length] : '';
+
+// ── Auto-detect breed image from slug ────────────────────────
+const BREEDS = [
+  'labrador-retriever','golden-retriever','german-shepherd-dog',
+  'french-bulldog','bulldog','poodle','beagle','rottweiler',
+  'dachshund','pembroke-welsh-corgi','australian-shepherd',
+  'yorkshire-terrier','boxer','doberman-pinscher','great-dane',
+  'siberian-husky','bernese-mountain-dog','shih-tzu','boston-terrier',
+  'shetland-sheepdog','pomeranian','chihuahua','maltese','vizsla',
+  'weimaraner','bichon-frise','border-collie','havanese',
+  'cavalier-king-charles-spaniel','dalmatian','samoyed','pug',
+  'chow-chow','newfoundland','akita','mastiff','saint-bernard',
+  'irish-setter','collie','whippet','greyhound','bloodhound',
+  'basset-hound','alaskan-malamute','rhodesian-ridgeback',
+  'great-pyrenees','portuguese-water-dog','shiba-inu',
+  'australian-cattle-dog','staffordshire-bull-terrier','airedale-terrier',
+  'west-highland-white-terrier','border-terrier','soft-coated-wheaten-terrier',
+];
+function getBreedImage(s: string): string | null {
+  const lower = s.toLowerCase();
+  for (const b of BREEDS) {
+    if (lower.includes(b)) return `/images/breeds/${b}.jpg`;
+  }
+  return null;
+}
+const finalImg = image || getBreedImage(slug || title) || catImgSrc;
+
+// ── Badge class per category ─────────────────────────────────
+const BADGE_MAP: Record<string, string> = {
+  'food': 'food', 'dog food': 'food', 'treats': 'accent',
+  'toys': 'toys', 'beds': 'beds', 'sleep': 'beds',
+  'health': 'health', 'supplements': 'success',
+  'training': 'training', 'gear': 'training',
+  'grooming': 'grooming', 'travel': 'accent',
+  'smart tech': 'primary', 'smart-tech': 'primary',
+};
+const badgeClass = BADGE_MAP[catKey] ?? 'primary';
+
+const displayDate = pubDate
+  ? new Date(pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+  : null;
+---
+
+<a
+  href={href}
+  class={`blog-card${featured ? ' blog-card--featured' : ''}`}
+  style="text-decoration:none"
+  aria-label={title}
+>
+  <!-- Thumbnail -->
+  <div class="blog-card__image-wrap">
+    {finalImg ? (
+      <img
+        src={finalImg}
+        alt={imageAlt}
+        width={featured ? 600 : 400}
+        height={featured ? 360 : 225}
+        loading="lazy"
+        decoding="async"
+        class="blog-card__image"
+        data-fallback={catImgSrc}
+        onerror="var fb=this.getAttribute('data-fallback');if(fb&&this.src!==fb){this.src=fb;this.removeAttribute('data-fallback');}"
+      />
+    ) : (
+      <div class="blog-card__image-placeholder">
+        <span aria-hidden="true">{emoji ?? '📰'}</span>
+      </div>
+    )}
+    <!-- Category badge pinned to top-left of image -->
+    <div class="blog-card__badge">
+      <span class={`badge badge--${badgeClass}`}>{category}</span>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div class="blog-card__body">
+    <h3 class="blog-card__title">{title}</h3>
+    <p class="blog-card__excerpt">{excerpt}</p>
+    <div class="blog-card__meta">
+      {displayDate && <time datetime={pubDate}>{displayDate}</time>}
+      {displayDate && readTime && <span class="blog-card__meta-dot"></span>}
+      {readTime && <span>{readTime} min read</span>}
+      {!displayDate && !readTime && <span>Read article →</span>}
+    </div>
+  </div>
+</a>

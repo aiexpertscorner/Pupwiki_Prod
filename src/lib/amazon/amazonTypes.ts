@@ -30,7 +30,7 @@ export type AmazonPageType =
   | 'homepage'
   | 'category'
   | 'breed'
-  | 'blog'
+  | 'guide'
   | 'tool'
   | 'resource';
 

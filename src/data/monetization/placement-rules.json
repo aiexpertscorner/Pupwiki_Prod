@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "defaultDisclosure": "PupWiki may earn a commission when you buy through links on this page.",
+  "pageTypes": {
+    "home": {
+      "intensity": "low",
+      "maxPlacements": 1,
+      "allowedPlacements": ["soft-cta"],
+      "zones": {
+        "mid": ["soft-cta"]
+      }
+    },
+    "breed": {
+      "intensity": "low-medium",
+      "maxPlacements": 2,
+      "allowedPlacements": ["merchant-spotlight", "product-card", "awin-product-slot"],
+      "zones": {
+        "before-faq": ["merchant-spotlight", "awin-product-slot"],
+        "bottom": ["product-card"]
+      }
+    },
+    "guide": {
+      "intensity": "medium-high",
+      "maxPlacements": 3,
+      "allowedPlacements": ["creative-banner", "commerce-rail", "product-card", "awin-product-slot"],
+      "zones": {
+        "after-intro": ["awin-product-slot"],
+        "mid-content": ["creative-banner", "commerce-rail"],
+        "before-faq": ["commerce-rail"],
+        "bottom": ["product-card"]
+      }
+    },
+    "review": {
+      "intensity": "high",
+      "maxPlacements": 4,
+      "allowedPlacements": ["commerce-rail", "creative-banner", "merchant-spotlight", "product-card"],
+      "zones": {
+        "after-intro": ["commerce-rail"],
+        "mid-content": ["creative-banner"],
+        "before-faq": ["merchant-spotlight"],
+        "bottom": ["commerce-rail"]
+      }
+    },
+    "tool": {
+      "intensity": "high",
+      "maxPlacements": 3,
+      "allowedPlacements": ["creative-banner", "merchant-spotlight", "contextual-cta", "commerce-rail"],
+      "zones": {
+        "after-intro": ["creative-banner"],
+        "mid-content": ["merchant-spotlight"],
+        "bottom": ["commerce-rail"]
+      }
+    },
+    "category": {
+      "intensity": "high",
+      "maxPlacements": 3,
+      "allowedPlacements": ["creative-banner", "merchant-spotlight", "commerce-rail"],
+      "zones": {
+        "after-intro": ["creative-banner"],
+        "mid-content": ["merchant-spotlight"],
+        "bottom": ["commerce-rail"]
+      }
+    },
+    "faq": {
+      "intensity": "low",
+      "maxPlacements": 1,
+      "allowedPlacements": ["contextual-cta"],
+      "zones": {
+        "bottom": ["contextual-cta"]
+      }
+    }
+  }
+}

@@ -18,7 +18,7 @@ import {
   type CategorySlug,
 } from './categoryConfig';
 
-export type BlogLikeEntry = {
+export type GuideLikeEntry = {
   slug: string;
   data: {
     title: string;
@@ -98,7 +98,7 @@ export function toIsoString(value: unknown) {
   return Number.isFinite(date.getTime()) ? date.toISOString() : undefined;
 }
 
-export function isPublicBlogEntry(post: BlogLikeEntry) {
+export function isPublicGuideEntry(post: GuideLikeEntry) {
   // Emergency publishing guard: content marked as not for blog/category surfaces
   // must not appear in public hubs. Direct article route applies the same rule.
   if (post.data.indexInBlog === false) return false;
@@ -107,7 +107,7 @@ export function isPublicBlogEntry(post: BlogLikeEntry) {
   return true;
 }
 
-export function isRoutableBlogEntry(post: BlogLikeEntry) {
+export function isRoutableGuideEntry(post: GuideLikeEntry) {
   // Controls static page generation only. Use noRoute:true to suppress a page entirely.
   // indexInBlog:false only hides from feeds/hubs — the page still gets generated.
   if (post.data.noRoute === true) return false;
@@ -115,9 +115,9 @@ export function isRoutableBlogEntry(post: BlogLikeEntry) {
   return true;
 }
 
-export function getCategoryPosts(posts: BlogLikeEntry[], categorySlug: CategorySlug, meta: CategoryMeta) {
+export function getCategoryPosts(posts: GuideLikeEntry[], categorySlug: CategorySlug, meta: CategoryMeta) {
   return posts
-    .filter(isPublicBlogEntry)
+    .filter(isPublicGuideEntry)
     .filter((post) => {
       const postCategory = normalizeCategoryValue(post.data.category);
       const tags = Array.isArray(post.data.tags) ? post.data.tags.map(normalizeCategoryValue) : [];
@@ -265,7 +265,7 @@ export function buildItemListLd({
 }: {
   meta: CategoryMeta;
   breedGuides: CategoryBreedGuide[];
-  posts: BlogLikeEntry[];
+  posts: GuideLikeEntry[];
 }) {
   const itemListElement = [
     ...breedGuides.map((guide, index) => ({

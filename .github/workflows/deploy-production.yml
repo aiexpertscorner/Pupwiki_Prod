@@ -66,4 +66,4 @@ jobs:
           echo "- **Ref:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Timestamp:** $(date -u '+%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
           POSTS=$(find src/content/blog -name '*.md' 2>/dev/null | wc -l || echo 0)
-          echo "- **Blog posts in build:** ${POSTS}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Guide posts in build:** ${POSTS}" >> $GITHUB_STEP_SUMMARY

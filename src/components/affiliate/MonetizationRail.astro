@@ -1,0 +1,92 @@
+---
+/**
+ * MonetizationRail.astro
+ * Smart placement orchestrator — reads placement-rules.json and renders the
+ * appropriate monetization component for the given page type + zone.
+ * Renders nothing if no placement is allowed or data is missing.
+ */
+
+import placementRules from '../../data/monetization/placement-rules.json';
+import CommerceRail from './CommerceRail.astro';
+import MerchantSpotlight from './MerchantSpotlight.astro';
+import AwinCreativeBanner from './AwinCreativeBanner.astro';
+import AwinProductSlot from './AwinProductSlot.astro';
+import { getTopPrograms } from '../../lib/awin/getProgramData';
+
+export interface Props {
+  pageType: string;
+  zone: 'after-intro' | 'mid-content' | 'before-faq' | 'bottom' | string;
+  topicTags?: string[];
+  category?: string;
+  breedSlug?: string;
+  breedSize?: string;
+  monetizationIntent?: 'low' | 'medium' | 'high' | string;
+}
+
+const {
+  pageType,
+  zone,
+  topicTags = [],
+  category,
+  breedSlug,
+  breedSize,
+  monetizationIntent = 'medium',
+} = Astro.props;
+
+const rules = (placementRules as any).pageTypes?.[pageType];
+if (!rules) {
+  // No rules for this page type — render nothing
+}
+
+const allowedForZone: string[] = rules?.zones?.[zone] ?? rules?.allowedPlacements ?? [];
+const firstAllowed = allowedForZone[0] ?? null;
+
+// Pick the best program for spotlight/banner placements
+const topPrograms = getTopPrograms(3);
+const bestProgram = topPrograms.find((p) =>
+  p.topicTags.some((t: string) => topicTags.includes(t) || (category && t === category))
+) ?? topPrograms[0];
+---
+
+{rules && firstAllowed && (
+  <div class="monetization-rail" data-page-type={pageType} data-zone={zone}>
+    {firstAllowed === 'commerce-rail' && (
+      <CommerceRail
+        topicTags={topicTags}
+        pageType={pageType}
+        category={category}
+        breedSize={breedSize}
+        breedSlug={breedSlug}
+        monetizationIntent={monetizationIntent}
+        placement={`rail-${zone}`}
+      />
+    )}
+
+    {firstAllowed === 'merchant-spotlight' && bestProgram && (
+      <MerchantSpotlight
+        programKey={bestProgram.key}
+        topicTags={topicTags}
+        placement={`spotlight-${zone}`}
+      />
+    )}
+
+    {firstAllowed === 'creative-banner' && (
+      <AwinCreativeBanner
+        pageType={pageType}
+        topicTags={topicTags}
+        placement={zone}
+        variant="wide"
+      />
+    )}
+
+    {(firstAllowed === 'awin-product-slot' || firstAllowed === 'product-card') && (
+      <AwinProductSlot
+        topicTags={topicTags}
+        pageType={pageType}
+        category={category}
+        breedSize={breedSize}
+        monetizationIntent={monetizationIntent}
+      />
+    )}
+  </div>
+)}

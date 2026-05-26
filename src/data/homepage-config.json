@@ -60,7 +60,7 @@
     "showQuickCostTeaser": false,
     "showCareDecisionLayer": false,
     "showEditorialHighlights": false,
-    "showAwinSpotlight": false,
+    "showAwinSpotlight": true,
     "showMethodologyTeaser": false,
     "showLeadCapture": false,
     "showBreedExplorer": false

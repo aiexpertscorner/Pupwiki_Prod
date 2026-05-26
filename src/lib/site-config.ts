@@ -125,7 +125,7 @@ export const MIXED_BREEDS_PAGE_PATH = '/breeds#mixed-breeds';
 export const DOG_NAMES_PAGE_PATH = '/dog-names';
 export const COST_CALCULATOR_PAGE_PATH = '/cost-calculator';
 export const BREED_QUIZ_PAGE_PATH = '/breed-quiz';
-export const BLOG_PAGE_PATH = '/blog';
+export const BLOG_PAGE_PATH = '/guides';
 export const REVIEWS_PAGE_PATH = '/reviews';
 export const GUIDES_PAGE_PATH = '/guides';
 export const FAQ_PAGE_PATH = '/faq';
@@ -425,9 +425,8 @@ export const SITE_CONFIG = {
     dogNames: DOG_NAMES_PAGE_PATH,
     costCalculator: COST_CALCULATOR_PAGE_PATH,
     breedQuiz: BREED_QUIZ_PAGE_PATH,
-    blog: BLOG_PAGE_PATH,
-    reviews: REVIEWS_PAGE_PATH,
     guides: GUIDES_PAGE_PATH,
+    reviews: REVIEWS_PAGE_PATH,
     faq: FAQ_PAGE_PATH,
     search: SEARCH_PATH,
     health: HEALTH_PAGE_PATH,

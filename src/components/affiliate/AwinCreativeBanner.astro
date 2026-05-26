@@ -1,0 +1,55 @@
+---
+/**
+ * AwinCreativeBanner.astro
+ * Context-aware AWIN banner wrapper. Selects from affiliate-banners.json
+ * using page context (pageType, topicTags, placement). Renders nothing if no match.
+ */
+
+import { getFirstAffiliateBanner, getAffiliateBannerById } from '../../lib/affiliate/getActiveBanners';
+import AdBanner from './AdBanner.astro';
+
+export interface Props {
+  pageType?: string;
+  topicTags?: string[];
+  placement?: string;
+  preferredBannerId?: string;
+  variant?: 'wide' | 'compact' | 'inline';
+  hideDisclosure?: boolean;
+}
+
+const {
+  pageType = 'guide',
+  topicTags = [],
+  placement = 'mid-content',
+  preferredBannerId,
+  variant = 'wide',
+  hideDisclosure = false,
+} = Astro.props;
+
+const banner = preferredBannerId
+  ? getAffiliateBannerById(preferredBannerId)
+  : getFirstAffiliateBanner({
+      pageType,
+      topicTags,
+      placement,
+      currentDate: new Date(),
+    });
+---
+
+{banner && (
+  <div class={`awin-banner awin-banner--${variant}`} aria-label="Sponsored content">
+    <div class="awin-banner__label" aria-hidden="true">Sponsored</div>
+
+    <AdBanner
+      banner={banner}
+      compact={variant === 'compact' || variant === 'inline'}
+      hideMeta={true}
+    />
+
+    {!hideDisclosure && (
+      <p class="awin-banner__disclosure">
+        Sponsored content — <a href="/disclosure" class="awin-banner__disclosure-link">See disclosure</a>
+      </p>
+    )}
+  </div>
+)}

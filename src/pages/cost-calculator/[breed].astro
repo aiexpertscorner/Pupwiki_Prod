@@ -12,6 +12,8 @@ import breedLinkMap from '../../data/breed-link-map.json';
 import CommercePlacement from '../../components/commerce/CommercePlacement.astro';
 import PageBannerSlot from '../../components/affiliate/PageBannerSlot.astro';
 import OfferSlot from '../../components/monetization/OfferSlot.astro';
+import MerchantSpotlight from '../../components/affiliate/MerchantSpotlight.astro';
+import CommerceRail from '../../components/affiliate/CommerceRail.astro';
 import actuarialRates from '../../data/actuarial-breed-rates.json';
 import actuarialAgeFactors from '../../data/actuarial-age-factors.json';
 import statesIndex from '../../data/us-states-insurance-index.json';
@@ -865,6 +867,24 @@ const jsonLd = JSON.stringify({
         </div>
       </div>
     </section>
+
+    <div class="cost-detail__container" style="padding:var(--space-6) 0">
+      <MerchantSpotlight
+        programKey="chefpaw"
+        topicTags={['food', 'nutrition', sizeCategory, slug]}
+        headline={`Recommended for ${n} owners`}
+      />
+      <CommerceRail
+        topicTags={['food', 'nutrition', 'health', sizeCategory, slug]}
+        pageType="tool"
+        category="food"
+        breedSize={sizeCategory}
+        breedSlug={slug}
+        monetizationIntent="high"
+        limit={3}
+        headline="Top picks for your dog"
+      />
+    </div>
 
     <div class="cost-detail__container" aria-hidden="true" style="padding:var(--space-6) 0">
       <div class="ad-slot">
