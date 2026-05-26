@@ -312,6 +312,34 @@
   text-decoration-color: rgba(255, 122, 0, 0.45);
 }
 
+/* Blockquotes — short-answer callouts in comparison posts */
+.article-content :global(blockquote) {
+  border-left: 4px solid var(--color-accent);
+  background: var(--color-accent-subtle);
+  border-radius: 0 var(--radius-xl) var(--radius-xl) 0;
+  padding: var(--space-4) var(--space-5);
+  margin: var(--space-6) 0;
+}
+
+.article-content :global(blockquote p) {
+  color: var(--color-heading);
+  font-size: var(--text-md);
+  font-weight: var(--weight-semi);
+  line-height: var(--leading-relaxed);
+  margin: 0;
+}
+
+.article-content :global(blockquote p + p) {
+  margin-top: var(--space-3);
+}
+
+/* Horizontal rules — section separators in comparison posts */
+.article-content :global(hr) {
+  border: none;
+  border-top: 2px solid var(--color-border);
+  margin: var(--space-10) 0;
+}
+
 /* Tables */
 .article-content :global(table) {
   display: block;

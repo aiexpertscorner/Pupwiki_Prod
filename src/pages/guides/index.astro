@@ -7,17 +7,31 @@ const allPosts = await getCollection('guides');
 const editorialPosts = allPosts
   .filter((p) => !p.data.generated && p.data.indexInBlog !== false)
   .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime())
-  .slice(0, 9);
+  .slice(0, 12);
+
+const [featuredPost, ...gridPosts] = editorialPosts;
+
+function getCatColor(category: string): string {
+  const map: Record<string, string> = {
+    'Dog Food': 'food', 'Food': 'food',
+    'Grooming': 'grooming',
+    'Health': 'health', 'Pet Insurance': 'health', 'Insurance': 'health', 'Supplements': 'supplements',
+    'Training': 'training', 'Gear': 'training',
+    'Toys': 'toys',
+    'Beds': 'beds', 'Lifestyle': 'lifestyle',
+  };
+  return map[category] || 'default';
+}
 
 const topicCards = [
-  { slug: 'dog-food',   title: 'Food & Nutrition',   icon: '🍖', desc: 'Feeding guides, ingredient comparisons and food decisions by breed size and life stage.',    href: '/categories/dog-food' },
-  { slug: 'training',   title: 'Training & Behaviour',icon: '🦮', desc: 'Reward-based training, recall, socialisation and gear matched to breed temperament.',        href: '/categories/training' },
-  { slug: 'grooming',   title: 'Grooming',            icon: '✂️', desc: 'Brush schedules, deshedding, coat care tools and bathing routines by coat type.',            href: '/categories/grooming' },
-  { slug: 'beds',       title: 'Beds & Comfort',      icon: '🛏️', desc: 'Bed sizing, orthopedic foam, washable covers and sleep setup for every breed size.',         href: '/categories/beds' },
-  { slug: 'health',     title: 'Health & Vet Care',   icon: '🩺', desc: 'Preventive care, breed health concerns, wellness planning and vet cost guidance.',           href: '/categories/health' },
-  { slug: 'insurance',  title: 'Pet Insurance',       icon: '🛡️', desc: 'Insurance timing, breed exclusions, waiting periods and plan comparison by cover type.',    href: '/pet-insurance' },
-  { slug: 'toys',      title: 'Toys & Enrichment',   icon: '🎾', desc: 'Interactive toys, puzzle feeders, chew options and enrichment ideas matched to breed drive and size.', href: '/categories/toys' },
-  { slug: 'lifestyle', title: 'Lifestyle & Gear',     icon: '🎒', desc: 'Harnesses, leashes, travel gear, outdoor equipment and everyday accessories by breed and size.',  href: '/categories/lifestyle' },
+  { title: 'Food & Nutrition',     icon: '🍖', desc: 'Feeding guides and breed-matched nutrition advice.',       href: '/categories/dog-food',  color: 'food'     },
+  { title: 'Training & Behaviour', icon: '🦮', desc: 'Reward-based training and gear matched to temperament.',  href: '/categories/training',  color: 'training' },
+  { title: 'Grooming',             icon: '✂️', desc: 'Coat care tools and bathing routines by coat type.',      href: '/categories/grooming',  color: 'grooming' },
+  { title: 'Beds & Comfort',       icon: '🛏️', desc: 'Bed sizing and sleep setup for every breed size.',        href: '/categories/beds',      color: 'beds'     },
+  { title: 'Health & Vet Care',    icon: '🩺', desc: 'Preventive care, breed health and wellness planning.',    href: '/categories/health',    color: 'health'   },
+  { title: 'Pet Insurance',        icon: '🛡️', desc: 'Insurance timing, exclusions and plan comparison.',       href: '/pet-insurance',        color: 'health'   },
+  { title: 'Toys & Enrichment',    icon: '🎾', desc: 'Interactive toys and enrichment matched to breed drive.', href: '/categories/toys',      color: 'toys'     },
+  { title: 'Lifestyle & Gear',     icon: '🎒', desc: 'Harnesses, travel gear and everyday accessories.',        href: '/categories/lifestyle', color: 'lifestyle'},
 ];
 
 const breadcrumbLd = {
@@ -70,260 +84,628 @@ const faqLd = {
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)} slot="head" />
   <script type="application/ld+json" set:html={JSON.stringify(faqLd)} slot="head" />
 
-  <div class="guides-index">
-    <div class="container">
+  <div class="gp">
 
-      <nav aria-label="Breadcrumb" class="breadcrumb">
-        <ol class="breadcrumb__list">
-          <li class="breadcrumb__item">
-            <a href="/" class="breadcrumb__link">Home</a>
-            <span class="breadcrumb__sep" aria-hidden="true">›</span>
-          </li>
-          <li class="breadcrumb__item">
-            <span class="breadcrumb__current" aria-current="page">Guides</span>
-          </li>
-        </ol>
-      </nav>
+    <!-- ── HERO ── -->
+    <header class="gp-hero">
+      <div class="gp-container">
+        <nav aria-label="Breadcrumb" class="gp-breadcrumb">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li aria-hidden="true">›</li>
+            <li><span aria-current="page">Guides</span></li>
+          </ol>
+        </nav>
+        <div class="gp-hero__body">
+          <h1 class="gp-hero__title"><em>Dog Care</em> Guides</h1>
+          <p class="gp-hero__lead">
+            In-depth guides on food, training, grooming, beds, health and insurance —
+            matched to breed size, energy level and life stage.
+          </p>
+          <div class="gp-hero__ctas">
+            <a href="/guides/first-dog" class="gp-btn gp-btn--primary">Your first dog →</a>
+            <a href="/breeds" class="gp-btn gp-btn--outline">Browse all breeds</a>
+          </div>
+        </div>
+      </div>
+    </header>
 
-      <header class="guides-index__header">
-        <h1 class="guides-index__title">Dog Care Guides</h1>
-        <p class="guides-index__lead">
-          In-depth guides on food, training, grooming, beds, health and insurance — matched to breed
-          size, energy level and life stage. Research-backed and updated regularly.
-        </p>
-      </header>
-
-      <section aria-labelledby="guides-topics-title">
-        <h2 id="guides-topics-title" class="guides-index__section-heading">Browse by Topic</h2>
-        <div class="guides-index__grid">
+    <!-- ── TOPIC CATEGORIES ── -->
+    <section class="gp-section gp-topics" aria-labelledby="gp-topics-title">
+      <div class="gp-container">
+        <h2 id="gp-topics-title" class="gp-section-title">Browse by Topic</h2>
+        <div class="gp-topics__grid">
           {topicCards.map((card) => (
-            <a href={card.href} class="guides-index__card">
-              <span class="guides-index__card-icon" aria-hidden="true">{card.icon}</span>
-              <div class="guides-index__card-body">
-                <h3 class="guides-index__card-title">{card.title}</h3>
-                <p class="guides-index__card-desc">{card.desc}</p>
+            <a href={card.href} class={`gp-topic-card gp-topic-card--${card.color}`}>
+              <span class="gp-topic-card__icon" aria-hidden="true">{card.icon}</span>
+              <div class="gp-topic-card__body">
+                <strong class="gp-topic-card__title">{card.title}</strong>
+                <p class="gp-topic-card__desc">{card.desc}</p>
               </div>
-              <span class="guides-index__card-arrow" aria-hidden="true">→</span>
             </a>
           ))}
         </div>
-      </section>
+      </div>
+    </section>
 
-      {editorialPosts.length > 0 && (
-        <section aria-labelledby="guides-featured-title" class="guides-index__section">
-          <h2 id="guides-featured-title" class="guides-index__section-heading">Featured Guides</h2>
-          <div class="guides-index__article-grid">
-            {editorialPosts.map((post) => (
-              <a href={`/guides/${post.slug}`} class="guides-index__article-card">
-                <div class="guides-index__article-body">
-                  {post.data.category && (
-                    <span class="guides-index__article-tag">{post.data.category}</span>
+    <!-- ── FEATURED GUIDES ── -->
+    <section class="gp-section gp-editorial" aria-labelledby="gp-editorial-title">
+      <div class="gp-container">
+        <div class="gp-editorial__header">
+          <h2 id="gp-editorial-title" class="gp-section-title">Featured Guides</h2>
+          <a href="/guides/first-dog" class="gp-section-link">First dog guide →</a>
+        </div>
+
+        <!-- First Dog callout -->
+        <a href="/guides/first-dog" class="gp-firstdog">
+          <div class="gp-firstdog__body">
+            <span class="gp-firstdog__label">Getting started</span>
+            <strong class="gp-firstdog__title">New to dogs? Start here →</strong>
+            <p class="gp-firstdog__desc">
+              Find the right breed, plan real costs, prepare your home and train from day one —
+              a complete first-dog walkthrough.
+            </p>
+          </div>
+          <div class="gp-firstdog__icon" aria-hidden="true">🐶</div>
+        </a>
+
+        <!-- Hero editorial card (first/newest editorial post) -->
+        {featuredPost && (
+          <a href={`/guides/${featuredPost.slug}`} class="gp-hero-card">
+            <div class={`gp-hero-card__image-wrap gp-hero-card__image-wrap--${getCatColor(featuredPost.data.category ?? '')}`}>
+              {featuredPost.data.heroImage && (
+                <img
+                  src={featuredPost.data.heroImage}
+                  alt={featuredPost.data.heroImageAlt || featuredPost.data.title}
+                  loading="lazy"
+                  decoding="async"
+                  class="gp-hero-card__image"
+                />
+              )}
+            </div>
+            <div class="gp-hero-card__body">
+              {featuredPost.data.category && (
+                <span class="gp-tag">{featuredPost.data.category}</span>
+              )}
+              <h3 class="gp-hero-card__title">{featuredPost.data.title}</h3>
+              {featuredPost.data.description && (
+                <p class="gp-hero-card__desc">{featuredPost.data.description}</p>
+              )}
+              <span class="gp-read-more">Read guide →</span>
+            </div>
+          </a>
+        )}
+
+        <!-- Grid of remaining editorial posts -->
+        {gridPosts.length > 0 && (
+          <div class="gp-article-grid">
+            {gridPosts.map((post) => (
+              <a href={`/guides/${post.slug}`} class="gp-article-card">
+                <div class={`gp-article-card__image-wrap gp-article-card__image-wrap--${getCatColor(post.data.category ?? '')}`}>
+                  {post.data.heroImage && (
+                    <img
+                      src={post.data.heroImage}
+                      alt={post.data.heroImageAlt || post.data.title}
+                      loading="lazy"
+                      decoding="async"
+                      class="gp-article-card__image"
+                    />
                   )}
-                  <h3 class="guides-index__article-title">{post.data.title}</h3>
+                </div>
+                <div class="gp-article-card__body">
+                  {post.data.category && (
+                    <span class="gp-tag">{post.data.category}</span>
+                  )}
+                  <h3 class="gp-article-card__title">{post.data.title}</h3>
                   {post.data.description && (
-                    <p class="guides-index__article-desc">{post.data.description}</p>
+                    <p class="gp-article-card__desc">{post.data.description}</p>
                   )}
                 </div>
               </a>
             ))}
           </div>
-        </section>
-      )}
+        )}
+      </div>
+    </section>
 
-      <section aria-labelledby="guides-tools-title" class="guides-index__section">
-        <h2 id="guides-tools-title" class="guides-index__section-heading">Planning Tools</h2>
-        <div class="guides-index__tools-grid">
-          <a href="/breeds" class="guides-index__tool-card">
-            <span class="guides-index__tool-icon" aria-hidden="true">🐾</span>
+    <!-- ── PLANNING TOOLS (dark band) ── -->
+    <section class="gp-section gp-tools" aria-labelledby="gp-tools-title">
+      <div class="gp-container">
+        <h2 id="gp-tools-title" class="gp-section-title gp-section-title--light">Planning Tools</h2>
+        <div class="gp-tools__grid">
+          <a href="/breeds" class="gp-tool-card">
+            <span class="gp-tool-card__icon" aria-hidden="true">🐾</span>
             <div>
-              <strong class="guides-index__tool-title">Browse All Breeds</strong>
-              <p class="guides-index__tool-desc">Compare 277 breed profiles with care requirements, costs and trait data.</p>
+              <strong class="gp-tool-card__title">Browse All Breeds</strong>
+              <p class="gp-tool-card__desc">Compare 277 breed profiles with care requirements, costs and trait data.</p>
             </div>
           </a>
-          <a href="/cost-calculator" class="guides-index__tool-card">
-            <span class="guides-index__tool-icon" aria-hidden="true">💰</span>
+          <a href="/cost-calculator" class="gp-tool-card">
+            <span class="gp-tool-card__icon" aria-hidden="true">💰</span>
             <div>
-              <strong class="guides-index__tool-title">Breed Cost Calculator</strong>
-              <p class="guides-index__tool-desc">Estimate monthly and annual ownership costs by breed, size, age and state.</p>
+              <strong class="gp-tool-card__title">Breed Cost Calculator</strong>
+              <p class="gp-tool-card__desc">Estimate monthly and annual ownership costs by breed, size, age and state.</p>
             </div>
           </a>
-          <a href="/dog-names" class="guides-index__tool-card">
-            <span class="guides-index__tool-icon" aria-hidden="true">✍️</span>
+          <a href="/dog-names" class="gp-tool-card">
+            <span class="gp-tool-card__icon" aria-hidden="true">✍️</span>
             <div>
-              <strong class="guides-index__tool-title">Dog Name Generator</strong>
-              <p class="guides-index__tool-desc">Find breed-matched name ideas across 352 breed guides and 5,000+ entries.</p>
+              <strong class="gp-tool-card__title">Dog Name Generator</strong>
+              <p class="gp-tool-card__desc">Breed-matched name ideas across 352 breed guides and 5,000+ entries.</p>
             </div>
           </a>
-          <a href="/tools/breed-match" class="guides-index__tool-card">
-            <span class="guides-index__tool-icon" aria-hidden="true">🧩</span>
+          <a href="/tools/breed-match" class="gp-tool-card">
+            <span class="gp-tool-card__icon" aria-hidden="true">🧩</span>
             <div>
-              <strong class="guides-index__tool-title">Breed Suitability Quiz</strong>
-              <p class="guides-index__tool-desc">Answer 8 questions about your home and lifestyle to get matched breeds.</p>
+              <strong class="gp-tool-card__title">Breed Suitability Quiz</strong>
+              <p class="gp-tool-card__desc">Answer 8 questions about your home and lifestyle to get matched breeds.</p>
             </div>
           </a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section aria-labelledby="guides-faq-title" class="guides-index__section">
-        <h2 id="guides-faq-title" class="guides-index__section-heading">Common Dog Ownership Questions</h2>
-        <div class="guides-index__faq">
-          <details class="guides-index__faq-item">
-            <summary class="guides-index__faq-q">How do I choose the right dog for my home?</summary>
-            <p class="guides-index__faq-a">Start with energy level and space: high-energy breeds like Border Collies and Siberian Huskies need 60–90 minutes of daily exercise and do best with outdoor access. Lower-energy breeds like Bulldogs or Basset Hounds suit apartment living better. Use the <a href="/tools/breed-match">Breed Suitability Quiz</a> to match a breed to your specific situation.</p>
+    <!-- ── FAQ ── -->
+    <section class="gp-section gp-faq" aria-labelledby="gp-faq-title">
+      <div class="gp-container">
+        <h2 id="gp-faq-title" class="gp-section-title">Common Dog Ownership Questions</h2>
+        <div class="gp-faq__list">
+          <details class="gp-faq__item">
+            <summary class="gp-faq__q">How do I choose the right dog for my home?</summary>
+            <p class="gp-faq__a">Start with energy level and space: high-energy breeds like Border Collies and Siberian Huskies need 60–90 minutes of daily exercise and do best with outdoor access. Lower-energy breeds like Bulldogs or Basset Hounds suit apartment living better. Use the <a href="/tools/breed-match">Breed Suitability Quiz</a> to match a breed to your specific situation.</p>
           </details>
-          <details class="guides-index__faq-item">
-            <summary class="guides-index__faq-q">What is the monthly cost of owning a dog?</summary>
-            <p class="guides-index__faq-a">Monthly costs range from $150 to $500+ depending on breed size, health, and lifestyle. Food for a large breed costs $60–$90/month; vet care averages $50–$100/month when budgeted annually; grooming adds $30–$80 for coated breeds. Use the <a href="/cost-calculator">Breed Cost Calculator</a> for breed-specific estimates.</p>
+          <details class="gp-faq__item">
+            <summary class="gp-faq__q">What is the monthly cost of owning a dog?</summary>
+            <p class="gp-faq__a">Monthly costs range from $150 to $500+ depending on breed size, health, and lifestyle. Food for a large breed costs $60–$90/month; vet care averages $50–$100/month when budgeted annually; grooming adds $30–$80 for coated breeds. Use the <a href="/cost-calculator">Breed Cost Calculator</a> for breed-specific estimates.</p>
           </details>
-          <details class="guides-index__faq-item">
-            <summary class="guides-index__faq-q">When should I start training my puppy?</summary>
-            <p class="guides-index__faq-a">Start from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period — enrol in a puppy class within the first two weeks for structured exposure to people, dogs, and environments. Basic cues (sit, stay, come) can begin at 8 weeks using reward-based methods.</p>
+          <details class="gp-faq__item">
+            <summary class="gp-faq__q">When should I start training my puppy?</summary>
+            <p class="gp-faq__a">Start from the day your puppy arrives home, typically at 8 weeks. The 8–16 week window is the most sensitive socialisation period — enrol in a puppy class within the first two weeks for structured exposure. Basic cues (sit, stay, come) can begin at 8 weeks using reward-based methods.</p>
           </details>
         </div>
-      </section>
+      </div>
+    </section>
 
-    </div>
   </div>
 </BaseLayout>
 
 <style>
-.guides-index {
-  padding-block: var(--space-10);
+/* ── Page wrapper ── */
+.gp {
+  background: var(--color-bg-paper);
 }
 
-.guides-index .container {
+.gp-container {
   max-width: 1100px;
   margin-inline: auto;
-  padding-inline: var(--space-4);
+  padding-inline: var(--space-5);
 }
 
-.guides-index__header {
-  margin-block: var(--space-6) var(--space-8);
+/* ── HERO ── */
+.gp-hero {
+  background: var(--gradient-navy);
+  padding-block: clamp(3rem, 8vw, 5.5rem);
+  position: relative;
+  overflow: hidden;
 }
 
-.guides-index__title {
-  font-family: var(--font-display);
-  font-size: clamp(var(--text-2xl), 4vw, var(--text-4xl));
-  color: var(--color-heading);
-  margin-block-end: var(--space-3);
+.gp-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 80% 30%, rgba(255, 122, 0, 0.18), transparent 40rem);
+  pointer-events: none;
 }
 
-.guides-index__lead {
-  max-width: 62ch;
-  color: var(--color-body-soft);
-  font-size: var(--text-base);
-  line-height: 1.65;
+.gp-breadcrumb ol {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-5);
+  font-size: var(--text-sm);
+}
+.gp-breadcrumb a {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+.gp-breadcrumb a:hover { color: var(--color-accent); }
+.gp-breadcrumb span { color: rgba(255, 255, 255, 0.4); }
+.gp-breadcrumb [aria-hidden] { color: rgba(255, 255, 255, 0.28); }
+
+.gp-hero__body {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
 }
 
-.guides-index__section {
-  margin-block-start: var(--space-10);
+.gp-hero__title {
+  font-family: var(--font-impact);
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 0.96;
+  color: var(--color-text-inverse);
+  margin-block-end: var(--space-5);
+  text-wrap: balance;
 }
 
-.guides-index__section-heading {
+.gp-hero__title em {
+  font-style: normal;
+  color: var(--color-accent);
+}
+
+.gp-hero__lead {
+  max-width: 52ch;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: clamp(1rem, 2.5vw, 1.125rem);
+  line-height: var(--leading-relaxed);
+  margin-block-end: var(--space-7);
+}
+
+.gp-hero__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+/* ── Shared buttons ── */
+.gp-btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0.7rem 1.35rem;
+  border-radius: var(--radius-xl);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  line-height: 1;
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+.gp-btn--primary {
+  background: var(--color-cta);
+  color: var(--color-cta-text);
+  box-shadow: var(--shadow-cta);
+}
+.gp-btn--primary:hover {
+  background: var(--color-cta-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+}
+
+.gp-btn--outline {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
+}
+.gp-btn--outline:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-2px);
+}
+
+/* ── Section base ── */
+.gp-section {
+  padding-block: clamp(var(--space-10), 6vw, var(--space-16));
+}
+
+.gp-section-title {
   font-family: var(--font-heading);
-  font-size: var(--text-xl);
+  font-size: clamp(var(--text-xl), 3vw, var(--text-3xl));
+  font-weight: 400;
   color: var(--color-heading);
-  margin-block-end: var(--space-4);
-  padding-block-end: var(--space-2);
+  margin-block-end: var(--space-6);
+  padding-block-end: var(--space-3);
   border-block-end: 2px solid var(--color-border);
 }
 
-.guides-index__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: var(--space-4);
+.gp-section-title--light {
+  color: var(--color-text-inverse);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
-.guides-index__card {
+.gp-section-link {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-primary);
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.gp-section-link:hover { color: var(--color-accent-hover); }
+
+/* ── TOPIC CARDS ── */
+.gp-topics {
+  background: var(--color-bg-soft);
+}
+
+.gp-topics__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-3);
+}
+
+.gp-topic-card {
   display: flex;
   align-items: flex-start;
   gap: var(--space-3);
   padding: var(--space-4);
   border: 1px solid var(--color-border);
+  border-left-width: 3px;
   border-radius: var(--radius-lg);
-  background: var(--color-surface);
+  background: var(--color-bg);
   text-decoration: none;
-  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
 }
-
-.guides-index__card:hover {
-  border-color: var(--color-accent);
+.gp-topic-card:hover {
   box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
 }
 
-.guides-index__card-icon {
+.gp-topic-card--food        { border-left-color: var(--color-pill-food-border);        background: var(--color-pill-food-bg); }
+.gp-topic-card--training    { border-left-color: var(--color-pill-training-border);    background: var(--color-pill-training-bg); }
+.gp-topic-card--grooming    { border-left-color: var(--color-pill-grooming-border);    background: var(--color-pill-grooming-bg); }
+.gp-topic-card--beds        { border-left-color: var(--color-pill-beds-border);        background: var(--color-pill-beds-bg); }
+.gp-topic-card--health      { border-left-color: var(--color-pill-health-border);      background: var(--color-pill-health-bg); }
+.gp-topic-card--toys        { border-left-color: var(--color-pill-toys-border);        background: var(--color-pill-toys-bg); }
+.gp-topic-card--supplements { border-left-color: var(--color-pill-supplements-border); background: var(--color-pill-supplements-bg); }
+.gp-topic-card--lifestyle   { border-left-color: var(--color-pill-beds-border);        background: var(--color-pill-beds-bg); }
+
+.gp-topic-card__icon {
   font-size: 1.75rem;
   line-height: 1;
   flex-shrink: 0;
+  margin-top: 2px;
 }
 
-.guides-index__card-body {
-  flex: 1;
-  min-width: 0;
-}
+.gp-topic-card__body { flex: 1; min-width: 0; }
 
-.guides-index__card-title {
+.gp-topic-card__title {
+  display: block;
   font-family: var(--font-heading);
-  font-size: var(--text-base);
-  font-weight: var(--weight-semibold);
+  font-size: var(--text-sm);
+  font-weight: 400;
   color: var(--color-heading);
   margin-block-end: var(--space-1);
 }
 
-.guides-index__card-desc {
-  font-size: var(--text-sm);
+.gp-topic-card__desc {
+  font-size: var(--text-xs);
   color: var(--color-body-soft);
   line-height: 1.55;
+  margin: 0;
 }
 
-.guides-index__card-arrow {
+/* ── EDITORIAL SECTION ── */
+.gp-editorial__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-block-end: var(--space-5);
+}
+
+.gp-editorial__header .gp-section-title {
+  margin-block-end: 0;
+  border: none;
+  padding: 0;
+}
+
+/* First Dog callout */
+.gp-firstdog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-5) var(--space-6);
+  margin-block-end: var(--space-6);
+  border-radius: var(--radius-2xl);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  text-decoration: none;
+  transition: var(--transition-smooth);
+  box-shadow: var(--shadow-card);
+}
+.gp-firstdog:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.gp-firstdog__body { flex: 1; min-width: 0; }
+
+.gp-firstdog__label {
+  display: block;
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
   color: var(--color-accent);
-  font-size: var(--text-lg);
-  flex-shrink: 0;
-  align-self: center;
+  margin-block-end: var(--space-2);
 }
 
-.guides-index__article-grid {
+.gp-firstdog__title {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: clamp(var(--text-lg), 3vw, var(--text-2xl));
+  font-weight: 400;
+  color: var(--color-text-inverse);
+  margin-block-end: var(--space-2);
+}
+
+.gp-firstdog__desc {
+  max-width: 52ch;
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.68);
+  line-height: var(--leading-relaxed);
+  margin: 0;
+}
+
+.gp-firstdog__icon {
+  font-size: 2.75rem;
+  flex-shrink: 0;
+  opacity: 0.85;
+}
+
+/* Hero editorial card */
+.gp-hero-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  background: var(--color-bg);
+  text-decoration: none;
+  overflow: hidden;
+  margin-block-end: var(--space-5);
+  box-shadow: var(--shadow-card);
+  transition: var(--transition-smooth);
+}
+.gp-hero-card:hover {
+  border-color: var(--color-border-accent);
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+.gp-hero-card__image-wrap {
+  aspect-ratio: 16 / 7;
+  overflow: hidden;
+  background: var(--color-bg-muted);
+}
+.gp-hero-card__image-wrap--food        { background: var(--color-pill-food-bg); }
+.gp-hero-card__image-wrap--grooming    { background: var(--color-pill-grooming-bg); }
+.gp-hero-card__image-wrap--health      { background: var(--color-pill-health-bg); }
+.gp-hero-card__image-wrap--training    { background: var(--color-pill-training-bg); }
+.gp-hero-card__image-wrap--toys        { background: var(--color-pill-toys-bg); }
+.gp-hero-card__image-wrap--beds        { background: var(--color-pill-beds-bg); }
+.gp-hero-card__image-wrap--supplements { background: var(--color-pill-supplements-bg); }
+.gp-hero-card__image-wrap--lifestyle   { background: var(--color-pill-beds-bg); }
+.gp-hero-card__image-wrap--default     { background: var(--color-bg-muted); }
+
+.gp-hero-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.gp-hero-card:hover .gp-hero-card__image { transform: scale(1.02); }
+
+.gp-hero-card__body {
+  padding: var(--space-6) var(--space-7);
+}
+
+.gp-hero-card__title {
+  font-family: var(--font-serif);
+  font-size: clamp(var(--text-xl), 3vw, var(--text-3xl));
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+  line-height: var(--leading-snug);
+  margin-block: var(--space-2) var(--space-3);
+  letter-spacing: var(--tracking-tight);
+}
+
+.gp-hero-card__desc {
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: var(--leading-relaxed);
+  max-width: 65ch;
+  margin-block-end: var(--space-4);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Category tag pill */
+.gp-tag {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--color-accent-hover);
+  background: var(--color-accent-subtle);
+  border: 1px solid var(--color-border-accent);
+  border-radius: var(--radius-full);
+  padding: 0.3rem 0.65rem;
+  line-height: 1;
+}
+
+/* Read more */
+.gp-read-more {
+  display: inline-block;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-primary);
+}
+.gp-hero-card:hover .gp-read-more { color: var(--color-accent-hover); }
+
+/* Article grid */
+.gp-article-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: var(--space-4);
 }
 
-.guides-index__article-card {
-  display: block;
-  padding: var(--space-4);
+.gp-article-card {
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  background: var(--color-surface);
+  border-radius: var(--radius-2xl);
+  background: var(--color-bg);
   text-decoration: none;
-  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+  overflow: hidden;
+  transition: var(--transition-smooth);
+  box-shadow: var(--shadow-xs);
+}
+.gp-article-card:hover {
+  border-color: var(--color-border-accent);
+  box-shadow: var(--shadow-card);
+  transform: translateY(-2px);
 }
 
-.guides-index__article-card:hover {
-  border-color: var(--color-accent);
-  box-shadow: var(--shadow-md);
+.gp-article-card__image-wrap {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.gp-article-card__image-wrap--food        { background: var(--color-pill-food-bg); }
+.gp-article-card__image-wrap--grooming    { background: var(--color-pill-grooming-bg); }
+.gp-article-card__image-wrap--health      { background: var(--color-pill-health-bg); }
+.gp-article-card__image-wrap--training    { background: var(--color-pill-training-bg); }
+.gp-article-card__image-wrap--toys        { background: var(--color-pill-toys-bg); }
+.gp-article-card__image-wrap--beds        { background: var(--color-pill-beds-bg); }
+.gp-article-card__image-wrap--supplements { background: var(--color-pill-supplements-bg); }
+.gp-article-card__image-wrap--lifestyle   { background: var(--color-pill-beds-bg); }
+.gp-article-card__image-wrap--default     { background: var(--color-bg-muted); }
+
+.gp-article-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.gp-article-card:hover .gp-article-card__image { transform: scale(1.03); }
+
+.gp-article-card__body {
+  padding: var(--space-4) var(--space-5);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
 }
 
-.guides-index__article-tag {
-  display: inline-block;
-  font-size: var(--text-xs);
-  font-weight: var(--weight-semibold);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--color-accent);
-  margin-block-end: var(--space-1);
-}
-
-.guides-index__article-title {
+.gp-article-card__title {
   font-family: var(--font-heading);
   font-size: var(--text-base);
-  font-weight: var(--weight-semibold);
+  font-weight: 400;
   color: var(--color-heading);
-  margin-block-end: var(--space-1);
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
-.guides-index__article-desc {
+.gp-article-card__desc {
   font-size: var(--text-sm);
   color: var(--color-body-soft);
   line-height: 1.55;
@@ -331,145 +713,162 @@ const faqLd = {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin: 0;
+  flex: 1;
 }
 
-.guides-index__tools-grid {
+/* ── TOOLS (dark band) ── */
+.gp-tools {
+  background: var(--gradient-navy);
+  position: relative;
+  overflow: hidden;
+}
+.gp-tools::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 15% 60%, rgba(255, 122, 0, 0.12), transparent 30rem);
+  pointer-events: none;
+}
+
+.gp-tools__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: var(--space-4);
+  position: relative;
+  z-index: 1;
 }
 
-.guides-index__tool-card {
+.gp-tool-card {
   display: flex;
   align-items: flex-start;
   gap: var(--space-3);
-  padding: var(--space-4);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  background: var(--color-surface);
+  padding: var(--space-5);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-2xl);
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(4px);
   text-decoration: none;
-  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+  transition: var(--transition-smooth);
+}
+.gp-tool-card:hover {
+  border-color: rgba(255, 122, 0, 0.4);
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
 }
 
-.guides-index__tool-card:hover {
-  border-color: var(--color-accent);
-  box-shadow: var(--shadow-md);
-}
-
-.guides-index__tool-icon {
+.gp-tool-card__icon {
   font-size: 1.5rem;
-  line-height: 1;
   flex-shrink: 0;
+  line-height: 1;
+  margin-top: 2px;
 }
 
-.guides-index__tool-title {
+.gp-tool-card__title {
   display: block;
+  font-family: var(--font-heading);
   font-size: var(--text-sm);
-  font-weight: var(--weight-semibold);
-  color: var(--color-heading);
+  font-weight: 400;
+  color: var(--color-text-inverse);
   margin-block-end: var(--space-1);
 }
 
-.guides-index__tool-desc {
-  font-size: var(--text-sm);
-  color: var(--color-body-soft);
+.gp-tool-card__desc {
+  font-size: var(--text-xs);
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.55;
   margin: 0;
 }
 
-.guides-index__faq {
+/* ── FAQ ── */
+.gp-faq {
+  background: var(--color-bg-soft);
+}
+
+.gp-faq__list {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
+  max-width: 780px;
 }
 
-.guides-index__faq-item {
+.gp-faq__item {
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  background: var(--color-bg);
+  overflow: hidden;
 }
 
-.guides-index__faq-q {
+.gp-faq__q {
   display: block;
-  padding: var(--space-4);
+  padding: var(--space-4) var(--space-5);
   font-family: var(--font-heading);
   font-size: var(--text-base);
-  font-weight: var(--weight-semibold);
+  font-weight: 400;
   color: var(--color-heading);
   cursor: pointer;
   list-style: none;
+  transition: background var(--transition-base);
 }
+.gp-faq__q::-webkit-details-marker { display: none; }
+.gp-faq__item[open] .gp-faq__q { background: var(--color-bg-soft); }
 
-.guides-index__faq-q::-webkit-details-marker {
-  display: none;
-}
-
-.guides-index__faq-q::before {
+.gp-faq__q::before {
   content: '+';
   display: inline-block;
-  width: 1.2em;
+  width: 1.4em;
   color: var(--color-accent);
+  font-family: var(--font-sans);
   font-weight: var(--weight-bold);
+  font-size: var(--text-lg);
+  line-height: 1;
+  vertical-align: middle;
 }
+details[open] .gp-faq__q::before { content: '−'; }
 
-details[open] .guides-index__faq-q::before {
-  content: '−';
-}
-
-.guides-index__faq-a {
-  padding: 0 var(--space-4) var(--space-4);
+.gp-faq__a {
+  padding: var(--space-3) var(--space-5) var(--space-5);
   font-size: var(--text-sm);
   color: var(--color-body-soft);
-  line-height: 1.65;
+  line-height: var(--leading-relaxed);
   margin: 0;
 }
-
-.guides-index__faq-a a {
-  color: var(--color-accent);
+.gp-faq__a a {
+  color: var(--color-primary);
+  font-weight: var(--weight-bold);
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-@media (max-width: 768px) {
-  .guides-index__grid,
-  .guides-index__article-grid,
-  .guides-index__tools-grid {
-    grid-template-columns: 1fr;
+/* ── Responsive ── */
+@media (min-width: 768px) {
+  .gp-hero-card {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gp-hero-card__image-wrap {
+    aspect-ratio: auto;
+    min-height: 300px;
   }
 }
 
-.breadcrumb {
-  padding-block: var(--space-3);
+@media (max-width: 640px) {
+  .gp-topics__grid,
+  .gp-tools__grid,
+  .gp-article-grid {
+    grid-template-columns: 1fr;
+  }
+  .gp-firstdog__icon { display: none; }
+  .gp-hero__ctas { flex-direction: column; }
+  .gp-btn { justify-content: center; }
+  .gp-hero-card__body { padding: var(--space-4); }
 }
-.breadcrumb__list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: var(--space-1);
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.breadcrumb__item {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-1);
-}
-.breadcrumb__link {
-  font-size: var(--text-sm);
-  color: var(--color-muted);
-  text-decoration: none;
-  transition: color var(--transition-base);
-}
-.breadcrumb__link:hover {
-  color: var(--color-heading);
-}
-.breadcrumb__current {
-  font-size: var(--text-sm);
-  color: var(--color-body-soft);
-  font-weight: var(--weight-medium);
-}
-.breadcrumb__sep {
-  color: var(--color-placeholder);
-  font-size: var(--text-sm);
+
+@media (prefers-reduced-motion: reduce) {
+  .gp-topic-card,
+  .gp-tool-card,
+  .gp-hero-card,
+  .gp-article-card,
+  .gp-firstdog,
+  .gp-btn { transition: none; transform: none !important; }
 }
 </style>
