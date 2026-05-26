@@ -25,7 +25,7 @@ concurrency:
 
 jobs:
   sync:
-    name: Sync AWIN product, programme & creative data
+    name: Sync AWIN product, programme, creative & offers data
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -46,17 +46,27 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run AWIN sync
+      - name: Run AWIN sync (products + programmes + offers)
         env:
           AWIN_OAUTH2_TOKEN: ${{ secrets.AWIN_OAUTH2_TOKEN }}
           AWIN_PRODUCT_FEED_API_KEY: ${{ secrets.AWIN_PRODUCT_FEED_API_KEY }}
           AWIN_PUBLISHER_ID: '2861861'
           AWIN_COUNTRY_CODE: 'US'
           AWIN_FETCH_CREATIVES: 'true'
+          AWIN_FETCH_PROMOTIONS: 'true'
+          AWIN_PROMOTIONS_REGION_CODES: 'US'
+          AWIN_PROMOTIONS_MEMBERSHIP: 'joined'
+          AWIN_PROMOTIONS_INCLUDE_UPCOMING: 'true'
+          AWIN_PROMOTIONS_INCLUDE_EXPIRING: 'true'
+          AWIN_PROMOTIONS_PAGE_SIZE: '200'
+          AWIN_PROMOTIONS_MAX_PAGES: '25'
         run: npm run awin:sync:strict
 
-      - name: Audit AWIN output
+      - name: Audit AWIN products & programmes
         run: npm run awin:audit:strict
+
+      - name: Audit AWIN offers
+        run: npm run awin:offers:audit
 
       - name: Check for changes
         id: changes
@@ -65,6 +75,10 @@ jobs:
             src/data/awin-products.json \
             src/data/awin-programs.json \
             src/data/affiliate-banners.json \
+            src/data/awin-offers.raw.json \
+            src/data/awin-offers.normalized.json \
+            src/data/awin-offers.stats.json \
+            src/data/awin-offer-placement-preview.json \
             2>/dev/null \
             && echo "changed=false" >> $GITHUB_OUTPUT \
             || echo "changed=true" >> $GITHUB_OUTPUT
@@ -78,8 +92,12 @@ jobs:
           git add \
             src/data/awin-products.json \
             src/data/awin-programs.json \
-            src/data/affiliate-banners.json
-          git commit -m "chore(awin): sync product, programme & banner data [skip ci]"
+            src/data/affiliate-banners.json \
+            src/data/awin-offers.raw.json \
+            src/data/awin-offers.normalized.json \
+            src/data/awin-offers.stats.json \
+            src/data/awin-offer-placement-preview.json
+          git commit -m "chore(awin): sync product, programme, banner & offers data [skip ci]"
           git push origin "$TARGET_BRANCH"
 
       - name: Summary
@@ -108,6 +126,17 @@ jobs:
           if [ -f src/data/affiliate-banners.json ]; then
             BANNERS=$(node -e "const d=require('./src/data/affiliate-banners.json');console.log((Array.isArray(d) ? d : d.banners || []).length)")
             echo "- **Total banners:** ${BANNERS}" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f src/data/awin-offers.stats.json ]; then
+            node -e "
+              const s = require('./src/data/awin-offers.stats.json');
+              console.log('- **Offers total:** ' + (s.total ?? 0));
+              console.log('- **Offers enabled:** ' + (s.enabled ?? 0));
+              console.log('- **Offers active:** ' + (s.active ?? 0) + '  Expiring soon: ' + (s.expiringSoon ?? 0));
+              console.log('- **Vouchers (with code):** ' + (s.withVoucherCode ?? 0));
+              console.log('- **Avg quality score:** ' + (s.avgQualityScore ?? 0) + '/100');
+            " >> $GITHUB_STEP_SUMMARY
           fi
 
           echo "- **Branch:** ${{ inputs.branch || 'main' }}" >> $GITHUB_STEP_SUMMARY

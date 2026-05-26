@@ -11,6 +11,7 @@ import CommerceRail from './CommerceRail.astro';
 import MerchantSpotlight from './MerchantSpotlight.astro';
 import AwinCreativeBanner from './AwinCreativeBanner.astro';
 import AwinProductSlot from './AwinProductSlot.astro';
+import AwinOfferPlacement from './AwinOfferPlacement.astro';
 import { getTopPrograms } from '../../lib/awin/getProgramData';
 
 export interface Props {
@@ -86,6 +87,39 @@ const bestProgram = topPrograms.find((p) =>
         category={category}
         breedSize={breedSize}
         monetizationIntent={monetizationIntent}
+      />
+    )}
+
+    {firstAllowed === 'offer-strip' && (
+      <AwinOfferPlacement
+        pageType={pageType}
+        placement={`${pageType}-${zone}`}
+        topicTags={topicTags}
+        maxItems={1}
+        variant="strip"
+        suppressIfMedical={true}
+      />
+    )}
+
+    {firstAllowed === 'offer-callout' && (
+      <AwinOfferPlacement
+        pageType={pageType}
+        placement={`${pageType}-${zone}`}
+        topicTags={topicTags}
+        maxItems={1}
+        variant="callout"
+        suppressIfMedical={true}
+      />
+    )}
+
+    {firstAllowed === 'offer-grid' && (
+      <AwinOfferPlacement
+        pageType={pageType}
+        placement={`${pageType}-${zone}`}
+        topicTags={topicTags}
+        maxItems={6}
+        variant="grid"
+        suppressIfMedical={true}
       />
     )}
   </div>

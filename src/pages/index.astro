@@ -12,6 +12,7 @@ import HomeFeaturedGuides from '../components/home/HomeFeaturedGuides.astro';
 import HomeMethodologyCompact from '../components/home/HomeMethodologyCompact.astro';
 import HomeFinalCta from '../components/home/HomeFinalCta.astro';
 import HomeAwinShowcase from '../components/home/HomeAwinShowcase.astro';
+import AwinOfferPlacement from '../components/affiliate/AwinOfferPlacement.astro';
 
 import getHomepageData from '../lib/homepage/getHomepageData';
 
@@ -175,6 +176,15 @@ const structuredData = [
     {featureFlags.showAwinSpotlight && (
       <HomeAwinShowcase />
     )}
+
+    {/* 6c — AWIN live offers strip */}
+    <AwinOfferPlacement
+      pageType="home"
+      placement="home-deal-strip"
+      topicTags={["food", "training", "grooming", "treats", "supplements"]}
+      maxItems={1}
+      variant="strip"
+    />
 
     {/* 7 — Curated featured guides */}
     {featureFlags.showFeaturedGuides && (

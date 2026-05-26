@@ -1,31 +1,32 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "defaultDisclosure": "PupWiki may earn a commission when you buy through links on this page.",
   "pageTypes": {
     "home": {
       "intensity": "low",
-      "maxPlacements": 1,
-      "allowedPlacements": ["soft-cta"],
+      "maxPlacements": 2,
+      "allowedPlacements": ["soft-cta", "offer-strip"],
       "zones": {
-        "mid": ["soft-cta"]
+        "mid": ["soft-cta"],
+        "after-showcase": ["offer-strip"]
       }
     },
     "breed": {
       "intensity": "low-medium",
-      "maxPlacements": 2,
-      "allowedPlacements": ["merchant-spotlight", "product-card", "awin-product-slot"],
+      "maxPlacements": 3,
+      "allowedPlacements": ["merchant-spotlight", "product-card", "awin-product-slot", "offer-strip"],
       "zones": {
         "before-faq": ["merchant-spotlight", "awin-product-slot"],
-        "bottom": ["product-card"]
+        "bottom": ["product-card", "offer-strip"]
       }
     },
     "guide": {
       "intensity": "medium-high",
-      "maxPlacements": 3,
-      "allowedPlacements": ["creative-banner", "commerce-rail", "product-card", "awin-product-slot"],
+      "maxPlacements": 4,
+      "allowedPlacements": ["creative-banner", "commerce-rail", "product-card", "awin-product-slot", "offer-callout"],
       "zones": {
         "after-intro": ["awin-product-slot"],
-        "mid-content": ["creative-banner", "commerce-rail"],
+        "mid-content": ["creative-banner", "commerce-rail", "offer-callout"],
         "before-faq": ["commerce-rail"],
         "bottom": ["product-card"]
       }
@@ -53,12 +54,22 @@
     },
     "category": {
       "intensity": "high",
-      "maxPlacements": 3,
-      "allowedPlacements": ["creative-banner", "merchant-spotlight", "commerce-rail"],
+      "maxPlacements": 4,
+      "allowedPlacements": ["creative-banner", "merchant-spotlight", "commerce-rail", "offer-strip"],
       "zones": {
-        "after-intro": ["creative-banner"],
+        "after-intro": ["offer-strip", "creative-banner"],
         "mid-content": ["merchant-spotlight"],
         "bottom": ["commerce-rail"]
+      }
+    },
+    "brand": {
+      "intensity": "high",
+      "maxPlacements": 6,
+      "allowedPlacements": ["commerce-rail", "offer-strip", "offer-grid"],
+      "zones": {
+        "hero": ["offer-strip"],
+        "mid-content": ["commerce-rail"],
+        "offer-grid": ["offer-grid"]
       }
     },
     "faq": {

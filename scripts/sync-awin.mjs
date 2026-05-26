@@ -1155,3 +1155,88 @@ main().catch((err) => {
   console.error('[sync-awin] Fatal error:', err);
   process.exit(1);
 });
+
+// ─── AWIN PROMOTIONS PHASE ─────────────────────────────────────────────────
+
+async function syncPromotions() {
+  const { writeEmptyOffers, writePromotionsOutput } = await import('./awin/write-promotions-output.mjs');
+
+  if (process.env.AWIN_FETCH_PROMOTIONS !== 'true') {
+    log('[promotions] AWIN_FETCH_PROMOTIONS not set — skipping. Using existing offer files.');
+    return;
+  }
+
+  if (!TOKEN) {
+    warn('[promotions] AWIN_OAUTH2_TOKEN missing — cannot fetch promotions. Writing empty placeholders.');
+    writeEmptyOffers();
+    return;
+  }
+
+  try {
+    const { fetchPromotions } = await import('./awin/fetch-promotions.mjs');
+    const { normalizeAll } = await import('./awin/normalize-promotions.mjs');
+    const { scoreAll } = await import('./awin/score-promotions.mjs');
+
+    log('[promotions] Fetching AWIN promotions/offers...');
+
+    const { rows, meta } = await fetchPromotions(PUBLISHER_ID, {
+      token: TOKEN,
+      membership: process.env.AWIN_PROMOTIONS_MEMBERSHIP ?? 'joined',
+      regionCodes: (process.env.AWIN_PROMOTIONS_REGION_CODES ?? 'US').split(',').map((s) => s.trim()),
+      pageSize: Number(process.env.AWIN_PROMOTIONS_PAGE_SIZE ?? '200'),
+      maxPages: Number(process.env.AWIN_PROMOTIONS_MAX_PAGES ?? '25'),
+      includeExpiring: process.env.AWIN_PROMOTIONS_INCLUDE_EXPIRING !== 'false',
+      includeUpcoming: process.env.AWIN_PROMOTIONS_INCLUDE_UPCOMING !== 'false',
+    });
+
+    log(`[promotions] Fetched ${rows.length} raw promotion rows`);
+
+    // Build lookup structures from already-written awin-programs.json
+    const programsPath = join(DATA, 'awin-programs.json');
+    let joinedAdvertiserIds = new Set();
+    let programMap = new Map();
+
+    if (existsSync(programsPath)) {
+      const programData = JSON.parse(readFileSync(programsPath, 'utf8'));
+      const allProgs = [...(programData.programs ?? []), ...(programData.pendingPrograms ?? [])];
+      for (const p of allProgs) {
+        if (p.relationship === 'joined' || p.isActive) {
+          joinedAdvertiserIds.add(String(p.advertiserId));
+        }
+        programMap.set(String(p.advertiserId), p);
+      }
+    }
+
+    log(`[promotions] ${joinedAdvertiserIds.size} joined advertiser IDs loaded`);
+
+    const normalized = normalizeAll(rows, joinedAdvertiserIds, programMap);
+    log(`[promotions] Normalized: ${normalized.length} offers`);
+
+    const scored = scoreAll(normalized, programMap);
+    const enabledCount = scored.filter((o) => o.enabled).length;
+    log(`[promotions] Scored: ${scored.length} offers, ${enabledCount} enabled`);
+
+    const stats = writePromotionsOutput(rows, scored, meta);
+
+    ok(`[promotions] awin-offers.raw.json: ${rows.length} rows`);
+    ok(`[promotions] awin-offers.normalized.json: ${scored.length} offers (${enabledCount} enabled)`);
+    ok(`[promotions] awin-offers.stats.json: avgQuality=${stats.avgQualityScore}`);
+
+    if (meta.errors.length > 0) {
+      for (const e of meta.errors) warn(`[promotions] Fetch error: ${e}`);
+    }
+
+  } catch (err) {
+    warn(`[promotions] Sync failed: ${err.message}. Writing empty placeholders.`);
+    const { writeEmptyOffers: writeEmpty } = await import('./awin/write-promotions-output.mjs');
+    writeEmpty();
+    if (STRICT) {
+      throw new Error(`[promotions] Strict mode: promotions sync failed — ${err.message}`);
+    }
+  }
+}
+
+syncPromotions().catch((err) => {
+  console.error('[sync-awin] Promotions phase error:', err);
+  if (STRICT) process.exit(1);
+});

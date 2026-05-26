@@ -1,0 +1,64 @@
+---
+import type { NormalizedAwinOffer } from '../../lib/monetization/getBestOffers';
+import AffiliateDisclosureMini from './AffiliateDisclosureMini.astro';
+import AwinExpiringSoonNotice from './AwinExpiringSoonNotice.astro';
+
+export interface Props {
+  offer: NormalizedAwinOffer;
+  hideDisclosure?: boolean;
+}
+
+const { offer, hideDisclosure = false } = Astro.props;
+const hasCode = Boolean(offer.voucher?.code);
+const termsLong = (offer.terms?.length ?? 0) > 100;
+---
+
+<article
+  class="awin-voucher-card"
+  data-affiliate-network="awin"
+  data-affiliate-type={offer.type}
+  data-awin-advertiser-id={offer.advertiserId}
+  data-awin-promotion-id={offer.rawPromotionId}
+>
+  <div class="awin-voucher-card__top">
+    <span class="awin-offer-badge awin-offer-badge--voucher">
+      {offer.type === 'voucher' ? 'Voucher' : 'Offer'}
+    </span>
+    <span class="awin-voucher-card__merchant">{offer.advertiserName}</span>
+  </div>
+
+  <h4 class="awin-voucher-card__title">{offer.shortTitle}</h4>
+
+  {hasCode && (
+    <div class="awin-voucher-card__code-block">
+      <span class="awin-voucher-card__code-label">Voucher code</span>
+      <code class="awin-voucher-code">{offer.voucher!.code}</code>
+    </div>
+  )}
+
+  <div class="awin-voucher-card__footer">
+    <AwinExpiringSoonNotice offer={offer} />
+    <a
+      href={offer.bestUrl!}
+      rel="nofollow sponsored noopener noreferrer"
+      target="_blank"
+      class="awin-cta-btn awin-cta-btn--sm"
+      data-affiliate-merchant={offer.advertiserName}
+      data-awin-promotion-id={offer.rawPromotionId}
+    >
+      {offer.type === 'voucher' ? 'View voucher' : 'See current offer'}
+    </a>
+  </div>
+
+  {termsLong && offer.terms && (
+    <details class="awin-voucher-card__terms">
+      <summary>Offer terms</summary>
+      <p>{offer.terms}</p>
+    </details>
+  )}
+  {!termsLong && offer.terms && (
+    <p class="awin-voucher-card__terms-inline">{offer.terms}</p>
+  )}
+
+  {!hideDisclosure && <AffiliateDisclosureMini compact />}
+</article>

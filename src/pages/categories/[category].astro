@@ -19,6 +19,7 @@ import CategoryArticleGrid from '../../components/category/CategoryArticleGrid.a
 import CategoryRelatedTopics from '../../components/category/CategoryRelatedTopics.astro';
 import CategoryEmptyState from '../../components/category/CategoryEmptyState.astro';
 import MonetizationRail from '../../components/affiliate/MonetizationRail.astro';
+import AwinOfferPlacement from '../../components/affiliate/AwinOfferPlacement.astro';
 import Breadcrumb from '../../components/ui/Breadcrumb.astro';
 
 import masterBreeds from '../../data/master-breeds.json';
@@ -106,6 +107,15 @@ const itemListLd = buildItemListLd({
     </div>
 
     <CategoryHero meta={meta} />
+
+    <AwinOfferPlacement
+      pageType="category"
+      placement="category-after-intro"
+      topicTags={awinTags.primary}
+      maxItems={1}
+      variant="strip"
+      isMedical={['health','emergency','vet','medical'].some((t) => categorySlug?.includes(t))}
+    />
 
     <CategoryQuickNav
       hasPosts={featuredPosts.length > 0}

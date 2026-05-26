@@ -5,6 +5,7 @@ import brandsData        from '../../data/brands.json';
 import productIndex      from '../../data/product-index.json';
 import masterBreeds      from '../../data/master-breeds.json';
 import CommercePlacement from '../../components/commerce/CommercePlacement.astro';
+import AwinOfferPlacement from '../../components/affiliate/AwinOfferPlacement.astro';
 
 const SITE = 'https://pupwiki.com';
 
@@ -112,6 +113,15 @@ const categoryLinks = [
         <p class="brand-hero-desc">
           Expert reviews and best-pick recommendations for all {brand.name} dog products — independently tested and rated.
         </p>
+
+        <AwinOfferPlacement
+          pageType="brand"
+          placement="brand-hero"
+          merchant={brand.name}
+          topicTags={[brand.category_label?.toLowerCase?.() ?? 'dog-care']}
+          maxItems={1}
+          variant="strip"
+        />
 
         <div class="btn-row">
           <a href={`https://${brand.domain}`} rel="nofollow" target="_blank" class="btn btn--secondary">
@@ -231,6 +241,15 @@ const categoryLinks = [
           </div>
         </div>
       </section>
+
+      <AwinOfferPlacement
+        pageType="brand"
+        placement="brand-offer-grid"
+        merchant={brand.name}
+        topicTags={[brand.category_label?.toLowerCase?.() ?? 'dog-care']}
+        maxItems={6}
+        variant="grid"
+      />
 
     </main>
 

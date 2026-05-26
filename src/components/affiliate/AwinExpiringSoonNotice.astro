@@ -1,0 +1,22 @@
+---
+import type { NormalizedAwinOffer } from '../../lib/monetization/getBestOffers';
+
+export interface Props {
+  offer: NormalizedAwinOffer;
+}
+const { offer } = Astro.props;
+const days = offer.daysUntilEnd;
+const show = typeof days === 'number' && days >= 0 && days <= 7;
+
+function formatDate(dateStr?: string) {
+  if (!dateStr) return '';
+  try {
+    return new Date(dateStr).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  } catch { return ''; }
+}
+---
+{show && (
+  <span class="awin-expiring-notice" aria-label={`This offer ends in ${days} day${days === 1 ? '' : 's'}`}>
+    Ends {offer.endDate ? formatDate(offer.endDate) : `in ${days} day${days === 1 ? '' : 's'}`}
+  </span>
+)}

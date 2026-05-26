@@ -9,6 +9,7 @@ import Breadcrumb from '../components/ui/Breadcrumb.astro';
 import PageBannerSlot from '../components/affiliate/PageBannerSlot.astro';
 import CommercePlacement from '../components/commerce/CommercePlacement.astro';
 import MonetizationRail from '../components/affiliate/MonetizationRail.astro';
+import AwinOfferPlacement from '../components/affiliate/AwinOfferPlacement.astro';
 import MethodologyNote from '../components/guides/MethodologyNote.astro';
 import '../styles/pages/article.css';
 
@@ -306,6 +307,15 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
                   breedSlug={breedSlug}
                   breedSize={breedSize}
                   monetizationIntent="medium"
+                />
+                <AwinOfferPlacement
+                  pageType="guide"
+                  placement="guide-mid-content"
+                  topicTags={partnerTopicTags}
+                  maxItems={1}
+                  variant="callout"
+                  suppressIfMedical={true}
+                  isMedical={showHealthDisclaimer}
                 />
               </div>
 

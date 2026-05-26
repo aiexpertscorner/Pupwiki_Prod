@@ -1,0 +1,16 @@
+{
+  "total": 0,
+  "enabled": 0,
+  "active": 0,
+  "expiringSoon": 0,
+  "upcoming": 0,
+  "expired": 0,
+  "promotions": 0,
+  "vouchers": 0,
+  "withVoucherCode": 0,
+  "withTrackingUrl": 0,
+  "joined": 0,
+  "notJoined": 0,
+  "avgQualityScore": 0,
+  "syncedAt": null
+}
