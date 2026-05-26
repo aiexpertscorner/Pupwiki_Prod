@@ -52,6 +52,7 @@ jobs:
           AWIN_PRODUCT_FEED_API_KEY: ${{ secrets.AWIN_PRODUCT_FEED_API_KEY }}
           AWIN_PUBLISHER_ID: '2861861'
           AWIN_COUNTRY_CODE: 'US'
+          AWIN_FETCH_CREATIVES: 'true'
         run: npm run awin:sync:strict
 
       - name: Audit AWIN output
