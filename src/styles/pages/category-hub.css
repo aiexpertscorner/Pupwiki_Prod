@@ -178,7 +178,7 @@
     radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.72), transparent 12rem),
     linear-gradient(135deg, var(--color-surface-navy), var(--color-primary));
   padding: var(--space-6);
-  color: #ffffff;
+  color: var(--color-text-inverse);
   box-shadow: var(--shadow-xl);
 }
 
@@ -210,7 +210,7 @@
 .category-hub__hero-card strong {
   display: block;
   margin-top: var(--space-2);
-  color: #ffffff;
+  color: var(--color-text-inverse);
   font-family: var(--font-serif);
   font-size: clamp(var(--text-3xl), 8vw, var(--text-5xl));
   line-height: var(--leading-none);
@@ -757,5 +757,5 @@
 
 .category-hub__see-all-link:hover {
   background: var(--color-primary);
-  color: #fff;
+  color: var(--color-text-inverse);
 }

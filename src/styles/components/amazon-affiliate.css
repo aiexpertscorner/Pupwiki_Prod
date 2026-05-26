@@ -1,10 +1,10 @@
 .amazon-slot {
-  --amazon-bg: color-mix(in srgb, var(--color-surface-warm, #fff7ed) 74%, white);
+  --amazon-bg: color-mix(in srgb, var(--color-surface-warm) 74%, white);
   --amazon-border: var(--color-border-strong, rgba(148, 163, 184, 0.35));
-  --amazon-text: var(--color-text-primary, #172033);
-  --amazon-muted: var(--color-text-muted, #64748b);
-  --amazon-accent: var(--color-accent, #d97706);
-  --amazon-accent-hover: var(--color-accent-hover, #b45309);
+  --amazon-text: var(--color-text-primary);
+  --amazon-muted: var(--color-text-muted);
+  --amazon-accent: var(--color-accent);
+  --amazon-accent-hover: var(--color-accent-hover);
 
   margin: clamp(2rem, 5vw, 4rem) 0;
 }
@@ -150,7 +150,7 @@
   min-height: 2.45rem;
   border-radius: 999px;
   background: linear-gradient(135deg, var(--amazon-accent), var(--amazon-accent-hover));
-  color: #fff;
+  color: var(--color-text-inverse);
   font-size: 0.82rem;
   font-weight: 850;
   line-height: 1;

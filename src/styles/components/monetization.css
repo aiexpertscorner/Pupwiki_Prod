@@ -87,7 +87,7 @@
   overflow: hidden;
   border: 1px solid var(--color-border-accent);
   border-radius: var(--radius-3xl);
-  background: radial-gradient(circle at 92% 8%, rgba(255, 122, 0, 0.12), transparent 14rem), #fff;
+  background: radial-gradient(circle at 92% 8%, rgba(255, 122, 0, 0.12), transparent 14rem), var(--color-surface);
   box-shadow: var(--shadow-card);
 }
 
@@ -115,7 +115,7 @@
   display: grid;
   min-height: 150px;
   place-items: center;
-  background: linear-gradient(180deg, var(--color-bg-soft), #fff);
+  background: linear-gradient(180deg, var(--color-bg-soft), var(--color-surface));
   padding: var(--space-4);
 }
 
@@ -190,14 +190,14 @@
   border-radius: var(--radius-xl);
   background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover));
   padding: 0.75rem 1rem;
-  color: #fff;
+  color: var(--color-text-inverse);
   font-size: var(--text-sm);
   font-weight: var(--weight-black);
   text-decoration: none;
   box-shadow: var(--shadow-cta);
 }
 
-.affiliate-card__cta:hover { transform: translateY(-2px); color: #fff; }
+.affiliate-card__cta:hover { transform: translateY(-2px); color: var(--color-text-inverse); }
 
 .affiliate-card__note {
   margin: 0;
@@ -227,13 +227,21 @@
 
 /* ── Amazon slots ────────────────────────────────────────────── */
 .amazon-slot {
+  --amz-border: rgba(255, 153, 0, 0.32);
+  --amz-label-bg: #fff8e8;
+  --amz-label-border: rgba(255, 153, 0, 0.34);
+  --amz-label-text: #8a5300;
+  --amz-search-border: rgba(255, 153, 0, 0.36);
+  --amz-search-bg-end: #fff8e8;
+  --amz-source-bg: #fff3d1;
+
   display: grid;
   gap: var(--space-4);
   min-width: 0;
-  border: 1px solid rgba(255, 153, 0, 0.32);
+  border: 1px solid var(--amz-border);
   border-radius: var(--radius-3xl);
   background: radial-gradient(circle at 94% 10%, rgba(255, 153, 0, 0.16), transparent 14rem),
-    linear-gradient(180deg, #fff 0%, var(--color-bg-muted) 100%);
+    linear-gradient(180deg, var(--color-surface) 0%, var(--color-bg-muted) 100%);
   padding: var(--space-5);
   box-shadow: var(--shadow-card);
 }
@@ -243,11 +251,11 @@
 .amazon-slot__header p {
   width: fit-content;
   margin: 0;
-  border: 1px solid rgba(255, 153, 0, 0.34);
+  border: 1px solid var(--amz-label-border);
   border-radius: var(--radius-full);
-  background: #fff8e8;
+  background: var(--amz-label-bg);
   padding: 0.4rem 0.64rem;
-  color: #8a5300;
+  color: var(--amz-label-text);
   font-size: var(--text-xs);
   font-weight: var(--weight-black);
   letter-spacing: var(--tracking-label);
@@ -279,14 +287,14 @@
   min-width: 0;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-2xl);
-  background: #fff;
+  background: var(--color-surface);
   padding: var(--space-4);
   box-shadow: var(--shadow-xs);
 }
 
 .amazon-slot__card--search {
-  border-color: rgba(255, 153, 0, 0.36);
-  background: linear-gradient(180deg, #fff 0%, #fff8e8 100%);
+  border-color: var(--amz-search-border);
+  background: linear-gradient(180deg, var(--color-surface) 0%, var(--amz-search-bg-end) 100%);
 }
 
 .amazon-slot__source {
@@ -300,7 +308,7 @@
   line-height: 1;
 }
 
-.amazon-slot__card--search .amazon-slot__source { background: #fff3d1; color: #8a5300; }
+.amazon-slot__card--search .amazon-slot__source { background: var(--amz-source-bg); color: var(--amz-label-text); }
 
 .amazon-slot__meta {
   display: flex;
