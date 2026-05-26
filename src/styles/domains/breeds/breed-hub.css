@@ -859,13 +859,13 @@
 }
 
 .breed-directory-card__traits span.is-positive {
-  border-color: rgba(4, 120, 87, 0.2);
+  border-color: color-mix(in srgb, var(--color-success) 20%, transparent);
   background: var(--color-success-light);
   color: var(--color-success);
 }
 
 .breed-directory-card__traits span.is-warning {
-  border-color: rgba(220, 38, 38, 0.18);
+  border-color: var(--color-danger-note-border);
   background: var(--color-danger-light);
   color: var(--color-danger);
 }
