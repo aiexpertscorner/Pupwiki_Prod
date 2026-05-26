@@ -1,0 +1,8 @@
+/* =============================================================
+   BREEDS DOMAIN — FAQ integration styles
+   Breed-level FAQ section: .breed-faq-* in breed-detail.css
+   FAQ accordion / topic cards / disclaimer: scoped styles
+   in src/components/faq/FaqAccordion.astro,
+      src/components/faq/FaqTopicCards.astro,
+      src/components/faq/FaqDisclaimer.astro
+   ============================================================= */

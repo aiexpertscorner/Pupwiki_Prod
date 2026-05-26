@@ -1,0 +1,1946 @@
+/* =============================================================
+   BREEDS DOMAIN — Detail page (/breeds/[breed])
+   Migrated from: src/styles/components/breed-page.css
+   ============================================================= */
+
+   BREED PAGE — Full structural + component CSS for /breeds/[breed]
+   Mobile-first. All values use token variables from tokens.css.
+   ============================================================= */
+
+/* ── Page wrapper ────────────────────────────────────────────── */
+.breed-page {
+  background:
+    radial-gradient(circle at 94% 2%, rgba(255, 122, 0, 0.08), transparent 20rem),
+    radial-gradient(circle at 4% 8%, rgba(21, 54, 95, 0.06), transparent 18rem),
+    var(--color-bg-paper);
+  color: var(--color-body);
+}
+
+.breed-container {
+  width: min(100% - (var(--pw-page-gutter, 1.25rem) * 2), var(--max-width));
+  margin-inline: auto;
+}
+
+/* ── Hero ────────────────────────────────────────────────────── */
+.breed-hero {
+  border-bottom: 1px solid var(--color-border-warm);
+  background: linear-gradient(180deg, var(--color-bg-soft) 0%, var(--color-bg) 82%);
+  padding-block: clamp(2rem, 5vw, 4rem) clamp(2.5rem, 6vw, 5rem);
+}
+
+.breed-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: var(--space-6);
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+}
+
+.breed-breadcrumb a {
+  color: var(--color-primary);
+  font-weight: var(--weight-semi);
+  text-decoration: none;
+}
+
+.breed-breadcrumb a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.breed-hero__grid {
+  display: grid;
+  gap: clamp(1.5rem, 5vw, 3.5rem);
+  align-items: start;
+}
+
+@media (min-width: 680px) {
+  .breed-hero__grid {
+    grid-template-columns: clamp(12rem, 28vw, 18rem) minmax(0, 1fr);
+    align-items: center;
+  }
+}
+
+/* ── Breed pills (trait tags) ────────────────────────────────── */
+.breed-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+.breed-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  padding: 0.42rem 0.7rem;
+  color: var(--color-body-soft);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: var(--shadow-xs);
+}
+
+.breed-pill--accent {
+  border-color: var(--color-border-accent);
+  background: var(--color-accent-subtle);
+  color: var(--color-accent-hover);
+}
+
+.breed-pill--purple {
+  border-color: var(--color-pill-purple-border);
+  background: var(--color-pill-purple-bg);
+  color: var(--color-pill-purple-text);
+}
+
+.breed-pill--warm {
+  border-color: var(--color-border-warm);
+  background: var(--color-bg-warm);
+  color: var(--cat-training-text);
+}
+
+.breed-pill--success {
+  border-color: var(--color-pill-success-border);
+  background: var(--color-pill-success-bg);
+  color: var(--color-pill-success-text);
+}
+
+.breed-pill--gold {
+  border-color: var(--color-pill-gold-border);
+  background: var(--color-pill-gold-bg);
+  color: var(--color-pill-gold-text);
+}
+
+/* ── Hero content ────────────────────────────────────────────── */
+.breed-hero__content h1 {
+  margin: 0 0 var(--space-3);
+  color: var(--color-heading);
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 8vw, 3.85rem);
+  font-weight: var(--weight-bold);
+  letter-spacing: -0.04em;
+  line-height: var(--leading-tight);
+}
+
+.breed-hero__temperament {
+  margin: 0 0 var(--space-2);
+  color: var(--color-body-soft);
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-style: italic;
+  line-height: var(--leading-snug);
+}
+
+.breed-hero__description {
+  max-width: 52rem;
+  margin: 0 0 var(--space-5);
+  color: var(--color-body-soft);
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+}
+
+/* ── Quick facts bar ─────────────────────────────────────────── */
+.breed-quick-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-5);
+}
+
+.breed-quick-facts span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  padding: 0.52rem 0.72rem;
+  color: var(--color-body);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  line-height: 1;
+  box-shadow: var(--shadow-xs);
+}
+
+/* ── Parent breed row (crossbreeds) ──────────────────────────── */
+.breed-parent-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+.breed-parent-row a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--radius-full);
+  background: var(--color-primary-subtle);
+  padding: 0.42rem 0.68rem;
+  color: var(--color-primary);
+  font-weight: var(--weight-semi);
+  font-size: var(--text-xs);
+  text-decoration: none;
+  transition: var(--transition-base);
+}
+
+.breed-parent-row a:hover {
+  background: var(--color-primary-light);
+  color: var(--color-primary-hover);
+}
+
+/* ── Hero action buttons ─────────────────────────────────────── */
+.breed-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.breed-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  padding: 0.82rem 1.1rem;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  text-decoration: none;
+  transition: var(--transition-smooth);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.breed-button--primary {
+  background: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  box-shadow: var(--shadow-cta);
+}
+
+.breed-button--primary:hover {
+  transform: translateY(-2px);
+  background: var(--button-primary-bg-hover);
+  color: var(--button-primary-text);
+}
+
+.breed-button--secondary {
+  border: 1px solid var(--color-border-strong);
+  background: var(--color-bg);
+  color: var(--color-primary);
+  box-shadow: var(--shadow-xs);
+}
+
+.breed-button--secondary:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-border-primary);
+  background: var(--color-primary-subtle);
+}
+
+.breed-button--ghost {
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-muted);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+}
+
+.breed-button--ghost:hover,
+.breed-button--ghost.is-saved {
+  border-color: var(--color-primary, var(--color-accent));
+  color: var(--color-primary, var(--color-accent));
+  background: var(--color-primary-subtle, transparent);
+}
+
+/* ── Main content layout ─────────────────────────────────────── */
+.breed-main {
+  padding-block: clamp(var(--space-8), 6vw, var(--space-16));
+}
+
+.breed-layout {
+  display: grid;
+  gap: var(--space-10);
+  align-items: start;
+}
+
+@media (min-width: 1024px) {
+  .breed-layout {
+    grid-template-columns: minmax(0, 1fr) 22rem;
+  }
+}
+
+.breed-content { min-width: 0; }
+
+/* ── Sections ────────────────────────────────────────────────── */
+.breed-section {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-3xl);
+  background: var(--color-surface);
+  padding: clamp(var(--space-5), 4vw, var(--space-8));
+  box-shadow: var(--shadow-card);
+}
+
+.breed-section + .breed-section { margin-top: var(--space-6); }
+
+.breed-section--warm {
+  border-color: var(--color-border-warm);
+  background: linear-gradient(180deg, var(--color-bg-warm) 0%, var(--color-bg) 100%);
+}
+
+.breed-section--success {
+  border-color: var(--color-pill-success-border);
+  background: linear-gradient(180deg, var(--color-health-low-bg) 0%, var(--color-bg) 100%);
+}
+
+.breed-section--decision {
+  border-color: var(--color-border-accent);
+  background:
+    radial-gradient(circle at 96% 6%, rgba(255, 122, 0, 0.1), transparent 14rem), /* decorative overlay — intentional rgba */
+    var(--color-surface);
+}
+
+.breed-section__header {
+  margin-bottom: var(--space-5);
+}
+
+.breed-section__header h2 {
+  margin: var(--space-2) 0 0;
+  color: var(--color-heading);
+  font-family: var(--font-serif);
+  font-size: clamp(var(--text-2xl), 4vw, var(--text-4xl));
+  letter-spacing: var(--tracking-tight);
+  line-height: var(--leading-tight);
+}
+
+.breed-section__footer-note {
+  margin-top: var(--space-4);
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+}
+
+/* ── Eyebrow label ───────────────────────────────────────────── */
+.breed-eyebrow {
+  width: fit-content;
+  margin: 0 0 var(--space-2);
+  border: 1px solid var(--color-border-accent);
+  border-radius: var(--radius-full);
+  background: var(--color-accent-subtle);
+  padding: 0.42rem 0.66rem;
+  color: var(--color-accent-hover);
+  font-size: 0.68rem;
+  font-weight: var(--weight-black);
+  letter-spacing: var(--tracking-label);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.breed-eyebrow--danger {
+  border-color: var(--color-danger-note-border);
+  background: var(--color-danger-note-bg);
+  color: var(--color-danger);
+}
+
+/* ── Trait meter grid ────────────────────────────────────────── */
+.breed-traits-grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(180px, 100%), 1fr));
+}
+
+.breed-trait-card {
+  display: grid;
+  gap: var(--space-2);
+  border: 1px solid var(--color-border-soft);
+  border-radius: var(--radius-2xl);
+  background: var(--card-bg);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-xs);
+}
+
+.breed-trait-card p {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-black);
+  letter-spacing: var(--tracking-label);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.breed-trait-card strong {
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  line-height: 1;
+}
+
+.breed-trait-card__muted {
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+}
+
+/* Trait meter bar */
+.breed-meter {
+  position: relative;
+  height: 0.5rem;
+  border-radius: var(--radius-full);
+  background: var(--color-bg-muted);
+  overflow: hidden;
+}
+
+.breed-meter span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  transition: width 0.5s ease;
+}
+
+/* Width steps */
+.breed-meter .w-0   { width: 0%; }
+.breed-meter .w-10  { width: 10%; }
+.breed-meter .w-20  { width: 20%; }
+.breed-meter .w-30  { width: 30%; }
+.breed-meter .w-40  { width: 40%; }
+.breed-meter .w-50  { width: 50%; }
+.breed-meter .w-60  { width: 60%; }
+.breed-meter .w-70  { width: 70%; }
+.breed-meter .w-80  { width: 80%; }
+.breed-meter .w-90  { width: 90%; }
+.breed-meter .w-100 { width: 100%; }
+
+/* Fill colors */
+.breed-meter .is-energy    { background: var(--color-accent); }
+.breed-meter .is-shedding  { background: var(--color-meter-shedding); }
+.breed-meter .is-training  { background: var(--color-success); }
+.breed-meter .is-grooming  { background: var(--color-meter-grooming); }
+.breed-meter .is-friendly  { background: var(--color-meter-friendly); }
+
+/* ── Data snapshot grid ──────────────────────────────────────── */
+.breed-data-grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(120px, 100%), 1fr));
+}
+
+.breed-data-grid article {
+  display: grid;
+  gap: var(--space-1);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  background: var(--card-bg);
+  padding: var(--space-4);
+  text-align: center;
+  box-shadow: var(--shadow-xs);
+}
+
+.breed-data-grid article span {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.breed-data-grid article strong {
+  display: block;
+  color: var(--color-heading);
+  font-family: var(--font-serif);
+  font-size: var(--text-2xl);
+  font-weight: var(--weight-bold);
+  line-height: 1;
+}
+
+.breed-data-grid article p {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ── Health section ──────────────────────────────────────────── */
+.breed-health-note {
+  display: grid;
+  gap: var(--space-1);
+  margin-bottom: var(--space-5);
+  border: 1px solid var(--color-danger-note-border);
+  border-radius: var(--radius-2xl);
+  background: var(--color-danger-note-bg);
+  padding: var(--space-4);
+}
+
+.breed-health-note strong {
+  color: var(--color-danger);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+}
+
+.breed-health-note p {
+  margin: 0;
+  color: var(--color-body-soft);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+}
+
+.breed-health-list {
+  display: grid;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.breed-health-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-3);
+  align-items: start;
+  border-radius: var(--radius-2xl);
+  padding: var(--space-4);
+  border-left: 3px solid;
+}
+
+.breed-health-card div:first-child span {
+  display: inline-block;
+  border-radius: var(--radius-full);
+  padding: 0.3rem 0.56rem;
+  font-size: 0.68rem;
+  font-weight: var(--weight-black);
+  letter-spacing: var(--tracking-label);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.breed-health-card h3 {
+  margin: 0 0 var(--space-1);
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  line-height: var(--leading-snug);
+}
+
+.breed-health-card em {
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+  font-style: normal;
+}
+
+.breed-health-card p {
+  margin: var(--space-1) 0 0;
+  color: var(--color-body-soft);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+}
+
+.breed-health-card.is-low {
+  background: var(--color-health-low-bg);
+  border-color: var(--color-health-low-border);
+}
+.breed-health-card.is-low div:first-child span {
+  background: var(--color-health-low-badge-bg);
+  color: var(--color-health-low-badge-text);
+}
+
+.breed-health-card.is-medium {
+  background: var(--color-health-medium-bg);
+  border-color: var(--color-health-medium-border);
+}
+.breed-health-card.is-medium div:first-child span {
+  background: var(--color-health-medium-badge-bg);
+  color: var(--color-health-medium-badge-text);
+}
+
+.breed-health-card.is-medium-high {
+  background: var(--color-health-medium-high-bg);
+  border-color: var(--color-health-medium-high-border);
+}
+.breed-health-card.is-medium-high div:first-child span {
+  background: var(--color-health-medium-high-badge-bg);
+  color: var(--color-health-medium-high-badge-text);
+}
+
+.breed-health-card.is-high {
+  background: var(--color-health-high-bg);
+  border-color: var(--color-health-high-border);
+}
+.breed-health-card.is-high div:first-child span {
+  background: var(--color-health-high-badge-bg);
+  color: var(--color-health-high-badge-text);
+}
+
+.breed-health-card.is-critical {
+  background: var(--color-health-critical-bg);
+  border-color: var(--color-health-critical-border);
+}
+.breed-health-card.is-critical div:first-child span {
+  background: var(--color-health-critical-badge-bg);
+  color: var(--color-health-critical-badge-text);
+}
+
+/* ── Callouts ────────────────────────────────────────────────── */
+.breed-callout {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-3);
+  align-items: start;
+  border-radius: var(--radius-2xl);
+  padding: var(--space-4);
+  margin-top: var(--space-4);
+}
+
+.breed-callout--info {
+  border: 1px solid var(--color-border-primary);
+  background: var(--color-primary-subtle);
+}
+
+.breed-callout p {
+  margin: 0;
+  color: var(--color-body-soft);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+}
+
+/* ── Cost link CTA ───────────────────────────────────────────── */
+.breed-cost-link {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--space-4);
+  align-items: center;
+  border: 1px solid var(--color-border-accent);
+  border-radius: var(--radius-2xl);
+  background: linear-gradient(135deg, var(--color-accent-subtle), var(--color-bg));
+  padding: var(--space-5);
+  text-decoration: none;
+  box-shadow: var(--shadow-xs);
+  transition: var(--transition-smooth);
+  margin-top: var(--space-5);
+}
+
+.breed-cost-link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+}
+
+.breed-cost-link strong {
+  display: block;
+  margin-bottom: var(--space-1);
+  color: var(--color-heading);
+  font-size: var(--text-base);
+  font-weight: var(--weight-black);
+  line-height: var(--leading-snug);
+}
+
+.breed-cost-link p {
+  margin: 0;
+  color: var(--color-body-soft);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+}
+
+/* ── Tip list ────────────────────────────────────────────────── */
+.breed-tip-list {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.breed-tip-list article {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-3);
+  align-items: start;
+}
+
+.breed-tip-list article span {
+  display: grid;
+  width: 1.5rem;
+  height: 1.5rem;
+  place-items: center;
+  border-radius: var(--radius-full);
+  background: var(--color-success);
+  color: var(--color-text-inverse);
+  font-size: 0.7rem;
+  font-weight: var(--weight-black);
+  flex-shrink: 0;
+}
+
+.breed-tip-list article p {
+  margin: 0;
+  color: var(--color-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+}
+
+/* ── Fit list ────────────────────────────────────────────────── */
+.breed-fit-list {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breed-fit-list li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-3);
+  align-items: start;
+}
+
+.breed-fit-list li span {
+  display: grid;
+  width: 1.5rem;
+  height: 1.5rem;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: var(--radius-full);
+  background: var(--color-success);
+  color: var(--color-text-inverse);
+  font-size: 0.7rem;
+  font-weight: var(--weight-black);
+}
+
+.breed-fit-list li p {
+  margin: 0;
+  color: var(--color-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+}
+
+/* ── Decision grid (internal CTA links) ──────────────────────── */
+.breed-decision-grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
+}
+
+.breed-decision-grid a {
+  display: grid;
+  gap: var(--space-2);
+  border: 1px solid var(--color-border-accent);
+  border-radius: var(--radius-2xl);
+  background: var(--card-bg);
+  padding: var(--space-4);
+  text-decoration: none;
+  box-shadow: var(--shadow-xs);
+  transition: var(--transition-smooth);
+}
+
+.breed-decision-grid a:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-card);
+}
+
+.breed-decision-grid a span {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.breed-decision-grid a strong {
+  display: block;
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  line-height: var(--leading-snug);
+}
+
+.breed-decision-grid a p {
+  margin: 0;
+  color: var(--color-body-soft);
+  font-size: var(--text-xs);
+  line-height: var(--leading-relaxed);
+}
+
+/* ── Feature link (cost calc CTA) ───────────────────────────── */
+.breed-feature-link {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: var(--space-4);
+  align-items: center;
+  margin-bottom: var(--space-4);
+  border: 1px solid var(--color-border-accent);
+  border-radius: var(--radius-2xl);
+  background: linear-gradient(135deg, var(--color-accent-subtle), var(--color-bg));
+  padding: var(--space-4) var(--space-5);
+  text-decoration: none;
+  box-shadow: var(--shadow-xs);
+  transition: var(--transition-smooth);
+}
+
+.breed-feature-link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+}
+
+.breed-feature-link span:first-child { font-size: 1.5rem; line-height: 1; }
+
+.breed-feature-link strong {
+  display: block;
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  line-height: var(--leading-snug);
+}
+
+.breed-feature-link p {
+  margin: var(--space-1) 0 0;
+  color: var(--color-body-soft);
+  font-size: var(--text-xs);
+  line-height: var(--leading-snug);
+}
+
+.breed-feature-link em {
+  color: var(--color-accent-hover);
+  font-size: var(--text-xl);
+  font-style: normal;
+  font-weight: var(--weight-black);
+}
+
+/* ── Guide link grid ─────────────────────────────────────────── */
+.breed-guide-grid {
+  display: grid;
+  gap: var(--space-2);
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+}
+
+.breed-guide-link {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: var(--space-3);
+  align-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  background: var(--card-bg);
+  padding: var(--space-3) var(--space-4);
+  text-decoration: none;
+  box-shadow: var(--shadow-xs);
+  transition: var(--transition-base);
+}
+
+.breed-guide-link:not(.is-disabled):hover {
+  border-color: var(--color-border-accent);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-card);
+}
+
+.breed-guide-link.is-disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.breed-guide-link span { font-size: 1.1rem; }
+
+.breed-guide-link strong {
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-snug);
+}
+
+.breed-guide-link em {
+  color: var(--color-accent-hover);
+  font-style: normal;
+  font-weight: var(--weight-black);
+}
+
+/* ── Classification grid ─────────────────────────────────────── */
+.breed-classification-grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(180px, 100%), 1fr));
+}
+
+.breed-classification-grid article {
+  border: 1px solid var(--color-border-soft);
+  border-radius: var(--radius-2xl);
+  background: var(--card-bg);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-xs);
+}
+
+.breed-classification-grid article span {
+  display: block;
+  margin-bottom: var(--space-1);
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-black);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+}
+
+.breed-classification-grid article strong {
+  display: block;
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-snug);
+}
+
+/* ── Editorial guide grid ────────────────────────────────────── */
+.breed-editorial-grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
+}
+
+.breed-editorial-grid a {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-3);
+  align-items: start;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  background: var(--card-bg);
+  padding: var(--space-4);
+  text-decoration: none;
+  box-shadow: var(--shadow-xs);
+  transition: var(--transition-base);
+}
+
+.breed-editorial-grid a:hover {
+  border-color: var(--color-border-accent);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-card);
+}
+
+.breed-editorial-grid a span { font-size: 1.5rem; line-height: 1; }
+
+.breed-editorial-grid a em {
+  display: block;
+  margin-bottom: var(--space-1);
+  color: var(--color-accent-hover);
+  font-size: var(--text-xs);
+  font-style: normal;
+  font-weight: var(--weight-black);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+}
+
+.breed-editorial-grid a strong {
+  display: block;
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  line-height: var(--leading-snug);
+}
+
+.breed-editorial-grid a p {
+  margin: var(--space-1) 0 0;
+  color: var(--color-body-soft);
+  font-size: var(--text-xs);
+  line-height: var(--leading-relaxed);
+}
+
+/* ── Sidebar ─────────────────────────────────────────────────── */
+.breed-sidebar { display: none; }
+
+@media (min-width: 1024px) {
+  .breed-sidebar { display: block; }
+}
+
+.breed-sidebar__inner {
+  position: sticky;
+  top: var(--space-20);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.breed-sidebar-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  background: var(--color-surface);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-card);
+}
+
+.breed-sidebar-card h2 {
+  margin: 0 0 var(--space-4);
+  color: var(--color-heading);
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+}
+
+.breed-sidebar-card dl { display: grid; gap: 0; }
+
+.breed-sidebar-card dl div {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-block: var(--space-2);
+  border-bottom: 1px solid var(--color-border-soft);
+}
+
+.breed-sidebar-card dl div:last-child { border-bottom: none; }
+
+.breed-sidebar-card dt {
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-normal);
+}
+
+.breed-sidebar-card dd {
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  line-height: var(--leading-snug);
+  text-align: right;
+}
+
+/* Sidebar nav links */
+.breed-sidebar-nav {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.breed-sidebar-nav a {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  border-radius: var(--radius-lg);
+  padding: 0.6rem var(--space-3);
+  color: var(--color-body);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  text-decoration: none;
+  transition: var(--transition-base);
+}
+
+.breed-sidebar-nav a:hover {
+  background: var(--color-bg-muted);
+  color: var(--color-primary);
+}
+
+.breed-sidebar-nav a.is-featured {
+  border: 1px solid var(--color-border-accent);
+  background: var(--color-accent-subtle);
+  color: var(--color-accent-hover);
+  font-weight: var(--weight-bold);
+}
+
+.breed-sidebar-nav a.is-featured:hover {
+  background: var(--color-accent-light);
+}
+
+/* ── Misc ────────────────────────────────────────────────────── */
+.breed-muted {
+  margin-top: var(--space-3);
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+}
+
+/* ── BreedDecisionSnapshot + BreedResourceHub + BreedCommerceSuite
+   These are shared between components/breed/*.astro and are styled here
+   ================================================================= */
+
+.breed-resource-hub,
+.breed-decision,
+.breed-commerce {
+  width: min(100%, var(--max-width));
+  margin: clamp(var(--space-6), 5vw, var(--space-10)) auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-3xl);
+  background:
+    radial-gradient(circle at 94% 6%, rgba(255, 122, 0, 0.1), transparent 18rem), /* decorative overlay — intentional rgba */
+    linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-soft) 100%);
+  padding: clamp(var(--space-4), 4vw, var(--space-7));
+  box-shadow: var(--shadow-card);
+}
+
+.breed-resource-hub__header,
+.breed-decision__header,
+.breed-commerce__header {
+  display: grid;
+  gap: var(--space-2);
+  max-width: 54rem;
+  margin-bottom: clamp(var(--space-4), 4vw, var(--space-6));
+}
+
+.breed-resource-hub__header h2,
+.breed-decision__header h2,
+.breed-commerce__header h2 {
+  margin: 0;
+  color: var(--color-heading);
+  font-family: var(--font-serif);
+  font-size: clamp(var(--text-2xl), 4.4vw, var(--text-4xl));
+  letter-spacing: var(--tracking-tight);
+  line-height: var(--leading-tight);
+}
+
+.breed-resource-hub__header p:not(.breed-eyebrow),
+.breed-decision__header p:not(.breed-eyebrow),
+.breed-commerce__header p:not(.breed-eyebrow) {
+  margin: 0;
+  color: var(--color-body-soft);
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+}
+
+/* Resource hub */
+.breed-resource-hub__grid { display: grid; gap: var(--space-3); }
+
+.breed-resource-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: var(--space-3);
+  align-items: center;
+  min-width: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  background: var(--color-surface);
+  padding: var(--space-3);
+  color: var(--color-body);
+  text-decoration: none;
+  box-shadow: var(--shadow-xs);
+  transition: var(--transition-smooth);
+}
+
+.breed-resource-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-border-accent);
+  box-shadow: var(--shadow-card);
+}
+
+.breed-resource-card.is-featured {
+  border-color: var(--color-border-accent);
+  background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-accent-subtle) 100%);
+}
+
+.breed-resource-card.is-disabled { opacity: 0.62; }
+
+.breed-resource-card__icon {
+  display: grid;
+  width: 2.65rem;
+  height: 2.65rem;
+  place-items: center;
+  border: 1px solid var(--color-border-warm);
+  border-radius: var(--radius-xl);
+  background: var(--color-bg);
+  font-size: 1.25rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.breed-resource-card__body { display: grid; gap: 0.22rem; min-width: 0; }
+
+.breed-resource-card__body strong {
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+  line-height: var(--leading-snug);
+}
+
+.breed-resource-card__body em {
+  color: var(--color-body-soft);
+  font-size: var(--text-xs);
+  font-style: normal;
+  line-height: var(--leading-snug);
+}
+
+.breed-resource-card__badge {
+  justify-self: end;
+  border-radius: var(--radius-full);
+  background: var(--color-bg-muted);
+  padding: 0.34rem 0.52rem;
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-black);
+  line-height: 1;
+}
+
+.breed-resource-card__arrow {
+  color: var(--color-accent-hover);
+  font-weight: var(--weight-black);
+}
+
+/* Decision snapshot */
+.breed-decision__grid { display: grid; gap: var(--space-3); }
+
+.breed-decision-card {
+  display: grid;
+  gap: var(--space-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  background: var(--card-bg);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-xs);
+}
+
+.breed-decision-card span {
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-black);
+  letter-spacing: var(--tracking-label);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.breed-decision-card strong {
+  color: var(--color-heading);
+  font-family: var(--font-serif);
+  font-size: clamp(var(--text-xl), 4vw, var(--text-3xl));
+  line-height: 1;
+}
+
+.breed-decision-card p {
+  margin: 0;
+  color: var(--color-body-soft);
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+}
+
+.breed-decision-card.is-accent { border-color: var(--color-border-accent); background: var(--color-accent-subtle); }
+.breed-decision-card.is-good   { border-color: var(--color-decision-good-border); background: var(--color-decision-good-bg); }
+.breed-decision-card.is-warn   { border-color: var(--color-decision-warn-border); background: var(--color-decision-warn-bg); }
+
+/* Commerce suite */
+.breed-partner-clusters {
+  display: grid;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.breed-partner-cluster-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: var(--space-3);
+  align-items: center;
+  border: 1px solid var(--color-border-accent);
+  border-radius: var(--radius-2xl);
+  background: var(--card-bg);
+  padding: var(--space-4);
+  color: var(--color-body);
+  text-decoration: none;
+  box-shadow: var(--shadow-xs);
+  transition: var(--transition-smooth);
+}
+
+.breed-partner-cluster-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+}
+
+.breed-partner-cluster-card__icon {
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  place-items: center;
+  border-radius: var(--radius-xl);
+  background: var(--color-accent-subtle);
+  font-size: 1.25rem;
+}
+
+.breed-partner-cluster-card span:not(.breed-partner-cluster-card__icon) {
+  display: grid;
+  gap: 0.22rem;
+}
+
+.breed-partner-cluster-card strong {
+  color: var(--color-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-black);
+}
+
+.breed-partner-cluster-card em {
+  color: var(--color-body-soft);
+  font-size: var(--text-xs);
+  font-style: normal;
+  line-height: var(--leading-snug);
+}
+
+.breed-partner-cluster-card b { color: var(--color-accent-hover); }
+
+.breed-commerce__grid { display: grid; gap: var(--space-4); }
+
+.breed-commerce__note {
+  margin: var(--space-4) 0 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  background: var(--color-bg-soft);
+  padding: var(--space-3) var(--space-4);
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+  line-height: var(--leading-relaxed);
+}
+
+/* ── Responsive breakpoints ──────────────────────────────────── */
+@media (min-width: 680px) {
+  .breed-resource-hub__grid,
+  .breed-decision__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 920px) {
+  .breed-resource-hub__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .breed-decision__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+  .breed-commerce__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+
+  .breed-partner-clusters { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+
+  .breed-partner-cluster-card {
+    align-content: start;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .breed-resource-hub,
+  .breed-decision,
+  .breed-commerce {
+    border-radius: var(--radius-2xl);
+    padding: var(--space-4);
+  }
+
+  .breed-resource-card,
+  .breed-partner-cluster-card {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .breed-resource-card__badge,
+  .breed-resource-card__arrow,
+  .breed-partner-cluster-card b {
+    display: none;
+  }
+}
+
+/* ── Similar breeds grid ─────────────────────────────────────────── */
+.breed-similar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-3);
+}
+
+.breed-similar-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.breed-similar-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.breed-similar-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.breed-similar-card__body strong {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.breed-similar-card__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+
+.breed-similar-card__pills span {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-full);
+  padding: 2px var(--space-2);
+}
+
+.breed-similar-card em {
+  font-style: normal;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  font-size: var(--text-sm);
+}
+
+/* ── Sticky page section nav ─────────────────────────────────── */
+.breed-page-nav {
+  position: sticky;
+  top: 4.75rem;
+  z-index: 30;
+  background: color-mix(in srgb, var(--color-surface) 95%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border-soft);
+  box-shadow: var(--shadow-xs);
+}
+
+.breed-page-nav__links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-block: var(--space-2);
+}
+
+.breed-page-nav__links::-webkit-scrollbar {
+  display: none;
+}
+
+.breed-page-nav__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding-inline: 0.9rem;
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-body-soft);
+  white-space: nowrap;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: color var(--transition-base), background var(--transition-base);
+}
+
+.breed-page-nav__link:hover,
+.breed-page-nav__link.is-active {
+  color: var(--color-primary);
+  background: var(--color-primary-subtle);
+}
+
+/* ── Section scroll offsets (sticky header + sticky nav) ────── */
+#breed-overview,
+#breed-traits,
+#breed-health,
+#breed-products,
+#breed-guides {
+  scroll-margin-top: 8.75rem;
+}
+
+@media (min-width: 1024px) {
+  .breed-page-nav {
+    top: 5.25rem;
+  }
+
+  #breed-overview,
+  #breed-traits,
+  #breed-health,
+  #breed-products,
+  #breed-guides {
+    scroll-margin-top: 9.5rem;
+  }
+}
+
+/* ── Traits grid: 3 columns on small screens ─────────────────── */
+@media (max-width: 640px) {
+  .breed-traits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ── Sidebar: condensed two-card strip at tablet ─────────────── */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .breed-sidebar {
+    display: block;
+  }
+
+  .breed-sidebar__inner {
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+    align-items: start;
+  }
+
+  .breed-sidebar__affiliate {
+    display: none;
+  }
+}
+
+/* ── Breed inline FAQ section ─────────────────────────────────── */
+.breed-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-block-end: var(--space-4);
+}
+
+.breed-faq-item {
+  padding: var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.breed-faq-q {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: var(--weight-semi);
+  color: var(--color-heading);
+  margin-block-end: var(--space-2);
+}
+
+.breed-faq-a {
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.breed-faq-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.breed-faq-cta:hover {
+  text-decoration: underline;
+}
+
+/* ── About the breed section ─────────────────────────────────── */
+.breed-about__body {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: var(--color-body);
+  max-width: 72ch;
+  margin-block-end: var(--space-5);
+}
+
+.breed-about__intelligence {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: color-mix(in srgb, var(--color-primary) 5%, transparent); /* decorative tint */
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin-block-end: var(--space-4);
+}
+
+.breed-about__intelligence-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  line-height: 1.5;
+}
+
+.breed-about__intelligence p {
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--color-body);
+  margin: 0;
+}
+
+.breed-about__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-5);
+}
+
+.breed-about__meta-item {
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+}
+
+.breed-about__meta-item strong {
+  color: var(--color-heading);
+  font-weight: var(--weight-semi);
+}
+
+/* ── Gallery strip ─────────────────────────────── */
+.breed-gallery-strip {
+  display: flex;
+  gap: var(--space-2);
+  overflow-x: auto;
+  padding: var(--space-2) 0 var(--space-3);
+  scrollbar-width: none;
+}
+.breed-gallery-strip::-webkit-scrollbar { display: none; }
+.breed-gallery-strip img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .breed-gallery-strip img { width: 160px; height: 160px; }
+}
+
+/* ── Naming hint in guides section ────────────── */
+.breed-naming-hint {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  margin-top: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+}
+.breed-naming-hint strong {
+  color: var(--color-heading);
+  font-weight: var(--weight-semi);
+  margin-right: var(--space-1);
+}
+.breed-naming-hint a {
+  margin-left: auto;
+  color: var(--color-primary);
+  font-weight: var(--weight-medium);
+  white-space: nowrap;
+}
+.breed-naming-hint a:hover { text-decoration: underline; }
+
+/* ── Ad slot container ──────────────────────────────────────────
+   Note: AdSense <ins> requires inline style="display:block" per
+   Google spec. The .ad-slot wrapper provides surrounding layout.
+   ─────────────────────────────────────────────────────────────── */
+.ad-slot {
+  width: 100%;
+  min-height: 90px;
+}
+
+/* ── Sprint 4: Decision system sections ─────────────────────── */
+
+/* Quick verdict */
+.breed-quick-verdict {
+  padding-block: clamp(2rem, 4vw, 3.5rem);
+  background: var(--color-bg-soft);
+  border-bottom: 1px solid var(--color-border);
+}
+.breed-quick-verdict--strong-fit { border-left: 4px solid var(--color-success); }
+.breed-quick-verdict--needs-planning { border-left: 4px solid var(--color-warning); }
+.breed-quick-verdict--balanced { border-left: 4px solid var(--color-primary); }
+
+.breed-quick-verdict__inner {
+  max-width: 56rem;
+  margin-inline: auto;
+  padding-inline: var(--pw-page-gutter, 1.25rem);
+}
+.breed-quick-verdict__header { margin-bottom: var(--space-6); }
+.breed-quick-verdict__header h2 {
+  font-size: clamp(var(--text-xl), 3vw, var(--text-2xl));
+  line-height: 1.3;
+  margin-block: var(--space-2) var(--space-3);
+}
+.breed-quick-verdict__summary {
+  color: var(--color-body-soft);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  max-width: 48rem;
+}
+
+.breed-quick-verdict__columns {
+  display: grid;
+  gap: var(--space-6);
+  margin-bottom: var(--space-6);
+}
+@media (min-width: 640px) {
+  .breed-quick-verdict__columns { grid-template-columns: 1fr 1fr; }
+}
+
+.breed-quick-verdict__col h3 {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  margin-bottom: var(--space-3);
+}
+.breed-quick-verdict__col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.breed-quick-verdict__col li {
+  padding-left: var(--space-5);
+  position: relative;
+  font-size: var(--text-sm);
+  color: var(--color-body);
+  line-height: 1.5;
+}
+.breed-quick-verdict__col li::before { content: '✓'; position: absolute; left: 0; color: var(--color-success); font-weight: var(--weight-bold); }
+.breed-quick-verdict__col--watchouts li::before { content: '⚠'; color: var(--color-warning); }
+
+.breed-quick-verdict__assumption {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-4);
+  margin-top: var(--space-2);
+}
+
+/* Best for */
+.breed-best-for .breed-best-for__grid {
+  display: grid;
+  gap: var(--space-6);
+  margin-bottom: var(--space-5);
+}
+@media (min-width: 640px) {
+  .breed-best-for .breed-best-for__grid { grid-template-columns: 1fr 1fr; }
+}
+.breed-best-for__col h3 {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  margin-bottom: var(--space-3);
+}
+.breed-best-for__col--not-ideal h3 { color: var(--color-warning); }
+.breed-best-for__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.breed-best-for__list li {
+  padding-left: var(--space-5);
+  position: relative;
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+.breed-best-for__col:not(.breed-best-for__col--not-ideal) .breed-best-for__list li::before {
+  content: '✓'; position: absolute; left: 0; color: var(--color-success);
+}
+.breed-best-for__col--not-ideal .breed-best-for__list li::before {
+  content: '✗'; position: absolute; left: 0; color: var(--color-warning);
+}
+.breed-best-for__disclaimer {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-4);
+}
+
+/* Owner fit cards */
+.breed-owner-fit__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+}
+@media (min-width: 768px) {
+  .breed-owner-fit__grid { grid-template-columns: repeat(3, 1fr); }
+}
+.breed-owner-fit__card {
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+.breed-owner-fit__card.is-good {
+  border-color: color-mix(in srgb, var(--color-success) 30%, transparent);
+  background: color-mix(in srgb, var(--color-success) 5%, var(--color-surface));
+}
+.breed-owner-fit__card.is-warning {
+  border-color: color-mix(in srgb, var(--color-warning) 30%, transparent);
+  background: color-mix(in srgb, var(--color-warning) 5%, var(--color-surface));
+}
+.breed-owner-fit__card-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  margin-bottom: var(--space-2);
+}
+.breed-owner-fit__label {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.breed-owner-fit__value {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+}
+.breed-owner-fit__explanation {
+  font-size: var(--text-xs);
+  color: var(--color-body-soft);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Cost snapshot */
+.breed-cost-snapshot__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  max-width: 42rem;
+}
+.breed-cost-snapshot__tier {
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+.breed-cost-snapshot__tier strong { display: block; font-size: var(--text-base); margin-bottom: var(--space-1); }
+.breed-cost-snapshot__tier p { font-size: var(--text-sm); color: var(--color-body-soft); margin: 0; }
+.breed-cost-snapshot__tier.is-cost-very-high { border-color: color-mix(in srgb, var(--color-warning) 40%, transparent); }
+.breed-cost-snapshot__tier.is-cost-high { border-color: color-mix(in srgb, var(--color-accent) 40%, transparent); }
+.breed-cost-snapshot__tier.is-cost-low { border-color: color-mix(in srgb, var(--color-success) 30%, transparent); }
+
+.breed-cost-snapshot__figures {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+.breed-cost-snapshot__figure {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.breed-cost-snapshot__figure-label { font-size: var(--text-xs); color: var(--color-muted); }
+.breed-cost-snapshot__figure-value { font-size: var(--text-xl); font-weight: var(--weight-bold); color: var(--color-heading); }
+.breed-cost-snapshot__disclaimer {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  margin: 0;
+}
+
+/* Training behavior */
+.breed-training-behavior__summary {
+  font-size: var(--text-base);
+  color: var(--color-body);
+  line-height: 1.6;
+  margin-bottom: var(--space-5);
+}
+.breed-training-behavior__signals {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+@media (min-width: 640px) {
+  .breed-training-behavior__signals { flex-direction: row; flex-wrap: wrap; }
+}
+.breed-training-behavior__signal {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  flex: 1;
+  min-width: 10rem;
+}
+.breed-training-behavior__signal strong { font-size: var(--text-xs); color: var(--color-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.breed-training-behavior__signal span { font-size: var(--text-sm); font-weight: var(--weight-semi); color: var(--color-heading); }
+.breed-training-behavior__signal.is-hard { border-color: color-mix(in srgb, var(--color-warning) 40%, transparent); }
+.breed-training-behavior__signal.is-easy { border-color: color-mix(in srgb, var(--color-success) 30%, transparent); }
+.breed-training-behavior__signal.is-high { border-color: color-mix(in srgb, var(--color-accent) 30%, transparent); }
+
+.breed-training-behavior__traits { margin-top: var(--space-4); }
+.breed-training-behavior__traits strong { font-size: var(--text-sm); color: var(--color-body-soft); }
+.breed-training-behavior__traits ul {
+  display: flex; flex-wrap: wrap; gap: var(--space-2); list-style: none;
+  padding: 0; margin-top: var(--space-2);
+}
+.breed-training-behavior__traits li {
+  padding: 0.3rem 0.65rem;
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  color: var(--color-body-soft);
+  border: 1px solid var(--color-border);
+}
+
+/* Feeding & grooming */
+.breed-feeding-grooming__grid {
+  display: grid;
+  gap: var(--space-6);
+}
+@media (min-width: 640px) {
+  .breed-feeding-grooming__grid { grid-template-columns: 1fr 1fr; }
+}
+.breed-feeding-grooming__col h3 {
+  font-size: var(--text-base);
+  font-weight: var(--weight-bold);
+  color: var(--color-heading);
+  margin-bottom: var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+}
+.breed-feeding-grooming__col p {
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: 1.6;
+  margin-bottom: var(--space-3);
+}
+.breed-feeding-grooming__detail {
+  font-size: var(--text-xs) !important;
+  color: var(--color-muted) !important;
+}
+
+/* Similar card reason text */
+.breed-similar-card__reason {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  margin-top: var(--space-1);
+  line-height: 1.4;
+}
+
+/* FAQ as details/summary */
+.breed-faq-item {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: var(--space-2);
+}
+.breed-faq-q {
+  padding: var(--space-4) var(--space-5);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  color: var(--color-heading);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  background: var(--color-surface);
+  user-select: none;
+}
+.breed-faq-q::after { content: '+'; font-size: var(--text-lg); color: var(--color-muted); flex-shrink: 0; }
+details[open] .breed-faq-q::after { content: '−'; }
+.breed-faq-q::-webkit-details-marker { display: none; }
+.breed-faq-a {
+  padding: var(--space-3) var(--space-5) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-body-soft);
+  line-height: 1.65;
+  background: var(--color-bg);
+  margin: 0;
+  border-top: 1px solid var(--color-border);
+}

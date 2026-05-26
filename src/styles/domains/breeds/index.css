@@ -1,0 +1,11 @@
+/* =============================================================
+   BREEDS DOMAIN — CSS entry point
+   Replaces: components/breed.css + components/breed-page.css
+             + pages/breed-directory.css
+   ============================================================= */
+
+@import './breed-hub.css';
+@import './breed-detail.css';
+@import './breed-cards.css';
+@import './breed-faq.css';
+@import './breed-tools.css';
