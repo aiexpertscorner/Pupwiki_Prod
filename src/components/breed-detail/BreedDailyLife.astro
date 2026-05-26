@@ -1,0 +1,110 @@
+---
+import type { NormalizedBreed } from '../../lib/breeds/normalizeBreed';
+import type { BreedDecisionSignals } from '../../lib/breeds/breedSignals';
+
+interface Props {
+  breed: NormalizedBreed;
+  signals: BreedDecisionSignals;
+  enrichmentData: any | null;
+}
+
+const { breed, signals, enrichmentData } = Astro.props;
+const b = breed.raw;
+const rank = b.ranking_data || {};
+
+const COAT_CARE: Record<string, string> = {
+  short:    'Rubber brush weekly, bath monthly',
+  hairless: 'Skin-only — sunscreen and moisturiser required',
+  medium:   'Slicker brush weekly, seasonal deshedding',
+  double:   'Undercoat rake required — blows coat twice yearly',
+  wavy:     'Weekly combing to prevent matting',
+  silky:    'Daily detangling, trim every 8–10 weeks',
+  long:     'Daily brushing, trim every 8–10 weeks',
+  wiry:     'Hand-stripping required — clipping softens wire texture',
+  curly:    'Comb to skin daily, professional groom every 6–8 weeks',
+  corded:   'Specialist care — separate cords by hand, dry thoroughly',
+};
+
+const ACTIVITY: Record<string, string> = {
+  high:     '60–90 min/day of vigorous exercise',
+  moderate: '45–60 min/day of regular activity',
+  low:      '30–45 min/day of light to moderate exercise',
+};
+
+const TRAINING: Record<string, string> = {
+  easy:     'Generally easy — positive reinforcement works well',
+  moderate: 'Moderate — consistent sessions recommended',
+  hard:     'Challenging — benefits from professional guidance',
+};
+
+const activityDesc = ACTIVITY[signals.activityLoad] ?? ACTIVITY.moderate;
+const groomingDesc = COAT_CARE[b.coat_type ?? ''] ?? 'Regular brushing recommended';
+const annualFood = rank.annual_food_cost ? `$${rank.annual_food_cost}/yr` : null;
+const isWorkingHeritage = breed.flags.isWorkingHeritage;
+const hasCareTips = Array.isArray(b.care_tips) && b.care_tips.length > 0;
+const dominantTraits = (Array.isArray(breed.dominantTraits) ? breed.dominantTraits : []).slice(0, 4) as string[];
+
+function titleCase(v?: string | null) {
+  return v ? String(v).replace(/[-_]+/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()) : '';
+}
+---
+
+<section class="breed-section breed-daily-life" aria-labelledby="daily-life-title">
+  <div class="breed-section__header">
+    <p class="breed-eyebrow">Daily life</p>
+    <h2 id="daily-life-title">{b.name} Day-to-Day</h2>
+  </div>
+
+  <div class="breed-daily-cards">
+    <div class="breed-daily-card">
+      <div class="breed-daily-card__header">
+        <span class="breed-daily-card__icon" aria-hidden="true">🏃</span>
+        <h3>Activity</h3>
+      </div>
+      <p class="breed-daily-card__lead">{activityDesc}</p>
+      <p class="breed-daily-card__note">Training: {TRAINING[signals.trainingComplexity]}</p>
+    </div>
+
+    <div class="breed-daily-card">
+      <div class="breed-daily-card__header">
+        <span class="breed-daily-card__icon" aria-hidden="true">✂️</span>
+        <h3>Grooming</h3>
+      </div>
+      <p class="breed-daily-card__lead">{groomingDesc}</p>
+      {b.grooming_freq && <p class="breed-daily-card__note">Frequency: {b.grooming_freq}</p>}
+    </div>
+
+    <div class="breed-daily-card">
+      <div class="breed-daily-card__header">
+        <span class="breed-daily-card__icon" aria-hidden="true">🍖</span>
+        <h3>Feeding</h3>
+      </div>
+      {annualFood
+        ? <p class="breed-daily-card__lead">Food cost estimated at <strong>{annualFood}</strong></p>
+        : <p class="breed-daily-card__lead">Food costs vary by size, activity, and quality.</p>
+      }
+      {b.size_category && <p class="breed-daily-card__note">Size tier: {titleCase(b.size_category)}</p>}
+    </div>
+  </div>
+
+  {isWorkingHeritage && (
+    <div class="breed-callout breed-callout--warm">
+      <p><strong>Working heritage:</strong> This breed has working or herding roots — structured daily activity and mental stimulation are important for wellbeing.</p>
+    </div>
+  )}
+
+  {hasCareTips && (
+    <div class="breed-daily-care-tips">
+      <p class="breed-daily-care-tips__heading">Care tips</p>
+      <ul>
+        {(b.care_tips as string[]).map((tip) => <li>{tip}</li>)}
+      </ul>
+    </div>
+  )}
+
+  {dominantTraits.length > 0 && (
+    <p class="breed-daily-traits">
+      <strong>Temperament:</strong> {dominantTraits.join(' · ')}
+    </p>
+  )}
+</section>

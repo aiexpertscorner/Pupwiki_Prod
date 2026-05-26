@@ -19,43 +19,134 @@ function titleCase(value?: string | null) {
   return String(value).replace(/[-_]+/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-function pctBar(value: number) { return Math.round((value || 0) * 100); }
-
-function pctBucket(value: number) {
-  const pct = Math.max(0, Math.min(100, Math.round((value || 0) * 100)));
-  return Math.round(pct / 10) * 10;
-}
+function pct(value: number) { return Math.round((value || 0) * 100); }
 
 const TRAITS = [
-  { label: 'Energy',       val: b.traits?.energy_value       || 0, className: 'is-energy' },
-  { label: 'Shedding',     val: b.traits?.shedding_value     || 0, className: 'is-shedding' },
-  { label: 'Trainability', val: b.traits?.trainability_value || 0, className: 'is-training' },
-  { label: 'Grooming',     val: b.traits?.grooming_value     || 0, className: 'is-grooming' },
-  { label: 'Friendliness', val: b.traits?.demeanor_value     || 0, className: 'is-friendly' },
+  { label: 'Energy',        val: b.traits?.energy_value       || 0, colorVar: '--trait-energy' },
+  { label: 'Shedding',      val: b.traits?.shedding_value     || 0, colorVar: '--trait-shedding' },
+  { label: 'Trainability',  val: b.traits?.trainability_value || 0, colorVar: '--trait-training' },
+  { label: 'Grooming',      val: b.traits?.grooming_value     || 0, colorVar: '--trait-grooming' },
+  { label: 'Friendliness',  val: b.traits?.demeanor_value     || 0, colorVar: '--trait-friendly' },
 ];
+
+const coatLabel = b.coat_type ? (COAT_LABEL[b.coat_type] || titleCase(b.coat_type)) : null;
 ---
 
-<section id="breed-traits" class="breed-section" aria-labelledby="characteristics-title">
+<section id="breed-traits" class="breed-section breed-trait-section" aria-labelledby="characteristics-title">
   <div class="breed-section__header">
     <p class="breed-eyebrow">Traits</p>
     <h2 id="characteristics-title">{b.name} Characteristics</h2>
   </div>
-  <div class="breed-traits-grid">
-    {TRAITS.map((trait) => (
-      <article class="breed-trait-card">
-        <p>{trait.label}</p>
-        <div class="breed-meter" aria-hidden="true">
-          <span class={`${trait.className} w-${pctBucket(trait.val)}`}></span>
+
+  <div class="breed-trait-bars">
+    {TRAITS.map((trait) => {
+      const p = pct(trait.val);
+      const level = p >= 70 ? 'high' : p >= 40 ? 'mid' : 'low';
+      return (
+        <div class="breed-trait-row">
+          <span class="breed-trait-row__label">{trait.label}</span>
+          <div class="breed-trait-row__bar-wrap" role="img" aria-label={`${trait.label}: ${p}%`}>
+            <div
+              class:list={['breed-trait-row__bar', `is-${level}`]}
+              style={`width: ${p}%`}
+            ></div>
+          </div>
+          <span class="breed-trait-row__pct">{p}%</span>
         </div>
-        <strong>{pctBar(trait.val)}%</strong>
-      </article>
-    ))}
-    {b.coat_type && (
-      <article class="breed-trait-card">
-        <p>Coat Type</p>
-        <strong>{COAT_LABEL[b.coat_type] || titleCase(b.coat_type)}</strong>
-        {b.grooming_freq && <span class="breed-trait-card__muted">{b.grooming_freq}</span>}
-      </article>
-    )}
+      );
+    })}
   </div>
+
+  {coatLabel && (
+    <div class="breed-coat-badge">
+      <span class="breed-coat-badge__label">Coat type</span>
+      <strong class="breed-coat-badge__value">{coatLabel}</strong>
+      {b.grooming_freq && <span class="breed-coat-badge__freq">{b.grooming_freq}</span>}
+    </div>
+  )}
 </section>
+
+<style>
+  .breed-trait-bars {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-bottom: var(--space-5);
+  }
+
+  .breed-trait-row {
+    display: grid;
+    grid-template-columns: 7rem 1fr 3rem;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  @media (max-width: 479px) {
+    .breed-trait-row {
+      grid-template-columns: 6rem 1fr 2.5rem;
+      gap: var(--space-2);
+    }
+  }
+
+  .breed-trait-row__label {
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semi);
+    color: var(--color-heading);
+    white-space: nowrap;
+  }
+
+  .breed-trait-row__bar-wrap {
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-full);
+    height: 10px;
+    overflow: hidden;
+  }
+
+  .breed-trait-row__bar {
+    height: 100%;
+    border-radius: var(--radius-full);
+    transition: width 0.4s ease;
+    min-width: 4px;
+  }
+
+  .breed-trait-row__bar.is-high  { background: var(--color-accent); }
+  .breed-trait-row__bar.is-mid   { background: var(--color-primary); }
+  .breed-trait-row__bar.is-low   { background: var(--color-muted); }
+
+  .breed-trait-row__pct {
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
+    text-align: right;
+  }
+
+  .breed-coat-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    background: var(--color-bg-soft);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    flex-wrap: wrap;
+  }
+
+  .breed-coat-badge__label {
+    color: var(--color-muted);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: var(--weight-medium);
+  }
+
+  .breed-coat-badge__value {
+    color: var(--color-heading);
+    font-weight: var(--weight-bold);
+  }
+
+  .breed-coat-badge__freq {
+    color: var(--color-muted);
+    font-size: var(--text-xs);
+  }
+</style>

@@ -20,7 +20,7 @@ function titleCase(value?: string | null) {
     <h2 id="similar-breeds-title">Similar Breeds to the {breedName}</h2>
   </div>
   <div class="breed-similar-grid">
-    {similarBreeds.map((sb) => (
+    {similarBreeds.slice(0, 3).map((sb) => (
       <a href={`/breeds/${sb.slug}`} class="breed-similar-card">
         <div class="breed-similar-card__body">
           <strong>{sb.name}</strong>

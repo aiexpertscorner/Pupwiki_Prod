@@ -13,12 +13,12 @@ const { healthProfile, breed, slug } = Astro.props;
 const b = breed.raw;
 const COST_CALC_HREF = `/cost-calculator/${slug}`;
 
-const SEVERITY_STYLES: Record<string, { className: string; label: string }> = {
-  Low:           { className: 'is-low',         label: 'Low' },
-  Medium:        { className: 'is-medium',       label: 'Medium' },
-  'Medium-High': { className: 'is-medium-high',  label: 'Medium-High' },
-  High:          { className: 'is-high',         label: 'High' },
-  Critical:      { className: 'is-critical',     label: 'Critical' },
+const SEVERITY_DOT: Record<string, string> = {
+  Low:           'is-low',
+  Medium:        'is-medium',
+  'Medium-High': 'is-medium-high',
+  High:          'is-high',
+  Critical:      'is-critical',
 };
 ---
 
@@ -31,38 +31,29 @@ const SEVERITY_STYLES: Record<string, { className: string; label: string }> = {
   <div class="breed-health-note">
     <strong>Veterinary note</strong>
     {healthProfile
-      ? <p>This section is general breed information, not veterinary advice. If your dog has symptoms, pain, breathing issues, sudden behavior changes, or urgent concerns, contact a veterinarian.</p>
-      : <p>Regular veterinary check-ups, preventive care, and breed-aware monitoring are recommended for all dogs. Consult your vet for guidance specific to your {b.name}.</p>
+      ? <p>General breed information — not veterinary advice. If your dog has symptoms, pain, breathing issues, or urgent concerns, contact a veterinarian.</p>
+      : <p>Regular vet check-ups and breed-aware monitoring are recommended. Consult your vet for guidance specific to your {b.name}.</p>
     }
   </div>
 
   {healthProfile ? (
     <>
-      <div class="breed-health-list">
+      <div class="breed-health-pills">
         {(healthProfile.common_issues as any[]).map((issue) => {
-          const severity = SEVERITY_STYLES[issue.severity] ?? SEVERITY_STYLES.Medium;
+          const dotClass = SEVERITY_DOT[issue.severity] ?? 'is-medium';
           return (
-            <article class:list={['breed-health-card', severity.className]}>
-              <div><span>{severity.label}</span></div>
-              <div>
-                <h3>{issue.name}</h3>
-                {issue.prevalence && <em>{issue.prevalence} prevalence</em>}
-                {issue.early_warning && <p><strong>Early signs:</strong> {issue.early_warning}</p>}
-              </div>
-            </article>
+            <span class:list={['breed-health-pill', dotClass]}>
+              <span class="breed-health-pill__dot" aria-hidden="true"></span>
+              {issue.name}
+              {issue.prevalence && <em> — {issue.prevalence}</em>}
+            </span>
           );
         })}
       </div>
-      {healthProfile.care_tips && (
-        <div class="breed-callout breed-callout--info">
-          <span aria-hidden="true"><Icon name="info" size={16} /></span>
-          <p>{healthProfile.care_tips}</p>
-        </div>
-      )}
       <a href={COST_CALC_HREF} class="breed-cost-link">
         <div>
-          <strong>{(healthProfile.common_issues as any[])[0]?.name ?? 'Health considerations'}</strong>
-          <p>Breed health context can affect lifetime costs. Estimate food, care, and planning costs for a {b.name}.</p>
+          <strong>Health affects lifetime costs</strong>
+          <p>Estimate food, vet care, and planning costs for a {b.name}.</p>
         </div>
         <span aria-hidden="true"><Icon name="calculator" size={16} /></span>
       </a>

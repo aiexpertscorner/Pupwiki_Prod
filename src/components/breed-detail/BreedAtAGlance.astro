@@ -11,131 +11,71 @@ const { breed, safeLifespanYears } = Astro.props;
 const b = breed.raw;
 const rank = b.ranking_data || {};
 
-const intelligenceRank = rank.intelligence_rank ? Number(rank.intelligence_rank) : null;
-const intelligenceLabel = rank.intelligence_label ? String(rank.intelligence_label).trim() : null;
-const trainabilityVal = b.traits?.trainability_value != null ? Number(b.traits.trainability_value) : null;
-
-function buildIntelligenceSentence(): string {
-  if (!intelligenceRank || !intelligenceLabel) return '';
-  const topNote = intelligenceRank <= 10 ? 'the most' : intelligenceRank <= 30 ? 'the more' : 'the moderately';
-  const trainNote =
-    trainabilityVal != null
-      ? trainabilityVal >= 0.7
-        ? 'picks up commands quickly and responds well to positive reinforcement'
-        : trainabilityVal >= 0.4
-          ? 'learns reliably with consistent training'
-          : 'benefits from patient, reward-based training'
-      : 'responds to consistent training';
-  return `Ranked #${intelligenceRank} in canine intelligence (${intelligenceLabel} tier), the ${b.name} ${trainNote} — placing it among ${topNote} trainable breeds.`;
-}
-
-const intelligenceSentence = buildIntelligenceSentence();
-
 function moneyK(value?: number) {
   const num = Number(value || 0);
   return Number.isFinite(num) && num > 0 ? `$${Math.round(num / 1000)}K` : '';
 }
 
-const hasDataSnapshot = rank && (
-  rank.intelligence_rank || safeLifespanYears || rank.lifetime_cost_usd || rank.annual_food_cost
-);
+const hasDataSnapshot = !!(rank.intelligence_rank || safeLifespanYears || rank.lifetime_cost_usd || rank.annual_food_cost);
 ---
 
 {b.description && (
-  <section id="breed-about" class="breed-section breed-about" aria-labelledby="breed-about-title">
+  <section id="breed-snapshot" class="breed-section breed-section--warm" aria-labelledby="breed-snapshot-title">
     <div class="breed-section__header">
-      <p class="breed-eyebrow">About the breed</p>
-      <h2 id="breed-about-title">About the {b.name}</h2>
+      <p class="breed-eyebrow">At a glance</p>
+      <h2 id="breed-snapshot-title">About the {b.name}</h2>
     </div>
     <p class="breed-about__body">{b.description}</p>
-    {intelligenceSentence && (
-      <div class="breed-about__intelligence">
-        <span class="breed-about__intelligence-icon" aria-hidden="true">🧠</span>
-        <p>{intelligenceSentence}</p>
+
+    {hasDataSnapshot && (
+      <div class="breed-data-grid">
+        {rank.intelligence_rank && (
+          <article>
+            <span><Icon name="intelligence" size={18} /></span>
+            <strong>#{rank.intelligence_rank}</strong>
+            <p>Intelligence rank</p>
+          </article>
+        )}
+        {safeLifespanYears && (
+          <article>
+            <span><Icon name="lifespan" size={18} /></span>
+            <strong>{safeLifespanYears}yr</strong>
+            <p>Avg lifespan</p>
+          </article>
+        )}
+        {rank.lifetime_cost_usd && (
+          <article>
+            <span><Icon name="cost" size={18} /></span>
+            <strong>{moneyK(rank.lifetime_cost_usd)}</strong>
+            <p>Lifetime cost</p>
+          </article>
+        )}
+        {rank.annual_food_cost && (
+          <article>
+            <span><Icon name="food" size={18} /></span>
+            <strong>${rank.annual_food_cost}/yr</strong>
+            <p>Annual food</p>
+          </article>
+        )}
+        {rank.children_score !== undefined && (
+          <article>
+            <span><Icon name="kids" size={18} /></span>
+            <strong>{rank.children_score >= 0.8 ? 'Great' : rank.children_score >= 0.5 ? 'Good' : 'Careful'}</strong>
+            <p>With kids</p>
+          </article>
+        )}
+        {rank.genetic_ailments !== undefined && (
+          <article>
+            <span><Icon name="health" size={18} /></span>
+            <strong>{rank.genetic_ailments}</strong>
+            <p>Known conditions</p>
+          </article>
+        )}
       </div>
     )}
-    <div class="breed-about__meta">
-      {b.origin_country && <span class="breed-about__meta-item"><strong>Origin:</strong> {b.origin_country}</span>}
-      {b.fci_group_name && <span class="breed-about__meta-item"><strong>Group:</strong> {b.fci_group_name}</span>}
-      {b.akc_popularity && <span class="breed-about__meta-item"><strong>AKC rank:</strong> #{b.akc_popularity} most popular</span>}
-    </div>
-  </section>
-)}
 
-{hasDataSnapshot && (
-  <section class="breed-section breed-section--warm" aria-labelledby="breed-data-title">
-    <div class="breed-section__header">
-      <p class="breed-eyebrow">Breed data</p>
-      <h2 id="breed-data-title">Data Snapshot</h2>
-    </div>
-    <div class="breed-data-grid">
-      {rank.intelligence_rank && (
-        <article>
-          <span><Icon name="intelligence" size={18} /></span>
-          <strong>#{rank.intelligence_rank}</strong>
-          <p>Intelligence</p>
-        </article>
-      )}
-      {safeLifespanYears && (
-        <article>
-          <span><Icon name="lifespan" size={18} /></span>
-          <strong>{safeLifespanYears}yr</strong>
-          <p>Average lifespan</p>
-        </article>
-      )}
-      {rank.lifetime_cost_usd && (
-        <article>
-          <span><Icon name="cost" size={18} /></span>
-          <strong>{moneyK(rank.lifetime_cost_usd)}</strong>
-          <p>Lifetime cost</p>
-        </article>
-      )}
-      {rank.annual_food_cost && (
-        <article>
-          <span><Icon name="food" size={18} /></span>
-          <strong>${rank.annual_food_cost}/yr</strong>
-          <p>Annual food estimate</p>
-        </article>
-      )}
-      {rank.children_score !== undefined && (
-        <article>
-          <span><Icon name="kids" size={18} /></span>
-          <strong>{rank.children_score >= 0.8 ? 'Great' : rank.children_score >= 0.5 ? 'Good' : 'Careful'}</strong>
-          <p>With kids</p>
-        </article>
-      )}
-      {rank.genetic_ailments !== undefined && (
-        <article>
-          <span><Icon name="health" size={18} /></span>
-          <strong>{rank.genetic_ailments}</strong>
-          <p>Known conditions</p>
-        </article>
-      )}
-    </div>
     {rank.genetic_ailment_names && rank.genetic_ailment_names !== 'none' && (
       <p class="breed-muted">Known genetic concerns: <strong>{rank.genetic_ailment_names}</strong></p>
     )}
-  </section>
-)}
-
-{b.fci_group && (
-  <section class="breed-section" aria-labelledby="fci-title">
-    <div class="breed-section__header">
-      <p class="breed-eyebrow">Classification</p>
-      <h2 id="fci-title">FCI Classification</h2>
-    </div>
-    <div class="breed-classification-grid">
-      <article>
-        <span>FCI Group</span>
-        <strong>Group {b.fci_group} — {b.fci_group_name}</strong>
-      </article>
-      {b.fci_section && <article><span>Section</span><strong>{b.fci_section}</strong></article>}
-      {b.fci_status && (
-        <article>
-          <span>Status</span>
-          <strong>{String(b.fci_status).replace(/[-_]+/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())}</strong>
-        </article>
-      )}
-    </div>
   </section>
 )}

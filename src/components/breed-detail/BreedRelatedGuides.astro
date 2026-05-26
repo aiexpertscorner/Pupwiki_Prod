@@ -16,34 +16,11 @@ interface Props {
   links: Record<string, string | undefined | null>;
 }
 
-const { breed, clusterLinks, links } = Astro.props;
+const { breed, clusterLinks } = Astro.props;
 const b = breed.raw;
 const slug = breed.slug;
 const COST_CALC_HREF = `/cost-calculator/${slug}`;
 
-const editorialGuides: Array<{ href: string; icon: IconName; label: string; desc: string; tag: string }> = [
-  {
-    href: '/guides/dog-food-nutrition-partners',
-    icon: 'food',
-    label: 'Dog food, broth and nutrition partners',
-    desc: 'Compare current PupWiki partner coverage for food, broth, fresh prep and nutrition resources.',
-    tag: 'Partners',
-  },
-  {
-    href: '/guides/dog-training-gear-safety-partners',
-    icon: 'training',
-    label: 'Training, walking and safety partners',
-    desc: 'Harnesses, recall, containment and activity gear mapped to owner intent.',
-    tag: 'Training',
-  },
-  {
-    href: '/guides/personalized-dog-gifts-lifestyle-partners',
-    icon: 'heart',
-    label: 'Personalized dog gifts and lifestyle resources',
-    desc: 'Custom portraits, memorials, ID-style resources and breed-inspired gifts.',
-    tag: 'Lifestyle',
-  },
-];
 ---
 
 <section id="breed-guides" class="breed-section" aria-labelledby="all-guides-title">
@@ -71,23 +48,4 @@ const editorialGuides: Array<{ href: string; icon: IconName; label: string; desc
     ))}
   </div>
 
-  {b.name_inspirations?.length > 0 && links.names_page && (
-    <div class="breed-naming-hint">
-      <strong>Naming styles:</strong> {(b.name_inspirations as string[]).slice(0, 3).join(' · ')}
-      <a href={links.names_page}>Find {b.name} names →</a>
-    </div>
-  )}
-
-  <div class="breed-editorial-grid" style="margin-top: var(--space-8);">
-    {editorialGuides.map((guide) => (
-      <a href={guide.href}>
-        <span aria-hidden="true"><Icon name={guide.icon} size={20} /></span>
-        <div>
-          <em>{guide.tag}</em>
-          <strong>{guide.label}</strong>
-          <p>{guide.desc}</p>
-        </div>
-      </a>
-    ))}
-  </div>
 </section>

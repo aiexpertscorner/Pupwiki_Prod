@@ -5,17 +5,12 @@ import { getBreedStaticPaths } from '../../lib/breeds/breedDataAdapter';
 import type { IconName } from '../../components/ui/Icon.astro';
 
 import BreedHero from '../../components/breed-detail/BreedHero.astro';
-import BreedQuickVerdict from '../../components/breed-detail/BreedQuickVerdict.astro';
 import BreedAtAGlance from '../../components/breed-detail/BreedAtAGlance.astro';
-import BreedBestFor from '../../components/breed-detail/BreedBestFor.astro';
-import BreedOwnerFitCards from '../../components/breed-detail/BreedOwnerFitCards.astro';
+import BreedFitOverview from '../../components/breed-detail/BreedFitOverview.astro';
 import BreedCostSnapshot from '../../components/breed-detail/BreedCostSnapshot.astro';
 import BreedTraitDeepDive from '../../components/breed-detail/BreedTraitDeepDive.astro';
+import BreedDailyLife from '../../components/breed-detail/BreedDailyLife.astro';
 import BreedHealthWatch from '../../components/breed-detail/BreedHealthWatch.astro';
-import BreedCareOverview from '../../components/breed-detail/BreedCareOverview.astro';
-import BreedTrainingBehavior from '../../components/breed-detail/BreedTrainingBehavior.astro';
-import BreedFeedingGrooming from '../../components/breed-detail/BreedFeedingGrooming.astro';
-import BreedToolsCta from '../../components/breed-detail/BreedToolsCta.astro';
 import BreedFaqSection from '../../components/breed-detail/BreedFaqSection.astro';
 import BreedSimilarCompare from '../../components/breed-detail/BreedSimilarCompare.astro';
 import BreedRelatedGuides from '../../components/breed-detail/BreedRelatedGuides.astro';
@@ -79,14 +74,11 @@ const awinBaseTags = [
     <nav class="breed-page-nav" aria-label="Jump to section">
       <div class="breed-container">
         <div class="breed-page-nav__links">
-          <a href="#breed-overview" class="breed-page-nav__link">Overview</a>
-          {b.description && <a href="#breed-about" class="breed-page-nav__link">About</a>}
+          <a href="#breed-snapshot" class="breed-page-nav__link">About</a>
+          <a href="#breed-overview" class="breed-page-nav__link">Fit</a>
           <a href="#breed-traits" class="breed-page-nav__link">Traits</a>
           <a href="#breed-health" class="breed-page-nav__link">Health</a>
-          {Array.isArray(b.care_tips) && b.care_tips.length > 0 && (
-            <a href="#breed-care" class="breed-page-nav__link">Care</a>
-          )}
-          <a href="#breed-guides" class="breed-page-nav__link">Guides</a>
+          <a href="#breed-faq" class="breed-page-nav__link">FAQ</a>
         </div>
       </div>
     </nav>
@@ -104,21 +96,15 @@ const awinBaseTags = [
       </div>
     </div>
 
-    <BreedQuickVerdict verdict={verdict} />
-
     <div class="breed-container breed-main">
       <div class="breed-layout">
         <div class="breed-content">
           <BreedAtAGlance breed={breed} safeLifespanYears={safeLifespanYears} />
-          <BreedBestFor bestFor={bestFor} breedName={breed.name} />
-          <BreedOwnerFitCards cards={ownerFitCards} />
+          <BreedFitOverview verdict={verdict} bestFor={bestFor} cards={ownerFitCards} breedName={breed.name} />
           <BreedCostSnapshot breed={breed} signals={signals} slug={slug} />
           <BreedTraitDeepDive breed={breed} />
+          <BreedDailyLife breed={breed} signals={signals} enrichmentData={enrichmentData} />
           <BreedHealthWatch healthProfile={healthProfile} breed={breed} slug={slug} />
-          <BreedCareOverview breed={breed} signals={signals} enrichmentData={enrichmentData} />
-          <BreedTrainingBehavior breed={breed} signals={signals} />
-          <BreedFeedingGrooming breed={breed} signals={signals} />
-          <BreedToolsCta breed={breed} slug={slug} />
           <BreedFaqSection faqItems={faqItems} breed={breed} slug={slug} />
           <BreedSimilarCompare similarBreeds={similarBreeds} breedName={breed.name} />
           <BreedRelatedGuides breed={breed} clusterLinks={CLUSTER_LINKS} links={links} />
@@ -183,7 +169,7 @@ const awinBaseTags = [
   (() => {
     const navLinks = document.querySelectorAll<HTMLAnchorElement>('.breed-page-nav__link');
     if (!navLinks.length) return;
-    const sectionIds = ['breed-overview', 'breed-about', 'breed-care', 'breed-traits', 'breed-health', 'breed-guides', 'breed-products'];
+    const sectionIds = ['breed-snapshot', 'breed-overview', 'breed-traits', 'breed-health', 'breed-faq', 'breed-products'];
     const sections = sectionIds.map(id => document.getElementById(id)).filter((el): el is HTMLElement => el !== null);
     if (!sections.length) return;
     const setActive = (id: string) => {
@@ -213,7 +199,7 @@ const awinBaseTags = [
       });
     });
 
-    document.querySelectorAll<HTMLAnchorElement>('.breed-tools-cta a, .breed-decision-grid a').forEach(a => {
+    document.querySelectorAll<HTMLAnchorElement>('.breed-decision-grid a').forEach(a => {
       a.addEventListener('click', () => {
         const toolId = new URL(a.href, location.origin).pathname.replace('/', '');
         if (gtag) gtag('event', 'breed_tool_click', { breed_slug: breedSlug, tool_id: toolId });
