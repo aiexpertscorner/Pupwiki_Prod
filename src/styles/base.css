@@ -149,7 +149,7 @@ kbd {
 pre {
   font-family: var(--font-mono);
   background: var(--color-surface-navy);
-  color: #e2e8f0;
+  color: var(--color-border);
   border-radius: var(--radius-xl);
   padding: var(--space-6);
   overflow-x: auto;

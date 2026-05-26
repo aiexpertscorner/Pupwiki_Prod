@@ -82,15 +82,15 @@
 
 .pw-card--warm {
   border-color: var(--color-border-warm);
-  background: linear-gradient(180deg, #fffaf3 0%, #fff 100%);
+  background: var(--gradient-warm-card);
 }
 
 .pw-card--navy {
   border-color: rgba(255, 255, 255, 0.16);
   background:
     radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.18), transparent 12rem),
-    linear-gradient(135deg, var(--color-surface-navy), var(--color-primary));
-  color: #fff;
+    var(--gradient-navy);
+  color: var(--color-text-inverse);
   box-shadow: var(--shadow-xl);
 }
 
@@ -100,7 +100,7 @@
   gap: 0.35rem;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  background: #fff;
+  background: var(--color-surface);
   padding: 0.48rem 0.65rem;
   color: var(--color-body-soft);
   font-size: var(--text-xs);

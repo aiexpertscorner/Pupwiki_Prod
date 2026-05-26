@@ -724,9 +724,9 @@
   font-weight: var(--weight-semi);
 }
 
-.breed-match__score-label--strong { color: var(--color-score-good, #22a06b); }
+.breed-match__score-label--strong { color: var(--color-score-good); }
 .breed-match__score-label--good   { color: var(--color-primary); }
-.breed-match__score-label--possible { color: var(--color-score-caution, #b5610d); }
+.breed-match__score-label--possible { color: var(--color-score-caution); }
 .breed-match__score-label--careful  { color: var(--color-muted); }
 
 /* Reasons list */
@@ -748,7 +748,7 @@
 
 .breed-match__reasons li::before {
   content: '✓';
-  color: var(--color-score-good, #22a06b);
+  color: var(--color-score-good);
   flex-shrink: 0;
   font-size: var(--text-xs);
   margin-block-start: 2px;
@@ -1112,12 +1112,12 @@
 }
 
 .breed-compare__cell--winner {
-  color: var(--color-score-good, #22a06b) !important;
+  color: var(--color-score-good) !important;
   font-weight: var(--weight-semi) !important;
 }
 
 .breed-compare__cell--caution {
-  color: var(--color-score-caution, #b5610d) !important;
+  color: var(--color-score-caution) !important;
 }
 
 /* Breed header in table */
@@ -1755,9 +1755,9 @@
 
 .supplies__item-safety {
   font-size: var(--text-xs);
-  color: var(--color-score-caution, #b5610d);
+  color: var(--color-score-caution);
   background: var(--color-bg-muted);
-  border-left: 2px solid var(--color-score-caution, #b5610d);
+  border-left: 2px solid var(--color-score-caution);
   padding: var(--space-1) var(--space-2);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   margin-block-start: var(--space-2);
@@ -1792,7 +1792,7 @@
 
 .supplies__item-priority--conditional {
   background: var(--color-bg-muted);
-  color: var(--color-score-caution, #b5610d);
+  color: var(--color-score-caution);
 }
 
 /* Size + safety notes strip */
@@ -1812,8 +1812,8 @@
 }
 
 .supplies__note--safety {
-  border-left-color: var(--color-score-caution, #b5610d);
-  color: var(--color-score-caution, #b5610d);
+  border-left-color: var(--color-score-caution);
+  color: var(--color-score-caution);
   background: var(--color-bg-muted);
 }
 
