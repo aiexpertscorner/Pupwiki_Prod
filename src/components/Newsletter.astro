@@ -1,29 +1,128 @@
 ---
 ---
-<div style="background:var(--concrete);border:2px solid rgba(255,255,255,0.12);padding:2.5rem;text-align:center;position:relative;overflow:hidden">
-  <!-- Background text -->
-  <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;overflow:hidden">
-    <span style="font-family:'Anton',sans-serif;font-size:8rem;text-transform:uppercase;color:rgba(255,255,255,0.03);white-space:nowrap;letter-spacing:-.02em">FREE GUIDE</span>
+<style>
+  .newsletter {
+    background: var(--concrete);
+    border: 2px solid var(--color-white-opacity-12);
+    padding: 2.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .newsletter__bg-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .newsletter__bg-label {
+    font-family: 'Anton', sans-serif;
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.03);
+    white-space: nowrap;
+    letter-spacing: -0.02em;
+  }
+
+  .newsletter__inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  .newsletter__badge {
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+
+  .newsletter__heading {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--offwhite);
+    margin: 0.5rem 0;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  .newsletter__heading-accent {
+    color: var(--lime);
+  }
+
+  .newsletter__sub {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.1rem;
+    color: var(--ash);
+    margin: 0 auto 1.75rem;
+    max-width: 400px;
+  }
+
+  .newsletter__form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .newsletter__input {
+    background: var(--midnight);
+    border: 2px solid var(--color-white-opacity-20);
+    color: var(--offwhite);
+    padding: 0.85rem 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.15s;
+  }
+
+  .newsletter__input:focus {
+    border-color: var(--lime);
+  }
+
+  .newsletter__submit {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+
+  .newsletter__disclaimer {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--ash);
+    margin: 0.75rem 0 0;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+</style>
+
+<div class="newsletter">
+  <div class="newsletter__bg-text">
+    <span class="newsletter__bg-label">FREE GUIDE</span>
   </div>
-  <div style="position:relative;z-index:1">
-    <span class="sticker sticker-lime" style="margin-bottom:1rem;display:inline-block">FREE DROP</span>
-    <h3 style="font-family:'Anton',sans-serif;font-size:2.5rem;text-transform:uppercase;color:var(--offwhite);margin:.5rem 0 .5rem;line-height:1;letter-spacing:-.02em">
-      GET THE <span style="color:var(--lime)">INSIDER</span> LIST
+  <div class="newsletter__inner">
+    <span class="sticker sticker-lime newsletter__badge">FREE DROP</span>
+    <h3 class="newsletter__heading">
+      GET THE <span class="newsletter__heading-accent">INSIDER</span> LIST
     </h3>
-    <p style="font-family:'Barlow Condensed',sans-serif;font-size:1.1rem;color:var(--ash);margin:0 0 1.75rem;max-width:400px;margin-left:auto;margin-right:auto">
+    <p class="newsletter__sub">
       5,000+ dog owners get our unfiltered picks, deal alerts, and gear drops. No spam. Unsubscribe anytime.
     </p>
-    <form action="YOUR_EMAIL_SERVICE_URL" method="POST"
-          style="display:flex;flex-direction:column;gap:.75rem;max-width:400px;margin:0 auto"
-          onsubmit="return false">
-      <input type="email" name="email" placeholder="YOUR@EMAIL.COM" required
-        style="background:var(--midnight);border:2px solid rgba(255,255,255,.2);color:var(--offwhite);padding:.85rem 1rem;font-family:'Barlow Condensed',sans-serif;font-size:1rem;text-transform:uppercase;letter-spacing:.06em;outline:none;width:100%;box-sizing:border-box;transition:border-color .15s"
-        onfocus="this.style.borderColor='var(--lime)'" onblur="this.style.borderColor='rgba(255,255,255,.2)'" />
-      <button type="submit" class="btn-lime" style="width:100%;font-size:.8rem;padding:1rem">
+    <form action="YOUR_EMAIL_SERVICE_URL" method="POST" class="newsletter__form" onsubmit="return false">
+      <input type="email" name="email" placeholder="YOUR@EMAIL.COM" required class="newsletter__input" />
+      <button type="submit" class="btn-lime newsletter__submit">
         JOIN THE LIST — IT'S FREE →
       </button>
     </form>
-    <p style="font-family:'Space Mono',monospace;font-size:.6rem;color:var(--ash);margin:.75rem 0 0;text-transform:uppercase;letter-spacing:.06em">
+    <p class="newsletter__disclaimer">
       No spam. No paid promotions. Just dog gear truth.
     </p>
   </div>

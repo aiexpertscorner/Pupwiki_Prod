@@ -74,23 +74,68 @@ const quizData = masterBreeds.map(b => ({
   .match-card__name { display: block; font-size: 1.1rem; color: var(--color-heading); }
   .match-card__meta { font-size: 0.8rem; color: var(--color-muted); text-transform: capitalize; }
   .match-card__link { padding: 0.5rem 1rem; background: var(--color-bg-muted); color: var(--color-primary); border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.85rem; }
+  .match-card__body { flex-grow: 1; }
+
+  /* Inline-style replacements */
+  .quiz-center-pad   { text-align: center; padding: 1rem 0; }
+  .quiz-center       { text-align: center; }
+  .quiz-question--sm { font-size: 1.25rem; }
+  .quiz-muted        { color: var(--color-muted); margin-bottom: 1.5rem; }
+  .quiz-counter      { color: var(--color-accent); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; }
+  .quiz-primary-btn  {
+    width: 100%; padding: 1rem; border-radius: 8px;
+    background: var(--color-accent); color: white;
+    font-weight: bold; border: none; cursor: pointer; margin-bottom: 0.75rem;
+  }
+  .quiz-ghost-btn    {
+    background: none; border: none; color: var(--color-subtle);
+    font-size: 0.85rem; cursor: pointer; text-decoration: underline; margin-top: 1rem;
+  }
+  .quiz-email-input  {
+    width: 100%; padding: 1rem; border-radius: 8px;
+    border: 1px solid var(--color-border); margin-bottom: 1rem;
+  }
+  .quiz-reveal-btn   {
+    width: 100%; padding: 1rem; border-radius: 8px;
+    background: var(--color-accent); color: white;
+    font-weight: bold; border: none; cursor: pointer;
+  }
+  .quiz-shortlist-btn {
+    width: 100%; padding: 0.75rem; border-radius: 8px;
+    background: transparent; border: 1px solid var(--color-primary);
+    color: var(--color-primary); font-weight: 600; cursor: pointer; margin-bottom: 1rem;
+  }
+  .quiz-next-box        { margin-top: 1rem; padding: 1rem; background: var(--color-surface-warm); border-radius: 12px; border: 1px solid var(--color-border-strong); }
+  .quiz-next-box__title { font-weight: 600; color: var(--color-accent); margin-bottom: 0.5rem; }
+  .quiz-next-box__body  { font-size: 0.9rem; color: var(--color-body); margin-bottom: 1rem; }
+  .quiz-next-box__link  {
+    display: block; text-align: center;
+    background: var(--color-surface-navy); color: var(--color-text-inverse);
+    padding: 0.75rem; border-radius: 8px; text-decoration: none; font-weight: bold;
+  }
+  .quiz-restart-btn  {
+    display: block; margin-top: 1rem; background: none; border: none;
+    color: var(--color-subtle); font-size: 0.85rem; cursor: pointer;
+    text-decoration: underline; width: 100%; text-align: center;
+  }
+  .quiz-results-mt { margin-top: 1rem; }
 </style>
 
 <div class="quiz-container" id="breed-quiz">
 
   <!-- Step 0: resume prompt (hidden by default; shown by JS when saved answers exist) -->
   <div class="quiz-step" data-step="resume" id="quiz-resume-step">
-    <div style="text-align: center; padding: 1rem 0;">
-      <h3 class="quiz-question" style="font-size:1.25rem;">Continue where you left off?</h3>
-      <p style="color: var(--color-muted); margin-bottom: 1.5rem;">You have saved quiz answers from a previous visit.</p>
-      <button id="quiz-resume-btn" style="width:100%;padding:1rem;border-radius:8px;background:var(--color-accent);color:white;font-weight:bold;border:none;cursor:pointer;margin-bottom:0.75rem;">Resume quiz →</button>
-      <button id="quiz-restart-btn" style="background: none; border: none; color: var(--color-subtle); font-size: 0.85rem; cursor: pointer; text-decoration: underline;">Start over</button>
+    <div class="quiz-center-pad">
+      <h3 class="quiz-question quiz-question--sm">Continue where you left off?</h3>
+      <p class="quiz-muted">You have saved quiz answers from a previous visit.</p>
+      <button id="quiz-resume-btn" class="quiz-primary-btn">Resume quiz →</button>
+      <button id="quiz-restart-btn" class="quiz-ghost-btn">Start over</button>
     </div>
   </div>
 
   <!-- Steps 1–4: questions -->
   <div class="quiz-step" data-step="1">
-    <span style="color:var(--color-accent);font-weight:700;font-size:0.85rem;text-transform:uppercase;">Question 1 of 4</span>
+    <span class="quiz-counter">Question 1 of 4</span>
     <h3 class="quiz-question">How big is your living space?</h3>
     <button class="quiz-btn" data-answer="size" data-value="small">Apartment / Small home without yard</button>
     <button class="quiz-btn" data-answer="size" data-value="medium">House with a small/fenced yard</button>
@@ -98,7 +143,7 @@ const quizData = masterBreeds.map(b => ({
   </div>
 
   <div class="quiz-step" data-step="2">
-    <span style="color:var(--color-accent);font-weight:700;font-size:0.85rem;text-transform:uppercase;">Question 2 of 4</span>
+    <span class="quiz-counter">Question 2 of 4</span>
     <h3 class="quiz-question">How much daily exercise can you provide?</h3>
     <button class="quiz-btn" data-answer="energy" data-value="calm">Short walks (0-30 mins)</button>
     <button class="quiz-btn" data-answer="energy" data-value="regular">Regular activity (30-60 mins)</button>
@@ -106,14 +151,14 @@ const quizData = masterBreeds.map(b => ({
   </div>
 
   <div class="quiz-step" data-step="3">
-    <span style="color:var(--color-accent);font-weight:700;font-size:0.85rem;text-transform:uppercase;">Question 3 of 4</span>
+    <span class="quiz-counter">Question 3 of 4</span>
     <h3 class="quiz-question">Do you have young children in the home?</h3>
     <button class="quiz-btn" data-answer="children" data-value="yes">Yes, I need a very kid-friendly dog</button>
     <button class="quiz-btn" data-answer="children" data-value="no">No, standard temperament is fine</button>
   </div>
 
   <div class="quiz-step" data-step="4">
-    <span style="color:var(--color-accent);font-weight:700;font-size:0.85rem;text-transform:uppercase;">Question 4 of 4</span>
+    <span class="quiz-counter">Question 4 of 4</span>
     <h3 class="quiz-question">How much grooming are you willing to do?</h3>
     <button class="quiz-btn" data-answer="grooming" data-value="low">Low maintenance (occasional brushing)</button>
     <button class="quiz-btn" data-answer="grooming" data-value="high">I don't mind regular brushing or groomer visits</button>
@@ -121,28 +166,28 @@ const quizData = masterBreeds.map(b => ({
 
   <!-- Step 5: email capture -->
   <div class="quiz-step" data-step="capture">
-    <div style="text-align: center;">
+    <div class="quiz-center">
       <h3 class="quiz-question">We found your matches!</h3>
-      <p style="color: var(--color-muted); margin-bottom: 1.5rem;">Enter your email to reveal your top 3 dog breeds and get our free Puppy Prep Guide.</p>
-      <input type="email" id="quiz-email" placeholder="your@email.com" style="width: 100%; padding: 1rem; border-radius: 8px; border: 1px solid var(--color-border); margin-bottom: 1rem;" />
-      <button id="show-results-btn" style="width:100%;padding:1rem;border-radius:8px;background:var(--color-accent);color:white;font-weight:bold;border:none;cursor:pointer;">Reveal My Matches →</button>
-      <button id="skip-email-btn" style="background: none; border: none; color: var(--color-subtle); font-size: 0.85rem; margin-top: 1rem; cursor: pointer; text-decoration: underline;">Skip and just show my results</button>
+      <p class="quiz-muted">Enter your email to reveal your top 3 dog breeds and get our free Puppy Prep Guide.</p>
+      <input type="email" id="quiz-email" placeholder="your@email.com" class="quiz-email-input" />
+      <button id="show-results-btn" class="quiz-reveal-btn">Reveal My Matches →</button>
+      <button id="skip-email-btn" class="quiz-ghost-btn">Skip and just show my results</button>
     </div>
   </div>
 
   <div class="quiz-step" data-step="results">
-    <span style="color:var(--color-accent);font-weight:700;font-size:0.85rem;text-transform:uppercase;">Your Matches</span>
+    <span class="quiz-counter">Your Matches</span>
     <h3 class="quiz-question">Meet Your Perfect Companions</h3>
     <div id="results-container"></div>
-    <div style="margin-top:1rem">
-      <button id="quiz-save-shortlist" style="width:100%;padding:0.75rem;border-radius:8px;background:transparent;border:1px solid var(--color-primary,var(--color-accent));color:var(--color-primary,var(--color-accent));font-weight:600;cursor:pointer;margin-bottom:1rem;">♡ Save these breeds to shortlist</button>
+    <div class="quiz-results-mt">
+      <button id="quiz-save-shortlist" class="quiz-shortlist-btn">♡ Save these breeds to shortlist</button>
     </div>
-    <div style="margin-top:1rem;padding:1rem;background:var(--color-surface-warm);border-radius:12px;border:1px solid var(--color-border-strong)">
-      <p style="font-weight:600;color:var(--color-accent);margin-bottom:0.5rem">Next Step: Prepare Your Budget</p>
-      <p style="font-size: 0.9rem; color: var(--color-body); margin-bottom: 1rem;">Use our calculator to see the exact lifetime costs for these breeds.</p>
-      <a href="/cost-calculator" style="display: block; text-align: center; background: var(--color-surface-navy); color: var(--color-text-inverse); padding: 0.75rem; border-radius: 8px; text-decoration: none; font-weight: bold;">Go to Cost Calculator</a>
+    <div class="quiz-next-box">
+      <p class="quiz-next-box__title">Next Step: Prepare Your Budget</p>
+      <p class="quiz-next-box__body">Use our calculator to see the exact lifetime costs for these breeds.</p>
+      <a href="/cost-calculator" class="quiz-next-box__link">Go to Cost Calculator</a>
     </div>
-    <button id="quiz-restart-results" style="display:block;margin-top:1rem;background:none;border:none;color:var(--color-subtle);font-size:0.85rem;cursor:pointer;text-decoration:underline;width:100%;text-align:center;">Start quiz over</button>
+    <button id="quiz-restart-results" class="quiz-restart-btn">Start quiz over</button>
   </div>
 
 </div>
@@ -245,7 +290,7 @@ const quizData = masterBreeds.map(b => ({
     resultsContainer.innerHTML = matches.map((b, i) => `
       <div class="match-card">
         <img src="${b.image || '/fallback-dog.jpg'}" alt="${b.name}">
-        <div style="flex-grow:1">
+        <div class="match-card__body">
           <strong class="match-card__name">#${i + 1} Match: ${b.name}</strong>
           <span class="match-card__meta">${b.size} Size · ${b.energy} Energy</span>
         </div>
