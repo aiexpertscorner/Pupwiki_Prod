@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Breadcrumb from '../../components/primitives/Breadcrumb.astro';
+import Breadcrumb from '../../components/ui/Breadcrumb.astro';
 import { CATEGORY_META, CATEGORY_SLUGS } from '../../lib/categories/categoryConfig';
 import { CLUSTERS } from '../../lib/content/unifiedClusterConfig';
 
@@ -32,7 +32,7 @@ const staticCategories = ['puppy', 'senior-dogs', 'insurance', 'pupwiki-partners
   <div class="categories-index">
     <div class="container">
       <Breadcrumb
-        crumbs={[
+        items={[
           { label: 'Home', href: '/' },
           { label: 'Categories' },
         ]}

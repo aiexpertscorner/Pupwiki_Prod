@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import Breadcrumb from '../../../components/primitives/Breadcrumb.astro';
+import Breadcrumb from '../../../components/ui/Breadcrumb.astro';
 import CommercePlacement from '../../../components/commerce/CommercePlacement.astro';
 import AffiliateDisclosure from '../../../components/AffiliateDisclosure.astro';
 import Icon, { type IconName } from '../../../components/ui/Icon.astro';
@@ -469,7 +469,7 @@ const description = `${cfg.intro} Owner guide with expert tips, FAQs, and produc
 
     <!-- Breadcrumb -->
     <div class="topic-breadcrumb-wrap">
-      <Breadcrumb crumbs={crumbs} />
+      <Breadcrumb items={crumbs} />
     </div>
 
     <!-- Hero -->
