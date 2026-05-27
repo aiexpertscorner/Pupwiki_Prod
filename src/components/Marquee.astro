@@ -12,20 +12,20 @@ const {
   items = ["NEW DROP", "EXPERT TESTED", "DOGS APPROVED", "ZERO FLUFF", "REAL REVIEWS", "HONEST AF"],
   speed = 'normal',
   direction = 'left',
-  bg = 'var(--lime)',
-  color = 'var(--midnight)',
+  bg = 'var(--color-accent)',
+  color = 'white',
   separator = '◆',
   border = true,
 } = Astro.props;
 const speedClass = speed === 'fast' ? 'fast' : speed === 'slow' ? 'slow' : 'play';
 const dirClass   = direction === 'right' ? 'reverse' : speedClass;
 ---
-<div style={`background:${bg};overflow:hidden;${border ? 'border-top:2px solid rgba(0,0,0,.2);border-bottom:2px solid rgba(0,0,0,.2);' : ''}padding:.45rem 0`}>
+<div style={`background:${bg};overflow:hidden;${border ? 'border-top:2px solid rgba(0,0,0,.15);border-bottom:2px solid rgba(0,0,0,.15);' : ''}padding:.45rem 0`}>
   <div class={`marquee-track ${dirClass}`} style="display:flex;align-items:center;white-space:nowrap;gap:0">
     {Array.from({length: 2}).map(() => (
       <span style="display:flex;align-items:center;gap:0">
         {items.map(item => (
-          <span style={`font-family:'Archivo Black',sans-serif;font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:${color};display:inline-flex;align-items:center;gap:.75rem;padding:0 1.5rem`}>
+          <span style={`font-family:var(--font-heading);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:${color};display:inline-flex;align-items:center;gap:.75rem;padding:0 1.5rem`}>
             {item} <span style={`opacity:.4;font-size:.65rem;color:${color}`}>{separator}</span>
           </span>
         ))}

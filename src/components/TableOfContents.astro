@@ -5,16 +5,16 @@ const { headings } = Astro.props;
 const filtered = headings.filter(h => h.depth <= 3);
 ---
 {filtered.length > 2 && (
-  <nav style="background:var(--concrete);border:2px solid rgba(255,255,255,0.1);padding:1.25rem;margin-bottom:2rem">
-    <h2 style="font-family:'Archivo Black',sans-serif;font-size:.65rem;text-transform:uppercase;letter-spacing:.12em;color:var(--lime);margin:0 0 .9rem">IN THIS REVIEW</h2>
+  <nav style="background:var(--color-bg-soft);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:1.25rem;margin-bottom:2rem">
+    <h2 style="font-family:var(--font-heading);font-size:.65rem;text-transform:uppercase;letter-spacing:.12em;color:var(--color-accent);margin:0 0 .9rem">IN THIS REVIEW</h2>
     <ol style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.3rem">
       {filtered.map(h => (
         <li style={h.depth===3?'padding-left:1rem':''}>
           <a href={`#${h.slug}`}
-             style="font-family:'Barlow Condensed',sans-serif;font-size:.9rem;color:var(--smoke);text-decoration:none;display:flex;align-items:start;gap:.4rem;text-transform:uppercase;letter-spacing:.03em;transition:color .15s"
+             style="font-family:var(--font-body);font-size:.9rem;color:var(--color-body-soft);text-decoration:none;display:flex;align-items:start;gap:.4rem;text-transform:uppercase;letter-spacing:.03em;transition:color .15s"
              class="toc-link" data-target={h.slug}
-             onmouseover="this.style.color='var(--lime)'" onmouseout="this.style.color='var(--smoke)'">
-            <span style="color:var(--lime);flex-shrink:0;margin-top:2px">{h.depth===2?'▶':'▷'}</span>
+             onmouseover="this.style.color='var(--color-accent)'" onmouseout="this.style.color='var(--color-body-soft)'">
+            <span style="color:var(--color-accent);flex-shrink:0;margin-top:2px">{h.depth===2?'▶':'▷'}</span>
             {h.text}
           </a>
         </li>
@@ -25,14 +25,15 @@ const filtered = headings.filter(h => h.depth <= 3);
 <script>
   const links = document.querySelectorAll('.toc-link');
   if (links.length) {
-    new IntersectionObserver(entries => {
+    const observer = new IntersectionObserver(entries => {
       entries.forEach(e => {
         if (e.isIntersecting) {
-          links.forEach(l => { l.style.color='var(--smoke)'; l.style.fontWeight=''; });
-          const a = document.querySelector(`.toc-link[data-target="${e.target.id}"]`);
-          if (a) { a.style.color='var(--lime)'; a.style.fontWeight='700'; }
+          links.forEach(l => { (l as HTMLElement).style.color='var(--color-body-soft)'; (l as HTMLElement).style.fontWeight=''; });
+          const a = document.querySelector(`.toc-link[data-target="${e.target.id}"]`) as HTMLElement;
+          if (a) { a.style.color='var(--color-accent)'; a.style.fontWeight='700'; }
         }
       });
-    }, { rootMargin:'-20% 0px -70% 0px' }).observe;
+    }, { rootMargin:'-20% 0px -70% 0px' });
+    document.querySelectorAll('h2[id], h3[id]').forEach(el => observer.observe(el));
   }
 </script>

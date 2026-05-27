@@ -3,41 +3,160 @@ export interface Product { name:string; asin:string; price?:number; rating?:numb
 export interface Props { products: Product[]; columns?: string[]; tag?: string; }
 const { products, columns = ['PRODUCT','PRICE','RATING','VERDICT','LINK'], tag = "aiexpertscorn-20" } = Astro.props;
 ---
-<div style="overflow-x:auto;margin:2rem 0;border:2px solid var(--color-white-opacity-12)">
-  <table style="width:100%;border-collapse:collapse;font-family:'Barlow Condensed',sans-serif;font-size:.9rem">
+<style>
+  .ctable-wrap {
+    overflow-x: auto;
+    margin: 2rem 0;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+  }
+
+  .ctable {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+  }
+
+  .ctable thead tr {
+    background: var(--color-bg-soft);
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .ctable th {
+    text-align: left;
+    padding: 0.6rem 0.9rem;
+    font-family: var(--font-heading);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    white-space: nowrap;
+  }
+
+  .ctable tbody tr {
+    border-bottom: 1px solid var(--color-border);
+    transition: background var(--transition-base);
+  }
+
+  .ctable tbody tr:last-child {
+    border-bottom: none;
+  }
+
+  .ctable tbody tr:hover {
+    background: var(--color-bg-soft);
+  }
+
+  .ctable td {
+    padding: 0.65rem 0.9rem;
+    color: var(--color-body);
+  }
+
+  .ctable__product-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .ctable__badge {
+    display: inline-block;
+    background: var(--color-accent);
+    color: white;
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.15rem 0.45rem;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
+  }
+
+  .ctable__name {
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--color-heading);
+  }
+
+  .ctable__price {
+    font-family: var(--font-heading);
+    color: var(--color-accent);
+    white-space: nowrap;
+  }
+
+  .ctable__rating {
+    white-space: nowrap;
+    color: var(--color-body-soft);
+  }
+
+  .ctable__stars {
+    color: var(--color-warning, #f59e0b);
+  }
+
+  .ctable__rating-num {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    margin-left: 0.3rem;
+    color: var(--color-muted);
+  }
+
+  .ctable__verdict {
+    color: var(--color-body-soft);
+    max-width: 240px;
+  }
+
+  .ctable__link {
+    display: inline-block;
+    padding: 0.4rem 0.75rem;
+    background: var(--color-accent);
+    color: white;
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    transition: background var(--transition-base);
+  }
+
+  .ctable__link:hover {
+    background: var(--color-accent-hover);
+  }
+</style>
+
+<div class="ctable-wrap">
+  <table class="ctable">
     <thead>
       <tr>
         {columns.map(c => (
-          <th style="text-align:left;padding:.6rem .9rem;font-family:'Archivo Black',sans-serif;font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;color:var(--lime);background:var(--concrete);border-bottom:2px solid var(--color-lime-opacity-30);white-space:nowrap">
-            {c}
-          </th>
+          <th>{c}</th>
         ))}
       </tr>
     </thead>
     <tbody>
-      {products.map((p, i) => (
-        <tr style="border-bottom:1px solid rgba(255,255,255,0.06)"
-            onmouseover="this.style.background='rgba(204,255,0,0.04)'"
-            onmouseout="this.style.background=''">
-          <td style="padding:.65rem .9rem">
-            <div style="display:flex;align-items:center;gap:.5rem">
-              {p.badge && <span class="sticker sticker-lime" style="font-size:.55rem;padding:.15rem .45rem">{p.badge}</span>}
-              <span style="font-family:'Archivo Black',sans-serif;font-size:.8rem;text-transform:uppercase;color:var(--offwhite)">{p.name}</span>
+      {products.map((p) => (
+        <tr>
+          <td>
+            <div class="ctable__product-cell">
+              {p.badge && <span class="ctable__badge">{p.badge}</span>}
+              <span class="ctable__name">{p.name}</span>
             </div>
           </td>
-          <td style="padding:.65rem .9rem;font-family:'Archivo Black',sans-serif;color:var(--lime);white-space:nowrap">
+          <td class="ctable__price">
             {p.price ? `$${p.price.toFixed(2)}` : '—'}
           </td>
-          <td style="padding:.65rem .9rem;white-space:nowrap;color:var(--smoke)">
+          <td class="ctable__rating">
             {p.rating && <>
-              <span style="color:var(--lime)">{'★'.repeat(Math.round(p.rating))}</span>
-              <span style="font-family:'Space Mono',monospace;font-size:.65rem;margin-left:.3rem">{p.rating.toFixed(1)}</span>
+              <span class="ctable__stars">{'★'.repeat(Math.round(p.rating))}</span>
+              <span class="ctable__rating-num">{p.rating.toFixed(1)}</span>
             </>}
           </td>
-          <td style="padding:.65rem .9rem;color:var(--smoke);max-width:240px">{p.highlight}</td>
-          <td style="padding:.65rem .9rem">
+          <td class="ctable__verdict">{p.highlight}</td>
+          <td>
             <a href={`https://www.amazon.com/dp/${p.asin}/?tag=${tag}`} rel="nofollow sponsored" target="_blank"
-               class="btn-lime" style="font-size:.6rem;padding:.4rem .75rem;display:inline-block">
+               class="ctable__link">
               VIEW →
             </a>
           </td>

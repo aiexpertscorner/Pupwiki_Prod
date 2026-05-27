@@ -2,8 +2,9 @@
 ---
 <style>
   .newsletter {
-    background: var(--concrete);
-    border: 2px solid var(--color-white-opacity-12);
+    background: var(--color-bg-soft);
+    border: 1px solid var(--color-border-warm);
+    border-radius: var(--radius-2xl);
     padding: 2.5rem;
     text-align: center;
     position: relative;
@@ -21,10 +22,10 @@
   }
 
   .newsletter__bg-label {
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font-impact);
     font-size: 8rem;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.03);
+    color: rgba(0, 0, 0, 0.03);
     white-space: nowrap;
     letter-spacing: -0.02em;
   }
@@ -35,28 +36,37 @@
   }
 
   .newsletter__badge {
-    margin-bottom: 1rem;
     display: inline-block;
+    margin-bottom: 1rem;
+    background: var(--color-accent);
+    color: white;
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-full);
   }
 
   .newsletter__heading {
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font-impact);
     font-size: 2.5rem;
     text-transform: uppercase;
-    color: var(--offwhite);
+    color: var(--color-heading);
     margin: 0.5rem 0;
     line-height: 1;
     letter-spacing: -0.02em;
   }
 
   .newsletter__heading-accent {
-    color: var(--lime);
+    color: var(--color-accent);
   }
 
   .newsletter__sub {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: var(--font-body);
     font-size: 1.1rem;
-    color: var(--ash);
+    color: var(--color-body-soft);
     margin: 0 auto 1.75rem;
     max-width: 400px;
   }
@@ -70,34 +80,54 @@
   }
 
   .newsletter__input {
-    background: var(--midnight);
-    border: 2px solid var(--color-white-opacity-20);
-    color: var(--offwhite);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius-xl);
+    color: var(--color-body);
     padding: 0.85rem 1rem;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: var(--font-body);
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     outline: none;
     width: 100%;
     box-sizing: border-box;
-    transition: border-color 0.15s;
+    transition: border-color var(--transition-base);
+  }
+
+  .newsletter__input::placeholder {
+    color: var(--color-placeholder);
   }
 
   .newsletter__input:focus {
-    border-color: var(--lime);
+    border-color: var(--color-accent);
+    box-shadow: var(--ring-accent, 0 0 0 3px rgba(255,122,0,0.12));
   }
 
   .newsletter__submit {
     width: 100%;
-    font-size: 0.8rem;
     padding: 1rem;
+    background: var(--color-accent);
+    color: white;
+    border: none;
+    border-radius: var(--radius-xl);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: background var(--transition-base);
+  }
+
+  .newsletter__submit:hover {
+    background: var(--color-accent-hover);
   }
 
   .newsletter__disclaimer {
-    font-family: 'Space Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.6rem;
-    color: var(--ash);
+    color: var(--color-muted);
     margin: 0.75rem 0 0;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -109,7 +139,7 @@
     <span class="newsletter__bg-label">FREE GUIDE</span>
   </div>
   <div class="newsletter__inner">
-    <span class="sticker sticker-lime newsletter__badge">FREE DROP</span>
+    <span class="newsletter__badge">FREE DROP</span>
     <h3 class="newsletter__heading">
       GET THE <span class="newsletter__heading-accent">INSIDER</span> LIST
     </h3>
@@ -118,7 +148,7 @@
     </p>
     <form action="YOUR_EMAIL_SERVICE_URL" method="POST" class="newsletter__form" onsubmit="return false">
       <input type="email" name="email" placeholder="YOUR@EMAIL.COM" required class="newsletter__input" />
-      <button type="submit" class="btn-lime newsletter__submit">
+      <button type="submit" class="newsletter__submit">
         JOIN THE LIST — IT'S FREE →
       </button>
     </form>

@@ -34,58 +34,67 @@ const schema = JSON.stringify({ "@context":"https://schema.org","@type":"FAQPage
   .faq {
     margin: 2.5rem 0;
   }
+
   .faq__heading {
-    font-family: var(--sw-font-display);
-    font-size: 2.5rem;
+    font-family: var(--font-heading);
+    font-size: 2rem;
     text-transform: uppercase;
-    color: var(--offwhite);
+    color: var(--color-heading);
     margin: 0 0 1.25rem;
     letter-spacing: -0.02em;
   }
+
   .faq__list {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
   }
+
   .faq__item {
-    border: 2px solid rgba(255,255,255,0.1);
-    background: var(--concrete);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg);
     overflow: hidden;
   }
+
   .faq__btn {
     width: 100%;
     text-align: left;
     padding: 1rem 1.25rem;
-    font-family: var(--sw-font-heading);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-weight: var(--weight-semi);
     background: transparent;
     border: none;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--offwhite);
+    color: var(--color-heading);
+    transition: color var(--transition-base);
   }
+
   .faq__btn:hover {
-    color: var(--lime);
+    color: var(--color-accent);
   }
+
   .faq__icon {
-    color: var(--lime);
+    color: var(--color-accent);
     transition: transform 0.2s;
     flex-shrink: 0;
     margin-left: 0.5rem;
     font-size: 0.75rem;
   }
+
   .faq__body {
     padding: 0.25rem 1.25rem 1rem;
-    font-family: var(--sw-font-body);
+    font-family: var(--font-sans);
     font-size: 1rem;
-    color: var(--smoke);
+    color: var(--color-body-soft);
     line-height: 1.65;
-    border-top: 1px solid rgba(255,255,255,0.06);
+    border-top: 1px solid var(--color-border);
   }
+
   .faq__body[hidden] {
     display: none;
   }
