@@ -96,7 +96,7 @@ const itemListLd = buildItemListLd({
   <script type="application/ld+json" set:html={collectionPageLd} />
   {itemListLd && <script type="application/ld+json" set:html={itemListLd} />}
 
-  <main class:list={['category-hub', `category-hub--${meta.theme}`]}>
+  <div class:list={['category-hub', `category-hub--${meta.theme}`]}>
     <div class="category-hub__container">
       <Breadcrumb
         items={[
@@ -186,5 +186,5 @@ const itemListLd = buildItemListLd({
     {featuredPosts.length === 0 && featuredBreedGuides.length === 0 && (
       <CategoryEmptyState meta={meta} />
     )}
-  </main>
+  </div>
 </BaseLayout>

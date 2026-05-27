@@ -72,7 +72,7 @@ const resolvedBreadcrumb = breadcrumb ?? defaultBreadcrumb;
 >
   <slot name="head" slot="head" />
 
-  <main class="pw-names" id="dog-names-content">
+  <div class="pw-names" id="dog-names-content">
     <div class="pw-names__breadcrumb-bar">
       <div class="pw-names__container">
         <Breadcrumb items={resolvedBreadcrumb} />
@@ -80,5 +80,5 @@ const resolvedBreadcrumb = breadcrumb ?? defaultBreadcrumb;
     </div>
 
     <slot />
-  </main>
+  </div>
 </BaseLayout>

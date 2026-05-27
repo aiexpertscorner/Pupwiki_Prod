@@ -70,7 +70,7 @@ const awinBaseTags = [
   <script type="application/ld+json" set:html={schema.breadcrumbLd} />
   {schema.faqLd && <script type="application/ld+json" set:html={schema.faqLd} />}
 
-  <main class="breed-page">
+  <div class="breed-page">
     <BreedHero breed={breed} signals={signals} links={links} safeLifespanYears={safeLifespanYears} slug={slug} />
 
     <nav class="breed-page-nav" aria-label="Jump to section">
@@ -149,7 +149,7 @@ const awinBaseTags = [
         />
       </div>
     </div>
-  </main>
+  </div>
 </BaseLayout>
 
 <script>
