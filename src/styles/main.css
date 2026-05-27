@@ -43,9 +43,6 @@
 @import './components/guides.css';
 @import './names.css';
 
-/* Dark / streetwear theme (BreedCard, Marquee, dark sections) */
-@import './themes/streetwear.css';
-
 /* -------------------------------------------------------------
    Rich text / prose — will move to components/prose.css in Sprint 3
    ------------------------------------------------------------- */
