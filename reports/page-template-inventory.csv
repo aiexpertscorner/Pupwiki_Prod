@@ -1,0 +1,80 @@
+file,page_family,route_or_usage,lines,has_main,has_article,has_style_block,inline_style_count,hardcoded_color_count,uses_base_layout,imports_page_css,component_stack_depth,monetization_components,schema_logic,referenced_by,delete_candidate,priority,notes
+src/layouts/BaseLayout.astro,shell,all pages,217,yes-canonical,no,no,0,0,self,main.css,1,adsense+awin scripts,WebSite+sitelinks,all layouts+many pages,no,P0,Canonical main owner; head/meta/schema shell
+src/layouts/BlogLayout.astro,blog,blog posts,418,yes-nested,no,no,3,0,BaseLayout,article.css,2,AdSense slots,BreadcrumbList+Article inline,GuidesLayout+BlogLayout users,no,P0,Nested main at line 166; article tag missing; AdSense inline styles
+src/layouts/GuidesLayout.astro,guides,guide pages,434,yes-nested,no,no,3,0,BaseLayout,article.css,2,MonetizationRail+AwinOfferPlacement,BreadcrumbList inline,guides/[slug].astro,no,P0,Nested main at line 169; AdSense inline styles; nearly identical to BlogLayout
+src/layouts/NameLayout.astro,names,dog-names pages,84,yes-nested,no,no,0,0,BaseLayout,none,2,none,none,dog-names/[breed]+dog-names/index,no,P0,Nested main at line 75; sets duplicate id=dog-names-content
+src/pages/index.astro,home,/,222,no,no,no,0,0,BaseLayout,pages/home.css,2,HomeAwinShowcase+AwinOfferPlacement,WebSite+WebPage+SiteNavigationElement,direct,no,P2,Clean structure; uses 10 active home components
+src/pages/404.astro,static,/404,97,yes-nested,no,yes,0,2,BaseLayout,none,1,none,none,direct,no,P2,Nested main; style block with #fff hardcoded
+src/pages/about.astro,static,/about,210,no,no,no,42,0,BaseLayout,none,1,none,BreadcrumbList,direct,no,P2,42 inline styles (all use var() tokens); no style block
+src/pages/contact.astro,static,/contact,541,yes-nested,no,yes,0,9,BaseLayout,none,1,none,BreadcrumbList,direct,no,P2,Nested main; style block; 9 hardcoded colors; uses primitives/Breadcrumb
+src/pages/disclosure.astro,static,/disclosure,248,no,no,yes,0,0,BaseLayout,none,1,none,none,direct,no,P3,Style block present
+src/pages/methodology.astro,static,/methodology,303,no,no,no,0,0,BaseLayout,none,1,none,BreadcrumbList,direct,no,P2,Clean structure; schema inline
+src/pages/privacy.astro,static,/privacy,868,yes-nested,no,yes,0,11,BaseLayout,none,1,none,none,direct,no,P2,Nested main; 143-line style block; 11 hardcoded colors
+src/pages/how-we-test.astro,static,/how-we-test,926,yes-nested,no,yes,0,16,BaseLayout,none,1,none,none,direct,no,P1,Nested main; 238-line style block; 16 hardcoded colors; high audit score
+src/pages/breed-quiz.astro,tools,/breed-quiz,62,no,no,no,10,0,BaseLayout,none,1,none,none,direct,no,P2,10 inline styles; uses BreedMatchQuiz component
+src/pages/brands/index.astro,brands,/brands,223,no,no,yes,5,0,BaseLayout,none,1,none,BreadcrumbList,direct,no,P2,Style block; uses primitives/Breadcrumb
+src/pages/brands/[brand].astro,brands,/brands/[brand],488,yes-nested,no,yes,38,1,BaseLayout,none,2,none,BreadcrumbList,direct,no,P1,Nested main; 38 inline styles; 170-line style block; highest brand audit score
+src/pages/breeds/index.astro,breeds,/breeds,495,yes-nested,no,no,0,0,BaseLayout,none,2,none,none,direct,no,P1,Nested main; large file
+src/pages/breeds/[breed].astro,breeds,/breeds/[breed],226,yes-nested,no,no,1,0,BaseLayout,none,2,BreedCommerceSuite,ItemList+BreadcrumbList,direct,no,P1,Nested main; breed cluster orchestrator
+src/pages/breeds/[breed]/[topic].astro,breeds,/breeds/[breed]/[topic],907,yes-nested,no,yes,0,0,BaseLayout,none,2,CommerceRail,none,direct,no,P1,Nested main; 103-line style block; topic overlay pages
+src/pages/categories/[category].astro,categories,/categories/[category],190,yes-nested,no,no,0,0,BaseLayout,category-hub.css,2,CategoryAmazonBlock,BreadcrumbList,dynamic,no,P1,Nested main; dynamic route; ui/Breadcrumb
+src/pages/categories/beds.astro,categories,/categories/beds,322,yes-nested,no,yes,0,0,BaseLayout,category-hub.css,2,CategoryAmazonBlock,BreadcrumbList,static override,yes-low,P1,Nested main; static override of dynamic route; 103-line style block
+src/pages/categories/dog-food.astro,categories,/categories/dog-food,293,yes-nested,no,yes,0,0,BaseLayout,category-hub.css,2,CategoryAmazonBlock,BreadcrumbList,static override,yes-low,P1,Nested main; static override; style block
+src/pages/categories/grooming.astro,categories,/categories/grooming,322,yes-nested,no,yes,0,0,BaseLayout,category-hub.css,2,CategoryAmazonBlock,BreadcrumbList,static override,yes-low,P1,Nested main; static override; 103-line style block
+src/pages/categories/health.astro,categories,/categories/health,322,yes-nested,no,yes,0,0,BaseLayout,category-hub.css,2,CategoryAmazonBlock,BreadcrumbList,static override,yes-low,P1,Nested main; static override; 103-line style block
+src/pages/categories/lifestyle.astro,categories,/categories/lifestyle,322,yes-nested,no,yes,0,0,BaseLayout,category-hub.css,2,CategoryAmazonBlock,BreadcrumbList,static override,yes-low,P1,Nested main; static override; 103-line style block
+src/pages/categories/toys.astro,categories,/categories/toys,173,yes-nested,no,no,0,0,BaseLayout,category-hub.css,2,CategoryAmazonBlock,BreadcrumbList,static override,yes-low,P2,Nested main; static override; shorter file
+src/pages/categories/training.astro,categories,/categories/training,470,yes-nested,no,yes,0,0,BaseLayout,category-hub.css,2,CategoryAmazonBlock,BreadcrumbList,static override,yes-low,P1,Nested main; static override; 139-line style block
+src/pages/categories/index.astro,categories,/categories,243,no,no,yes,0,0,BaseLayout,none,2,none,BreadcrumbList,direct,no,P2,Style block; uses primitives/Breadcrumb
+src/pages/categories/insurance.astro,categories,/categories/insurance,6,no,no,no,0,0,no,none,1,ContentClusterHub,none,dynamic wrapper,no,P3,Clean 6-line wrapper; model for static category pages
+src/pages/categories/puppy.astro,categories,/categories/puppy,6,no,no,no,0,0,no,none,1,ContentClusterHub,none,dynamic wrapper,no,P3,Clean 6-line wrapper
+src/pages/categories/senior-dogs.astro,categories,/categories/senior-dogs,6,no,no,no,0,0,no,none,1,ContentClusterHub,none,dynamic wrapper,no,P3,Clean 6-line wrapper
+src/pages/categories/pupwiki-partners.astro,categories,/categories/pupwiki-partners,161,yes-nested,no,no,0,0,BaseLayout,none,2,AwinProductCard+AwinProductSlot,none,direct,no,P2,Nested main; AWIN showcase page
+src/pages/cost-calculator/index.astro,tools,/cost-calculator,1682,yes-nested,no,yes,0,17,BaseLayout,none,2,none,BreadcrumbList,direct,no,P1,Nested main; 548-line style block; 17 hardcoded colors; large file
+src/pages/cost-calculator/[breed].astro,tools,/cost-calculator/[breed],2173,yes-nested,no,yes,4,21,BaseLayout,none,2,StateAgeSelector,FAQPage+BreadcrumbList inline,direct,no,P1,Nested main; 510-line style block; 21 hardcoded colors; highest-priority page; 2173 lines
+src/pages/dog-names/index.astro,names,/dog-names,48,no,no,no,0,0,NameLayout,none,2,NameBreedHero+NameHero,none,direct,no,P2,Short hub; NameLayout carries nested main
+src/pages/dog-names/[breed].astro,names,/dog-names/[breed],1124,no,no,no,2,0,NameLayout,none,2,NameCTA,none,direct,no,P1,Large inline template; NameLayout carries nested main
+src/pages/faq/index.astro,faq,/faq,462,no,no,yes,0,0,BaseLayout,none,2,none,BreadcrumbList+FAQPage,direct,no,P2,Style block; schema inline
+src/pages/faq/[slug].astro,faq,/faq/[slug],410,yes-nested,no,yes,0,0,BaseLayout,none,2,none,BreadcrumbList+FAQPage+Article,direct,no,P1,Nested main; style block; triple schema inline
+src/pages/guides/index.astro,guides,/guides,874,no,no,yes,0,18,BaseLayout,none,2,none,none,direct,no,P1,168-line style block; 18 hardcoded colors; high audit score
+src/pages/guides/[slug].astro,guides,/guides/[slug],389,no,no,no,0,0,GuidesLayout,none,3,ArticleCommerceSuite+RelatedPosts,via GuidesLayout,direct,no,P1,Uses GuidesLayout (carries nested main); RelatedPosts from guides/
+src/pages/guides/first-dog.astro,guides,/guides/first-dog,168,no,no,no,27,1,BaseLayout,none,2,InlineCTA,none,direct,no,P2,27 inline styles; hardcoded color
+src/pages/pet-insurance/index.astro,static,/pet-insurance,410,yes-nested,no,yes,0,0,BaseLayout,none,2,none,none,direct,no,P2,Nested main; style block
+src/pages/reviews/index.astro,brands,/reviews,489,no,no,yes,0,0,BaseLayout,none,2,AmazonProductSlot,none,direct,no,P2,Style block; commerce-heavy
+src/pages/tools/index.astro,tools,/tools,94,no,no,no,0,0,BaseLayout,none,2,ToolCardGrid,BreadcrumbList,direct,no,P2,Clean; schema inline
+src/pages/tools/breed-match.astro,tools,/tools/breed-match,114,no,no,no,0,0,BaseLayout,none,2,BreedMatchTool,none,direct,no,P2,Clean tool shell
+src/pages/tools/compare.astro,tools,/tools/compare,91,no,no,no,0,0,BaseLayout,none,2,BreedCompareTool,none,direct,no,P2,Clean tool shell
+src/pages/tools/puppy-cost.astro,tools,/tools/puppy-cost,96,no,no,no,0,0,BaseLayout,none,2,PuppyCostTool,none,direct,no,P2,Clean tool shell
+src/pages/tools/puppy-supplies.astro,tools,/tools/puppy-supplies,89,no,no,no,0,0,BaseLayout,none,2,PuppySuppliesChecklist,none,direct,no,P2,Clean tool shell
+src/components/home/HomeHeroDecision.astro,home,index.astro,used,no,no,yes,0,0,n/a,n/a,1,none,none,index.astro,no,P2,Active; style block
+src/components/home/HomeDecisionPaths.astro,home,index.astro,used,no,no,yes,0,0,n/a,n/a,1,none,none,index.astro,no,P2,Active; style block
+src/components/home/HomeToolsPreview.astro,home,index.astro,used,no,no,yes,0,0,n/a,n/a,1,none,none,index.astro,no,P2,Active; style block
+src/components/home/HomeBreedStarter.astro,home,index.astro,used,no,no,yes,0,0,n/a,n/a,1,none,none,index.astro,no,P2,Active; style block
+src/components/home/HomeCostPlanning.astro,home,index.astro,used,no,no,yes,0,0,n/a,n/a,1,none,none,index.astro,no,P2,Active; style block
+src/components/home/HomeCareHubs.astro,home,index.astro,used,no,no,yes,0,0,n/a,n/a,1,none,none,index.astro,no,P2,Active; style block
+src/components/home/HomeFeaturedGuides.astro,home,index.astro,used,no,no,yes,0,0,n/a,n/a,1,none,none,index.astro,no,P2,Active; style block
+src/components/home/HomeMethodologyCompact.astro,home,index.astro,used,no,no,yes,0,0,n/a,n/a,1,none,none,index.astro,no,P2,Active; style block
+src/components/home/HomeFinalCta.astro,home,index.astro,used,no,no,yes,0,0,n/a,n/a,1,none,none,index.astro,no,P2,Active; style block
+src/components/home/HomeAwinShowcase.astro,home,index.astro,used,no,no,yes,0,0,n/a,n/a,1,AWIN products,none,index.astro,no,P2,Active; style block; 135-line layoutcss
+src/components/home/HomeAwinSpotlight.astro,home,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/home/HomeBreedDiscovery.astro,home,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/home/HomeCareDecisionLayer.astro,home,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/home/HomeEditorialHighlights.astro,home,none,unused,no,no,yes,1,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/home/HomeLifestyleFilter.astro,home,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/home/HomeMethodologyTeaser.astro,home,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/home/HomeMixedBreedDiscovery.astro,home,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/home/HomePrimaryJourneys.astro,home,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/home/HomeQuickCostTeaser.astro,home,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/home/HomeTrustStrip.astro,home,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/home/HomeBreedExplorer.astro,home,none,unused,no,no,yes,0,1,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; 1 hardcoded color; delete candidate
+src/components/home/HomeHeroClean.astro,home,none,unused,no,no,yes,0,22,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; 22 hardcoded colors; delete candidate
+src/components/home/HomeLeadCapture.astro,home,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; delete candidate
+src/components/RelatedPosts.astro,blog,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,Root-level; 0 imports confirmed; delete candidate
+src/components/affiliate/AmazonProductCard.astro,affiliate,affiliate/AmazonProductSlot,47,no,no,no,0,0,n/a,n/a,1,none,none,affiliate/AmazonProductSlot only,yes-medium,P1,Old schema (AmazonProductRecord); superseded by amazon/ version after migration
+src/components/affiliate/AmazonProductSlot.astro,affiliate,various,132,no,no,no,0,0,n/a,n/a,1,ProductCard,none,AmazonProductRail+CategoryAmazonBlock,yes-medium,P1,Old data pipeline (amazon-products.json); migrate callers to amazon/ version
+src/components/blog/RelatedPosts.astro,blog,none,unused,no,no,yes,0,0,n/a,n/a,0,none,none,none,yes-high,P4,0 imports confirmed; identical to guides/RelatedPosts; delete candidate
+src/components/guides/RelatedPosts.astro,guides,guides/[slug].astro,180,no,no,yes,0,0,n/a,n/a,1,none,none,guides/[slug].astro,no,P2,Only active RelatedPosts; keep; clean style block
+src/components/ui/Breadcrumb.astro,ui,13 callers,32,no,no,no,0,0,n/a,n/a,1,none,none,layouts+categories,no,P1,Canonical Breadcrumb; items prop API
+src/components/primitives/Breadcrumb.astro,primitives,4 callers,98,no,no,yes,0,0,n/a,n/a,1,none,none,contact+brands+categories/index,yes-medium,P1,crumbs prop API; migrate 4 callers to ui/ version then delete
+src/components/ProductCard.astro,components,root,101,no,no,no,26,0,n/a,n/a,0,none,none,affiliate/AmazonProductSlot+others,yes-medium,P1,Root-level; likely superseded by content/ProductCard; verify imports
+src/components/content/ProductCard.astro,content,content callers,275,no,no,no,27,0,n/a,n/a,1,none,none,content/ContentClusterHub+others,no,P1,Canonical ProductCard; keep
