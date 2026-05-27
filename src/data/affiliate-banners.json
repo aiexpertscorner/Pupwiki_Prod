@@ -17,6 +17,37 @@
   },
   "banners": [
     {
+      "id": "meowant-brand-logo",
+      "programKey": "meowant",
+      "advertiserId": "55213",
+      "advertiser": "MeoWant",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "MeoWant brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=55213&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/55213.png",
+      "alt": "MeoWant logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner",
+        "beds"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
+      "imageFit": "contain"
+    },
+    {
       "id": "brutus-broth-brand-logo",
       "programKey": "brutus-broth",
       "advertiserId": "55927",
@@ -35,7 +66,7 @@
         "pre-footer"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -50,7 +81,7 @@
         "recovery"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-26T06:42:12.731Z",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
       "imageFit": "contain"
     },
     {
@@ -72,7 +103,7 @@
         "pre-footer"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "homepage"
       ],
@@ -86,7 +117,7 @@
         "accessories"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-26T06:42:12.731Z",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
       "imageFit": "contain"
     },
     {
@@ -108,7 +139,7 @@
         "pre-footer"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category",
         "homepage"
@@ -125,7 +156,7 @@
         "appliances"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-26T06:42:12.731Z",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
       "imageFit": "contain"
     },
     {
@@ -147,7 +178,7 @@
         "pre-footer"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -163,7 +194,7 @@
         "gear"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-26T06:42:12.731Z",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
       "imageFit": "contain"
     },
     {
@@ -193,7 +224,7 @@
         "partner"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-26T06:42:12.731Z",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
       "imageFit": "contain"
     },
     {
@@ -215,7 +246,7 @@
         "pre-footer"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -231,7 +262,7 @@
         "safety"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-26T06:42:12.731Z",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
       "imageFit": "contain"
     },
     {
@@ -253,7 +284,7 @@
         "pre-footer"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -268,7 +299,7 @@
         "single-protein"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-26T06:42:12.731Z",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
       "imageFit": "contain"
     },
     {
@@ -290,7 +321,7 @@
         "pre-footer"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category",
         "homepage"
@@ -306,7 +337,71 @@
         "home"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-26T06:42:12.731Z",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "giftlab-brand-logo",
+      "programKey": "giftlab",
+      "advertiserId": "95201",
+      "advertiser": "Giftlab",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Giftlab brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=95201&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/95201.png",
+      "alt": "Giftlab logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner",
+        "gift",
+        "lifestyle"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "sparkle-gmbh-brand-logo",
+      "programKey": "sparkle-gmbh",
+      "advertiserId": "111366",
+      "advertiser": "Sparkle GmbH",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Sparkle GmbH brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=111366&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/111366.png",
+      "alt": "Sparkle GmbH logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner",
+        "training",
+        "gear"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
       "imageFit": "contain"
     },
     {
@@ -339,7 +434,7 @@
         "health"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-26T06:42:12.731Z",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
       "imageFit": "contain"
     },
     {
@@ -361,7 +456,7 @@
         "pre-footer"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "homepage"
       ],
@@ -374,7 +469,68 @@
         "fun"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-05-26T06:42:12.731Z",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "aniwell-us-brand-logo",
+      "programKey": "aniwell-us",
+      "advertiserId": "123892",
+      "advertiser": "Aniwell - US",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Aniwell - US brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=123892&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/123892.png",
+      "alt": "Aniwell - US logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner",
+        "health"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "dextr-brand-logo",
+      "programKey": "dextr",
+      "advertiserId": "126675",
+      "advertiser": "Dextr",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Dextr brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
+      "alt": "Dextr logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-05-27T06:59:52.100Z",
       "imageFit": "contain"
     },
     {

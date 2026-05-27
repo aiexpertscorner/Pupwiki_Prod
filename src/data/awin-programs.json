@@ -1,8 +1,72 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-26T06:42:12.745Z",
+  "syncedAt": "2026-05-27T06:59:52.127Z",
   "programs": [
+    {
+      "key": "meowant",
+      "advertiserId": "55213",
+      "name": "MeoWant",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://meowant.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=55213&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/55213.png",
+      "primarySector": "Home & Garden",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "meowant.com"
+        },
+        {
+          "domain": "meowant.myshopify.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 12,
+          "max": 15,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "71",
+        "approvalPercentage": 97.35,
+        "epc": 1.27,
+        "conversionRate": 7.14,
+        "validationDays": 51,
+        "awinIndex": 57.08
+      },
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=55213&id=2861861",
+      "topicTags": [
+        "partner",
+        "beds"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": true,
+      "feedIds": [
+        "104479"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 30,
+      "bannerCount": 0
+    },
     {
       "key": "brutus-broth",
       "advertiserId": "55927",
@@ -56,7 +120,7 @@
         "recovery"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -122,7 +186,7 @@
         "accessories"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "homepage"
       ],
@@ -193,7 +257,7 @@
         "appliances"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category",
         "homepage"
@@ -263,7 +327,7 @@
         "gear"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -392,7 +456,7 @@
         "safety"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -436,14 +500,14 @@
       ],
       "commissionRange": [
         {
-          "min": 8,
-          "max": 8,
-          "type": "percentage"
-        },
-        {
           "min": 0,
           "max": 0,
           "type": "amount"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "type": "percentage"
         }
       ],
       "kpi": {
@@ -470,7 +534,7 @@
         "single-protein"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -535,7 +599,7 @@
         "home"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category",
         "homepage"
@@ -548,6 +612,131 @@
       "hasCreatives": false,
       "hasLogo": true,
       "productCount": 1450,
+      "bannerCount": 0
+    },
+    {
+      "key": "giftlab",
+      "advertiserId": "95201",
+      "name": "Giftlab",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.giftlab.com/",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=95201&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/95201.png",
+      "primarySector": "Gifts & Flowers",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "www.giftlab.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 10,
+          "max": 20,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "72",
+        "approvalPercentage": 100,
+        "epc": 0.35,
+        "conversionRate": 5.79,
+        "validationDays": 51,
+        "awinIndex": 56.83
+      },
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=95201&id=2861861",
+      "topicTags": [
+        "partner",
+        "gift",
+        "lifestyle"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": true,
+      "feedIds": [
+        "105668"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 2426,
+      "bannerCount": 0
+    },
+    {
+      "key": "sparkle-gmbh",
+      "advertiserId": "111366",
+      "name": "Sparkle GmbH",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.heyhappiness.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111366&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111366.png",
+      "primarySector": "Clothing Accessories",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "www.heyhappiness.com"
+        },
+        {
+          "domain": "heyhappiness.myshopify.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 10,
+          "max": 10,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "73",
+        "approvalPercentage": 86.58,
+        "epc": 0.22,
+        "conversionRate": 6.61,
+        "validationDays": 50,
+        "awinIndex": 52.26
+      },
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=111366&id=2861861",
+      "topicTags": [
+        "partner",
+        "training",
+        "gear"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
       "bannerCount": 0
     },
     {
@@ -670,9 +859,128 @@
         "fun"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "homepage"
+      ],
+      "priority": 50,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "aniwell-us",
+      "advertiserId": "123892",
+      "name": "Aniwell - US",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://getaniwell.com/",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=123892&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/123892.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "getaniwell.com"
+        },
+        {
+          "domain": "*.getaniwell.com"
+        },
+        {
+          "domain": "getaniwell.myshopify.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 10,
+          "max": 10,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "",
+        "approvalPercentage": 100,
+        "epc": 0.14,
+        "conversionRate": 7.41,
+        "validationDays": 30,
+        "awinIndex": 72.42
+      },
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=123892&id=2861861",
+      "topicTags": [
+        "partner",
+        "health"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "dextr",
+      "advertiserId": "126675",
+      "name": "Dextr",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://dextr.app/",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
+      "primarySector": "",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "dextr.app"
+        },
+        {
+          "domain": "*.dextr.app"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 0,
+          "max": 10,
+          "type": "amount"
+        }
+      ],
+      "kpi": null,
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
+      "topicTags": [
+        "partner"
+      ],
+      "pageTypes": [
+        "blog",
+        "breed",
+        "category"
       ],
       "priority": 50,
       "hasProductFeed": false,
@@ -689,11 +997,11 @@
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.remember.bereaveorders.com/pets",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "primarySector": "Gifts & Flowers",
       "primaryRegion": {
@@ -706,15 +1014,8 @@
           "domain": "https://www.remember.bereaveorders.com/pets"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "",
-        "approvalPercentage": 100,
-        "epc": 1.03,
-        "conversionRate": 2.6,
-        "validationDays": 21,
-        "awinIndex": 73.7
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -743,11 +1044,11 @@
       "advertiserId": "68990",
       "name": "Odie Pet Insurance Marketing, Inc.",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://getodie.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=68990&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/68990.png",
       "primarySector": "Insurance",
       "primaryRegion": {
@@ -760,15 +1061,8 @@
           "domain": "getodie.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "57",
-        "approvalPercentage": 99.73,
-        "epc": 0.19,
-        "conversionRate": 5.15,
-        "validationDays": 51,
-        "awinIndex": 56.05
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -796,11 +1090,11 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.dutch.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "primarySector": "Health & Beauty",
       "primaryRegion": {
@@ -819,15 +1113,8 @@
           "domain": "*.dutch.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "71",
-        "approvalPercentage": 100,
-        "epc": 0.66,
-        "conversionRate": 2.73,
-        "validationDays": 51,
-        "awinIndex": 53.79
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1132,11 +1419,11 @@
       "advertiserId": "98349",
       "name": "Impact Dog Crates",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.impactdogcrates.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=98349&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/98349.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1149,8 +1436,15 @@
           "domain": "www.impactdogcrates.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "68",
+        "approvalPercentage": 100,
+        "epc": 0.57,
+        "conversionRate": 0.8,
+        "validationDays": 45,
+        "awinIndex": 55.86
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1179,11 +1473,11 @@
       "advertiserId": "106409",
       "name": "Wuffes.com",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://wuffes.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=106409&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/106409.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1199,9 +1493,16 @@
           "domain": "*.wuffes.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "72",
+        "approvalPercentage": 100,
+        "epc": 3.89,
+        "conversionRate": 24.09,
+        "validationDays": 31,
+        "awinIndex": 74.72
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1228,11 +1529,11 @@
       "advertiserId": "111234",
       "name": "PetLink (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://store.petlink.net/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111234&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111234.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1251,9 +1552,16 @@
           "domain": "store.petlink.net"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "76",
+        "approvalPercentage": 100,
+        "epc": 0.06,
+        "conversionRate": 1.52,
+        "validationDays": 30,
+        "awinIndex": 66.52
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1565,6 +1873,29 @@
   ],
   "summary": [
     {
+      "key": "meowant",
+      "advertiserId": "55213",
+      "name": "MeoWant",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "104479"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 30,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/55213.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=55213&id=2861861",
+      "topicTags": [
+        "partner",
+        "beds"
+      ]
+    },
+    {
       "key": "brutus-broth",
       "advertiserId": "55927",
       "name": "Brutus Broth",
@@ -1789,6 +2120,52 @@
       ]
     },
     {
+      "key": "giftlab",
+      "advertiserId": "95201",
+      "name": "Giftlab",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "105668"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 2426,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/95201.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=95201&id=2861861",
+      "topicTags": [
+        "partner",
+        "gift",
+        "lifestyle"
+      ]
+    },
+    {
+      "key": "sparkle-gmbh",
+      "advertiserId": "111366",
+      "name": "Sparkle GmbH",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111366.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111366&id=2861861",
+      "topicTags": [
+        "partner",
+        "training",
+        "gear"
+      ]
+    },
+    {
       "key": "nextrition-pet-us",
       "advertiserId": "113600",
       "name": "Nextrition Pet (US)",
@@ -1839,12 +2216,12 @@
       ]
     },
     {
-      "key": "bereave",
-      "advertiserId": "52135",
-      "name": "Bereave",
-      "relationship": "pending",
-      "status": "Pending",
-      "isActive": false,
+      "key": "aniwell-us",
+      "advertiserId": "123892",
+      "name": "Aniwell - US",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
       "hasCreatives": false,
@@ -1852,6 +2229,47 @@
       "productCount": 0,
       "bannerCount": 0,
       "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/123892.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=123892&id=2861861",
+      "topicTags": [
+        "partner",
+        "health"
+      ]
+    },
+    {
+      "key": "dextr",
+      "advertiserId": "126675",
+      "name": "Dextr",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
+      "topicTags": [
+        "partner"
+      ]
+    },
+    {
+      "key": "bereave",
+      "advertiserId": "52135",
+      "name": "Bereave",
+      "relationship": "pending",
+      "status": "Active",
+      "isActive": false,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
       "topicTags": [
@@ -1865,7 +2283,7 @@
       "advertiserId": "68990",
       "name": "Odie Pet Insurance Marketing, Inc.",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1873,7 +2291,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/68990.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=68990&id=2861861",
       "topicTags": [
@@ -1886,7 +2304,7 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -1894,7 +2312,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
       "topicTags": [
@@ -2024,7 +2442,7 @@
       "advertiserId": "98349",
       "name": "Impact Dog Crates",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2032,7 +2450,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/98349.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=98349&id=2861861",
       "topicTags": [
@@ -2046,7 +2464,7 @@
       "advertiserId": "106409",
       "name": "Wuffes.com",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2054,7 +2472,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/106409.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=106409&id=2861861",
       "topicTags": [
@@ -2067,7 +2485,7 @@
       "advertiserId": "111234",
       "name": "PetLink (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2075,7 +2493,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/111234.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=111234&id=2861861",
       "topicTags": [
@@ -2197,23 +2615,23 @@
     }
   ],
   "stats": {
-    "joined": 10,
+    "joined": 15,
     "pending": 16,
-    "feeds": 615,
-    "apiProducts": 2400,
-    "programOfferProducts": 3,
-    "totalProducts": 2403,
+    "feeds": 614,
+    "apiProducts": 4856,
+    "programOfferProducts": 6,
+    "totalProducts": 4862,
     "apiBanners": 0,
-    "logoBanners": 10,
-    "totalBanners": 16,
+    "logoBanners": 15,
+    "totalBanners": 21,
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
     "feedProductFetchFailures": 0,
-    "feedRowsFetched": 2400,
-    "feedRowsNormalized": 2400,
+    "feedRowsFetched": 4856,
+    "feedRowsNormalized": 4856,
     "feedsWithRowsButZeroProducts": [],
-    "experimentalCreativesEnabled": false,
+    "experimentalCreativesEnabled": true,
     "warnings": [
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
@@ -2231,28 +2649,49 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "[promotions] Fetch error: active/page4: Rate limit exceeded after retries",
+      "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
+      "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
+      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/98349 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/106409 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/111234 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/111784 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode"
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "creatives/55213 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/55927 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/57823 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/63546 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/79708 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/87483 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/87999 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/89689 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/89913 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/95201 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/111366 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/113600 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/118951 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/123892 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/126675 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}"
     ],
     "errors": []
   }
