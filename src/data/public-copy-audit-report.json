@@ -1,10 +1,47 @@
 {
-  "ok": true,
+  "ok": false,
   "blocking": false,
   "ciMode": true,
-  "scanned": 926,
-  "count": 0,
-  "byFile": {},
-  "hits": [],
-  "generatedAt": "2026-05-20T21:03:50.989Z"
+  "scanned": 695,
+  "count": 5,
+  "byFile": {
+    "src/pages/methodology.astro": 1,
+    "src/components/affiliate/MonetizationRail.astro": 1,
+    "src/components/guides/MethodologyNote.astro": 1,
+    "src/components/tools/BreedMatchTool.astro": 1,
+    "src/components/tools/PuppySuppliesChecklist.astro": 1
+  },
+  "hits": [
+    {
+      "file": "src/pages/methodology.astro",
+      "line": 66,
+      "pattern": "/affiliate disclosure/i",
+      "snippet": "<strong>Full affiliate disclosure →</strong>"
+    },
+    {
+      "file": "src/components/affiliate/MonetizationRail.astro",
+      "line": 17,
+      "pattern": "/\\bAWIN\\b/i",
+      "snippet": "{(firstAllowed === 'awin-product-slot' || firstAllowed === 'product-card') && ("
+    },
+    {
+      "file": "src/components/guides/MethodologyNote.astro",
+      "line": 10,
+      "pattern": "/affiliate disclosure/i",
+      "snippet": "<a>Affiliate disclosure →</a>"
+    },
+    {
+      "file": "src/components/tools/BreedMatchTool.astro",
+      "line": 365,
+      "pattern": "/affiliate links?/i",
+      "snippet": "PupWiki may earn a commission if you click affiliate links on breed guide pages. The quiz scoring"
+    },
+    {
+      "file": "src/components/tools/PuppySuppliesChecklist.astro",
+      "line": 190,
+      "pattern": "/affiliate links?/i",
+      "snippet": "PupWiki may earn a small commission if you purchase items through affiliate links on our"
+    }
+  ],
+  "generatedAt": "2026-05-27T19:32:49.502Z"
 }
