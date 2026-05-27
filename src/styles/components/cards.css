@@ -106,7 +106,7 @@
   place-items: center;
   background: var(--color-primary-subtle);
   color: var(--color-primary);
-  box-shadow: inset 0 0 0 1px rgba(21, 54, 95, 0.08);
+  box-shadow: inset 0 0 0 1px var(--color-primary-opacity-08);
 }
 
 .icon-card__title {
@@ -139,13 +139,13 @@
 .badge--primary {
   color: var(--color-primary);
   background: var(--color-primary-subtle);
-  border-color: rgba(21, 54, 95, 0.12);
+  border-color: var(--color-primary-opacity-12);
 }
 
 .badge--accent {
   color: var(--cat-food-text);
   background: var(--color-accent-subtle);
-  border-color: rgba(255, 122, 0, 0.18);
+  border-color: var(--color-accent-opacity-18);
 }
 
 .badge--success {

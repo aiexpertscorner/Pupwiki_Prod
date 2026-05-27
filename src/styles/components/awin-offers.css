@@ -79,7 +79,7 @@
   border: 1px solid var(--color-border, #e5e2db);
   border-left: 4px solid var(--color-accent, #ff7a00);
   border-radius: var(--radius-xl, 1rem);
-  box-shadow: var(--shadow-card, 0 2px 10px rgba(7, 23, 39, 0.06));
+  box-shadow: var(--shadow-card, 0 2px 10px var(--color-shadow-dark-06));
   margin-block: 1.25rem;
 }
 
@@ -194,7 +194,7 @@
   background: var(--color-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl, 1rem);
-  box-shadow: var(--shadow-card, 0 2px 10px rgba(7, 23, 39, 0.06));
+  box-shadow: var(--shadow-card, 0 2px 10px var(--color-shadow-dark-06));
 }
 
 .awin-voucher-card__top {

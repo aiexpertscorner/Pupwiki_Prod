@@ -88,7 +88,7 @@
 .mixed-breed-card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-card-hover);
-  border-color: rgba(21, 54, 95, 0.22);
+  border-color: var(--color-primary-opacity-22);
 }
 
 .breed-discovery-card__media,
@@ -198,7 +198,7 @@
   isolation: isolate;
   overflow: hidden;
   background:
-    radial-gradient(circle at 86% 8%, rgba(255, 122, 0, 0.16), transparent min(24rem, 70vw)),
+    radial-gradient(circle at 86% 8%, var(--color-accent-opacity-16), transparent min(24rem, 70vw)),
     radial-gradient(circle at 6% 0%, var(--color-primary-opacity-10), transparent min(22rem, 72vw)),
     linear-gradient(180deg, var(--color-bg-warm) 0%, var(--color-bg) 78%);
 }
@@ -209,7 +209,7 @@
   inset: auto -8rem -13rem -8rem;
   z-index: -1;
   height: 18rem;
-  background: linear-gradient(90deg, var(--color-accent-opacity-10), rgba(21, 54, 95, 0.07), var(--color-accent-opacity-08));
+  background: linear-gradient(90deg, var(--color-accent-opacity-10), var(--color-primary-opacity-07), var(--color-accent-opacity-08));
   filter: blur(52px);
   pointer-events: none;
 }
@@ -261,7 +261,7 @@
   height: 0.48rem;
   border-radius: 999px;
   background: var(--color-accent);
-  box-shadow: 0 0 0 4px rgba(255, 122, 0, 0.14);
+  box-shadow: 0 0 0 4px var(--color-accent-opacity-14);
 }
 
 .pw-hero__title {
@@ -368,7 +368,7 @@
   border: 1px solid var(--color-border-warm);
   border-radius: clamp(1.25rem, 4.2vw, var(--radius-3xl));
   background: linear-gradient(135deg, var(--color-bg-paper), var(--color-bg-muted));
-  box-shadow: 0 20px 52px rgba(7, 23, 39, 0.15);
+  box-shadow: 0 20px 52px var(--color-shadow-dark-15);
   isolation: isolate;
 }
 
@@ -381,8 +381,8 @@
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(11, 31, 54, 0.03) 0%, rgba(11, 31, 54, 0.12) 45%, rgba(11, 31, 54, 0.72) 100%),
-    radial-gradient(circle at 12% 12%, rgba(255, 122, 0, 0.16), transparent 17rem);
+    linear-gradient(180deg, var(--color-dark-navy-opacity-03) 0%, var(--color-dark-navy-opacity-12) 45%, var(--color-dark-navy-opacity-72) 100%),
+    radial-gradient(circle at 12% 12%, var(--color-accent-opacity-16), transparent 17rem);
   pointer-events: none;
 }
 

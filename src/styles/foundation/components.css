@@ -164,7 +164,7 @@
   border: 1px solid var(--color-border-warm);
   border-radius: clamp(1.45rem, 5vw, var(--radius-3xl));
   background: linear-gradient(135deg, var(--color-bg-paper), var(--color-bg-muted));
-  box-shadow: 0 22px 52px rgba(7, 23, 39, 0.16);
+  box-shadow: 0 22px 52px var(--color-shadow-dark-16);
   isolation: isolate;
 }
 
@@ -179,8 +179,8 @@
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(180deg, rgba(11, 31, 54, 0.02) 0%, rgba(11, 31, 54, 0.14) 46%, rgba(11, 31, 54, 0.72) 100%),
-    radial-gradient(circle at 12% 12%, rgba(255, 122, 0, 0.16), transparent 18rem);
+    linear-gradient(180deg, var(--color-dark-navy-opacity-02) 0%, var(--color-dark-navy-opacity-14) 46%, var(--color-dark-navy-opacity-72) 100%),
+    radial-gradient(circle at 12% 12%, var(--color-accent-opacity-16), transparent 18rem);
   pointer-events: none;
 }
 

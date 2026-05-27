@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/pages/about.css';
 
 const SITE = 'https://pupwiki.com';
 const breadcrumbLd = JSON.stringify({
@@ -20,20 +21,20 @@ const breadcrumbLd = JSON.stringify({
   <script type="application/ld+json" set:html={breadcrumbLd} />
 
   <!-- Hero -->
-  <div style="background:linear-gradient(to bottom,var(--color-surface-warm),var(--color-bg-soft));border-bottom:1px solid var(--color-border-warm)">
+  <div class="about-hero">
     <div class="max-w-4xl mx-auto px-4 py-14 sm:py-20 text-center">
-      <nav class="font-sans text-sm mb-6 flex items-center justify-center gap-1.5" style="color:var(--color-subtle)">
-        <a href="/" style="color:var(--color-accent)" class="hover:underline">Home</a>
+      <nav class="about-breadcrumb font-sans text-sm mb-6 flex items-center justify-center gap-1.5">
+        <a href="/" class="about-breadcrumb-link hover:underline">Home</a>
         <span>›</span>
-        <span style="color:var(--color-body-soft)">About</span>
+        <span class="about-breadcrumb-current">About</span>
       </nav>
-      <span class="inline-block font-sans text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-5" style="background:var(--color-accent);color:white">
+      <span class="about-badge inline-block font-sans text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-5">
         Est. 2024
       </span>
-      <h1 class="font-display text-4xl sm:text-5xl font-bold mb-4 leading-tight" style="font-family:var(--font-serif);color:var(--color-heading)">
+      <h1 class="about-serif-heading font-display text-4xl sm:text-5xl font-bold mb-4 leading-tight">
         About PupWiki
       </h1>
-      <p class="font-sans text-lg max-w-2xl mx-auto leading-relaxed" style="color:var(--color-muted)">
+      <p class="about-lead font-sans text-lg max-w-2xl mx-auto leading-relaxed">
         We built the dog product resource we always wished existed — honest, breed-specific, and backed by real data rather than brand deals.
       </p>
     </div>
@@ -44,18 +45,18 @@ const breadcrumbLd = JSON.stringify({
     <!-- Origin story -->
     <section class="grid md:grid-cols-2 gap-10 items-center">
       <div>
-        <p class="font-sans text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--color-accent)">Our story</p>
-        <h2 class="font-display text-3xl font-bold mb-5" style="font-family:var(--font-serif);color:var(--color-heading)">
+        <p class="about-accent font-sans text-xs font-bold uppercase tracking-widest mb-2">Our story</p>
+        <h2 class="about-serif-heading font-display text-3xl font-bold mb-5">
           Built out of frustration
         </h2>
-        <div class="space-y-4 font-sans text-base leading-relaxed" style="color:var(--color-body-soft)">
+        <div class="about-body space-y-4 font-sans text-base leading-relaxed">
           <p>As dog owners, we kept running into the same problem: product review sites that were either paid by brands, riddled with fake five-star reviews, or so generic they were useless for our specific breeds.</p>
           <p>A recommendation for a "large breed dog food" that works for a Labrador isn't necessarily right for a Great Dane. Grooming advice for a double-coated breed is completely different from a short-coat breed. The internet treated all dogs the same.</p>
-          <p>So we built something different. PupWiki covers <strong style="color:var(--color-heading)">277 dog breeds</strong> with product picks, care guides, and health information matched specifically to each breed's size, energy level, coat type, and known health risks.</p>
+          <p>So we built something different. PupWiki covers <strong class="about-heading-color">277 dog breeds</strong> with product picks, care guides, and health information matched specifically to each breed's size, energy level, coat type, and known health risks.</p>
         </div>
       </div>
-      <div class="rounded-3xl overflow-hidden" style="background:linear-gradient(135deg,var(--color-surface-warm),var(--color-warning-light));padding:2.5rem;text-align:center">
-        <div style="font-size:5rem;margin-bottom:1rem">🐾</div>
+      <div class="about-stats-panel rounded-3xl overflow-hidden">
+        <div class="about-emoji-xl">🐾</div>
         <div class="grid grid-cols-2 gap-4">
           {[
             ['277', 'Breeds covered'],
@@ -63,9 +64,9 @@ const breadcrumbLd = JSON.stringify({
             ['125+', 'Products reviewed'],
             ['7,000+', 'Names curated'],
           ].map(([num, label]) => (
-            <div class="rounded-2xl p-3" style="background:var(--color-bg)">
-              <div class="font-display text-2xl font-black" style="font-family:var(--font-serif);color:var(--color-accent)">{num}</div>
-              <div class="font-sans text-xs mt-0.5" style="color:var(--color-muted)">{label}</div>
+            <div class="about-stat-box rounded-2xl p-3">
+              <div class="about-stat-value font-display text-2xl font-black">{num}</div>
+              <div class="about-lead font-sans text-xs mt-0.5">{label}</div>
             </div>
           ))}
         </div>
@@ -74,8 +75,8 @@ const breadcrumbLd = JSON.stringify({
 
     <!-- What makes us different -->
     <section>
-      <p class="font-sans text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--color-accent)">Our approach</p>
-      <h2 class="font-display text-3xl font-bold mb-8" style="font-family:var(--font-serif);color:var(--color-heading)">
+      <p class="about-accent font-sans text-xs font-bold uppercase tracking-widest mb-2">Our approach</p>
+      <h2 class="about-serif-heading font-display text-3xl font-bold mb-8">
         What makes us different
       </h2>
       <div class="grid sm:grid-cols-2 gap-5">
@@ -111,19 +112,19 @@ const breadcrumbLd = JSON.stringify({
             body: 'Brands cannot pay to appear in our recommendations. Our top picks are determined by our scoring methodology. Full stop.',
           },
         ].map(item => (
-          <div class="rounded-2xl p-5" style="background:var(--color-bg);border:1px solid var(--color-border-warm)">
-            <div style="font-size:1.75rem;margin-bottom:0.75rem">{item.icon}</div>
-            <h3 class="font-sans font-bold text-base mb-2" style="color:var(--color-heading)">{item.title}</h3>
-            <p class="font-sans text-sm leading-relaxed" style="color:var(--color-muted)">{item.body}</p>
+          <div class="about-card rounded-2xl p-5">
+            <div class="about-emoji-lg">{item.icon}</div>
+            <h3 class="about-heading-color font-sans font-bold text-base mb-2">{item.title}</h3>
+            <p class="about-lead font-sans text-sm leading-relaxed">{item.body}</p>
           </div>
         ))}
       </div>
     </section>
 
     <!-- What we cover -->
-    <section class="rounded-3xl p-8" style="background:var(--color-bg);border:1px solid var(--color-border-warm)">
-      <p class="font-sans text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--color-accent)">Coverage</p>
-      <h2 class="font-display text-3xl font-bold mb-6" style="font-family:var(--font-serif);color:var(--color-heading)">
+    <section class="about-section-card rounded-3xl p-8">
+      <p class="about-accent font-sans text-xs font-bold uppercase tracking-widest mb-2">Coverage</p>
+      <h2 class="about-serif-heading font-display text-3xl font-bold mb-6">
         What we cover
       </h2>
       <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -139,10 +140,10 @@ const breadcrumbLd = JSON.stringify({
           ['📊', 'Breed Guides', 'Complete care hubs for every recognised breed'],
         ].map(([icon, title, desc]) => (
           <div class="flex gap-3 items-start">
-            <span style="font-size:1.25rem;flex-shrink:0;margin-top:2px">{icon}</span>
+            <span class="about-emoji-sm">{icon}</span>
             <div>
-              <p class="font-sans font-bold text-sm" style="color:var(--color-heading)">{title}</p>
-              <p class="font-sans text-xs mt-0.5" style="color:var(--color-muted)">{desc}</p>
+              <p class="about-heading-color font-sans font-bold text-sm">{title}</p>
+              <p class="about-lead font-sans text-xs mt-0.5">{desc}</p>
             </div>
           </div>
         ))}
@@ -150,19 +151,19 @@ const breadcrumbLd = JSON.stringify({
     </section>
 
     <!-- Reader support transparency -->
-    <section class="rounded-3xl p-8" style="background:linear-gradient(135deg,var(--color-warning-light),var(--color-bg-soft));border:2px solid var(--color-warning)">
+    <section class="about-transparency rounded-3xl p-8">
       <div class="flex gap-4 items-start">
-        <span style="font-size:2rem;flex-shrink:0">⚖️</span>
+        <span class="about-emoji-disclosure">⚖️</span>
         <div>
-          <h2 class="font-display text-2xl font-bold mb-3" style="font-family:var(--font-serif);color:var(--color-heading)">
+          <h2 class="about-serif-heading font-display text-2xl font-bold mb-3">
             How we make money — transparently
           </h2>
-          <div class="space-y-3 font-sans text-sm leading-relaxed" style="color:var(--color-body-soft)">
+          <div class="about-body space-y-3 font-sans text-sm leading-relaxed">
             <p>PupWiki works with selected dog-care brands, including ChefPaw, Raw Wild, JugBow, and Crown & Paw, and may earn a small commission when readers buy through some links. We keep product recommendations separate from payment arrangements.</p>
             <p>Reader-supported income helps keep the site free and updated. It does not influence which products or brands we recommend. Our top picks are determined by dog relevance, safety notes, owner fit, and product quality signals.</p>
             <p>We also never accept payment from brands in exchange for favorable coverage. If a brand wants to appear in our recommendations, the only way is to make a genuinely excellent product.</p>
           </div>
-          <a href="/disclosure" class="inline-block mt-4 font-sans text-sm font-bold hover:underline" style="color:var(--color-accent)">
+          <a href="/disclosure" class="about-accent inline-block mt-4 font-sans text-sm font-bold hover:underline">
             Read our full reader-support policy →
           </a>
         </div>
@@ -171,8 +172,8 @@ const breadcrumbLd = JSON.stringify({
 
     <!-- Explore PupWiki -->
     <section>
-      <p class="font-sans text-xs font-bold uppercase tracking-widest mb-2" style="color:var(--color-primary)">Explore</p>
-      <h2 class="font-display text-2xl font-bold mb-6" style="font-family:var(--font-serif);color:var(--color-heading)">
+      <p class="about-primary-color font-sans text-xs font-bold uppercase tracking-widest mb-2">Explore</p>
+      <h2 class="about-serif-heading font-display text-2xl font-bold mb-6">
         Dig into PupWiki
       </h2>
       <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -184,10 +185,10 @@ const breadcrumbLd = JSON.stringify({
           { icon: '🏥', label: 'Pet Insurance', desc: 'Understand coverage types, breed risks, and what to look for in a policy', href: '/pet-insurance' },
           { icon: '📖', label: 'Breed Guides', desc: 'Deep-dive care hubs covering health, feeding, training, and products per breed', href: '/breeds' },
         ].map(item => (
-          <a href={item.href} class="rounded-2xl p-5 hover:shadow-md transition-shadow" style="background:var(--color-bg);border:1px solid var(--color-border-warm);text-decoration:none;display:block">
-            <span style="font-size:1.5rem;display:block;margin-bottom:var(--space-3)">{item.icon}</span>
-            <p class="font-sans font-bold text-sm mb-1" style="color:var(--color-heading)">{item.label}</p>
-            <p class="font-sans text-xs leading-relaxed" style="color:var(--color-muted)">{item.desc}</p>
+          <a href={item.href} class="about-explore-card rounded-2xl p-5 hover:shadow-md transition-shadow">
+            <span class="about-emoji-md">{item.icon}</span>
+            <p class="about-heading-color font-sans font-bold text-sm mb-1">{item.label}</p>
+            <p class="about-lead font-sans text-xs leading-relaxed">{item.desc}</p>
           </a>
         ))}
       </div>
@@ -195,13 +196,13 @@ const breadcrumbLd = JSON.stringify({
 
     <!-- Contact CTA -->
     <section class="text-center">
-      <h2 class="font-display text-2xl font-bold mb-3" style="font-family:var(--font-serif);color:var(--color-heading)">
+      <h2 class="about-serif-heading font-display text-2xl font-bold mb-3">
         Questions or feedback?
       </h2>
-      <p class="font-sans text-base mb-6" style="color:var(--color-muted)">
+      <p class="about-lead font-sans text-base mb-6">
         We read every message. If you've spotted an error, have a product suggestion, or want to tell us about your dog, we'd love to hear from you.
       </p>
-      <a href="/contact" class="inline-block font-sans font-bold text-sm px-8 py-3 rounded-xl text-white btn-bark" style="background:linear-gradient(135deg,var(--color-accent),var(--color-accent-hover))">
+      <a href="/contact" class="about-cta-btn inline-block font-sans font-bold text-sm px-8 py-3 rounded-xl text-white btn-bark">
         Get in touch →
       </a>
     </section>

@@ -1,0 +1,67 @@
+/* ── About page ──────────────────────────────────────────────────────── */
+
+.about-hero {
+  background: linear-gradient(to bottom, var(--color-surface-warm), var(--color-bg-soft));
+  border-bottom: 1px solid var(--color-border-warm);
+}
+
+.about-breadcrumb      { color: var(--color-subtle); }
+.about-breadcrumb-link { color: var(--color-accent); }
+.about-breadcrumb-current { color: var(--color-body-soft); }
+
+.about-badge {
+  background: var(--color-accent);
+  color: white;
+}
+
+.about-serif-heading {
+  font-family: var(--font-serif);
+  color: var(--color-heading);
+}
+
+.about-lead   { color: var(--color-muted); }
+.about-body   { color: var(--color-body-soft); }
+.about-accent { color: var(--color-accent); }
+.about-primary-color { color: var(--color-primary); }
+.about-heading-color { color: var(--color-heading); }
+
+.about-stats-panel {
+  background: linear-gradient(135deg, var(--color-surface-warm), var(--color-warning-light));
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.about-emoji-xl  { font-size: 5rem; margin-bottom: 1rem; }
+.about-emoji-lg  { font-size: 1.75rem; margin-bottom: 0.75rem; }
+.about-emoji-md  { font-size: 1.5rem; display: block; margin-bottom: var(--space-3); }
+.about-emoji-sm  { font-size: 1.25rem; flex-shrink: 0; margin-top: 2px; }
+.about-emoji-disclosure { font-size: 2rem; flex-shrink: 0; }
+
+.about-stat-box   { background: var(--color-bg); }
+.about-stat-value { font-family: var(--font-serif); color: var(--color-accent); }
+
+.about-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-warm);
+}
+
+.about-section-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-warm);
+}
+
+.about-transparency {
+  background: linear-gradient(135deg, var(--color-warning-light), var(--color-bg-soft));
+  border: 2px solid var(--color-warning);
+}
+
+.about-explore-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-warm);
+  text-decoration: none;
+  display: block;
+}
+
+.about-cta-btn {
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover));
+}
