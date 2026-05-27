@@ -26,7 +26,7 @@ const defaultVisibleCount = 48;
   <script type="application/ld+json" set:html={schema.breadcrumbLd} />
   <script type="application/ld+json" set:html={schema.collectionLd} />
 
-  <main class="breed-directory" data-breed-directory>
+  <div class="breed-directory" data-breed-directory>
     <BreedHubHero
       totalCount={counts.total}
       purebredCount={counts.purebred}
@@ -46,7 +46,7 @@ const defaultVisibleCount = 48;
     <BreedCollectionLinks links={collectionLinks} />
     <BreedOwnerPlanningLinks />
     <div class="sr-only" aria-live="assertive" id="breed-sr-announce"></div>
-  </main>
+  </div>
 
   <script define:vars={{ breedsJson: clientBreedsJson, defaultVisibleCount }}>
     const BREEDS = JSON.parse(breedsJson);

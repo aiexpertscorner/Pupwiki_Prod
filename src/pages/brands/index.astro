@@ -1,6 +1,6 @@
 ---
 import BaseLayout      from '../../layouts/BaseLayout.astro';
-import Breadcrumb      from '../../components/primitives/Breadcrumb.astro';
+import Breadcrumb      from '../../components/ui/Breadcrumb.astro';
 import CommercePlacement from '../../components/commerce/CommercePlacement.astro';
 import brandsData      from '../../data/brands.json';
 
@@ -35,7 +35,7 @@ const breadcrumbLd = {
 <!-- Hero band -->
 <div class="brands-hero-band">
   <div class="container">
-    <Breadcrumb crumbs={[{ label: 'Home', href: '/' }, { label: 'Brands' }]} />
+    <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Brands' }]} />
 
     <h1 class="brands-hero-title">Dog Brand Directory</h1>
     <p class="brands-hero-desc">

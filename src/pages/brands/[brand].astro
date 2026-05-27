@@ -1,6 +1,6 @@
 ---
 import BaseLayout        from '../../layouts/BaseLayout.astro';
-import Breadcrumb        from '../../components/primitives/Breadcrumb.astro';
+import Breadcrumb        from '../../components/ui/Breadcrumb.astro';
 import brandsData        from '../../data/brands.json';
 import productIndex      from '../../data/product-index.json';
 import masterBreeds      from '../../data/master-breeds.json';
@@ -72,7 +72,7 @@ const categoryLinks = [
 <!-- Hero band -->
 <div class="brand-hero-band">
   <div class="container">
-    <Breadcrumb crumbs={[
+    <Breadcrumb items={[
       { label: 'Home',   href: '/' },
       { label: 'Brands', href: '/brands' },
       { label: brand.name },
@@ -141,7 +141,7 @@ const categoryLinks = [
   <div class="brand-layout">
 
     <!-- Main column -->
-    <main class="brand-main stack">
+    <div class="brand-main stack">
 
       <!-- Products -->
       {brandProducts.length > 0 && (
@@ -251,7 +251,7 @@ const categoryLinks = [
         variant="grid"
       />
 
-    </main>
+    </div>
 
     <!-- Sidebar -->
     <aside class="brand-sidebar">

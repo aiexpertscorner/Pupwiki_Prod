@@ -1,6 +1,6 @@
 ---
 import BaseLayout  from '../layouts/BaseLayout.astro';
-import Breadcrumb  from '../components/primitives/Breadcrumb.astro';
+import Breadcrumb  from '../components/ui/Breadcrumb.astro';
 
 const CONTACT_EMAIL = 'hello@pupwiki.com';
 
@@ -59,10 +59,10 @@ const breadcrumbLd = JSON.stringify({
   pageType="website"
 >
 <script type="application/ld+json" set:html={breadcrumbLd} />
-  <main class="contact-page">
+  <div class="contact-page">
     <section class="contact-hero" aria-labelledby="contact-title">
       <div class="contact-container">
-        <Breadcrumb crumbs={[{ label: 'Home', href: '/' }, { label: 'Contact' }]} />
+        <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Contact' }]} />
 
         <p class="contact-eyebrow">Contact PupWiki</p>
 
@@ -172,7 +172,7 @@ const breadcrumbLd = JSON.stringify({
         </div>
       </div>
     </section>
-  </main>
+  </div>
 
   <script>
     document.querySelectorAll('[data-copy-email]').forEach((button) => {
