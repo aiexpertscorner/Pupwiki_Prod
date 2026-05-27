@@ -87,7 +87,7 @@
   overflow: hidden;
   border: 1px solid var(--color-border-accent);
   border-radius: var(--radius-3xl);
-  background: radial-gradient(circle at 92% 8%, rgba(255, 122, 0, 0.12), transparent 14rem), var(--color-surface);
+  background: radial-gradient(circle at 92% 8%, var(--color-accent-opacity-12), transparent 14rem), var(--color-surface);
   box-shadow: var(--shadow-card);
 }
 

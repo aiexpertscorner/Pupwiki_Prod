@@ -7,8 +7,8 @@
 .category-hub {
   overflow-x: clip;
   background:
-    radial-gradient(circle at 92% 3%, rgba(255, 122, 0, 0.1), transparent 24rem),
-    radial-gradient(circle at 4% 6%, rgba(21, 54, 95, 0.08), transparent 22rem),
+    radial-gradient(circle at 92% 3%, var(--color-accent-opacity-10), transparent 24rem),
+    radial-gradient(circle at 4% 6%, var(--color-primary-opacity-08), transparent 22rem),
     var(--color-bg);
   color: var(--color-body);
 }
@@ -24,7 +24,7 @@
 .category-hub__hero {
   border-bottom: 1px solid var(--color-border);
   background:
-    linear-gradient(180deg, rgba(255, 250, 243, 0.98) 0%, rgba(255, 255, 255, 0.96) 82%);
+    linear-gradient(180deg, var(--color-surface-warm-98) 0%, rgba(255, 255, 255, 0.96) 82%);
 }
 
 .category-hub__hero .category-hub__container {
@@ -189,7 +189,7 @@
   place-items: center;
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: var(--radius-2xl);
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--color-white-opacity-12);
   font-size: 2rem;
 }
 
@@ -277,7 +277,7 @@
 .category-hub__section--soft {
   border-block: 1px solid var(--color-border);
   background:
-    radial-gradient(circle at 88% 10%, rgba(255, 122, 0, 0.08), transparent 18rem),
+    radial-gradient(circle at 88% 10%, var(--color-accent-opacity-08), transparent 18rem),
     var(--color-bg-muted);
 }
 
@@ -897,3 +897,773 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ── categories/beds.astro ──────────────────────────────────────────── */
+  /* ── Methodology grid: 1-col mobile → 2-col tablet → 4-col desktop ── */
+  .beds-method-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 640px) {
+    .beds-method-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .beds-method-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* ── Resource strip ──────────────────────────────────────── */
+  .beds-resource-strip {
+    background: var(--color-bg);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .beds-resource-strip {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .beds-resource-strip {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .beds-resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .beds-resource-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .beds-resource-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .beds-resource-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-border-strong);
+  }
+
+  .beds-resource-card__eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .beds-resource-card strong {
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+  }
+
+  .beds-resource-card p {
+    margin: 0;
+    flex: 1;
+    color: var(--color-body-soft);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .beds-resource-card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    margin-top: var(--space-2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .beds-resource-card {
+      transition: none;
+    }
+
+    .beds-resource-card:hover {
+      transform: none;
+    }
+  }
+
+/* ── categories/dog-food.astro ──────────────────────────────────────────── */
+  /* ── Resource strip ──────────────────────────────────────── */
+  .dog-food-resource-strip {
+    background: var(--color-bg);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .dog-food-resource-strip {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .dog-food-resource-strip {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .dog-food-resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .dog-food-resource-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .dog-food-resource-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .dog-food-resource-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-border-strong);
+  }
+
+  .dog-food-resource-card__eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .dog-food-resource-card strong {
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+  }
+
+  .dog-food-resource-card p {
+    margin: 0;
+    flex: 1;
+    color: var(--color-body-soft);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .dog-food-resource-card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    margin-top: var(--space-2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .dog-food-resource-card {
+      transition: none;
+    }
+
+    .dog-food-resource-card:hover {
+      transform: none;
+    }
+  }
+
+/* ── categories/grooming.astro ──────────────────────────────────────────── */
+  /* ── Methodology grid: 1-col mobile → 2-col tablet → 4-col desktop ── */
+  .grooming-method-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 640px) {
+    .grooming-method-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .grooming-method-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* ── Resource strip ──────────────────────────────────────── */
+  .grooming-resource-strip {
+    background: var(--color-bg);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .grooming-resource-strip {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .grooming-resource-strip {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .grooming-resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .grooming-resource-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .grooming-resource-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .grooming-resource-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-border-strong);
+  }
+
+  .grooming-resource-card__eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .grooming-resource-card strong {
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+  }
+
+  .grooming-resource-card p {
+    margin: 0;
+    flex: 1;
+    color: var(--color-body-soft);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .grooming-resource-card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    margin-top: var(--space-2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .grooming-resource-card {
+      transition: none;
+    }
+
+    .grooming-resource-card:hover {
+      transform: none;
+    }
+  }
+
+/* ── categories/health.astro ──────────────────────────────────────────── */
+  /* ── Methodology grid: 1-col mobile → 2-col tablet → 4-col desktop ── */
+  .health-method-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 640px) {
+    .health-method-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .health-method-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* ── Resource strip ──────────────────────────────────────── */
+  .health-resource-strip {
+    background: var(--color-bg);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .health-resource-strip {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .health-resource-strip {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .health-resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .health-resource-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .health-resource-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .health-resource-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-border-strong);
+  }
+
+  .health-resource-card__eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .health-resource-card strong {
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+  }
+
+  .health-resource-card p {
+    margin: 0;
+    flex: 1;
+    color: var(--color-body-soft);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .health-resource-card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    margin-top: var(--space-2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .health-resource-card {
+      transition: none;
+    }
+
+    .health-resource-card:hover {
+      transform: none;
+    }
+  }
+
+/* ── categories/lifestyle.astro ──────────────────────────────────────────── */
+  /* ── Methodology grid: 1-col mobile → 2-col tablet → 4-col desktop ── */
+  .lifestyle-method-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 640px) {
+    .lifestyle-method-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .lifestyle-method-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* ── Resource strip ──────────────────────────────────────── */
+  .lifestyle-resource-strip {
+    background: var(--color-bg);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .lifestyle-resource-strip {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .lifestyle-resource-strip {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .lifestyle-resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .lifestyle-resource-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .lifestyle-resource-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .lifestyle-resource-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-border-strong);
+  }
+
+  .lifestyle-resource-card__eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .lifestyle-resource-card strong {
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+  }
+
+  .lifestyle-resource-card p {
+    margin: 0;
+    flex: 1;
+    color: var(--color-body-soft);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .lifestyle-resource-card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    margin-top: var(--space-2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lifestyle-resource-card {
+      transition: none;
+    }
+
+    .lifestyle-resource-card:hover {
+      transform: none;
+    }
+  }
+
+/* ── categories/training.astro ──────────────────────────────────────────── */
+  /* ── Methodology grid: 2-col mobile → 4-col desktop ─────── */
+  .training-method-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 640px) {
+    .training-method-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .training-method-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .training-method-cta {
+    margin-top: var(--space-6);
+    text-align: center;
+  }
+
+  .training-method-cta a {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    text-decoration: none;
+  }
+
+  .training-method-cta a:hover {
+    text-decoration: underline;
+  }
+
+  /* ── Resource strip ──────────────────────────────────────── */
+  .training-resource-strip {
+    background: var(--color-bg);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .training-resource-strip {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .training-resource-strip {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .training-resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .training-resource-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .training-resource-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .training-resource-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-border-strong);
+  }
+
+  .training-resource-card__eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .training-resource-card strong {
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+  }
+
+  .training-resource-card p {
+    margin: 0;
+    flex: 1;
+    color: var(--color-body-soft);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+  }
+
+  .training-resource-card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+    margin-top: var(--space-2);
+  }
+
+  /* ── Also worth reading ──────────────────────────────────── */
+  .training-reads {
+    background: var(--color-bg-cool);
+    padding: var(--section-padding) var(--content-padding-mobile);
+  }
+
+  @media (min-width: 640px) {
+    .training-reads {
+      padding-inline: var(--content-padding);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .training-reads {
+      padding-inline: var(--content-padding-wide);
+    }
+  }
+
+  .training-reads__header {
+    margin-bottom: var(--space-8);
+  }
+
+  .training-reads__header h2 {
+    margin: var(--space-2) 0 0;
+    color: var(--color-heading);
+    font-family: var(--font-serif);
+    font-size: clamp(var(--text-xl), 3vw, var(--text-3xl));
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-tight);
+    letter-spacing: var(--tracking-snug);
+  }
+
+  .training-reads__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  @media (min-width: 640px) {
+    .training-reads__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .training-reads__grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .training-reads__card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .training-reads__card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: var(--color-primary);
+  }
+
+  .training-reads__card-eyebrow {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-bold);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+  }
+
+  .training-reads__card strong {
+    flex: 1;
+    color: var(--color-heading);
+    font-size: var(--text-base);
+    font-weight: var(--weight-bold);
+    line-height: var(--leading-snug);
+    letter-spacing: var(--tracking-snug);
+  }
+
+  .training-reads__card span {
+    color: var(--color-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-bold);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .training-resource-card,
+    .training-reads__card {
+      transition: none;
+    }
+
+    .training-resource-card:hover,
+    .training-reads__card:hover {
+      transform: none;
+    }
+  }

@@ -159,7 +159,7 @@
   .methodology-section--highlight {
     border-color: var(--color-border-accent);
     background:
-      radial-gradient(circle at 92% 10%, rgba(255, 122, 0, 0.12), transparent 18rem),
+      radial-gradient(circle at 92% 10%, var(--color-accent-opacity-12), transparent 18rem),
       rgba(255, 255, 255, 0.94);
   }
 

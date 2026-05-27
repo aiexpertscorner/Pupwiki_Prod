@@ -23,7 +23,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 80% 30%, rgba(255, 122, 0, 0.18), transparent 40rem);
+  background: radial-gradient(circle at 80% 30%, var(--color-accent-opacity-18), transparent 40rem);
   pointer-events: none;
 }
 
@@ -457,7 +457,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 15% 60%, rgba(255, 122, 0, 0.12), transparent 30rem);
+  background: radial-gradient(circle at 15% 60%, var(--color-accent-opacity-12), transparent 30rem);
   pointer-events: none;
 }
 
