@@ -7,7 +7,7 @@
   border: 1px solid var(--color-border-accent);
   border-radius: var(--radius-3xl);
   background:
-    radial-gradient(circle at 94% 8%, rgba(255, 122, 0, 0.1), transparent 18rem),
+    radial-gradient(circle at 94% 8%, var(--color-accent-opacity-10), transparent 18rem),
     rgba(255, 255, 255, 0.94);
   padding: var(--space-5);
   box-shadow: var(--shadow-card);
@@ -87,7 +87,7 @@
   overflow: hidden;
   border: 1px solid var(--color-border-accent);
   border-radius: var(--radius-3xl);
-  background: radial-gradient(circle at 92% 8%, rgba(255, 122, 0, 0.12), transparent 14rem), var(--color-surface);
+  background: radial-gradient(circle at 92% 8%, var(--color-accent-opacity-12), transparent 14rem), var(--color-surface);
   box-shadow: var(--shadow-card);
 }
 
@@ -227,20 +227,20 @@
 
 /* ── Amazon slots ────────────────────────────────────────────── */
 .amazon-slot {
-  --amz-border: rgba(255, 153, 0, 0.32);
-  --amz-label-bg: #fff8e8;
-  --amz-label-border: rgba(255, 153, 0, 0.34);
-  --amz-label-text: #8a5300;
-  --amz-search-border: rgba(255, 153, 0, 0.36);
-  --amz-search-bg-end: #fff8e8;
-  --amz-source-bg: #fff3d1;
+  --amz-border: var(--color-amazon-border);
+  --amz-label-bg: var(--color-amazon-label-bg);
+  --amz-label-border: var(--color-amazon-label-border);
+  --amz-label-text: var(--color-amazon-text);
+  --amz-search-border: var(--color-amazon-search-border);
+  --amz-search-bg-end: var(--color-amazon-label-bg);
+  --amz-source-bg: var(--color-amazon-source-bg);
 
   display: grid;
   gap: var(--space-4);
   min-width: 0;
   border: 1px solid var(--amz-border);
   border-radius: var(--radius-3xl);
-  background: radial-gradient(circle at 94% 10%, rgba(255, 153, 0, 0.16), transparent 14rem),
+  background: radial-gradient(circle at 94% 10%, var(--color-amazon-border), transparent 14rem),
     linear-gradient(180deg, var(--color-surface) 0%, var(--color-bg-muted) 100%);
   padding: var(--space-5);
   box-shadow: var(--shadow-card);

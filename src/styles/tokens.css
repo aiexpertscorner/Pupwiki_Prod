@@ -408,4 +408,39 @@
   --transition-slow: 240ms ease;
   --transition-hover: all 220ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-smooth: all 320ms cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* ── Brand opacity variants (gradients, decorative overlays) ────── */
+  --color-accent-opacity-06: rgba(255, 122, 0, 0.06);
+  --color-accent-opacity-08: rgba(255, 122, 0, 0.08);
+  --color-accent-opacity-10: rgba(255, 122, 0, 0.10);
+  --color-accent-opacity-12: rgba(255, 122, 0, 0.12);
+  --color-accent-opacity-15: rgba(255, 122, 0, 0.15);
+  --color-accent-opacity-18: rgba(255, 122, 0, 0.18);
+  --color-accent-opacity-20: rgba(255, 122, 0, 0.20);
+  --color-accent-opacity-45: rgba(255, 122, 0, 0.45);
+  --color-primary-opacity-06: rgba(21, 54, 95, 0.06);
+  --color-primary-opacity-08: rgba(21, 54, 95, 0.08);
+  --color-primary-opacity-10: rgba(21, 54, 95, 0.10);
+  --color-primary-opacity-12: rgba(21, 54, 95, 0.12);
+  --color-primary-opacity-20: rgba(21, 54, 95, 0.20);
+  --color-primary-opacity-25: rgba(21, 54, 95, 0.25);
+  --color-primary-opacity-28: rgba(21, 54, 95, 0.28);
+  --color-surface-warm-92: rgba(255, 250, 243, 0.92);
+  --color-surface-warm-96: rgba(255, 250, 243, 0.96);
+  --color-surface-warm-98: rgba(255, 250, 243, 0.98);
+  --color-lime-opacity-30: rgba(204, 255, 0, 0.30);
+  --color-white-opacity-12: rgba(255, 255, 255, 0.12);
+  --color-white-opacity-20: rgba(255, 255, 255, 0.20);
+
+  /* ── Amazon color cluster ───────────────────────────────────────── */
+  --color-amazon-label-bg: #fff8e8;
+  --color-amazon-label-border: rgba(255, 153, 0, 0.34);
+  --color-amazon-text: #8a5300;
+  --color-amazon-source-bg: #fff3d1;
+  --color-amazon-border: rgba(255, 153, 0, 0.32);
+  --color-amazon-search-border: rgba(255, 153, 0, 0.36);
+
+  /* ── Link decoration ────────────────────────────────────────────── */
+  --color-primary-decoration: rgba(21, 54, 95, 0.28);
+  --color-cta-decoration: rgba(194, 65, 12, 0.42);
 }

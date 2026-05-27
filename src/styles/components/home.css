@@ -40,7 +40,7 @@
 
 .journey-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(21, 54, 95, 0.2);
+  border-color: var(--color-primary-opacity-20);
   box-shadow: var(--shadow-card-hover);
 }
 
@@ -164,7 +164,7 @@
   gap: var(--space-5);
   padding: var(--space-6);
   border-radius: var(--radius-3xl);
-  border: 1px solid rgba(21, 54, 95, 0.12);
+  border: 1px solid var(--color-primary-opacity-12);
   background: var(--gradient-cool-card);
   box-shadow: var(--shadow-card);
 }
@@ -199,7 +199,7 @@
   overflow: hidden;
   background:
     radial-gradient(circle at 86% 8%, rgba(255, 122, 0, 0.16), transparent min(24rem, 70vw)),
-    radial-gradient(circle at 6% 0%, rgba(21, 54, 95, 0.1), transparent min(22rem, 72vw)),
+    radial-gradient(circle at 6% 0%, var(--color-primary-opacity-10), transparent min(22rem, 72vw)),
     linear-gradient(180deg, var(--color-bg-warm) 0%, var(--color-bg) 78%);
 }
 
@@ -209,7 +209,7 @@
   inset: auto -8rem -13rem -8rem;
   z-index: -1;
   height: 18rem;
-  background: linear-gradient(90deg, rgba(255, 122, 0, 0.1), rgba(21, 54, 95, 0.07), rgba(255, 122, 0, 0.08));
+  background: linear-gradient(90deg, var(--color-accent-opacity-10), rgba(21, 54, 95, 0.07), var(--color-accent-opacity-08));
   filter: blur(52px);
   pointer-events: none;
 }

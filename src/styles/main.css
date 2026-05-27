@@ -91,14 +91,14 @@
 .prose a {
   color: var(--color-link);
   text-decoration: underline;
-  text-decoration-color: rgba(21, 54, 95, 0.28);
+  text-decoration-color: var(--color-primary-decoration);
   text-underline-offset: 3px;
   transition: color var(--transition-base), text-decoration-color var(--transition-base);
 }
 
 .prose a:hover {
   color: var(--color-link-hover);
-  text-decoration-color: rgba(194, 65, 12, 0.42);
+  text-decoration-color: var(--color-cta-decoration);
 }
 
 .prose strong {

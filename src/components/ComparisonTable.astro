@@ -3,12 +3,12 @@ export interface Product { name:string; asin:string; price?:number; rating?:numb
 export interface Props { products: Product[]; columns?: string[]; tag?: string; }
 const { products, columns = ['PRODUCT','PRICE','RATING','VERDICT','LINK'], tag = "aiexpertscorn-20" } = Astro.props;
 ---
-<div style="overflow-x:auto;margin:2rem 0;border:2px solid rgba(255,255,255,0.12)">
+<div style="overflow-x:auto;margin:2rem 0;border:2px solid var(--color-white-opacity-12)">
   <table style="width:100%;border-collapse:collapse;font-family:'Barlow Condensed',sans-serif;font-size:.9rem">
     <thead>
       <tr>
         {columns.map(c => (
-          <th style="text-align:left;padding:.6rem .9rem;font-family:'Archivo Black',sans-serif;font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;color:var(--lime);background:var(--concrete);border-bottom:2px solid rgba(204,255,0,.3);white-space:nowrap">
+          <th style="text-align:left;padding:.6rem .9rem;font-family:'Archivo Black',sans-serif;font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;color:var(--lime);background:var(--concrete);border-bottom:2px solid var(--color-lime-opacity-30);white-space:nowrap">
             {c}
           </th>
         ))}
