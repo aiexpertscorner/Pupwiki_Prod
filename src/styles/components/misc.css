@@ -14,12 +14,12 @@
 
 .callout--primary {
   background: var(--color-primary-subtle);
-  border-color: rgba(21, 54, 95, 0.15);
+  border-color: var(--color-primary-opacity-15);
 }
 
 .callout--accent {
   background: var(--color-accent-subtle);
-  border-color: rgba(255, 122, 0, 0.16);
+  border-color: var(--color-accent-opacity-16);
 }
 
 .callout--warm {
@@ -110,7 +110,7 @@
 .input:hover,
 .select:hover,
 .textarea:hover {
-  border-color: rgba(21, 54, 95, 0.26);
+  border-color: var(--color-primary-opacity-26);
 }
 
 .input:focus,

@@ -446,7 +446,7 @@
 .article-correction-card {
   margin-top: var(--space-6);
   background: var(--color-bg-cool);
-  border-color: rgba(21, 54, 95, 0.18);
+  border-color: var(--color-primary-opacity-18);
 }
 
 /* ── Sidebar (hidden on mobile, shown at 1024px) ─────────────── */

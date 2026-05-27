@@ -482,7 +482,7 @@
   transition: var(--transition-smooth);
 }
 .gp-tool-card:hover {
-  border-color: rgba(255, 122, 0, 0.4);
+  border-color: var(--color-accent-opacity-40);
   background: rgba(255, 255, 255, 0.1);
   transform: translateY(-2px);
 }

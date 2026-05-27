@@ -237,7 +237,7 @@
 .pw-name-field input:focus,
 .ng-filters__search:focus {
   outline: none;
-  border-color: rgba(21, 54, 95, 0.48);
+  border-color: var(--color-primary-opacity-48);
   box-shadow: var(--ring-primary), var(--shadow-sm);
 }
 
@@ -307,7 +307,7 @@
   padding: var(--space-6);
   border-bottom: 1px solid var(--color-border-soft);
   background:
-    radial-gradient(circle at 100% 0%, rgba(255,122,0,.12), transparent 16rem),
+    radial-gradient(circle at 100% 0%, var(--color-accent-opacity-12), transparent 16rem),
     var(--color-surface);
   color: var(--color-heading);
 }
@@ -523,7 +523,7 @@
 .pw-name-card:hover,
 .ng-card:hover,
 .ng-card.is-selected {
-  border-color: rgba(21, 54, 95, 0.24);
+  border-color: var(--color-primary-opacity-24);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
