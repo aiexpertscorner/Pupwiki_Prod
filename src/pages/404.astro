@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/pages/static-pages.css';
 ---
 
 <BaseLayout
@@ -24,74 +25,3 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </div>
   </div>
 </BaseLayout>
-
-<style>
-  .not-found {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 60vh;
-    padding: var(--space-12) var(--space-4);
-    text-align: center;
-  }
-
-  .not-found__inner {
-    max-width: 480px;
-  }
-
-  .not-found__eyebrow {
-    font-size: var(--text-5xl, 4rem);
-    font-weight: 800;
-    color: var(--color-accent);
-    line-height: 1;
-    margin: 0 0 var(--space-2);
-  }
-
-  .not-found__heading {
-    font-size: var(--text-3xl, 1.875rem);
-    font-weight: 700;
-    color: var(--color-text-primary);
-    margin: 0 0 var(--space-4);
-  }
-
-  .not-found__sub {
-    color: var(--color-text-muted);
-    margin: 0 0 var(--space-8);
-    line-height: 1.6;
-  }
-
-  .not-found__links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-3);
-    justify-content: center;
-  }
-
-  .not-found__btn {
-    display: inline-block;
-    padding: var(--space-2) var(--space-5);
-    border-radius: var(--radius-md, 0.5rem);
-    border: 2px solid var(--color-border);
-    color: var(--color-text-primary);
-    font-weight: 600;
-    text-decoration: none;
-    transition: border-color 0.15s, background 0.15s;
-  }
-
-  .not-found__btn:hover {
-    border-color: var(--color-accent);
-    color: var(--color-accent);
-  }
-
-  .not-found__btn--primary {
-    background: var(--color-accent);
-    border-color: var(--color-accent);
-    color: #fff;
-  }
-
-  .not-found__btn--primary:hover {
-    background: var(--color-accent-hover);
-    border-color: var(--color-accent-hover);
-    color: #fff;
-  }
-</style>

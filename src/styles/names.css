@@ -21,8 +21,8 @@
 .dog-names,
 .dog-name-detail {
   background:
-    radial-gradient(circle at 86% 2%, rgba(255, 122, 0, 0.1), transparent 26rem),
-    radial-gradient(circle at 8% 0%, rgba(21, 54, 95, 0.08), transparent 24rem),
+    radial-gradient(circle at 86% 2%, var(--color-accent-opacity-10), transparent 26rem),
+    radial-gradient(circle at 8% 0%, var(--color-primary-opacity-08), transparent 24rem),
     linear-gradient(180deg, var(--color-bg-soft) 0%, var(--color-bg) 38rem);
   color: var(--color-body);
 }
@@ -103,7 +103,7 @@
 .ng-breed-hero {
   position: relative;
   overflow: hidden;
-  border-bottom: 1px solid rgba(21, 54, 95, 0.08);
+  border-bottom: 1px solid var(--color-primary-opacity-08);
   background: transparent;
   padding: 0;
 }
@@ -294,7 +294,7 @@
 .ng-shortlist,
 .ng-cta {
   overflow: hidden;
-  border: 1px solid rgba(21, 54, 95, 0.12);
+  border: 1px solid var(--color-primary-opacity-12);
   border-radius: var(--radius-3xl);
   background: linear-gradient(145deg, rgba(255,255,255,.98), rgba(255,253,248,.94));
   box-shadow: var(--shadow-xl);
@@ -435,7 +435,7 @@
 .ng-page-btn:hover,
 .ng-chip:hover,
 .ng-cta__btn:hover {
-  border-color: rgba(21, 54, 95, 0.28);
+  border-color: var(--color-primary-decoration);
   background: var(--color-primary-subtle);
   color: var(--color-primary-hover);
   transform: translateY(-1px);
@@ -1199,8 +1199,8 @@
 /* Extracted from [breed].astro <style> block for global token compliance */
 .dog-name-detail {
   background:
-    radial-gradient(circle at 88% 4%, rgba(255, 122, 0, 0.1), transparent 24rem),
-    radial-gradient(circle at 8% 2%, rgba(21, 54, 95, 0.08), transparent 22rem),
+    radial-gradient(circle at 88% 4%, var(--color-accent-opacity-10), transparent 24rem),
+    radial-gradient(circle at 8% 2%, var(--color-primary-opacity-08), transparent 22rem),
     var(--color-bg);
   color: var(--color-body);
 }
@@ -2324,7 +2324,7 @@
   pointer-events: none;
 }
 .ng-card__name--skeleton {
-  background: rgba(21, 54, 95, 0.08);
+  background: var(--color-primary-opacity-08);
   color: transparent;
   border-radius: var(--radius-sm);
 }

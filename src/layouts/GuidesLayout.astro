@@ -11,6 +11,7 @@ import CommercePlacement from '../components/commerce/CommercePlacement.astro';
 import MonetizationRail from '../components/affiliate/MonetizationRail.astro';
 import AwinOfferPlacement from '../components/affiliate/AwinOfferPlacement.astro';
 import MethodologyNote from '../components/guides/MethodologyNote.astro';
+import AdSlot from '../components/primitives/AdSlot.astro';
 import '../styles/pages/article.css';
 
 export interface Props {
@@ -239,18 +240,7 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
 
             <slot />
 
-            {showAds && (
-              <div class="ad-slot not-prose" aria-hidden="true">
-                <ins class="adsbygoogle"
-                  style="display:block; min-height:90px; width:100%"
-                  data-ad-client={ADSENSE_CLIENT}
-                  data-ad-slot="auto"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"
-                ></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-              </div>
-            )}
+            {showAds && <AdSlot client={ADSENSE_CLIENT} />}
 
             <div class="article-tool-cta not-prose">
               <div class="article-tool-cta__icon" aria-hidden="true">🐾</div>
@@ -342,18 +332,7 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
 
               <slot name="sidebar" />
 
-              {showAds && (
-                <div class="ad-slot" aria-hidden="true" style="margin-top:var(--space-4)">
-                  <ins class="adsbygoogle"
-                    style="display:block; min-height:90px; width:100%"
-                    data-ad-client={ADSENSE_CLIENT}
-                    data-ad-slot="auto"
-                    data-ad-format="auto"
-                    data-full-width-responsive="true"
-                  ></ins>
-                  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-                </div>
-              )}
+              {showAds && <AdSlot client={ADSENSE_CLIENT} variant="sidebar" />}
             </div>
           </aside>
         </div>
