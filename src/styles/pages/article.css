@@ -768,7 +768,7 @@
   line-height: var(--leading-relaxed);
 }
 
-/* Custom sidebar card (used in blog slot) */
+/* Custom sidebar card (used in guide sidebar slot) */
 .article-custom-sidebar-card {
   border: 1px solid var(--card-border);
   border-radius: var(--radius-3xl);

@@ -216,7 +216,7 @@
   --color-category-breeds-border: var(--cat-breeds-border);
   --color-category-breeds-text: var(--cat-breeds-text);
 
-  /* Category pill colors (blog/article category badges) */
+  /* Category pill colors (guide/article category badges) */
   --color-pill-food-bg: #fef3c7;
   --color-pill-food-text: #92400e;
   --color-pill-food-border: rgba(146, 64, 14, 0.18);

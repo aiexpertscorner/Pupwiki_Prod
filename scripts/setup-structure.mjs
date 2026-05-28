@@ -66,7 +66,7 @@ const DIRS = [
   'src/components/names',
   'src/styles/layouts',
   'src/styles/components',
-  'src/pages/blog',
+  'src/pages/guides',
   'src/pages/categories',
   'src/pages/breeds',
   'src/pages/dog-names',

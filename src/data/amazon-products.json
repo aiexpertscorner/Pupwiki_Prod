@@ -24,7 +24,7 @@
     "targetPageSlugs": [
       "/categories/grooming",
       "/breeds/[breed]",
-      "/blog/dog-grooming-checklist"
+      "/guides/dog-grooming-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -58,7 +58,7 @@
       "/categories/toys",
       "/categories/training",
       "/breeds/[breed]",
-      "/blog/bored-dog"
+      "/guides/bored-dog"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -90,7 +90,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/training",
-      "/blog/crate-training",
+      "/guides/crate-training",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -157,7 +157,7 @@
     ],
     "targetPageSlugs": [
       "/categories/puppy",
-      "/blog/new-puppy-checklist",
+      "/guides/new-puppy-checklist",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -192,7 +192,7 @@
       "/categories/toys",
       "/categories/training",
       "/breeds/[breed]",
-      "/blog/bored-dog"
+      "/guides/bored-dog"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -226,7 +226,7 @@
       "/categories/training",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -293,7 +293,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/home",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -326,7 +326,7 @@
     "targetPageSlugs": [
       "/categories/grooming",
       "/breeds/[breed]",
-      "/blog/dog-grooming-checklist"
+      "/guides/dog-grooming-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -360,7 +360,7 @@
       "/categories/travel",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/travel-with-dogs"
+      "/guides/travel-with-dogs"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -392,7 +392,7 @@
     ],
     "targetPageSlugs": [
       "/categories/training",
-      "/blog/puppy-training",
+      "/guides/puppy-training",
       "/breeds/[breed]",
       "/dog-names/[breed]"
     ],
@@ -428,7 +428,7 @@
       "/categories/training",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -461,7 +461,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/home",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -493,7 +493,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/training",
-      "/blog/crate-training",
+      "/guides/crate-training",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -526,7 +526,7 @@
     ],
     "targetPageSlugs": [
       "/categories/puppy",
-      "/blog/new-puppy-checklist",
+      "/guides/new-puppy-checklist",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -561,7 +561,7 @@
       "/categories/toys",
       "/categories/training",
       "/breeds/[breed]",
-      "/blog/bored-dog"
+      "/guides/bored-dog"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -593,7 +593,7 @@
     ],
     "targetPageSlugs": [
       "/categories/training",
-      "/blog/puppy-training",
+      "/guides/puppy-training",
       "/breeds/[breed]",
       "/dog-names/[breed]"
     ],
@@ -629,7 +629,7 @@
       "/categories/training",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -662,7 +662,7 @@
     "targetPageSlugs": [
       "/categories/grooming",
       "/breeds/[breed]",
-      "/blog/dog-grooming-checklist"
+      "/guides/dog-grooming-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -695,7 +695,7 @@
     "targetPageSlugs": [
       "/categories/gear",
       "/categories/travel",
-      "/blog/dog-tech"
+      "/guides/dog-tech"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -762,7 +762,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/home",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -794,7 +794,7 @@
     ],
     "targetPageSlugs": [
       "/categories/puppy",
-      "/blog/new-puppy-checklist",
+      "/guides/new-puppy-checklist",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -827,7 +827,7 @@
     ],
     "targetPageSlugs": [
       "/categories/training",
-      "/blog/puppy-training",
+      "/guides/puppy-training",
       "/breeds/[breed]",
       "/dog-names/[breed]"
     ],
@@ -928,7 +928,7 @@
       "/categories/toys",
       "/categories/training",
       "/breeds/[breed]",
-      "/blog/bored-dog"
+      "/guides/bored-dog"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1024,7 +1024,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/home",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1057,7 +1057,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/home",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1124,7 +1124,7 @@
     "targetPageSlugs": [
       "/categories/grooming",
       "/breeds/[breed]",
-      "/blog/dog-grooming-checklist"
+      "/guides/dog-grooming-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1157,7 +1157,7 @@
     "targetPageSlugs": [
       "/categories/gear",
       "/categories/travel",
-      "/blog/dog-tech"
+      "/guides/dog-tech"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1191,7 +1191,7 @@
       "/categories/toys",
       "/categories/training",
       "/breeds/[breed]",
-      "/blog/bored-dog"
+      "/guides/bored-dog"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1225,7 +1225,7 @@
       "/categories/travel",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/travel-with-dogs"
+      "/guides/travel-with-dogs"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1326,7 +1326,7 @@
     "targetPageSlugs": [
       "/categories/grooming",
       "/breeds/[breed]",
-      "/blog/dog-grooming-checklist"
+      "/guides/dog-grooming-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1391,7 +1391,7 @@
     "targetPageSlugs": [
       "/categories/gear",
       "/categories/travel",
-      "/blog/dog-tech"
+      "/guides/dog-tech"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1425,7 +1425,7 @@
       "/categories/travel",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/travel-with-dogs"
+      "/guides/travel-with-dogs"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1457,7 +1457,7 @@
     ],
     "targetPageSlugs": [
       "/categories/training",
-      "/blog/puppy-training",
+      "/guides/puppy-training",
       "/breeds/[breed]",
       "/dog-names/[breed]"
     ],
@@ -1558,7 +1558,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/home",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1590,7 +1590,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/training",
-      "/blog/crate-training",
+      "/guides/crate-training",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -1658,7 +1658,7 @@
     "targetPageSlugs": [
       "/categories/grooming",
       "/breeds/[breed]",
-      "/blog/dog-grooming-checklist"
+      "/guides/dog-grooming-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1722,7 +1722,7 @@
     ],
     "targetPageSlugs": [
       "/categories/puppy",
-      "/blog/new-puppy-checklist",
+      "/guides/new-puppy-checklist",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -1757,7 +1757,7 @@
       "/categories/toys",
       "/categories/training",
       "/breeds/[breed]",
-      "/blog/bored-dog"
+      "/guides/bored-dog"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1791,7 +1791,7 @@
       "/categories/travel",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/travel-with-dogs"
+      "/guides/travel-with-dogs"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1823,7 +1823,7 @@
     ],
     "targetPageSlugs": [
       "/categories/training",
-      "/blog/puppy-training",
+      "/guides/puppy-training",
       "/breeds/[breed]",
       "/dog-names/[breed]"
     ],
@@ -1859,7 +1859,7 @@
       "/categories/training",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1893,7 +1893,7 @@
       "/categories/training",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -1925,7 +1925,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/training",
-      "/blog/crate-training",
+      "/guides/crate-training",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -1993,7 +1993,7 @@
     "targetPageSlugs": [
       "/categories/grooming",
       "/breeds/[breed]",
-      "/blog/dog-grooming-checklist"
+      "/guides/dog-grooming-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2057,7 +2057,7 @@
     ],
     "targetPageSlugs": [
       "/categories/puppy",
-      "/blog/new-puppy-checklist",
+      "/guides/new-puppy-checklist",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -2091,7 +2091,7 @@
     "targetPageSlugs": [
       "/categories/gear",
       "/categories/travel",
-      "/blog/dog-tech"
+      "/guides/dog-tech"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2125,7 +2125,7 @@
       "/categories/toys",
       "/categories/training",
       "/breeds/[breed]",
-      "/blog/bored-dog"
+      "/guides/bored-dog"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2159,7 +2159,7 @@
       "/categories/travel",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/travel-with-dogs"
+      "/guides/travel-with-dogs"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2191,7 +2191,7 @@
     ],
     "targetPageSlugs": [
       "/categories/training",
-      "/blog/puppy-training",
+      "/guides/puppy-training",
       "/breeds/[breed]",
       "/dog-names/[breed]"
     ],
@@ -2227,7 +2227,7 @@
       "/categories/training",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2294,7 +2294,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/home",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2326,7 +2326,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/training",
-      "/blog/crate-training",
+      "/guides/crate-training",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -2394,7 +2394,7 @@
     "targetPageSlugs": [
       "/categories/grooming",
       "/breeds/[breed]",
-      "/blog/dog-grooming-checklist"
+      "/guides/dog-grooming-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2458,7 +2458,7 @@
     ],
     "targetPageSlugs": [
       "/categories/puppy",
-      "/blog/new-puppy-checklist",
+      "/guides/new-puppy-checklist",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -2492,7 +2492,7 @@
     "targetPageSlugs": [
       "/categories/gear",
       "/categories/travel",
-      "/blog/dog-tech"
+      "/guides/dog-tech"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2526,7 +2526,7 @@
       "/categories/toys",
       "/categories/training",
       "/breeds/[breed]",
-      "/blog/bored-dog"
+      "/guides/bored-dog"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2560,7 +2560,7 @@
       "/categories/travel",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/travel-with-dogs"
+      "/guides/travel-with-dogs"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2592,7 +2592,7 @@
     ],
     "targetPageSlugs": [
       "/categories/training",
-      "/blog/puppy-training",
+      "/guides/puppy-training",
       "/breeds/[breed]",
       "/dog-names/[breed]"
     ],
@@ -2628,7 +2628,7 @@
       "/categories/training",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2694,7 +2694,7 @@
     "targetPageSlugs": [
       "/categories/puppy",
       "/categories/training",
-      "/blog/crate-training",
+      "/guides/crate-training",
       "/breeds/[breed]"
     ],
     "complianceRisk": "low",
@@ -2762,7 +2762,7 @@
     "targetPageSlugs": [
       "/categories/grooming",
       "/breeds/[breed]",
-      "/blog/dog-grooming-checklist"
+      "/guides/dog-grooming-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2828,7 +2828,7 @@
       "/categories/toys",
       "/categories/training",
       "/breeds/[breed]",
-      "/blog/bored-dog"
+      "/guides/bored-dog"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2862,7 +2862,7 @@
       "/categories/travel",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/travel-with-dogs"
+      "/guides/travel-with-dogs"
     ],
     "complianceRisk": "medium",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2896,7 +2896,7 @@
       "/categories/training",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/puppy-checklist"
+      "/guides/puppy-checklist"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",
@@ -2962,7 +2962,7 @@
       "/categories/travel",
       "/categories/gear",
       "/breeds/[breed]",
-      "/blog/travel-with-dogs"
+      "/guides/travel-with-dogs"
     ],
     "complianceRisk": "low",
     "complianceNotes": "Fill amazonAffiliateUrl with your own SiteStripe text link. Do not show price, rating, review count, Prime badge, or Amazon images unless sourced through an Amazon-approved method/PA-API or current SiteStripe rules allow it. Add a clear affiliate disclosure near the slot.",

@@ -2,7 +2,7 @@
 /**
  * scripts/content/fix-duplicate-fm-keys.mjs
  *
- * Scans all blog .md files for duplicate YAML frontmatter keys and repairs them.
+ * Scans all guide .md files for duplicate YAML frontmatter keys and repairs them.
  * Keeps the LAST occurrence of each duplicate key (most recently appended value wins).
  * Only rewrites files that actually have duplicates.
  *
@@ -16,7 +16,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
+const GUIDES_DIR = path.join(ROOT, 'src', 'content', 'guides');
 const APPLY = process.argv.includes('--apply');
 
 function parseFm(text) {
@@ -47,12 +47,12 @@ function hasDuplicates(raw) {
   return new Set(keys).size !== keys.length;
 }
 
-const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith('.md'));
+const files = fs.readdirSync(GUIDES_DIR).filter((f) => f.endsWith('.md'));
 let fixed = 0;
 let clean = 0;
 
 for (const file of files) {
-  const filePath = path.join(BLOG_DIR, file);
+  const filePath = path.join(GUIDES_DIR, file);
   const text = fs.readFileSync(filePath, 'utf8');
   const parsed = parseFm(text);
   if (!parsed) { clean++; continue; }

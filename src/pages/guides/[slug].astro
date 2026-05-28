@@ -1,7 +1,6 @@
 ---
 /**
  * src/pages/guides/[slug].astro — PupWiki guide article route
- * Migrated from /blog/[slug] — canonical URLs now use /guides/[slug].
  */
 
 import { getCollection } from 'astro:content';
@@ -80,7 +79,7 @@ const showCommercialMidContent = false;
 const showProductRoundupCommerce = ['product-roundup', 'comparison'].includes(normalize(fm.postType)) && !hasUnsafeCommerceTag;
 
 // Amazon contextual text links — subtle, search-only, no PA API data
-const isIndexable = !(fm.noIndex === true || (fm.generated === true && fm.indexInBlog === false));
+const isIndexable = !(fm.noIndex === true || (fm.generated === true && fm.indexInGuides === false));
 const postTypeKey = normalize(fm.postType || 'general').replace(/[^a-z-]/g, '');
 const isHeavyCommercePage = ['product-roundup', 'comparison', 'review', 'ranking'].includes(postTypeKey);
 const pageIntent = getAmazonPageIntent({
@@ -263,7 +262,7 @@ const relatedToolLinks = [
   breedSize={breed?.size_category}
   breedEnergy={breed?.energy_level}
   breedCoat={breed?.coat_type}
-  noIndex={fm.noIndex === true || (fm.generated === true && fm.indexInBlog === false)}
+  noIndex={fm.noIndex === true || (fm.generated === true && fm.indexInGuides === false)}
 >
   {isGeneratedSupport && (
     <aside class="article-support-note not-prose" aria-label="Support content note">

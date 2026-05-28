@@ -2,7 +2,7 @@ import { readFileSync, readdirSync, statSync } from 'fs';
 import { join } from 'path';
 import { CLAIM_RULES } from './claim-rules.mjs';
 
-const CONTENT_DIR = new URL('../../src/content/blog/', import.meta.url).pathname;
+const CONTENT_DIR = new URL('../../src/content/guides/', import.meta.url).pathname;
 
 function walkDir(dir) {
   const entries = readdirSync(dir);

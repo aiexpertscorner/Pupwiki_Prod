@@ -2,7 +2,7 @@
 /**
  * scripts/content/backfill-schema-types.mjs
  *
- * Sets schemaType frontmatter field on blog posts that don't have it,
+ * Sets schemaType frontmatter field on guide posts that don't have it,
  * based on postType.
  *
  * Rules:
@@ -20,7 +20,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
+const GUIDES_DIR = path.join(ROOT, 'src', 'content', 'guides');
 const APPLY = process.argv.includes('--apply');
 
 // Valid schemaType values per config.ts: Article | FAQPage | HowTo | Review
@@ -31,11 +31,11 @@ const POST_TYPE_MAP = {
 };
 const DEFAULT_SCHEMA = 'Article';
 
-const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith('.md'));
+const files = fs.readdirSync(GUIDES_DIR).filter((f) => f.endsWith('.md'));
 let updated = 0, skipped = 0;
 
 for (const file of files) {
-  const filePath = path.join(BLOG_DIR, file);
+  const filePath = path.join(GUIDES_DIR, file);
   const text = fs.readFileSync(filePath, 'utf8');
 
   if (!text.startsWith('---')) { skipped++; continue; }

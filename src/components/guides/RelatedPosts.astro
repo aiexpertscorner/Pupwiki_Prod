@@ -17,7 +17,7 @@ function score(post: any): number {
   if (post.slug === currentSlug) return -1;
   if (post.data.noIndex) return -1;
   // Exclude generated support pages; include generated indexed pages (health guides etc.)
-  if (post.data.generated && post.data.indexInBlog === false) return -1;
+  if (post.data.generated && post.data.indexInGuides === false) return -1;
   let s = 0;
   if (breedSlug && post.data.breedSlug === breedSlug) s += 3;
   if (category && (post.data.category || '').toLowerCase() === category.toLowerCase()) s += 2;

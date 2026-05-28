@@ -2,7 +2,7 @@
 /**
  * scripts/qa-content.mjs
  *
- * Content quality audit for src/content/blog/.
+ * Content quality audit for src/content/guides/.
  * Run: node scripts/qa-content.mjs [--verbose]
  *
  * Checks:
@@ -21,7 +21,7 @@ import { createRequire } from 'module';
 
 const require = createRequire(import.meta.url);
 
-const BLOG_DIR  = resolve('src/content/blog');
+const GUIDES_DIR  = resolve('src/content/guides');
 const VERBOSE   = process.argv.includes('--verbose');
 const MAX_PAIRS = 50; // cap pair comparison at N posts to avoid O(n²) blowup
 
@@ -91,8 +91,8 @@ function extractIntro(content) {
 // ════════════════════════════════════════════════════════════════════
 
 async function run() {
-  const files = (await readdir(BLOG_DIR)).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
-  console.log(`\nQA audit — ${files.length} posts in ${BLOG_DIR}\n`);
+  const files = (await readdir(GUIDES_DIR)).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+  console.log(`\nQA audit — ${files.length} posts in ${GUIDES_DIR}\n`);
 
   const issues = { error: [], warning: [], info: [] };
   const add = (severity, file, msg) => issues[severity].push({ file, msg });
@@ -100,7 +100,7 @@ async function run() {
   const posts = [];
 
   for (const filename of files) {
-    const path    = join(BLOG_DIR, filename);
+    const path    = join(GUIDES_DIR, filename);
     const content = await readFile(path, 'utf8');
     const fm      = parseFrontmatter(content);
     const body    = content.replace(/^---[\s\S]*?---/, '');

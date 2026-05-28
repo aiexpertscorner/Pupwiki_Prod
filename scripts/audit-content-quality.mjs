@@ -2,7 +2,7 @@
 /**
  * Content Quality Gatekeeper
  *
- * Scans generated blog posts and flags pages below enrichment thresholds.
+ * Scans generated guide posts and flags pages below enrichment thresholds.
  * Run via: node scripts/audit-content-quality.mjs
  * In CI with BLOCK_THIN_CONTENT=1, exits non-zero to block the build.
  *
@@ -15,7 +15,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const BLOG_DIR = join(ROOT, 'src/content/blog');
+const GUIDES_DIR = join(ROOT, 'src/content/guides');
 
 // ── Thresholds ────────────────────────────────────────────────────
 const THRESHOLDS = {
@@ -120,17 +120,17 @@ function auditFile(filePath) {
 }
 
 // ── Main ──────────────────────────────────────────────────────────
-if (!existsSync(BLOG_DIR)) {
-  console.error(`Blog directory not found: ${BLOG_DIR}`);
+if (!existsSync(GUIDES_DIR)) {
+  console.error(`Guides directory not found: ${GUIDES_DIR}`);
   process.exit(1);
 }
 
-const files = readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
+const files = readdirSync(GUIDES_DIR).filter(f => f.endsWith('.md'));
 const failures = [];
 let audited = 0;
 
 for (const file of files) {
-  const result = auditFile(join(BLOG_DIR, file));
+  const result = auditFile(join(GUIDES_DIR, file));
   audited++;
   if (result) failures.push(result);
 }

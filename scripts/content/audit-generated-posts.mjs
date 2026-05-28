@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 
-const BLOG_DIR = new URL('../../src/content/blog/', import.meta.url).pathname;
+const GUIDES_DIR = new URL('../../src/content/guides/', import.meta.url).pathname;
 
 const UNSAFE_PATTERNS = [
   /vet[- ]guided/i, /vet[- ]tested/i, /vet[- ]approved/i,
@@ -40,7 +40,7 @@ function isLikelyGenerated(fm, slug) {
   return GENERATED_SIGNALS.some(p => p.test(slug) || p.test(fm.title || ''));
 }
 
-const files = readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
+const files = readdirSync(GUIDES_DIR).filter(f => f.endsWith('.md'));
 
 const stats = {
   total: 0, generated: 0, editorial: 0,
@@ -49,7 +49,7 @@ const stats = {
 };
 
 for (const file of files) {
-  const content = readFileSync(join(BLOG_DIR, file), 'utf8');
+  const content = readFileSync(join(GUIDES_DIR, file), 'utf8');
   const fm = parseFrontmatter(content);
   const slug = file.replace(/\.md$/, '');
 

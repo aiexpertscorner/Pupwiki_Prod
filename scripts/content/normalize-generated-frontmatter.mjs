@@ -11,7 +11,7 @@ import {
 } from '../lib/public-content-contract.mjs';
 
 const ROOT = process.cwd();
-const BLOG_DIR = resolve(ROOT, 'src/content/blog');
+const GUIDES_DIR = resolve(ROOT, 'src/content/guides');
 const APPLY = process.argv.includes('--apply');
 const STRICT = process.argv.includes('--strict');
 
@@ -52,7 +52,7 @@ function quote(value) {
   return `"${String(value ?? '').replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
 }
 
-const files = existsSync(BLOG_DIR) ? readdirSync(BLOG_DIR).filter((file) => file.endsWith('.md')) : [];
+const files = existsSync(GUIDES_DIR) ? readdirSync(GUIDES_DIR).filter((file) => file.endsWith('.md')) : [];
 const report = {
   apply: APPLY,
   scanned: 0,
@@ -61,7 +61,7 @@ const report = {
 };
 
 for (const filename of files) {
-  const path = join(BLOG_DIR, filename);
+  const path = join(GUIDES_DIR, filename);
   const original = readFileSync(path, 'utf8');
   const parsed = parseFrontmatter(original);
   if (!parsed) continue;

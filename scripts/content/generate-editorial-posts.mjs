@@ -7,7 +7,7 @@
  *
  * Usage:
  *   node scripts/content/generate-editorial-posts.mjs            # dry-run (shows what would be written)
- *   node scripts/content/generate-editorial-posts.mjs --apply    # write to src/content/blog/
+ *   node scripts/content/generate-editorial-posts.mjs --apply    # write to src/content/guides/
  *   node scripts/content/generate-editorial-posts.mjs --apply --only-existing
  *   node scripts/content/generate-editorial-posts.mjs --apply --only-scaffold
  *   node scripts/content/generate-editorial-posts.mjs --apply --force   # overwrite existing files
@@ -24,7 +24,7 @@ const REPO_ROOT = path.resolve(__dirname, '..', '..');
 
 // Default source directory for pre-written MD files — override with SOURCE_DIR env var
 const SOURCE_DIR = process.env.SOURCE_DIR || path.join(REPO_ROOT, 'scripts', 'content', 'editorial-source');
-const OUTPUT_DIR = path.join(REPO_ROOT, 'src', 'content', 'blog');
+const OUTPUT_DIR = path.join(REPO_ROOT, 'src', 'content', 'guides');
 const PIPELINE_FILE = path.join(REPO_ROOT, 'src', 'data', 'editorial-content-pipeline.json');
 const PUB_DATE = '2026-05-14';
 
@@ -125,7 +125,7 @@ function buildFrontmatter(topic) {
     postType: mapPostType(topic.content_type),
     schemaType: mapSchemaType(topic.content_type),
     contentTier: 'editorial',
-    indexInBlog: true,
+    indexInGuides: true,
     generated: false,
     reviewMethod: 'editorial-research',
     claimSensitivity: mapClaimSensitivity(topic.priority, topic.compliance_note),

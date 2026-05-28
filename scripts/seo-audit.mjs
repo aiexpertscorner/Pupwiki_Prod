@@ -126,7 +126,7 @@ const PAGES = [
   {
     id:        'blog_post',
     label:     'Blog Post',
-    path:      'blog/[slug].astro',
+    path:      'guides/[slug].astro',
     count:     25,
     vol_mo:    300000,
     conv:      'very-high',
@@ -196,7 +196,7 @@ const PAGES = [
   {
     id:        'blog_index',
     label:     'Blog Index',
-    path:      'blog/index.astro',
+    path:      'guides/index.astro',
     count:     1,
     vol_mo:    50000,
     conv:      'medium',
@@ -341,7 +341,7 @@ const REWORK_PLAN = [
     name:  'Core templates — highest traffic',
     items: [
       { template:'breed hub',      why:'277 pages × 50K/mo = largest traffic source',       effort:'M', impact:'★★★★★' },
-      { template:'blog post',      why:'Primary affiliate revenue pages',                    effort:'M', impact:'★★★★★' },
+      { template:'guide post',      why:'Primary affiliate revenue pages',                    effort:'M', impact:'★★★★★' },
       { template:'homepage',       why:'First impression + brand trust signal',              effort:'S', impact:'★★★★' },
     ]
   },
@@ -367,7 +367,7 @@ const REWORK_PLAN = [
     phase: 4,
     name:  'Navigation + UX',
     items: [
-      { template:'blog index',     why:'Internal navigation, CollectionPage schema',         effort:'S', impact:'★★' },
+      { template:'guides index',     why:'Internal navigation, CollectionPage schema',         effort:'S', impact:'★★' },
     ]
   },
 ];
@@ -396,7 +396,7 @@ const ACTIONS = {
     'Add AggregateRating schema on product picks',
   ],
   'blog_post': [
-    'Move inline styles → src/styles/blog-post.css',
+    'Move inline styles → src/styles/guides.css',
     'Add Article + BreadcrumbList + FAQPage JSON-LD',
     'Add author schema with Organization',
     'Add TableOfContents component (improves dwell time)',
@@ -451,7 +451,7 @@ console.log(`
   src/
   ├── pages/
   │   ├── breeds/[breed].astro        ← template only, no styles
-  │   ├── blog/[slug].astro           ← template only
+  │   ├── guides/[slug].astro           ← template only
   │   ├── categories/[category].astro
   │   ├── dog-names/[breed].astro
   │   ├── cost-calculator/[breed].astro
@@ -461,7 +461,7 @@ console.log(`
   │   ├── global.css                  ← design tokens, reset
   │   ├── homepage.css
   │   ├── breed-hub.css
-  │   ├── blog-post.css
+  │   ├── guides.css
   │   ├── category.css
   │   ├── dog-names.css
   │   ├── brands.css

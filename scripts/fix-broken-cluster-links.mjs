@@ -1,6 +1,6 @@
 /**
  * Removes entries from breed-link-map.json where the referenced blog/guides
- * file does not actually exist in src/content/blog/. Without this, the
+ * file does not actually exist in src/content/guides/. Without this, the
  * getCategoryBreedGuides() fallback to /breeds/[slug] never activates because
  * the entry is defined (just pointing to a 404).
  */
@@ -30,7 +30,7 @@ for (const [breedSlug, links] of Object.entries(map)) {
     // Resolve the slug from /blog/... or /guides/... paths
     const slug = href.replace(/^\/(blog|guides)\//, '').replace(/\/$/, '');
 
-    if (!existsSync(`src/content/blog/${slug}.md`)) {
+    if (!existsSync(`src/content/guides/${slug}.md`)) {
       delete links[type];
       removed++;
       if (process.env.VERBOSE) console.log(`  removed ${type} from ${breedSlug}: ${href}`);

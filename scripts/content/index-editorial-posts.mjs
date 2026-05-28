@@ -1,15 +1,15 @@
 /**
  * scripts/content/index-editorial-posts.mjs
  *
- * Flips `indexInBlog: false` → `indexInBlog: true` for editorial posts that
+ * Flips `indexInGuides: false` → `indexInGuides: true` for editorial posts that
  * meet the visibility criteria. Run with --dry-run to preview without changes.
  *
  * Flags:
  *   --dry-run   Preview changes without writing files
- *   --revert    Flip the 27 known stub slugs back to indexInBlog: false
+ *   --revert    Flip the 27 known stub slugs back to indexInGuides: false
  *
  * Criteria for forward flip — ALL must be true:
- *   - `indexInBlog` is explicitly `false`
+ *   - `indexInGuides` is explicitly `false`
  *   - `generated` is not `true`
  *   - `claimSensitivity` is not `'high'`
  *   - `category` is not `'PupWiki Partners'`
@@ -21,7 +21,7 @@ import { join, basename } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
-const BLOG_DIR = join(__dirname, '../../src/content/blog');
+const GUIDES_DIR = join(__dirname, '../../src/content/guides');
 const DRY_RUN = process.argv.includes('--dry-run');
 const REVERT = process.argv.includes('--revert');
 
@@ -92,32 +92,32 @@ function getScalarValue(fm, key) {
   return m ? m[1].trim().replace(/^["']|["']$/g, '') : null;
 }
 
-const files = readdirSync(BLOG_DIR).filter((f) => f.endsWith('.md'));
+const files = readdirSync(GUIDES_DIR).filter((f) => f.endsWith('.md'));
 const flipped = [];
 const skipped = [];
 
 if (REVERT) {
-  // --revert mode: flip indexInBlog: true → false for the 27 stub slugs
-  console.log(`\n${DRY_RUN ? '[DRY RUN] ' : ''}Reverting ${STUB_SLUGS.size} stub posts (indexInBlog: true → false):\n`);
+  // --revert mode: flip indexInGuides: true → false for the 27 stub slugs
+  console.log(`\n${DRY_RUN ? '[DRY RUN] ' : ''}Reverting ${STUB_SLUGS.size} stub posts (indexInGuides: true → false):\n`);
 
   for (const file of files) {
     const slug = basename(file, '.md');
     if (!STUB_SLUGS.has(slug)) continue;
 
-    const filePath = join(BLOG_DIR, file);
+    const filePath = join(GUIDES_DIR, file);
     const content = readFileSync(filePath, 'utf8');
     const fm = parseFrontmatter(content);
     if (!fm) { skipped.push({ slug, reason: 'no frontmatter' }); continue; }
 
-    const indexInBlog = getScalarValue(fm, 'indexInBlog');
-    if (indexInBlog !== 'true') {
-      skipped.push({ slug, reason: `already indexInBlog:${indexInBlog}` });
+    const indexInGuides = getScalarValue(fm, 'indexInGuides');
+    if (indexInGuides !== 'true') {
+      skipped.push({ slug, reason: `already indexInGuides:${indexInGuides}` });
       continue;
     }
 
     flipped.push(slug);
     if (!DRY_RUN) {
-      const updated = content.replace(/^indexInBlog: true$/m, 'indexInBlog: false');
+      const updated = content.replace(/^indexInGuides: true$/m, 'indexInGuides: false');
       writeFileSync(filePath, updated, 'utf8');
     }
   }
@@ -131,16 +131,16 @@ if (REVERT) {
   process.exit(0);
 }
 
-// Forward mode: flip indexInBlog: false → true for eligible posts
+// Forward mode: flip indexInGuides: false → true for eligible posts
 for (const file of files) {
   const slug = basename(file, '.md');
-  const filePath = join(BLOG_DIR, file);
+  const filePath = join(GUIDES_DIR, file);
   const content = readFileSync(filePath, 'utf8');
   const fm = parseFrontmatter(content);
   if (!fm) continue;
 
-  const indexInBlog = getScalarValue(fm, 'indexInBlog');
-  if (indexInBlog !== 'false') continue;
+  const indexInGuides = getScalarValue(fm, 'indexInGuides');
+  if (indexInGuides !== 'false') continue;
 
   const generated = getScalarValue(fm, 'generated');
   if (generated === 'true') {
@@ -168,7 +168,7 @@ for (const file of files) {
   flipped.push(slug);
 
   if (!DRY_RUN) {
-    const updated = content.replace(/^indexInBlog: false$/m, 'indexInBlog: true');
+    const updated = content.replace(/^indexInGuides: false$/m, 'indexInGuides: true');
     writeFileSync(filePath, updated, 'utf8');
   }
 }

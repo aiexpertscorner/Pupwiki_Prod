@@ -18,7 +18,7 @@ import {
 
 const ROOT = process.cwd();
 const DATA_DIR = resolve(ROOT, 'src/data');
-const BLOG_DIR = resolve(ROOT, 'src/content/blog');
+const GUIDES_DIR = resolve(ROOT, 'src/content/guides');
 const PROGRAMS_PATH = join(DATA_DIR, 'awin-programs.json');
 const PRODUCTS_PATH = join(DATA_DIR, 'awin-products.json');
 const BANNERS_PATH = join(DATA_DIR, 'affiliate-banners.json');
@@ -166,7 +166,7 @@ category: "PupWiki Partners"
 tags: ${yamlList(tags)}
 postType: ${quote(normalizePostType('review'))}
 contentTier: "money"
-indexInBlog: false
+indexInGuides: false
 generated: true
 reviewMethod: ${quote(normalizeReviewMethod('brand-resource-review'))}
 claimSensitivity: ${quote(sensitive ? 'high' : 'medium')}
@@ -235,7 +235,7 @@ ${deeplink ? `[Visit ${safeName}](${deeplink})` : ''}
 }
 
 function main() {
-  mkdirSync(BLOG_DIR, { recursive: true });
+  mkdirSync(GUIDES_DIR, { recursive: true });
   const awinData = readJson(PROGRAMS_PATH, null);
   const products = readJson(PRODUCTS_PATH, []);
   const banners = readJson(BANNERS_PATH, { banners: [] });
@@ -253,7 +253,7 @@ function main() {
     const rows = productRows(program, products);
     const creativeRows = bannerRows(program, banners);
     const slug = `partner-${program.key}`;
-    const file = join(BLOG_DIR, `${slug}.md`);
+    const file = join(GUIDES_DIR, `${slug}.md`);
     const markdown = sanitizePublicDogCopy(buildMarkdown(program, rows, creativeRows));
     if (APPLY) writeFileSync(file, markdown, 'utf8');
     written += 1;

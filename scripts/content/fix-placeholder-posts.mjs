@@ -2,8 +2,8 @@
 /**
  * scripts/content/fix-placeholder-posts.mjs
  *
- * Finds blog posts with unfilled template placeholders (*[...]*) and sets
- * indexInBlog: false so they don't appear in search results or hub pages.
+ * Finds guide posts with unfilled template placeholders (*[...]*) and sets
+ * indexInGuides: false so they don't appear in search results or hub pages.
  *
  * Usage:
  *   node scripts/content/fix-placeholder-posts.mjs          # dry run
@@ -15,14 +15,14 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
+const GUIDES_DIR = path.join(ROOT, 'src', 'content', 'guides');
 const APPLY = process.argv.includes('--apply');
 
-const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith('.md'));
+const files = fs.readdirSync(GUIDES_DIR).filter((f) => f.endsWith('.md'));
 let fixed = 0, alreadyHidden = 0, clean = 0;
 
 for (const file of files) {
-  const filePath = path.join(BLOG_DIR, file);
+  const filePath = path.join(GUIDES_DIR, file);
   const text = fs.readFileSync(filePath, 'utf8');
 
   if (!/\*\[/.test(text)) { clean++; continue; }
@@ -36,15 +36,15 @@ for (const file of files) {
   const after = text.slice(fmEnd + 4);
 
   // Already hidden — nothing to do
-  if (/^indexInBlog:\s*false$/m.test(fm)) { alreadyHidden++; continue; }
+  if (/^indexInGuides:\s*false$/m.test(fm)) { alreadyHidden++; continue; }
 
-  // Set indexInBlog: false
+  // Set indexInGuides: false
   let newFm;
-  if (/^indexInBlog:/m.test(fm)) {
-    newFm = fm.replace(/^indexInBlog:\s*.+$/m, 'indexInBlog: false');
+  if (/^indexInGuides:/m.test(fm)) {
+    newFm = fm.replace(/^indexInGuides:\s*.+$/m, 'indexInGuides: false');
   } else {
     // Append after pubDate line or at end of frontmatter
-    newFm = fm.trimEnd() + '\nindexInBlog: false';
+    newFm = fm.trimEnd() + '\nindexInGuides: false';
   }
 
   const newContent = `---\n${newFm}\n---${after}`;

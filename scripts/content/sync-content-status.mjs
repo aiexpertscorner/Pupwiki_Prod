@@ -1,5 +1,5 @@
 /**
- * Scans src/content/blog/ for generated posts and syncs content-status.json flags.
+ * Scans src/content/guides/ for generated posts and syncs content-status.json flags.
  *
  * After PSEO generation, content-status.json must reflect what's actually been written.
  * This script closes the gap: reads breedSlug + family/cluster from each generated post's
@@ -19,7 +19,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const BLOG_DIR   = path.join(ROOT, 'src/content/blog');
+const GUIDES_DIR   = path.join(ROOT, 'src/content/guides');
 const STATUS_PATH = path.join(ROOT, 'src/data/content-status.json');
 const BREEDS_PATH = path.join(ROOT, 'src/data/master-breeds.json');
 const CROSS_PATH  = path.join(ROOT, 'src/data/master-crossbreeds.json');
@@ -106,11 +106,11 @@ function main() {
     }
   }
 
-  // Scan blog posts for generated content
-  const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
+  // Scan guide posts for generated content
+  const files = fs.readdirSync(GUIDES_DIR).filter(f => f.endsWith('.md'));
 
   for (const file of files) {
-    const filePath = path.join(BLOG_DIR, file);
+    const filePath = path.join(GUIDES_DIR, file);
     let content;
     try {
       content = fs.readFileSync(filePath, 'utf8');

@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const DATA_DIR = path.join(ROOT, 'src', 'data');
-const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
+const GUIDES_DIR = path.join(ROOT, 'src', 'content', 'guides');
 const PAGES_DIR = path.join(ROOT, 'src', 'pages');
 const TODAY = new Date().toISOString();
 
@@ -79,9 +79,9 @@ const amazonSummary = readJson('src/data/amazon-products-summary.json', {});
 const partnerSummary = readJson('src/data/pupwiki-partners-summary.json', { partners: [] });
 const clusters = loadContentClusters();
 const allBreeds = [...breeds, ...crossbreeds];
-const blogPosts = walk(BLOG_DIR, ['.md']).map((file) => ({ file, slug: postSlugFromFile(file), data: parseFrontmatter(fs.readFileSync(file, 'utf8')) }));
+const guidePosts = walk(GUIDES_DIR, ['.md']).map((file) => ({ file, slug: postSlugFromFile(file), data: parseFrontmatter(fs.readFileSync(file, 'utf8')) }));
 const astroPages = walk(PAGES_DIR, ['.astro']).map(routeFromPageFile);
-const blogSlugs = new Set(blogPosts.map((post) => post.slug));
+const guideSlugs = new Set(guidePosts.map((post) => post.slug));
 const pagePaths = new Set(astroPages);
 
 const familyDefinitions = {
@@ -125,7 +125,7 @@ function familyCoverage(family) {
   for (const breed of allBreeds) {
     const s = status[breed.slug] || {};
     const expectedSlug = def.slug(breed);
-    const exists = Boolean(s[def.statusKey]) || blogSlugs.has(expectedSlug);
+    const exists = Boolean(s[def.statusKey]) || guideSlugs.has(expectedSlug);
     if (exists) existing += 1; else missing += 1;
   }
   return { family, existing, missing, total: existing + missing };
@@ -134,7 +134,7 @@ function opportunityForBreedFamily(breed, family) {
   const def = familyDefinitions[family];
   const expectedSlug = def.slug(breed);
   const s = status[breed.slug] || {};
-  const exists = Boolean(s[def.statusKey]) || blogSlugs.has(expectedSlug);
+  const exists = Boolean(s[def.statusKey]) || guideSlugs.has(expectedSlug);
   if (exists) return null;
   const aw = awinCoverage(def.cluster);
   const az = amazonCoverage(def.cluster);
@@ -180,11 +180,11 @@ const clusterOpportunities = clusters.map((cluster) => {
 
 const partnerPageOpportunities = (awin.programs || []).map((program) => {
   const slug = `partner-${program.key}`;
-  const exists = blogSlugs.has(slug);
+  const exists = guideSlugs.has(slug);
   return { id: `partner:${program.key}`, type: 'partner-profile', priorityScore: exists ? 42 : 88, cluster: 'pupwiki-partners', partnerKey: program.key, advertiserId: program.advertiserId, suggestedPath: `/guides/${slug}`, exists, reason: exists ? `${program.name} profile exists; refresh from AWIN data.` : `${program.name} needs a generated partner profile page.`, internalLinkTargets: ['/categories/pupwiki-partners', '/disclosure', `/guides/${slug}`], sitemap: { include: true, priority: 0.58, changefreq: 'monthly' }, monetization: { awinPrograms: [program.name], amazonSearchFallback: false, claimSensitivity: 'low' } };
 });
 
-const internalLinks = blogPosts.map((post) => {
+const internalLinks = guidePosts.map((post) => {
   const tags = JSON.stringify(post.data).toLowerCase();
   const category = slugify(post.data.category || '');
   const targets = new Set(['/breeds', '/cost-calculator']);
@@ -201,10 +201,10 @@ const internalLinks = blogPosts.map((post) => {
 const backlog = [...opportunities, ...clusterOpportunities, ...partnerPageOpportunities].sort((a, b) => b.priorityScore - a.priorityScore).slice(0, 1500);
 const summary = {
   generatedAt: TODAY,
-  totals: { breeds: breeds.length, crossbreeds: crossbreeds.length, blogPosts: blogPosts.length, astroPages: astroPages.length, clusters: clusters.length, awinJoinedPrograms: (awin.programs || []).length, partnerProfilesGenerated: (partnerSummary.partners || []).length, opportunities: backlog.length },
+  totals: { breeds: breeds.length, crossbreeds: crossbreeds.length, guidePosts: guidePosts.length, astroPages: astroPages.length, clusters: clusters.length, awinJoinedPrograms: (awin.programs || []).length, partnerProfilesGenerated: (partnerSummary.partners || []).length, opportunities: backlog.length },
   familyStats: Object.keys(familyDefinitions).map(familyCoverage),
   clusterCoverage: clusterOpportunities,
-  sitemapInputs: { staticPageCount: astroPages.length, dynamicBlogCount: blogPosts.length, dynamicBreedCount: allBreeds.length, clusterSlugs: clusters }
+  sitemapInputs: { staticPageCount: astroPages.length, dynamicGuideCount: guidePosts.length, dynamicBreedCount: allBreeds.length, clusterSlugs: clusters }
 };
 
 writeJson('src/data/content-inventory-summary.json', summary);
