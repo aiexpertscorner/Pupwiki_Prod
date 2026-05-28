@@ -44,7 +44,7 @@ console.log(JSON.stringify({
     sitemap: sitemapStats,
     templateBuckets: {
       breeds: dynamicPages.filter((p) => p.includes('breeds/')).length,
-      blog: dynamicPages.filter((p) => p.includes('blog/')).length,
+      blog: dynamicPages.filter((p) => p.includes('guides/')).length,
       categories: dynamicPages.filter((p) => p.includes('categories/')).length,
       brands: dynamicPages.filter((p) => p.includes('brands/')).length,
       dogNames: dynamicPages.filter((p) => p.includes('dog-names/')).length,
@@ -60,7 +60,7 @@ console.log(JSON.stringify({
   },
   recommendations: [
     'Increase affiliate product image coverage to improve card CTR.',
-    'Add/expand JSON-LD on high-volume dynamic templates (breeds/blog/cost pages).',
+    'Add/expand JSON-LD on high-volume dynamic templates (breeds/guides/cost pages).',
     'Prefer merchant-diverse AWIN placements for high-intent pages with Amazon as contextual fallback.'
   ]
 }, null, 2));

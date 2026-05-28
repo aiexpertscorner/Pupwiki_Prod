@@ -58,11 +58,11 @@ export function buildBreedContextLinks(breedSlug, cluster, opts = {}) {
   const crossLinkKeys = CLUSTER_CROSS_LINKS[cluster] || [];
   for (const key of crossLinkKeys) {
     if (!s[key]) continue;
-    if (key === 'food_post')        links.add(`/blog/best-food-for-${breedSlug}`);
-    if (key === 'supplement_post')  links.add(`/blog/best-supplements-for-${breedSlug}`);
-    if (key === 'health_post')      links.add(`/blog/${breedSlug}-health-problems`);
-    if (key === 'training_post')    links.add(`/blog/training-a-${breedSlug}`);
-    if (key === 'toy_post')         links.add(`/blog/best-toys-for-${breedSlug}`);
+    if (key === 'food_post')        links.add(`/guides/best-food-for-${breedSlug}`);
+    if (key === 'supplement_post')  links.add(`/guides/best-supplements-for-${breedSlug}`);
+    if (key === 'health_post')      links.add(`/guides/${breedSlug}-health-problems`);
+    if (key === 'training_post')    links.add(`/guides/training-a-${breedSlug}`);
+    if (key === 'toy_post')         links.add(`/guides/best-toys-for-${breedSlug}`);
     if (key === 'cost_calculator')  links.add(`/cost-calculator/${breedSlug}`);
   }
 

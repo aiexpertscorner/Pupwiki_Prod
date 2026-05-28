@@ -84,7 +84,7 @@ export function scoreAmazonProduct(product: AmazonProductRecord, context: Amazon
   const pageType = normalizeAmazonTag(context.pageType);
   if (pageType === 'category' && targetSlugs.some((target) => target.startsWith('/categories/'))) score += 5;
   if (pageType === 'breed' && targetSlugs.some((target) => target.includes('/breeds/[breed]'))) score += 7;
-  if (pageType === 'guide' && targetSlugs.some((target) => target.startsWith('/guides/') || target.startsWith('/blog/'))) score += 6;
+  if (pageType === 'guide' && targetSlugs.some((target) => target.startsWith('/guides/'))) score += 6;
 
   score += safeNumber(product.priorityScore, 0) / 10;
   score += salesIntentScore(product.salesIntent);

@@ -11,13 +11,13 @@
       "breedSlug": "bullmastiff",
       "breedName": "Bullmastiff",
       "suggestedSlug": "best-toys-for-bullmastiff",
-      "suggestedPath": "/blog/best-toys-for-bullmastiff",
+      "suggestedPath": "/guides/best-toys-for-bullmastiff",
       "title": "Bullmastiff Toys Guide",
       "reason": "Missing toys support page for Bullmastiff.",
       "internalLinkTargets": [
         "/breeds/bullmastiff",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -42,13 +42,13 @@
       "breedSlug": "english-cocker-spaniel",
       "breedName": "English Cocker Spaniel",
       "suggestedSlug": "best-toys-for-english-cocker-spaniel",
-      "suggestedPath": "/blog/best-toys-for-english-cocker-spaniel",
+      "suggestedPath": "/guides/best-toys-for-english-cocker-spaniel",
       "title": "English Cocker Spaniel Toys Guide",
       "reason": "Missing toys support page for English Cocker Spaniel.",
       "internalLinkTargets": [
         "/breeds/english-cocker-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -73,13 +73,13 @@
       "breedSlug": "soft-coated-wheaten-terrier",
       "breedName": "Soft Coated Wheaten Terrier",
       "suggestedSlug": "best-toys-for-soft-coated-wheaten-terrier",
-      "suggestedPath": "/blog/best-toys-for-soft-coated-wheaten-terrier",
+      "suggestedPath": "/guides/best-toys-for-soft-coated-wheaten-terrier",
       "title": "Soft Coated Wheaten Terrier Toys Guide",
       "reason": "Missing toys support page for Soft Coated Wheaten Terrier.",
       "internalLinkTargets": [
         "/breeds/soft-coated-wheaten-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -104,13 +104,13 @@
       "breedSlug": "papillon",
       "breedName": "Papillon",
       "suggestedSlug": "best-toys-for-papillon",
-      "suggestedPath": "/blog/best-toys-for-papillon",
+      "suggestedPath": "/guides/best-toys-for-papillon",
       "title": "Papillon Toys Guide",
       "reason": "Missing toys support page for Papillon.",
       "internalLinkTargets": [
         "/breeds/papillon",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -135,13 +135,13 @@
       "breedSlug": "australian-cattle-dog",
       "breedName": "Australian Cattle Dog",
       "suggestedSlug": "best-toys-for-australian-cattle-dog",
-      "suggestedPath": "/blog/best-toys-for-australian-cattle-dog",
+      "suggestedPath": "/guides/best-toys-for-australian-cattle-dog",
       "title": "Australian Cattle Dog Toys Guide",
       "reason": "Missing toys support page for Australian Cattle Dog.",
       "internalLinkTargets": [
         "/breeds/australian-cattle-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -166,13 +166,13 @@
       "breedSlug": "dalmatian",
       "breedName": "Dalmatian",
       "suggestedSlug": "best-toys-for-dalmatian",
-      "suggestedPath": "/blog/best-toys-for-dalmatian",
+      "suggestedPath": "/guides/best-toys-for-dalmatian",
       "title": "Dalmatian Toys Guide",
       "reason": "Missing toys support page for Dalmatian.",
       "internalLinkTargets": [
         "/breeds/dalmatian",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -197,13 +197,13 @@
       "breedSlug": "scottish-terrier",
       "breedName": "Scottish Terrier",
       "suggestedSlug": "best-toys-for-scottish-terrier",
-      "suggestedPath": "/blog/best-toys-for-scottish-terrier",
+      "suggestedPath": "/guides/best-toys-for-scottish-terrier",
       "title": "Scottish Terrier Toys Guide",
       "reason": "Missing toys support page for Scottish Terrier.",
       "internalLinkTargets": [
         "/breeds/scottish-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -228,13 +228,13 @@
       "breedSlug": "alaskan-malamute",
       "breedName": "Alaskan Malamute",
       "suggestedSlug": "best-toys-for-alaskan-malamute",
-      "suggestedPath": "/blog/best-toys-for-alaskan-malamute",
+      "suggestedPath": "/guides/best-toys-for-alaskan-malamute",
       "title": "Alaskan Malamute Toys Guide",
       "reason": "Missing toys support page for Alaskan Malamute.",
       "internalLinkTargets": [
         "/breeds/alaskan-malamute",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -259,13 +259,13 @@
       "breedSlug": "samoyed",
       "breedName": "Samoyed",
       "suggestedSlug": "best-toys-for-samoyed",
-      "suggestedPath": "/blog/best-toys-for-samoyed",
+      "suggestedPath": "/guides/best-toys-for-samoyed",
       "title": "Samoyed Toys Guide",
       "reason": "Missing toys support page for Samoyed.",
       "internalLinkTargets": [
         "/breeds/samoyed",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -290,13 +290,13 @@
       "breedSlug": "airedale-terrier",
       "breedName": "Airedale Terrier",
       "suggestedSlug": "best-toys-for-airedale-terrier",
-      "suggestedPath": "/blog/best-toys-for-airedale-terrier",
+      "suggestedPath": "/guides/best-toys-for-airedale-terrier",
       "title": "Airedale Terrier Toys Guide",
       "reason": "Missing toys support page for Airedale Terrier.",
       "internalLinkTargets": [
         "/breeds/airedale-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -321,13 +321,13 @@
       "breedSlug": "whippet",
       "breedName": "Whippet",
       "suggestedSlug": "best-toys-for-whippet",
-      "suggestedPath": "/blog/best-toys-for-whippet",
+      "suggestedPath": "/guides/best-toys-for-whippet",
       "title": "Whippet Toys Guide",
       "reason": "Missing toys support page for Whippet.",
       "internalLinkTargets": [
         "/breeds/whippet",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -352,13 +352,13 @@
       "breedSlug": "bull-terrier",
       "breedName": "Bull Terrier",
       "suggestedSlug": "best-toys-for-bull-terrier",
-      "suggestedPath": "/blog/best-toys-for-bull-terrier",
+      "suggestedPath": "/guides/best-toys-for-bull-terrier",
       "title": "Bull Terrier Toys Guide",
       "reason": "Missing toys support page for Bull Terrier.",
       "internalLinkTargets": [
         "/breeds/bull-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -383,13 +383,13 @@
       "breedSlug": "german-wirehaired-pointer",
       "breedName": "German Wirehaired Pointer",
       "suggestedSlug": "best-toys-for-german-wirehaired-pointer",
-      "suggestedPath": "/blog/best-toys-for-german-wirehaired-pointer",
+      "suggestedPath": "/guides/best-toys-for-german-wirehaired-pointer",
       "title": "German Wirehaired Pointer Toys Guide",
       "reason": "Missing toys support page for German Wirehaired Pointer.",
       "internalLinkTargets": [
         "/breeds/german-wirehaired-pointer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -414,13 +414,13 @@
       "breedSlug": "chinese-shar-pei",
       "breedName": "Chinese Shar-Pei",
       "suggestedSlug": "best-toys-for-chinese-shar-pei",
-      "suggestedPath": "/blog/best-toys-for-chinese-shar-pei",
+      "suggestedPath": "/guides/best-toys-for-chinese-shar-pei",
       "title": "Chinese Shar-Pei Toys Guide",
       "reason": "Missing toys support page for Chinese Shar-Pei.",
       "internalLinkTargets": [
         "/breeds/chinese-shar-pei",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -445,13 +445,13 @@
       "breedSlug": "wirehaired-pointing-griffon",
       "breedName": "Wirehaired Pointing Griffon",
       "suggestedSlug": "best-toys-for-wirehaired-pointing-griffon",
-      "suggestedPath": "/blog/best-toys-for-wirehaired-pointing-griffon",
+      "suggestedPath": "/guides/best-toys-for-wirehaired-pointing-griffon",
       "title": "Wirehaired Pointing Griffon Toys Guide",
       "reason": "Missing toys support page for Wirehaired Pointing Griffon.",
       "internalLinkTargets": [
         "/breeds/wirehaired-pointing-griffon",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -476,13 +476,13 @@
       "breedSlug": "great-pyrenees",
       "breedName": "Great Pyrenees",
       "suggestedSlug": "best-toys-for-great-pyrenees",
-      "suggestedPath": "/blog/best-toys-for-great-pyrenees",
+      "suggestedPath": "/guides/best-toys-for-great-pyrenees",
       "title": "Great Pyrenees Toys Guide",
       "reason": "Missing toys support page for Great Pyrenees.",
       "internalLinkTargets": [
         "/breeds/great-pyrenees",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -507,13 +507,13 @@
       "breedSlug": "dogue-de-bordeaux",
       "breedName": "Dogue de Bordeaux",
       "suggestedSlug": "best-toys-for-dogue-de-bordeaux",
-      "suggestedPath": "/blog/best-toys-for-dogue-de-bordeaux",
+      "suggestedPath": "/guides/best-toys-for-dogue-de-bordeaux",
       "title": "Dogue de Bordeaux Toys Guide",
       "reason": "Missing toys support page for Dogue de Bordeaux.",
       "internalLinkTargets": [
         "/breeds/dogue-de-bordeaux",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -538,13 +538,13 @@
       "breedSlug": "cardigan-welsh-corgi",
       "breedName": "Cardigan Welsh Corgi",
       "suggestedSlug": "best-toys-for-cardigan-welsh-corgi",
-      "suggestedPath": "/blog/best-toys-for-cardigan-welsh-corgi",
+      "suggestedPath": "/guides/best-toys-for-cardigan-welsh-corgi",
       "title": "Cardigan Welsh Corgi Toys Guide",
       "reason": "Missing toys support page for Cardigan Welsh Corgi.",
       "internalLinkTargets": [
         "/breeds/cardigan-welsh-corgi",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -569,13 +569,13 @@
       "breedSlug": "cairn-terrier",
       "breedName": "Cairn Terrier",
       "suggestedSlug": "best-toys-for-cairn-terrier",
-      "suggestedPath": "/blog/best-toys-for-cairn-terrier",
+      "suggestedPath": "/guides/best-toys-for-cairn-terrier",
       "title": "Cairn Terrier Toys Guide",
       "reason": "Missing toys support page for Cairn Terrier.",
       "internalLinkTargets": [
         "/breeds/cairn-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -600,13 +600,13 @@
       "breedSlug": "miniature-pinscher",
       "breedName": "Miniature Pinscher",
       "suggestedSlug": "best-toys-for-miniature-pinscher",
-      "suggestedPath": "/blog/best-toys-for-miniature-pinscher",
+      "suggestedPath": "/guides/best-toys-for-miniature-pinscher",
       "title": "Miniature Pinscher Toys Guide",
       "reason": "Missing toys support page for Miniature Pinscher.",
       "internalLinkTargets": [
         "/breeds/miniature-pinscher",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -631,13 +631,13 @@
       "breedSlug": "lhasa-apso",
       "breedName": "Lhasa Apso",
       "suggestedSlug": "best-toys-for-lhasa-apso",
-      "suggestedPath": "/blog/best-toys-for-lhasa-apso",
+      "suggestedPath": "/guides/best-toys-for-lhasa-apso",
       "title": "Lhasa Apso Toys Guide",
       "reason": "Missing toys support page for Lhasa Apso.",
       "internalLinkTargets": [
         "/breeds/lhasa-apso",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -662,13 +662,13 @@
       "breedSlug": "old-english-sheepdog",
       "breedName": "Old English Sheepdog",
       "suggestedSlug": "best-toys-for-old-english-sheepdog",
-      "suggestedPath": "/blog/best-toys-for-old-english-sheepdog",
+      "suggestedPath": "/guides/best-toys-for-old-english-sheepdog",
       "title": "Old English Sheepdog Toys Guide",
       "reason": "Missing toys support page for Old English Sheepdog.",
       "internalLinkTargets": [
         "/breeds/old-english-sheepdog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -693,13 +693,13 @@
       "breedSlug": "italian-greyhound",
       "breedName": "Italian Greyhound",
       "suggestedSlug": "best-toys-for-italian-greyhound",
-      "suggestedPath": "/blog/best-toys-for-italian-greyhound",
+      "suggestedPath": "/guides/best-toys-for-italian-greyhound",
       "title": "Italian Greyhound Toys Guide",
       "reason": "Missing toys support page for Italian Greyhound.",
       "internalLinkTargets": [
         "/breeds/italian-greyhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -724,13 +724,13 @@
       "breedSlug": "greater-swiss-mountain-dog",
       "breedName": "Greater Swiss Mountain Dog",
       "suggestedSlug": "best-toys-for-greater-swiss-mountain-dog",
-      "suggestedPath": "/blog/best-toys-for-greater-swiss-mountain-dog",
+      "suggestedPath": "/guides/best-toys-for-greater-swiss-mountain-dog",
       "title": "Greater Swiss Mountain Dog Toys Guide",
       "reason": "Missing toys support page for Greater Swiss Mountain Dog.",
       "internalLinkTargets": [
         "/breeds/greater-swiss-mountain-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -755,13 +755,13 @@
       "breedSlug": "chow-chow",
       "breedName": "Chow Chow",
       "suggestedSlug": "best-toys-for-chow-chow",
-      "suggestedPath": "/blog/best-toys-for-chow-chow",
+      "suggestedPath": "/guides/best-toys-for-chow-chow",
       "title": "Chow Chow Toys Guide",
       "reason": "Missing toys support page for Chow Chow.",
       "internalLinkTargets": [
         "/breeds/chow-chow",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -786,13 +786,13 @@
       "breedSlug": "irish-wolfhound",
       "breedName": "Irish Wolfhound",
       "suggestedSlug": "best-toys-for-irish-wolfhound",
-      "suggestedPath": "/blog/best-toys-for-irish-wolfhound",
+      "suggestedPath": "/guides/best-toys-for-irish-wolfhound",
       "title": "Irish Wolfhound Toys Guide",
       "reason": "Missing toys support page for Irish Wolfhound.",
       "internalLinkTargets": [
         "/breeds/irish-wolfhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -817,13 +817,13 @@
       "breedSlug": "irish-setter",
       "breedName": "Irish Setter",
       "suggestedSlug": "best-toys-for-irish-setter",
-      "suggestedPath": "/blog/best-toys-for-irish-setter",
+      "suggestedPath": "/guides/best-toys-for-irish-setter",
       "title": "Irish Setter Toys Guide",
       "reason": "Missing toys support page for Irish Setter.",
       "internalLinkTargets": [
         "/breeds/irish-setter",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -848,13 +848,13 @@
       "breedSlug": "giant-schnauzer",
       "breedName": "Giant Schnauzer",
       "suggestedSlug": "best-toys-for-giant-schnauzer",
-      "suggestedPath": "/blog/best-toys-for-giant-schnauzer",
+      "suggestedPath": "/guides/best-toys-for-giant-schnauzer",
       "title": "Giant Schnauzer Toys Guide",
       "reason": "Missing toys support page for Giant Schnauzer.",
       "internalLinkTargets": [
         "/breeds/giant-schnauzer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -879,13 +879,13 @@
       "breedSlug": "chinese-crested",
       "breedName": "Chinese Crested",
       "suggestedSlug": "best-toys-for-chinese-crested",
-      "suggestedPath": "/blog/best-toys-for-chinese-crested",
+      "suggestedPath": "/guides/best-toys-for-chinese-crested",
       "title": "Chinese Crested Toys Guide",
       "reason": "Missing toys support page for Chinese Crested.",
       "internalLinkTargets": [
         "/breeds/chinese-crested",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -910,13 +910,13 @@
       "breedSlug": "staffordshire-bull-terrier",
       "breedName": "Staffordshire Bull Terrier",
       "suggestedSlug": "best-toys-for-staffordshire-bull-terrier",
-      "suggestedPath": "/blog/best-toys-for-staffordshire-bull-terrier",
+      "suggestedPath": "/guides/best-toys-for-staffordshire-bull-terrier",
       "title": "Staffordshire Bull Terrier Toys Guide",
       "reason": "Missing toys support page for Staffordshire Bull Terrier.",
       "internalLinkTargets": [
         "/breeds/staffordshire-bull-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -941,13 +941,13 @@
       "breedSlug": "coton-de-tulear",
       "breedName": "Coton de Tulear",
       "suggestedSlug": "best-toys-for-coton-de-tulear",
-      "suggestedPath": "/blog/best-toys-for-coton-de-tulear",
+      "suggestedPath": "/guides/best-toys-for-coton-de-tulear",
       "title": "Coton de Tulear Toys Guide",
       "reason": "Missing toys support page for Coton de Tulear.",
       "internalLinkTargets": [
         "/breeds/coton-de-tulear",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -972,13 +972,13 @@
       "breedSlug": "russell-terrier",
       "breedName": "Russell Terrier",
       "suggestedSlug": "best-toys-for-russell-terrier",
-      "suggestedPath": "/blog/best-toys-for-russell-terrier",
+      "suggestedPath": "/guides/best-toys-for-russell-terrier",
       "title": "Russell Terrier Toys Guide",
       "reason": "Missing toys support page for Russell Terrier.",
       "internalLinkTargets": [
         "/breeds/russell-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1003,13 +1003,13 @@
       "breedSlug": "nova-scotia-duck-tolling-retriever",
       "breedName": "Nova Scotia Duck Tolling Retriever",
       "suggestedSlug": "best-toys-for-nova-scotia-duck-tolling-retriever",
-      "suggestedPath": "/blog/best-toys-for-nova-scotia-duck-tolling-retriever",
+      "suggestedPath": "/guides/best-toys-for-nova-scotia-duck-tolling-retriever",
       "title": "Nova Scotia Duck Tolling Retriever Toys Guide",
       "reason": "Missing toys support page for Nova Scotia Duck Tolling Retriever.",
       "internalLinkTargets": [
         "/breeds/nova-scotia-duck-tolling-retriever",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1034,13 +1034,13 @@
       "breedSlug": "bouvier-des-flandres",
       "breedName": "Bouvier des Flandres",
       "suggestedSlug": "best-toys-for-bouvier-des-flandres",
-      "suggestedPath": "/blog/best-toys-for-bouvier-des-flandres",
+      "suggestedPath": "/guides/best-toys-for-bouvier-des-flandres",
       "title": "Bouvier des Flandres Toys Guide",
       "reason": "Missing toys support page for Bouvier des Flandres.",
       "internalLinkTargets": [
         "/breeds/bouvier-des-flandres",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1065,13 +1065,13 @@
       "breedSlug": "american-staffordshire-terrier",
       "breedName": "American Staffordshire Terrier",
       "suggestedSlug": "best-toys-for-american-staffordshire-terrier",
-      "suggestedPath": "/blog/best-toys-for-american-staffordshire-terrier",
+      "suggestedPath": "/guides/best-toys-for-american-staffordshire-terrier",
       "title": "American Staffordshire Terrier Toys Guide",
       "reason": "Missing toys support page for American Staffordshire Terrier.",
       "internalLinkTargets": [
         "/breeds/american-staffordshire-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1096,13 +1096,13 @@
       "breedSlug": "rat-terrier",
       "breedName": "Rat Terrier",
       "suggestedSlug": "best-toys-for-rat-terrier",
-      "suggestedPath": "/blog/best-toys-for-rat-terrier",
+      "suggestedPath": "/guides/best-toys-for-rat-terrier",
       "title": "Rat Terrier Toys Guide",
       "reason": "Missing toys support page for Rat Terrier.",
       "internalLinkTargets": [
         "/breeds/rat-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1127,13 +1127,13 @@
       "breedSlug": "basenji",
       "breedName": "Basenji",
       "suggestedSlug": "best-toys-for-basenji",
-      "suggestedPath": "/blog/best-toys-for-basenji",
+      "suggestedPath": "/guides/best-toys-for-basenji",
       "title": "Basenji Toys Guide",
       "reason": "Missing toys support page for Basenji.",
       "internalLinkTargets": [
         "/breeds/basenji",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1158,13 +1158,13 @@
       "breedSlug": "border-terrier",
       "breedName": "Border Terrier",
       "suggestedSlug": "best-toys-for-border-terrier",
-      "suggestedPath": "/blog/best-toys-for-border-terrier",
+      "suggestedPath": "/guides/best-toys-for-border-terrier",
       "title": "Border Terrier Toys Guide",
       "reason": "Missing toys support page for Border Terrier.",
       "internalLinkTargets": [
         "/breeds/border-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1189,13 +1189,13 @@
       "breedSlug": "standard-schnauzer",
       "breedName": "Standard Schnauzer",
       "suggestedSlug": "best-toys-for-standard-schnauzer",
-      "suggestedPath": "/blog/best-toys-for-standard-schnauzer",
+      "suggestedPath": "/guides/best-toys-for-standard-schnauzer",
       "title": "Standard Schnauzer Toys Guide",
       "reason": "Missing toys support page for Standard Schnauzer.",
       "internalLinkTargets": [
         "/breeds/standard-schnauzer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1220,13 +1220,13 @@
       "breedSlug": "anatolian-shepherd-dog",
       "breedName": "Anatolian Shepherd Dog",
       "suggestedSlug": "best-toys-for-anatolian-shepherd-dog",
-      "suggestedPath": "/blog/best-toys-for-anatolian-shepherd-dog",
+      "suggestedPath": "/guides/best-toys-for-anatolian-shepherd-dog",
       "title": "Anatolian Shepherd Dog Toys Guide",
       "reason": "Missing toys support page for Anatolian Shepherd Dog.",
       "internalLinkTargets": [
         "/breeds/anatolian-shepherd-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1251,13 +1251,13 @@
       "breedSlug": "flat-coated-retriever",
       "breedName": "Flat-Coated Retriever",
       "suggestedSlug": "best-toys-for-flat-coated-retriever",
-      "suggestedPath": "/blog/best-toys-for-flat-coated-retriever",
+      "suggestedPath": "/guides/best-toys-for-flat-coated-retriever",
       "title": "Flat-Coated Retriever Toys Guide",
       "reason": "Missing toys support page for Flat-Coated Retriever.",
       "internalLinkTargets": [
         "/breeds/flat-coated-retriever",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1282,13 +1282,13 @@
       "breedSlug": "pekingese",
       "breedName": "Pekingese",
       "suggestedSlug": "best-toys-for-pekingese",
-      "suggestedPath": "/blog/best-toys-for-pekingese",
+      "suggestedPath": "/guides/best-toys-for-pekingese",
       "title": "Pekingese Toys Guide",
       "reason": "Missing toys support page for Pekingese.",
       "internalLinkTargets": [
         "/breeds/pekingese",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1313,13 +1313,13 @@
       "breedSlug": "leonberger",
       "breedName": "Leonberger",
       "suggestedSlug": "best-toys-for-leonberger",
-      "suggestedPath": "/blog/best-toys-for-leonberger",
+      "suggestedPath": "/guides/best-toys-for-leonberger",
       "title": "Leonberger Toys Guide",
       "reason": "Missing toys support page for Leonberger.",
       "internalLinkTargets": [
         "/breeds/leonberger",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1344,13 +1344,13 @@
       "breedSlug": "english-setter",
       "breedName": "English Setter",
       "suggestedSlug": "best-toys-for-english-setter",
-      "suggestedPath": "/blog/best-toys-for-english-setter",
+      "suggestedPath": "/guides/best-toys-for-english-setter",
       "title": "English Setter Toys Guide",
       "reason": "Missing toys support page for English Setter.",
       "internalLinkTargets": [
         "/breeds/english-setter",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1375,13 +1375,13 @@
       "breedSlug": "keeshond",
       "breedName": "Keeshond",
       "suggestedSlug": "best-toys-for-keeshond",
-      "suggestedPath": "/blog/best-toys-for-keeshond",
+      "suggestedPath": "/guides/best-toys-for-keeshond",
       "title": "Keeshond Toys Guide",
       "reason": "Missing toys support page for Keeshond.",
       "internalLinkTargets": [
         "/breeds/keeshond",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1406,13 +1406,13 @@
       "breedSlug": "tibetan-terrier",
       "breedName": "Tibetan Terrier",
       "suggestedSlug": "best-toys-for-tibetan-terrier",
-      "suggestedPath": "/blog/best-toys-for-tibetan-terrier",
+      "suggestedPath": "/guides/best-toys-for-tibetan-terrier",
       "title": "Tibetan Terrier Toys Guide",
       "reason": "Missing toys support page for Tibetan Terrier.",
       "internalLinkTargets": [
         "/breeds/tibetan-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1437,13 +1437,13 @@
       "breedSlug": "norwegian-elkhound",
       "breedName": "Norwegian Elkhound",
       "suggestedSlug": "best-toys-for-norwegian-elkhound",
-      "suggestedPath": "/blog/best-toys-for-norwegian-elkhound",
+      "suggestedPath": "/guides/best-toys-for-norwegian-elkhound",
       "title": "Norwegian Elkhound Toys Guide",
       "reason": "Missing toys support page for Norwegian Elkhound.",
       "internalLinkTargets": [
         "/breeds/norwegian-elkhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1468,13 +1468,13 @@
       "breedSlug": "brussels-griffon",
       "breedName": "Brussels Griffon",
       "suggestedSlug": "best-toys-for-brussels-griffon",
-      "suggestedPath": "/blog/best-toys-for-brussels-griffon",
+      "suggestedPath": "/guides/best-toys-for-brussels-griffon",
       "title": "Brussels Griffon Toys Guide",
       "reason": "Missing toys support page for Brussels Griffon.",
       "internalLinkTargets": [
         "/breeds/brussels-griffon",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1499,13 +1499,13 @@
       "breedSlug": "lagotto-romagnolo",
       "breedName": "Lagotto Romagnolo",
       "suggestedSlug": "best-toys-for-lagotto-romagnolo",
-      "suggestedPath": "/blog/best-toys-for-lagotto-romagnolo",
+      "suggestedPath": "/guides/best-toys-for-lagotto-romagnolo",
       "title": "Lagotto Romagnolo Toys Guide",
       "reason": "Missing toys support page for Lagotto Romagnolo.",
       "internalLinkTargets": [
         "/breeds/lagotto-romagnolo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1530,13 +1530,13 @@
       "breedSlug": "boykin-spaniel",
       "breedName": "Boykin Spaniel",
       "suggestedSlug": "best-toys-for-boykin-spaniel",
-      "suggestedPath": "/blog/best-toys-for-boykin-spaniel",
+      "suggestedPath": "/guides/best-toys-for-boykin-spaniel",
       "title": "Boykin Spaniel Toys Guide",
       "reason": "Missing toys support page for Boykin Spaniel.",
       "internalLinkTargets": [
         "/breeds/boykin-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1561,13 +1561,13 @@
       "breedSlug": "wire-fox-terrier",
       "breedName": "Wire Fox Terrier",
       "suggestedSlug": "best-toys-for-wire-fox-terrier",
-      "suggestedPath": "/blog/best-toys-for-wire-fox-terrier",
+      "suggestedPath": "/guides/best-toys-for-wire-fox-terrier",
       "title": "Wire Fox Terrier Toys Guide",
       "reason": "Missing toys support page for Wire Fox Terrier.",
       "internalLinkTargets": [
         "/breeds/wire-fox-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1592,13 +1592,13 @@
       "breedSlug": "neapolitan-mastiff",
       "breedName": "Neapolitan Mastiff",
       "suggestedSlug": "best-toys-for-neapolitan-mastiff",
-      "suggestedPath": "/blog/best-toys-for-neapolitan-mastiff",
+      "suggestedPath": "/guides/best-toys-for-neapolitan-mastiff",
       "title": "Neapolitan Mastiff Toys Guide",
       "reason": "Missing toys support page for Neapolitan Mastiff.",
       "internalLinkTargets": [
         "/breeds/neapolitan-mastiff",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1623,13 +1623,13 @@
       "breedSlug": "borzoi",
       "breedName": "Borzoi",
       "suggestedSlug": "best-toys-for-borzoi",
-      "suggestedPath": "/blog/best-toys-for-borzoi",
+      "suggestedPath": "/guides/best-toys-for-borzoi",
       "title": "Borzoi Toys Guide",
       "reason": "Missing toys support page for Borzoi.",
       "internalLinkTargets": [
         "/breeds/borzoi",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1654,13 +1654,13 @@
       "breedSlug": "japanese-chin",
       "breedName": "Japanese Chin",
       "suggestedSlug": "best-toys-for-japanese-chin",
-      "suggestedPath": "/blog/best-toys-for-japanese-chin",
+      "suggestedPath": "/guides/best-toys-for-japanese-chin",
       "title": "Japanese Chin Toys Guide",
       "reason": "Missing toys support page for Japanese Chin.",
       "internalLinkTargets": [
         "/breeds/japanese-chin",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1685,13 +1685,13 @@
       "breedSlug": "schipperke",
       "breedName": "Schipperke",
       "suggestedSlug": "best-toys-for-schipperke",
-      "suggestedPath": "/blog/best-toys-for-schipperke",
+      "suggestedPath": "/guides/best-toys-for-schipperke",
       "title": "Schipperke Toys Guide",
       "reason": "Missing toys support page for Schipperke.",
       "internalLinkTargets": [
         "/breeds/schipperke",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1716,13 +1716,13 @@
       "breedSlug": "belgian-tervuren",
       "breedName": "Belgian Tervuren",
       "suggestedSlug": "best-toys-for-belgian-tervuren",
-      "suggestedPath": "/blog/best-toys-for-belgian-tervuren",
+      "suggestedPath": "/guides/best-toys-for-belgian-tervuren",
       "title": "Belgian Tervuren Toys Guide",
       "reason": "Missing toys support page for Belgian Tervuren.",
       "internalLinkTargets": [
         "/breeds/belgian-tervuren",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1747,13 +1747,13 @@
       "breedSlug": "welsh-terrier",
       "breedName": "Welsh Terrier",
       "suggestedSlug": "best-toys-for-welsh-terrier",
-      "suggestedPath": "/blog/best-toys-for-welsh-terrier",
+      "suggestedPath": "/guides/best-toys-for-welsh-terrier",
       "title": "Welsh Terrier Toys Guide",
       "reason": "Missing toys support page for Welsh Terrier.",
       "internalLinkTargets": [
         "/breeds/welsh-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1778,13 +1778,13 @@
       "breedSlug": "norwich-terrier",
       "breedName": "Norwich Terrier",
       "suggestedSlug": "best-toys-for-norwich-terrier",
-      "suggestedPath": "/blog/best-toys-for-norwich-terrier",
+      "suggestedPath": "/guides/best-toys-for-norwich-terrier",
       "title": "Norwich Terrier Toys Guide",
       "reason": "Missing toys support page for Norwich Terrier.",
       "internalLinkTargets": [
         "/breeds/norwich-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1809,13 +1809,13 @@
       "breedSlug": "spinone-italiano",
       "breedName": "Spinone Italiano",
       "suggestedSlug": "best-toys-for-spinone-italiano",
-      "suggestedPath": "/blog/best-toys-for-spinone-italiano",
+      "suggestedPath": "/guides/best-toys-for-spinone-italiano",
       "title": "Spinone Italiano Toys Guide",
       "reason": "Missing toys support page for Spinone Italiano.",
       "internalLinkTargets": [
         "/breeds/spinone-italiano",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1840,13 +1840,13 @@
       "breedSlug": "miniature-bull-terrier",
       "breedName": "Miniature Bull Terrier",
       "suggestedSlug": "best-toys-for-miniature-bull-terrier",
-      "suggestedPath": "/blog/best-toys-for-miniature-bull-terrier",
+      "suggestedPath": "/guides/best-toys-for-miniature-bull-terrier",
       "title": "Miniature Bull Terrier Toys Guide",
       "reason": "Missing toys support page for Miniature Bull Terrier.",
       "internalLinkTargets": [
         "/breeds/miniature-bull-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1871,13 +1871,13 @@
       "breedSlug": "toy-fox-terrier",
       "breedName": "Toy Fox Terrier",
       "suggestedSlug": "best-toys-for-toy-fox-terrier",
-      "suggestedPath": "/blog/best-toys-for-toy-fox-terrier",
+      "suggestedPath": "/guides/best-toys-for-toy-fox-terrier",
       "title": "Toy Fox Terrier Toys Guide",
       "reason": "Missing toys support page for Toy Fox Terrier.",
       "internalLinkTargets": [
         "/breeds/toy-fox-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1902,13 +1902,13 @@
       "breedSlug": "silky-terrier",
       "breedName": "Silky Terrier",
       "suggestedSlug": "best-toys-for-silky-terrier",
-      "suggestedPath": "/blog/best-toys-for-silky-terrier",
+      "suggestedPath": "/guides/best-toys-for-silky-terrier",
       "title": "Silky Terrier Toys Guide",
       "reason": "Missing toys support page for Silky Terrier.",
       "internalLinkTargets": [
         "/breeds/silky-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1933,13 +1933,13 @@
       "breedSlug": "afghan-hound",
       "breedName": "Afghan Hound",
       "suggestedSlug": "best-toys-for-afghan-hound",
-      "suggestedPath": "/blog/best-toys-for-afghan-hound",
+      "suggestedPath": "/guides/best-toys-for-afghan-hound",
       "title": "Afghan Hound Toys Guide",
       "reason": "Missing toys support page for Afghan Hound.",
       "internalLinkTargets": [
         "/breeds/afghan-hound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1964,13 +1964,13 @@
       "breedSlug": "pointer",
       "breedName": "Pointer",
       "suggestedSlug": "best-toys-for-pointer",
-      "suggestedPath": "/blog/best-toys-for-pointer",
+      "suggestedPath": "/guides/best-toys-for-pointer",
       "title": "Pointer Toys Guide",
       "reason": "Missing toys support page for Pointer.",
       "internalLinkTargets": [
         "/breeds/pointer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -1995,13 +1995,13 @@
       "breedSlug": "gordon-setter",
       "breedName": "Gordon Setter",
       "suggestedSlug": "best-toys-for-gordon-setter",
-      "suggestedPath": "/blog/best-toys-for-gordon-setter",
+      "suggestedPath": "/guides/best-toys-for-gordon-setter",
       "title": "Gordon Setter Toys Guide",
       "reason": "Missing toys support page for Gordon Setter.",
       "internalLinkTargets": [
         "/breeds/gordon-setter",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2026,13 +2026,13 @@
       "breedSlug": "irish-terrier",
       "breedName": "Irish Terrier",
       "suggestedSlug": "best-toys-for-irish-terrier",
-      "suggestedPath": "/blog/best-toys-for-irish-terrier",
+      "suggestedPath": "/guides/best-toys-for-irish-terrier",
       "title": "Irish Terrier Toys Guide",
       "reason": "Missing toys support page for Irish Terrier.",
       "internalLinkTargets": [
         "/breeds/irish-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2057,13 +2057,13 @@
       "breedSlug": "parson-russell-terrier",
       "breedName": "Parson Russell Terrier",
       "suggestedSlug": "best-toys-for-parson-russell-terrier",
-      "suggestedPath": "/blog/best-toys-for-parson-russell-terrier",
+      "suggestedPath": "/guides/best-toys-for-parson-russell-terrier",
       "title": "Parson Russell Terrier Toys Guide",
       "reason": "Missing toys support page for Parson Russell Terrier.",
       "internalLinkTargets": [
         "/breeds/parson-russell-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2088,13 +2088,13 @@
       "breedSlug": "black-russian-terrier",
       "breedName": "Black Russian Terrier",
       "suggestedSlug": "best-toys-for-black-russian-terrier",
-      "suggestedPath": "/blog/best-toys-for-black-russian-terrier",
+      "suggestedPath": "/guides/best-toys-for-black-russian-terrier",
       "title": "Black Russian Terrier Toys Guide",
       "reason": "Missing toys support page for Black Russian Terrier.",
       "internalLinkTargets": [
         "/breeds/black-russian-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2119,13 +2119,13 @@
       "breedSlug": "tibetan-spaniel",
       "breedName": "Tibetan Spaniel",
       "suggestedSlug": "best-toys-for-tibetan-spaniel",
-      "suggestedPath": "/blog/best-toys-for-tibetan-spaniel",
+      "suggestedPath": "/guides/best-toys-for-tibetan-spaniel",
       "title": "Tibetan Spaniel Toys Guide",
       "reason": "Missing toys support page for Tibetan Spaniel.",
       "internalLinkTargets": [
         "/breeds/tibetan-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2150,13 +2150,13 @@
       "breedSlug": "saluki",
       "breedName": "Saluki",
       "suggestedSlug": "best-toys-for-saluki",
-      "suggestedPath": "/blog/best-toys-for-saluki",
+      "suggestedPath": "/guides/best-toys-for-saluki",
       "title": "Saluki Toys Guide",
       "reason": "Missing toys support page for Saluki.",
       "internalLinkTargets": [
         "/breeds/saluki",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2181,13 +2181,13 @@
       "breedSlug": "boerboel",
       "breedName": "Boerboel",
       "suggestedSlug": "best-toys-for-boerboel",
-      "suggestedPath": "/blog/best-toys-for-boerboel",
+      "suggestedPath": "/guides/best-toys-for-boerboel",
       "title": "Boerboel Toys Guide",
       "reason": "Missing toys support page for Boerboel.",
       "internalLinkTargets": [
         "/breeds/boerboel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2212,13 +2212,13 @@
       "breedSlug": "american-eskimo-dog",
       "breedName": "American Eskimo Dog",
       "suggestedSlug": "best-toys-for-american-eskimo-dog",
-      "suggestedPath": "/blog/best-toys-for-american-eskimo-dog",
+      "suggestedPath": "/guides/best-toys-for-american-eskimo-dog",
       "title": "American Eskimo Dog Toys Guide",
       "reason": "Missing toys support page for American Eskimo Dog.",
       "internalLinkTargets": [
         "/breeds/american-eskimo-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2243,13 +2243,13 @@
       "breedSlug": "smooth-fox-terrier",
       "breedName": "Smooth Fox Terrier",
       "suggestedSlug": "best-toys-for-smooth-fox-terrier",
-      "suggestedPath": "/blog/best-toys-for-smooth-fox-terrier",
+      "suggestedPath": "/guides/best-toys-for-smooth-fox-terrier",
       "title": "Smooth Fox Terrier Toys Guide",
       "reason": "Missing toys support page for Smooth Fox Terrier.",
       "internalLinkTargets": [
         "/breeds/smooth-fox-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2274,13 +2274,13 @@
       "breedSlug": "beauceron",
       "breedName": "Beauceron",
       "suggestedSlug": "best-toys-for-beauceron",
-      "suggestedPath": "/blog/best-toys-for-beauceron",
+      "suggestedPath": "/guides/best-toys-for-beauceron",
       "title": "Beauceron Toys Guide",
       "reason": "Missing toys support page for Beauceron.",
       "internalLinkTargets": [
         "/breeds/beauceron",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2305,13 +2305,13 @@
       "breedSlug": "belgian-sheepdog",
       "breedName": "Belgian Sheepdog",
       "suggestedSlug": "best-toys-for-belgian-sheepdog",
-      "suggestedPath": "/blog/best-toys-for-belgian-sheepdog",
+      "suggestedPath": "/guides/best-toys-for-belgian-sheepdog",
       "title": "Belgian Sheepdog Toys Guide",
       "reason": "Missing toys support page for Belgian Sheepdog.",
       "internalLinkTargets": [
         "/breeds/belgian-sheepdog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2336,13 +2336,13 @@
       "breedSlug": "norfolk-terrier",
       "breedName": "Norfolk Terrier",
       "suggestedSlug": "best-toys-for-norfolk-terrier",
-      "suggestedPath": "/blog/best-toys-for-norfolk-terrier",
+      "suggestedPath": "/guides/best-toys-for-norfolk-terrier",
       "title": "Norfolk Terrier Toys Guide",
       "reason": "Missing toys support page for Norfolk Terrier.",
       "internalLinkTargets": [
         "/breeds/norfolk-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2367,13 +2367,13 @@
       "breedSlug": "bearded-collie",
       "breedName": "Bearded Collie",
       "suggestedSlug": "best-toys-for-bearded-collie",
-      "suggestedPath": "/blog/best-toys-for-bearded-collie",
+      "suggestedPath": "/guides/best-toys-for-bearded-collie",
       "title": "Bearded Collie Toys Guide",
       "reason": "Missing toys support page for Bearded Collie.",
       "internalLinkTargets": [
         "/breeds/bearded-collie",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2398,13 +2398,13 @@
       "breedSlug": "welsh-springer-spaniel",
       "breedName": "Welsh Springer Spaniel",
       "suggestedSlug": "best-toys-for-welsh-springer-spaniel",
-      "suggestedPath": "/blog/best-toys-for-welsh-springer-spaniel",
+      "suggestedPath": "/guides/best-toys-for-welsh-springer-spaniel",
       "title": "Welsh Springer Spaniel Toys Guide",
       "reason": "Missing toys support page for Welsh Springer Spaniel.",
       "internalLinkTargets": [
         "/breeds/welsh-springer-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2429,13 +2429,13 @@
       "breedSlug": "kerry-blue-terrier",
       "breedName": "Kerry Blue Terrier",
       "suggestedSlug": "best-toys-for-kerry-blue-terrier",
-      "suggestedPath": "/blog/best-toys-for-kerry-blue-terrier",
+      "suggestedPath": "/guides/best-toys-for-kerry-blue-terrier",
       "title": "Kerry Blue Terrier Toys Guide",
       "reason": "Missing toys support page for Kerry Blue Terrier.",
       "internalLinkTargets": [
         "/breeds/kerry-blue-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2460,13 +2460,13 @@
       "breedSlug": "bluetick-coonhound",
       "breedName": "Bluetick Coonhound",
       "suggestedSlug": "best-toys-for-bluetick-coonhound",
-      "suggestedPath": "/blog/best-toys-for-bluetick-coonhound",
+      "suggestedPath": "/guides/best-toys-for-bluetick-coonhound",
       "title": "Bluetick Coonhound Toys Guide",
       "reason": "Missing toys support page for Bluetick Coonhound.",
       "internalLinkTargets": [
         "/breeds/bluetick-coonhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2491,13 +2491,13 @@
       "breedSlug": "tibetan-mastiff",
       "breedName": "Tibetan Mastiff",
       "suggestedSlug": "best-toys-for-tibetan-mastiff",
-      "suggestedPath": "/blog/best-toys-for-tibetan-mastiff",
+      "suggestedPath": "/guides/best-toys-for-tibetan-mastiff",
       "title": "Tibetan Mastiff Toys Guide",
       "reason": "Missing toys support page for Tibetan Mastiff.",
       "internalLinkTargets": [
         "/breeds/tibetan-mastiff",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2522,13 +2522,13 @@
       "breedSlug": "briard",
       "breedName": "Briard",
       "suggestedSlug": "best-toys-for-briard",
-      "suggestedPath": "/blog/best-toys-for-briard",
+      "suggestedPath": "/guides/best-toys-for-briard",
       "title": "Briard Toys Guide",
       "reason": "Missing toys support page for Briard.",
       "internalLinkTargets": [
         "/breeds/briard",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2553,13 +2553,13 @@
       "breedSlug": "manchester-terrier-standard",
       "breedName": "Manchester Terrier (Standard)",
       "suggestedSlug": "best-toys-for-manchester-terrier-standard",
-      "suggestedPath": "/blog/best-toys-for-manchester-terrier-standard",
+      "suggestedPath": "/guides/best-toys-for-manchester-terrier-standard",
       "title": "Manchester Terrier (Standard) Toys Guide",
       "reason": "Missing toys support page for Manchester Terrier (Standard).",
       "internalLinkTargets": [
         "/breeds/manchester-terrier-standard",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2584,13 +2584,13 @@
       "breedSlug": "manchester-terrier-toy",
       "breedName": "Manchester Terrier (Toy)",
       "suggestedSlug": "best-toys-for-manchester-terrier-toy",
-      "suggestedPath": "/blog/best-toys-for-manchester-terrier-toy",
+      "suggestedPath": "/guides/best-toys-for-manchester-terrier-toy",
       "title": "Manchester Terrier (Toy) Toys Guide",
       "reason": "Missing toys support page for Manchester Terrier (Toy).",
       "internalLinkTargets": [
         "/breeds/manchester-terrier-toy",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2615,13 +2615,13 @@
       "breedSlug": "german-pinscher",
       "breedName": "German Pinscher",
       "suggestedSlug": "best-toys-for-german-pinscher",
-      "suggestedPath": "/blog/best-toys-for-german-pinscher",
+      "suggestedPath": "/guides/best-toys-for-german-pinscher",
       "title": "German Pinscher Toys Guide",
       "reason": "Missing toys support page for German Pinscher.",
       "internalLinkTargets": [
         "/breeds/german-pinscher",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2646,13 +2646,13 @@
       "breedSlug": "english-toy-spaniel",
       "breedName": "English Toy Spaniel",
       "suggestedSlug": "best-toys-for-english-toy-spaniel",
-      "suggestedPath": "/blog/best-toys-for-english-toy-spaniel",
+      "suggestedPath": "/guides/best-toys-for-english-toy-spaniel",
       "title": "English Toy Spaniel Toys Guide",
       "reason": "Missing toys support page for English Toy Spaniel.",
       "internalLinkTargets": [
         "/breeds/english-toy-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2677,13 +2677,13 @@
       "breedSlug": "american-hairless-terrier",
       "breedName": "American Hairless Terrier",
       "suggestedSlug": "best-toys-for-american-hairless-terrier",
-      "suggestedPath": "/blog/best-toys-for-american-hairless-terrier",
+      "suggestedPath": "/guides/best-toys-for-american-hairless-terrier",
       "title": "American Hairless Terrier Toys Guide",
       "reason": "Missing toys support page for American Hairless Terrier.",
       "internalLinkTargets": [
         "/breeds/american-hairless-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2708,13 +2708,13 @@
       "breedSlug": "treeing-walker-coonhound",
       "breedName": "Treeing Walker Coonhound",
       "suggestedSlug": "best-toys-for-treeing-walker-coonhound",
-      "suggestedPath": "/blog/best-toys-for-treeing-walker-coonhound",
+      "suggestedPath": "/guides/best-toys-for-treeing-walker-coonhound",
       "title": "Treeing Walker Coonhound Toys Guide",
       "reason": "Missing toys support page for Treeing Walker Coonhound.",
       "internalLinkTargets": [
         "/breeds/treeing-walker-coonhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2739,13 +2739,13 @@
       "breedSlug": "black-and-tan-coonhound",
       "breedName": "Black and Tan Coonhound",
       "suggestedSlug": "best-toys-for-black-and-tan-coonhound",
-      "suggestedPath": "/blog/best-toys-for-black-and-tan-coonhound",
+      "suggestedPath": "/guides/best-toys-for-black-and-tan-coonhound",
       "title": "Black and Tan Coonhound Toys Guide",
       "reason": "Missing toys support page for Black and Tan Coonhound.",
       "internalLinkTargets": [
         "/breeds/black-and-tan-coonhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2770,13 +2770,13 @@
       "breedSlug": "australian-terrier",
       "breedName": "Australian Terrier",
       "suggestedSlug": "best-toys-for-australian-terrier",
-      "suggestedPath": "/blog/best-toys-for-australian-terrier",
+      "suggestedPath": "/guides/best-toys-for-australian-terrier",
       "title": "Australian Terrier Toys Guide",
       "reason": "Missing toys support page for Australian Terrier.",
       "internalLinkTargets": [
         "/breeds/australian-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2801,13 +2801,13 @@
       "breedSlug": "xoloitzcuintli",
       "breedName": "Xoloitzcuintli",
       "suggestedSlug": "best-toys-for-xoloitzcuintli",
-      "suggestedPath": "/blog/best-toys-for-xoloitzcuintli",
+      "suggestedPath": "/guides/best-toys-for-xoloitzcuintli",
       "title": "Xoloitzcuintli Toys Guide",
       "reason": "Missing toys support page for Xoloitzcuintli.",
       "internalLinkTargets": [
         "/breeds/xoloitzcuintli",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2832,13 +2832,13 @@
       "breedSlug": "bedlington-terrier",
       "breedName": "Bedlington Terrier",
       "suggestedSlug": "best-toys-for-bedlington-terrier",
-      "suggestedPath": "/blog/best-toys-for-bedlington-terrier",
+      "suggestedPath": "/guides/best-toys-for-bedlington-terrier",
       "title": "Bedlington Terrier Toys Guide",
       "reason": "Missing toys support page for Bedlington Terrier.",
       "internalLinkTargets": [
         "/breeds/bedlington-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2863,13 +2863,13 @@
       "breedSlug": "redbone-coonhound",
       "breedName": "Redbone Coonhound",
       "suggestedSlug": "best-toys-for-redbone-coonhound",
-      "suggestedPath": "/blog/best-toys-for-redbone-coonhound",
+      "suggestedPath": "/guides/best-toys-for-redbone-coonhound",
       "title": "Redbone Coonhound Toys Guide",
       "reason": "Missing toys support page for Redbone Coonhound.",
       "internalLinkTargets": [
         "/breeds/redbone-coonhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2894,13 +2894,13 @@
       "breedSlug": "clumber-spaniel",
       "breedName": "Clumber Spaniel",
       "suggestedSlug": "best-toys-for-clumber-spaniel",
-      "suggestedPath": "/blog/best-toys-for-clumber-spaniel",
+      "suggestedPath": "/guides/best-toys-for-clumber-spaniel",
       "title": "Clumber Spaniel Toys Guide",
       "reason": "Missing toys support page for Clumber Spaniel.",
       "internalLinkTargets": [
         "/breeds/clumber-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2925,13 +2925,13 @@
       "breedSlug": "berger-picard",
       "breedName": "Berger Picard",
       "suggestedSlug": "best-toys-for-berger-picard",
-      "suggestedPath": "/blog/best-toys-for-berger-picard",
+      "suggestedPath": "/guides/best-toys-for-berger-picard",
       "title": "Berger Picard Toys Guide",
       "reason": "Missing toys support page for Berger Picard.",
       "internalLinkTargets": [
         "/breeds/berger-picard",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2956,13 +2956,13 @@
       "breedSlug": "greyhound",
       "breedName": "Greyhound",
       "suggestedSlug": "best-toys-for-greyhound",
-      "suggestedPath": "/blog/best-toys-for-greyhound",
+      "suggestedPath": "/guides/best-toys-for-greyhound",
       "title": "Greyhound Toys Guide",
       "reason": "Missing toys support page for Greyhound.",
       "internalLinkTargets": [
         "/breeds/greyhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -2987,13 +2987,13 @@
       "breedSlug": "irish-red-and-white-setter",
       "breedName": "Irish Red and White Setter",
       "suggestedSlug": "best-toys-for-irish-red-and-white-setter",
-      "suggestedPath": "/blog/best-toys-for-irish-red-and-white-setter",
+      "suggestedPath": "/guides/best-toys-for-irish-red-and-white-setter",
       "title": "Irish Red and White Setter Toys Guide",
       "reason": "Missing toys support page for Irish Red and White Setter.",
       "internalLinkTargets": [
         "/breeds/irish-red-and-white-setter",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3018,13 +3018,13 @@
       "breedSlug": "lakeland-terrier",
       "breedName": "Lakeland Terrier",
       "suggestedSlug": "best-toys-for-lakeland-terrier",
-      "suggestedPath": "/blog/best-toys-for-lakeland-terrier",
+      "suggestedPath": "/guides/best-toys-for-lakeland-terrier",
       "title": "Lakeland Terrier Toys Guide",
       "reason": "Missing toys support page for Lakeland Terrier.",
       "internalLinkTargets": [
         "/breeds/lakeland-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3049,13 +3049,13 @@
       "breedSlug": "affenpinscher",
       "breedName": "Affenpinscher",
       "suggestedSlug": "best-toys-for-affenpinscher",
-      "suggestedPath": "/blog/best-toys-for-affenpinscher",
+      "suggestedPath": "/guides/best-toys-for-affenpinscher",
       "title": "Affenpinscher Toys Guide",
       "reason": "Missing toys support page for Affenpinscher.",
       "internalLinkTargets": [
         "/breeds/affenpinscher",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3080,13 +3080,13 @@
       "breedSlug": "field-spaniel",
       "breedName": "Field Spaniel",
       "suggestedSlug": "best-toys-for-field-spaniel",
-      "suggestedPath": "/blog/best-toys-for-field-spaniel",
+      "suggestedPath": "/guides/best-toys-for-field-spaniel",
       "title": "Field Spaniel Toys Guide",
       "reason": "Missing toys support page for Field Spaniel.",
       "internalLinkTargets": [
         "/breeds/field-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3111,13 +3111,13 @@
       "breedSlug": "nederlandse-kooikerhondje",
       "breedName": "Nederlandse Kooikerhondje",
       "suggestedSlug": "best-toys-for-nederlandse-kooikerhondje",
-      "suggestedPath": "/blog/best-toys-for-nederlandse-kooikerhondje",
+      "suggestedPath": "/guides/best-toys-for-nederlandse-kooikerhondje",
       "title": "Nederlandse Kooikerhondje Toys Guide",
       "reason": "Missing toys support page for Nederlandse Kooikerhondje.",
       "internalLinkTargets": [
         "/breeds/nederlandse-kooikerhondje",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3142,13 +3142,13 @@
       "breedSlug": "pumi",
       "breedName": "Pumi",
       "suggestedSlug": "best-toys-for-pumi",
-      "suggestedPath": "/blog/best-toys-for-pumi",
+      "suggestedPath": "/guides/best-toys-for-pumi",
       "title": "Pumi Toys Guide",
       "reason": "Missing toys support page for Pumi.",
       "internalLinkTargets": [
         "/breeds/pumi",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3173,13 +3173,13 @@
       "breedSlug": "ibizan-hound",
       "breedName": "Ibizan Hound",
       "suggestedSlug": "best-toys-for-ibizan-hound",
-      "suggestedPath": "/blog/best-toys-for-ibizan-hound",
+      "suggestedPath": "/guides/best-toys-for-ibizan-hound",
       "title": "Ibizan Hound Toys Guide",
       "reason": "Missing toys support page for Ibizan Hound.",
       "internalLinkTargets": [
         "/breeds/ibizan-hound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3204,13 +3204,13 @@
       "breedSlug": "spanish-water-dog",
       "breedName": "Spanish Water Dog",
       "suggestedSlug": "best-toys-for-spanish-water-dog",
-      "suggestedPath": "/blog/best-toys-for-spanish-water-dog",
+      "suggestedPath": "/guides/best-toys-for-spanish-water-dog",
       "title": "Spanish Water Dog Toys Guide",
       "reason": "Missing toys support page for Spanish Water Dog.",
       "internalLinkTargets": [
         "/breeds/spanish-water-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3235,13 +3235,13 @@
       "breedSlug": "portuguese-podengo-pequeno",
       "breedName": "Portuguese Podengo Pequeno",
       "suggestedSlug": "best-toys-for-portuguese-podengo-pequeno",
-      "suggestedPath": "/blog/best-toys-for-portuguese-podengo-pequeno",
+      "suggestedPath": "/guides/best-toys-for-portuguese-podengo-pequeno",
       "title": "Portuguese Podengo Pequeno Toys Guide",
       "reason": "Missing toys support page for Portuguese Podengo Pequeno.",
       "internalLinkTargets": [
         "/breeds/portuguese-podengo-pequeno",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3266,13 +3266,13 @@
       "breedSlug": "icelandic-sheepdog",
       "breedName": "Icelandic Sheepdog",
       "suggestedSlug": "best-toys-for-icelandic-sheepdog",
-      "suggestedPath": "/blog/best-toys-for-icelandic-sheepdog",
+      "suggestedPath": "/guides/best-toys-for-icelandic-sheepdog",
       "title": "Icelandic Sheepdog Toys Guide",
       "reason": "Missing toys support page for Icelandic Sheepdog.",
       "internalLinkTargets": [
         "/breeds/icelandic-sheepdog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3297,13 +3297,13 @@
       "breedSlug": "petit-basset-griffon-venden",
       "breedName": "Petit Basset Griffon Vendéen",
       "suggestedSlug": "best-toys-for-petit-basset-griffon-venden",
-      "suggestedPath": "/blog/best-toys-for-petit-basset-griffon-venden",
+      "suggestedPath": "/guides/best-toys-for-petit-basset-griffon-venden",
       "title": "Petit Basset Griffon Vendéen Toys Guide",
       "reason": "Missing toys support page for Petit Basset Griffon Vendéen.",
       "internalLinkTargets": [
         "/breeds/petit-basset-griffon-venden",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3328,13 +3328,13 @@
       "breedSlug": "entlebucher-mountain-dog",
       "breedName": "Entlebucher Mountain Dog",
       "suggestedSlug": "best-toys-for-entlebucher-mountain-dog",
-      "suggestedPath": "/blog/best-toys-for-entlebucher-mountain-dog",
+      "suggestedPath": "/guides/best-toys-for-entlebucher-mountain-dog",
       "title": "Entlebucher Mountain Dog Toys Guide",
       "reason": "Missing toys support page for Entlebucher Mountain Dog.",
       "internalLinkTargets": [
         "/breeds/entlebucher-mountain-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3359,13 +3359,13 @@
       "breedSlug": "scottish-deerhound",
       "breedName": "Scottish Deerhound",
       "suggestedSlug": "best-toys-for-scottish-deerhound",
-      "suggestedPath": "/blog/best-toys-for-scottish-deerhound",
+      "suggestedPath": "/guides/best-toys-for-scottish-deerhound",
       "title": "Scottish Deerhound Toys Guide",
       "reason": "Missing toys support page for Scottish Deerhound.",
       "internalLinkTargets": [
         "/breeds/scottish-deerhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3390,13 +3390,13 @@
       "breedSlug": "irish-water-spaniel",
       "breedName": "Irish Water Spaniel",
       "suggestedSlug": "best-toys-for-irish-water-spaniel",
-      "suggestedPath": "/blog/best-toys-for-irish-water-spaniel",
+      "suggestedPath": "/guides/best-toys-for-irish-water-spaniel",
       "title": "Irish Water Spaniel Toys Guide",
       "reason": "Missing toys support page for Irish Water Spaniel.",
       "internalLinkTargets": [
         "/breeds/irish-water-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3421,13 +3421,13 @@
       "breedSlug": "puli",
       "breedName": "Puli",
       "suggestedSlug": "best-toys-for-puli",
-      "suggestedPath": "/blog/best-toys-for-puli",
+      "suggestedPath": "/guides/best-toys-for-puli",
       "title": "Puli Toys Guide",
       "reason": "Missing toys support page for Puli.",
       "internalLinkTargets": [
         "/breeds/puli",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3452,13 +3452,13 @@
       "breedSlug": "finnish-lapphund",
       "breedName": "Finnish Lapphund",
       "suggestedSlug": "best-toys-for-finnish-lapphund",
-      "suggestedPath": "/blog/best-toys-for-finnish-lapphund",
+      "suggestedPath": "/guides/best-toys-for-finnish-lapphund",
       "title": "Finnish Lapphund Toys Guide",
       "reason": "Missing toys support page for Finnish Lapphund.",
       "internalLinkTargets": [
         "/breeds/finnish-lapphund",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3483,13 +3483,13 @@
       "breedSlug": "curly-coated-retriever",
       "breedName": "Curly-Coated Retriever",
       "suggestedSlug": "best-toys-for-curly-coated-retriever",
-      "suggestedPath": "/blog/best-toys-for-curly-coated-retriever",
+      "suggestedPath": "/guides/best-toys-for-curly-coated-retriever",
       "title": "Curly-Coated Retriever Toys Guide",
       "reason": "Missing toys support page for Curly-Coated Retriever.",
       "internalLinkTargets": [
         "/breeds/curly-coated-retriever",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3514,13 +3514,13 @@
       "breedSlug": "kuvasz",
       "breedName": "Kuvasz",
       "suggestedSlug": "best-toys-for-kuvasz",
-      "suggestedPath": "/blog/best-toys-for-kuvasz",
+      "suggestedPath": "/guides/best-toys-for-kuvasz",
       "title": "Kuvasz Toys Guide",
       "reason": "Missing toys support page for Kuvasz.",
       "internalLinkTargets": [
         "/breeds/kuvasz",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3545,13 +3545,13 @@
       "breedSlug": "sealyham-terrier",
       "breedName": "Sealyham Terrier",
       "suggestedSlug": "best-toys-for-sealyham-terrier",
-      "suggestedPath": "/blog/best-toys-for-sealyham-terrier",
+      "suggestedPath": "/guides/best-toys-for-sealyham-terrier",
       "title": "Sealyham Terrier Toys Guide",
       "reason": "Missing toys support page for Sealyham Terrier.",
       "internalLinkTargets": [
         "/breeds/sealyham-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3576,13 +3576,13 @@
       "breedSlug": "norwegian-buhund",
       "breedName": "Norwegian Buhund",
       "suggestedSlug": "best-toys-for-norwegian-buhund",
-      "suggestedPath": "/blog/best-toys-for-norwegian-buhund",
+      "suggestedPath": "/guides/best-toys-for-norwegian-buhund",
       "title": "Norwegian Buhund Toys Guide",
       "reason": "Missing toys support page for Norwegian Buhund.",
       "internalLinkTargets": [
         "/breeds/norwegian-buhund",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3607,13 +3607,13 @@
       "breedSlug": "american-water-spaniel",
       "breedName": "American Water Spaniel",
       "suggestedSlug": "best-toys-for-american-water-spaniel",
-      "suggestedPath": "/blog/best-toys-for-american-water-spaniel",
+      "suggestedPath": "/guides/best-toys-for-american-water-spaniel",
       "title": "American Water Spaniel Toys Guide",
       "reason": "Missing toys support page for American Water Spaniel.",
       "internalLinkTargets": [
         "/breeds/american-water-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3638,13 +3638,13 @@
       "breedSlug": "wirehaired-vizsla",
       "breedName": "Wirehaired Vizsla",
       "suggestedSlug": "best-toys-for-wirehaired-vizsla",
-      "suggestedPath": "/blog/best-toys-for-wirehaired-vizsla",
+      "suggestedPath": "/guides/best-toys-for-wirehaired-vizsla",
       "title": "Wirehaired Vizsla Toys Guide",
       "reason": "Missing toys support page for Wirehaired Vizsla.",
       "internalLinkTargets": [
         "/breeds/wirehaired-vizsla",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3669,13 +3669,13 @@
       "breedSlug": "lwchen",
       "breedName": "Löwchen",
       "suggestedSlug": "best-toys-for-lwchen",
-      "suggestedPath": "/blog/best-toys-for-lwchen",
+      "suggestedPath": "/guides/best-toys-for-lwchen",
       "title": "Löwchen Toys Guide",
       "reason": "Missing toys support page for Löwchen.",
       "internalLinkTargets": [
         "/breeds/lwchen",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3700,13 +3700,13 @@
       "breedSlug": "swedish-vallhund",
       "breedName": "Swedish Vallhund",
       "suggestedSlug": "best-toys-for-swedish-vallhund",
-      "suggestedPath": "/blog/best-toys-for-swedish-vallhund",
+      "suggestedPath": "/guides/best-toys-for-swedish-vallhund",
       "title": "Swedish Vallhund Toys Guide",
       "reason": "Missing toys support page for Swedish Vallhund.",
       "internalLinkTargets": [
         "/breeds/swedish-vallhund",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3731,13 +3731,13 @@
       "breedSlug": "polish-lowland-sheepdog",
       "breedName": "Polish Lowland Sheepdog",
       "suggestedSlug": "best-toys-for-polish-lowland-sheepdog",
-      "suggestedPath": "/blog/best-toys-for-polish-lowland-sheepdog",
+      "suggestedPath": "/guides/best-toys-for-polish-lowland-sheepdog",
       "title": "Polish Lowland Sheepdog Toys Guide",
       "reason": "Missing toys support page for Polish Lowland Sheepdog.",
       "internalLinkTargets": [
         "/breeds/polish-lowland-sheepdog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3762,13 +3762,13 @@
       "breedSlug": "plott-hound",
       "breedName": "Plott Hound",
       "suggestedSlug": "best-toys-for-plott-hound",
-      "suggestedPath": "/blog/best-toys-for-plott-hound",
+      "suggestedPath": "/guides/best-toys-for-plott-hound",
       "title": "Plott Hound Toys Guide",
       "reason": "Missing toys support page for Plott Hound.",
       "internalLinkTargets": [
         "/breeds/plott-hound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3793,13 +3793,13 @@
       "breedSlug": "pharaoh-hound",
       "breedName": "Pharaoh Hound",
       "suggestedSlug": "best-toys-for-pharaoh-hound",
-      "suggestedPath": "/blog/best-toys-for-pharaoh-hound",
+      "suggestedPath": "/guides/best-toys-for-pharaoh-hound",
       "title": "Pharaoh Hound Toys Guide",
       "reason": "Missing toys support page for Pharaoh Hound.",
       "internalLinkTargets": [
         "/breeds/pharaoh-hound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3824,13 +3824,13 @@
       "breedSlug": "komondor",
       "breedName": "Komondor",
       "suggestedSlug": "best-toys-for-komondor",
-      "suggestedPath": "/blog/best-toys-for-komondor",
+      "suggestedPath": "/guides/best-toys-for-komondor",
       "title": "Komondor Toys Guide",
       "reason": "Missing toys support page for Komondor.",
       "internalLinkTargets": [
         "/breeds/komondor",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3855,13 +3855,13 @@
       "breedSlug": "glen-of-imaal-terrier",
       "breedName": "Glen of Imaal Terrier",
       "suggestedSlug": "best-toys-for-glen-of-imaal-terrier",
-      "suggestedPath": "/blog/best-toys-for-glen-of-imaal-terrier",
+      "suggestedPath": "/guides/best-toys-for-glen-of-imaal-terrier",
       "title": "Glen of Imaal Terrier Toys Guide",
       "reason": "Missing toys support page for Glen of Imaal Terrier.",
       "internalLinkTargets": [
         "/breeds/glen-of-imaal-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3886,13 +3886,13 @@
       "breedSlug": "american-english-coonhound",
       "breedName": "American English Coonhound",
       "suggestedSlug": "best-toys-for-american-english-coonhound",
-      "suggestedPath": "/blog/best-toys-for-american-english-coonhound",
+      "suggestedPath": "/guides/best-toys-for-american-english-coonhound",
       "title": "American English Coonhound Toys Guide",
       "reason": "Missing toys support page for American English Coonhound.",
       "internalLinkTargets": [
         "/breeds/american-english-coonhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3917,13 +3917,13 @@
       "breedSlug": "dandie-dinmont-terrier",
       "breedName": "Dandie Dinmont Terrier",
       "suggestedSlug": "best-toys-for-dandie-dinmont-terrier",
-      "suggestedPath": "/blog/best-toys-for-dandie-dinmont-terrier",
+      "suggestedPath": "/guides/best-toys-for-dandie-dinmont-terrier",
       "title": "Dandie Dinmont Terrier Toys Guide",
       "reason": "Missing toys support page for Dandie Dinmont Terrier.",
       "internalLinkTargets": [
         "/breeds/dandie-dinmont-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3948,13 +3948,13 @@
       "breedSlug": "grand-basset-griffon-venden",
       "breedName": "Grand Basset Griffon Vendéen",
       "suggestedSlug": "best-toys-for-grand-basset-griffon-venden",
-      "suggestedPath": "/blog/best-toys-for-grand-basset-griffon-venden",
+      "suggestedPath": "/guides/best-toys-for-grand-basset-griffon-venden",
       "title": "Grand Basset Griffon Vendéen Toys Guide",
       "reason": "Missing toys support page for Grand Basset Griffon Vendéen.",
       "internalLinkTargets": [
         "/breeds/grand-basset-griffon-venden",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -3979,13 +3979,13 @@
       "breedSlug": "skye-terrier",
       "breedName": "Skye Terrier",
       "suggestedSlug": "best-toys-for-skye-terrier",
-      "suggestedPath": "/blog/best-toys-for-skye-terrier",
+      "suggestedPath": "/guides/best-toys-for-skye-terrier",
       "title": "Skye Terrier Toys Guide",
       "reason": "Missing toys support page for Skye Terrier.",
       "internalLinkTargets": [
         "/breeds/skye-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4010,13 +4010,13 @@
       "breedSlug": "canaan-dog",
       "breedName": "Canaan Dog",
       "suggestedSlug": "best-toys-for-canaan-dog",
-      "suggestedPath": "/blog/best-toys-for-canaan-dog",
+      "suggestedPath": "/guides/best-toys-for-canaan-dog",
       "title": "Canaan Dog Toys Guide",
       "reason": "Missing toys support page for Canaan Dog.",
       "internalLinkTargets": [
         "/breeds/canaan-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4041,13 +4041,13 @@
       "breedSlug": "sussex-spaniel",
       "breedName": "Sussex Spaniel",
       "suggestedSlug": "best-toys-for-sussex-spaniel",
-      "suggestedPath": "/blog/best-toys-for-sussex-spaniel",
+      "suggestedPath": "/guides/best-toys-for-sussex-spaniel",
       "title": "Sussex Spaniel Toys Guide",
       "reason": "Missing toys support page for Sussex Spaniel.",
       "internalLinkTargets": [
         "/breeds/sussex-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4072,13 +4072,13 @@
       "breedSlug": "pyrenean-shepherd",
       "breedName": "Pyrenean Shepherd",
       "suggestedSlug": "best-toys-for-pyrenean-shepherd",
-      "suggestedPath": "/blog/best-toys-for-pyrenean-shepherd",
+      "suggestedPath": "/guides/best-toys-for-pyrenean-shepherd",
       "title": "Pyrenean Shepherd Toys Guide",
       "reason": "Missing toys support page for Pyrenean Shepherd.",
       "internalLinkTargets": [
         "/breeds/pyrenean-shepherd",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4103,13 +4103,13 @@
       "breedSlug": "otterhound",
       "breedName": "Otterhound",
       "suggestedSlug": "best-toys-for-otterhound",
-      "suggestedPath": "/blog/best-toys-for-otterhound",
+      "suggestedPath": "/guides/best-toys-for-otterhound",
       "title": "Otterhound Toys Guide",
       "reason": "Missing toys support page for Otterhound.",
       "internalLinkTargets": [
         "/breeds/otterhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4134,13 +4134,13 @@
       "breedSlug": "cirneco-delletna",
       "breedName": "Cirneco dell’Etna",
       "suggestedSlug": "best-toys-for-cirneco-delletna",
-      "suggestedPath": "/blog/best-toys-for-cirneco-delletna",
+      "suggestedPath": "/guides/best-toys-for-cirneco-delletna",
       "title": "Cirneco dell’Etna Toys Guide",
       "reason": "Missing toys support page for Cirneco dell’Etna.",
       "internalLinkTargets": [
         "/breeds/cirneco-delletna",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4165,13 +4165,13 @@
       "breedSlug": "finnish-spitz",
       "breedName": "Finnish Spitz",
       "suggestedSlug": "best-toys-for-finnish-spitz",
-      "suggestedPath": "/blog/best-toys-for-finnish-spitz",
+      "suggestedPath": "/guides/best-toys-for-finnish-spitz",
       "title": "Finnish Spitz Toys Guide",
       "reason": "Missing toys support page for Finnish Spitz.",
       "internalLinkTargets": [
         "/breeds/finnish-spitz",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4196,13 +4196,13 @@
       "breedSlug": "cesky-terrier",
       "breedName": "Cesky Terrier",
       "suggestedSlug": "best-toys-for-cesky-terrier",
-      "suggestedPath": "/blog/best-toys-for-cesky-terrier",
+      "suggestedPath": "/guides/best-toys-for-cesky-terrier",
       "title": "Cesky Terrier Toys Guide",
       "reason": "Missing toys support page for Cesky Terrier.",
       "internalLinkTargets": [
         "/breeds/cesky-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4227,13 +4227,13 @@
       "breedSlug": "american-foxhound",
       "breedName": "American Foxhound",
       "suggestedSlug": "best-toys-for-american-foxhound",
-      "suggestedPath": "/blog/best-toys-for-american-foxhound",
+      "suggestedPath": "/guides/best-toys-for-american-foxhound",
       "title": "American Foxhound Toys Guide",
       "reason": "Missing toys support page for American Foxhound.",
       "internalLinkTargets": [
         "/breeds/american-foxhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4258,13 +4258,13 @@
       "breedSlug": "bergamasco-sheepdog",
       "breedName": "Bergamasco Sheepdog",
       "suggestedSlug": "best-toys-for-bergamasco-sheepdog",
-      "suggestedPath": "/blog/best-toys-for-bergamasco-sheepdog",
+      "suggestedPath": "/guides/best-toys-for-bergamasco-sheepdog",
       "title": "Bergamasco Sheepdog Toys Guide",
       "reason": "Missing toys support page for Bergamasco Sheepdog.",
       "internalLinkTargets": [
         "/breeds/bergamasco-sheepdog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4289,13 +4289,13 @@
       "breedSlug": "english-foxhound",
       "breedName": "English Foxhound",
       "suggestedSlug": "best-toys-for-english-foxhound",
-      "suggestedPath": "/blog/best-toys-for-english-foxhound",
+      "suggestedPath": "/guides/best-toys-for-english-foxhound",
       "title": "English Foxhound Toys Guide",
       "reason": "Missing toys support page for English Foxhound.",
       "internalLinkTargets": [
         "/breeds/english-foxhound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4320,13 +4320,13 @@
       "breedSlug": "harrier",
       "breedName": "Harrier",
       "suggestedSlug": "best-toys-for-harrier",
-      "suggestedPath": "/blog/best-toys-for-harrier",
+      "suggestedPath": "/guides/best-toys-for-harrier",
       "title": "Harrier Toys Guide",
       "reason": "Missing toys support page for Harrier.",
       "internalLinkTargets": [
         "/breeds/harrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4351,13 +4351,13 @@
       "breedSlug": "chinook",
       "breedName": "Chinook",
       "suggestedSlug": "best-toys-for-chinook",
-      "suggestedPath": "/blog/best-toys-for-chinook",
+      "suggestedPath": "/guides/best-toys-for-chinook",
       "title": "Chinook Toys Guide",
       "reason": "Missing toys support page for Chinook.",
       "internalLinkTargets": [
         "/breeds/chinook",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4382,13 +4382,13 @@
       "breedSlug": "norwegian-lundehund",
       "breedName": "Norwegian Lundehund",
       "suggestedSlug": "best-toys-for-norwegian-lundehund",
-      "suggestedPath": "/blog/best-toys-for-norwegian-lundehund",
+      "suggestedPath": "/guides/best-toys-for-norwegian-lundehund",
       "title": "Norwegian Lundehund Toys Guide",
       "reason": "Missing toys support page for Norwegian Lundehund.",
       "internalLinkTargets": [
         "/breeds/norwegian-lundehund",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4413,13 +4413,13 @@
       "breedSlug": "sloughi",
       "breedName": "Sloughi",
       "suggestedSlug": "best-toys-for-sloughi",
-      "suggestedPath": "/blog/best-toys-for-sloughi",
+      "suggestedPath": "/guides/best-toys-for-sloughi",
       "title": "Sloughi Toys Guide",
       "reason": "Missing toys support page for Sloughi.",
       "internalLinkTargets": [
         "/breeds/sloughi",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4444,13 +4444,13 @@
       "breedSlug": "azawakh",
       "breedName": "Azawakh",
       "suggestedSlug": "best-toys-for-azawakh",
-      "suggestedPath": "/blog/best-toys-for-azawakh",
+      "suggestedPath": "/guides/best-toys-for-azawakh",
       "title": "Azawakh Toys Guide",
       "reason": "Missing toys support page for Azawakh.",
       "internalLinkTargets": [
         "/breeds/azawakh",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4475,13 +4475,13 @@
       "breedSlug": "barbet",
       "breedName": "Barbet",
       "suggestedSlug": "best-toys-for-barbet",
-      "suggestedPath": "/blog/best-toys-for-barbet",
+      "suggestedPath": "/guides/best-toys-for-barbet",
       "title": "Barbet Toys Guide",
       "reason": "Missing toys support page for Barbet.",
       "internalLinkTargets": [
         "/breeds/barbet",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4506,13 +4506,13 @@
       "breedSlug": "dogo-argentino",
       "breedName": "Dogo Argentino",
       "suggestedSlug": "best-toys-for-dogo-argentino",
-      "suggestedPath": "/blog/best-toys-for-dogo-argentino",
+      "suggestedPath": "/guides/best-toys-for-dogo-argentino",
       "title": "Dogo Argentino Toys Guide",
       "reason": "Missing toys support page for Dogo Argentino.",
       "internalLinkTargets": [
         "/breeds/dogo-argentino",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4537,13 +4537,13 @@
       "breedSlug": "american-bulldog",
       "breedName": "American Bulldog",
       "suggestedSlug": "best-toys-for-american-bulldog",
-      "suggestedPath": "/blog/best-toys-for-american-bulldog",
+      "suggestedPath": "/guides/best-toys-for-american-bulldog",
       "title": "American Bulldog Toys Guide",
       "reason": "Missing toys support page for American Bulldog.",
       "internalLinkTargets": [
         "/breeds/american-bulldog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4568,13 +4568,13 @@
       "breedSlug": "american-leopard-hound",
       "breedName": "American Leopard Hound",
       "suggestedSlug": "best-toys-for-american-leopard-hound",
-      "suggestedPath": "/blog/best-toys-for-american-leopard-hound",
+      "suggestedPath": "/guides/best-toys-for-american-leopard-hound",
       "title": "American Leopard Hound Toys Guide",
       "reason": "Missing toys support page for American Leopard Hound.",
       "internalLinkTargets": [
         "/breeds/american-leopard-hound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4599,13 +4599,13 @@
       "breedSlug": "appenzeller-sennenhund",
       "breedName": "Appenzeller Sennenhund",
       "suggestedSlug": "best-toys-for-appenzeller-sennenhund",
-      "suggestedPath": "/blog/best-toys-for-appenzeller-sennenhund",
+      "suggestedPath": "/guides/best-toys-for-appenzeller-sennenhund",
       "title": "Appenzeller Sennenhund Toys Guide",
       "reason": "Missing toys support page for Appenzeller Sennenhund.",
       "internalLinkTargets": [
         "/breeds/appenzeller-sennenhund",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4630,13 +4630,13 @@
       "breedSlug": "australian-kelpie",
       "breedName": "Australian Kelpie",
       "suggestedSlug": "best-toys-for-australian-kelpie",
-      "suggestedPath": "/blog/best-toys-for-australian-kelpie",
+      "suggestedPath": "/guides/best-toys-for-australian-kelpie",
       "title": "Australian Kelpie Toys Guide",
       "reason": "Missing toys support page for Australian Kelpie.",
       "internalLinkTargets": [
         "/breeds/australian-kelpie",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4661,13 +4661,13 @@
       "breedSlug": "australian-stumpy-tail-cattle-dog",
       "breedName": "Australian Stumpy Tail Cattle Dog",
       "suggestedSlug": "best-toys-for-australian-stumpy-tail-cattle-dog",
-      "suggestedPath": "/blog/best-toys-for-australian-stumpy-tail-cattle-dog",
+      "suggestedPath": "/guides/best-toys-for-australian-stumpy-tail-cattle-dog",
       "title": "Australian Stumpy Tail Cattle Dog Toys Guide",
       "reason": "Missing toys support page for Australian Stumpy Tail Cattle Dog.",
       "internalLinkTargets": [
         "/breeds/australian-stumpy-tail-cattle-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4692,13 +4692,13 @@
       "breedSlug": "basset-fauve-de-bretagne",
       "breedName": "Basset Fauve de Bretagne",
       "suggestedSlug": "best-toys-for-basset-fauve-de-bretagne",
-      "suggestedPath": "/blog/best-toys-for-basset-fauve-de-bretagne",
+      "suggestedPath": "/guides/best-toys-for-basset-fauve-de-bretagne",
       "title": "Basset Fauve de Bretagne Toys Guide",
       "reason": "Missing toys support page for Basset Fauve de Bretagne.",
       "internalLinkTargets": [
         "/breeds/basset-fauve-de-bretagne",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4723,13 +4723,13 @@
       "breedSlug": "bavarian-mountain-scent-hound",
       "breedName": "Bavarian Mountain Scent Hound",
       "suggestedSlug": "best-toys-for-bavarian-mountain-scent-hound",
-      "suggestedPath": "/blog/best-toys-for-bavarian-mountain-scent-hound",
+      "suggestedPath": "/guides/best-toys-for-bavarian-mountain-scent-hound",
       "title": "Bavarian Mountain Scent Hound Toys Guide",
       "reason": "Missing toys support page for Bavarian Mountain Scent Hound.",
       "internalLinkTargets": [
         "/breeds/bavarian-mountain-scent-hound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4754,13 +4754,13 @@
       "breedSlug": "belgian-laekenois",
       "breedName": "Belgian Laekenois",
       "suggestedSlug": "best-toys-for-belgian-laekenois",
-      "suggestedPath": "/blog/best-toys-for-belgian-laekenois",
+      "suggestedPath": "/guides/best-toys-for-belgian-laekenois",
       "title": "Belgian Laekenois Toys Guide",
       "reason": "Missing toys support page for Belgian Laekenois.",
       "internalLinkTargets": [
         "/breeds/belgian-laekenois",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4785,13 +4785,13 @@
       "breedSlug": "biewer-terrier",
       "breedName": "Biewer Terrier",
       "suggestedSlug": "best-toys-for-biewer-terrier",
-      "suggestedPath": "/blog/best-toys-for-biewer-terrier",
+      "suggestedPath": "/guides/best-toys-for-biewer-terrier",
       "title": "Biewer Terrier Toys Guide",
       "reason": "Missing toys support page for Biewer Terrier.",
       "internalLinkTargets": [
         "/breeds/biewer-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4816,13 +4816,13 @@
       "breedSlug": "bohemian-shepherd",
       "breedName": "Bohemian Shepherd",
       "suggestedSlug": "best-toys-for-bohemian-shepherd",
-      "suggestedPath": "/blog/best-toys-for-bohemian-shepherd",
+      "suggestedPath": "/guides/best-toys-for-bohemian-shepherd",
       "title": "Bohemian Shepherd Toys Guide",
       "reason": "Missing toys support page for Bohemian Shepherd.",
       "internalLinkTargets": [
         "/breeds/bohemian-shepherd",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4847,13 +4847,13 @@
       "breedSlug": "bolognese",
       "breedName": "Bolognese",
       "suggestedSlug": "best-toys-for-bolognese",
-      "suggestedPath": "/blog/best-toys-for-bolognese",
+      "suggestedPath": "/guides/best-toys-for-bolognese",
       "title": "Bolognese Toys Guide",
       "reason": "Missing toys support page for Bolognese.",
       "internalLinkTargets": [
         "/breeds/bolognese",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4878,13 +4878,13 @@
       "breedSlug": "bracco-italiano",
       "breedName": "Bracco Italiano",
       "suggestedSlug": "best-toys-for-bracco-italiano",
-      "suggestedPath": "/blog/best-toys-for-bracco-italiano",
+      "suggestedPath": "/guides/best-toys-for-bracco-italiano",
       "title": "Bracco Italiano Toys Guide",
       "reason": "Missing toys support page for Bracco Italiano.",
       "internalLinkTargets": [
         "/breeds/bracco-italiano",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4909,13 +4909,13 @@
       "breedSlug": "braque-du-bourbonnais",
       "breedName": "Braque du Bourbonnais",
       "suggestedSlug": "best-toys-for-braque-du-bourbonnais",
-      "suggestedPath": "/blog/best-toys-for-braque-du-bourbonnais",
+      "suggestedPath": "/guides/best-toys-for-braque-du-bourbonnais",
       "title": "Braque du Bourbonnais Toys Guide",
       "reason": "Missing toys support page for Braque du Bourbonnais.",
       "internalLinkTargets": [
         "/breeds/braque-du-bourbonnais",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4940,13 +4940,13 @@
       "breedSlug": "braque-francais-pyrenean",
       "breedName": "Braque Francais Pyrenean",
       "suggestedSlug": "best-toys-for-braque-francais-pyrenean",
-      "suggestedPath": "/blog/best-toys-for-braque-francais-pyrenean",
+      "suggestedPath": "/guides/best-toys-for-braque-francais-pyrenean",
       "title": "Braque Francais Pyrenean Toys Guide",
       "reason": "Missing toys support page for Braque Francais Pyrenean.",
       "internalLinkTargets": [
         "/breeds/braque-francais-pyrenean",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -4971,13 +4971,13 @@
       "breedSlug": "broholmer",
       "breedName": "Broholmer",
       "suggestedSlug": "best-toys-for-broholmer",
-      "suggestedPath": "/blog/best-toys-for-broholmer",
+      "suggestedPath": "/guides/best-toys-for-broholmer",
       "title": "Broholmer Toys Guide",
       "reason": "Missing toys support page for Broholmer.",
       "internalLinkTargets": [
         "/breeds/broholmer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5002,13 +5002,13 @@
       "breedSlug": "carolina-dog",
       "breedName": "Carolina Dog",
       "suggestedSlug": "best-toys-for-carolina-dog",
-      "suggestedPath": "/blog/best-toys-for-carolina-dog",
+      "suggestedPath": "/guides/best-toys-for-carolina-dog",
       "title": "Carolina Dog Toys Guide",
       "reason": "Missing toys support page for Carolina Dog.",
       "internalLinkTargets": [
         "/breeds/carolina-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5033,13 +5033,13 @@
       "breedSlug": "catahoula-leopard-dog",
       "breedName": "Catahoula Leopard Dog",
       "suggestedSlug": "best-toys-for-catahoula-leopard-dog",
-      "suggestedPath": "/blog/best-toys-for-catahoula-leopard-dog",
+      "suggestedPath": "/guides/best-toys-for-catahoula-leopard-dog",
       "title": "Catahoula Leopard Dog Toys Guide",
       "reason": "Missing toys support page for Catahoula Leopard Dog.",
       "internalLinkTargets": [
         "/breeds/catahoula-leopard-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5064,13 +5064,13 @@
       "breedSlug": "caucasian-shepherd-dog",
       "breedName": "Caucasian Shepherd Dog",
       "suggestedSlug": "best-toys-for-caucasian-shepherd-dog",
-      "suggestedPath": "/blog/best-toys-for-caucasian-shepherd-dog",
+      "suggestedPath": "/guides/best-toys-for-caucasian-shepherd-dog",
       "title": "Caucasian Shepherd Dog Toys Guide",
       "reason": "Missing toys support page for Caucasian Shepherd Dog.",
       "internalLinkTargets": [
         "/breeds/caucasian-shepherd-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5095,13 +5095,13 @@
       "breedSlug": "central-asian-shepherd-dog",
       "breedName": "Central Asian Shepherd Dog",
       "suggestedSlug": "best-toys-for-central-asian-shepherd-dog",
-      "suggestedPath": "/blog/best-toys-for-central-asian-shepherd-dog",
+      "suggestedPath": "/guides/best-toys-for-central-asian-shepherd-dog",
       "title": "Central Asian Shepherd Dog Toys Guide",
       "reason": "Missing toys support page for Central Asian Shepherd Dog.",
       "internalLinkTargets": [
         "/breeds/central-asian-shepherd-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5126,13 +5126,13 @@
       "breedSlug": "croatian-sheepdog",
       "breedName": "Croatian Sheepdog",
       "suggestedSlug": "best-toys-for-croatian-sheepdog",
-      "suggestedPath": "/blog/best-toys-for-croatian-sheepdog",
+      "suggestedPath": "/guides/best-toys-for-croatian-sheepdog",
       "title": "Croatian Sheepdog Toys Guide",
       "reason": "Missing toys support page for Croatian Sheepdog.",
       "internalLinkTargets": [
         "/breeds/croatian-sheepdog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5157,13 +5157,13 @@
       "breedSlug": "czechoslovakian-vlcak",
       "breedName": "Czechoslovakian Vlcak",
       "suggestedSlug": "best-toys-for-czechoslovakian-vlcak",
-      "suggestedPath": "/blog/best-toys-for-czechoslovakian-vlcak",
+      "suggestedPath": "/guides/best-toys-for-czechoslovakian-vlcak",
       "title": "Czechoslovakian Vlcak Toys Guide",
       "reason": "Missing toys support page for Czechoslovakian Vlcak.",
       "internalLinkTargets": [
         "/breeds/czechoslovakian-vlcak",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5188,13 +5188,13 @@
       "breedSlug": "danish-swedish-farmdog",
       "breedName": "Danish-Swedish Farmdog",
       "suggestedSlug": "best-toys-for-danish-swedish-farmdog",
-      "suggestedPath": "/blog/best-toys-for-danish-swedish-farmdog",
+      "suggestedPath": "/guides/best-toys-for-danish-swedish-farmdog",
       "title": "Danish-Swedish Farmdog Toys Guide",
       "reason": "Missing toys support page for Danish-Swedish Farmdog.",
       "internalLinkTargets": [
         "/breeds/danish-swedish-farmdog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5219,13 +5219,13 @@
       "breedSlug": "deutscher-wachtelhund",
       "breedName": "Deutscher Wachtelhund",
       "suggestedSlug": "best-toys-for-deutscher-wachtelhund",
-      "suggestedPath": "/blog/best-toys-for-deutscher-wachtelhund",
+      "suggestedPath": "/guides/best-toys-for-deutscher-wachtelhund",
       "title": "Deutscher Wachtelhund Toys Guide",
       "reason": "Missing toys support page for Deutscher Wachtelhund.",
       "internalLinkTargets": [
         "/breeds/deutscher-wachtelhund",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5250,13 +5250,13 @@
       "breedSlug": "drentsche-patrijshond",
       "breedName": "Drentsche Patrijshond",
       "suggestedSlug": "best-toys-for-drentsche-patrijshond",
-      "suggestedPath": "/blog/best-toys-for-drentsche-patrijshond",
+      "suggestedPath": "/guides/best-toys-for-drentsche-patrijshond",
       "title": "Drentsche Patrijshond Toys Guide",
       "reason": "Missing toys support page for Drentsche Patrijshond.",
       "internalLinkTargets": [
         "/breeds/drentsche-patrijshond",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5281,13 +5281,13 @@
       "breedSlug": "drever",
       "breedName": "Drever",
       "suggestedSlug": "best-toys-for-drever",
-      "suggestedPath": "/blog/best-toys-for-drever",
+      "suggestedPath": "/guides/best-toys-for-drever",
       "title": "Drever Toys Guide",
       "reason": "Missing toys support page for Drever.",
       "internalLinkTargets": [
         "/breeds/drever",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5312,13 +5312,13 @@
       "breedSlug": "dutch-shepherd",
       "breedName": "Dutch Shepherd",
       "suggestedSlug": "best-toys-for-dutch-shepherd",
-      "suggestedPath": "/blog/best-toys-for-dutch-shepherd",
+      "suggestedPath": "/guides/best-toys-for-dutch-shepherd",
       "title": "Dutch Shepherd Toys Guide",
       "reason": "Missing toys support page for Dutch Shepherd.",
       "internalLinkTargets": [
         "/breeds/dutch-shepherd",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5343,13 +5343,13 @@
       "breedSlug": "estrela-mountain-dog",
       "breedName": "Estrela Mountain Dog",
       "suggestedSlug": "best-toys-for-estrela-mountain-dog",
-      "suggestedPath": "/blog/best-toys-for-estrela-mountain-dog",
+      "suggestedPath": "/guides/best-toys-for-estrela-mountain-dog",
       "title": "Estrela Mountain Dog Toys Guide",
       "reason": "Missing toys support page for Estrela Mountain Dog.",
       "internalLinkTargets": [
         "/breeds/estrela-mountain-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5374,13 +5374,13 @@
       "breedSlug": "eurasier",
       "breedName": "Eurasier",
       "suggestedSlug": "best-toys-for-eurasier",
-      "suggestedPath": "/blog/best-toys-for-eurasier",
+      "suggestedPath": "/guides/best-toys-for-eurasier",
       "title": "Eurasier Toys Guide",
       "reason": "Missing toys support page for Eurasier.",
       "internalLinkTargets": [
         "/breeds/eurasier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5405,13 +5405,13 @@
       "breedSlug": "french-spaniel",
       "breedName": "French Spaniel",
       "suggestedSlug": "best-toys-for-french-spaniel",
-      "suggestedPath": "/blog/best-toys-for-french-spaniel",
+      "suggestedPath": "/guides/best-toys-for-french-spaniel",
       "title": "French Spaniel Toys Guide",
       "reason": "Missing toys support page for French Spaniel.",
       "internalLinkTargets": [
         "/breeds/french-spaniel",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5436,13 +5436,13 @@
       "breedSlug": "german-longhaired-pointer",
       "breedName": "German Longhaired Pointer",
       "suggestedSlug": "best-toys-for-german-longhaired-pointer",
-      "suggestedPath": "/blog/best-toys-for-german-longhaired-pointer",
+      "suggestedPath": "/guides/best-toys-for-german-longhaired-pointer",
       "title": "German Longhaired Pointer Toys Guide",
       "reason": "Missing toys support page for German Longhaired Pointer.",
       "internalLinkTargets": [
         "/breeds/german-longhaired-pointer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5467,13 +5467,13 @@
       "breedSlug": "german-spitz",
       "breedName": "German Spitz",
       "suggestedSlug": "best-toys-for-german-spitz",
-      "suggestedPath": "/blog/best-toys-for-german-spitz",
+      "suggestedPath": "/guides/best-toys-for-german-spitz",
       "title": "German Spitz Toys Guide",
       "reason": "Missing toys support page for German Spitz.",
       "internalLinkTargets": [
         "/breeds/german-spitz",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5498,13 +5498,13 @@
       "breedSlug": "hamiltonstovare",
       "breedName": "Hamiltonstovare",
       "suggestedSlug": "best-toys-for-hamiltonstovare",
-      "suggestedPath": "/blog/best-toys-for-hamiltonstovare",
+      "suggestedPath": "/guides/best-toys-for-hamiltonstovare",
       "title": "Hamiltonstovare Toys Guide",
       "reason": "Missing toys support page for Hamiltonstovare.",
       "internalLinkTargets": [
         "/breeds/hamiltonstovare",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5529,13 +5529,13 @@
       "breedSlug": "hanoverian-scenthound",
       "breedName": "Hanoverian Scenthound",
       "suggestedSlug": "best-toys-for-hanoverian-scenthound",
-      "suggestedPath": "/blog/best-toys-for-hanoverian-scenthound",
+      "suggestedPath": "/guides/best-toys-for-hanoverian-scenthound",
       "title": "Hanoverian Scenthound Toys Guide",
       "reason": "Missing toys support page for Hanoverian Scenthound.",
       "internalLinkTargets": [
         "/breeds/hanoverian-scenthound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5560,13 +5560,13 @@
       "breedSlug": "hokkaido",
       "breedName": "Hokkaido",
       "suggestedSlug": "best-toys-for-hokkaido",
-      "suggestedPath": "/blog/best-toys-for-hokkaido",
+      "suggestedPath": "/guides/best-toys-for-hokkaido",
       "title": "Hokkaido Toys Guide",
       "reason": "Missing toys support page for Hokkaido.",
       "internalLinkTargets": [
         "/breeds/hokkaido",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5591,13 +5591,13 @@
       "breedSlug": "hovawart",
       "breedName": "Hovawart",
       "suggestedSlug": "best-toys-for-hovawart",
-      "suggestedPath": "/blog/best-toys-for-hovawart",
+      "suggestedPath": "/guides/best-toys-for-hovawart",
       "title": "Hovawart Toys Guide",
       "reason": "Missing toys support page for Hovawart.",
       "internalLinkTargets": [
         "/breeds/hovawart",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5622,13 +5622,13 @@
       "breedSlug": "jagdterrier",
       "breedName": "Jagdterrier",
       "suggestedSlug": "best-toys-for-jagdterrier",
-      "suggestedPath": "/blog/best-toys-for-jagdterrier",
+      "suggestedPath": "/guides/best-toys-for-jagdterrier",
       "title": "Jagdterrier Toys Guide",
       "reason": "Missing toys support page for Jagdterrier.",
       "internalLinkTargets": [
         "/breeds/jagdterrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5653,13 +5653,13 @@
       "breedSlug": "japanese-spitz",
       "breedName": "Japanese Spitz",
       "suggestedSlug": "best-toys-for-japanese-spitz",
-      "suggestedPath": "/blog/best-toys-for-japanese-spitz",
+      "suggestedPath": "/guides/best-toys-for-japanese-spitz",
       "title": "Japanese Spitz Toys Guide",
       "reason": "Missing toys support page for Japanese Spitz.",
       "internalLinkTargets": [
         "/breeds/japanese-spitz",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5684,13 +5684,13 @@
       "breedSlug": "jindo",
       "breedName": "Jindo",
       "suggestedSlug": "best-toys-for-jindo",
-      "suggestedPath": "/blog/best-toys-for-jindo",
+      "suggestedPath": "/guides/best-toys-for-jindo",
       "title": "Jindo Toys Guide",
       "reason": "Missing toys support page for Jindo.",
       "internalLinkTargets": [
         "/breeds/jindo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5715,13 +5715,13 @@
       "breedSlug": "kai-ken",
       "breedName": "Kai Ken",
       "suggestedSlug": "best-toys-for-kai-ken",
-      "suggestedPath": "/blog/best-toys-for-kai-ken",
+      "suggestedPath": "/guides/best-toys-for-kai-ken",
       "title": "Kai Ken Toys Guide",
       "reason": "Missing toys support page for Kai Ken.",
       "internalLinkTargets": [
         "/breeds/kai-ken",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5746,13 +5746,13 @@
       "breedSlug": "karelian-bear-dog",
       "breedName": "Karelian Bear Dog",
       "suggestedSlug": "best-toys-for-karelian-bear-dog",
-      "suggestedPath": "/blog/best-toys-for-karelian-bear-dog",
+      "suggestedPath": "/guides/best-toys-for-karelian-bear-dog",
       "title": "Karelian Bear Dog Toys Guide",
       "reason": "Missing toys support page for Karelian Bear Dog.",
       "internalLinkTargets": [
         "/breeds/karelian-bear-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5777,13 +5777,13 @@
       "breedSlug": "kishu-ken",
       "breedName": "Kishu Ken",
       "suggestedSlug": "best-toys-for-kishu-ken",
-      "suggestedPath": "/blog/best-toys-for-kishu-ken",
+      "suggestedPath": "/guides/best-toys-for-kishu-ken",
       "title": "Kishu Ken Toys Guide",
       "reason": "Missing toys support page for Kishu Ken.",
       "internalLinkTargets": [
         "/breeds/kishu-ken",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5808,13 +5808,13 @@
       "breedSlug": "kromfohrlander",
       "breedName": "Kromfohrlander",
       "suggestedSlug": "best-toys-for-kromfohrlander",
-      "suggestedPath": "/blog/best-toys-for-kromfohrlander",
+      "suggestedPath": "/guides/best-toys-for-kromfohrlander",
       "title": "Kromfohrlander Toys Guide",
       "reason": "Missing toys support page for Kromfohrlander.",
       "internalLinkTargets": [
         "/breeds/kromfohrlander",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5839,13 +5839,13 @@
       "breedSlug": "lancashire-heeler",
       "breedName": "Lancashire Heeler",
       "suggestedSlug": "best-toys-for-lancashire-heeler",
-      "suggestedPath": "/blog/best-toys-for-lancashire-heeler",
+      "suggestedPath": "/guides/best-toys-for-lancashire-heeler",
       "title": "Lancashire Heeler Toys Guide",
       "reason": "Missing toys support page for Lancashire Heeler.",
       "internalLinkTargets": [
         "/breeds/lancashire-heeler",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5870,13 +5870,13 @@
       "breedSlug": "lapponian-herder",
       "breedName": "Lapponian Herder",
       "suggestedSlug": "best-toys-for-lapponian-herder",
-      "suggestedPath": "/blog/best-toys-for-lapponian-herder",
+      "suggestedPath": "/guides/best-toys-for-lapponian-herder",
       "title": "Lapponian Herder Toys Guide",
       "reason": "Missing toys support page for Lapponian Herder.",
       "internalLinkTargets": [
         "/breeds/lapponian-herder",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5901,13 +5901,13 @@
       "breedSlug": "mountain-cur",
       "breedName": "Mountain Cur",
       "suggestedSlug": "best-toys-for-mountain-cur",
-      "suggestedPath": "/blog/best-toys-for-mountain-cur",
+      "suggestedPath": "/guides/best-toys-for-mountain-cur",
       "title": "Mountain Cur Toys Guide",
       "reason": "Missing toys support page for Mountain Cur.",
       "internalLinkTargets": [
         "/breeds/mountain-cur",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5932,13 +5932,13 @@
       "breedSlug": "mudi",
       "breedName": "Mudi",
       "suggestedSlug": "best-toys-for-mudi",
-      "suggestedPath": "/blog/best-toys-for-mudi",
+      "suggestedPath": "/guides/best-toys-for-mudi",
       "title": "Mudi Toys Guide",
       "reason": "Missing toys support page for Mudi.",
       "internalLinkTargets": [
         "/breeds/mudi",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5963,13 +5963,13 @@
       "breedSlug": "norrbottenspets",
       "breedName": "Norrbottenspets",
       "suggestedSlug": "best-toys-for-norrbottenspets",
-      "suggestedPath": "/blog/best-toys-for-norrbottenspets",
+      "suggestedPath": "/guides/best-toys-for-norrbottenspets",
       "title": "Norrbottenspets Toys Guide",
       "reason": "Missing toys support page for Norrbottenspets.",
       "internalLinkTargets": [
         "/breeds/norrbottenspets",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -5994,13 +5994,13 @@
       "breedSlug": "perro-de-presa-canario",
       "breedName": "Perro de Presa Canario",
       "suggestedSlug": "best-toys-for-perro-de-presa-canario",
-      "suggestedPath": "/blog/best-toys-for-perro-de-presa-canario",
+      "suggestedPath": "/guides/best-toys-for-perro-de-presa-canario",
       "title": "Perro de Presa Canario Toys Guide",
       "reason": "Missing toys support page for Perro de Presa Canario.",
       "internalLinkTargets": [
         "/breeds/perro-de-presa-canario",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6025,13 +6025,13 @@
       "breedSlug": "peruvian-inca-orchid",
       "breedName": "Peruvian Inca Orchid",
       "suggestedSlug": "best-toys-for-peruvian-inca-orchid",
-      "suggestedPath": "/blog/best-toys-for-peruvian-inca-orchid",
+      "suggestedPath": "/guides/best-toys-for-peruvian-inca-orchid",
       "title": "Peruvian Inca Orchid Toys Guide",
       "reason": "Missing toys support page for Peruvian Inca Orchid.",
       "internalLinkTargets": [
         "/breeds/peruvian-inca-orchid",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6056,13 +6056,13 @@
       "breedSlug": "porcelaine",
       "breedName": "Porcelaine",
       "suggestedSlug": "best-toys-for-porcelaine",
-      "suggestedPath": "/blog/best-toys-for-porcelaine",
+      "suggestedPath": "/guides/best-toys-for-porcelaine",
       "title": "Porcelaine Toys Guide",
       "reason": "Missing toys support page for Porcelaine.",
       "internalLinkTargets": [
         "/breeds/porcelaine",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6087,13 +6087,13 @@
       "breedSlug": "portuguese-podengo",
       "breedName": "Portuguese Podengo",
       "suggestedSlug": "best-toys-for-portuguese-podengo",
-      "suggestedPath": "/blog/best-toys-for-portuguese-podengo",
+      "suggestedPath": "/guides/best-toys-for-portuguese-podengo",
       "title": "Portuguese Podengo Toys Guide",
       "reason": "Missing toys support page for Portuguese Podengo.",
       "internalLinkTargets": [
         "/breeds/portuguese-podengo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6118,13 +6118,13 @@
       "breedSlug": "portuguese-pointer",
       "breedName": "Portuguese Pointer",
       "suggestedSlug": "best-toys-for-portuguese-pointer",
-      "suggestedPath": "/blog/best-toys-for-portuguese-pointer",
+      "suggestedPath": "/guides/best-toys-for-portuguese-pointer",
       "title": "Portuguese Pointer Toys Guide",
       "reason": "Missing toys support page for Portuguese Pointer.",
       "internalLinkTargets": [
         "/breeds/portuguese-pointer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6149,13 +6149,13 @@
       "breedSlug": "portuguese-sheepdog",
       "breedName": "Portuguese Sheepdog",
       "suggestedSlug": "best-toys-for-portuguese-sheepdog",
-      "suggestedPath": "/blog/best-toys-for-portuguese-sheepdog",
+      "suggestedPath": "/guides/best-toys-for-portuguese-sheepdog",
       "title": "Portuguese Sheepdog Toys Guide",
       "reason": "Missing toys support page for Portuguese Sheepdog.",
       "internalLinkTargets": [
         "/breeds/portuguese-sheepdog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6180,13 +6180,13 @@
       "breedSlug": "pudelpointer",
       "breedName": "Pudelpointer",
       "suggestedSlug": "best-toys-for-pudelpointer",
-      "suggestedPath": "/blog/best-toys-for-pudelpointer",
+      "suggestedPath": "/guides/best-toys-for-pudelpointer",
       "title": "Pudelpointer Toys Guide",
       "reason": "Missing toys support page for Pudelpointer.",
       "internalLinkTargets": [
         "/breeds/pudelpointer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6211,13 +6211,13 @@
       "breedSlug": "pyrenean-mastiff",
       "breedName": "Pyrenean Mastiff",
       "suggestedSlug": "best-toys-for-pyrenean-mastiff",
-      "suggestedPath": "/blog/best-toys-for-pyrenean-mastiff",
+      "suggestedPath": "/guides/best-toys-for-pyrenean-mastiff",
       "title": "Pyrenean Mastiff Toys Guide",
       "reason": "Missing toys support page for Pyrenean Mastiff.",
       "internalLinkTargets": [
         "/breeds/pyrenean-mastiff",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6242,13 +6242,13 @@
       "breedSlug": "rafeiro-do-alentejo",
       "breedName": "Rafeiro do Alentejo",
       "suggestedSlug": "best-toys-for-rafeiro-do-alentejo",
-      "suggestedPath": "/blog/best-toys-for-rafeiro-do-alentejo",
+      "suggestedPath": "/guides/best-toys-for-rafeiro-do-alentejo",
       "title": "Rafeiro do Alentejo Toys Guide",
       "reason": "Missing toys support page for Rafeiro do Alentejo.",
       "internalLinkTargets": [
         "/breeds/rafeiro-do-alentejo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6273,13 +6273,13 @@
       "breedSlug": "romanian-mioritic-shepherd-dog",
       "breedName": "Romanian Mioritic Shepherd Dog",
       "suggestedSlug": "best-toys-for-romanian-mioritic-shepherd-dog",
-      "suggestedPath": "/blog/best-toys-for-romanian-mioritic-shepherd-dog",
+      "suggestedPath": "/guides/best-toys-for-romanian-mioritic-shepherd-dog",
       "title": "Romanian Mioritic Shepherd Dog Toys Guide",
       "reason": "Missing toys support page for Romanian Mioritic Shepherd Dog.",
       "internalLinkTargets": [
         "/breeds/romanian-mioritic-shepherd-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6304,13 +6304,13 @@
       "breedSlug": "russian-toy",
       "breedName": "Russian Toy",
       "suggestedSlug": "best-toys-for-russian-toy",
-      "suggestedPath": "/blog/best-toys-for-russian-toy",
+      "suggestedPath": "/guides/best-toys-for-russian-toy",
       "title": "Russian Toy Toys Guide",
       "reason": "Missing toys support page for Russian Toy.",
       "internalLinkTargets": [
         "/breeds/russian-toy",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6335,13 +6335,13 @@
       "breedSlug": "russian-tsvetnaya-bolonka",
       "breedName": "Russian Tsvetnaya Bolonka",
       "suggestedSlug": "best-toys-for-russian-tsvetnaya-bolonka",
-      "suggestedPath": "/blog/best-toys-for-russian-tsvetnaya-bolonka",
+      "suggestedPath": "/guides/best-toys-for-russian-tsvetnaya-bolonka",
       "title": "Russian Tsvetnaya Bolonka Toys Guide",
       "reason": "Missing toys support page for Russian Tsvetnaya Bolonka.",
       "internalLinkTargets": [
         "/breeds/russian-tsvetnaya-bolonka",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6366,13 +6366,13 @@
       "breedSlug": "schapendoes",
       "breedName": "Schapendoes",
       "suggestedSlug": "best-toys-for-schapendoes",
-      "suggestedPath": "/blog/best-toys-for-schapendoes",
+      "suggestedPath": "/guides/best-toys-for-schapendoes",
       "title": "Schapendoes Toys Guide",
       "reason": "Missing toys support page for Schapendoes.",
       "internalLinkTargets": [
         "/breeds/schapendoes",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6397,13 +6397,13 @@
       "breedSlug": "segugio-italiano",
       "breedName": "Segugio Italiano",
       "suggestedSlug": "best-toys-for-segugio-italiano",
-      "suggestedPath": "/blog/best-toys-for-segugio-italiano",
+      "suggestedPath": "/guides/best-toys-for-segugio-italiano",
       "title": "Segugio Italiano Toys Guide",
       "reason": "Missing toys support page for Segugio Italiano.",
       "internalLinkTargets": [
         "/breeds/segugio-italiano",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6428,13 +6428,13 @@
       "breedSlug": "shikoku",
       "breedName": "Shikoku",
       "suggestedSlug": "best-toys-for-shikoku",
-      "suggestedPath": "/blog/best-toys-for-shikoku",
+      "suggestedPath": "/guides/best-toys-for-shikoku",
       "title": "Shikoku Toys Guide",
       "reason": "Missing toys support page for Shikoku.",
       "internalLinkTargets": [
         "/breeds/shikoku",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6459,13 +6459,13 @@
       "breedSlug": "slovakian-wirehaired-pointer",
       "breedName": "Slovakian Wirehaired Pointer",
       "suggestedSlug": "best-toys-for-slovakian-wirehaired-pointer",
-      "suggestedPath": "/blog/best-toys-for-slovakian-wirehaired-pointer",
+      "suggestedPath": "/guides/best-toys-for-slovakian-wirehaired-pointer",
       "title": "Slovakian Wirehaired Pointer Toys Guide",
       "reason": "Missing toys support page for Slovakian Wirehaired Pointer.",
       "internalLinkTargets": [
         "/breeds/slovakian-wirehaired-pointer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6490,13 +6490,13 @@
       "breedSlug": "slovensky-cuvac",
       "breedName": "Slovensky Cuvac",
       "suggestedSlug": "best-toys-for-slovensky-cuvac",
-      "suggestedPath": "/blog/best-toys-for-slovensky-cuvac",
+      "suggestedPath": "/guides/best-toys-for-slovensky-cuvac",
       "title": "Slovensky Cuvac Toys Guide",
       "reason": "Missing toys support page for Slovensky Cuvac.",
       "internalLinkTargets": [
         "/breeds/slovensky-cuvac",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6521,13 +6521,13 @@
       "breedSlug": "slovensky-kopov",
       "breedName": "Slovensky Kopov",
       "suggestedSlug": "best-toys-for-slovensky-kopov",
-      "suggestedPath": "/blog/best-toys-for-slovensky-kopov",
+      "suggestedPath": "/guides/best-toys-for-slovensky-kopov",
       "title": "Slovensky Kopov Toys Guide",
       "reason": "Missing toys support page for Slovensky Kopov.",
       "internalLinkTargets": [
         "/breeds/slovensky-kopov",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6552,13 +6552,13 @@
       "breedSlug": "small-munsterlander-pointer",
       "breedName": "Small Munsterlander Pointer",
       "suggestedSlug": "best-toys-for-small-munsterlander-pointer",
-      "suggestedPath": "/blog/best-toys-for-small-munsterlander-pointer",
+      "suggestedPath": "/guides/best-toys-for-small-munsterlander-pointer",
       "title": "Small Munsterlander Pointer Toys Guide",
       "reason": "Missing toys support page for Small Munsterlander Pointer.",
       "internalLinkTargets": [
         "/breeds/small-munsterlander-pointer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6583,13 +6583,13 @@
       "breedSlug": "spanish-mastiff",
       "breedName": "Spanish Mastiff",
       "suggestedSlug": "best-toys-for-spanish-mastiff",
-      "suggestedPath": "/blog/best-toys-for-spanish-mastiff",
+      "suggestedPath": "/guides/best-toys-for-spanish-mastiff",
       "title": "Spanish Mastiff Toys Guide",
       "reason": "Missing toys support page for Spanish Mastiff.",
       "internalLinkTargets": [
         "/breeds/spanish-mastiff",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6614,13 +6614,13 @@
       "breedSlug": "stabyhoun",
       "breedName": "Stabyhoun",
       "suggestedSlug": "best-toys-for-stabyhoun",
-      "suggestedPath": "/blog/best-toys-for-stabyhoun",
+      "suggestedPath": "/guides/best-toys-for-stabyhoun",
       "title": "Stabyhoun Toys Guide",
       "reason": "Missing toys support page for Stabyhoun.",
       "internalLinkTargets": [
         "/breeds/stabyhoun",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6645,13 +6645,13 @@
       "breedSlug": "swedish-lapphund",
       "breedName": "Swedish Lapphund",
       "suggestedSlug": "best-toys-for-swedish-lapphund",
-      "suggestedPath": "/blog/best-toys-for-swedish-lapphund",
+      "suggestedPath": "/guides/best-toys-for-swedish-lapphund",
       "title": "Swedish Lapphund Toys Guide",
       "reason": "Missing toys support page for Swedish Lapphund.",
       "internalLinkTargets": [
         "/breeds/swedish-lapphund",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6676,13 +6676,13 @@
       "breedSlug": "taiwan-dog",
       "breedName": "Taiwan Dog",
       "suggestedSlug": "best-toys-for-taiwan-dog",
-      "suggestedPath": "/blog/best-toys-for-taiwan-dog",
+      "suggestedPath": "/guides/best-toys-for-taiwan-dog",
       "title": "Taiwan Dog Toys Guide",
       "reason": "Missing toys support page for Taiwan Dog.",
       "internalLinkTargets": [
         "/breeds/taiwan-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6707,13 +6707,13 @@
       "breedSlug": "teddy-roosevelt-terrier",
       "breedName": "Teddy Roosevelt Terrier",
       "suggestedSlug": "best-toys-for-teddy-roosevelt-terrier",
-      "suggestedPath": "/blog/best-toys-for-teddy-roosevelt-terrier",
+      "suggestedPath": "/guides/best-toys-for-teddy-roosevelt-terrier",
       "title": "Teddy Roosevelt Terrier Toys Guide",
       "reason": "Missing toys support page for Teddy Roosevelt Terrier.",
       "internalLinkTargets": [
         "/breeds/teddy-roosevelt-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6738,13 +6738,13 @@
       "breedSlug": "thai-ridgeback",
       "breedName": "Thai Ridgeback",
       "suggestedSlug": "best-toys-for-thai-ridgeback",
-      "suggestedPath": "/blog/best-toys-for-thai-ridgeback",
+      "suggestedPath": "/guides/best-toys-for-thai-ridgeback",
       "title": "Thai Ridgeback Toys Guide",
       "reason": "Missing toys support page for Thai Ridgeback.",
       "internalLinkTargets": [
         "/breeds/thai-ridgeback",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6769,13 +6769,13 @@
       "breedSlug": "tornjak",
       "breedName": "Tornjak",
       "suggestedSlug": "best-toys-for-tornjak",
-      "suggestedPath": "/blog/best-toys-for-tornjak",
+      "suggestedPath": "/guides/best-toys-for-tornjak",
       "title": "Tornjak Toys Guide",
       "reason": "Missing toys support page for Tornjak.",
       "internalLinkTargets": [
         "/breeds/tornjak",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6800,13 +6800,13 @@
       "breedSlug": "tosa",
       "breedName": "Tosa",
       "suggestedSlug": "best-toys-for-tosa",
-      "suggestedPath": "/blog/best-toys-for-tosa",
+      "suggestedPath": "/guides/best-toys-for-tosa",
       "title": "Tosa Toys Guide",
       "reason": "Missing toys support page for Tosa.",
       "internalLinkTargets": [
         "/breeds/tosa",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6831,13 +6831,13 @@
       "breedSlug": "transylvanian-hound",
       "breedName": "Transylvanian Hound",
       "suggestedSlug": "best-toys-for-transylvanian-hound",
-      "suggestedPath": "/blog/best-toys-for-transylvanian-hound",
+      "suggestedPath": "/guides/best-toys-for-transylvanian-hound",
       "title": "Transylvanian Hound Toys Guide",
       "reason": "Missing toys support page for Transylvanian Hound.",
       "internalLinkTargets": [
         "/breeds/transylvanian-hound",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6862,13 +6862,13 @@
       "breedSlug": "treeing-tennessee-brindle",
       "breedName": "Treeing Tennessee Brindle",
       "suggestedSlug": "best-toys-for-treeing-tennessee-brindle",
-      "suggestedPath": "/blog/best-toys-for-treeing-tennessee-brindle",
+      "suggestedPath": "/guides/best-toys-for-treeing-tennessee-brindle",
       "title": "Treeing Tennessee Brindle Toys Guide",
       "reason": "Missing toys support page for Treeing Tennessee Brindle.",
       "internalLinkTargets": [
         "/breeds/treeing-tennessee-brindle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6893,13 +6893,13 @@
       "breedSlug": "wetterhoun",
       "breedName": "Wetterhoun",
       "suggestedSlug": "best-toys-for-wetterhoun",
-      "suggestedPath": "/blog/best-toys-for-wetterhoun",
+      "suggestedPath": "/guides/best-toys-for-wetterhoun",
       "title": "Wetterhoun Toys Guide",
       "reason": "Missing toys support page for Wetterhoun.",
       "internalLinkTargets": [
         "/breeds/wetterhoun",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6924,13 +6924,13 @@
       "breedSlug": "working-kelpie",
       "breedName": "Working Kelpie",
       "suggestedSlug": "best-toys-for-working-kelpie",
-      "suggestedPath": "/blog/best-toys-for-working-kelpie",
+      "suggestedPath": "/guides/best-toys-for-working-kelpie",
       "title": "Working Kelpie Toys Guide",
       "reason": "Missing toys support page for Working Kelpie.",
       "internalLinkTargets": [
         "/breeds/working-kelpie",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6955,13 +6955,13 @@
       "breedSlug": "yakutian-laika",
       "breedName": "Yakutian Laika",
       "suggestedSlug": "best-toys-for-yakutian-laika",
-      "suggestedPath": "/blog/best-toys-for-yakutian-laika",
+      "suggestedPath": "/guides/best-toys-for-yakutian-laika",
       "title": "Yakutian Laika Toys Guide",
       "reason": "Missing toys support page for Yakutian Laika.",
       "internalLinkTargets": [
         "/breeds/yakutian-laika",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -6986,13 +6986,13 @@
       "breedSlug": "goldendoodle",
       "breedName": "Goldendoodle",
       "suggestedSlug": "best-toys-for-goldendoodle",
-      "suggestedPath": "/blog/best-toys-for-goldendoodle",
+      "suggestedPath": "/guides/best-toys-for-goldendoodle",
       "title": "Goldendoodle Toys Guide",
       "reason": "Missing toys support page for Goldendoodle.",
       "internalLinkTargets": [
         "/breeds/goldendoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7017,13 +7017,13 @@
       "breedSlug": "labradoodle",
       "breedName": "Labradoodle",
       "suggestedSlug": "best-toys-for-labradoodle",
-      "suggestedPath": "/blog/best-toys-for-labradoodle",
+      "suggestedPath": "/guides/best-toys-for-labradoodle",
       "title": "Labradoodle Toys Guide",
       "reason": "Missing toys support page for Labradoodle.",
       "internalLinkTargets": [
         "/breeds/labradoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7048,13 +7048,13 @@
       "breedSlug": "cockapoo",
       "breedName": "Cockapoo",
       "suggestedSlug": "best-toys-for-cockapoo",
-      "suggestedPath": "/blog/best-toys-for-cockapoo",
+      "suggestedPath": "/guides/best-toys-for-cockapoo",
       "title": "Cockapoo Toys Guide",
       "reason": "Missing toys support page for Cockapoo.",
       "internalLinkTargets": [
         "/breeds/cockapoo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7079,13 +7079,13 @@
       "breedSlug": "pomsky",
       "breedName": "Pomsky",
       "suggestedSlug": "best-toys-for-pomsky",
-      "suggestedPath": "/blog/best-toys-for-pomsky",
+      "suggestedPath": "/guides/best-toys-for-pomsky",
       "title": "Pomsky Toys Guide",
       "reason": "Missing toys support page for Pomsky.",
       "internalLinkTargets": [
         "/breeds/pomsky",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7110,13 +7110,13 @@
       "breedSlug": "maltipoo",
       "breedName": "Maltipoo",
       "suggestedSlug": "best-toys-for-maltipoo",
-      "suggestedPath": "/blog/best-toys-for-maltipoo",
+      "suggestedPath": "/guides/best-toys-for-maltipoo",
       "title": "Maltipoo Toys Guide",
       "reason": "Missing toys support page for Maltipoo.",
       "internalLinkTargets": [
         "/breeds/maltipoo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7141,13 +7141,13 @@
       "breedSlug": "cavapoo",
       "breedName": "Cavapoo",
       "suggestedSlug": "best-toys-for-cavapoo",
-      "suggestedPath": "/blog/best-toys-for-cavapoo",
+      "suggestedPath": "/guides/best-toys-for-cavapoo",
       "title": "Cavapoo Toys Guide",
       "reason": "Missing toys support page for Cavapoo.",
       "internalLinkTargets": [
         "/breeds/cavapoo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7172,13 +7172,13 @@
       "breedSlug": "bernedoodle",
       "breedName": "Bernedoodle",
       "suggestedSlug": "best-toys-for-bernedoodle",
-      "suggestedPath": "/blog/best-toys-for-bernedoodle",
+      "suggestedPath": "/guides/best-toys-for-bernedoodle",
       "title": "Bernedoodle Toys Guide",
       "reason": "Missing toys support page for Bernedoodle.",
       "internalLinkTargets": [
         "/breeds/bernedoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7203,13 +7203,13 @@
       "breedSlug": "aussiedoodle",
       "breedName": "Aussiedoodle",
       "suggestedSlug": "best-toys-for-aussiedoodle",
-      "suggestedPath": "/blog/best-toys-for-aussiedoodle",
+      "suggestedPath": "/guides/best-toys-for-aussiedoodle",
       "title": "Aussiedoodle Toys Guide",
       "reason": "Missing toys support page for Aussiedoodle.",
       "internalLinkTargets": [
         "/breeds/aussiedoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7234,13 +7234,13 @@
       "breedSlug": "yorkipoo",
       "breedName": "Yorkipoo",
       "suggestedSlug": "best-toys-for-yorkipoo",
-      "suggestedPath": "/blog/best-toys-for-yorkipoo",
+      "suggestedPath": "/guides/best-toys-for-yorkipoo",
       "title": "Yorkipoo Toys Guide",
       "reason": "Missing toys support page for Yorkipoo.",
       "internalLinkTargets": [
         "/breeds/yorkipoo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7265,13 +7265,13 @@
       "breedSlug": "puggle",
       "breedName": "Puggle",
       "suggestedSlug": "best-toys-for-puggle",
-      "suggestedPath": "/blog/best-toys-for-puggle",
+      "suggestedPath": "/guides/best-toys-for-puggle",
       "title": "Puggle Toys Guide",
       "reason": "Missing toys support page for Puggle.",
       "internalLinkTargets": [
         "/breeds/puggle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7296,13 +7296,13 @@
       "breedSlug": "sheepadoodle",
       "breedName": "Sheepadoodle",
       "suggestedSlug": "best-toys-for-sheepadoodle",
-      "suggestedPath": "/blog/best-toys-for-sheepadoodle",
+      "suggestedPath": "/guides/best-toys-for-sheepadoodle",
       "title": "Sheepadoodle Toys Guide",
       "reason": "Missing toys support page for Sheepadoodle.",
       "internalLinkTargets": [
         "/breeds/sheepadoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7327,13 +7327,13 @@
       "breedSlug": "schnoodle",
       "breedName": "Schnoodle",
       "suggestedSlug": "best-toys-for-schnoodle",
-      "suggestedPath": "/blog/best-toys-for-schnoodle",
+      "suggestedPath": "/guides/best-toys-for-schnoodle",
       "title": "Schnoodle Toys Guide",
       "reason": "Missing toys support page for Schnoodle.",
       "internalLinkTargets": [
         "/breeds/schnoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7358,13 +7358,13 @@
       "breedSlug": "chiweenie",
       "breedName": "Chiweenie",
       "suggestedSlug": "best-toys-for-chiweenie",
-      "suggestedPath": "/blog/best-toys-for-chiweenie",
+      "suggestedPath": "/guides/best-toys-for-chiweenie",
       "title": "Chiweenie Toys Guide",
       "reason": "Missing toys support page for Chiweenie.",
       "internalLinkTargets": [
         "/breeds/chiweenie",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7389,13 +7389,13 @@
       "breedSlug": "morkie",
       "breedName": "Morkie",
       "suggestedSlug": "best-toys-for-morkie",
-      "suggestedPath": "/blog/best-toys-for-morkie",
+      "suggestedPath": "/guides/best-toys-for-morkie",
       "title": "Morkie Toys Guide",
       "reason": "Missing toys support page for Morkie.",
       "internalLinkTargets": [
         "/breeds/morkie",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7420,13 +7420,13 @@
       "breedSlug": "cavachon",
       "breedName": "Cavachon",
       "suggestedSlug": "best-toys-for-cavachon",
-      "suggestedPath": "/blog/best-toys-for-cavachon",
+      "suggestedPath": "/guides/best-toys-for-cavachon",
       "title": "Cavachon Toys Guide",
       "reason": "Missing toys support page for Cavachon.",
       "internalLinkTargets": [
         "/breeds/cavachon",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7451,13 +7451,13 @@
       "breedSlug": "whoodle",
       "breedName": "Whoodle",
       "suggestedSlug": "best-toys-for-whoodle",
-      "suggestedPath": "/blog/best-toys-for-whoodle",
+      "suggestedPath": "/guides/best-toys-for-whoodle",
       "title": "Whoodle Toys Guide",
       "reason": "Missing toys support page for Whoodle.",
       "internalLinkTargets": [
         "/breeds/whoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7482,13 +7482,13 @@
       "breedSlug": "peekapoo",
       "breedName": "Peekapoo",
       "suggestedSlug": "best-toys-for-peekapoo",
-      "suggestedPath": "/blog/best-toys-for-peekapoo",
+      "suggestedPath": "/guides/best-toys-for-peekapoo",
       "title": "Peekapoo Toys Guide",
       "reason": "Missing toys support page for Peekapoo.",
       "internalLinkTargets": [
         "/breeds/peekapoo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7513,13 +7513,13 @@
       "breedSlug": "pomchi",
       "breedName": "Pomchi",
       "suggestedSlug": "best-toys-for-pomchi",
-      "suggestedPath": "/blog/best-toys-for-pomchi",
+      "suggestedPath": "/guides/best-toys-for-pomchi",
       "title": "Pomchi Toys Guide",
       "reason": "Missing toys support page for Pomchi.",
       "internalLinkTargets": [
         "/breeds/pomchi",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7544,13 +7544,13 @@
       "breedSlug": "shorkie",
       "breedName": "Shorkie",
       "suggestedSlug": "best-toys-for-shorkie",
-      "suggestedPath": "/blog/best-toys-for-shorkie",
+      "suggestedPath": "/guides/best-toys-for-shorkie",
       "title": "Shorkie Toys Guide",
       "reason": "Missing toys support page for Shorkie.",
       "internalLinkTargets": [
         "/breeds/shorkie",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7575,13 +7575,13 @@
       "breedSlug": "gerberian-shepsky",
       "breedName": "Gerberian Shepsky",
       "suggestedSlug": "best-toys-for-gerberian-shepsky",
-      "suggestedPath": "/blog/best-toys-for-gerberian-shepsky",
+      "suggestedPath": "/guides/best-toys-for-gerberian-shepsky",
       "title": "Gerberian Shepsky Toys Guide",
       "reason": "Missing toys support page for Gerberian Shepsky.",
       "internalLinkTargets": [
         "/breeds/gerberian-shepsky",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7606,13 +7606,13 @@
       "breedSlug": "bullmatian",
       "breedName": "Bullmatian",
       "suggestedSlug": "best-toys-for-bullmatian",
-      "suggestedPath": "/blog/best-toys-for-bullmatian",
+      "suggestedPath": "/guides/best-toys-for-bullmatian",
       "title": "Bullmatian Toys Guide",
       "reason": "Missing toys support page for Bullmatian.",
       "internalLinkTargets": [
         "/breeds/bullmatian",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7637,13 +7637,13 @@
       "breedSlug": "chug",
       "breedName": "Chug",
       "suggestedSlug": "best-toys-for-chug",
-      "suggestedPath": "/blog/best-toys-for-chug",
+      "suggestedPath": "/guides/best-toys-for-chug",
       "title": "Chug Toys Guide",
       "reason": "Missing toys support page for Chug.",
       "internalLinkTargets": [
         "/breeds/chug",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7668,13 +7668,13 @@
       "breedSlug": "boxador",
       "breedName": "Boxador",
       "suggestedSlug": "best-toys-for-boxador",
-      "suggestedPath": "/blog/best-toys-for-boxador",
+      "suggestedPath": "/guides/best-toys-for-boxador",
       "title": "Boxador Toys Guide",
       "reason": "Missing toys support page for Boxador.",
       "internalLinkTargets": [
         "/breeds/boxador",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7699,13 +7699,13 @@
       "breedSlug": "borgi",
       "breedName": "Borgi",
       "suggestedSlug": "best-toys-for-borgi",
-      "suggestedPath": "/blog/best-toys-for-borgi",
+      "suggestedPath": "/guides/best-toys-for-borgi",
       "title": "Borgi Toys Guide",
       "reason": "Missing toys support page for Borgi.",
       "internalLinkTargets": [
         "/breeds/borgi",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7730,13 +7730,13 @@
       "breedSlug": "horgi",
       "breedName": "Horgi",
       "suggestedSlug": "best-toys-for-horgi",
-      "suggestedPath": "/blog/best-toys-for-horgi",
+      "suggestedPath": "/guides/best-toys-for-horgi",
       "title": "Horgi Toys Guide",
       "reason": "Missing toys support page for Horgi.",
       "internalLinkTargets": [
         "/breeds/horgi",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7761,13 +7761,13 @@
       "breedSlug": "chorkie",
       "breedName": "Chorkie",
       "suggestedSlug": "best-toys-for-chorkie",
-      "suggestedPath": "/blog/best-toys-for-chorkie",
+      "suggestedPath": "/guides/best-toys-for-chorkie",
       "title": "Chorkie Toys Guide",
       "reason": "Missing toys support page for Chorkie.",
       "internalLinkTargets": [
         "/breeds/chorkie",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7792,13 +7792,13 @@
       "breedSlug": "frenchton",
       "breedName": "Frenchton",
       "suggestedSlug": "best-toys-for-frenchton",
-      "suggestedPath": "/blog/best-toys-for-frenchton",
+      "suggestedPath": "/guides/best-toys-for-frenchton",
       "title": "Frenchton Toys Guide",
       "reason": "Missing toys support page for Frenchton.",
       "internalLinkTargets": [
         "/breeds/frenchton",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7823,13 +7823,13 @@
       "breedSlug": "borador",
       "breedName": "Borador",
       "suggestedSlug": "best-toys-for-borador",
-      "suggestedPath": "/blog/best-toys-for-borador",
+      "suggestedPath": "/guides/best-toys-for-borador",
       "title": "Borador Toys Guide",
       "reason": "Missing toys support page for Borador.",
       "internalLinkTargets": [
         "/breeds/borador",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7854,13 +7854,13 @@
       "breedSlug": "zuchon",
       "breedName": "Zuchon",
       "suggestedSlug": "best-toys-for-zuchon",
-      "suggestedPath": "/blog/best-toys-for-zuchon",
+      "suggestedPath": "/guides/best-toys-for-zuchon",
       "title": "Zuchon Toys Guide",
       "reason": "Missing toys support page for Zuchon.",
       "internalLinkTargets": [
         "/breeds/zuchon",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7885,13 +7885,13 @@
       "breedSlug": "saint-berdoodle",
       "breedName": "Saint Berdoodle",
       "suggestedSlug": "best-toys-for-saint-berdoodle",
-      "suggestedPath": "/blog/best-toys-for-saint-berdoodle",
+      "suggestedPath": "/guides/best-toys-for-saint-berdoodle",
       "title": "Saint Berdoodle Toys Guide",
       "reason": "Missing toys support page for Saint Berdoodle.",
       "internalLinkTargets": [
         "/breeds/saint-berdoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7916,13 +7916,13 @@
       "breedSlug": "goberian",
       "breedName": "Goberian",
       "suggestedSlug": "best-toys-for-goberian",
-      "suggestedPath": "/blog/best-toys-for-goberian",
+      "suggestedPath": "/guides/best-toys-for-goberian",
       "title": "Goberian Toys Guide",
       "reason": "Missing toys support page for Goberian.",
       "internalLinkTargets": [
         "/breeds/goberian",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7947,13 +7947,13 @@
       "breedSlug": "corgipoo",
       "breedName": "Corgipoo",
       "suggestedSlug": "best-toys-for-corgipoo",
-      "suggestedPath": "/blog/best-toys-for-corgipoo",
+      "suggestedPath": "/guides/best-toys-for-corgipoo",
       "title": "Corgipoo Toys Guide",
       "reason": "Missing toys support page for Corgipoo.",
       "internalLinkTargets": [
         "/breeds/corgipoo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -7978,13 +7978,13 @@
       "breedSlug": "pitsky",
       "breedName": "Pitsky",
       "suggestedSlug": "best-toys-for-pitsky",
-      "suggestedPath": "/blog/best-toys-for-pitsky",
+      "suggestedPath": "/guides/best-toys-for-pitsky",
       "title": "Pitsky Toys Guide",
       "reason": "Missing toys support page for Pitsky.",
       "internalLinkTargets": [
         "/breeds/pitsky",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8009,13 +8009,13 @@
       "breedSlug": "newfypoo",
       "breedName": "Newfypoo",
       "suggestedSlug": "best-toys-for-newfypoo",
-      "suggestedPath": "/blog/best-toys-for-newfypoo",
+      "suggestedPath": "/guides/best-toys-for-newfypoo",
       "title": "Newfypoo Toys Guide",
       "reason": "Missing toys support page for Newfypoo.",
       "internalLinkTargets": [
         "/breeds/newfypoo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8040,13 +8040,13 @@
       "breedSlug": "dorgi",
       "breedName": "Dorgi",
       "suggestedSlug": "best-toys-for-dorgi",
-      "suggestedPath": "/blog/best-toys-for-dorgi",
+      "suggestedPath": "/guides/best-toys-for-dorgi",
       "title": "Dorgi Toys Guide",
       "reason": "Missing toys support page for Dorgi.",
       "internalLinkTargets": [
         "/breeds/dorgi",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8071,13 +8071,13 @@
       "breedSlug": "pyredoodle",
       "breedName": "Pyredoodle",
       "suggestedSlug": "best-toys-for-pyredoodle",
-      "suggestedPath": "/blog/best-toys-for-pyredoodle",
+      "suggestedPath": "/guides/best-toys-for-pyredoodle",
       "title": "Pyredoodle Toys Guide",
       "reason": "Missing toys support page for Pyredoodle.",
       "internalLinkTargets": [
         "/breeds/pyredoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8102,13 +8102,13 @@
       "breedSlug": "baskin",
       "breedName": "Baskin",
       "suggestedSlug": "best-toys-for-baskin",
-      "suggestedPath": "/blog/best-toys-for-baskin",
+      "suggestedPath": "/guides/best-toys-for-baskin",
       "title": "Baskin Toys Guide",
       "reason": "Missing toys support page for Baskin.",
       "internalLinkTargets": [
         "/breeds/baskin",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8133,13 +8133,13 @@
       "breedSlug": "beaglier",
       "breedName": "Beaglier",
       "suggestedSlug": "best-toys-for-beaglier",
-      "suggestedPath": "/blog/best-toys-for-beaglier",
+      "suggestedPath": "/guides/best-toys-for-beaglier",
       "title": "Beaglier Toys Guide",
       "reason": "Missing toys support page for Beaglier.",
       "internalLinkTargets": [
         "/breeds/beaglier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8164,13 +8164,13 @@
       "breedSlug": "cheagle",
       "breedName": "Cheagle",
       "suggestedSlug": "best-toys-for-cheagle",
-      "suggestedPath": "/blog/best-toys-for-cheagle",
+      "suggestedPath": "/guides/best-toys-for-cheagle",
       "title": "Cheagle Toys Guide",
       "reason": "Missing toys support page for Cheagle.",
       "internalLinkTargets": [
         "/breeds/cheagle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8195,13 +8195,13 @@
       "breedSlug": "dalmadoodle",
       "breedName": "Dalmadoodle",
       "suggestedSlug": "best-toys-for-dalmadoodle",
-      "suggestedPath": "/blog/best-toys-for-dalmadoodle",
+      "suggestedPath": "/guides/best-toys-for-dalmadoodle",
       "title": "Dalmadoodle Toys Guide",
       "reason": "Missing toys support page for Dalmadoodle.",
       "internalLinkTargets": [
         "/breeds/dalmadoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8226,13 +8226,13 @@
       "breedSlug": "flandoodle",
       "breedName": "Flandoodle",
       "suggestedSlug": "best-toys-for-flandoodle",
-      "suggestedPath": "/blog/best-toys-for-flandoodle",
+      "suggestedPath": "/guides/best-toys-for-flandoodle",
       "title": "Flandoodle Toys Guide",
       "reason": "Missing toys support page for Flandoodle.",
       "internalLinkTargets": [
         "/breeds/flandoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8257,13 +8257,13 @@
       "breedSlug": "havapoo",
       "breedName": "Havapoo",
       "suggestedSlug": "best-toys-for-havapoo",
-      "suggestedPath": "/blog/best-toys-for-havapoo",
+      "suggestedPath": "/guides/best-toys-for-havapoo",
       "title": "Havapoo Toys Guide",
       "reason": "Missing toys support page for Havapoo.",
       "internalLinkTargets": [
         "/breeds/havapoo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8288,13 +8288,13 @@
       "breedSlug": "jack-a-poo",
       "breedName": "Jack-A-Poo",
       "suggestedSlug": "best-toys-for-jack-a-poo",
-      "suggestedPath": "/blog/best-toys-for-jack-a-poo",
+      "suggestedPath": "/guides/best-toys-for-jack-a-poo",
       "title": "Jack-A-Poo Toys Guide",
       "reason": "Missing toys support page for Jack-A-Poo.",
       "internalLinkTargets": [
         "/breeds/jack-a-poo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8319,13 +8319,13 @@
       "breedSlug": "lhasapoo",
       "breedName": "Lhasapoo",
       "suggestedSlug": "best-toys-for-lhasapoo",
-      "suggestedPath": "/blog/best-toys-for-lhasapoo",
+      "suggestedPath": "/guides/best-toys-for-lhasapoo",
       "title": "Lhasapoo Toys Guide",
       "reason": "Missing toys support page for Lhasapoo.",
       "internalLinkTargets": [
         "/breeds/lhasapoo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8350,13 +8350,13 @@
       "breedSlug": "springerdoodle",
       "breedName": "Springerdoodle",
       "suggestedSlug": "best-toys-for-springerdoodle",
-      "suggestedPath": "/blog/best-toys-for-springerdoodle",
+      "suggestedPath": "/guides/best-toys-for-springerdoodle",
       "title": "Springerdoodle Toys Guide",
       "reason": "Missing toys support page for Springerdoodle.",
       "internalLinkTargets": [
         "/breeds/springerdoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8381,13 +8381,13 @@
       "breedSlug": "boxeweiler",
       "breedName": "Boxeweiler",
       "suggestedSlug": "best-toys-for-boxeweiler",
-      "suggestedPath": "/blog/best-toys-for-boxeweiler",
+      "suggestedPath": "/guides/best-toys-for-boxeweiler",
       "title": "Boxeweiler Toys Guide",
       "reason": "Missing toys support page for Boxeweiler.",
       "internalLinkTargets": [
         "/breeds/boxeweiler",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8412,13 +8412,13 @@
       "breedSlug": "bordoodle",
       "breedName": "Bordoodle",
       "suggestedSlug": "best-toys-for-bordoodle",
-      "suggestedPath": "/blog/best-toys-for-bordoodle",
+      "suggestedPath": "/guides/best-toys-for-bordoodle",
       "title": "Bordoodle Toys Guide",
       "reason": "Missing toys support page for Bordoodle.",
       "internalLinkTargets": [
         "/breeds/bordoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8443,13 +8443,13 @@
       "breedSlug": "bugg",
       "breedName": "Bugg",
       "suggestedSlug": "best-toys-for-bugg",
-      "suggestedPath": "/blog/best-toys-for-bugg",
+      "suggestedPath": "/guides/best-toys-for-bugg",
       "title": "Bugg Toys Guide",
       "reason": "Missing toys support page for Bugg.",
       "internalLinkTargets": [
         "/breeds/bugg",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8474,13 +8474,13 @@
       "breedSlug": "bull-a-mador",
       "breedName": "Bull-A-Mador",
       "suggestedSlug": "best-toys-for-bull-a-mador",
-      "suggestedPath": "/blog/best-toys-for-bull-a-mador",
+      "suggestedPath": "/guides/best-toys-for-bull-a-mador",
       "title": "Bull-A-Mador Toys Guide",
       "reason": "Missing toys support page for Bull-A-Mador.",
       "internalLinkTargets": [
         "/breeds/bull-a-mador",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8505,13 +8505,13 @@
       "breedSlug": "corman-shepherd",
       "breedName": "Corman Shepherd",
       "suggestedSlug": "best-toys-for-corman-shepherd",
-      "suggestedPath": "/blog/best-toys-for-corman-shepherd",
+      "suggestedPath": "/guides/best-toys-for-corman-shepherd",
       "title": "Corman Shepherd Toys Guide",
       "reason": "Missing toys support page for Corman Shepherd.",
       "internalLinkTargets": [
         "/breeds/corman-shepherd",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8536,13 +8536,13 @@
       "breedSlug": "dameranian",
       "breedName": "Dameranian",
       "suggestedSlug": "best-toys-for-dameranian",
-      "suggestedPath": "/blog/best-toys-for-dameranian",
+      "suggestedPath": "/guides/best-toys-for-dameranian",
       "title": "Dameranian Toys Guide",
       "reason": "Missing toys support page for Dameranian.",
       "internalLinkTargets": [
         "/breeds/dameranian",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8567,13 +8567,13 @@
       "breedSlug": "english-boodle",
       "breedName": "English Boodle",
       "suggestedSlug": "best-toys-for-english-boodle",
-      "suggestedPath": "/blog/best-toys-for-english-boodle",
+      "suggestedPath": "/guides/best-toys-for-english-boodle",
       "title": "English Boodle Toys Guide",
       "reason": "Missing toys support page for English Boodle.",
       "internalLinkTargets": [
         "/breeds/english-boodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8598,13 +8598,13 @@
       "breedSlug": "frug",
       "breedName": "Frug",
       "suggestedSlug": "best-toys-for-frug",
-      "suggestedPath": "/blog/best-toys-for-frug",
+      "suggestedPath": "/guides/best-toys-for-frug",
       "title": "Frug Toys Guide",
       "reason": "Missing toys support page for Frug.",
       "internalLinkTargets": [
         "/breeds/frug",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8629,13 +8629,13 @@
       "breedSlug": "glechon",
       "breedName": "Glechon",
       "suggestedSlug": "best-toys-for-glechon",
-      "suggestedPath": "/blog/best-toys-for-glechon",
+      "suggestedPath": "/guides/best-toys-for-glechon",
       "title": "Glechon Toys Guide",
       "reason": "Missing toys support page for Glechon.",
       "internalLinkTargets": [
         "/breeds/glechon",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8660,13 +8660,13 @@
       "breedSlug": "golden-mt-dog",
       "breedName": "Golden Mt. Dog",
       "suggestedSlug": "best-toys-for-golden-mt-dog",
-      "suggestedPath": "/blog/best-toys-for-golden-mt-dog",
+      "suggestedPath": "/guides/best-toys-for-golden-mt-dog",
       "title": "Golden Mt. Dog Toys Guide",
       "reason": "Missing toys support page for Golden Mt. Dog.",
       "internalLinkTargets": [
         "/breeds/golden-mt-dog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8691,13 +8691,13 @@
       "breedSlug": "havashire",
       "breedName": "Havashire",
       "suggestedSlug": "best-toys-for-havashire",
-      "suggestedPath": "/blog/best-toys-for-havashire",
+      "suggestedPath": "/guides/best-toys-for-havashire",
       "title": "Havashire Toys Guide",
       "reason": "Missing toys support page for Havashire.",
       "internalLinkTargets": [
         "/breeds/havashire",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8722,13 +8722,13 @@
       "breedSlug": "husky-jack",
       "breedName": "Husky Jack",
       "suggestedSlug": "best-toys-for-husky-jack",
-      "suggestedPath": "/blog/best-toys-for-husky-jack",
+      "suggestedPath": "/guides/best-toys-for-husky-jack",
       "title": "Husky Jack Toys Guide",
       "reason": "Missing toys support page for Husky Jack.",
       "internalLinkTargets": [
         "/breeds/husky-jack",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8753,13 +8753,13 @@
       "breedSlug": "labrabull",
       "breedName": "Labrabull",
       "suggestedSlug": "best-toys-for-labrabull",
-      "suggestedPath": "/blog/best-toys-for-labrabull",
+      "suggestedPath": "/guides/best-toys-for-labrabull",
       "title": "Labrabull Toys Guide",
       "reason": "Missing toys support page for Labrabull.",
       "internalLinkTargets": [
         "/breeds/labrabull",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8784,13 +8784,13 @@
       "breedSlug": "mastidoodle",
       "breedName": "Mastidoodle",
       "suggestedSlug": "best-toys-for-mastidoodle",
-      "suggestedPath": "/blog/best-toys-for-mastidoodle",
+      "suggestedPath": "/guides/best-toys-for-mastidoodle",
       "title": "Mastidoodle Toys Guide",
       "reason": "Missing toys support page for Mastidoodle.",
       "internalLinkTargets": [
         "/breeds/mastidoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8815,13 +8815,13 @@
       "breedSlug": "papi-poo",
       "breedName": "Papi-poo",
       "suggestedSlug": "best-toys-for-papi-poo",
-      "suggestedPath": "/blog/best-toys-for-papi-poo",
+      "suggestedPath": "/guides/best-toys-for-papi-poo",
       "title": "Papi-poo Toys Guide",
       "reason": "Missing toys support page for Papi-poo.",
       "internalLinkTargets": [
         "/breeds/papi-poo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8846,13 +8846,13 @@
       "breedSlug": "poogle",
       "breedName": "Poogle",
       "suggestedSlug": "best-toys-for-poogle",
-      "suggestedPath": "/blog/best-toys-for-poogle",
+      "suggestedPath": "/guides/best-toys-for-poogle",
       "title": "Poogle Toys Guide",
       "reason": "Missing toys support page for Poogle.",
       "internalLinkTargets": [
         "/breeds/poogle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8877,13 +8877,13 @@
       "breedSlug": "rottle",
       "breedName": "Rottle",
       "suggestedSlug": "best-toys-for-rottle",
-      "suggestedPath": "/blog/best-toys-for-rottle",
+      "suggestedPath": "/guides/best-toys-for-rottle",
       "title": "Rottle Toys Guide",
       "reason": "Missing toys support page for Rottle.",
       "internalLinkTargets": [
         "/breeds/rottle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8908,13 +8908,13 @@
       "breedSlug": "sprollie",
       "breedName": "Sprollie",
       "suggestedSlug": "best-toys-for-sprollie",
-      "suggestedPath": "/blog/best-toys-for-sprollie",
+      "suggestedPath": "/guides/best-toys-for-sprollie",
       "title": "Sprollie Toys Guide",
       "reason": "Missing toys support page for Sprollie.",
       "internalLinkTargets": [
         "/breeds/sprollie",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8939,13 +8939,13 @@
       "breedSlug": "taco-terrier",
       "breedName": "Taco Terrier",
       "suggestedSlug": "best-toys-for-taco-terrier",
-      "suggestedPath": "/blog/best-toys-for-taco-terrier",
+      "suggestedPath": "/guides/best-toys-for-taco-terrier",
       "title": "Taco Terrier Toys Guide",
       "reason": "Missing toys support page for Taco Terrier.",
       "internalLinkTargets": [
         "/breeds/taco-terrier",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -8970,13 +8970,13 @@
       "breedSlug": "westiepoo",
       "breedName": "Westiepoo",
       "suggestedSlug": "best-toys-for-westiepoo",
-      "suggestedPath": "/blog/best-toys-for-westiepoo",
+      "suggestedPath": "/guides/best-toys-for-westiepoo",
       "title": "Westiepoo Toys Guide",
       "reason": "Missing toys support page for Westiepoo.",
       "internalLinkTargets": [
         "/breeds/westiepoo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9001,13 +9001,13 @@
       "breedSlug": "yorkinese",
       "breedName": "Yorkinese",
       "suggestedSlug": "best-toys-for-yorkinese",
-      "suggestedPath": "/blog/best-toys-for-yorkinese",
+      "suggestedPath": "/guides/best-toys-for-yorkinese",
       "title": "Yorkinese Toys Guide",
       "reason": "Missing toys support page for Yorkinese.",
       "internalLinkTargets": [
         "/breeds/yorkinese",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9032,13 +9032,13 @@
       "breedSlug": "bernese-mix",
       "breedName": "Bernese Mix",
       "suggestedSlug": "best-toys-for-bernese-mix",
-      "suggestedPath": "/blog/best-toys-for-bernese-mix",
+      "suggestedPath": "/guides/best-toys-for-bernese-mix",
       "title": "Bernese Mix Toys Guide",
       "reason": "Missing toys support page for Bernese Mix.",
       "internalLinkTargets": [
         "/breeds/bernese-mix",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9063,13 +9063,13 @@
       "breedSlug": "bull-boxer",
       "breedName": "Bull-Boxer",
       "suggestedSlug": "best-toys-for-bull-boxer",
-      "suggestedPath": "/blog/best-toys-for-bull-boxer",
+      "suggestedPath": "/guides/best-toys-for-bull-boxer",
       "title": "Bull-Boxer Toys Guide",
       "reason": "Missing toys support page for Bull-Boxer.",
       "internalLinkTargets": [
         "/breeds/bull-boxer",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9094,13 +9094,13 @@
       "breedSlug": "doxie-poo",
       "breedName": "Doxie-poo",
       "suggestedSlug": "best-toys-for-doxie-poo",
-      "suggestedPath": "/blog/best-toys-for-doxie-poo",
+      "suggestedPath": "/guides/best-toys-for-doxie-poo",
       "title": "Doxie-poo Toys Guide",
       "reason": "Missing toys support page for Doxie-poo.",
       "internalLinkTargets": [
         "/breeds/doxie-poo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9125,13 +9125,13 @@
       "breedSlug": "cavadoodle",
       "breedName": "Cavadoodle",
       "suggestedSlug": "best-toys-for-cavadoodle",
-      "suggestedPath": "/blog/best-toys-for-cavadoodle",
+      "suggestedPath": "/guides/best-toys-for-cavadoodle",
       "title": "Cavadoodle Toys Guide",
       "reason": "Missing toys support page for Cavadoodle.",
       "internalLinkTargets": [
         "/breeds/cavadoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9156,13 +9156,13 @@
       "breedSlug": "poochon",
       "breedName": "Poochon",
       "suggestedSlug": "best-toys-for-poochon",
-      "suggestedPath": "/blog/best-toys-for-poochon",
+      "suggestedPath": "/guides/best-toys-for-poochon",
       "title": "Poochon Toys Guide",
       "reason": "Missing toys support page for Poochon.",
       "internalLinkTargets": [
         "/breeds/poochon",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9187,13 +9187,13 @@
       "breedSlug": "swissydog",
       "breedName": "Swissydog",
       "suggestedSlug": "best-toys-for-swissydog",
-      "suggestedPath": "/blog/best-toys-for-swissydog",
+      "suggestedPath": "/guides/best-toys-for-swissydog",
       "title": "Swissydog Toys Guide",
       "reason": "Missing toys support page for Swissydog.",
       "internalLinkTargets": [
         "/breeds/swissydog",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9218,13 +9218,13 @@
       "breedSlug": "bordeauxoodle",
       "breedName": "Bordeauxoodle",
       "suggestedSlug": "best-toys-for-bordeauxoodle",
-      "suggestedPath": "/blog/best-toys-for-bordeauxoodle",
+      "suggestedPath": "/guides/best-toys-for-bordeauxoodle",
       "title": "Bordeauxoodle Toys Guide",
       "reason": "Missing toys support page for Bordeauxoodle.",
       "internalLinkTargets": [
         "/breeds/bordeauxoodle",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9249,13 +9249,13 @@
       "breedSlug": "shih-poo",
       "breedName": "Shih-poo",
       "suggestedSlug": "best-toys-for-shih-poo",
-      "suggestedPath": "/blog/best-toys-for-shih-poo",
+      "suggestedPath": "/guides/best-toys-for-shih-poo",
       "title": "Shih-poo Toys Guide",
       "reason": "Missing toys support page for Shih-poo.",
       "internalLinkTargets": [
         "/breeds/shih-poo",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9280,13 +9280,13 @@
       "breedSlug": "corgidor",
       "breedName": "Corgidor",
       "suggestedSlug": "best-toys-for-corgidor",
-      "suggestedPath": "/blog/best-toys-for-corgidor",
+      "suggestedPath": "/guides/best-toys-for-corgidor",
       "title": "Corgidor Toys Guide",
       "reason": "Missing toys support page for Corgidor.",
       "internalLinkTargets": [
         "/breeds/corgidor",
         "/categories/toys",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9312,7 +9312,7 @@
       "reason": "Missing cluster hub for beds.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9337,7 +9337,7 @@
       "reason": "Missing cluster hub for health.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9363,7 +9363,7 @@
       "reason": "Missing cluster hub for supplements.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9388,7 +9388,7 @@
       "reason": "Missing cluster hub for lifestyle.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9411,13 +9411,13 @@
       "cluster": "pupwiki-partners",
       "partnerKey": "brutus-broth",
       "advertiserId": "55927",
-      "suggestedPath": "/blog/partner-brutus-broth",
+      "suggestedPath": "/guides/partner-brutus-broth",
       "exists": false,
       "reason": "Brutus Broth needs a generated partner profile page.",
       "internalLinkTargets": [
         "/categories/pupwiki-partners",
         "/disclosure",
-        "/blog/partner-brutus-broth"
+        "/guides/partner-brutus-broth"
       ],
       "sitemap": {
         "include": true,
@@ -9439,13 +9439,13 @@
       "cluster": "pupwiki-partners",
       "partnerKey": "crownandpaw",
       "advertiserId": "57823",
-      "suggestedPath": "/blog/partner-crownandpaw",
+      "suggestedPath": "/guides/partner-crownandpaw",
       "exists": false,
       "reason": "Crown and Paw needs a generated partner profile page.",
       "internalLinkTargets": [
         "/categories/pupwiki-partners",
         "/disclosure",
-        "/blog/partner-crownandpaw"
+        "/guides/partner-crownandpaw"
       ],
       "sitemap": {
         "include": true,
@@ -9467,13 +9467,13 @@
       "cluster": "pupwiki-partners",
       "partnerKey": "chefpaw",
       "advertiserId": "63546",
-      "suggestedPath": "/blog/partner-chefpaw",
+      "suggestedPath": "/guides/partner-chefpaw",
       "exists": false,
       "reason": "Chef Paw (US) needs a generated partner profile page.",
       "internalLinkTargets": [
         "/categories/pupwiki-partners",
         "/disclosure",
-        "/blog/partner-chefpaw"
+        "/guides/partner-chefpaw"
       ],
       "sitemap": {
         "include": true,
@@ -9495,13 +9495,13 @@
       "cluster": "pupwiki-partners",
       "partnerKey": "jugbow",
       "advertiserId": "79708",
-      "suggestedPath": "/blog/partner-jugbow",
+      "suggestedPath": "/guides/partner-jugbow",
       "exists": false,
       "reason": "JUGBOW needs a generated partner profile page.",
       "internalLinkTargets": [
         "/categories/pupwiki-partners",
         "/disclosure",
-        "/blog/partner-jugbow"
+        "/guides/partner-jugbow"
       ],
       "sitemap": {
         "include": true,
@@ -9523,13 +9523,13 @@
       "cluster": "pupwiki-partners",
       "partnerKey": "dog-cloud-us",
       "advertiserId": "87483",
-      "suggestedPath": "/blog/partner-dog-cloud-us",
+      "suggestedPath": "/guides/partner-dog-cloud-us",
       "exists": false,
       "reason": "Dog Cloud (US) needs a generated partner profile page.",
       "internalLinkTargets": [
         "/categories/pupwiki-partners",
         "/disclosure",
-        "/blog/partner-dog-cloud-us"
+        "/guides/partner-dog-cloud-us"
       ],
       "sitemap": {
         "include": true,
@@ -9551,13 +9551,13 @@
       "cluster": "pupwiki-partners",
       "partnerKey": "radiofence-com",
       "advertiserId": "87999",
-      "suggestedPath": "/blog/partner-radiofence-com",
+      "suggestedPath": "/guides/partner-radiofence-com",
       "exists": false,
       "reason": "RadioFence.com needs a generated partner profile page.",
       "internalLinkTargets": [
         "/categories/pupwiki-partners",
         "/disclosure",
-        "/blog/partner-radiofence-com"
+        "/guides/partner-radiofence-com"
       ],
       "sitemap": {
         "include": true,
@@ -9579,13 +9579,13 @@
       "cluster": "pupwiki-partners",
       "partnerKey": "rawwild",
       "advertiserId": "89689",
-      "suggestedPath": "/blog/partner-rawwild",
+      "suggestedPath": "/guides/partner-rawwild",
       "exists": false,
       "reason": "Raw Wild LLC needs a generated partner profile page.",
       "internalLinkTargets": [
         "/categories/pupwiki-partners",
         "/disclosure",
-        "/blog/partner-rawwild"
+        "/guides/partner-rawwild"
       ],
       "sitemap": {
         "include": true,
@@ -9607,13 +9607,13 @@
       "cluster": "pupwiki-partners",
       "partnerKey": "petmate",
       "advertiserId": "89913",
-      "suggestedPath": "/blog/partner-petmate",
+      "suggestedPath": "/guides/partner-petmate",
       "exists": false,
       "reason": "Petmate needs a generated partner profile page.",
       "internalLinkTargets": [
         "/categories/pupwiki-partners",
         "/disclosure",
-        "/blog/partner-petmate"
+        "/guides/partner-petmate"
       ],
       "sitemap": {
         "include": true,
@@ -9635,13 +9635,13 @@
       "cluster": "pupwiki-partners",
       "partnerKey": "nextrition-pet-us",
       "advertiserId": "113600",
-      "suggestedPath": "/blog/partner-nextrition-pet-us",
+      "suggestedPath": "/guides/partner-nextrition-pet-us",
       "exists": false,
       "reason": "Nextrition Pet (US) needs a generated partner profile page.",
       "internalLinkTargets": [
         "/categories/pupwiki-partners",
         "/disclosure",
-        "/blog/partner-nextrition-pet-us"
+        "/guides/partner-nextrition-pet-us"
       ],
       "sitemap": {
         "include": true,
@@ -9663,13 +9663,13 @@
       "cluster": "pupwiki-partners",
       "partnerKey": "mypetdmv-the-original-pet-drivers-license",
       "advertiserId": "118951",
-      "suggestedPath": "/blog/partner-mypetdmv-the-original-pet-drivers-license",
+      "suggestedPath": "/guides/partner-mypetdmv-the-original-pet-drivers-license",
       "exists": false,
       "reason": "MyPetDMV - The original Pet Drivers License needs a generated partner profile page.",
       "internalLinkTargets": [
         "/categories/pupwiki-partners",
         "/disclosure",
-        "/blog/partner-mypetdmv-the-original-pet-drivers-license"
+        "/guides/partner-mypetdmv-the-original-pet-drivers-license"
       ],
       "sitemap": {
         "include": true,
@@ -9694,7 +9694,7 @@
       "reason": "Missing cluster hub for grooming.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9717,7 +9717,7 @@
       "reason": "Missing cluster hub for travel.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9740,7 +9740,7 @@
       "reason": "Missing cluster hub for dog-services.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9763,7 +9763,7 @@
       "reason": "Missing cluster hub for home-cleanup.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9786,7 +9786,7 @@
       "reason": "Cluster hub exists; improve internal links, modules and sitemap priority.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9812,7 +9812,7 @@
       "reason": "Cluster hub exists; improve internal links, modules and sitemap priority.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9837,7 +9837,7 @@
       "reason": "Cluster hub exists; improve internal links, modules and sitemap priority.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9860,7 +9860,7 @@
       "reason": "Cluster hub exists; improve internal links, modules and sitemap priority.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9883,7 +9883,7 @@
       "reason": "Cluster hub exists; improve internal links, modules and sitemap priority.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,
@@ -9906,7 +9906,7 @@
       "reason": "Cluster hub exists; improve internal links, modules and sitemap priority.",
       "internalLinkTargets": [
         "/categories",
-        "/blog",
+        "/guides",
         "/disclosure"
       ],
       "sitemap": {
@@ -9930,7 +9930,7 @@
       "reason": "Cluster hub exists; improve internal links, modules and sitemap priority.",
       "internalLinkTargets": [
         "/categories",
-        "/blog"
+        "/guides"
       ],
       "sitemap": {
         "include": true,

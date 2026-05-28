@@ -1,7 +1,7 @@
 ---
 /**
- * BlogCard.astro
- * Uses the .blog-card CSS system from cards.css.
+ * GuideCard.astro
+ * Guide content card. Styles live in src/styles/components/guides.css (.guide-card system).
  * Image priority: explicit prop → breed auto-detect → category stock fallback.
  */
 
@@ -91,12 +91,11 @@ const displayDate = pubDate
 
 <a
   href={href}
-  class={`blog-card${featured ? ' blog-card--featured' : ''}`}
-  style="text-decoration:none"
+  class={`guide-card${featured ? ' guide-card--featured' : ''}`}
   aria-label={title}
 >
   <!-- Thumbnail -->
-  <div class="blog-card__image-wrap">
+  <div class="guide-card__image-wrap">
     {finalImg ? (
       <img
         src={finalImg}
@@ -105,30 +104,30 @@ const displayDate = pubDate
         height={featured ? 360 : 225}
         loading="lazy"
         decoding="async"
-        class="blog-card__image"
+        class="guide-card__image"
         data-fallback={catImgSrc}
         onerror="var fb=this.getAttribute('data-fallback');if(fb&&this.src!==fb){this.src=fb;this.removeAttribute('data-fallback');}"
       />
     ) : (
-      <div class="blog-card__image-placeholder">
+      <div class="guide-card__image-placeholder">
         <span aria-hidden="true">{emoji ?? '📰'}</span>
       </div>
     )}
     <!-- Category badge pinned to top-left of image -->
-    <div class="blog-card__badge">
+    <div class="guide-card__badge">
       <span class={`badge badge--${badgeClass}`}>{category}</span>
     </div>
   </div>
 
   <!-- Body -->
-  <div class="blog-card__body">
-    <h3 class="blog-card__title">{title}</h3>
-    <p class="blog-card__excerpt">{excerpt}</p>
-    <div class="blog-card__meta">
+  <div class="guide-card__body">
+    <h3 class="guide-card__title">{title}</h3>
+    <p class="guide-card__excerpt">{excerpt}</p>
+    <div class="guide-card__meta">
       {displayDate && <time datetime={pubDate}>{displayDate}</time>}
-      {displayDate && readTime && <span class="blog-card__meta-dot"></span>}
+      {displayDate && readTime && <span class="guide-card__meta-dot" aria-hidden="true"></span>}
       {readTime && <span>{readTime} min read</span>}
-      {!displayDate && !readTime && <span>Read article →</span>}
+      {!displayDate && !readTime && <span>Read guide →</span>}
     </div>
   </div>
 </a>

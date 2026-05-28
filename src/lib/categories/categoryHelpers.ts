@@ -26,7 +26,7 @@ export type GuideLikeEntry = {
     category?: string;
     tags?: string[];
     pubDate?: Date | string;
-    indexInBlog?: boolean;
+    indexInGuides?: boolean;
     noIndex?: boolean;
     noRoute?: boolean;
     generated?: boolean;
@@ -99,9 +99,9 @@ export function toIsoString(value: unknown) {
 }
 
 export function isPublicGuideEntry(post: GuideLikeEntry) {
-  // Emergency publishing guard: content marked as not for blog/category surfaces
+  // Emergency publishing guard: content marked as not for guide/category surfaces
   // must not appear in public hubs. Direct article route applies the same rule.
-  if (post.data.indexInBlog === false) return false;
+  if (post.data.indexInGuides === false) return false;
   if (post.data.internalOnly === true) return false;
   if (post.data.noIndex === true) return false;
   return true;
@@ -109,7 +109,7 @@ export function isPublicGuideEntry(post: GuideLikeEntry) {
 
 export function isRoutableGuideEntry(post: GuideLikeEntry) {
   // Controls static page generation only. Use noRoute:true to suppress a page entirely.
-  // indexInBlog:false only hides from feeds/hubs — the page still gets generated.
+  // indexInGuides:false only hides from feeds/hubs — the page still gets generated.
   if (post.data.noRoute === true) return false;
   if (post.data.internalOnly === true) return false;
   return true;

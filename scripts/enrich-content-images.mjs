@@ -2,7 +2,7 @@
 /**
  * scripts/enrich-content-images.mjs
  *
- * Adds smart Pexels hero images to blog posts with safe build fallbacks.
+ * Adds smart Pexels hero images to guide posts with safe build fallbacks.
  *
  * Usage:
  *   node scripts/enrich-content-images.mjs --apply
@@ -19,7 +19,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const BLOG_DIR = path.join(ROOT, 'src', 'content', 'blog');
+const GUIDES_DIR = path.join(ROOT, 'src', 'content', 'guides');
 const BREEDS_PATH = path.join(ROOT, 'src', 'data', 'master-breeds.json');
 const CROSSBREEDS_PATH = path.join(ROOT, 'src', 'data', 'master-crossbreeds.json');
 const CACHE_PATH = path.join(ROOT, 'src', 'data', 'image-cache', 'pexels-content-images.json');
@@ -220,7 +220,7 @@ if (!KEY) {
   process.exit(0);
 }
 
-const files = fs.readdirSync(BLOG_DIR).filter((file) => file.endsWith('.md'));
+const files = fs.readdirSync(GUIDES_DIR).filter((file) => file.endsWith('.md'));
 let scanned = 0;
 let changed = 0;
 let skipped = 0;
@@ -228,7 +228,7 @@ let failed = 0;
 
 for (const file of files) {
   if (scanned >= LIMIT) break;
-  const filePath = path.join(BLOG_DIR, file);
+  const filePath = path.join(GUIDES_DIR, file);
   const original = fs.readFileSync(filePath, 'utf8');
   const parsed = parseFrontmatter(original);
   if (!parsed) continue;

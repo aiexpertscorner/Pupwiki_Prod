@@ -3,7 +3,7 @@ import { join, resolve } from 'node:path';
 import { getPseoFamilyFromFilename } from '../lib/pseo-copy-engine.mjs';
 
 const ROOT = process.cwd();
-const BLOG_DIR = resolve(ROOT, 'src/content/blog');
+const GUIDES_DIR = resolve(ROOT, 'src/content/guides');
 const BREEDS_PATH = resolve(ROOT, 'src/data/master-breeds.json');
 
 const breeds = existsSync(BREEDS_PATH)
@@ -36,11 +36,11 @@ function normalizeTitle(title) {
 const stats = {};
 const descriptions = new Map();
 
-for (const filename of readdirSync(BLOG_DIR).filter((file) => file.endsWith('.md'))) {
+for (const filename of readdirSync(GUIDES_DIR).filter((file) => file.endsWith('.md'))) {
   const match = getPseoFamilyFromFilename(filename);
   if (!match) continue;
 
-  const fm = parseFrontmatter(readFileSync(join(BLOG_DIR, filename), 'utf8'));
+  const fm = parseFrontmatter(readFileSync(join(GUIDES_DIR, filename), 'utf8'));
   if (!fm) continue;
 
   const family = match.familyKey;

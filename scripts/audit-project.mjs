@@ -78,8 +78,8 @@ const EXPECTED = {
 
   // Pages
   'src/pages/index.astro':                    'Homepage',
-  'src/pages/blog/index.astro':               'Blog overview',
-  'src/pages/blog/[slug].astro':              'Blog post',
+  'src/pages/guides/index.astro':             'Guides overview',
+  'src/pages/guides/[slug].astro':            'Guide post',
   'src/pages/categories/[category].astro':    'Category hub',
   'src/pages/breeds/index.astro':             'Breed directory',
   'src/pages/breeds/[breed].astro':           'Breed detail',

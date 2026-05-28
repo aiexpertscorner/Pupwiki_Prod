@@ -18,7 +18,7 @@ import {
 } from '../lib/public-content-contract.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const BLOG_DIR = path.join(ROOT, 'src/content/blog');
+const GUIDES_DIR = path.join(ROOT, 'src/content/guides');
 const TODAY = new Date().toISOString().slice(0, 10);
 const APPLY = process.argv.includes('--apply');
 const INCLUDE_EXISTING = process.argv.includes('--include-existing');
@@ -72,7 +72,7 @@ const products = readJson('src/data/awin-products.json', []);
 const backlog = readJson('src/data/pseo-opportunity-backlog.json', { items: [] });
 const breeds = [...readJson('src/data/master-breeds.json', []), ...readJson('src/data/master-crossbreeds.json', [])];
 const aiSummaries = readJson('src/data/ai-breed-summaries.json', {}); // cached AI summaries (empty = not yet generated)
-const existing = new Set(walk(BLOG_DIR).filter((file) => file.endsWith('.md')).map((file) => path.basename(file, '.md')));
+const existing = new Set(walk(GUIDES_DIR).filter((file) => file.endsWith('.md')).map((file) => path.basename(file, '.md')));
 const programs = (awin.programs || []).filter((program) => program.relationship === 'joined' && program.isActive !== false);
 
 const RULES = [
@@ -141,7 +141,7 @@ const RULES = [
     title: 'Puppy Essentials and New Dog Setup',
     tags: ['puppy', 'puppy-food', 'puppy-training', 'puppy-supplies', 'new-dog', 'crate-training', 'socialization'],
     amazonQueries: ['puppy food small breed', 'puppy crate training', 'puppy training treats', 'puppy starter kit'],
-    internalTargets: ['/categories/puppy', '/categories/training', '/categories/dog-food', '/breeds', '/blog'],
+    internalTargets: ['/categories/puppy', '/categories/training', '/categories/dog-food', '/breeds', '/guides'],
     intent: 'puppy',
     sensitivity: 'medium',
     intro: 'Use this guide to compare puppy-specific food, training support, crate setup, socialization tools and early-life care decisions by breed size, age stage and owner experience level.',
@@ -758,7 +758,7 @@ function getBreedPages(clusters) {
     const cluster = byTag.get(family) || clusters.find((candidate) => candidate.rule.tags.some((tag) => family.includes(slugify(tag)) || slugify(tag).includes(family)));
     const breed = breeds.find((breedItem) => breedItem.slug === item.breedSlug);
     if (!cluster || !breed) return null;
-    return { ...item, kind: 'breed', commerceCluster: cluster.slug, commerceClusterTitle: cluster.title, programmes: cluster.programs.map((program) => program.name), products: cluster.products.slice(0, 6), amazonQueries: cluster.amazonQueries, internalLinkTargets: unique([...(item.internalLinkTargets || []), `/blog/${cluster.slug}`, ...cluster.internalLinkTargets]) };
+    return { ...item, kind: 'breed', commerceCluster: cluster.slug, commerceClusterTitle: cluster.title, programmes: cluster.programs.map((program) => program.name), products: cluster.products.slice(0, 6), amazonQueries: cluster.amazonQueries, internalLinkTargets: unique([...(item.internalLinkTargets || []), `/guides/${cluster.slug}`, ...cluster.internalLinkTargets]) };
   }).filter(Boolean);
 }
 function renderCluster(cluster) {
@@ -816,7 +816,7 @@ awinTopicTags: ${yamlList(tags)}
 amazonQueries: ${yamlList(cluster.amazonQueries)}
 internalLinkTargets: ${yamlList(cluster.internalLinkTargets)}
 generated: true
-indexInBlog: false
+indexInGuides: false
 reviewMethod: ${quote(normalizeReviewMethod('product-data-comparison'))}
 claimSensitivity: ${quote(cluster.rule.sensitivity)}
 monetizationIntent: ${quote(normalizeMonetizationIntent(cluster.rule.intent || cluster.rule.tags[0] || 'service'))}
@@ -824,7 +824,7 @@ affiliateDisclosure: true
 medicalDisclaimer: ${sensitive ? 'true' : 'false'}
 partnerProgramKeys: ${yamlList(cluster.programs.map((program) => program.key))}
 partnerAdvertiserIds: ${yamlList(cluster.programs.map((program) => program.advertiserId))}
-canonicalUrl: ${quote(`https://pupwiki.com/blog/${cluster.slug}`)}
+canonicalUrl: ${quote(`https://pupwiki.com/guides/${cluster.slug}`)}
 ---
 
 ${body}`;
@@ -884,10 +884,10 @@ function renderBreedPage(item) {
     ? breedFoodGuidance(breed)
     : (CLUSTER_GUIDANCE[item.commerceCluster] || '');
 
-  // Normalise internal links: /blog → /guides
+  // Normalise any remaining /blog → /guides from backlog data
   item = {
     ...item,
-    internalLinkTargets: (item.internalLinkTargets || []).map((href) => href === '/blog' ? '/guides' : href),
+    internalLinkTargets: (item.internalLinkTargets || []).map((href) => href === '/blog' ? '/guides' : href.startsWith('/blog/') ? `/guides/${href.slice(6)}` : href),
   };
   const isEnrichedFamily = isHealthFamily || isSuppFamily || isPuppyFamily;
 
@@ -952,7 +952,7 @@ awinTopicTags: ${yamlList(tags)}
 amazonQueries: ${yamlList(item.amazonQueries)}
 internalLinkTargets: ${yamlList(item.internalLinkTargets)}
 generated: true
-indexInBlog: ${pseoFamilyKey === 'health' ? 'true' : 'false'}
+indexInGuides: ${pseoFamilyKey === 'health' ? 'true' : 'false'}
 ${breedImageUrl ? `image: ${quote(breedImageUrl)}\n` : ''}reviewMethod: ${quote(normalizeReviewMethod('product-data-comparison'))}
 claimSensitivity: ${quote(item.monetization?.claimSensitivity || 'medium')}
 monetizationIntent: ${quote(normalizeMonetizationIntent(item.family))}
@@ -961,7 +961,7 @@ medicalDisclaimer: ${item.monetization?.claimSensitivity === 'high' ? 'true' : '
 breedSlug: ${quote(breed.slug)}
 breedName: ${quote(breed.name)}
 wordCountEstimate: ${wordCount}
-canonicalUrl: ${quote(`https://pupwiki.com/blog/${item.suggestedSlug}`)}
+canonicalUrl: ${quote(`https://pupwiki.com/guides/${item.suggestedSlug}`)}
 ---
 
 ${body}`;
@@ -980,15 +980,15 @@ const filteredBreeds = (MODE === 'breed-pages' || MODE === 'all' ? breedPages : 
 
 const selected = [...filteredClusters, ...filteredBreeds];
 
-fs.mkdirSync(BLOG_DIR, { recursive: true });
+fs.mkdirSync(GUIDES_DIR, { recursive: true });
 const generated = [];
 const skipped = [];
 for (const item of selected) {
   try {
     const slug = item.suggestedSlug || item.slug;
     const markdown = sanitizePublicDogCopy(item.kind === 'breed' ? renderBreedPage(item) : renderCluster(item));
-    if (APPLY) fs.writeFileSync(path.join(BLOG_DIR, `${slug}.md`), markdown, 'utf8');
-    generated.push({ kind: item.kind || 'cluster', slug, path: `/blog/${slug}`, priorityScore: item.priorityScore, programmes: item.programs?.map((program) => program.name) || item.programmes || [] });
+    if (APPLY) fs.writeFileSync(path.join(GUIDES_DIR, `${slug}.md`), markdown, 'utf8');
+    generated.push({ kind: item.kind || 'cluster', slug, path: `/guides/${slug}`, priorityScore: item.priorityScore, programmes: item.programs?.map((program) => program.name) || item.programmes || [] });
   } catch (error) {
     skipped.push({ slug: item.suggestedSlug || item.slug, reason: error.message });
   }

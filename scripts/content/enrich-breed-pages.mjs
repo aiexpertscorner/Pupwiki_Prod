@@ -6,7 +6,7 @@
  *
  * Changes applied:
  * - Adds breed-specific image field (deterministic hash-based index from image_urls[])
- * - Sets indexInBlog: true for health pages (puppy stays false)
+ * - Sets indexInGuides: true for health pages (puppy stays false)
  * - Replaces the thin "About [Breed]" one-liner with the full breed description,
  *   origin context, AKC popularity, trait table, and intelligence context.
  */
@@ -16,7 +16,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const BLOG_DIR = path.join(ROOT, 'src/content/blog');
+const GUIDES_DIR = path.join(ROOT, 'src/content/guides');
 const APPLY = process.argv.includes('--apply');
 
 function readJson(rel, fallback) {
@@ -133,7 +133,7 @@ function enrichFile(filePath, familyKey) {
 
   const imageUrl = pickBreedImageUrl(breed, familyKey);
   const hasImage = Boolean(data.image);
-  const isHealthIndexed = data.indexInBlog === 'true';
+  const isHealthIndexed = data.indexInGuides === 'true';
 
   // Only update files that need changes
   const needsImageUpdate = imageUrl && !hasImage;
@@ -150,7 +150,7 @@ function enrichFile(filePath, familyKey) {
   // Update frontmatter string
   let newFm = rawFm;
   if (needsIndexUpdate) {
-    newFm = newFm.replace(/^indexInBlog:\s*false$/m, 'indexInBlog: true');
+    newFm = newFm.replace(/^indexInGuides:\s*false$/m, 'indexInGuides: true');
   }
   if (needsImageUpdate) {
     newFm = newFm.replace(/^(canonicalUrl:.*)$/m, `image: "${imageUrl}"\n$1`);
@@ -198,7 +198,7 @@ function enrichFile(filePath, familyKey) {
 }
 
 // Process all health and puppy files
-const files = fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith('.md'));
+const files = fs.readdirSync(GUIDES_DIR).filter((f) => f.endsWith('.md'));
 const healthFiles = files.filter((f) => f.endsWith('-health-problems.md'));
 const puppyFiles = files.filter((f) => f.endsWith('-puppy-essentials.md'));
 
@@ -206,12 +206,12 @@ console.log(`Processing ${healthFiles.length} health files + ${puppyFiles.length
 
 let updated = 0, skipped = 0, errors = 0;
 for (const file of healthFiles) {
-  const result = enrichFile(path.join(BLOG_DIR, file), 'health');
+  const result = enrichFile(path.join(GUIDES_DIR, file), 'health');
   if (!result) { errors++; continue; }
   if (result.skipped) { skipped++; } else { updated++; }
 }
 for (const file of puppyFiles) {
-  const result = enrichFile(path.join(BLOG_DIR, file), 'puppy');
+  const result = enrichFile(path.join(GUIDES_DIR, file), 'puppy');
   if (!result) { errors++; continue; }
   if (result.skipped) { skipped++; } else { updated++; }
 }

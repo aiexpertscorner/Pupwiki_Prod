@@ -26,7 +26,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
-const BLOG_DIR = path.join(ROOT, 'src/content/blog');
+const GUIDES_DIR = path.join(ROOT, 'src/content/guides');
 const PAGES_DIR = path.join(ROOT, 'src/pages');
 const DATA_DIR = path.join(ROOT, 'src/data');
 const SITE = 'https://pupwiki.com';
@@ -117,7 +117,7 @@ const routeTypes = [
   { name: 'Breed hubs',        pattern: /^breeds\/[^/]+$/, depth: 3 },
   { name: 'Dog names',         pattern: /^dog-names\/[^/]+$/, depth: 3 },
   { name: 'Cost calculators',  pattern: /^cost-calculator\/[^/]+$/, depth: 3 },
-  { name: 'Blog posts',        pattern: /^blog\/[^/]+$/, depth: 3 },
+  { name: 'Guide posts',        pattern: /^blog\/[^/]+$/, depth: 3 },
   { name: 'Category hubs',     pattern: /^categories\/[^/]+$/, depth: 3 },
   { name: 'Brand pages',       pattern: /^brands\/[^/]+$/, depth: 3 },
 ];
@@ -129,7 +129,7 @@ const pageInventory = {
   dogNames_total_expected: allBreeds.length,
   dogNamesGap: masterCrossbreeds.length,
   costCalculators: allBreeds.length,
-  blogPosts: walk(BLOG_DIR).length,
+  blogPosts: walk(GUIDES_DIR).length,
 };
 
 // ---------------------------------------------------------------------------
@@ -159,7 +159,7 @@ const orphanRisks = allBreeds
 // ---------------------------------------------------------------------------
 const thinContent = [];
 const wordCountByFamily = {};
-const blogFiles = walk(BLOG_DIR);
+const blogFiles = walk(GUIDES_DIR);
 let scanned = 0;
 
 for (const file of blogFiles) {
@@ -348,15 +348,15 @@ checks.push({
   detail: hasHomepageFaq ? 'FAQPage schema present on homepage.' : 'Homepage missing FAQPage schema — missed rich result opportunity.',
 });
 
-// Check: HowTo schema in blog template
-const blogSlugFile = path.join(PAGES_DIR, 'blog/[slug].astro');
+// Check: HowTo schema in guide template
+const blogSlugFile = path.join(PAGES_DIR, 'guides/[slug].astro');
 const blogSlugContent = fs.existsSync(blogSlugFile) ? fs.readFileSync(blogSlugFile, 'utf8') : '';
 const hasHowToInBlog = blogSlugContent.includes('HowTo');
 checks.push({
-  id: 'howto-schema-blog',
+  id: 'howto-schema-guides',
   name: 'HowTo schema on training posts',
   severity: hasHowToInBlog ? 'OK' : 'MEDIUM',
-  detail: hasHowToInBlog ? 'HowTo schema generated for training posts in blog/[slug].astro.' : 'Training posts missing HowTo schema. Add to blog/[slug].astro.',
+  detail: hasHowToInBlog ? 'HowTo schema generated for training posts in guides/[slug].astro.' : 'Training posts missing HowTo schema. Add to guides/[slug].astro.',
 });
 
 // Check: internal link density
@@ -405,8 +405,8 @@ if (JSON_MODE) {
   console.log(`  Dog-names routes (expected):          ${pageInventory.dogNames_total_expected}`);
   console.log(`  Dog-names crossbreed gap:             ${pageInventory.dogNamesGap} ${pageInventory.dogNamesGap > 0 ? '⚠️' : '✅'}`);
   console.log(`  Cost calculators:                     ${pageInventory.costCalculators}`);
-  console.log(`  Blog posts (total):                   ${pageInventory.blogPosts}`);
-  console.log(`  Blog posts scanned for thin content:  ${scanned}`);
+  console.log(`  Guide posts (total):                   ${pageInventory.blogPosts}`);
+  console.log(`  Guide posts scanned for thin content:  ${scanned}`);
   console.log();
 
   console.log(`📦 Content Cluster Coverage`);

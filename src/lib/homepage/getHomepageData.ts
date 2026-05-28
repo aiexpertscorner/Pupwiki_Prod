@@ -421,7 +421,7 @@ async function pickEditorialHighlights(): Promise<HomepageEditorialCard[]> {
 
     if (dynamicItems.length > 0) return dynamicItems;
   } catch {
-    // Fall back to curated config items below if the blog collection is unavailable.
+    // Fall back to curated config items below if the guides collection is unavailable.
   }
 
   return toArray(config.editorialHighlights.fallbackItems).map((item) => ({

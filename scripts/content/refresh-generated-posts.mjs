@@ -8,7 +8,7 @@ import {
 } from '../lib/public-content-contract.mjs';
 
 const ROOT = process.cwd();
-const BLOG_DIR = resolve(ROOT, 'src/content/blog');
+const GUIDES_DIR = resolve(ROOT, 'src/content/guides');
 const BREEDS_PATH = resolve(ROOT, 'src/data/master-breeds.json');
 const CLUSTERS_PATH = resolve(ROOT, 'src/lib/content/contentClusterConfig.ts');
 const TODAY = new Date().toISOString().slice(0, 10);
@@ -292,7 +292,7 @@ let changed = 0;
 let written = 0;
 const changeReport = [];
 
-for (const filename of readdirSync(BLOG_DIR).filter((file) => file.endsWith('.md'))) {
+for (const filename of readdirSync(GUIDES_DIR).filter((file) => file.endsWith('.md'))) {
   const match = getPseoFamilyFromFilename(filename);
   if (!match) continue;
   if (FAMILY_FILTER.size && !FAMILY_FILTER.has(match.familyKey)) continue;
@@ -301,7 +301,7 @@ for (const filename of readdirSync(BLOG_DIR).filter((file) => file.endsWith('.md
   const breed = breedBySlug.get(match.breedSlug);
   if (!breed) continue;
   scanned++;
-  const path = join(BLOG_DIR, filename);
+  const path = join(GUIDES_DIR, filename);
   const original = readFileSync(path, 'utf8');
   const parsed = parseFrontmatter(original);
   if (!parsed) continue;
@@ -330,7 +330,7 @@ for (const filename of readdirSync(BLOG_DIR).filter((file) => file.endsWith('.md
     amazonQueries: yamlList(clusterData.amazonQueries),
     internalLinkTargets: yamlList([`/breeds/${breed.slug}`, `/categories/${clusterData.cluster}`, '/cost-calculator', '/dog-names', '/categories/puppy', '/categories/senior-dogs', '/pet-insurance']),
     generated: 'true',
-    indexInBlog: 'false',
+    indexInGuides: 'false',
     reviewMethod: quote(normalizeReviewMethod(copy.reviewMethod)),
     claimSensitivity: quote(copy.claimSensitivity),
     monetizationIntent: quote(normalizeMonetizationIntent(copy.monetizationIntent)),

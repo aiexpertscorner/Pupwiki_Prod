@@ -1,5 +1,5 @@
 /**
- * Removes generated markdown files from src/content/blog/ before fresh regeneration.
+ * Removes generated markdown files from src/content/guides/ before fresh regeneration.
  * Only deletes files that have `generated: true` in their frontmatter.
  * Safe to run in CI — never touches manually-written editorial content.
  *
@@ -13,7 +13,7 @@ import { existsSync, readdirSync, readFileSync, rmSync, statSync } from 'node:fs
 import { join, resolve } from 'node:path';
 
 const ROOT = process.cwd();
-const BLOG_DIR = resolve(ROOT, 'src/content/blog');
+const GUIDES_DIR = resolve(ROOT, 'src/content/guides');
 
 const DRY_RUN = process.argv.includes('--dry-run');
 const CI = process.argv.includes('--ci');
@@ -31,13 +31,13 @@ function isGenerated(filePath) {
 }
 
 function main() {
-  if (!existsSync(BLOG_DIR)) {
-    console.log('[clean-generated] No blog directory found — nothing to clean.');
+  if (!existsSync(GUIDES_DIR)) {
+    console.log('[clean-generated] No guides directory found — nothing to clean.');
     process.exit(0);
   }
 
-  const files = readdirSync(BLOG_DIR).filter((f) => f.endsWith('.md'));
-  const toDelete = files.filter((f) => isGenerated(join(BLOG_DIR, f)));
+  const files = readdirSync(GUIDES_DIR).filter((f) => f.endsWith('.md'));
+  const toDelete = files.filter((f) => isGenerated(join(GUIDES_DIR, f)));
 
   console.log(`[clean-generated] Found ${files.length} total posts, ${toDelete.length} are generated.`);
 
@@ -65,7 +65,7 @@ function main() {
   let errors = 0;
 
   for (const f of toDelete) {
-    const fullPath = join(BLOG_DIR, f);
+    const fullPath = join(GUIDES_DIR, f);
     try {
       rmSync(fullPath);
       deleted++;

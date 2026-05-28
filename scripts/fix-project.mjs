@@ -213,22 +213,22 @@ const badgeTheme = categoryColors[category.toLowerCase()] ?? 'primary';
 ---
 <a
   href={href}
-  class={\`blog-card \${featured ? 'blog-card--featured' : ''}\`}
+  class={\`guide-card \${featured ? 'guide-card--featured' : ''}\`}
   aria-label={title}
 >
-  <div class="blog-card__image-wrap">
+  <div class="guide-card__image-wrap">
     {image
-      ? <img src={image} alt={imageAlt} class="blog-card__image" loading="lazy" decoding="async" width="600" height="340" />
-      : <div class="blog-card__image-placeholder" aria-hidden="true">{emoji}</div>
+      ? <img src={image} alt={imageAlt} class="guide-card__image" loading="lazy" decoding="async" width="600" height="340" />
+      : <div class="guide-card__image-placeholder" aria-hidden="true">{emoji}</div>
     }
   </div>
-  <div class="blog-card__body">
-    <span class={\`badge badge--\${badgeTheme} blog-card__category\`}>{category}</span>
-    <h3 class="blog-card__title">{title}</h3>
-    <p class="blog-card__excerpt">{excerpt}</p>
-    <div class="blog-card__meta">
+  <div class="guide-card__body">
+    <span class={\`badge badge--\${badgeTheme} guide-card__category\`}>{category}</span>
+    <h3 class="guide-card__title">{title}</h3>
+    <p class="guide-card__excerpt">{excerpt}</p>
+    <div class="guide-card__meta">
       {displayDate && <time datetime={pubDate}>{displayDate}</time>}
-      {displayDate && readTime && <span class="blog-card__meta-dot" aria-hidden="true"></span>}
+      {displayDate && readTime && <span class="guide-card__meta-dot" aria-hidden="true"></span>}
       {readTime && <span>{readTime} min read</span>}
     </div>
   </div>
@@ -334,8 +334,8 @@ const PAGES_TO_FIX = [
   'src/pages/about.astro',
   'src/pages/disclosure.astro',
   'src/pages/index.astro',
-  'src/pages/blog/index.astro',
-  'src/pages/blog/[slug].astro',
+  'src/pages/guides/index.astro',
+  'src/pages/guides/[slug].astro',
   'src/pages/breeds/index.astro',
   'src/pages/breeds/[breed].astro',
   'src/pages/categories/[category].astro',

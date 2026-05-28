@@ -20,7 +20,7 @@ const REVIEW_POST_TYPES = new Set(['product-roundup', 'comparison', 'review']);
 function isReviewPost(post: any): boolean {
   if (post.data.noIndex || post.data.noRoute) return false;
   if (post.data.generated === true) return false;
-  if (post.data.indexInBlog === false) return false;
+  if (post.data.indexInGuides === false) return false;
   const postType = (post.data.postType || '').toLowerCase();
   return REVIEW_POST_TYPES.has(postType);
 }
@@ -28,7 +28,7 @@ function isReviewPost(post: any): boolean {
 function isGuidePost(post: any): boolean {
   if (post.data.noIndex || post.data.noRoute) return false;
   if (post.data.generated === true) return false;
-  if (post.data.indexInBlog === false) return false;
+  if (post.data.indexInGuides === false) return false;
   const postType = (post.data.postType || '').toLowerCase();
   return postType === 'general' || postType === 'how-to';
 }

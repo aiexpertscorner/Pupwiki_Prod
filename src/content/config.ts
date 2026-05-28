@@ -48,7 +48,7 @@ const guides = defineCollection({
 
     // Content rework: editorial classification (all optional — existing posts unaffected)
     contentTier:         z.enum(['editorial','money','support','generated-support','enrichment']).optional(),
-    indexInBlog:         z.boolean().optional(),
+    indexInGuides:       z.boolean().optional(),
     generated:           z.boolean().optional(),
     reviewMethod:        z.enum(['editorial-research','product-data-comparison','hands-on-test','expert-reviewed']).optional(),
     claimSensitivity:    z.enum(['low','medium','high']).optional(),

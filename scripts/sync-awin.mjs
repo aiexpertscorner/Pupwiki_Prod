@@ -474,7 +474,7 @@ function normalizeProgram(program, relationship, details = null) {
     configuredDeeplink: staticMatch.deeplink || '',
     deeplink: staticMatch.deeplink || merged.clickThroughUrl || merged.programmeInfo?.clickThroughUrl || '',
     topicTags,
-    pageTypes: staticMatch.pageTypes || ['blog', 'breed', 'category'],
+    pageTypes: staticMatch.pageTypes || ['guide', 'breed', 'category'],
     priority: staticMatch.priority || 50,
   };
 }
@@ -751,7 +751,7 @@ function normalizeCreative(creative, program) {
     width: Number(creative.width || 0),
     height: Number(creative.height || 0),
     placements: ['mid-content', 'pre-footer'],
-    pageTypes: program.pageTypes || ['blog', 'breed', 'category'],
+    pageTypes: program.pageTypes || ['guide', 'breed', 'category'],
     topicTags: program.topicTags || [],
     source: 'awin-api',
     syncedAt: new Date().toISOString(),
@@ -880,7 +880,7 @@ function buildLogoBanners(programs) {
       alt: `${program.name} logo`,
       noteText: 'Advertisement / affiliate partner',
       placements: ['brand-logo', 'pre-footer'],
-      pageTypes: program.pageTypes || ['blog', 'breed', 'category'],
+      pageTypes: program.pageTypes || ['guide', 'breed', 'category'],
       topicTags: program.topicTags || [],
       source: 'awin-program-logo',
       syncedAt: new Date().toISOString(),

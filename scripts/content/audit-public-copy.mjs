@@ -19,7 +19,7 @@ const REPORT_PATH = resolve(ROOT, 'src/data/public-copy-audit-report.json');
 const TARGETS = [
   'src/pages',
   'src/components',
-  'src/content/blog',
+  'src/content/guides',
   'src/layouts',
 ];
 

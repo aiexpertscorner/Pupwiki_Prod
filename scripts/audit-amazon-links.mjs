@@ -148,16 +148,16 @@ if (!productCard) {
   }
 }
 
-// ── Check 5: blog/[slug].astro integrates AmazonTextLinks ────────────────────
-console.log('\n[ Blog page integration ]');
-const blogPage = read('src/pages/blog/[slug].astro');
+// ── Check 5: guides/[slug].astro integrates AmazonTextLinks ─────────────────
+console.log('\n[ Guides page integration ]');
+const blogPage = read('src/pages/guides/[slug].astro');
 if (!blogPage) {
-  warn('src/pages/blog/[slug].astro not found — skipping');
+  warn('src/pages/guides/[slug].astro not found — skipping');
 } else {
   if (blogPage.includes('AmazonTextLinks')) {
-    pass('blog/[slug].astro references AmazonTextLinks');
+    pass('guides/[slug].astro references AmazonTextLinks');
   } else {
-    warn('blog/[slug].astro does not yet import AmazonTextLinks (integration pending)');
+    warn('guides/[slug].astro does not yet import AmazonTextLinks (integration pending)');
   }
 }
 
