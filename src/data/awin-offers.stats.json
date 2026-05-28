@@ -1,35 +1,35 @@
 {
-  "total": 570,
-  "enabled": 0,
-  "active": 570,
-  "expiringSoon": 351,
+  "total": 592,
+  "enabled": 1,
+  "active": 592,
+  "expiringSoon": 306,
   "upcoming": 0,
   "expired": 0,
-  "promotions": 390,
-  "vouchers": 180,
+  "promotions": 391,
+  "vouchers": 201,
   "withVoucherCode": 0,
-  "withTrackingUrl": 570,
-  "joined": 0,
-  "notJoined": 570,
+  "withTrackingUrl": 592,
+  "joined": 1,
+  "notJoined": 591,
   "avgQualityScore": 46,
   "placementCoverage": {
     "home-deal-strip": 0,
-    "category-after-intro": 0,
-    "category-mid-content": 0,
+    "category-after-intro": 1,
+    "category-mid-content": 1,
     "guide-after-intro": 0,
     "guide-mid-content": 0,
     "guide-bottom": 0,
-    "breed-before-faq": 0,
-    "breed-bottom": 0,
-    "brand-hero": 0,
-    "brand-offer-grid": 0
+    "breed-before-faq": 1,
+    "breed-bottom": 1,
+    "brand-hero": 1,
+    "brand-offer-grid": 1
   },
-  "syncedAt": "2026-05-27T06:59:27.735Z",
+  "syncedAt": "2026-05-28T06:48:09.716Z",
   "fetchMeta": {
     "statusBatches": {
       "active": {
         "pages": 3,
-        "rows": 599
+        "rows": 600
       },
       "expiringSoon": {
         "pages": 0,
@@ -40,7 +40,7 @@
         "rows": 0
       }
     },
-    "totalFetched": 599,
+    "totalFetched": 600,
     "totalPages": 3,
     "errors": [
       "active/page4: Rate limit exceeded after retries",

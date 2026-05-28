@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-27T06:59:52.127Z",
+  "syncedAt": "2026-05-28T06:48:32.624Z",
   "programs": [
     {
       "key": "meowant",
@@ -500,14 +500,14 @@
       ],
       "commissionRange": [
         {
-          "min": 0,
-          "max": 0,
-          "type": "amount"
-        },
-        {
           "min": 8,
           "max": 8,
           "type": "percentage"
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "type": "amount"
         }
       ],
       "kpi": {
