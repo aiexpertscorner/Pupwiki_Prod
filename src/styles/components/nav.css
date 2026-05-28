@@ -82,7 +82,7 @@
 
 .site-nav__link--accent[aria-current='page'] {
   color: var(--color-primary);
-  background: rgba(21, 54, 95, 0.08);
+  background: var(--color-primary-opacity-08);
 }
 
 .site-header__actions {

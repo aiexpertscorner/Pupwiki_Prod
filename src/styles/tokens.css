@@ -91,6 +91,8 @@
   --color-success-dark: #065f46;
   --color-success-bg: #f0fdf4;
   --color-success-text: #15803d;
+  --color-success-opacity-18: rgba(4, 120, 87, 0.18);
+  --color-success-opacity-20: rgba(4, 120, 87, 0.20);
   --color-warning: #b45309;
   --color-warning-light: #fef3c7;
   --color-warning-dark: #713f12;
@@ -98,6 +100,9 @@
   --color-danger: #dc2626;
   --color-danger-light: #fee2e2;
   --color-danger-dark: #7f1d1d;
+  --color-danger-opacity-08: rgba(220, 38, 38, 0.08);
+  --color-danger-opacity-18: rgba(220, 38, 38, 0.18);
+  --color-danger-opacity-22: rgba(220, 38, 38, 0.22);
   --color-danger-bg: #fef2f2;
   --color-danger-text: #b91c1c;
   --color-info: #2563eb;

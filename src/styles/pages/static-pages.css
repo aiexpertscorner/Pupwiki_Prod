@@ -16,7 +16,7 @@
 
   .contact-hero {
     border-bottom: 1px solid var(--color-border);
-    background: linear-gradient(180deg, var(--color-surface-warm-98) 0%, #ffffff 78%);
+    background: linear-gradient(180deg, var(--color-surface-warm-98) 0%, white 78%);
   }
 
   .contact-hero .contact-container {
@@ -263,7 +263,7 @@
 
   .contact-check-list li {
     position: relative;
-    border: 1px solid rgba(4, 120, 87, 0.18);
+    border: 1px solid var(--color-success-opacity-18);
     border-radius: var(--radius-xl);
     background: var(--color-success-light);
     padding: 0.75rem 0.85rem 0.75rem 2.25rem;
@@ -358,7 +358,7 @@
 
   .privacy-hero {
     border-bottom: 1px solid var(--color-border);
-    background: linear-gradient(180deg, var(--color-surface-warm-98) 0%, #ffffff 78%);
+    background: linear-gradient(180deg, var(--color-surface-warm-98) 0%, white 78%);
   }
 
   .privacy-hero .privacy-container {
@@ -630,7 +630,7 @@
 
   .privacy-check-list li {
     position: relative;
-    border: 1px solid rgba(4, 120, 87, 0.18);
+    border: 1px solid var(--color-success-opacity-18);
     border-radius: var(--radius-xl);
     background: var(--color-success-light);
     padding: 0.75rem 0.85rem 0.75rem 2.25rem;
@@ -833,13 +833,13 @@
   .not-found__btn--primary {
     background: var(--color-accent);
     border-color: var(--color-accent);
-    color: #fff;
+    color: white;
   }
 
   .not-found__btn--primary:hover {
     background: var(--color-accent-hover);
     border-color: var(--color-accent-hover);
-    color: #fff;
+    color: white;
   }
 
 /* ── pages/disclosure.astro ─────────────────────────────────────────────────── */
@@ -962,7 +962,7 @@
     align-items: flex-start;
     padding: var(--space-3) var(--space-4);
     background: var(--color-success-light);
-    border: 1px solid rgba(4, 120, 87, 0.20);
+    border: 1px solid var(--color-success-opacity-20);
     border-radius: var(--radius-xl);
   }
 

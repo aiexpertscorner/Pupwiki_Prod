@@ -39,7 +39,7 @@
 
 .awin-offer-badge--voucher {
   background: var(--color-primary, #15365f);
-  color: #fff;
+  color: white;
 }
 
 /* ─── Voucher code ─────────────────────────────────────────── */

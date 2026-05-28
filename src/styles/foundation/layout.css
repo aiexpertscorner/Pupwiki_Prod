@@ -66,8 +66,8 @@
 .pw-page {
   overflow-x: clip;
   background:
-    radial-gradient(circle at 90% 4%, rgba(255, 122, 0, 0.1), transparent 24rem),
-    radial-gradient(circle at 0% 12%, rgba(21, 54, 95, 0.08), transparent 22rem),
+    radial-gradient(circle at 90% 4%, var(--color-accent-opacity-10), transparent 24rem),
+    radial-gradient(circle at 0% 12%, var(--color-primary-opacity-08), transparent 22rem),
     var(--color-bg-paper);
   color: var(--color-body);
 }
