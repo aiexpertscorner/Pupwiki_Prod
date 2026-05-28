@@ -9,7 +9,7 @@ postType: "comparison"
 readTime: 7
 schemaType: "Article"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
+monetizationIntent: "grooming"
 heroImage: "https://images.pexels.com/photos/6131150/pexels-photo-6131150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/6131150/pexels-photo-6131150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Woman washing a small dog in a grooming salon sink, black and white photo."
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Tima Miroshnichenko on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/woman-in-long-sleeve-shirt-washing-a-dog-6131150/"
 imageSearchQuery: "dog owner comparing dog grooming"
+contentTier: "money"
 ---
 
 

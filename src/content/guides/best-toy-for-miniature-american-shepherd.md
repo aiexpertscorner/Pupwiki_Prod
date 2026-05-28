@@ -7,8 +7,8 @@ tags: ["miniature-american-shepherd", "toys", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "miniature-american-shepherd"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/5942479/pexels-photo-5942479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5942479/pexels-photo-5942479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by www.kaboompics.com on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/a-dog-with-a-toy-on-a-sofa-5942479/"
 imageSearchQuery: "Miniature American Shepherd dog playing toy"
+contentTier: "money"
 ---
 
 

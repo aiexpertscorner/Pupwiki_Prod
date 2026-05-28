@@ -9,7 +9,7 @@ postType: "comparison"
 readTime: 6
 schemaType: "Article"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
+monetizationIntent: "food"
 heroImage: "https://images.pexels.com/photos/5745217/pexels-photo-5745217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5745217/pexels-photo-5745217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "From above of playful cute Akita dog lying on wooden floor and holding hand of unrecognizable bearded ethnic male owner eating yummy croissant"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Zen Chung on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/anonymous-black-man-and-purebred-dog-playing-together-and-eating-croissant-5745217/"
 imageSearchQuery: "dog owner comparing dog food"
+contentTier: "money"
 ---
 
 

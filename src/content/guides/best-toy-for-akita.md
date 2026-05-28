@@ -7,8 +7,8 @@ tags: ["akita", "toys", "large-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "akita"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/5745213/pexels-photo-5745213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5745213/pexels-photo-5745213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Zen Chung on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/unrecognizable-ethnic-man-training-purebred-dog-sitting-on-floor-5745213/"
 imageSearchQuery: "Akita dog playing toy"
+contentTier: "money"
 ---
 
 

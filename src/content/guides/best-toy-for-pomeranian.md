@@ -7,8 +7,8 @@ tags: ["pomeranian", "toys", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "pomeranian"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/36725716/pexels-photo-36725716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/36725716/pexels-photo-36725716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Michał Robak on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/woman-playing-with-dog-on-kolobrzeg-beach-36725716/"
 imageSearchQuery: "Pomeranian dog playing toy"
+contentTier: "money"
 ---
 
 

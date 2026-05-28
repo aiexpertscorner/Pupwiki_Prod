@@ -15,7 +15,7 @@ imageCredit: "Photo by Shar Kaminski on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dog-with-soft-toy-on-grass-20016125/"
 imageSearchQuery: "dog toys"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
+monetizationIntent: "training"
 postType: "general"
 schemaType: Article
 ---

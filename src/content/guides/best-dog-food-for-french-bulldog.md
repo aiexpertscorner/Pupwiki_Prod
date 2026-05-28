@@ -16,9 +16,10 @@ imageCredit: "Photo by Sóc Năng Động on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/relaxed-french-bulldog-on-pavement-outdoors-35692179/"
 imageSearchQuery: "French Bulldog dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 French Bulldogs have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 28–28 lbs, calm energy, regularly shedding, and adaptable, playful, smart temperament.

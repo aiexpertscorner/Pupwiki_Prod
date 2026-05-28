@@ -16,9 +16,10 @@ imageCredit: "Photo by Masood Aslami on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/golden-retriever-portrait-in-natural-light-30810888/"
 imageSearchQuery: "Golden Retriever dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Golden Retrievers have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 55–75 lbs, needs lots of activity energy, seasonal shedding, and friendly, intelligent, devoted temperament.

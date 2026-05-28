@@ -16,9 +16,10 @@ imageCredit: "Photo by Vie Studio on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/a-dog-smelling-the-pistachios-7421520/"
 imageSearchQuery: "Chesapeake Bay Retriever dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Chesapeake Bay Retrievers have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 55–80 lbs, energetic energy, regularly shedding, and affectionate, bright, sensitive temperament.

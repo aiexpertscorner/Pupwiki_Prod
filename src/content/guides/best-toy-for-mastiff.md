@@ -7,8 +7,8 @@ tags: ["mastiff", "toys", "large-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "mastiff"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/4445461/pexels-photo-4445461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Mathew Coulton on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/a-dog-lying-on-the-floor-4445461/"
 imageSearchQuery: "Mastiff dog playing toy"
+contentTier: "money"
 ---
 
 

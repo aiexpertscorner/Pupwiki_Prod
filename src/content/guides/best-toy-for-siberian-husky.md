@@ -7,8 +7,8 @@ tags: ["siberian-husky", "toys", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "siberian-husky"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/35055371/pexels-photo-35055371.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/35055371/pexels-photo-35055371.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Karlheinz Strohmaier on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/husky-playing-with-toy-on-green-grass-outdoors-35055371/"
 imageSearchQuery: "Siberian Husky dog playing toy"
+contentTier: "money"
 ---
 
 

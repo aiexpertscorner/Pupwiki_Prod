@@ -7,8 +7,8 @@ tags: ["collie", "toys", "large-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "collie"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/33722063/pexels-photo-33722063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/33722063/pexels-photo-33722063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Patrick on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/happy-dog-playing-fetch-in-sunny-park-33722063/"
 imageSearchQuery: "Collie dog playing toy"
+contentTier: "money"
 ---
 
 

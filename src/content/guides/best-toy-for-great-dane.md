@@ -7,8 +7,8 @@ tags: ["great-dane", "toys", "large-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "great-dane"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/103540/pexels-photo-103540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/103540/pexels-photo-103540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Matthias Zomer on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/blue-merle-great-dane-103540/"
 imageSearchQuery: "Great Dane dog playing toy"
+contentTier: "money"
 ---
 
 

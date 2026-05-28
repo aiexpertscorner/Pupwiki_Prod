@@ -6,7 +6,7 @@ category: "Dog Food"
 tags: ["dog-food", "senior", "older-dogs", "joint-health", "nutrition"]
 author: "The PupWiki Team"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
+monetizationIntent: "food"
 postType: "general"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/34952073/pexels-photo-34952073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"

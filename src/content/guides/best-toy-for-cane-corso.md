@@ -7,8 +7,8 @@ tags: ["cane-corso", "toys", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "cane-corso"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/13154823/pexels-photo-13154823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/13154823/pexels-photo-13154823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Manuel Torres Garcia on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/a-dog-with-a-toy-13154823/"
 imageSearchQuery: "Cane Corso dog playing toy"
+contentTier: "money"
 ---
 
 

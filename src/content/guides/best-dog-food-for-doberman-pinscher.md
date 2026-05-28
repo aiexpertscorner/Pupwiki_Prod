@@ -16,9 +16,10 @@ imageCredit: "Photo by RDNE Stock project on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/black-dog-in-close-up-photography-7516133/"
 imageSearchQuery: "Doberman Pinscher dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Doberman Pinschers have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 60–100 lbs, needs lots of activity energy, regularly shedding, and loyal, fearless, alert temperament.

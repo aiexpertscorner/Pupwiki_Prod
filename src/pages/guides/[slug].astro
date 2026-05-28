@@ -72,11 +72,14 @@ const links = breedSlug ? (breedLinkMap as any)[breedSlug] || {} : {};
 const clusterSlug = fm.cluster || slugify(category);
 const cluster = getContentCluster(clusterSlug) || getContentCluster(normalize(category).replace(/\s+/g, '-'));
 
-const isGeneratedSupport = Boolean(fm.generated) || Boolean(fm.breedSlug) || Boolean(fm.breedName) || ['product-roundup', 'breed-support', 'generated-support'].includes(normalize(fm.postType));
+const isGeneratedSupport = (Boolean(fm.generated) && fm.indexInGuides === false)
+  || ['breed-support', 'generated-support'].includes(normalize(fm.postType));
 const isHealthSensitive = ['health', 'supplements', 'food', 'dog food'].includes(normalize(category)) || tags.some((tag: string) => ['health', 'supplements', 'nutrition', 'medical-warning', 'vet-critical', 'emergency-vet'].includes(normalize(tag)));
 const hasUnsafeCommerceTag = tags.some((tag: string) => ['medical-warning', 'vet-critical', 'emergency-vet', 'diagnosis', 'treatment'].includes(normalize(tag)));
-const showCommercialMidContent = false;
-const showProductRoundupCommerce = ['product-roundup', 'comparison'].includes(normalize(fm.postType)) && !hasUnsafeCommerceTag;
+const monetizationIntent = fm.monetizationIntent || 'none';
+const showCommercialMidContent = monetizationIntent !== 'none' && !hasUnsafeCommerceTag && !isHealthSensitive;
+const isBreedProductGuide = Boolean(breedSlug) && ['food', 'toys', 'beds', 'grooming', 'supplements', 'dog-food'].includes(clusterSlug);
+const showProductRoundupCommerce = (['product-roundup', 'comparison', 'breed-support'].includes(normalize(fm.postType)) || isBreedProductGuide) && !hasUnsafeCommerceTag;
 
 // Amazon contextual text links — subtle, search-only, no PA API data
 const isIndexable = !(fm.noIndex === true || (fm.generated === true && fm.indexInGuides === false));
@@ -263,6 +266,7 @@ const relatedToolLinks = [
   breedEnergy={breed?.energy_level}
   breedCoat={breed?.coat_type}
   noIndex={fm.noIndex === true || (fm.generated === true && fm.indexInGuides === false)}
+  monetizationIntent={monetizationIntent}
 >
   {isGeneratedSupport && (
     <aside class="article-support-note not-prose" aria-label="Support content note">

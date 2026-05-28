@@ -16,9 +16,10 @@ imageCredit: "Photo by Pixabay on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/brown-short-haired-dog-on-green-ground-cover-plants-during-daytime-34315/"
 imageSearchQuery: "Mastiff dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Mastiffs have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 120–230 lbs, regular exercise energy, occasional shedding, and courageous, dignified, good-natured temperament.

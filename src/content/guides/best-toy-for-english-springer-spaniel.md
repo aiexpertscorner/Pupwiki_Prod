@@ -7,8 +7,8 @@ tags: ["english-springer-spaniel", "toys", "medium-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "english-springer-spaniel"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/29506737/pexels-photo-29506737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/29506737/pexels-photo-29506737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Jack Farinella on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/springer-spaniel-in-snowy-landscape-29506737/"
 imageSearchQuery: "English Springer Spaniel dog playing toy"
+contentTier: "money"
 ---
 
 

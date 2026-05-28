@@ -1037,6 +1037,22 @@
   color: var(--color-primary);
 }
 
+/* ── Comparison layout variant ──────────────────────────────── */
+.article-layout--comparison .article-content {
+  max-width: 100%;
+}
+
+.article-layout--comparison .article-content :global(table) {
+  font-size: var(--text-sm);
+  min-width: 0;
+}
+
+.article-layout--comparison .article-content :global(thead),
+.article-layout--comparison .article-content :global(tbody),
+.article-layout--comparison .article-content :global(tr) {
+  min-width: 0;
+}
+
 /* ── Reduced motion ──────────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   .article-button,

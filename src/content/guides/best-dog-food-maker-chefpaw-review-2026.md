@@ -18,7 +18,8 @@ imageCredit: "Photo by Rafael Rodrigues on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/"
 imageSearchQuery: "dog food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
+monetizationIntent: "food"
+contentTier: "money"
 ---
 
 My golden retriever started refusing her kibble at around age four. Not dramatically — she'd just eat half and walk away. The vet said she was healthy, probably just bored with the same formula. I tried rotating brands, adding toppers, warming the food. Nothing stuck for more than a week.

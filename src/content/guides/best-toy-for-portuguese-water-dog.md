@@ -7,8 +7,8 @@ tags: ["portuguese-water-dog", "toys", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "portuguese-water-dog"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/5482871/pexels-photo-5482871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5482871/pexels-photo-5482871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Bethany Ferr on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/man-holding-a-red-ball-5482871/"
 imageSearchQuery: "Portuguese Water Dog dog playing toy"
+contentTier: "money"
 ---
 
 

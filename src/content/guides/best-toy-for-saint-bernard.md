@@ -7,8 +7,8 @@ tags: ["saint-bernard", "toys", "large-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "saint-bernard"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/12703103/pexels-photo-12703103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/12703103/pexels-photo-12703103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Catherine Leclert on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dogs-playing-on-a-stone-pavement-12703103/"
 imageSearchQuery: "Saint Bernard dog playing toy"
+contentTier: "money"
 ---
 
 

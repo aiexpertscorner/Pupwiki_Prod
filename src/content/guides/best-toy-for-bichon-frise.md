@@ -7,8 +7,8 @@ tags: ["bichon-frise", "toys", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "bichon-frise"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/37130279/pexels-photo-37130279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/37130279/pexels-photo-37130279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Jay Brand on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/playful-white-dog-running-on-green-lawn-37130279/"
 imageSearchQuery: "Bichon Frise dog playing toy"
+contentTier: "money"
 ---
 
 

@@ -7,8 +7,8 @@ tags: ["cocker-spaniel", "toys", "medium-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "cocker-spaniel"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/32812824/pexels-photo-32812824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/32812824/pexels-photo-32812824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Germán Latasa on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/happy-cocker-spaniel-dog-in-a-garden-32812824/"
 imageSearchQuery: "Cocker Spaniel dog playing toy"
+contentTier: "money"
 ---
 
 

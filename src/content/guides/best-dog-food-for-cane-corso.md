@@ -16,9 +16,10 @@ imageCredit: "Photo by Сергей ЮССтудия on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/black-dog-standing-in-snowy-winter-landscape-36260130/"
 imageSearchQuery: "Cane Corso dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Cane Corsos have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — energetic energy, occasional shedding, and affectionate, intelligent, majestic temperament.

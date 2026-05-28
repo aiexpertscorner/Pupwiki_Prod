@@ -7,8 +7,8 @@ tags: ["german-shorthaired-pointer", "toys", "large-breed", "needs-lots-of-activ
 author: "The PupWiki Team"
 breedSlug: "german-shorthaired-pointer"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/9649470/pexels-photo-9649470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/9649470/pexels-photo-9649470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Art Kravchenko on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/a-dog-biting-a-tree-branch-9649470/"
 imageSearchQuery: "German Shorthaired Pointer dog playing toy"
+contentTier: "money"
 ---
 
 

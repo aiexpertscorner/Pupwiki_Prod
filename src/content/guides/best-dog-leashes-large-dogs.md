@@ -15,7 +15,7 @@ imageCredit: "Photo by Anton Kudryashov on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/"
 imageSearchQuery: "dog training"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
+monetizationIntent: "training"
 postType: "general"
 schemaType: Article
 ---

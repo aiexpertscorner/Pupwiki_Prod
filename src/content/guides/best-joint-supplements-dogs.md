@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Rafael Rodrigues on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dog-food-18764141/"
 imageSearchQuery: "dog supplements"
+contentTier: "money"
 ---
 
 

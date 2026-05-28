@@ -7,8 +7,8 @@ tags: ["dachshund", "toys", "medium-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "dachshund"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/29081525/pexels-photo-29081525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/29081525/pexels-photo-29081525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Andreas Schnabl on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dachshund-and-black-dog-playing-outdoors-29081525/"
 imageSearchQuery: "Dachshund dog playing toy"
+contentTier: "money"
 ---
 
 

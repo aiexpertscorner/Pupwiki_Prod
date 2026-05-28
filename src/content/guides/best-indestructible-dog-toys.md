@@ -10,7 +10,7 @@ postType: "product-roundup"
 readTime: 8
 schemaType: "Article"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
+monetizationIntent: "training"
 heroImage: "https://images.pexels.com/photos/20016125/pexels-photo-20016125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/20016125/pexels-photo-20016125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 heroImageAlt: "Cute dog lying on grass cuddling a black and white stuffed animal companion outdoors."
@@ -19,6 +19,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Shar Kaminski on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dog-with-soft-toy-on-grass-20016125/"
 imageSearchQuery: "dog toys"
+contentTier: "money"
 ---
 
 

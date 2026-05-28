@@ -19,7 +19,8 @@ imageCredit: "Photo by Rafael Rodrigues on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/close-up-of-dry-dog-food-kibble-34952073/"
 imageSearchQuery: "dog food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
+monetizationIntent: "food"
+contentTier: "money"
 ---
 
 Feeding a large breed dog isn't the same as feeding a medium or small one. Large breeds grow faster, carry more weight on their joints, and have different caloric needs than their smaller cousins. Getting the nutrition right — especially during puppyhood and senior years — can genuinely affect how long and how comfortably your dog lives.

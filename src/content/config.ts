@@ -33,6 +33,7 @@ const guides = defineCollection({
     heroImageAlt:  z.string().optional(),
     readTime:      z.number().optional(),
     noIndex:       z.boolean().default(false),
+    noRoute:       z.boolean().default(false),
 
     // Sidebar product widget
     topProduct:    z.object({

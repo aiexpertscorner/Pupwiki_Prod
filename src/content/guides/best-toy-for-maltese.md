@@ -7,8 +7,8 @@ tags: ["maltese", "toys", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "maltese"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/20233073/pexels-photo-20233073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/20233073/pexels-photo-20233073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Yargo S. Walkowicz on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-with-toy-20233073/"
 imageSearchQuery: "Maltese dog playing toy"
+contentTier: "money"
 ---
 
 

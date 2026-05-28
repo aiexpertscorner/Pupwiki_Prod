@@ -7,8 +7,8 @@ tags: ["belgian-malinois", "toys", "large-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "belgian-malinois"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/7210318/pexels-photo-7210318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/7210318/pexels-photo-7210318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Blue Bird on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dog-biting-buoy-above-swimming-pool-7210318/"
 imageSearchQuery: "Belgian Malinois dog playing toy"
+contentTier: "money"
 ---
 
 
