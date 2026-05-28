@@ -180,7 +180,7 @@ partnerKey: ${quote(program.key)}
 partnerAdvertiserId: ${quote(program.advertiserId)}
 partnerCluster: ${quote(cluster.slug)}
 partnerDeeplink: ${quote(deeplink)}
-canonicalUrl: ${quote(`https://pupwiki.com/blog/${pageSlug}`)}
+canonicalUrl: ${quote(`https://pupwiki.com/guides/${pageSlug}`)}
 ---
 
 ## About ${safeName}
@@ -262,7 +262,7 @@ function main() {
       advertiserId: program.advertiserId,
       name: program.name,
       slug,
-      href: `/blog/${slug}`,
+      href: `/guides/${slug}`,
       cluster: inferPartnerCluster(program).slug,
       productRows: rows.length,
       creativeRows: creativeRows.length,

@@ -141,7 +141,7 @@ const RULES = [
     title: 'Puppy Essentials and New Dog Setup',
     tags: ['puppy', 'puppy-food', 'puppy-training', 'puppy-supplies', 'new-dog', 'crate-training', 'socialization'],
     amazonQueries: ['puppy food small breed', 'puppy crate training', 'puppy training treats', 'puppy starter kit'],
-    internalTargets: ['/categories/puppy', '/categories/training', '/categories/dog-food', '/breeds', '/blog'],
+    internalTargets: ['/categories/puppy', '/categories/training', '/categories/dog-food', '/breeds', '/guides'],
     intent: 'puppy',
     sensitivity: 'medium',
     intro: 'Use this guide to compare puppy-specific food, training support, crate setup, socialization tools and early-life care decisions by breed size, age stage and owner experience level.',
@@ -758,7 +758,7 @@ function getBreedPages(clusters) {
     const cluster = byTag.get(family) || clusters.find((candidate) => candidate.rule.tags.some((tag) => family.includes(slugify(tag)) || slugify(tag).includes(family)));
     const breed = breeds.find((breedItem) => breedItem.slug === item.breedSlug);
     if (!cluster || !breed) return null;
-    return { ...item, kind: 'breed', commerceCluster: cluster.slug, commerceClusterTitle: cluster.title, programmes: cluster.programs.map((program) => program.name), products: cluster.products.slice(0, 6), amazonQueries: cluster.amazonQueries, internalLinkTargets: unique([...(item.internalLinkTargets || []), `/blog/${cluster.slug}`, ...cluster.internalLinkTargets]) };
+    return { ...item, kind: 'breed', commerceCluster: cluster.slug, commerceClusterTitle: cluster.title, programmes: cluster.programs.map((program) => program.name), products: cluster.products.slice(0, 6), amazonQueries: cluster.amazonQueries, internalLinkTargets: unique([...(item.internalLinkTargets || []), `/guides/${cluster.slug}`, ...cluster.internalLinkTargets]) };
   }).filter(Boolean);
 }
 function renderCluster(cluster) {
@@ -824,7 +824,7 @@ affiliateDisclosure: true
 medicalDisclaimer: ${sensitive ? 'true' : 'false'}
 partnerProgramKeys: ${yamlList(cluster.programs.map((program) => program.key))}
 partnerAdvertiserIds: ${yamlList(cluster.programs.map((program) => program.advertiserId))}
-canonicalUrl: ${quote(`https://pupwiki.com/blog/${cluster.slug}`)}
+canonicalUrl: ${quote(`https://pupwiki.com/guides/${cluster.slug}`)}
 ---
 
 ${body}`;
@@ -887,7 +887,7 @@ function renderBreedPage(item) {
   // Normalise internal links: /blog → /guides
   item = {
     ...item,
-    internalLinkTargets: (item.internalLinkTargets || []).map((href) => href === '/blog' ? '/guides' : href),
+    internalLinkTargets: (item.internalLinkTargets || []).map((href) => href === '/blog' ? '/guides' : href.startsWith('/blog/') ? `/guides/${href.slice(6)}` : href),
   };
   const isEnrichedFamily = isHealthFamily || isSuppFamily || isPuppyFamily;
 
@@ -961,7 +961,7 @@ medicalDisclaimer: ${item.monetization?.claimSensitivity === 'high' ? 'true' : '
 breedSlug: ${quote(breed.slug)}
 breedName: ${quote(breed.name)}
 wordCountEstimate: ${wordCount}
-canonicalUrl: ${quote(`https://pupwiki.com/blog/${item.suggestedSlug}`)}
+canonicalUrl: ${quote(`https://pupwiki.com/guides/${item.suggestedSlug}`)}
 ---
 
 ${body}`;
@@ -988,7 +988,7 @@ for (const item of selected) {
     const slug = item.suggestedSlug || item.slug;
     const markdown = sanitizePublicDogCopy(item.kind === 'breed' ? renderBreedPage(item) : renderCluster(item));
     if (APPLY) fs.writeFileSync(path.join(BLOG_DIR, `${slug}.md`), markdown, 'utf8');
-    generated.push({ kind: item.kind || 'cluster', slug, path: `/blog/${slug}`, priorityScore: item.priorityScore, programmes: item.programs?.map((program) => program.name) || item.programmes || [] });
+    generated.push({ kind: item.kind || 'cluster', slug, path: `/guides/${slug}`, priorityScore: item.priorityScore, programmes: item.programs?.map((program) => program.name) || item.programmes || [] });
   } catch (error) {
     skipped.push({ slug: item.suggestedSlug || item.slug, reason: error.message });
   }

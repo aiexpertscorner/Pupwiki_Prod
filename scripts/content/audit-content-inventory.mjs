@@ -152,10 +152,10 @@ function opportunityForBreedFamily(breed, family) {
     breedSlug: breed.slug,
     breedName: breed.name,
     suggestedSlug: expectedSlug,
-    suggestedPath: `/blog/${expectedSlug}`,
+    suggestedPath: `/guides/${expectedSlug}`,
     title: `${breed.name} ${titleCase(family)} Guide`,
     reason: `Missing ${family} support page for ${breed.name}.`,
-    internalLinkTargets: [`/breeds/${breed.slug}`, `/categories/${def.cluster}`, '/blog'],
+    internalLinkTargets: [`/breeds/${breed.slug}`, `/categories/${def.cluster}`, '/guides'],
     sitemap: { include: true, priority: def.sensitive ? 0.62 : 0.72, changefreq: 'monthly' },
     monetization: { awinPrograms: aw.programs, amazonValidatedSeedLikely: az.validatedSeedLikely, amazonSearchFallback: az.searchFallback, claimSensitivity: def.sensitive ? 'high' : 'medium' }
   };
@@ -175,13 +175,13 @@ const clusterOpportunities = clusters.map((cluster) => {
   const aw = awinCoverage(cluster);
   const az = amazonCoverage(cluster);
   const score = (exists ? 40 : 82) + (aw.count ? 10 : 0) + (az.searchFallback ? 8 : 0) + (az.validatedSeedLikely ? 5 : 0);
-  return { id: `cluster:${cluster}`, type: 'cluster-hub', priorityScore: score, cluster, suggestedPath: route, exists, reason: exists ? `Cluster hub exists; improve internal links, modules and sitemap priority.` : `Missing cluster hub for ${cluster}.`, internalLinkTargets: ['/categories', '/blog', ...(cluster === 'pupwiki-partners' ? ['/disclosure'] : [])], sitemap: { include: true, priority: exists ? 0.85 : 0.7, changefreq: 'weekly' }, monetization: { awinPrograms: aw.programs, amazonValidatedSeedLikely: az.validatedSeedLikely, amazonSearchFallback: az.searchFallback } };
+  return { id: `cluster:${cluster}`, type: 'cluster-hub', priorityScore: score, cluster, suggestedPath: route, exists, reason: exists ? `Cluster hub exists; improve internal links, modules and sitemap priority.` : `Missing cluster hub for ${cluster}.`, internalLinkTargets: ['/categories', '/guides', ...(cluster === 'pupwiki-partners' ? ['/disclosure'] : [])], sitemap: { include: true, priority: exists ? 0.85 : 0.7, changefreq: 'weekly' }, monetization: { awinPrograms: aw.programs, amazonValidatedSeedLikely: az.validatedSeedLikely, amazonSearchFallback: az.searchFallback } };
 });
 
 const partnerPageOpportunities = (awin.programs || []).map((program) => {
   const slug = `partner-${program.key}`;
   const exists = blogSlugs.has(slug);
-  return { id: `partner:${program.key}`, type: 'partner-profile', priorityScore: exists ? 42 : 88, cluster: 'pupwiki-partners', partnerKey: program.key, advertiserId: program.advertiserId, suggestedPath: `/blog/${slug}`, exists, reason: exists ? `${program.name} profile exists; refresh from AWIN data.` : `${program.name} needs a generated partner profile page.`, internalLinkTargets: ['/categories/pupwiki-partners', '/disclosure', `/blog/${slug}`], sitemap: { include: true, priority: 0.58, changefreq: 'monthly' }, monetization: { awinPrograms: [program.name], amazonSearchFallback: false, claimSensitivity: 'low' } };
+  return { id: `partner:${program.key}`, type: 'partner-profile', priorityScore: exists ? 42 : 88, cluster: 'pupwiki-partners', partnerKey: program.key, advertiserId: program.advertiserId, suggestedPath: `/guides/${slug}`, exists, reason: exists ? `${program.name} profile exists; refresh from AWIN data.` : `${program.name} needs a generated partner profile page.`, internalLinkTargets: ['/categories/pupwiki-partners', '/disclosure', `/guides/${slug}`], sitemap: { include: true, priority: 0.58, changefreq: 'monthly' }, monetization: { awinPrograms: [program.name], amazonSearchFallback: false, claimSensitivity: 'low' } };
 });
 
 const internalLinks = blogPosts.map((post) => {
@@ -195,7 +195,7 @@ const internalLinks = blogPosts.map((post) => {
   if (post.slug.startsWith('partner-')) targets.add('/categories/pupwiki-partners');
   const breedSlug = post.data.breedSlug || post.data.breed_slug;
   if (breedSlug) targets.add(`/breeds/${breedSlug}`);
-  return { sourcePath: `/blog/${post.slug}`, recommendedTargets: Array.from(targets).filter((t) => t !== `/blog/${post.slug}`) };
+  return { sourcePath: `/guides/${post.slug}`, recommendedTargets: Array.from(targets).filter((t) => t !== `/guides/${post.slug}`) };
 });
 
 const backlog = [...opportunities, ...clusterOpportunities, ...partnerPageOpportunities].sort((a, b) => b.priorityScore - a.priorityScore).slice(0, 1500);
