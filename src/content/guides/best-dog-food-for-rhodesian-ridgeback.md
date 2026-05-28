@@ -16,9 +16,10 @@ imageCredit: "Photo by Ilo Frey on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/brown-dogs-on-green-grass-field-5389345/"
 imageSearchQuery: "Rhodesian Ridgeback dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Rhodesian Ridgebacks have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 70–85 lbs, regular exercise energy, seasonal shedding, and affectionate, dignified, even-tempered temperament.

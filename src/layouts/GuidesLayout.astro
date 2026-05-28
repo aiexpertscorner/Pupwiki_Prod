@@ -36,6 +36,7 @@ export interface Props {
   noIndex?: boolean;
   claimSensitivity?: string;
   medicalDisclaimer?: boolean;
+  monetizationIntent?: string;
 }
 
 const {
@@ -60,6 +61,7 @@ const {
   noIndex = false,
   claimSensitivity,
   medicalDisclaimer = false,
+  monetizationIntent = 'medium',
 } = Astro.props;
 
 const showHealthDisclaimer = medicalDisclaimer || claimSensitivity === 'high' || ['Health', 'Supplements', 'Supplement'].includes(category);
@@ -227,7 +229,7 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
 
     <section class="article-main">
       <div class="article-container">
-        <div class="article-layout">
+        <div class={`article-layout${postType === 'comparison' ? ' article-layout--comparison' : ''}`}>
           <article class="article-content prose" id="article-content">
             <nav class="article-toc article-toc--mobile not-prose" id="article-toc-mobile" aria-label="On this page" hidden>
               <details>
@@ -296,7 +298,7 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
                   category={categoryKey}
                   breedSlug={breedSlug}
                   breedSize={breedSize}
-                  monetizationIntent="medium"
+                  monetizationIntent={monetizationIntent}
                 />
                 <AwinOfferPlacement
                   pageType="guide"

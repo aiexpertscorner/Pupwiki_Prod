@@ -16,9 +16,10 @@ imageCredit: "Photo by Mia X on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/hand-patting-dog-16465596/"
 imageSearchQuery: "Labrador Retriever dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Labrador Retrievers have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 55–80 lbs, needs lots of activity energy, regularly shedding, and friendly, active, outgoing temperament.

@@ -16,9 +16,10 @@ imageCredit: "Photo by meinen ryu on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/charming-shiba-inu-outdoors-in-park-setting-31512418/"
 imageSearchQuery: "Shiba Inu dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Shiba Inus have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 17–23 lbs, regular exercise energy, seasonal shedding, and alert, active, attentive temperament.

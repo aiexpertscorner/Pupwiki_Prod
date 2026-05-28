@@ -7,8 +7,8 @@ tags: ["shetland-sheepdog", "toys", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "shetland-sheepdog"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/28895800/pexels-photo-28895800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/28895800/pexels-photo-28895800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by JacLou- DL on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/playful-shetland-sheepdog-in-lush-green-field-28895800/"
 imageSearchQuery: "Shetland Sheepdog dog playing toy"
+contentTier: "money"
 ---
 
 

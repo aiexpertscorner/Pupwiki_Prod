@@ -7,8 +7,8 @@ tags: ["french-bulldog", "toys", "medium-breed", "calm"]
 author: "The PupWiki Team"
 breedSlug: "french-bulldog"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/21261763/pexels-photo-21261763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/21261763/pexels-photo-21261763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by David Kanigan on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/a-french-bulldog-playing-with-a-toy-on-a-beach-21261763/"
 imageSearchQuery: "French Bulldog dog playing toy"
+contentTier: "money"
 ---
 
 

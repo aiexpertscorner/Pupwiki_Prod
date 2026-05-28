@@ -7,8 +7,8 @@ tags: ["labrador-retriever", "toys", "large-breed", "needs-lots-of-activity"]
 author: "The PupWiki Team"
 breedSlug: "labrador-retriever"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/20436462/pexels-photo-20436462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/20436462/pexels-photo-20436462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Mohan Nannapaneni on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/golden-retriever-sitting-on-pavement-with-toy-in-mouth-20436462/"
 imageSearchQuery: "Labrador Retriever dog playing toy"
+contentTier: "money"
 ---
 
 

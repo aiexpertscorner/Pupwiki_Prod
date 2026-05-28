@@ -7,8 +7,8 @@ tags: ["rhodesian-ridgeback", "toys", "large-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "rhodesian-ridgeback"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/5389345/pexels-photo-5389345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5389345/pexels-photo-5389345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Ilo Frey on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/brown-dogs-on-green-grass-field-5389345/"
 imageSearchQuery: "Rhodesian Ridgeback dog playing toy"
+contentTier: "money"
 ---
 
 

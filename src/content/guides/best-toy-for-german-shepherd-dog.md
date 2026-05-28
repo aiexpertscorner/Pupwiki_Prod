@@ -7,8 +7,8 @@ tags: ["german-shepherd-dog", "toys", "large-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "german-shepherd-dog"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/36896059/pexels-photo-36896059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/36896059/pexels-photo-36896059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Jo Hel on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/white-shepherd-dog-with-stuffed-tiger-toy-outdoors-36896059/"
 imageSearchQuery: "German Shepherd Dog dog playing toy"
+contentTier: "money"
 ---
 
 

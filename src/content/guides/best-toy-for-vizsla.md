@@ -7,8 +7,8 @@ tags: ["vizsla", "toys", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "vizsla"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/3013467/pexels-photo-3013467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/3013467/pexels-photo-3013467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by chepté cormani on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dog-with-ball-in-mouth-jumping-over-a-fallen-tree-trunk-3013467/"
 imageSearchQuery: "Vizsla dog playing toy"
+contentTier: "money"
 ---
 
 

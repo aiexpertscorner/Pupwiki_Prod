@@ -7,8 +7,8 @@ tags: ["boston-terrier", "toys", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "boston-terrier"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/28541002/pexels-photo-28541002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/28541002/pexels-photo-28541002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Sean Brannon on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/playful-boston-terrier-with-toy-at-home-28541002/"
 imageSearchQuery: "Boston Terrier dog playing toy"
+contentTier: "money"
 ---
 
 

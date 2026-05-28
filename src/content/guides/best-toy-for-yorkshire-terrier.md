@@ -7,8 +7,8 @@ tags: ["yorkshire-terrier", "toys", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "yorkshire-terrier"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/34232518/pexels-photo-34232518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Erwin Bosman on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/yorkshire-terrier-with-toy-indoors-portrait-34232518/"
 imageSearchQuery: "Yorkshire Terrier dog playing toy"
+contentTier: "money"
 ---
 
 

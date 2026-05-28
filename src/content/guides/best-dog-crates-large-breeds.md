@@ -18,7 +18,8 @@ imageCredit: "Photo by Anton Kudryashov on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dog-biting-person-hand-during-training-9956387/"
 imageSearchQuery: "dog training"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
+monetizationIntent: "training"
+contentTier: "money"
 ---
 
 A dog crate is simultaneously a training tool, a safety device, and — when introduced correctly — a place of genuine comfort and security for your dog. The right crate depends on your dog's size, temperament, chewing habits, and your specific use case (travel vs. home use, puppy vs. adult).

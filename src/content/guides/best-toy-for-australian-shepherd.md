@@ -7,8 +7,8 @@ tags: ["australian-shepherd", "toys", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "australian-shepherd"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/14796677/pexels-photo-14796677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/14796677/pexels-photo-14796677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by patrice schoefolt on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/australian-shepherd-biting-a-blue-ball-14796677/"
 imageSearchQuery: "Australian Shepherd dog playing toy"
+contentTier: "money"
 ---
 
 

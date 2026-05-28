@@ -7,8 +7,8 @@ tags: ["havanese", "toys", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "havanese"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/19449515/pexels-photo-19449515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/19449515/pexels-photo-19449515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Andreas Schnabl on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/a-dog-holding-a-toy-in-the-mouth-19449515/"
 imageSearchQuery: "Havanese dog playing toy"
+contentTier: "money"
 ---
 
 

@@ -7,8 +7,8 @@ tags: ["border-collie", "toys", "medium-breed", "needs-lots-of-activity"]
 author: "The PupWiki Team"
 breedSlug: "border-collie"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/6735801/pexels-photo-6735801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/6735801/pexels-photo-6735801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Son Tung Tran on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/white-and-brown-border-collie-dog-running-while-biting-a-toy-6735801/"
 imageSearchQuery: "Border Collie dog playing toy"
+contentTier: "money"
 ---
 
 

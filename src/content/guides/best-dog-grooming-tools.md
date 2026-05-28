@@ -15,7 +15,7 @@ imageCredit: "Photo by Goochie Poochie Grooming on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dog-groomer-at-work-19145893/"
 imageSearchQuery: "dog grooming"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
+monetizationIntent: "grooming"
 postType: "general"
 schemaType: Article
 ---

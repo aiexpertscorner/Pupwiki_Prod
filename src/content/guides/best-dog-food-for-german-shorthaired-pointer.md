@@ -16,9 +16,10 @@ imageCredit: "Photo by gabesdotphotos photographer on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/photo-of-dog-lying-on-brown-sand-11269657/"
 imageSearchQuery: "German Shorthaired Pointer dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 German Shorthaired Pointers have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 45–70 lbs, needs lots of activity energy, regularly shedding, and friendly, smart, willing to please temperament.

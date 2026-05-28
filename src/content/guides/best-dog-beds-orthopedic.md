@@ -20,6 +20,7 @@ imageCreditUrl: "https://www.pexels.com/photo/white-and-black-short-coated-dog-s
 imageSearchQuery: "dog bed"
 reviewMethod: "editorial-research"
 monetizationIntent: "none"
+contentTier: "money"
 ---
 
 The word "orthopedic" is used on dog bed packaging more than almost any other marketing term — and it means almost nothing without qualification. Any manufacturer can print "orthopedic foam" on a box. The question is whether the foam is dense enough, thick enough, and durable enough to actually support a 70-100+ lb dog's joints over years of use.

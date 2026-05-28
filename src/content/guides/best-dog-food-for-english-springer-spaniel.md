@@ -16,9 +16,10 @@ imageCredit: "Photo by Lorenzo Manera on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dog-lying-down-on-grass-24453850/"
 imageSearchQuery: "English Springer Spaniel dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 English Springer Spaniels have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 40–50 lbs, regular exercise energy, occasional shedding, and friendly, playful, obedient temperament.

@@ -16,9 +16,10 @@ imageCredit: "Photo by Nina Kvaltinova on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/two-dogs-enjoying-a-sunny-day-outdoors-36007541/"
 imageSearchQuery: "Vizsla dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Vizslas have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 44–60 lbs, energetic energy, seasonal shedding, and affectionate, gentle, energetic temperament.

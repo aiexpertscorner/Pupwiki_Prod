@@ -7,8 +7,8 @@ tags: ["pembroke-welsh-corgi", "toys", "medium-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "pembroke-welsh-corgi"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/30683805/pexels-photo-30683805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/30683805/pexels-photo-30683805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Lucas Dalamarta on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/corgi-dog-in-fantasy-costume-outdoors-30683805/"
 imageSearchQuery: "Pembroke Welsh Corgi dog playing toy"
+contentTier: "money"
 ---
 
 

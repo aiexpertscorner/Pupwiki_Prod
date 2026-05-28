@@ -7,8 +7,8 @@ tags: ["poodle-miniature", "toys", "small-breed", "regular-exercise"]
 author: "The PupWiki Team"
 breedSlug: "poodle-miniature"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/20780562/pexels-photo-20780562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/20780562/pexels-photo-20780562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by MINH VO on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/girl-playing-with-poodle-at-park-20780562/"
 imageSearchQuery: "Poodle (Miniature) dog playing toy"
+contentTier: "money"
 ---
 
 

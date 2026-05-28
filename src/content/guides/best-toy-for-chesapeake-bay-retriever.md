@@ -7,8 +7,8 @@ tags: ["chesapeake-bay-retriever", "toys", "large-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "chesapeake-bay-retriever"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/1739093/pexels-photo-1739093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/1739093/pexels-photo-1739093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Josh Sorenson on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dog-pulling-his-toy-1739093/"
 imageSearchQuery: "Chesapeake Bay Retriever dog playing toy"
+contentTier: "money"
 ---
 
 

@@ -16,9 +16,10 @@ imageCredit: "Photo by Alexander Nadrilyanski on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-white-poodle-on-the-grass-7296946/"
 imageSearchQuery: "Poodle (Miniature) dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Poodle (Miniature)s have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 10–15 lbs, regular exercise energy, occasionally shedding, and active, proud, very smart temperament.

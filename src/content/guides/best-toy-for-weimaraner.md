@@ -7,8 +7,8 @@ tags: ["weimaraner", "toys", "large-breed", "needs-lots-of-activity"]
 author: "The PupWiki Team"
 breedSlug: "weimaraner"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/5705545/pexels-photo-5705545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/5705545/pexels-photo-5705545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by www.kaboompics.com on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/dogs-on-the-grass-5705545/"
 imageSearchQuery: "Weimaraner dog playing toy"
+contentTier: "money"
 ---
 
 

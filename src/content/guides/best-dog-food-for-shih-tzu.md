@@ -16,9 +16,10 @@ imageCredit: "Photo by Helena Lopes on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/woman-feeding-dog-in-home-27175968/"
 imageSearchQuery: "Shih Tzu dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Shih Tzus have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 9–16 lbs, regular exercise energy, infrequent shedding, and affectionate, playful, outgoing temperament.

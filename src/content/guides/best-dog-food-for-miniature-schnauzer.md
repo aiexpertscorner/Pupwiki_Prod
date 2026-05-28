@@ -16,9 +16,10 @@ imageCredit: "Photo by Sebastian Coman Travel on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/photo-of-schnauzer-3655387/"
 imageSearchQuery: "Miniature Schnauzer dog eating healthy food"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "food"
+postType: "product-roundup"
 schemaType: Article
+contentTier: "money"
 ---
 
 Miniature Schnauzers have specific needs that generic "dog food for all breeds" posts miss entirely. This guide matches recommendations to the exact characteristics of this breed — 11–20 lbs, regular exercise energy, infrequent shedding, and friendly, smart, obedient temperament.

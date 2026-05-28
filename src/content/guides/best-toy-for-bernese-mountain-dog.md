@@ -7,8 +7,8 @@ tags: ["bernese-mountain-dog", "toys", "large-breed", "energetic"]
 author: "The PupWiki Team"
 breedSlug: "bernese-mountain-dog"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/11920800/pexels-photo-11920800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/11920800/pexels-photo-11920800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by ignacio andres yañez grandon on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/a-burmese-mountain-dog-on-the-beach-11920800/"
 imageSearchQuery: "Bernese Mountain Dog dog playing toy"
+contentTier: "money"
 ---
 
 

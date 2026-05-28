@@ -7,8 +7,8 @@ tags: ["basset-hound", "toys", "medium-breed", "couch-potato"]
 author: "The PupWiki Team"
 breedSlug: "basset-hound"
 reviewMethod: "editorial-research"
-monetizationIntent: "none"
-postType: "general"
+monetizationIntent: "training"
+postType: "product-roundup"
 schemaType: Article
 heroImage: "https://images.pexels.com/photos/13928695/pexels-photo-13928695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 image: "https://images.pexels.com/photos/13928695/pexels-photo-13928695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,6 +18,7 @@ imageSource: "pexels"
 imageCredit: "Photo by Gusti Mega on Pexels"
 imageCreditUrl: "https://www.pexels.com/photo/close-up-photo-of-a-dog-bobblehead-13928695/"
 imageSearchQuery: "Basset Hound dog playing toy"
+contentTier: "money"
 ---
 
 

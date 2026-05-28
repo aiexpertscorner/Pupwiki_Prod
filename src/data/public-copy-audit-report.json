@@ -2,7 +2,7 @@
   "ok": false,
   "blocking": false,
   "ciMode": true,
-  "scanned": 658,
+  "scanned": 620,
   "count": 5,
   "byFile": {
     "src/pages/methodology.astro": 1,
@@ -43,5 +43,5 @@
       "snippet": "PupWiki may earn a small commission if you purchase items through affiliate links on our"
     }
   ],
-  "generatedAt": "2026-05-28T00:52:10.844Z"
+  "generatedAt": "2026-05-28T18:15:51.849Z"
 }
