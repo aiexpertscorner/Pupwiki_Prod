@@ -20,7 +20,7 @@ const {
 const speedClass = speed === 'fast' ? 'fast' : speed === 'slow' ? 'slow' : 'play';
 const dirClass   = direction === 'right' ? 'reverse' : speedClass;
 ---
-<div style={`background:${bg};overflow:hidden;${border ? 'border-top:2px solid rgba(0,0,0,.15);border-bottom:2px solid rgba(0,0,0,.15);' : ''}padding:.45rem 0`}>
+<div style={`background:${bg};overflow:hidden;${border ? 'border-top:2px solid var(--color-overlay-dark-15);border-bottom:2px solid var(--color-overlay-dark-15);' : ''}padding:.45rem 0`}>
   <div class={`marquee-track ${dirClass}`} style="display:flex;align-items:center;white-space:nowrap;gap:0">
     {Array.from({length: 2}).map(() => (
       <span style="display:flex;align-items:center;gap:0">

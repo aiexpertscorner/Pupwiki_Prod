@@ -211,8 +211,14 @@ const schema = JSON.stringify({
 
   .rc__pros-cons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.5rem;
+  }
+
+  @media (min-width: 481px) {
+    .rc__pros-cons {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   .rc__pros {
     background: var(--color-score-good-light);
@@ -249,9 +255,4 @@ const schema = JSON.stringify({
     display: block;
   }
 
-  @media (max-width: 480px) {
-    .rc__pros-cons {
-      grid-template-columns: 1fr;
-    }
-  }
 </style>

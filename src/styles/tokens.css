@@ -257,6 +257,16 @@
   --color-affiliate-petco: #0073c9;
   --color-affiliate-walmart: #0071ce;
 
+  /* ── UI utility colors ───────────────────────────────────────── */
+  --color-hard-red: #FF3B3B; /* Tailwind shadow-hard-red — bright error/alert red */
+
+  /* ── AWIN merchant / partner brand accents ───────────────────── */
+  --color-merchant-chefpaw:    #16a34a;
+  --color-merchant-rawwild:    #15803d;
+  --color-merchant-brutus:     #92400e;
+  --color-merchant-radiofence: #1d4ed8;
+  --color-merchant-petmate:    #7c3aed;
+
   /* ── Gradients ───────────────────────────────────────────────── */
   --gradient-hero-page:
     radial-gradient(circle at 88% 14%, rgba(255, 122, 0, 0.16), transparent 28rem),
@@ -425,6 +435,7 @@
   --color-accent-opacity-16: rgba(255, 122, 0, 0.16);
   --color-accent-opacity-18: rgba(255, 122, 0, 0.18);
   --color-accent-opacity-20: rgba(255, 122, 0, 0.20);
+  --color-accent-opacity-32: rgba(255, 122, 0, 0.32);
   --color-accent-opacity-40: rgba(255, 122, 0, 0.40);
   --color-accent-opacity-45: rgba(255, 122, 0, 0.45);
   --color-primary-opacity-06: rgba(21, 54, 95, 0.06);
@@ -457,6 +468,20 @@
   --color-lime-opacity-30: rgba(204, 255, 0, 0.30);
   --color-white-opacity-12: rgba(255, 255, 255, 0.12);
   --color-white-opacity-20: rgba(255, 255, 255, 0.20);
+  --color-white-opacity-22: rgba(255, 255, 255, 0.22);
+  --color-white-opacity-35: rgba(255, 255, 255, 0.35);
+  --color-white-opacity-45: rgba(255, 255, 255, 0.45);
+  --color-white-opacity-50: rgba(255, 255, 255, 0.50);
+  --color-white-opacity-60: rgba(255, 255, 255, 0.60);
+  --color-white-opacity-75: rgba(255, 255, 255, 0.75);
+  --color-white-opacity-84: rgba(255, 255, 255, 0.84);
+  --color-white-opacity-86: rgba(255, 255, 255, 0.86);
+  --color-white-opacity-92: rgba(255, 255, 255, 0.92);
+
+  /* ── Dark / neutral overlay scale ───────────────────────────── */
+  --color-overlay-dark-03:    rgba(0, 0, 0, 0.03);
+  --color-overlay-dark-15:    rgba(0, 0, 0, 0.15);
+  --color-overlay-dark-65:    rgba(10, 10, 10, 0.65);
 
   /* ── Amazon color cluster ───────────────────────────────────────── */
   --color-amazon-label-bg: #fff8e8;

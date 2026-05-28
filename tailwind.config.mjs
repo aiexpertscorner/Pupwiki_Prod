@@ -1,18 +1,21 @@
 /** @type {import('tailwindcss').Config} */
+// Tailwind processes these at build time so they must be literal values, not CSS vars.
+// Each color mirrors a token in src/styles/tokens.css — keep them in sync manually.
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
-        midnight: '#0A0A0A',
-        concrete: '#222222',
-        'concrete-light': '#2E2E2E',
-        lime: '#CCFF00',
-        'lime-dim': '#AADD00',
-        'lime-dark': '#88BB00',
-        ash: '#888888',
-        smoke: '#AAAAAA',
-        offwhite: '#F0F0F0',
+        // Dark-mode streetwear palette — mirrors var(--color-dark-bg) etc. in tokens.css
+        midnight:         '#0A0A0A', // → var(--color-dark-bg)
+        concrete:         '#222222', // → var(--color-dark-surface)
+        'concrete-light': '#2E2E2E', // → var(--color-dark-surface-raised)
+        lime:             '#CCFF00', // → var(--color-lime)
+        'lime-dim':       '#AADD00', // → var(--color-lime-dim)
+        'lime-dark':      '#88BB00', // → var(--color-lime-dark)
+        ash:              '#888888', // → var(--color-dark-muted)
+        smoke:            '#AAAAAA', // → var(--color-dark-subtle)
+        offwhite:         '#F0F0F0', // → var(--color-dark-text)
       },
       fontFamily: {
         display: ['"Anton"', '"Impact"', 'sans-serif'],
@@ -69,12 +72,13 @@ export default {
         },
       },
       boxShadow: {
-        'hard':       '4px 4px 0px #CCFF00',
-        'hard-white': '4px 4px 0px #FFFFFF',
-        'hard-black': '4px 4px 0px #000000',
-        'hard-lg':    '6px 6px 0px #CCFF00',
-        'hard-red':   '4px 4px 0px #FF3B3B',
-        'hard-sm':    '2px 2px 0px #CCFF00',
+        // Tailwind shadow strings must be literals. Colors below mirror tokens.css.
+        'hard':       '4px 4px 0px #CCFF00', // lime → var(--color-lime)
+        'hard-white': '4px 4px 0px #FFFFFF', // white → var(--color-text-inverse)
+        'hard-black': '4px 4px 0px #000000', // black
+        'hard-lg':    '6px 6px 0px #CCFF00', // lime → var(--color-lime)
+        'hard-red':   '4px 4px 0px #FF3B3B', // error red → var(--color-hard-red)
+        'hard-sm':    '2px 2px 0px #CCFF00', // lime → var(--color-lime)
         'glow-lime':  '0 0 20px rgba(204,255,0,0.35), 0 0 60px rgba(204,255,0,0.1)',
       },
       borderWidth: {
