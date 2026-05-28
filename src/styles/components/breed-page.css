@@ -6,8 +6,8 @@
 /* ── Page wrapper ────────────────────────────────────────────── */
 .breed-page {
   background:
-    radial-gradient(circle at 94% 2%, rgba(255, 122, 0, 0.08), transparent 20rem),
-    radial-gradient(circle at 4% 8%, rgba(21, 54, 95, 0.06), transparent 18rem),
+    radial-gradient(circle at 94% 2%, var(--color-accent-opacity-08), transparent 20rem),
+    radial-gradient(circle at 4% 8%, var(--color-primary-opacity-06), transparent 18rem),
     var(--color-bg-paper);
   color: var(--color-body);
 }
@@ -302,7 +302,7 @@
 .breed-section--decision {
   border-color: var(--color-border-accent);
   background:
-    radial-gradient(circle at 96% 6%, rgba(255, 122, 0, 0.1), transparent 14rem), /* decorative overlay — intentional rgba */
+    radial-gradient(circle at 96% 6%, var(--color-accent-opacity-10), transparent 14rem),
     var(--color-surface);
 }
 
@@ -1049,7 +1049,7 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-3xl);
   background:
-    radial-gradient(circle at 94% 6%, rgba(255, 122, 0, 0.1), transparent 18rem), /* decorative overlay — intentional rgba */
+    radial-gradient(circle at 94% 6%, var(--color-accent-opacity-10), transparent 18rem),
     linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-soft) 100%);
   padding: clamp(var(--space-4), 4vw, var(--space-7));
   box-shadow: var(--shadow-card);
