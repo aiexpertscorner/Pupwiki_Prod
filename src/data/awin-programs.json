@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-28T06:48:32.624Z",
+  "syncedAt": "2026-05-29T06:49:23.100Z",
   "programs": [
     {
       "key": "meowant",
@@ -53,7 +53,7 @@
         "beds"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -390,7 +390,7 @@
         "partner"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -662,7 +662,7 @@
         "lifestyle"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -727,7 +727,7 @@
         "gear"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -791,7 +791,7 @@
         "health"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -924,7 +924,7 @@
         "health"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -978,7 +978,7 @@
         "partner"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1027,7 +1027,7 @@
         "lifestyle"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1073,7 +1073,7 @@
         "health"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1127,7 +1127,7 @@
         "lifestyle"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1182,7 +1182,7 @@
         "beds"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1237,7 +1237,7 @@
         "beds"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1292,7 +1292,7 @@
         "lifestyle"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1347,7 +1347,7 @@
         "beds"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1402,7 +1402,7 @@
         "beds"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1456,7 +1456,7 @@
         "gear"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1512,7 +1512,7 @@
         "health"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1570,7 +1570,7 @@
         "partner"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1625,7 +1625,7 @@
         "beds"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1682,7 +1682,7 @@
         "gear"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1741,7 +1741,7 @@
         "gear"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1798,7 +1798,7 @@
         "lifestyle"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
@@ -1858,7 +1858,7 @@
         "nutrition"
       ],
       "pageTypes": [
-        "blog",
+        "guide",
         "breed",
         "category"
       ],
