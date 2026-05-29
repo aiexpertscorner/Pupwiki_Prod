@@ -291,8 +291,11 @@ const schema = JSON.stringify({
   /* ── Pros / Cons ── */
   .prc__pros-cons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.4rem;
+  }
+  @media (min-width: 481px) {
+    .prc__pros-cons { grid-template-columns: 1fr 1fr; }
   }
   .prc__pros {
     background: var(--color-success-bg);
