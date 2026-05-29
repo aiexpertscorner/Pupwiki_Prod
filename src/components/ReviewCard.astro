@@ -11,6 +11,7 @@ export interface Props {
   reviewCount?: number;
   ourScore?: number;
   verdict?: string;
+  features?: string[];
   pros?: string[];
   cons?: string[];
   badge?: string;
@@ -18,7 +19,7 @@ export interface Props {
 }
 const {
   name, href, image, price, rating = 4.5, reviewCount,
-  ourScore, verdict, pros = [], cons = [], badge, featured = false,
+  ourScore, verdict, features = [], pros = [], cons = [], badge, featured = false,
 } = Astro.props;
 
 const today = new Date().toISOString().split('T')[0];
@@ -70,6 +71,14 @@ const schema = JSON.stringify({
     </div>
 
     {verdict && <p class="rc__verdict">"{verdict}"</p>}
+
+    {features.length > 0 && (
+      <ul class="rc__features">
+        {features.slice(0, 3).map(f => (
+          <li class="rc__feature"><span class="rc__feature-arrow" aria-hidden="true">→</span>{f}</li>
+        ))}
+      </ul>
+    )}
 
     {(pros.length > 0 || cons.length > 0) && (
       <div class="rc__pros-cons">
@@ -209,10 +218,38 @@ const schema = JSON.stringify({
     line-height: 1.5;
   }
 
+  .rc__features {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .rc__feature {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-body-soft);
+    display: flex;
+    gap: 0.35rem;
+    align-items: baseline;
+  }
+  .rc__feature-arrow {
+    color: var(--color-accent);
+    flex-shrink: 0;
+    font-size: 0.7rem;
+  }
+
   .rc__pros-cons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.5rem;
+  }
+
+  @media (min-width: 481px) {
+    .rc__pros-cons {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   .rc__pros {
     background: var(--color-score-good-light);
@@ -249,9 +286,4 @@ const schema = JSON.stringify({
     display: block;
   }
 
-  @media (max-width: 480px) {
-    .rc__pros-cons {
-      grid-template-columns: 1fr;
-    }
-  }
 </style>

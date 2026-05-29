@@ -52,14 +52,14 @@ const cta = prog?.cta || `Shop at ${merchant.split(' ')[0]}`;
 const isFeatured = prog?.isFeatured ?? false;
 
 const PROGRAM_ACCENTS: Record<string, string> = {
-  jugbow: 'var(--color-primary)',
-  chefpaw: '#16a34a',
-  rawwild: '#15803d',
-  'crownandpaw': 'var(--color-cta)',
-  'brutus-broth': '#92400e',
-  'radiofence-com': '#1d4ed8',
-  petmate: '#7c3aed',
-  mypetdmv: '#dc2626',
+  jugbow:           'var(--color-primary)',
+  chefpaw:          'var(--color-merchant-chefpaw)',
+  rawwild:          'var(--color-merchant-rawwild)',
+  crownandpaw:      'var(--color-cta)',
+  'brutus-broth':   'var(--color-merchant-brutus)',
+  'radiofence-com': 'var(--color-merchant-radiofence)',
+  petmate:          'var(--color-merchant-petmate)',
+  mypetdmv:         'var(--color-danger)',
 };
 const accentColor = (product.programId && PROGRAM_ACCENTS[product.programId])
   || (prog?.key && PROGRAM_ACCENTS[prog.key])

@@ -145,7 +145,7 @@ const schema = JSON.stringify({
     font-size: var(--text-xs);
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: white;
+    color: var(--color-text-inverse);
   }
 
   /* ── Body padding ── */
@@ -291,18 +291,21 @@ const schema = JSON.stringify({
   /* ── Pros / Cons ── */
   .prc__pros-cons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.4rem;
+  }
+  @media (min-width: 481px) {
+    .prc__pros-cons { grid-template-columns: 1fr 1fr; }
   }
   .prc__pros {
     background: var(--color-success-bg);
-    border: 1px solid rgba(4, 120, 87, 0.16);
+    border: 1px solid var(--color-success-opacity-18);
     padding: 0.5rem 0.65rem;
     border-radius: var(--radius-lg);
   }
   .prc__cons {
     background: var(--color-danger-bg);
-    border: 1px solid rgba(220, 38, 38, 0.16);
+    border: 1px solid var(--color-danger-opacity-18);
     padding: 0.5rem 0.65rem;
     border-radius: var(--radius-lg);
   }
@@ -332,7 +335,7 @@ const schema = JSON.stringify({
   .prc__cta {
     display: block;
     background: var(--color-accent);
-    color: white;
+    color: var(--color-text-inverse);
     font-family: var(--font-heading);
     font-size: 0.7rem;
     text-transform: uppercase;

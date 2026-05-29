@@ -157,7 +157,7 @@ const agesJson = JSON.stringify(ages);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-2xl);
     background:
-      linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(248, 250, 252, 0.84));
+      linear-gradient(180deg, var(--color-white-opacity-92), var(--color-white-opacity-84));
     padding: var(--space-4);
     box-shadow: var(--shadow-xs);
   }
@@ -229,7 +229,7 @@ const agesJson = JSON.stringify(ages);
     font-weight: var(--weight-bold);
   }
 
-  @media (min-width: 620px) {
+  @media (min-width: 640px) {
     .pw-state-age__grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       align-items: end;

@@ -330,8 +330,8 @@ const galleryJson = JSON.stringify(galleryDisplayUrls);
     inset: 0;
     z-index: 1;
     background:
-      linear-gradient(180deg, rgba(15, 23, 42, 0.02), rgba(15, 23, 42, 0.14)),
-      radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.22), transparent 16rem);
+      linear-gradient(180deg, var(--color-dark-navy-opacity-02), var(--color-dark-navy-opacity-14)),
+      radial-gradient(circle at 18% 12%, var(--color-white-opacity-22), transparent 16rem);
     pointer-events: none;
   }
 
@@ -414,7 +414,7 @@ const galleryJson = JSON.stringify(galleryDisplayUrls);
     flex: 0 0 var(--breed-image-thumb-size);
     overflow: hidden;
     aspect-ratio: 1;
-    border: 2px solid rgba(255, 255, 255, 0.86);
+    border: 2px solid var(--color-white-opacity-86);
     border-radius: var(--radius-xl);
     background: var(--color-bg-muted);
     padding: 0;
@@ -433,7 +433,7 @@ const galleryJson = JSON.stringify(galleryDisplayUrls);
     position: absolute;
     inset: 0;
     border-radius: inherit;
-    box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.08);
+    box-shadow: inset 0 0 0 1px var(--color-dark-navy-opacity-12);
     pointer-events: none;
   }
 
@@ -445,12 +445,12 @@ const galleryJson = JSON.stringify(galleryDisplayUrls);
 
   .breed-image__thumb.is-active {
     box-shadow:
-      0 0 0 3px rgba(255, 122, 0, 0.14),
+      0 0 0 3px var(--color-accent-opacity-14),
       var(--shadow-xs);
   }
 
   .breed-image__thumb:focus-visible {
-    outline: 3px solid rgba(255, 122, 0, 0.32);
+    outline: 3px solid var(--color-accent-opacity-32);
     outline-offset: 3px;
   }
 

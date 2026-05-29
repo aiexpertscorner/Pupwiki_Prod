@@ -76,15 +76,15 @@ const coatLabel = b.coat_type ? (COAT_LABEL[b.coat_type] || titleCase(b.coat_typ
 
   .breed-trait-row {
     display: grid;
-    grid-template-columns: 7rem 1fr 3rem;
+    grid-template-columns: 6rem 1fr 2.5rem;
     align-items: center;
-    gap: var(--space-3);
+    gap: var(--space-2);
   }
 
-  @media (max-width: 479px) {
+  @media (min-width: 480px) {
     .breed-trait-row {
-      grid-template-columns: 6rem 1fr 2.5rem;
-      gap: var(--space-2);
+      grid-template-columns: 7rem 1fr 3rem;
+      gap: var(--space-3);
     }
   }
 

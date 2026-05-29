@@ -154,13 +154,26 @@
   display: inline-flex;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.82);
+  background: var(--color-white-opacity-84);
   padding: 0.42rem 0.7rem;
   color: var(--color-body-soft);
   font-size: var(--text-xs);
   font-weight: var(--weight-bold);
   line-height: 1;
   box-shadow: var(--shadow-xs);
+}
+
+.article-trust-row__verified {
+  border-color: var(--color-accent-light) !important;
+  color: var(--color-accent) !important;
+}
+
+/* Mobile sticky partner offer — food/grooming/supplements guides only */
+.article-mobile-cta {
+  display: block;
+}
+@media (min-width: 1024px) {
+  .article-mobile-cta { display: none; }
 }
 
 /* Hero image */

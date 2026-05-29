@@ -61,7 +61,7 @@ const {
   noIndex = false,
   claimSensitivity,
   medicalDisclaimer = false,
-  monetizationIntent = 'medium',
+  monetizationIntent = 'none',
 } = Astro.props;
 
 const showHealthDisclaimer = medicalDisclaimer || claimSensitivity === 'high' || ['Health', 'Supplements', 'Supplement'].includes(category);
@@ -195,8 +195,10 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
         <p class="article-hero__subtitle">{description}</p>
 
         <div class="article-trust-row" aria-label="Article trust notes">
-          <span>Updated dog guide</span>
-          <span>Reader-first recommendations</span>
+          {postType === 'comparison'
+            ? <><span class="article-trust-row__verified">PupWiki verified comparison</span><span>Head-to-head research</span><span>Unsponsored selection</span></>
+            : <><span>Updated dog guide</span><span>Reader-first recommendations</span></>
+          }
           {isHealthSensitive && <span>General information, not veterinary advice</span>}
         </div>
 
@@ -340,6 +342,20 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
         </div>
       </div>
     </section>
+
+    {['food', 'grooming', 'supplements'].includes(monetizationIntent ?? '') && (
+      <div class="article-mobile-cta" aria-label="Partner offer">
+        <AwinOfferPlacement
+          pageType="guide"
+          placement="mobile-sticky"
+          topicTags={partnerTopicTags}
+          maxItems={1}
+          variant="strip"
+          suppressIfMedical={false}
+          isMedical={false}
+        />
+      </div>
+    )}
   </div>
 </BaseLayout>
 
@@ -387,6 +403,11 @@ const contentTypeBadge = contentTypeBadgeMap[postType] ?? null;
       );
       headings.forEach(h => observer.observe(h));
     }
+
+    // ── Lazy-load body images ─────────────────────────────────────
+    article.querySelectorAll<HTMLImageElement>('img:not([loading])').forEach(img => {
+      img.loading = 'lazy';
+    });
 
     // ── Reading progress bar ──────────────────────────────────────
     const bar = document.createElement('div');
