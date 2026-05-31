@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-05-30T06:19:42.194Z",
+  "syncedAt": "2026-05-31T06:55:01.263Z",
   "programs": [
     {
       "key": "meowant",
@@ -937,15 +937,77 @@
       "bannerCount": 0
     },
     {
+      "key": "nexbie",
+      "advertiserId": "125856",
+      "name": "Nexbie",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.nexbie.com/",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=125856&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/125856.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "nexbie.com"
+        },
+        {
+          "domain": "*.nexbie.com"
+        },
+        {
+          "domain": "3dprintedndnexbie.myshopify.com"
+        },
+        {
+          "domain": "m.nexbie.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 15,
+          "max": 15,
+          "type": "percentage"
+        }
+      ],
+      "kpi": null,
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=125856&id=2861861",
+      "topicTags": [
+        "partner",
+        "gift",
+        "lifestyle"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
       "key": "dextr",
       "advertiserId": "126675",
       "name": "Dextr",
       "relationship": "joined",
-      "status": "Joined",
-      "isActive": true,
+      "status": "Hidden",
+      "isActive": false,
       "displayUrl": "https://dextr.app/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
       "primarySector": "",
       "primaryRegion": {
@@ -961,15 +1023,9 @@
           "domain": "*.dextr.app"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 0,
-          "max": 10,
-          "type": "amount"
-        }
-      ],
+      "commissionRange": null,
       "kpi": null,
-      "linkStatus": "online",
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -997,11 +1053,11 @@
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.remember.bereaveorders.com/pets",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "primarySector": "Gifts & Flowers",
       "primaryRegion": {
@@ -1014,16 +1070,9 @@
           "domain": "https://www.remember.bereaveorders.com/pets"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "",
-        "approvalPercentage": 100,
-        "epc": 1.03,
-        "conversionRate": 2.6,
-        "validationDays": 21,
-        "awinIndex": 73.7
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "offline",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1097,11 +1146,11 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.dutch.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "primarySector": "Health & Beauty",
       "primaryRegion": {
@@ -1120,8 +1169,15 @@
           "domain": "*.dutch.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "71",
+        "approvalPercentage": 100,
+        "epc": 0.66,
+        "conversionRate": 2.73,
+        "validationDays": 51,
+        "awinIndex": 53.79
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1151,11 +1207,11 @@
       "advertiserId": "78688",
       "name": "The Foggy Dog, LLC",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.thefoggydog.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78688&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78688.png",
       "primarySector": "Home & Garden",
       "primaryRegion": {
@@ -1168,8 +1224,15 @@
           "domain": "www.thefoggydog.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "68",
+        "approvalPercentage": 100,
+        "epc": 0.32,
+        "conversionRate": 3.27,
+        "validationDays": 46,
+        "awinIndex": 57.64
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -2237,9 +2300,9 @@
       ]
     },
     {
-      "key": "dextr",
-      "advertiserId": "126675",
-      "name": "Dextr",
+      "key": "nexbie",
+      "advertiserId": "125856",
+      "name": "Nexbie",
       "relationship": "joined",
       "status": "Joined",
       "isActive": true,
@@ -2250,6 +2313,28 @@
       "productCount": 0,
       "bannerCount": 0,
       "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/125856.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=125856&id=2861861",
+      "topicTags": [
+        "partner",
+        "gift",
+        "lifestyle"
+      ]
+    },
+    {
+      "key": "dextr",
+      "advertiserId": "126675",
+      "name": "Dextr",
+      "relationship": "joined",
+      "status": "Hidden",
+      "isActive": false,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
       "topicTags": [
@@ -2261,7 +2346,7 @@
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2269,7 +2354,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
       "topicTags": [
@@ -2304,7 +2389,7 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2312,7 +2397,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
       "topicTags": [
@@ -2327,7 +2412,7 @@
       "advertiserId": "78688",
       "name": "The Foggy Dog, LLC",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2335,7 +2420,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78688.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78688&id=2861861",
       "topicTags": [
@@ -2615,15 +2700,15 @@
     }
   ],
   "stats": {
-    "joined": 15,
+    "joined": 16,
     "pending": 16,
     "feeds": 614,
     "apiProducts": 4856,
-    "programOfferProducts": 6,
-    "totalProducts": 4862,
+    "programOfferProducts": 7,
+    "totalProducts": 4863,
     "apiBanners": 0,
-    "logoBanners": 15,
-    "totalBanners": 21,
+    "logoBanners": 16,
+    "totalBanners": 22,
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
@@ -2650,24 +2735,25 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/82763 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
+      "[promotions] Fetch error: active/page4: Rate limit exceeded after retries",
       "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
       "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
-      "programmedetails/82763 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/82763 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
@@ -2692,6 +2778,7 @@
       "creatives/113600 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/118951 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/123892 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/125856 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/126675 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}"
     ],
     "errors": []
