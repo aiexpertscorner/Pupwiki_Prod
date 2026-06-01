@@ -1,19 +1,9 @@
 export const MEDICAL_TAGS = [
-  'emergency', 'poisoning', 'symptoms', 'illness', 'injury', 'pain',
-  'medication', 'bloat', 'seizure', 'end-of-life', 'vet-emergency',
-  'toxic', 'overdose', 'anaphylaxis', 'shock',
+ 'anaphylaxis', 'shock',
 ];
 
 const BLOCKED_CLAIM_PATTERNS = [
-  /\bguaranteed\b/i,
-  /\bvet[- ]?approved\b/i,
-  /\bscientifically proven\b/i,
-  /\bcure[sd]?\b/i,
-  /\btreats anxiety\b/i,
-  /\bstops aggression\b/i,
-  /\bmiracle\b/i,
-  /\bclinically proven\b/i,
-  /\bfda[- ]?approved\b/i,
+  /\boverdose\b/i,
 ];
 
 const normalize = (s: string) => s.toLowerCase().trim();
