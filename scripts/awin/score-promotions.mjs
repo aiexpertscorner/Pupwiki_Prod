@@ -113,11 +113,7 @@ export function scoreOffer(offer, programMap) {
 
   // Enable if all hard requirements pass
   offer.enabled =
-    offer.joined
-    && Boolean(offer.bestUrl)
-    && !offer.isExpired
-    && safe
-    && offer.qualityScore >= 40;
+    offer.joined;
 
   return offer;
 }
