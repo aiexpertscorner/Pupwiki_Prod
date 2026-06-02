@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-01T08:30:09.214Z",
+  "syncedAt": "2026-06-02T07:20:40.598Z",
   "programs": [
     {
       "key": "meowant",
@@ -37,11 +37,11 @@
       ],
       "kpi": {
         "averagePaymentTime": "71",
-        "approvalPercentage": 97.35,
-        "epc": 1.27,
-        "conversionRate": 7.14,
-        "validationDays": 51,
-        "awinIndex": 57.08
+        "approvalPercentage": 97.47,
+        "epc": 0.52,
+        "conversionRate": 2.26,
+        "validationDays": 50,
+        "awinIndex": 52.84
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -97,12 +97,12 @@
         }
       ],
       "kpi": {
-        "averagePaymentTime": "71",
+        "averagePaymentTime": "70",
         "approvalPercentage": 100,
-        "epc": 0.19,
-        "conversionRate": 2.28,
+        "epc": 0.07,
+        "conversionRate": 1.83,
         "validationDays": 51,
-        "awinIndex": 53.3
+        "awinIndex": 52.84
       },
       "linkStatus": "online",
       "staticProgramId": "brutus-broth",
@@ -165,11 +165,11 @@
       ],
       "kpi": {
         "averagePaymentTime": "44",
-        "approvalPercentage": 91.72,
-        "epc": 0.82,
-        "conversionRate": 10.98,
-        "validationDays": 19,
-        "awinIndex": 78.69
+        "approvalPercentage": 93.3,
+        "epc": 0.45,
+        "conversionRate": 6.25,
+        "validationDays": 22,
+        "awinIndex": 73.62
       },
       "linkStatus": "online",
       "staticProgramId": "crownandpaw",
@@ -233,12 +233,12 @@
         }
       ],
       "kpi": {
-        "averagePaymentTime": "25",
-        "approvalPercentage": 75.27,
-        "epc": 1.91,
-        "conversionRate": 7.7,
+        "averagePaymentTime": "21",
+        "approvalPercentage": 90.09,
+        "epc": 1.82,
+        "conversionRate": 8.05,
         "validationDays": 1,
-        "awinIndex": 81.1
+        "awinIndex": 88.11
       },
       "linkStatus": "online",
       "staticProgramId": "chefpaw",
@@ -303,12 +303,12 @@
         }
       ],
       "kpi": {
-        "averagePaymentTime": "48",
-        "approvalPercentage": 97.73,
-        "epc": 0.24,
-        "conversionRate": 5.57,
-        "validationDays": 21,
-        "awinIndex": 75.57
+        "averagePaymentTime": "45",
+        "approvalPercentage": 97.96,
+        "epc": 0.22,
+        "conversionRate": 5.85,
+        "validationDays": 23,
+        "awinIndex": 74.62
       },
       "linkStatus": "online",
       "staticProgramId": "jugbow",
@@ -374,12 +374,12 @@
         }
       ],
       "kpi": {
-        "averagePaymentTime": "54",
+        "averagePaymentTime": "57",
         "approvalPercentage": 100,
-        "epc": 4.83,
-        "conversionRate": 5.61,
+        "epc": 4.09,
+        "conversionRate": 5.32,
         "validationDays": 30,
-        "awinIndex": 71.1
+        "awinIndex": 70.73
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -432,12 +432,12 @@
         }
       ],
       "kpi": {
-        "averagePaymentTime": "38",
-        "approvalPercentage": 65.38,
-        "epc": 0.48,
-        "conversionRate": 10.35,
-        "validationDays": 10,
-        "awinIndex": 72.8
+        "averagePaymentTime": "30",
+        "approvalPercentage": 60.87,
+        "epc": 0.72,
+        "conversionRate": 15.18,
+        "validationDays": 9,
+        "awinIndex": 71.46
       },
       "linkStatus": "online",
       "staticProgramId": "radiofence-com",
@@ -511,12 +511,12 @@
         }
       ],
       "kpi": {
-        "averagePaymentTime": "26",
-        "approvalPercentage": 97.62,
-        "epc": 1.78,
-        "conversionRate": 10.89,
+        "averagePaymentTime": "27",
+        "approvalPercentage": 96.43,
+        "epc": 0.91,
+        "conversionRate": 17.84,
         "validationDays": 3,
-        "awinIndex": 92.11
+        "awinIndex": 91.48
       },
       "linkStatus": "online",
       "staticProgramId": "rawwild",
@@ -576,12 +576,12 @@
         }
       ],
       "kpi": {
-        "averagePaymentTime": "34",
-        "approvalPercentage": 64.68,
-        "epc": 0.24,
-        "conversionRate": 4.07,
-        "validationDays": 6,
-        "awinIndex": 69.21
+        "averagePaymentTime": "47",
+        "approvalPercentage": 60.26,
+        "epc": 0.13,
+        "conversionRate": 3.08,
+        "validationDays": 7,
+        "awinIndex": 65.55
       },
       "linkStatus": "online",
       "staticProgramId": "petmate",
@@ -646,10 +646,10 @@
       "kpi": {
         "averagePaymentTime": "72",
         "approvalPercentage": 100,
-        "epc": 0.35,
-        "conversionRate": 5.79,
-        "validationDays": 51,
-        "awinIndex": 56.83
+        "epc": 0.36,
+        "conversionRate": 4.63,
+        "validationDays": 50,
+        "awinIndex": 56.33
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -709,12 +709,12 @@
         }
       ],
       "kpi": {
-        "averagePaymentTime": "73",
-        "approvalPercentage": 86.58,
-        "epc": 0.22,
-        "conversionRate": 6.61,
+        "averagePaymentTime": "72",
+        "approvalPercentage": 80.3,
+        "epc": 0.03,
+        "conversionRate": 1.09,
         "validationDays": 50,
-        "awinIndex": 52.26
+        "awinIndex": 43.89
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -772,12 +772,12 @@
         }
       ],
       "kpi": {
-        "averagePaymentTime": "51",
-        "approvalPercentage": 89.16,
-        "epc": 0.17,
-        "conversionRate": 5.06,
+        "averagePaymentTime": "52",
+        "approvalPercentage": 84.54,
+        "epc": 0.47,
+        "conversionRate": 7.62,
         "validationDays": 31,
-        "awinIndex": 64.53
+        "awinIndex": 65.04
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -838,12 +838,12 @@
         }
       ],
       "kpi": {
-        "averagePaymentTime": "57",
+        "averagePaymentTime": "58",
         "approvalPercentage": 100,
-        "epc": 1.35,
+        "epc": 0.7,
         "conversionRate": 20.83,
         "validationDays": 37,
-        "awinIndex": 70.47
+        "awinIndex": 70.4
       },
       "linkStatus": "online",
       "staticProgramId": "mypetdmv-the-original-pet-drivers-license",
@@ -909,10 +909,10 @@
       "kpi": {
         "averagePaymentTime": "",
         "approvalPercentage": 100,
-        "epc": 0.14,
-        "conversionRate": 7.41,
+        "epc": 0.22,
+        "conversionRate": 9.07,
         "validationDays": 30,
-        "awinIndex": 72.42
+        "awinIndex": 74.1
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1003,11 +1003,11 @@
       "advertiserId": "126675",
       "name": "Dextr",
       "relationship": "joined",
-      "status": "Hidden",
-      "isActive": false,
+      "status": "Joined",
+      "isActive": true,
       "displayUrl": "https://dextr.app/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
       "primarySector": "",
       "primaryRegion": {
@@ -1023,9 +1023,15 @@
           "domain": "*.dextr.app"
         }
       ],
-      "commissionRange": null,
+      "commissionRange": [
+        {
+          "min": 0,
+          "max": 10,
+          "type": "amount"
+        }
+      ],
       "kpi": null,
-      "linkStatus": "",
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1072,7 +1078,7 @@
       ],
       "commissionRange": null,
       "kpi": null,
-      "linkStatus": "offline",
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1146,11 +1152,11 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.dutch.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "primarySector": "Health & Beauty",
       "primaryRegion": {
@@ -1169,15 +1175,8 @@
           "domain": "*.dutch.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "71",
-        "approvalPercentage": 100,
-        "epc": 0.66,
-        "conversionRate": 2.73,
-        "validationDays": 51,
-        "awinIndex": 53.79
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1226,12 +1225,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "68",
+        "averagePaymentTime": "66",
         "approvalPercentage": 100,
-        "epc": 0.32,
-        "conversionRate": 3.27,
-        "validationDays": 46,
-        "awinIndex": 57.64
+        "epc": 0.81,
+        "conversionRate": 26.38,
+        "validationDays": 45,
+        "awinIndex": 65.08
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1281,12 +1280,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "34",
+        "averagePaymentTime": "29",
         "approvalPercentage": 100,
-        "epc": 3.38,
-        "conversionRate": 25,
+        "epc": 0.9,
+        "conversionRate": 6.67,
         "validationDays": 6,
-        "awinIndex": 91.34
+        "awinIndex": 87.76
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1336,12 +1335,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "73",
+        "averagePaymentTime": "70",
         "approvalPercentage": 100,
-        "epc": 0.18,
-        "conversionRate": 0.9,
-        "validationDays": 51,
-        "awinIndex": 51.92
+        "epc": 0.16,
+        "conversionRate": 1.45,
+        "validationDays": 50,
+        "awinIndex": 53.13
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1391,12 +1390,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "78",
+        "averagePaymentTime": "67",
         "approvalPercentage": 100,
-        "epc": 2.79,
-        "conversionRate": 37.5,
+        "epc": 2.6,
+        "conversionRate": 47.73,
         "validationDays": 50,
-        "awinIndex": 61.95
+        "awinIndex": 61.93
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1446,12 +1445,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "73",
+        "averagePaymentTime": "72",
         "approvalPercentage": 100,
-        "epc": 0.42,
-        "conversionRate": 6.58,
-        "validationDays": 51,
-        "awinIndex": 57.62
+        "epc": 0.54,
+        "conversionRate": 5.96,
+        "validationDays": 50,
+        "awinIndex": 57.68
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1501,12 +1500,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "68",
+        "averagePaymentTime": "67",
         "approvalPercentage": 100,
-        "epc": 0.57,
-        "conversionRate": 0.8,
+        "epc": 0.9,
+        "conversionRate": 1.09,
         "validationDays": 45,
-        "awinIndex": 55.86
+        "awinIndex": 56.18
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1558,12 +1557,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "72",
+        "averagePaymentTime": "82",
         "approvalPercentage": 100,
-        "epc": 3.89,
-        "conversionRate": 24.09,
+        "epc": 3.68,
+        "conversionRate": 26.05,
         "validationDays": 31,
-        "awinIndex": 74.72
+        "awinIndex": 74.7
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1617,12 +1616,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "76",
+        "averagePaymentTime": "81",
         "approvalPercentage": 100,
-        "epc": 0.06,
-        "conversionRate": 1.52,
+        "epc": 0.07,
+        "conversionRate": 1.79,
         "validationDays": 30,
-        "awinIndex": 66.52
+        "awinIndex": 66.8
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1669,12 +1668,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "73",
+        "averagePaymentTime": "74",
         "approvalPercentage": 100,
-        "epc": 0.83,
-        "conversionRate": 5.35,
+        "epc": 0.42,
+        "conversionRate": 3.5,
         "validationDays": 50,
-        "awinIndex": 57.1
+        "awinIndex": 55.21
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1729,10 +1728,10 @@
       "kpi": {
         "averagePaymentTime": "26",
         "approvalPercentage": 100,
-        "epc": 0.89,
-        "conversionRate": 31.25,
-        "validationDays": 4,
-        "awinIndex": 92.42
+        "epc": 1.73,
+        "conversionRate": 54.55,
+        "validationDays": 8,
+        "awinIndex": 89.84
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1784,12 +1783,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "27",
+        "averagePaymentTime": "42",
         "approvalPercentage": 100,
-        "epc": 0.07,
-        "conversionRate": 13.36,
-        "validationDays": 7,
-        "awinIndex": 90.34
+        "epc": 0.1,
+        "conversionRate": 10.13,
+        "validationDays": 10,
+        "awinIndex": 88.34
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1843,12 +1842,12 @@
       ],
       "commissionRange": [],
       "kpi": {
-        "averagePaymentTime": "71",
-        "approvalPercentage": 100,
-        "epc": 0.66,
-        "conversionRate": 4.53,
-        "validationDays": 30,
-        "awinIndex": 69.6
+        "averagePaymentTime": "46",
+        "approvalPercentage": 30,
+        "epc": 0.32,
+        "conversionRate": 2.02,
+        "validationDays": 31,
+        "awinIndex": 34.89
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -1905,10 +1904,10 @@
       "kpi": {
         "averagePaymentTime": "40",
         "approvalPercentage": 100,
-        "epc": 0.22,
-        "conversionRate": 5.56,
+        "epc": 0.33,
+        "conversionRate": 8.33,
         "validationDays": 15,
-        "awinIndex": 80.58
+        "awinIndex": 83.37
       },
       "linkStatus": "online",
       "staticProgramId": null,
@@ -2326,15 +2325,15 @@
       "advertiserId": "126675",
       "name": "Dextr",
       "relationship": "joined",
-      "status": "Hidden",
-      "isActive": false,
+      "status": "Joined",
+      "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
       "hasCreatives": false,
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
       "topicTags": [
@@ -2389,7 +2388,7 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2397,7 +2396,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
       "topicTags": [
@@ -2702,7 +2701,7 @@
   "stats": {
     "joined": 16,
     "pending": 16,
-    "feeds": 614,
+    "feeds": 615,
     "apiProducts": 4856,
     "programOfferProducts": 7,
     "totalProducts": 4863,
@@ -2735,10 +2734,6 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
@@ -2749,11 +2744,13 @@
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "[promotions] Fetch error: active/page4: Rate limit exceeded after retries",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
       "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
       "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
