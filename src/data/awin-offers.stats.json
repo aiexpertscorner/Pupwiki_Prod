@@ -2,11 +2,11 @@
   "total": 395,
   "enabled": 0,
   "active": 395,
-  "expiringSoon": 119,
+  "expiringSoon": 161,
   "upcoming": 0,
   "expired": 0,
-  "promotions": 292,
-  "vouchers": 103,
+  "promotions": 263,
+  "vouchers": 132,
   "withVoucherCode": 0,
   "withTrackingUrl": 395,
   "joined": 0,
@@ -24,7 +24,7 @@
     "brand-hero": 0,
     "brand-offer-grid": 0
   },
-  "syncedAt": "2026-06-03T08:11:11.889Z",
+  "syncedAt": "2026-06-04T07:20:09.965Z",
   "fetchMeta": {
     "statusBatches": {
       "active": {

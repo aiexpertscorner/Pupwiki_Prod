@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-03T08:11:39.093Z",
+  "syncedAt": "2026-06-04T07:20:37.072Z",
   "programs": [
     {
       "key": "meowant",
@@ -2701,7 +2701,7 @@
   "stats": {
     "joined": 16,
     "pending": 16,
-    "feeds": 617,
+    "feeds": 616,
     "apiProducts": 4856,
     "programOfferProducts": 7,
     "totalProducts": 4863,
@@ -2745,13 +2745,12 @@
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
       "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
       "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
