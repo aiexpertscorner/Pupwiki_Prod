@@ -1,3 +1,5 @@
+> **ARCHIVED** — active repo is at aiexpertscorner/PupWiki_Next
+
 # PupWiki
 
 Dog care guidance and breed research platform for US dog owners. Covers breeds, health, costs, training, names, and product recommendations.
