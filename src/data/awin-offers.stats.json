@@ -1,17 +1,17 @@
 {
-  "total": 359,
+  "total": 251,
   "enabled": 0,
-  "active": 359,
-  "expiringSoon": 75,
+  "active": 251,
+  "expiringSoon": 198,
   "upcoming": 0,
   "expired": 0,
-  "promotions": 268,
-  "vouchers": 91,
+  "promotions": 223,
+  "vouchers": 28,
   "withVoucherCode": 0,
-  "withTrackingUrl": 359,
+  "withTrackingUrl": 251,
   "joined": 0,
-  "notJoined": 359,
-  "avgQualityScore": 46,
+  "notJoined": 251,
+  "avgQualityScore": 47,
   "placementCoverage": {
     "home-deal-strip": 0,
     "category-after-intro": 0,
@@ -24,7 +24,7 @@
     "brand-hero": 0,
     "brand-offer-grid": 0
   },
-  "syncedAt": "2026-06-05T07:02:40.282Z",
+  "syncedAt": "2026-06-06T06:23:45.938Z",
   "fetchMeta": {
     "statusBatches": {
       "active": {

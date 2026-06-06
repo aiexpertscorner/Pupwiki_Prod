@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-05T07:03:06.456Z",
+  "syncedAt": "2026-06-06T06:24:16.345Z",
   "programs": [
     {
       "key": "meowant",
@@ -500,14 +500,14 @@
       ],
       "commissionRange": [
         {
-          "min": 8,
-          "max": 8,
-          "type": "percentage"
-        },
-        {
           "min": 0,
           "max": 0,
           "type": "amount"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "type": "percentage"
         }
       ],
       "kpi": {
@@ -1816,63 +1816,6 @@
       "bannerCount": 0
     },
     {
-      "key": "furry-muse-us",
-      "advertiserId": "120960",
-      "name": "Furry Muse (US)",
-      "relationship": "pending",
-      "status": "Pending",
-      "isActive": false,
-      "displayUrl": "https://furrymuse.com/",
-      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120960&id=2861861",
-      "deeplinkEnabled": true,
-      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120960.png",
-      "primarySector": "Pets & Pet Care",
-      "primaryRegion": {
-        "name": "United States of America",
-        "countryCode": "US"
-      },
-      "currencyCode": "USD",
-      "validDomains": [
-        {
-          "domain": "furrymuse.com"
-        },
-        {
-          "domain": "*.furrymuse.com"
-        }
-      ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "46",
-        "approvalPercentage": 30,
-        "epc": 0.32,
-        "conversionRate": 2.02,
-        "validationDays": 31,
-        "awinIndex": 34.89
-      },
-      "linkStatus": "online",
-      "staticProgramId": null,
-      "feedId": null,
-      "configuredDeeplink": "",
-      "deeplink": "https://www.awin1.com/awclick.php?mid=120960&id=2861861",
-      "topicTags": [
-        "partner",
-        "gift",
-        "lifestyle"
-      ],
-      "pageTypes": [
-        "guide",
-        "breed",
-        "category"
-      ],
-      "priority": 50,
-      "hasProductFeed": false,
-      "feedIds": [],
-      "hasCreatives": false,
-      "hasLogo": true,
-      "productCount": 0,
-      "bannerCount": 0
-    },
-    {
       "key": "montana-dog-food-co-us",
       "advertiserId": "122204",
       "name": "Montana Dog Food Co (US)",
@@ -2654,28 +2597,6 @@
       ]
     },
     {
-      "key": "furry-muse-us",
-      "advertiserId": "120960",
-      "name": "Furry Muse (US)",
-      "relationship": "pending",
-      "status": "Pending",
-      "isActive": false,
-      "hasProductFeed": false,
-      "feedIds": [],
-      "hasCreatives": false,
-      "hasLogo": true,
-      "productCount": 0,
-      "bannerCount": 0,
-      "deeplinkEnabled": true,
-      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120960.png",
-      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120960&id=2861861",
-      "topicTags": [
-        "partner",
-        "gift",
-        "lifestyle"
-      ]
-    },
-    {
       "key": "montana-dog-food-co-us",
       "advertiserId": "122204",
       "name": "Montana Dog Food Co (US)",
@@ -2700,8 +2621,8 @@
   ],
   "stats": {
     "joined": 16,
-    "pending": 16,
-    "feeds": 617,
+    "pending": 15,
+    "feeds": 616,
     "apiProducts": 4856,
     "programOfferProducts": 7,
     "totalProducts": 4863,
@@ -2746,12 +2667,12 @@
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
       "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
       "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
+      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/78688 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
