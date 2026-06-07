@@ -17,6 +17,37 @@
   },
   "banners": [
     {
+      "id": "garvee-innovation-inc-brand-logo",
+      "programKey": "garvee-innovation-inc",
+      "advertiserId": "52725",
+      "advertiser": "Garvee Innovation Inc",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Garvee Innovation Inc brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=52725&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/52725.png",
+      "alt": "Garvee Innovation Inc logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner",
+        "beds"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
+      "imageFit": "contain"
+    },
+    {
       "id": "meowant-brand-logo",
       "programKey": "meowant",
       "advertiserId": "55213",
@@ -44,7 +75,7 @@
         "beds"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -81,7 +112,7 @@
         "recovery"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -117,7 +148,7 @@
         "accessories"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -156,7 +187,7 @@
         "appliances"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -194,7 +225,7 @@
         "gear"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -224,7 +255,7 @@
         "partner"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -262,7 +293,7 @@
         "safety"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -299,7 +330,7 @@
         "single-protein"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -337,7 +368,7 @@
         "home"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -369,7 +400,7 @@
         "lifestyle"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -401,7 +432,7 @@
         "gear"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -434,7 +465,7 @@
         "health"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -469,7 +500,7 @@
         "fun"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -500,7 +531,7 @@
         "health"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -532,7 +563,7 @@
         "lifestyle"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {
@@ -562,7 +593,7 @@
         "partner"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-06T06:24:16.317Z",
+      "syncedAt": "2026-06-07T07:02:41.191Z",
       "imageFit": "contain"
     },
     {

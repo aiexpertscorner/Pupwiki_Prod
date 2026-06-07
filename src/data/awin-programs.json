@@ -1,8 +1,69 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-06T06:24:16.345Z",
+  "syncedAt": "2026-06-07T07:02:41.424Z",
   "programs": [
+    {
+      "key": "garvee-innovation-inc",
+      "advertiserId": "52725",
+      "name": "Garvee Innovation Inc",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.garvee.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52725&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52725.png",
+      "primarySector": "Home & Garden",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "www.garvee.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 5,
+          "max": 8,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "71",
+        "approvalPercentage": 20.09,
+        "epc": 0.21,
+        "conversionRate": 0.76,
+        "validationDays": 50,
+        "awinIndex": 16.49
+      },
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=52725&id=2861861",
+      "topicTags": [
+        "partner",
+        "beds"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": true,
+      "feedIds": [
+        "113526"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 29720,
+      "bannerCount": 0
+    },
     {
       "key": "meowant",
       "advertiserId": "55213",
@@ -1003,11 +1064,11 @@
       "advertiserId": "126675",
       "name": "Dextr",
       "relationship": "joined",
-      "status": "Joined",
-      "isActive": true,
+      "status": "Hidden",
+      "isActive": false,
       "displayUrl": "https://dextr.app/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
       "primarySector": "",
       "primaryRegion": {
@@ -1023,15 +1084,9 @@
           "domain": "*.dextr.app"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 0,
-          "max": 10,
-          "type": "amount"
-        }
-      ],
+      "commissionRange": null,
       "kpi": null,
-      "linkStatus": "online",
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1152,11 +1207,11 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.dutch.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "primarySector": "Health & Beauty",
       "primaryRegion": {
@@ -1175,8 +1230,15 @@
           "domain": "*.dutch.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "70",
+        "approvalPercentage": 100,
+        "epc": 0.66,
+        "conversionRate": 2.73,
+        "validationDays": 51,
+        "awinIndex": 53.79
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -1878,6 +1940,29 @@
   ],
   "summary": [
     {
+      "key": "garvee-innovation-inc",
+      "advertiserId": "52725",
+      "name": "Garvee Innovation Inc",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "113526"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 29720,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52725.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52725&id=2861861",
+      "topicTags": [
+        "partner",
+        "beds"
+      ]
+    },
+    {
       "key": "meowant",
       "advertiserId": "55213",
       "name": "MeoWant",
@@ -2268,15 +2353,15 @@
       "advertiserId": "126675",
       "name": "Dextr",
       "relationship": "joined",
-      "status": "Joined",
-      "isActive": true,
+      "status": "Hidden",
+      "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
       "hasCreatives": false,
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
       "topicTags": [
@@ -2331,7 +2416,7 @@
       "advertiserId": "78166",
       "name": "Dutch Pet, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2339,7 +2424,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/78166.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=78166&id=2861861",
       "topicTags": [
@@ -2620,21 +2705,21 @@
     }
   ],
   "stats": {
-    "joined": 16,
+    "joined": 17,
     "pending": 15,
-    "feeds": 616,
-    "apiProducts": 4856,
+    "feeds": 617,
+    "apiProducts": 34576,
     "programOfferProducts": 7,
-    "totalProducts": 4863,
+    "totalProducts": 34583,
     "apiBanners": 0,
-    "logoBanners": 16,
-    "totalBanners": 22,
+    "logoBanners": 17,
+    "totalBanners": 23,
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
     "feedProductFetchFailures": 0,
-    "feedRowsFetched": 4856,
-    "feedRowsNormalized": 4856,
+    "feedRowsFetched": 34576,
+    "feedRowsNormalized": 34576,
     "feedsWithRowsButZeroProducts": [],
     "experimentalCreativesEnabled": true,
     "warnings": [
@@ -2655,6 +2740,11 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
@@ -2662,17 +2752,12 @@
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
       "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
       "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/78688 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
@@ -2683,6 +2768,8 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "creatives/52725 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/55213 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/55927 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/57823 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",

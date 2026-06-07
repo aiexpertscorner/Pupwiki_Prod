@@ -1,5 +1,745 @@
 [
   {
+    "promotionId": 3938099,
+    "type": "promotion",
+    "advertiser": {
+      "id": 23524,
+      "name": "Dufrio BR",
+      "joined": false
+    },
+    "title": "CERVEJEIRA VENAX BLUE",
+    "description": "Cervejeira Venax Blue Light 102 Litros Preto - 220V. Por R$ 2.529,00 à vista.",
+    "terms": "",
+    "startDate": "2026-06-07T01:54:00+00:00",
+    "endDate": "2026-06-16T01:52:00+00:00",
+    "status": "active",
+    "url": "https://www.dufrio.com.br/cervejeira-venax-blue-light-102-litros-preto-220v.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=23524&awinaffid=2861861&ued=https%3A%2F%2Fwww.dufrio.com.br%2Fcervejeira-venax-blue-light-102-litros-preto-220v.html",
+    "dateAdded": "2026-06-07T01:54:01+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938097,
+    "type": "promotion",
+    "advertiser": {
+      "id": 23524,
+      "name": "Dufrio BR",
+      "joined": false
+    },
+    "title": "OFERTA CERVEJEIRA ELECTROLUX",
+    "description": "Cervejeira Electrolux 100 Litros Home Bar com Torre de Chopp EB10C Frost Free Porta de Vidro Preta - 110V. Por apenas R$ 2.599,00 à vista.",
+    "terms": "",
+    "startDate": "2026-06-07T01:51:00+00:00",
+    "endDate": "2026-06-16T01:50:00+00:00",
+    "status": "active",
+    "url": "https://www.dufrio.com.br/cervejeira-electrolux-100-litros-home-bar-com-torre-de-chopp-eb10c-frost-free-porta-de-vidro-preta-110v.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=23524&awinaffid=2861861&ued=https%3A%2F%2Fwww.dufrio.com.br%2Fcervejeira-electrolux-100-litros-home-bar-com-torre-de-chopp-eb10c-frost-free-porta-de-vidro-preta-110v.html",
+    "dateAdded": "2026-06-07T01:51:43+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938095,
+    "type": "promotion",
+    "advertiser": {
+      "id": 23524,
+      "name": "Dufrio BR",
+      "joined": false
+    },
+    "title": "OFERTA FRIGOBAR ELECTROLUX",
+    "description": "Frigobar Electrolux 122 Litros Efficient EM120 Branco - 110V. Por apenas R$ 1099,00 à vista.",
+    "terms": "",
+    "startDate": "2026-06-07T01:49:00+00:00",
+    "endDate": "2026-06-16T01:47:00+00:00",
+    "status": "active",
+    "url": "https://www.dufrio.com.br/frigobar-electrolux-122l-em120-branco-110v.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=23524&awinaffid=2861861&ued=https%3A%2F%2Fwww.dufrio.com.br%2Ffrigobar-electrolux-122l-em120-branco-110v.html",
+    "dateAdded": "2026-06-07T01:49:53+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938093,
+    "type": "voucher",
+    "advertiser": {
+      "id": 76364,
+      "name": "SIRUI",
+      "joined": false
+    },
+    "title": "Get 10% off when your order is over $800",
+    "description": "Get 10% off when your order is over $800",
+    "terms": "No cheating",
+    "startDate": "2026-06-07T01:34:00+00:00",
+    "endDate": "2026-06-07T15:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://store.sirui.com/pages/flash-sales",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=2861861&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fflash-sales",
+    "dateAdded": "2026-06-07T01:34:08+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938087,
+    "type": "promotion",
+    "advertiser": {
+      "id": 23524,
+      "name": "Dufrio BR",
+      "joined": false
+    },
+    "title": "MELHOR PREÇO AR CONDICIONADO LG",
+    "description": "Ar Condicionado Split 12000 BTUs LG AI Dual Inverter Compact Frio S3-Q12JAQAL- 220V. Por apenas R$ 1.939,00 à vista.",
+    "terms": "",
+    "startDate": "2026-06-06T20:39:00+00:00",
+    "endDate": "2026-06-09T20:38:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.dufrio.com.br/ar-condicionado-split-inverter-lg-hi-wall-dual-compact-ai-12000-btus-frio-s3-q12jaqal-220v.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=23524&awinaffid=2861861&ued=https%3A%2F%2Fwww.dufrio.com.br%2Far-condicionado-split-inverter-lg-hi-wall-dual-compact-ai-12000-btus-frio-s3-q12jaqal-220v.html",
+    "dateAdded": "2026-06-06T20:39:46+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938085,
+    "type": "promotion",
+    "advertiser": {
+      "id": 23524,
+      "name": "Dufrio BR",
+      "joined": false
+    },
+    "title": "MELHOR PREÇO AR CONDICIONADO MIDEA",
+    "description": "Ar Condicionado Split Inverter 9000 BTUs Midea IA Ecomaster Frio 42EZVCA09M5 - 220V. por apenas R$ 1.739,00 à vista.",
+    "terms": "",
+    "startDate": "2026-06-06T20:38:00+00:00",
+    "endDate": "2026-06-09T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.dufrio.com.br/ar-condicionado-split-inverter-hi-wall-midea-ia-ecomaster-9000-btus-frio-42ezvca09m5-220v.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=23524&awinaffid=2861861&ued=https%3A%2F%2Fwww.dufrio.com.br%2Far-condicionado-split-inverter-hi-wall-midea-ia-ecomaster-9000-btus-frio-42ezvca09m5-220v.html",
+    "dateAdded": "2026-06-06T20:38:02+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938083,
+    "type": "promotion",
+    "advertiser": {
+      "id": 23524,
+      "name": "Dufrio BR",
+      "joined": false
+    },
+    "title": "MELHOR PREÇO AR CONDICIONADO MIDEA",
+    "description": "Ar Condicionado Split 9000 BTUs Midea Inverter Lite Frio 42EBVCA09M5 - 220V. por apenas R$ 1.469,00 à vista.",
+    "terms": "",
+    "startDate": "2026-06-06T20:36:00+00:00",
+    "endDate": "2026-06-09T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.dufrio.com.br/ar-condicionado-split-inverter-9000-btus-midea-airvolution-lite-frio-42ebvca09m5-220v.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=23524&awinaffid=2861861&ued=https%3A%2F%2Fwww.dufrio.com.br%2Far-condicionado-split-inverter-9000-btus-midea-airvolution-lite-frio-42ebvca09m5-220v.html",
+    "dateAdded": "2026-06-06T20:36:09+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938081,
+    "type": "promotion",
+    "advertiser": {
+      "id": 23524,
+      "name": "Dufrio BR",
+      "joined": false
+    },
+    "title": "MELHOR PREÇO AR CONDICIONADO HISENSE",
+    "description": "Ar Condicionado Split Inverter 9000 BTUs Hisense Eco Plus Frio AS-09TW2RLRCK00E - 220V. Por apenas R$ 1.429,00 à vista.",
+    "terms": "",
+    "startDate": "2026-06-06T20:34:00+00:00",
+    "endDate": "2026-06-09T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.dufrio.com.br/ar-condicionado-inverter-9000-btus-hisense-eco-plus-frio-as-09tw2rlrck00e-220v.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=23524&awinaffid=2861861&ued=https%3A%2F%2Fwww.dufrio.com.br%2Far-condicionado-inverter-9000-btus-hisense-eco-plus-frio-as-09tw2rlrck00e-220v.html",
+    "dateAdded": "2026-06-06T20:34:07+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938079,
+    "type": "promotion",
+    "advertiser": {
+      "id": 23524,
+      "name": "Dufrio BR",
+      "joined": false
+    },
+    "title": "MELHOR PREÇO AR CONDICIONADO HISENSE",
+    "description": "Ar Condicionado Split Inverter 12000 BTUs Hisense Eco Plus Frio AS-12TW2RLRCK00E - 220V. Por apenas R$ 1.479,00 à vista.",
+    "terms": "",
+    "startDate": "2026-06-06T20:31:00+00:00",
+    "endDate": "2026-06-09T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.dufrio.com.br/ar-condicionado-inverter-12000-btus-hisense-eco-plus-as-12tw2rlrck00e-220v.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=23524&awinaffid=2861861&ued=https%3A%2F%2Fwww.dufrio.com.br%2Far-condicionado-inverter-12000-btus-hisense-eco-plus-as-12tw2rlrck00e-220v.html",
+    "dateAdded": "2026-06-06T20:31:48+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938077,
+    "type": "voucher",
+    "advertiser": {
+      "id": 23677,
+      "name": "Xiaomi ES",
+      "joined": false
+    },
+    "title": "Xiaomi 17T Series | Hasta 350€ de dto.",
+    "description": "N7uX18ijtFWUznsl\t, gTk5H3IZgS1AaUzQ\t, cOUTtD7M3A3mxVNp\t, ukwQkbMKQz431NPb\t, ltXdQy3sJS0FgMLv\t, rFWPUIjYHFKDfihW\t, xbvNgTafuE0DSksV\t, hY4AEbbtowFBLa2L\t, u6spIOFNSoNSq7lc\t, pIWlzyVGhT72cFoc\t, mOhPL8sM587rL9yS\t, tHynm8jlpzIvPPO0\t, MzHYFjQB87FmYdlU\t, Mh0eWe8sJXtYX4gh\t, 2Zazf0DNMrLspo23\t, A7AuAh6kApHx1Ex0\t, xUohXUo0g8emnbrc\t, 9T3MdwdSyKZqn9xC\t, TSSuwX50M7hWQ58T\t, 0KX02N9GYlnL4PVr\t, 93Ij5OrGTbNeIRZ5\t, n2C0tp4YGg5VlP0z",
+    "terms": "https://www.mi.com/es/event/xiaomi-17t-series/",
+    "startDate": "2026-06-06T19:56:00+00:00",
+    "endDate": "2026-06-30T20:54:00+00:00",
+    "status": "active",
+    "url": "https://www.mi.com/es/event/xiaomi-17t-series/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=23677&awinaffid=2861861&ued=https%3A%2F%2Fwww.mi.com%2Fes%2Fevent%2Fxiaomi-17t-series%2F",
+    "dateAdded": "2026-06-06T19:56:09+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938075,
+    "type": "promotion",
+    "advertiser": {
+      "id": 59645,
+      "name": "Borghese",
+      "joined": false
+    },
+    "title": "Shop the Newest Purificante Purifying Mud and Get Free Shipping!",
+    "description": "Shop the Newest Purificante Purifying Mud and Get Free Shipping!",
+    "terms": "",
+    "startDate": "2026-06-06T17:43:00+00:00",
+    "endDate": "2026-06-30T17:42:00+00:00",
+    "status": "active",
+    "url": "https://www.borghese.com/collections/fango",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=59645&awinaffid=2861861&ued=https%3A%2F%2Fwww.borghese.com%2Fcollections%2Ffango",
+    "dateAdded": "2026-06-06T17:43:24+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938073,
+    "type": "promotion",
+    "advertiser": {
+      "id": 59645,
+      "name": "Borghese",
+      "joined": false
+    },
+    "title": "Free 3-Piece Masking Set on Orders Over $100",
+    "description": "Free 3-Piece Masking Set on Orders Over $100",
+    "terms": "",
+    "startDate": "2026-06-06T17:41:00+00:00",
+    "endDate": "2026-06-14T17:40:00+00:00",
+    "status": "active",
+    "url": "https://www.borghese.com/collections/gifts",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=59645&awinaffid=2861861&ued=https%3A%2F%2Fwww.borghese.com%2Fcollections%2Fgifts",
+    "dateAdded": "2026-06-06T17:41:42+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938057,
+    "type": "promotion",
+    "advertiser": {
+      "id": 78408,
+      "name": "Priority Tire",
+      "joined": false
+    },
+    "title": "Pirelli Tire Rebate @PriorityTire | 1-30 JUNE 2026",
+    "description": "Pirelli Tire Rebate @PriorityTire | $100 BACK on sets of 4 select tires",
+    "terms": "PT Affiliate Program T&C",
+    "startDate": "2026-06-06T13:02:00+00:00",
+    "endDate": "2026-07-01T10:00:00+00:00",
+    "status": "active",
+    "url": "https://www.prioritytire.com/deals/pirelli-tire-rebates",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=78408&awinaffid=2861861&ued=https%3A%2F%2Fwww.prioritytire.com%2Fdeals%2Fpirelli-tire-rebates",
+    "dateAdded": "2026-06-06T13:02:27+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 3,
+          "name": "United States of America",
+          "countryCode": "US"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938055,
+    "type": "voucher",
+    "advertiser": {
+      "id": 18417,
+      "name": "Samsung FR",
+      "joined": false
+    },
+    "title": "TV200",
+    "description": "200€ de remise au panier sur les TV TQ85QN70FAUXXC, TQ83S95FAEXXC, TQ83S90FAEXXC, TQ65S95FATXXC, TQ77S95FATXXC",
+    "terms": "Du 6 au 7 juin 2026 inclus, profitez de 200€ de remise sur les TV Neo QLED et OLED 2025 TQ85QN70FAUXXC, TQ83S95FAEXXC, TQ83S90FAEXXC, TQ65S95FATXXC et TQ77S95FATXXC à l’aide du code TV200 à saisir au panier. Cumulable avec les offres en cours (hors codes promotionnels). Offre valable sur le site Samsung.com et l'application Samsung Shop dans la limite des stocks disponibles.",
+    "startDate": "2026-06-06T12:57:00+00:00",
+    "endDate": "2026-06-07T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.samsung.com/fr/tvs/all-tvs/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=18417&awinaffid=2861861&ued=https%3A%2F%2Fwww.samsung.com%2Ffr%2Ftvs%2Fall-tvs%2F",
+    "dateAdded": "2026-06-06T12:57:52+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938053,
+    "type": "voucher",
+    "advertiser": {
+      "id": 18417,
+      "name": "Samsung FR",
+      "joined": false
+    },
+    "title": "TV50",
+    "description": "50€ de remise au panier sur les TV TQ55QN70FAUXXC et TQ65QN70FAUXXC",
+    "terms": "Du 6 au 7 juin 2026 inclus, profitez de 50€ de remise sur les TV Neo QLED 2025 TQ55QN70FAUXXC et TQ65QN70FAUXXC à l’aide du code TV50 à saisir au panier. Cumulable avec les offres en cours (hors codes promotionnels). Offre valable sur le site Samsung.com et l'application Samsung Shop dans la limite des stocks disponibles.",
+    "startDate": "2026-06-06T12:46:00+00:00",
+    "endDate": "2026-06-07T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.samsung.com/fr/tvs/neo-qled-tv/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=18417&awinaffid=2861861&ued=https%3A%2F%2Fwww.samsung.com%2Ffr%2Ftvs%2Fneo-qled-tv%2F",
+    "dateAdded": "2026-06-06T12:46:52+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938045,
+    "type": "promotion",
+    "advertiser": {
+      "id": 88751,
+      "name": "PandaHall",
+      "joined": false
+    },
+    "title": "June Mega Sale",
+    "description": "Jewelry Making Must-Haves! 1. 580,000+ Items UP TO 90% OFF 2. Personalized Shipping Discounts Ends on Jun. 18, 2026 PDT",
+    "terms": "Jewelry Making Must-Haves!\n1. 580,000+ Items UP TO 90% OFF\n2. Personalized Shipping Discounts\nEnds on Jun. 18, 2026 PDT",
+    "startDate": "2026-06-06T09:42:00+00:00",
+    "endDate": "2026-06-18T07:00:00+00:00",
+    "status": "active",
+    "url": "https://www.pandahall.com/promotion.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=88751&awinaffid=2861861&ued=https%3A%2F%2Fwww.pandahall.com%2Fpromotion.html",
+    "dateAdded": "2026-06-06T09:42:36+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938043,
+    "type": "voucher",
+    "advertiser": {
+      "id": 46005,
+      "name": "Cold Case Inc",
+      "joined": false
+    },
+    "title": "Get 3 for the prices of 2",
+    "description": "Use this coupon during checkout to get 3 games for the price of 2.",
+    "terms": "Coupon code can not be stacked.",
+    "startDate": "2026-06-05T23:00:00+00:00",
+    "endDate": "2026-06-30T22:59:00+00:00",
+    "status": "active",
+    "url": "https://coldcaseinc.com/unsolved-cases/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=46005&awinaffid=2861861&campaign=3-for-2+games+promo&ued=https%3A%2F%2Fcoldcaseinc.com%2Funsolved-cases%2F",
+    "dateAdded": "2026-06-06T08:21:04+00:00",
+    "campaign": "3-for-2 games promo",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 1,
+          "name": "United Kingdom",
+          "countryCode": "GB"
+        },
+        {
+          "id": 2,
+          "name": "Ireland",
+          "countryCode": "IE"
+        },
+        {
+          "id": 3,
+          "name": "United States of America",
+          "countryCode": "US"
+        },
+        {
+          "id": 4,
+          "name": "Canada",
+          "countryCode": "CA"
+        },
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        },
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        },
+        {
+          "id": 7,
+          "name": "Austria",
+          "countryCode": "AT"
+        },
+        {
+          "id": 8,
+          "name": "Belgium",
+          "countryCode": "BE"
+        },
+        {
+          "id": 9,
+          "name": "Netherlands",
+          "countryCode": "NL"
+        },
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        },
+        {
+          "id": 11,
+          "name": "Italy",
+          "countryCode": "IT"
+        },
+        {
+          "id": 13,
+          "name": "Finland",
+          "countryCode": "FI"
+        },
+        {
+          "id": 15,
+          "name": "Poland",
+          "countryCode": "PL"
+        },
+        {
+          "id": 16,
+          "name": "Switzerland",
+          "countryCode": "CH"
+        },
+        {
+          "id": 17,
+          "name": "Sweden",
+          "countryCode": "SE"
+        },
+        {
+          "id": 18,
+          "name": "Norway",
+          "countryCode": "NO"
+        },
+        {
+          "id": 19,
+          "name": "Denmark",
+          "countryCode": "DK"
+        },
+        {
+          "id": 20,
+          "name": "Australia",
+          "countryCode": "AU"
+        },
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        },
+        {
+          "id": 22,
+          "name": "Portugal",
+          "countryCode": "PT"
+        },
+        {
+          "id": 23,
+          "name": "Russia",
+          "countryCode": "RU"
+        },
+        {
+          "id": 24,
+          "name": "Czech Republic",
+          "countryCode": "CZ"
+        },
+        {
+          "id": 25,
+          "name": "Hungary",
+          "countryCode": "HU"
+        },
+        {
+          "id": 26,
+          "name": "Romania",
+          "countryCode": "RO"
+        },
+        {
+          "id": 27,
+          "name": "Slovakia",
+          "countryCode": "SK"
+        },
+        {
+          "id": 28,
+          "name": "Slovenia",
+          "countryCode": "SI"
+        },
+        {
+          "id": 29,
+          "name": "Ukraine",
+          "countryCode": "UA"
+        },
+        {
+          "id": 30,
+          "name": "Bulgaria",
+          "countryCode": "BG"
+        },
+        {
+          "id": 31,
+          "name": "Croatia",
+          "countryCode": "HR"
+        },
+        {
+          "id": 32,
+          "name": "Greece",
+          "countryCode": "GR"
+        },
+        {
+          "id": 33,
+          "name": "Latvia",
+          "countryCode": "LV"
+        },
+        {
+          "id": 34,
+          "name": "Lithuania",
+          "countryCode": "LT"
+        },
+        {
+          "id": 35,
+          "name": "New Zealand",
+          "countryCode": "NZ"
+        },
+        {
+          "id": 36,
+          "name": "South Africa",
+          "countryCode": "ZA"
+        },
+        {
+          "id": 37,
+          "name": "United Arab Emirates",
+          "countryCode": "AE"
+        },
+        {
+          "id": 38,
+          "name": "China",
+          "countryCode": "CN"
+        },
+        {
+          "id": 39,
+          "name": "India",
+          "countryCode": "IN"
+        },
+        {
+          "id": 40,
+          "name": "Japan",
+          "countryCode": "JP"
+        },
+        {
+          "id": 41,
+          "name": "Singapore",
+          "countryCode": "SG"
+        },
+        {
+          "id": 42,
+          "name": "Argentina",
+          "countryCode": "AR"
+        },
+        {
+          "id": 43,
+          "name": "Chile",
+          "countryCode": "CL"
+        },
+        {
+          "id": 44,
+          "name": "Colombia",
+          "countryCode": "CO"
+        },
+        {
+          "id": 45,
+          "name": "Mexico",
+          "countryCode": "MX"
+        },
+        {
+          "id": 46,
+          "name": "Peru",
+          "countryCode": "PE"
+        },
+        {
+          "id": 47,
+          "name": "Turkey",
+          "countryCode": "TR"
+        },
+        {
+          "id": 48,
+          "name": "Brazil USD",
+          "countryCode": "BU"
+        },
+        {
+          "id": 49,
+          "name": "Mexico pesos",
+          "countryCode": "XP"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3938015,
     "type": "promotion",
     "advertiser": {
@@ -9254,34 +9994,32 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3937263,
-    "type": "promotion",
+    "promotionId": 3937261,
+    "type": "voucher",
     "advertiser": {
-      "id": 59403,
-      "name": "Mellow Fellow",
+      "id": 59267,
+      "name": "FarmHouse Fresh",
       "joined": false
     },
-    "title": "FATHER’S DAY PRESALE",
-    "description": "Father’s Day Presale is here with gifts made for Dad: shop the themed Father’s Day collection and get buy 2, get 1 free for a limited time.",
-    "terms": "The brand is unable to ship their products to customers in all states. States they can’t ship to are listed on their site. They can ship to customers in 30 states.",
-    "startDate": "2026-06-05T19:01:00+00:00",
-    "endDate": "2026-06-07T04:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://mellowfellow.fun/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=59403&awinaffid=2861861&ued=https%3A%2F%2Fmellowfellow.fun%2F",
-    "dateAdded": "2026-06-05T19:01:31+00:00",
+    "title": "Free Moon Dip Body with $100+",
+    "description": "Free Moon Dip Body with $100+ w/ code MOONBODY at FarmHouseFreshGoods.com",
+    "terms": "n/a",
+    "startDate": "2026-06-07T04:00:00+00:00",
+    "endDate": "2026-07-08T03:59:00+00:00",
+    "status": "active",
+    "url": "https://farmhousefreshgoods.com/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=59267&awinaffid=2861861&ued=https%3A%2F%2Ffarmhousefreshgoods.com%2F",
+    "dateAdded": "2026-06-05T18:49:10+00:00",
     "campaign": "",
     "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 3,
-          "name": "United States of America",
-          "countryCode": "US"
-        }
-      ]
+      "all": true
     },
     "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
     "_fetchedStatus": "active"
   },
   {
@@ -9593,68 +10331,6 @@
     "url": "https://www.centauro.com.br/minibola-de-futebol-de-campo-adams-classic-898084.html?cor=51",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fminibola-de-futebol-de-campo-adams-classic-898084.html%3Fcor%3D51",
     "dateAdded": "2026-06-05T16:44:14+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937195,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "BOLA CBF NIKE SOCIETY por R$129,99",
-    "description": "BOLA CBF NIKE SOCIETY por R$129,99",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-07T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/bola-cbf-nike-society-99755X.html?cor=04",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fbola-cbf-nike-society-99755X.html%3Fcor%3D04",
-    "dateAdded": "2026-06-05T16:44:07+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937193,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Chuteira Futsal Adulto Nike Mercurial Vapor 16 Club por R$224,99",
-    "description": "Chuteira Futsal Adulto Nike Mercurial Vapor 16 Club por R$224,99",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-07T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/chuteira-futsal-nike-mercurial-vapor-16-club-ic-adulto-989953.html?cor=29",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fchuteira-futsal-nike-mercurial-vapor-16-club-ic-adulto-989953.html%3Fcor%3D29",
-    "dateAdded": "2026-06-05T16:43:56+00:00",
     "campaign": "",
     "regions": {
       "all": false,
@@ -10687,42 +11363,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3936945,
-    "type": "voucher",
-    "advertiser": {
-      "id": 17658,
-      "name": "Natura BR",
-      "joined": false
-    },
-    "title": "R$ 50 OFF em compras acima de R$ 249 válido durante a campanha Data Dupla e Descontos de até 60% OFF em produtos selecionados na lista",
-    "description": "R$ 50 OFF em compras acima de R$ 249 válido durante a campanha Data Dupla e Descontos de até 60% OFF em produtos selecionados na lista",
-    "terms": "..",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-07T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.natura.com.br/c/data-dupla",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17658&awinaffid=2861861&ued=https%3A%2F%2Fwww.natura.com.br%2Fc%2Fdata-dupla",
-    "dateAdded": "2026-06-05T15:59:16+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3936939,
     "type": "voucher",
     "advertiser": {
@@ -10895,42 +11535,6 @@
       ]
     },
     "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936907,
-    "type": "voucher",
-    "advertiser": {
-      "id": 17652,
-      "name": "Nike BR",
-      "joined": false
-    },
-    "title": "20% OFF em vários produtos de basquete. Oferta válida somente até amanhã às 23:59",
-    "description": "20% OFF em vários produtos de basquete. Oferta válida somente até amanhã às 23:59",
-    "terms": "..",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-07T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.nike.com.br/hotsite/basquete20",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17652&awinaffid=2861861&ued=https%3A%2F%2Fwww.nike.com.br%2Fhotsite%2Fbasquete20",
-    "dateAdded": "2026-06-05T15:57:21+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
     "_fetchedStatus": "active"
   },
   {
@@ -11792,343 +12396,6 @@
     "url": "https://www.honor.com/fr/honor-fans/",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=28531&awinaffid=2861861&ued=https%3A%2F%2Fwww.honor.com%2Ffr%2Fhonor-fans%2F",
     "dateAdded": "2026-06-05T14:50:05+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936825,
-    "type": "promotion",
-    "advertiser": {
-      "id": 21727,
-      "name": "Samsung LT",
-      "joined": false
-    },
-    "title": "Prisijunkite ir gaukite 5 % nuolaidą krepšelyje. Galioja televizoriams ir buitinei technikai",
-    "description": "Prisijunkite ir gaukite 5 % nuolaidą krepšelyje. Galioja televizoriams ir buitinei technikai",
-    "terms": "T&Cs Apply",
-    "startDate": "2026-06-05T14:46:00+00:00",
-    "endDate": "2026-06-30T20:59:00+00:00",
-    "status": "active",
-    "url": "https://www.samsung.com/lt/tvs/all-tvs/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=21727&awinaffid=2861861&ued=https%3A%2F%2Fwww.samsung.com%2Flt%2Ftvs%2Fall-tvs%2F",
-    "dateAdded": "2026-06-05T14:46:12+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936823,
-    "type": "promotion",
-    "advertiser": {
-      "id": 32223,
-      "name": "Samsung EE",
-      "joined": false
-    },
-    "title": "Logi sisse ja saa ostukorvi 5% allahindlust. Kehtib telerite ja kodumasinate puhul",
-    "description": "Logi sisse ja saa ostukorvi 5% allahindlust. Kehtib telerite ja kodumasinate puhul",
-    "terms": "T&Cs Apply",
-    "startDate": "2026-06-05T14:45:00+00:00",
-    "endDate": "2026-06-30T21:59:00+00:00",
-    "status": "active",
-    "url": "https://www.samsung.com/ee/tvs/all-tvs/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=32223&awinaffid=2861861&ued=https%3A%2F%2Fwww.samsung.com%2Fee%2Ftvs%2Fall-tvs%2F",
-    "dateAdded": "2026-06-05T14:45:09+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936821,
-    "type": "promotion",
-    "advertiser": {
-      "id": 113552,
-      "name": "Le Col DE",
-      "joined": false
-    },
-    "title": "Join the movement and save up to 40% on LC_CC kit.",
-    "description": "Join the movement and save up to 40% on LC_CC kit.",
-    "terms": "Standard T&C's apply. See site for further details",
-    "startDate": "2026-06-05T14:44:00+00:00",
-    "endDate": "2026-06-30T22:59:00+00:00",
-    "status": "active",
-    "url": "https://lecol.cc/account/register",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=113552&awinaffid=2861861&ued=https%3A%2F%2Flecol.cc%2Faccount%2Fregister",
-    "dateAdded": "2026-06-05T14:44:59+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936817,
-    "type": "promotion",
-    "advertiser": {
-      "id": 113552,
-      "name": "Le Col DE",
-      "joined": false
-    },
-    "title": "In celebration of Members Month, members receive 30% off with a chance to use their codes to get up to 40% off.",
-    "description": "In celebration of Members Month, members receive 30% off with a chance to use their codes to get up to 40% off.",
-    "terms": "Standard T&C's apply. See site for further details",
-    "startDate": "2026-06-05T14:42:00+00:00",
-    "endDate": "2026-06-30T22:59:00+00:00",
-    "status": "active",
-    "url": "https://lecol.cc/en-de/account/login",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=113552&awinaffid=2861861&ued=https%3A%2F%2Flecol.cc%2Fen-de%2Faccount%2Flogin",
-    "dateAdded": "2026-06-05T14:42:13+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936815,
-    "type": "promotion",
-    "advertiser": {
-      "id": 113552,
-      "name": "Le Col DE",
-      "joined": false
-    },
-    "title": "Celebrate Member’s Month and get 30% off",
-    "description": "Celebrate Member’s Month and get 30% off",
-    "terms": "Standard T&C's apply. See site for further details",
-    "startDate": "2026-06-05T14:41:00+00:00",
-    "endDate": "2026-06-30T22:59:00+00:00",
-    "status": "active",
-    "url": "https://lecol.cc/en-de",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=113552&awinaffid=2861861&ued=https%3A%2F%2Flecol.cc%2Fen-de",
-    "dateAdded": "2026-06-05T14:41:11+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936809,
-    "type": "promotion",
-    "advertiser": {
-      "id": 8059,
-      "name": "SharkNinja UK",
-      "joined": false
-    },
-    "title": "15% Off Selected Shark Hard Floor and Steam Products",
-    "description": "15% Off Selected Shark Hard Floor and Steam Products (WD110UK, WD210UK, VM200UK, VM200UKGN, VM200UKPL, S8201UK, S8201UKDB, S6005UK, S1000UK, SD200UK, S6003UK, S2001UK)",
-    "terms": "Selected products only (WD110UK, WD210UK, VM200UK, VM200UKGN, VM200UKPL, S8201UK, S8201UKDB, S6005UK, S1000UK, SD200UK, S6003UK, S2001UK). Whilst stocks last. T&Cs apply. Max two same items per order.",
-    "startDate": "2026-06-05T15:00:00+00:00",
-    "endDate": "2026-06-07T22:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.sharkninja.co.uk/home-cleaning",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8059&awinaffid=2861861&ued=https%3A%2F%2Fwww.sharkninja.co.uk%2Fhome-cleaning",
-    "dateAdded": "2026-06-05T14:37:23+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936803,
-    "type": "voucher",
-    "advertiser": {
-      "id": 28601,
-      "name": "apotheke.at",
-      "joined": false
-    },
-    "title": "15 % auf Kytta® Schmerzsalbe",
-    "description": "Jetzt 15 % sparen – direkt beim Kauf von Kytta® Schmerzsalbe",
-    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
-    "startDate": "2026-06-05T14:35:00+00:00",
-    "endDate": "2026-06-30T21:59:00+00:00",
-    "status": "active",
-    "url": "https://www.apotheke.at/produkthighlights-c-908?show_multiple_pzns=10832865",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28601&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.at%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D10832865",
-    "dateAdded": "2026-06-05T14:35:32+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936797,
-    "type": "voucher",
-    "advertiser": {
-      "id": 28601,
-      "name": "apotheke.at",
-      "joined": false
-    },
-    "title": "15 % Rabatt auf Vigantolvit Vitamin D3",
-    "description": "Jetzt zuschlagen & 15 % Direktrabatt beim Kauf von Vigantolvit Vitamin D3 nutzen!",
-    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
-    "startDate": "2026-06-05T14:34:00+00:00",
-    "endDate": "2026-06-30T21:59:00+00:00",
-    "status": "active",
-    "url": "https://www.apotheke.at/produkthighlights-c-908?show_multiple_pzns=12423869_14371728",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28601&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.at%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D12423869_14371728",
-    "dateAdded": "2026-06-05T14:34:49+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936795,
-    "type": "voucher",
-    "advertiser": {
-      "id": 28601,
-      "name": "apotheke.at",
-      "joined": false
-    },
-    "title": "20 % auf Femibion bei Kinderwunsch & Schwangerschaft",
-    "description": "Sicher dir 20 % on top für Femibion – der Nährstoffspeicher bei Kinderwunsch & Schwangerschaft",
-    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
-    "startDate": "2026-06-05T14:34:00+00:00",
-    "endDate": "2026-06-30T21:59:00+00:00",
-    "status": "active",
-    "url": "https://www.apotheke.at/produkthighlights-c-908?show_multiple_pzns=17668759_15200035_15199987",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28601&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.at%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D17668759_15200035_15199987",
-    "dateAdded": "2026-06-05T14:34:08+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936793,
-    "type": "promotion",
-    "advertiser": {
-      "id": 8059,
-      "name": "SharkNinja UK",
-      "joined": false
-    },
-    "title": "Free gift (worth over £25) when you buy Ninja Woodfire Outdoor Oven, Artisan Pizza Maker and BBQ Smoker with Stand & Cover",
-    "description": "Free gift (worth over £25) when you buy Ninja Woodfire Outdoor Oven, Artisan Pizza Maker and BBQ Smoker with Stand & Cover",
-    "terms": "Whilst stocks last. T&Cs apply. Max two same items per order.",
-    "startDate": "2026-06-05T15:00:00+00:00",
-    "endDate": "2026-06-08T22:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.sharkninja.co.uk/ninja-woodfire-outdoor-oven-artisan-pizza-maker-and-bbq-smoker-with-stand-cover/OO101BNDUK.html",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8059&awinaffid=2861861&ued=https%3A%2F%2Fwww.sharkninja.co.uk%2Fninja-woodfire-outdoor-oven-artisan-pizza-maker-and-bbq-smoker-with-stand-cover%2FOO101BNDUK.html",
-    "dateAdded": "2026-06-05T14:33:48+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936791,
-    "type": "promotion",
-    "advertiser": {
-      "id": 8059,
-      "name": "SharkNinja UK",
-      "joined": false
-    },
-    "title": "Free gift (worth over £60) when you buy Ninja Woodfire Pro XL Electric BBQ Grill & Smoker with Stand & Cover",
-    "description": "Free gift (worth over £60) when you buy Ninja Woodfire Pro XL Electric BBQ Grill & Smoker with Stand & Cover",
-    "terms": "Whilst stocks last. T&Cs apply. Max two same items per order.",
-    "startDate": "2026-06-05T15:00:00+00:00",
-    "endDate": "2026-06-08T22:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.sharkninja.co.uk/ninja-woodfire-pro-xl-electric-bbq-grill-smoker-with-stand-cover/OG850BNDUK.html",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8059&awinaffid=2861861&ued=https%3A%2F%2Fwww.sharkninja.co.uk%2Fninja-woodfire-pro-xl-electric-bbq-grill-smoker-with-stand-cover%2FOG850BNDUK.html",
-    "dateAdded": "2026-06-05T14:32:42+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936789,
-    "type": "voucher",
-    "advertiser": {
-      "id": 28603,
-      "name": "apotheke.de",
-      "joined": false
-    },
-    "title": "20 % auf Femibion bei Kinderwunsch & Schwangerschaft",
-    "description": "Sicher dir 20 % on top für Femibion – der Nährstoffspeicher bei Kinderwunsch & Schwangerschaft",
-    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
-    "startDate": "2026-06-05T14:32:00+00:00",
-    "endDate": "2026-06-30T21:59:00+00:00",
-    "status": "active",
-    "url": "https://www.apotheke.de/produkthighlights-c-908?show_multiple_pzns=17668759_15200035_15199987",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28603&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.de%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D17668759_15200035_15199987",
-    "dateAdded": "2026-06-05T14:32:40+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936787,
-    "type": "voucher",
-    "advertiser": {
-      "id": 28603,
-      "name": "apotheke.de",
-      "joined": false
-    },
-    "title": "15 % Rabatt auf Vigantolvit Vitamin D3",
-    "description": "Jetzt zuschlagen & 15 % Direktrabatt beim Kauf von Vigantolvit Vitamin D3 nutzen!",
-    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
-    "startDate": "2026-06-05T14:31:00+00:00",
-    "endDate": "2026-06-30T21:59:00+00:00",
-    "status": "active",
-    "url": "https://www.apotheke.de/produkthighlights-c-908?show_multiple_pzns=12423869_14371728",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28603&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.de%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D12423869_14371728",
-    "dateAdded": "2026-06-05T14:31:50+00:00",
     "campaign": "",
     "regions": {
       "all": true
