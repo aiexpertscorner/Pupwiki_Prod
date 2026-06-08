@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-07T07:02:41.424Z",
+  "syncedAt": "2026-06-08T07:27:07.212Z",
   "programs": [
     {
       "key": "garvee-innovation-inc",
@@ -561,14 +561,14 @@
       ],
       "commissionRange": [
         {
-          "min": 0,
-          "max": 0,
-          "type": "amount"
-        },
-        {
           "min": 8,
           "max": 8,
           "type": "percentage"
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "type": "amount"
         }
       ],
       "kpi": {
@@ -2758,6 +2758,7 @@
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",

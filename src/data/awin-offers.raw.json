@@ -1,5 +1,1748 @@
 [
   {
+    "promotionId": 3938379,
+    "type": "voucher",
+    "advertiser": {
+      "id": 50297,
+      "name": "Abbonamenti.it IT",
+      "joined": false
+    },
+    "title": "Scuola finita? Inizia l'avventura delle letture estive (-6%)",
+    "description": "Le vacanze estive sono alle porte! Dall'8 al 12 giugno approfitta del -6% extra sugli abbonamenti a riviste e fumetti per bambini e ragazzi, valido sui prezzi già scontati di Abbonamenti.it. Fumetti, giochi, curiosità, avventure e attività educative per accompagnare l'estate con tante storie da leggere e scoprire.",
+    "terms": "Lo sconto si applica al prezzo giá scontato di Abbonamenti.it.  Il coupon non si applica ai libri, collezioni e ai buoni regalo. Il coupon non si applica in caso di pagamento con bollettino postale.",
+    "startDate": "2026-06-08T07:25:00+00:00",
+    "endDate": "2026-06-12T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.abbonamenti.it/riviste/bambini-e-ragazzi?utm_source=awin&utm_medium=affiliate&batch=84&utm_campaign=bambini-e-ragazzi&utm_content=Textlink",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=50297&awinaffid=2861861&ued=https%3A%2F%2Fwww.abbonamenti.it%2Friviste%2Fbambini-e-ragazzi%3Futm_source%3Dawin%26utm_medium%3Daffiliate%26batch%3D84%26utm_campaign%3Dbambini-e-ragazzi%26utm_content%3DTextlink",
+    "dateAdded": "2026-06-08T07:25:35+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 11,
+          "name": "Italy",
+          "countryCode": "IT"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938377,
+    "type": "promotion",
+    "advertiser": {
+      "id": 43809,
+      "name": "Douglas_PT",
+      "joined": false
+    },
+    "title": "Até 60% em artigos seleccionados*",
+    "description": "Up to 60% off select items*",
+    "terms": "*Saldos válidos de 8 de Junho a 9 de Agosto de 2026. Os saldos são aplicados em artigos selecionados e até ao fim das suas existências. Os preços já se encontram marcados nos artigos selecionados em loja. Não se efetuam trocas de produtos integrados em saldos e/ou promoções.",
+    "startDate": "2026-06-08T07:25:00+00:00",
+    "endDate": "2026-06-09T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.douglas.pt/c/saldos/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=43809&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.pt%2Fc%2Fsaldos%2F",
+    "dateAdded": "2026-06-08T07:25:19+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 22,
+          "name": "Portugal",
+          "countryCode": "PT"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938375,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "eufy Robot tondeuse E15 - €1079(€120off) w/Code: WS24T2880GA1",
+    "description": "eufy Robot tondeuse E15 - €1079(€120off) w/Code: WS24T2880GA1",
+    "terms": "/",
+    "startDate": "2026-06-08T07:24:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.eufy.com/eu-fr/products/t2880ga1",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Ft2880ga1",
+    "dateAdded": "2026-06-08T07:24:57+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938371,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "eufy Robot aspirateur Omni E25 (Blanc) - €629(€270off) w/Code: WS24T2353G21",
+    "description": "eufy Robot aspirateur Omni E25 (Blanc) - €629(€270off) w/Code: WS24T2353G21",
+    "terms": "/",
+    "startDate": "2026-06-08T07:24:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.eufy.com/eu-fr/products/t2353g21",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Ft2353g21",
+    "dateAdded": "2026-06-08T07:24:06+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938365,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "Kit de 4 caméras eufyCam S4 + Disque dur 1 To - €1375.99(€201.01off) w/Code: WS24BUNDLE-E81723W1-1-T81723W1-2-T80301D1-85-1",
+    "description": "Kit de 4 caméras eufyCam S4 + Disque dur 1 To - €1375.99(€201.01off) w/Code: WS24BUNDLE-E81723W1-1-T81723W1-2-T80301D1-85-1",
+    "terms": "/",
+    "startDate": "2026-06-08T07:21:00+00:00",
+    "endDate": "2026-07-05T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.eufy.com/eu-fr/products/bundle-e81723w1-1-t81723w1-2-t80301d1-85-1",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fbundle-e81723w1-1-t81723w1-2-t80301d1-85-1",
+    "dateAdded": "2026-06-08T07:21:55+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938363,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "kit de 6 eufy Système de sécurité NVR PoE S4 Max - €1447.99(€549.01off) w/Code: WS24POES4-6-1",
+    "description": "kit de 6 eufy Système de sécurité NVR PoE S4 Max - €1447.99(€549.01off) w/Code: WS24POES4-6-1",
+    "terms": "/",
+    "startDate": "2026-06-08T07:21:00+00:00",
+    "endDate": "2026-07-05T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.eufy.com/eu-fr/products/bundle-e8e00322-1-t8e00321-2",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fbundle-e8e00322-1-t8e00321-2",
+    "dateAdded": "2026-06-08T07:21:24+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938359,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "Kit de 4 caméras eufyCam S3 Pro + Disque dur 1 To - €680.99(€398.01off) w/Code: WS24T88943W1T80301D1-85-1",
+    "description": "Kit de 4 caméras eufyCam S3 Pro + Disque dur 1 To - €680.99(€398.01off) w/Code: WS24T88943W1T80301D1-85-1",
+    "terms": "/",
+    "startDate": "2026-06-08T07:20:00+00:00",
+    "endDate": "2026-07-05T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.eufy.com/eu-fr/products/bundle-t88943w1-1-t80301d1-85-1",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fbundle-t88943w1-1-t80301d1-85-1",
+    "dateAdded": "2026-06-08T07:20:48+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938357,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "Caméra projecteur E340 + HomeBase S380 - €256.31(€222.68off) w/Code: WS24T8425321-1-T80303D1-1",
+    "description": "Caméra projecteur E340 + HomeBase S380 - €256.31(€222.68off) w/Code: WS24T8425321-1-T80303D1-1",
+    "terms": "/",
+    "startDate": "2026-06-08T07:20:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.eufy.com/eu-fr/products/bundle-t8425321-1-t80303d1-1",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fbundle-t8425321-1-t80303d1-1",
+    "dateAdded": "2026-06-08T07:20:16+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938355,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "SoloCam S340 (Pack de 4 caméras) + HomeBase S380 - €537.99(€510.97off) w/Code: WS24T81703-4-T80303",
+    "description": "SoloCam S340 (Pack de 4 caméras) + HomeBase S380 - €537.99(€510.97off) w/Code: WS24T81703-4-T80303",
+    "terms": "/",
+    "startDate": "2026-06-08T07:19:00+00:00",
+    "endDate": "2026-07-05T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.eufy.com/eu-fr/products/bundle-t81703w1-4-t80303d1-1",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fbundle-t81703w1-4-t80303d1-1",
+    "dateAdded": "2026-06-08T07:19:37+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938353,
+    "type": "promotion",
+    "advertiser": {
+      "id": 8391,
+      "name": "Douglas_NL",
+      "joined": false
+    },
+    "title": "30% op alle heren skincare bij aankoop vanaf € 25,-*",
+    "description": "30% off all men’s skincare with a minimum purchase of €25*",
+    "terms": "*M.u.v. Rituals, drogisterijmerken, producten verzonden door Douglas-partners en reeds afgeprijsde artikelen.",
+    "startDate": "2026-06-08T07:19:00+00:00",
+    "endDate": "2026-06-21T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.douglas.nl/nl/c/gezicht/heren/1210",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8391&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.nl%2Fnl%2Fc%2Fgezicht%2Fheren%2F1210",
+    "dateAdded": "2026-06-08T07:19:28+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938351,
+    "type": "voucher",
+    "advertiser": {
+      "id": 90119,
+      "name": "Sourcemore.com",
+      "joined": false
+    },
+    "title": "Sourcemore Mid-Year Sale, 12% OFF SITEWIDE",
+    "description": "Sourcemore Mid-Year Sale, 12% OFF SITEWIDE",
+    "terms": "N/A",
+    "startDate": "2026-06-08T07:19:00+00:00",
+    "endDate": "2026-06-17T07:00:00+00:00",
+    "status": "active",
+    "url": "https://www.sourcemore.com/sourcemore-2026-mid-year-sale",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=90119&awinaffid=2861861&ued=https%3A%2F%2Fwww.sourcemore.com%2Fsourcemore-2026-mid-year-sale",
+    "dateAdded": "2026-06-08T07:19:23+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938349,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "Kit de 4 caméras eufyCam S330 (eufyCam 3) + Disque dur 1 To - €429.99(€399.01off) w/Code: WS24T88733-41",
+    "description": "Kit de 4 caméras eufyCam S330 (eufyCam 3) + Disque dur 1 To - €429.99(€399.01off) w/Code: WS24T88733-41",
+    "terms": "/",
+    "startDate": "2026-06-08T07:19:00+00:00",
+    "endDate": "2026-07-05T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.eufy.com/eu-fr/products/bundle-t88733w1-1-t80301d1-81-1",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fbundle-t88733w1-1-t80301d1-81-1",
+    "dateAdded": "2026-06-08T07:19:01+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938345,
+    "type": "promotion",
+    "advertiser": {
+      "id": 47675,
+      "name": "Dooers ES",
+      "joined": false
+    },
+    "title": "-15€ por compras de 90€",
+    "description": "Consigue 15€ de descuento en compras iguales o superiores a 90€",
+    "terms": "*Promoción válida hasta el 09/06/2026 *Descuento aplicado en artículos señalados *Descuento aplicado sobre PVP inicial",
+    "startDate": "2026-06-08T07:17:00+00:00",
+    "endDate": "2026-06-09T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.dooerssneakers.com/es-es/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=47675&awinaffid=2861861&ued=https%3A%2F%2Fwww.dooerssneakers.com%2Fes-es%2F",
+    "dateAdded": "2026-06-08T07:17:48+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938343,
+    "type": "promotion",
+    "advertiser": {
+      "id": 8391,
+      "name": "Douglas_NL",
+      "joined": false
+    },
+    "title": "25% op alles van Clarins bij aankoop vanaf € 25,- *",
+    "description": "25% off all Clarins products on orders of €25 or more*",
+    "terms": "*Uitgesloten zijn producten verzonden door Douglas-partners en reeds afgeprijsde artikelen.",
+    "startDate": "2026-06-08T07:16:00+00:00",
+    "endDate": "2026-06-21T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.douglas.nl/nl/b/clarins/b0140",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8391&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.nl%2Fnl%2Fb%2Fclarins%2Fb0140",
+    "dateAdded": "2026-06-08T07:16:28+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938341,
+    "type": "voucher",
+    "advertiser": {
+      "id": 9449,
+      "name": "Douglas_IT",
+      "joined": false
+    },
+    "title": "-20% di sconto per ordini di almeno 69€*",
+    "description": "-20% discount for orders of at least 69€*",
+    "terms": "*Offerta valida dall'8 al 15 giugno su douglas.it e APP Douglas. Non cumulabile con prodotti già scontati e con promozioni o buoni in corso di validità. I prodotti Douglas Partner sono esclusi. \nPromozione non valida sui seguenti brand: Abercrombie & Fitch, about-face, ACQUA DI PARMA, Alma K, ALPS, Arabian Oud, ARIANA GRANDE, Atyab Al Marshoud, BALMAIN HAIR, Balmain Paris, bellaoggi, BETTER WORLD FRAGRANCE HOUSE BY DRAKE, Borbonese, Catrice, CHANEL, CLIOMAKEUP, COACH, cosmic kylie jenner, Creed, CURAPROX, DEAR DAHLIA, DOUGLAS COLLECTION, Dr. Susanne von Schmiedeberg DERMACOSMETICS, Dropology, drybar, dyson, e.l.f., eilish Billie Eilish, essence, eveir, FARMACY, Federico Cantelli, FIT.FE BY FEDE, florence by mills, FRAIS MONDE, GARNIER, ghd, Giardini Di Toscana, Gisada, GUESS, GULF ORCHID FRAGRANCES, HAIR Rituel by Sisley, haruharu, HAZE, I Love Cosmetics, ioma PARIS, JARDIN Bohème, JCOL BROWS, Jiuma, KEYD, KEYS SOULCARE, KHLOÉ KARDASHIAN, KYLIE COSMETICS, KYLIE SKIN, LA MER, LA PRAIRIE, LA ROCHE POSAY, LÁVIKA, LEGAMI, Logevy, LOLAVIE , L'Oréal Paris, MAISON BIO, MAX&Co., milk_shake, MORPHE, nabeel, NEST NEW YORK, Niegeloh, one.two.free!, Orebella, OVERSKIN, PERDERMA, PERLIER, REVOX B77, RITUALS..., Rodial, RYBELLA, sisley, Smashbox, SOL DE JANEIRO, SWEED, SYNERGY THERM, T3, THE MERCHANT OF VENICE, The Ordinary., tomorrowlabs, TULA, TYPEBEA, URIAGE EAU THERMALE, VERALAB, VICHY, Victoria's Secret, solari.",
+    "startDate": "2026-06-08T07:15:00+00:00",
+    "endDate": "2026-06-15T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.douglas.it/it/c/promozioni/promo/0594",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=9449&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.it%2Fit%2Fc%2Fpromozioni%2Fpromo%2F0594",
+    "dateAdded": "2026-06-08T07:15:30+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 11,
+          "name": "Italy",
+          "countryCode": "IT"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938339,
+    "type": "promotion",
+    "advertiser": {
+      "id": 8391,
+      "name": "Douglas_NL",
+      "joined": false
+    },
+    "title": "20% op alles van Lancôme bij aankoop vanaf € 25,-*",
+    "description": "20% off all Lancôme products on orders of €25 or more*",
+    "terms": "*Uitgesloten zijn producten verzonden door Douglas-partners en reeds afgeprijsde artikelen.",
+    "startDate": "2026-06-08T07:15:00+00:00",
+    "endDate": "2026-06-21T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.douglas.nl/nl/b/lancome/b0114",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8391&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.nl%2Fnl%2Fb%2Flancome%2Fb0114",
+    "dateAdded": "2026-06-08T07:15:12+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938337,
+    "type": "voucher",
+    "advertiser": {
+      "id": 8391,
+      "name": "Douglas_NL",
+      "joined": false
+    },
+    "title": "Douglas App Days: 20% op alles in de app met de code APPONLY*",
+    "description": "Douglas App Days: 20% off everything in the app with the code APPONLY*",
+    "terms": "*M.u.v. About-face, Balmain, BWFH, CHANEL, Clé de Peau Beauté, Dolce & Gabbana Beauty, Douglas Collection, Fenty Beauty, Haze, Iräye, Khloé Kardashian, Kiehl’s, Kylie Jenner Fragrances, Lolavie, Marie-Stella-Maris, Miu Miu, NARS, NEST New York, NYX Professional Makeup, Ole Henriksen, Orebella, Pink Gellac, Rare Beauty, Rituals, Slickhair, Sundae, Sunmatters, The Ordinary, drogisterijmerken, haarstylingtools, kappersmerken, nichegeuren, producten verzonden door Douglas-partners en reeds afgeprijsde artikelen.",
+    "startDate": "2026-06-08T07:13:00+00:00",
+    "endDate": "2026-06-12T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.douglas.nl/nl/c/douglas-services/douglas-app/2605",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8391&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.nl%2Fnl%2Fc%2Fdouglas-services%2Fdouglas-app%2F2605",
+    "dateAdded": "2026-06-08T07:13:49+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938335,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "SoloCam S340 (pack de 4 caméras) + HomeBase S380 + Disque dur 1 To - €675(€453.96off) w/Code: WS24T81703W1-4-T80303D1-1-T80301D1-85-1",
+    "description": "SoloCam S340 (pack de 4 caméras) + HomeBase S380 + Disque dur 1 To - €675(€453.96off) w/Code: WS24T81703W1-4-T80303D1-1-T80301D1-85-1",
+    "terms": "/",
+    "startDate": "2026-06-08T07:13:00+00:00",
+    "endDate": "2026-06-13T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.eufy.com/eu-fr/products/bundle-t81703w1-4-t80303d1-1-t80301d1-85-1",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fbundle-t81703w1-4-t80303d1-1-t80301d1-85-1",
+    "dateAdded": "2026-06-08T07:13:47+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938331,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "Caméra de surveillance eufyCam S4 (Pack de 4 caméras) - €1088.99(€307.01off) w/Code: WS24T817204",
+    "description": "Caméra de surveillance eufyCam S4 (Pack de 4 caméras) - €1088.99(€307.01off) w/Code: WS24T817204",
+    "terms": "/",
+    "startDate": "2026-06-08T07:13:00+00:00",
+    "endDate": "2026-07-05T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.eufy.com/eu-fr/products/bundle-t81723w1-4",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fbundle-t81723w1-4",
+    "dateAdded": "2026-06-08T07:13:04+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938329,
+    "type": "promotion",
+    "advertiser": {
+      "id": 8391,
+      "name": "Douglas_NL",
+      "joined": false
+    },
+    "title": "20% op bijna alle geuren en geursets en 25% op geuren van Armani, BOSS, Jean Paul Gaultier, Versace, YSL bij aankoop vanaf € 25,-*",
+    "description": "20% off almost all fragrances and fragrance sets, and 25% off fragrances from Armani, BOSS, Jean Paul Gaultier, Versace, and YSL with a minimum purchase of €25",
+    "terms": "*M.u.v. geselecteerde merken, producten verzonden door Douglas-partners en reeds afgeprijsde artikelen.",
+    "startDate": "2026-06-08T07:12:00+00:00",
+    "endDate": "2026-06-21T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.douglas.nl/nl/c/parfum/01",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8391&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.nl%2Fnl%2Fc%2Fparfum%2F01",
+    "dateAdded": "2026-06-08T07:12:20+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938327,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "eufyCam C37 (pack de 2) - €111.99(€86.01off) w/Code: WS24T814X321-2",
+    "description": "eufyCam C37 (pack de 2) - €111.99(€86.01off) w/Code: WS24T814X321-2",
+    "terms": "/",
+    "startDate": "2026-06-08T07:12:00+00:00",
+    "endDate": "2026-07-05T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.eufy.com/eu-fr/products/bundle-t814x321-2",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fbundle-t814x321-2",
+    "dateAdded": "2026-06-08T07:12:19+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938325,
+    "type": "voucher",
+    "advertiser": {
+      "id": 98783,
+      "name": "Sunshine Diamonds",
+      "joined": false
+    },
+    "title": "SD15 – Enjoy 15% Off Sitewide",
+    "description": "Treat yourself to timeless diamond jewellery with 15% off across the entire Sunshine Diamonds collection. Use code SD15 at checkout to save on your favourite pieces.",
+    "terms": "NA",
+    "startDate": "2026-06-08T07:10:00+00:00",
+    "endDate": "2026-08-30T23:58:00+00:00",
+    "status": "active",
+    "url": "https://www.sunshinediamonds.com/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=98783&awinaffid=2861861&ued=https%3A%2F%2Fwww.sunshinediamonds.com%2F",
+    "dateAdded": "2026-06-08T07:10:27+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938323,
+    "type": "promotion",
+    "advertiser": {
+      "id": 8391,
+      "name": "Douglas_NL",
+      "joined": false
+    },
+    "title": "2+1 op alles van DOUGLAS Collection* | Ontvang een cadeau met 3 mini’s bij besteding vanaf € 25,- op DOUGLAS Collection",
+    "description": "2+1 on everything from DOUGLAS Collection* | Receive a gift with 3 minis when you spend at least €25 on DOUGLAS Collection",
+    "terms": "*Excluding already discounted items.",
+    "startDate": "2026-06-08T07:09:00+00:00",
+    "endDate": "2026-06-21T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.douglas.nl/nl/b/douglas-collection/b9834",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8391&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.nl%2Fnl%2Fb%2Fdouglas-collection%2Fb9834",
+    "dateAdded": "2026-06-08T07:09:42+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938321,
+    "type": "promotion",
+    "advertiser": {
+      "id": 83587,
+      "name": "Vertbaudet_ES",
+      "joined": false
+    },
+    "title": "Toda la WEB con ENVÍO GRATIS",
+    "description": "Prolongamos también el Envío Gratis en TODA la web, no lo dejes escapar",
+    "terms": "Prórroga: Envío Gratis en Todo\nPrórroga: Válido del 01/06/2026 al 11/06/2026.\nPrórroga: Envío Gratis en Todo.",
+    "startDate": "2026-06-08T07:08:00+00:00",
+    "endDate": "2026-06-10T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.vertbaudet.es",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=83587&awinaffid=2861861&ued=https%3A%2F%2Fwww.vertbaudet.es",
+    "dateAdded": "2026-06-08T07:08:23+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938319,
+    "type": "voucher",
+    "advertiser": {
+      "id": 102421,
+      "name": "Megabad DE",
+      "joined": false
+    },
+    "title": "10% auf GROHE Duschen",
+    "description": "10% Rabatt auf ausgewählte GROHE Duschen bei MEGABAD.",
+    "terms": "Nur solange der Vorrat reicht. Gültig auf ausgewählte GROHE Duschen bei MEGABAD. Einlösung mit Actionscode GROHE10 im MEGABAD Webshop.",
+    "startDate": "2026-06-08T07:07:00+00:00",
+    "endDate": "2026-06-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.megabad.com/p/grohe10",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=102421&awinaffid=2861861&ued=https%3A%2F%2Fwww.megabad.com%2Fp%2Fgrohe10",
+    "dateAdded": "2026-06-08T07:07:36+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938315,
+    "type": "promotion",
+    "advertiser": {
+      "id": 83587,
+      "name": "Vertbaudet_ES",
+      "joined": false
+    },
+    "title": "Prolongamos los Días sin IVA",
+    "description": "No dejes escapar porque hemos prolongado los días sin IVA",
+    "terms": "Prórroga: Días Sin IVA\n\nPrórroga: Válido del 01/06/2026 al 11/06/2026.\nPrórroga: 21% de descuento en compras a partir de 8€ en toda la selección \"Días sin IVA\". Válido en los artículos señalados.",
+    "startDate": "2026-06-08T07:06:00+00:00",
+    "endDate": "2026-06-10T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.vertbaudet.es/shop/dias-sin-iva.htm",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=83587&awinaffid=2861861&ued=https%3A%2F%2Fwww.vertbaudet.es%2Fshop%2Fdias-sin-iva.htm",
+    "dateAdded": "2026-06-08T07:06:33+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938313,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "Caméra intérieure S350 (Pack de 2 caméras) - €149.99(€109.99off) w/Code: WS24FRADDON011",
+    "description": "Caméra intérieure S350 (Pack de 2 caméras) - €149.99(€109.99off) w/Code: WS24FRADDON011",
+    "terms": "/",
+    "startDate": "2026-06-08T07:04:00+00:00",
+    "endDate": "2026-07-05T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.eufy.com/eu-fr/products/bundle-t8416321-2",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fbundle-t8416321-2",
+    "dateAdded": "2026-06-08T07:04:34+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938311,
+    "type": "promotion",
+    "advertiser": {
+      "id": 14134,
+      "name": "Alltours DE",
+      "joined": false
+    },
+    "title": "Reiseziel der Woche: Thassos",
+    "description": "Jetzt Traumurlaub sichern!",
+    "terms": "",
+    "startDate": "2026-06-08T07:04:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.alltours.de/search?nodes=10191&travellers=25-1_25-2&rd=2026-10-31&airportCodes=DE&category=1&maxCategory=5&gl.group=1006",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=14134&awinaffid=2861861&ued=https%3A%2F%2Fwww.alltours.de%2Fsearch%3Fnodes%3D10191%26travellers%3D25-1_25-2%26rd%3D2026-10-31%26airportCodes%3DDE%26category%3D1%26maxCategory%3D5%26gl.group%3D1006",
+    "dateAdded": "2026-06-08T07:04:16+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938309,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "eufy Security eufyCam C35 Kit de 4 caméras - €199(€180off) w/Code: WS24E8110425",
+    "description": "eufy Security eufyCam C35 Kit de 4 caméras - €199(€180off) w/Code: WS24E8110425",
+    "terms": "/",
+    "startDate": "2026-06-08T07:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.eufy.com/eu-fr/products/e8110425",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fe8110425",
+    "dateAdded": "2026-06-08T07:00:11+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938305,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "Caméra de sécurité extérieure sans fil SoloCam S340 avec double objectif et panneau solaire - €126(€73.99off) w/Code: WS24FRADDON003",
+    "description": "Caméra de sécurité extérieure sans fil SoloCam S340 avec double objectif et panneau solaire - €126(€73.99off) w/Code: WS24FRADDON003",
+    "terms": "/",
+    "startDate": "2026-06-08T06:57:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.eufy.com/eu-fr/products/t81703w1",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Ft81703w1",
+    "dateAdded": "2026-06-08T06:57:27+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938303,
+    "type": "voucher",
+    "advertiser": {
+      "id": 103269,
+      "name": "Eufy FR",
+      "joined": false
+    },
+    "title": "eufy Système de sécurité NVR PoE S4, 2 caméras Bullet PTZ et 2 Bullet - €699(€400off) w/Code: WS24E8E00323",
+    "description": "eufy Système de sécurité NVR PoE S4, 2 caméras Bullet PTZ et 2 Bullet - €699(€400off) w/Code: WS24E8E00323",
+    "terms": "/",
+    "startDate": "2026-06-08T06:56:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.eufy.com/eu-fr/products/e8e00323",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103269&awinaffid=2861861&ued=https%3A%2F%2Fwww.eufy.com%2Feu-fr%2Fproducts%2Fe8e00323",
+    "dateAdded": "2026-06-08T06:56:55+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938297,
+    "type": "promotion",
+    "advertiser": {
+      "id": 121144,
+      "name": "Juskys FR",
+      "joined": false
+    },
+    "title": "Offres de juin",
+    "description": "Jusqu'à -70 % de réduction sur une sélection d'articles",
+    "terms": "-",
+    "startDate": "2026-06-08T06:46:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://juskys.fr/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=121144&awinaffid=2861861&ued=https%3A%2F%2Fjuskys.fr%2F",
+    "dateAdded": "2026-06-08T06:46:11+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938295,
+    "type": "voucher",
+    "advertiser": {
+      "id": 14119,
+      "name": "Bear Family Records Store DE",
+      "joined": false
+    },
+    "title": "10% Rabatt ab einem MBW von 10€ mit dem Code: BEAR2610",
+    "description": "10% Rabatt ab einem MBW von 10€ mit dem Code: BEAR2610",
+    "terms": "Mit Mindestbestellwert (Höhe bitte im nächsten Schritt eintragen), Für \nNeukunden, Für Bestandskunden, Diese Rabattaktion ist nicht mit anderen \nRabatten, Aktionen, Gutscheinen oder Sonderangeboten kombinierbar., Nicht \nrückwirkend, Keine Barauszahlung, Nur im genannten Zeitraum gültig, Es \ngilt: Zwischenverkauf und Irrtümer vorbehalten., Wir behalten uns das Recht \nvor, die Teilnahmebedingungen der Aktion jederzeit ohne Angabe von Gründen \nzu ändern oder die Aktion zu beenden.",
+    "startDate": "2026-06-08T06:42:00+00:00",
+    "endDate": "2026-07-07T21:41:00+00:00",
+    "status": "active",
+    "url": "https://www.bear-family.de/?utm_source=adcell&utm_medium=affiliate&utm_campaign=bear2610-06.2026",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=14119&awinaffid=2861861&ued=https%3A%2F%2Fwww.bear-family.de%2F%3Futm_source%3Dadcell%26utm_medium%3Daffiliate%26utm_campaign%3Dbear2610-06.2026",
+    "dateAdded": "2026-06-08T06:42:57+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938293,
+    "type": "promotion",
+    "advertiser": {
+      "id": 17291,
+      "name": "Douglas_HU",
+      "joined": false
+    },
+    "title": "KOSZMETIKAI AKCIÓ: KIVÁLASZTOTT TERMÉKEK FANTASZTIKUS ÁRAKON!*",
+    "description": "BEAUTY SALE: SELECTED PRODUCTS FOR FANTASTIC PRICES!*  Date: 08.06.2026 - 21.06.2026",
+    "terms": "*Az akció 2026. június 8-tól június 21-ig, a hónap végéig érvényes az üzletekben, valamint online a Douglas alkalmazásban a https://www.douglas.hu/hu/c/akcio/beauty-outlet/0term5ékereoldalista/0 oldalon. Az akció nem vonatkozik a már kedvezményes árú termékekre, a leárazott termékekre és a partnertermékekre, és más akciókkal nem összevonható. Az üzletek választéka változhat. Az offline promóciós ár változhat, a részleteket kérjük, olvassa el az utalványainkon.",
+    "startDate": "2026-06-08T06:30:00+00:00",
+    "endDate": "2026-06-21T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.douglas.hu/hu/c/akcio/beauty-outlet/0581",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17291&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.hu%2Fhu%2Fc%2Fakcio%2Fbeauty-outlet%2F0581",
+    "dateAdded": "2026-06-08T06:30:49+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938289,
+    "type": "voucher",
+    "advertiser": {
+      "id": 106021,
+      "name": "Artsauna DE",
+      "joined": false
+    },
+    "title": "Juni-Sale",
+    "description": "-20% auf alles mit dem Code: JUNI",
+    "terms": "-",
+    "startDate": "2026-06-08T06:24:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://artsauna.de/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=106021&awinaffid=2861861&ued=https%3A%2F%2Fartsauna.de%2F",
+    "dateAdded": "2026-06-08T06:24:04+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938287,
+    "type": "promotion",
+    "advertiser": {
+      "id": 17111,
+      "name": "Douglas_CZ",
+      "joined": false
+    },
+    "title": "VÝPRODEJ KOSMETIKY: VYBRANÉ PRODUKTY ZA SKVĚLÉ CENY!*",
+    "description": "BEAUTY SALE: SELECTED PRODUCTS AT FANTASTIC PRICES!*  Date: 08.06.2026 - 11.06.2026",
+    "terms": "*Akce platí od 8. do 21. června 2026 nebo do vyprodání zásob, a to v kamenných prodejnách u produktů označených jako součást této akce a online i v aplikaci Douglas u produktů uvedených na stránce https://www.douglas.cz/cs/c/sale/beauty-outlet/0581. Sleva se nevztahuje na již zlevněné zboží ani na produkty označené jako „Douglas Partner“ a nelze ji kombinovat s jinými akcemi. Dostupnost produktů online a v jednotlivých obchodech se může lišit. Více informací získáte v našich obchodech.",
+    "startDate": "2026-06-08T06:24:00+00:00",
+    "endDate": "2026-06-11T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.douglas.cz/cs/c/sale/beauty-outlet/0581",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17111&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.cz%2Fcs%2Fc%2Fsale%2Fbeauty-outlet%2F0581",
+    "dateAdded": "2026-06-08T06:24:00+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938277,
+    "type": "voucher",
+    "advertiser": {
+      "id": 13077,
+      "name": "Zwilling ES",
+      "joined": false
+    },
+    "title": "295 años de ZWILLING. Celebra con nosotros.",
+    "description": "Disfruta de un 20% en toda la web y -5% adicional en productos ya en oferta",
+    "terms": "*Oferta válida hasta 15/06/2026 o hasta agotar existencias. Válida solo para compras online en www.zwilling.com/es/. Introduzca el cupón al momento de tramitar la compra en el carrito de compras para obtener el descuento.",
+    "startDate": "2026-06-08T05:18:00+00:00",
+    "endDate": "2026-06-15T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.zwilling.com/es/?utm_sourceutm_source=awin&utm_medium=affiliate&utm_campaign=all_bday_none_all_cnv_orders_promo_es_es",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=13077&awinaffid=2861861&ued=https%3A%2F%2Fwww.zwilling.com%2Fes%2F%3Futm_sourceutm_source%3Dawin%26utm_medium%3Daffiliate%26utm_campaign%3Dall_bday_none_all_cnv_orders_promo_es_es",
+    "dateAdded": "2026-06-08T05:18:48+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938267,
+    "type": "voucher",
+    "advertiser": {
+      "id": 82995,
+      "name": "HB Digital Inc (DealFuel)",
+      "joined": false
+    },
+    "title": "Extra 10% OFF On Your First DealFuel Order",
+    "description": "Extra 10% OFF on the customer's first purchase on DealFuel.",
+    "terms": "Offer valid only on the customer's first purchase.",
+    "startDate": "2026-06-08T04:37:00+00:00",
+    "endDate": "2026-12-31T04:35:00+00:00",
+    "status": "active",
+    "url": "https://dealfuel.com/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=82995&awinaffid=2861861&ued=https%3A%2F%2Fdealfuel.com%2F",
+    "dateAdded": "2026-06-08T04:37:53+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938259,
+    "type": "promotion",
+    "advertiser": {
+      "id": 122886,
+      "name": "Cybercart PL",
+      "joined": false
+    },
+    "title": "Magnetic Rowing Machine App Compatible €189,99",
+    "description": "Track progress and workouts via app — yours today for €189,99.",
+    "terms": "NONE",
+    "startDate": "2026-06-07T22:00:00+00:00",
+    "endDate": "2027-12-31T22:59:00+00:00",
+    "status": "active",
+    "url": "https://www.cybercart.com/products/rowing-machine-full-body-magnetic-resistance-app",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122886&awinaffid=2861861&campaign=rowing+machine&ued=https%3A%2F%2Fwww.cybercart.com%2Fproducts%2Frowing-machine-full-body-magnetic-resistance-app",
+    "dateAdded": "2026-06-08T03:52:08+00:00",
+    "campaign": "rowing machine",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938257,
+    "type": "promotion",
+    "advertiser": {
+      "id": 122886,
+      "name": "Cybercart PL",
+      "joined": false
+    },
+    "title": "IX5S Electric Scooter Smooth Comfort €499,99",
+    "description": "Strong 1000W motor delivers powerful acceleration — get it now for only €499,99.",
+    "terms": "NONE",
+    "startDate": "2026-06-07T22:00:00+00:00",
+    "endDate": "2028-01-31T22:59:00+00:00",
+    "status": "active",
+    "url": "https://www.cybercart.com/products/ix5s-electric-scooter-1000w-65km",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122886&awinaffid=2861861&campaign=ix5s+electric+scooter&ued=https%3A%2F%2Fwww.cybercart.com%2Fproducts%2Fix5s-electric-scooter-1000w-65km",
+    "dateAdded": "2026-06-08T03:44:24+00:00",
+    "campaign": "ix5s electric scooter",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938249,
+    "type": "promotion",
+    "advertiser": {
+      "id": 122886,
+      "name": "Cybercart PL",
+      "joined": false
+    },
+    "title": "W12 Electric Scooter Smart Choice €980,00",
+    "description": "Ride longer with a 52V 25Ah battery — yours today for €980,00.",
+    "terms": "NONE",
+    "startDate": "2026-06-07T22:00:00+00:00",
+    "endDate": "2027-12-31T22:59:00+00:00",
+    "status": "active",
+    "url": "https://www.cybercart.com/products/w12-dual-motor-electric-scooter-70kmh-100km",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122886&awinaffid=2861861&campaign=w12+electric+scooter&ued=https%3A%2F%2Fwww.cybercart.com%2Fproducts%2Fw12-dual-motor-electric-scooter-70kmh-100km",
+    "dateAdded": "2026-06-08T03:40:56+00:00",
+    "campaign": "w12 electric scooter",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938247,
+    "type": "promotion",
+    "advertiser": {
+      "id": 122886,
+      "name": "Cybercart PL",
+      "joined": false
+    },
+    "title": "W8 Electric Scooter Everyday Freedom €339,00",
+    "description": "Fast and efficient commuting with balanced top speed — available for €339,00.",
+    "terms": "NONE",
+    "startDate": "2026-06-07T22:00:00+00:00",
+    "endDate": "2028-07-31T21:59:00+00:00",
+    "status": "active",
+    "url": "http://cybercart.com/products/w8-electric-scooter-750w-motor",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122886&awinaffid=2861861&campaign=w8+electric+scooter&ued=http%3A%2F%2Fcybercart.com%2Fproducts%2Fw8-electric-scooter-750w-motor",
+    "dateAdded": "2026-06-08T03:37:13+00:00",
+    "campaign": "w8 electric scooter",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938239,
+    "type": "promotion",
+    "advertiser": {
+      "id": 122886,
+      "name": "Cybercart PL",
+      "joined": false
+    },
+    "title": "W6 Electric Scooter Urban Explorer €249,99",
+    "description": "500W motor in a foldable frame — powerful mobility for just €249,99.",
+    "terms": "NONE",
+    "startDate": "2026-06-07T22:00:00+00:00",
+    "endDate": "2028-01-01T22:59:00+00:00",
+    "status": "active",
+    "url": "https://www.cybercart.com/products/500w-electric-scooter-30kmh-37km",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122886&awinaffid=2861861&campaign=w6+electric+scooter&ued=https%3A%2F%2Fwww.cybercart.com%2Fproducts%2F500w-electric-scooter-30kmh-37km",
+    "dateAdded": "2026-06-08T02:56:38+00:00",
+    "campaign": "w6 electric scooter",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938223,
+    "type": "voucher",
+    "advertiser": {
+      "id": 97993,
+      "name": "VapeSourcing uk",
+      "joined": false
+    },
+    "title": "32% off Geekvape Aegis Solo 3 (S100) Box Mod, only £22.99",
+    "description": "32% off Geekvape Aegis Solo 3 (S100) Box Mod, only £22.99",
+    "terms": "Cannot be used together with other voucher codes.",
+    "startDate": "2026-06-08T02:27:00+00:00",
+    "endDate": "2027-06-30T02:26:00+00:00",
+    "status": "active",
+    "url": "https://vapesourcing.uk/geekvape-aegis-solo-3-mod.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=97993&awinaffid=2861861&ued=https%3A%2F%2Fvapesourcing.uk%2Fgeekvape-aegis-solo-3-mod.html",
+    "dateAdded": "2026-06-08T02:27:22+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938211,
+    "type": "promotion",
+    "advertiser": {
+      "id": 122688,
+      "name": "Revive Collagen US",
+      "joined": false
+    },
+    "title": "FREE SHIPPING ON ORDERS OVER $75",
+    "description": "FREE SHIPPING ON ORDERS OVER $75",
+    "terms": "",
+    "startDate": "2026-06-08T01:18:00+00:00",
+    "endDate": "2027-06-30T01:17:00+00:00",
+    "status": "active",
+    "url": "https://us.revivecollagen.com/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122688&awinaffid=2861861&ued=https%3A%2F%2Fus.revivecollagen.com%2F",
+    "dateAdded": "2026-06-08T01:18:06+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938209,
+    "type": "promotion",
+    "advertiser": {
+      "id": 122688,
+      "name": "Revive Collagen US",
+      "joined": false
+    },
+    "title": "25% OFF YOUR FIRST 4 SUBSCRIPTION ORDERS USE CODE 'NEW25'",
+    "description": "25% OFF YOUR FIRST 4 SUBSCRIPTION ORDERS USE CODE 'NEW25'",
+    "terms": "",
+    "startDate": "2026-06-08T01:17:00+00:00",
+    "endDate": "2027-06-30T01:17:00+00:00",
+    "status": "active",
+    "url": "https://us.revivecollagen.com",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122688&awinaffid=2861861&ued=https%3A%2F%2Fus.revivecollagen.com",
+    "dateAdded": "2026-06-08T01:17:34+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938207,
+    "type": "promotion",
+    "advertiser": {
+      "id": 59763,
+      "name": "isinwheel.ES",
+      "joined": false
+    },
+    "title": "Potente bicicleta Fat Bike M60: neumáticos todoterreno, autonomía de 105 km y batería extraíble.",
+    "description": "€898,99 to get Potente bicicleta Fat Bike M60: neumáticos todoterreno, autonomía de 105 km y batería extraíble.",
+    "terms": "NONE",
+    "startDate": "2026-06-08T01:16:00+00:00",
+    "endDate": "2027-12-31T15:59:00+00:00",
+    "status": "active",
+    "url": "https://www.isinwheel.es/products/potente-bicicleta-fat-bike-m60-neumaticos-todoterreno-autonomia-de-105-km-y-bateria-extraible?variant=48524354158775",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=59763&awinaffid=2861861&campaign=m60+electric+bike&ued=https%3A%2F%2Fwww.isinwheel.es%2Fproducts%2Fpotente-bicicleta-fat-bike-m60-neumaticos-todoterreno-autonomia-de-105-km-y-bateria-extraible%3Fvariant%3D48524354158775",
+    "dateAdded": "2026-06-08T01:16:05+00:00",
+    "campaign": "m60 electric bike",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938203,
+    "type": "promotion",
+    "advertiser": {
+      "id": 59763,
+      "name": "isinwheel.ES",
+      "joined": false
+    },
+    "title": "EB3 Bicicleta Eléctrica Todo Terreno para Desplazamientos Urbanos y Aventuras Off-Road",
+    "description": "€628,99 to get EB3 Bicicleta Eléctrica Todo Terreno para Desplazamientos Urbanos y Aventuras Off-Road",
+    "terms": "NONE",
+    "startDate": "2026-06-08T01:12:00+00:00",
+    "endDate": "2027-12-31T15:59:00+00:00",
+    "status": "active",
+    "url": "https://www.isinwheel.es/products/eb3-bicicleta-electrica-todo-terreno-para-desplazamientos-urbanos-y-aventuras-off-road?variant=48520443494583",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=59763&awinaffid=2861861&campaign=eb3+electric+bike&ued=https%3A%2F%2Fwww.isinwheel.es%2Fproducts%2Feb3-bicicleta-electrica-todo-terreno-para-desplazamientos-urbanos-y-aventuras-off-road%3Fvariant%3D48520443494583",
+    "dateAdded": "2026-06-08T01:12:19+00:00",
+    "campaign": "eb3 electric bike",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938199,
+    "type": "promotion",
+    "advertiser": {
+      "id": 113602,
+      "name": "Tropeaka AU",
+      "joined": false
+    },
+    "title": "Tropeaka x Martha K - Hydratee",
+    "description": "Make hydration feel like a treat. Hydrate is a peach-flavoured electrolyte drink mix, created in collaboration with Martha Kalifatidis, to make staying hydrated feel light, easy and genuinely delicious.",
+    "terms": "",
+    "startDate": "2026-06-08T00:56:00+00:00",
+    "endDate": "2027-06-30T00:55:00+00:00",
+    "status": "active",
+    "url": "https://tropeaka.com.au/products/hydrate-peach",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=113602&awinaffid=2861861&ued=https%3A%2F%2Ftropeaka.com.au%2Fproducts%2Fhydrate-peach",
+    "dateAdded": "2026-06-08T00:56:29+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938197,
+    "type": "promotion",
+    "advertiser": {
+      "id": 118517,
+      "name": "Veloforte",
+      "joined": false
+    },
+    "title": "Subscribe & Save 15% on every order",
+    "description": "Subscribe & Save 15% on every order",
+    "terms": "",
+    "startDate": "2026-06-08T00:14:00+00:00",
+    "endDate": "2027-06-29T00:14:00+00:00",
+    "status": "active",
+    "url": "https://veloforte.com",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=118517&awinaffid=2861861&ued=https%3A%2F%2Fveloforte.com",
+    "dateAdded": "2026-06-08T00:14:47+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938195,
+    "type": "promotion",
+    "advertiser": {
+      "id": 118517,
+      "name": "Veloforte",
+      "joined": false
+    },
+    "title": "Free UK delivery on orders over £40",
+    "description": "Enjoy Free UK delivery on orders over £40",
+    "terms": "",
+    "startDate": "2026-06-08T00:14:00+00:00",
+    "endDate": "2027-06-30T00:13:00+00:00",
+    "status": "active",
+    "url": "https://veloforte.com/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=118517&awinaffid=2861861&ued=https%3A%2F%2Fveloforte.com%2F",
+    "dateAdded": "2026-06-08T00:14:22+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938193,
+    "type": "promotion",
+    "advertiser": {
+      "id": 118517,
+      "name": "Veloforte",
+      "joined": false
+    },
+    "title": "Bestsellers",
+    "description": "With over 30k+ five star reviews and 46 Great Taste Awards, here are our best selling products across our range. From nutritionally complete breakfasts to protein powders, energy bars, gut-health and more – discover the ultimate upgrade for your nutrition.",
+    "terms": "",
+    "startDate": "2026-06-08T00:13:00+00:00",
+    "endDate": "2027-06-30T00:13:00+00:00",
+    "status": "active",
+    "url": "https://veloforte.com/collections/our-bestsellers",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=118517&awinaffid=2861861&ued=https%3A%2F%2Fveloforte.com%2Fcollections%2Four-bestsellers",
+    "dateAdded": "2026-06-08T00:13:46+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938191,
+    "type": "promotion",
+    "advertiser": {
+      "id": 118517,
+      "name": "Veloforte",
+      "joined": false
+    },
+    "title": "MagnesiumPro - 4-in-1",
+    "description": "An advanced 4-in-1 magnesium complex, enhanced with plant-based vitamins and botanicals – daily support to relax mind & muscles, balance metabolism & energy and aid restful sleep.",
+    "terms": "",
+    "startDate": "2026-06-08T00:13:00+00:00",
+    "endDate": "2027-06-30T00:12:00+00:00",
+    "status": "active",
+    "url": "https://veloforte.com/products/magnesium-pro",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=118517&awinaffid=2861861&ued=https%3A%2F%2Fveloforte.com%2Fproducts%2Fmagnesium-pro",
+    "dateAdded": "2026-06-08T00:13:08+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938183,
+    "type": "promotion",
+    "advertiser": {
+      "id": 96131,
+      "name": "TopCoat Products",
+      "joined": false
+    },
+    "title": "Shop Now During Our Summer Sales Event!",
+    "description": "Shop Now During Our Summer Sales Event! Buy Any 16oz F11 Product  Get Your Choice Of:  Gla-C 50% OFF TireDress 50% OFF Spritz 50% OFF",
+    "terms": "",
+    "startDate": "2026-06-07T22:30:00+00:00",
+    "endDate": "2026-06-12T06:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://topcoatproducts.com/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=96131&awinaffid=2861861&ued=https%3A%2F%2Ftopcoatproducts.com%2F",
+    "dateAdded": "2026-06-07T22:30:30+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938181,
+    "type": "voucher",
+    "advertiser": {
+      "id": 96131,
+      "name": "TopCoat Products",
+      "joined": false
+    },
+    "title": "Get $5 Off Gla-C 16oz with code CLEAR5",
+    "description": "Get $5 Off Gla-C 16oz with code CLEAR5",
+    "terms": "Offers cannot be combined",
+    "startDate": "2026-06-07T22:29:00+00:00",
+    "endDate": "2026-07-01T06:59:00+00:00",
+    "status": "active",
+    "url": "https://topcoatproducts.com/products/topcoat-gla-c?srsltid=AfmBOoqHkmcYgMKfL9kPVcPlv6k-3O1Cy6gltoJy-hj7rrr_wSIff8sD",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=96131&awinaffid=2861861&ued=https%3A%2F%2Ftopcoatproducts.com%2Fproducts%2Ftopcoat-gla-c%3Fsrsltid%3DAfmBOoqHkmcYgMKfL9kPVcPlv6k-3O1Cy6gltoJy-hj7rrr_wSIff8sD",
+    "dateAdded": "2026-06-07T22:29:11+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938179,
+    "type": "voucher",
+    "advertiser": {
+      "id": 96131,
+      "name": "TopCoat Products",
+      "joined": false
+    },
+    "title": "Get 15% Off Crystaleen",
+    "description": "Get 15% Off Crystaleen",
+    "terms": "Offers cannot be combined",
+    "startDate": "2026-06-07T22:27:00+00:00",
+    "endDate": "2026-07-01T06:59:00+00:00",
+    "status": "active",
+    "url": "https://topcoatproducts.com/discount/PROTECTION15?redirect=%2Fproducts%2Ftopcoat-crystaleen-advanced-molomer-technology%3Fvariant%3D43192173920437",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=96131&awinaffid=2861861&ued=https%3A%2F%2Ftopcoatproducts.com%2Fdiscount%2FPROTECTION15%3Fredirect%3D%252Fproducts%252Ftopcoat-crystaleen-advanced-molomer-technology%253Fvariant%253D43192173920437",
+    "dateAdded": "2026-06-07T22:27:03+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938175,
+    "type": "voucher",
+    "advertiser": {
+      "id": 96131,
+      "name": "TopCoat Products",
+      "joined": false
+    },
+    "title": "Get 25% off F11Pro Kits",
+    "description": "Get 25% off F11Pro Kits",
+    "terms": "Offers cannot be combined",
+    "startDate": "2026-06-07T22:24:00+00:00",
+    "endDate": "2026-07-01T06:59:00+00:00",
+    "status": "active",
+    "url": "https://topcoatproducts.com/discount/PURPLE25",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=96131&awinaffid=2861861&ued=https%3A%2F%2Ftopcoatproducts.com%2Fdiscount%2FPURPLE25",
+    "dateAdded": "2026-06-07T22:24:18+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938103,
+    "type": "promotion",
+    "advertiser": {
+      "id": 115405,
+      "name": "Gini London",
+      "joined": false
+    },
+    "title": "15% OFF Summer Style",
+    "description": "Summer Offers\n\n15% OFF Summer Style, from beach to bar... Dresses, tops, trousers, shorts, swimwear and beachwear perfect for holidays, or just soaking up the sun at home.",
+    "terms": "N/A",
+    "startDate": "2026-06-07T23:00:00+00:00",
+    "endDate": "2026-06-22T22:59:00+00:00",
+    "status": "active",
+    "url": "https://ginilondon.com/collections/holiday-shop-promo",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=115405&awinaffid=2861861&campaign=summer+offers&ued=https%3A%2F%2Fginilondon.com%2Fcollections%2Fholiday-shop-promo",
+    "dateAdded": "2026-06-07T08:46:23+00:00",
+    "campaign": "summer offers",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 1,
+          "name": "United Kingdom",
+          "countryCode": "GB"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938101,
+    "type": "promotion",
+    "advertiser": {
+      "id": 119717,
+      "name": "BROTRAUSCH DE",
+      "joined": false
+    },
+    "title": "Brotrausch x OMNIA® Campingbrot-Backpaket (Limited Edition)",
+    "description": "Jetzt das Brotrausch x OMNIA® Campingbrot-Backpaket sichern – Limited Edition! In der Box enthalten: OMNIA® Classic Original 2L Campingbackofen (Wert: 44,90 €), 2 OMNIA® Silikonformen für perfekte Brote (Wert: 38,70 €) und 6 speziell ausgewählte Brotrausch-Backmischungen (Wert: 37,08 €). Gesamtwert: 120,68 €. Der OMNIA® Campingbackofen funktioniert auf nahezu jedem Gas-Kocher – kompakt, leicht und ohne Installation.",
+    "terms": "Nur solange der Vorrat reicht. Limited Edition.",
+    "startDate": "2026-06-06T22:00:00+00:00",
+    "endDate": "2026-08-07T21:59:00+00:00",
+    "status": "active",
+    "url": "https://brotrausch.com/products/brotrausch-omnia-campingbrot-backpaket",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=119717&awinaffid=2861861&ued=https%3A%2F%2Fbrotrausch.com%2Fproducts%2Fbrotrausch-omnia-campingbrot-backpaket",
+    "dateAdded": "2026-06-07T07:07:58+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3938099,
     "type": "promotion",
     "advertiser": {
@@ -93,32 +1836,27 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3938093,
-    "type": "voucher",
+    "promotionId": 3938089,
+    "type": "promotion",
     "advertiser": {
-      "id": 76364,
-      "name": "SIRUI",
+      "id": 119869,
+      "name": "Lojas Lebes BR",
       "joined": false
     },
-    "title": "Get 10% off when your order is over $800",
-    "description": "Get 10% off when your order is over $800",
-    "terms": "No cheating",
-    "startDate": "2026-06-07T01:34:00+00:00",
-    "endDate": "2026-06-07T15:59:00+00:00",
+    "title": "Ofertão",
+    "description": "Geladeira Frost Free 2 Portas 512L Brastemp BRM62AB Branca Bivolt R$: 3.499,00",
+    "terms": "Oferta valida enquanto durarem os estoques",
+    "startDate": "2026-06-08T04:00:00+00:00",
+    "endDate": "2026-06-09T02:59:00+00:00",
     "status": "expiringSoon",
-    "url": "https://store.sirui.com/pages/flash-sales",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=76364&awinaffid=2861861&ued=https%3A%2F%2Fstore.sirui.com%2Fpages%2Fflash-sales",
-    "dateAdded": "2026-06-07T01:34:08+00:00",
+    "url": "https://www.lebes.com.br/geladeira-frost-free-2-portas-512l-brastemp-brm62ab-branca-bivolt-p109592",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=119869&awinaffid=2861861&ued=https%3A%2F%2Fwww.lebes.com.br%2Fgeladeira-frost-free-2-portas-512l-brastemp-brm62ab-branca-bivolt-p109592",
+    "dateAdded": "2026-06-06T21:09:37+00:00",
     "campaign": "",
     "regions": {
       "all": true
     },
     "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
     "_fetchedStatus": "active"
   },
   {
@@ -349,7 +2087,7 @@
     "terms": "",
     "startDate": "2026-06-06T17:41:00+00:00",
     "endDate": "2026-06-14T17:40:00+00:00",
-    "status": "active",
+    "status": "expiringSoon",
     "url": "https://www.borghese.com/collections/gifts",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=59645&awinaffid=2861861&ued=https%3A%2F%2Fwww.borghese.com%2Fcollections%2Fgifts",
     "dateAdded": "2026-06-06T17:41:42+00:00",
@@ -358,6 +2096,272 @@
       "all": true
     },
     "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3938063,
+    "type": "voucher",
+    "advertiser": {
+      "id": 34947,
+      "name": "Xcaret Global",
+      "joined": false
+    },
+    "title": "20% OFF en Xel‑Há, Xplor, Xenotes y Xichén – Verano 2026",
+    "description": "Disfruta 20% de descuento en parques y tours seleccionados este verano utilizando el código SUMMER26 al momento de tu compra. Vive experiencias inolvidables llenas de aventura, naturaleza y cultura en los parques más icónicos de Xcaret. 20% OFF en Xel‑Há, Xplor, Xenotes y Xichén (Deluxe y Clásico). Válido comprando del 8 de junio al 31 de agosto de 2026. Requiere 5 días de precompra.",
+    "terms": "Válido comprando del 8 de junio al 31 de agosto de 2026. Requiere 5 días de precompra.",
+    "startDate": "2026-06-08T05:00:00+00:00",
+    "endDate": "2026-09-01T04:59:00+00:00",
+    "status": "active",
+    "url": "https://www.xcaret.com/es/promociones/verano-xcaret/?utm_campaign=SUMMER26",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=34947&awinaffid=2861861&campaign=summer+sale+2026&ued=https%3A%2F%2Fwww.xcaret.com%2Fes%2Fpromociones%2Fverano-xcaret%2F%3Futm_campaign%3DSUMMER26",
+    "dateAdded": "2026-06-06T16:01:50+00:00",
+    "campaign": "summer sale 2026",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 1,
+          "name": "United Kingdom",
+          "countryCode": "GB"
+        },
+        {
+          "id": 2,
+          "name": "Ireland",
+          "countryCode": "IE"
+        },
+        {
+          "id": 3,
+          "name": "United States of America",
+          "countryCode": "US"
+        },
+        {
+          "id": 4,
+          "name": "Canada",
+          "countryCode": "CA"
+        },
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        },
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        },
+        {
+          "id": 7,
+          "name": "Austria",
+          "countryCode": "AT"
+        },
+        {
+          "id": 8,
+          "name": "Belgium",
+          "countryCode": "BE"
+        },
+        {
+          "id": 9,
+          "name": "Netherlands",
+          "countryCode": "NL"
+        },
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        },
+        {
+          "id": 11,
+          "name": "Italy",
+          "countryCode": "IT"
+        },
+        {
+          "id": 13,
+          "name": "Finland",
+          "countryCode": "FI"
+        },
+        {
+          "id": 15,
+          "name": "Poland",
+          "countryCode": "PL"
+        },
+        {
+          "id": 16,
+          "name": "Switzerland",
+          "countryCode": "CH"
+        },
+        {
+          "id": 17,
+          "name": "Sweden",
+          "countryCode": "SE"
+        },
+        {
+          "id": 18,
+          "name": "Norway",
+          "countryCode": "NO"
+        },
+        {
+          "id": 19,
+          "name": "Denmark",
+          "countryCode": "DK"
+        },
+        {
+          "id": 20,
+          "name": "Australia",
+          "countryCode": "AU"
+        },
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        },
+        {
+          "id": 22,
+          "name": "Portugal",
+          "countryCode": "PT"
+        },
+        {
+          "id": 23,
+          "name": "Russia",
+          "countryCode": "RU"
+        },
+        {
+          "id": 24,
+          "name": "Czech Republic",
+          "countryCode": "CZ"
+        },
+        {
+          "id": 25,
+          "name": "Hungary",
+          "countryCode": "HU"
+        },
+        {
+          "id": 26,
+          "name": "Romania",
+          "countryCode": "RO"
+        },
+        {
+          "id": 27,
+          "name": "Slovakia",
+          "countryCode": "SK"
+        },
+        {
+          "id": 28,
+          "name": "Slovenia",
+          "countryCode": "SI"
+        },
+        {
+          "id": 29,
+          "name": "Ukraine",
+          "countryCode": "UA"
+        },
+        {
+          "id": 30,
+          "name": "Bulgaria",
+          "countryCode": "BG"
+        },
+        {
+          "id": 31,
+          "name": "Croatia",
+          "countryCode": "HR"
+        },
+        {
+          "id": 32,
+          "name": "Greece",
+          "countryCode": "GR"
+        },
+        {
+          "id": 33,
+          "name": "Latvia",
+          "countryCode": "LV"
+        },
+        {
+          "id": 34,
+          "name": "Lithuania",
+          "countryCode": "LT"
+        },
+        {
+          "id": 35,
+          "name": "New Zealand",
+          "countryCode": "NZ"
+        },
+        {
+          "id": 36,
+          "name": "South Africa",
+          "countryCode": "ZA"
+        },
+        {
+          "id": 37,
+          "name": "United Arab Emirates",
+          "countryCode": "AE"
+        },
+        {
+          "id": 38,
+          "name": "China",
+          "countryCode": "CN"
+        },
+        {
+          "id": 39,
+          "name": "India",
+          "countryCode": "IN"
+        },
+        {
+          "id": 40,
+          "name": "Japan",
+          "countryCode": "JP"
+        },
+        {
+          "id": 41,
+          "name": "Singapore",
+          "countryCode": "SG"
+        },
+        {
+          "id": 42,
+          "name": "Argentina",
+          "countryCode": "AR"
+        },
+        {
+          "id": 43,
+          "name": "Chile",
+          "countryCode": "CL"
+        },
+        {
+          "id": 44,
+          "name": "Colombia",
+          "countryCode": "CO"
+        },
+        {
+          "id": 45,
+          "name": "Mexico",
+          "countryCode": "MX"
+        },
+        {
+          "id": 46,
+          "name": "Peru",
+          "countryCode": "PE"
+        },
+        {
+          "id": 47,
+          "name": "Turkey",
+          "countryCode": "TR"
+        },
+        {
+          "id": 48,
+          "name": "Brazil USD",
+          "countryCode": "BU"
+        },
+        {
+          "id": 49,
+          "name": "Mexico pesos",
+          "countryCode": "XP"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
     "_fetchedStatus": "active"
   },
   {
@@ -389,64 +2393,6 @@
       ]
     },
     "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3938055,
-    "type": "voucher",
-    "advertiser": {
-      "id": 18417,
-      "name": "Samsung FR",
-      "joined": false
-    },
-    "title": "TV200",
-    "description": "200€ de remise au panier sur les TV TQ85QN70FAUXXC, TQ83S95FAEXXC, TQ83S90FAEXXC, TQ65S95FATXXC, TQ77S95FATXXC",
-    "terms": "Du 6 au 7 juin 2026 inclus, profitez de 200€ de remise sur les TV Neo QLED et OLED 2025 TQ85QN70FAUXXC, TQ83S95FAEXXC, TQ83S90FAEXXC, TQ65S95FATXXC et TQ77S95FATXXC à l’aide du code TV200 à saisir au panier. Cumulable avec les offres en cours (hors codes promotionnels). Offre valable sur le site Samsung.com et l'application Samsung Shop dans la limite des stocks disponibles.",
-    "startDate": "2026-06-06T12:57:00+00:00",
-    "endDate": "2026-06-07T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.samsung.com/fr/tvs/all-tvs/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=18417&awinaffid=2861861&ued=https%3A%2F%2Fwww.samsung.com%2Ffr%2Ftvs%2Fall-tvs%2F",
-    "dateAdded": "2026-06-06T12:57:52+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3938053,
-    "type": "voucher",
-    "advertiser": {
-      "id": 18417,
-      "name": "Samsung FR",
-      "joined": false
-    },
-    "title": "TV50",
-    "description": "50€ de remise au panier sur les TV TQ55QN70FAUXXC et TQ65QN70FAUXXC",
-    "terms": "Du 6 au 7 juin 2026 inclus, profitez de 50€ de remise sur les TV Neo QLED 2025 TQ55QN70FAUXXC et TQ65QN70FAUXXC à l’aide du code TV50 à saisir au panier. Cumulable avec les offres en cours (hors codes promotionnels). Offre valable sur le site Samsung.com et l'application Samsung Shop dans la limite des stocks disponibles.",
-    "startDate": "2026-06-06T12:46:00+00:00",
-    "endDate": "2026-06-07T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.samsung.com/fr/tvs/neo-qled-tv/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=18417&awinaffid=2861861&ued=https%3A%2F%2Fwww.samsung.com%2Ffr%2Ftvs%2Fneo-qled-tv%2F",
-    "dateAdded": "2026-06-06T12:46:52+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
     "_fetchedStatus": "active"
   },
   {
@@ -787,6 +2733,30 @@
     "url": "https://izanamitableware.com/products/izanami-x-olaf-hajek-dessertteller",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=125710&awinaffid=2861861&ued=https%3A%2F%2Fizanamitableware.com%2Fproducts%2Fizanami-x-olaf-hajek-dessertteller",
     "dateAdded": "2026-06-06T04:12:18+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3937995,
+    "type": "promotion",
+    "advertiser": {
+      "id": 89667,
+      "name": "Farmacy Beauty",
+      "joined": false
+    },
+    "title": "48 HOUR BESTIE FLASH SALE: 20% OFF ALL SETS",
+    "description": "48 HOUR BESTIE FLASH SALE: 20% OFF ALL SETS",
+    "terms": "Orders must be placed by 3AM EST on June 10, 2026. Promotions do not apply to previous orders, subscriptions or gift cards. Available while supplies last. Free gifts are subject to stock availability and may not be added to orders; however, if available, our Customer Service team may be able to send them separately upon request, though this cannot be guaranteed. Terms are subject to change.",
+    "startDate": "2026-06-08T04:00:00+00:00",
+    "endDate": "2026-06-10T07:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.farmacybeauty.com/collections/duos-trios-value-kits",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=89667&awinaffid=2861861&ued=https%3A%2F%2Fwww.farmacybeauty.com%2Fcollections%2Fduos-trios-value-kits",
+    "dateAdded": "2026-06-06T01:04:41+00:00",
     "campaign": "",
     "regions": {
       "all": true
@@ -8186,37 +10156,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3937397,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Budweiser Zero Álcool Lata 350ml Leve 8 Pague 6",
-    "description": "Cerveja Budweiser Zero Álcool Lata 350ml Leve 8 Pague 6",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/21457/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F21457%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:51:59+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3937395,
     "type": "promotion",
     "advertiser": {
@@ -8279,68 +10218,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3937391,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Lava Roupas Omo Ciclo Rápido Leve 3 Pague 2",
-    "description": "Lava Roupas Omo Ciclo Rápido Leve 3 Pague 2",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/22322/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F22322%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:51:48+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937389,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Energético Red Bull a partir de R$7.59",
-    "description": "Energético Red Bull a partir de R$7.59",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/21779/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F21779%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:51:43+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3937387,
     "type": "promotion",
     "advertiser": {
@@ -8372,37 +10249,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3937385,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Produtos para Bebê com até 50% de desconto na segunda unidade",
-    "description": "Produtos para Bebê com até 50% de desconto na segunda unidade",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/19686/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F19686%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:51:26+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3937383,
     "type": "promotion",
     "advertiser": {
@@ -8419,37 +10265,6 @@
     "url": "https://site.fastshop.com.br/ar-condicionado-janela-7500-btus-consul-frio-com-design-moderno---ccb07gb-170153/p",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-janela-7500-btus-consul-frio-com-design-moderno---ccb07gb-170153%2Fp",
     "dateAdded": "2026-06-05T19:51:26+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937381,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Whisky Escocês Chivas Regal 750ml",
-    "description": "Whisky Escocês Chivas Regal 750ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/24020/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F24020%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:51:14+00:00",
     "campaign": "",
     "regions": {
       "all": false,
@@ -8527,37 +10342,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3937375,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Whisky Jack Daniels a partir de R$99.90",
-    "description": "Whisky Jack Daniels a partir de R$99.90",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/24020/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F24020%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:51:03+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3937373,
     "type": "promotion",
     "advertiser": {
@@ -8573,37 +10357,6 @@
     "status": "expiringSoon",
     "url": "https://site.fastshop.com.br/micro-ondas-23-litros-com-funcao-marmita-inox-consul---cms23ar-170159/p",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Fmicro-ondas-23-litros-com-funcao-marmita-inox-consul---cms23ar-170159%2Fp",
-    "dateAdded": "2026-06-05T19:50:52+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937371,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Whisky Ballantines 750ml",
-    "description": "Whisky Ballantines 750ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/24020/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F24020%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
     "dateAdded": "2026-06-05T19:50:52+00:00",
     "campaign": "",
     "regions": {
@@ -8636,68 +10389,6 @@
     "url": "https://site.fastshop.com.br/kit-organizadores-de-geladeira-electrolux-experience-3-un-empilhavel-modular-com-escorredor-106173/p",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Fkit-organizadores-de-geladeira-electrolux-experience-3-un-empilhavel-modular-com-escorredor-106173%2Fp",
     "dateAdded": "2026-06-05T19:50:42+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937367,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Club Social Oreo Bis e Trident Leve 3 Pague 2",
-    "description": "Club Social Oreo Bis e Trident Leve 3 Pague 2",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/22390/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F22390%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:50:42+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937365,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cápsulas de Café Nescafé Leve 4 Pague 2",
-    "description": "Cápsulas de Café Nescafé Leve 4 Pague 2",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/19867/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F19867%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:50:30+00:00",
     "campaign": "",
     "regions": {
       "all": false,
@@ -8775,37 +10466,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3937359,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Café Starbucks e Café Solúvel Nescafé com até 50% de desconto",
-    "description": "Café Starbucks e Café Solúvel Nescafé com até 50% de desconto",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/19867/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F19867%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:49:59+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3937357,
     "type": "promotion",
     "advertiser": {
@@ -8868,626 +10528,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3937353,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Spaten 350ml",
-    "description": "Cerveja Spaten 350ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23786/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23786%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:49:44+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937351,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Brahma Chopp 350ml",
-    "description": "Cerveja Brahma Chopp 350ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23786/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23786%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:49:43+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937349,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Michelob Ultra Light 330ml",
-    "description": "Cerveja Michelob Ultra Light 330ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23786/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23786%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:49:16+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937347,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Corona 330ml",
-    "description": "Cerveja Corona 330ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23786/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23786%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:49:04+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937345,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Budweiser Zero Álcool Lata 350ml Leve 8 Pague 6",
-    "description": "Cerveja Budweiser Zero Álcool Lata 350ml Leve 8 Pague 6",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/21457/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F21457%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:49:04+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937343,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Lava Roupas Omo Ciclo Rápido Leve 3 Pague 2",
-    "description": "Lava Roupas Omo Ciclo Rápido Leve 3 Pague 2",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/22322/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F22322%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:48:52+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937341,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Stella Artois Pure Gold 330ml",
-    "description": "Cerveja Stella Artois Pure Gold 330ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23786/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23786%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:48:52+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937337,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Refrigerantes 2L a partir de R$7.19",
-    "description": "Refrigerantes 2L a partir de R$7.19",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23783/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23783%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:48:41+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937335,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Energético Red Bull a partir de R$7.59",
-    "description": "Energético Red Bull a partir de R$7.59",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/21779/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F21779%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:48:41+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937333,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Refrigerante H2OH a partir de R$3.99",
-    "description": "Refrigerante H2OH a partir de R$3.99",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23783/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23783%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:48:36+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937331,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Produtos para Bebê com até 50% de desconto na segunda unidade",
-    "description": "Produtos para Bebê com até 50% de desconto na segunda unidade",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/19686/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F19686%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:48:35+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937327,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Refrigerante Pepsi 200ml",
-    "description": "Refrigerante Pepsi 200ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23783/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23783%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:48:18+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937325,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Whisky Escocês Chivas Regal 750ml",
-    "description": "Whisky Escocês Chivas Regal 750ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/24020/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F24020%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:48:18+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937323,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Produtos de Limpeza selecionados a partir de R$10.99",
-    "description": "Produtos de Limpeza selecionados a partir de R$10.99",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/19719/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F19719%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:48:05+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937321,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Whisky Jack Daniels a partir de R$99.90",
-    "description": "Whisky Jack Daniels a partir de R$99.90",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/24020/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F24020%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:48:05+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937319,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Whisky Ballantines 750ml",
-    "description": "Whisky Ballantines 750ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/24020/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F24020%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:47:55+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937317,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Refrigerantes e Chás com R$15 de desconto acima de R$49 usando cupom REFRIHNK",
-    "description": "Refrigerantes e Chás com R$15 de desconto acima de R$49 usando cupom REFRIHNK",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/25037/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F25037%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:47:55+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937315,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Club Social Oreo Bis e Trident Leve 3 Pague 2",
-    "description": "Club Social Oreo Bis e Trident Leve 3 Pague 2",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/22390/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F22390%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:47:45+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937313,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cápsula de Café Pilão ou LOr Leve 4 Pague 2",
-    "description": "Cápsula de Café Pilão ou LOr Leve 4 Pague 2",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/24573/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F24573%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:47:45+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937311,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cápsulas de Café Nescafé Leve 4 Pague 2",
-    "description": "Cápsulas de Café Nescafé Leve 4 Pague 2",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/19867/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F19867%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:47:33+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3937309,
     "type": "promotion",
     "advertiser": {
@@ -9504,378 +10544,6 @@
     "url": "https://www.kabum.com.br/ofertas/6do6payday",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=2861861&ued=https%3A%2F%2Fwww.kabum.com.br%2Fofertas%2F6do6payday",
     "dateAdded": "2026-06-05T19:47:30+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937307,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Café Starbucks e Café Solúvel Nescafé com até 50% de desconto",
-    "description": "Café Starbucks e Café Solúvel Nescafé com até 50% de desconto",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/19867/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F19867%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:47:23+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937305,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Spaten 350ml",
-    "description": "Cerveja Spaten 350ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23786/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23786%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:47:14+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937303,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Brahma Chopp 350ml",
-    "description": "Cerveja Brahma Chopp 350ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23786/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23786%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:47:01+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937301,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Michelob Ultra Light 330ml",
-    "description": "Cerveja Michelob Ultra Light 330ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23786/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23786%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:46:50+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937299,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Corona 330ml",
-    "description": "Cerveja Corona 330ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23786/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23786%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:46:42+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937297,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cerveja Stella Artois Pure Gold 330ml",
-    "description": "Cerveja Stella Artois Pure Gold 330ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23786/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23786%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:46:34+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937295,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Refrigerantes 2L a partir de R$7.19",
-    "description": "Refrigerantes 2L a partir de R$7.19",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23783/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23783%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:46:25+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937293,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Refrigerante H2OH a partir de R$3.99",
-    "description": "Refrigerante H2OH a partir de R$3.99",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23783/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23783%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:46:14+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937291,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Refrigerante Pepsi 200ml",
-    "description": "Refrigerante Pepsi 200ml",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/23783/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F23783%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:46:01+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937289,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Produtos de Limpeza selecionados a partir de R$10.99",
-    "description": "Produtos de Limpeza selecionados a partir de R$10.99",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/19719/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F19719%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:45:52+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937287,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Refrigerantes e Chás com R$15 de desconto acima de R$49 usando cupom REFRIHNK",
-    "description": "Refrigerantes e Chás com R$15 de desconto acima de R$49 usando cupom REFRIHNK",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/25037/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F25037%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:45:43+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937285,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17665,
-      "name": "Carrefour BR",
-      "joined": false
-    },
-    "title": "Cápsula de Café Pilão ou LOr Leve 4 Pague 2",
-    "description": "Cápsula de Café Pilão ou LOr Leve 4 Pague 2",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://mercado.carrefour.com.br/colecao/24573/score-desc/0?map=productClusterIds",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17665&awinaffid=2861861&ued=https%3A%2F%2Fmercado.carrefour.com.br%2Fcolecao%2F24573%2Fscore-desc%2F0%3Fmap%3DproductClusterIds",
-    "dateAdded": "2026-06-05T19:45:32+00:00",
     "campaign": "",
     "regions": {
       "all": false,
@@ -9922,27 +10590,39 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3937277,
-    "type": "promotion",
+    "promotionId": 3937281,
+    "type": "voucher",
     "advertiser": {
-      "id": 76664,
-      "name": "Spartina 449",
+      "id": 84989,
+      "name": "Compra Direta Empresas BR",
       "joined": false
     },
-    "title": "Buy 2 apparel items and receive the third item free. No code necessary. Valid 6/5-6/7.",
-    "description": "Buy 2 apparel items and receive the third item free. No code necessary. Valid 6/5-6/7.",
-    "terms": "Buy 2 apparel items and receive the third item free. No code necessary. Valid 6/5-6/7.",
-    "startDate": "2026-06-05T19:28:00+00:00",
-    "endDate": "2026-06-08T03:59:00+00:00",
+    "title": "Até 800% OFF de desconto em Ofertas de Amor com uso de cupom promocional válido no período da campanha",
+    "description": "Até 800% OFF de desconto em Ofertas de Amor com uso de cupom promocional válido no período da campanha",
+    "terms": "..",
+    "startDate": "2026-06-08T03:00:00+00:00",
+    "endDate": "2026-06-15T02:59:59+00:00",
     "status": "expiringSoon",
-    "url": "https://spartina449.com/collections/apparel-all",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=76664&awinaffid=2861861&ued=https%3A%2F%2Fspartina449.com%2Fcollections%2Fapparel-all",
-    "dateAdded": "2026-06-05T19:28:41+00:00",
+    "url": "https://www.compradiretaempresas.com.br/337?map=productClusterIds",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84989&awinaffid=2861861&ued=https%3A%2F%2Fwww.compradiretaempresas.com.br%2F337%3Fmap%3DproductClusterIds",
+    "dateAdded": "2026-06-05T19:45:15+00:00",
     "campaign": "",
     "regions": {
-      "all": true
+      "all": false,
+      "list": [
+        {
+          "id": 21,
+          "name": "Brazil",
+          "countryCode": "BR"
+        }
+      ]
     },
     "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
     "_fetchedStatus": "active"
   },
   {
@@ -9986,6 +10666,30 @@
     "url": "https://www.psprint.com/booklets/category",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=66948&awinaffid=2861861&ued=https%3A%2F%2Fwww.psprint.com%2Fbooklets%2Fcategory",
     "dateAdded": "2026-06-05T19:21:12+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3937267,
+    "type": "promotion",
+    "advertiser": {
+      "id": 59403,
+      "name": "Mellow Fellow",
+      "joined": false
+    },
+    "title": "Best Friends Day Sale",
+    "description": "Celebrate Best Friends Day with 20% off for one day only — a simple, shareable deal your followers can act on fast.",
+    "terms": "The brand is unable to ship their products to customers in all states. States they can’t ship to are listed on their site. They can ship to customers in 30 states.",
+    "startDate": "2026-06-08T05:00:00+00:00",
+    "endDate": "2026-06-09T05:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://mellowfellow.fun/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=59403&awinaffid=2861861&ued=https%3A%2F%2Fmellowfellow.fun%2F",
+    "dateAdded": "2026-06-05T19:04:28+00:00",
     "campaign": "",
     "regions": {
       "all": true
@@ -10088,7 +10792,7 @@
     "terms": "Du 5 au 14 juin 2026 inclus, pour l'achat d’un Galaxy Book6 | Book6 Pro | Book6 Ultra (tous modèles, tous coloris), utilisez le code promotionnel GB6JUNE pour bénéficier de 10% de remise immédiate.\nCode à utilisation unique cumulable avec les autres offres en cours portant sur les produits, non cumulable avec un autre code promotionnel, valable sur le site www.samsung.com/fr/ et l'application Samsung shop et dans la limite des stocks disponibles.",
     "startDate": "2026-06-05T17:49:00+00:00",
     "endDate": "2026-06-14T21:59:00+00:00",
-    "status": "active",
+    "status": "expiringSoon",
     "url": "https://www.samsung.com/fr/computers/all-computers/",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=18417&awinaffid=2861861&ued=https%3A%2F%2Fwww.samsung.com%2Ffr%2Fcomputers%2Fall-computers%2F",
     "dateAdded": "2026-06-05T17:49:09+00:00",
@@ -10215,874 +10919,6 @@
           "id": 5,
           "name": "France",
           "countryCode": "FR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937203,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Tênis Courtblock",
-    "description": "Tênis Courtblock",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/hotsite/courtblock",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fhotsite%2Fcourtblock",
-    "dateAdded": "2026-06-05T16:44:50+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937201,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Tênis Gamma Force",
-    "description": "Tênis Gamma Force",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/hotsite/gamma-force",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fhotsite%2Fgamma-force",
-    "dateAdded": "2026-06-05T16:44:38+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937199,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Camiseta Umbro Manga Longa Basic Uv - Unissex por R$39,99",
-    "description": "Camiseta Umbro Manga Longa Basic Uv - Unissex por R$39,99",
-    "terms": "...",
-    "startDate": "2026-06-06T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/camisa-ml-juvenil-umbro-basic-uv-m124dv-mktp.html?cor=02",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fcamisa-ml-juvenil-umbro-basic-uv-m124dv-mktp.html%3Fcor%3D02",
-    "dateAdded": "2026-06-05T16:44:28+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937197,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Minibola de Futebol de Campo Adams Classic por R$19,99",
-    "description": "Minibola de Futebol de Campo Adams Classic por R$19,99",
-    "terms": "...",
-    "startDate": "2026-06-06T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/minibola-de-futebol-de-campo-adams-classic-898084.html?cor=51",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fminibola-de-futebol-de-campo-adams-classic-898084.html%3Fcor%3D51",
-    "dateAdded": "2026-06-05T16:44:14+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937185,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Camisas de time até 60% OFF",
-    "description": "Camisas de time até 60% OFF",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/hotsite/nacional-off",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fhotsite%2Fnacional-off",
-    "dateAdded": "2026-06-05T16:43:11+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937183,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Linha OLPK Corre 4",
-    "description": "Linha OLPK Corre 4",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/hotsite/corre-4",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fhotsite%2Fcorre-4",
-    "dateAdded": "2026-06-05T16:43:02+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937181,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Tênis Nike Court Vision Lo",
-    "description": "Tênis Nike Court Vision Lo",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/hotsite/nike-court-vision-lo",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fhotsite%2Fnike-court-vision-lo",
-    "dateAdded": "2026-06-05T16:42:49+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937179,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Jaqueta Oxer Jogging Feminina",
-    "description": "Jaqueta Oxer Jogging Feminina",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/jaqueta-oxer-com-capuz-jogging-com-bolso-seguro-feminina-984861.html?cor=02",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fjaqueta-oxer-com-capuz-jogging-com-bolso-seguro-feminina-984861.html%3Fcor%3D02",
-    "dateAdded": "2026-06-05T16:42:39+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937177,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Jaqueta Oxer Moletom Plano Masculina",
-    "description": "Jaqueta Oxer Moletom Plano Masculina",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/jaqueta-masculina-moletom-plano-oxer-991033.html?cor=02",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fjaqueta-masculina-moletom-plano-oxer-991033.html%3Fcor%3D02",
-    "dateAdded": "2026-06-05T16:42:26+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937175,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Conjunto ASics Masculino Interlock",
-    "description": "Conjunto ASics Masculino Interlock",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/conjunto-de-agasalho-masculino-asics-interlock-fechado-991328.html?cor=02",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fconjunto-de-agasalho-masculino-asics-interlock-fechado-991328.html%3Fcor%3D02",
-    "dateAdded": "2026-06-05T16:42:14+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937173,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Fleece Nord com capuz",
-    "description": "Fleece Nord com capuz",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/jaqueta-fleece-com-capuz--nord-masculina-977464.html?cor=02",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fjaqueta-fleece-com-capuz--nord-masculina-977464.html%3Fcor%3D02",
-    "dateAdded": "2026-06-05T16:42:02+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937171,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Jaqueta impermeável Nord",
-    "description": "Jaqueta impermeável Nord",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/jaqueta-masculina-nord-com-capuz-impermeavel-selada-977466.html?cor=07",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fjaqueta-masculina-nord-com-capuz-impermeavel-selada-977466.html%3Fcor%3D07",
-    "dateAdded": "2026-06-05T16:41:50+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937169,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Calça Asics Friso Feminina",
-    "description": "Calça Asics Friso Feminina",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/calca-feminina-classic-friso-asics-9972S8.html?cor=SO",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fcalca-feminina-classic-friso-asics-9972S8.html%3Fcor%3DSO",
-    "dateAdded": "2026-06-05T16:41:39+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937167,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Blusão Fleece Nord Feminino",
-    "description": "Blusão Fleece Nord Feminino",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/blusao-fleece-rt-protetor-de-ziper-9972J8.html?cor=JU",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fblusao-fleece-rt-protetor-de-ziper-9972J8.html%3Fcor%3DJU",
-    "dateAdded": "2026-06-05T16:41:29+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937165,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Blusão Fleece Nord masculino",
-    "description": "Blusão Fleece Nord masculino",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/blusao-Fleece-Nord-ziper-masculino-977460.html?cor=02",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fblusao-Fleece-Nord-ziper-masculino-977460.html%3Fcor%3D02",
-    "dateAdded": "2026-06-05T16:41:18+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937163,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Calça Asics Retro Masculina",
-    "description": "Calça Asics Retro Masculina",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/calca-asics-moletom-retro-9972S6.html?cor=02",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fcalca-asics-moletom-retro-9972S6.html%3Fcor%3D02",
-    "dateAdded": "2026-06-05T16:41:07+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937161,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Jaqueta Asics Recortes Masculina",
-    "description": "Jaqueta Asics Recortes Masculina",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/jaqueta-asics-recortes-masculina-9972SD.html?cor=TG",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fjaqueta-asics-recortes-masculina-9972SD.html%3Fcor%3DTG",
-    "dateAdded": "2026-06-05T16:40:55+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937159,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Descontos da semana em roupas | O melhor pro seu treino no precinho",
-    "description": "Descontos da semana em roupas | O melhor pro seu treino no precinho",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/hotsite/descontos-da-semana",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fhotsite%2Fdescontos-da-semana",
-    "dateAdded": "2026-06-05T16:40:42+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937157,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Camiseta Nike Jordan",
-    "description": "Camiseta Nike Jordan",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/camiseta-nike-michael-jordan-jumpman-essentials-ss-masculina-9975F5.html?cor=51",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fcamiseta-nike-michael-jordan-jumpman-essentials-ss-masculina-9975F5.html%3Fcor%3D51",
-    "dateAdded": "2026-06-05T16:40:31+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937155,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Oportunidades Basquete",
-    "description": "Oportunidades Basquete",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/hotsite/oportunidade-basquete",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fhotsite%2Foportunidade-basquete",
-    "dateAdded": "2026-06-05T16:40:22+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937153,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Camiseta Nike Victory",
-    "description": "Camiseta Nike Victory",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/camiseta-nike-dry-victory-9975EM.html?cor=QK",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fcamiseta-nike-dry-victory-9975EM.html%3Fcor%3DQK",
-    "dateAdded": "2026-06-05T16:40:11+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937151,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Blusão Nike Club",
-    "description": "Blusão Nike Club",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/blusao-masculino-nike-club-fleece-995455.html?cor=02",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fblusao-masculino-nike-club-fleece-995455.html%3Fcor%3D02",
-    "dateAdded": "2026-06-05T16:39:58+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937149,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Creatina Nutrata",
-    "description": "Creatina Nutrata",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/creatina-nutrata-up-monohidratada-300g-984816.html?cor=NE",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fcreatina-nutrata-up-monohidratada-300g-984816.html%3Fcor%3DNE",
-    "dateAdded": "2026-06-05T16:39:49+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937147,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Boné Jordan",
-    "description": "Boné Jordan",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/bone-nike-u-j-rise-cap-s-cb-mtl-jm-9975TR.html?cor=02",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fbone-nike-u-j-rise-cap-s-cb-mtl-jm-9975TR.html%3Fcor%3D02",
-    "dateAdded": "2026-06-05T16:39:39+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937145,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Boné Jordan",
-    "description": "Boné Jordan",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/bone-aba-curva-nike-club-cap-us-strapback-adulto-989923.html?cor=62",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fbone-aba-curva-nike-club-cap-us-strapback-adulto-989923.html%3Fcor%3D62",
-    "dateAdded": "2026-06-05T16:39:28+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937143,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Camiseta Nord segunda pele",
-    "description": "Camiseta Nord segunda pele",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/camiseta-feminia-nord-manga-longa-segunda-pele-feminina-991167.html?cor=02",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fcamiseta-feminia-nord-manga-longa-segunda-pele-feminina-991167.html%3Fcor%3D02",
-    "dateAdded": "2026-06-05T16:39:18+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937141,
-    "type": "promotion",
-    "advertiser": {
-      "id": 15820,
-      "name": "Denby (US & CA)",
-      "joined": false
-    },
-    "title": "Final Weekend for Canada orders",
-    "description": "Last Orders on Sunday 7 June",
-    "terms": "",
-    "startDate": "2026-06-05T16:39:00+00:00",
-    "endDate": "2026-06-07T22:34:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.denbypottery.com/en-ca/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=15820&awinaffid=2861861&ued=https%3A%2F%2Fwww.denbypottery.com%2Fen-ca%2F",
-    "dateAdded": "2026-06-05T16:39:13+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 4,
-          "name": "Canada",
-          "countryCode": "CA"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3937139,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17806,
-      "name": "Centauro BR",
-      "joined": false
-    },
-    "title": "Bola de volêi Adams",
-    "description": "Bola de volêi Adams",
-    "terms": "...",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.centauro.com.br/bola-de-volei-adams-soft-touch-985095.html?cor=D1",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17806&awinaffid=2861861&ued=https%3A%2F%2Fwww.centauro.com.br%2Fbola-de-volei-adams-soft-touch-985095.html%3Fcor%3DD1",
-    "dateAdded": "2026-06-05T16:39:06+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
         }
       ]
     },
@@ -11375,7 +11211,7 @@
     "terms": "..",
     "startDate": "2026-06-05T03:00:00+00:00",
     "endDate": "2026-06-15T02:59:59+00:00",
-    "status": "active",
+    "status": "expiringSoon",
     "url": "https://www.kabum.com.br/produto/1004436/notebook-lenovo-thinkpad-x9-14-g1-fifa-edition-intel-core-ultra-7-258v-32gb-1tb-ssd-windows-11-pro-touch-14-21qb0016br-cinza",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=2861861&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F1004436%2Fnotebook-lenovo-thinkpad-x9-14-g1-fifa-edition-intel-core-ultra-7-258v-32gb-1tb-ssd-windows-11-pro-touch-14-21qb0016br-cinza",
     "dateAdded": "2026-06-05T15:59:04+00:00",
@@ -11415,42 +11251,6 @@
     "url": "https://www.kabum.com.br/produto/909726/soundbar-samsung-hw-b400f-com-2-0-canais-bluetooth-subwoofer-integrado-e-hdmi-arc-preto-titanio",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=2861861&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F909726%2Fsoundbar-samsung-hw-b400f-com-2-0-canais-bluetooth-subwoofer-integrado-e-hdmi-arc-preto-titanio",
     "dateAdded": "2026-06-05T15:58:40+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936925,
-    "type": "voucher",
-    "advertiser": {
-      "id": 17729,
-      "name": "Kabum BR",
-      "joined": false
-    },
-    "title": "R$ 20.00 de desconto no Roku Streaming Stick 2025 para TV HD e FHD com controle por voz",
-    "description": "R$ 20.00 de desconto no Roku Streaming Stick 2025 para TV HD e FHD com controle por voz",
-    "terms": "..",
-    "startDate": "2026-06-05T03:00:00+00:00",
-    "endDate": "2026-06-08T02:59:59+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.kabum.com.br/produto/904454/roku-streaming-stick-2025-dispositivo-para-tv-hd-fhd-com-controle-por-voz-preto-3840br",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17729&awinaffid=2861861&ued=https%3A%2F%2Fwww.kabum.com.br%2Fproduto%2F904454%2Froku-streaming-stick-2025-dispositivo-para-tv-hd-fhd-com-controle-por-voz-preto-3840br",
-    "dateAdded": "2026-06-05T15:58:18+00:00",
     "campaign": "",
     "regions": {
       "all": false,
@@ -11538,64 +11338,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3936905,
-    "type": "voucher",
-    "advertiser": {
-      "id": 31539,
-      "name": "Mozillion",
-      "joined": false
-    },
-    "title": "£20 OFF ANY SAMSUNG A-SERIES SIM FREE PHONE",
-    "description": "Take £20 off any Samsung Galaxy A-Series SIM Free Phone at Mozillion with code DROP20.",
-    "terms": "Valid on Samsung A-series phones SIM Free.  Not valid on phone contracts.",
-    "startDate": "2026-06-05T15:53:00+00:00",
-    "endDate": "2026-06-07T22:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.mozillion.com/search-brand/samsung",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=31539&awinaffid=2861861&ued=https%3A%2F%2Fwww.mozillion.com%2Fsearch-brand%2Fsamsung",
-    "dateAdded": "2026-06-05T15:53:56+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936903,
-    "type": "voucher",
-    "advertiser": {
-      "id": 31539,
-      "name": "Mozillion",
-      "joined": false
-    },
-    "title": "£50 OFF ANY SAMSUNG GALAXY S26 SERIES SIM FREE PHONE",
-    "description": "Take £50 off any Samsung Galaxy S26 Ultra, S26 Plus or S26 SIM Free at Mozillion with code DROP50.",
-    "terms": "Valid on any Samsung S26 series phone. SIM Free only. Not valid on phone contracts.",
-    "startDate": "2026-06-05T15:52:00+00:00",
-    "endDate": "2026-06-07T22:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.mozillion.com/search-brand/samsung",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=31539&awinaffid=2861861&ued=https%3A%2F%2Fwww.mozillion.com%2Fsearch-brand%2Fsamsung",
-    "dateAdded": "2026-06-05T15:52:20+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3936901,
     "type": "promotion",
     "advertiser": {
@@ -11663,6 +11405,37 @@
     "campaign": "",
     "regions": {
       "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936893,
+    "type": "promotion",
+    "advertiser": {
+      "id": 60701,
+      "name": "boohooMAN (US & Canada)",
+      "joined": false
+    },
+    "title": "HALF PRICE EXPRESS SHIPPING ON ORDERS OVER $100+",
+    "description": "HALF PRICE EXPRESS SHIPPING ON ORDERS OVER $100+",
+    "terms": "Program T's and C's apply.",
+    "startDate": "2026-06-08T04:00:00+00:00",
+    "endDate": "2026-06-15T03:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.boohooman.com/us/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=60701&awinaffid=2861861&ued=https%3A%2F%2Fwww.boohooman.com%2Fus%2F",
+    "dateAdded": "2026-06-05T15:37:32+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 3,
+          "name": "United States of America",
+          "countryCode": "US"
+        }
+      ]
     },
     "categories": [],
     "_fetchedStatus": "active"
@@ -11805,7 +11578,7 @@
     "terms": "Enjoy $50 off orders of $150+ with code SUMMER50 at Southern Tide. Valid 6/6-6/14.",
     "startDate": "2026-06-06T04:00:00+00:00",
     "endDate": "2026-06-15T03:59:00+00:00",
-    "status": "active",
+    "status": "expiringSoon",
     "url": "https://southerntide.com/collections/summer-collection",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=89645&awinaffid=2861861&ued=https%3A%2F%2Fsoutherntide.com%2Fcollections%2Fsummer-collection",
     "dateAdded": "2026-06-05T15:21:44+00:00",
@@ -11838,35 +11611,6 @@
       "all": true
     },
     "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3936871,
-    "type": "voucher",
-    "advertiser": {
-      "id": 22735,
-      "name": "Debenhams UK",
-      "joined": false
-    },
-    "title": "Extra 5% Off Beauty!",
-    "description": "Up to 50% off Beauty + EXTRA 5% off using code BEAUTY5",
-    "terms": "*Minimum spend £25",
-    "startDate": "2026-06-05T15:19:00+00:00",
-    "endDate": "2026-06-07T22:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.debenhams.com/categories/debenhams-beauty?usp_beautyoffer",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=22735&awinaffid=2861861&ued=https%3A%2F%2Fwww.debenhams.com%2Fcategories%2Fdebenhams-beauty%3Fusp_beautyoffer",
-    "dateAdded": "2026-06-05T15:19:52+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
     "_fetchedStatus": "active"
   },
   {
@@ -12396,6 +12140,348 @@
     "url": "https://www.honor.com/fr/honor-fans/",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=28531&awinaffid=2861861&ued=https%3A%2F%2Fwww.honor.com%2Ffr%2Fhonor-fans%2F",
     "dateAdded": "2026-06-05T14:50:05+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936825,
+    "type": "promotion",
+    "advertiser": {
+      "id": 21727,
+      "name": "Samsung LT",
+      "joined": false
+    },
+    "title": "Prisijunkite ir gaukite 5 % nuolaidą krepšelyje. Galioja televizoriams ir buitinei technikai",
+    "description": "Prisijunkite ir gaukite 5 % nuolaidą krepšelyje. Galioja televizoriams ir buitinei technikai",
+    "terms": "T&Cs Apply",
+    "startDate": "2026-06-05T14:46:00+00:00",
+    "endDate": "2026-06-30T20:59:00+00:00",
+    "status": "active",
+    "url": "https://www.samsung.com/lt/tvs/all-tvs/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=21727&awinaffid=2861861&ued=https%3A%2F%2Fwww.samsung.com%2Flt%2Ftvs%2Fall-tvs%2F",
+    "dateAdded": "2026-06-05T14:46:12+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936823,
+    "type": "promotion",
+    "advertiser": {
+      "id": 32223,
+      "name": "Samsung EE",
+      "joined": false
+    },
+    "title": "Logi sisse ja saa ostukorvi 5% allahindlust. Kehtib telerite ja kodumasinate puhul",
+    "description": "Logi sisse ja saa ostukorvi 5% allahindlust. Kehtib telerite ja kodumasinate puhul",
+    "terms": "T&Cs Apply",
+    "startDate": "2026-06-05T14:45:00+00:00",
+    "endDate": "2026-06-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.samsung.com/ee/tvs/all-tvs/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=32223&awinaffid=2861861&ued=https%3A%2F%2Fwww.samsung.com%2Fee%2Ftvs%2Fall-tvs%2F",
+    "dateAdded": "2026-06-05T14:45:09+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936821,
+    "type": "promotion",
+    "advertiser": {
+      "id": 113552,
+      "name": "Le Col DE",
+      "joined": false
+    },
+    "title": "Join the movement and save up to 40% on LC_CC kit.",
+    "description": "Join the movement and save up to 40% on LC_CC kit.",
+    "terms": "Standard T&C's apply. See site for further details",
+    "startDate": "2026-06-05T14:44:00+00:00",
+    "endDate": "2026-06-30T22:59:00+00:00",
+    "status": "active",
+    "url": "https://lecol.cc/account/register",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=113552&awinaffid=2861861&ued=https%3A%2F%2Flecol.cc%2Faccount%2Fregister",
+    "dateAdded": "2026-06-05T14:44:59+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936817,
+    "type": "promotion",
+    "advertiser": {
+      "id": 113552,
+      "name": "Le Col DE",
+      "joined": false
+    },
+    "title": "In celebration of Members Month, members receive 30% off with a chance to use their codes to get up to 40% off.",
+    "description": "In celebration of Members Month, members receive 30% off with a chance to use their codes to get up to 40% off.",
+    "terms": "Standard T&C's apply. See site for further details",
+    "startDate": "2026-06-05T14:42:00+00:00",
+    "endDate": "2026-06-30T22:59:00+00:00",
+    "status": "active",
+    "url": "https://lecol.cc/en-de/account/login",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=113552&awinaffid=2861861&ued=https%3A%2F%2Flecol.cc%2Fen-de%2Faccount%2Flogin",
+    "dateAdded": "2026-06-05T14:42:13+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936815,
+    "type": "promotion",
+    "advertiser": {
+      "id": 113552,
+      "name": "Le Col DE",
+      "joined": false
+    },
+    "title": "Celebrate Member’s Month and get 30% off",
+    "description": "Celebrate Member’s Month and get 30% off",
+    "terms": "Standard T&C's apply. See site for further details",
+    "startDate": "2026-06-05T14:41:00+00:00",
+    "endDate": "2026-06-30T22:59:00+00:00",
+    "status": "active",
+    "url": "https://lecol.cc/en-de",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=113552&awinaffid=2861861&ued=https%3A%2F%2Flecol.cc%2Fen-de",
+    "dateAdded": "2026-06-05T14:41:11+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936803,
+    "type": "voucher",
+    "advertiser": {
+      "id": 28601,
+      "name": "apotheke.at",
+      "joined": false
+    },
+    "title": "15 % auf Kytta® Schmerzsalbe",
+    "description": "Jetzt 15 % sparen – direkt beim Kauf von Kytta® Schmerzsalbe",
+    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
+    "startDate": "2026-06-05T14:35:00+00:00",
+    "endDate": "2026-06-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.apotheke.at/produkthighlights-c-908?show_multiple_pzns=10832865",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28601&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.at%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D10832865",
+    "dateAdded": "2026-06-05T14:35:32+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936797,
+    "type": "voucher",
+    "advertiser": {
+      "id": 28601,
+      "name": "apotheke.at",
+      "joined": false
+    },
+    "title": "15 % Rabatt auf Vigantolvit Vitamin D3",
+    "description": "Jetzt zuschlagen & 15 % Direktrabatt beim Kauf von Vigantolvit Vitamin D3 nutzen!",
+    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
+    "startDate": "2026-06-05T14:34:00+00:00",
+    "endDate": "2026-06-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.apotheke.at/produkthighlights-c-908?show_multiple_pzns=12423869_14371728",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28601&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.at%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D12423869_14371728",
+    "dateAdded": "2026-06-05T14:34:49+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936795,
+    "type": "voucher",
+    "advertiser": {
+      "id": 28601,
+      "name": "apotheke.at",
+      "joined": false
+    },
+    "title": "20 % auf Femibion bei Kinderwunsch & Schwangerschaft",
+    "description": "Sicher dir 20 % on top für Femibion – der Nährstoffspeicher bei Kinderwunsch & Schwangerschaft",
+    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
+    "startDate": "2026-06-05T14:34:00+00:00",
+    "endDate": "2026-06-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.apotheke.at/produkthighlights-c-908?show_multiple_pzns=17668759_15200035_15199987",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28601&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.at%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D17668759_15200035_15199987",
+    "dateAdded": "2026-06-05T14:34:08+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936793,
+    "type": "promotion",
+    "advertiser": {
+      "id": 8059,
+      "name": "SharkNinja UK",
+      "joined": false
+    },
+    "title": "Free gift (worth over £25) when you buy Ninja Woodfire Outdoor Oven, Artisan Pizza Maker and BBQ Smoker with Stand & Cover",
+    "description": "Free gift (worth over £25) when you buy Ninja Woodfire Outdoor Oven, Artisan Pizza Maker and BBQ Smoker with Stand & Cover",
+    "terms": "Whilst stocks last. T&Cs apply. Max two same items per order.",
+    "startDate": "2026-06-05T15:00:00+00:00",
+    "endDate": "2026-06-08T22:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.sharkninja.co.uk/ninja-woodfire-outdoor-oven-artisan-pizza-maker-and-bbq-smoker-with-stand-cover/OO101BNDUK.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8059&awinaffid=2861861&ued=https%3A%2F%2Fwww.sharkninja.co.uk%2Fninja-woodfire-outdoor-oven-artisan-pizza-maker-and-bbq-smoker-with-stand-cover%2FOO101BNDUK.html",
+    "dateAdded": "2026-06-05T14:33:48+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936791,
+    "type": "promotion",
+    "advertiser": {
+      "id": 8059,
+      "name": "SharkNinja UK",
+      "joined": false
+    },
+    "title": "Free gift (worth over £60) when you buy Ninja Woodfire Pro XL Electric BBQ Grill & Smoker with Stand & Cover",
+    "description": "Free gift (worth over £60) when you buy Ninja Woodfire Pro XL Electric BBQ Grill & Smoker with Stand & Cover",
+    "terms": "Whilst stocks last. T&Cs apply. Max two same items per order.",
+    "startDate": "2026-06-05T15:00:00+00:00",
+    "endDate": "2026-06-08T22:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.sharkninja.co.uk/ninja-woodfire-pro-xl-electric-bbq-grill-smoker-with-stand-cover/OG850BNDUK.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8059&awinaffid=2861861&ued=https%3A%2F%2Fwww.sharkninja.co.uk%2Fninja-woodfire-pro-xl-electric-bbq-grill-smoker-with-stand-cover%2FOG850BNDUK.html",
+    "dateAdded": "2026-06-05T14:32:42+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936789,
+    "type": "voucher",
+    "advertiser": {
+      "id": 28603,
+      "name": "apotheke.de",
+      "joined": false
+    },
+    "title": "20 % auf Femibion bei Kinderwunsch & Schwangerschaft",
+    "description": "Sicher dir 20 % on top für Femibion – der Nährstoffspeicher bei Kinderwunsch & Schwangerschaft",
+    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
+    "startDate": "2026-06-05T14:32:00+00:00",
+    "endDate": "2026-06-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.apotheke.de/produkthighlights-c-908?show_multiple_pzns=17668759_15200035_15199987",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28603&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.de%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D17668759_15200035_15199987",
+    "dateAdded": "2026-06-05T14:32:40+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936787,
+    "type": "voucher",
+    "advertiser": {
+      "id": 28603,
+      "name": "apotheke.de",
+      "joined": false
+    },
+    "title": "15 % Rabatt auf Vigantolvit Vitamin D3",
+    "description": "Jetzt zuschlagen & 15 % Direktrabatt beim Kauf von Vigantolvit Vitamin D3 nutzen!",
+    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
+    "startDate": "2026-06-05T14:31:00+00:00",
+    "endDate": "2026-06-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.apotheke.de/produkthighlights-c-908?show_multiple_pzns=12423869_14371728",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28603&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.de%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D12423869_14371728",
+    "dateAdded": "2026-06-05T14:31:50+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3936783,
+    "type": "voucher",
+    "advertiser": {
+      "id": 28603,
+      "name": "apotheke.de",
+      "joined": false
+    },
+    "title": "15 % auf Kytta® Schmerzsalbe",
+    "description": "Jetzt 15 % sparen – direkt beim Kauf von Kytta® Schmerzsalbe",
+    "terms": "Nur für nicht rezeptpflichtige Produkte einlösbar. Pro Kunde kann jeweils ein Gutschein geltend gemacht werden. Gutschein ist nicht kombinierbar. Keine Barauszahlung möglich. Gutschein gültig bis 30.06.2026, 23:59 Uhr. Mindestbestellwert: € 0,01.",
+    "startDate": "2026-06-05T14:31:00+00:00",
+    "endDate": "2026-06-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.apotheke.de/produkthighlights-c-908?show_multiple_pzns=10832865",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=28603&awinaffid=2861861&ued=https%3A%2F%2Fwww.apotheke.de%2Fprodukthighlights-c-908%3Fshow_multiple_pzns%3D10832865",
+    "dateAdded": "2026-06-05T14:31:07+00:00",
     "campaign": "",
     "regions": {
       "all": true
