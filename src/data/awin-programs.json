@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-08T07:27:07.212Z",
+  "syncedAt": "2026-06-09T06:44:11.912Z",
   "programs": [
     {
       "key": "garvee-innovation-inc",
@@ -561,14 +561,14 @@
       ],
       "commissionRange": [
         {
-          "min": 8,
-          "max": 8,
-          "type": "percentage"
-        },
-        {
           "min": 0,
           "max": 0,
           "type": "amount"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "type": "percentage"
         }
       ],
       "kpi": {
@@ -998,15 +998,76 @@
       "bannerCount": 0
     },
     {
+      "key": "kingbull-bike",
+      "advertiserId": "124136",
+      "name": "Kingbull Bike",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://kingbullbike.com/",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=124136&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/124136.png",
+      "primarySector": "Sports Equipment",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "kingbullbike.com"
+        },
+        {
+          "domain": "*.kingbullbike.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 8,
+          "max": 8,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "33",
+        "approvalPercentage": 54.64,
+        "epc": 1.9,
+        "conversionRate": 2.83,
+        "validationDays": 11,
+        "awinIndex": 60.28
+      },
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=124136&id=2861861",
+      "topicTags": [
+        "partner"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
       "key": "nexbie",
       "advertiserId": "125856",
       "name": "Nexbie",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://www.nexbie.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=125856&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/125856.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1028,15 +1089,9 @@
           "domain": "m.nexbie.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 15,
-          "max": 15,
-          "type": "percentage"
-        }
-      ],
+      "commissionRange": null,
       "kpi": null,
-      "linkStatus": "online",
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1161,11 +1216,11 @@
       "advertiserId": "68990",
       "name": "Odie Pet Insurance Marketing, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://getodie.com",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=68990&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/68990.png",
       "primarySector": "Insurance",
       "primaryRegion": {
@@ -1178,8 +1233,15 @@
           "domain": "getodie.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "64",
+        "approvalPercentage": 100,
+        "epc": 0.32,
+        "conversionRate": 8.36,
+        "validationDays": 50,
+        "awinIndex": 60.06
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -2327,9 +2389,9 @@
       ]
     },
     {
-      "key": "nexbie",
-      "advertiserId": "125856",
-      "name": "Nexbie",
+      "key": "kingbull-bike",
+      "advertiserId": "124136",
+      "name": "Kingbull Bike",
       "relationship": "joined",
       "status": "Joined",
       "isActive": true,
@@ -2340,6 +2402,26 @@
       "productCount": 0,
       "bannerCount": 0,
       "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/124136.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=124136&id=2861861",
+      "topicTags": [
+        "partner"
+      ]
+    },
+    {
+      "key": "nexbie",
+      "advertiserId": "125856",
+      "name": "Nexbie",
+      "relationship": "joined",
+      "status": "Active",
+      "isActive": true,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/125856.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=125856&id=2861861",
       "topicTags": [
@@ -2395,7 +2477,7 @@
       "advertiserId": "68990",
       "name": "Odie Pet Insurance Marketing, Inc.",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2403,7 +2485,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/68990.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=68990&id=2861861",
       "topicTags": [
@@ -2705,15 +2787,15 @@
     }
   ],
   "stats": {
-    "joined": 17,
+    "joined": 18,
     "pending": 15,
     "feeds": 617,
     "apiProducts": 34576,
-    "programOfferProducts": 7,
-    "totalProducts": 34583,
+    "programOfferProducts": 8,
+    "totalProducts": 34584,
     "apiBanners": 0,
-    "logoBanners": 17,
-    "totalBanners": 23,
+    "logoBanners": 18,
+    "totalBanners": 24,
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
@@ -2741,6 +2823,10 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/125856 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/125856 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/125856 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/125856 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/126675 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/126675 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/126675 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
@@ -2748,17 +2834,14 @@
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
+      "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
+      "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
-      "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
-      "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/78166 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
@@ -2785,6 +2868,7 @@
       "creatives/113600 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/118951 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/123892 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/124136 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/125856 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/126675 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}"
     ],
