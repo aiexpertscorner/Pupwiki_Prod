@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-09T06:44:11.912Z",
+  "syncedAt": "2026-06-10T07:04:18.659Z",
   "programs": [
     {
       "key": "garvee-innovation-inc",
@@ -561,14 +561,14 @@
       ],
       "commissionRange": [
         {
-          "min": 0,
-          "max": 0,
-          "type": "amount"
-        },
-        {
           "min": 8,
           "max": 8,
           "type": "percentage"
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "type": "amount"
         }
       ],
       "kpi": {
@@ -2834,13 +2834,12 @@
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
       "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
       "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
-      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/68990 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
