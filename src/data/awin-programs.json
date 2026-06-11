@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-10T07:04:18.659Z",
+  "syncedAt": "2026-06-11T07:26:03.965Z",
   "programs": [
     {
       "key": "garvee-innovation-inc",
@@ -561,14 +561,14 @@
       ],
       "commissionRange": [
         {
-          "min": 8,
-          "max": 8,
-          "type": "percentage"
-        },
-        {
           "min": 0,
           "max": 0,
           "type": "amount"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "type": "percentage"
         }
       ],
       "kpi": {
@@ -1002,11 +1002,11 @@
       "advertiserId": "124136",
       "name": "Kingbull Bike",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://kingbullbike.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=124136&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/124136.png",
       "primarySector": "Sports Equipment",
       "primaryRegion": {
@@ -1022,22 +1022,9 @@
           "domain": "*.kingbullbike.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 8,
-          "max": 8,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "33",
-        "approvalPercentage": 54.64,
-        "epc": 1.9,
-        "conversionRate": 2.83,
-        "validationDays": 11,
-        "awinIndex": 60.28
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1169,11 +1156,11 @@
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.remember.bereaveorders.com/pets",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "primarySector": "Gifts & Flowers",
       "primaryRegion": {
@@ -1186,8 +1173,15 @@
           "domain": "https://www.remember.bereaveorders.com/pets"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "",
+        "approvalPercentage": 100,
+        "epc": 1.17,
+        "conversionRate": 2.95,
+        "validationDays": 11,
+        "awinIndex": 80.73
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -2393,7 +2387,7 @@
       "advertiserId": "124136",
       "name": "Kingbull Bike",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2401,7 +2395,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/124136.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=124136&id=2861861",
       "topicTags": [
@@ -2455,7 +2449,7 @@
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2463,7 +2457,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
       "topicTags": [
@@ -2789,7 +2783,7 @@
   "stats": {
     "joined": 18,
     "pending": 15,
-    "feeds": 617,
+    "feeds": 622,
     "apiProducts": 34576,
     "programOfferProducts": 8,
     "totalProducts": 34584,
@@ -2822,7 +2816,10 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
@@ -2833,13 +2830,11 @@
       "programmedetails/126675 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
+      "[promotions] Fetch error: active/page4: Rate limit exceeded after retries",
       "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
       "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
