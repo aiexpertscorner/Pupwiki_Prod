@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-11T07:26:03.965Z",
+  "syncedAt": "2026-06-12T07:18:24.470Z",
   "programs": [
     {
       "key": "garvee-innovation-inc",
@@ -61,7 +61,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 29720,
+      "productCount": 30383,
       "bannerCount": 0
     },
     {
@@ -561,14 +561,14 @@
       ],
       "commissionRange": [
         {
-          "min": 0,
-          "max": 0,
-          "type": "amount"
-        },
-        {
           "min": 8,
           "max": 8,
           "type": "percentage"
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "type": "amount"
         }
       ],
       "kpi": {
@@ -1002,11 +1002,11 @@
       "advertiserId": "124136",
       "name": "Kingbull Bike",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "displayUrl": "https://kingbullbike.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=124136&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/124136.png",
       "primarySector": "Sports Equipment",
       "primaryRegion": {
@@ -1022,9 +1022,22 @@
           "domain": "*.kingbullbike.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [
+        {
+          "min": 8,
+          "max": 8,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "33",
+        "approvalPercentage": 54.64,
+        "epc": 1.9,
+        "conversionRate": 2.83,
+        "validationDays": 11,
+        "awinIndex": 60.28
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1156,11 +1169,11 @@
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://www.remember.bereaveorders.com/pets",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "primarySector": "Gifts & Flowers",
       "primaryRegion": {
@@ -1173,15 +1186,8 @@
           "domain": "https://www.remember.bereaveorders.com/pets"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "",
-        "approvalPercentage": 100,
-        "epc": 1.17,
-        "conversionRate": 2.95,
-        "validationDays": 11,
-        "awinIndex": 80.73
-      },
+      "commissionRange": null,
+      "kpi": null,
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -2008,7 +2014,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 29720,
+      "productCount": 30383,
       "bannerCount": 0,
       "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52725.png",
@@ -2387,7 +2393,7 @@
       "advertiserId": "124136",
       "name": "Kingbull Bike",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2395,7 +2401,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/124136.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=124136&id=2861861",
       "topicTags": [
@@ -2449,7 +2455,7 @@
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2457,7 +2463,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
       "topicTags": [
@@ -2784,9 +2790,9 @@
     "joined": 18,
     "pending": 15,
     "feeds": 622,
-    "apiProducts": 34576,
+    "apiProducts": 35239,
     "programOfferProducts": 8,
-    "totalProducts": 34584,
+    "totalProducts": 35247,
     "apiBanners": 0,
     "logoBanners": 18,
     "totalBanners": 24,
@@ -2794,8 +2800,8 @@
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
     "feedProductFetchFailures": 0,
-    "feedRowsFetched": 34576,
-    "feedRowsNormalized": 34576,
+    "feedRowsFetched": 35239,
+    "feedRowsNormalized": 35239,
     "feedsWithRowsButZeroProducts": [],
     "experimentalCreativesEnabled": true,
     "warnings": [
@@ -2816,10 +2822,7 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
@@ -2830,11 +2833,14 @@
       "programmedetails/126675 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/52135 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "[promotions] Fetch error: active/page4: Rate limit exceeded after retries",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
       "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
       "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
-      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
