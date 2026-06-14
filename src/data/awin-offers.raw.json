@@ -1,5 +1,769 @@
 [
   {
+    "promotionId": 3951211,
+    "type": "promotion",
+    "advertiser": {
+      "id": 126185,
+      "name": "Zigbuy DE",
+      "joined": false
+    },
+    "title": "StVZO-konforme E-Bikes für Stadtpendler  - Aktion 2026",
+    "description": "Entdecken Sie ausgewählte StVZO-konforme City- und Trekking-E-Bikes für den täglichen Arbeitsweg. Komfortabel, straßenzugelassen und ideal für den urbanen Alltag.",
+    "terms": "",
+    "startDate": "2026-06-14T07:00:00+00:00",
+    "endDate": "2026-08-31T06:56:00+00:00",
+    "status": "active",
+    "url": "https://www.zigbuy.de/aktion/aktion-2026-stadtpendler-e-bikes-stvzo-konform",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=126185&awinaffid=2861861&ued=https%3A%2F%2Fwww.zigbuy.de%2Faktion%2Faktion-2026-stadtpendler-e-bikes-stvzo-konform",
+    "dateAdded": "2026-06-14T07:00:58+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951209,
+    "type": "voucher",
+    "advertiser": {
+      "id": 126185,
+      "name": "Zigbuy DE",
+      "joined": false
+    },
+    "title": "40€ Rabatt auf Wybot B1",
+    "description": "40€ Rabatt auf Wybot B1  Poolroboter",
+    "terms": "/",
+    "startDate": "2026-06-14T06:56:00+00:00",
+    "endDate": "2027-04-29T06:55:00+00:00",
+    "status": "active",
+    "url": "https://www.zigbuy.de/roboter-poolsauger/842-wybot-b1-osprey-600-kabelloser-poolroboter-automatische-poolreinigung.html",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=126185&awinaffid=2861861&ued=https%3A%2F%2Fwww.zigbuy.de%2Froboter-poolsauger%2F842-wybot-b1-osprey-600-kabelloser-poolroboter-automatische-poolreinigung.html",
+    "dateAdded": "2026-06-14T06:56:33+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951201,
+    "type": "voucher",
+    "advertiser": {
+      "id": 127089,
+      "name": "Schattenfreude DE",
+      "joined": false
+    },
+    "title": "10% auf den Warenkorb",
+    "description": "Keine Mindestbestellmenge",
+    "terms": "10 % Rabatt auf Plissees, Rollos und Sonnenschutz nach Maß. Keine Mindestbestellmenge. Gültig bis 31.07.2026. Nicht mit anderen Gutscheinen oder Aktionen kombinierbar. Nur auf schattenfreude.shop einlösbar.",
+    "startDate": "2026-06-14T01:59:00+00:00",
+    "endDate": "2026-07-31T21:59:00+00:00",
+    "status": "active",
+    "url": "https://schattenfreude.shop/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=127089&awinaffid=2861861&ued=https%3A%2F%2Fschattenfreude.shop%2F",
+    "dateAdded": "2026-06-14T01:59:56+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951197,
+    "type": "promotion",
+    "advertiser": {
+      "id": 92499,
+      "name": "Dr. Liia",
+      "joined": false
+    },
+    "title": "EPILYNXGLOW20",
+    "description": "20% off on all code EPILYNXGLOW20",
+    "terms": "applies to all",
+    "startDate": "2026-06-13T04:00:00+00:00",
+    "endDate": "2026-10-01T03:59:00+00:00",
+    "status": "active",
+    "url": "https://www.epilynx.com/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=92499&awinaffid=2861861&campaign=epilynx+skincare+for+sensitive&ued=https%3A%2F%2Fwww.epilynx.com%2F",
+    "dateAdded": "2026-06-14T00:47:14+00:00",
+    "campaign": "epilynx skincare for sensitive",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 3,
+          "name": "United States of America",
+          "countryCode": "US"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951195,
+    "type": "promotion",
+    "advertiser": {
+      "id": 80989,
+      "name": "Arrow Sewing",
+      "joined": false
+    },
+    "title": "Save 20% Sitewide + Free Shipping on non-sale Furniture (Use Code: SEWSUNNY)",
+    "description": "Save 20% Sitewide + Free Shipping on non-sale Furniture (Use Code: SEWSUNNY)",
+    "terms": "Standard exclusions apply.",
+    "startDate": "2026-06-13T19:41:53+00:00",
+    "endDate": "2026-07-01T03:59:59+00:00",
+    "status": "active",
+    "url": "https://www.arrowsewing.com/promotions",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=80989&awinaffid=2861861&ued=https%3A%2F%2Fwww.arrowsewing.com%2Fpromotions",
+    "dateAdded": "2026-06-13T20:31:53+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 3,
+          "name": "United States of America",
+          "countryCode": "US"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951193,
+    "type": "promotion",
+    "advertiser": {
+      "id": 80989,
+      "name": "Arrow Sewing",
+      "joined": false
+    },
+    "title": "Get a FREE Upgrade to Dual Rail Electric Lift ($500 Value) when you purchase Wallaby or Kangaroo & Joey",
+    "description": "Get a FREE Upgrade to Dual Rail Electric Lift ($500 Value) when you purchase Wallaby or Kangaroo & Joey",
+    "terms": "N/A",
+    "startDate": "2026-06-13T19:41:52+00:00",
+    "endDate": "2026-07-01T03:59:59+00:00",
+    "status": "active",
+    "url": "https://www.arrowsewing.com/promotions",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=80989&awinaffid=2861861&ued=https%3A%2F%2Fwww.arrowsewing.com%2Fpromotions",
+    "dateAdded": "2026-06-13T20:31:53+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 3,
+          "name": "United States of America",
+          "countryCode": "US"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951185,
+    "type": "voucher",
+    "advertiser": {
+      "id": 37852,
+      "name": "MemoryStitch",
+      "joined": false
+    },
+    "title": "4-Day Flash Sale -- 35% Off Premium Quilts & Pillows (Use Code: MYQUILT)",
+    "description": "4-Day Flash Sale -- 35% Off Premium Quilts & Pillows (Use Code: MYQUILT)",
+    "terms": "Valid on new orders not already discounted. Not valid on add-ons or previous orders. Discounts may not be combined.",
+    "startDate": "2026-06-13T04:00:00+00:00",
+    "endDate": "2026-06-17T03:59:59+00:00",
+    "status": "expiringSoon",
+    "url": "https://memorystitch.com",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=37852&awinaffid=2861861&ued=https%3A%2F%2Fmemorystitch.com",
+    "dateAdded": "2026-06-13T20:28:35+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 3,
+          "name": "United States of America",
+          "countryCode": "US"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951175,
+    "type": "voucher",
+    "advertiser": {
+      "id": 14166,
+      "name": "Silkes Weinkeller DE",
+      "joined": false
+    },
+    "title": "15 % Rabatt auf Sommerweine",
+    "description": "Jetzt auf die besten Sommerweine sparen!",
+    "terms": "Der Gutscheincode ist gültig bis zum 15.06.2026 und nur in unserem Onlineshop auf Sommerweine einlösbar. Nicht auf Versandkosten anrechenbar. Bar-Auszahlung ist nicht möglich. Bestellungen nur in haushaltsüblichen Mengen. Nicht mit anderen Rabatt- und Gutscheinaktionen kombinierbar.",
+    "startDate": "2026-06-14T06:00:00+00:00",
+    "endDate": "2026-06-15T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.silkes-weinkeller.de/weinangebot/?utm_source=awin&utm_medium=affiliate&utm_campaign=schaumweine_03_2026&utm_term=schaumweine&utm_content=schaumweine&gutscheinid=26SOMMER15&bannerid=overlay",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=14166&awinaffid=2861861&ued=https%3A%2F%2Fwww.silkes-weinkeller.de%2Fweinangebot%2F%3Futm_source%3Dawin%26utm_medium%3Daffiliate%26utm_campaign%3Dschaumweine_03_2026%26utm_term%3Dschaumweine%26utm_content%3Dschaumweine%26gutscheinid%3D26SOMMER15%26bannerid%3Doverlay",
+    "dateAdded": "2026-06-13T19:13:54+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        },
+        {
+          "id": 7,
+          "name": "Austria",
+          "countryCode": "AT"
+        },
+        {
+          "id": 16,
+          "name": "Switzerland",
+          "countryCode": "CH"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951173,
+    "type": "promotion",
+    "advertiser": {
+      "id": 20110,
+      "name": "Daunenstep IT",
+      "joined": false
+    },
+    "title": "Taie d’oreiller thermorégulatrice Care Fresh à partir de 32 €",
+    "description": "La technologie Outlast® aide à maintenir une température plus stable pendant la nuit, réduit la transpiration et améliore le confort en toute saison. Fabriquée en 100 % Lyocell TENCEL®, une fibre naturelle douce, respirante et agréable pour la peau. Idéale pour celles et ceux qui recherchent un sommeil plus sec et plus confortable tout au long de l’année.",
+    "terms": "Livraison rapide dans toute l’Europe (hors Grande-Bretagne) sous 1 à 4 jours. Livraison offerte à partir de 150 € d’achat. Retour sous 30 jours.",
+    "startDate": "2026-06-13T15:36:00+00:00",
+    "endDate": "2026-09-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.daunenstep.com/fr/taie-d-oreiller-thermoregulatrice-care-fresh/sw10385?utm_source=awin&utm_medium=affiliate&utm_campaign=promo-tool",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=20110&awinaffid=2861861&ued=https%3A%2F%2Fwww.daunenstep.com%2Ffr%2Ftaie-d-oreiller-thermoregulatrice-care-fresh%2Fsw10385%3Futm_source%3Dawin%26utm_medium%3Daffiliate%26utm_campaign%3Dpromo-tool",
+    "dateAdded": "2026-06-13T15:36:48+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        },
+        {
+          "id": 16,
+          "name": "Switzerland",
+          "countryCode": "CH"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951171,
+    "type": "promotion",
+    "advertiser": {
+      "id": 20110,
+      "name": "Daunenstep IT",
+      "joined": false
+    },
+    "title": "Thermoregulierender Kissenbezug Care Fresh ab 32 €",
+    "description": "Die Outlast®-Technologie trägt dazu bei, die Temperatur während der Nacht konstant zu halten, reduziert Schwitzen und sorgt zu jeder Jahreszeit für mehr Schlafkomfort. Hergestellt aus 100 % Lyocell TENCEL®, einer natürlichen Faser, die weich, atmungsaktiv und besonders hautfreundlich ist. Ideal für alle, die das ganze Jahr über trockener und komfortabler schlafen möchten.",
+    "terms": "Schneller Versand innerhalb Europas (ausgenommen Großbritannien) mit Lieferung in 1–4 Tagen. Kostenloser Versand ab 150 € Bestellwert. Widerruf und Rückgabe innerhalb von 30 Tagen.",
+    "startDate": "2026-06-13T15:35:00+00:00",
+    "endDate": "2026-09-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.daunenstep.com/de/thermoregulierender-kissenbezug-care-fresh/sw10385?utm_source=awin&utm_medium=affiliate&utm_campaign=promo-tool",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=20110&awinaffid=2861861&ued=https%3A%2F%2Fwww.daunenstep.com%2Fde%2Fthermoregulierender-kissenbezug-care-fresh%2Fsw10385%3Futm_source%3Dawin%26utm_medium%3Daffiliate%26utm_campaign%3Dpromo-tool",
+    "dateAdded": "2026-06-13T15:35:21+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        },
+        {
+          "id": 7,
+          "name": "Austria",
+          "countryCode": "AT"
+        },
+        {
+          "id": 16,
+          "name": "Switzerland",
+          "countryCode": "CH"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951169,
+    "type": "promotion",
+    "advertiser": {
+      "id": 20110,
+      "name": "Daunenstep IT",
+      "joined": false
+    },
+    "title": "Care Fresh Thermoregulating Pillowcase from €32",
+    "description": "Outlast® technology helps maintain a more stable temperature throughout the night, reducing perspiration and improving comfort in every season. Made from 100% Lyocell TENCEL®, a natural fibre that is soft, breathable and gentle on the skin. Ideal for anyone seeking a drier, more comfortable sleep all year round.",
+    "terms": "Fast shipping across Europe (excluding Great Britain) with delivery in 1-4 days. Free shipping on orders over €150. Returns within 30 days.",
+    "startDate": "2026-06-13T15:33:00+00:00",
+    "endDate": "2026-09-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.daunenstep.com/en/thermoregulating-pillowcase-care-fresh/sw10385?utm_source=awin&utm_medium=affiliate&utm_campaign=promo-tool",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=20110&awinaffid=2861861&ued=https%3A%2F%2Fwww.daunenstep.com%2Fen%2Fthermoregulating-pillowcase-care-fresh%2Fsw10385%3Futm_source%3Dawin%26utm_medium%3Daffiliate%26utm_campaign%3Dpromo-tool",
+    "dateAdded": "2026-06-13T15:33:58+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 8,
+          "name": "Belgium",
+          "countryCode": "BE"
+        },
+        {
+          "id": 9,
+          "name": "Netherlands",
+          "countryCode": "NL"
+        },
+        {
+          "id": 15,
+          "name": "Poland",
+          "countryCode": "PL"
+        },
+        {
+          "id": 17,
+          "name": "Sweden",
+          "countryCode": "SE"
+        },
+        {
+          "id": 19,
+          "name": "Denmark",
+          "countryCode": "DK"
+        },
+        {
+          "id": 22,
+          "name": "Portugal",
+          "countryCode": "PT"
+        },
+        {
+          "id": 24,
+          "name": "Czech Republic",
+          "countryCode": "CZ"
+        },
+        {
+          "id": 25,
+          "name": "Hungary",
+          "countryCode": "HU"
+        },
+        {
+          "id": 27,
+          "name": "Slovakia",
+          "countryCode": "SK"
+        },
+        {
+          "id": 28,
+          "name": "Slovenia",
+          "countryCode": "SI"
+        },
+        {
+          "id": 31,
+          "name": "Croatia",
+          "countryCode": "HR"
+        },
+        {
+          "id": 32,
+          "name": "Greece",
+          "countryCode": "GR"
+        },
+        {
+          "id": 34,
+          "name": "Lithuania",
+          "countryCode": "LT"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951167,
+    "type": "promotion",
+    "advertiser": {
+      "id": 20110,
+      "name": "Daunenstep IT",
+      "joined": false
+    },
+    "title": "Federa termoregolatrice Care Fresh da 32€",
+    "description": "Tecnologia Outlast® per una temperatura più stabile durante la notte, meno sudorazione e maggiore comfort in ogni stagione. Realizzata in 100% Lyocell TENCEL®, fibra naturale morbida, traspirante e delicata sulla pelle. Ideale per chi cerca un riposo più asciutto e confortevole tutto l'anno.",
+    "terms": "Spedizioni rapide in tutta Europa (esclusa Gran Bretagna) con consegna in 1-4 giorni. Spedizione gratuita per ordini da 150€. Recesso e reso entro 30 giorni.",
+    "startDate": "2026-06-13T15:31:00+00:00",
+    "endDate": "2026-09-30T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.daunenstep.com/it/federa-termoregolatrice-care-fresh/sw10385?utm_source=awin&utm_medium=affiliate&utm_campaign=promo-tool",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=20110&awinaffid=2861861&ued=https%3A%2F%2Fwww.daunenstep.com%2Fit%2Ffedera-termoregolatrice-care-fresh%2Fsw10385%3Futm_source%3Dawin%26utm_medium%3Daffiliate%26utm_campaign%3Dpromo-tool",
+    "dateAdded": "2026-06-13T15:31:34+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 11,
+          "name": "Italy",
+          "countryCode": "IT"
+        },
+        {
+          "id": 16,
+          "name": "Switzerland",
+          "countryCode": "CH"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951163,
+    "type": "promotion",
+    "advertiser": {
+      "id": 67694,
+      "name": "Grace & Stella",
+      "joined": false
+    },
+    "title": "The Bridal Edit",
+    "description": "Spend $80 and receive free \"Bridal Bag Kit\"",
+    "terms": "May not be combined with any other offers or promotions.",
+    "startDate": "2026-06-13T15:27:00+00:00",
+    "endDate": "2026-07-01T06:59:00+00:00",
+    "status": "active",
+    "url": "https://www.graceandstella.com/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=67694&awinaffid=2861861&ued=https%3A%2F%2Fwww.graceandstella.com%2F",
+    "dateAdded": "2026-06-13T15:27:36+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951161,
+    "type": "voucher",
+    "advertiser": {
+      "id": 67694,
+      "name": "Grace & Stella",
+      "joined": false
+    },
+    "title": "Pride Month - 20% best-sellers with LOVE20",
+    "description": "We're celebrating color, confidence and community with a $10,000 donation to All Out. Plus, enjoy 20% off your most-loved products.",
+    "terms": "May not be combined with any other offers or promotions.",
+    "startDate": "2026-06-13T15:25:00+00:00",
+    "endDate": "2026-06-19T07:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.graceandstella.com/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=67694&awinaffid=2861861&ued=https%3A%2F%2Fwww.graceandstella.com%2F",
+    "dateAdded": "2026-06-13T15:25:33+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951159,
+    "type": "promotion",
+    "advertiser": {
+      "id": 119869,
+      "name": "Lojas Lebes BR",
+      "joined": false
+    },
+    "title": "Ofertão",
+    "description": "Sofá Retrátil 265cm Kappesberg Sierra 3 Lugares Titânio R$: 3.999,90",
+    "terms": "Oferta valida enquanto durarem os estoques",
+    "startDate": "2026-06-13T11:59:00+00:00",
+    "endDate": "2026-06-16T02:56:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.lebes.com.br/sofa-retratil-265cm-kappesberg-sierra-3-lugares-titanio-p87456",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=119869&awinaffid=2861861&ued=https%3A%2F%2Fwww.lebes.com.br%2Fsofa-retratil-265cm-kappesberg-sierra-3-lugares-titanio-p87456",
+    "dateAdded": "2026-06-13T11:58:16+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951157,
+    "type": "promotion",
+    "advertiser": {
+      "id": 119869,
+      "name": "Lojas Lebes BR",
+      "joined": false
+    },
+    "title": "Ofertão",
+    "description": "Smart TV 55\" TCL 4K 55P7K Preta R$: 2.599,00",
+    "terms": "Oferta valida enquanto durarem os estoques",
+    "startDate": "2026-06-13T11:59:00+00:00",
+    "endDate": "2026-06-15T02:55:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.lebes.com.br/smart-tv-55-tcl-4k-55p7k-preta-p101197",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=119869&awinaffid=2861861&ued=https%3A%2F%2Fwww.lebes.com.br%2Fsmart-tv-55-tcl-4k-55p7k-preta-p101197",
+    "dateAdded": "2026-06-13T11:56:42+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951155,
+    "type": "voucher",
+    "advertiser": {
+      "id": 57285,
+      "name": "garden sanctuary.",
+      "joined": false
+    },
+    "title": "2026 Summer Saving",
+    "description": "12% Off Entire Order",
+    "terms": "Details：This 12% off entire order No minimum purchase requirement All customers No usage limits Can’t combine with other discounts Active until August 31th.",
+    "startDate": "2026-06-13T10:59:00+00:00",
+    "endDate": "2026-08-31T09:59:00+00:00",
+    "status": "active",
+    "url": "https://gardensanctuary.co.uk",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=57285&awinaffid=2861861&ued=https%3A%2F%2Fgardensanctuary.co.uk",
+    "dateAdded": "2026-06-13T10:04:33+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951153,
+    "type": "voucher",
+    "advertiser": {
+      "id": 124816,
+      "name": "Traverseon",
+      "joined": false
+    },
+    "title": "Buy 3 Get 35 % OFF - World Cup Special",
+    "description": "Get 35% OFF on 3 item. Use code  Traverseon35OFF at checkout.",
+    "terms": "All customers\nFor Online Store and 5 sales channels\n35% off Game Day Outdoors\nMinimum purchase of 3 items\nNo usage limits\nCan’t combine with other discounts",
+    "startDate": "2026-06-13T09:46:00+00:00",
+    "endDate": "2027-02-14T09:44:00+00:00",
+    "status": "active",
+    "url": "http://www.traverseon.com",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=124816&awinaffid=2861861&ued=http%3A%2F%2Fwww.traverseon.com",
+    "dateAdded": "2026-06-13T09:46:28+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951151,
+    "type": "voucher",
+    "advertiser": {
+      "id": 124816,
+      "name": "Traverseon",
+      "joined": false
+    },
+    "title": "Buy 2 Get 25% OFF - World Cup Special",
+    "description": "Get 25% OFF on 2 item. Use code Traverseon25OFF at checkout.",
+    "terms": "All customers\nFor Online Store\n20% off Game Day Outdoors\nMinimum purchase of 2 items\nNo usage limits\nCan’t combine with other discounts",
+    "startDate": "2026-06-13T09:44:00+00:00",
+    "endDate": "2027-01-01T09:40:00+00:00",
+    "status": "active",
+    "url": "http://www.traverseon.com",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=124816&awinaffid=2861861&ued=http%3A%2F%2Fwww.traverseon.com",
+    "dateAdded": "2026-06-13T09:44:33+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951129,
+    "type": "voucher",
+    "advertiser": {
+      "id": 127215,
+      "name": "Alvato Lavado de Coches España",
+      "joined": false
+    },
+    "title": "Código LAVADO89 | Consigue tu Lavado de coches al 50%",
+    "description": "El lavado de coches mas vendido de España ahora al 50% de 178€ a 89€",
+    "terms": "Código válido únicamente para reservas realizadas a través de la landing promocional. Compatible con la oferta Lavado Premium Alvato 178€ → 89€. No acumulable con otras promociones.",
+    "startDate": "2026-06-13T07:12:00+00:00",
+    "endDate": "2026-08-31T07:08:00+00:00",
+    "status": "active",
+    "url": "https://alvato.com/landing/reserva-lavado-de-coche-aw-promo/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=127215&awinaffid=2861861&ued=https%3A%2F%2Falvato.com%2Flanding%2Freserva-lavado-de-coche-aw-promo%2F",
+    "dateAdded": "2026-06-13T07:12:22+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951127,
+    "type": "voucher",
+    "advertiser": {
+      "id": 127215,
+      "name": "Alvato Lavado de Coches España",
+      "joined": false
+    },
+    "title": "Lavado de Coches Premium | Oferta exclusiva PREMIUM89",
+    "description": "Lavado Premium Alvato  Interior + exterior + cera + perfume. El Lavado mas famoso de España, se vende solo.",
+    "terms": "Código válido únicamente para reservas realizadas a través de la landing promocional. Compatible con la oferta Lavado Premium Alvato 178€ → 89€. No acumulable con otras promociones.",
+    "startDate": "2026-06-13T07:08:00+00:00",
+    "endDate": "2026-08-31T06:59:00+00:00",
+    "status": "active",
+    "url": "https://alvato.com/landing/reserva-lavado-de-coche-aw-promo/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=127215&awinaffid=2861861&ued=https%3A%2F%2Falvato.com%2Flanding%2Freserva-lavado-de-coche-aw-promo%2F",
+    "dateAdded": "2026-06-13T07:08:35+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3951125,
+    "type": "voucher",
+    "advertiser": {
+      "id": 127215,
+      "name": "Alvato Lavado de Coches España",
+      "joined": false
+    },
+    "title": "Código ALVATO89 | Lavado Premium por solo 89€",
+    "description": "Lavado de Coches Alvato. Precio  178€  añades del código y queda en 89€. Se vende como churros!",
+    "terms": "Código válido únicamente para reservas realizadas a través de la landing promocional. Compatible con la oferta Lavado Premium Alvato 178€ → 89€. No acumulable con otras promociones.",
+    "startDate": "2026-06-13T06:58:00+00:00",
+    "endDate": "2026-08-31T06:54:00+00:00",
+    "status": "active",
+    "url": "https://alvato.com/landing/reserva-lavado-de-coche-aw-promo/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=127215&awinaffid=2861861&ued=https%3A%2F%2Falvato.com%2Flanding%2Freserva-lavado-de-coche-aw-promo%2F",
+    "dateAdded": "2026-06-13T06:58:48+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3951123,
     "type": "promotion",
     "advertiser": {
@@ -1545,32 +2309,27 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3950249,
-    "type": "voucher",
+    "promotionId": 3950291,
+    "type": "promotion",
     "advertiser": {
-      "id": 83225,
-      "name": "Malwee BR",
+      "id": 77792,
+      "name": "MDSolarSciences",
       "joined": false
     },
-    "title": "FRETE GRÁTIS",
-    "description": "Frete Grátis acima de R$ 99",
-    "terms": "Somente no site oficial e app. Por tempo limitado. Benefício aplicado mediante a uso de cupom: BRASIL. Válido em todo site.",
-    "startDate": "2026-06-13T03:00:00+00:00",
-    "endDate": "2026-06-14T02:59:00+00:00",
+    "title": "BOGO 50% off Sprays",
+    "description": "Buy One, Get One 50% Off Spray Sunscreens (Quick Dry Body Spray SPF 40 or KidSpray SPF 40",
+    "terms": "",
+    "startDate": "2026-06-14T04:00:00+00:00",
+    "endDate": "2026-06-15T03:59:00+00:00",
     "status": "expiringSoon",
-    "url": "https://www.malwee.com.br/lancamentos?O=OrderByReleaseDateDESC",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=83225&awinaffid=2861861&ued=https%3A%2F%2Fwww.malwee.com.br%2Flancamentos%3FO%3DOrderByReleaseDateDESC",
-    "dateAdded": "2026-06-12T15:58:51+00:00",
+    "url": "https://mdsolarsciences.com/collections/sunday-deals",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=77792&awinaffid=2861861&ued=https%3A%2F%2Fmdsolarsciences.com%2Fcollections%2Fsunday-deals",
+    "dateAdded": "2026-06-12T16:19:51+00:00",
     "campaign": "",
     "regions": {
       "all": true
     },
     "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
     "_fetchedStatus": "active"
   },
   {
@@ -4852,6 +5611,54 @@
     "_fetchedStatus": "active"
   },
   {
+    "promotionId": 3949643,
+    "type": "promotion",
+    "advertiser": {
+      "id": 14000,
+      "name": "reBuy DE/AT",
+      "joined": false
+    },
+    "title": "8 % Rabatt auf ausgewählte Technik",
+    "description": "8 % Rabatt auf ausgewählte Elektronik in der Sale-Kategorie ab einem Mindestbestellwert von 50 € in den Zuständen exzellent, sehr gut, gut und stark genutzt mit Code RABATTJUNI26.",
+    "terms": "*Gilt bis zum 19.06.2026, 23:59 Uhr. 8 % Rabatt auf ausgewählte Elektronik in der Sale-Kategorie ab einem Mindestbestellwert von 50 € in den Zuständen exzellent, sehr gut, gut und stark genutzt mit Code RABATTJUNI26. Der Mindestbestellwert bezieht sich auf die an der Kampagne teilnehmenden Produkte. Nicht kombinierbar mit anderen Aktionen.",
+    "startDate": "2026-06-13T23:01:00+00:00",
+    "endDate": "2026-06-19T21:50:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.rebuy.de/?utm_campaign=[AWIN]_AFF_DE_BL_CEMI__PROMO_JUN_BlueMoM",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=14000&awinaffid=2861861&ued=https%3A%2F%2Fwww.rebuy.de%2F%3Futm_campaign%3D%5BAWIN%5D_AFF_DE_BL_CEMI__PROMO_JUN_BlueMoM",
+    "dateAdded": "2026-06-12T13:35:45+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949639,
+    "type": "promotion",
+    "advertiser": {
+      "id": 13115,
+      "name": "reBuy FR",
+      "joined": false
+    },
+    "title": "8 %  de réduction sur une sélection de produits*",
+    "description": "8 % de réduction sur une sélection de produits électroniques dans la catégorie % Bons Plans à partir d’un montant d’achat minimum de 50 € sur les états Excellent, Très bon état, Bon état et Correct avec le code RABATTJUNI26. Le montant minimum d’achat s’applique uniquement aux produits participant à la campagne. Non cumulable avec d'autres promotions.",
+    "terms": "*Valable jusqu’au 19.06.2026, 23h59. 8 % de réduction sur une sélection de produits électroniques dans la catégorie % Bons Plans à partir d’un montant d’achat minimum de 50 € sur les états Excellent, Très bon état, Bon état et Correct avec le code RABATTJUNI26. Le montant minimum d’achat s’applique uniquement aux produits participant à la campagne. Non cumulable avec d'autres promotions.",
+    "startDate": "2026-06-13T23:00:00+00:00",
+    "endDate": "2026-06-19T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.rebuy.fr/?utm_campaign=[AWIN]_AFF_FR_BL_CEMI__PROMO_JUN_BlueMoM",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=13115&awinaffid=2861861&ued=https%3A%2F%2Fwww.rebuy.fr%2F%3Futm_campaign%3D%5BAWIN%5D_AFF_FR_BL_CEMI__PROMO_JUN_BlueMoM",
+    "dateAdded": "2026-06-12T13:32:20+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3949627,
     "type": "voucher",
     "advertiser": {
@@ -4871,6 +5678,366 @@
     "campaign": "",
     "regions": {
       "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949625,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84335,
+      "name": "Parfumdreams UK",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 14/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.co.uk/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84335&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.co.uk%2F",
+    "dateAdded": "2026-06-12T13:27:08+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 1,
+          "name": "United Kingdom",
+          "countryCode": "GB"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949623,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84327,
+      "name": "Parfumdreams SE",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Ingen kontant utbetalning, inget minsta beställningsvärde, ej kombinerbar. Gäller t.o.m. 14.06.2026, gäller ej på presentkort och artiklar som refereras till Lyx eller Hygienbutik.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.se/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84327&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.se%2F",
+    "dateAdded": "2026-06-12T13:27:03+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 17,
+          "name": "Sweden",
+          "countryCode": "SE"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949621,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84307,
+      "name": "Parfumdreams PT",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Não é possível o pagamento em dinheiro, sem valor mínimo de compra, não acumulável. Válido até 14/06/2026, não aplicável a cartões de oferta nem artigos com a indicação “Luxo” ou “Drogaria”. Não aplicável às marcas Rituals.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.pt/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84307&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.pt%2F",
+    "dateAdded": "2026-06-12T13:26:54+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 22,
+          "name": "Portugal",
+          "countryCode": "PT"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949619,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84309,
+      "name": "Parfumdreams PL",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Nie podlega wymianie na gotówkę, bez minimalnej wartości zamówienia, nie łączy się z innymi promocjami. Oferta obowiązuje do 14.06.2026, nie dotyczy kart podarunkowych i artykułów z oznaczeniem Luksus lub Drogeria. Nie dotyczy marek Dior i Sol de Janeiro.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.pl/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84309&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.pl%2F",
+    "dateAdded": "2026-06-12T13:26:48+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 15,
+          "name": "Poland",
+          "countryCode": "PL"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949617,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84315,
+      "name": "Parfumdreams NL",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Geen contante uitbetaling, geen minimale bestelwaarde, kan niet worden gecombineerd. Geldig tot 14-06-2026, niet geldig op cadeaubonnen, en artikelen die zijn aangeduid met Luxe of Drogisterij. Niet geldig op de merken Dior.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.nl/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84315&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.nl%2F",
+    "dateAdded": "2026-06-12T13:26:38+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 9,
+          "name": "Netherlands",
+          "countryCode": "NL"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949613,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84319,
+      "name": "Parfumdreams IT",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Nessuna conversione in contanti, nessun valore minimo d'ordine, non cumulabile. Valido fino al 14/06/2026, non valido su carte regalo e gli articoli contrassegnati dalla dicitura Lusso o Profumeria.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.it/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84319&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.it%2F",
+    "dateAdded": "2026-06-12T13:26:32+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 11,
+          "name": "Italy",
+          "countryCode": "IT"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949611,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84325,
+      "name": "Parfumdreams IE",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 14/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.ie/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84325&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.ie%2F",
+    "dateAdded": "2026-06-12T13:26:26+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 2,
+          "name": "Ireland",
+          "countryCode": "IE"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949609,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84321,
+      "name": "Parfumdreams FR",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Non échangeable contre espèces, aucun montant minimum de commande, non cumulable. Valable jusqu’au 14/06/2026, non valable sur les cartes-cadeaux et les articles portant la mention« Luxe » & « Parfumerie ».",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.fr/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84321&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.fr%2F",
+    "dateAdded": "2026-06-12T13:26:14+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 5,
+          "name": "France",
+          "countryCode": "FR"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949607,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84331,
+      "name": "Parfumdreams ES",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*No se puede canjear por efectivo, no hay un importe mínimo de compra, no se puede combinar. Validez hasta 14.06.2026, sin validez en tarjetas regalo ni y artículos con la referencia Lujo o Droguería.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.es/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84331&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.es%2F",
+    "dateAdded": "2026-06-12T13:26:09+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 10,
+          "name": "Spain",
+          "countryCode": "ES"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949605,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84313,
+      "name": "Parfumdreams DK",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Det er ikke muligt at veksle til kontanter, ingen minimumsværdi for bestillinger, kan ikke kombineres. Gyldig til 14.06.2026, ikke gyldig for gavekort og artikler med mærket Luksus eller Skønhedsbutik.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.dk/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84313&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.dk%2F",
+    "dateAdded": "2026-06-12T13:25:59+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 19,
+          "name": "Denmark",
+          "countryCode": "DK"
+        }
+      ]
     },
     "categories": [],
     "voucher": {
@@ -4905,6 +6072,186 @@
     "_fetchedStatus": "active"
   },
   {
+    "promotionId": 3949601,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84339,
+      "name": "Parfumdreams CZ",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Nelze vyplatit v hotovosti, žádná minimální hodnota objednávky, nelze kombinovat s jinými akcemi. Platí do 14.06.2026, neplatí na dárkové karty a produkty s označením Luxury a Drogerie.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.cz/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84339&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.cz%2F",
+    "dateAdded": "2026-06-12T13:25:49+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 24,
+          "name": "Czech Republic",
+          "countryCode": "CZ"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949599,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84311,
+      "name": "Parfumdreams BE",
+      "joined": false
+    },
+    "title": "Super Deal: 11% discount on everything",
+    "description": "Super Deal: 11% discount on everything",
+    "terms": "*Geen contante uitbetaling, geen minimale bestelwaarde, kan niet worden gecombineerd. Geldig tot 14-06-2026, niet geldig op cadeaubonnen en artikelen die zijn aangeduid met Luxe of drogisterij.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.be/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84311&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.be%2F",
+    "dateAdded": "2026-06-12T13:25:42+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 8,
+          "name": "Belgium",
+          "countryCode": "BE"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949597,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84323,
+      "name": "Parfumdreams CH",
+      "joined": false
+    },
+    "title": "Super Deal: 11% Rabatt auf Alles",
+    "description": "Super Deal: 11% Rabatt auf Alles",
+    "terms": "*Keine Barauszahlung, kein Mindestbestellwert, nicht kombinierbar. Gültig bis 14.06.2026. Nicht gültig auf Geschenkkarten und Artikel mit dem Hinweis Luxus oder Drogerie. Nicht gültig auf die Marken Dior, Rituals und Sol de Janeiro.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.ch/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84323&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.ch%2F",
+    "dateAdded": "2026-06-12T13:25:32+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 16,
+          "name": "Switzerland",
+          "countryCode": "CH"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949595,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84317,
+      "name": "Parfumdreams DE",
+      "joined": false
+    },
+    "title": "Super Deal: 11% Rabatt auf Alles",
+    "description": "Super Deal: 11% Rabatt auf Alles",
+    "terms": "*Keine Barauszahlung, kein Mindestbestellwert, nicht kombinierbar. Gültig bis 14.06.2026. Nicht gültig auf Geschenkkarten und Artikel mit dem Hinweis Luxus oder Drogerie. Nicht gültig auf die Marken Chanel, Dior, Rituals und Sol de Janeiro.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.de/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84317&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.de%2F",
+    "dateAdded": "2026-06-12T13:25:27+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949593,
+    "type": "voucher",
+    "advertiser": {
+      "id": 84333,
+      "name": "Parfumdreams AT",
+      "joined": false
+    },
+    "title": "Super Deal: 11% Rabatt auf Alles",
+    "description": "Super Deal: 11% Rabatt auf Alles",
+    "terms": "*Keine Barauszahlung, kein Mindestbestellwert, nicht kombinierbar. Gültig bis 14.06.2026. Nicht gültig auf Geschenkkarten und Artikel mit dem Hinweis Luxus oder Drogerie. Nicht gültig auf die Marken Dior, Rituals und Sol de Janeiro. Nicht mit dem PREMIUM Rabatt kombinierbar.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.parfumdreams.at/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84333&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.at%2F",
+    "dateAdded": "2026-06-12T13:25:26+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 7,
+          "name": "Austria",
+          "countryCode": "AT"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3949585,
     "type": "voucher",
     "advertiser": {
@@ -4934,22 +6281,22 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3949581,
+    "promotionId": 3949583,
     "type": "promotion",
     "advertiser": {
       "id": 9556,
       "name": "Sephora IT",
       "joined": false
     },
-    "title": "-25% su YEPODA",
-    "description": "-25% su YEPODA con carta fedeltà DA APP",
-    "terms": "Valida il 12 e il 13 giugno",
-    "startDate": "2026-06-12T13:18:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
+    "title": "-25% su Beauty of Joseon",
+    "description": "-25% su Beauty of Joseon con carta fedeltà DA APP",
+    "terms": "Valida il 14 e il 15 giugno",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-15T21:59:00+00:00",
     "status": "expiringSoon",
-    "url": "https://www.sephora.it/marche/dalla-a-alla-z/yepoda-yepod/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=9556&awinaffid=2861861&ued=https%3A%2F%2Fwww.sephora.it%2Fmarche%2Fdalla-a-alla-z%2Fyepoda-yepod%2F",
-    "dateAdded": "2026-06-12T13:18:39+00:00",
+    "url": "https://www.sephora.it/marche/dalla-a-alla-z/beauty-of-joseon-bofjo/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=9556&awinaffid=2861861&ued=https%3A%2F%2Fwww.sephora.it%2Fmarche%2Fdalla-a-alla-z%2Fbeauty-of-joseon-bofjo%2F",
+    "dateAdded": "2026-06-12T13:20:29+00:00",
     "campaign": "",
     "regions": {
       "all": true
@@ -5011,378 +6358,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3949571,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84335,
-      "name": "Parfumdreams UK",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.co.uk/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84335&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.co.uk%2F",
-    "dateAdded": "2026-06-12T13:14:42+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 1,
-          "name": "United Kingdom",
-          "countryCode": "GB"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949569,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84327,
-      "name": "Parfumdreams SE",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.se/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84327&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.se%2F",
-    "dateAdded": "2026-06-12T13:14:39+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 17,
-          "name": "Sweden",
-          "countryCode": "SE"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949567,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84307,
-      "name": "Parfumdreams PT",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.pt/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84307&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.pt%2F",
-    "dateAdded": "2026-06-12T13:14:37+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 22,
-          "name": "Portugal",
-          "countryCode": "PT"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949565,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84309,
-      "name": "Parfumdreams PL",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.pl/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84309&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.pl%2F",
-    "dateAdded": "2026-06-12T13:14:35+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 15,
-          "name": "Poland",
-          "countryCode": "PL"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949563,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84315,
-      "name": "Parfumdreams NL",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.nl/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84315&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.nl%2F",
-    "dateAdded": "2026-06-12T13:14:34+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 9,
-          "name": "Netherlands",
-          "countryCode": "NL"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949561,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84319,
-      "name": "Parfumdreams IT",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.it/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84319&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.it%2F",
-    "dateAdded": "2026-06-12T13:14:32+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 11,
-          "name": "Italy",
-          "countryCode": "IT"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949559,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84325,
-      "name": "Parfumdreams IE",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.ie/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84325&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.ie%2F",
-    "dateAdded": "2026-06-12T13:14:30+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 2,
-          "name": "Ireland",
-          "countryCode": "IE"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949557,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84321,
-      "name": "Parfumdreams FR",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.fr/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84321&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.fr%2F",
-    "dateAdded": "2026-06-12T13:14:27+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 5,
-          "name": "France",
-          "countryCode": "FR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949555,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84331,
-      "name": "Parfumdreams ES",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.es/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84331&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.es%2F",
-    "dateAdded": "2026-06-12T13:14:25+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 10,
-          "name": "Spain",
-          "countryCode": "ES"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949553,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84313,
-      "name": "Parfumdreams DK",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.dk/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84313&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.dk%2F",
-    "dateAdded": "2026-06-12T13:14:23+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 19,
-          "name": "Denmark",
-          "countryCode": "DK"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949551,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84339,
-      "name": "Parfumdreams CZ",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.cz/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84339&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.cz%2F",
-    "dateAdded": "2026-06-12T13:14:21+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 24,
-          "name": "Czech Republic",
-          "countryCode": "CZ"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949549,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84311,
-      "name": "Parfumdreams BE",
-      "joined": false
-    },
-    "title": "Flash Sale! Save up to 60% on selected items",
-    "description": "Flash Sale! Save up to 60% on selected items",
-    "terms": "*Not redeemable for cash, no minimum order value, cannot be combined. Valid until 13/06/2026. Not applicable for gift cards or items labelled Luxury or Drugstore. Not applicable for the brands Chanel, Dior, Rituals and Sol de Janeiro. Cannot be combined with the PREMIUM discount.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.be/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84311&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.be%2F",
-    "dateAdded": "2026-06-12T13:14:18+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 8,
-          "name": "Belgium",
-          "countryCode": "BE"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3949545,
     "type": "promotion",
     "advertiser": {
@@ -5402,99 +6377,6 @@
     "campaign": "",
     "regions": {
       "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949543,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84317,
-      "name": "Parfumdreams DE",
-      "joined": false
-    },
-    "title": "Flash Sale! Spare bis zu 60% auf ausgewählte Produkte",
-    "description": "Flash Sale! Spare bis zu 60% auf ausgewählte Produkte",
-    "terms": "*Keine Barauszahlung, kein Mindestbestellwert, nicht kombinierbar. Gültig bis 13.06.2026. Nicht gültig auf Geschenkkarten und Artikel mit dem Hinweis Luxus oder Drogerie. Nicht gültig auf die Marken Chanel, Dior, Rituals und Sol de Janeiro. Nicht mit dem PREMIUM Rabatt kombinierbar.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.de/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84317&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.de%2F",
-    "dateAdded": "2026-06-12T13:12:30+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 6,
-          "name": "Germany",
-          "countryCode": "DE"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949541,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84333,
-      "name": "Parfumdreams AT",
-      "joined": false
-    },
-    "title": "Flash Sale! Spare bis zu 60% auf ausgewählte Produkte",
-    "description": "Flash Sale! Spare bis zu 60% auf ausgewählte Produkte",
-    "terms": "*Keine Barauszahlung, kein Mindestbestellwert, nicht kombinierbar. Gültig bis 13.06.2026. Nicht gültig auf Geschenkkarten und Artikel mit dem Hinweis Luxus oder Drogerie. Nicht gültig auf die Marken Chanel, Dior, Rituals und Sol de Janeiro. Nicht mit dem PREMIUM Rabatt kombinierbar.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.at/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84333&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.at%2F",
-    "dateAdded": "2026-06-12T13:12:28+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 7,
-          "name": "Austria",
-          "countryCode": "AT"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3949539,
-    "type": "promotion",
-    "advertiser": {
-      "id": 84323,
-      "name": "Parfumdreams CH",
-      "joined": false
-    },
-    "title": "Flash Sale! Spare bis zu 60% auf ausgewählte Produkte",
-    "description": "Flash Sale! Spare bis zu 60% auf ausgewählte Produkte",
-    "terms": "*Keine Barauszahlung, kein Mindestbestellwert, nicht kombinierbar. Gültig bis 13.06.2026. Nicht gültig auf Geschenkkarten und Artikel mit dem Hinweis Luxus oder Drogerie. Nicht gültig auf die Marken Chanel, Dior, Rituals und Sol de Janeiro. Nicht mit dem PREMIUM Rabatt kombinierbar.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.parfumdreams.ch/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=84323&awinaffid=2861861&ued=https%3A%2F%2Fwww.parfumdreams.ch%2F",
-    "dateAdded": "2026-06-12T13:12:27+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 16,
-          "name": "Switzerland",
-          "countryCode": "CH"
-        }
-      ]
     },
     "categories": [],
     "_fetchedStatus": "active"
@@ -5846,6 +6728,35 @@
     "_fetchedStatus": "active"
   },
   {
+    "promotionId": 3949469,
+    "type": "voucher",
+    "advertiser": {
+      "id": 23805,
+      "name": "Forum Sport ES",
+      "joined": false
+    },
+    "title": "FLASH 48H",
+    "description": "7% Extra por Compras Superiores a 77€. El Descuento se aplica sobre el precio final del producto. En productos seleccionados. Exclusivo Online. No acumulable a otros Vales o Promociones. Válido el 14 y 15 de junio",
+    "terms": "El Descuento se aplica sobre el precio final del producto. En productos seleccionados. Exclusivo Online. No acumulable a otros Vales o Promociones. Válido el 14 y 15 de junio.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-15T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.forumsport.com/es-es/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=23805&awinaffid=2861861&ued=https%3A%2F%2Fwww.forumsport.com%2Fes-es%2F",
+    "dateAdded": "2026-06-12T12:04:08+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3949467,
     "type": "voucher",
     "advertiser": {
@@ -5880,6 +6791,73 @@
           "id": 20,
           "name": "Australia",
           "countryCode": "AU"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949461,
+    "type": "promotion",
+    "advertiser": {
+      "id": 68696,
+      "name": "Maxi Zoo BE",
+      "joined": false
+    },
+    "title": "Friends only - 14% korting MOV €69 all products (excl F+F)",
+    "description": "Friends bénéficient d'une réduction de 14 %, aujourd’hui seulement",
+    "terms": "Non cumulable avec les articles déjà remisés ou d’autres promotions. Hors FIT+FUN.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:58:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.maxizoo.be/fr/promotions/webonly/20/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=68696&awinaffid=2861861&ued=https%3A%2F%2Fwww.maxizoo.be%2Ffr%2Fpromotions%2Fwebonly%2F20%2F",
+    "dateAdded": "2026-06-12T11:53:37+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 8,
+          "name": "Belgium",
+          "countryCode": "BE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949459,
+    "type": "voucher",
+    "advertiser": {
+      "id": 68696,
+      "name": "Maxi Zoo BE",
+      "joined": false
+    },
+    "title": "14% korting MOV €69 all products (excl F+F)",
+    "description": "Friends krijgen 14% korting, alleen vandaag",
+    "terms": "Niet cumuleerbaar met reeds afgeprijsde artikelen en promoties. Excl. FIT+FUN.",
+    "startDate": "2026-06-13T22:01:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.maxizoo.be/nl/acties-aanbiedingen/webonly/20",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=68696&awinaffid=2861861&ued=https%3A%2F%2Fwww.maxizoo.be%2Fnl%2Facties-aanbiedingen%2Fwebonly%2F20",
+    "dateAdded": "2026-06-12T11:52:05+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 8,
+          "name": "Belgium",
+          "countryCode": "BE"
         }
       ]
     },
@@ -6402,6 +7380,161 @@
     "_fetchedStatus": "active"
   },
   {
+    "promotionId": 3949409,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - BRAUN HD4.1 Haartrockner (3 Temperatur- und 3 Geschwindigkeitsstufen, Super IONTEC, schmale Düse, abnehmbarer Filter, Reinigungsbürste, 2.100 Watt, Black gloss) für nur 39,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - BRAUN HD4.1 Haartrockner (3 Temperatur- und 3 Geschwindigkeitsstufen, Super IONTEC, schmale Düse, abnehmbarer Filter, Reinigungsbürste, 2.100 Watt, Black gloss) für nur 39,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/gesundheit-korperpflege/haarstyling/haartrockner/36101032027-hd4-1-haartrockner.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fgesundheit-korperpflege%2Fhaarstyling%2Fhaartrockner%2F36101032027-hd4-1-haartrockner.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:51:44+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949407,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - BEURER MG 89 Compact Power Massagegerät (Aktivierung und Regeneration durch gezielte Muskelmassage, bürstenloser Motor, kompaktes Design, 3 Massageaufsätze, 5 Intensitätsstufen, bis zu 4 h Akku-Laufzeit, LED-Leuchten) für nur 39,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - BEURER MG 89 Compact Power Massagegerät (Aktivierung und Regeneration durch gezielte Muskelmassage, bürstenloser Motor, kompaktes Design, 3 Massageaufsätze, 5 Intensitätsstufen, bis zu 4 h Akku-Laufzeit, LED-Leuchten) für nur 39,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/gesundheit-korperpflege/gesundheit/massagegerate/36042110158-mg-89-compact-power-massagegeraet.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fgesundheit-korperpflege%2Fgesundheit%2Fmassagegerate%2F36042110158-mg-89-compact-power-massagegeraet.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:50:47+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949403,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - BaByliss FS991DE Super-X Metal Foil Herrenrasierer für nur 79,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - BaByliss FS991DE Super-X Metal Foil Herrenrasierer für nur 79,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/gesundheit-korperpflege/rasierer-bartstyling-haarentfernung-fur-manner/herrenrasierer/36002002027-herrenrasierer-fs991de-super-x-metal-foil.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fgesundheit-korperpflege%2Frasierer-bartstyling-haarentfernung-fur-manner%2Fherrenrasierer%2F36002002027-herrenrasierer-fs991de-super-x-metal-foil.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:49:35+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949401,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - BaByliss AS6555E Air Wand Limited Edition Haartrockner (Anti-Frizz Technologie, Bürsten-Aufsatz, Volumen-Aufsatz, Fly-Away-Aufsatz, Aufbewahrungstasche, 3 Luftstrom- / 4 Temperaturstufen, Kaltstufe, 2,5m Salon-Kabel) für nur 79,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - BaByliss AS6555E Air Wand Limited Edition Haartrockner (Anti-Frizz Technologie, Bürsten-Aufsatz, Volumen-Aufsatz, Fly-Away-Aufsatz, Aufbewahrungstasche, 3 Luftstrom- / 4 Temperaturstufen, Kaltstufe, 2,5m Salon-Kabel) für nur 79,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/gesundheit-korperpflege/haarstyling/haartrockner/36150068027-as6555e-air-wand-limited-edition-warmluftbuerste.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fgesundheit-korperpflege%2Fhaarstyling%2Fhaartrockner%2F36150068027-as6555e-air-wand-limited-edition-warmluftbuerste.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:47:42+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949397,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - Shark SD200EU SteamPickUp Hartbodenreiniger (für versiegelte Hartböden, 1230 Watt Leistung) für nur 99,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - Shark SD200EU SteamPickUp Hartbodenreiniger (für versiegelte Hartböden, 1230 Watt Leistung) für nur 99,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/haushalt-kuche/staubsauger/waschsauger/36250003928-sd200eu-hartbodenreiniger.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fhaushalt-kuche%2Fstaubsauger%2Fwaschsauger%2F36250003928-sd200eu-hartbodenreiniger.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:46:26+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3949395,
     "type": "promotion",
     "advertiser": {
@@ -6421,6 +7554,130 @@
     "campaign": "",
     "regions": {
       "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949393,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - Shark HD731EU SpeedStyle Pro 3-in-1 Haartrockner für nur 99,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - Shark HD731EU SpeedStyle Pro 3-in-1 Haartrockner für nur 99,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/gesundheit-korperpflege/haarstyling/haartrockner/36103004928-hd731eu-speedstyle-pro-3-in-1-haartrockner.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fgesundheit-korperpflege%2Fhaarstyling%2Fhaartrockner%2F36103004928-hd731eu-speedstyle-pro-3-in-1-haartrockner.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:42:53+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949391,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - BEURER MN9X Multigroomer Limited Edition für nur 39,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - BEURER MN9X Multigroomer Limited Edition für nur 39,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/gesundheit-korperpflege/rasierer-bartstyling-haarentfernung-fur-manner/bartschneider-barttrimmer/36006003158-mn9x-multigroomer-limited-edition.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fgesundheit-korperpflege%2Frasierer-bartstyling-haarentfernung-fur-manner%2Fbartschneider-barttrimmer%2F36006003158-mn9x-multigroomer-limited-edition.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:41:09+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949379,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - Ninja AS090EUWH Crispi Pro White Heißluftfritteuse (5,7 l und 2,3 l Fassungsvermögen, 2000 Watt Leistung, 5 Programme, modulare Basis, Weiß) für nur 199,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - Ninja AS090EUWH Crispi Pro White Heißluftfritteuse (5,7 l und 2,3 l Fassungsvermögen, 2000 Watt Leistung, 5 Programme, modulare Basis, Weiß) für nur 199,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/haushalt-kuche/kochen-backen-spulen/heissluftfritteusen/36463034928-as090euwh-crispi-pro-white-heissluftfritteuse.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fhaushalt-kuche%2Fkochen-backen-spulen%2Fheissluftfritteusen%2F36463034928-as090euwh-crispi-pro-white-heissluftfritteuse.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:38:45+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949325,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - KRUPS EA 81R8 Arabica schwarz Kaffeevollautomat (Metall-Brühgruppe, Reinigungs-Programm, Entkalkungs-Programm, Milchdüse, Cappuccino) für nur 229,00 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - KRUPS EA 81R8 Arabica schwarz Kaffeevollautomat (Metall-Brühgruppe, Reinigungs-Programm, Entkalkungs-Programm, Milchdüse, Cappuccino) für nur 229,00 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/haushalt-kuche/kaffee-teezubereitung/kaffeevollautomaten/36411061034-kaffeevollautomat-ea-81r8-arabica-schwarz.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fhaushalt-kuche%2Fkaffee-teezubereitung%2Fkaffeevollautomaten%2F36411061034-kaffeevollautomat-ea-81r8-arabica-schwarz.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:36:52+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
     },
     "categories": [],
     "_fetchedStatus": "active"
@@ -6462,6 +7719,37 @@
     "_fetchedStatus": "active"
   },
   {
+    "promotionId": 3949313,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - Black & Decker reviva REVSV18D1 Akku Staubsauger (kabellos, beutellos, mit Stiel, selbststehend, enthält recyceltes Material, bis zu 38 min. Laufzeit) für nur 99,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - Black & Decker reviva REVSV18D1 Akku Staubsauger (kabellos, beutellos, mit Stiel, selbststehend, enthält recyceltes Material, bis zu 38 min. Laufzeit) für nur 99,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/haushalt-kuche/staubsauger/akku-staubsauger/36204024165-revsv18d1-akku-staubsauger.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fhaushalt-kuche%2Fstaubsauger%2Fakku-staubsauger%2F36204024165-revsv18d1-akku-staubsauger.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:35:42+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3949279,
     "type": "voucher",
     "advertiser": {
@@ -6495,6 +7783,68 @@
       "exclusive": false,
       "attributable": false
     },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949277,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - Lenovo Tab One, Luna Grey, 8,7 Zoll, Touch, HD, IPS, 60 Hz, MediaTek Helio G85, 4 GB, 64 GB eMMC, Android (ZAF00254SE, Wifi, Bluetooth) für nur 89,00 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - Lenovo Tab One, Luna Grey, 8,7 Zoll, Touch, HD, IPS, 60 Hz, MediaTek Helio G85, 4 GB, 64 GB eMMC, Android (ZAF00254SE, Wifi, Bluetooth) für nur 89,00 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/computer-zubehor/tablets/tablets/17061032543-tab-one-luna-grey-8-7-zoll-touch-hd-ips-60-hz-mediatek-helio-g85-4-gb-64-gb-emmc-android.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fcomputer-zubehor%2Ftablets%2Ftablets%2F17061032543-tab-one-luna-grey-8-7-zoll-touch-hd-ips-60-hz-mediatek-helio-g85-4-gb-64-gb-emmc-android.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:34:19+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949275,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - ACER Iconia V12, Mist Green, 12 Zoll, WUXGA, IPS, Touch, 8 GB, 256 GB eMMC, MediaTek MT8781 (NT.LJTEG.001) für nur 229,00 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - ACER Iconia V12, Mist Green, 12 Zoll, WUXGA, IPS, Touch, 8 GB, 256 GB eMMC, MediaTek MT8781 (NT.LJTEG.001) für nur 229,00 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/computer-zubehor/tablets/tablets/17060008033-iconia-v12-mist-green-12-zoll-wuxga-ips-touch-8-gb-256-gb-emmc-mediatek-mt8781.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fcomputer-zubehor%2Ftablets%2Ftablets%2F17060008033-iconia-v12-mist-green-12-zoll-wuxga-ips-touch-8-gb-256-gb-emmc-mediatek-mt8781.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:33:15+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
     "_fetchedStatus": "active"
   },
   {
@@ -6558,6 +7908,37 @@
     "_fetchedStatus": "active"
   },
   {
+    "promotionId": 3949269,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - ACER Iconia A12, Vapor Silver, 12 Zoll, 2K, IPS, Touch, ALLWINNER A733, 4 GB, 128 GB eMMC (NT.LJFEG.001) für nur 189,00 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - ACER Iconia A12, Vapor Silver, 12 Zoll, 2K, IPS, Touch, ALLWINNER A733, 4 GB, 128 GB eMMC (NT.LJFEG.001) für nur 189,00 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/computer-zubehor/tablets/tablets/17060007033-iconia-a12-vapor-silver-12-zoll-2k-ips-touch-allwinner-a733-4-gb-128-gb-emmc.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fcomputer-zubehor%2Ftablets%2Ftablets%2F17060007033-iconia-a12-vapor-silver-12-zoll-2k-ips-touch-allwinner-a733-4-gb-128-gb-emmc.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:32:04+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3949267,
     "type": "promotion",
     "advertiser": {
@@ -6582,6 +7963,37 @@
           "id": 9,
           "name": "Netherlands",
           "countryCode": "NL"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949265,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - JBL SPINNER BT schwarz Plattenspieler (Bluetooth mit aptX™ HD, Aluminium-Teller, Riemenantrieb) für nur 299,00 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - JBL SPINNER BT schwarz Plattenspieler (Bluetooth mit aptX™ HD, Aluminium-Teller, Riemenantrieb) für nur 299,00 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/tv-audio/hifi-anlagen-komponenten/plattenspieler/12288001384-spinner-bt-schwarz-plattenspieler.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Ftv-audio%2Fhifi-anlagen-komponenten%2Fplattenspieler%2F12288001384-spinner-bt-schwarz-plattenspieler.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:29:41+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
         }
       ]
     },
@@ -6654,6 +8066,68 @@
     "_fetchedStatus": "active"
   },
   {
+    "promotionId": 3949259,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - Verbatim Vx500 Externes SSD-Laufwerk USB 3.1 Gen 2 480 GB Externe SSD-Festplatte für nur 74,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - Verbatim Vx500 Externes SSD-Laufwerk USB 3.1 Gen 2 480 GB Externe SSD-Festplatte für nur 74,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/computer-zubehor/speichermedien/externe-festplatten/17320007417-vx500-externes-ssd-laufwerk-usb-3-1-gen-2-480-gb-externe-ssd-festplatte.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fcomputer-zubehor%2Fspeichermedien%2Fexterne-festplatten%2F17320007417-vx500-externes-ssd-laufwerk-usb-3-1-gen-2-480-gb-externe-ssd-festplatte.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:28:02+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949257,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - Samsung 990 Pro, 2 TB, NVMe M.2 SSD für nur 279,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - Samsung 990 Pro, 2 TB, NVMe M.2 SSD für nur 279,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/computer-zubehor/speichermedien/interne-festplatten/17320009214-990-pro-2-tb-nvme-m-2-ssd.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fcomputer-zubehor%2Fspeichermedien%2Finterne-festplatten%2F17320009214-990-pro-2-tb-nvme-m-2-ssd.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:25:58+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3949255,
     "type": "promotion",
     "advertiser": {
@@ -6673,6 +8147,37 @@
     "campaign": "",
     "regions": {
       "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949251,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - Samsung microSD P9 Express 512GB, weiß Speicherkarte für nur 94,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - Samsung microSD P9 Express 512GB, weiß Speicherkarte für nur 94,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/gaming-freizeit/nintendo/nintendo-switch-2-zubehor/17570023214-microsd-p9-express-512gb-weiss-speicherkarte.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fgaming-freizeit%2Fnintendo%2Fnintendo-switch-2-zubehor%2F17570023214-microsd-p9-express-512gb-weiss-speicherkarte.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:24:00+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
     },
     "categories": [],
     "_fetchedStatus": "active"
@@ -6735,6 +8240,37 @@
       "exclusive": false,
       "attributable": false
     },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949241,
+    "type": "promotion",
+    "advertiser": {
+      "id": 30007,
+      "name": "expert DE",
+      "joined": false
+    },
+    "title": "Weekend-Deals - Verbatim Pocket SSD 1 TB, Schlüsselanhänger mit Kabelbefestigung, Schwarz/Orange (32193, USB-C 3.2 Gen 2, 1000 MB/s) für nur 129,99 EUR (inkl. Versand)",
+    "description": "Weekend-Deals - Verbatim Pocket SSD 1 TB, Schlüsselanhänger mit Kabelbefestigung, Schwarz/Orange (32193, USB-C 3.2 Gen 2, 1000 MB/s) für nur 129,99 EUR (inkl. Versand)",
+    "terms": "",
+    "startDate": "2026-06-13T18:00:00+00:00",
+    "endDate": "2026-06-14T21:00:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.expert.de/shop/unsere-produkte/computer-zubehor/speichermedien/externe-festplatten/17320044417-pocket-ssd-1-tb-schluesselanhaenger-mit-kabelbefestigung-schwarz-orange.html?campaignid",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=30007&awinaffid=2861861&ued=https%3A%2F%2Fwww.expert.de%2Fshop%2Funsere-produkte%2Fcomputer-zubehor%2Fspeichermedien%2Fexterne-festplatten%2F17320044417-pocket-ssd-1-tb-schluesselanhaenger-mit-kabelbefestigung-schwarz-orange.html%3Fcampaignid",
+    "dateAdded": "2026-06-12T10:20:31+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 6,
+          "name": "Germany",
+          "countryCode": "DE"
+        }
+      ]
+    },
+    "categories": [],
     "_fetchedStatus": "active"
   },
   {
@@ -7039,6 +8575,42 @@
     "_fetchedStatus": "active"
   },
   {
+    "promotionId": 3949203,
+    "type": "voucher",
+    "advertiser": {
+      "id": 12461,
+      "name": "Douglas_CH",
+      "joined": false
+    },
+    "title": "25 %* sur de nombreux articles sans la Beauty Card.  30%** sur de nombreux articles avec la Beauty Card",
+    "description": "25 %* auf vieles ohne Beauty Card  30 %** auf vieles mit Beauty Card  - Code: JUNE  - MBW: 89 CHF  - Zeitraum: 14.06.2026",
+    "terms": "*Gültig nur am 14.6.2026 auf douglas.ch und in der Douglas-App. Der Rabatt wird ab einem Einkaufswert von CHF 89 nach Eingabe des Codes JUNE im Warenkorb gewährt. Ausgenommen sind bereits reduzierte Produkte, Produkte mit der Kennzeichnung \"Douglas Partner\", \"Point Rouge\" oder \"Online-Preis\", Geschenkgutscheine sowie alle Produkte der Marken Amouage, Anfas, Attar Collection, Bond No. 9, Caudalie, Electimuss London, Goldfield & Banks, Pana Dora Sweden, Reinvented, Rituals, Thameen London, Tiziana Terenzi, Van Cleef & Arpels, Widian und Xerjoff. Nicht mit anderen Rabatten kombinierbar und keine Barablöse möglich.\n\n\n\n**Gültig nur am 14.6.2026 nur für Douglas Beauty Card Kund*innen auf douglas.ch und in der Douglas-App. Der Rabatt wird ab einem Einkaufswert von CHF 89 nach Eingabe des Codes JUNE im Warenkorb gewährt. Ausgenommen sind bereits reduzierte Produkte, Produkte mit der Kennzeichnung \"Douglas Partner\", \"Point Rouge\" oder \"Online-Preis\", Geschenkgutscheine sowie alle Produkte der Marken Amouage, Anfas, Attar Collection, Bond No. 9, Caudalie, Electimuss London, Goldfield & Banks, Pana Dora Sweden, Reinvented, Rituals, Thameen London, Tiziana Terenzi, Van Cleef & Arpels, Widian und Xerjoff. Nicht mit anderen Rabatten kombinierbar und keine Barablöse möglich.\n\n*Valable uniquement le 14.6.2026 sur douglas.ch et dans l'application Douglas. La réduction affichée à partir de CHF 89 après avoir saisi le code JUNE dans le panier. Sont exclus les produits déjà reduits, les produits marqués \"Douglas Partner“, \"Point Rouge\" et \"En Ligne\", chèques-cadeaux et tous les articles des marques Amouage, Anfas, Attar Collection, Bond No. 9, Caudalie, Electimuss London, Goldfield & Banks, Pana Dora Sweden, Reinvented, Rituals, Thameen London, Tiziana Terenzi, Van Cleef & Arpels, Widian und Xerjoff. Non cumulable avec d'autres promotions et aucun rachat en espèces n'est possible.\n\n\n\n**Valable uniquement le 14.6.2026 uniquement pour les clients Douglas Beauty Card sur douglas.ch et dans l'application Douglas. La réduction affichée à partir de CHF 89 après avoir saisi le code JUNE dans le panier. Sont exclus les produits déjà reduits, les produits marqués \"Douglas Partner“, \"Point Rouge\" et \"En Ligne\", chèques-cadeaux et tous les articles des marques Amouage, Anfas, Attar Collection, Bond No. 9, Caudalie, Electimuss London, Goldfield & Banks, Pana Dora Sweden, Reinvented, Rituals, Thameen London, Tiziana Terenzi, Van Cleef & Arpels, Widian und Xerjoff. Non cumulable avec d'autres promotions et aucun rachat en espèces n'est possible.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.douglas.ch/de",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=12461&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.ch%2Fde",
+    "dateAdded": "2026-06-12T10:11:11+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 16,
+          "name": "Switzerland",
+          "countryCode": "CH"
+        }
+      ]
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3949201,
     "type": "voucher",
     "advertiser": {
@@ -7168,30 +8740,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3949183,
-    "type": "promotion",
-    "advertiser": {
-      "id": 13936,
-      "name": "Lidl DE",
-      "joined": false
-    },
-    "title": "20% Rabatt auf Silvercrest Produkte",
-    "description": "20% Rabatt auf Silvercrest Produkte (Aktivierung des Coupons im Lidl Plus Account)",
-    "terms": "Der 10%-Rabatt-Coupon gilt für einen Einkauf im Onlineshop und nur für Lidl Plus Nutzer bei einer Bestellung von SILVERCREST-Artikeln unter der Aktionsseite https://www.lidl.de/c/10-auf-silvercrest/s10095456 am 12.–13.06.2026. Mit dem Coupon gibt es 10% Rabatt auf den Einkaufswert der jeweiligen Artikel im Warenkorb. Der Coupon wird nach vorheriger Aktivierung automatisch im Bestellprozess, sofern mit dem Lidl Plus Konto im Onlineshop angemeldet, abgezogen. Aktivierung in der Lidl Plus App oder im Benutzerkonto im Onlineshop ist erforderlich. Coupon gilt nicht für Lidl Fotos, Lidl Reisen, Lidl Connect & Partner, Bücher & Medien. Der Coupon ist nicht auf Versandkosten oder einen Lieferzuschlag anrechenbar. Keine Barauszahlung. Für bereits getätigte Einkäufe ist das Angebot nicht gültig. Sämtliche Aktionsartikel können aufgrund begrenzter Vorratsmenge bereits im Laufe des ersten Angebotstages ausverkauft sein. Im Falle einer Rückabwicklung von Artikel wird der jeweilige durch den Coupon reduzierte Artikelkaufpreis erstattet. Angebote auf lidl.de richten sich ausschließlich an Endkunden mit Lieferanschrift in Deutschland. Onlineshop-Angebote: Der Kaufvertrag kommt auf lidl.de mit der Lidl Digital Deutschland GmbH & Co. KG, Bonfelder Straße 2, 74206 Bad Wimpfen zustande. Es gelten die Couponbedingungen in der Lidl Plus App.",
-    "startDate": "2026-06-12T10:03:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.lidl.de/c/10-auf-silvercrest/s10095456",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=13936&awinaffid=2861861&ued=https%3A%2F%2Fwww.lidl.de%2Fc%2F10-auf-silvercrest%2Fs10095456",
-    "dateAdded": "2026-06-12T10:03:57+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3949181,
     "type": "promotion",
     "advertiser": {
@@ -7208,6 +8756,30 @@
     "url": "https://www.gorgeousshop.com/mens/gift-sets",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=53379&awinaffid=2861861&ued=https%3A%2F%2Fwww.gorgeousshop.com%2Fmens%2Fgift-sets",
     "dateAdded": "2026-06-12T10:03:56+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949179,
+    "type": "promotion",
+    "advertiser": {
+      "id": 15296,
+      "name": "liberty-woman DE",
+      "joined": false
+    },
+    "title": "22% Rabatt auf alle Hosen",
+    "description": "22% Rabatt auf alle Hosen",
+    "terms": "",
+    "startDate": "2026-06-13T22:01:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.liberty-woman.com/damenmode/hosen.html?utm_source=awin&utm_medium=affiliate",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=15296&awinaffid=2861861&ued=https%3A%2F%2Fwww.liberty-woman.com%2Fdamenmode%2Fhosen.html%3Futm_source%3Dawin%26utm_medium%3Daffiliate",
+    "dateAdded": "2026-06-12T10:03:12+00:00",
     "campaign": "",
     "regions": {
       "all": true
@@ -7242,6 +8814,92 @@
       "exclusive": false,
       "attributable": false
     },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949173,
+    "type": "promotion",
+    "advertiser": {
+      "id": 22577,
+      "name": "FNAC CH",
+      "joined": false
+    },
+    "title": "CYBER SUNDAY",
+    "description": "20.- geschenkt für jeden 150.- Einkauf !",
+    "terms": "",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.de.fnac.ch/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=22577&awinaffid=2861861&ued=https%3A%2F%2Fwww.de.fnac.ch%2F",
+    "dateAdded": "2026-06-12T10:01:33+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 16,
+          "name": "Switzerland",
+          "countryCode": "CH"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949171,
+    "type": "promotion",
+    "advertiser": {
+      "id": 22577,
+      "name": "FNAC CH",
+      "joined": false
+    },
+    "title": "HAPPY WEB DAY",
+    "description": "20.- offerts tous les 150.- d'achat !",
+    "terms": "",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.fr.fnac.ch/",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=22577&awinaffid=2861861&ued=https%3A%2F%2Fwww.fr.fnac.ch%2F",
+    "dateAdded": "2026-06-12T10:00:46+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 16,
+          "name": "Switzerland",
+          "countryCode": "CH"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949169,
+    "type": "promotion",
+    "advertiser": {
+      "id": 13936,
+      "name": "Lidl DE",
+      "joined": false
+    },
+    "title": "Midseason Sale",
+    "description": "Spare bis zu 72% auf ausgewählte Artikel! (Bis 27.06.)",
+    "terms": "",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-27T21:59:00+00:00",
+    "status": "active",
+    "url": "https://www.lidl.de/c/midseason-sale/s10096814",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=13936&awinaffid=2861861&ued=https%3A%2F%2Fwww.lidl.de%2Fc%2Fmidseason-sale%2Fs10096814",
+    "dateAdded": "2026-06-12T09:58:51+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
     "_fetchedStatus": "active"
   },
   {
@@ -7300,6 +8958,42 @@
     "campaign": "best-priced certified astrolog",
     "regions": {
       "all": true
+    },
+    "categories": [],
+    "voucher": {
+      "code": null,
+      "exclusive": false,
+      "attributable": false
+    },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949157,
+    "type": "voucher",
+    "advertiser": {
+      "id": 12460,
+      "name": "Douglas_AT",
+      "joined": false
+    },
+    "title": "20 % ab 69 €* 25 % ab 99 €** mit Beauty Card",
+    "description": "20 % ab 69 €* 25 % ab 99 €** mit Beauty Card  - MBW: 69 € / 99 €  - Code: JUNE  - Zeitraum: 14.06.2026 - 15.06.2026",
+    "terms": "*Gültig vom 14.06. bis 15.06.2026 auf douglas.at und in der Douglas-App. Der Rabatt wird ab einem Einkaufswert von 69 € im Warenkorb gewährt. Ausgenommen sind bereits reduzierte Produkte, Produkte mit der Kennzeichnung \"Douglas Partner\", Geschenkgutscheine sowie alle Produkte der Marken Alexandre.J, Anfas, Attar Collection, Bond No. 9, Byredo, Caudalie, Chanel, Creed, Diptyque, Electimuss London, Goldfield & Banks, Initio, Maison Francis Kurkdjian Paris, Maison Noir, Maison Tahité, Moresque, New Notes, Pana Dora Sweden, Parfums de Marly, Rare Beauty, Reinvented, Rituals, Simone Andreoli, Sora Dora, Thameen London, The House of Oud, Van Cleef & Arpels, Widian und Xerjoff. Nicht mit anderen Rabatten kombinierbar und keine Barablöse möglich.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-15T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.douglas.at/de",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=12460&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.at%2Fde",
+    "dateAdded": "2026-06-12T09:54:38+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 7,
+          "name": "Austria",
+          "countryCode": "AT"
+        }
+      ]
     },
     "categories": [],
     "voucher": {
@@ -7500,22 +9194,22 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3949129,
+    "promotionId": 3949131,
     "type": "voucher",
     "advertiser": {
       "id": 10076,
       "name": "Douglas_DE",
       "joined": false
     },
-    "title": "Dein Geschenk: GRATIS: 3 Minis von Kérastase zu deiner App-Bestellung ab 89 €",
-    "description": "Dein Geschenk: GRATIS: 3 Minis von Kérastase zu deiner App-Bestellung ab 89 €  - MBW: 89€  - App Code: BUNDLE  - Zeitraum: 13.06.2026",
-    "terms": "*Gültig nur am 13.06.2026 nur in der Douglas-App. Das Geschenk wird dem Warenkorb ab einem Einkaufswert von 89 € (maßgeblich ist der Einkaufswert nach Rabatten und ohne Versandkosten) nach Eingabe des Codes BUNDLE hinzugefügt. Das Geschenk gilt nicht für Bestellungen mit der Versandart \"Click & Collect Express und die Bestellung darf nicht allein aus Produkten mit der Kennzeichnung \"Douglas Partner\" und/oder Geschenkgutscheinen bestehen. Bei Rückgabe des Einkaufs und einer damit verbundenen Unterschreitung des Mindesteinkaufswertes, muss auch die Beigabe zurückgegeben werden. Nur solange der Vorrat reicht und nur ein Geschenk pro Kund*in.",
-    "startDate": "2026-06-12T22:00:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
+    "title": "20%* ab 79€ Bestellwert mit Beauty Card. Der Rabatt gilt auf den aktuell gültigen Preis.",
+    "description": "20%* ab 79€ Bestellwert mit Beauty Card. Der Rabatt gilt auf den aktuell gültigen Preis.  - MBW: 79€  - Code: JUNE  - Zeitraum: 14.06.2026",
+    "terms": "*Gültig nur am 14.6.26 nur für Douglas Beauty Card und Douglas Beauty Card Premium Kund*innen auf douglas.de und in der Douglas-App. Der Rabatt wird ab einem Einkaufswert von 79 € nach Eingabe des Codes JUNE im Warenkorb gewährt. Ausgenommen sind Produkte, die einem UVP gegenübergestellt sind, Produkte mit der Kennzeichnung \"Douglas Partner\" oder \"Code: Online”, Geschenkgutscheine sowie alle Produkte der Marken Alexandre.J, Amouage, Anfas, Attar Collection, Bond No. 9, Byredo, Carner Barcelona, Caudalie, Chanel, Clive Christian, Creed, Diptyque, Electimuss London, Emil Élise, Escentric Molecules, Essential Parfums, Goldfield & Banks, Houbigant Paris, Initio, Lengling Munich, Maison Francis Kurkdjian Paris, Maison Noir, Maison Tahité, Moresque, New Notes, Nishane, Pana Dora Sweden, Parfums de Marly, Penhaligon's, Perris Monte Carlo, Perris Swiss Laboratory, Reinvented, Rituals, Rosendo Mateu, Simone Andreoli, Sora Dora, Thameen London, The House of Oud, Tiziana Terenzi, Van Cleef & Arpels, Widian und Xerjoff. Nicht mit anderen Rabatten kombinierbar und keine Barablöse möglich.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
     "status": "expiringSoon",
     "url": "https://www.douglas.de/",
     "urlTracking": "https://www.awin1.com/cread.php?awinmid=10076&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.de%2F",
-    "dateAdded": "2026-06-12T09:48:33+00:00",
+    "dateAdded": "2026-06-12T09:49:13+00:00",
     "campaign": "",
     "regions": {
       "all": false,
@@ -7615,6 +9309,30 @@
       "exclusive": false,
       "attributable": false
     },
+    "_fetchedStatus": "active"
+  },
+  {
+    "promotionId": 3949111,
+    "type": "promotion",
+    "advertiser": {
+      "id": 8391,
+      "name": "Douglas_NL",
+      "joined": false
+    },
+    "title": "Alleen online: 20% op alle haarverzorging bij aankoop vanaf € 15,- *",
+    "description": "20% off all haircare with a minimum purchase of €15*",
+    "terms": "*Excluding Amika, Balmain Hair, Bouclème, Eaude1974, Fenty Hair, Kerasilk, Lolavie, Marie-Stella-Maris, Nioxin, Rituals, Seb Man, Sebastian Professional, Shu Uemura, Slickhair, The Ordinary, Typebea, Wella Professionals, drugstore brands, hair styling tools, niche fragrances, products shipped by Douglas partners, and already discounted items.",
+    "startDate": "2026-06-13T22:01:00+00:00",
+    "endDate": "2026-06-14T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://www.douglas.nl/nl/c/haar/14",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8391&awinaffid=2861861&ued=https%3A%2F%2Fwww.douglas.nl%2Fnl%2Fc%2Fhaar%2F14",
+    "dateAdded": "2026-06-12T09:45:36+00:00",
+    "campaign": "",
+    "regions": {
+      "all": true
+    },
+    "categories": [],
     "_fetchedStatus": "active"
   },
   {
@@ -9357,6 +11075,37 @@
     "_fetchedStatus": "active"
   },
   {
+    "promotionId": 3948867,
+    "type": "promotion",
+    "advertiser": {
+      "id": 45793,
+      "name": "Primor  PT",
+      "joined": false
+    },
+    "title": "PRIMOR PT | PRIMOR DAYS",
+    "description": "Aproveite os Primor Days com descontos até 87% numa ampla seleção de produtos. Descubra grandes oportunidades por tempo limitado e beneficie dos melhores preços.",
+    "terms": "Consulte os termos e condições no site.",
+    "startDate": "2026-06-13T22:00:00+00:00",
+    "endDate": "2026-06-16T21:59:00+00:00",
+    "status": "expiringSoon",
+    "url": "https://pt.primor.eu/pt_pt/?utm_campaing=primor-days&utm_content=misofertas_home",
+    "urlTracking": "https://www.awin1.com/cread.php?awinmid=45793&awinaffid=2861861&ued=https%3A%2F%2Fpt.primor.eu%2Fpt_pt%2F%3Futm_campaing%3Dprimor-days%26utm_content%3Dmisofertas_home%26utm_content%3Ddeeplink",
+    "dateAdded": "2026-06-12T08:30:23+00:00",
+    "campaign": "",
+    "regions": {
+      "all": false,
+      "list": [
+        {
+          "id": 22,
+          "name": "Portugal",
+          "countryCode": "PT"
+        }
+      ]
+    },
+    "categories": [],
+    "_fetchedStatus": "active"
+  },
+  {
     "promotionId": 3948865,
     "type": "voucher",
     "advertiser": {
@@ -9581,42 +11330,6 @@
     "_fetchedStatus": "active"
   },
   {
-    "promotionId": 3948847,
-    "type": "voucher",
-    "advertiser": {
-      "id": 45793,
-      "name": "Primor  PT",
-      "joined": false
-    },
-    "title": "PRIMOR PT | 15% DESCONTO EM CORPORAIS",
-    "description": "Beneficie de 15% de desconto em produtos corporais e cuide da sua pele com as melhores ofertas. Promoção válida por tempo limitado.",
-    "terms": "Consulte os termos e condições no site.",
-    "startDate": "2026-06-12T08:23:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://pt.primor.eu/pt_pt/?utm_campaing=EXTRA15&utm_content=misofertas_home",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=45793&awinaffid=2861861&ued=https%3A%2F%2Fpt.primor.eu%2Fpt_pt%2F%3Futm_campaing%3DEXTRA15%26utm_content%3Dmisofertas_home%26utm_content%3Ddeeplink",
-    "dateAdded": "2026-06-12T08:23:11+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 22,
-          "name": "Portugal",
-          "countryCode": "PT"
-        }
-      ]
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
     "promotionId": 3948845,
     "type": "promotion",
     "advertiser": {
@@ -9638,42 +11351,6 @@
       "all": true
     },
     "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948843,
-    "type": "voucher",
-    "advertiser": {
-      "id": 45793,
-      "name": "Primor  PT",
-      "joined": false
-    },
-    "title": "PRIMOR PT | 10% DESCONTO EM SELEÇÃO DE PRODUTOS",
-    "description": "Aproveite 10% de desconto em solares, produtos de cabelo e artigos de Sex Shop. Descubra as suas categorias favoritas com um preço especial por tempo limitado.",
-    "terms": "Consulte os termos e condições no site.",
-    "startDate": "2026-06-12T08:21:00+00:00",
-    "endDate": "2026-06-13T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://pt.primor.eu/pt_pt/?utm_campaing=EXTRA10&utm_content=misofertas_home",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=45793&awinaffid=2861861&ued=https%3A%2F%2Fpt.primor.eu%2Fpt_pt%2F%3Futm_campaing%3DEXTRA10%26utm_content%3Dmisofertas_home%26utm_content%3Ddeeplink",
-    "dateAdded": "2026-06-12T08:21:07+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 22,
-          "name": "Portugal",
-          "countryCode": "PT"
-        }
-      ]
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
     "_fetchedStatus": "active"
   },
   {
@@ -10785,2140 +12462,6 @@
           "id": 31,
           "name": "Croatia",
           "countryCode": "HR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948711,
-    "type": "promotion",
-    "advertiser": {
-      "id": 91447,
-      "name": "Homary International Limited",
-      "joined": false
-    },
-    "title": "Homary Outdoor Refresh UP TO 50% OFF Discover Seasonal Outdoor Picks for You",
-    "description": "Up to 50% off with free shipping",
-    "terms": "outdoor sales",
-    "startDate": "2026-06-12T06:38:00+00:00",
-    "endDate": "2026-08-31T06:37:00+00:00",
-    "status": "active",
-    "url": "https://www.homary.com/lego/all-outdoor-furniture-collection-2509.html",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=91447&awinaffid=2861861&ued=https%3A%2F%2Fwww.homary.com%2Flego%2Fall-outdoor-furniture-collection-2509.html",
-    "dateAdded": "2026-06-12T06:38:32+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948701,
-    "type": "promotion",
-    "advertiser": {
-      "id": 25102,
-      "name": "Pergolux Pergola DE/AT",
-      "joined": false
-    },
-    "title": "Einführungsangebot -25 % auf Pergolux Markise",
-    "description": "Einführungsangebot -25 % auf Pergolux Markise",
-    "terms": "Nur für die ersten 100 Bestellungen.\nSale verlängert bis 15. Juni!",
-    "startDate": "2026-06-12T05:55:00+00:00",
-    "endDate": "2026-06-15T21:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://pergolux.de/products/markise",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=25102&awinaffid=2861861&ued=https%3A%2F%2Fpergolux.de%2Fproducts%2Fmarkise",
-    "dateAdded": "2026-06-12T05:55:57+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948691,
-    "type": "voucher",
-    "advertiser": {
-      "id": 79288,
-      "name": "Casagear",
-      "joined": false
-    },
-    "title": "VALID ON MINIMUM SPENT OF 200$",
-    "description": "VALID ON MINIMUM SPENT OF 200$",
-    "terms": "Valid on minimum spent of 200$",
-    "startDate": "2026-06-12T05:06:00+00:00",
-    "endDate": "2026-07-05T05:03:00+00:00",
-    "status": "active",
-    "url": "https://casagear.com/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=79288&awinaffid=2861861&ued=https%3A%2F%2Fcasagear.com%2F",
-    "dateAdded": "2026-06-12T05:06:46+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948687,
-    "type": "voucher",
-    "advertiser": {
-      "id": 110556,
-      "name": "Kailash Energy (US)",
-      "joined": false
-    },
-    "title": "One Piece get 8% OFF",
-    "description": "Use code FD8 to get 8% OFF your purchase.",
-    "terms": "Valid for all physical products. The promotion ends on June 22nd.",
-    "startDate": "2026-06-12T04:00:00+00:00",
-    "endDate": "2026-06-23T03:59:00+00:00",
-    "status": "active",
-    "url": "https://kailashenergy.com/collections/2026-father-s-day",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=110556&awinaffid=2861861&campaign=fathers+day+promotion&ued=https%3A%2F%2Fkailashenergy.com%2Fcollections%2F2026-father-s-day",
-    "dateAdded": "2026-06-12T03:57:09+00:00",
-    "campaign": "fathers day promotion",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 1,
-          "name": "United Kingdom",
-          "countryCode": "GB"
-        },
-        {
-          "id": 2,
-          "name": "Ireland",
-          "countryCode": "IE"
-        },
-        {
-          "id": 3,
-          "name": "United States of America",
-          "countryCode": "US"
-        },
-        {
-          "id": 4,
-          "name": "Canada",
-          "countryCode": "CA"
-        },
-        {
-          "id": 5,
-          "name": "France",
-          "countryCode": "FR"
-        },
-        {
-          "id": 6,
-          "name": "Germany",
-          "countryCode": "DE"
-        },
-        {
-          "id": 7,
-          "name": "Austria",
-          "countryCode": "AT"
-        },
-        {
-          "id": 8,
-          "name": "Belgium",
-          "countryCode": "BE"
-        },
-        {
-          "id": 9,
-          "name": "Netherlands",
-          "countryCode": "NL"
-        },
-        {
-          "id": 10,
-          "name": "Spain",
-          "countryCode": "ES"
-        },
-        {
-          "id": 11,
-          "name": "Italy",
-          "countryCode": "IT"
-        },
-        {
-          "id": 13,
-          "name": "Finland",
-          "countryCode": "FI"
-        },
-        {
-          "id": 15,
-          "name": "Poland",
-          "countryCode": "PL"
-        },
-        {
-          "id": 16,
-          "name": "Switzerland",
-          "countryCode": "CH"
-        },
-        {
-          "id": 17,
-          "name": "Sweden",
-          "countryCode": "SE"
-        },
-        {
-          "id": 18,
-          "name": "Norway",
-          "countryCode": "NO"
-        },
-        {
-          "id": 19,
-          "name": "Denmark",
-          "countryCode": "DK"
-        },
-        {
-          "id": 20,
-          "name": "Australia",
-          "countryCode": "AU"
-        },
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        },
-        {
-          "id": 22,
-          "name": "Portugal",
-          "countryCode": "PT"
-        },
-        {
-          "id": 23,
-          "name": "Russia",
-          "countryCode": "RU"
-        },
-        {
-          "id": 24,
-          "name": "Czech Republic",
-          "countryCode": "CZ"
-        },
-        {
-          "id": 25,
-          "name": "Hungary",
-          "countryCode": "HU"
-        },
-        {
-          "id": 26,
-          "name": "Romania",
-          "countryCode": "RO"
-        },
-        {
-          "id": 27,
-          "name": "Slovakia",
-          "countryCode": "SK"
-        },
-        {
-          "id": 28,
-          "name": "Slovenia",
-          "countryCode": "SI"
-        },
-        {
-          "id": 29,
-          "name": "Ukraine",
-          "countryCode": "UA"
-        },
-        {
-          "id": 30,
-          "name": "Bulgaria",
-          "countryCode": "BG"
-        },
-        {
-          "id": 31,
-          "name": "Croatia",
-          "countryCode": "HR"
-        },
-        {
-          "id": 32,
-          "name": "Greece",
-          "countryCode": "GR"
-        },
-        {
-          "id": 33,
-          "name": "Latvia",
-          "countryCode": "LV"
-        },
-        {
-          "id": 34,
-          "name": "Lithuania",
-          "countryCode": "LT"
-        },
-        {
-          "id": 35,
-          "name": "New Zealand",
-          "countryCode": "NZ"
-        },
-        {
-          "id": 36,
-          "name": "South Africa",
-          "countryCode": "ZA"
-        },
-        {
-          "id": 37,
-          "name": "United Arab Emirates",
-          "countryCode": "AE"
-        },
-        {
-          "id": 38,
-          "name": "China",
-          "countryCode": "CN"
-        },
-        {
-          "id": 39,
-          "name": "India",
-          "countryCode": "IN"
-        },
-        {
-          "id": 40,
-          "name": "Japan",
-          "countryCode": "JP"
-        },
-        {
-          "id": 41,
-          "name": "Singapore",
-          "countryCode": "SG"
-        },
-        {
-          "id": 42,
-          "name": "Argentina",
-          "countryCode": "AR"
-        },
-        {
-          "id": 43,
-          "name": "Chile",
-          "countryCode": "CL"
-        },
-        {
-          "id": 44,
-          "name": "Colombia",
-          "countryCode": "CO"
-        },
-        {
-          "id": 45,
-          "name": "Mexico",
-          "countryCode": "MX"
-        },
-        {
-          "id": 46,
-          "name": "Peru",
-          "countryCode": "PE"
-        },
-        {
-          "id": 47,
-          "name": "Turkey",
-          "countryCode": "TR"
-        },
-        {
-          "id": 48,
-          "name": "Brazil USD",
-          "countryCode": "BU"
-        },
-        {
-          "id": 49,
-          "name": "Mexico pesos",
-          "countryCode": "XP"
-        }
-      ]
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948685,
-    "type": "voucher",
-    "advertiser": {
-      "id": 110556,
-      "name": "Kailash Energy (US)",
-      "joined": false
-    },
-    "title": "Buy 2 or more get 20%OFF",
-    "description": "Buy 2 items → 20% OFF\n\nSpend $288+ → Free Ox Bone Bracelet",
-    "terms": "Valid for all physical products. The promotion ends on June 22nd.",
-    "startDate": "2026-06-12T04:00:00+00:00",
-    "endDate": "2026-06-23T03:59:00+00:00",
-    "status": "active",
-    "url": "https://kailashenergy.com/collections/2026-father-s-day",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=110556&awinaffid=2861861&campaign=fathers+day+promotion&ued=https%3A%2F%2Fkailashenergy.com%2Fcollections%2F2026-father-s-day",
-    "dateAdded": "2026-06-12T03:57:08+00:00",
-    "campaign": "fathers day promotion",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 1,
-          "name": "United Kingdom",
-          "countryCode": "GB"
-        },
-        {
-          "id": 2,
-          "name": "Ireland",
-          "countryCode": "IE"
-        },
-        {
-          "id": 3,
-          "name": "United States of America",
-          "countryCode": "US"
-        },
-        {
-          "id": 4,
-          "name": "Canada",
-          "countryCode": "CA"
-        },
-        {
-          "id": 5,
-          "name": "France",
-          "countryCode": "FR"
-        },
-        {
-          "id": 6,
-          "name": "Germany",
-          "countryCode": "DE"
-        },
-        {
-          "id": 7,
-          "name": "Austria",
-          "countryCode": "AT"
-        },
-        {
-          "id": 8,
-          "name": "Belgium",
-          "countryCode": "BE"
-        },
-        {
-          "id": 9,
-          "name": "Netherlands",
-          "countryCode": "NL"
-        },
-        {
-          "id": 10,
-          "name": "Spain",
-          "countryCode": "ES"
-        },
-        {
-          "id": 11,
-          "name": "Italy",
-          "countryCode": "IT"
-        },
-        {
-          "id": 13,
-          "name": "Finland",
-          "countryCode": "FI"
-        },
-        {
-          "id": 15,
-          "name": "Poland",
-          "countryCode": "PL"
-        },
-        {
-          "id": 16,
-          "name": "Switzerland",
-          "countryCode": "CH"
-        },
-        {
-          "id": 17,
-          "name": "Sweden",
-          "countryCode": "SE"
-        },
-        {
-          "id": 18,
-          "name": "Norway",
-          "countryCode": "NO"
-        },
-        {
-          "id": 19,
-          "name": "Denmark",
-          "countryCode": "DK"
-        },
-        {
-          "id": 20,
-          "name": "Australia",
-          "countryCode": "AU"
-        },
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        },
-        {
-          "id": 22,
-          "name": "Portugal",
-          "countryCode": "PT"
-        },
-        {
-          "id": 23,
-          "name": "Russia",
-          "countryCode": "RU"
-        },
-        {
-          "id": 24,
-          "name": "Czech Republic",
-          "countryCode": "CZ"
-        },
-        {
-          "id": 25,
-          "name": "Hungary",
-          "countryCode": "HU"
-        },
-        {
-          "id": 26,
-          "name": "Romania",
-          "countryCode": "RO"
-        },
-        {
-          "id": 27,
-          "name": "Slovakia",
-          "countryCode": "SK"
-        },
-        {
-          "id": 28,
-          "name": "Slovenia",
-          "countryCode": "SI"
-        },
-        {
-          "id": 29,
-          "name": "Ukraine",
-          "countryCode": "UA"
-        },
-        {
-          "id": 30,
-          "name": "Bulgaria",
-          "countryCode": "BG"
-        },
-        {
-          "id": 31,
-          "name": "Croatia",
-          "countryCode": "HR"
-        },
-        {
-          "id": 32,
-          "name": "Greece",
-          "countryCode": "GR"
-        },
-        {
-          "id": 33,
-          "name": "Latvia",
-          "countryCode": "LV"
-        },
-        {
-          "id": 34,
-          "name": "Lithuania",
-          "countryCode": "LT"
-        },
-        {
-          "id": 35,
-          "name": "New Zealand",
-          "countryCode": "NZ"
-        },
-        {
-          "id": 36,
-          "name": "South Africa",
-          "countryCode": "ZA"
-        },
-        {
-          "id": 37,
-          "name": "United Arab Emirates",
-          "countryCode": "AE"
-        },
-        {
-          "id": 38,
-          "name": "China",
-          "countryCode": "CN"
-        },
-        {
-          "id": 39,
-          "name": "India",
-          "countryCode": "IN"
-        },
-        {
-          "id": 40,
-          "name": "Japan",
-          "countryCode": "JP"
-        },
-        {
-          "id": 41,
-          "name": "Singapore",
-          "countryCode": "SG"
-        },
-        {
-          "id": 42,
-          "name": "Argentina",
-          "countryCode": "AR"
-        },
-        {
-          "id": 43,
-          "name": "Chile",
-          "countryCode": "CL"
-        },
-        {
-          "id": 44,
-          "name": "Colombia",
-          "countryCode": "CO"
-        },
-        {
-          "id": 45,
-          "name": "Mexico",
-          "countryCode": "MX"
-        },
-        {
-          "id": 46,
-          "name": "Peru",
-          "countryCode": "PE"
-        },
-        {
-          "id": 47,
-          "name": "Turkey",
-          "countryCode": "TR"
-        },
-        {
-          "id": 48,
-          "name": "Brazil USD",
-          "countryCode": "BU"
-        },
-        {
-          "id": 49,
-          "name": "Mexico pesos",
-          "countryCode": "XP"
-        }
-      ]
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948683,
-    "type": "promotion",
-    "advertiser": {
-      "id": 91447,
-      "name": "Homary International Limited",
-      "joined": false
-    },
-    "title": "Homary Watch Party Starts at Home UP TO 60% OFF Curated Furniture for Summer Match Nights",
-    "description": "UP TO 60% OFF CODE: WCS12",
-    "terms": "CODE: WCS12",
-    "startDate": "2026-06-12T03:49:00+00:00",
-    "endDate": "2026-06-30T03:48:00+00:00",
-    "status": "active",
-    "url": "https://www.homary.com/lego/watch-party-ready-2579.html",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=91447&awinaffid=2861861&ued=https%3A%2F%2Fwww.homary.com%2Flego%2Fwatch-party-ready-2579.html",
-    "dateAdded": "2026-06-12T03:49:18+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948681,
-    "type": "voucher",
-    "advertiser": {
-      "id": 123988,
-      "name": "euhomy",
-      "joined": false
-    },
-    "title": "ROCKPLUS60",
-    "description": "Use this promo code to get $60 off your purchase of the euhomy rock plus",
-    "terms": "Use this promo code to get $60 off your purchase of the euhomy rock plus",
-    "startDate": "2026-06-12T05:00:00+00:00",
-    "endDate": "2026-07-01T04:59:00+00:00",
-    "status": "active",
-    "url": "https://www.euhomy.com/products/euhomy-rock-plus-square-ice-maker?_pos=2&_psq=rock&_ss=e&_v=1.0",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=123988&awinaffid=2861861&campaign=euhomy-mid-year+campaign&ued=https%3A%2F%2Fwww.euhomy.com%2Fproducts%2Feuhomy-rock-plus-square-ice-maker%3F_pos%3D2%26_psq%3Drock%26_ss%3De%26_v%3D1.0",
-    "dateAdded": "2026-06-12T03:30:31+00:00",
-    "campaign": "euhomy-mid-year campaign",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 3,
-          "name": "United States of America",
-          "countryCode": "US"
-        }
-      ]
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948679,
-    "type": "promotion",
-    "advertiser": {
-      "id": 58515,
-      "name": "Micro Computer (HK) Tech Limited",
-      "joined": false
-    },
-    "title": "Minisforum 6th Anniversary Sale",
-    "description": "Thank you for being part of the Minisforum journey. To mark our 6 anniversary, we're giving away exclusive gifts with every qualifying order. The more you shop, the bigger the surprise! Exclusive Discounts | Free Gift | 2x Points | Anniversary Box| Bundle Purchase",
-    "terms": "",
-    "startDate": "2026-06-12T03:08:00+00:00",
-    "endDate": "2026-06-30T15:59:00+00:00",
-    "status": "active",
-    "url": "https://store.minisforum.com/pages/minisforum-anniversary-sale",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=58515&awinaffid=2861861&ued=https%3A%2F%2Fstore.minisforum.com%2Fpages%2Fminisforum-anniversary-sale",
-    "dateAdded": "2026-06-12T03:08:44+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948641,
-    "type": "voucher",
-    "advertiser": {
-      "id": 97993,
-      "name": "VapeSourcing uk",
-      "joined": false
-    },
-    "title": "45% off Eleaf MELO 6 Tank, only £10.99",
-    "description": "45% off Eleaf MELO 6 Tank, only £10.99",
-    "terms": "Cannot be used together with other voucher codes.",
-    "startDate": "2026-06-12T02:49:00+00:00",
-    "endDate": "2027-06-30T02:47:00+00:00",
-    "status": "active",
-    "url": "https://vapesourcing.uk/eleaf-melo-6-tank.html",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=97993&awinaffid=2861861&ued=https%3A%2F%2Fvapesourcing.uk%2Feleaf-melo-6-tank.html",
-    "dateAdded": "2026-06-12T02:49:02+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948639,
-    "type": "voucher",
-    "advertiser": {
-      "id": 97993,
-      "name": "VapeSourcing uk",
-      "joined": false
-    },
-    "title": "30% off Just Juice Nicotine Pouches (20pouches/box), only £2.79",
-    "description": "30% off Just Juice Nicotine Pouches (20pouches/box), only £2.79",
-    "terms": "cannot be used together with other voucher codes.",
-    "startDate": "2026-06-12T02:45:00+00:00",
-    "endDate": "2027-06-30T02:25:00+00:00",
-    "status": "active",
-    "url": "https://vapesourcing.uk/just-juice-nicotine-pouches.html",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=97993&awinaffid=2861861&ued=https%3A%2F%2Fvapesourcing.uk%2Fjust-juice-nicotine-pouches.html",
-    "dateAdded": "2026-06-12T02:45:48+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948637,
-    "type": "voucher",
-    "advertiser": {
-      "id": 90079,
-      "name": "K&F Concept",
-      "joined": false
-    },
-    "title": "15% OFF Sitewide | K&F 15th Anniversary & Prime Day",
-    "description": "Celebrate K&F Concept's 15th Anniversary and Prime Day! Use code PD15 to get  15% OFF sitewide on professional tripods, lens filters, camera bags, and more. Upgrade your gear with the year's lowest prices. Limited time offer!",
-    "terms": "Terms apply. Code may not apply to select new arrivals. This offer is valid from June 12th to June 30th, 2026. Discount applies to product price only and cannot be combined with other voucher codes.",
-    "startDate": "2026-06-12T04:00:00+00:00",
-    "endDate": "2026-07-01T03:59:00+00:00",
-    "status": "active",
-    "url": "https://www.kentfaith.com/activity_prime-day-2026",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=90079&awinaffid=2861861&campaign=kentfaith+15th+anniv+prime+day&ued=https%3A%2F%2Fwww.kentfaith.com%2Factivity_prime-day-2026",
-    "dateAdded": "2026-06-12T02:39:00+00:00",
-    "campaign": "kentfaith 15th anniv prime day",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 1,
-          "name": "United Kingdom",
-          "countryCode": "GB"
-        },
-        {
-          "id": 2,
-          "name": "Ireland",
-          "countryCode": "IE"
-        },
-        {
-          "id": 3,
-          "name": "United States of America",
-          "countryCode": "US"
-        },
-        {
-          "id": 4,
-          "name": "Canada",
-          "countryCode": "CA"
-        },
-        {
-          "id": 5,
-          "name": "France",
-          "countryCode": "FR"
-        },
-        {
-          "id": 6,
-          "name": "Germany",
-          "countryCode": "DE"
-        },
-        {
-          "id": 7,
-          "name": "Austria",
-          "countryCode": "AT"
-        },
-        {
-          "id": 8,
-          "name": "Belgium",
-          "countryCode": "BE"
-        },
-        {
-          "id": 9,
-          "name": "Netherlands",
-          "countryCode": "NL"
-        },
-        {
-          "id": 10,
-          "name": "Spain",
-          "countryCode": "ES"
-        },
-        {
-          "id": 11,
-          "name": "Italy",
-          "countryCode": "IT"
-        },
-        {
-          "id": 13,
-          "name": "Finland",
-          "countryCode": "FI"
-        },
-        {
-          "id": 15,
-          "name": "Poland",
-          "countryCode": "PL"
-        },
-        {
-          "id": 16,
-          "name": "Switzerland",
-          "countryCode": "CH"
-        },
-        {
-          "id": 17,
-          "name": "Sweden",
-          "countryCode": "SE"
-        },
-        {
-          "id": 18,
-          "name": "Norway",
-          "countryCode": "NO"
-        },
-        {
-          "id": 19,
-          "name": "Denmark",
-          "countryCode": "DK"
-        },
-        {
-          "id": 20,
-          "name": "Australia",
-          "countryCode": "AU"
-        },
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        },
-        {
-          "id": 22,
-          "name": "Portugal",
-          "countryCode": "PT"
-        },
-        {
-          "id": 23,
-          "name": "Russia",
-          "countryCode": "RU"
-        },
-        {
-          "id": 24,
-          "name": "Czech Republic",
-          "countryCode": "CZ"
-        },
-        {
-          "id": 25,
-          "name": "Hungary",
-          "countryCode": "HU"
-        },
-        {
-          "id": 26,
-          "name": "Romania",
-          "countryCode": "RO"
-        },
-        {
-          "id": 27,
-          "name": "Slovakia",
-          "countryCode": "SK"
-        },
-        {
-          "id": 28,
-          "name": "Slovenia",
-          "countryCode": "SI"
-        },
-        {
-          "id": 29,
-          "name": "Ukraine",
-          "countryCode": "UA"
-        },
-        {
-          "id": 30,
-          "name": "Bulgaria",
-          "countryCode": "BG"
-        },
-        {
-          "id": 31,
-          "name": "Croatia",
-          "countryCode": "HR"
-        },
-        {
-          "id": 32,
-          "name": "Greece",
-          "countryCode": "GR"
-        },
-        {
-          "id": 33,
-          "name": "Latvia",
-          "countryCode": "LV"
-        },
-        {
-          "id": 34,
-          "name": "Lithuania",
-          "countryCode": "LT"
-        },
-        {
-          "id": 35,
-          "name": "New Zealand",
-          "countryCode": "NZ"
-        },
-        {
-          "id": 36,
-          "name": "South Africa",
-          "countryCode": "ZA"
-        },
-        {
-          "id": 37,
-          "name": "United Arab Emirates",
-          "countryCode": "AE"
-        },
-        {
-          "id": 38,
-          "name": "China",
-          "countryCode": "CN"
-        },
-        {
-          "id": 39,
-          "name": "India",
-          "countryCode": "IN"
-        },
-        {
-          "id": 40,
-          "name": "Japan",
-          "countryCode": "JP"
-        },
-        {
-          "id": 41,
-          "name": "Singapore",
-          "countryCode": "SG"
-        },
-        {
-          "id": 42,
-          "name": "Argentina",
-          "countryCode": "AR"
-        },
-        {
-          "id": 43,
-          "name": "Chile",
-          "countryCode": "CL"
-        },
-        {
-          "id": 44,
-          "name": "Colombia",
-          "countryCode": "CO"
-        },
-        {
-          "id": 45,
-          "name": "Mexico",
-          "countryCode": "MX"
-        },
-        {
-          "id": 46,
-          "name": "Peru",
-          "countryCode": "PE"
-        },
-        {
-          "id": 47,
-          "name": "Turkey",
-          "countryCode": "TR"
-        },
-        {
-          "id": 48,
-          "name": "Brazil USD",
-          "countryCode": "BU"
-        },
-        {
-          "id": 49,
-          "name": "Mexico pesos",
-          "countryCode": "XP"
-        }
-      ]
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948635,
-    "type": "promotion",
-    "advertiser": {
-      "id": 33771,
-      "name": "Anycubic ES",
-      "joined": false
-    },
-    "title": "Price Drop — Photon Mono 4 ultra only for €229",
-    "description": "Price Drop — Photon Mono 4 ultra only for €229",
-    "terms": "",
-    "startDate": "2026-06-12T02:32:00+00:00",
-    "endDate": "2026-06-22T02:32:00+00:00",
-    "status": "active",
-    "url": "https://www.anycubic.es/products/photon-mono-4-ultra/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=33771&awinaffid=2861861&ued=https%3A%2F%2Fwww.anycubic.es%2Fproducts%2Fphoton-mono-4-ultra%2F",
-    "dateAdded": "2026-06-12T02:32:58+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948633,
-    "type": "voucher",
-    "advertiser": {
-      "id": 33771,
-      "name": "Anycubic ES",
-      "joined": false
-    },
-    "title": "Save an Extra €30 with the Code \"ACP1\", Photon P1 for only €519",
-    "description": "Save an Extra €30 with the Code \"ACP1\", Photon P1 for only €519",
-    "terms": "Please use the code at the checkout page.",
-    "startDate": "2026-06-12T02:32:00+00:00",
-    "endDate": "2026-06-22T02:31:00+00:00",
-    "status": "active",
-    "url": "https://www.anycubic.es/products/photon-p1-resin-3d-printer",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=33771&awinaffid=2861861&ued=https%3A%2F%2Fwww.anycubic.es%2Fproducts%2Fphoton-p1-resin-3d-printer",
-    "dateAdded": "2026-06-12T02:32:31+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948631,
-    "type": "voucher",
-    "advertiser": {
-      "id": 33771,
-      "name": "Anycubic ES",
-      "joined": false
-    },
-    "title": "Save an Extra €30 with the Code \"ACK4\", Kobra 4 for €249; Kobra 4 Combo for €349",
-    "description": "Save an Extra €30 with the Code \"ACK4\", Kobra 4 for €249; Kobra 4 Combo for €349",
-    "terms": "Please use the code at the checkout page.",
-    "startDate": "2026-06-12T02:31:00+00:00",
-    "endDate": "2026-06-22T02:30:00+00:00",
-    "status": "active",
-    "url": "https://www.anycubic.es/products/kobra-4-combo-combo-3d-printer",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=33771&awinaffid=2861861&ued=https%3A%2F%2Fwww.anycubic.es%2Fproducts%2Fkobra-4-combo-combo-3d-printer",
-    "dateAdded": "2026-06-12T02:31:29+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948629,
-    "type": "promotion",
-    "advertiser": {
-      "id": 33771,
-      "name": "Anycubic ES",
-      "joined": false
-    },
-    "title": "Price Drop — Kobra S1 Combo only for €399",
-    "description": "Price Drop — Kobra S1 Combo only for €399",
-    "terms": "",
-    "startDate": "2026-06-12T02:30:00+00:00",
-    "endDate": "2026-06-22T02:27:00+00:00",
-    "status": "active",
-    "url": "https://www.anycubic.es/products/kobra-s1-combo/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=33771&awinaffid=2861861&ued=https%3A%2F%2Fwww.anycubic.es%2Fproducts%2Fkobra-s1-combo%2F",
-    "dateAdded": "2026-06-12T02:30:16+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948625,
-    "type": "promotion",
-    "advertiser": {
-      "id": 122768,
-      "name": "Bagsmart DE",
-      "joined": false
-    },
-    "title": "Bagsmart Alltag Reiseset - 38L Reiserucksack & Packwürfel：20% OFF",
-    "description": "Das Blast Pro Alltag Reiseset wurde als komplettes Handgepäck-Reisesystem konzipiert und kombiniert den Blast Pro 38L-Reiserucksack mit Kompressions-Packwürfeln, um die Art und Weise, wie Sie packen, reisen und unterwegs sind, grundlegend zu verändern.",
-    "terms": "Versandkostenlose Artikel.",
-    "startDate": "2026-06-12T02:14:00+00:00",
-    "endDate": "2026-06-30T15:59:00+00:00",
-    "status": "active",
-    "url": "https://de.bagsmart.com/products/blast-pro-travel-kit",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122768&awinaffid=2861861&ued=https%3A%2F%2Fde.bagsmart.com%2Fproducts%2Fblast-pro-travel-kit",
-    "dateAdded": "2026-06-12T02:14:24+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 6,
-          "name": "Germany",
-          "countryCode": "DE"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948621,
-    "type": "promotion",
-    "advertiser": {
-      "id": 122768,
-      "name": "Bagsmart DE",
-      "joined": false
-    },
-    "title": "Bagsmart Roll & Roam Kit - 43L Rucksack mit Rollen aus TPU &  38L Reiserucksack ：20% OFF",
-    "description": "Für Reisende, die sich mühelose Mobilität wünschen. Nehmen Sie alles mit, was Sie brauchen, gleiten Sie mühelos durch jeden Schritt und machen Sie den Weg von Ort zu Ort zu einem Kinderspiel.",
-    "terms": "Bestellungen über 60 €, versandkostenfrei.",
-    "startDate": "2026-06-12T02:10:00+00:00",
-    "endDate": "2026-06-30T15:59:00+00:00",
-    "status": "active",
-    "url": "https://de.bagsmart.com/products/roll-roam-kit",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122768&awinaffid=2861861&ued=https%3A%2F%2Fde.bagsmart.com%2Fproducts%2Froll-roam-kit",
-    "dateAdded": "2026-06-12T02:10:37+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 6,
-          "name": "Germany",
-          "countryCode": "DE"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948619,
-    "type": "promotion",
-    "advertiser": {
-      "id": 122768,
-      "name": "Bagsmart DE",
-      "joined": false
-    },
-    "title": "Bagsmart Wochenende Set - Leichter Rucksack 0,4kg & Packwürfel : 15% OFF.",
-    "description": "Das Faro Wochenende Set wurde speziell entwickelt, um jeden 2- bis 3-tägigen Ausflug zu einem nahtlosen, stressfreien Erlebnis zu machen – egal, ob Sie in eine gemütliche Berghütte, eine sonnige Küstenstadt oder ein pulsierendes Stadtwochenende fahren. Dieses sorgfältig zusammengestellte Trio aus Reiseutensilien macht Schluss mit dem Rätselraten beim Packen und sorgt dafür, dass Ihre Sachen organisiert, sicher und griffbereit sind.",
-    "terms": "Bestellungen über 60 €, versandkostenfrei.",
-    "startDate": "2026-06-12T02:08:00+00:00",
-    "endDate": "2026-06-30T15:59:00+00:00",
-    "status": "active",
-    "url": "https://de.bagsmart.com/products/faro-weekend-kit",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122768&awinaffid=2861861&ued=https%3A%2F%2Fde.bagsmart.com%2Fproducts%2Ffaro-weekend-kit",
-    "dateAdded": "2026-06-12T02:08:05+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 6,
-          "name": "Germany",
-          "countryCode": "DE"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948617,
-    "type": "promotion",
-    "advertiser": {
-      "id": 122768,
-      "name": "Bagsmart DE",
-      "joined": false
-    },
-    "title": "Bagsmart Wandern Mit Passender Ausstattung - 2Stk. Kaufen -10%",
-    "description": "Dies ist Ihr Schlüssel zu leichtem Reisen und großem Lebensstil. Der Stauraum lässt sich von 28L auf 38L erweitern, wenn die Reise verschiedene Optionen erfordert. Eine flexible Inneneinteilung sorgt dafür, dass schmutzige Schuhe separat aufbewahrt werden können, während Technikfächer und Stautaschen den Rest aufnehmen.",
-    "terms": "Versandkostenlose Artikel.",
-    "startDate": "2026-06-12T02:01:00+00:00",
-    "endDate": "2026-06-30T15:59:00+00:00",
-    "status": "active",
-    "url": "https://de.bagsmart.com/pages/sales",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=122768&awinaffid=2861861&ued=https%3A%2F%2Fde.bagsmart.com%2Fpages%2Fsales",
-    "dateAdded": "2026-06-12T02:01:47+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 6,
-          "name": "Germany",
-          "countryCode": "DE"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948613,
-    "type": "promotion",
-    "advertiser": {
-      "id": 115174,
-      "name": "Simihaze Beauty",
-      "joined": false
-    },
-    "title": "FREE GIFT WHEN YOU ADD 3 ITEMS TO CART",
-    "description": "FREE GIFT WHEN YOU ADD 3 ITEMS TO CART",
-    "terms": "",
-    "startDate": "2026-06-12T01:45:00+00:00",
-    "endDate": "2028-06-30T01:44:00+00:00",
-    "status": "active",
-    "url": "https://simihazebeauty.com",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=115174&awinaffid=2861861&ued=https%3A%2F%2Fsimihazebeauty.com",
-    "dateAdded": "2026-06-12T01:45:08+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948611,
-    "type": "promotion",
-    "advertiser": {
-      "id": 115174,
-      "name": "Simihaze Beauty",
-      "joined": false
-    },
-    "title": "Save 15% On Stackables",
-    "description": "Discover our range of multi-functional skincare-infused essentials. All stackable and portable. Just snap, click and go!",
-    "terms": "",
-    "startDate": "2026-06-12T01:44:00+00:00",
-    "endDate": "2028-06-30T01:44:00+00:00",
-    "status": "active",
-    "url": "https://simihazebeauty.com/collections/stackables",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=115174&awinaffid=2861861&ued=https%3A%2F%2Fsimihazebeauty.com%2Fcollections%2Fstackables",
-    "dateAdded": "2026-06-12T01:44:39+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948609,
-    "type": "promotion",
-    "advertiser": {
-      "id": 115174,
-      "name": "Simihaze Beauty",
-      "joined": false
-    },
-    "title": "15% OFF YOUR FIRST ORDER",
-    "description": "15% OFF YOUR FIRST ORDER",
-    "terms": "",
-    "startDate": "2026-06-12T01:43:00+00:00",
-    "endDate": "2028-06-30T01:43:00+00:00",
-    "status": "active",
-    "url": "https://simihazebeauty.com",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=115174&awinaffid=2861861&ued=https%3A%2F%2Fsimihazebeauty.com",
-    "dateAdded": "2026-06-12T01:43:33+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948605,
-    "type": "voucher",
-    "advertiser": {
-      "id": 123224,
-      "name": "Unique Vintage - North America",
-      "joined": false
-    },
-    "title": "Audience discount",
-    "description": "20% off for followers",
-    "terms": "All customers\nFor Online Store\n20% off \nEXCLUSIONS- DOTM, COTD, SALE, CLEARANCE, BACKORDER/PREORDER, GC, MYSTERY BOX\nApplies to one-time purchases\nNo minimum purchase requirement\nOne use per customer\nCombines with product discounts\nActive from today",
-    "startDate": "2026-06-12T00:23:00+00:00",
-    "endDate": "2026-06-26T00:19:00+00:00",
-    "status": "active",
-    "url": "https://www.unique-vintage.com/discount/MM20?redirect=%2Fcollections%2Fexclusions-dotm-cotd-sale-clearance-backorder-preorder-gc-mystery-box",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=123224&awinaffid=2861861&ued=https%3A%2F%2Fwww.unique-vintage.com%2Fdiscount%2FMM20%3Fredirect%3D%252Fcollections%252Fexclusions-dotm-cotd-sale-clearance-backorder-preorder-gc-mystery-box",
-    "dateAdded": "2026-06-12T00:23:02+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948603,
-    "type": "promotion",
-    "advertiser": {
-      "id": 113168,
-      "name": "Otterbox AU",
-      "joined": false
-    },
-    "title": "Up to 50% OFF",
-    "description": "Discount is only eligible to selected products. Some exclusions may apply. Discount only applies on OtterBox merchandise costs, excludes shipping & handling costs.",
-    "terms": "",
-    "startDate": "2026-06-11T23:35:00+00:00",
-    "endDate": "2029-06-11T23:34:00+00:00",
-    "status": "active",
-    "url": "https://www.otterbox.com.au/collections/sale",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=113168&awinaffid=2861861&ued=https%3A%2F%2Fwww.otterbox.com.au%2Fcollections%2Fsale",
-    "dateAdded": "2026-06-11T23:35:17+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948601,
-    "type": "promotion",
-    "advertiser": {
-      "id": 113168,
-      "name": "Otterbox AU",
-      "joined": false
-    },
-    "title": "FREE SHIPPING on orders over A$69",
-    "description": "Free Shipping on all orders over A$69. Some exclusions may apply.",
-    "terms": "",
-    "startDate": "2026-06-11T23:34:00+00:00",
-    "endDate": "2033-06-22T23:33:00+00:00",
-    "status": "active",
-    "url": "https://www.otterbox.com.au/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=113168&awinaffid=2861861&ued=https%3A%2F%2Fwww.otterbox.com.au%2F",
-    "dateAdded": "2026-06-11T23:34:31+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948599,
-    "type": "promotion",
-    "advertiser": {
-      "id": 113168,
-      "name": "Otterbox AU",
-      "joined": false
-    },
-    "title": "Welcome offer 10% off",
-    "description": "Enter your email to get 10% off your first order and receive exclusive offers and updates.Cannot be combined with any other promotion.",
-    "terms": "Welcome Offer\nCannot be combined with any other promotion.",
-    "startDate": "2026-06-11T23:33:00+00:00",
-    "endDate": "2031-06-26T23:32:00+00:00",
-    "status": "active",
-    "url": "https://www.otterbox.com.au/pages/offers",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=113168&awinaffid=2861861&ued=https%3A%2F%2Fwww.otterbox.com.au%2Fpages%2Foffers",
-    "dateAdded": "2026-06-11T23:33:24+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948593,
-    "type": "promotion",
-    "advertiser": {
-      "id": 83587,
-      "name": "Vertbaudet_ES",
-      "joined": false
-    },
-    "title": "Rebajas",
-    "description": "Hasta -50% en + de 9500 artículos",
-    "terms": "Válido del 12/06/2026 al 14/06/2026.\nRebajas hasta -50% en compras en toda la selección \"Rebajas\". Exclusivo Club Vertbaudet. Válido en los artículos señalados. Saldo rotura de stock.",
-    "startDate": "2026-06-11T23:07:00+00:00",
-    "endDate": "2026-06-23T21:59:00+00:00",
-    "status": "active",
-    "url": "https://www.vertbaudet.es/shop/rebajas.htm?CMPID=AFF_Awin",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=83587&awinaffid=2861861&ued=https%3A%2F%2Fwww.vertbaudet.es%2Fshop%2Frebajas.htm%3FCMPID%3DAFF_Awin",
-    "dateAdded": "2026-06-11T23:07:35+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 10,
-          "name": "Spain",
-          "countryCode": "ES"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948585,
-    "type": "promotion",
-    "advertiser": {
-      "id": 20973,
-      "name": "Hammitt (US)",
-      "joined": false
-    },
-    "title": "A Hammitt icon, refreshed. The Kyle in classic Black with brushed gold hardware and that signature red zip. Versatile, edgy, and endlessly wearable. Receive free shipping on all orders!",
-    "description": "A Hammitt icon, refreshed. The Kyle in classic Black with brushed gold hardware and that signature red zip. Versatile, edgy, and endlessly wearable. Receive free shipping on all orders!",
-    "terms": "",
-    "startDate": "2026-06-11T22:34:00+00:00",
-    "endDate": "2026-07-11T07:00:00+00:00",
-    "status": "active",
-    "url": "https://www.hammitt.com/collections/bestsellers/products/kyle-shoulder-bag-black-brushed-gold-red-zip",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=20973&awinaffid=2861861&ued=https%3A%2F%2Fwww.hammitt.com%2Fcollections%2Fbestsellers%2Fproducts%2Fkyle-shoulder-bag-black-brushed-gold-red-zip",
-    "dateAdded": "2026-06-11T22:34:16+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948577,
-    "type": "voucher",
-    "advertiser": {
-      "id": 8033,
-      "name": "ghd (US)",
-      "joined": false
-    },
-    "title": "Surprise Sale Up to 25% off select tool",
-    "description": "Surprise Sale Up to 25% off select tool using code SURPRISE25",
-    "terms": "6/11-6/15 Surprise Sale 25% Off Select tool",
-    "startDate": "2026-06-11T21:24:00+00:00",
-    "endDate": "2026-06-15T20:59:00+00:00",
-    "status": "expiringSoon",
-    "url": "https://www.ghdhair.com/us/",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=8033&awinaffid=2861861&ued=https%3A%2F%2Fwww.ghdhair.com%2Fus%2F",
-    "dateAdded": "2026-06-11T21:21:17+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "voucher": {
-      "code": null,
-      "exclusive": false,
-      "attributable": false
-    },
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948575,
-    "type": "promotion",
-    "advertiser": {
-      "id": 103215,
-      "name": "BlazePod US",
-      "joined": false
-    },
-    "title": "BLAZEPOD | Buy A Kit And Get 50% Off Accessories - One kit. Grass, turf, or anywhere you play. | Shop Now",
-    "description": "BLAZEPOD | Buy A Kit And Get 50% Off Accessories - One kit. Grass, turf, or anywhere you play. | Shop Now",
-    "terms": "buy a kit and get 50% off accessories",
-    "startDate": "2026-06-11T21:11:00+00:00",
-    "endDate": "2026-06-20T07:00:00+00:00",
-    "status": "active",
-    "url": "https://www.blazepod.com/pages/wc2026",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103215&awinaffid=2861861&ued=https%3A%2F%2Fwww.blazepod.com%2Fpages%2Fwc2026",
-    "dateAdded": "2026-06-11T21:11:16+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948573,
-    "type": "promotion",
-    "advertiser": {
-      "id": 103215,
-      "name": "BlazePod US",
-      "joined": false
-    },
-    "title": "BLAZEPOD | Buy A Kit And Get 50% Off Accessories - One kit. Grass, turf, or anywhere you play. | Shop Now",
-    "description": "BLAZEPOD | Buy A Kit And Get 50% Off Accessories - One kit. Grass, turf, or anywhere you play. | Shop Now",
-    "terms": "Buy a kit and get 50% off accessories",
-    "startDate": "2026-06-11T21:09:00+00:00",
-    "endDate": "2026-07-20T07:00:00+00:00",
-    "status": "active",
-    "url": "https://blazepod.eu/pages/wc2026",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=103215&awinaffid=2861861&ued=https%3A%2F%2Fblazepod.eu%2Fpages%2Fwc2026",
-    "dateAdded": "2026-06-11T21:09:52+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948241,
-    "type": "promotion",
-    "advertiser": {
-      "id": 124426,
-      "name": "Camping World UK",
-      "joined": false
-    },
-    "title": "Changing Robes for only £39.99",
-    "description": "Save £81 today on our Hut Changing Robes. Limited Stock Available!",
-    "terms": "",
-    "startDate": "2026-06-11T20:21:00+00:00",
-    "endDate": "2026-06-30T20:17:00+00:00",
-    "status": "active",
-    "url": "https://www.campingworld.co.uk/en/Hut/b-797.aspx",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=124426&awinaffid=2861861&ued=https%3A%2F%2Fwww.campingworld.co.uk%2Fen%2FHut%2Fb-797.aspx",
-    "dateAdded": "2026-06-11T20:21:05+00:00",
-    "campaign": "",
-    "regions": {
-      "all": true
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948121,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Geladeira Consul 263 Litros Degelo Seco CRA30MB",
-    "description": "Geladeira Consul 263 Litros Degelo Seco CRA30MB",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/geladeira-degelo-seco-263-litros-consul---cra30mb-113699/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Fgeladeira-degelo-seco-263-litros-consul---cra30mb-113699%2Fp",
-    "dateAdded": "2026-06-11T20:10:41+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948119,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar Condicionado Split LG Dual Inverter Voice 9000 BTUs Frio 220V",
-    "description": "Ar Condicionado Split LG Dual Inverter Voice 9000 BTUs Frio 220V",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-split-9000-btus-lg-dual-inverter-voice--ia-frio-s3nq09aa31f-eb2gam1---220v-153889/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-split-9000-btus-lg-dual-inverter-voice--ia-frio-s3nq09aa31f-eb2gam1---220v-153889%2Fp",
-    "dateAdded": "2026-06-11T20:10:29+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948117,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar Condicionado Split Inverter Philco 30000 BTUs Frio 220V",
-    "description": "Ar Condicionado Split Inverter Philco 30000 BTUs Frio 220V",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-split-hi-wall-philco-inverter-30000-btu-h-frio-pac30000ifm15---220-volts-42730/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-split-hi-wall-philco-inverter-30000-btu-h-frio-pac30000ifm15---220-volts-42730%2Fp",
-    "dateAdded": "2026-06-11T20:10:17+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948115,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar Condicionado Split Inverter 12000 BTUs Hisense Eco Plus 220V",
-    "description": "Ar Condicionado Split Inverter 12000 BTUs Hisense Eco Plus 220V",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-inverter-12000-btus-hisense-eco-plus-as-12tw2rlrck00e---220v-153891/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-inverter-12000-btus-hisense-eco-plus-as-12tw2rlrck00e---220v-153891%2Fp",
-    "dateAdded": "2026-06-11T20:10:06+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948113,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Máquina de Lavar Brastemp 16Kg Platinum BWF16A9",
-    "description": "Máquina de Lavar Brastemp 16Kg Platinum BWF16A9",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/maquina-de-lavar-brastemp-16kg-cinza-platinum-com-ciclo-tira-manchas-advanced-e-smart-sensor---bwf16a9-159766/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Fmaquina-de-lavar-brastemp-16kg-cinza-platinum-com-ciclo-tira-manchas-advanced-e-smart-sensor---bwf16a9-159766%2Fp",
-    "dateAdded": "2026-06-11T20:09:54+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948111,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Micro-ondas Electrolux 31L Branco MI41T",
-    "description": "Micro-ondas Electrolux 31L Branco MI41T",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/micro-ondas-electrolux-31l-branco-com-painel-integrado-e-display-economico--mi41t--49602/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Fmicro-ondas-electrolux-31l-branco-com-painel-integrado-e-display-economico--mi41t--49602%2Fp",
-    "dateAdded": "2026-06-11T20:09:43+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948109,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Lava-Louças Electrolux 8 Serviços Inox LL08S",
-    "description": "Lava-Louças Electrolux 8 Serviços Inox LL08S",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/lava-loucas-electrolux-8-servicos-inox-com-funcao-higienizar--ll08s--48377/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Flava-loucas-electrolux-8-servicos-inox-com-funcao-higienizar--ll08s--48377%2Fp",
-    "dateAdded": "2026-06-11T20:09:32+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948107,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Máquina de Lavar Electrolux 11kg Essential Care LES11",
-    "description": "Máquina de Lavar Electrolux 11kg Essential Care LES11",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/maquina-de-lavar-electrolux-11kg-branca-essential-care-com-easy-clean-e-filtro-fiapos--les11--48401/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Fmaquina-de-lavar-electrolux-11kg-branca-essential-care-com-easy-clean-e-filtro-fiapos--les11--48401%2Fp",
-    "dateAdded": "2026-06-11T20:09:21+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948105,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Forno de Embutir a Gás Electrolux 80L Efficient PerfectCook OE8GL",
-    "description": "Forno de Embutir a Gás Electrolux 80L Efficient PerfectCook OE8GL",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/forno-de-embutir-a-gas-electrolux-80l-efficient-com-perfectcook--oe8gl--72886/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Fforno-de-embutir-a-gas-electrolux-80l-efficient-com-perfectcook--oe8gl--72886%2Fp",
-    "dateAdded": "2026-06-11T20:09:11+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948103,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar Condicionado LG Dual Inverter Voice AI 15000 BTUs Frio 220V",
-    "description": "Ar Condicionado LG Dual Inverter Voice AI 15000 BTUs Frio 220V",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-lg-dual-inverter-voice--ai-15-000-btus-frio-220v-49251/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-lg-dual-inverter-voice--ai-15-000-btus-frio-220v-49251%2Fp",
-    "dateAdded": "2026-06-11T20:09:01+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948101,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar Condicionado Cassete Inverter Gree 56000 BTUs Frio R-32 220V",
-    "description": "Ar Condicionado Cassete Inverter Gree 56000 BTUs Frio R-32 220V",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-split-cassete-inverter-r-32-gree-g-prime-compact-56000-btus-frio-220v-monofasico-guld56t1-a-s-62660/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-split-cassete-inverter-r-32-gree-g-prime-compact-56000-btus-frio-220v-monofasico-guld56t1-a-s-62660%2Fp",
-    "dateAdded": "2026-06-11T20:08:52+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948099,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar Condicionado Split Electrolux 12000 BTU Frio Color Adapt 220 Volts",
-    "description": "Ar Condicionado Split Electrolux 12000 BTU Frio Color Adapt 220 Volts",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-split-hi-wall-electrolux-color-adapt-12000-btu-h-frio-3112ifba206---220-volts-42761/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-split-hi-wall-electrolux-color-adapt-12000-btu-h-frio-3112ifba206---220-volts-42761%2Fp",
-    "dateAdded": "2026-06-11T20:08:41+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948097,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Fogão Consul 4 Bocas Inox com Mesa de Vidro e Grade de Ferro Fundido CFO4VAR",
-    "description": "Fogão Consul 4 Bocas Inox com Mesa de Vidro e Grade de Ferro Fundido CFO4VAR",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/fogao-consul-4-bocas-cor-inox-com-mesa-de-vidro-e-grade-de-ferro-fundido---cfo4var-47442/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Ffogao-consul-4-bocas-cor-inox-com-mesa-de-vidro-e-grade-de-ferro-fundido---cfo4var-47442%2Fp",
-    "dateAdded": "2026-06-11T20:08:30+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948095,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar-Condicionado Split HW Inverter TCL T-Pro 2.0 9000 BTUs R-32 Frio 220V",
-    "description": "Ar-Condicionado Split HW Inverter TCL T-Pro 2.0 9000 BTUs R-32 Frio 220V",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-split-hw-inverter-tcl-t-pro-2-0-9-000-btus-r-32-so-frio-220v-78406/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-split-hw-inverter-tcl-t-pro-2-0-9-000-btus-r-32-so-frio-220v-78406%2Fp",
-    "dateAdded": "2026-06-11T20:08:19+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948093,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar Condicionado Split Piso Teto Carrier Xperience 36000 BTUs Frio Monofásico 220 Volts",
-    "description": "Ar Condicionado Split Piso Teto Carrier Xperience 36000 BTUs Frio Monofásico 220 Volts",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-split-teto-carrier-xperience-36000-btu-h-frio-monofasico-42zqb36c5---220-volts-72960/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-split-teto-carrier-xperience-36000-btu-h-frio-monofasico-42zqb36c5---220-volts-72960%2Fp",
-    "dateAdded": "2026-06-11T20:08:08+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948091,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar-Condicionado Multi Split Inverter Midea 42000 2x Evap Cassete 1 Via 18000 Quente e Frio 220V",
-    "description": "Ar-Condicionado Multi Split Inverter Midea 42000 2x Evap Cassete 1 Via 18000 Quente e Frio 220V",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-multi-split-inverter-midea-42-000--2x-evap-cassete-1-via-18-000--quente-frio-220v-69442/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-multi-split-inverter-midea-42-000--2x-evap-cassete-1-via-18-000--quente-frio-220v-69442%2Fp",
-    "dateAdded": "2026-06-11T20:07:58+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948089,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar-Condicionado Multi Split Inverter Midea 36000 2x Evap Cassete 1 Via 18000 Quente e Frio 220V",
-    "description": "Ar-Condicionado Multi Split Inverter Midea 36000 2x Evap Cassete 1 Via 18000 Quente e Frio 220V",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-multi-split-inverter-midea-36-000--2x-evap-cassete-1-via-18-000--quente-frio-220v-71994/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-multi-split-inverter-midea-36-000--2x-evap-cassete-1-via-18-000--quente-frio-220v-71994%2Fp",
-    "dateAdded": "2026-06-11T20:07:47+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
-        }
-      ]
-    },
-    "categories": [],
-    "_fetchedStatus": "active"
-  },
-  {
-    "promotionId": 3948087,
-    "type": "promotion",
-    "advertiser": {
-      "id": 17590,
-      "name": "Fastshop BR",
-      "joined": false
-    },
-    "title": "Ar Condicionado Split Inverter 9000 BTUs Vix Frio AS-09TW2RLDDK00 220 Volts",
-    "description": "Ar Condicionado Split Inverter 9000 BTUs Vix Frio AS-09TW2RLDDK00 220 Volts",
-    "terms": "...",
-    "startDate": "2026-06-11T03:00:00+00:00",
-    "endDate": "2026-06-21T02:59:59+00:00",
-    "status": "active",
-    "url": "https://site.fastshop.com.br/ar-condicionado-split-hi-wall-inverter-vix-9000-btu-h-frio-as-09tw2rlddk00-vix---220-volts-73523/p",
-    "urlTracking": "https://www.awin1.com/cread.php?awinmid=17590&awinaffid=2861861&ued=https%3A%2F%2Fsite.fastshop.com.br%2Far-condicionado-split-hi-wall-inverter-vix-9000-btu-h-frio-as-09tw2rlddk00-vix---220-volts-73523%2Fp",
-    "dateAdded": "2026-06-11T20:07:35+00:00",
-    "campaign": "",
-    "regions": {
-      "all": false,
-      "list": [
-        {
-          "id": 21,
-          "name": "Brazil",
-          "countryCode": "BR"
         }
       ]
     },
