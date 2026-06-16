@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-15T08:56:01.242Z",
+  "syncedAt": "2026-06-16T08:42:36.856Z",
   "programs": [
     {
       "key": "garvee-innovation-inc",
@@ -1002,11 +1002,11 @@
       "advertiserId": "124136",
       "name": "Kingbull Bike",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://kingbullbike.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=124136&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/124136.png",
       "primarySector": "Sports Equipment",
       "primaryRegion": {
@@ -1022,22 +1022,9 @@
           "domain": "*.kingbullbike.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 8,
-          "max": 8,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "33",
-        "approvalPercentage": 54.64,
-        "epc": 1.9,
-        "conversionRate": 2.83,
-        "validationDays": 11,
-        "awinIndex": 60.28
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1161,6 +1148,62 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0
+    },
+    {
+      "key": "spikedogcollars",
+      "advertiserId": "127765",
+      "name": "Spikedogcollars",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://spikedogcollars.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=127765&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/127765.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "spikedogcollars.com"
+        },
+        {
+          "domain": "*.spikedogcollars.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 15,
+          "max": 15,
+          "type": "percentage"
+        }
+      ],
+      "kpi": null,
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=127765&id=2861861",
+      "topicTags": [
+        "partner",
+        "training",
+        "gear"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
     }
   ],
   "pendingPrograms": [
@@ -1169,11 +1212,11 @@
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://www.remember.bereaveorders.com/pets",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "primarySector": "Gifts & Flowers",
       "primaryRegion": {
@@ -1186,8 +1229,15 @@
           "domain": "https://www.remember.bereaveorders.com/pets"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "",
+        "approvalPercentage": 100,
+        "epc": 1.17,
+        "conversionRate": 2.95,
+        "validationDays": 11,
+        "awinIndex": 80.73
+      },
       "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
@@ -2393,7 +2443,7 @@
       "advertiserId": "124136",
       "name": "Kingbull Bike",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2401,7 +2451,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/124136.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=124136&id=2861861",
       "topicTags": [
@@ -2451,11 +2501,33 @@
       ]
     },
     {
+      "key": "spikedogcollars",
+      "advertiserId": "127765",
+      "name": "Spikedogcollars",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/127765.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=127765&id=2861861",
+      "topicTags": [
+        "partner",
+        "training",
+        "gear"
+      ]
+    },
+    {
       "key": "bereave",
       "advertiserId": "52135",
       "name": "Bereave",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2463,7 +2535,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52135.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=52135&id=2861861",
       "topicTags": [
@@ -2787,15 +2859,15 @@
     }
   ],
   "stats": {
-    "joined": 18,
+    "joined": 19,
     "pending": 15,
-    "feeds": 621,
+    "feeds": 618,
     "apiProducts": 35239,
-    "programOfferProducts": 8,
-    "totalProducts": 35247,
+    "programOfferProducts": 9,
+    "totalProducts": 35248,
     "apiBanners": 0,
-    "logoBanners": 18,
-    "totalBanners": 24,
+    "logoBanners": 19,
+    "totalBanners": 25,
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
@@ -2822,7 +2894,10 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/124136 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
@@ -2831,16 +2906,13 @@
       "programmedetails/126675 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/126675 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "programmedetails/126675 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
+      "programmedetails/127765 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "[promotions] Fetch error: active/page4: Rate limit exceeded after retries",
       "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
       "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
-      "programmedetails/52135 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/68990 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/127765 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
@@ -2870,7 +2942,8 @@
       "creatives/123892 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/124136 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/125856 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
-      "creatives/126675 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}"
+      "creatives/126675 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/127765 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}"
     ],
     "errors": []
   }
