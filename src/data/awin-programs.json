@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-16T08:42:36.856Z",
+  "syncedAt": "2026-06-17T08:25:57.496Z",
   "programs": [
     {
       "key": "garvee-innovation-inc",
@@ -400,6 +400,131 @@
       "hasCreatives": false,
       "hasLogo": true,
       "productCount": 33,
+      "bannerCount": 0
+    },
+    {
+      "key": "mars-by-ghc",
+      "advertiserId": "80973",
+      "name": "Mars by GHC",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.marsghc.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=80973&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/80973.png",
+      "primarySector": "Health & Beauty",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "marsghc.com"
+        },
+        {
+          "domain": "*.marsghc.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 10,
+          "max": 10,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "162",
+        "approvalPercentage": 95.07,
+        "epc": 0.31,
+        "conversionRate": 6.11,
+        "validationDays": 35,
+        "awinIndex": 65.59
+      },
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=80973&id=2861861",
+      "topicTags": [
+        "partner",
+        "health"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": true,
+      "feedIds": [
+        "93459"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 59,
+      "bannerCount": 0
+    },
+    {
+      "key": "aosu",
+      "advertiserId": "84037",
+      "name": "AOSU",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://www.aosulife.com",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=84037&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/84037.png",
+      "primarySector": "Electronic Accessories",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "www.aosulife.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 5,
+          "max": 8,
+          "type": "percentage"
+        }
+      ],
+      "kpi": {
+        "averagePaymentTime": "78",
+        "approvalPercentage": 100,
+        "epc": 1.33,
+        "conversionRate": 9.02,
+        "validationDays": 48,
+        "awinIndex": 62.15
+      },
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=84037&id=2861861",
+      "topicTags": [
+        "partner",
+        "beds",
+        "gift",
+        "lifestyle"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
       "bannerCount": 0
     },
     {
@@ -933,15 +1058,67 @@
       "bannerCount": 0
     },
     {
+      "key": "alison-us-ca",
+      "advertiserId": "120101",
+      "name": "Alison US CA",
+      "relationship": "joined",
+      "status": "Active",
+      "isActive": true,
+      "displayUrl": "https://alison.com/",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120101&id=2861861",
+      "deeplinkEnabled": false,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120101.png",
+      "primarySector": "Education, Training & Recruitment",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "alison.com"
+        },
+        {
+          "domain": "*.alison.com"
+        }
+      ],
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=120101&id=2861861",
+      "topicTags": [
+        "partner",
+        "training",
+        "gear"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": true,
+      "feedIds": [
+        "111515"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 5594,
+      "bannerCount": 0
+    },
+    {
       "key": "aniwell-us",
       "advertiserId": "123892",
       "name": "Aniwell - US",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "displayUrl": "https://getaniwell.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=123892&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/123892.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -960,22 +1137,9 @@
           "domain": "getaniwell.myshopify.com"
         }
       ],
-      "commissionRange": [
-        {
-          "min": 10,
-          "max": 10,
-          "type": "percentage"
-        }
-      ],
-      "kpi": {
-        "averagePaymentTime": "",
-        "approvalPercentage": 100,
-        "epc": 0.22,
-        "conversionRate": 9.07,
-        "validationDays": 30,
-        "awinIndex": 74.1
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1050,11 +1214,11 @@
       "advertiserId": "125856",
       "name": "Nexbie",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "displayUrl": "https://www.nexbie.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=125856&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/125856.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -1076,9 +1240,15 @@
           "domain": "m.nexbie.com"
         }
       ],
-      "commissionRange": null,
+      "commissionRange": [
+        {
+          "min": 15,
+          "max": 15,
+          "type": "percentage"
+        }
+      ],
       "kpi": null,
-      "linkStatus": "",
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -1106,11 +1276,11 @@
       "advertiserId": "126675",
       "name": "Dextr",
       "relationship": "joined",
-      "status": "Hidden",
-      "isActive": false,
+      "status": "Joined",
+      "isActive": true,
       "displayUrl": "https://dextr.app/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
       "primarySector": "",
       "primaryRegion": {
@@ -1126,15 +1296,79 @@
           "domain": "*.dextr.app"
         }
       ],
-      "commissionRange": null,
+      "commissionRange": [
+        {
+          "min": 0,
+          "max": 10,
+          "type": "amount"
+        }
+      ],
       "kpi": null,
-      "linkStatus": "",
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
       "deeplink": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
       "topicTags": [
         "partner"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "priority": 50,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0
+    },
+    {
+      "key": "celsius-herbs",
+      "advertiserId": "126887",
+      "name": "Celsius Herbs",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "displayUrl": "https://celsiusherbs.com/",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126887&id=2861861",
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126887.png",
+      "primarySector": "Pets & Pet Care",
+      "primaryRegion": {
+        "name": "United States of America",
+        "countryCode": "US"
+      },
+      "currencyCode": "USD",
+      "validDomains": [
+        {
+          "domain": "celsiusherbs.com"
+        },
+        {
+          "domain": "*.celsiusherbs.com"
+        },
+        {
+          "domain": "celsiusherbs.myshopify.com"
+        }
+      ],
+      "commissionRange": [
+        {
+          "min": 20,
+          "max": 20,
+          "type": "percentage"
+        }
+      ],
+      "kpi": null,
+      "linkStatus": "online",
+      "staticProgramId": null,
+      "feedId": null,
+      "configuredDeeplink": "",
+      "deeplink": "https://www.awin1.com/awclick.php?mid=126887&id=2861861",
+      "topicTags": [
+        "partner",
+        "health"
       ],
       "pageTypes": [
         "guide",
@@ -1994,11 +2228,11 @@
       "advertiserId": "122204",
       "name": "Montana Dog Food Co (US)",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "displayUrl": "https://montanadogfoodco.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=122204&id=2861861",
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/122204.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -2017,16 +2251,9 @@
           "domain": "19ac94-10.myshopify.com"
         }
       ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "40",
-        "approvalPercentage": 100,
-        "epc": 0.33,
-        "conversionRate": 8.33,
-        "validationDays": 15,
-        "awinIndex": 83.37
-      },
-      "linkStatus": "online",
+      "commissionRange": null,
+      "kpi": null,
+      "linkStatus": "",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -2213,6 +2440,52 @@
         "working",
         "active",
         "gear"
+      ]
+    },
+    {
+      "key": "mars-by-ghc",
+      "advertiserId": "80973",
+      "name": "Mars by GHC",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "93459"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 59,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/80973.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=80973&id=2861861",
+      "topicTags": [
+        "partner",
+        "health"
+      ]
+    },
+    {
+      "key": "aosu",
+      "advertiserId": "84037",
+      "name": "AOSU",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/84037.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=84037&id=2861861",
+      "topicTags": [
+        "partner",
+        "beds",
+        "gift",
+        "lifestyle"
       ]
     },
     {
@@ -2418,11 +2691,35 @@
       ]
     },
     {
+      "key": "alison-us-ca",
+      "advertiserId": "120101",
+      "name": "Alison US CA",
+      "relationship": "joined",
+      "status": "Active",
+      "isActive": true,
+      "hasProductFeed": true,
+      "feedIds": [
+        "111515"
+      ],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 5594,
+      "bannerCount": 0,
+      "deeplinkEnabled": false,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/120101.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=120101&id=2861861",
+      "topicTags": [
+        "partner",
+        "training",
+        "gear"
+      ]
+    },
+    {
       "key": "aniwell-us",
       "advertiserId": "123892",
       "name": "Aniwell - US",
       "relationship": "joined",
-      "status": "Joined",
+      "status": "Active",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2430,7 +2727,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/123892.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=123892&id=2861861",
       "topicTags": [
@@ -2463,7 +2760,7 @@
       "advertiserId": "125856",
       "name": "Nexbie",
       "relationship": "joined",
-      "status": "Active",
+      "status": "Joined",
       "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2471,7 +2768,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/125856.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=125856&id=2861861",
       "topicTags": [
@@ -2485,19 +2782,40 @@
       "advertiserId": "126675",
       "name": "Dextr",
       "relationship": "joined",
-      "status": "Hidden",
-      "isActive": false,
+      "status": "Joined",
+      "isActive": true,
       "hasProductFeed": false,
       "feedIds": [],
       "hasCreatives": false,
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126675.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126675&id=2861861",
       "topicTags": [
         "partner"
+      ]
+    },
+    {
+      "key": "celsius-herbs",
+      "advertiserId": "126887",
+      "name": "Celsius Herbs",
+      "relationship": "joined",
+      "status": "Joined",
+      "isActive": true,
+      "hasProductFeed": false,
+      "feedIds": [],
+      "hasCreatives": false,
+      "hasLogo": true,
+      "productCount": 0,
+      "bannerCount": 0,
+      "deeplinkEnabled": true,
+      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/126887.png",
+      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=126887&id=2861861",
+      "topicTags": [
+        "partner",
+        "health"
       ]
     },
     {
@@ -2840,7 +3158,7 @@
       "advertiserId": "122204",
       "name": "Montana Dog Food Co (US)",
       "relationship": "pending",
-      "status": "Pending",
+      "status": "Active",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -2848,7 +3166,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": true,
+      "deeplinkEnabled": false,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/122204.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=122204&id=2861861",
       "topicTags": [
@@ -2859,21 +3177,21 @@
     }
   ],
   "stats": {
-    "joined": 19,
+    "joined": 23,
     "pending": 15,
-    "feeds": 618,
-    "apiProducts": 35239,
-    "programOfferProducts": 9,
-    "totalProducts": 35248,
+    "feeds": 621,
+    "apiProducts": 40892,
+    "programOfferProducts": 11,
+    "totalProducts": 40903,
     "apiBanners": 0,
-    "logoBanners": 19,
-    "totalBanners": 25,
+    "logoBanners": 23,
+    "totalBanners": 29,
     "oauthTokenPresent": true,
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
     "feedProductFetchFailures": 0,
-    "feedRowsFetched": 35239,
-    "feedRowsNormalized": 35239,
+    "feedRowsFetched": 40892,
+    "feedRowsNormalized": 40892,
     "feedsWithRowsButZeroProducts": [],
     "experimentalCreativesEnabled": true,
     "warnings": [
@@ -2894,6 +3212,15 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/120101 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/120101 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/120101 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/120101 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "programmedetails/123892 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/123892 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/123892 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "programmedetails/123892 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
@@ -2901,36 +3228,36 @@
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/125856 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "programmedetails/126675 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
-      "programmedetails/127765 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "[promotions] Fetch error: active/page4: Rate limit exceeded after retries",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
+      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
+      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
       "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
-      "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
-      "programmedetails/127765 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "[promotions] Fetch error: upcoming/page2: Rate limit exceeded after retries",
+      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "creatives/52725 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/55213 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/55927 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/57823 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/63546 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/79708 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/80973 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/84037 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/87483 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/87999 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/89689 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
@@ -2939,10 +3266,12 @@
       "creatives/111366 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/113600 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/118951 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/120101 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/123892 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/124136 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/125856 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/126675 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
+      "creatives/126887 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/127765 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}"
     ],
     "errors": []

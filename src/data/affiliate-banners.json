@@ -44,7 +44,7 @@
         "beds"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -75,7 +75,7 @@
         "beds"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -112,7 +112,7 @@
         "recovery"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -148,7 +148,7 @@
         "accessories"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -187,7 +187,7 @@
         "appliances"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -225,7 +225,71 @@
         "gear"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "mars-by-ghc-brand-logo",
+      "programKey": "mars-by-ghc",
+      "advertiserId": "80973",
+      "advertiser": "Mars by GHC",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Mars by GHC brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=80973&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/80973.png",
+      "alt": "Mars by GHC logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner",
+        "health"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "aosu-brand-logo",
+      "programKey": "aosu",
+      "advertiserId": "84037",
+      "advertiser": "AOSU",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "AOSU brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=84037&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/84037.png",
+      "alt": "AOSU logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner",
+        "beds",
+        "gift",
+        "lifestyle"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -255,7 +319,7 @@
         "partner"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -293,7 +357,7 @@
         "safety"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -330,7 +394,7 @@
         "single-protein"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -368,7 +432,7 @@
         "home"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -400,7 +464,7 @@
         "lifestyle"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -432,7 +496,7 @@
         "gear"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -465,7 +529,7 @@
         "health"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -500,7 +564,39 @@
         "fun"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "alison-us-ca-brand-logo",
+      "programKey": "alison-us-ca",
+      "advertiserId": "120101",
+      "advertiser": "Alison US CA",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Alison US CA brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=120101&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/120101.png",
+      "alt": "Alison US CA logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner",
+        "training",
+        "gear"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -531,7 +627,7 @@
         "health"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -561,7 +657,7 @@
         "partner"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -593,7 +689,7 @@
         "lifestyle"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -623,7 +719,38 @@
         "partner"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
+      "imageFit": "contain"
+    },
+    {
+      "id": "celsius-herbs-brand-logo",
+      "programKey": "celsius-herbs",
+      "advertiserId": "126887",
+      "advertiser": "Celsius Herbs",
+      "network": "awin",
+      "enabled": false,
+      "priority": 30,
+      "label": "Celsius Herbs brand logo",
+      "type": "image_link",
+      "href": "https://www.awin1.com/awclick.php?mid=126887&id=2861861",
+      "imageSrc": "https://ui.awin.com/images/upload/merchant/profile/126887.png",
+      "alt": "Celsius Herbs logo",
+      "noteText": "Advertisement / affiliate partner",
+      "placements": [
+        "brand-logo",
+        "pre-footer"
+      ],
+      "pageTypes": [
+        "guide",
+        "breed",
+        "category"
+      ],
+      "topicTags": [
+        "partner",
+        "health"
+      ],
+      "source": "awin-program-logo",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {
@@ -655,7 +782,7 @@
         "gear"
       ],
       "source": "awin-program-logo",
-      "syncedAt": "2026-06-16T08:42:36.674Z",
+      "syncedAt": "2026-06-17T08:25:57.066Z",
       "imageFit": "contain"
     },
     {

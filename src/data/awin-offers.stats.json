@@ -1,17 +1,17 @@
 {
-  "total": 592,
+  "total": 409,
   "enabled": 0,
-  "active": 592,
-  "expiringSoon": 227,
-  "upcoming": 0,
+  "active": 396,
+  "expiringSoon": 190,
+  "upcoming": 13,
   "expired": 0,
-  "promotions": 338,
-  "vouchers": 254,
+  "promotions": 316,
+  "vouchers": 93,
   "withVoucherCode": 0,
-  "withTrackingUrl": 592,
+  "withTrackingUrl": 409,
   "joined": 0,
-  "notJoined": 592,
-  "avgQualityScore": 47,
+  "notJoined": 409,
+  "avgQualityScore": 45,
   "placementCoverage": {
     "home-deal-strip": 0,
     "category-after-intro": 0,
@@ -24,28 +24,28 @@
     "brand-hero": 0,
     "brand-offer-grid": 0
   },
-  "syncedAt": "2026-06-16T08:42:01.326Z",
+  "syncedAt": "2026-06-17T08:25:28.298Z",
   "fetchMeta": {
     "statusBatches": {
       "active": {
-        "pages": 3,
-        "rows": 600
+        "pages": 2,
+        "rows": 400
       },
       "expiringSoon": {
         "pages": 0,
         "rows": 0
       },
       "upcoming": {
-        "pages": 0,
-        "rows": 0
+        "pages": 1,
+        "rows": 13
       }
     },
-    "totalFetched": 600,
+    "totalFetched": 413,
     "totalPages": 3,
     "errors": [
-      "active/page4: Rate limit exceeded after retries",
+      "active/page3: Rate limit exceeded after retries",
       "expiringSoon/page1: Rate limit exceeded after retries",
-      "upcoming/page1: Rate limit exceeded after retries"
+      "upcoming/page2: Rate limit exceeded after retries"
     ]
   }
 }
