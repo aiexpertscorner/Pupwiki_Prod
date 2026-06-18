@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-17T08:25:57.496Z",
+  "syncedAt": "2026-06-18T07:31:00.646Z",
   "programs": [
     {
       "key": "garvee-innovation-inc",
@@ -686,14 +686,14 @@
       ],
       "commissionRange": [
         {
-          "min": 8,
-          "max": 8,
-          "type": "percentage"
-        },
-        {
           "min": 0,
           "max": 0,
           "type": "amount"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "type": "percentage"
         }
       ],
       "kpi": {
@@ -2228,11 +2228,11 @@
       "advertiserId": "122204",
       "name": "Montana Dog Food Co (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "displayUrl": "https://montanadogfoodco.com/",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=122204&id=2861861",
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/122204.png",
       "primarySector": "Pets & Pet Care",
       "primaryRegion": {
@@ -2251,9 +2251,16 @@
           "domain": "19ac94-10.myshopify.com"
         }
       ],
-      "commissionRange": null,
-      "kpi": null,
-      "linkStatus": "",
+      "commissionRange": [],
+      "kpi": {
+        "averagePaymentTime": "40",
+        "approvalPercentage": 100,
+        "epc": 0.33,
+        "conversionRate": 8.33,
+        "validationDays": 15,
+        "awinIndex": 83.37
+      },
+      "linkStatus": "online",
       "staticProgramId": null,
       "feedId": null,
       "configuredDeeplink": "",
@@ -3158,7 +3165,7 @@
       "advertiserId": "122204",
       "name": "Montana Dog Food Co (US)",
       "relationship": "pending",
-      "status": "Active",
+      "status": "Pending",
       "isActive": false,
       "hasProductFeed": false,
       "feedIds": [],
@@ -3166,7 +3173,7 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0,
-      "deeplinkEnabled": false,
+      "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/122204.png",
       "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=122204&id=2861861",
       "topicTags": [
@@ -3179,7 +3186,7 @@
   "stats": {
     "joined": 23,
     "pending": 15,
-    "feeds": 621,
+    "feeds": 620,
     "apiProducts": 40892,
     "programOfferProducts": 11,
     "totalProducts": 40903,
@@ -3224,10 +3231,12 @@
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
+      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
+      "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
+      "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/125856 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
@@ -3243,13 +3252,7 @@
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
-      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
-      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
-      "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
-      "[promotions] Fetch error: upcoming/page2: Rate limit exceeded after retries",
-      "programmedetails/122204 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
+      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "creatives/52725 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/55213 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
       "creatives/55927 -> HTTP 404 — {\"error\":\"exception\",\"description\":\"Not Found (404 NOT_FOUND)\"}",
