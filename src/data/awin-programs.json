@@ -1,7 +1,7 @@
 {
   "publisherId": "2861861",
   "countryCode": "US",
-  "syncedAt": "2026-06-18T07:31:00.646Z",
+  "syncedAt": "2026-06-19T08:28:41.551Z",
   "programs": [
     {
       "key": "garvee-innovation-inc",
@@ -61,7 +61,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 30383,
+      "productCount": 30929,
       "bannerCount": 0
     },
     {
@@ -2222,66 +2222,6 @@
       "hasLogo": true,
       "productCount": 0,
       "bannerCount": 0
-    },
-    {
-      "key": "montana-dog-food-co-us",
-      "advertiserId": "122204",
-      "name": "Montana Dog Food Co (US)",
-      "relationship": "pending",
-      "status": "Pending",
-      "isActive": false,
-      "displayUrl": "https://montanadogfoodco.com/",
-      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=122204&id=2861861",
-      "deeplinkEnabled": true,
-      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/122204.png",
-      "primarySector": "Pets & Pet Care",
-      "primaryRegion": {
-        "name": "United States of America",
-        "countryCode": "US"
-      },
-      "currencyCode": "USD",
-      "validDomains": [
-        {
-          "domain": "montanadogfoodco.com"
-        },
-        {
-          "domain": "*.montanadogfoodco.com"
-        },
-        {
-          "domain": "19ac94-10.myshopify.com"
-        }
-      ],
-      "commissionRange": [],
-      "kpi": {
-        "averagePaymentTime": "40",
-        "approvalPercentage": 100,
-        "epc": 0.33,
-        "conversionRate": 8.33,
-        "validationDays": 15,
-        "awinIndex": 83.37
-      },
-      "linkStatus": "online",
-      "staticProgramId": null,
-      "feedId": null,
-      "configuredDeeplink": "",
-      "deeplink": "https://www.awin1.com/awclick.php?mid=122204&id=2861861",
-      "topicTags": [
-        "partner",
-        "food",
-        "nutrition"
-      ],
-      "pageTypes": [
-        "guide",
-        "breed",
-        "category"
-      ],
-      "priority": 50,
-      "hasProductFeed": false,
-      "feedIds": [],
-      "hasCreatives": false,
-      "hasLogo": true,
-      "productCount": 0,
-      "bannerCount": 0
     }
   ],
   "summary": [
@@ -2298,7 +2238,7 @@
       ],
       "hasCreatives": false,
       "hasLogo": true,
-      "productCount": 30383,
+      "productCount": 30929,
       "bannerCount": 0,
       "deeplinkEnabled": true,
       "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/52725.png",
@@ -3159,37 +3099,15 @@
         "training",
         "gear"
       ]
-    },
-    {
-      "key": "montana-dog-food-co-us",
-      "advertiserId": "122204",
-      "name": "Montana Dog Food Co (US)",
-      "relationship": "pending",
-      "status": "Pending",
-      "isActive": false,
-      "hasProductFeed": false,
-      "feedIds": [],
-      "hasCreatives": false,
-      "hasLogo": true,
-      "productCount": 0,
-      "bannerCount": 0,
-      "deeplinkEnabled": true,
-      "logoUrl": "https://ui.awin.com/images/upload/merchant/profile/122204.png",
-      "clickThroughUrl": "https://www.awin1.com/awclick.php?mid=122204&id=2861861",
-      "topicTags": [
-        "partner",
-        "food",
-        "nutrition"
-      ]
     }
   ],
   "stats": {
     "joined": 23,
-    "pending": 15,
-    "feeds": 620,
-    "apiProducts": 40892,
+    "pending": 14,
+    "feeds": 619,
+    "apiProducts": 41438,
     "programOfferProducts": 11,
-    "totalProducts": 40903,
+    "totalProducts": 41449,
     "apiBanners": 0,
     "logoBanners": 23,
     "totalBanners": 29,
@@ -3197,8 +3115,8 @@
     "productFeedKeyPresent": true,
     "feedListEndpointUsed": "productdata",
     "feedProductFetchFailures": 0,
-    "feedRowsFetched": 40892,
-    "feedRowsNormalized": 40892,
+    "feedRowsFetched": 41438,
+    "feedRowsNormalized": 41438,
     "feedsWithRowsButZeroProducts": [],
     "experimentalCreativesEnabled": true,
     "warnings": [
@@ -3231,13 +3149,12 @@
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 3/4); retrying in 8000ms",
-      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
-      "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
-      "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
       "programmedetails/124136 -> HTTP 429 rate-limited (attempt 4/4); retrying in 16000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 1/4); retrying in 2000ms",
       "programmedetails/125856 -> HTTP 429 rate-limited (attempt 2/4); retrying in 4000ms",
-      "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
+      "[promotions] Fetch error: active/page3: Rate limit exceeded after retries",
+      "[promotions] Fetch error: expiringSoon/page1: Rate limit exceeded after retries",
+      "[promotions] Fetch error: upcoming/page1: Rate limit exceeded after retries",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
       "responseToText: gzip decompression failed (incorrect header check), attempting raw decode",
